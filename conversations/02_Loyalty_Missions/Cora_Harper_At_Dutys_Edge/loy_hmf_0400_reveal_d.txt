@@ -1,13 +1,13 @@
 # Game/Conversations/Loyalty/Loy_HMF/loy_hmf_0400_reveal_d
-# Primary speaker: Squadmate (Human ♀)
+# Primary speaker: Cora Harper
 # Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0400_reveal_d.xml
 ==================================================
 [00009DB9] Narration: The Player finally shuts the generator off. Vederia, Cora, (and Peebee / Jaal if present) relax.
-[0000AF85] Squadmate (Human ♀): That {i}noise{/i}... it's gone.
+[0000AF85] Cora Harper: That {i}noise{/i}... it's gone.
 [0000AF84] Narration: Outside the deck, we see the piece of hull plating detach and float away.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000B68D] Squadmate (Asari / Peebee) ⟨cond⟩: If anyone asks, it was like that when we got here.
+    [0000B68D] Peebee ⟨cond⟩: If anyone asks, it was like that when we got here.
     [0000AF86] Hmf Cpt Atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
@@ -18,7 +18,7 @@
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             [00024251] Ryder: We'll keep an eye on that hull breach, just in case.
-            [0002425C] Squadmate (Human ♀): Sarissa should be proud, Vederia. You'll be one hell of a commando.
+            [0002425C] Cora Harper: Sarissa should be proud, Vederia. You'll be one hell of a commando.
             [00024271] Hmf Vederia: You'd know, Lieutenant. Thank you, for everything. Goddess guide you.
             [00024272] Narration: Vederia leaves. She doesn't hear what comes next.
             [0000AF8F] SAM: Pathfinder, restoring power has freed up a data cache. It includes the succession log from Matriarch Ishara.
@@ -33,13 +33,13 @@
             [0000B129] Narration: There's the sound of kett gunfire.
             [0000B133] Hmf Cmdr Sarissa: [Comm] Forgive me.
             [0000B127] Narration: The audio log ends. Cora looks stunned.
-            [0000B12C] Squadmate (Human ♀): "Tiamna" used to mean "guardian of temples." A champion who stayed faithful even when all was lost.
-            [0000B12B] Squadmate (Human ♀): Sarissa left her to die.
+            [0000B12C] Cora Harper: "Tiamna" used to mean "guardian of temples." A champion who stayed faithful even when all was lost.
+            [0000B12B] Cora Harper: Sarissa left her to die.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 [0000B130] Ryder: What good is a guardian who doesn't defend her Pathfinder when it matters?
-                [0000B674] Squadmate (Human ♀): After everything she wrote on duty, sacrifice...
-                [0000B204] Squadmate (Human ♀): Damn it all, Ryder. What do I do?
+                [0000B674] Cora Harper: After everything she wrote on duty, sacrifice...
+                [0000B204] Cora Harper: Damn it all, Ryder. What do I do?
                 [0000B681] Ryder: First, we—
                 [0000B213] Narration: As Ryder starts to speak, alarms blare and the comm comes to life.
                 [0000B217] Narration: Outside the window, kett ships approach the vacuum deck.
@@ -49,12 +49,12 @@
                 [00027369] Ryder: Helmets on, people!
             ├ option 2:
                 [0000B132] Ryder: Sarissa was forced to choose between her Pathfinder and her ark. She made the right call.
-                [0000B676] Squadmate (Human ♀): Look around. Does this look like a right call? I...
-                ↩ (goto) [0000B204] Squadmate (Human ♀): Damn it all, Ryder. What do I do?
+                [0000B676] Cora Harper: Look around. Does this look like a right call? I...
+                ↩ (goto) [0000B204] Cora Harper: Damn it all, Ryder. What do I do?
             └─ merge ─┘
         ├ option 2:
             [00024250] Ryder: You helped save this whole ark. Not bad for your first big mission.
-            ↩ (goto) [0002425C] Squadmate (Human ♀): Sarissa should be proud, Vederia. You'll be one hell of a commando.
+            ↩ (goto) [0002425C] Cora Harper: Sarissa should be proud, Vederia. You'll be one hell of a commando.
         └─ merge ─┘
     ├ option 2:
         [0000B13E] Ryder: Can we still go to FTL if there's, say, a big hull breach down here?
@@ -62,13 +62,13 @@
         ↩ (goto) [00024252] Hmf Cmdr Sarissa: [Comm] Sarissa here. Superb work, all of you. We're almost home.
     └─ merge ─┘
 ├ option 2:
-    [00027215] Squadmate (Turian / Vetra) ⟨cond⟩: Uh, that's what we wanted, right?
+    [00027215] Vetra ⟨cond⟩: Uh, that's what we wanted, right?
     ↩ (goto) [0000AF86] Hmf Cpt Atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
 ├ option 3:
-    [0000B68E] Squadmate (Krogan / Drack) ⟨cond⟩: Crappy asari hulls. One bombardment and there they go.
+    [0000B68E] Drack ⟨cond⟩: Crappy asari hulls. One bombardment and there they go.
     ↩ (goto) [0000AF86] Hmf Cpt Atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
 ├ option 4:
-    [0000B690] Squadmate (Human ♂) ⟨cond⟩: Well, I guess it's just dead weight...
+    [0000B690] Liam Kosta ⟨cond⟩: Well, I guess it's just dead weight...
     ↩ (goto) [0000AF86] Hmf Cpt Atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
 ├ option 5:
     [0000AF83] Ryder: Uh. We've got spare parts at the Nexus, right?

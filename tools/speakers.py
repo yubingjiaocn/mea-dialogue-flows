@@ -21,12 +21,12 @@ EXACT = {
 
 # ② 泛指队友(按种族) / 船员岗位 — 用描述性名字
 GENERIC = {
-    "global_squad_male_human": "Squadmate (Human ♂)",
-    "global_squad_female_human": "Squadmate (Human ♀)",
-    "global_squad_asari": "Squadmate (Asari / Peebee)",
-    "global_squad_angara": "Squadmate (Angara / Jaal)",
-    "global_squad_krogan": "Squadmate (Krogan / Drack)",
-    "global_squad_turian": "Squadmate (Turian / Vetra)",
+    "global_squad_male_human": "Liam Kosta",
+    "global_squad_female_human": "Cora Harper",
+    "global_squad_asari": "Peebee",
+    "global_squad_angara": "Jaal",
+    "global_squad_krogan": "Drack",
+    "global_squad_turian": "Vetra",
     "global_crew_co-pilot": "Kallo (Co-pilot)",
     "global_crew_science_officer": "Suvi (Science Officer)",
     "global_crew_tech_officer": "Gil (Tech Officer)",

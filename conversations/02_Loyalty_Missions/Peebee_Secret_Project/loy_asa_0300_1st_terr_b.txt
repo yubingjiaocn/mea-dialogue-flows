@@ -3,41 +3,41 @@
 # Source: game/conversations/Loyalty/loy_asa/loy_asa_0300_1st_terr_b.xml
 ==================================================
 [0001A31D] SAM: Pathfinder, Kallo reports finding no safe area to land. Retrieval may be impossible.
-[0001A31C] Squadmate (Asari / Peebee): Uh, oops?
+[0001A31C] Peebee: Uh, oops?
 [0001A31B] SAM: He has detected a few smaller vessels making their way to the surface, however.
 [0001A312] Ryder: Friend or foe?
 [0001A30D] SAM: Unknown.
-[0001C0A7] Squadmate (Asari / Peebee): Uh-oh, I know that shuttle...
+[0001C0A7] Peebee: Uh-oh, I know that shuttle...
 [0001C0A5] Kalinda: [Comm] Pelessaria, are you tracking that sweet signal too?
-[0001C0A6] Squadmate (Asari / Peebee): Ugh, Kalinda. Back off—it's mine.
+[0001C0A6] Peebee: Ugh, Kalinda. Back off—it's mine.
 [0001CC0C] Kalinda: [Comm] {i}(Laughs.){/i}
-[0001CC0B] Squadmate (Asari / Peebee): Let's hurry. We have to get to the signal source before Kalinda.
+[0001CC0B] Peebee: Let's hurry. We have to get to the signal source before Kalinda.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002AAC2] Squadmate (Asari / Peebee) [OncePerGame]: Are we going to stand up here all day?
+    [0002AAC2] Peebee [OncePerGame]: Are we going to stand up here all day?
 ├ option 2:
-    [0002AABB] Squadmate (Asari / Peebee) [OncePerGame]: Let's move, huh?
+    [0002AABB] Peebee [OncePerGame]: Let's move, huh?
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002AAB5] Squadmate (Human ♀) ⟨cond⟩: Observers making rounds.
+    [0002AAB5] Cora Harper ⟨cond⟩: Observers making rounds.
     [0002AAB4] SAM: Fully programmed and deployed bots will still react to you as an enemy.
-    [0002AABF] Squadmate (Asari / Peebee): Another gate ahead. Steer clear of the bots, maybe they'll leave us alone.
+    [0002AABF] Peebee: Another gate ahead. Steer clear of the bots, maybe they'll leave us alone.
 ├ option 2:
-    [0002AAC5] Squadmate (Angara / Jaal) ⟨cond⟩: Active Observers.
+    [0002AAC5] Jaal ⟨cond⟩: Active Observers.
     ↩ (goto) [0002AAB4] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 3:
-    [0002AABC] Squadmate (Krogan / Drack) ⟨cond⟩: More Observers.
+    [0002AABC] Drack ⟨cond⟩: More Observers.
     ↩ (goto) [0002AAB4] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 4:
-    [0002AAC0] Squadmate (Human ♂) ⟨cond⟩: Active Observers.
+    [0002AAC0] Liam Kosta ⟨cond⟩: Active Observers.
     ↩ (goto) [0002AAB4] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 5:
-    [0002AABA] Squadmate (Turian / Vetra) ⟨cond⟩: Observers on patrol.
+    [0002AABA] Vetra ⟨cond⟩: Observers on patrol.
     ↩ (goto) [0002AAB4] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 └─ merge ─┘
 [00030488] SAM: You'll have to find the gate controls.
-[0002AAB7] Squadmate (Asari / Peebee): There's the gate. Look for a console.
+[0002AAB7] Peebee: There's the gate. Look for a console.
 [0002AAC3] SAM: Pathfinder, this console controls the gate.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
@@ -47,73 +47,73 @@
     ↩ (goto) [00034FB6] SAM: [empty]
 └─ merge ─┘
 [0002AAC9] Ryder: Let's clear them out.
-[0002B205] Squadmate (Asari / Peebee): Good. The gate's starting to open.
+[0002B205] Peebee: Good. The gate's starting to open.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002B207] Squadmate (Asari / Peebee): But we need to take out these Remnant first!
+    [0002B207] Peebee: But we need to take out these Remnant first!
 ├ option 2:
     [0002B20C] Ryder: And SAM's always right—Observers inbound!
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002B210] Squadmate (Human ♀) ⟨cond⟩: More hostiles!
+    [0002B210] Cora Harper ⟨cond⟩: More hostiles!
 ├ option 2:
-    [0002B214] Squadmate (Angara / Jaal) ⟨cond⟩: Reinforcements!
+    [0002B214] Jaal ⟨cond⟩: Reinforcements!
 ├ option 3:
-    [0002B212] Squadmate (Krogan / Drack) ⟨cond⟩: Bots brought friends!
+    [0002B212] Drack ⟨cond⟩: Bots brought friends!
 ├ option 4:
-    [0002B20D] Squadmate (Human ♂) ⟨cond⟩: More incoming!
+    [0002B20D] Liam Kosta ⟨cond⟩: More incoming!
 ├ option 5:
-    [0002B20B] Squadmate (Turian / Vetra) ⟨cond⟩: The party just got bigger!
+    [0002B20B] Vetra ⟨cond⟩: The party just got bigger!
 └─ merge ─┘
 [0002B211] Ryder: All clear.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002B20E] Squadmate (Asari / Peebee): Gate's down—let's go.
+        [0002B20E] Peebee: Gate's down—let's go.
     ├ option 2:
-        [0002C206] Squadmate (Asari / Peebee): All right, let's use that console and get this gate out of the way.
+        [0002C206] Peebee: All right, let's use that console and get this gate out of the way.
     └─ merge ─┘
 ├ option 2:
-    [0002B208] Squadmate (Asari / Peebee): All right, now let's find some way to open that gate.
+    [0002B208] Peebee: All right, now let's find some way to open that gate.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0002C221] Kalinda: [Comm] Ah, thank you, Ryder. You opened a gate up here, too. Come on, boys—we're in.
     [0002C220] Ryder: She must be on a ridge above us.
-    [0001C0A9] Squadmate (Asari / Peebee): Shit shit shit.
+    [0001C0A9] Peebee: Shit shit shit.
 ├ option 2:
     [0001A398] Kalinda: [Comm] Ah, thank you, Ryder. You just opened the way for me. Come on, boys—we're in!
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002AAC4] Squadmate (Asari / Peebee) [OncePerGame]: Let's keep moving.
+    [0002AAC4] Peebee [OncePerGame]: Let's keep moving.
 ├ option 2:
-    [0002AACA] Squadmate (Asari / Peebee) [OncePerGame]: Come on—we can't let Kalinda trump us.
+    [0002AACA] Peebee [OncePerGame]: Come on—we can't let Kalinda trump us.
 ├ option 3:
-    [0002AABD] Squadmate (Asari / Peebee) [OncePerGame]: We can't dawdle, Ryder.
+    [0002AABD] Peebee [OncePerGame]: We can't dawdle, Ryder.
 └─ merge ─┘
-[0001CC0D] Squadmate (Asari / Peebee): Let's get going. Kalinda is out there somewhere.
+[0001CC0D] Peebee: Let's get going. Kalinda is out there somewhere.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
     [0001A317] Ryder: Concentrate on the Assemblers.
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0001A311] Squadmate (Human ♀) ⟨cond⟩: The Assemblers are activating more Observers!
+        [0001A311] Cora Harper ⟨cond⟩: The Assemblers are activating more Observers!
         [0001A30E] Ryder: Take them out!
     ├ option 2:
-        [0001A31A] Squadmate (Human ♂) ⟨cond⟩: The Assemblers are activating more Observers!
+        [0001A31A] Liam Kosta ⟨cond⟩: The Assemblers are activating more Observers!
         ↩ (goto) [0001A30E] Ryder: Take them out!
     ├ option 3:
-        [0001A315] Squadmate (Turian / Vetra) ⟨cond⟩: The Assemblers are activating more Observers!
+        [0001A315] Vetra ⟨cond⟩: The Assemblers are activating more Observers!
         ↩ (goto) [0001A30E] Ryder: Take them out!
     ├ option 4:
-        [0001A316] Squadmate (Krogan / Drack) ⟨cond⟩: The Assemblers are activating more Observers!
+        [0001A316] Drack ⟨cond⟩: The Assemblers are activating more Observers!
         ↩ (goto) [0001A30E] Ryder: Take them out!
     ├ option 5:
-        [0001A319] Squadmate (Angara / Jaal) ⟨cond⟩: The Assemblers are activating more Observers!
+        [0001A319] Jaal ⟨cond⟩: The Assemblers are activating more Observers!
         ↩ (goto) [0001A30E] Ryder: Take them out!
     └─ merge ─┘
 ├ option 3:
@@ -123,6 +123,6 @@
 ├ option 5:
     [0001BDF3] SAM: This console is inert. It will have to be reengaged later.
 ├ option 6:
-    [0001A314] Squadmate (Asari / Peebee): Of course, active Remnant in the way. Not much cover.
+    [0001A314] Peebee: Of course, active Remnant in the way. Not much cover.
     [0001B795] Ryder: Maybe I can make some.
 └─ merge ─┘

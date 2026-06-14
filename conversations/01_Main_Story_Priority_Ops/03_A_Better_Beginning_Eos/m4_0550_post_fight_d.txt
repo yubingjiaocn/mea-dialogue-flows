@@ -6,7 +6,7 @@
 [0001A3D7] SAM: They are scheduled for exaltation.
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    [0000D0BA] Squadmate (Krogan / Drack) ⟨cond⟩: Damn. Could be the rest of my missing scouts.
+    [0000D0BA] Drack ⟨cond⟩: Damn. Could be the rest of my missing scouts.
     [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
     [0000D0CC] SAM: If you act quickly.
     [0000D0DC] Narration: They start to go but then Raeka unexpectedly comes through on Ryder's omni-tool.
@@ -20,14 +20,14 @@
     [00019E58] SAM: There isn't time to save both. Once the kett restore power, you'll be trapped.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0002A8A4] Squadmate (Krogan / Drack) ⟨cond⟩: Ryder, my scouts...
+        [0002A8A4] Drack ⟨cond⟩: Ryder, my scouts...
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             [0000D0CF] Ryder: Reload. We're going after Raeka.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 [0000D0CA] Ryder ⟨cond⟩: Drack, I'm sorry.
-                [0000D0CD] Squadmate (Krogan / Drack): {i}(Grumbles.){/i}
+                [0000D0CD] Drack: {i}(Grumbles.){/i}
                 [0000D0D7] Narration: Ryder leads the team out with grim determination.
             ├ option 2:
                 ↩ (goto) [0000D0D7] Narration: Ryder leads the team out with grim determination.
@@ -36,42 +36,42 @@
             [0000D0B9] Ryder: Reload. We've got to save those krogan from exaltation.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002A9BE] Squadmate (Krogan / Drack) ⟨cond⟩: Damn right, we do.
+                [0002A9BE] Drack ⟨cond⟩: Damn right, we do.
                 ↩ (goto) [0000D0D7] Narration: Ryder leads the team out with grim determination.
             ├ option 2:
                 ↩ (goto) [0000D0D7] Narration: Ryder leads the team out with grim determination.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0002A8A7] Squadmate (Turian / Vetra) ⟨cond⟩: This is our only chance to save Drack's scouts. They'll be turned into more of those... monsters.
-        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
+        [0002A8A7] Vetra ⟨cond⟩: This is our only chance to save Drack's scouts. They'll be turned into more of those... monsters.
+        ↩ (goto) [0002A8A6] Drack: [empty]
     ├ option 3:
-        [0002A8A9] Squadmate (Angara / Jaal) ⟨cond⟩: This is the last chance for Drack's scouts. The Archon will turn them into monsters.
-        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
+        [0002A8A9] Jaal ⟨cond⟩: This is the last chance for Drack's scouts. The Archon will turn them into monsters.
+        ↩ (goto) [0002A8A6] Drack: [empty]
     ├ option 4:
-        [0002A8A8] Squadmate (Asari / Peebee) ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
-        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
+        [0002A8A8] Peebee ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
+        ↩ (goto) [0002A8A6] Drack: [empty]
     ├ option 5:
-        [0002A8A5] Squadmate (Human ♂) ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. He'll turn them into monsters.
-        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
+        [0002A8A5] Liam Kosta ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. He'll turn them into monsters.
+        ↩ (goto) [0002A8A6] Drack: [empty]
     ├ option 6:
-        [0002A8A3] Squadmate (Human ♀) ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
-        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
+        [0002A8A3] Cora Harper ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
+        ↩ (goto) [0002A8A6] Drack: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0000D0C4] Squadmate (Turian / Vetra) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    [0000D0C4] Vetra ⟨cond⟩: Could be the rest of Drack's missing scouts.
     ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 3:
-    [0000D0D1] Squadmate (Angara / Jaal) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    [0000D0D1] Jaal ⟨cond⟩: Could be the rest of Drack's missing scouts.
     ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 4:
-    [0000D0D8] Squadmate (Asari / Peebee) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    [0000D0D8] Peebee ⟨cond⟩: Could be the rest of Drack's missing scouts.
     ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 5:
-    [0000D0E7] Squadmate (Human ♂) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    [0000D0E7] Liam Kosta ⟨cond⟩: Could be the rest of Drack's missing scouts.
     ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 6:
-    [0000D0BB] Squadmate (Human ♀) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    [0000D0BB] Cora Harper ⟨cond⟩: Could be the rest of Drack's missing scouts.
     ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 7:
     ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?

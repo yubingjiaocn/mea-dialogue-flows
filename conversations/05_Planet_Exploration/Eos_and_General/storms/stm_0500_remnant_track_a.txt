@@ -6,11 +6,11 @@
 [000254A9] Ryder: The clear zone's centered on that structure. Like it's blocking out the weather.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000254AD] Squadmate (Human ♀) ⟨cond⟩: Wow. So we're on the right track?
+    [000254AD] Cora Harper ⟨cond⟩: Wow. So we're on the right track?
 ├ option 2:
-    [000254AE] Squadmate (Turian / Vetra) ⟨cond⟩: That's a good sign, right?
+    [000254AE] Vetra ⟨cond⟩: That's a good sign, right?
 ├ option 3:
-    [000254AC] Squadmate (Human ♂) ⟨cond⟩: That's... wow. Maybe this tech really can help Eos.
+    [000254AC] Liam Kosta ⟨cond⟩: That's... wow. Maybe this tech really can help Eos.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
@@ -21,13 +21,13 @@
         ├ option 1:
             [0001AD63] Ryder ⟨cond⟩: And thanks to the vault, it changed the world.
         ├ option 2:
-            [000147DF] Squadmate (Human ♀) ⟨cond⟩: But can it really help Eos?
+            [000147DF] Cora Harper ⟨cond⟩: But can it really help Eos?
             [000147E0] Ryder: {i}We{/i} can. We have to.
         ├ option 3:
-            [000147DC] Squadmate (Human ♂) ⟨cond⟩: But can it truly help Eos?
+            [000147DC] Liam Kosta ⟨cond⟩: But can it truly help Eos?
             ↩ (goto) [000147E0] Ryder: {i}We{/i} can. We have to.
         ├ option 4:
-            [000147DD] Squadmate (Turian / Vetra) ⟨cond⟩: Eos isn't 7. Maybe this tech isn't gonna help.
+            [000147DD] Vetra ⟨cond⟩: Eos isn't 7. Maybe this tech isn't gonna help.
             ↩ (goto) [000147E0] Ryder: {i}We{/i} can. We have to.
         └─ merge ─┘
     ├ option 2:
@@ -54,7 +54,7 @@
     ↩ (goto) [00013F06] SAM: [empty]
 ├ option 3:
     [0001A82F] Ryder: Peebee's tech, looks like.
-    [0001AE87] Squadmate (Asari / Peebee) ⟨cond⟩: Ugh, my early work was embarrassing. So literally yesterday.
+    [0001AE87] Peebee ⟨cond⟩: Ugh, my early work was embarrassing. So literally yesterday.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
@@ -66,15 +66,15 @@
 [00013F05] Ryder: If this stuff can change worlds, we don't want the kett to have it.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [000147E4] Squadmate (Human ♀) ⟨cond⟩: We can't afford another Habitat 7
+    [000147E4] Cora Harper ⟨cond⟩: We can't afford another Habitat 7
 ├ option 2:
-    [000147E5] Squadmate (Human ♂) ⟨cond⟩: I'm not putting anyone through a Habitat 7
+    [000147E5] Liam Kosta ⟨cond⟩: I'm not putting anyone through a Habitat 7
     ↩ (goto) [00013F00] SAM: [empty]
 ├ option 3:
-    [000147E3] Squadmate (Turian / Vetra) ⟨cond⟩: Yeah. Let's not make another Habitat 7.
+    [000147E3] Vetra ⟨cond⟩: Yeah. Let's not make another Habitat 7.
     ↩ (goto) [00013F00] SAM: [empty]
 ├ option 4:
-    [000147E2] Squadmate (Krogan / Drack) ⟨cond⟩: Heard about Habitat 7. Don't want that here.
+    [000147E2] Drack ⟨cond⟩: Heard about Habitat 7. Don't want that here.
     ↩ (goto) [00013F00] SAM: [empty]
 └─ merge ─┘
 [000254B6] Ryder: Got it. Signal's coming from that structure up ahead.
@@ -82,12 +82,12 @@
 ├ option 1:
     [00025507] Ryder: Done! The monoliths are online and connected, to... something in the lake?
     [0002550B] Ryder: This could be the master switch we're looking for.
-    [00025509] Squadmate (Asari / Peebee): [Comm] I'll meet you there. Don't do anything without me!
+    [00025509] Peebee: [Comm] I'll meet you there. Don't do anything without me!
 ├ option 2:
-    [00013ED5] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] That did... whatever that did. I see pathways lighting up all over.
-    [0002550E] Squadmate (Asari / Peebee): [Comm] The monoliths are resonating. QEC contact?
+    [00013ED5] Peebee [OncePerGame]: [Comm] That did... whatever that did. I see pathways lighting up all over.
+    [0002550E] Peebee: [Comm] The monoliths are resonating. QEC contact?
     [0002552B] Ryder: Well, whatever's happening, they're definitely connecting.
-    [0002552C] Squadmate (Asari / Peebee): [Comm] You did good. Keep doing more.
+    [0002552C] Peebee: [Comm] You did good. Keep doing more.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
@@ -97,9 +97,9 @@
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000264FB] Squadmate (Asari / Peebee): [Comm] The Site 1 folks were interested in the monoliths, too.
+    [000264FB] Peebee: [Comm] The Site 1 folks were interested in the monoliths, too.
     [000264FA] Ryder: Did they learn anything?
-    [0002650E] Squadmate (Asari / Peebee): [Comm] Mostly what you learn the hard way. But hey—now you're here.
+    [0002650E] Peebee: [Comm] Mostly what you learn the hard way. But hey—now you're here.
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
@@ -116,7 +116,7 @@
 [0002944E] Ryder: The kett made themselves at home.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00029450] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] Hmph.
+    [00029450] Peebee ⟨cond⟩: [Comm] Hmph.
     [0002944F] Ryder: All this research. I wonder what they learned.
 ├ option 2:
     ↩ (goto) [0002944F] Ryder: All this research. I wonder what they learned.
@@ -132,11 +132,11 @@
     [00025508] Ryder: Look there—coming out of the lake!
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002550D] Squadmate (Human ♀) ⟨cond⟩: The tech's underground, too? Let's see.
+        [0002550D] Cora Harper ⟨cond⟩: The tech's underground, too? Let's see.
     ├ option 2:
-        [00025510] Squadmate (Human ♂) ⟨cond⟩: Oh, wow. What did we do?
+        [00025510] Liam Kosta ⟨cond⟩: Oh, wow. What did we do?
     ├ option 3:
-        [0002550C] Squadmate (Turian / Vetra) ⟨cond⟩: Let's get a closer look!
+        [0002550C] Vetra ⟨cond⟩: Let's get a closer look!
     └─ merge ─┘
 ├ option 2:
     ↩ (goto) [000142D8] SAM: [empty]
@@ -144,124 +144,124 @@
 [000255E2] Ryder: Whoa, it's... forming a bridge.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [000255E0] Squadmate (Human ♀) ⟨cond⟩: Looks solid. If not, prepare to swim.
+    [000255E0] Cora Harper ⟨cond⟩: Looks solid. If not, prepare to swim.
 ├ option 2:
-    [000255E1] Squadmate (Human ♂) ⟨cond⟩: Let's find out how solid it is.
+    [000255E1] Liam Kosta ⟨cond⟩: Let's find out how solid it is.
 ├ option 3:
-    [000255E3] Squadmate (Turian / Vetra) ⟨cond⟩: Like an invitation. Hope it's safe.
+    [000255E3] Vetra ⟨cond⟩: Like an invitation. Hope it's safe.
 ├ option 4:
-    [000255E4] Squadmate (Krogan / Drack) ⟨cond⟩: Hope it can take everyone's weight.
+    [000255E4] Drack ⟨cond⟩: Hope it can take everyone's weight.
 └─ merge ─┘
 [000255AB] Ryder: It's opening up.
-[000255AA] Squadmate (Asari / Peebee): [Comm] I see a door! Come on!
+[000255AA] Peebee: [Comm] I see a door! Come on!
 ┌─ BRANCH (10) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001B046] Squadmate (Asari / Peebee): [Comm] See the Remnant tower? Kett were fighting Assemblers there, so watch out.
-        [0001B133] Squadmate (Asari / Peebee): [Comm] I call the stocky Remnant "Assemblers," by the way.
+        [0001B046] Peebee: [Comm] See the Remnant tower? Kett were fighting Assemblers there, so watch out.
+        [0001B133] Peebee: [Comm] I call the stocky Remnant "Assemblers," by the way.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00013EDB] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
+            [00013EDB] Peebee [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001B139] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] I couldn't get them to react. But you can, Mister Glyph.
+                [0001B139] Peebee ⟨cond⟩: [Comm] I couldn't get them to react. But you can, Mister Glyph.
             ├ option 2:
-                [000147E7] Squadmate (Asari / Peebee): [Comm] I couldn't get them to react. But you can, Miss Glyph.
-                ↩ (goto) [0001B160] Squadmate (Asari / Peebee): [empty]
+                [000147E7] Peebee: [Comm] I couldn't get them to react. But you can, Miss Glyph.
+                ↩ (goto) [0001B160] Peebee: [empty]
             └─ merge ─┘
         ├ option 2:
-            [00013ED9] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
-            [000147EB] Squadmate (Asari / Peebee): [Comm] You glyph all of them, and you'll have your processors. And who knows what else!
+            [00013ED9] Peebee [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
+            [000147EB] Peebee: [Comm] You glyph all of them, and you'll have your processors. And who knows what else!
         ├ option 3:
-            [00013EDC] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
-            [0001B140] Squadmate (Asari / Peebee): [Comm] Obvious coordination between the three of them. Can't wait to see what you trigger.
+            [00013EDC] Peebee [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
+            [0001B140] Peebee: [Comm] Obvious coordination between the three of them. Can't wait to see what you trigger.
         └─ merge ─┘
     ├ option 2:
         ↩ (goto) [000142D8] SAM: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0001AE2F] Squadmate (Asari / Peebee): Keep going. It's a long way to the really {i}big{/i} things.
+    [0001AE2F] Peebee: Keep going. It's a long way to the really {i}big{/i} things.
     [0001AE2D] Ryder: Any details, Peebee?
-    [0001AE2E] Squadmate (Asari / Peebee): We knew there were structures above and below ground, but they never did anything. Until you.
-    [0001AE8D] Squadmate (Asari / Peebee): I bet you can glyph them. So I'm sending you to something... monolithic.
+    [0001AE2E] Peebee: We knew there were structures above and below ground, but they never did anything. Until you.
+    [0001AE8D] Peebee: I bet you can glyph them. So I'm sending you to something... monolithic.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001AE8E] Squadmate (Human ♀) ⟨cond⟩: Well, at least it's a direction.
+        [0001AE8E] Cora Harper ⟨cond⟩: Well, at least it's a direction.
     ├ option 2:
-        [0001AE8F] Squadmate (Human ♂) ⟨cond⟩: Mad geniuses are my least favorite kind of genius.
+        [0001AE8F] Liam Kosta ⟨cond⟩: Mad geniuses are my least favorite kind of genius.
     ├ option 3:
-        [0001AE8C] Squadmate (Turian / Vetra) ⟨cond⟩: What is she chattering about?
+        [0001AE8C] Vetra ⟨cond⟩: What is she chattering about?
     └─ merge ─┘
 ├ option 3:
     [00013EFE] Ryder: Kett ahead. They're looking at the alien tech, too.
 ├ option 4:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001B049] Squadmate (Asari / Peebee): [Comm] See that big Remnant structure? Outpost guys named the whole region after that.
-        [0001B15F] Squadmate (Asari / Peebee): [Comm] Never liked "spire."
+        [0001B049] Peebee: [Comm] See that big Remnant structure? Outpost guys named the whole region after that.
+        [0001B15F] Peebee: [Comm] Never liked "spire."
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) [00013EDB] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
+            ↩ (goto) [00013EDB] Peebee [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
         ├ option 2:
-            ↩ (goto) [00013ED9] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
+            ↩ (goto) [00013ED9] Peebee [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
         ├ option 3:
-            ↩ (goto) [00013EDC] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
+            ↩ (goto) [00013EDC] Peebee [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
         └─ merge ─┘
     ├ option 2:
         ↩ (goto) [000142D8] SAM: [empty]
     └─ merge ─┘
 ├ option 5:
-    [0001B04A] Squadmate (Asari / Peebee): [Comm] See that Remnant structure up the Sheartop? I don't go there. You'll see why.
-    [000147E8] Squadmate (Asari / Peebee): [Comm] Watch out for the flying wigglies. I call them "Observers." They stare.
+    [0001B04A] Peebee: [Comm] See that Remnant structure up the Sheartop? I don't go there. You'll see why.
+    [000147E8] Peebee: [Comm] Watch out for the flying wigglies. I call them "Observers." They stare.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [00013EDB] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
+        ↩ (goto) [00013EDB] Peebee [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
     ├ option 2:
-        ↩ (goto) [00013ED9] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
+        ↩ (goto) [00013ED9] Peebee [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
     ├ option 3:
-        ↩ (goto) [00013EDC] Squadmate (Asari / Peebee) [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
+        ↩ (goto) [00013EDC] Peebee [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
     └─ merge ─┘
 ├ option 6:
-    [00013ED3] Squadmate (Asari / Peebee): [Comm] Pathfinder, the scope of this activation is... global. You are literally seismic right now.
+    [00013ED3] Peebee: [Comm] Pathfinder, the scope of this activation is... global. You are literally seismic right now.
     [00014804] SAM: That doesn't seem accurate.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00014806] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] Can it, SM. I'm talking to the World-Changer. One more tower to go!
+        [00014806] Peebee ⟨cond⟩: [Comm] Can it, SM. I'm talking to the World-Changer. One more tower to go!
         [0001B147] Ryder: One step closer to an outpost.
     ├ option 2:
-        [0001CF23] Squadmate (Asari / Peebee): [Comm] Can it, SM. I'm talking to the World-Changer. One more tower to go!
+        [0001CF23] Peebee: [Comm] Can it, SM. I'm talking to the World-Changer. One more tower to go!
         ↩ (goto) [0001B147] Ryder: One step closer to an outpost.
     └─ merge ─┘
 ├ option 7:
     [00014803] Ryder: Will it change the atmosphere like Habitat 7?
-    [00014802] Squadmate (Asari / Peebee): [Comm] The output of these things, they could do everything but planetary volleyball.
-    [00014801] Squadmate (Asari / Peebee): [Comm] You keep this up, you'll get your processors. Or shear the planet in half. Imagine either!
+    [00014802] Peebee: [Comm] The output of these things, they could do everything but planetary volleyball.
+    [00014801] Peebee: [Comm] You keep this up, you'll get your processors. Or shear the planet in half. Imagine either!
 ├ option 8:
-    [00013ECB] Squadmate (Asari / Peebee): [Comm] You did it! All three monoliths! Could you tell I was going to call them that? They stand alone... in threes...
+    [00013ECB] Peebee: [Comm] You did it! All three monoliths! Could you tell I was going to call them that? They stand alone... in threes...
     [000147D7] SAM: Updating databases for terminology streamlining.
     [000147D6] Ryder: SAM, that's not how we do it!
-    [000147D8] Squadmate (Asari / Peebee): [Comm] SAM? That's better than "SM." There, you named something, too!
-    [0001B638] Squadmate (Asari / Peebee): [Comm] Now, the {i}monoliths{/i} have opened something central! Race you there!
+    [000147D8] Peebee: [Comm] SAM? That's better than "SM." There, you named something, too!
+    [0001B638] Peebee: [Comm] Now, the {i}monoliths{/i} have opened something central! Race you there!
 ├ option 9:
     [00013EF2] Ryder: Peebee, there's a central structure that wasn't accessible before.
     [0001B148] Ryder: Peebee?
-    [000147DA] Squadmate (Asari / Peebee): [Comm] The potential of this discovery is so beautiful, your entire team is more attractive for revealing it.
+    [000147DA] Peebee: [Comm] The potential of this discovery is so beautiful, your entire team is more attractive for revealing it.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [00013EF6] Squadmate (Krogan / Drack) ⟨cond⟩: {i}More{/i} attractive?
+        [00013EF6] Drack ⟨cond⟩: {i}More{/i} attractive?
     ├ option 2:
-        [0001B17B] Squadmate (Human ♀) ⟨cond⟩: Stay focused, please.
+        [0001B17B] Cora Harper ⟨cond⟩: Stay focused, please.
     ├ option 3:
-        [0001B17C] Squadmate (Human ♂) ⟨cond⟩: Well, that was backhanded.
+        [0001B17C] Liam Kosta ⟨cond⟩: Well, that was backhanded.
     ├ option 4:
-        [0001B17D] Squadmate (Turian / Vetra) ⟨cond⟩: Ugh. Really?
+        [0001B17D] Vetra ⟨cond⟩: Ugh. Really?
     └─ merge ─┘
 ├ option 10:
-    [000146E4] Squadmate (Asari / Peebee): Nice shooting. The Remnant didn't stand a... wow!
+    [000146E4] Peebee: Nice shooting. The Remnant didn't stand a... wow!
     [000146E5] Ryder: "Remnant" what, and "wow" how?
-    [000146E6] Squadmate (Asari / Peebee): The tech is a "remnant" of someone. So... big R "Remnant." And "wow" because of what you did!
-    [000146F2] Squadmate (Asari / Peebee): You have a... what is it, Simulated Matrix? I'm sending your "SM" some navpoints.
-    [000146F4] Squadmate (Asari / Peebee): You want control centers and processors? Follow that—I think they're out there, too.
-    [000146F3] Squadmate (Asari / Peebee): Go, Pathfinder. Time to change the world.
+    [000146E6] Peebee: The tech is a "remnant" of someone. So... big R "Remnant." And "wow" because of what you did!
+    [000146F2] Peebee: You have a... what is it, Simulated Matrix? I'm sending your "SM" some navpoints.
+    [000146F4] Peebee: You want control centers and processors? Follow that—I think they're out there, too.
+    [000146F3] Peebee: Go, Pathfinder. Time to change the world.
 └─ merge ─┘
