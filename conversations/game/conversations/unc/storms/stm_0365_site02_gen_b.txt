@@ -4,83 +4,83 @@
 ==================================================
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Looks like a war zone.
-    global_crew_science_officer: [Comm] According to survivors, the kett attacked from all sides. It was a massacre.
+    [00031C50] Hero [OncePerGame]: Looks like a war zone.
+    [00031C44] global_crew_science_officer: [Comm] According to survivors, the kett attacked from all sides. It was a massacre.
 ├ option 2:
-    Hero [OncePerGame]: You'd think there'd be more bodies—not that I'm complaining.
+    [00031CAF] Hero [OncePerGame]: You'd think there'd be more bodies—not that I'm complaining.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Not a lot left behind for a massacre.
-        Hero: What if... they were removed?
+        [00031CAE] global_squad_female_human ⟨cond⟩: Not a lot left behind for a massacre.
+        [00031CA7] Hero: What if... they were removed?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_crew_co-pilot: [Comm] We know the Nexus didn't bother picking up the bodies.
-            Hero: You don't think it could've been the kett?
+            [00031CAD] global_crew_co-pilot: [Comm] We know the Nexus didn't bother picking up the bodies.
+            [00031CA5] Hero: You don't think it could've been the kett?
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                global_squad_female_human ⟨cond⟩: Sure as hell hope not.
+                [00031CAA] global_squad_female_human ⟨cond⟩: Sure as hell hope not.
             ├ option 2:
-                global_squad_male_human ⟨cond⟩: You trying to give me nightmares?
+                [00031CA2] global_squad_male_human ⟨cond⟩: You trying to give me nightmares?
             ├ option 3:
-                global_squad_turian ⟨cond⟩: That's a bad thought.
+                [00031CAB] global_squad_turian ⟨cond⟩: That's a bad thought.
             ├ option 4:
-                global_squad_krogan ⟨cond⟩: Wouldn't put it past them.
+                [00031C9E] global_squad_krogan ⟨cond⟩: Wouldn't put it past them.
             ├ option 5:
-                global_squad_asari ⟨cond⟩: Creepy.
+                [00031C9F] global_squad_asari ⟨cond⟩: Creepy.
             └─ merge ─┘
         ├ option 2:
-            Hero: Suvi. Did the Nexus send a team to recover the bodies?
-            global_crew_science_officer: [Comm] Nothing on records suggests that, Pathfinder.
-            ↩ (goto) Hero: You don't think it could've been the kett?
+            [00031CA8] Hero: Suvi. Did the Nexus send a team to recover the bodies?
+            [00031CA1] global_crew_science_officer: [Comm] Nothing on records suggests that, Pathfinder.
+            ↩ (goto) [00031CA5] Hero: You don't think it could've been the kett?
         └─ merge ─┘
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Huh. You're right.
-        ↩ (goto) Hero: What if... they were removed?
+        [00031CA4] global_squad_male_human ⟨cond⟩: Huh. You're right.
+        ↩ (goto) [00031CA7] Hero: What if... they were removed?
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Hm. You've got a point.
-        ↩ (goto) Hero: What if... they were removed?
+        [00031CA0] global_squad_turian ⟨cond⟩: Hm. You've got a point.
+        ↩ (goto) [00031CA7] Hero: What if... they were removed?
     ├ option 4:
-        global_squad_krogan ⟨cond⟩: Blood and gunfire, but no meat.
-        ↩ (goto) Hero: What if... they were removed?
+        [00031CA9] global_squad_krogan ⟨cond⟩: Blood and gunfire, but no meat.
+        ↩ (goto) [00031CA7] Hero: What if... they were removed?
     ├ option 5:
-        global_squad_asari ⟨cond⟩: Storms might've swept them away.
-        Hero: Or they were removed.
+        [00031CAC] global_squad_asari ⟨cond⟩: Storms might've swept them away.
+        [00031CA6] Hero: Or they were removed.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_crew_co-pilot: [Comm] We know the Nexus didn't bother picking up the bodies.
+            ↩ (goto) [00031CAD] global_crew_co-pilot: [Comm] We know the Nexus didn't bother picking up the bodies.
         ├ option 2:
-            ↩ (goto) Hero: Suvi. Did the Nexus send a team to recover the bodies?
+            ↩ (goto) [00031CA8] Hero: Suvi. Did the Nexus send a team to recover the bodies?
         └─ merge ─┘
     └─ merge ─┘
 ├ option 3:
-    global_squad_male_human ⟨cond⟩ [OncePerGame]: Not sure what's worse: this or dying slow like Promise.
-    Hero: Happy thoughts, Liam.
+    [00031C49] global_squad_male_human ⟨cond⟩ [OncePerGame]: Not sure what's worse: this or dying slow like Promise.
+    [00031C48] Hero: Happy thoughts, Liam.
 ├ option 4:
-    global_squad_female_human ⟨cond⟩ [OncePerGame]: Surprised the Nexus still wants an outpost on Eos.
-    Hero: You know what they say—third time's a charm. We'll make this right.
+    [00031C47] global_squad_female_human ⟨cond⟩ [OncePerGame]: Surprised the Nexus still wants an outpost on Eos.
+    [00031C3F] Hero: You know what they say—third time's a charm. We'll make this right.
 ├ option 5:
-    global_squad_turian ⟨cond⟩ [OncePerGame]: Heard the attack on Resilience was bad, but damn.
-    Hero: Initiative's not military. They weren't prepared for an ambush.
+    [00031C4B] global_squad_turian ⟨cond⟩ [OncePerGame]: Heard the attack on Resilience was bad, but damn.
+    [00031C4C] Hero: Initiative's not military. They weren't prepared for an ambush.
 ├ option 6:
-    global_squad_krogan ⟨cond⟩ [OncePerGame]: Would've stood a better chance if they had a krogan.
-    Hero: No offense, big guy, but I don't think that would've changed this.
-    global_squad_krogan: {i}(Snorts.){/i} Depends on the krogan.
+    [00031C54] global_squad_krogan ⟨cond⟩ [OncePerGame]: Would've stood a better chance if they had a krogan.
+    [00031C43] Hero: No offense, big guy, but I don't think that would've changed this.
+    [00031C55] global_squad_krogan: {i}(Snorts.){/i} Depends on the krogan.
 ├ option 7:
-    global_squad_asari ⟨cond⟩ [OncePerGame]: Resilience. Promise. More like Death and Starvation.
-    Hero: Well, I know who's {i}not{/i} naming our next outpost.
+    [00031C46] global_squad_asari ⟨cond⟩ [OncePerGame]: Resilience. Promise. More like Death and Starvation.
+    [00031C4F] Hero: Well, I know who's {i}not{/i} naming our next outpost.
 └─ merge ─┘
-Hero: Didn't even finish unpacking.
+[00031C4D] Hero: Didn't even finish unpacking.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Kett didn't give them a chance.
+    [00031C52] global_squad_female_human ⟨cond⟩: Kett didn't give them a chance.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Kett were on them from the start.
+    [00031C53] global_squad_male_human ⟨cond⟩: Kett were on them from the start.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Too busy trying to survive the kett.
+    [00031C4E] global_squad_turian ⟨cond⟩: Too busy trying to survive the kett.
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Too busy dying. Blasted kett.
+    [00031C45] global_squad_krogan ⟨cond⟩: Too busy dying. Blasted kett.
 ├ option 5:
-    global_squad_asari ⟨cond⟩: Hard to do with kett breathing down your neck.
+    [00031C51] global_squad_asari ⟨cond⟩: Hard to do with kett breathing down your neck.
 └─ merge ─┘
-SAM: Portable cover of kett design.
-Hero: Didn't bother to take it with them.
+[00031C4A] SAM: Portable cover of kett design.
+[00031CA3] Hero: Didn't bother to take it with them.

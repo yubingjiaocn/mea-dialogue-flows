@@ -2,85 +2,85 @@
 # Primary speaker: nex_culcen_ang_01
 # Source: game/conversations/hubs/hub_nexus/culcent/nex_culcen_angara_d.xml
 ==================================================
-nex_culcent_head: And we're happy to help your guards secure their weapons.
-nex_culcen_ang_01: I prefer them armed for now. You understand, of course.
-nex_culcent_head: Oh, Pathfinder. This is the head of the angaran delegation.
-nex_culcen_ang_01: The one who saved the Moshae. She speaks highly of you. Call me Isa de Navar.
+[00022C8B] nex_culcent_head: And we're happy to help your guards secure their weapons.
+[00022C8A] nex_culcen_ang_01: I prefer them armed for now. You understand, of course.
+[00022D29] nex_culcent_head: Oh, Pathfinder. This is the head of the angaran delegation.
+[00022D28] nex_culcen_ang_01: The one who saved the Moshae. She speaks highly of you. Call me Isa de Navar.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: We're glad to have you, Ambassador. Strong ties with the angara will strengthen us both.
-    nex_culcen_ang_01: To a good end, I hope.
-    nex_culcent_head: I was just explaining to the ambassador that armed guards aren't necessary here.
-    Hero: Is something wrong, Ambassador?
-    nex_culcen_ang_01: Please walk with me, Pathfinder.
-    nex_culcen_ang_01: So much life. All different, all united. The way it could have been...
-    nex_culcen_ang_01: Seventy-five years ago, we were scattered, struggling to rebuild after the Scourge. Then the kett arrived.
-    nex_culcen_ang_01: Alien life—it was monumental. But then they deceived and enslaved us. So I hope you understand my... precautions.
+    [00022D23] Hero: We're glad to have you, Ambassador. Strong ties with the angara will strengthen us both.
+    [00022DBA] nex_culcen_ang_01: To a good end, I hope.
+    [00022DB7] nex_culcent_head: I was just explaining to the ambassador that armed guards aren't necessary here.
+    [00022DB6] Hero: Is something wrong, Ambassador?
+    [00022D26] nex_culcen_ang_01: Please walk with me, Pathfinder.
+    [00022D2A] nex_culcen_ang_01: So much life. All different, all united. The way it could have been...
+    [00022D25] nex_culcen_ang_01: Seventy-five years ago, we were scattered, struggling to rebuild after the Scourge. Then the kett arrived.
+    [00022D2C] nex_culcen_ang_01: Alien life—it was monumental. But then they deceived and enslaved us. So I hope you understand my... precautions.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero ⟨cond⟩ [OncePerGame]: What did the kett do, exactly?
-        nex_culcen_ang_01: We were a divided people. The Archon ruthlessly exploited that.
-        nex_culcen_ang_01: They gave gifts to some ambassadors—and brutally murdered others. It triggered confusion, mistrust, then infighting.
-        nex_culcen_ang_01: With our leaders in disarray, we were ripe for attack. You know what followed. Why I must be careful.
+        [00022D27] Hero ⟨cond⟩ [OncePerGame]: What did the kett do, exactly?
+        [00022DCD] nex_culcen_ang_01: We were a divided people. The Archon ruthlessly exploited that.
+        [00022DC2] nex_culcen_ang_01: They gave gifts to some ambassadors—and brutally murdered others. It triggered confusion, mistrust, then infighting.
+        [00022DCA] nex_culcen_ang_01: With our leaders in disarray, we were ripe for attack. You know what followed. Why I must be careful.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Your people have endured much, Ambassador. I'd be cautious too.
+            [00022DBB] Hero: Your people have endured much, Ambassador. I'd be cautious too.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nex_culcen_ang_01 ⟨cond⟩: Especially when your Initiative's first colony is a military outpost.
-                nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
+                [000283D5] nex_culcen_ang_01 ⟨cond⟩: Especially when your Initiative's first colony is a military outpost.
+                [00022DC0] nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    Hero: We don't expect you to enter this alliance blindly, Ambassador. Everything we say, you can check.
-                    nex_culcen_ang_01: You'd be that open with us?
-                    Hero: We have nothing to hide.
+                    [00022E0C] Hero: We don't expect you to enter this alliance blindly, Ambassador. Everything we say, you can check.
+                    [00022E18] nex_culcen_ang_01: You'd be that open with us?
+                    [00022E1A] Hero: We have nothing to hide.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        nex_culcen_ang_01 ⟨cond⟩: They will guard my ship. If you are not conquerors, I trust my person to your honor.
-                        Hero: Thank you. We won't disappoint you, Ambassador.
-                        nex_culcen_ang_01: Paavoa set jave jarevaon, Pathfinder. "Welcome to Andromeda."
+                        [000283D7] nex_culcen_ang_01 ⟨cond⟩: They will guard my ship. If you are not conquerors, I trust my person to your honor.
+                        [00022DF1] Hero: Thank you. We won't disappoint you, Ambassador.
+                        [00022E0B] nex_culcen_ang_01: Paavoa set jave jarevaon, Pathfinder. "Welcome to Andromeda."
                     ├ option 2:
-                        nex_culcen_ang_01: They'll surrender their weapons to your militia, if that's satisfactory.
-                        ↩ (goto) Hero: Thank you. We won't disappoint you, Ambassador.
+                        [00022DED] nex_culcen_ang_01: They'll surrender their weapons to your militia, if that's satisfactory.
+                        ↩ (goto) [00022DF1] Hero: Thank you. We won't disappoint you, Ambassador.
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: Everything you see, we're willing to share. Knowledge, technology, support.
-                    nex_culcen_ang_01: What's the price?
-                    Hero: Whatever you're willing to give.
-                    ↩ (goto) Narration: [empty]
+                    [00022DC6] Hero: Everything you see, we're willing to share. Knowledge, technology, support.
+                    [00022E0D] nex_culcen_ang_01: What's the price?
+                    [00022E16] Hero: Whatever you're willing to give.
+                    ↩ (goto) [00022DF2] Narration: [empty]
                 ├ option 3:
-                    Hero: I... {i}(Sighs.){/i} I'm not a diplomat, Ambassador. I don't have the words to reassure you.
-                    nex_culcen_ang_01: Your honesty speaks well of you.
-                    Hero: I promise you have nothing to fear from us. That's all I can say.
-                    ↩ (goto) Narration: [empty]
+                    [00022DC3] Hero: I... {i}(Sighs.){/i} I'm not a diplomat, Ambassador. I don't have the words to reassure you.
+                    [00022DF0] nex_culcen_ang_01: Your honesty speaks well of you.
+                    [00022DEF] Hero: I promise you have nothing to fear from us. That's all I can say.
+                    ↩ (goto) [00022DF2] Narration: [empty]
                 ├ option 4:
-                    Hero: Right now the kett are distracted by us, the new arrivals. That can only help the angara.
-                    nex_culcen_ang_01: You'd... draw their attention, for us?
-                    Hero: Hey, it's happening anyway. Someone might as well benefit.
-                    ↩ (goto) Narration: [empty]
+                    [00022DC7] Hero: Right now the kett are distracted by us, the new arrivals. That can only help the angara.
+                    [00022DEE] nex_culcen_ang_01: You'd... draw their attention, for us?
+                    [00022FEC] Hero: Hey, it's happening anyway. Someone might as well benefit.
+                    ↩ (goto) [00022DF2] Narration: [empty]
                 └─ merge ─┘
             ├ option 2:
-                nex_culcen_ang_01: Yet all this—your Initiative—is proof there's a better way.
-                ↩ (goto) nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
+                [00022DCE] nex_culcen_ang_01: Yet all this—your Initiative—is proof there's a better way.
+                ↩ (goto) [00022DC0] nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
             └─ merge ─┘
         ├ option 2:
-            Hero: We came to explore, Ambassador, not conquer. And we have our own challenges.
+            [00022DBC] Hero: We came to explore, Ambassador, not conquer. And we have our own challenges.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nex_culcen_ang_01 ⟨cond⟩: You say "exploration," but we see your military presence on Eos—and wonder.
-                ↩ (goto) nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
+                [000283D6] nex_culcen_ang_01 ⟨cond⟩: You say "exploration," but we see your military presence on Eos—and wonder.
+                ↩ (goto) [00022DC0] nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
             ├ option 2:
-                nex_culcen_ang_01: Yes. Which is why I'm here.
-                ↩ (goto) nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
+                [00022DC1] nex_culcen_ang_01: Yes. Which is why I'm here.
+                ↩ (goto) [00022DC0] nex_culcen_ang_01: I want to believe in this alliance, Pathfinder. The Moshae says you're trustworthy. Please, help me trust in you.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: Your people have endured much, Ambassador. I'd be cautious too.
+        ↩ (goto) [00022DBB] Hero: Your people have endured much, Ambassador. I'd be cautious too.
     ├ option 3:
-        ↩ (goto) Hero: We came to explore, Ambassador, not conquer. And we have our own challenges.
+        ↩ (goto) [00022DBC] Hero: We came to explore, Ambassador, not conquer. And we have our own challenges.
     └─ merge ─┘
 ├ option 2:
-    Hero: Welcome, Ambassador. The angara's first formal visit will be one for the history books.
-    nex_culcen_ang_01: I wonder what they'll say.
-    ↩ (goto) nex_culcent_head: I was just explaining to the ambassador that armed guards aren't necessary here.
+    [00022D2B] Hero: Welcome, Ambassador. The angara's first formal visit will be one for the history books.
+    [00022DB9] nex_culcen_ang_01: I wonder what they'll say.
+    ↩ (goto) [00022DB7] nex_culcent_head: I was just explaining to the ambassador that armed guards aren't necessary here.
 └─ merge ─┘

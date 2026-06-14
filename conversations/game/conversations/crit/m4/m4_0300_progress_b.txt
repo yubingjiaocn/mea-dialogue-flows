@@ -4,126 +4,126 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Whole ship is probably looking for us.
+    [0002943F] Hero: Whole ship is probably looking for us.
 ├ option 2:
-    Hero: SAM, how far off track of the Archon's chambers are we?
-    SAM: There is still a potential route.
+    [0000D109] Hero: SAM, how far off track of the Archon's chambers are we?
+    [0000CF87] SAM: There is still a potential route.
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Where? This place is a maze.
-        SAM: There is an upper walkway.
+        [0001A9C5] global_squad_angara ⟨cond⟩: Where? This place is a maze.
+        [0001A9C2] SAM: There is an upper walkway.
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Yeah? This place is a maze.
-        ↩ (goto) SAM: There is an upper walkway.
+        [0001A9C8] global_squad_krogan ⟨cond⟩: Yeah? This place is a maze.
+        ↩ (goto) [0001A9C2] SAM: There is an upper walkway.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Where? This place is a maze.
-        ↩ (goto) SAM: There is an upper walkway.
+        [0001A9BF] global_squad_asari ⟨cond⟩: Where? This place is a maze.
+        ↩ (goto) [0001A9C2] SAM: There is an upper walkway.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: I don't see it. This place is a maze.
-        ↩ (goto) SAM: There is an upper walkway.
+        [0001A9BE] global_squad_turian ⟨cond⟩: I don't see it. This place is a maze.
+        ↩ (goto) [0001A9C2] SAM: There is an upper walkway.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Where? This place is a maze.
-        ↩ (goto) SAM: There is an upper walkway.
+        [0001A9C7] global_squad_male_human ⟨cond⟩: Where? This place is a maze.
+        ↩ (goto) [0001A9C2] SAM: There is an upper walkway.
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: Where? This place is a maze.
-        ↩ (goto) SAM: There is an upper walkway.
+        [0001A9C1] global_squad_female_human ⟨cond⟩: Where? This place is a maze.
+        ↩ (goto) [0001A9C2] SAM: There is an upper walkway.
     ├ option 7:
-        ↩ (goto) SAM: There is an upper walkway.
+        ↩ (goto) [0001A9C2] SAM: There is an upper walkway.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Damn, they're doing it again.
-    Hero: SAM?
-    SAM: There is an alternate route. Overriding the door now.
+    [0000CFBB] global_squad_female_human ⟨cond⟩: Damn, they're doing it again.
+    [0000CF99] Hero: SAM?
+    [0001A86C] SAM: There is an alternate route. Overriding the door now.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Damn. Here we go again.
-    ↩ (goto) Hero: SAM?
+    [0000CF8A] global_squad_male_human ⟨cond⟩: Damn. Here we go again.
+    ↩ (goto) [0000CF99] Hero: SAM?
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Damn, they're doing it again.
-    ↩ (goto) Hero: SAM?
+    [0000CFA1] global_squad_turian ⟨cond⟩: Damn, they're doing it again.
+    ↩ (goto) [0000CF99] Hero: SAM?
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Damn, they're doing it again.
-    ↩ (goto) Hero: SAM?
+    [0000CF86] global_squad_asari ⟨cond⟩: Damn, they're doing it again.
+    ↩ (goto) [0000CF99] Hero: SAM?
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: They're at it again.
-    ↩ (goto) Hero: SAM?
+    [0000CF9F] global_squad_krogan ⟨cond⟩: They're at it again.
+    ↩ (goto) [0000CF99] Hero: SAM?
 ├ option 6:
-    global_squad_angara ⟨cond⟩: They're doing it again.
-    ↩ (goto) Hero: SAM?
+    [0000CFA2] global_squad_angara ⟨cond⟩: They're doing it again.
+    ↩ (goto) [0000CF99] Hero: SAM?
 ├ option 7:
-    ↩ (goto) Hero: SAM?
+    ↩ (goto) [0000CF99] Hero: SAM?
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Can't go that way.
+    [0000CFAE] global_squad_female_human ⟨cond⟩: Can't go that way.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Can't go that way.
+    [0000CF9B] global_squad_male_human ⟨cond⟩: Can't go that way.
 ├ option 3:
-    global_squad_krogan ⟨cond⟩: Can't go that way.
+    [0000CFB2] global_squad_krogan ⟨cond⟩: Can't go that way.
 ├ option 4:
-    global_squad_angara ⟨cond⟩: Can't go that way.
+    [0000CFC1] global_squad_angara ⟨cond⟩: Can't go that way.
 ├ option 5:
-    global_squad_asari ⟨cond⟩: Can't go that way.
+    [0000CF88] global_squad_asari ⟨cond⟩: Can't go that way.
 ├ option 6:
-    global_squad_turian ⟨cond⟩: Can't go that way.
+    [0000CFC9] global_squad_turian ⟨cond⟩: Can't go that way.
 └─ merge ─┘
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Why are we still keeping our voices low?
+    [0001AA56] global_squad_female_human ⟨cond⟩: Why are we still keeping our voices low?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: We're infiltrating an enemy ship.
-        Hero: Who already know we're here.
+        [0001AA63] global_squad_angara ⟨cond⟩: We're infiltrating an enemy ship.
+        [0001AA66] Hero: Who already know we're here.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_angara ⟨cond⟩: {i}(Grumbles.){/i} Why take chances?
+            [0001AA68] global_squad_angara ⟨cond⟩: {i}(Grumbles.){/i} Why take chances?
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Yeah, well, old habits die hard.
+            [0001AA60] global_squad_krogan ⟨cond⟩: Yeah, well, old habits die hard.
         ├ option 3:
-            global_squad_asari ⟨cond⟩: It's just what you do in these situations.
+            [0001AA55] global_squad_asari ⟨cond⟩: It's just what you do in these situations.
         ├ option 4:
-            global_squad_turian ⟨cond⟩: Why take chances?
+            [0001AA54] global_squad_turian ⟨cond⟩: Why take chances?
         ├ option 5:
-            global_squad_male_human ⟨cond⟩: I don't care. It's just how you do this. Everyone knows that.
+            [0001AA5D] global_squad_male_human ⟨cond⟩: I don't care. It's just how you do this. Everyone knows that.
         ├ option 6:
-            global_squad_female_human ⟨cond⟩: Why take chances?
+            [0001AA64] global_squad_female_human ⟨cond⟩: Why take chances?
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: We're sneaking onto an enemy ship.
-        ↩ (goto) Hero: Who already know we're here.
+        [0001AA57] global_squad_krogan ⟨cond⟩: We're sneaking onto an enemy ship.
+        ↩ (goto) [0001AA66] Hero: Who already know we're here.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: We're sneaking onto an enemy ship.
-        ↩ (goto) Hero: Who already know we're here.
+        [0001AA5C] global_squad_asari ⟨cond⟩: We're sneaking onto an enemy ship.
+        ↩ (goto) [0001AA66] Hero: Who already know we're here.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: We're sneaking onto an enemy ship.
-        ↩ (goto) Hero: Who already know we're here.
+        [0001AA61] global_squad_turian ⟨cond⟩: We're sneaking onto an enemy ship.
+        ↩ (goto) [0001AA66] Hero: Who already know we're here.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: We're sneaking onto an enemy ship.
-        ↩ (goto) Hero: Who already know we're here.
+        [0001AA5A] global_squad_male_human ⟨cond⟩: We're sneaking onto an enemy ship.
+        ↩ (goto) [0001AA66] Hero: Who already know we're here.
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: We're sneaking onto an enemy ship.
-        ↩ (goto) Hero: Who already know we're here.
+        [0001AA65] global_squad_female_human ⟨cond⟩: We're sneaking onto an enemy ship.
+        ↩ (goto) [0001AA66] Hero: Who already know we're here.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Anyone know why we're keeping our voices low?
-    ↩ (goto) global_squad_angara: [empty]
+    [0001AA58] global_squad_male_human ⟨cond⟩: Anyone know why we're keeping our voices low?
+    ↩ (goto) [0001AA59] global_squad_angara: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Why are we still keeping our voices low?
-    ↩ (goto) global_squad_angara: [empty]
+    [0001AA5E] global_squad_turian ⟨cond⟩: Why are we still keeping our voices low?
+    ↩ (goto) [0001AA59] global_squad_angara: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Why are we still keeping our voices low?
-    ↩ (goto) global_squad_angara: [empty]
+    [0001AA5F] global_squad_asari ⟨cond⟩: Why are we still keeping our voices low?
+    ↩ (goto) [0001AA59] global_squad_angara: [empty]
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: Why are we still keeping our voices low?
-    ↩ (goto) global_squad_angara: [empty]
+    [0001AA5B] global_squad_krogan ⟨cond⟩: Why are we still keeping our voices low?
+    ↩ (goto) [0001AA59] global_squad_angara: [empty]
 ├ option 6:
-    global_squad_angara ⟨cond⟩: Why are we still keeping our voices low?
-    ↩ (goto) global_squad_angara: [empty]
+    [0001AA67] global_squad_angara ⟨cond⟩: Why are we still keeping our voices low?
+    ↩ (goto) [0001AA59] global_squad_angara: [empty]
 ├ option 7:
-    ↩ (goto) global_squad_angara: [empty]
+    ↩ (goto) [0001AA59] global_squad_angara: [empty]
 └─ merge ─┘
-Hero: Nope.
-SAM: The kett are hardening their security. Try scanning the access panel.
-SAM: The door is voice activated. I can attempt to modulate your vocal cords to approximate kett intonation.
-Hero: Okay...
+[00029DB4] Hero: Nope.
+[00029DB3] SAM: The kett are hardening their security. Try scanning the access panel.
+[00029DB1] SAM: The door is voice activated. I can attempt to modulate your vocal cords to approximate kett intonation.
+[00029DAF] Hero: Okay...

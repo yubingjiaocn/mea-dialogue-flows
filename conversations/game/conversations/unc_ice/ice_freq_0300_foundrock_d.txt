@@ -4,26 +4,26 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: Ryder, the angara call this a Scourge gem. They pass through the Scourge, and pick up something of its nature.
-    global_squad_angara: No two are exactly alike. Some of them are quite beautiful, and quite dangerous.
-    SAM: I suggest we return it to the Nexus for analysis. We could learn more about the Scourge.
+    [000300F9] global_squad_angara ⟨cond⟩: Ryder, the angara call this a Scourge gem. They pass through the Scourge, and pick up something of its nature.
+    [000300F7] global_squad_angara: No two are exactly alike. Some of them are quite beautiful, and quite dangerous.
+    [000300FE] SAM: I suggest we return it to the Nexus for analysis. We could learn more about the Scourge.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: True. Disrupting comms, driving wildlife into a frenzy. There's too much here to ignore. We need to study it.
-        Hero: Hopefully, the Hjara scientists won't have any more trouble with their comms.
+        [000300FC] Hero: True. Disrupting comms, driving wildlife into a frenzy. There's too much here to ignore. We need to study it.
+        [00030109] Hero: Hopefully, the Hjara scientists won't have any more trouble with their comms.
     ├ option 2:
-        Hero: I think we should leave it here. It's too dangerous to bring back to the Nexus.
+        [000300FD] Hero: I think we should leave it here. It's too dangerous to bring back to the Nexus.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_angara ⟨cond⟩: That is for the best. I shall contact the Resistance to have it removed, just in case.
-            ↩ (goto) Hero: Hopefully, the Hjara scientists won't have any more trouble with their comms.
+            [00030103] global_squad_angara ⟨cond⟩: That is for the best. I shall contact the Resistance to have it removed, just in case.
+            ↩ (goto) [00030109] Hero: Hopefully, the Hjara scientists won't have any more trouble with their comms.
         ├ option 2:
-            SAM: Very well, Pathfinder.
-            ↩ (goto) Hero: Hopefully, the Hjara scientists won't have any more trouble with their comms.
+            [00030101] SAM: Very well, Pathfinder.
+            ↩ (goto) [00030109] Hero: Hopefully, the Hjara scientists won't have any more trouble with their comms.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: I think we're safe for now. SAM, what exactly was going on here?
-    SAM: The energies from this meteorite share similarities with the Scourge. It may have passed through it at some point.
-    ↩ (goto) SAM: I suggest we return it to the Nexus for analysis. We could learn more about the Scourge.
+    [000300F8] Hero: I think we're safe for now. SAM, what exactly was going on here?
+    [000300FA] SAM: The energies from this meteorite share similarities with the Scourge. It may have passed through it at some point.
+    ↩ (goto) [000300FE] SAM: I suggest we return it to the Nexus for analysis. We could learn more about the Scourge.
 └─ merge ─┘

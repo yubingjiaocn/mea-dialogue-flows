@@ -4,39 +4,39 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Could be wrong but this looks like a classroom.
-    Hero: Guess, facing the front of the class is universal.
-    Hero: What's that thing against the wall?
-    global_squad_angara: No idea.
-    SAM: Stasis pod would be my hypothesis.
-    Hero: Stasis pod school?
+    [00034AD2] global_squad_female_human ⟨cond⟩: Could be wrong but this looks like a classroom.
+    [00034AD6] Hero: Guess, facing the front of the class is universal.
+    [000164F3] Hero: What's that thing against the wall?
+    [000166AB] global_squad_angara: No idea.
+    [000166A9] SAM: Stasis pod would be my hypothesis.
+    [00017379] Hero: Stasis pod school?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Maybe they are shipping angara back home.
-        global_squad_angara: Maybe...
+        [000166A5] global_squad_female_human ⟨cond⟩: Maybe they are shipping angara back home.
+        [0001738A] global_squad_angara: Maybe...
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Packed for transport? Shipping them out?
-        ↩ (goto) global_squad_angara: Maybe...
+        [000166A7] global_squad_male_human ⟨cond⟩: Packed for transport? Shipping them out?
+        ↩ (goto) [0001738A] global_squad_angara: Maybe...
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: Could be they are sending 'em back to the kett homeworld.
-        ↩ (goto) global_squad_angara: Maybe...
+        [000166A8] global_squad_krogan ⟨cond⟩: Could be they are sending 'em back to the kett homeworld.
+        ↩ (goto) [0001738A] global_squad_angara: Maybe...
     ├ option 4:
-        global_squad_turian ⟨cond⟩: A transport? Maybe they are sending angara back to the kett homeworld.
-        ↩ (goto) global_squad_angara: Maybe...
+        [000166A4] global_squad_turian ⟨cond⟩: A transport? Maybe they are sending angara back to the kett homeworld.
+        ↩ (goto) [0001738A] global_squad_angara: Maybe...
     ├ option 5:
-        global_squad_asari ⟨cond⟩: Maybe they are sending the angara home.
-        ↩ (goto) global_squad_angara: Maybe...
+        [000166A6] global_squad_asari ⟨cond⟩: Maybe they are sending the angara home.
+        ↩ (goto) [0001738A] global_squad_angara: Maybe...
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Am I wrong or does this look like a classroom?
-    ↩ (goto) Hero: Guess, facing the front of the class is universal.
+    [00034AD1] global_squad_male_human ⟨cond⟩: Am I wrong or does this look like a classroom?
+    ↩ (goto) [00034AD6] Hero: Guess, facing the front of the class is universal.
 ├ option 3:
-    global_squad_krogan ⟨cond⟩: Desks? This what some folks call a classroom, right?
-    ↩ (goto) Hero: What's that thing against the wall?
+    [00034AD3] global_squad_krogan ⟨cond⟩: Desks? This what some folks call a classroom, right?
+    ↩ (goto) [000164F3] Hero: What's that thing against the wall?
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Could be wrong but this looks like a classroom.
-    ↩ (goto) Hero: Guess, facing the front of the class is universal.
+    [00034AD0] global_squad_turian ⟨cond⟩: Could be wrong but this looks like a classroom.
+    ↩ (goto) [00034AD6] Hero: Guess, facing the front of the class is universal.
 ├ option 5:
-    global_squad_asari ⟨cond⟩: This looks like a classroom, right?
-    ↩ (goto) Hero: Guess, facing the front of the class is universal.
+    [00034AD5] global_squad_asari ⟨cond⟩: This looks like a classroom, right?
+    ↩ (goto) [00034AD6] Hero: Guess, facing the front of the class is universal.
 └─ merge ─┘

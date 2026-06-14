@@ -2,23 +2,23 @@
 # Primary speaker: nex_dis_exile_medic
 # Source: game/conversations/hubs/hub_nexus/distractions/exile_raid/nex_dis_exile_medic_i.xml
 ==================================================
-nex_dis_exile_medic: Oi, Pathfinder. Today has not been a good day.
-Hero: Why's that?
+[0002C3A8] nex_dis_exile_medic: Oi, Pathfinder. Today has not been a good day.
+[0002C3A2] Hero: Why's that?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    nex_dis_exile_medic ⟨cond⟩: A large shipment of medical supplies intended for the outposts you've started was intercepted by those damned exiles.
-    nex_dis_exile_medic: Scouts confirmed they've divvied the supplies up among their own outposts.
+    [0002C3AC] nex_dis_exile_medic ⟨cond⟩: A large shipment of medical supplies intended for the outposts you've started was intercepted by those damned exiles.
+    [0002C3AB] nex_dis_exile_medic: Scouts confirmed they've divvied the supplies up among their own outposts.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I'll see what I can do about reclaiming them.
-        nex_dis_exile_medic: That would be... great. Thanks.
-        nex_dis_exile_medic: Maybe when you come across them assholes, you can rectify all this.
+        [0002C39F] Hero: I'll see what I can do about reclaiming them.
+        [0002C3A9] nex_dis_exile_medic: That would be... great. Thanks.
+        [0002C3AA] nex_dis_exile_medic: Maybe when you come across them assholes, you can rectify all this.
     ├ option 2:
-        Hero: It would be nice if the people you banish would just mind their own business, but they never do.
-        nex_dis_exile_medic: Funny thing: people you {i}kill{/i} mind their own business. And then it's super easy to take back what they took.
-        ↩ (goto) nex_dis_exile_medic: Maybe when you come across them assholes, you can rectify all this.
+        [0002C3A0] Hero: It would be nice if the people you banish would just mind their own business, but they never do.
+        [0002C3A4] nex_dis_exile_medic: Funny thing: people you {i}kill{/i} mind their own business. And then it's super easy to take back what they took.
+        ↩ (goto) [0002C3AA] nex_dis_exile_medic: Maybe when you come across them assholes, you can rectify all this.
     └─ merge ─┘
 ├ option 2:
-    nex_dis_exile_medic: A large shipment of medical supplies intended for Prodromos was intercepted by those damned exiles.
-    ↩ (goto) nex_dis_exile_medic: Scouts confirmed they've divvied the supplies up among their own outposts.
+    [0002C3A5] nex_dis_exile_medic: A large shipment of medical supplies intended for Prodromos was intercepted by those damned exiles.
+    ↩ (goto) [0002C3AB] nex_dis_exile_medic: Scouts confirmed they've divvied the supplies up among their own outposts.
 └─ merge ─┘

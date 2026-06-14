@@ -2,59 +2,59 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_dunes/dune_0212_q1_morda_talk_d.xml
 ==================================================
-Hero [OncePerGame]: You Ravanor Brenk? Strux sent me. He said that you—
-dune_colony_leader: Hey!
-dune_morda_flunky01: Yes. Find me later near the fighting pit.
-dune_colony_leader: Hey! Nexus! I'm the one you talk to around here.
-Hero: Are you Morda?
-dune_colony_leader: I'm Nakmor Morda. Overlord of the krogan in Heleus.
-Hero: Overlord?
+[0001F5FF] Hero [OncePerGame]: You Ravanor Brenk? Strux sent me. He said that you—
+[0001F600] dune_colony_leader: Hey!
+[0001F5FE] dune_morda_flunky01: Yes. Find me later near the fighting pit.
+[0001F5FB] dune_colony_leader: Hey! Nexus! I'm the one you talk to around here.
+[0001BB14] Hero: Are you Morda?
+[0001BB10] dune_colony_leader: I'm Nakmor Morda. Overlord of the krogan in Heleus.
+[0001F601] Hero: Overlord?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    dune_colony_leader ⟨cond⟩: Drack. Kesh said you had a new job.
-    global_squad_krogan: She didn't tell me you did.
-    dune_colony_leader: And you're the celebrated Pathfinder from the Hyperion, found at last.
-    Hero: I'm Ryder.
-    dune_colony_leader: This is thrilling. I've never stood so close to a Pathfinder before... mostly because the krogan never got one.
-    dune_colony_leader: Welcome to New Tuchanka.
+    [0001F606] dune_colony_leader ⟨cond⟩: Drack. Kesh said you had a new job.
+    [0001F607] global_squad_krogan: She didn't tell me you did.
+    [0001BB17] dune_colony_leader: And you're the celebrated Pathfinder from the Hyperion, found at last.
+    [0001F602] Hero: I'm Ryder.
+    [0001BB25] dune_colony_leader: This is thrilling. I've never stood so close to a Pathfinder before... mostly because the krogan never got one.
+    [0001BB0F] dune_colony_leader: Welcome to New Tuchanka.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I understand you and your people are pissed off.
-        dune_colony_leader: Humans were welcomed into the Citadel Council with open arms while the krogan endured centuries of oppression!
-        dune_colony_leader: You have no idea. Your understanding only makes me mad.
-        Hero: Okay. Gotcha. Loud and clear.
-        dune_colony_leader: Why're you here, Pathfinder? To see what a successful colony looks like?
+        [0001BB13] Hero: I understand you and your people are pissed off.
+        [0001BB15] dune_colony_leader: Humans were welcomed into the Citadel Council with open arms while the krogan endured centuries of oppression!
+        [0001BB18] dune_colony_leader: You have no idea. Your understanding only makes me mad.
+        [0001F604] Hero: Okay. Gotcha. Loud and clear.
+        [0001BB29] dune_colony_leader: Why're you here, Pathfinder? To see what a successful colony looks like?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Our outposts are new. We could use the advice.
-            dune_colony_leader: Your manipulation is so transparent.
-            dune_colony_leader: No advice for you. Only regret. Watch—the krogan will thrive and the Initiative will pay.
-            dune_colony_leader: Get out of my face before I smash it.
+            [0001BB32] Hero: Our outposts are new. We could use the advice.
+            [0001BB39] dune_colony_leader: Your manipulation is so transparent.
+            [0001BB3B] dune_colony_leader: No advice for you. Only regret. Watch—the krogan will thrive and the Initiative will pay.
+            [0001BB41] dune_colony_leader: Get out of my face before I smash it.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: A pleasure catching up with the new krogan hierarchy. See you soon.
+                [0001BB4A] Hero: A pleasure catching up with the new krogan hierarchy. See you soon.
             ├ option 2:
-                Hero: I'm going to journal about this later. See you soon.
+                [0001BB4B] Hero: I'm going to journal about this later. See you soon.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                 ├ option 2:
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: I work for the Initiative and we paid your way here.
-            Hero: You left us, so leave us alone. Any krogan action against the Nexus will be considered a war crime, or murder.
-            dune_colony_leader: Murder? Human, have you ever seen a krogan stillbirth?
-            ↩ (goto) dune_colony_leader: Get out of my face before I smash it.
+            [0001BB37] Hero: I work for the Initiative and we paid your way here.
+            [0001BB31] Hero: You left us, so leave us alone. Any krogan action against the Nexus will be considered a war crime, or murder.
+            [0001BB34] dune_colony_leader: Murder? Human, have you ever seen a krogan stillbirth?
+            ↩ (goto) [0001BB41] dune_colony_leader: Get out of my face before I smash it.
         └─ merge ─┘
     ├ option 2:
-        Hero: You mean that? Because it doesn't sound like you mean that.
-        dune_colony_leader: You're right. I don't.
-        dune_colony_leader: You weren't there when the council species on the Nexus banded together to screw over the krogan... again!
-        dune_colony_leader: New galaxy, same crap.
-        Hero: I'd just like you to give me, personally, the benefit of the doubt.
-        dune_colony_leader: {i}(Grunts.){/i}
-        ↩ (goto) dune_colony_leader: Why're you here, Pathfinder? To see what a successful colony looks like?
+        [0001BB11] Hero: You mean that? Because it doesn't sound like you mean that.
+        [0001BB0E] dune_colony_leader: You're right. I don't.
+        [0001BB1A] dune_colony_leader: You weren't there when the council species on the Nexus banded together to screw over the krogan... again!
+        [0001F603] dune_colony_leader: New galaxy, same crap.
+        [0001F605] Hero: I'd just like you to give me, personally, the benefit of the doubt.
+        [0001BB1C] dune_colony_leader: {i}(Grunts.){/i}
+        ↩ (goto) [0001BB29] dune_colony_leader: Why're you here, Pathfinder? To see what a successful colony looks like?
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) dune_colony_leader: And you're the celebrated Pathfinder from the Hyperion, found at last.
+    ↩ (goto) [0001BB17] dune_colony_leader: And you're the celebrated Pathfinder from the Hyperion, found at last.
 └─ merge ─┘

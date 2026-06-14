@@ -2,168 +2,168 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/m4/m4_0100_find_stasis_b.xml
 ==================================================
-Hero: Tempest, we're in.
-global_crew_co-pilot: [Comm] So far, no unusual activity from the kett ship.
-Hero: Let's hope it stays that way.
+[00019E8F] Hero: Tempest, we're in.
+[00019E91] global_crew_co-pilot: [Comm] So far, no unusual activity from the kett ship.
+[00019E8D] Hero: Let's hope it stays that way.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM: Pathfinder, if you access a terminal, I can assess the situation.
+    [00019E92] SAM: Pathfinder, if you access a terminal, I can assess the situation.
 ├ option 2:
-    global_crew_co-pilot: [Comm] Whatever you need. Those are my people over there.
-    Hero: Understood.
+    [00019E90] global_crew_co-pilot: [Comm] Whatever you need. Those are my people over there.
+    [00019E8E] Hero: Understood.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM: There may still be critical information on this terminal.
+    [00019EB7] SAM: There may still be critical information on this terminal.
 ├ option 2:
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Well, that was clear enough. Let's find them.
-        SAM: Overriding bulkhead door.
+        [00019EB0] global_squad_female_human ⟨cond⟩: Well, that was clear enough. Let's find them.
+        [00019EB2] SAM: Overriding bulkhead door.
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Man, that didn't sound good. We need to find them.
-        ↩ (goto) SAM: Overriding bulkhead door.
+        [00019EB6] global_squad_male_human ⟨cond⟩: Man, that didn't sound good. We need to find them.
+        ↩ (goto) [00019EB2] SAM: Overriding bulkhead door.
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Well, there we go. We need to find them.
-        ↩ (goto) SAM: Overriding bulkhead door.
+        [00019EB5] global_squad_turian ⟨cond⟩: Well, there we go. We need to find them.
+        ↩ (goto) [00019EB2] SAM: Overriding bulkhead door.
     ├ option 4:
-        global_squad_asari ⟨cond⟩: No mystery there. We need to find the Pathfinder.
-        ↩ (goto) SAM: Overriding bulkhead door.
+        [00019EB4] global_squad_asari ⟨cond⟩: No mystery there. We need to find the Pathfinder.
+        ↩ (goto) [00019EB2] SAM: Overriding bulkhead door.
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: There we go. We need to find them.
-        ↩ (goto) SAM: Overriding bulkhead door.
+        [00019EB8] global_squad_krogan ⟨cond⟩: There we go. We need to find them.
+        ↩ (goto) [00019EB2] SAM: Overriding bulkhead door.
     ├ option 6:
-        global_squad_angara ⟨cond⟩: That was clear enough. We need to find them.
-        ↩ (goto) SAM: Overriding bulkhead door.
+        [00019EB3] global_squad_angara ⟨cond⟩: That was clear enough. We need to find them.
+        ↩ (goto) [00019EB2] SAM: Overriding bulkhead door.
     ├ option 7:
-        ↩ (goto) SAM: Overriding bulkhead door.
+        ↩ (goto) [00019EB2] SAM: Overriding bulkhead door.
     └─ merge ─┘
 └─ merge ─┘
-Hero: How does the ship look, SAM?
-SAM: Some kett infrastructure has been added, but the ark's systems are operational.
-Hero: So it's flight-ready?
-SAM: Yes.
+[000245AF] Hero: How does the ship look, SAM?
+[0000D641] SAM: Some kett infrastructure has been added, but the ark's systems are operational.
+[0000D643] Hero: So it's flight-ready?
+[0000D63D] SAM: Yes.
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: Are you thinking of...
-    Hero: Easiest way to save everyone is to take the whole ark with us.
+    [0001A236] global_squad_angara ⟨cond⟩: Are you thinking of...
+    [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Easy isn't the word I'd use.
-        Hero: If the right salarians are still onboard, this might work.
+        [0001A253] global_squad_female_human ⟨cond⟩: Easy isn't the word I'd use.
+        [0001A254] Hero: If the right salarians are still onboard, this might work.
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Uh.. if you say so.
-        ↩ (goto) Hero: If the right salarians are still onboard, this might work.
+        [0001A255] global_squad_male_human ⟨cond⟩: Uh.. if you say so.
+        ↩ (goto) [0001A254] Hero: If the right salarians are still onboard, this might work.
     ├ option 3:
-        global_squad_turian ⟨cond⟩: "Easy" isn't what I'd call it.
-        ↩ (goto) Hero: If the right salarians are still onboard, this might work.
+        [0001A258] global_squad_turian ⟨cond⟩: "Easy" isn't what I'd call it.
+        ↩ (goto) [0001A254] Hero: If the right salarians are still onboard, this might work.
     ├ option 4:
-        global_squad_asari ⟨cond⟩: Funny definition of "easy."
-        ↩ (goto) Hero: If the right salarians are still onboard, this might work.
+        [0001A256] global_squad_asari ⟨cond⟩: Funny definition of "easy."
+        ↩ (goto) [0001A254] Hero: If the right salarians are still onboard, this might work.
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: Easy, huh?
-        ↩ (goto) Hero: If the right salarians are still onboard, this might work.
+        [0001A251] global_squad_krogan ⟨cond⟩: Easy, huh?
+        ↩ (goto) [0001A254] Hero: If the right salarians are still onboard, this might work.
     ├ option 6:
-        global_squad_angara ⟨cond⟩: Maybe your "easy" means something different.
-        ↩ (goto) Hero: If the right salarians are still onboard, this might work.
+        [0001A252] global_squad_angara ⟨cond⟩: Maybe your "easy" means something different.
+        ↩ (goto) [0001A254] Hero: If the right salarians are still onboard, this might work.
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: Ryder, are you thinking of...
-    ↩ (goto) Hero: Easiest way to save everyone is to take the whole ark with us.
+    [0001A238] global_squad_krogan ⟨cond⟩: Ryder, are you thinking of...
+    ↩ (goto) [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
 ├ option 3:
-    global_squad_asari ⟨cond⟩: Are you thinking what I think you're thinking...
-    ↩ (goto) Hero: Easiest way to save everyone is to take the whole ark with us.
+    [0001A239] global_squad_asari ⟨cond⟩: Are you thinking what I think you're thinking...
+    ↩ (goto) [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Ryder, are you thinking...
-    ↩ (goto) Hero: Easiest way to save everyone is to take the whole ark with us.
+    [0001A235] global_squad_turian ⟨cond⟩: Ryder, are you thinking...
+    ↩ (goto) [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Ryder, are you thinking of...
-    ↩ (goto) Hero: Easiest way to save everyone is to take the whole ark with us.
+    [0001A237] global_squad_male_human ⟨cond⟩: Ryder, are you thinking of...
+    ↩ (goto) [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
 ├ option 6:
-    global_squad_female_human ⟨cond⟩: Ryder, are you thinking of...
-    ↩ (goto) Hero: Easiest way to save everyone is to take the whole ark with us.
+    [0001A23B] global_squad_female_human ⟨cond⟩: Ryder, are you thinking of...
+    ↩ (goto) [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
 ├ option 7:
-    ↩ (goto) Hero: Easiest way to save everyone is to take the whole ark with us.
+    ↩ (goto) [0001A23A] Hero: Easiest way to save everyone is to take the whole ark with us.
 └─ merge ─┘
-Hero: No one home here.
+[0001B691] Hero: No one home here.
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: So many pods gone.
-    Hero: I'd like to think they got away before the kett showed up.
+    [0000CE2E] global_squad_female_human ⟨cond⟩: So many pods gone.
+    [0001B67F] Hero: I'd like to think they got away before the kett showed up.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Captain Hayjer's message suggests otherwise.
+        [0000CE34] global_squad_angara ⟨cond⟩: Captain Hayjer's message suggests otherwise.
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: The salarian captain was too worried for that.
+        [0001B680] global_squad_krogan ⟨cond⟩: The salarian captain was too worried for that.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Maybe. But that Captain Hayjer seemed pretty worried.
+        [0001B682] global_squad_asari ⟨cond⟩: Maybe. But that Captain Hayjer seemed pretty worried.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: We can hope. But that Captain Hayjer seemed pretty worried.
+        [0001B683] global_squad_turian ⟨cond⟩: We can hope. But that Captain Hayjer seemed pretty worried.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: I don't know. That Captain Hayjer seemed pretty worried.
+        [0001B681] global_squad_male_human ⟨cond⟩: I don't know. That Captain Hayjer seemed pretty worried.
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: Could be. But that Captain Hayjer seemed pretty worried.
+        [0001B67E] global_squad_female_human ⟨cond⟩: Could be. But that Captain Hayjer seemed pretty worried.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Sure are a lot of pods gone.
-    ↩ (goto) Hero: I'd like to think they got away before the kett showed up.
+    [0000CE35] global_squad_male_human ⟨cond⟩: Sure are a lot of pods gone.
+    ↩ (goto) [0001B67F] Hero: I'd like to think they got away before the kett showed up.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Sure are a lot of pods gone.
-    ↩ (goto) Hero: I'd like to think they got away before the kett showed up.
+    [0000CE38] global_squad_turian ⟨cond⟩: Sure are a lot of pods gone.
+    ↩ (goto) [0001B67F] Hero: I'd like to think they got away before the kett showed up.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Sure are a lot of pods gone.
-    ↩ (goto) Hero: I'd like to think they got away before the kett showed up.
+    [0000CE26] global_squad_asari ⟨cond⟩: Sure are a lot of pods gone.
+    ↩ (goto) [0001B67F] Hero: I'd like to think they got away before the kett showed up.
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: Seeing a lot of empty stasis pods.
-    ↩ (goto) Hero: I'd like to think they got away before the kett showed up.
+    [0000CE30] global_squad_krogan ⟨cond⟩: Seeing a lot of empty stasis pods.
+    ↩ (goto) [0001B67F] Hero: I'd like to think they got away before the kett showed up.
 ├ option 6:
-    global_squad_angara ⟨cond⟩: Many of these pods are missing.
+    [0001B692] global_squad_angara ⟨cond⟩: Many of these pods are missing.
 ├ option 7:
-    ↩ (goto) Hero: I'd like to think they got away before the kett showed up.
+    ↩ (goto) [0001B67F] Hero: I'd like to think they got away before the kett showed up.
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: No signs of fighting or struggle.
+    [0000CE2C] global_squad_angara ⟨cond⟩: No signs of fighting or struggle.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Did the salarians just surrender?
-        Hero: Let's hope their Pathfinder can make sense of it.
+        [0001A244] global_squad_female_human ⟨cond⟩: Did the salarians just surrender?
+        [0001A246] Hero: Let's hope their Pathfinder can make sense of it.
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Yeah, weird. Maybe the kett caught them by surprise.
-        ↩ (goto) Hero: Let's hope their Pathfinder can make sense of it.
+        [0001A248] global_squad_male_human ⟨cond⟩: Yeah, weird. Maybe the kett caught them by surprise.
+        ↩ (goto) [0001A246] Hero: Let's hope their Pathfinder can make sense of it.
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Did the salarians just give up?
-        ↩ (goto) Hero: Let's hope their Pathfinder can make sense of it.
+        [0001A247] global_squad_turian ⟨cond⟩: Did the salarians just give up?
+        ↩ (goto) [0001A246] Hero: Let's hope their Pathfinder can make sense of it.
     ├ option 4:
-        global_squad_asari ⟨cond⟩: Could the salarians have rolled over without a fight?
-        ↩ (goto) Hero: Let's hope their Pathfinder can make sense of it.
+        [0001A249] global_squad_asari ⟨cond⟩: Could the salarians have rolled over without a fight?
+        ↩ (goto) [0001A246] Hero: Let's hope their Pathfinder can make sense of it.
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: Damn salarians didn't even put up a fight.
-        ↩ (goto) Hero: Let's hope their Pathfinder can make sense of it.
+        [0001A24A] global_squad_krogan ⟨cond⟩: Damn salarians didn't even put up a fight.
+        ↩ (goto) [0001A246] Hero: Let's hope their Pathfinder can make sense of it.
     ├ option 6:
-        global_squad_angara ⟨cond⟩: Your salarian friends didn't resist.
-        ↩ (goto) Hero: Let's hope their Pathfinder can make sense of it.
+        [0001A243] global_squad_angara ⟨cond⟩: Your salarian friends didn't resist.
+        ↩ (goto) [0001A246] Hero: Let's hope their Pathfinder can make sense of it.
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: No bodies. No signs of a fight.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0000CE37] global_squad_krogan ⟨cond⟩: No bodies. No signs of a fight.
+    ↩ (goto) [0001A245] global_squad_male_human: [empty]
 ├ option 3:
-    global_squad_asari ⟨cond⟩: Not seeing any signs of a fight.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0000CE33] global_squad_asari ⟨cond⟩: Not seeing any signs of a fight.
+    ↩ (goto) [0001A245] global_squad_male_human: [empty]
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Yeah, no signs of a battle or anything.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0000CE32] global_squad_turian ⟨cond⟩: Yeah, no signs of a battle or anything.
+    ↩ (goto) [0001A245] global_squad_male_human: [empty]
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Weird. Not seeing any signs of a fight. A struggle. Something.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0000CE29] global_squad_male_human ⟨cond⟩: Weird. Not seeing any signs of a fight. A struggle. Something.
+    ↩ (goto) [0001A245] global_squad_male_human: [empty]
 ├ option 6:
-    global_squad_female_human ⟨cond⟩: You'd expect to see signs of a fight. But I don't.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0000CE3A] global_squad_female_human ⟨cond⟩: You'd expect to see signs of a fight. But I don't.
+    ↩ (goto) [0001A245] global_squad_male_human: [empty]
 └─ merge ─┘
-Hero: What? Then who is this really?
+[00025C28] Hero: What? Then who is this really?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM: I have his DNA signature from your scan. Locate a sequencer to confirm his identity.
+    [000245BC] SAM: I have his DNA signature from your scan. Locate a sequencer to confirm his identity.
 ├ option 2:
-    SAM: Unknown. If you scan him, I can obtain a DNA signature.
+    [000245BA] SAM: Unknown. If you scan him, I can obtain a DNA signature.
 └─ merge ─┘

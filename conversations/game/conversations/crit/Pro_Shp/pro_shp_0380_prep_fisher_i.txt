@@ -2,34 +2,34 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Pro_Shp/pro_shp_0380_prep_fisher_i.xml
 ==================================================
-pro_lnd_shuttle_crew1_multi: Ryder.
-Hero: Hey Fisher, how's it going?
-pro_lnd_shuttle_crew1_multi: Heard a rumor from the bridge that your dad and the captain aren't seeing eye-to-eye on this.
+[0002CC56] pro_lnd_shuttle_crew1_multi: Ryder.
+[0002CC58] Hero: Hey Fisher, how's it going?
+[0002CC55] pro_lnd_shuttle_crew1_multi: Heard a rumor from the bridge that your dad and the captain aren't seeing eye-to-eye on this.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: She wasn't thrilled with the idea of the expedition, but my dad won her over.
+    [0002CC51] Hero: She wasn't thrilled with the idea of the expedition, but my dad won her over.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        pro_lnd_shuttle_crew1_multi ⟨cond⟩: I heard you weren't a big fan of it, either.
-        Hero: It's her ship, her call.
-        pro_lnd_shuttle_crew1_multi: You got guts going against the old man. But the way I see it, the Pathfinder team answers to the Pathfinder.
-        pro_lnd_shuttle_crew1_multi: Besides, your dad's the N7 here. He's got the best aim.
-        pro_lnd_shuttle_crew1_multi: I go wherever he goes.
+        [0002CC59] pro_lnd_shuttle_crew1_multi ⟨cond⟩: I heard you weren't a big fan of it, either.
+        [0002CC50] Hero: It's her ship, her call.
+        [0002CC54] pro_lnd_shuttle_crew1_multi: You got guts going against the old man. But the way I see it, the Pathfinder team answers to the Pathfinder.
+        [0002CC5C] pro_lnd_shuttle_crew1_multi: Besides, your dad's the N7 here. He's got the best aim.
+        [0002CC5A] pro_lnd_shuttle_crew1_multi: I go wherever he goes.
     ├ option 2:
-        pro_lnd_shuttle_crew1_multi: Glad Dunn came around. Your dad's the N7 here—he's got the most experience. And the best aim.
-        ↩ (goto) pro_lnd_shuttle_crew1_multi: I go wherever he goes.
+        [0002CC52] pro_lnd_shuttle_crew1_multi: Glad Dunn came around. Your dad's the N7 here—he's got the most experience. And the best aim.
+        ↩ (goto) [0002CC5A] pro_lnd_shuttle_crew1_multi: I go wherever he goes.
     └─ merge ─┘
 ├ option 2:
-    Hero: I don't know what that's about.
+    [0002CC53] Hero: I don't know what that's about.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        pro_lnd_shuttle_crew1_multi ⟨cond⟩: {i}(Laughs.){/i} Okay, then. I'll just pretend I didn't hear that you took Dunn's side.
-        Hero: More rumors.
-        pro_lnd_shuttle_crew1_multi: Maybe, but I figure at the end of the day, the Pathfinder team answers to the Pathfinder.
-        ↩ (goto) pro_lnd_shuttle_crew1_multi: Besides, your dad's the N7 here. He's got the best aim.
+        [0002CC5B] pro_lnd_shuttle_crew1_multi ⟨cond⟩: {i}(Laughs.){/i} Okay, then. I'll just pretend I didn't hear that you took Dunn's side.
+        [0002CC75] Hero: More rumors.
+        [0002CC77] pro_lnd_shuttle_crew1_multi: Maybe, but I figure at the end of the day, the Pathfinder team answers to the Pathfinder.
+        ↩ (goto) [0002CC5C] pro_lnd_shuttle_crew1_multi: Besides, your dad's the N7 here. He's got the best aim.
     ├ option 2:
-        pro_lnd_shuttle_crew1_multi: {i}(Laughs.){/i} Right. So no one overheard you say you preferred solid ground.
-        Hero: Another rumor.
-        ↩ (goto) pro_lnd_shuttle_crew1_multi: Glad Dunn came around. Your dad's the N7 here—he's got the most experience. And the best aim.
+        [0002CC76] pro_lnd_shuttle_crew1_multi: {i}(Laughs.){/i} Right. So no one overheard you say you preferred solid ground.
+        [0002CC78] Hero: Another rumor.
+        ↩ (goto) [0002CC52] pro_lnd_shuttle_crew1_multi: Glad Dunn came around. Your dad's the N7 here—he's got the most experience. And the best aim.
     └─ merge ─┘
 └─ merge ─┘

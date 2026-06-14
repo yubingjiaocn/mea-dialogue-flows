@@ -2,38 +2,38 @@
 # Primary speaker: Hero
 # Source: game/conversations/bstory/kro/hub_nex_0500_snoop_b.xml
 ==================================================
-Hero: What's this?
-SAM: I cannot scan what you're holding, Pathfinder. It's somehow blocking me, as a scrambler might.
-Hero: Sounds like a job for a comms expert.
-Hero: SAM? Anyone nearby?
-SAM: Negative, Pathfinder. The vicinity is clear of all personnel.
-Hero: Good. Let's do this.
+[0000C451] Hero: What's this?
+[0000C44F] SAM: I cannot scan what you're holding, Pathfinder. It's somehow blocking me, as a scrambler might.
+[0000C450] Hero: Sounds like a job for a comms expert.
+[0000C293] Hero: SAM? Anyone nearby?
+[0000C294] SAM: Negative, Pathfinder. The vicinity is clear of all personnel.
+[0000C290] Hero: Good. Let's do this.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    SAM [OncePerGame]: There is a blank spot in your vicinity, Pathfinder.
-    Hero: What do you mean?
-    SAM: I cannot "see" part of the room, for lack of a better term.
+    [0001A2BA] SAM [OncePerGame]: There is a blank spot in your vicinity, Pathfinder.
+    [0001A2BC] Hero: What do you mean?
+    [0001A2BD] SAM: I cannot "see" part of the room, for lack of a better term.
 ├ option 2:
-    Hero [OncePerGame]: "How to Rise Through the Ranks" and "The Path to Quick Promotions."
+    [0001A88A] Hero [OncePerGame]: "How to Rise Through the Ranks" and "The Path to Quick Promotions."
 ├ option 3:
-    Hero [OncePerGame]: Rebreather components, power cells, dried food...
-    SAM: Scanning the labels, many of these boxes were reported missing.
+    [0001A88B] Hero [OncePerGame]: Rebreather components, power cells, dried food...
+    [0001AB24] SAM: Scanning the labels, many of these boxes were reported missing.
 ├ option 4:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        nex_krobsto_engi_01 [OncePerGame]: [Audio Log] Kesh, I'm not sure what we can do here. We've got the systems stabilized for now.
-        nex_krobsto_engi_01: [Audio Log] But we're going to need to reroute power soon. We could lose some stasis pods if we don't.
+        [0001B055] nex_krobsto_engi_01 [OncePerGame]: [Audio Log] Kesh, I'm not sure what we can do here. We've got the systems stabilized for now.
+        [0001B058] nex_krobsto_engi_01: [Audio Log] But we're going to need to reroute power soon. We could lose some stasis pods if we don't.
     ├ option 2:
-        global_nexus_colonial_assdir [OncePerGame]: [Audio Log] Meeting notes for Director Tann. Engineering has requested resources we don't have, yet again.
-        global_nexus_colonial_assdir: [Audio Log] In particular, repairs to nonessential systems. I'm having doubts in Kesh's ability to prioritize tasks appropriately.
+        [0001B057] global_nexus_colonial_assdir [OncePerGame]: [Audio Log] Meeting notes for Director Tann. Engineering has requested resources we don't have, yet again.
+        [0001B059] global_nexus_colonial_assdir: [Audio Log] In particular, repairs to nonessential systems. I'm having doubts in Kesh's ability to prioritize tasks appropriately.
     └─ merge ─┘
 ├ option 5:
 ├ option 6:
-    global_nexus_colonial_assdir: The mutiny went as well as you'd expect. So much violence. Then, after nearly destroying the station, the krogan ask for more power? Good riddance.
+    [0002FB07] global_nexus_colonial_assdir: The mutiny went as well as you'd expect. So much violence. Then, after nearly destroying the station, the krogan ask for more power? Good riddance.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM: Interference is preventing scanner function. You will need to rely on more basic means to search these quarters.
+    [0002FB03] SAM: Interference is preventing scanner function. You will need to rely on more basic means to search these quarters.
 ├ option 2:
-    SAM: Perhaps you should look under or behind the furnishings, Pathfinder.
+    [0002FB02] SAM: Perhaps you should look under or behind the furnishings, Pathfinder.
 └─ merge ─┘

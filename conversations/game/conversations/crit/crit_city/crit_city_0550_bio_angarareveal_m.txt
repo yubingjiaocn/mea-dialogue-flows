@@ -2,124 +2,124 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/crit_city/crit_city_0550_bio_angarareveal_m.xml
 ==================================================
-Narration: The lights of the bio-engineering vault flicker on to reveal row upon row of stasis pods.
-Narration: Ryder walks up to one, it's an angara. As Ryder looks down the row, he realizes that they are all angara.
-Hero: What the hell...
-Narration: Ryder touches the console. It lights up. Remnant glyphs scrolls across the screen.
-SAM: Translating... "Pattern One-Three. Viability: 56.2%."
-SAM: "Genetic template transmitted for testing."
+[0000A3E5] Narration: The lights of the bio-engineering vault flicker on to reveal row upon row of stasis pods.
+[0000A3E2] Narration: Ryder walks up to one, it's an angara. As Ryder looks down the row, he realizes that they are all angara.
+[0000A3E3] Hero: What the hell...
+[0000AEF4] Narration: Ryder touches the console. It lights up. Remnant glyphs scrolls across the screen.
+[0000AD40] SAM: Translating... "Pattern One-Three. Viability: 56.2%."
+[0000AEC0] SAM: "Genetic template transmitted for testing."
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Narration: Jaal looks around the vault. A dozen different emotions flit across his face—fear, disgust, anger. He's not sure what he's seeing.
-    global_squad_angara: They were doing... things to the angara.
+    [0000B05C] Narration: Jaal looks around the vault. A dozen different emotions flit across his face—fear, disgust, anger. He's not sure what he's seeing.
+    [0000D829] global_squad_angara: They were doing... things to the angara.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: We can't be sure what this is yet, Jaal.
-        Narration: Jaal turns on Ryder. He can't believe what he's hearing.
-        global_squad_angara: Really? Because the last time we saw something like this, the kett were turning us into them!
-        Narration: Ryder turns back to the glyphs on the console.
-        Hero: SAM, I need an analysis.
-        SAM: It appears that these beings are not angara. They are not even alive.
-        Narration: Jaal gets right up close to a stasis pod, staring at a vacant-eyed angara. The similarity is eerie.
-        global_squad_angara: I don't understand. They look so...
-        Narration: Glyphs scroll across the console and pod as SAM translates.
-        SAM: The Remnant language refers to these bodies as genetic templates.
-        Narration: Jaal steps back from the pods. He's trying to process this information.
-        Hero: A blueprint. Like the plants we saw.
-        global_squad_angara: The angara... we came from here? They... created us? Why?
-        Narration: Jaal looks stunned by the enormity of this revelation. Ryder speaks up, cautiously. He understands Jaal might be feeling a little fragile right now.
+        [0000D82A] Hero: We can't be sure what this is yet, Jaal.
+        [0000D82E] Narration: Jaal turns on Ryder. He can't believe what he's hearing.
+        [0000D82D] global_squad_angara: Really? Because the last time we saw something like this, the kett were turning us into them!
+        [0000D828] Narration: Ryder turns back to the glyphs on the console.
+        [0000D830] Hero: SAM, I need an analysis.
+        [0000D86B] SAM: It appears that these beings are not angara. They are not even alive.
+        [0000B055] Narration: Jaal gets right up close to a stasis pod, staring at a vacant-eyed angara. The similarity is eerie.
+        [0000B05D] global_squad_angara: I don't understand. They look so...
+        [0000D877] Narration: Glyphs scroll across the console and pod as SAM translates.
+        [0000D876] SAM: The Remnant language refers to these bodies as genetic templates.
+        [0000B075] Narration: Jaal steps back from the pods. He's trying to process this information.
+        [0000B079] Hero: A blueprint. Like the plants we saw.
+        [0000D8CC] global_squad_angara: The angara... we came from here? They... created us? Why?
+        [0000B07F] Narration: Jaal looks stunned by the enormity of this revelation. Ryder speaks up, cautiously. He understands Jaal might be feeling a little fragile right now.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Maybe they intended the angara for some purpose that was never fulfilled.
-            global_squad_angara: And what does that mean for the angara? For me?
-            global_squad_angara: This is big. Too big. The Moshae... We have to tell her about this. She'll know what to do.
-            Narration: He trails off, calms himself. He knows there are bigger things at stake now. The group prepares to move on. They start walking.
+            [0000B085] Hero: Maybe they intended the angara for some purpose that was never fulfilled.
+            [0000B092] global_squad_angara: And what does that mean for the angara? For me?
+            [0000D8DF] global_squad_angara: This is big. Too big. The Moshae... We have to tell her about this. She'll know what to do.
+            [0000D8E6] Narration: He trails off, calms himself. He knows there are bigger things at stake now. The group prepares to move on. They start walking.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Narration: Getting ready to move on, Peebee walks alongside Jaal.
-                global_squad_asari: So Meridian can create life. What if the Archon can make it do the opposite? Destroy life?
-                global_squad_angara: It's up to us to make sure that doesn't happen.
+                [0000E7A3] Narration: Getting ready to move on, Peebee walks alongside Jaal.
+                [0000E741] global_squad_asari: So Meridian can create life. What if the Archon can make it do the opposite? Destroy life?
+                [0000E0BA] global_squad_angara: It's up to us to make sure that doesn't happen.
             ├ option 2:
-                global_squad_angara: Meridian creates life. And the Archon could use it to do the opposite. Destroy everything.
-                ↩ (goto) global_squad_angara: It's up to us to make sure that doesn't happen.
+                [0000D8E7] global_squad_angara: Meridian creates life. And the Archon could use it to do the opposite. Destroy everything.
+                ↩ (goto) [0000E0BA] global_squad_angara: It's up to us to make sure that doesn't happen.
             └─ merge ─┘
         ├ option 2:
-            Hero: Does it matter why? Where you came from doesn't change who you are.
-            global_squad_angara: True. And we still face the same conflicts.
-            global_squad_angara: I just... feel as though something has shifted. I... I need to think. I need to speak with the Moshae.
-            ↩ (goto) Narration: He trails off, calms himself. He knows there are bigger things at stake now. The group prepares to move on. They start walking.
+            [0000B083] Hero: Does it matter why? Where you came from doesn't change who you are.
+            [0000B094] global_squad_angara: True. And we still face the same conflicts.
+            [0000D8FA] global_squad_angara: I just... feel as though something has shifted. I... I need to think. I need to speak with the Moshae.
+            ↩ (goto) [0000D8E6] Narration: He trails off, calms himself. He knows there are bigger things at stake now. The group prepares to move on. They start walking.
         └─ merge ─┘
     ├ option 2:
-        Hero: Looks like they were running experiments of some kind.
+        [0000D82B] Hero: Looks like they were running experiments of some kind.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_asari ⟨cond⟩: You can't assume that. These are stasis pods, more practical for transportation than experimentation.
-            global_squad_asari: Maybe they were trying to help the angara.
-            Narration: Jaal looks disgusted at Peebee's defense of the Remnant.
-            global_squad_angara: We have to save them. Get them out, somehow.
-            SAM: Jaal. Pathfinder. They cannot be saved.
-            global_squad_angara: What?
-            SAM: I have analyzed the glyphs. These are not the angara we know. They are not even alive.
-            ↩ (goto) Narration: Jaal gets right up close to a stasis pod, staring at a vacant-eyed angara. The similarity is eerie.
+            [0000D870] global_squad_asari ⟨cond⟩: You can't assume that. These are stasis pods, more practical for transportation than experimentation.
+            [0000D873] global_squad_asari: Maybe they were trying to help the angara.
+            [0000D874] Narration: Jaal looks disgusted at Peebee's defense of the Remnant.
+            [0000D86A] global_squad_angara: We have to save them. Get them out, somehow.
+            [0000D70B] SAM: Jaal. Pathfinder. They cannot be saved.
+            [0000D70C] global_squad_angara: What?
+            [0000D70D] SAM: I have analyzed the glyphs. These are not the angara we know. They are not even alive.
+            ↩ (goto) [0000B055] Narration: Jaal gets right up close to a stasis pod, staring at a vacant-eyed angara. The similarity is eerie.
         ├ option 2:
-            ↩ (goto) global_squad_angara: We have to save them. Get them out, somehow.
+            ↩ (goto) [0000D86A] global_squad_angara: We have to save them. Get them out, somehow.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Narration: Ryder looks suspicious. He/she doesn't like what she's hearing.
-    Hero: Were they performing experiments on them?
-    SAM: Running an analysis on the glyphs...
-    Narration: Ryder moves around the vault, peering at the silent angara in the pods as SAM speaks.
-    SAM: These bodies are prototypes, from genetic blueprints. Each more refined than the last.
-    SAM: Using Meridian, they designed a species that would live in this cluster.
-    Narration: Ryder and squad stop and stare at each other. The significance of what they just heard sinks in.
-    Hero: The angara.
+    [0000D9E2] Narration: Ryder looks suspicious. He/she doesn't like what she's hearing.
+    [0000D9DF] Hero: Were they performing experiments on them?
+    [0000D9E0] SAM: Running an analysis on the glyphs...
+    [0000D9E5] Narration: Ryder moves around the vault, peering at the silent angara in the pods as SAM speaks.
+    [0000D9E3] SAM: These bodies are prototypes, from genetic blueprints. Each more refined than the last.
+    [0000D9E1] SAM: Using Meridian, they designed a species that would live in this cluster.
+    [0000D9E4] Narration: Ryder and squad stop and stare at each other. The significance of what they just heard sinks in.
+    [0000D9F2] Hero: The angara.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: They created... life? Then everything we've seen... we were just scratching the surface!
+        [0000DC83] global_squad_asari ⟨cond⟩: They created... life? Then everything we've seen... we were just scratching the surface!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: This revelation could shatter a people's worldview. The Moshae will know how best to break this to her people.
-            Narration: Ryder moves around the vault and touches another console. Lights come on.
-            Hero: So Meridian is not just about terraforming. It's capable of creating life. But why do something like this?
-            SAM: I can say nothing about the Remnant builders' ultimate purpose.
+            [00014823] Hero: This revelation could shatter a people's worldview. The Moshae will know how best to break this to her people.
+            [0000DA11] Narration: Ryder moves around the vault and touches another console. Lights come on.
+            [0000DA10] Hero: So Meridian is not just about terraforming. It's capable of creating life. But why do something like this?
+            [0000DA0F] SAM: I can say nothing about the Remnant builders' ultimate purpose.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                global_squad_asari ⟨cond⟩: They created life. The Archon could twist that around. Destroy life.
+                [0000DA0E] global_squad_asari ⟨cond⟩: They created life. The Archon could twist that around. Destroy life.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: Look at this tech. The builders intended Meridian to do great things. To advance science, not be used as a weapon.
-                    SAM: But the system still has destructive capabilities.
-                    Narration: Ryder takes one last look at an angara stasis pod. S/he looks determined.
-                    Hero: We'd better get to those controls.
+                    [0000AF06] Hero: Look at this tech. The builders intended Meridian to do great things. To advance science, not be used as a weapon.
+                    [0000B047] SAM: But the system still has destructive capabilities.
+                    [0000AF01] Narration: Ryder takes one last look at an angara stasis pod. S/he looks determined.
+                    [0000B049] Hero: We'd better get to those controls.
                 ├ option 2:
-                    Hero: Heleus is home. For the angara, and for us. Together we can stop the Archon from destroying it.
-                    ↩ (goto) Narration: Ryder takes one last look at an angara stasis pod. S/he looks determined.
+                    [0000AF08] Hero: Heleus is home. For the angara, and for us. Together we can stop the Archon from destroying it.
+                    ↩ (goto) [0000AF01] Narration: Ryder takes one last look at an angara stasis pod. S/he looks determined.
                 └─ merge ─┘
             ├ option 2:
-                global_squad_male_human ⟨cond⟩: But we know what the Archon could do. Use it to destroy life.
-                ↩ (goto) Narration: [empty]
+                [0000DA0C] global_squad_male_human ⟨cond⟩: But we know what the Archon could do. Use it to destroy life.
+                ↩ (goto) [0000B01A] Narration: [empty]
             ├ option 3:
-                global_squad_krogan ⟨cond⟩: They made life. What if the Archon could use Meridian to destroy life?
-                ↩ (goto) Narration: [empty]
+                [0000DA0D] global_squad_krogan ⟨cond⟩: They made life. What if the Archon could use Meridian to destroy life?
+                ↩ (goto) [0000B01A] Narration: [empty]
             ├ option 4:
-                global_squad_female_human ⟨cond⟩: But what if the Archon could use their power to destroy life?
-                ↩ (goto) Narration: [empty]
+                [0000DA0B] global_squad_female_human ⟨cond⟩: But what if the Archon could use their power to destroy life?
+                ↩ (goto) [0000B01A] Narration: [empty]
             ├ option 5:
-                global_squad_turian ⟨cond⟩: But the Archon could use their power to destroy life.
-                ↩ (goto) Narration: [empty]
+                [0000DA0A] global_squad_turian ⟨cond⟩: But the Archon could use their power to destroy life.
+                ↩ (goto) [0000B01A] Narration: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero: Where they come from doesn't change who the angara are now. They're still the same people.
-            ↩ (goto) Narration: Ryder moves around the vault and touches another console. Lights come on.
+            [00014820] Hero: Where they come from doesn't change who the angara are now. They're still the same people.
+            ↩ (goto) [0000DA11] Narration: Ryder moves around the vault and touches another console. Lights come on.
         └─ merge ─┘
     ├ option 2:
-        SAM: There is nothing in the angaran records that hints at their origin.
+        [0000D9EA] SAM: There is nothing in the angaran records that hints at their origin.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero: This revelation could shatter a people's worldview. The Moshae will know how best to break this to her people.
+            ↩ (goto) [00014823] Hero: This revelation could shatter a people's worldview. The Moshae will know how best to break this to her people.
         ├ option 2:
-            ↩ (goto) Hero: Where they come from doesn't change who the angara are now. They're still the same people.
+            ↩ (goto) [00014820] Hero: Where they come from doesn't change who the angara are now. They're still the same people.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

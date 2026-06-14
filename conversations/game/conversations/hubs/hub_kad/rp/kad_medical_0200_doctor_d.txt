@@ -2,62 +2,62 @@
 # Primary speaker: kad_doctor
 # Source: game/conversations/hubs/hub_kad/rp/kad_medical_0200_doctor_d.xml
 ==================================================
-kad_doctor: You look well enough. My patients are usually leaking from {i}somewhere{/i}.
+[000196CB] kad_doctor: You look well enough. My patients are usually leaking from {i}somewhere{/i}.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: No leaking here. Just seeing all Kadara has to offer.
-    kad_doctor: A tourist, huh?
-    Hero: Pathfinder, actually.
-    kad_doctor: One survived? Could've used you when we got to Heleus.
-    kad_doctor: Dr. Ryota Nakamoto. I used to work as the Outcasts' physician.
-    kad_doctor: Quit after Sloane turned what should've been a medical breakthrough into a drug.
+    [000196D3] Hero: No leaking here. Just seeing all Kadara has to offer.
+    [000196C7] kad_doctor: A tourist, huh?
+    [000196CF] Hero: Pathfinder, actually.
+    [000196B3] kad_doctor: One survived? Could've used you when we got to Heleus.
+    [000196C9] kad_doctor: Dr. Ryota Nakamoto. I used to work as the Outcasts' physician.
+    [000196C5] kad_doctor: Quit after Sloane turned what should've been a medical breakthrough into a drug.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I thought she was supposed to be a woman of the people.
-        kad_doctor: She's whatever she needs to be to stay in power.
-        kad_doctor: When we arrived on Kadara, I found a local string of bacteria that shares properties with penicillin.
-        Hero: Quite the find.
-        kad_doctor: It was—until I discovered the drug is addictive and induces hallucinations in large doses.
-        kad_doctor: I took my concerns to Sloane.
-        kad_doctor: All she saw was an opportunity to make a profit. Called the drug "Oblivion."
-        kad_doctor: But beyond stealing back my formula, there's no way to stop her.
+        [000196BD] Hero: I thought she was supposed to be a woman of the people.
+        [000196BC] kad_doctor: She's whatever she needs to be to stay in power.
+        [000196B4] kad_doctor: When we arrived on Kadara, I found a local string of bacteria that shares properties with penicillin.
+        [000265DB] Hero: Quite the find.
+        [000196B6] kad_doctor: It was—until I discovered the drug is addictive and induces hallucinations in large doses.
+        [000196B0] kad_doctor: I took my concerns to Sloane.
+        [000196AF] kad_doctor: All she saw was an opportunity to make a profit. Called the drug "Oblivion."
+        [000196CE] kad_doctor: But beyond stealing back my formula, there's no way to stop her.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: So let's steal the formula.
-            kad_doctor: Are you crazy? It's heavily guarded. I'm a doctor. I don't know how to fight.
+            [000196B7] Hero: So let's steal the formula.
+            [000196C4] kad_doctor: Are you crazy? It's heavily guarded. I'm a doctor. I don't know how to fight.
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} We do.
-                kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+                [000196C3] global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} We do.
+                [000196BF] kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
             ├ option 2:
-                global_squad_female_human ⟨cond⟩: You don't have to. We'll handle this.
-                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+                [000196CA] global_squad_female_human ⟨cond⟩: You don't have to. We'll handle this.
+                ↩ (goto) [000196BF] kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
             ├ option 3:
-                global_squad_asari ⟨cond⟩: Don't worry. We got this.
-                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+                [000196BE] global_squad_asari ⟨cond⟩: Don't worry. We got this.
+                ↩ (goto) [000196BF] kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
             ├ option 4:
-                global_squad_male_human ⟨cond⟩: You keep doctoring. We'll do the fighting.
-                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+                [000196C2] global_squad_male_human ⟨cond⟩: You keep doctoring. We'll do the fighting.
+                ↩ (goto) [000196BF] kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
             ├ option 5:
-                global_squad_angara ⟨cond⟩: Leave the fighting to us.
-                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+                [000196C6] global_squad_angara ⟨cond⟩: Leave the fighting to us.
+                ↩ (goto) [000196BF] kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
             ├ option 6:
-                global_squad_turian ⟨cond⟩: We'll handle it.
-                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+                [000196C8] global_squad_turian ⟨cond⟩: We'll handle it.
+                ↩ (goto) [000196BF] kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
             └─ merge ─┘
         ├ option 2:
-            Hero: All that would do is piss off Sloane.
-            kad_doctor: I don't give a damn how she feels. People are dying and it's because of my work.
-            kad_doctor: I hate to ask you this, but... the formula's in my old lab. Maybe you could get it back?
-            kad_doctor: I can't fight, otherwise I'd do it myself.
-            Hero: No promises, but I'll see what I can do.
+            [000196B1] Hero: All that would do is piss off Sloane.
+            [000196AE] kad_doctor: I don't give a damn how she feels. People are dying and it's because of my work.
+            [000234B3] kad_doctor: I hate to ask you this, but... the formula's in my old lab. Maybe you could get it back?
+            [000234B2] kad_doctor: I can't fight, otherwise I'd do it myself.
+            [000234B1] Hero: No promises, but I'll see what I can do.
         └─ merge ─┘
     ├ option 2:
-        Hero: She's a criminal. What did you expect?
-        kad_doctor: She wasn't always like this. Life since the Nexus... it's changed all of us.
-        ↩ (goto) kad_doctor: When we arrived on Kadara, I found a local string of bacteria that shares properties with penicillin.
+        [000196CC] Hero: She's a criminal. What did you expect?
+        [000196B5] kad_doctor: She wasn't always like this. Life since the Nexus... it's changed all of us.
+        ↩ (goto) [000196B4] kad_doctor: When we arrived on Kadara, I found a local string of bacteria that shares properties with penicillin.
     └─ merge ─┘
 ├ option 2:
-    Hero: I actually have my own doctor. Name's Ryder. I'm a Pathfinder.
-    ↩ (goto) kad_doctor: One survived? Could've used you when we got to Heleus.
+    [000196C0] Hero: I actually have my own doctor. Name's Ryder. I'm a Pathfinder.
+    ↩ (goto) [000196B3] kad_doctor: One survived? Could've used you when we got to Heleus.
 └─ merge ─┘

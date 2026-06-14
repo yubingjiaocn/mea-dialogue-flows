@@ -4,36 +4,36 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM: The file Harry gave me on TH-314 indicates that paranoia is the hallmark of Stage 2.
-    Hero: Meaning?
-    SAM: Ruth Bekker has progressed to Stage 2.
-    SAM: The virus becomes highly contagious in Stage 3.
-    Hero: If she gets off the station...
-    SAM: The risks of a pandemic increase greatly.
+    [00020316] SAM: The file Harry gave me on TH-314 indicates that paranoia is the hallmark of Stage 2.
+    [00020314] Hero: Meaning?
+    [00020315] SAM: Ruth Bekker has progressed to Stage 2.
+    [00020323] SAM: The virus becomes highly contagious in Stage 3.
+    [000217C0] Hero: If she gets off the station...
+    [000217C1] SAM: The risks of a pandemic increase greatly.
 ├ option 2:
-    Hero: SAM. Paranoia defines Stage 2 of TH-314, right?
-    SAM: Correct.
-    ↩ (goto) SAM: The virus becomes highly contagious in Stage 3.
+    [00020325] Hero: SAM. Paranoia defines Stage 2 of TH-314, right?
+    [00020321] SAM: Correct.
+    ↩ (goto) [00020323] SAM: The virus becomes highly contagious in Stage 3.
 └─ merge ─┘
-global_crew_doctor_multi: [Comm] Ryder, we have a problem. A shuttle was stolen after a dockworker was attacked.
-global_crew_doctor_multi: [Comm] From the description he gave me, it was Ruth.
-Hero: Well, that's not good.
-global_crew_doctor_multi: [Comm] No. She's definitely in Stage 2. Go speak with that dockworker.
-global_crew_doctor_multi: [Comm] It's very bad if she got off the station.
-nexus_rp_ctn_secguard: Are you sure? We should really get medical to check you out.
-nexus_rp_ctn_wit3: I'm fine. She just took me by surprise. I wasn't expecting her to just attack me like that.
+[0001FFEA] global_crew_doctor_multi: [Comm] Ryder, we have a problem. A shuttle was stolen after a dockworker was attacked.
+[0001FFF0] global_crew_doctor_multi: [Comm] From the description he gave me, it was Ruth.
+[0001FFF1] Hero: Well, that's not good.
+[0001FFFA] global_crew_doctor_multi: [Comm] No. She's definitely in Stage 2. Go speak with that dockworker.
+[000217C2] global_crew_doctor_multi: [Comm] It's very bad if she got off the station.
+[0002026C] nexus_rp_ctn_secguard: Are you sure? We should really get medical to check you out.
+[00020279] nexus_rp_ctn_wit3: I'm fine. She just took me by surprise. I wasn't expecting her to just attack me like that.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    Hero: How are we doing this, SAM?
-    SAM: I can decipher the path she took from her omni-tool's automatic pings to the security system.
-    SAM: A simple scan of the area should suffice.
-    Hero: And with the time stamps, we can literally retrace her steps. Nice, SAM.
+    [00026BBC] Hero: How are we doing this, SAM?
+    [00026BBB] SAM: I can decipher the path she took from her omni-tool's automatic pings to the security system.
+    [00026BD5] SAM: A simple scan of the area should suffice.
+    [00026BBD] Hero: And with the time stamps, we can literally retrace her steps. Nice, SAM.
 ├ option 2:
-    SAM: This way.
+    [00026BC0] SAM: This way.
 ├ option 3:
-    SAM: Ruth Bekker was here.
+    [00026BBF] SAM: Ruth Bekker was here.
 ├ option 4:
-    SAM: She was here.
+    [00026BC9] SAM: She was here.
 ├ option 5:
-    SAM: There are no location pings on Miss Bekker's omni-tool in this location.
+    [00026BCA] SAM: There are no location pings on Miss Bekker's omni-tool in this location.
 └─ merge ─┘

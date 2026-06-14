@@ -2,43 +2,43 @@
 # Primary speaker: olw_cultist
 # Source: game/conversations/unc/olw/kurinthvalley/olw_0100_behemoth_audio_log_i.xml
 ==================================================
-olw_cultist: [Audio Log] Great one! Turn your gaze upon me! Accept this tribute!
-olw_cultist: [Audio Log] Reshape the world in your—wait! Great one! Wait! Ah!
+[00029D08] olw_cultist: [Audio Log] Great one! Turn your gaze upon me! Accept this tribute!
+[00029D06] olw_cultist: [Audio Log] Reshape the world in your—wait! Great one! Wait! Ah!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: Well, he got its attention.
-        Hero: Let's report back to Christmas.
+        [00029D02] global_squad_asari ⟨cond⟩: Well, he got its attention.
+        [00029D0F] Hero: Let's report back to Christmas.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: Must be Bishop.
-        ↩ (goto) Hero: Let's report back to Christmas.
+        [00029D04] global_squad_turian ⟨cond⟩: Must be Bishop.
+        ↩ (goto) [00029D0F] Hero: Let's report back to Christmas.
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: What an idiot.
-        ↩ (goto) Hero: Let's report back to Christmas.
+        [00029D07] global_squad_krogan ⟨cond⟩: What an idiot.
+        ↩ (goto) [00029D0F] Hero: Let's report back to Christmas.
     ├ option 4:
-        global_squad_female_human ⟨cond⟩: Bishop I presume.
-        ↩ (goto) Hero: Let's report back to Christmas.
+        [00029D10] global_squad_female_human ⟨cond⟩: Bishop I presume.
+        ↩ (goto) [00029D0F] Hero: Let's report back to Christmas.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Yikes. Bad way to go.
-        ↩ (goto) Hero: Let's report back to Christmas.
+        [00029D0D] global_squad_male_human ⟨cond⟩: Yikes. Bad way to go.
+        ↩ (goto) [00029D0F] Hero: Let's report back to Christmas.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: People are weird.
-        Hero: He's wearing an Initiative uniform. We should check in with the outpost.
+        [00029D0B] global_squad_asari ⟨cond⟩: People are weird.
+        [00029D00] Hero: He's wearing an Initiative uniform. We should check in with the outpost.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: What was that about?
-        ↩ (goto) Hero: He's wearing an Initiative uniform. We should check in with the outpost.
+        [00029D09] global_squad_turian ⟨cond⟩: What was that about?
+        ↩ (goto) [00029D00] Hero: He's wearing an Initiative uniform. We should check in with the outpost.
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: {i}(Grunts.){/i} Stupid.
-        ↩ (goto) Hero: He's wearing an Initiative uniform. We should check in with the outpost.
+        [00029D05] global_squad_krogan ⟨cond⟩: {i}(Grunts.){/i} Stupid.
+        ↩ (goto) [00029D00] Hero: He's wearing an Initiative uniform. We should check in with the outpost.
     ├ option 4:
-        global_squad_female_human ⟨cond⟩: That was weird.
-        ↩ (goto) Hero: He's wearing an Initiative uniform. We should check in with the outpost.
+        [00029D0C] global_squad_female_human ⟨cond⟩: That was weird.
+        ↩ (goto) [00029D00] Hero: He's wearing an Initiative uniform. We should check in with the outpost.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Was he talking to the Architect?
-        ↩ (goto) Hero: He's wearing an Initiative uniform. We should check in with the outpost.
+        [00029D01] global_squad_male_human ⟨cond⟩: Was he talking to the Architect?
+        ↩ (goto) [00029D00] Hero: He's wearing an Initiative uniform. We should check in with the outpost.
     └─ merge ─┘
 └─ merge ─┘

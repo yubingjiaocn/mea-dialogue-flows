@@ -4,65 +4,65 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    mer_hub_staff_chief_op_multi ⟨cond⟩: Up straight, everyone. This is the guest of honor.
-    mer_hub_staff_construction_multi: Like you have to tell anyone that.
-    mer_hub_staff_placements_multi: Hunter, this is our opening. Let there be some sense of ceremony.
-    mer_hub_staff_chief_op_multi: As I was about to say: Hello Pathfinder. I am Chief of Operations Iora Pillay.
-    mer_hub_staff_placements_multi: Second wave Placements Officer Darla vas Hyperion.
-    mer_hub_staff_construction_multi: Hunter Kerry. Reconstruction.
+    [0002AD61] mer_hub_staff_chief_op_multi ⟨cond⟩: Up straight, everyone. This is the guest of honor.
+    [0002AD60] mer_hub_staff_construction_multi: Like you have to tell anyone that.
+    [0002AD5E] mer_hub_staff_placements_multi: Hunter, this is our opening. Let there be some sense of ceremony.
+    [0002AD5F] mer_hub_staff_chief_op_multi: As I was about to say: Hello Pathfinder. I am Chief of Operations Iora Pillay.
+    [0002AD84] mer_hub_staff_placements_multi: Second wave Placements Officer Darla vas Hyperion.
+    [0002AD7F] mer_hub_staff_construction_multi: Hunter Kerry. Reconstruction.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        Hero: Iora Pillay. You're in charge of Meridian?
-        mer_hub_staff_chief_op_multi: That's a big statement. I will oversee the operations and establishment of our port.
-        mer_hub_staff_chief_op_multi: Exploration and study of the... interesting substructure will be handled by Initiative R&D.
-        mer_hub_staff_chief_op_multi: I'm told that may take lifetimes. We'll ensure that we have them. That's what I trained for.
-        ↩ (goto) mer_hub_staff_construction_multi: [empty]
+        [0002AD80] Hero: Iora Pillay. You're in charge of Meridian?
+        [0002AD8B] mer_hub_staff_chief_op_multi: That's a big statement. I will oversee the operations and establishment of our port.
+        [0002AD8A] mer_hub_staff_chief_op_multi: Exploration and study of the... interesting substructure will be handled by Initiative R&D.
+        [0002AD89] mer_hub_staff_chief_op_multi: I'm told that may take lifetimes. We'll ensure that we have them. That's what I trained for.
+        ↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]
     ├ option 2:
-        Hero: Darla vas Hyperion. Placements Officer?
-        mer_hub_staff_placements_multi: As our developments in the cluster grow more sophisticated, proper matching of sleeper and assignment will be vital.
-        mer_hub_staff_placements_multi: My mission is to ensure compatibility and fulfillment.
+        [0002AD7D] Hero: Darla vas Hyperion. Placements Officer?
+        [0002ADA4] mer_hub_staff_placements_multi: As our developments in the cluster grow more sophisticated, proper matching of sleeper and assignment will be vital.
+        [0002ADA7] mer_hub_staff_placements_multi: My mission is to ensure compatibility and fulfillment.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            mer_hub_staff_construction_multi [OncePerGame]: When are you changing your name to "vas Meridian"?
-            mer_hub_staff_placements_multi: I keep "vas Hyperion" to honor the ship that brought us here, as my godparents would want.
-            mer_hub_staff_construction_multi: Just saying we're staying.
-            mer_hub_staff_placements_multi: Please forgive Hunter. He is an ass.
-            ↩ (goto) mer_hub_staff_construction_multi: [empty]
+            [0002ADA2] mer_hub_staff_construction_multi [OncePerGame]: When are you changing your name to "vas Meridian"?
+            [0002ADC4] mer_hub_staff_placements_multi: I keep "vas Hyperion" to honor the ship that brought us here, as my godparents would want.
+            [0002ADC3] mer_hub_staff_construction_multi: Just saying we're staying.
+            [0002ADC5] mer_hub_staff_placements_multi: Please forgive Hunter. He is an ass.
+            ↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]
         ├ option 2:
-            ↩ (goto) mer_hub_staff_construction_multi: [empty]
+            ↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]
         └─ merge ─┘
     ├ option 3:
-        Hero: Hunter Kerry. Can I get some clarification on "Reconstruction"?
-        mer_hub_staff_construction_multi: Sure thing. I'm tasked with turning this once-proud vessel into the future-proud human capital.
-        mer_hub_staff_chief_op_multi: It's more complicated than that.
-        mer_hub_staff_construction_multi: Oh, it's a structural and organizational nightmare. Which is job security. Which is perfect.
-        mer_hub_staff_construction_multi: Come back in a year. This will be a galactic hub. You won't know where the Hyperion ends and Meridian begins.
-        ↩ (goto) mer_hub_staff_construction_multi: [empty]
+        [0002AD85] Hero: Hunter Kerry. Can I get some clarification on "Reconstruction"?
+        [0002ADA1] mer_hub_staff_construction_multi: Sure thing. I'm tasked with turning this once-proud vessel into the future-proud human capital.
+        [0002ADA3] mer_hub_staff_chief_op_multi: It's more complicated than that.
+        [0002ADA6] mer_hub_staff_construction_multi: Oh, it's a structural and organizational nightmare. Which is job security. Which is perfect.
+        [0002ADC9] mer_hub_staff_construction_multi: Come back in a year. This will be a galactic hub. You won't know where the Hyperion ends and Meridian begins.
+        ↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]
     ├ option 4:
-        Hero: This is the first I've heard of the term "second wave."
-        mer_hub_staff_chief_op_multi: It isn't literal. There have been several groups deployed for outposts. "Second wave" is about the staged evolution of the Initiative.
-        mer_hub_staff_placements_multi: First wave out of cryo: structural support and generalists. "Food and fences."
-        mer_hub_staff_placements_multi: Second wave is organizational. Less generalists, more specialists.
+        [0002ADAC] Hero: This is the first I've heard of the term "second wave."
+        [0002ADBB] mer_hub_staff_chief_op_multi: It isn't literal. There have been several groups deployed for outposts. "Second wave" is about the staged evolution of the Initiative.
+        [0002ADB9] mer_hub_staff_placements_multi: First wave out of cryo: structural support and generalists. "Food and fences."
+        [0002ADB8] mer_hub_staff_placements_multi: Second wave is organizational. Less generalists, more specialists.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            mer_hub_staff_construction_multi [OncePerGame]: More paperwork.
-            mer_hub_staff_chief_op_multi: It's needed to rapidly advance. I'm not spending a generation "on the range."
-            ↩ (goto) mer_hub_staff_construction_multi: [empty]
+            [0002ADB7] mer_hub_staff_construction_multi [OncePerGame]: More paperwork.
+            [0002ADBA] mer_hub_staff_chief_op_multi: It's needed to rapidly advance. I'm not spending a generation "on the range."
+            ↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]
         ├ option 2:
-            ↩ (goto) mer_hub_staff_construction_multi: [empty]
+            ↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]
         └─ merge ─┘
     ├ option 5:
-        Hero ⟨cond⟩: Sounds like Meridian is in good hands.
-        mer_hub_staff_chief_op_multi: I can only read the reports of how you brought us this opportunity, but rest assured, we will not waste it.
-        mer_hub_staff_placements_multi: Yes. Thank you, Pathfinder.
-        mer_hub_staff_construction_multi: Eh, what they said.
+        [0002AD81] Hero ⟨cond⟩: Sounds like Meridian is in good hands.
+        [0002AD88] mer_hub_staff_chief_op_multi: I can only read the reports of how you brought us this opportunity, but rest assured, we will not waste it.
+        [0002AD87] mer_hub_staff_placements_multi: Yes. Thank you, Pathfinder.
+        [0002AD86] mer_hub_staff_construction_multi: Eh, what they said.
     ├ option 6:
-        Hero ⟨cond⟩: Another time.
-        mer_hub_staff_chief_op_multi: Of course, Pathfinder.
+        [0002AD8D] Hero ⟨cond⟩: Another time.
+        [0002ADA9] mer_hub_staff_chief_op_multi: Of course, Pathfinder.
     └─ merge ─┘
 ├ option 2:
-    mer_hub_staff_chief_op_multi: Up straight, everyone. This is the guest of honor.
-    ↩ (goto) mer_hub_staff_construction_multi: Like you have to tell anyone that.
+    [0002F528] mer_hub_staff_chief_op_multi: Up straight, everyone. This is the guest of honor.
+    ↩ (goto) [0002AD60] mer_hub_staff_construction_multi: Like you have to tell anyone that.
 └─ merge ─┘
-mer_hub_staff_chief_op_multi: Hello again, Pathfinder. Meridian's best are ready for full-scale operations.
-↩ (goto) mer_hub_staff_construction_multi: [empty]
+[0002AD8C] mer_hub_staff_chief_op_multi: Hello again, Pathfinder. Meridian's best are ready for full-scale operations.
+↩ (goto) [0002AE77] mer_hub_staff_construction_multi: [empty]

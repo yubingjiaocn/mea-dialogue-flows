@@ -2,96 +2,96 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Crit_Mer/crit_fin_710_control_entry_b.xml
 ==================================================
-Hero: Tempest, we're going in after the Archon.
-global_crew_co-pilot: [Comm] I'll relay the layout to anyone following.
-global_crew_science_officer: [Comm] Whoa, energy spike! The Archon is doing something in there.
+[0000DD61] Hero: Tempest, we're going in after the Archon.
+[0000DD67] global_crew_co-pilot: [Comm] I'll relay the layout to anyone following.
+[0000DDDD] global_crew_science_officer: [Comm] Whoa, energy spike! The Archon is doing something in there.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_humanark_asari_dr ⟨cond⟩: [Comm] Standing by. Scott may need attention.
+    [0000DD63] global_humanark_asari_dr ⟨cond⟩: [Comm] Standing by. Scott may need attention.
 ├ option 2:
-    global_humanark_asari_dr: [Comm] Standing by. Sara may need attention.
+    [0000DDDC] global_humanark_asari_dr: [Comm] Standing by. Sara may need attention.
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Krogan are kroganing the hell out of the kett, Pathfinder.
+    [00015AA7] crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Krogan are kroganing the hell out of the kett, Pathfinder.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: We're pulling together. Can you believe it?
-        Hero: It won't matter if the Archon gets control and blows up worlds.
+        [0000DDF4] global_squad_female_human ⟨cond⟩: We're pulling together. Can you believe it?
+        [0000DDF7] Hero: It won't matter if the Archon gets control and blows up worlds.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: Then we end him.
+            [0000DDFA] global_squad_krogan ⟨cond⟩: Then we end him.
         ├ option 2:
-            global_squad_turian ⟨cond⟩: Don't need to remind me.
+            [0000DDFB] global_squad_turian ⟨cond⟩: Don't need to remind me.
         ├ option 3:
-            global_squad_male_human ⟨cond⟩: All I want is a straight-up fight.
+            [0000DE09] global_squad_male_human ⟨cond⟩: All I want is a straight-up fight.
         ├ option 4:
-            global_squad_angara ⟨cond⟩: That hasn't left my mind for a moment.
+            [0000DE0A] global_squad_angara ⟨cond⟩: That hasn't left my mind for a moment.
         ├ option 5:
-            global_squad_asari ⟨cond⟩: After seeing this place? No way I let him keep it.
+            [0000DDFD] global_squad_asari ⟨cond⟩: After seeing this place? No way I let him keep it.
         └─ merge ─┘
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Kicking them out everywhere. We're doing it.
-        ↩ (goto) Hero: It won't matter if the Archon gets control and blows up worlds.
+        [0000DDF6] global_squad_asari ⟨cond⟩: Kicking them out everywhere. We're doing it.
+        ↩ (goto) [0000DDF7] Hero: It won't matter if the Archon gets control and blows up worlds.
     ├ option 3:
-        global_squad_angara ⟨cond⟩: It's like a dream. All of us together.
-        ↩ (goto) Hero: It won't matter if the Archon gets control and blows up worlds.
+        [0000DDF0] global_squad_angara ⟨cond⟩: It's like a dream. All of us together.
+        ↩ (goto) [0000DDF7] Hero: It won't matter if the Archon gets control and blows up worlds.
     ├ option 4:
-        global_squad_male_human ⟨cond⟩: Holy shit, we actually might win this!
-        ↩ (goto) Hero: It won't matter if the Archon gets control and blows up worlds.
+        [0000DDF3] global_squad_male_human ⟨cond⟩: Holy shit, we actually might win this!
+        ↩ (goto) [0000DDF7] Hero: It won't matter if the Archon gets control and blows up worlds.
     ├ option 5:
-        global_squad_turian ⟨cond⟩: The fight of our lives. And we're winning it.
-        ↩ (goto) Hero: It won't matter if the Archon gets control and blows up worlds.
+        [0000DDF5] global_squad_turian ⟨cond⟩: The fight of our lives. And we're winning it.
+        ↩ (goto) [0000DDF7] Hero: It won't matter if the Archon gets control and blows up worlds.
     └─ merge ─┘
 ├ option 2:
-    crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Our settlers are fighting like it's home, Pathfinder.
-    ↩ (goto) crit_fin_ally_pilot_01: [empty]
+    [00015AA5] crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Our settlers are fighting like it's home, Pathfinder.
+    ↩ (goto) [00015AAA] crit_fin_ally_pilot_01: [empty]
 ├ option 3:
-    crit_fin_ally_faction_01 ⟨cond⟩: [Comm] The asari are deploying, Pathfinder. Almost feel sorry for the kett.
-    ↩ (goto) crit_fin_ally_pilot_01: [empty]
+    [00015AA8] crit_fin_ally_faction_01 ⟨cond⟩: [Comm] The asari are deploying, Pathfinder. Almost feel sorry for the kett.
+    ↩ (goto) [00015AAA] crit_fin_ally_pilot_01: [empty]
 ├ option 4:
-    crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Vetra's mercs are taking it to the kett, Pathfinder.
-    ↩ (goto) crit_fin_ally_pilot_01: [empty]
+    [00015AA9] crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Vetra's mercs are taking it to the kett, Pathfinder.
+    ↩ (goto) [00015AAA] crit_fin_ally_pilot_01: [empty]
 ├ option 5:
-    crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Angara are taking it to the kett, Pathfinder.
-    ↩ (goto) crit_fin_ally_pilot_01: [empty]
+    [00015AA6] crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Angara are taking it to the kett, Pathfinder.
+    ↩ (goto) [00015AAA] crit_fin_ally_pilot_01: [empty]
 ├ option 6:
-    crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Sketchy landing, but strike teams are making do.
-    ↩ (goto) crit_fin_ally_pilot_01: [empty]
+    [00015AA4] crit_fin_ally_faction_01 ⟨cond⟩: [Comm] Sketchy landing, but strike teams are making do.
+    ↩ (goto) [00015AAA] crit_fin_ally_pilot_01: [empty]
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: How deep can we go before we're back in space?
-    Hero: I guess we'll find out.
+    [0000DE08] global_squad_female_human ⟨cond⟩: How deep can we go before we're back in space?
+    [0000DDFC] Hero: I guess we'll find out.
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Don't worry. This well won't go deep enough to breach the exterior. I'm... almost sure.
-    ↩ (goto) Hero: I guess we'll find out.
+    [0000DE07] global_squad_asari ⟨cond⟩: Don't worry. This well won't go deep enough to breach the exterior. I'm... almost sure.
+    ↩ (goto) [0000DDFC] Hero: I guess we'll find out.
 ├ option 3:
-    global_squad_angara ⟨cond⟩: How far can you go into the shell of a hollow world?
-    ↩ (goto) Hero: I guess we'll find out.
+    [0000DDFF] global_squad_angara ⟨cond⟩: How far can you go into the shell of a hollow world?
+    ↩ (goto) [0000DDFC] Hero: I guess we'll find out.
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: How far can we go in before we're heading out?
-    Hero: Halfway?
-    global_squad_male_human: I asked for that.
+    [0000DE03] global_squad_male_human ⟨cond⟩: How far can we go in before we're heading out?
+    [00027028] Hero: Halfway?
+    [00027027] global_squad_male_human: I asked for that.
 ├ option 5:
-    global_squad_turian ⟨cond⟩: If this goes too far, we'll be back in space.
-    ↩ (goto) Hero: I guess we'll find out.
+    [0000DE05] global_squad_turian ⟨cond⟩: If this goes too far, we'll be back in space.
+    ↩ (goto) [0000DDFC] Hero: I guess we'll find out.
 ├ option 6:
-    global_squad_krogan ⟨cond⟩: Looks deep. How thick you think this shell is?
-    ↩ (goto) Hero: I guess we'll find out.
+    [0000DE06] global_squad_krogan ⟨cond⟩: Looks deep. How thick you think this shell is?
+    ↩ (goto) [0000DDFC] Hero: I guess we'll find out.
 └─ merge ─┘
-Hero: Those pillars don't seem structural. Is this all "Meridian"?
+[0001768D] Hero: Those pillars don't seem structural. Is this all "Meridian"?
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: It's massive. How many worlds could link through here?
+    [00017688] global_squad_female_human ⟨cond⟩: It's massive. How many worlds could link through here?
 ├ option 2:
-    global_squad_asari ⟨cond⟩: I see patterns like in their small processors, except the scale here is... crazy.
+    [0001768A] global_squad_asari ⟨cond⟩: I see patterns like in their small processors, except the scale here is... crazy.
 ├ option 3:
-    global_squad_angara ⟨cond⟩: We thought the Scourge hid other planets. But how many link through here?
+    [00017689] global_squad_angara ⟨cond⟩: We thought the Scourge hid other planets. But how many link through here?
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: You know what Remnant can do. How many worlds are out there?
+    [0001768C] global_squad_male_human ⟨cond⟩: You know what Remnant can do. How many worlds are out there?
 ├ option 5:
-    global_squad_turian ⟨cond⟩: The capacity of that kind of hardware... how many worlds could it link?
+    [0001768E] global_squad_turian ⟨cond⟩: The capacity of that kind of hardware... how many worlds could it link?
 ├ option 6:
-    global_squad_krogan ⟨cond⟩: Eh, so it's big. And controls a galaxy. We can still take it with guns.
+    [0001768F] global_squad_krogan ⟨cond⟩: Eh, so it's big. And controls a galaxy. We can still take it with guns.
 └─ merge ─┘

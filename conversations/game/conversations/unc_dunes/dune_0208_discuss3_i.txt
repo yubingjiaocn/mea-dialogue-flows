@@ -4,50 +4,50 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    dune_colony_discuss_05 [OncePerGame]: Hey Nexus, back me up. The Initiative did cure the genophage like they promised, right?
-    Hero: Not a cure. They've made some good progress.
-    dune_colony_discuss_06: Barely. There's no point in getting our hopes up.
-    dune_colony_discuss_05: It's our duty to populate the colony with strong Nakmor offspring. Am I right?
+    [0003354C] dune_colony_discuss_05 [OncePerGame]: Hey Nexus, back me up. The Initiative did cure the genophage like they promised, right?
+    [0003356C] Hero: Not a cure. They've made some good progress.
+    [0002E855] dune_colony_discuss_06: Barely. There's no point in getting our hopes up.
+    [00033567] dune_colony_discuss_05: It's our duty to populate the colony with strong Nakmor offspring. Am I right?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero [OncePerGame]: Have you tried having kids before?
-        dune_colony_discuss_05: Of course. Before the journey—and after—and often. We just need to keep trying!
-        Hero: Doesn't hurt to try?
-        dune_colony_discuss_06: It's easy for you to say. Your children don't die in their eggs.
+        [0003356A] Hero [OncePerGame]: Have you tried having kids before?
+        [00033568] dune_colony_discuss_05: Of course. Before the journey—and after—and often. We just need to keep trying!
+        [00033569] Hero: Doesn't hurt to try?
+        [0002E858] dune_colony_discuss_06: It's easy for you to say. Your children don't die in their eggs.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: You need to listen to her on this one. Maybe back off a little.
-            dune_colony_discuss_05: Don't you want a few little ones running around?
-            dune_colony_discuss_06: You know I do, but I'm not setting myself up for heartbreak.
-            dune_colony_discuss_06: I'll consider it, when the cure is actually a cure.
+            [0002E853] Hero: You need to listen to her on this one. Maybe back off a little.
+            [0002E854] dune_colony_discuss_05: Don't you want a few little ones running around?
+            [0002E850] dune_colony_discuss_06: You know I do, but I'm not setting myself up for heartbreak.
+            [00033571] dune_colony_discuss_06: I'll consider it, when the cure is actually a cure.
         ├ option 2:
-            Hero: This is a new life for the krogan. Anything can happen.
+            [0002E856] Hero: This is a new life for the krogan. Anything can happen.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                global_squad_krogan ⟨cond⟩: Pathfinder's right. We're starting over.
-                dune_colony_discuss_05: We've actually got a shot at having a kid now.
-                dune_colony_discuss_06: {i}(Sighs.){/i} Let's continue this discussion later.
+                [0002E8DE] global_squad_krogan ⟨cond⟩: Pathfinder's right. We're starting over.
+                [0002E851] dune_colony_discuss_05: We've actually got a shot at having a kid now.
+                [0002E859] dune_colony_discuss_06: {i}(Sighs.){/i} Let's continue this discussion later.
             ├ option 2:
-                global_squad_krogan ⟨cond⟩: Pathfinder's right. We're starting over.
-                ↩ (goto) dune_colony_discuss_05: We've actually got a shot at having a kid now.
+                [00030ECB] global_squad_krogan ⟨cond⟩: Pathfinder's right. We're starting over.
+                ↩ (goto) [0002E851] dune_colony_discuss_05: We've actually got a shot at having a kid now.
             ├ option 3:
-                dune_colony_discuss_05: Come on. Nexus has a point.
-                ↩ (goto) dune_colony_discuss_05: We've actually got a shot at having a kid now.
+                [0002E85D] dune_colony_discuss_05: Come on. Nexus has a point.
+                ↩ (goto) [0002E851] dune_colony_discuss_05: We've actually got a shot at having a kid now.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: You need to listen to her on this one. Maybe back off a little.
+        ↩ (goto) [0002E853] Hero: You need to listen to her on this one. Maybe back off a little.
     ├ option 3:
-        ↩ (goto) Hero: This is a new life for the krogan. Anything can happen.
+        ↩ (goto) [0002E856] Hero: This is a new life for the krogan. Anything can happen.
     └─ merge ─┘
 ├ option 2:
-    dune_colony_discuss_05: Thanks for trying, Nexus. I'll get through to her.
+    [0002E85C] dune_colony_discuss_05: Thanks for trying, Nexus. I'll get through to her.
 └─ merge ─┘
-dune_colony_discuss_06: Are you telling us to—no, I don't want to know.
-global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i}
+[0002E85B] dune_colony_discuss_06: Are you telling us to—no, I don't want to know.
+[0002E8DD] global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i}
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) dune_colony_discuss_05: Come on. Nexus has a point.
+    ↩ (goto) [0002E85D] dune_colony_discuss_05: Come on. Nexus has a point.
 ├ option 2:
-    dune_colony_discuss_05: At least try. For me?
+    [0002E85A] dune_colony_discuss_05: At least try. For me?
 └─ merge ─┘

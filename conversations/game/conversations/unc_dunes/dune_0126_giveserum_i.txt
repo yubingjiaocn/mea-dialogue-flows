@@ -4,57 +4,57 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: Uh... hey, there.
-    dune_serum_scav: Don't know what they told you. I don't have nothin'.
-    Hero: I just want to give you this medicine. It might make you feel better.
-    dune_serum_scav: Feel better? Haven't felt this good in years. I don't want your blasted medicine.
+    [0002D477] Hero ⟨cond⟩: Uh... hey, there.
+    [0002D478] dune_serum_scav: Don't know what they told you. I don't have nothin'.
+    [0002D470] Hero: I just want to give you this medicine. It might make you feel better.
+    [0002D473] dune_serum_scav: Feel better? Haven't felt this good in years. I don't want your blasted medicine.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Your mind regressed in cryo. This will bring you back.
-        dune_serum_scav: Bring me back to what? Scraping and bowing to the Initiative?
-        dune_serum_scav: For the first time in my life, I'm free. And damn, it feels great.
-        dune_serum_scav: Just leave me alone. Leave all of us alone. We're happy just how we are.
+        [0002D46F] Hero: Your mind regressed in cryo. This will bring you back.
+        [0002D472] dune_serum_scav: Bring me back to what? Scraping and bowing to the Initiative?
+        [0002D46D] dune_serum_scav: For the first time in my life, I'm free. And damn, it feels great.
+        [0002D476] dune_serum_scav: Just leave me alone. Leave all of us alone. We're happy just how we are.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: If you don't want to be cured, I won't make you.
-            dune_serum_scav: Good. Now get out of my face.
+            [0002D471] Hero: If you don't want to be cured, I won't make you.
+            [0002D484] dune_serum_scav: Good. Now get out of my face.
         ├ option 2:
-            Hero: What if your brain decays more? You can't live like this. Just take the serum.
-            dune_serum_scav: And if I say no?
-            Hero: I won't make you. But you'd be making a big mistake.
-            dune_serum_scav: You're a pain in my ass. Fine. Give me the stupid thing.
-            global_humanark_asari_dr: [Comm] Finally.
-            dune_serum_scav: I take it, you leave me alone. Now shove off.
+            [0002D47A] Hero: What if your brain decays more? You can't live like this. Just take the serum.
+            [0002D475] dune_serum_scav: And if I say no?
+            [0002D481] Hero: I won't make you. But you'd be making a big mistake.
+            [0002D482] dune_serum_scav: You're a pain in my ass. Fine. Give me the stupid thing.
+            [0002D480] global_humanark_asari_dr: [Comm] Finally.
+            [0002D47F] dune_serum_scav: I take it, you leave me alone. Now shove off.
         └─ merge ─┘
     ├ option 2:
-        Hero: If you take this, you can feel normal again. Start your life.
-        dune_serum_scav: A life of serving the Nexus? Of being bored out of my mind? No, thanks.
-        dune_serum_scav: I'm free as a bird now. And damn, it feels great.
-        ↩ (goto) dune_serum_scav: Just leave me alone. Leave all of us alone. We're happy just how we are.
+        [0002D46E] Hero: If you take this, you can feel normal again. Start your life.
+        [0002D47B] dune_serum_scav: A life of serving the Nexus? Of being bored out of my mind? No, thanks.
+        [0002D47D] dune_serum_scav: I'm free as a bird now. And damn, it feels great.
+        ↩ (goto) [0002D476] dune_serum_scav: Just leave me alone. Leave all of us alone. We're happy just how we are.
     └─ merge ─┘
 ├ option 2:
-    dune_serum_scav ⟨cond⟩ [OncePerGame]: Took your stupid medicine. Got nothin' to say now.
+    [0002E970] dune_serum_scav ⟨cond⟩ [OncePerGame]: Took your stupid medicine. Got nothin' to say now.
 ├ option 3:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        dune_serum_scav [OncePerGame]: I didn't do. It. Didn't do nothin'.
-        Hero: Okay... you didn't do anything.
-        dune_serum_scav: Good. Tell 'em that when they come.
+        [0002E969] dune_serum_scav [OncePerGame]: I didn't do. It. Didn't do nothin'.
+        [0002E967] Hero: Okay... you didn't do anything.
+        [0002E96C] dune_serum_scav: Good. Tell 'em that when they come.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_angara ⟨cond⟩: This place has really affected the exiles.
+            [0002E96B] global_squad_angara ⟨cond⟩: This place has really affected the exiles.
         ├ option 2:
-            global_squad_asari ⟨cond⟩: This guy gives me the creeps.
+            [0002E966] global_squad_asari ⟨cond⟩: This guy gives me the creeps.
         ├ option 3:
-            global_squad_female_human ⟨cond⟩: I feel bad for him.
+            [0002E968] global_squad_female_human ⟨cond⟩: I feel bad for him.
         ├ option 4:
-            global_squad_krogan ⟨cond⟩: Weird.
+            [0002E96D] global_squad_krogan ⟨cond⟩: Weird.
         ├ option 5:
-            global_squad_male_human ⟨cond⟩: Good talk.
+            [0002E96F] global_squad_male_human ⟨cond⟩: Good talk.
         ├ option 6:
-            global_squad_turian ⟨cond⟩: Well, that was interesting.
+            [0002E96E] global_squad_turian ⟨cond⟩: Well, that was interesting.
         └─ merge ─┘
     ├ option 2:
-        dune_serum_scav: Nothin' at all.
+        [0002E965] dune_serum_scav: Nothin' at all.
     └─ merge ─┘
 └─ merge ─┘

@@ -2,65 +2,65 @@
 # Primary speaker: global_crew_science_officer
 # Source: game/conversations/rel/suvi/suvi_r1_tem_intro_d.xml
 ==================================================
-global_crew_science_officer: Ah, Pathfinder! It's so wonderful to meet you.
-global_crew_science_officer: I'm Dr. Suvi Anwar, assigned to act as liaison between your crew and the Nexus science team.
+[00017348] global_crew_science_officer: Ah, Pathfinder! It's so wonderful to meet you.
+[00017349] global_crew_science_officer: I'm Dr. Suvi Anwar, assigned to act as liaison between your crew and the Nexus science team.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Welcome to my team. I look forward to working with you.
-    global_crew_science_officer: Likewise! I can't wait to get to work. There hasn't been much to do so far, unfortunately.
-    global_crew_science_officer: I've studied all the planetary scans. I've even had some hands-on experience with Heleus soil samples.
-    global_crew_science_officer: If you want, I'll send you my analysis on the native bacteria and microfauna. Sixty pages.
+    [0001734B] Hero: Welcome to my team. I look forward to working with you.
+    [0001734D] global_crew_science_officer: Likewise! I can't wait to get to work. There hasn't been much to do so far, unfortunately.
+    [0001459F] global_crew_science_officer: I've studied all the planetary scans. I've even had some hands-on experience with Heleus soil samples.
+    [000145A0] global_crew_science_officer: If you want, I'll send you my analysis on the native bacteria and microfauna. Sixty pages.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Will this be useful to my mission?
-        global_crew_science_officer: It's extraordinary what we can learn from dirt's profile. What lived and died here. How our own plants might fare.
-        global_crew_science_officer: Anyway, I've waited months to get out there to see Heleus. It's why I joined the Initiative.
-        global_crew_science_officer: The Milky Way was just a corner of a vast universe. A corner of a tiny corner.
-        global_crew_science_officer: We're the ones who got to step out of that corner. It's incredible.
+        [000145CE] Hero: Will this be useful to my mission?
+        [000145D8] global_crew_science_officer: It's extraordinary what we can learn from dirt's profile. What lived and died here. How our own plants might fare.
+        [00016CDD] global_crew_science_officer: Anyway, I've waited months to get out there to see Heleus. It's why I joined the Initiative.
+        [00016CDB] global_crew_science_officer: The Milky Way was just a corner of a vast universe. A corner of a tiny corner.
+        [00016CDC] global_crew_science_officer: We're the ones who got to step out of that corner. It's incredible.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: The first time I handled a Prothean artifact, I was hooked. It was so... alien.
-            Hero: I just knew: there's more out there, and I want to see all of it.
-            global_crew_science_officer: I totally know what you mean!
-            Hero: So will you be joining us on missions?
-            global_crew_science_officer: Oh, that's funny. Me. Out there. With the guns and the danger and everything.
+            [00018113] Hero ⟨cond⟩: The first time I handled a Prothean artifact, I was hooked. It was so... alien.
+            [00018114] Hero: I just knew: there's more out there, and I want to see all of it.
+            [00016E11] global_crew_science_officer: I totally know what you mean!
+            [0001466F] Hero: So will you be joining us on missions?
+            [00014677] global_crew_science_officer: Oh, that's funny. Me. Out there. With the guns and the danger and everything.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero: Why should that be funny? You seem capable.
-                global_crew_science_officer: Oh, I'm flattered, but no. I have no combat experience. I'd shoot you in the back.
-                global_crew_science_officer: Not intentionally, of course.
-                global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
-                global_crew_science_officer: Later then?
+                [00015F97] Hero: Why should that be funny? You seem capable.
+                [00015F94] global_crew_science_officer: Oh, I'm flattered, but no. I have no combat experience. I'd shoot you in the back.
+                [00016186] global_crew_science_officer: Not intentionally, of course.
+                [00016187] global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
+                [00016185] global_crew_science_officer: Later then?
             ├ option 2:
-                Hero: But don't you want to experience everything first hand? I know I'd want to.
-                global_crew_science_officer: Oh, absolutely. But I know my strengths.
-                global_crew_science_officer: Trust me, I'm far more useful to you in the laboratory.
-                ↩ (goto) global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
+                [00015F8F] Hero: But don't you want to experience everything first hand? I know I'd want to.
+                [00015F96] global_crew_science_officer: Oh, absolutely. But I know my strengths.
+                [00015F91] global_crew_science_officer: Trust me, I'm far more useful to you in the laboratory.
+                ↩ (goto) [00016187] global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
             ├ option 3:
-                Hero: I'm good with guns and danger. I could teach you. And make sure you're okay out there.
+                [00015F95] Hero: I'm good with guns and danger. I could teach you. And make sure you're okay out there.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_crew_science_officer ⟨cond⟩: Really? Maybe one day, when things are more settled. I couldn't imagine a better teacher.
-                    ↩ (goto) global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
+                    [00016632] global_crew_science_officer ⟨cond⟩: Really? Maybe one day, when things are more settled. I couldn't imagine a better teacher.
+                    ↩ (goto) [00016187] global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
                 ├ option 2:
-                    global_crew_science_officer: I appreciate the offer but I'm happy where I am: tinkering in labs.
-                    global_crew_science_officer: And, ah... in case you offered hoping to get to know me better, that's not going to work.
-                    global_crew_science_officer: I mean, I prefer to keep things professional.
-                    Hero: I understand completely.
-                    ↩ (goto) global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
+                    [00016184] global_crew_science_officer: I appreciate the offer but I'm happy where I am: tinkering in labs.
+                    [00016BED] global_crew_science_officer: And, ah... in case you offered hoping to get to know me better, that's not going to work.
+                    [00016BEC] global_crew_science_officer: I mean, I prefer to keep things professional.
+                    [00016BEE] Hero: I understand completely.
+                    ↩ (goto) [00016187] global_crew_science_officer: Anyway, I've just received some instructions from the science team, and I really should go over them.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: I guarded a Mass Relay for some time. I always wanted to see the other side.
-            ↩ (goto) global_crew_science_officer: I totally know what you mean!
+            [00016E12] Hero: I guarded a Mass Relay for some time. I always wanted to see the other side.
+            ↩ (goto) [00016E11] global_crew_science_officer: I totally know what you mean!
         └─ merge ─┘
     ├ option 2:
-        Hero: That's... a lot of pages. About dirt.
-        global_crew_science_officer: Oh, you don't have to be kind. I know it's barely more than a summary.
-        ↩ (goto) global_crew_science_officer: Anyway, I've waited months to get out there to see Heleus. It's why I joined the Initiative.
+        [000145A4] Hero: That's... a lot of pages. About dirt.
+        [000145AC] global_crew_science_officer: Oh, you don't have to be kind. I know it's barely more than a summary.
+        ↩ (goto) [00016CDD] global_crew_science_officer: Anyway, I've waited months to get out there to see Heleus. It's why I joined the Initiative.
     └─ merge ─┘
 ├ option 2:
-    Hero: What do you mean "liaison"? Are you going to tell on me?
-    global_crew_science_officer: Of course not! Not interested in politics. I advise only on the science.
-    ↩ (goto) global_crew_science_officer: I've studied all the planetary scans. I've even had some hands-on experience with Heleus soil samples.
+    [0001734A] Hero: What do you mean "liaison"? Are you going to tell on me?
+    [0001734E] global_crew_science_officer: Of course not! Not interested in politics. I advise only on the science.
+    ↩ (goto) [0001459F] global_crew_science_officer: I've studied all the planetary scans. I've even had some hands-on experience with Heleus soil samples.
 └─ merge ─┘

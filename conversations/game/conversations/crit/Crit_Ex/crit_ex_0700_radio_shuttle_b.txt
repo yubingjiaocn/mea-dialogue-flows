@@ -4,38 +4,38 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Shuttle, what's your ETA?
-    crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
+    [0000D7F8] global_squad_female_human ⟨cond⟩: Shuttle, what's your ETA?
+    [00006EC4] crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: Shuttle? What's your ETA?
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
+    [0000D804] global_squad_krogan ⟨cond⟩: Shuttle? What's your ETA?
+    ↩ (goto) [00006EC4] crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Shuttle? What is your ETA?
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
+    [0000D803] global_squad_turian ⟨cond⟩: Shuttle? What is your ETA?
+    ↩ (goto) [00006EC4] crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Uh, shuttle? Anytime soon?
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
+    [0000D7FC] global_squad_asari ⟨cond⟩: Uh, shuttle? Anytime soon?
+    ↩ (goto) [00006EC4] crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Hey, shuttle! We got an ETA on getting the hell out of here?
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
+    [0000D7FB] global_squad_male_human ⟨cond⟩: Hey, shuttle! We got an ETA on getting the hell out of here?
+    ↩ (goto) [00006EC4] crit_ex_res_pilot_multi: [Comm] This weather is impossible. You're gonna have to wait.
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Shuttle, we're overrun! Get down here or we're coming back in long bags!
-    crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
-    Hero: Pull up to the edge of the roof. We'll figure it out from there.
+    [0000D808] global_squad_female_human ⟨cond⟩: Shuttle, we're overrun! Get down here or we're coming back in long bags!
+    [00006EC5] crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
+    [00006EC6] Hero: Pull up to the edge of the roof. We'll figure it out from there.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: Shuttle, you better land soon or it's gonna get ugly!
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
+    [0000D7F7] global_squad_krogan ⟨cond⟩: Shuttle, you better land soon or it's gonna get ugly!
+    ↩ (goto) [00006EC5] crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Shuttle, come in! Could really use a pick-up!
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
+    [0000D805] global_squad_turian ⟨cond⟩: Shuttle, come in! Could really use a pick-up!
+    ↩ (goto) [00006EC5] crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Shuttle, come in! We're being overwhelmed!
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
+    [0000D802] global_squad_asari ⟨cond⟩: Shuttle, come in! We're being overwhelmed!
+    ↩ (goto) [00006EC5] crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Remember that pickup we talked about? With the shuttle? Good times, right?
-    ↩ (goto) crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
+    [0000D7FF] global_squad_male_human ⟨cond⟩: Remember that pickup we talked about? With the shuttle? Good times, right?
+    ↩ (goto) [00006EC5] crit_ex_res_pilot_multi: [Comm] Sorry, I can't land!
 └─ merge ─┘
-crit_ex_res_pilot_multi: [Comm] Pathfinder, the storm! It's impossible to land. You'll have to hold out.
-Hero: Oh boy. Got it.
+[00022FE0] crit_ex_res_pilot_multi: [Comm] Pathfinder, the storm! It's impossible to land. You'll have to hold out.
+[00022FDF] Hero: Oh boy. Got it.

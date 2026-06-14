@@ -2,76 +2,76 @@
 # Primary speaker: kad_charlatan
 # Source: game/conversations/unc/olw/cargo_plot/olw_0200_cargo_krallas_d.xml
 ==================================================
-Hero: You look like you're waiting for someone.
-kad_charlatan: That’s my line.
-kad_bar_01: {i}(Groans.){/i} You want a drink or a room?
-kad_charlatan: Information, actually.
-kad_bar_01: That'll cost you more than a round of drinks.
+[00024C08] Hero: You look like you're waiting for someone.
+[00024CDE] kad_charlatan: That’s my line.
+[00024CFC] kad_bar_01: {i}(Groans.){/i} You want a drink or a room?
+[00024CD3] kad_charlatan: Information, actually.
+[00024D01] kad_bar_01: That'll cost you more than a round of drinks.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    kad_charlatan: My friend's good for it.
+    [000264A5] kad_charlatan: My friend's good for it.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero: I'll expect a favor in return.
-        kad_charlatan: You're one person I'll happily owe something.
-        kad_bar_01: {i}(Groans.){/i}
-        kad_bar_01: What do you want to know?
-        kad_charlatan: Zia Cordier. She been around recently?
-        kad_bar_01: You mean your ex? Yeah, she was here.
+        [000264A6] Hero: I'll expect a favor in return.
+        [000264A3] kad_charlatan: You're one person I'll happily owe something.
+        [0002649E] kad_bar_01: {i}(Groans.){/i}
+        [00024CDF] kad_bar_01: What do you want to know?
+        [00024CDB] kad_charlatan: Zia Cordier. She been around recently?
+        [00024CFE] kad_bar_01: You mean your ex? Yeah, she was here.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero: Ex? As in {i}girlfriend{/i}?
-            kad_charlatan: Girlfriend's such a strong word. We had drinks occasionally. So... {i}(Coughs.){/i} She was here?
-            kad_bar_01: Yeah. Met with a salarian.
-            kad_bar_01: Shifty guy I'd never seen before. Maybe it was the Charlatan.
-            kad_charlatan: Anything's possible. You overhear their conversation?
-            kad_bar_01: They were planning to meet someone at Spirits' Ledge.
-            kad_charlatan: Thanks, Umi.
-            kad_bar_01: Whatever. You didn't hear it from me.
-            Narration: Umi stands back in her usual spot.
-            kad_charlatan: If you check the meeting spot, I'll follow the Collective lead.
-            kad_charlatan: Doubt Zia was meeting the Charlatan, but you never know.
+            [00024CFB] Hero: Ex? As in {i}girlfriend{/i}?
+            [00024CEE] kad_charlatan: Girlfriend's such a strong word. We had drinks occasionally. So... {i}(Coughs.){/i} She was here?
+            [00024CD5] kad_bar_01: Yeah. Met with a salarian.
+            [00024CEC] kad_bar_01: Shifty guy I'd never seen before. Maybe it was the Charlatan.
+            [00024CD1] kad_charlatan: Anything's possible. You overhear their conversation?
+            [00024CEF] kad_bar_01: They were planning to meet someone at Spirits' Ledge.
+            [00024CD8] kad_charlatan: Thanks, Umi.
+            [00024CEB] kad_bar_01: Whatever. You didn't hear it from me.
+            [00024CF9] Narration: Umi stands back in her usual spot.
+            [00024CF2] kad_charlatan: If you check the meeting spot, I'll follow the Collective lead.
+            [00024CF1] kad_charlatan: Doubt Zia was meeting the Charlatan, but you never know.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero: Is this job about getting your cargo back or one-upping an ex?
-                kad_charlatan: Why, Ryder... are you jealous?
-                Hero: Just answer the question.
-                kad_charlatan: {i}(Chuckles.){/i} It's about the cargo.
-                kad_charlatan: I'll work my contacts. Give me a call when you get to the meeting spot.
+                [00024CED] Hero: Is this job about getting your cargo back or one-upping an ex?
+                [00024CF3] kad_charlatan: Why, Ryder... are you jealous?
+                [00024CCD] Hero: Just answer the question.
+                [00024CE1] kad_charlatan: {i}(Chuckles.){/i} It's about the cargo.
+                [00024CE9] kad_charlatan: I'll work my contacts. Give me a call when you get to the meeting spot.
             ├ option 2:
-                Hero: Why am I always stuck with the hard work?
-                kad_charlatan: Because I'm the delicate one. Call me when you get to the meeting spot.
+                [00024D00] Hero: Why am I always stuck with the hard work?
+                [00024CD0] kad_charlatan: Because I'm the delicate one. Call me when you get to the meeting spot.
             ├ option 3:
-                Hero: I'll call you when I get there.
-                kad_charlatan: Thanks, Ryder.
+                [00024CD7] Hero: I'll call you when I get there.
+                [00024CEA] kad_charlatan: Thanks, Ryder.
             └─ merge ─┘
         ├ option 2:
-            Hero: You never mentioned Zia was your girlfriend.
-            kad_charlatan: She's not. We drink together sometimes. I drink with a lot of people. Anyway, she was here?
-            ↩ (goto) kad_bar_01: Yeah. Met with a salarian.
+            [00024CF5] Hero: You never mentioned Zia was your girlfriend.
+            [00024CC9] kad_charlatan: She's not. We drink together sometimes. I drink with a lot of people. Anyway, she was here?
+            ↩ (goto) [00024CD5] kad_bar_01: Yeah. Met with a salarian.
         ├ option 3:
-            Hero: Was she by herself or...
-            kad_bar_01: No, she was with a salarian.
-            ↩ (goto) kad_bar_01: Shifty guy I'd never seen before. Maybe it was the Charlatan.
+            [00024CC8] Hero: Was she by herself or...
+            [00024CD2] kad_bar_01: No, she was with a salarian.
+            ↩ (goto) [00024CEC] kad_bar_01: Shifty guy I'd never seen before. Maybe it was the Charlatan.
         └─ merge ─┘
     ├ option 2:
-        Hero: You still owe me for the last time!
-        kad_charlatan: Fine, fine. It was just a joke.
-        kad_charlatan: I’ve got a bottle of Elasa I’m willing to part with.
-        ↩ (goto) kad_bar_01: What do you want to know?
+        [000264A2] Hero: You still owe me for the last time!
+        [000264A0] kad_charlatan: Fine, fine. It was just a joke.
+        [00024CCE] kad_charlatan: I’ve got a bottle of Elasa I’m willing to part with.
+        ↩ (goto) [00024CDF] kad_bar_01: What do you want to know?
     ├ option 3:
-        Hero: Put it on my tab.
-        kad_charlatan: See.
-        ↩ (goto) kad_bar_01: What do you want to know?
+        [0002649D] Hero: Put it on my tab.
+        [0002649F] kad_charlatan: See.
+        ↩ (goto) [00024CDF] kad_bar_01: What do you want to know?
     └─ merge ─┘
 ├ option 2:
-    kad_charlatan: My friend's good for it.
+    [0002AC16] kad_charlatan: My friend's good for it.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) Hero: I'll expect a favor in return.
+        ↩ (goto) [000264A6] Hero: I'll expect a favor in return.
     ├ option 2:
-        ↩ (goto) Hero: You still owe me for the last time!
+        ↩ (goto) [000264A2] Hero: You still owe me for the last time!
     ├ option 3:
-        ↩ (goto) Hero: Put it on my tab.
+        ↩ (goto) [0002649D] Hero: Put it on my tab.
     └─ merge ─┘
 └─ merge ─┘

@@ -4,57 +4,57 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Hey, Lator right? I'm Ryder. Dutch said you'd been talking to Ruth Bekker earlier?
-    nexus_rp_ctn_wit1: Yeah.
-    nexus_rp_ctn_wit1: You're looking for Ruthie? She was here earlier. Helped me sort out some paperwork.
-    nexus_rp_ctn_wit1: Don't know what I would've done without her.
+    [0001FFE2] Hero: Hey, Lator right? I'm Ryder. Dutch said you'd been talking to Ruth Bekker earlier?
+    [00021768] nexus_rp_ctn_wit1: Yeah.
+    [00021767] nexus_rp_ctn_wit1: You're looking for Ruthie? She was here earlier. Helped me sort out some paperwork.
+    [00020094] nexus_rp_ctn_wit1: Don't know what I would've done without her.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Any idea where she might be?
-        nexus_rp_ctn_wit1: She mentioned checking in on a friend in Ops. Teron, I think.
-        nexus_rp_ctn_wit1: Is everything okay? Charlie's fine, right? It would destroy her if anything happened to him.
+        [00020095] Hero: Any idea where she might be?
+        [000200A6] nexus_rp_ctn_wit1: She mentioned checking in on a friend in Ops. Teron, I think.
+        [000200A4] nexus_rp_ctn_wit1: Is everything okay? Charlie's fine, right? It would destroy her if anything happened to him.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Everything's fine. I just need to talk to her.
-            nexus_rp_ctn_wit1: All right then.
+            [000200B1] Hero: Everything's fine. I just need to talk to her.
+            [000200AE] nexus_rp_ctn_wit1: All right then.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nexus_rp_ctn_wit1 ⟨cond⟩: Well, say hi to Ruthie for me when you see her. Have a good day.
-                Hero: Thank you.
+                [000200BA] nexus_rp_ctn_wit1 ⟨cond⟩: Well, say hi to Ruthie for me when you see her. Have a good day.
+                [000200BD] Hero: Thank you.
             ├ option 2:
-                nexus_rp_ctn_wit1 ⟨cond⟩: Oh, good. I was worried for a moment. She should be in Ops somewhere.
-                nexus_rp_ctn_wit1: Wanted to check in on someone. Teron, I think.
-                ↩ (goto) Hero: Thank you.
+                [000200BB] nexus_rp_ctn_wit1 ⟨cond⟩: Oh, good. I was worried for a moment. She should be in Ops somewhere.
+                [000200B8] nexus_rp_ctn_wit1: Wanted to check in on someone. Teron, I think.
+                ↩ (goto) [000200BD] Hero: Thank you.
             └─ merge ─┘
         ├ option 2:
-            Hero: I need to find her as soon as possible.
-            nexus_rp_ctn_wit1: Oh. That doesn't sound good.
+            [000200B3] Hero: I need to find her as soon as possible.
+            [000200B2] nexus_rp_ctn_wit1: Oh. That doesn't sound good.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nexus_rp_ctn_wit1 ⟨cond⟩: I hope you find her quickly, then.
-                ↩ (goto) Hero: Thank you.
+                [000200B9] nexus_rp_ctn_wit1 ⟨cond⟩: I hope you find her quickly, then.
+                ↩ (goto) [000200BD] Hero: Thank you.
             ├ option 2:
-                nexus_rp_ctn_wit1 ⟨cond⟩: I hope she's all right. She went to Ops.
-                ↩ (goto) nexus_rp_ctn_wit1: Wanted to check in on someone. Teron, I think.
+                [000200BC] nexus_rp_ctn_wit1 ⟨cond⟩: I hope she's all right. She went to Ops.
+                ↩ (goto) [000200B8] nexus_rp_ctn_wit1: Wanted to check in on someone. Teron, I think.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        Hero: How is she settling in? Did she seem okay?
-        nexus_rp_ctn_wit1: She looked fine. Happy to be here.
-        ↩ (goto) nexus_rp_ctn_wit1: Is everything okay? Charlie's fine, right? It would destroy her if anything happened to him.
+        [00020096] Hero: How is she settling in? Did she seem okay?
+        [000200A8] nexus_rp_ctn_wit1: She looked fine. Happy to be here.
+        ↩ (goto) [000200A4] nexus_rp_ctn_wit1: Is everything okay? Charlie's fine, right? It would destroy her if anything happened to him.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Hi. My name's Ryder.
-        Hero: Did you see or talk to Ruth Bekker, by any chance?
-        nexus_rp_ctn_wit1: Lator Valon.
-        ↩ (goto) nexus_rp_ctn_wit1: You're looking for Ruthie? She was here earlier. Helped me sort out some paperwork.
+        [00020213] Hero ⟨cond⟩: Hi. My name's Ryder.
+        [0002021A] Hero: Did you see or talk to Ruth Bekker, by any chance?
+        [0001FFE0] nexus_rp_ctn_wit1: Lator Valon.
+        ↩ (goto) [00021767] nexus_rp_ctn_wit1: You're looking for Ruthie? She was here earlier. Helped me sort out some paperwork.
     ├ option 2:
-        Hero ⟨cond⟩: Hi. My name's Sara Ryder.
-        ↩ (goto) Hero: Did you see or talk to Ruth Bekker, by any chance?
+        [00020214] Hero ⟨cond⟩: Hi. My name's Sara Ryder.
+        ↩ (goto) [0002021A] Hero: Did you see or talk to Ruth Bekker, by any chance?
     ├ option 3:
-        Hero: Hi. I'm Scott Ryder.
-        ↩ (goto) Hero: Did you see or talk to Ruth Bekker, by any chance?
+        [0001FFDF] Hero: Hi. I'm Scott Ryder.
+        ↩ (goto) [0002021A] Hero: Did you see or talk to Ruth Bekker, by any chance?
     └─ merge ─┘
 └─ merge ─┘

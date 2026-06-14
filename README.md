@@ -10,6 +10,7 @@ MEA's in-game `Conversation` resources (dialogue trees) parsed into **human-read
 - **Ordered** — lines follow the actual conversation-node traversal order (not the flat string table)
 - **Branching** — player choices / conditional branches shown as an indented tree, with merge points
 - **Speakers** — each line is tagged with its speaking character
+- **Text IDs** — each line is prefixed with its 8-digit hex TextId (the game's localized-string key), for cross-referencing
 - **English text** — original English from the game's localized strings
 
 ## Scale
@@ -48,16 +49,17 @@ conversations/game/conversations/
 # game/conversations/crit/pro_lnd/...   ← conversation resource name
 # Primary speaker: Hero
 ==================================================
-SAM: We've reached the navpoint.                   ← speaker: line
+[0002D512] SAM: We've reached the navpoint.        ← [TextId] speaker: line
 ┌─ BRANCH (3) ─┐                                    ← player choice / conditional branch
 ├ option 1:
-    Hero ⟨cond⟩: Nice and easy.                     ← ⟨cond⟩ = has display conditions
+    [00013660] Hero ⟨cond⟩: Nice and easy.          ← ⟨cond⟩ = has display conditions
 ├ option 2:
-    Hero: Get ready to fire.
+    [0002307B] Hero: Get ready to fire.
 └─ merge ─┘
 ```
 
 **Markers**:
+- `[XXXXXXXX]` — 8-digit hex TextId (localized-string key; matches ParaTranz keys and the game's string table)
 - `⟨cond⟩` — line has display/enable conditions (DisplayConditions/EnabledConditions)
 - `[OncePerGame]` etc. — occurrence restriction
 - `↩ (goto)` — link node (ConversationLink): conversation merge/loop

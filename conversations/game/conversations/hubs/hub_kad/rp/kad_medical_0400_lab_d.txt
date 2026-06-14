@@ -2,59 +2,59 @@
 # Primary speaker: Hero
 # Source: game/conversations/hubs/hub_kad/rp/kad_medical_0400_lab_d.xml
 ==================================================
-kad_scientist: Please—don't shoot. I'm unarmed.
+[0001B20E] kad_scientist: Please—don't shoot. I'm unarmed.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: I'm not here to hurt you, Doctor...?
-    kad_scientist: Farenth. Dr. Arenna Farenth.
-    Hero: I only want the Oblivion formula, then I'll be on my way.
-    kad_scientist: Ryota sent you, didn't he? With a sob story about Sloane misusing his "medical breakthrough."
-    Hero: Something like that.
-    kad_scientist: Oblivion wasn't {i}his{/i} breakthrough—it was ours.
+    [0001B207] Hero: I'm not here to hurt you, Doctor...?
+    [0001B200] kad_scientist: Farenth. Dr. Arenna Farenth.
+    [0001B20D] Hero: I only want the Oblivion formula, then I'll be on my way.
+    [0001B1FC] kad_scientist: Ryota sent you, didn't he? With a sob story about Sloane misusing his "medical breakthrough."
+    [0001B216] Hero: Something like that.
+    [0001B211] kad_scientist: Oblivion wasn't {i}his{/i} breakthrough—it was ours.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Is everyone on this planet a lying asshole?
-        kad_scientist: We always meant Oblivion to be a highly addictive drug.
-        kad_scientist: That it has medicinal value was a coincidence.
+        [0001B204] Hero: Is everyone on this planet a lying asshole?
+        [0001B218] kad_scientist: We always meant Oblivion to be a highly addictive drug.
+        [0001B20C] kad_scientist: That it has medicinal value was a coincidence.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I've seen Dr. Nakamoto's clinic. He's not the type to create something harmful.
-            kad_scientist: That clinic is a front. The Charlatan gives "anonymous" donations so he'll patch up Collective thugs, no questions asked.
-            kad_scientist: You've had, what? One conversation with him? I've known Ryota for years. Everything he does, he does for credits.
-            Hero: But you're different.
-            kad_scientist: I place survival above credits. Give Ryota the formula and I'm as good as dead. Sloane will see to that.
+            [0001B221] Hero: I've seen Dr. Nakamoto's clinic. He's not the type to create something harmful.
+            [0001B223] kad_scientist: That clinic is a front. The Charlatan gives "anonymous" donations so he'll patch up Collective thugs, no questions asked.
+            [0001B215] kad_scientist: You've had, what? One conversation with him? I've known Ryota for years. Everything he does, he does for credits.
+            [0001B203] Hero: But you're different.
+            [0001B219] kad_scientist: I place survival above credits. Give Ryota the formula and I'm as good as dead. Sloane will see to that.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero [OncePerGame]: I've seen Sloane's outfit. Not a lot of doctors. You're too valuable to kill.
-                kad_scientist: She'll see it as cooperating with the enemy. Loyalty's more important to Sloane than brains.
+                [0001B212] Hero [OncePerGame]: I've seen Sloane's outfit. Not a lot of doctors. You're too valuable to kill.
+                [0001B209] kad_scientist: She'll see it as cooperating with the enemy. Loyalty's more important to Sloane than brains.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: You're lying about Dr. Nakamoto to keep the formula.
-                    kad_scientist: You willing to bet my life on that?
-                    Hero: Yep.
-                    Narration: Ryder walks past Arenna to the walks and uses their omni-tool to copy the formula from the console behind her.
-                    kad_scientist: Fuck you.
+                    [0001B21E] Hero: You're lying about Dr. Nakamoto to keep the formula.
+                    [0001B1FE] kad_scientist: You willing to bet my life on that?
+                    [0001B205] Hero: Yep.
+                    [0001B21B] Narration: Ryder walks past Arenna to the walks and uses their omni-tool to copy the formula from the console behind her.
+                    [0001B220] kad_scientist: Fuck you.
                 ├ option 2:
-                    Hero: This is getting complicated. How about we pretend I was never here?
-                    kad_scientist: I'll tell Sloane it was a Collective attack. Thank you.
+                    [0001B20F] Hero: This is getting complicated. How about we pretend I was never here?
+                    [0001B21C] kad_scientist: I'll tell Sloane it was a Collective attack. Thank you.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: You're lying about Dr. Nakamoto to keep the formula.
+                ↩ (goto) [0001B21E] Hero: You're lying about Dr. Nakamoto to keep the formula.
             ├ option 3:
-                ↩ (goto) Hero: This is getting complicated. How about we pretend I was never here?
+                ↩ (goto) [0001B20F] Hero: This is getting complicated. How about we pretend I was never here?
             └─ merge ─┘
         ├ option 2:
-            Hero: Then why did Dr. Nakamoto quit the Outcasts?
-            kad_scientist: {i}(Laughs.){/i} Ryota didn't quit—he was fired. Pushed Sloane for a bigger cut.
-            ↩ (goto) kad_scientist: You've had, what? One conversation with him? I've known Ryota for years. Everything he does, he does for credits.
+            [0001B202] Hero: Then why did Dr. Nakamoto quit the Outcasts?
+            [0001B201] kad_scientist: {i}(Laughs.){/i} Ryota didn't quit—he was fired. Pushed Sloane for a bigger cut.
+            ↩ (goto) [0001B215] kad_scientist: You've had, what? One conversation with him? I've known Ryota for years. Everything he does, he does for credits.
         └─ merge ─┘
     ├ option 2:
-        Hero: How do I know you're telling the truth?
-        kad_scientist: Because I'm not hiding behind a false shield of morality.
-        ↩ (goto) kad_scientist: We always meant Oblivion to be a highly addictive drug.
+        [0001B21A] Hero: How do I know you're telling the truth?
+        [0001B1FA] kad_scientist: Because I'm not hiding behind a false shield of morality.
+        ↩ (goto) [0001B218] kad_scientist: We always meant Oblivion to be a highly addictive drug.
     └─ merge ─┘
 ├ option 2:
-    Hero: Give me the Oblivion formula and you've got nothing to fear. Who are you?
-    kad_scientist: Dr. Arenna Farenth.
-    ↩ (goto) kad_scientist: Ryota sent you, didn't he? With a sob story about Sloane misusing his "medical breakthrough."
+    [0001B21D] Hero: Give me the Oblivion formula and you've got nothing to fear. Who are you?
+    [0001B22C] kad_scientist: Dr. Arenna Farenth.
+    ↩ (goto) [0001B1FC] kad_scientist: Ryota sent you, didn't he? With a sob story about Sloane misusing his "medical breakthrough."
 └─ merge ─┘

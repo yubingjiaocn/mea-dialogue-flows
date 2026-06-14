@@ -2,36 +2,36 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0400_pod_scan_b.xml
 ==================================================
-SAM [OncePerGame]: Angaran male. Estimate thirty-five. One hundred ninety-one centimeters. Scar tissue, lower right abdomen.
+[00010191] SAM [OncePerGame]: Angaran male. Estimate thirty-five. One hundred ninety-one centimeters. Scar tissue, lower right abdomen.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Not her then.
+    [00010192] global_squad_krogan ⟨cond⟩: Not her then.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Moving on.
+    [00010195] global_squad_male_human ⟨cond⟩: Moving on.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: So, not the Moshae.
+    [0001018E] global_squad_turian ⟨cond⟩: So, not the Moshae.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: That's not her.
+    [0001018D] global_squad_asari ⟨cond⟩: That's not her.
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: Not the Moshae.
+    [00010190] global_squad_female_human ⟨cond⟩: Not the Moshae.
 └─ merge ─┘
-SAM [OncePerGame]: Angaran female. Healthy. One hundred seventy-six centimeters. Never given birth.
-SAM [OncePerGame]: Angaran male. Estimate ninety-five. Healthy. Numerous healed skeletal fractures.
-Hero: Is this what we all boil down to?
-global_squad_angara: To the kett? So it seems.
+[0001018F] SAM [OncePerGame]: Angaran female. Healthy. One hundred seventy-six centimeters. Never given birth.
+[0001018C] SAM [OncePerGame]: Angaran male. Estimate ninety-five. Healthy. Numerous healed skeletal fractures.
+[00010194] Hero: Is this what we all boil down to?
+[00010193] global_squad_angara: To the kett? So it seems.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Not finding anyone like her.
+    [00010BDC] global_squad_krogan ⟨cond⟩: Not finding anyone like her.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Not finding anyone even near her age.
-    ↩ (goto) global_squad_female_human: [empty]
+    [00010BE1] global_squad_male_human ⟨cond⟩: Not finding anyone even near her age.
+    ↩ (goto) [0001E380] global_squad_female_human: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: No luck finding anyone near her age.
-    ↩ (goto) global_squad_female_human: [empty]
+    [00010BE0] global_squad_turian ⟨cond⟩: No luck finding anyone near her age.
+    ↩ (goto) [0001E380] global_squad_female_human: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: None of these fit her description.
-    ↩ (goto) global_squad_female_human: [empty]
+    [00010BDD] global_squad_asari ⟨cond⟩: None of these fit her description.
+    ↩ (goto) [0001E380] global_squad_female_human: [empty]
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: Haven't found anyone yet with her vitals.
-    ↩ (goto) global_squad_female_human: [empty]
+    [00010BDF] global_squad_female_human ⟨cond⟩: Haven't found anyone yet with her vitals.
+    ↩ (goto) [0001E380] global_squad_female_human: [empty]
 └─ merge ─┘

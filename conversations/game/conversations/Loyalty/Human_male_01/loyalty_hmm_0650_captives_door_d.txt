@@ -2,82 +2,82 @@
 # Primary speaker: loyalty_hmm_human_captive_multi
 # Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0650_captives_door_d.xml
 ==================================================
-loyalty_hmm_human_captive_multi: [Comm] Hello? Anyone alive out there?
-Hero: We're here. You're Initiative? Where'd you come from?
-loyalty_hmm_human_captive_multi: [Comm] Trading ship out of Kadara. You're Nexus?
+[00005CCC] loyalty_hmm_human_captive_multi: [Comm] Hello? Anyone alive out there?
+[0001DDC8] Hero: We're here. You're Initiative? Where'd you come from?
+[0001DDCA] loyalty_hmm_human_captive_multi: [Comm] Trading ship out of Kadara. You're Nexus?
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Sara Ryder. I founded Meridian.
-        loyalty_hmm_human_captive_multi: [Comm] Holy shit. That was true?
-        global_squad_male_human: Is Verand all right?
-        global_angara_hmm_contact_multi: [Comm] {i}(Jostling sounds.){/i} Liam? What are you doing here?
-        global_squad_male_human: Didn't want you getting killed over what I told you.
-        global_angara_hmm_contact_multi: [Comm] I'd never give that up. Not that it matters. Calot hasn't asked anything.
-        loyalty_hmm_human_captive_multi: [Comm] He dumped her in here, same as us. We're all just labor. Half the ship is our handiwork.
+        [0001F662] Hero ⟨cond⟩: Sara Ryder. I founded Meridian.
+        [0001F664] loyalty_hmm_human_captive_multi: [Comm] Holy shit. That was true?
+        [0001DDF6] global_squad_male_human: Is Verand all right?
+        [0001DDF4] global_angara_hmm_contact_multi: [Comm] {i}(Jostling sounds.){/i} Liam? What are you doing here?
+        [0001DDF3] global_squad_male_human: Didn't want you getting killed over what I told you.
+        [0001DDF9] global_angara_hmm_contact_multi: [Comm] I'd never give that up. Not that it matters. Calot hasn't asked anything.
+        [0001E4F0] loyalty_hmm_human_captive_multi: [Comm] He dumped her in here, same as us. We're all just labor. Half the ship is our handiwork.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero [OncePerGame]: Wait—Calot captured you to fix this thing?
-            loyalty_hmm_human_captive_multi: [Comm] He wanted to ransom us, but this ship is draining him. It's a wreck.
-            global_angara_hmm_contact_multi: [Comm] He had to go back to scavenging just to keep it afloat. So he put us to work.
-            global_squad_male_human: Found a project car, didn't count on maintenance.
+            [0001F32D] Hero [OncePerGame]: Wait—Calot captured you to fix this thing?
+            [0001F32F] loyalty_hmm_human_captive_multi: [Comm] He wanted to ransom us, but this ship is draining him. It's a wreck.
+            [0001F330] global_angara_hmm_contact_multi: [Comm] He had to go back to scavenging just to keep it afloat. So he put us to work.
+            [0001F35B] global_squad_male_human: Found a project car, didn't count on maintenance.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                ↩ (goto) Hero [OncePerGame]: Wait—Calot captured you to fix this thing?
+                ↩ (goto) [0001F32D] Hero [OncePerGame]: Wait—Calot captured you to fix this thing?
             ├ option 2:
-                Hero [OncePerGame]: We didn't realize these pirates had gone after Initiative already.
-                loyalty_hmm_human_captive_multi: [Comm] He isn't picky. Everyone is "keeping him down." Everyone is "going to pay."
-                loyalty_hmm_human_captive_multi: [Comm] The ship rolled up and we surrendered. Seemed smart at the time.
+                [0001E4FC] Hero [OncePerGame]: We didn't realize these pirates had gone after Initiative already.
+                [0001F2C2] loyalty_hmm_human_captive_multi: [Comm] He isn't picky. Everyone is "keeping him down." Everyone is "going to pay."
+                [0001E508] loyalty_hmm_human_captive_multi: [Comm] The ship rolled up and we surrendered. Seemed smart at the time.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero [OncePerGame]: Wait—Calot captured you to fix this thing?
+                    ↩ (goto) [0001F32D] Hero [OncePerGame]: Wait—Calot captured you to fix this thing?
                 ├ option 2:
-                    ↩ (goto) Hero [OncePerGame]: We didn't realize these pirates had gone after Initiative already.
+                    ↩ (goto) [0001E4FC] Hero [OncePerGame]: We didn't realize these pirates had gone after Initiative already.
                 ├ option 3:
-                    Hero: We had help getting this far, and we'll need more. Can you open this door?
-                    global_angara_hmm_contact_multi: [Comm] I think Dace was working on those systems before all this happened.
-                    loyalty_hmm_human_captive_multi: [Comm] Hang on. {i}(Jostling sounds.){/i} I've got the override, but we need power. Fault's on their side.
-                    global_angara_hmm_contact_multi: [Comm] You get that? Turn on the power from your side?
-                    global_squad_male_human: On it. We'll get you out.
+                    [0001DE86] Hero: We had help getting this far, and we'll need more. Can you open this door?
+                    [0001E4F3] global_angara_hmm_contact_multi: [Comm] I think Dace was working on those systems before all this happened.
+                    [0001E4F7] loyalty_hmm_human_captive_multi: [Comm] Hang on. {i}(Jostling sounds.){/i} I've got the override, but we need power. Fault's on their side.
+                    [0001E4FA] global_angara_hmm_contact_multi: [Comm] You get that? Turn on the power from your side?
+                    [0001E5CF] global_squad_male_human: On it. We'll get you out.
                 ├ option 4:
-                    Hero: We're short on time. This door needs to open.
-                    ↩ (goto) global_angara_hmm_contact_multi: [Comm] I think Dace was working on those systems before all this happened.
+                    [0001DEF8] Hero: We're short on time. This door needs to open.
+                    ↩ (goto) [0001E4F3] global_angara_hmm_contact_multi: [Comm] I think Dace was working on those systems before all this happened.
                 └─ merge ─┘
             ├ option 3:
-                ↩ (goto) Hero: We had help getting this far, and we'll need more. Can you open this door?
+                ↩ (goto) [0001DE86] Hero: We had help getting this far, and we'll need more. Can you open this door?
             ├ option 4:
-                ↩ (goto) Hero: We're short on time. This door needs to open.
+                ↩ (goto) [0001DEF8] Hero: We're short on time. This door needs to open.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) Hero [OncePerGame]: We didn't realize these pirates had gone after Initiative already.
+            ↩ (goto) [0001E4FC] Hero [OncePerGame]: We didn't realize these pirates had gone after Initiative already.
         ├ option 3:
-            ↩ (goto) Hero: We had help getting this far, and we'll need more. Can you open this door?
+            ↩ (goto) [0001DE86] Hero: We had help getting this far, and we'll need more. Can you open this door?
         ├ option 4:
-            ↩ (goto) Hero: We're short on time. This door needs to open.
+            ↩ (goto) [0001DEF8] Hero: We're short on time. This door needs to open.
         └─ merge ─┘
     ├ option 2:
-        Hero ⟨cond⟩: Scott Ryder. I founded Meridian.
-        ↩ (goto) loyalty_hmm_human_captive_multi: [Comm] Holy shit. That was true?
+        [0001F661] Hero ⟨cond⟩: Scott Ryder. I founded Meridian.
+        ↩ (goto) [0001F664] loyalty_hmm_human_captive_multi: [Comm] Holy shit. That was true?
     ├ option 3:
-        Hero: Ryder. The Pathfinder who founded Meridian.
-        ↩ (goto) loyalty_hmm_human_captive_multi: [Comm] Holy shit. That was true?
+        [0001F663] Hero: Ryder. The Pathfinder who founded Meridian.
+        ↩ (goto) [0001F664] loyalty_hmm_human_captive_multi: [Comm] Holy shit. That was true?
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Sara Ryder. Pathfinder from the Hyperion.
-        loyalty_hmm_human_captive_multi: [Comm] Holy shit. An ark showed?
-        ↩ (goto) global_squad_male_human: Is Verand all right?
+        [0001DDF2] Hero ⟨cond⟩: Sara Ryder. Pathfinder from the Hyperion.
+        [0001DDEF] loyalty_hmm_human_captive_multi: [Comm] Holy shit. An ark showed?
+        ↩ (goto) [0001DDF6] global_squad_male_human: Is Verand all right?
     ├ option 2:
-        Hero ⟨cond⟩: Scott Ryder. Pathfinder from the Hyperion.
-        ↩ (goto) loyalty_hmm_human_captive_multi: [Comm] Holy shit. An ark showed?
+        [0001DDF0] Hero ⟨cond⟩: Scott Ryder. Pathfinder from the Hyperion.
+        ↩ (goto) [0001DDEF] loyalty_hmm_human_captive_multi: [Comm] Holy shit. An ark showed?
     ├ option 3:
-        Hero: Ryder. Pathfinder from the Hyperion.
-        ↩ (goto) loyalty_hmm_human_captive_multi: [Comm] Holy shit. An ark showed?
+        [0001DDF1] Hero: Ryder. Pathfinder from the Hyperion.
+        ↩ (goto) [0001DDEF] loyalty_hmm_human_captive_multi: [Comm] Holy shit. An ark showed?
     └─ merge ─┘
 ├ option 3:
-    Hero: There's more options than that. My team has made sure of it.
-    loyalty_hmm_human_captive_multi: [Comm] We heard the pirates say "Pathfinder." Didn't believe them.
-    ↩ (goto) global_squad_male_human: Is Verand all right?
+    [0001DDED] Hero: There's more options than that. My team has made sure of it.
+    [0001DDF5] loyalty_hmm_human_captive_multi: [Comm] We heard the pirates say "Pathfinder." Didn't believe them.
+    ↩ (goto) [0001DDF6] global_squad_male_human: Is Verand all right?
 └─ merge ─┘

@@ -6,27 +6,27 @@
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Ryder could find it—she has a scanner! Quick, Ryder—use it to locate the fault!
-        Hero: On it!
-        global_squad_female_human: I'll try to get readings on the second conduit.
+        [0003106E] global_squad_female_human ⟨cond⟩: Ryder could find it—she has a scanner! Quick, Ryder—use it to locate the fault!
+        [00031071] Hero: On it!
+        [0003107C] global_squad_female_human: I'll try to get readings on the second conduit.
     ├ option 2:
-        global_squad_female_human: Ryder could find it—he has a scanner! Quick, Ryder—use it to locate the fault!
-        ↩ (goto) Hero: On it!
+        [00031070] global_squad_female_human: Ryder could find it—he has a scanner! Quick, Ryder—use it to locate the fault!
+        ↩ (goto) [00031071] Hero: On it!
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_female_human [OncePerGame]: Ryder, try scanning the whole conduit—look for the fault!
+        [0003106D] global_squad_female_human [OncePerGame]: Ryder, try scanning the whole conduit—look for the fault!
     ├ option 2:
-        global_squad_female_human [OncePerGame]: Hurry, Ryder—find the fault!
+        [00031329] global_squad_female_human [OncePerGame]: Hurry, Ryder—find the fault!
     └─ merge ─┘
 └─ merge ─┘
-SAM: There's no indication of a fault in this component.
-global_squad_female_human: Keep looking!
-SAM: This equipment is operating normally.
-Hero: It has to be here...
-SAM: Relay 2-C shows damage from a temperature spike.
-Hero: Found it! Bad relay!
-Hero: There! It's reset!
-SAM: Please stand by while the conduit finishes cycling.
-global_squad_female_human: Good job, Ryder. Now we can get to the tram.
+[00031075] SAM: There's no indication of a fault in this component.
+[00031078] global_squad_female_human: Keep looking!
+[0003107A] SAM: This equipment is operating normally.
+[00031332] Hero: It has to be here...
+[00031074] SAM: Relay 2-C shows damage from a temperature spike.
+[00031076] Hero: Found it! Bad relay!
+[00031095] Hero: There! It's reset!
+[00035253] SAM: Please stand by while the conduit finishes cycling.
+[00031097] global_squad_female_human: Good job, Ryder. Now we can get to the tram.

@@ -2,214 +2,214 @@
 # Primary speaker: stm_outpost_staff_majordomo
 # Source: game/conversations/unc/storms/stm_8010_majordomo_main_i.xml
 ==================================================
-stm_outpost_staff_majordomo: Pathfinder. Majordomo Evan Bell-Scott. I have headaches so you don't have to. Rather, so Bradley doesn't have to.
+[000316C7] stm_outpost_staff_majordomo: Pathfinder. Majordomo Evan Bell-Scott. I have headaches so you don't have to. Rather, so Bradley doesn't have to.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    stm_outpost_staff_majordomo ⟨cond⟩: I've also coordinated with your kett expert. He wanted me to remind you to find him.
-    Hero: I didn't assign a kett expert to Prodromos.
-    stm_outpost_staff_majordomo: Then he's a hell of a self-motivator. Here's the nav, anyway. Precision is important.
+    [00031D9F] stm_outpost_staff_majordomo ⟨cond⟩: I've also coordinated with your kett expert. He wanted me to remind you to find him.
+    [00031DA1] Hero: I didn't assign a kett expert to Prodromos.
+    [00031DA0] stm_outpost_staff_majordomo: Then he's a hell of a self-motivator. Here's the nav, anyway. Precision is important.
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        Hero ⟨cond⟩ [OncePerGame]: You ever just want to get away from this mess. With, you know, someone?
-        stm_outpost_staff_majordomo: For now, I think we're a little busy. But...
-        stm_outpost_staff_majordomo: We stabilize this cluster, make things normal enough to have bad vids bouncing between satellites, I'll wait in the dark with you.
-        ↩ (goto) Hero: [empty]
+        [00031B6B] Hero ⟨cond⟩ [OncePerGame]: You ever just want to get away from this mess. With, you know, someone?
+        [00031DF5] stm_outpost_staff_majordomo: For now, I think we're a little busy. But...
+        [00031DEB] stm_outpost_staff_majordomo: We stabilize this cluster, make things normal enough to have bad vids bouncing between satellites, I'll wait in the dark with you.
+        ↩ (goto) [000316D2] Hero: [empty]
     ├ option 2:
-        Hero: Thoughts on how the outpost is doing? The planet?
+        [000316D0] Hero: Thoughts on how the outpost is doing? The planet?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            stm_outpost_staff_majordomo: You have to ask? We're nigh legendary. Eos may not have been golden, but it's a diamond now.
-            ↩ (goto) Hero: [empty]
+            [00031CE8] stm_outpost_staff_majordomo: You have to ask? We're nigh legendary. Eos may not have been golden, but it's a diamond now.
+            ↩ (goto) [000316D2] Hero: [empty]
         ├ option 2:
-            stm_outpost_staff_majordomo: Stellar. We keep it up, we'll make this world look like the brochures.
-            ↩ (goto) Hero: [empty]
+            [00031CE6] stm_outpost_staff_majordomo: Stellar. We keep it up, we'll make this world look like the brochures.
+            ↩ (goto) [000316D2] Hero: [empty]
         ├ option 3:
-            stm_outpost_staff_majordomo: We're more than feeding ourselves. That implies something, but I won't be the one to say it. I'm proud of what's been built.
-            ↩ (goto) Hero: [empty]
+            [00031CE7] stm_outpost_staff_majordomo: We're more than feeding ourselves. That implies something, but I won't be the one to say it. I'm proud of what's been built.
+            ↩ (goto) [000316D2] Hero: [empty]
         └─ merge ─┘
     ├ option 3:
-        Hero: How did you come to the Initiative?
-        stm_outpost_staff_majordomo: Like many, I was lost and looking for a purpose. That sounds loftier than it felt at the time. I was an insufferable ass.
-        stm_outpost_staff_majordomo: The training for the trip was probably enough to cure me of it, but I always took things too far.
-        stm_outpost_staff_majordomo: Didn't know how to stop alienating people until I was the alien.
-        stm_outpost_staff_majordomo: Heh. See? Still insufferable.
+        [000316CE] Hero: How did you come to the Initiative?
+        [00031C66] stm_outpost_staff_majordomo: Like many, I was lost and looking for a purpose. That sounds loftier than it felt at the time. I was an insufferable ass.
+        [00031C61] stm_outpost_staff_majordomo: The training for the trip was probably enough to cure me of it, but I always took things too far.
+        [00031C62] stm_outpost_staff_majordomo: Didn't know how to stop alienating people until I was the alien.
+        [00031CCA] stm_outpost_staff_majordomo: Heh. See? Still insufferable.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero: Where'd you launch out of?
-            stm_outpost_staff_majordomo: The pale blue dot, terra prime, big old boring Earth. I miss... I miss that wet dog smell after the first snow melts. I don't know why.
+            [00031CE1] Hero: Where'd you launch out of?
+            [00031CDA] stm_outpost_staff_majordomo: The pale blue dot, terra prime, big old boring Earth. I miss... I miss that wet dog smell after the first snow melts. I don't know why.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                stm_outpost_staff_majordomo [OncePerGame]: What about you? Miss anything?
+                [00031CE2] stm_outpost_staff_majordomo [OncePerGame]: What about you? Miss anything?
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    Hero: There's so much here to keep my attention. I don't miss much.
-                    stm_outpost_staff_majordomo: Must be nice.
+                    [00031D95] Hero: There's so much here to keep my attention. I don't miss much.
+                    [00031D97] stm_outpost_staff_majordomo: Must be nice.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero: Where'd you launch out of?
+                        ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                     ├ option 2:
-                        Hero: Sounds like you left some interesting circumstances?
-                        stm_outpost_staff_majordomo: I miss the family, and maybe they miss me, but that doesn't mean I'd go back. I mean, we can't, but still...
+                        [00031CDD] Hero: Sounds like you left some interesting circumstances?
+                        [00031CDB] stm_outpost_staff_majordomo: I miss the family, and maybe they miss me, but that doesn't mean I'd go back. I mean, we can't, but still...
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            stm_outpost_staff_majordomo [OncePerGame]: I like where I came from. It's a great place to be {i}from{/i}. Know what I mean?
+                            [00031CE0] stm_outpost_staff_majordomo [OncePerGame]: I like where I came from. It's a great place to be {i}from{/i}. Know what I mean?
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                Hero: I don't know. I liked where I was. There were... other things that brought us here.
-                                stm_outpost_staff_majordomo: Not me. Eyes on distant stars. Always have been.
+                                [00031CE3] Hero: I don't know. I liked where I was. There were... other things that brought us here.
+                                [00031CE5] stm_outpost_staff_majordomo: Not me. Eyes on distant stars. Always have been.
                                 ┌─ BRANCH (3) ─┐
                                 ├ option 1:
-                                    ↩ (goto) Hero: Where'd you launch out of?
+                                    ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                                 ├ option 2:
-                                    ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+                                    ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
                                 ├ option 3:
-                                    Hero: Another time.
-                                    stm_outpost_staff_majordomo: Of course.
+                                    [00031B29] Hero: Another time.
+                                    [00031C68] stm_outpost_staff_majordomo: Of course.
                                 └─ merge ─┘
                             ├ option 2:
-                                Hero: I know exactly how you feel. Couldn't wait to be from somewhere.
-                                stm_outpost_staff_majordomo: Like a bullet leaves a gun. Sometimes you just gotta go.
+                                [00031CD9] Hero: I know exactly how you feel. Couldn't wait to be from somewhere.
+                                [00031CE4] stm_outpost_staff_majordomo: Like a bullet leaves a gun. Sometimes you just gotta go.
                                 ┌─ BRANCH (3) ─┐
                                 ├ option 1:
-                                    ↩ (goto) Hero: Where'd you launch out of?
+                                    ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                                 ├ option 2:
-                                    ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+                                    ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
                                 ├ option 3:
-                                    ↩ (goto) Hero: Another time.
+                                    ↩ (goto) [00031B29] Hero: Another time.
                                 └─ merge ─┘
                             └─ merge ─┘
                         ├ option 2:
                             ┌─ BRANCH (3) ─┐
                             ├ option 1:
-                                ↩ (goto) Hero: Where'd you launch out of?
+                                ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                             ├ option 2:
-                                ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+                                ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
                             ├ option 3:
-                                ↩ (goto) Hero: Another time.
+                                ↩ (goto) [00031B29] Hero: Another time.
                             └─ merge ─┘
                         └─ merge ─┘
                     ├ option 3:
-                        ↩ (goto) Hero: Another time.
+                        ↩ (goto) [00031B29] Hero: Another time.
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: Things were easier. So much already built. We get to do it all again, for good or bad, I guess.
-                    stm_outpost_staff_majordomo: Better get it right.
+                    [00031DA2] Hero: Things were easier. So much already built. We get to do it all again, for good or bad, I guess.
+                    [00031D9C] stm_outpost_staff_majordomo: Better get it right.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero: Where'd you launch out of?
+                        ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                     ├ option 2:
-                        ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+                        ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
                     ├ option 3:
-                        ↩ (goto) Hero: Another time.
+                        ↩ (goto) [00031B29] Hero: Another time.
                     └─ merge ─┘
                 ├ option 3:
-                    Hero: I miss... the time on the couch before media loads.
-                    Hero: Make your choice, and as a B-minus rom-com bounces between satellites, the size of the planet decides how long you wait in the dark.
-                    stm_outpost_staff_majordomo: Your popcorn sounds nice, Pathfinder.
+                    [00031D99] Hero: I miss... the time on the couch before media loads.
+                    [00031D98] Hero: Make your choice, and as a B-minus rom-com bounces between satellites, the size of the planet decides how long you wait in the dark.
+                    [00031DB6] stm_outpost_staff_majordomo: Your popcorn sounds nice, Pathfinder.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero: Where'd you launch out of?
+                        ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                     ├ option 2:
-                        ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+                        ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
                     ├ option 3:
-                        ↩ (goto) Hero: Another time.
+                        ↩ (goto) [00031B29] Hero: Another time.
                     └─ merge ─┘
                 ├ option 4:
-                    Hero: Oh, you know, I miss not risking death every five minutes. Saving lives. That sort of thing.
-                    Hero: Bet you hear that a lot.
-                    stm_outpost_staff_majordomo: Sure. Sure, Pathfinder. All the time.
+                    [00031D9A] Hero: Oh, you know, I miss not risking death every five minutes. Saving lives. That sort of thing.
+                    [00031DA3] Hero: Bet you hear that a lot.
+                    [00031DB5] stm_outpost_staff_majordomo: Sure. Sure, Pathfinder. All the time.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero: Where'd you launch out of?
+                        ↩ (goto) [00031CE1] Hero: Where'd you launch out of?
                     ├ option 2:
-                        ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+                        ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
                     ├ option 3:
-                        ↩ (goto) Hero: Another time.
+                        ↩ (goto) [00031B29] Hero: Another time.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) stm_outpost_staff_majordomo: [empty]
+                ↩ (goto) [00031D9B] stm_outpost_staff_majordomo: [empty]
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) Hero: Sounds like you left some interesting circumstances?
+            ↩ (goto) [00031CDD] Hero: Sounds like you left some interesting circumstances?
         ├ option 3:
-            ↩ (goto) Hero: Another time.
+            ↩ (goto) [00031B29] Hero: Another time.
         └─ merge ─┘
     ├ option 4:
-        Hero: Thoughts on your boss?
-        stm_outpost_staff_majordomo: The old man? He's pretty tied into what happens here. I just pick up the day-to-day scraps.
+        [00031CCF] Hero: Thoughts on your boss?
+        [00031CCD] stm_outpost_staff_majordomo: The old man? He's pretty tied into what happens here. I just pick up the day-to-day scraps.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            stm_outpost_staff_majordomo ⟨cond⟩: He's been real useful with the added security. Knows how to talk "military."
-            stm_outpost_staff_majordomo: I hope he's proud. Feels like he's proud.
-            ↩ (goto) Hero: [empty]
+            [00031CD2] stm_outpost_staff_majordomo ⟨cond⟩: He's been real useful with the added security. Knows how to talk "military."
+            [00031CD0] stm_outpost_staff_majordomo: I hope he's proud. Feels like he's proud.
+            ↩ (goto) [000316D2] Hero: [empty]
         ├ option 2:
-            stm_outpost_staff_majordomo: Good at cracking the whip for these science types. Doesn't fall for the details.
-            ↩ (goto) stm_outpost_staff_majordomo: I hope he's proud. Feels like he's proud.
+            [00031CD5] stm_outpost_staff_majordomo: Good at cracking the whip for these science types. Doesn't fall for the details.
+            ↩ (goto) [00031CD0] stm_outpost_staff_majordomo: I hope he's proud. Feels like he's proud.
         └─ merge ─┘
     ├ option 5:
-        Hero: Any trouble with the kett?
-        stm_outpost_staff_majordomo: Clearing the sky cleared it for the bad guys as well as us. So some uptick in hostility was to be expected.
+        [00031DE3] Hero: Any trouble with the kett?
+        [00031DE2] stm_outpost_staff_majordomo: Clearing the sky cleared it for the bad guys as well as us. So some uptick in hostility was to be expected.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            stm_outpost_staff_majordomo ⟨cond⟩: We're well positioned to repel them, thanks to the added security. But the rest of the planet is another matter.
+            [00031DE1] stm_outpost_staff_majordomo ⟨cond⟩: We're well positioned to repel them, thanks to the added security. But the rest of the planet is another matter.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                stm_outpost_staff_majordomo ⟨cond⟩: Thankfully, you tracked them to their lair and put your boot through the door. Can't ask for more.
-                ↩ (goto) Hero: [empty]
+                [00031DE4] stm_outpost_staff_majordomo ⟨cond⟩: Thankfully, you tracked them to their lair and put your boot through the door. Can't ask for more.
+                ↩ (goto) [000316D2] Hero: [empty]
             ├ option 2:
-                stm_outpost_staff_majordomo: Your "expert" is still out there. He'd have more current information than I.
-                ↩ (goto) Hero: [empty]
+                [00031DE0] stm_outpost_staff_majordomo: Your "expert" is still out there. He'd have more current information than I.
+                ↩ (goto) [000316D2] Hero: [empty]
             └─ merge ─┘
         ├ option 2:
-            stm_outpost_staff_majordomo: We've some tricks up our sleeves—thanks to the research teams—but that only goes so far.
+            [00031DE5] stm_outpost_staff_majordomo: We've some tricks up our sleeves—thanks to the research teams—but that only goes so far.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) stm_outpost_staff_majordomo ⟨cond⟩: Thankfully, you tracked them to their lair and put your boot through the door. Can't ask for more.
+                ↩ (goto) [00031DE4] stm_outpost_staff_majordomo ⟨cond⟩: Thankfully, you tracked them to their lair and put your boot through the door. Can't ask for more.
             ├ option 2:
-                ↩ (goto) stm_outpost_staff_majordomo: Your "expert" is still out there. He'd have more current information than I.
+                ↩ (goto) [00031DE0] stm_outpost_staff_majordomo: Your "expert" is still out there. He'd have more current information than I.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 6:
-        Hero ⟨cond⟩: Anything need doing? I'm here—I can help.
-        stm_outpost_staff_majordomo: There is something that bothers me. You catalogued those who died at Promise and Resilience. A grim task I don't envy.
-        stm_outpost_staff_majordomo: But it's not enough. The numbers, I mean. Between the living and the accounted dead, there should be more.
+        [000316C5] Hero ⟨cond⟩: Anything need doing? I'm here—I can help.
+        [00031BC4] stm_outpost_staff_majordomo: There is something that bothers me. You catalogued those who died at Promise and Resilience. A grim task I don't envy.
+        [00031BC2] stm_outpost_staff_majordomo: But it's not enough. The numbers, I mean. Between the living and the accounted dead, there should be more.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: Not what I want to hear, not with what we know about the kett.
-            stm_outpost_staff_majordomo: I don't know. But in this matter—perhaps above all others—precision is important.
-            stm_outpost_staff_majordomo: Check the personnel console. I've noted some possibilities. And you're in the best position to verify them.
-            ↩ (goto) Hero: [empty]
+            [00031BC3] Hero ⟨cond⟩: Not what I want to hear, not with what we know about the kett.
+            [00031BC0] stm_outpost_staff_majordomo: I don't know. But in this matter—perhaps above all others—precision is important.
+            [00031C60] stm_outpost_staff_majordomo: Check the personnel console. I've noted some possibilities. And you're in the best position to verify them.
+            ↩ (goto) [000316D2] Hero: [empty]
         ├ option 2:
-            Hero: I was thorough. Could the kett have taken them?
-            ↩ (goto) stm_outpost_staff_majordomo: I don't know. But in this matter—perhaps above all others—precision is important.
+            [00031BC1] Hero: I was thorough. Could the kett have taken them?
+            ↩ (goto) [00031BC0] stm_outpost_staff_majordomo: I don't know. But in this matter—perhaps above all others—precision is important.
         └─ merge ─┘
     ├ option 7:
-        ↩ (goto) Hero: Another time.
+        ↩ (goto) [00031B29] Hero: Another time.
     └─ merge ─┘
 ├ option 2:
-    stm_outpost_staff_majordomo: If you have need of anything, don't hesitate. We're all very grateful.
-    Hero: Thank you—Evan, was it?
-    stm_outpost_staff_majordomo: Majordomo Evan Bell-Scott. One first, two last with a dash. Precision is important.
-    ↩ (goto) Hero: [empty]
+    [000316C9] stm_outpost_staff_majordomo: If you have need of anything, don't hesitate. We're all very grateful.
+    [000316C0] Hero: Thank you—Evan, was it?
+    [00031B51] stm_outpost_staff_majordomo: Majordomo Evan Bell-Scott. One first, two last with a dash. Precision is important.
+    ↩ (goto) [000316D2] Hero: [empty]
 └─ merge ─┘
-stm_outpost_staff_majordomo: I got the report about the evac shuttle, Pathfinder. They may not want to return to Eos, but they'll have the choice.
-stm_outpost_staff_majordomo: Make no mistake. We are changed again, because of you.
-↩ (goto) Hero: [empty]
-stm_outpost_staff_majordomo: Thank you for looking into the missing personnel. We've lost too many. One was too many.
-↩ (goto) Hero: [empty]
-stm_outpost_staff_majordomo: I can't approve of what they did, Pathfinder, but Chase and the other new... recruits seem eager enough.
-stm_outpost_staff_majordomo: Bradley's big on second chances. Let's hope they make the most of it.
-↩ (goto) Hero: [empty]
+[000316C1] stm_outpost_staff_majordomo: I got the report about the evac shuttle, Pathfinder. They may not want to return to Eos, but they'll have the choice.
+[00031CCC] stm_outpost_staff_majordomo: Make no mistake. We are changed again, because of you.
+↩ (goto) [000316D2] Hero: [empty]
+[000316D1] stm_outpost_staff_majordomo: Thank you for looking into the missing personnel. We've lost too many. One was too many.
+↩ (goto) [000316D2] Hero: [empty]
+[00031E64] stm_outpost_staff_majordomo: I can't approve of what they did, Pathfinder, but Chase and the other new... recruits seem eager enough.
+[00031E65] stm_outpost_staff_majordomo: Bradley's big on second chances. Let's hope they make the most of it.
+↩ (goto) [000316D2] Hero: [empty]
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    stm_outpost_staff_majordomo: Pathfinder.
-    ↩ (goto) Hero: [empty]
+    [000316C8] stm_outpost_staff_majordomo: Pathfinder.
+    ↩ (goto) [000316D2] Hero: [empty]
 ├ option 2:
-    stm_outpost_staff_majordomo: Pathfinder Ryder. Can I help you?
-    ↩ (goto) Hero: [empty]
+    [000316C3] stm_outpost_staff_majordomo: Pathfinder Ryder. Can I help you?
+    ↩ (goto) [000316D2] Hero: [empty]
 ├ option 3:
-    stm_outpost_staff_majordomo: What do you need, Pathfinder?
-    ↩ (goto) Hero: [empty]
+    [000316CD] stm_outpost_staff_majordomo: What do you need, Pathfinder?
+    ↩ (goto) [000316D2] Hero: [empty]
 └─ merge ─┘
-↩ (goto) Hero: [empty]
+↩ (goto) [000316D2] Hero: [empty]

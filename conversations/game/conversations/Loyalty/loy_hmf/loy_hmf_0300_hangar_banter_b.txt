@@ -2,61 +2,61 @@
 # Primary speaker: SAM
 # Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0300_hangar_banter_b.xml
 ==================================================
-loy_hmf_vederia_multi: Kett!
-global_squad_female_human: We've got this! Cover the console while SAM works—nice, steady fire!
-loy_hmf_vederia_multi: Yes ma'am!
-SAM: Starting hangar door closure sequence.
-SAM: Hangar door closure at 21 percent.
-SAM: Hangar door closure at 53 percent.
-SAM: Hangar door closure at 77 percent.
-SAM: Hangar doors are closed and locked. Kett access is cut off.
-SAM: Enemy override attempt in progress.
+[0000CF56] loy_hmf_vederia_multi: Kett!
+[0000CF57] global_squad_female_human: We've got this! Cover the console while SAM works—nice, steady fire!
+[0000CF58] loy_hmf_vederia_multi: Yes ma'am!
+[0000ADB6] SAM: Starting hangar door closure sequence.
+[0000ADD8] SAM: Hangar door closure at 21 percent.
+[0000ADDA] SAM: Hangar door closure at 53 percent.
+[0000ADD9] SAM: Hangar door closure at 77 percent.
+[0000ADD7] SAM: Hangar doors are closed and locked. Kett access is cut off.
+[0000BD11] SAM: Enemy override attempt in progress.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: It's trying to hack the console! Focus fire on that one!
+    [00026FC7] Hero: It's trying to hack the console! Focus fire on that one!
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero: Target the hacker!
+        [00026FCA] Hero: Target the hacker!
     ├ option 2:
-        Hero: Defend the console—hit that hacker!
+        [00026FC9] Hero: Defend the console—hit that hacker!
     ├ option 3:
-        Hero: Get the hacker, quick!
+        [00026FC4] Hero: Get the hacker, quick!
     └─ merge ─┘
 └─ merge ─┘
-SAM: Enemy override countermanded.
+[0000CF00] SAM: Enemy override countermanded.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Hacker's down, nice work!
+    [00026FC2] Hero: Hacker's down, nice work!
 ├ option 2:
-    Hero: Got the hacker! Keep going!
+    [00026FC6] Hero: Got the hacker! Keep going!
 ├ option 3:
-    Hero: Yes! The hacker's down!
+    [00026FC3] Hero: Yes! The hacker's down!
 └─ merge ─┘
-SAM: Connection severed. Secondary doors cannot be closed.
-Hero: Keep watching the console, there might be more kett!
-Hero: Closed! Don't relax, keep pushing them back!
-Hero: Okay, that... should've done it.
+[0000ADD6] SAM: Connection severed. Secondary doors cannot be closed.
+[00026E44] Hero: Keep watching the console, there might be more kett!
+[00027D1E] Hero: Closed! Don't relax, keep pushing them back!
+[00026E43] Hero: Okay, that... should've done it.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_asari ⟨cond⟩: So where's our damn power for FTL?
-    global_squad_female_human: Vederia? Let's ask her.
+    [00026E3F] global_squad_asari ⟨cond⟩: So where's our damn power for FTL?
+    [00026E40] global_squad_female_human: Vederia? Let's ask her.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: So why isn't the power back on?
-    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+    [00026E3E] global_squad_krogan ⟨cond⟩: So why isn't the power back on?
+    ↩ (goto) [00026E40] global_squad_female_human: Vederia? Let's ask her.
 ├ option 3:
-    global_squad_angara ⟨cond⟩: But no lights. Is there still no power?
-    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+    [00026E42] global_squad_angara ⟨cond⟩: But no lights. Is there still no power?
+    ↩ (goto) [00026E40] global_squad_female_human: Vederia? Let's ask her.
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: Seems pretty dark for having the power back on.
-    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+    [00026E41] global_squad_male_human ⟨cond⟩: Seems pretty dark for having the power back on.
+    ↩ (goto) [00026E40] global_squad_female_human: Vederia? Let's ask her.
 ├ option 5:
-    global_squad_turian ⟨cond⟩: Except there's no power.
-    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+    [00026E51] global_squad_turian ⟨cond⟩: Except there's no power.
+    ↩ (goto) [00026E40] global_squad_female_human: Vederia? Let's ask her.
 ├ option 6:
-    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+    ↩ (goto) [00026E40] global_squad_female_human: Vederia? Let's ask her.
 └─ merge ─┘
-global_squad_female_human: Vederia's down by that maintenance panel.
-Hero: What was that?
-SAM: I estimate that several of the ark's electrical junctions just overloaded.
-global_squad_female_human: Shit. Vederia?
+[00027CE6] global_squad_female_human: Vederia's down by that maintenance panel.
+[00024080] Hero: What was that?
+[00024091] SAM: I estimate that several of the ark's electrical junctions just overloaded.
+[00024090] global_squad_female_human: Shit. Vederia?

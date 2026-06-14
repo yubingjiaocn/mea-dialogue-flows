@@ -2,67 +2,67 @@
 # Primary speaker: SAM
 # Source: game/conversations/bstory/ket/ketbs_0210_scipost_archondna_i.xml
 ==================================================
-SAM: Pathfinder, these samples all contain the same genetic sequence.
-SAM: At first, it appears to be a familial connection, but the genome shows signs of modification.
-SAM: Evidence suggests the sequence was drawn from a single individual, and incorporated into other kett.
-Hero: The Archon.
+[0002029F] SAM: Pathfinder, these samples all contain the same genetic sequence.
+[000274BF] SAM: At first, it appears to be a familial connection, but the genome shows signs of modification.
+[000274C1] SAM: Evidence suggests the sequence was drawn from a single individual, and incorporated into other kett.
+[000202A5] Hero: The Archon.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩ [OncePerGame]: Exaltation.
+    [00020299] global_squad_krogan ⟨cond⟩ [OncePerGame]: Exaltation.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: So they are all related. Through the Archon.
+        [0002119F] Hero: So they are all related. Through the Archon.
     ├ option 2:
-        Hero: So does the Archon control the kett because they see him as a progenitor?
-        Hero: Or does his rank give him the privilege to propagate his genes like this?
+        [0002119C] Hero: So does the Archon control the kett because they see him as a progenitor?
+        [00021199] Hero: Or does his rank give him the privilege to propagate his genes like this?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_angara ⟨cond⟩ [OncePerGame]: {i}(Disgusted grunt.){/i}
-            SAM: A cultural question, beyond my purview.
-            Hero: In any case, the stuff we found should be of great interest to the science team back on the Nexus.
+            [000202B3] global_squad_angara ⟨cond⟩ [OncePerGame]: {i}(Disgusted grunt.){/i}
+            [0002119B] SAM: A cultural question, beyond my purview.
+            [000285AA] Hero: In any case, the stuff we found should be of great interest to the science team back on the Nexus.
         ├ option 2:
-            ↩ (goto) SAM: A cultural question, beyond my purview.
+            ↩ (goto) [0002119B] SAM: A cultural question, beyond my purview.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    global_squad_female_human ⟨cond⟩ [OncePerGame]: Exaltation.
+    [000202A1] global_squad_female_human ⟨cond⟩ [OncePerGame]: Exaltation.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        ↩ (goto) [000211A0] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) global_squad_male_human: [empty]
+        ↩ (goto) [000202A4] global_squad_male_human: [empty]
     └─ merge ─┘
 ├ option 3:
-    global_squad_asari ⟨cond⟩ [OncePerGame]: Exaltation.
+    [0002029A] global_squad_asari ⟨cond⟩ [OncePerGame]: Exaltation.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        ↩ (goto) [000211A0] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) global_squad_male_human: [empty]
+        ↩ (goto) [000202A4] global_squad_male_human: [empty]
     └─ merge ─┘
 ├ option 4:
-    global_squad_angara ⟨cond⟩ [OncePerGame]: Exaltation.
+    [0002029D] global_squad_angara ⟨cond⟩ [OncePerGame]: Exaltation.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        ↩ (goto) [000211A0] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) global_squad_male_human: [empty]
+        ↩ (goto) [000202A4] global_squad_male_human: [empty]
     └─ merge ─┘
 ├ option 5:
-    global_squad_male_human ⟨cond⟩ [OncePerGame]: Exaltation.
+    [000202A3] global_squad_male_human ⟨cond⟩ [OncePerGame]: Exaltation.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        ↩ (goto) [000211A0] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) global_squad_male_human: [empty]
+        ↩ (goto) [000202A4] global_squad_male_human: [empty]
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: The Archon is propagating his genes though exaltation. Like he's the dad. Or mom.
-    global_squad_asari ⟨cond⟩ [OncePerGame]: Worst mom ever.
+    [0002028D] Hero: The Archon is propagating his genes though exaltation. Like he's the dad. Or mom.
+    [000202B2] global_squad_asari ⟨cond⟩ [OncePerGame]: Worst mom ever.
 ├ option 2:
-    SAM: Yes. Experiments were done to integrate it with angaran genetic material.
+    [0002029B] SAM: Yes. Experiments were done to integrate it with angaran genetic material.
 ├ option 3:
-    SAM: It was all drawn from a single individual, isolated, then copied.
+    [0002029C] SAM: It was all drawn from a single individual, isolated, then copied.
 └─ merge ─┘

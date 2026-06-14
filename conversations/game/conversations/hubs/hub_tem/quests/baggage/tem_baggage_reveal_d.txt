@@ -2,50 +2,50 @@
 # Primary speaker: global_crew_co-pilot
 # Source: game/conversations/hubs/hub_tem/quests/baggage/tem_baggage_reveal_d.xml
 ==================================================
-global_crew_co-pilot: Those parts you found welded in the storage room—I recognize them.
-Hero: From where?
-global_crew_co-pilot: They belonged to the ship's lead designer, Lucille Diawara. She... broke her back during construction.
-global_crew_co-pilot: But Lucille wouldn't abandon her ship. She converted a construction mech into a rig she could wear.
-global_crew_co-pilot: She must have welded it into the hull. Her artist's signature.
+[0001990D] global_crew_co-pilot: Those parts you found welded in the storage room—I recognize them.
+[0001C778] Hero: From where?
+[0001C77B] global_crew_co-pilot: They belonged to the ship's lead designer, Lucille Diawara. She... broke her back during construction.
+[0001C77A] global_crew_co-pilot: But Lucille wouldn't abandon her ship. She converted a construction mech into a rig she could wear.
+[0001C8CD] global_crew_co-pilot: She must have welded it into the hull. Her artist's signature.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Six hundred years later, the power's run out... Suvi detects it.
-    global_crew_science_officer: SAM, didn't you find an audio log with Lucille's rig? Can you play it?
-    Narration: Ryder touches a console and triggers the audio log.
-    tem_designer: [Audio Log] A SAM found my construction gear, then. Well done. One of you Pathfinders got the Tempest.
-    tem_designer: [Audio Log] Macen Barro. Zevin Raeka. Matriarch Ishara. Alec Ryder. You were the best of us.
+    [0001C792] Hero: Six hundred years later, the power's run out... Suvi detects it.
+    [0001C797] global_crew_science_officer: SAM, didn't you find an audio log with Lucille's rig? Can you play it?
+    [0001C798] Narration: Ryder touches a console and triggers the audio log.
+    [0001C7B7] tem_designer: [Audio Log] A SAM found my construction gear, then. Well done. One of you Pathfinders got the Tempest.
+    [0001C7FA] tem_designer: [Audio Log] Macen Barro. Zevin Raeka. Matriarch Ishara. Alec Ryder. You were the best of us.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: The only Pathfinder still on that list is "Ryder." And it's not even the original.
-        global_crew_science_officer: But there's new names. Because of you.
-        tem_designer: [Audio Log] Take care of my ship, and each other. Whatever's in Andromeda, you're the Milky Way to them.
-        tem_designer: [Audio Log] "We are such stuff as dreams are made on. And our little life is rounded with a sleep."
-        Narration: The message ends.
-        global_crew_co-pilot: I never thought I'd hear Lucille's voice again.
-        global_crew_science_officer: She really cared about the Pathfinders. Enough to give them her rig... for luck?
+        [0001C8C8] Hero ⟨cond⟩: The only Pathfinder still on that list is "Ryder." And it's not even the original.
+        [0001C8CB] global_crew_science_officer: But there's new names. Because of you.
+        [0001C8CE] tem_designer: [Audio Log] Take care of my ship, and each other. Whatever's in Andromeda, you're the Milky Way to them.
+        [0001C7FD] tem_designer: [Audio Log] "We are such stuff as dreams are made on. And our little life is rounded with a sleep."
+        [0001C7FB] Narration: The message ends.
+        [0001C7FC] global_crew_co-pilot: I never thought I'd hear Lucille's voice again.
+        [0001C7FF] global_crew_science_officer: She really cared about the Pathfinders. Enough to give them her rig... for luck?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Lucille made it a part of the Tempest.
-            Hero: Let's keep it that way.
-            global_crew_co-pilot: I'll see to it, Ryder.
-            Hero: Thanks. Now let's go make her proud.
+            [0001ABD7] Hero: Lucille made it a part of the Tempest.
+            [0001ABDA] Hero: Let's keep it that way.
+            [0001C842] global_crew_co-pilot: I'll see to it, Ryder.
+            [0001C8CF] Hero: Thanks. Now let's go make her proud.
         ├ option 2:
-            Hero: It's part of Initiative history.
-            Hero: It should go to the Nexus for everyone to see. And maybe help someone else.
-            ↩ (goto) global_crew_co-pilot: I'll see to it, Ryder.
+            [0001ABDB] Hero: It's part of Initiative history.
+            [0001ABDC] Hero: It should go to the Nexus for everyone to see. And maybe help someone else.
+            ↩ (goto) [0001C842] global_crew_co-pilot: I'll see to it, Ryder.
         └─ merge ─┘
     ├ option 2:
-        Hero ⟨cond⟩: The only Pathfinder left from that list is Raeka.
-        ↩ (goto) global_crew_science_officer: But there's new names. Because of you.
+        [00025258] Hero ⟨cond⟩: The only Pathfinder left from that list is Raeka.
+        ↩ (goto) [0001C8CB] global_crew_science_officer: But there's new names. Because of you.
     ├ option 3:
-        Hero: Dad's gone. Makes you wonder how many other Pathfinders made it.
-        global_crew_science_officer: We'll find out. It's what you do.
-        ↩ (goto) tem_designer: [Audio Log] Take care of my ship, and each other. Whatever's in Andromeda, you're the Milky Way to them.
+        [0001C84B] Hero: Dad's gone. Makes you wonder how many other Pathfinders made it.
+        [0001C8CC] global_crew_science_officer: We'll find out. It's what you do.
+        ↩ (goto) [0001C8CE] tem_designer: [Audio Log] Take care of my ship, and each other. Whatever's in Andromeda, you're the Milky Way to them.
     ├ option 4:
-        Hero: She's only saying that because she never met me.
-        ↩ (goto) tem_designer: [Audio Log] Take care of my ship, and each other. Whatever's in Andromeda, you're the Milky Way to them.
+        [0001C84C] Hero: She's only saying that because she never met me.
+        ↩ (goto) [0001C8CE] tem_designer: [Audio Log] Take care of my ship, and each other. Whatever's in Andromeda, you're the Milky Way to them.
     └─ merge ─┘
 ├ option 2:
-    Hero: Not even a broken back could stop her dream.
-    ↩ (goto) global_crew_science_officer: SAM, didn't you find an audio log with Lucille's rig? Can you play it?
+    [0001C793] Hero: Not even a broken back could stop her dream.
+    ↩ (goto) [0001C797] global_crew_science_officer: SAM, didn't you find an audio log with Lucille's rig? Can you play it?
 └─ merge ─┘

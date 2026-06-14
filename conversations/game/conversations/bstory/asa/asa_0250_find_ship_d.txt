@@ -2,120 +2,120 @@
 # Primary speaker: global_squad_female_human
 # Source: game/conversations/bstory/asa/asa_0250_find_ship_d.xml
 ==================================================
-Hero: That's the Periphona, all right. What's left of her.
+[00017E9B] Hero: That's the Periphona, all right. What's left of her.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: Cora should see this.
-    global_squad_female_human: Definitely kett weapons fire.
+    [00017E9D] Hero ⟨cond⟩: Cora should see this.
+    [00017E9C] global_squad_female_human: Definitely kett weapons fire.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: Looks like they crashed trying to escape.
-        global_squad_female_human: This wasn't just a crash. The kett pulverized the ship. No survivors.
+        [00019FB4] global_squad_asari ⟨cond⟩: Looks like they crashed trying to escape.
+        [000183FE] global_squad_female_human: This wasn't just a crash. The kett pulverized the ship. No survivors.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Without the crew, we've lost our best lead to the asari ark.
+            [00017E99] Hero: Without the crew, we've lost our best lead to the asari ark.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                global_squad_female_human ⟨cond⟩: How much longer can the ark hold out?
+                [00017ED3] global_squad_female_human ⟨cond⟩: How much longer can the ark hold out?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
+                    [00018476] global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero: It's like they saw the Periphona itself as a threat—but it's no match for a kett cruiser.
+                        [00019C71] Hero: It's like they saw the Periphona itself as a threat—but it's no match for a kett cruiser.
                         ┌─ BRANCH (5) ─┐
                         ├ option 1:
-                            global_squad_asari ⟨cond⟩: Ryder. Cora. We've got a flight recorder here.
-                            global_squad_female_human: It's in bad shape, but let's see what's—
-                            asabs_peri_capt: [Audio Log] Final log. If the ark ever finds this: we failed. Couldn't draw them off. The data copy's lost.
-                            asabs_peri_capt: [Audio Log] The Decimation's too cunning. Forgive us. We tried...
-                            global_squad_female_human: "The Decimation"? Hydaria mentioned specialized kett hunters. Maybe that's them.
+                            [00018479] global_squad_asari ⟨cond⟩: Ryder. Cora. We've got a flight recorder here.
+                            [000184BA] global_squad_female_human: It's in bad shape, but let's see what's—
+                            [000184F2] asabs_peri_capt: [Audio Log] Final log. If the ark ever finds this: we failed. Couldn't draw them off. The data copy's lost.
+                            [000184F4] asabs_peri_capt: [Audio Log] The Decimation's too cunning. Forgive us. We tried...
+                            [000184F8] global_squad_female_human: "The Decimation"? Hydaria mentioned specialized kett hunters. Maybe that's them.
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                Hero: Any way we could use that or the flight recorder to find the ark?
-                                global_squad_female_human: If the nav record survived, we could trace the Periphona's flight path. Might lead us to them.
-                                SAM: I can assist.
+                                [000184F5] Hero: Any way we could use that or the flight recorder to find the ark?
+                                [000184F3] global_squad_female_human: If the nav record survived, we could trace the Periphona's flight path. Might lead us to them.
+                                [000184FE] SAM: I can assist.
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    global_squad_female_human ⟨cond⟩: I'll get started. See you back at the Tempest.
+                                    [000184FF] global_squad_female_human ⟨cond⟩: I'll get started. See you back at the Tempest.
                                 ├ option 2:
-                                    global_squad_female_human: I'll take a look when we get back. Still lots to do.
-                                    ↩ (goto) global_squad_female_human: [empty]
+                                    [00018500] global_squad_female_human: I'll take a look when we get back. Still lots to do.
+                                    ↩ (goto) [0001854E] global_squad_female_human: [empty]
                                 └─ merge ─┘
                             ├ option 2:
-                                Hero: They've got to be kett, with a name like that.
-                                global_squad_female_human: I hope they choke on it.
-                                SAM: Lieutenant, with time, the navigational record could be reconstructed.
-                                global_squad_female_human: Right. We could trace the Periphona's flight path—maybe all the way back to the ark.
+                                [000184F9] Hero: They've got to be kett, with a name like that.
+                                [000184FA] global_squad_female_human: I hope they choke on it.
+                                [000184FD] SAM: Lieutenant, with time, the navigational record could be reconstructed.
+                                [000184FC] global_squad_female_human: Right. We could trace the Periphona's flight path—maybe all the way back to the ark.
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    ↩ (goto) global_squad_female_human ⟨cond⟩: I'll get started. See you back at the Tempest.
+                                    ↩ (goto) [000184FF] global_squad_female_human ⟨cond⟩: I'll get started. See you back at the Tempest.
                                 ├ option 2:
-                                    ↩ (goto) global_squad_female_human: I'll take a look when we get back. Still lots to do.
+                                    ↩ (goto) [00018500] global_squad_female_human: I'll take a look when we get back. Still lots to do.
                                 └─ merge ─┘
                             └─ merge ─┘
                         ├ option 2:
-                            global_squad_male_human ⟨cond⟩: Hold on, I got something. Could be a flight recorder?
-                            ↩ (goto) global_squad_female_human: [empty]
+                            [00017ED2] global_squad_male_human ⟨cond⟩: Hold on, I got something. Could be a flight recorder?
+                            ↩ (goto) [000184BB] global_squad_female_human: [empty]
                         ├ option 3:
-                            global_squad_turian ⟨cond⟩: Hey, got something here! Looks like the flight recorder made it.
-                            ↩ (goto) global_squad_female_human: [empty]
+                            [00018478] global_squad_turian ⟨cond⟩: Hey, got something here! Looks like the flight recorder made it.
+                            ↩ (goto) [000184BB] global_squad_female_human: [empty]
                         ├ option 4:
-                            global_squad_angara ⟨cond⟩: Ryder. Cora. Something is left. A flight recorder.
-                            ↩ (goto) global_squad_female_human: [empty]
+                            [0002B23A] global_squad_angara ⟨cond⟩: Ryder. Cora. Something is left. A flight recorder.
+                            ↩ (goto) [000184BB] global_squad_female_human: [empty]
                         ├ option 5:
-                            global_squad_krogan ⟨cond⟩: When you're ready for payback, we got something. Looks like a flight recorder.
-                            ↩ (goto) global_squad_female_human: [empty]
+                            [00018477] global_squad_krogan ⟨cond⟩: When you're ready for payback, we got something. Looks like a flight recorder.
+                            ↩ (goto) [000184BB] global_squad_female_human: [empty]
                         └─ merge ─┘
                     ├ option 2:
-                        Hero: Maybe they saw a helpless target and couldn't resist.
+                        [00019C72] Hero: Maybe they saw a helpless target and couldn't resist.
                         ┌─ BRANCH (5) ─┐
                         ├ option 1:
-                            ↩ (goto) global_squad_asari ⟨cond⟩: Ryder. Cora. We've got a flight recorder here.
+                            ↩ (goto) [00018479] global_squad_asari ⟨cond⟩: Ryder. Cora. We've got a flight recorder here.
                         ├ option 2:
-                            ↩ (goto) global_squad_male_human ⟨cond⟩: Hold on, I got something. Could be a flight recorder?
+                            ↩ (goto) [00017ED2] global_squad_male_human ⟨cond⟩: Hold on, I got something. Could be a flight recorder?
                         ├ option 3:
-                            ↩ (goto) global_squad_turian ⟨cond⟩: Hey, got something here! Looks like the flight recorder made it.
+                            ↩ (goto) [00018478] global_squad_turian ⟨cond⟩: Hey, got something here! Looks like the flight recorder made it.
                         ├ option 4:
-                            ↩ (goto) global_squad_angara ⟨cond⟩: Ryder. Cora. Something is left. A flight recorder.
+                            ↩ (goto) [0002B23A] global_squad_angara ⟨cond⟩: Ryder. Cora. Something is left. A flight recorder.
                         ├ option 5:
-                            ↩ (goto) global_squad_krogan ⟨cond⟩: When you're ready for payback, we got something. Looks like a flight recorder.
+                            ↩ (goto) [00018477] global_squad_krogan ⟨cond⟩: When you're ready for payback, we got something. Looks like a flight recorder.
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 2:
-                    global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
+                    [0001847C] global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero: It's like they saw the Periphona itself as a threat—but it's no match for a kett cruiser.
+                        ↩ (goto) [00019C71] Hero: It's like they saw the Periphona itself as a threat—but it's no match for a kett cruiser.
                     ├ option 2:
-                        ↩ (goto) Hero: Maybe they saw a helpless target and couldn't resist.
+                        ↩ (goto) [00019C72] Hero: Maybe they saw a helpless target and couldn't resist.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
+                ↩ (goto) [00018476] global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
             ├ option 3:
-                ↩ (goto) global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
+                ↩ (goto) [0001847C] global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
             └─ merge ─┘
         ├ option 2:
-            Hero: If we'd been faster, we could have... damn it.
+            [00017E98] Hero: If we'd been faster, we could have... damn it.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                global_squad_female_human ⟨cond⟩: We killed the Archon. The other kett must be desperate.
+                [00017ED5] global_squad_female_human ⟨cond⟩: We killed the Archon. The other kett must be desperate.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
+                    ↩ (goto) [00018476] global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
                 ├ option 2:
-                    ↩ (goto) global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
+                    ↩ (goto) [0001847C] global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
+                ↩ (goto) [00018476] global_squad_female_human ⟨cond⟩: But... this is stupid. If they want asari for exaltation, why not take the crew alive?
             ├ option 3:
-                ↩ (goto) global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
+                ↩ (goto) [0001847C] global_squad_female_human: But... this is stupid. The kett take prisoners. Why kill the crew?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) global_squad_female_human: This wasn't just a crash. The kett pulverized the ship. No survivors.
+        ↩ (goto) [000183FE] global_squad_female_human: This wasn't just a crash. The kett pulverized the ship. No survivors.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) global_squad_female_human: Definitely kett weapons fire.
+    ↩ (goto) [00017E9C] global_squad_female_human: Definitely kett weapons fire.
 └─ merge ─┘

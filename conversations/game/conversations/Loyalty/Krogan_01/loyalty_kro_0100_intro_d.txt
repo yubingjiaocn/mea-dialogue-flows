@@ -2,38 +2,38 @@
 # Primary speaker: Hero
 # Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0100_intro_d.xml
 ==================================================
-global_squad_krogan: This place is a dump.
+[0000453D] global_squad_krogan: This place is a dump.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Shoddy security.
-    global_squad_krogan: They should be embarrassed.
-    global_squad_krogan: They don't even have a lookout on the back door.
-    Hero: Most people wouldn't complain.
-    global_squad_krogan: Be nice to have some kind of challenge. It's the least they could do, making us come all the way out here to kick their sorry asses.
-    Hero: Over there. Guessing that's the colony's transport?
-    global_squad_krogan: Yeah, that's it. The seed vault better still be on board.
-    Hero: And if it's not?
-    global_squad_krogan: I tear this place—and everyone in it—apart until we find it.
-    Hero: It's a plan.
+    [00004535] global_squad_female_human ⟨cond⟩: Shoddy security.
+    [00004540] global_squad_krogan: They should be embarrassed.
+    [00004534] global_squad_krogan: They don't even have a lookout on the back door.
+    [00004538] Hero: Most people wouldn't complain.
+    [0000472C] global_squad_krogan: Be nice to have some kind of challenge. It's the least they could do, making us come all the way out here to kick their sorry asses.
+    [00004542] Hero: Over there. Guessing that's the colony's transport?
+    [00004543] global_squad_krogan: Yeah, that's it. The seed vault better still be on board.
+    [000046D9] Hero: And if it's not?
+    [000046D8] global_squad_krogan: I tear this place—and everyone in it—apart until we find it.
+    [000046E2] Hero: It's a plan.
 ├ option 2:
-    global_squad_turian ⟨cond⟩: Exactly what I'd expect from a pirate hideout.
-    global_squad_krogan: Yeah, well, you've been hanging around the wrong pirates.
-    ↩ (goto) global_squad_krogan: They don't even have a lookout on the back door.
+    [00004536] global_squad_turian ⟨cond⟩: Exactly what I'd expect from a pirate hideout.
+    [00004530] global_squad_krogan: Yeah, well, you've been hanging around the wrong pirates.
+    ↩ (goto) [00004534] global_squad_krogan: They don't even have a lookout on the back door.
 ├ option 3:
-    global_squad_male_human ⟨cond⟩: Reminds me of a beat back home.
-    global_squad_krogan: A boil on the butt of piratedom?
-    global_squad_male_human: Yeah, that sounds about right.
-    global_squad_krogan: Not even a guard. This is embarrassing.
-    ↩ (goto) Hero: Most people wouldn't complain.
+    [00004541] global_squad_male_human ⟨cond⟩: Reminds me of a beat back home.
+    [0000453E] global_squad_krogan: A boil on the butt of piratedom?
+    [00004537] global_squad_male_human: Yeah, that sounds about right.
+    [0000453A] global_squad_krogan: Not even a guard. This is embarrassing.
+    ↩ (goto) [00004538] Hero: Most people wouldn't complain.
 ├ option 4:
-    global_squad_angara ⟨cond⟩: What do you mean?
-    ↩ (goto) global_squad_krogan: They don't even have a lookout on the back door.
+    [0000634C] global_squad_angara ⟨cond⟩: What do you mean?
+    ↩ (goto) [00004534] global_squad_krogan: They don't even have a lookout on the back door.
 ├ option 5:
-    global_squad_asari ⟨cond⟩: Pirates I know back in the Milky Way would be offended. Let's put these ones out of their misery.
-    global_squad_krogan: {i}(Laughs.){/i} That's the spirit.
-    global_squad_krogan: Still...
-    ↩ (goto) global_squad_krogan: Be nice to have some kind of challenge. It's the least they could do, making us come all the way out here to kick their sorry asses.
+    [00004533] global_squad_asari ⟨cond⟩: Pirates I know back in the Milky Way would be offended. Let's put these ones out of their misery.
+    [00004532] global_squad_krogan: {i}(Laughs.){/i} That's the spirit.
+    [0000472D] global_squad_krogan: Still...
+    ↩ (goto) [0000472C] global_squad_krogan: Be nice to have some kind of challenge. It's the least they could do, making us come all the way out here to kick their sorry asses.
 ├ option 6:
-    Hero: Not exactly what you expected?
-    ↩ (goto) global_squad_krogan: They don't even have a lookout on the back door.
+    [0000453B] Hero: Not exactly what you expected?
+    ↩ (goto) [00004534] global_squad_krogan: They don't even have a lookout on the back door.
 └─ merge ─┘

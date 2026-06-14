@@ -4,31 +4,31 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_nexus_militia_leader ⟨cond⟩: That's the console for our strike teams.
-    Hero: What are they?
-    global_nexus_militia_leader: Assault and extraction squads. When we need the best, I have APEX: combat experts who've signed up to defend us.
-    global_nexus_militia_leader: Since you have a front-row view of the cluster, I can give you authority to dispatch them.
+    [000303F8] global_nexus_militia_leader ⟨cond⟩: That's the console for our strike teams.
+    [000303FB] Hero: What are they?
+    [000303F9] global_nexus_militia_leader: Assault and extraction squads. When we need the best, I have APEX: combat experts who've signed up to defend us.
+    [000303FA] global_nexus_militia_leader: Since you have a front-row view of the cluster, I can give you authority to dispatch them.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: What situations should they handle?
-        global_nexus_militia_leader: Protecting civilian outposts, holding key positions—or just distracting the kett.
+        [0003040B] Hero: What situations should they handle?
+        [0003041A] global_nexus_militia_leader: Protecting civilian outposts, holding key positions—or just distracting the kett.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_nexus_militia_leader ⟨cond⟩: Authorization complete. Good luck. Kandros out.
+            [00030417] global_nexus_militia_leader ⟨cond⟩: Authorization complete. Good luck. Kandros out.
         ├ option 2:
-            global_nexus_militia_leader: Authorization complete. Good luck out there.
+            [00030419] global_nexus_militia_leader: Authorization complete. Good luck out there.
         └─ merge ─┘
     ├ option 2:
-        Hero: I'll deploy your people carefully, Kandros.
-        global_nexus_militia_leader: Appreciate that, Ryder. But trust me, APEX can handle themselves.
+        [0003040A] Hero: I'll deploy your people carefully, Kandros.
+        [00030416] global_nexus_militia_leader: Appreciate that, Ryder. But trust me, APEX can handle themselves.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_nexus_militia_leader ⟨cond⟩: Authorization complete. Good luck. Kandros out.
+            ↩ (goto) [00030417] global_nexus_militia_leader ⟨cond⟩: Authorization complete. Good luck. Kandros out.
         ├ option 2:
-            ↩ (goto) global_nexus_militia_leader: Authorization complete. Good luck out there.
+            ↩ (goto) [00030419] global_nexus_militia_leader: Authorization complete. Good luck out there.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    global_nexus_militia_leader: Hello, again, Ryder. Taken an interest in my strike teams?
-    ↩ (goto) Hero: What are they?
+    [000303F7] global_nexus_militia_leader: Hello, again, Ryder. Taken an interest in my strike teams?
+    ↩ (goto) [000303FB] Hero: What are they?
 └─ merge ─┘

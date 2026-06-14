@@ -2,63 +2,63 @@
 # Primary speaker: bio_mws_botanist
 # Source: game/conversations/unc/biolum/bio_overgrown_0100_start_i.xml
 ==================================================
-bio_mws_botanist: You found something?
-Hero: I was attacked. The Roekaar are studying mutations, too. They want to weaponize them.
-bio_mws_geneticist: If they were to even partially succeed, it would be disastrous. You have to stop their research.
-bio_mws_botanist: How goes the scanning?
-Hero: It's a work in progress.
-bio_mws_geneticist: Press on, Pathfinder.
-bio_mws_botanist: Pathfinder Ryder. Dr. Tassana Rilar, xenobotanist for the Initiative. And my colleague, Dr. Erich Baumgarten.
-bio_mws_geneticist: Xenogenetics. Pleasure to meet you.
+[00032AD5] bio_mws_botanist: You found something?
+[00032AD6] Hero: I was attacked. The Roekaar are studying mutations, too. They want to weaponize them.
+[00032AD4] bio_mws_geneticist: If they were to even partially succeed, it would be disastrous. You have to stop their research.
+[00032AD1] bio_mws_botanist: How goes the scanning?
+[00032AD3] Hero: It's a work in progress.
+[00032AD2] bio_mws_geneticist: Press on, Pathfinder.
+[00032A9C] bio_mws_botanist: Pathfinder Ryder. Dr. Tassana Rilar, xenobotanist for the Initiative. And my colleague, Dr. Erich Baumgarten.
+[00032AA1] bio_mws_geneticist: Xenogenetics. Pleasure to meet you.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: I can see why you're on Havarl. Plenty to keep you busy.
-    bio_mws_geneticist: Indeed! Can hardly walk without stepping on a new lifeform. We tread lightly.
-    bio_mws_botanist: Your report of accelerated evolution and rapid growth of nature here caught our interest.
-    bio_mws_geneticist: We're analyzing everything we can for clues to replicate the effect on our own crops.
+    [00032AA2] Hero: I can see why you're on Havarl. Plenty to keep you busy.
+    [00032AA6] bio_mws_geneticist: Indeed! Can hardly walk without stepping on a new lifeform. We tread lightly.
+    [00032AB7] bio_mws_botanist: Your report of accelerated evolution and rapid growth of nature here caught our interest.
+    [00032AB8] bio_mws_geneticist: We're analyzing everything we can for clues to replicate the effect on our own crops.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: It would have interesting applications—if there's a way to {i}control{/i} the process.
-        bio_mws_geneticist: Aha! You understand the end goal.
-        bio_mws_botanist: If we learn to enhance the growth of plants and animals in non-destructive ways, we could end hunger.
-        bio_mws_botanist: It would change everything for the Initiative. Our colonies could thrive virtually overnight.
-        bio_mws_geneticist: Since you repaired the vault, things are returning to normal—but too quickly for us.
-        Hero: The accelerated lifeforms you want to study are dying off. Decaying.
-        bio_mws_botanist: We're scrambling to scan and catalogue everything before it's gone. We could use some help.
+        [00032AB5] Hero: It would have interesting applications—if there's a way to {i}control{/i} the process.
+        [00032ABA] bio_mws_geneticist: Aha! You understand the end goal.
+        [00032AB6] bio_mws_botanist: If we learn to enhance the growth of plants and animals in non-destructive ways, we could end hunger.
+        [00032ABD] bio_mws_botanist: It would change everything for the Initiative. Our colonies could thrive virtually overnight.
+        [00032ABF] bio_mws_geneticist: Since you repaired the vault, things are returning to normal—but too quickly for us.
+        [00032AC0] Hero: The accelerated lifeforms you want to study are dying off. Decaying.
+        [00032AC1] bio_mws_botanist: We're scrambling to scan and catalogue everything before it's gone. We could use some help.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Point me at the lifeforms you need. I'll do the rest.
-            bio_mws_botanist: Anything mutated beyond its baseline growth cycle will aid our work.
-            bio_mws_geneticist: I'll provide the most promising genetic markers to scan for.
-            bio_mws_botanist: Thank you for whatever help you can provide, Pathfinder. Rendezvous here when you're finished.
+            [00032AC3] Hero: Point me at the lifeforms you need. I'll do the rest.
+            [00032AC7] bio_mws_botanist: Anything mutated beyond its baseline growth cycle will aid our work.
+            [00032AC8] bio_mws_geneticist: I'll provide the most promising genetic markers to scan for.
+            [00032ACA] bio_mws_botanist: Thank you for whatever help you can provide, Pathfinder. Rendezvous here when you're finished.
         ├ option 2:
-            Hero: I'll see what I can do, but keep your expectations low.
-            bio_mws_geneticist: Please, think of all we stand to gain, and what we could lose.
-            ↩ (goto) bio_mws_geneticist: I'll provide the most promising genetic markers to scan for.
+            [00032AC4] Hero: I'll see what I can do, but keep your expectations low.
+            [00032AC9] bio_mws_geneticist: Please, think of all we stand to gain, and what we could lose.
+            ↩ (goto) [00032AC8] bio_mws_geneticist: I'll provide the most promising genetic markers to scan for.
         └─ merge ─┘
     ├ option 2:
-        Hero: Why would you want to do that? The planet was destroying itself.
-        bio_mws_geneticist: Only because things were out of control.
-        ↩ (goto) bio_mws_botanist: If we learn to enhance the growth of plants and animals in non-destructive ways, we could end hunger.
+        [00032AB9] Hero: Why would you want to do that? The planet was destroying itself.
+        [00032ABC] bio_mws_geneticist: Only because things were out of control.
+        ↩ (goto) [00032AB6] bio_mws_botanist: If we learn to enhance the growth of plants and animals in non-destructive ways, we could end hunger.
     └─ merge ─┘
 ├ option 2:
-    Hero: No offense, but you probably shouldn't be out here alone.
-    bio_mws_geneticist: I'm not alone. I'm with her. She's quite fierce.
-    ↩ (goto) bio_mws_botanist: Your report of accelerated evolution and rapid growth of nature here caught our interest.
+    [00032AA0] Hero: No offense, but you probably shouldn't be out here alone.
+    [00032AA7] bio_mws_geneticist: I'm not alone. I'm with her. She's quite fierce.
+    ↩ (goto) [00032AB7] bio_mws_botanist: Your report of accelerated evolution and rapid growth of nature here caught our interest.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        bio_mws_botanist: This work requires our full focus.
+        [00032ADA] bio_mws_botanist: This work requires our full focus.
     ├ option 2:
-        bio_mws_geneticist: We need to analyze everything.
+        [00032AD7] bio_mws_geneticist: We need to analyze everything.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) bio_mws_botanist: This work requires our full focus.
+        ↩ (goto) [00032ADA] bio_mws_botanist: This work requires our full focus.
     ├ option 2:
-        ↩ (goto) bio_mws_geneticist: We need to analyze everything.
+        ↩ (goto) [00032AD7] bio_mws_geneticist: We need to analyze everything.
     └─ merge ─┘
 └─ merge ─┘

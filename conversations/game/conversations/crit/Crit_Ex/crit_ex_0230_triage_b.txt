@@ -2,25 +2,25 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0230_triage_b.xml
 ==================================================
-crit_ex_res_fighter_1_multi: I've stared at the outsides of these places so many times... I can't believe we got in.
-crit_ex_res_fighter_3_multi: Our people's things are here... abandoned.
-crit_ex_res_fighter_1_multi: From the prisoners?
-crit_ex_res_fighter_3_multi: Do we have time to—can we just look around?
+[0000D689] crit_ex_res_fighter_1_multi: I've stared at the outsides of these places so many times... I can't believe we got in.
+[000310E7] crit_ex_res_fighter_3_multi: Our people's things are here... abandoned.
+[0000D664] crit_ex_res_fighter_1_multi: From the prisoners?
+[000310E6] crit_ex_res_fighter_3_multi: Do we have time to—can we just look around?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Are those...?
-    crit_ex_res_fighter_3_multi: Personal things. Angaran things.
-    global_squad_angara: Looks that way.
+    [0000D66B] global_squad_female_human ⟨cond⟩: Are those...?
+    [0000D663] crit_ex_res_fighter_3_multi: Personal things. Angaran things.
+    [0000D686] global_squad_angara: Looks that way.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: I don't like this.
-    ↩ (goto) crit_ex_res_fighter_3_multi: Personal things. Angaran things.
+    [0000D66C] global_squad_krogan ⟨cond⟩: I don't like this.
+    ↩ (goto) [0000D663] crit_ex_res_fighter_3_multi: Personal things. Angaran things.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: I don't like the look of this.
-    ↩ (goto) crit_ex_res_fighter_3_multi: Personal things. Angaran things.
+    [0000D666] global_squad_turian ⟨cond⟩: I don't like the look of this.
+    ↩ (goto) [0000D663] crit_ex_res_fighter_3_multi: Personal things. Angaran things.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: This room is creepy.
-    ↩ (goto) crit_ex_res_fighter_3_multi: Personal things. Angaran things.
+    [0000D66A] global_squad_asari ⟨cond⟩: This room is creepy.
+    ↩ (goto) [0000D663] crit_ex_res_fighter_3_multi: Personal things. Angaran things.
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Oh, that's not good.
-    ↩ (goto) crit_ex_res_fighter_3_multi: Personal things. Angaran things.
+    [0000D669] global_squad_male_human ⟨cond⟩: Oh, that's not good.
+    ↩ (goto) [0000D663] crit_ex_res_fighter_3_multi: Personal things. Angaran things.
 └─ merge ─┘

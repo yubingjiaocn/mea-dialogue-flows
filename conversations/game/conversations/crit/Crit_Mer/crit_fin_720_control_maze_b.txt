@@ -2,84 +2,84 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Crit_Mer/crit_fin_720_control_maze_b.xml
 ==================================================
-Hero: Everyone see that? Doors closing?
+[0000DE1E] Hero: Everyone see that? Doors closing?
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Someone's herding us. Might be the Archon.
-    Hero: Who else would it be?
+    [0000DE22] global_squad_female_human ⟨cond⟩: Someone's herding us. Might be the Archon.
+    [0000DE1D] Hero: Who else would it be?
 ├ option 2:
-    global_squad_asari ⟨cond⟩: We're being funneled. Think it's you-know-who?
-    ↩ (goto) Hero: Who else would it be?
+    [0000DE14] global_squad_asari ⟨cond⟩: We're being funneled. Think it's you-know-who?
+    ↩ (goto) [0000DE1D] Hero: Who else would it be?
 ├ option 3:
-    global_squad_angara ⟨cond⟩: Could the Archon be forcing us this way?
-    ↩ (goto) Hero: Who else would it be?
+    [0000DE20] global_squad_angara ⟨cond⟩: Could the Archon be forcing us this way?
+    ↩ (goto) [0000DE1D] Hero: Who else would it be?
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: Does the Archon have that kind of control already?
-    ↩ (goto) Hero: Who else would it be?
+    [0000DE12] global_squad_male_human ⟨cond⟩: Does the Archon have that kind of control already?
+    ↩ (goto) [0000DE1D] Hero: Who else would it be?
 ├ option 5:
-    global_squad_turian ⟨cond⟩: Shit. Are we being led into a trap? Is it the Archon?
-    ↩ (goto) Hero: Who else would it be?
+    [0000DE1B] global_squad_turian ⟨cond⟩: Shit. Are we being led into a trap? Is it the Archon?
+    ↩ (goto) [0000DE1D] Hero: Who else would it be?
 ├ option 6:
-    global_squad_krogan ⟨cond⟩: Someone's herding us. The Archon, maybe?
-    ↩ (goto) Hero: Who else would it be?
+    [0000DE16] global_squad_krogan ⟨cond⟩: Someone's herding us. The Archon, maybe?
+    ↩ (goto) [0000DE1D] Hero: Who else would it be?
 └─ merge ─┘
-Hero: Remnant, but not attacking. The hell?
+[0000DE0B] Hero: Remnant, but not attacking. The hell?
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: It's... pointing? Guiding us?
-    Hero: That can't be the Archon.
+    [0000DE17] global_squad_female_human ⟨cond⟩: It's... pointing? Guiding us?
+    [0000DE13] Hero: That can't be the Archon.
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Okay, that is non-standard behavior. And it's... pointing the way?
-    ↩ (goto) Hero: That can't be the Archon.
+    [0000DE18] global_squad_asari ⟨cond⟩: Okay, that is non-standard behavior. And it's... pointing the way?
+    ↩ (goto) [0000DE13] Hero: That can't be the Archon.
 ├ option 3:
-    global_squad_angara ⟨cond⟩: Could it be guiding us? Like the doors?
-    ↩ (goto) Hero: That can't be the Archon.
+    [0000DE1C] global_squad_angara ⟨cond⟩: Could it be guiding us? Like the doors?
+    ↩ (goto) [0000DE13] Hero: That can't be the Archon.
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: It's... pointing? Guiding us like the doors?
-    ↩ (goto) Hero: That can't be the Archon.
+    [0000DE21] global_squad_male_human ⟨cond⟩: It's... pointing? Guiding us like the doors?
+    ↩ (goto) [0000DE13] Hero: That can't be the Archon.
 ├ option 5:
-    global_squad_turian ⟨cond⟩: It's... pointing? Trying to direct us. Do they {i}do{/i} that?
-    ↩ (goto) Hero: That can't be the Archon.
+    [0000DE24] global_squad_turian ⟨cond⟩: It's... pointing? Trying to direct us. Do they {i}do{/i} that?
+    ↩ (goto) [0000DE13] Hero: That can't be the Archon.
 ├ option 6:
-    global_squad_krogan ⟨cond⟩: It's... pointing? Guiding us like the doors?
-    ↩ (goto) Hero: That can't be the Archon.
+    [0000DE23] global_squad_krogan ⟨cond⟩: It's... pointing? Guiding us like the doors?
+    ↩ (goto) [0000DE13] Hero: That can't be the Archon.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: More doors. Maybe... Scott's found a way to help?
+    [00025BCE] Hero ⟨cond⟩: More doors. Maybe... Scott's found a way to help?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
+        [0000DE30] global_squad_female_human ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
     ├ option 2:
-        global_squad_asari ⟨cond⟩: But Ryder, using Remnant hurts {i}you{/i}.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0000DE2C] global_squad_asari ⟨cond⟩: But Ryder, using Remnant hurts {i}you{/i}.
+        ↩ (goto) [000163AB] global_squad_krogan: [empty]
     ├ option 3:
-        global_squad_angara ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0000DE2E] global_squad_angara ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
+        ↩ (goto) [000163AB] global_squad_krogan: [empty]
     ├ option 4:
-        global_squad_male_human ⟨cond⟩: By using Remnant? That hurts {i}you{/i}.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0000DE2D] global_squad_male_human ⟨cond⟩: By using Remnant? That hurts {i}you{/i}.
+        ↩ (goto) [000163AB] global_squad_krogan: [empty]
     ├ option 5:
-        global_squad_turian ⟨cond⟩: This must be turning their brains to mush.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0000DE2A] global_squad_turian ⟨cond⟩: This must be turning their brains to mush.
+        ↩ (goto) [000163AB] global_squad_krogan: [empty]
     ├ option 6:
-        global_squad_krogan ⟨cond⟩: With Remnant? That's gonna take a lot out of 'em.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0000DE2B] global_squad_krogan ⟨cond⟩: With Remnant? That's gonna take a lot out of 'em.
+        ↩ (goto) [000163AB] global_squad_krogan: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: More doors. Maybe... Sara's found a way to help?
+    [0000BD86] Hero: More doors. Maybe... Sara's found a way to help?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
+        ↩ (goto) [0000DE30] global_squad_female_human ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
     ├ option 2:
-        ↩ (goto) global_squad_asari ⟨cond⟩: But Ryder, using Remnant hurts {i}you{/i}.
+        ↩ (goto) [0000DE2C] global_squad_asari ⟨cond⟩: But Ryder, using Remnant hurts {i}you{/i}.
     ├ option 3:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
+        ↩ (goto) [0000DE2E] global_squad_angara ⟨cond⟩: Ryder, using Remnant hurts {i}you{/i}.
     ├ option 4:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: By using Remnant? That hurts {i}you{/i}.
+        ↩ (goto) [0000DE2D] global_squad_male_human ⟨cond⟩: By using Remnant? That hurts {i}you{/i}.
     ├ option 5:
-        ↩ (goto) global_squad_turian ⟨cond⟩: This must be turning their brains to mush.
+        ↩ (goto) [0000DE2A] global_squad_turian ⟨cond⟩: This must be turning their brains to mush.
     ├ option 6:
-        ↩ (goto) global_squad_krogan ⟨cond⟩: With Remnant? That's gonna take a lot out of 'em.
+        ↩ (goto) [0000DE2B] global_squad_krogan ⟨cond⟩: With Remnant? That's gonna take a lot out of 'em.
     └─ merge ─┘
 └─ merge ─┘

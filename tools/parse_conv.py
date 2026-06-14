@@ -15,11 +15,9 @@ OUT  = "/tmp/conv/dialogues"
 LOOKUP = "/home/ubuntu/me-andromeda-patch/reverse-engineering/zh_lookup.json"
 EN_XML = "/tmp/en.xml"
 
-# ---- 加载中文库（可选；本仓库英文版不含） ----
-ZH = {}
-if os.path.exists(LOOKUP):
-    with open(LOOKUP) as f:
-        ZH = json.load(f)
+# ---- 加载中文库 ----
+with open(LOOKUP) as f:
+    ZH = json.load(f)
 
 # ---- 加载英文全量(TextId->Text) ----
 EN = {}
@@ -148,7 +146,7 @@ def render(data):
         en = (en or "").replace("\n"," ⏎ ").strip()
         label = f"{spk}" if spk else "?"
         body = en if en else "[empty]"
-        return f"{label}{cond}{occ}: {body}"
+        return f"[{k}] {label}{cond}{occ}: {body}"
 
     def walk(guid, depth, branch_mark=""):
         # 解析 Link 跳转

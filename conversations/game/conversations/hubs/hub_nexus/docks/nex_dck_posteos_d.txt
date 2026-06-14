@@ -2,54 +2,54 @@
 # Primary speaker: Hero
 # Source: game/conversations/hubs/hub_nexus/docks/nex_dck_posteos_d.xml
 ==================================================
-nex_posteos_hopeful_03: Pathfinder! Is it true? We're settling Eos?
-nex_posteos_cautious_02: We've thought that before.
-nex_posteos_hopeful_03: But Eos is different now. Right? Pathfinder!
-nex_mil_officer_01: All right, settle down! Give them space!
-nex_mil_officer_01: Lieutenant Sajax, Kandros's aide. They all wanted to see you. Real hope again—it's been a while.
+[00028848] nex_posteos_hopeful_03: Pathfinder! Is it true? We're settling Eos?
+[00028847] nex_posteos_cautious_02: We've thought that before.
+[0002884D] nex_posteos_hopeful_03: But Eos is different now. Right? Pathfinder!
+[0002884E] nex_mil_officer_01: All right, settle down! Give them space!
+[0002885B] nex_mil_officer_01: Lieutenant Sajax, Kandros's aide. They all wanted to see you. Real hope again—it's been a while.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: They've got a Pathfinder again. This is what we do.
-    nex_rp_sci_sci01: And you've done it splendidly!
+    [00028853] Hero: They've got a Pathfinder again. This is what we do.
+    [0002886A] nex_rp_sci_sci01: And you've done it splendidly!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Professor Herik, right?
-        nex_rp_sci_sci01: What you achieved with that Remnant vault is unprecedented, Pathfinder. Impossible!
+        [00028864] Hero ⟨cond⟩: Professor Herik, right?
+        [00028866] nex_rp_sci_sci01: What you achieved with that Remnant vault is unprecedented, Pathfinder. Impossible!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            nex_rp_sci_sci01 ⟨cond⟩: But with new scientific talent waking up, we'll unravel those mysteries. The whole Nexus will benefit.
+            [00028876] nex_rp_sci_sci01 ⟨cond⟩: But with new scientific talent waking up, we'll unravel those mysteries. The whole Nexus will benefit.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: August Bradley will oversee that. He's the new mayor.
-                nex_posteos_cautious_02: Bradley? I know him. Seems like a good man.
-                Narration: Sajax addresses the crowd.
-                nex_mil_officer_01: Well? What're you waiting for? There's a new world out there!
-                nex_rp_sci_sci01: Thank you, Ryder.
+                [00028E27] Hero: August Bradley will oversee that. He's the new mayor.
+                [00028E3F] nex_posteos_cautious_02: Bradley? I know him. Seems like a good man.
+                [00028E1E] Narration: Sajax addresses the crowd.
+                [00028E20] nex_mil_officer_01: Well? What're you waiting for? There's a new world out there!
+                [00028E1F] nex_rp_sci_sci01: Thank you, Ryder.
             ├ option 2:
-                Hero: We've taken some hard knocks. But this proves we'll always get up again.
-                nex_posteos_hopeful_03: Always!
-                ↩ (goto) Narration: Sajax addresses the crowd.
+                [00028E26] Hero: We've taken some hard knocks. But this proves we'll always get up again.
+                [00028E4A] nex_posteos_hopeful_03: Always!
+                ↩ (goto) [00028E1E] Narration: Sajax addresses the crowd.
             └─ merge ─┘
         ├ option 2:
-            nex_mil_officer_01 ⟨cond⟩: With more military personnel out of stasis, those kett won't get near your vault, or our people.
+            [00028875] nex_mil_officer_01 ⟨cond⟩: With more military personnel out of stasis, those kett won't get near your vault, or our people.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) Hero: August Bradley will oversee that. He's the new mayor.
+                ↩ (goto) [00028E27] Hero: August Bradley will oversee that. He's the new mayor.
             ├ option 2:
-                ↩ (goto) Hero: We've taken some hard knocks. But this proves we'll always get up again.
+                ↩ (goto) [00028E26] Hero: We've taken some hard knocks. But this proves we'll always get up again.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        nex_mil_officer_01: This is Herik, one of the geek—uh, scientists, from the Tech Lab.
-        ↩ (goto) nex_rp_sci_sci01: What you achieved with that Remnant vault is unprecedented, Pathfinder. Impossible!
+        [00028865] nex_mil_officer_01: This is Herik, one of the geek—uh, scientists, from the Tech Lab.
+        ↩ (goto) [00028866] nex_rp_sci_sci01: What you achieved with that Remnant vault is unprecedented, Pathfinder. Impossible!
     └─ merge ─┘
 ├ option 2:
-    Hero: Relax, Lieutenant. If there was ever a day to pop some champagne...
-    nex_rp_sci_sci01: Certainly! The Initiative's finally back on track!
+    [00028852] Hero: Relax, Lieutenant. If there was ever a day to pop some champagne...
+    [00028867] nex_rp_sci_sci01: Certainly! The Initiative's finally back on track!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) Hero ⟨cond⟩: Professor Herik, right?
+        ↩ (goto) [00028864] Hero ⟨cond⟩: Professor Herik, right?
     ├ option 2:
-        ↩ (goto) nex_mil_officer_01: This is Herik, one of the geek—uh, scientists, from the Tech Lab.
+        ↩ (goto) [00028865] nex_mil_officer_01: This is Herik, one of the geek—uh, scientists, from the Tech Lab.
     └─ merge ─┘
 └─ merge ─┘

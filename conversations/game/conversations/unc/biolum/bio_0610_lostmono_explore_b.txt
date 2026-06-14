@@ -4,101 +4,101 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: It was right here and no one noticed?
-    SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
+    [0002D59B] global_squad_krogan ⟨cond⟩: It was right here and no one noticed?
+    [0002D545] SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: It was so close to the others and no one ever found it.
-    ↩ (goto) SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
+    [0002D59E] global_squad_female_human ⟨cond⟩: It was so close to the others and no one ever found it.
+    ↩ (goto) [0002D545] SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
 ├ option 3:
-    global_squad_asari ⟨cond⟩: It was under their noses the whole time!
-    ↩ (goto) SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
+    [0002D59C] global_squad_asari ⟨cond⟩: It was under their noses the whole time!
+    ↩ (goto) [0002D545] SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: It was so close and no one knew.
-    ↩ (goto) SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
+    [0002D59D] global_squad_male_human ⟨cond⟩: It was so close and no one knew.
+    ↩ (goto) [0002D545] SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
 ├ option 5:
-    global_squad_angara ⟨cond⟩: Here? It was so close all this time and no one knew.
-    ↩ (goto) SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
+    [0002D548] global_squad_angara ⟨cond⟩: Here? It was so close all this time and no one knew.
+    ↩ (goto) [0002D545] SAM: The rest of the Remnant in the area may have prevented scans from detecting it.
 └─ merge ─┘
-Hero: This way?
-bio_ang_champ: Yes. This is all feeling familiar. At least I think it is.
-bio_ang_champ: There were Remnant machines here. Zorai was able to make them stop.
-Hero: How did he learn to use Remnant tech? It's not like there's a manual.
-bio_ang_champ: Zorai watched the watchers. That's all I'm getting. I'm not sure what it means.
+[0002BED5] Hero: This way?
+[0002BED3] bio_ang_champ: Yes. This is all feeling familiar. At least I think it is.
+[0002BED0] bio_ang_champ: There were Remnant machines here. Zorai was able to make them stop.
+[0002BED1] Hero: How did he learn to use Remnant tech? It's not like there's a manual.
+[0002BED4] bio_ang_champ: Zorai watched the watchers. That's all I'm getting. I'm not sure what it means.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: The watchers. The Jardaan, maybe?
-        bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
+        [0002BEE3] global_squad_asari ⟨cond⟩: The watchers. The Jardaan, maybe?
+        [0002BEE6] bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Stasis. The stasis field that was triggered by the first monolith.
+            [0002BEEA] Hero: Stasis. The stasis field that was triggered by the first monolith.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_squad_asari ⟨cond⟩: To examine the angara up close, the Jardaan would have to find some means to remain undetected. Or else the experiment would fail.
-                Hero: Suspended animation.
-                Hero: But somehow one of them, Zorai, was immune.
+                [0002BEED] global_squad_asari ⟨cond⟩: To examine the angara up close, the Jardaan would have to find some means to remain undetected. Or else the experiment would fail.
+                [0002BEEE] Hero: Suspended animation.
+                [0002BEEF] Hero: But somehow one of them, Zorai, was immune.
             ├ option 2:
-                SAM: Putting the angara in a state of suspended animation would allow the Jardaan to examine them up close without disrupting the experiment.
-                ↩ (goto) Hero: But somehow one of them, Zorai, was immune.
+                [0002BEE4] SAM: Putting the angara in a state of suspended animation would allow the Jardaan to examine them up close without disrupting the experiment.
+                ↩ (goto) [0002BEEF] Hero: But somehow one of them, Zorai, was immune.
             └─ merge ─┘
         ├ option 2:
-            Hero: Sounds like the stasis field around the first monolith. Maybe Zorai was able to shake off the effects.
-            Hero: Maybe that changed him.
+            [0002BEEB] Hero: Sounds like the stasis field around the first monolith. Maybe Zorai was able to shake off the effects.
+            [0002BEF0] Hero: Maybe that changed him.
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: The Jardaan?
-        ↩ (goto) bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
+        [0002BEE8] global_squad_krogan ⟨cond⟩: The Jardaan?
+        ↩ (goto) [0002BEE6] bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: Watchers. That must refer to the Jardaan.
-        ↩ (goto) bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
+        [0002BEE5] global_squad_female_human ⟨cond⟩: Watchers. That must refer to the Jardaan.
+        ↩ (goto) [0002BEE6] bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: The Jardaan?
-        ↩ (goto) bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
+        [0002BEE7] global_squad_turian ⟨cond⟩: The Jardaan?
+        ↩ (goto) [0002BEE6] bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
     ├ option 5:
-        global_squad_angara ⟨cond⟩: Watchers. You mean the Jardaan.
-        ↩ (goto) bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
+        [0002BEEC] global_squad_angara ⟨cond⟩: Watchers. You mean the Jardaan.
+        ↩ (goto) [0002BEE6] bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
+    ↩ (goto) [0002BEE6] bio_ang_champ: The others slept, but Zorai... but I stayed awake. Unmoving, but seeing. Learning.
 └─ merge ─┘
-bio_deadchamp_log: [Audio Log] Builder machines exhaust me. Mind and body must be engaged wholly or the attempt fails.
-bio_deadchamp_log: [Audio Log] I can't stop. Without the monoliths, the vault fails. Without the vault, the planet dies.
-bio_deadchamp_log: [Audio Log] I'm close. Just one more.
-bio_ang_champ ⟨cond⟩: The sages got it wrong. Zorai was a woman. That... that was her voice. M-my voice...
-bio_ang_champ: May I have this, Pathfinder?
-Hero: It's yours. It's always been yours.
-bio_ang_champ: Here. There's something here. I remember.
-SAM: Organic matter. Ancient. Reads as angara.
-Hero: It's Zorai.
-bio_ang_champ: She died here. Before she could get to the third monolith.
-bio_ang_champ: This... this was me. I would like to spend some time here.
-bio_ang_champ: But not now. The third monolith. It can't be far. Come on.
-bio_ang_champ: I feel as though I know this place.
-bio_ang_champ: Or am I fooling myself because I want to remember?
+[0002BF3F] bio_deadchamp_log: [Audio Log] Builder machines exhaust me. Mind and body must be engaged wholly or the attempt fails.
+[0002BF3E] bio_deadchamp_log: [Audio Log] I can't stop. Without the monoliths, the vault fails. Without the vault, the planet dies.
+[0002BF3D] bio_deadchamp_log: [Audio Log] I'm close. Just one more.
+[0002BF5A] bio_ang_champ ⟨cond⟩: The sages got it wrong. Zorai was a woman. That... that was her voice. M-my voice...
+[0002D5A0] bio_ang_champ: May I have this, Pathfinder?
+[0002D5A1] Hero: It's yours. It's always been yours.
+[0002BF60] bio_ang_champ: Here. There's something here. I remember.
+[0002BF5E] SAM: Organic matter. Ancient. Reads as angara.
+[0002BF5F] Hero: It's Zorai.
+[0002BF5C] bio_ang_champ: She died here. Before she could get to the third monolith.
+[0002D5A2] bio_ang_champ: This... this was me. I would like to spend some time here.
+[0002BF5B] bio_ang_champ: But not now. The third monolith. It can't be far. Come on.
+[0002B259] bio_ang_champ: I feel as though I know this place.
+[0002BF5D] bio_ang_champ: Or am I fooling myself because I want to remember?
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Damn.
+    [0002D541] global_squad_krogan ⟨cond⟩: Damn.
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: How far down does that go?
-    ↩ (goto) global_squad_male_human: [empty]
+    [0002D544] global_squad_female_human ⟨cond⟩: How far down does that go?
+    ↩ (goto) [0003454E] global_squad_male_human: [empty]
 ├ option 3:
-    global_squad_asari ⟨cond⟩: Wow.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0002D547] global_squad_asari ⟨cond⟩: Wow.
+    ↩ (goto) [0003454E] global_squad_male_human: [empty]
 ├ option 4:
-    global_squad_turian ⟨cond⟩: That's... something you don't see every day.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0002D540] global_squad_turian ⟨cond⟩: That's... something you don't see every day.
+    ↩ (goto) [0003454E] global_squad_male_human: [empty]
 ├ option 5:
-    global_squad_angara ⟨cond⟩: The lost monolith. Finally.
-    ↩ (goto) global_squad_male_human: [empty]
+    [0002D543] global_squad_angara ⟨cond⟩: The lost monolith. Finally.
+    ↩ (goto) [0003454E] global_squad_male_human: [empty]
 ├ option 6:
-    global_squad_male_human ⟨cond⟩: Holy... will you look at that!
-    ↩ (goto) global_squad_male_human: [empty]
+    [0002D546] global_squad_male_human ⟨cond⟩: Holy... will you look at that!
+    ↩ (goto) [0003454E] global_squad_male_human: [empty]
 └─ merge ─┘
-bio_ang_champ: It's done. You finished what Zorai could not, so long ago.
-Hero: I'm sorry, Taavos.
-bio_ang_champ: No. There's nothing to be sorry about. She didn't complete what she set out to do, but she didn't fail.
-bio_ang_champ: The two monoliths she reactivated kept Havarl going. Without them, the planet would've died.
-bio_ang_champ: Go on to the vault, Pathfinder. I think I'll stay here a moment. I have a lot to think about.
-SAM: The vault should be open, Pathfinder.
-Hero: I think... we're going to have to jump down.
+[0002E0D0] bio_ang_champ: It's done. You finished what Zorai could not, so long ago.
+[0002E0D1] Hero: I'm sorry, Taavos.
+[0002E0D3] bio_ang_champ: No. There's nothing to be sorry about. She didn't complete what she set out to do, but she didn't fail.
+[0002E0D2] bio_ang_champ: The two monoliths she reactivated kept Havarl going. Without them, the planet would've died.
+[0002D5B6] bio_ang_champ: Go on to the vault, Pathfinder. I think I'll stay here a moment. I have a lot to think about.
+[0002D5B5] SAM: The vault should be open, Pathfinder.
+[0002D542] Hero: I think... we're going to have to jump down.

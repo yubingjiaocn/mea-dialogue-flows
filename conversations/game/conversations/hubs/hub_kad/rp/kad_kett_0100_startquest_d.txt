@@ -2,58 +2,58 @@
 # Primary speaker: kad_queen_guard_01
 # Source: game/conversations/hubs/hub_kad/rp/kad_kett_0100_startquest_d.xml
 ==================================================
-kad_queen_guard_01: You've handled your fair share of kett? Hard to get far in Andromeda without running into them.
-Hero: Yes. And?
-kad_queen_guard_01: When Sloane took over, she slaughtered the kett who were here.
-kad_queen_guard_01: There were mass executions. Public. So people would know that Kadara was kett-free.
-kad_queen_guard_01: But there've been rumors of stragglers in the badlands. If the tales are true, they need to go.
+[00010677] kad_queen_guard_01: You've handled your fair share of kett? Hard to get far in Andromeda without running into them.
+[00010683] Hero: Yes. And?
+[00010690] kad_queen_guard_01: When Sloane took over, she slaughtered the kett who were here.
+[000106D0] kad_queen_guard_01: There were mass executions. Public. So people would know that Kadara was kett-free.
+[00010699] kad_queen_guard_01: But there've been rumors of stragglers in the badlands. If the tales are true, they need to go.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero: If there are kett out there, send your own crew to deal with them.
-    kad_queen_guard_01: Listen, this is how it is: everyone {i}knows{/i} Sloane destroyed the kett presence here.
-    kad_queen_guard_01: Anything that hints otherwise? Weakness.
-    kad_queen_guard_01: But you—you're independent. Where you go, what you do? Nothing to do with Sloane.
+    [000106A0] Hero: If there are kett out there, send your own crew to deal with them.
+    [0001068D] kad_queen_guard_01: Listen, this is how it is: everyone {i}knows{/i} Sloane destroyed the kett presence here.
+    [00010689] kad_queen_guard_01: Anything that hints otherwise? Weakness.
+    [0001069A] kad_queen_guard_01: But you—you're independent. Where you go, what you do? Nothing to do with Sloane.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        ↩ (goto) Hero: If there are kett out there, send your own crew to deal with them.
+        ↩ (goto) [000106A0] Hero: If there are kett out there, send your own crew to deal with them.
     ├ option 2:
-        Hero: What exactly are the rumors about the kett?
-        kad_queen_guard_01: Ambushes. People disappearing. Vehicles sabotaged, picked clean for parts.
-        kad_queen_guard_01: Could be feral local wildlife, sinkholes, angara bullshit. But there's enough people saying kett.
+        [000106A2] Hero: What exactly are the rumors about the kett?
+        [00010682] kad_queen_guard_01: Ambushes. People disappearing. Vehicles sabotaged, picked clean for parts.
+        [0001068F] kad_queen_guard_01: Could be feral local wildlife, sinkholes, angara bullshit. But there's enough people saying kett.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            ↩ (goto) Hero: If there are kett out there, send your own crew to deal with them.
+            ↩ (goto) [000106A0] Hero: If there are kett out there, send your own crew to deal with them.
         ├ option 2:
-            ↩ (goto) Hero: What exactly are the rumors about the kett?
+            ↩ (goto) [000106A2] Hero: What exactly are the rumors about the kett?
         ├ option 3:
-            Hero: You said Sloane killed the kett here. What happened?
-            kad_queen_guard_01: The kett had the port locked down when we arrived.
-            kad_queen_guard_01: They were shipping angara off for who knows what. People were scared.
-            kad_queen_guard_01: But the place had potential. So we fought the kett for it, and we won.
-            kad_queen_guard_01: You saw the decorations outside? That's Sloane making sure everyone knows she's the new power.
+            [0001068C] Hero: You said Sloane killed the kett here. What happened?
+            [00010684] kad_queen_guard_01: The kett had the port locked down when we arrived.
+            [000106D9] kad_queen_guard_01: They were shipping angara off for who knows what. People were scared.
+            [00010694] kad_queen_guard_01: But the place had potential. So we fought the kett for it, and we won.
+            [0001068E] kad_queen_guard_01: You saw the decorations outside? That's Sloane making sure everyone knows she's the new power.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                ↩ (goto) Hero: If there are kett out there, send your own crew to deal with them.
+                ↩ (goto) [000106A0] Hero: If there are kett out there, send your own crew to deal with them.
             ├ option 2:
-                ↩ (goto) Hero: What exactly are the rumors about the kett?
+                ↩ (goto) [000106A2] Hero: What exactly are the rumors about the kett?
             ├ option 3:
-                ↩ (goto) Hero: You said Sloane killed the kett here. What happened?
+                ↩ (goto) [0001068C] Hero: You said Sloane killed the kett here. What happened?
             ├ option 4:
-                Hero: I'll think about checking out the badlands.
-                kad_queen_guard_01: Excellent.
+                [0001069C] Hero: I'll think about checking out the badlands.
+                [0001068B] kad_queen_guard_01: Excellent.
             └─ merge ─┘
         ├ option 4:
-            ↩ (goto) Hero: I'll think about checking out the badlands.
+            ↩ (goto) [0001069C] Hero: I'll think about checking out the badlands.
         └─ merge ─┘
     ├ option 3:
-        ↩ (goto) Hero: You said Sloane killed the kett here. What happened?
+        ↩ (goto) [0001068C] Hero: You said Sloane killed the kett here. What happened?
     ├ option 4:
-        ↩ (goto) Hero: I'll think about checking out the badlands.
+        ↩ (goto) [0001069C] Hero: I'll think about checking out the badlands.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) Hero: What exactly are the rumors about the kett?
+    ↩ (goto) [000106A2] Hero: What exactly are the rumors about the kett?
 ├ option 3:
-    ↩ (goto) Hero: You said Sloane killed the kett here. What happened?
+    ↩ (goto) [0001068C] Hero: You said Sloane killed the kett here. What happened?
 ├ option 4:
-    ↩ (goto) Hero: I'll think about checking out the badlands.
+    ↩ (goto) [0001069C] Hero: I'll think about checking out the badlands.
 └─ merge ─┘

@@ -2,47 +2,47 @@
 # Primary speaker: global_squad_male_human
 # Source: game/conversations/crit/pro_lnd/Pro_Lnd_0325_plant_cave_b.xml
 ==================================================
-global_squad_male_human: Check that out.
-Hero: Now this looks more like the golden world my dad was expecting.
+[00006BCE] global_squad_male_human: Check that out.
+[0000E0BB] Hero: Now this looks more like the golden world my dad was expecting.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: So the long-range scans {i}were{/i} right. This planet could've been home.
+    [00016B57] global_squad_female_human ⟨cond⟩: So the long-range scans {i}were{/i} right. This planet could've been home.
 ├ option 2:
-    global_squad_male_human: Then... the long-range scans were right? This could've been home?
-    Hero: Six-hundred years ago. And then... who knows.
+    [000146CD] global_squad_male_human: Then... the long-range scans were right? This could've been home?
+    [000146CC] Hero: Six-hundred years ago. And then... who knows.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM ⟨cond⟩: This tree shows signs of cellular mutation, perhaps as an adaptation to the environment.
-    global_squad_male_human: It's lasted this long. Guess that makes it the alpha tree, huh?
+    [0002660D] SAM ⟨cond⟩: This tree shows signs of cellular mutation, perhaps as an adaptation to the environment.
+    [00006C42] global_squad_male_human: It's lasted this long. Guess that makes it the alpha tree, huh?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Right. But what happened to the rest of the planet?
+        [00016B56] global_squad_female_human ⟨cond⟩: Right. But what happened to the rest of the planet?
     ├ option 2:
-        Hero: Yeah. But what happened to all its friends outside?
+        [00006C41] Hero: Yeah. But what happened to all its friends outside?
     └─ merge ─┘
 ├ option 2:
-    Hero: If it's anything like plants back in the Milky Way, there are signs of cellular mutation.
-    ↩ (goto) global_squad_male_human: It's lasted this long. Guess that makes it the alpha tree, huh?
+    [00006C3F] Hero: If it's anything like plants back in the Milky Way, there are signs of cellular mutation.
+    ↩ (goto) [00006C42] global_squad_male_human: It's lasted this long. Guess that makes it the alpha tree, huh?
 └─ merge ─┘
-global_squad_male_human: How's this even possible?
-Hero: Extreme example of a microclimate, maybe? Shielded by the cave all these years?
-global_squad_male_human: While the rest of the planet died?
-Hero: Something nasty happened out there.
-Hero: But this means there's hope. Life as we know it can thrive in Andromeda.
+[000146D0] global_squad_male_human: How's this even possible?
+[000146CE] Hero: Extreme example of a microclimate, maybe? Shielded by the cave all these years?
+[000146D1] global_squad_male_human: While the rest of the planet died?
+[00019289] Hero: Something nasty happened out there.
+[000259E6] Hero: But this means there's hope. Life as we know it can thrive in Andromeda.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Ryder, can't waste anymore time. We need to get to your dad.
+    [00016B55] global_squad_female_human ⟨cond⟩: Ryder, can't waste anymore time. We need to get to your dad.
 ├ option 2:
-    global_squad_male_human: We should get moving. Look for the others.
+    [00016B59] global_squad_male_human: We should get moving. Look for the others.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM ⟨cond⟩: This organic lifeform died recently. It appears this was a trap for catching it.
-    global_squad_male_human: You suppose those aliens set it?
-    Hero: If they did, they don't play nice with anyone.
-    global_squad_male_human: Or maybe they're starving.
+    [0002660C] SAM ⟨cond⟩: This organic lifeform died recently. It appears this was a trap for catching it.
+    [00025625] global_squad_male_human: You suppose those aliens set it?
+    [00025628] Hero: If they did, they don't play nice with anyone.
+    [00025629] global_squad_male_human: Or maybe they're starving.
 ├ option 2:
-    Hero: Dead animal here, in some sort of trap. Pretty recent, too.
-    ↩ (goto) global_squad_male_human: You suppose those aliens set it?
+    [00025626] Hero: Dead animal here, in some sort of trap. Pretty recent, too.
+    ↩ (goto) [00025625] global_squad_male_human: You suppose those aliens set it?
 └─ merge ─┘

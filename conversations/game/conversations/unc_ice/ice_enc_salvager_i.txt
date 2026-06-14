@@ -2,39 +2,39 @@
 # Primary speaker: ICE_Jasca
 # Source: game/conversations/unc_ice/ice_enc_salvager_i.xml
 ==================================================
-ICE_Jasca [OncePerGame]: You. The Pathfinder. Is it true? Can you talk to the old machines?
-Hero: You mean the Remnant?
-ICE_Jasca: I'm no threat to them. Never have been. Tell them to stop hurting me.
+[00031EF7] ICE_Jasca [OncePerGame]: You. The Pathfinder. Is it true? Can you talk to the old machines?
+[00031F9B] Hero: You mean the Remnant?
+[00031FAB] ICE_Jasca: I'm no threat to them. Never have been. Tell them to stop hurting me.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Why would the Remnant come after you?
-    ICE_Jasca: I dig for useful things around the pillars. Good tech. Machines always left me alone, until now.
+    [00031FA3] Hero [OncePerGame]: Why would the Remnant come after you?
+    [00031FAD] ICE_Jasca: I dig for useful things around the pillars. Good tech. Machines always left me alone, until now.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero [OncePerGame]: Did they injure you, or just chase you off?
-        ICE_Jasca: They chased me, and I slipped on the ice. {i}That{/i} hurt.
+        [00031FA9] Hero [OncePerGame]: Did they injure you, or just chase you off?
+        [00031FA4] ICE_Jasca: They chased me, and I slipped on the ice. {i}That{/i} hurt.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) Hero [OncePerGame]: Why would the Remnant come after you?
+            ↩ (goto) [00031FA3] Hero [OncePerGame]: Why would the Remnant come after you?
         ├ option 2:
-            Hero: You were misinformed. I can't actually {i}talk{/i} to the Remnant. Even if I could, I don't think they'd listen.
-            ICE_Jasca: What good are you, then?
-            ICE_Jasca: Thanks for nothing.
+            [00031FA8] Hero: You were misinformed. I can't actually {i}talk{/i} to the Remnant. Even if I could, I don't think they'd listen.
+            [00031FAA] ICE_Jasca: What good are you, then?
+            [00031FA2] ICE_Jasca: Thanks for nothing.
         ├ option 3:
-            Hero: The Remnant are dangerous. Keep your distance from their territory, and you'll be safe.
-            ICE_Jasca: Safe and poor. I don't sell the tech I dig up, I don't eat.
-            ↩ (goto) ICE_Jasca: Thanks for nothing.
+            [00031FA7] Hero: The Remnant are dangerous. Keep your distance from their territory, and you'll be safe.
+            [00031FA6] ICE_Jasca: Safe and poor. I don't sell the tech I dig up, I don't eat.
+            ↩ (goto) [00031FA2] ICE_Jasca: Thanks for nothing.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: You were misinformed. I can't actually {i}talk{/i} to the Remnant. Even if I could, I don't think they'd listen.
+        ↩ (goto) [00031FA8] Hero: You were misinformed. I can't actually {i}talk{/i} to the Remnant. Even if I could, I don't think they'd listen.
     ├ option 3:
-        ↩ (goto) Hero: The Remnant are dangerous. Keep your distance from their territory, and you'll be safe.
+        ↩ (goto) [00031FA7] Hero: The Remnant are dangerous. Keep your distance from their territory, and you'll be safe.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) Hero [OncePerGame]: Did they injure you, or just chase you off?
+    ↩ (goto) [00031FA9] Hero [OncePerGame]: Did they injure you, or just chase you off?
 ├ option 3:
-    ↩ (goto) Hero: You were misinformed. I can't actually {i}talk{/i} to the Remnant. Even if I could, I don't think they'd listen.
+    ↩ (goto) [00031FA8] Hero: You were misinformed. I can't actually {i}talk{/i} to the Remnant. Even if I could, I don't think they'd listen.
 ├ option 4:
-    ↩ (goto) Hero: The Remnant are dangerous. Keep your distance from their territory, and you'll be safe.
+    ↩ (goto) [00031FA7] Hero: The Remnant are dangerous. Keep your distance from their territory, and you'll be safe.
 └─ merge ─┘
-ICE_Jasca: Stupid machines, ruining my business...
+[00031FAC] ICE_Jasca: Stupid machines, ruining my business...

@@ -4,78 +4,78 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_asari [OncePerGame]: Fascinating, huh...?
-    global_squad_asari: This the kind of stuff that gets you out of bed in the morning, too?
+    [0001ACC1] global_squad_asari [OncePerGame]: Fascinating, huh...?
+    [0001ACB2] global_squad_asari: This the kind of stuff that gets you out of bed in the morning, too?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Solving alien mysteries on hostile worlds? Do you need to ask?
+        [00024EAC] Hero: Solving alien mysteries on hostile worlds? Do you need to ask?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_asari ⟨cond⟩: Ha. A woman after my own heart.
-            global_squad_asari: Follow my navpoints, figure out those monoliths, and we can both get some answers.
+            [00024F3C] global_squad_asari ⟨cond⟩: Ha. A woman after my own heart.
+            [00024F3A] global_squad_asari: Follow my navpoints, figure out those monoliths, and we can both get some answers.
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                Hero: The bots we're seeing—you had names for them?
-                global_squad_asari: I had to call them something. The Observers fly around spying on anyone who touches this tech.
-                global_squad_asari: The Assembler ones make other Remnant. Not sure how yet—maybe minifacturing, or 3D printing.
-                global_squad_asari: And Breachers smash into anything they don't like. Which is us. Easy to remember.
-                ↩ (goto) global_squad_asari: [empty]
+                [00025598] Hero: The bots we're seeing—you had names for them?
+                [00025599] global_squad_asari: I had to call them something. The Observers fly around spying on anyone who touches this tech.
+                [00025597] global_squad_asari: The Assembler ones make other Remnant. Not sure how yet—maybe minifacturing, or 3D printing.
+                [0002559A] global_squad_asari: And Breachers smash into anything they don't like. Which is us. Easy to remember.
+                ↩ (goto) [00024F39] global_squad_asari: [empty]
             ├ option 2:
-                Hero: How did you get here? After what happened with the outposts, I didn't expect to run into anyone.
-                global_squad_asari: I had a ride. Had to fudge the flight plan a little. The Nexus didn't want to risk anyone else.
-                global_squad_asari: Or let people see how rough it got. Sad. But there's still so much here.
-                global_squad_asari: And some of us want to find it. We didn't come all this way to sit on our hands.
-                ↩ (goto) global_squad_asari: [empty]
+                [0001ACC6] Hero: How did you get here? After what happened with the outposts, I didn't expect to run into anyone.
+                [0002559D] global_squad_asari: I had a ride. Had to fudge the flight plan a little. The Nexus didn't want to risk anyone else.
+                [0001AD02] global_squad_asari: Or let people see how rough it got. Sad. But there's still so much here.
+                [0001AD05] global_squad_asari: And some of us want to find it. We didn't come all this way to sit on our hands.
+                ↩ (goto) [00024F39] global_squad_asari: [empty]
             ├ option 3:
-                Hero: Is Peebee a typical asari name?
+                [0001AC9A] Hero: Is Peebee a typical asari name?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_squad_female_human ⟨cond⟩: Never heard it in my huntress days.
-                    global_squad_asari: Oh, you know things? Good for you. I know other things.
-                    global_squad_asari: It's a name. Good enough, and short enough, for now.
-                    ↩ (goto) global_squad_asari: [empty]
+                    [000254B7] global_squad_female_human ⟨cond⟩: Never heard it in my huntress days.
+                    [0001ACFD] global_squad_asari: Oh, you know things? Good for you. I know other things.
+                    [0001AD00] global_squad_asari: It's a name. Good enough, and short enough, for now.
+                    ↩ (goto) [00024F39] global_squad_asari: [empty]
                 ├ option 2:
-                    global_squad_asari: Do I seem typical? Never been accused of that.
-                    ↩ (goto) global_squad_asari: It's a name. Good enough, and short enough, for now.
+                    [0001AD08] global_squad_asari: Do I seem typical? Never been accused of that.
+                    ↩ (goto) [0001AD00] global_squad_asari: It's a name. Good enough, and short enough, for now.
                 └─ merge ─┘
             ├ option 4:
-                Hero: Is anyone else camped out on Eos?
+                [0001ACAF] Hero: Is anyone else camped out on Eos?
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    global_squad_asari ⟨cond⟩: Looks like you met Old Man Krogan already.
-                    global_squad_krogan: She's just jealous her face will never be this pretty.
-                    global_squad_asari: Apart from him—the kett, Clancy's salvagers, and anyone with the kind of luck that leaves them stranded.
-                    ↩ (goto) global_squad_asari: [empty]
+                    [00024F41] global_squad_asari ⟨cond⟩: Looks like you met Old Man Krogan already.
+                    [00024F43] global_squad_krogan: She's just jealous her face will never be this pretty.
+                    [00024F54] global_squad_asari: Apart from him—the kett, Clancy's salvagers, and anyone with the kind of luck that leaves them stranded.
+                    ↩ (goto) [00024F39] global_squad_asari: [empty]
                 ├ option 2:
-                    global_squad_asari ⟨cond⟩: I heard you and Old Man Krogan from here. He likes punching kett in the face, so have fun with that.
-                    ↩ (goto) global_squad_asari: Apart from him—the kett, Clancy's salvagers, and anyone with the kind of luck that leaves them stranded.
+                    [00024F44] global_squad_asari ⟨cond⟩: I heard you and Old Man Krogan from here. He likes punching kett in the face, so have fun with that.
+                    ↩ (goto) [00024F54] global_squad_asari: Apart from him—the kett, Clancy's salvagers, and anyone with the kind of luck that leaves them stranded.
                 ├ option 3:
-                    global_squad_asari: There's the kett. Clancy's salvagers. And one angry old man.
-                    Hero: Who do you mean?
-                    global_squad_asari: Let's just say he's here to squish kett, and doesn't care whose gear he tramples.
-                    ↩ (goto) global_squad_asari: [empty]
+                    [00024F40] global_squad_asari: There's the kett. Clancy's salvagers. And one angry old man.
+                    [00024F55] Hero: Who do you mean?
+                    [00024F56] global_squad_asari: Let's just say he's here to squish kett, and doesn't care whose gear he tramples.
+                    ↩ (goto) [00024F39] global_squad_asari: [empty]
                 └─ merge ─┘
             ├ option 5:
-                Hero: We're hoping this tech can fix the atmosphere and make Eos livable. Think it's possible?
-                global_squad_asari: Yes! Maybe. Possibly? This tech is so new—I mean, old here, but new to us—who knows what it can do?
-                Hero: How old is it, exactly?
-                global_squad_asari: It's been dormant for centuries. Which, I guess, isn't actually that old. Huh.
-                global_squad_asari: But long enough for conditions here to get royally screwed up, if they really are connected.
-                ↩ (goto) global_squad_asari: [empty]
+                [0001ACBB] Hero: We're hoping this tech can fix the atmosphere and make Eos livable. Think it's possible?
+                [0001AD04] global_squad_asari: Yes! Maybe. Possibly? This tech is so new—I mean, old here, but new to us—who knows what it can do?
+                [0001AD39] Hero: How old is it, exactly?
+                [0001AD37] global_squad_asari: It's been dormant for centuries. Which, I guess, isn't actually that old. Huh.
+                [00024F42] global_squad_asari: But long enough for conditions here to get royally screwed up, if they really are connected.
+                ↩ (goto) [00024F39] global_squad_asari: [empty]
             ├ option 6:
-                Hero: Well, I'll head out.
-                global_squad_asari: Yes, so much to investigate. Let's get to it!
+                [0001ACA8] Hero: Well, I'll head out.
+                [0001ACC0] global_squad_asari: Yes, so much to investigate. Let's get to it!
             └─ merge ─┘
         ├ option 2:
-            global_squad_asari: Ha. A man after my own heart.
-            ↩ (goto) global_squad_asari: Follow my navpoints, figure out those monoliths, and we can both get some answers.
+            [00024EA8] global_squad_asari: Ha. A man after my own heart.
+            ↩ (goto) [00024F3A] global_squad_asari: Follow my navpoints, figure out those monoliths, and we can both get some answers.
         └─ merge ─┘
     ├ option 2:
-        Hero: The Initiative lives and dies by its Pathfinders. That's reason enough.
-        global_squad_asari: And not even a whiff of fun along the way, huh?
-        ↩ (goto) global_squad_asari: Follow my navpoints, figure out those monoliths, and we can both get some answers.
+        [00024EA6] Hero: The Initiative lives and dies by its Pathfinders. That's reason enough.
+        [00024EAB] global_squad_asari: And not even a whiff of fun along the way, huh?
+        ↩ (goto) [00024F3A] global_squad_asari: Follow my navpoints, figure out those monoliths, and we can both get some answers.
     └─ merge ─┘
 ├ option 2:
-    global_squad_asari: Back again? Something's more important than solving the monoliths?
-    ↩ (goto) global_squad_asari: [empty]
+    [00024F3D] global_squad_asari: Back again? Something's more important than solving the monoliths?
+    ↩ (goto) [00024F39] global_squad_asari: [empty]
 └─ merge ─┘

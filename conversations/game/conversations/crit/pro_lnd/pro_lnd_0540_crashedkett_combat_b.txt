@@ -2,68 +2,68 @@
 # Primary speaker: global_squad_male_human
 # Source: game/conversations/crit/pro_lnd/pro_lnd_0540_crashedkett_combat_b.xml
 ==================================================
-Hero: What are those guys doing?
+[0002867C] Hero: What are those guys doing?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: They see us!
+    [00016B5D] global_squad_female_human ⟨cond⟩: They see us!
 ├ option 2:
-    global_squad_male_human: They see us!
+    [00016B37] global_squad_male_human: They see us!
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Here we go!
-    global_squad_male_human: Not much for talking, are they?
+    [0002872F] Hero [OncePerGame]: Here we go!
+    [00028730] global_squad_male_human: Not much for talking, are they?
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: Look out—more of their pets!
+        [00016A26] global_squad_male_human ⟨cond⟩: Look out—more of their pets!
     ├ option 2:
-        global_squad_male_human: Look out—they're using those animals!
-        Hero: Careful—they're cloaking!
+        [0002867D] global_squad_male_human: Look out—they're using those animals!
+        [000286C5] Hero: Careful—they're cloaking!
     └─ merge ─┘
 ├ option 3:
-    global_squad_male_human [OncePerGame]: This is for Kirkland!
+    [000259DC] global_squad_male_human [OncePerGame]: This is for Kirkland!
 ├ option 4:
-    Hero [OncePerGame]: You hanging in there?
-    global_squad_male_human: Don't worry about me!
+    [00028100] Hero [OncePerGame]: You hanging in there?
+    [00028101] global_squad_male_human: Don't worry about me!
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: They're gone!
+    [00016B5C] global_squad_female_human ⟨cond⟩: They're gone!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
+        [00016B27] global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: I was with a team that dug up Prothean artifacts.
-            global_squad_male_human: Well, this'll be a field day for you.
-            Hero: I wonder what these guys were doing here.
-            global_squad_male_human: Crash of some kind. It's not one of our ships.
+            [0002576A] Hero ⟨cond⟩: I was with a team that dug up Prothean artifacts.
+            [0002576C] global_squad_male_human: Well, this'll be a field day for you.
+            [00016B38] Hero: I wonder what these guys were doing here.
+            [00016D9F] global_squad_male_human: Crash of some kind. It's not one of our ships.
         ├ option 2:
-            Hero: Used to guard a mass effect relay.
-            global_squad_male_human: Wish we'd had one for the arks.
-            ↩ (goto) Hero: I wonder what these guys were doing here.
+            [0002576B] Hero: Used to guard a mass effect relay.
+            [00025769] global_squad_male_human: Wish we'd had one for the arks.
+            ↩ (goto) [00016B38] Hero: I wonder what these guys were doing here.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: I wonder what these guys were doing here.
+        ↩ (goto) [00016B38] Hero: I wonder what these guys were doing here.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human: That did it!
+    [00016B2A] global_squad_male_human: That did it!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
+        ↩ (goto) [00016B27] global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
     ├ option 2:
-        ↩ (goto) Hero: I wonder what these guys were doing here.
+        ↩ (goto) [00016B38] Hero: I wonder what these guys were doing here.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero: We can take them, Liam!
-    global_squad_male_human: Right behind you!
+    [00016A28] Hero: We can take them, Liam!
+    [00016A27] global_squad_male_human: Right behind you!
 ├ option 2:
-    Hero ⟨cond⟩: I fought off a batarian pirate or two in my day.
+    [00016B24] Hero ⟨cond⟩: I fought off a batarian pirate or two in my day.
 ├ option 3:
-    Hero: I fought off an occasional raider or two in my day.
+    [00016B28] Hero: I fought off an occasional raider or two in my day.
 ├ option 4:
-    Hero [OncePerGame]: We stirred the hornet's nest!
+    [000259DB] Hero [OncePerGame]: We stirred the hornet's nest!
 └─ merge ─┘

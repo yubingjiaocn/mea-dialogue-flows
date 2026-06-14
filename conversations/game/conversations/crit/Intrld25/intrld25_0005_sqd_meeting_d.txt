@@ -2,65 +2,65 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Intrld25/intrld25_0005_sqd_meeting_d.xml
 ==================================================
-global_squad_female_human: Before the meeting gets started, I have bunk assignments for Peebee and Drack.
-global_squad_krogan: Already put my rucksack in the kitchen. I'll hang out there, if that's okay.
-global_squad_asari: And I'm in one of the escape pods. More my speed.
-global_squad_female_human: That's... fantastic. Welcome aboard. Any thoughts, Ryder?
+[00030ACA] global_squad_female_human: Before the meeting gets started, I have bunk assignments for Peebee and Drack.
+[00030AD4] global_squad_krogan: Already put my rucksack in the kitchen. I'll hang out there, if that's okay.
+[00030AD9] global_squad_asari: And I'm in one of the escape pods. More my speed.
+[00030ADD] global_squad_female_human: That's... fantastic. Welcome aboard. Any thoughts, Ryder?
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: You're professionals. I'm not going to babysit bunk assignments.
-    Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
-    Hero: We discovered the Remnant and breached their vault.
-    global_squad_male_human: And didn't get killed.
-    Hero: Overcame radiation poisoning—a number of times.
-    global_squad_turian: And didn't die.
-    Hero: Confronted by kett at every turn.
-    global_squad_male_human: Once again, did not get killed.
-    global_squad_krogan: You guys really need to raise the bar on what you call success.
-    global_squad_turian: Drack...
-    global_squad_female_human: Hmm, should we use the krogan definition of success that got your homeworld nuked by your own people?
-    global_squad_krogan: {i}(Laughs.){/i} Fair enough.
-    Hero: Let's focus. Back to the task at hand—looking forward.
-    global_squad_asari: Exactly! Here's my only question: when do we hit that next vault? It looked active. We have to get on that.
-    global_squad_turian: Hang on, hang on. {i}We{/i} need to not go off half-cocked.
-    global_squad_male_human: There are Initiative priorities. The team calls the shots.
+    [0003249B] Hero ⟨cond⟩: You're professionals. I'm not going to babysit bunk assignments.
+    [00030E4A] Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
+    [00030E4C] Hero: We discovered the Remnant and breached their vault.
+    [00030E4B] global_squad_male_human: And didn't get killed.
+    [00030E46] Hero: Overcame radiation poisoning—a number of times.
+    [00030E4D] global_squad_turian: And didn't die.
+    [00030E48] Hero: Confronted by kett at every turn.
+    [000318CF] global_squad_male_human: Once again, did not get killed.
+    [000318CE] global_squad_krogan: You guys really need to raise the bar on what you call success.
+    [000318D0] global_squad_turian: Drack...
+    [000318D1] global_squad_female_human: Hmm, should we use the krogan definition of success that got your homeworld nuked by your own people?
+    [000318D2] global_squad_krogan: {i}(Laughs.){/i} Fair enough.
+    [000318D6] Hero: Let's focus. Back to the task at hand—looking forward.
+    [000318D8] global_squad_asari: Exactly! Here's my only question: when do we hit that next vault? It looked active. We have to get on that.
+    [000318D3] global_squad_turian: Hang on, hang on. {i}We{/i} need to not go off half-cocked.
+    [000318DC] global_squad_male_human: There are Initiative priorities. The team calls the shots.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Actually, the Pathfinder calls the shots... just to be clear.
-        global_squad_turian: So what do you need from us, Ryder?
+        [000318DB] global_squad_female_human ⟨cond⟩: Actually, the Pathfinder calls the shots... just to be clear.
+        [000318DE] global_squad_turian: So what do you need from us, Ryder?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Heleus threw us for a loop... meaning, we're kinda new at this. All of us.
-            Hero: So let's figure out what the rules are now and try to stick to them.
-            global_squad_female_human: Sounds good.
-            global_squad_asari: If there's one thing I know I can do—it's make up rules.
-            global_squad_turian: No one said "make up rules." Can we please keep anarchy to a minimum.
-            Hero: Okay! Let's head back to the Nexus.
-            Hero: Peebee, Drack—see Lexi for a physical. Good meeting, everyone.
+            [000318E1] Hero: Heleus threw us for a loop... meaning, we're kinda new at this. All of us.
+            [000318E3] Hero: So let's figure out what the rules are now and try to stick to them.
+            [000318E6] global_squad_female_human: Sounds good.
+            [000318E7] global_squad_asari: If there's one thing I know I can do—it's make up rules.
+            [000318E9] global_squad_turian: No one said "make up rules." Can we please keep anarchy to a minimum.
+            [00033022] Hero: Okay! Let's head back to the Nexus.
+            [000318EA] Hero: Peebee, Drack—see Lexi for a physical. Good meeting, everyone.
         ├ option 2:
-            Hero: Let's be kind and give each other the benefit of the doubt.
-            Hero: Finding a home for tens of thousands in this hellscape is stressful enough, without adding dysfunction.
-            global_squad_male_human: You got it, boss.
-            global_squad_krogan: If krogan are known for one thing, it's getting along.
-            global_squad_female_human: But not humility or self-awareness.
-            ↩ (goto) global_squad_female_human: [empty]
+            [000318E0] Hero: Let's be kind and give each other the benefit of the doubt.
+            [000318E4] Hero: Finding a home for tens of thousands in this hellscape is stressful enough, without adding dysfunction.
+            [000318E5] global_squad_male_human: You got it, boss.
+            [0003301D] global_squad_krogan: If krogan are known for one thing, it's getting along.
+            [0003301E] global_squad_female_human: But not humility or self-awareness.
+            ↩ (goto) [00033021] global_squad_female_human: [empty]
         └─ merge ─┘
     ├ option 2:
-        global_squad_female_human: Actually, the Pathfinder calls the shots... just to be clear.
-        ↩ (goto) global_squad_female_human: [empty]
+        [0003427E] global_squad_female_human: Actually, the Pathfinder calls the shots... just to be clear.
+        ↩ (goto) [000318DD] global_squad_female_human: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero ⟨cond⟩: I don't care where anyone sleeps, as long as we realize what a kickass team we have.
-    ↩ (goto) Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
+    [0003249C] Hero ⟨cond⟩: I don't care where anyone sleeps, as long as we realize what a kickass team we have.
+    ↩ (goto) [00030E4A] Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
 ├ option 3:
-    Hero: This isn't a military vessel, but there need to be rules. Better to ask about protocol.
-    ↩ (goto) Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
+    [00032496] Hero: This isn't a military vessel, but there need to be rules. Better to ask about protocol.
+    ↩ (goto) [00030E4A] Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
 ├ option 4:
-    Hero: We're adventurers. Whatever makes the squad comfortable is okay with me.
-    ↩ (goto) Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
+    [00032499] Hero: We're adventurers. Whatever makes the squad comfortable is okay with me.
+    ↩ (goto) [00030E4A] Hero: Let's talk about our success on Eos. Besides establishing our first viable outpost, we did some amazing things.
 └─ merge ─┘
-global_squad_krogan: {i}(Murmur of approval.){/i}
-global_squad_female_human: {i}(Murmur of approval.){/i}
-global_squad_male_human: {i}(Murmur of approval.){/i}
-global_squad_turian: {i}(Murmur of approval.){/i}
-global_squad_asari: {i}(Murmur of approval.){/i}
+[000318E8] global_squad_krogan: {i}(Murmur of approval.){/i}
+[000318EB] global_squad_female_human: {i}(Murmur of approval.){/i}
+[00030ADB] global_squad_male_human: {i}(Murmur of approval.){/i}
+[00030AE4] global_squad_turian: {i}(Murmur of approval.){/i}
+[00030AD3] global_squad_asari: {i}(Murmur of approval.){/i}

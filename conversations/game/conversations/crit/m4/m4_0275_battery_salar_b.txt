@@ -4,66 +4,66 @@
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_salarian_pathfinder_multi [OncePerGame]: [Comm] Ryder! We're here! We've got your back!
+    [00029268] global_salarian_pathfinder_multi [OncePerGame]: [Comm] Ryder! We're here! We've got your back!
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: It's the salarians—up top! We still have a chance!
-        Hero: Raeka, we'll take whatever help you can give!
-        global_salarian_pathfinder_multi: [Comm] We'll provide overwatch!
-        global_salarian_pathfinder_multi: [Comm] Take them out!
+        [0002926B] global_squad_female_human ⟨cond⟩: It's the salarians—up top! We still have a chance!
+        [0002926A] Hero: Raeka, we'll take whatever help you can give!
+        [0002926D] global_salarian_pathfinder_multi: [Comm] We'll provide overwatch!
+        [00029285] global_salarian_pathfinder_multi: [Comm] Take them out!
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: It's the salarians—up top! This isn't over yet!
-        ↩ (goto) Hero: Raeka, we'll take whatever help you can give!
+        [00029269] global_squad_male_human ⟨cond⟩: It's the salarians—up top! This isn't over yet!
+        ↩ (goto) [0002926A] Hero: Raeka, we'll take whatever help you can give!
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Up top—it's the salarians! The fight isn't over yet!
-        ↩ (goto) Hero: Raeka, we'll take whatever help you can give!
+        [00029271] global_squad_turian ⟨cond⟩: Up top—it's the salarians! The fight isn't over yet!
+        ↩ (goto) [0002926A] Hero: Raeka, we'll take whatever help you can give!
     ├ option 4:
-        global_squad_asari ⟨cond⟩: It's the salarians—up top! There's still a chance!
-        ↩ (goto) Hero: Raeka, we'll take whatever help you can give!
+        [0002926E] global_squad_asari ⟨cond⟩: It's the salarians—up top! There's still a chance!
+        ↩ (goto) [0002926A] Hero: Raeka, we'll take whatever help you can give!
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: It's the salarians—up top! We might just pull this off!
-        ↩ (goto) Hero: Raeka, we'll take whatever help you can give!
+        [0002926C] global_squad_krogan ⟨cond⟩: It's the salarians—up top! We might just pull this off!
+        ↩ (goto) [0002926A] Hero: Raeka, we'll take whatever help you can give!
     ├ option 6:
-        global_squad_angara ⟨cond⟩: It's the salarians—they're up top! We have a chance!
-        ↩ (goto) Hero: Raeka, we'll take whatever help you can give!
+        [00029270] global_squad_angara ⟨cond⟩: It's the salarians—they're up top! We have a chance!
+        ↩ (goto) [0002926A] Hero: Raeka, we'll take whatever help you can give!
     ├ option 7:
-        ↩ (goto) Hero: Raeka, we'll take whatever help you can give!
+        ↩ (goto) [0002926A] Hero: Raeka, we'll take whatever help you can give!
     └─ merge ─┘
 ├ option 2:
-    global_salarian_pathfinder_multi [OncePerGame]: [Comm] Captain Hayjer, we need suppressing fire at your eleven o'clock!
-    crit_kett_salarian_captain_multi: [Comm] I'm on it!
+    [000292AE] global_salarian_pathfinder_multi [OncePerGame]: [Comm] Captain Hayjer, we need suppressing fire at your eleven o'clock!
+    [00029288] crit_kett_salarian_captain_multi: [Comm] I'm on it!
 ├ option 3:
-    crit_kett_salarian3 [OncePerGame]: [Comm] I got one!
-    global_salarian_pathfinder_multi: [Comm] Not a bad shot for a history teacher!
+    [00029287] crit_kett_salarian3 [OncePerGame]: [Comm] I got one!
+    [00029289] global_salarian_pathfinder_multi: [Comm] Not a bad shot for a history teacher!
 ├ option 4:
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: It's working! The salarians are thinning them out!
-        Hero: Just keep it up, guys!
-        global_salarian_pathfinder_multi: [Comm] Give them everything you've got!
-        crit_kett_salarian3: [Comm] {i}(Screams.){/i}
-        crit_kett_salarian_captain_multi: [Comm] Seldin's been hit!
-        global_salarian_pathfinder_multi: [Comm] Cover his position!
+        [000292B1] global_squad_angara ⟨cond⟩: It's working! The salarians are thinning them out!
+        [00029301] Hero: Just keep it up, guys!
+        [000292B0] global_salarian_pathfinder_multi: [Comm] Give them everything you've got!
+        [00029284] crit_kett_salarian3: [Comm] {i}(Screams.){/i}
+        [00029283] crit_kett_salarian_captain_multi: [Comm] Seldin's been hit!
+        [000292B2] global_salarian_pathfinder_multi: [Comm] Cover his position!
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: It's working! The salarians are making a dent!
-        ↩ (goto) Hero: Just keep it up, guys!
+        [000292B3] global_squad_krogan ⟨cond⟩: It's working! The salarians are making a dent!
+        ↩ (goto) [00029301] Hero: Just keep it up, guys!
     ├ option 3:
-        global_squad_asari ⟨cond⟩: It's working! The salarians are making a difference!
-        ↩ (goto) Hero: Just keep it up, guys!
+        [000292AD] global_squad_asari ⟨cond⟩: It's working! The salarians are making a difference!
+        ↩ (goto) [00029301] Hero: Just keep it up, guys!
     ├ option 4:
-        global_squad_turian ⟨cond⟩: They're doing it! The salarians are making a dent!
-        ↩ (goto) Hero: Just keep it up, guys!
+        [000292B4] global_squad_turian ⟨cond⟩: They're doing it! The salarians are making a dent!
+        ↩ (goto) [00029301] Hero: Just keep it up, guys!
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: They're doing it! The salarians are picking them off!
-        ↩ (goto) Hero: Just keep it up, guys!
+        [000292AF] global_squad_male_human ⟨cond⟩: They're doing it! The salarians are picking them off!
+        ↩ (goto) [00029301] Hero: Just keep it up, guys!
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: It's working! The salarians are thinning them out!
-        ↩ (goto) Hero: Just keep it up, guys!
+        [000292B5] global_squad_female_human ⟨cond⟩: It's working! The salarians are thinning them out!
+        ↩ (goto) [00029301] Hero: Just keep it up, guys!
     ├ option 7:
-        ↩ (goto) Hero: Just keep it up, guys!
+        ↩ (goto) [00029301] Hero: Just keep it up, guys!
     └─ merge ─┘
 └─ merge ─┘
-crit_kett_salarian4 [OncePerGame]: On our left!
-global_salarian_pathfinder_multi: Ryder, we need to pull out! We have wounded!
-Hero: Go! We can take it from here! You saved our ass!
-crit_kett_salarian_captain_multi: [Comm] We can do this!
+[0002931A] crit_kett_salarian4 [OncePerGame]: On our left!
+[00029305] global_salarian_pathfinder_multi: Ryder, we need to pull out! We have wounded!
+[0002931C] Hero: Go! We can take it from here! You saved our ass!
+[00029350] crit_kett_salarian_captain_multi: [Comm] We can do this!

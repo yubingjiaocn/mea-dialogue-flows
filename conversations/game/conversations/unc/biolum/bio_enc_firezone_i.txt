@@ -2,21 +2,21 @@
 # Primary speaker: bio_fire_surveyor
 # Source: game/conversations/unc/biolum/bio_enc_firezone_i.xml
 ==================================================
-bio_fire_surveyor: Stay safe, visitor.
+[000331B9] bio_fire_surveyor: Stay safe, visitor.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero [OncePerConversation]: What caused these fires? Is there an emergency?
-    bio_fire_surveyor: This daar used to be a much larger settlement. The wildlife overtook it. Destroyed above and below.
-    bio_fire_surveyor: Plant roots ruptured an underground fuel pipeline. A stray spark lit these fires.
-    ↩ (goto) Hero: [empty]
+    [000331BE] Hero [OncePerConversation]: What caused these fires? Is there an emergency?
+    [000331E7] bio_fire_surveyor: This daar used to be a much larger settlement. The wildlife overtook it. Destroyed above and below.
+    [000331E8] bio_fire_surveyor: Plant roots ruptured an underground fuel pipeline. A stray spark lit these fires.
+    ↩ (goto) [000331E6] Hero: [empty]
 ├ option 2:
-    Hero [OncePerConversation]: What are you doing here?
-    bio_fire_surveyor: Making sure the fires don't get worse. I'm a surveyor and engineer from the station.
-    bio_fire_surveyor: I need to divert fuel from the pipes buried here. That will cut off the flames—eventually.
-    ↩ (goto) Hero: [empty]
+    [000331D5] Hero [OncePerConversation]: What are you doing here?
+    [000331EA] bio_fire_surveyor: Making sure the fires don't get worse. I'm a surveyor and engineer from the station.
+    [000331E9] bio_fire_surveyor: I need to divert fuel from the pipes buried here. That will cut off the flames—eventually.
+    ↩ (goto) [000331E6] Hero: [empty]
 ├ option 3:
-    Hero: I'll get going. Be careful.
-    bio_fire_surveyor: You, too. Isharay. {i}{Sigh of relief.}{/i} That went well...
+    [000331D7] Hero: I'll get going. Be careful.
+    [000331D6] bio_fire_surveyor: You, too. Isharay. {i}{Sigh of relief.}{/i} That went well...
 └─ merge ─┘
-bio_fire_surveyor: Don't stay here, visitor. It's not safe, and I can't be responsible for you. Should've warned me you were coming...
-↩ (goto) Hero: [empty]
+[000331BB] bio_fire_surveyor: Don't stay here, visitor. It's not safe, and I can't be responsible for you. Should've warned me you were coming...
+↩ (goto) [000331E6] Hero: [empty]

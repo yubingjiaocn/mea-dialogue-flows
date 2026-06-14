@@ -2,93 +2,93 @@
 # Primary speaker: Hero
 # Source: game/conversations/hubs/hub_tem/Crit/hub_tem_M3_debrief_d.xml
 ==================================================
-global_squad_angara: I'm sorry we fought. What we saw will set our cause on fire.
-global_angaran_elder_multi: Yes. My broken heart can't even process it.
-Hero: Lexi, can you give us a minute?
-global_humanark_asari_dr: Sure thing. But go gentle—she's in a fragile state.
-global_angaran_elder_multi: Did she just call me frail?
-Hero: Fragile.
-global_angaran_elder_multi: Ha! Jaal says you're a "Pathfinder" from the Milky Way.
-Hero: Do you feel up for a talk?
+[0000705B] global_squad_angara: I'm sorry we fought. What we saw will set our cause on fire.
+[0000CEA4] global_angaran_elder_multi: Yes. My broken heart can't even process it.
+[00007030] Hero: Lexi, can you give us a minute?
+[00007038] global_humanark_asari_dr: Sure thing. But go gentle—she's in a fragile state.
+[0000702F] global_angaran_elder_multi: Did she just call me frail?
+[0000CC5A] Hero: Fragile.
+[00007042] global_angaran_elder_multi: Ha! Jaal says you're a "Pathfinder" from the Milky Way.
+[0000705D] Hero: Do you feel up for a talk?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_angaran_elder_multi ⟨cond⟩: Of course. You earned my trust with your brave decision back there.
+    [00007051] global_angaran_elder_multi ⟨cond⟩: Of course. You earned my trust with your brave decision back there.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Hard decisions come with the territory.
-        global_angaran_elder_multi: Well, then.
-        Hero: So, the facility, what's the purpose of all that?
-        global_angaran_elder_multi: They call it exaltation. They believe that those they exalt are given a great gift.
-        global_squad_angara: Gift? They snatch us. Defile and shatter us! ...or the ones we love. I... I can't...
-        Narration: Jaal can't even find the words. He takes the Moshae's hand and holds it . He goes silent.
-        global_angaran_elder_multi: It's a complex genetic construct—an interchange of traits that the kett use to advance their species.
-        Hero: So, they steal genes. But why?
-        global_angaran_elder_multi: Reproduction.
-        global_squad_angara: Domination. Tyranny. Annihilation.
-        global_angaran_elder_multi: Yes. And yet... the Archon didn't take me to his ship to transform me.
-        global_angaran_elder_multi: I hung immobile, tormented, never sleeping, brought to him on a whim. He showed me Remnant tech, and beat me when I wouldn't speak.
-        Hero: Oh, no... Remnant, of course.
-        global_angaran_elder_multi: He's obsessed—like you are. Yes, Jaal told me. You rescued me, hoping to get into Aya's vault.
+        [0000CE1F] Hero: Hard decisions come with the territory.
+        [0000CEA3] global_angaran_elder_multi: Well, then.
+        [00007984] Hero: So, the facility, what's the purpose of all that?
+        [00007064] global_angaran_elder_multi: They call it exaltation. They believe that those they exalt are given a great gift.
+        [0000703A] global_squad_angara: Gift? They snatch us. Defile and shatter us! ...or the ones we love. I... I can't...
+        [0000DB55] Narration: Jaal can't even find the words. He takes the Moshae's hand and holds it . He goes silent.
+        [0000DC29] global_angaran_elder_multi: It's a complex genetic construct—an interchange of traits that the kett use to advance their species.
+        [00007033] Hero: So, they steal genes. But why?
+        [0000CEBB] global_angaran_elder_multi: Reproduction.
+        [0000CEA8] global_squad_angara: Domination. Tyranny. Annihilation.
+        [0000CEAF] global_angaran_elder_multi: Yes. And yet... the Archon didn't take me to his ship to transform me.
+        [0000DDEF] global_angaran_elder_multi: I hung immobile, tormented, never sleeping, brought to him on a whim. He showed me Remnant tech, and beat me when I wouldn't speak.
+        [000231CE] Hero: Oh, no... Remnant, of course.
+        [000231C9] global_angaran_elder_multi: He's obsessed—like you are. Yes, Jaal told me. You rescued me, hoping to get into Aya's vault.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: My people have traveled so far. We'll die without a place to settle. These Remnant vaults may be the key.
-            Hero: A key to help both our species prosper.
+            [0000704D] Hero: My people have traveled so far. We'll die without a place to settle. These Remnant vaults may be the key.
+            [0000CEB4] Hero: A key to help both our species prosper.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_angaran_elder_multi ⟨cond⟩: I hear your plea, like you heard mine.
-                global_angaran_elder_multi: But—emotion must never get in the way of science.
-                global_angaran_elder_multi: I'll take you.
-                Hero: Thank you.
-                global_squad_angara: Yes. Thank you, Moshae Sjefa.
-                global_angaran_elder_multi: I'm happy to answer any other questions for you, Pathfinder. Anytime.
+                [00007060] global_angaran_elder_multi ⟨cond⟩: I hear your plea, like you heard mine.
+                [000231EC] global_angaran_elder_multi: But—emotion must never get in the way of science.
+                [000231EF] global_angaran_elder_multi: I'll take you.
+                [0000703D] Hero: Thank you.
+                [0001AFDB] global_squad_angara: Yes. Thank you, Moshae Sjefa.
+                [0000CEB2] global_angaran_elder_multi: I'm happy to answer any other questions for you, Pathfinder. Anytime.
             ├ option 2:
-                global_angaran_elder_multi: I feel for your people—in a way that you clearly do not for mine.
-                ↩ (goto) global_angaran_elder_multi: But—emotion must never get in the way of science.
+                [0000706C] global_angaran_elder_multi: I feel for your people—in a way that you clearly do not for mine.
+                ↩ (goto) [000231EC] global_angaran_elder_multi: But—emotion must never get in the way of science.
             └─ merge ─┘
         ├ option 2:
-            Hero: We've seen the evil the Archon is capable of and we know the power of the Remnant.
-            Hero: I need to know what he's up to.
+            [00007066] Hero: We've seen the evil the Archon is capable of and we know the power of the Remnant.
+            [0000CEB3] Hero: I need to know what he's up to.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_angaran_elder_multi ⟨cond⟩: I agree. He worries me, too.
-                ↩ (goto) global_angaran_elder_multi: I'll take you.
+                [000231EB] global_angaran_elder_multi ⟨cond⟩: I agree. He worries me, too.
+                ↩ (goto) [000231EF] global_angaran_elder_multi: I'll take you.
             ├ option 2:
-                global_angaran_elder_multi: You have a lot to learn and yet, you don't listen. I don't trust you.
-                ↩ (goto) global_angaran_elder_multi: But—emotion must never get in the way of science.
+                [000231E9] global_angaran_elder_multi: You have a lot to learn and yet, you don't listen. I don't trust you.
+                ↩ (goto) [000231EC] global_angaran_elder_multi: But—emotion must never get in the way of science.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        Hero: I didn't risk anything. No one won back there.
-        global_angaran_elder_multi: To make such a difficult choice—that is brave.
-        ↩ (goto) Narration: [empty]
+        [0000CE1D] Hero: I didn't risk anything. No one won back there.
+        [0000CEA9] global_angaran_elder_multi: To make such a difficult choice—that is brave.
+        ↩ (goto) [0000CF38] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_angaran_elder_multi: Ah. So now you value what I have to say?
+    [0000704C] global_angaran_elder_multi: Ah. So now you value what I have to say?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I did what I thought was right. I'm good with that.
-        global_angaran_elder_multi: You'll understand then, when it's time for me to do what I think is right.
-        ↩ (goto) Hero: So, the facility, what's the purpose of all that?
+        [0000703B] Hero: I did what I thought was right. I'm good with that.
+        [0000CEA5] global_angaran_elder_multi: You'll understand then, when it's time for me to do what I think is right.
+        ↩ (goto) [00007984] Hero: So, the facility, what's the purpose of all that?
     ├ option 2:
-        Hero: I feel for you, but I don't regret my decision.
-        global_angaran_elder_multi: Then your sympathy is empty.
-        ↩ (goto) Narration: [empty]
+        [00007062] Hero: I feel for you, but I don't regret my decision.
+        [0000CEA7] global_angaran_elder_multi: Then your sympathy is empty.
+        ↩ (goto) [0000CF39] Narration: [empty]
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_angaran_elder_multi: Your decision to let that facility stand was abhorrent.
+    [00007069] global_angaran_elder_multi: Your decision to let that facility stand was abhorrent.
 ├ option 2:
-    global_angaran_elder_multi: Now let me sleep and regain my strength.
+    [00007057] global_angaran_elder_multi: Now let me sleep and regain my strength.
 ├ option 3:
-    Hero: I ask humbly for your assistance. We need you.
+    [0000706A] Hero: I ask humbly for your assistance. We need you.
 ├ option 4:
-    Hero: Please, call me Ryder.
-    global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
+    [0000704F] Hero: Please, call me Ryder.
+    [00007032] global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
 ├ option 5:
-    Hero ⟨cond⟩: Yeah. I'm Sara.
-    ↩ (goto) global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
+    [0000CEA1] Hero ⟨cond⟩: Yeah. I'm Sara.
+    ↩ (goto) [00007032] global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
 ├ option 6:
-    Hero ⟨cond⟩: Call me Scott.
-    ↩ (goto) global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
+    [0000CEA6] Hero ⟨cond⟩: Call me Scott.
+    ↩ (goto) [00007032] global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
 └─ merge ─┘

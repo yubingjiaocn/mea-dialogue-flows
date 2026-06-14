@@ -2,30 +2,30 @@
 # Primary speaker: olw_cerb_villager3
 # Source: game/conversations/unc/olw/cerberus/olw_cerb_0100_npc3_i.xml
 ==================================================
-Hero: What's happening here?
-olw_cerb_villager3: Who are you? Is this your datapad? Are you one of them?
+[000325BE] Hero: What's happening here?
+[000325BD] olw_cerb_villager3: Who are you? Is this your datapad? Are you one of them?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Easy. Whatever's going on, I'm not part of it.
-    olw_cerb_villager3: We'll see.
-    olw_cerb_villager3: Everyone's acting crazy. Spouting all that nonsense. I can't remember how it started... I'm not even sure how I got here.
-    Hero: What do you mean?
-    olw_cerb_villager3: Nobody's in their right mind. And there were these people... others... They showed up and... they left this datapad.
-    olw_cerb_villager3: {i}(Pained grunt.){/i}
+    [000325B7] Hero: Easy. Whatever's going on, I'm not part of it.
+    [000325DD] olw_cerb_villager3: We'll see.
+    [000325C5] olw_cerb_villager3: Everyone's acting crazy. Spouting all that nonsense. I can't remember how it started... I'm not even sure how I got here.
+    [000325B9] Hero: What do you mean?
+    [000325DF] olw_cerb_villager3: Nobody's in their right mind. And there were these people... others... They showed up and... they left this datapad.
+    [000325DC] olw_cerb_villager3: {i}(Pained grunt.){/i}
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: You feeling all right?
-        olw_cerb_villager3: Terrible migraines. They strike without warning. I think it's {i}them{/i}.
-        olw_cerb_villager3: I heard one of them say: "We left the datapad behind" {i}(Pained grunt.){/i}
-        olw_cerb_villager3: I'm... I'm fine now. I'm sorry to trouble you. It was nothing.
-        olw_cerb_villager3: Be seeing you.
+        [000325E0] Hero: You feeling all right?
+        [0003265F] olw_cerb_villager3: Terrible migraines. They strike without warning. I think it's {i}them{/i}.
+        [000325F3] olw_cerb_villager3: I heard one of them say: "We left the datapad behind" {i}(Pained grunt.){/i}
+        [000325DB] olw_cerb_villager3: I'm... I'm fine now. I'm sorry to trouble you. It was nothing.
+        [000325E3] olw_cerb_villager3: Be seeing you.
     ├ option 2:
-        Hero: What did these people want?
-        olw_cerb_villager3: If I knew, I wouldn't be asking you.
-        ↩ (goto) olw_cerb_villager3: I heard one of them say: "We left the datapad behind" {i}(Pained grunt.){/i}
+        [0003265D] Hero: What did these people want?
+        [00032660] olw_cerb_villager3: If I knew, I wouldn't be asking you.
+        ↩ (goto) [000325F3] olw_cerb_villager3: I heard one of them say: "We left the datapad behind" {i}(Pained grunt.){/i}
     └─ merge ─┘
 ├ option 2:
-    Hero: Who are you afraid of? Who is "them"?
-    olw_cerb_villager3: Whoever's behind all this!
-    ↩ (goto) olw_cerb_villager3: Everyone's acting crazy. Spouting all that nonsense. I can't remember how it started... I'm not even sure how I got here.
+    [000325BF] Hero: Who are you afraid of? Who is "them"?
+    [000325E1] olw_cerb_villager3: Whoever's behind all this!
+    ↩ (goto) [000325C5] olw_cerb_villager3: Everyone's acting crazy. Spouting all that nonsense. I can't remember how it started... I'm not even sure how I got here.
 └─ merge ─┘

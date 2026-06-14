@@ -2,136 +2,136 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Pro_Shp/Pro_Shp_0100_cryo_m.xml
 ==================================================
-Hero: {i}(Gasps for breath.){/i}
-Hero: We made it...
-Pro_Shp_Tech1: Deep breaths. You're gonna want to take it easy.
-Hero: I've been taking it easy for 600 years...
+[00010EBB] Hero: {i}(Gasps for breath.){/i}
+[00010EBA] Hero: We made it...
+[00006EE3] Pro_Shp_Tech1: Deep breaths. You're gonna want to take it easy.
+[00006C5C] Hero: I've been taking it easy for 600 years...
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Pro_Shp_Tech2 ⟨cond⟩: "Ryder, Scott, Recon Specialist, Pathfinder Mission Team."
-    Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
-    Pro_Shp_Tech2: Can you make it somewhere tropical? Nice warm ocean... summer year-round...
+    [00008401] Pro_Shp_Tech2 ⟨cond⟩: "Ryder, Scott, Recon Specialist, Pathfinder Mission Team."
+    [00010A73] Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
+    [00010A74] Pro_Shp_Tech2: Can you make it somewhere tropical? Nice warm ocean... summer year-round...
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Pro_Shp_Tech1 ⟨cond⟩: How about we get her a cup of coffee first?
-        pro_shp_orientationnarrator_multi: The selection process saw the Andromeda Initiative evaluate thousands of potential habitable planets within the galaxy.
+        [00010A45] Pro_Shp_Tech1 ⟨cond⟩: How about we get her a cup of coffee first?
+        [0000840B] pro_shp_orientationnarrator_multi: The selection process saw the Andromeda Initiative evaluate thousands of potential habitable planets within the galaxy.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            global_humanark_asari_dr ⟨cond⟩: Scott Ryder? Let's get you checked out.
-            pro_shp_orientationnarrator_multi: After discovering an unusually high ratio of potential candidates, or "golden worlds," the Heleus Cluster was selected as our destination.
-            global_humanark_asari_dr: Look here.
-            pro_shp_orientationnarrator_multi: Now {i}you{/i} are a part of the first wave of arks arriving in Andromeda: our new home for humanity.
-            global_humanark_asari_dr: Makes it sound so easy, doesn't it?
+            [0000840F] global_humanark_asari_dr ⟨cond⟩: Scott Ryder? Let's get you checked out.
+            [00008411] pro_shp_orientationnarrator_multi: After discovering an unusually high ratio of potential candidates, or "golden worlds," the Heleus Cluster was selected as our destination.
+            [00008413] global_humanark_asari_dr: Look here.
+            [00008415] pro_shp_orientationnarrator_multi: Now {i}you{/i} are a part of the first wave of arks arriving in Andromeda: our new home for humanity.
+            [00010A49] global_humanark_asari_dr: Makes it sound so easy, doesn't it?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I hope not. I signed up for a little adventure before we settle down.
-                global_humanark_asari_dr: Well, buckle up. Sounds like you'll get your wish.
-                Hero: Yeah?
-                global_humanark_asari_dr: Over here, now.
-                global_humanark_asari_dr: The Pathfinder wants you all on your feet right away. He said "mission-ready within the hour."
-                Hero: Any idea why?
-                global_humanark_asari_dr: No, but I'm guessing that's where your "adventure" comes in.
-                global_humanark_asari_dr: Okay, everything checks out. Just one more thing before I send you on your way...
-                global_humanark_asari_dr: Let's test your SAM implant. SAM, are you monitoring?
-                global_humanark_asari_dr: SAM? Are you online?
+                [0000841B] Hero: I hope not. I signed up for a little adventure before we settle down.
+                [00010A46] global_humanark_asari_dr: Well, buckle up. Sounds like you'll get your wish.
+                [00010A5D] Hero: Yeah?
+                [00010A59] global_humanark_asari_dr: Over here, now.
+                [00010B98] global_humanark_asari_dr: The Pathfinder wants you all on your feet right away. He said "mission-ready within the hour."
+                [00010A62] Hero: Any idea why?
+                [00010A5C] global_humanark_asari_dr: No, but I'm guessing that's where your "adventure" comes in.
+                [00008421] global_humanark_asari_dr: Okay, everything checks out. Just one more thing before I send you on your way...
+                [00010A64] global_humanark_asari_dr: Let's test your SAM implant. SAM, are you monitoring?
+                [00010BAE] global_humanark_asari_dr: SAM? Are you online?
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    SAM ⟨cond⟩: Yes, Dr. T'Perro. Good morning, Sara. Are you feeling well?
+                    [00010A57] SAM ⟨cond⟩: Yes, Dr. T'Perro. Good morning, Sara. Are you feeling well?
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        Hero [OncePerGame]: I just need a second to get my bearings. What's this about my implant?
-                        global_humanark_asari_dr: A routine check. After being in stasis, we want to make sure the connection's still live.
-                        SAM: As the team's mission computer, your well-being is my primary concern.
-                        global_humanark_asari_dr: Assuming the implants work as advertised. SAM sees what you see—in theory. We won't know for sure until we get you in the field.
-                        global_humanark_asari_dr: How are you feeling otherwise?
+                        [00010B96] Hero [OncePerGame]: I just need a second to get my bearings. What's this about my implant?
+                        [00011EF8] global_humanark_asari_dr: A routine check. After being in stasis, we want to make sure the connection's still live.
+                        [00010B92] SAM: As the team's mission computer, your well-being is my primary concern.
+                        [00010B8E] global_humanark_asari_dr: Assuming the implants work as advertised. SAM sees what you see—in theory. We won't know for sure until we get you in the field.
+                        [00010B99] global_humanark_asari_dr: How are you feeling otherwise?
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            Hero: I'm ready to get to it.
-                            SAM: Readings confirmed. I detect an increased level of adrenaline in your system. The neural implant is functioning properly.
+                            [00010B93] Hero: I'm ready to get to it.
+                            [00010B9A] SAM: Readings confirmed. I detect an increased level of adrenaline in your system. The neural implant is functioning properly.
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                Hero ⟨cond⟩: Can't explore space without my coffee.
-                                global_humanark_asari_dr: You're all done. Let's get you on your way.
+                                [000327D5] Hero ⟨cond⟩: Can't explore space without my coffee.
+                                [00010BC2] global_humanark_asari_dr: You're all done. Let's get you on your way.
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    global_humanark_asari_dr ⟨cond⟩: Though you may want to hang around while we revive your brother.
-                                    global_humanark_asari_dr: It always helps to see a familiar fa—
-                                    Hero: I don't like the sound of that.
+                                    [00010EBF] global_humanark_asari_dr ⟨cond⟩: Though you may want to hang around while we revive your brother.
+                                    [00010EC0] global_humanark_asari_dr: It always helps to see a familiar fa—
+                                    [00010A76] Hero: I don't like the sound of that.
                                 ├ option 2:
-                                    global_humanark_asari_dr: Though you may want to hang around while we revive your sister.
-                                    ↩ (goto) global_humanark_asari_dr: [empty]
+                                    [00010EBE] global_humanark_asari_dr: Though you may want to hang around while we revive your sister.
+                                    ↩ (goto) [00010EC1] global_humanark_asari_dr: [empty]
                                 └─ merge ─┘
                             ├ option 2:
-                                Hero: Caffeine always did make me jumpy.
-                                ↩ (goto) global_humanark_asari_dr: [empty]
+                                [00010B90] Hero: Caffeine always did make me jumpy.
+                                ↩ (goto) [00010BC1] global_humanark_asari_dr: [empty]
                             └─ merge ─┘
                         ├ option 2:
-                            Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
-                            SAM: Readings confirmed. Based on the levels of adenosine in your system, the neural implant is functioning properly.
-                            Hero: Wait, "adeno-" what?
-                            global_humanark_asari_dr: It just means you're still shaking off your nap.
-                            global_humanark_asari_dr: No reason we can't get you on your way.
+                            [00010B94] Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
+                            [00010B9B] SAM: Readings confirmed. Based on the levels of adenosine in your system, the neural implant is functioning properly.
+                            [00010B8F] Hero: Wait, "adeno-" what?
+                            [00010BA0] global_humanark_asari_dr: It just means you're still shaking off your nap.
+                            [00010A58] global_humanark_asari_dr: No reason we can't get you on your way.
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                ↩ (goto) global_humanark_asari_dr ⟨cond⟩: Though you may want to hang around while we revive your brother.
+                                ↩ (goto) [00010EBF] global_humanark_asari_dr ⟨cond⟩: Though you may want to hang around while we revive your brother.
                             ├ option 2:
-                                ↩ (goto) global_humanark_asari_dr: Though you may want to hang around while we revive your sister.
+                                ↩ (goto) [00010EBE] global_humanark_asari_dr: Though you may want to hang around while we revive your sister.
                             └─ merge ─┘
                         └─ merge ─┘
                     ├ option 2:
-                        ↩ (goto) Hero: I'm ready to get to it.
+                        ↩ (goto) [00010B93] Hero: I'm ready to get to it.
                     ├ option 3:
-                        ↩ (goto) Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
+                        ↩ (goto) [00010B94] Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
                     └─ merge ─┘
                 ├ option 2:
-                    SAM ⟨cond⟩: Yes, Dr. T'Perro. Good morning, Scott. Are you feeling well?
+                    [00010A77] SAM ⟨cond⟩: Yes, Dr. T'Perro. Good morning, Scott. Are you feeling well?
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero [OncePerGame]: I just need a second to get my bearings. What's this about my implant?
+                        ↩ (goto) [00010B96] Hero [OncePerGame]: I just need a second to get my bearings. What's this about my implant?
                     ├ option 2:
-                        ↩ (goto) Hero: I'm ready to get to it.
+                        ↩ (goto) [00010B93] Hero: I'm ready to get to it.
                     ├ option 3:
-                        ↩ (goto) Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
+                        ↩ (goto) [00010B94] Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
                     └─ merge ─┘
                 ├ option 3:
-                    SAM: Yes, Dr. T'Perro. Good morning, Ryder. Are you feeling well?
+                    [00010A52] SAM: Yes, Dr. T'Perro. Good morning, Ryder. Are you feeling well?
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero [OncePerGame]: I just need a second to get my bearings. What's this about my implant?
+                        ↩ (goto) [00010B96] Hero [OncePerGame]: I just need a second to get my bearings. What's this about my implant?
                     ├ option 2:
-                        ↩ (goto) Hero: I'm ready to get to it.
+                        ↩ (goto) [00010B93] Hero: I'm ready to get to it.
                     ├ option 3:
-                        ↩ (goto) Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
+                        ↩ (goto) [00010B94] Hero: I feel like a 600-year-old popsicle. I hope we packed more coffee.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                Hero: Even if it isn't, we'll be ready.
-                global_humanark_asari_dr: I hope so.
-                Hero: You know something?
-                global_humanark_asari_dr: Word came down the Pathfinder wants you all mission-ready within the hour. Look this way.
-                Hero: Why the rush?
-                global_humanark_asari_dr: He didn't say. But something's up.
-                ↩ (goto) global_humanark_asari_dr: Okay, everything checks out. Just one more thing before I send you on your way...
+                [00006C63] Hero: Even if it isn't, we'll be ready.
+                [00010A67] global_humanark_asari_dr: I hope so.
+                [00010A79] Hero: You know something?
+                [00010EBC] global_humanark_asari_dr: Word came down the Pathfinder wants you all mission-ready within the hour. Look this way.
+                [00010EB3] Hero: Why the rush?
+                [00010A70] global_humanark_asari_dr: He didn't say. But something's up.
+                ↩ (goto) [00008421] global_humanark_asari_dr: Okay, everything checks out. Just one more thing before I send you on your way...
             └─ merge ─┘
         ├ option 2:
-            global_humanark_asari_dr ⟨cond⟩: Sara Ryder? Let's get you checked out.
-            ↩ (goto) ?: [empty]
+            [0000840D] global_humanark_asari_dr ⟨cond⟩: Sara Ryder? Let's get you checked out.
+            ↩ (goto) [00008410] ?: [empty]
         ├ option 3:
-            global_humanark_asari_dr: Ryder? Let's get you checked out.
-            ↩ (goto) ?: [empty]
+            [000098EC] global_humanark_asari_dr: Ryder? Let's get you checked out.
+            ↩ (goto) [00008410] ?: [empty]
         └─ merge ─┘
     ├ option 2:
-        Pro_Shp_Tech1: How about we get him a cup of coffee first?
-        ↩ (goto) ?: [empty]
+        [00010A43] Pro_Shp_Tech1: How about we get him a cup of coffee first?
+        ↩ (goto) [00010A63] ?: [empty]
     └─ merge ─┘
 ├ option 2:
-    Pro_Shp_Tech2 ⟨cond⟩: "Ryder, Sara, Recon Specialist, Pathfinder Mission Team."
-    ↩ (goto) Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
+    [00008406] Pro_Shp_Tech2 ⟨cond⟩: "Ryder, Sara, Recon Specialist, Pathfinder Mission Team."
+    ↩ (goto) [00010A73] Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
 ├ option 3:
-    Pro_Shp_Tech2 ⟨cond⟩: "Ryder, Recon Specialist, Pathfinder Mission Team."
-    ↩ (goto) Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
+    [000098EA] Pro_Shp_Tech2 ⟨cond⟩: "Ryder, Recon Specialist, Pathfinder Mission Team."
+    ↩ (goto) [00010A73] Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
 ├ option 4:
-    Pro_Shp_Tech2: "Ryder, Recon Specialist, Pathfinder Mission Team."
-    ↩ (goto) Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
+    [0000DBB7] Pro_Shp_Tech2: "Ryder, Recon Specialist, Pathfinder Mission Team."
+    ↩ (goto) [00010A73] Pro_Shp_Tech1: Pathfinder Team, eh? The ones finding us a home.
 └─ merge ─┘
-SAM: Readings confirmed. Based on the levels of adenosine in your system, the neural implant is functioning properly.
+[0002EADF] SAM: Readings confirmed. Based on the levels of adenosine in your system, the neural implant is functioning properly.

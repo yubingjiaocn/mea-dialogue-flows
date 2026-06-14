@@ -2,30 +2,30 @@
 # Primary speaker: Hero
 # Source: game/conversations/bstory/ket/ketbs_0450_shipfight_founddevice_i.xml
 ==================================================
-Hero: What's this?
-SAM: It appears to be a kett data-log, Pathfinder. It may contain saved data of some variety.
-Hero: Can we access this data, SAM?
-SAM: The device is locked.
+[0002081F] Hero: What's this?
+[00020821] SAM: It appears to be a kett data-log, Pathfinder. It may contain saved data of some variety.
+[00020822] Hero: Can we access this data, SAM?
+[00020823] SAM: The device is locked.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Anything you can do to bypass the lock?
-    SAM: This is beyond my current capabilities.
-    SAM: We have never encountered a kett device with security like this before.
-    SAM: I suggest we bring it back to the Tempest for further analysis.
+    [0002085E] Hero: Anything you can do to bypass the lock?
+    [00020860] SAM: This is beyond my current capabilities.
+    [0002085C] SAM: We have never encountered a kett device with security like this before.
+    [000208CF] SAM: I suggest we bring it back to the Tempest for further analysis.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩ [OncePerGame]: I'm sure Suvi could help with it.
+        [000208E3] global_squad_krogan ⟨cond⟩ [OncePerGame]: I'm sure Suvi could help with it.
     ├ option 2:
-        global_squad_female_human ⟨cond⟩ [OncePerGame]: Suvi might be able to figure it out.
+        [000208E2] global_squad_female_human ⟨cond⟩ [OncePerGame]: Suvi might be able to figure it out.
     ├ option 3:
-        global_squad_asari ⟨cond⟩ [OncePerGame]: We could work on it with Dr. Anwar.
+        [000208E0] global_squad_asari ⟨cond⟩ [OncePerGame]: We could work on it with Dr. Anwar.
     ├ option 4:
-        global_squad_turian ⟨cond⟩ [OncePerGame]: Looks like something Suvi could help with.
+        [000208E1] global_squad_turian ⟨cond⟩ [OncePerGame]: Looks like something Suvi could help with.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩ [OncePerGame]: Bet you Suvi will have some answers.
+        [000208DF] global_squad_male_human ⟨cond⟩ [OncePerGame]: Bet you Suvi will have some answers.
     └─ merge ─┘
 ├ option 2:
-    Hero: When has a simple lock ever stopped you, SAM? Come on, hack this thing.
-    SAM: Pathfinder, it is not just a simple lock.
-    ↩ (goto) SAM: We have never encountered a kett device with security like this before.
+    [0002085F] Hero: When has a simple lock ever stopped you, SAM? Come on, hack this thing.
+    [00020861] SAM: Pathfinder, it is not just a simple lock.
+    ↩ (goto) [0002085C] SAM: We have never encountered a kett device with security like this before.
 └─ merge ─┘

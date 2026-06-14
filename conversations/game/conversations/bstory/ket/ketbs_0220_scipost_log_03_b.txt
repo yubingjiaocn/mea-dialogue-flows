@@ -4,31 +4,31 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ket_scipost_kettscholar: [Audio Log] Previous transmissions did not reach destination. Communications were instructed to halt transfer of data.
-    ket_scipost_kettscholar: [Audio Log] With the Primus now in place as leader, transmissions have resumed.
-    ket_scipost_kettscholar: [Audio Log] Verify that primary communications are operational.
-    Hero: I'm picking up the navpoint for another kett station. Probably their "primary communications."
+    [000211BC] ket_scipost_kettscholar: [Audio Log] Previous transmissions did not reach destination. Communications were instructed to halt transfer of data.
+    [000211BB] ket_scipost_kettscholar: [Audio Log] With the Primus now in place as leader, transmissions have resumed.
+    [000211BD] ket_scipost_kettscholar: [Audio Log] Verify that primary communications are operational.
+    [0002A8F9] Hero: I'm picking up the navpoint for another kett station. Probably their "primary communications."
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩ [OncePerGame]: Good. Let's blow it up.
-        SAM: We should collect as many samples as we can before leaving, Pathfinder. We may not have another opportunity.
+        [00020075] global_squad_krogan ⟨cond⟩ [OncePerGame]: Good. Let's blow it up.
+        [0002FACE] SAM: We should collect as many samples as we can before leaving, Pathfinder. We may not have another opportunity.
     ├ option 2:
-        global_squad_female_human ⟨cond⟩ [OncePerGame]: If we take out that comm station, does that mean the kett can't call home?
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        [00020077] global_squad_female_human ⟨cond⟩ [OncePerGame]: If we take out that comm station, does that mean the kett can't call home?
+        ↩ (goto) [0002FACD] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 3:
-        global_squad_turian ⟨cond⟩ [OncePerGame]: Taking it out might be a good move. ⏎
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        [00020074] global_squad_turian ⟨cond⟩ [OncePerGame]: Taking it out might be a good move. ⏎
+        ↩ (goto) [0002FACD] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 4:
-        global_squad_angara ⟨cond⟩ [OncePerGame]: Taking it down will hinder the kett. I say we head there.
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        [00020076] global_squad_angara ⟨cond⟩ [OncePerGame]: Taking it down will hinder the kett. I say we head there.
+        ↩ (goto) [0002FACD] global_squad_male_human ⟨cond⟩: [empty]
     ├ option 5:
-        global_squad_male_human ⟨cond⟩ [OncePerGame]: Sounds like we have a comm station to blow up.
-        ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+        [00020078] global_squad_male_human ⟨cond⟩ [OncePerGame]: Sounds like we have a comm station to blow up.
+        ↩ (goto) [0002FACD] global_squad_male_human ⟨cond⟩: [empty]
     └─ merge ─┘
 ├ option 2:
-    ket_scipost_kettscholar: [Audio Log] All transmissions appear to have failed.
-    ket_scipost_kettscholar: [Audio Log] Some of the team has suggested that this research is being prevented from leaving Heleus.
-    ket_scipost_kettscholar: [Audio Log] Troubling implications. Set aside for now.
-    ket_scipost_kettscholar: [Audio Log] Taking steps to verify that primary communications are still active.
-    ↩ (goto) Hero: I'm picking up the navpoint for another kett station. Probably their "primary communications."
+    [00020070] ket_scipost_kettscholar: [Audio Log] All transmissions appear to have failed.
+    [00020073] ket_scipost_kettscholar: [Audio Log] Some of the team has suggested that this research is being prevented from leaving Heleus.
+    [00020071] ket_scipost_kettscholar: [Audio Log] Troubling implications. Set aside for now.
+    [00020072] ket_scipost_kettscholar: [Audio Log] Taking steps to verify that primary communications are still active.
+    ↩ (goto) [0002A8F9] Hero: I'm picking up the navpoint for another kett station. Probably their "primary communications."
 └─ merge ─┘

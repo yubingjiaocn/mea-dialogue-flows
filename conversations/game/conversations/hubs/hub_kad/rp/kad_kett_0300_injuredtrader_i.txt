@@ -2,62 +2,62 @@
 # Primary speaker: kad_rpkett_injuredtrader
 # Source: game/conversations/hubs/hub_kad/rp/kad_kett_0300_injuredtrader_i.xml
 ==================================================
-kad_rpkett_injuredtrader: Who... who's there? Hamash, is that you?
-Hero: Don't talk. We'll get you back to town.
-kad_rpkett_injuredtrader: No, I can't move. It... it's too late. I just... want to rest.
+[00010006] kad_rpkett_injuredtrader: Who... who's there? Hamash, is that you?
+[0001000E] Hero: Don't talk. We'll get you back to town.
+[0001000D] kad_rpkett_injuredtrader: No, I can't move. It... it's too late. I just... want to rest.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: Don't lose hope, brother.
-    Hero: Can you tell me what happened?
-    kad_rpkett_injuredtrader: It... it was the kett. Took us by surprise. They killed everyone... Jon lasted the longest.
-    kad_rpkett_injuredtrader: They didn't know I was still alive. I saw them raiding our packs...
-    kad_rpkett_injuredtrader: Then they... they took off, into the hills.
+    [00010007] global_squad_angara ⟨cond⟩: Don't lose hope, brother.
+    [00010010] Hero: Can you tell me what happened?
+    [00010011] kad_rpkett_injuredtrader: It... it was the kett. Took us by surprise. They killed everyone... Jon lasted the longest.
+    [00010012] kad_rpkett_injuredtrader: They didn't know I was still alive. I saw them raiding our packs...
+    [00010013] kad_rpkett_injuredtrader: Then they... they took off, into the hills.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero: What did the kett take from you?
-        kad_rpkett_injuredtrader: I... I don't know. Supplies? Weapons? Scavenged ship parts?
+        [00010018] Hero: What did the kett take from you?
+        [0001001A] kad_rpkett_injuredtrader: I... I don't know. Supplies? Weapons? Scavenged ship parts?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) Hero: What did the kett take from you?
+            ↩ (goto) [00010018] Hero: What did the kett take from you?
         ├ option 2:
-            Hero: What's in the hills? Is there a kett base there?
-            kad_rpkett_injuredtrader: There's nothing in the hills. I don't... we've never heard of a base.
-            kad_rpkett_injuredtrader: Sloane says Kadara is free of kett.
+            [00010015] Hero: What's in the hills? Is there a kett base there?
+            [00010016] kad_rpkett_injuredtrader: There's nothing in the hills. I don't... we've never heard of a base.
+            [00010017] kad_rpkett_injuredtrader: Sloane says Kadara is free of kett.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                ↩ (goto) Hero: What did the kett take from you?
+                ↩ (goto) [00010018] Hero: What did the kett take from you?
             ├ option 2:
-                ↩ (goto) Hero: What's in the hills? Is there a kett base there?
+                ↩ (goto) [00010015] Hero: What's in the hills? Is there a kett base there?
             ├ option 3:
-                Hero: I'll leave you to rest.
-                kad_rpkett_injuredtrader: Thank you.
-                kad_rpkett_injuredtrader: I... I wish... {i}(Gasps.){/i}
-                Hero: Kaetus, it's Ryder. Your kett rumors have weight—just found a caravan they attacked.
-                kad_queen_guard_01: [Comm] Damn it. Really thought we got them all.
-                Hero: One of the wounded said they headed for the hills. I'm going to check it out.
-                kad_queen_guard_01: [Comm] I'll search, too. Grabbing a shuttle now.
+                [0001001B] Hero: I'll leave you to rest.
+                [0001001C] kad_rpkett_injuredtrader: Thank you.
+                [000106DB] kad_rpkett_injuredtrader: I... I wish... {i}(Gasps.){/i}
+                [000256DE] Hero: Kaetus, it's Ryder. Your kett rumors have weight—just found a caravan they attacked.
+                [000256D8] kad_queen_guard_01: [Comm] Damn it. Really thought we got them all.
+                [000256DC] Hero: One of the wounded said they headed for the hills. I'm going to check it out.
+                [000256DA] kad_queen_guard_01: [Comm] I'll search, too. Grabbing a shuttle now.
             └─ merge ─┘
         ├ option 3:
-            ↩ (goto) Hero: I'll leave you to rest.
+            ↩ (goto) [0001001B] Hero: I'll leave you to rest.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: What's in the hills? Is there a kett base there?
+        ↩ (goto) [00010015] Hero: What's in the hills? Is there a kett base there?
     ├ option 3:
-        ↩ (goto) Hero: I'll leave you to rest.
+        ↩ (goto) [0001001B] Hero: I'll leave you to rest.
     └─ merge ─┘
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: It's bad. I don't think medi-gel will help.
-    ↩ (goto) Hero: Can you tell me what happened?
+    [00010009] global_squad_female_human ⟨cond⟩: It's bad. I don't think medi-gel will help.
+    ↩ (goto) [00010010] Hero: Can you tell me what happened?
 ├ option 3:
-    global_squad_turian ⟨cond⟩: His wounds... he's right. I don't think we should move him.
-    ↩ (goto) Hero: Can you tell me what happened?
+    [00010008] global_squad_turian ⟨cond⟩: His wounds... he's right. I don't think we should move him.
+    ↩ (goto) [00010010] Hero: Can you tell me what happened?
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: He's not going to make it.
-    ↩ (goto) Hero: Can you tell me what happened?
+    [0001000C] global_squad_krogan ⟨cond⟩: He's not going to make it.
+    ↩ (goto) [00010010] Hero: Can you tell me what happened?
 ├ option 5:
-    global_squad_asari ⟨cond⟩: Hey, it's okay, stay calm. We understand.
-    ↩ (goto) Hero: Can you tell me what happened?
+    [00010005] global_squad_asari ⟨cond⟩: Hey, it's okay, stay calm. We understand.
+    ↩ (goto) [00010010] Hero: Can you tell me what happened?
 ├ option 6:
-    global_squad_male_human ⟨cond⟩: He's... not going to be moving.
-    ↩ (goto) Hero: Can you tell me what happened?
+    [0001000B] global_squad_male_human ⟨cond⟩: He's... not going to be moving.
+    ↩ (goto) [00010010] Hero: Can you tell me what happened?
 └─ merge ─┘

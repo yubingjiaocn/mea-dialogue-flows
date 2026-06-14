@@ -12,34 +12,34 @@
             ├ option 1:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Move inside, Pathfinder. We'll hold the line out here, keep them off the Hyperion. You take this to the Archon.
+                    [000248F9] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Move inside, Pathfinder. We'll hold the line out here, keep them off the Hyperion. You take this to the Archon.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero ⟨cond⟩: Understood, Pathfinder.
+                        [000248F8] Hero ⟨cond⟩: Understood, Pathfinder.
                     ├ option 2:
-                        Hero: Understood, Pathfinder.
-                        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                        [00031DAE] Hero: Understood, Pathfinder.
+                        ↩ (goto) [000248F5] global_salarian_pathfinder_multi: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    crit_kett_salarian_captain_multi: [Comm] Take the fight inside, Pathfinder. We'll protect the Hyperion, but that only matters if you catch the Archon.
+                    [000254F5] crit_kett_salarian_captain_multi: [Comm] Take the fight inside, Pathfinder. We'll protect the Hyperion, but that only matters if you catch the Archon.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero ⟨cond⟩: Understood, Pathfinder.
+                        ↩ (goto) [000248F8] Hero ⟨cond⟩: Understood, Pathfinder.
                     ├ option 2:
-                        ↩ (goto) Hero: Understood, Pathfinder.
+                        ↩ (goto) [00031DAE] Hero: Understood, Pathfinder.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                ↩ (goto) [000248F7] global_salarian_pathfinder_multi: [empty]
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) global_salarian_pathfinder_multi: [empty]
+            ↩ (goto) [000248FA] global_salarian_pathfinder_multi: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: [empty]
+        ↩ (goto) [000248F3] global_salarian_pathfinder_multi ⟨cond⟩: [empty]
     ├ option 3:
-        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+        ↩ (goto) [000248FA] global_salarian_pathfinder_multi: [empty]
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) global_salarian_pathfinder_multi: [empty]
+    ↩ (goto) [000248E2] global_salarian_pathfinder_multi: [empty]
 └─ merge ─┘

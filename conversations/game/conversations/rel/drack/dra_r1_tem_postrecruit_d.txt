@@ -4,80 +4,80 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
-    Hero: Who were you talking to?
-    global_squad_krogan: Kesh. Nexus superintendent. Thinks she can boss me around just 'cause she's my granddaughter.
+    [0001B9EE] global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
+    [0002AAEF] Hero: Who were you talking to?
+    [0002AAF0] global_squad_krogan: Kesh. Nexus superintendent. Thinks she can boss me around just 'cause she's my granddaughter.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Well, welcome to the Tempest. Trouble's what we do.
-        global_squad_krogan: {i}(Laughs.){/i} I like the way you think, kid.
-        Hero: Hmm. Someone somewhere shivered when I said that.
-        global_squad_krogan: Probably Tann. Damn politicians.
-        Hero: Is that all you brought?
-        global_squad_krogan: You travel lean when supplies are tight and you're on your own.
+        [00014C44] Hero: Well, welcome to the Tempest. Trouble's what we do.
+        [00014C54] global_squad_krogan: {i}(Laughs.){/i} I like the way you think, kid.
+        [00014C69] Hero: Hmm. Someone somewhere shivered when I said that.
+        [00014C80] global_squad_krogan: Probably Tann. Damn politicians.
+        [00014C4E] Hero: Is that all you brought?
+        [00014C3F] global_squad_krogan: You travel lean when supplies are tight and you're on your own.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: Your people had to know what it'd be like when you left the Nexus.
-                global_squad_krogan: We did, but there weren't a lot of options.
-                global_squad_krogan: After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
-                global_squad_krogan: Easy choice. Bad consequences all around.
+                [00014C5B] Hero: Your people had to know what it'd be like when you left the Nexus.
+                [00014C61] global_squad_krogan: We did, but there weren't a lot of options.
+                [00014C65] global_squad_krogan: After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
+                [00014C83] global_squad_krogan: Easy choice. Bad consequences all around.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    Hero [OncePerGame]: Not all krogan left. Your granddaughter stayed.
-                    global_squad_krogan: Good thing she did. Without my ru'shan, you wouldn't have had much of a station to tie your ship to.
-                    global_squad_krogan: As for me... I'm way more useful out here. Lots to shoot at, for one.
+                    [00014CBE] Hero [OncePerGame]: Not all krogan left. Your granddaughter stayed.
+                    [00014CC0] global_squad_krogan: Good thing she did. Without my ru'shan, you wouldn't have had much of a station to tie your ship to.
+                    [000184DA] global_squad_krogan: As for me... I'm way more useful out here. Lots to shoot at, for one.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero: Your people come first.
-                        global_squad_krogan: Keeping Kesh and our colony safe will always be my top priority.
-                        global_squad_krogan: That's why I'm happy to tag along, help make this galaxy a little more... hospitable.
-                        Hero: Can't argue with that.
+                        [00014C8A] Hero: Your people come first.
+                        [000184E6] global_squad_krogan: Keeping Kesh and our colony safe will always be my top priority.
+                        [00014C95] global_squad_krogan: That's why I'm happy to tag along, help make this galaxy a little more... hospitable.
+                        [00019283] Hero: Can't argue with that.
                     ├ option 2:
-                        Hero: Krogan could have made a real difference on the Nexus.
-                        global_squad_krogan: Staying under those conditions would have just resulted in another mutiny.
-                        global_squad_krogan: We have a much better shot at something good out here.
-                        ↩ (goto) Hero: Can't argue with that.
+                        [00014C88] Hero: Krogan could have made a real difference on the Nexus.
+                        [00014C93] global_squad_krogan: Staying under those conditions would have just resulted in another mutiny.
+                        [00014C98] global_squad_krogan: We have a much better shot at something good out here.
+                        ↩ (goto) [00019283] Hero: Can't argue with that.
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) Hero: Krogan could have made a real difference on the Nexus.
+                    ↩ (goto) [00014C88] Hero: Krogan could have made a real difference on the Nexus.
                 ├ option 3:
-                    ↩ (goto) Hero: Your people come first.
+                    ↩ (goto) [00014C8A] Hero: Your people come first.
                 └─ merge ─┘
             ├ option 2:
-                Hero: Leaving the Nexus can't have been an easy choice.
-                global_squad_krogan: It was, actually.
-                global_squad_krogan: Staying became impossible.
-                ↩ (goto) global_squad_krogan: After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
+                [00014C7B] Hero: Leaving the Nexus can't have been an easy choice.
+                [00014C53] global_squad_krogan: It was, actually.
+                [00014C4D] global_squad_krogan: Staying became impossible.
+                ↩ (goto) [00014C65] global_squad_krogan: After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
             └─ merge ─┘
         ├ option 2:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: Where are your friends? The other krogan?
-                global_squad_krogan: We found a place to plant our feet. Make our own rules.
-                global_squad_krogan: Leaving the Nexus wasn't ideal, but we've managed.
-                Hero: So why did you leave?
-                ↩ (goto) global_squad_krogan: Staying became impossible.
+                [00014C42] Hero: Where are your friends? The other krogan?
+                [00014C57] global_squad_krogan: We found a place to plant our feet. Make our own rules.
+                [00014C82] global_squad_krogan: Leaving the Nexus wasn't ideal, but we've managed.
+                [00014C85] Hero: So why did you leave?
+                ↩ (goto) [00014C4D] global_squad_krogan: Staying became impossible.
             ├ option 2:
-                Hero: Everyone's tight on supplies. The Nexus is no exception.
-                global_squad_krogan: You think it's the same as being exiled? Life outside the Nexus ain't exactly friendly.
-                ↩ (goto) Hero: So why did you leave?
+                [00014C48] Hero: Everyone's tight on supplies. The Nexus is no exception.
+                [000184E7] global_squad_krogan: You think it's the same as being exiled? Life outside the Nexus ain't exactly friendly.
+                ↩ (goto) [00014C85] Hero: So why did you leave?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        Hero: I like the no trouble plan. How about we stick with that?
-        global_squad_krogan: {i}(Laughs.){/i} Kesh said not too much trouble, kid. Not {i}no{/i} trouble.
-        global_squad_krogan: The kett make sure some trouble's always coming for you.
-        Hero: That's not reassuring.
-        global_squad_krogan: Life out here ain't reassuring. You'll get used to it.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00014C7C] Hero: I like the no trouble plan. How about we stick with that?
+        [00014C40] global_squad_krogan: {i}(Laughs.){/i} Kesh said not too much trouble, kid. Not {i}no{/i} trouble.
+        [00014C6B] global_squad_krogan: The kett make sure some trouble's always coming for you.
+        [00014C46] Hero: That's not reassuring.
+        [00014C55] global_squad_krogan: Life out here ain't reassuring. You'll get used to it.
+        ↩ (goto) [00014C72] global_squad_krogan: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
-    ↩ (goto) Hero: Who were you talking to?
+    [00014C76] global_squad_krogan: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
+    ↩ (goto) [0002AAEF] Hero: Who were you talking to?
 └─ merge ─┘
-global_squad_krogan: That lieutenant of yours, Harper. She's got a good head on her shoulders.
-global_squad_krogan: I'll talk to her, brief her on what it's been like on the front.
-global_squad_krogan: And I'll try to stay out of trouble.
-global_squad_krogan: Mostly.
+[00014CF7] global_squad_krogan: That lieutenant of yours, Harper. She's got a good head on her shoulders.
+[00014CF5] global_squad_krogan: I'll talk to her, brief her on what it's been like on the front.
+[00014CF0] global_squad_krogan: And I'll try to stay out of trouble.
+[00014CF4] global_squad_krogan: Mostly.

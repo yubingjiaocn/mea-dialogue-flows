@@ -4,70 +4,70 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    dune_colony_junker [OncePerGame]: Well, look at that. Not one of those damn scavengers, are you?
+    [0001BDB9] dune_colony_junker [OncePerGame]: Well, look at that. Not one of those damn scavengers, are you?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I'm with the Andromeda Initiative.
-        dune_colony_junker: That's worse.
-        dune_colony_junker: Look. You want to buy, talk to my seller. I hired him so I don't have to deal with the customers.
+        [0001BDC0] Hero: I'm with the Andromeda Initiative.
+        [0001BDC5] dune_colony_junker: That's worse.
+        [000311D6] dune_colony_junker: Look. You want to buy, talk to my seller. I hired him so I don't have to deal with the customers.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero: Bet the scavengers are crawling all over the salvage you pick up.
-            dune_colony_junker: Not too bad. I pick my scrap out in Ataraxia, where squishies like you can't handle the heat.
-            dune_colony_junker: I don't get too close to the flophouse. Scavengers gather there like insects. Can't defend my salvage against those numbers.
-            dune_colony_junker: Look at me. I was a warrior, and now I fight vermin over a junk heap.
-            ↩ (goto) dune_colony_junker: [empty]
+            [0001BDC6] Hero: Bet the scavengers are crawling all over the salvage you pick up.
+            [0001BDDE] dune_colony_junker: Not too bad. I pick my scrap out in Ataraxia, where squishies like you can't handle the heat.
+            [00031154] dune_colony_junker: I don't get too close to the flophouse. Scavengers gather there like insects. Can't defend my salvage against those numbers.
+            [0001BDE2] dune_colony_junker: Look at me. I was a warrior, and now I fight vermin over a junk heap.
+            ↩ (goto) [0001BDC7] dune_colony_junker: [empty]
         ├ option 2:
-            Hero ⟨cond⟩: The Nexus is paradise compared to this. You don't want to go back, even a little?
-            dune_colony_junker: So we can be your attack dogs again? Get treated like dirt until we finally fight back?
-            dune_colony_junker: This is no different than the rebellion back home. Only time we get respect is when we take it by force.
-            dune_colony_junker: We were stupid to think it would be any different here.
+            [0001BDCD] Hero ⟨cond⟩: The Nexus is paradise compared to this. You don't want to go back, even a little?
+            [0001BDE6] dune_colony_junker: So we can be your attack dogs again? Get treated like dirt until we finally fight back?
+            [0001BDE7] dune_colony_junker: This is no different than the rebellion back home. Only time we get respect is when we take it by force.
+            [0003104A] dune_colony_junker: We were stupid to think it would be any different here.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                Hero: You talk like you saw the rebellions. You can't be as old as Drack.
+                [00031045] Hero: You talk like you saw the rebellions. You can't be as old as Drack.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_squad_krogan ⟨cond⟩: What's that supposed to mean?
-                    dune_colony_junker: I was born during the final year. Just before the turians hit us with the genophage.
-                    dune_colony_junker: My father died in the fight on Canrum. Took two dozen turian guns to drop him.
-                    dune_colony_junker: I'm glad he didn't live to see us riding in cargo on the Nexus, like pets.
-                    ↩ (goto) dune_colony_junker: [empty]
+                    [000314A4] global_squad_krogan ⟨cond⟩: What's that supposed to mean?
+                    [00031049] dune_colony_junker: I was born during the final year. Just before the turians hit us with the genophage.
+                    [0003105B] dune_colony_junker: My father died in the fight on Canrum. Took two dozen turian guns to drop him.
+                    [00031147] dune_colony_junker: I'm glad he didn't live to see us riding in cargo on the Nexus, like pets.
+                    ↩ (goto) [0001BDC7] dune_colony_junker: [empty]
                 ├ option 2:
-                    ↩ (goto) dune_colony_junker: I was born during the final year. Just before the turians hit us with the genophage.
+                    ↩ (goto) [00031049] dune_colony_junker: I was born during the final year. Just before the turians hit us with the genophage.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: Bet the scavengers are crawling all over the salvage you pick up.
+                ↩ (goto) [0001BDC6] Hero: Bet the scavengers are crawling all over the salvage you pick up.
             ├ option 3:
-                Hero ⟨cond⟩: I hear you woke up on the journey to Heleus.
-                dune_colony_junker: That cryo wasn't enough to keep me down. Was alone for a hundred years before we reached the cluster.
-                Hero: I thought it was 50 years.
-                dune_colony_junker: Fifty, a hundred... it's all the same when you're living on nutrient paste.
-                ↩ (goto) dune_colony_junker: [empty]
+                [0001BDC4] Hero ⟨cond⟩: I hear you woke up on the journey to Heleus.
+                [0001BDEC] dune_colony_junker: That cryo wasn't enough to keep me down. Was alone for a hundred years before we reached the cluster.
+                [0001BDEE] Hero: I thought it was 50 years.
+                [0001BDF0] dune_colony_junker: Fifty, a hundred... it's all the same when you're living on nutrient paste.
+                ↩ (goto) [0001BDC7] dune_colony_junker: [empty]
             ├ option 4:
-                Hero: I should get moving.
-                dune_colony_junker: I'll be here. Selling junk.
+                [0001BDC2] Hero: I should get moving.
+                [0001BDEF] dune_colony_junker: I'll be here. Selling junk.
             └─ merge ─┘
         ├ option 3:
-            ↩ (goto) Hero ⟨cond⟩: I hear you woke up on the journey to Heleus.
+            ↩ (goto) [0001BDC4] Hero ⟨cond⟩: I hear you woke up on the journey to Heleus.
         ├ option 4:
-            ↩ (goto) Hero: I should get moving.
+            ↩ (goto) [0001BDC2] Hero: I should get moving.
         └─ merge ─┘
     ├ option 2:
-        Hero: What would you do if I was?
-        dune_colony_junker: Ask the five I put down this morning.
-        ↩ (goto) dune_colony_junker: Look. You want to buy, talk to my seller. I hired him so I don't have to deal with the customers.
+        [0001BDC3] Hero: What would you do if I was?
+        [0001BDCF] dune_colony_junker: Ask the five I put down this morning.
+        ↩ (goto) [000311D6] dune_colony_junker: Look. You want to buy, talk to my seller. I hired him so I don't have to deal with the customers.
     └─ merge ─┘
 ├ option 2:
-    dune_colony_junker: Back again?
-    ↩ (goto) dune_colony_junker: [empty]
+    [0001BF06] dune_colony_junker: Back again?
+    ↩ (goto) [0001BDC7] dune_colony_junker: [empty]
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: The krogan deserve better.
-    dune_colony_junker: At least one of you sees the truth.
-    ↩ (goto) dune_colony_junker: [empty]
+    [0001BDE3] Hero: The krogan deserve better.
+    [0001BDE9] dune_colony_junker: At least one of you sees the truth.
+    ↩ (goto) [0001BDC7] dune_colony_junker: [empty]
 ├ option 2:
-    Hero: It's a new galaxy. The old ways are gone.
-    dune_colony_junker: You got here on a fancy ark. What did the krogan get? Cargo space.
-    ↩ (goto) dune_colony_junker: [empty]
+    [0001BDDC] Hero: It's a new galaxy. The old ways are gone.
+    [0001BDE0] dune_colony_junker: You got here on a fancy ark. What did the krogan get? Cargo space.
+    ↩ (goto) [0001BDC7] dune_colony_junker: [empty]
 └─ merge ─┘

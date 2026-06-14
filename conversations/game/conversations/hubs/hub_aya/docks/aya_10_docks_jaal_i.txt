@@ -2,22 +2,22 @@
 # Primary speaker: Hero
 # Source: game/conversations/hubs/hub_aya/docks/aya_10_docks_jaal_i.xml
 ==================================================
-global_squad_angara: Your ship is... we have nothing like it.
-Hero: Wait 'til you see the inside.
-global_squad_angara: It gets better?
-Hero: Oh, yeah.
-global_squad_angara: You ready to go?
+[00019AC3] global_squad_angara: Your ship is... we have nothing like it.
+[00019AC6] Hero: Wait 'til you see the inside.
+[0001DBC3] global_squad_angara: It gets better?
+[0001DBC2] Hero: Oh, yeah.
+[0002B5AB] global_squad_angara: You ready to go?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: I'll introduce you to the rest of my crew.
+    [0002B5AF] Hero: I'll introduce you to the rest of my crew.
 ├ option 2:
-    Hero: I'd like to look around.
-    global_squad_angara: That's fine. Just be respectful.
+    [0002B5AE] Hero: I'd like to look around.
+    [0002D221] global_squad_angara: That's fine. Just be respectful.
 └─ merge ─┘
-global_squad_angara: Seen enough?
+[0002D21F] global_squad_angara: Seen enough?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) Hero: I'll introduce you to the rest of my crew.
+    ↩ (goto) [0002B5AF] Hero: I'll introduce you to the rest of my crew.
 ├ option 2:
-    ↩ (goto) Hero: I'd like to look around.
+    ↩ (goto) [0002B5AE] Hero: I'd like to look around.
 └─ merge ─┘

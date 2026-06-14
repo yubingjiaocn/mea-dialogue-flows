@@ -2,103 +2,103 @@
 # Primary speaker: dune_mwsleader
 # Source: game/conversations/unc_dunes/dune_outpost_0000_mwsleader.xml
 ==================================================
-dune_mwsleader: Kariste Archana, Andromeda Initiative.
-dune_mwsleader: Here to oversee operations—and attempt to repair relations between the Nexus and the Nakmor clan.
+[00022FB6] dune_mwsleader: Kariste Archana, Andromeda Initiative.
+[00023116] dune_mwsleader: Here to oversee operations—and attempt to repair relations between the Nexus and the Nakmor clan.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    dune_mwsleader: It is a tremendous accomplishment, securing their cooperation.
+    [00023110] dune_mwsleader: It is a tremendous accomplishment, securing their cooperation.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: We can't afford to be divided. We need to work together to survive.
-        dune_mwsleader: I understand, and I promise to do everything I can to maintain relations.
+        [00023113] Hero: We can't afford to be divided. We need to work together to survive.
+        [00023115] dune_mwsleader: I understand, and I promise to do everything I can to maintain relations.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero: How's the situation here?
+            [00022FC9] Hero: How's the situation here?
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                dune_mwsleader: Actually, I have a concern.
-                dune_mwsleader: There's a Remnant Architect in the area. You might have even seen it on your way in.
-                dune_mwsleader: If it detects us, or the krogan, it's going to attack.
+                [0002EA75] dune_mwsleader: Actually, I have a concern.
+                [00023371] dune_mwsleader: There's a Remnant Architect in the area. You might have even seen it on your way in.
+                [00023372] dune_mwsleader: If it detects us, or the krogan, it's going to attack.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: I'll see what I can do.
-                    dune_mwsleader: Thank you, Ryder. In the meantime, I'll have our security on alert.
-                    dune_mwsleader: If it comes down to a fight, we'll fight.
-                    ↩ (goto) dune_mwsleader: [empty]
+                    [0002337D] Hero: I'll see what I can do.
+                    [00023380] dune_mwsleader: Thank you, Ryder. In the meantime, I'll have our security on alert.
+                    [00023382] dune_mwsleader: If it comes down to a fight, we'll fight.
+                    ↩ (goto) [00022FBE] dune_mwsleader: [empty]
                 ├ option 2:
-                    Hero: Remnant, always stomping around like they own the place.
-                    dune_mwsleader: Ryder?
-                    Hero: Don't worry. I'll have a good long talk with it.
-                    dune_mwsleader: I'll leave you to it then...
-                    ↩ (goto) dune_mwsleader: [empty]
+                    [0002337A] Hero: Remnant, always stomping around like they own the place.
+                    [0002337F] dune_mwsleader: Ryder?
+                    [0002337E] Hero: Don't worry. I'll have a good long talk with it.
+                    [00023381] dune_mwsleader: I'll leave you to it then...
+                    ↩ (goto) [00022FBE] dune_mwsleader: [empty]
                 └─ merge ─┘
             ├ option 2:
-                dune_mwsleader: The Architect is our primary concern, of course.
-                dune_mwsleader: If that thing decides we're a threat, nothing else matters.
-                ↩ (goto) dune_mwsleader: [empty]
+                [00023385] dune_mwsleader: The Architect is our primary concern, of course.
+                [00023387] dune_mwsleader: If that thing decides we're a threat, nothing else matters.
+                ↩ (goto) [00022FBE] dune_mwsleader: [empty]
             ├ option 3:
-                dune_mwsleader: Having a good source of water will go a long way. That was always a worry on Elaaden.
-                dune_mwsleader: Right now, we're transporting tanks by vehicle, but we're investigating a permanent solution.
-                ↩ (goto) dune_mwsleader: [empty]
+                [00023388] dune_mwsleader: Having a good source of water will go a long way. That was always a worry on Elaaden.
+                [0002338A] dune_mwsleader: Right now, we're transporting tanks by vehicle, but we're investigating a permanent solution.
+                ↩ (goto) [00022FBE] dune_mwsleader: [empty]
             ├ option 4:
-                dune_mwsleader: We're making progress. It's slow, but it's coming along.
-                ↩ (goto) dune_mwsleader: [empty]
+                [00023389] dune_mwsleader: We're making progress. It's slow, but it's coming along.
+                ↩ (goto) [00022FBE] dune_mwsleader: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero ⟨cond⟩: How are things with the krogan, now that you've had some time to settle in?
-            dune_mwsleader: Trying, but that's to be expected with krogan.
-            dune_mwsleader: They challenge you—to see if you break. If you don't, you earn their respect.
+            [00022FC2] Hero ⟨cond⟩: How are things with the krogan, now that you've had some time to settle in?
+            [00023395] dune_mwsleader: Trying, but that's to be expected with krogan.
+            [00023392] dune_mwsleader: They challenge you—to see if you break. If you don't, you earn their respect.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_squad_krogan: She gets it.
+                [0002338F] global_squad_krogan: She gets it.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: You seem pretty comfortable around krogan.
-                    dune_mwsleader: I spent some time with them when I was younger. Even had a krogan boyfriend.
-                    dune_mwsleader: I was just about the only one who volunteered for this job.
-                    dune_mwsleader: Everyone else tripped over themselves to get away from a "diplomatic minefield."
-                    ↩ (goto) dune_mwsleader: [empty]
+                    [0002338C] Hero: You seem pretty comfortable around krogan.
+                    [00023396] dune_mwsleader: I spent some time with them when I was younger. Even had a krogan boyfriend.
+                    [00023393] dune_mwsleader: I was just about the only one who volunteered for this job.
+                    [0002338D] dune_mwsleader: Everyone else tripped over themselves to get away from a "diplomatic minefield."
+                    ↩ (goto) [00022FBE] dune_mwsleader: [empty]
                 ├ option 2:
-                    Hero: There's nothing quite like a krogan.
-                    dune_mwsleader: They're a charming bunch, in their own way.
-                    dune_mwsleader: I'm hopeful, though. Our people and Morda's people seem to be warming to one another.
-                    dune_mwsleader: If only judging by the number of concussions the colonists are bragging about.
-                    ↩ (goto) dune_mwsleader: [empty]
+                    [0002338B] Hero: There's nothing quite like a krogan.
+                    [0002338E] dune_mwsleader: They're a charming bunch, in their own way.
+                    [00023397] dune_mwsleader: I'm hopeful, though. Our people and Morda's people seem to be warming to one another.
+                    [00023398] dune_mwsleader: If only judging by the number of concussions the colonists are bragging about.
+                    ↩ (goto) [00022FBE] dune_mwsleader: [empty]
                 └─ merge ─┘
             ├ option 2:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: You seem pretty comfortable around krogan.
+                    ↩ (goto) [0002338C] Hero: You seem pretty comfortable around krogan.
                 ├ option 2:
-                    ↩ (goto) Hero: There's nothing quite like a krogan.
+                    ↩ (goto) [0002338B] Hero: There's nothing quite like a krogan.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 3:
-            Hero: I should get going.
-            dune_mwsleader: Be well, Pathfinder.
+            [00022FBD] Hero: I should get going.
+            [00023399] dune_mwsleader: Be well, Pathfinder.
         └─ merge ─┘
     ├ option 2:
-        Hero: Just make sure you guys don't screw it up a second time.
-        dune_mwsleader: Well-deserved. Leadership's previous decisions regarding the krogan were... shortsighted. Prejudiced.
-        dune_mwsleader: I won't repeat their mistakes.
-        ↩ (goto) dune_mwsleader: [empty]
+        [00023114] Hero: Just make sure you guys don't screw it up a second time.
+        [00023117] dune_mwsleader: Well-deserved. Leadership's previous decisions regarding the krogan were... shortsighted. Prejudiced.
+        [00023118] dune_mwsleader: I won't repeat their mistakes.
+        ↩ (goto) [00022FBE] dune_mwsleader: [empty]
     └─ merge ─┘
 ├ option 2:
-    dune_mwsleader: They're determined to remain independent, but I'm confident we'll change their minds.
+    [0002D1D4] dune_mwsleader: They're determined to remain independent, but I'm confident we'll change their minds.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    dune_mwsleader: Pathfinder, did you handle that Architect? Morda's scouts said it was pacified.
-    Hero: I made sure it's no longer a threat.
-    dune_mwsleader: Thank the goddess. I contacted you, hoping to alert you to its activity, but it seems you were prescient.
-    dune_mwsleader: You have our gratitude, Ryder. If that Architect attacked, it's doubtful the outpost would have survived.
-    ↩ (goto) dune_mwsleader: [empty]
+    [00023374] dune_mwsleader: Pathfinder, did you handle that Architect? Morda's scouts said it was pacified.
+    [00023378] Hero: I made sure it's no longer a threat.
+    [00023376] dune_mwsleader: Thank the goddess. I contacted you, hoping to alert you to its activity, but it seems you were prescient.
+    [00023375] dune_mwsleader: You have our gratitude, Ryder. If that Architect attacked, it's doubtful the outpost would have survived.
+    ↩ (goto) [00022FBE] dune_mwsleader: [empty]
 ├ option 2:
-    dune_mwsleader: Good news?
-    Hero: The Architect is pacified. It might come close, but it won't be a danger.
-    dune_mwsleader: That's a relief. Thank you, Ryder.
-    ↩ (goto) dune_mwsleader: [empty]
+    [00022FC5] dune_mwsleader: Good news?
+    [00023377] Hero: The Architect is pacified. It might come close, but it won't be a danger.
+    [00023379] dune_mwsleader: That's a relief. Thank you, Ryder.
+    ↩ (goto) [00022FBE] dune_mwsleader: [empty]
 └─ merge ─┘
-↩ (goto) dune_mwsleader: We're making progress. It's slow, but it's coming along.
-↩ (goto) dune_mwsleader: [empty]
-Hero ⟨cond⟩: Got your message. What's going on?
+↩ (goto) [00023389] dune_mwsleader: We're making progress. It's slow, but it's coming along.
+↩ (goto) [00022FBE] dune_mwsleader: [empty]
+[00022FC8] Hero ⟨cond⟩: Got your message. What's going on?

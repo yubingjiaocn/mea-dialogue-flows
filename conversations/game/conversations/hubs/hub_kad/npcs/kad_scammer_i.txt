@@ -4,85 +4,85 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    olw_turian_merchant [OncePerGame]: Well, well. You're not like the other scrubs around here.
-    Hero: What makes you say that?
-    olw_turian_merchant: Your gear. It's high quality. Like the rest of you.
+    [00021935] olw_turian_merchant [OncePerGame]: Well, well. You're not like the other scrubs around here.
+    [00022384] Hero: What makes you say that?
+    [00022389] olw_turian_merchant: Your gear. It's high quality. Like the rest of you.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: What can I say? I like the best.
+        [00022385] Hero: What can I say? I like the best.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            olw_turian_merchant ⟨cond⟩: Then you're just the woman I need.
-            olw_turian_merchant: When the exiles came to Kadara, they hid caches of Nexus supplies all over the badlands.
-            olw_turian_merchant: Junk mostly. Stale protein bars and rations.
-            olw_turian_merchant: But among the shit are some serious weapons lifted straight from the armory.
-            Hero: And you know this how?
-            olw_turian_merchant: I helped steal them. Problem is, those weapons are too good for the scum down here.
+            [00022374] olw_turian_merchant ⟨cond⟩: Then you're just the woman I need.
+            [0002237C] olw_turian_merchant: When the exiles came to Kadara, they hid caches of Nexus supplies all over the badlands.
+            [00022371] olw_turian_merchant: Junk mostly. Stale protein bars and rations.
+            [0002238B] olw_turian_merchant: But among the shit are some serious weapons lifted straight from the armory.
+            [00022372] Hero: And you know this how?
+            [0002236B] olw_turian_merchant: I helped steal them. Problem is, those weapons are too good for the scum down here.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                olw_turian_merchant ⟨cond⟩: And I can't sell weapons in Kadara Port without the Charlatan taking a cut.
-                olw_turian_merchant: The cache navpoint though... You interested? It's yours for a fair price.
+                [00022382] olw_turian_merchant ⟨cond⟩: And I can't sell weapons in Kadara Port without the Charlatan taking a cut.
+                [00022386] olw_turian_merchant: The cache navpoint though... You interested? It's yours for a fair price.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: You've got a deal.
-                    olw_turian_merchant: Lovely. Here's the navpoint.
-                    olw_turian_merchant: In the meantime, feel free to take a look at what I've already got in stock.
+                    [00022370] Hero: You've got a deal.
+                    [0002238E] olw_turian_merchant: Lovely. Here's the navpoint.
+                    [00022378] olw_turian_merchant: In the meantime, feel free to take a look at what I've already got in stock.
                 ├ option 2:
-                    Hero: Just show me what you've already got in stock.
-                    olw_turian_merchant: Your loss.
+                    [0002237F] Hero: Just show me what you've already got in stock.
+                    [00022373] olw_turian_merchant: Your loss.
                 └─ merge ─┘
             ├ option 2:
-                olw_turian_merchant: And I can't sell weapons in Kadara Port without Sloane taking a cut.
-                ↩ (goto) olw_turian_merchant: The cache navpoint though... You interested? It's yours for a fair price.
+                [00022376] olw_turian_merchant: And I can't sell weapons in Kadara Port without Sloane taking a cut.
+                ↩ (goto) [00022386] olw_turian_merchant: The cache navpoint though... You interested? It's yours for a fair price.
             └─ merge ─┘
         ├ option 2:
-            olw_turian_merchant: Then you're just the man I need.
-            ↩ (goto) olw_turian_merchant: When the exiles came to Kadara, they hid caches of Nexus supplies all over the badlands.
+            [0002237D] olw_turian_merchant: Then you're just the man I need.
+            ↩ (goto) [0002237C] olw_turian_merchant: When the exiles came to Kadara, they hid caches of Nexus supplies all over the badlands.
         └─ merge ─┘
     ├ option 2:
-        Hero: If you've got a point, make it.
-        olw_turian_merchant: All right.
-        ↩ (goto) olw_turian_merchant: When the exiles came to Kadara, they hid caches of Nexus supplies all over the badlands.
+        [00022387] Hero: If you've got a point, make it.
+        [00022383] olw_turian_merchant: All right.
+        ↩ (goto) [0002237C] olw_turian_merchant: When the exiles came to Kadara, they hid caches of Nexus supplies all over the badlands.
     └─ merge ─┘
 ├ option 2:
-    olw_turian_merchant: Change your mind? Navpoint's still up for grabs.
+    [00032525] olw_turian_merchant: Change your mind? Navpoint's still up for grabs.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) Hero: You've got a deal.
+        ↩ (goto) [00022370] Hero: You've got a deal.
     ├ option 2:
-        Hero: Still not interested.
-        olw_turian_merchant: {i}(Scoffs.){/i} Fine.
+        [00032534] Hero: Still not interested.
+        [00032529] olw_turian_merchant: {i}(Scoffs.){/i} Fine.
     └─ merge ─┘
 └─ merge ─┘
-olw_turian_merchant: Back again?
-Hero: That navpoint was a set-up!
-olw_turian_merchant: Set-up? Was the cache not there?
+[00022388] olw_turian_merchant: Back again?
+[0003252A] Hero: That navpoint was a set-up!
+[00032526] olw_turian_merchant: Set-up? Was the cache not there?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: You sent me into an ambush.
-    olw_turian_merchant: I {i}sent{/i} you nowhere. I provided a location, {i}you{/i} decided to go there.
-    olw_turian_merchant: I'm not responsible for the actions of my {i}other{/i} customers.
-    Hero: Other customers?
-    olw_turian_merchant: I may have sold the navpoint to multiple people. But in my defense, I didn't think you'd all show up at once.
+    [00032524] Hero: You sent me into an ambush.
+    [0003252E] olw_turian_merchant: I {i}sent{/i} you nowhere. I provided a location, {i}you{/i} decided to go there.
+    [00032532] olw_turian_merchant: I'm not responsible for the actions of my {i}other{/i} customers.
+    [00032530] Hero: Other customers?
+    [00032535] olw_turian_merchant: I may have sold the navpoint to multiple people. But in my defense, I didn't think you'd all show up at once.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I want my credits back.
-        olw_turian_merchant: Sorry, sweetheart. I don't do refunds. Besides, you got your weapons.
-        olw_turian_merchant: But I don't like unhappy customers. I'll give you a discount for your trouble. That's more than fair.
+        [0003251E] Hero: I want my credits back.
+        [00032520] olw_turian_merchant: Sorry, sweetheart. I don't do refunds. Besides, you got your weapons.
+        [0003252C] olw_turian_merchant: But I don't like unhappy customers. I'll give you a discount for your trouble. That's more than fair.
     ├ option 2:
-        Hero: Oh, great. That makes it all better then.
-        olw_turian_merchant: I don't see why you're so upset. You got your weapons. And you survived.
-        ↩ (goto) olw_turian_merchant: But I don't like unhappy customers. I'll give you a discount for your trouble. That's more than fair.
+        [0003252B] Hero: Oh, great. That makes it all better then.
+        [00032528] olw_turian_merchant: I don't see why you're so upset. You got your weapons. And you survived.
+        ↩ (goto) [0003252C] olw_turian_merchant: But I don't like unhappy customers. I'll give you a discount for your trouble. That's more than fair.
     └─ merge ─┘
 ├ option 2:
-    Hero: Yeah, but so were a lot of exiles—who tried to kill me.
-    ↩ (goto) olw_turian_merchant: I'm not responsible for the actions of my {i}other{/i} customers.
+    [00032533] Hero: Yeah, but so were a lot of exiles—who tried to kill me.
+    ↩ (goto) [00032532] olw_turian_merchant: I'm not responsible for the actions of my {i}other{/i} customers.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    olw_turian_merchant: Looking for something special?
+    [0002237B] olw_turian_merchant: Looking for something special?
 ├ option 2:
-    olw_turian_merchant: Welcome back.
+    [0002237E] olw_turian_merchant: Welcome back.
 ├ option 3:
-    olw_turian_merchant: Got something just for you.
+    [00022377] olw_turian_merchant: Got something just for you.
 └─ merge ─┘

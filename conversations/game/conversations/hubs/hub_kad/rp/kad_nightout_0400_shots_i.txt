@@ -2,48 +2,48 @@
 # Primary speaker: Hero
 # Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0400_shots_i.xml
 ==================================================
-Hero: I'd like a drink.
-kad_bar_01: What's the name of my bar?
-Hero: What?
-kad_bar_01: You want a drink, answer the question.
+[00011715] Hero: I'd like a drink.
+[000116F9] kad_bar_01: What's the name of my bar?
+[000116F2] Hero: What?
+[0001170E] kad_bar_01: You want a drink, answer the question.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Kralla's Song.
-    kad_bar_01: Hm.
+    [0001170F] Hero: Kralla's Song.
+    [00011713] kad_bar_01: Hm.
 ├ option 2:
-    Hero: Thessia Blues?
-    kad_bar_01: Nope. No drink for you, Pathfinder.
+    [00011701] Hero: Thessia Blues?
+    [00011703] kad_bar_01: Nope. No drink for you, Pathfinder.
 └─ merge ─┘
-kad_bar_01: Back again? Hope you're ready for round two.
-kad_bar_01: How do I serve whiskey?
+[000116FA] kad_bar_01: Back again? Hope you're ready for round two.
+[00011709] kad_bar_01: How do I serve whiskey?
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Why are we playing twenty questions?
-    kad_bar_01: Because I'm bored and you're thirsty.
+    [00011714] Hero [OncePerGame]: Why are we playing twenty questions?
+    [000116F6] kad_bar_01: Because I'm bored and you're thirsty.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: On the rocks?
-        kad_bar_01: Wrong. Better luck next time.
+        [000116FB] Hero: On the rocks?
+        [00011708] kad_bar_01: Wrong. Better luck next time.
     ├ option 2:
-        Hero: Neat.
-        kad_bar_01: I'm almost impressed.
+        [0001170A] Hero: Neat.
+        [0001170B] kad_bar_01: I'm almost impressed.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) Hero: On the rocks?
+    ↩ (goto) [000116FB] Hero: On the rocks?
 ├ option 3:
-    ↩ (goto) Hero: Neat.
+    ↩ (goto) [0001170A] Hero: Neat.
 └─ merge ─┘
-kad_bar_01: Final question. Want to be a test subject? I've got a new drink. Angaran wine mixed with ryncol.
-kad_bar_01: Need to know if it's safe for humans. You in?
+[00011710] kad_bar_01: Final question. Want to be a test subject? I've got a new drink. Angaran wine mixed with ryncol.
+[0001170C] kad_bar_01: Need to know if it's safe for humans. You in?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Hit me with your best shot.
-    kad_bar_01: You're the worst. You know that, right?
-    Hero: Bottoms up!
-    kad_bar_01: Still standing. Success.
-    SAM: Pathfinder. Might I suggest slowing down? At least until Mr. Vidal returns.
-    Hero: Shut up, SAM. It's a party!
+    [000116FF] Hero: Hit me with your best shot.
+    [00011712] kad_bar_01: You're the worst. You know that, right?
+    [00011706] Hero: Bottoms up!
+    [00011704] kad_bar_01: Still standing. Success.
+    [000116F1] SAM: Pathfinder. Might I suggest slowing down? At least until Mr. Vidal returns.
+    [00011702] Hero: Shut up, SAM. It's a party!
 ├ option 2:
-    Hero: Ryncol? No thanks. I'd like to function tomorrow.
-    kad_bar_01: Wise. Boring, but wise.
+    [000116F5] Hero: Ryncol? No thanks. I'd like to function tomorrow.
+    [00011711] kad_bar_01: Wise. Boring, but wise.
 └─ merge ─┘

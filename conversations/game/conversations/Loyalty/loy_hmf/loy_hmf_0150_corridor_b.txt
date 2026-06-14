@@ -2,32 +2,32 @@
 # Primary speaker: global_squad_female_human
 # Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0150_corridor_b.xml
 ==================================================
-Hero: We're aboard. Any response to comms?
-global_crew_science_officer: [Comm] Nothing. Maybe their sensors are busted.
-global_squad_female_human: What a mess.
+[0001C4C3] Hero: We're aboard. Any response to comms?
+[0001C4C4] global_crew_science_officer: [Comm] Nothing. Maybe their sensors are busted.
+[0000A418] global_squad_female_human: What a mess.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_asari ⟨cond⟩: Tsk. No one sweeps up for guests anymore.
+    [0000A417] global_squad_asari ⟨cond⟩: Tsk. No one sweeps up for guests anymore.
 ├ option 2:
-    global_squad_female_human: No space battle did this. They had boarders.
+    [0000A422] global_squad_female_human: No space battle did this. They had boarders.
 └─ merge ─┘
-Hero: It's locked down.
-global_squad_female_human: No, it's out of power.
-global_squad_female_human: Hello? Anyone? We're here to help!
+[0001C54F] Hero: It's locked down.
+[0001C54E] global_squad_female_human: No, it's out of power.
+[0001C4C2] global_squad_female_human: Hello? Anyone? We're here to help!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_asari ⟨cond⟩: Great, just advertise where we are.
-    global_squad_female_human: That's the point, Peebee.
+    [0001C4CB] global_squad_asari ⟨cond⟩: Great, just advertise where we are.
+    [0001C4CE] global_squad_female_human: That's the point, Peebee.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: Or shoot you, if you're kett!
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001C4C6] global_squad_krogan ⟨cond⟩: Or shoot you, if you're kett!
+    ↩ (goto) [0002713C] global_squad_female_human: [empty]
 ├ option 3:
-    global_squad_male_human ⟨cond⟩: Wish we'd brought more rescue gear.
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001C4C9] global_squad_male_human ⟨cond⟩: Wish we'd brought more rescue gear.
+    ↩ (goto) [0002713C] global_squad_female_human: [empty]
 ├ option 4:
-    global_squad_turian ⟨cond⟩: I don't hear anyone.
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001C4C7] global_squad_turian ⟨cond⟩: I don't hear anyone.
+    ↩ (goto) [0002713C] global_squad_female_human: [empty]
 ├ option 5:
-    global_squad_angara ⟨cond⟩: We've come to bring you home!
-    ↩ (goto) global_squad_female_human: [empty]
+    [00027D52] global_squad_angara ⟨cond⟩: We've come to bring you home!
+    ↩ (goto) [0002713C] global_squad_female_human: [empty]
 └─ merge ─┘

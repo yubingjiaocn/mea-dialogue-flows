@@ -2,60 +2,60 @@
 # Primary speaker: Hero
 # Source: game/conversations/Loyalty/loy_asa/loy_asa_0050_acquisition_d.xml
 ==================================================
-Hero: Hey there, what's new?
-global_squad_asari: Ha—funny you should ask. I need to know: if I had something really important to do, could I count on you to help? To come along?
+[0000EA88] Hero: Hey there, what's new?
+[0000EBA4] global_squad_asari: Ha—funny you should ask. I need to know: if I had something really important to do, could I count on you to help? To come along?
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Depends on the request. There are no blank checks.
-    global_squad_asari: Fine. I'll just spit it out, see what happens.
-    global_squad_asari: Thanks to my newly Remnant-augmented scanner, I'm onto something big...
-    global_squad_asari: Hear that signal? Best I can tell, it's coming from a piece of raw Remnant programming tech. A building block in an unused state.
-    global_squad_asari: My eyes bulge thinking what we might be able to learn from it—or do with it!
-    global_squad_asari: It's like a rem-tech wild card. The kind of mystery I live for. I have to go get it. There's no time to waste, right?
+    [0000EBA6] Hero: Depends on the request. There are no blank checks.
+    [0000EB9B] global_squad_asari: Fine. I'll just spit it out, see what happens.
+    [0002716C] global_squad_asari: Thanks to my newly Remnant-augmented scanner, I'm onto something big...
+    [0001C54A] global_squad_asari: Hear that signal? Best I can tell, it's coming from a piece of raw Remnant programming tech. A building block in an unused state.
+    [0001C548] global_squad_asari: My eyes bulge thinking what we might be able to learn from it—or do with it!
+    [0001BD4F] global_squad_asari: It's like a rem-tech wild card. The kind of mystery I live for. I have to go get it. There's no time to waste, right?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero [OncePerGame]: What are the implications of this device, whatever it is?
-        global_squad_asari: At the very least, it'll strengthen our bridge to Remnant technology.
-        global_squad_asari: Even just getting closer data readings could help us break down Remnant programming, use their tech more efficiently.
-        global_squad_asari: I need to find it. Like, now. Well, now that now's gone, so... now.
+        [0000EC9A] Hero [OncePerGame]: What are the implications of this device, whatever it is?
+        [0001C54B] global_squad_asari: At the very least, it'll strengthen our bridge to Remnant technology.
+        [0001C54D] global_squad_asari: Even just getting closer data readings could help us break down Remnant programming, use their tech more efficiently.
+        [0000ECA2] global_squad_asari: I need to find it. Like, now. Well, now that now's gone, so... now.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Okay.
-            global_squad_asari: That's it? No preamble, no further interrogations, just "okay"? You're in?
-            Hero: I'm in.
-            global_squad_asari: Yes! That you're game means the world to me.
-            global_squad_asari: Loading the coordinates into the galaxy map. Consider me primed and ready.
+            [0000EBF4] Hero: Okay.
+            [0000EC85] global_squad_asari: That's it? No preamble, no further interrogations, just "okay"? You're in?
+            [0000EC93] Hero: I'm in.
+            [0000EC8E] global_squad_asari: Yes! That you're game means the world to me.
+            [0000EC9B] global_squad_asari: Loading the coordinates into the galaxy map. Consider me primed and ready.
         ├ option 2:
-            Hero: I'll add it to the queue. We'll go, but we can't drop everything just yet.
-            global_squad_asari: Hmm. I see... yeah, okay. It'll be more fun with you along for the ride anyway. I can force myself to wait.
-            global_squad_asari: Coordinates loaded into the galaxy map now. I'll be ready whenever you are.
-            ↩ (goto) global_squad_asari: [empty]
+            [0000EBE9] Hero: I'll add it to the queue. We'll go, but we can't drop everything just yet.
+            [0000EC80] global_squad_asari: Hmm. I see... yeah, okay. It'll be more fun with you along for the ride anyway. I can force myself to wait.
+            [0000EC7E] global_squad_asari: Coordinates loaded into the galaxy map now. I'll be ready whenever you are.
+            ↩ (goto) [0000EC9D] global_squad_asari: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: Okay.
+        ↩ (goto) [0000EBF4] Hero: Okay.
     ├ option 3:
-        ↩ (goto) Hero: I'll add it to the queue. We'll go, but we can't drop everything just yet.
+        ↩ (goto) [0000EBE9] Hero: I'll add it to the queue. We'll go, but we can't drop everything just yet.
     └─ merge ─┘
 ├ option 2:
-    Hero: If it's as exciting as you make it sound...
-    global_squad_asari: It's pretty damned exciting.
-    ↩ (goto) global_squad_asari: Thanks to my newly Remnant-augmented scanner, I'm onto something big...
+    [0000EB97] Hero: If it's as exciting as you make it sound...
+    [0001800D] global_squad_asari: It's pretty damned exciting.
+    ↩ (goto) [0002716C] global_squad_asari: Thanks to my newly Remnant-augmented scanner, I'm onto something big...
 ├ option 3:
-    Hero ⟨cond⟩: Important-important, or stress-relief important?
-    global_squad_asari: Ha. This time, important-important.
-    ↩ (goto) global_squad_asari: Thanks to my newly Remnant-augmented scanner, I'm onto something big...
+    [0001C94D] Hero ⟨cond⟩: Important-important, or stress-relief important?
+    [0001C94F] global_squad_asari: Ha. This time, important-important.
+    ↩ (goto) [0002716C] global_squad_asari: Thanks to my newly Remnant-augmented scanner, I'm onto something big...
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_asari: You know that relic box I've been studying, the one we found way back in the first vault?
-    global_squad_asari: This signal is reminiscent, only much more—how to describe it—dense.
-    global_squad_asari: Like the box, it's in a pre-programmed state. It hasn't been imprinted with Remnant instructions, so we can determine its use.
-    ↩ (goto) global_squad_asari: It's like a rem-tech wild card. The kind of mystery I live for. I have to go get it. There's no time to waste, right?
+    [0000EBFF] global_squad_asari: You know that relic box I've been studying, the one we found way back in the first vault?
+    [0000EBFE] global_squad_asari: This signal is reminiscent, only much more—how to describe it—dense.
+    [0000EC01] global_squad_asari: Like the box, it's in a pre-programmed state. It hasn't been imprinted with Remnant instructions, so we can determine its use.
+    ↩ (goto) [0001BD4F] global_squad_asari: It's like a rem-tech wild card. The kind of mystery I live for. I have to go get it. There's no time to waste, right?
 ├ option 2:
-    global_squad_asari: You know that relic box we used to upload our data into the Remnant city to find Meridian?
-    ↩ (goto) global_squad_asari: This signal is reminiscent, only much more—how to describe it—dense.
+    [0001BD0E] global_squad_asari: You know that relic box we used to upload our data into the Remnant city to find Meridian?
+    ↩ (goto) [0000EBFE] global_squad_asari: This signal is reminiscent, only much more—how to describe it—dense.
 └─ merge ─┘
-global_squad_asari: Without closer study, it's too wide-ranging. At the very least, it'll strengthen our bridge to Remnant technology.
-global_squad_asari: Down the road, who knows. It could allow us—well, you—to reprogram entire Remnant systems. Off-the-charts potential.
-↩ (goto) global_squad_asari: I need to find it. Like, now. Well, now that now's gone, so... now.
-global_squad_asari: I'm onto something big...
+[0000EC84] global_squad_asari: Without closer study, it's too wide-ranging. At the very least, it'll strengthen our bridge to Remnant technology.
+[0000EC8D] global_squad_asari: Down the road, who knows. It could allow us—well, you—to reprogram entire Remnant systems. Off-the-charts potential.
+↩ (goto) [0000ECA2] global_squad_asari: I need to find it. Like, now. Well, now that now's gone, so... now.
+[0000EBA7] global_squad_asari: I'm onto something big...

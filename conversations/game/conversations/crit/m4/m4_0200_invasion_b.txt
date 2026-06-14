@@ -2,182 +2,182 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/m4/m4_0200_invasion_b.xml
 ==================================================
-Hero: Okay, we keep this quick and quiet and they'll never notice.
+[0001B6F7] Hero: Okay, we keep this quick and quiet and they'll never notice.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Uh... I think they noticed...
+    [0001B6F9] global_squad_female_human ⟨cond⟩: Uh... I think they noticed...
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Uh... I think they noticed...
+    [0001B6F3] global_squad_male_human ⟨cond⟩: Uh... I think they noticed...
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Uh... I think they noticed...
+    [0001B6F5] global_squad_turian ⟨cond⟩: Uh... I think they noticed...
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Uh... I think they noticed...
+    [0001B6F2] global_squad_asari ⟨cond⟩: Uh... I think they noticed...
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: I think they noticed...
+    [0001B6F8] global_squad_krogan ⟨cond⟩: I think they noticed...
 ├ option 6:
-    global_squad_angara ⟨cond⟩: I think they noticed...
+    [0001B6F4] global_squad_angara ⟨cond⟩: I think they noticed...
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: We're clear!
-    Hero: So much for sneaking in.
+    [00019E70] global_squad_female_human ⟨cond⟩: We're clear!
+    [00019E6E] Hero: So much for sneaking in.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: What do we do now?
-        SAM: If you locate a terminal, I may be able to analyze their systems.
+        [00019E71] global_squad_angara ⟨cond⟩: What do we do now?
+        [00019E6F] SAM: If you locate a terminal, I may be able to analyze their systems.
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: What now?
-        ↩ (goto) SAM: If you locate a terminal, I may be able to analyze their systems.
+        [00019E69] global_squad_krogan ⟨cond⟩: What now?
+        ↩ (goto) [00019E6F] SAM: If you locate a terminal, I may be able to analyze their systems.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: What do we do now?
-        ↩ (goto) SAM: If you locate a terminal, I may be able to analyze their systems.
+        [00019E6C] global_squad_asari ⟨cond⟩: What do we do now?
+        ↩ (goto) [00019E6F] SAM: If you locate a terminal, I may be able to analyze their systems.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: What next?
-        ↩ (goto) SAM: If you locate a terminal, I may be able to analyze their systems.
+        [00019E6B] global_squad_turian ⟨cond⟩: What next?
+        ↩ (goto) [00019E6F] SAM: If you locate a terminal, I may be able to analyze their systems.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: What now?
-        ↩ (goto) SAM: If you locate a terminal, I may be able to analyze their systems.
+        [00019E6D] global_squad_male_human ⟨cond⟩: What now?
+        ↩ (goto) [00019E6F] SAM: If you locate a terminal, I may be able to analyze their systems.
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: What's next?
-        ↩ (goto) SAM: If you locate a terminal, I may be able to analyze their systems.
+        [00019E72] global_squad_female_human ⟨cond⟩: What's next?
+        ↩ (goto) [00019E6F] SAM: If you locate a terminal, I may be able to analyze their systems.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: We're clear!
-    ↩ (goto) Hero: So much for sneaking in.
+    [00019E6A] global_squad_male_human ⟨cond⟩: We're clear!
+    ↩ (goto) [00019E6E] Hero: So much for sneaking in.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: We're clear!
-    ↩ (goto) Hero: So much for sneaking in.
+    [00019E73] global_squad_turian ⟨cond⟩: We're clear!
+    ↩ (goto) [00019E6E] Hero: So much for sneaking in.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: We're clear!
-    ↩ (goto) Hero: So much for sneaking in.
+    [00019E68] global_squad_asari ⟨cond⟩: We're clear!
+    ↩ (goto) [00019E6E] Hero: So much for sneaking in.
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: We're clear!
-    ↩ (goto) Hero: So much for sneaking in.
+    [00019E74] global_squad_krogan ⟨cond⟩: We're clear!
+    ↩ (goto) [00019E6E] Hero: So much for sneaking in.
 ├ option 6:
-    global_squad_angara ⟨cond⟩: We're clear!
-    ↩ (goto) Hero: So much for sneaking in.
+    [00019E77] global_squad_angara ⟨cond⟩: We're clear!
+    ↩ (goto) [00019E6E] Hero: So much for sneaking in.
 └─ merge ─┘
-Hero: Door's locked over here.
-SAM: TEMP: UNHOOK this Jos
+[00019E76] Hero: Door's locked over here.
+[0002617B] SAM: TEMP: UNHOOK this Jos
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: We walked right into that one!
+        [00019F2D] global_squad_angara ⟨cond⟩: We walked right into that one!
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: We walked right into that one!
+        [00019F24] global_squad_krogan ⟨cond⟩: We walked right into that one!
     ├ option 3:
-        global_squad_asari ⟨cond⟩: We walked right into that one!
+        [00019F28] global_squad_asari ⟨cond⟩: We walked right into that one!
     ├ option 4:
-        global_squad_turian ⟨cond⟩: We walked right into that one!
+        [00019F21] global_squad_turian ⟨cond⟩: We walked right into that one!
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: We walked right into that one!
+        [00019F31] global_squad_male_human ⟨cond⟩: We walked right into that one!
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: We walked right into that one!
+        [00019F2F] global_squad_female_human ⟨cond⟩: We walked right into that one!
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Don't let them have the high ground!
+        [00019F23] global_squad_female_human ⟨cond⟩: Don't let them have the high ground!
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: We can't let them have the high ground!
+        [00019F2A] global_squad_male_human ⟨cond⟩: We can't let them have the high ground!
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Don't let them get the high ground!
+        [00019F25] global_squad_turian ⟨cond⟩: Don't let them get the high ground!
     ├ option 4:
-        global_squad_asari ⟨cond⟩: Don't want them to have the high ground!
+        [00019F2B] global_squad_asari ⟨cond⟩: Don't want them to have the high ground!
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: Keep the high ground!
+        [00019F2C] global_squad_krogan ⟨cond⟩: Keep the high ground!
     ├ option 6:
-        global_squad_angara ⟨cond⟩: Don't let them have the high ground!
+        [00019F27] global_squad_angara ⟨cond⟩: Don't let them have the high ground!
     └─ merge ─┘
 ├ option 3:
-    Hero: No going back now—keep it up!
+    [00019F33] Hero: No going back now—keep it up!
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: More of them coming in upstairs!
+        [00019F38] global_squad_female_human ⟨cond⟩: More of them coming in upstairs!
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Watch it! There's more upstairs!
+        [00019F39] global_squad_male_human ⟨cond⟩: Watch it! There's more upstairs!
     ├ option 3:
-        global_squad_turian ⟨cond⟩: There's more coming in upstairs!
+        [00019F34] global_squad_turian ⟨cond⟩: There's more coming in upstairs!
     ├ option 4:
-        global_squad_asari ⟨cond⟩: More of them coming in upstairs!
+        [00019F36] global_squad_asari ⟨cond⟩: More of them coming in upstairs!
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: Watch out! More coming in upstairs!
+        [00019F37] global_squad_krogan ⟨cond⟩: Watch out! More coming in upstairs!
     ├ option 6:
-        global_squad_angara ⟨cond⟩: Careful! There's more coming in upstairs!
+        [00019F32] global_squad_angara ⟨cond⟩: Careful! There's more coming in upstairs!
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: The Moshae sends her regards!
+        [0002B5DB] global_squad_angara ⟨cond⟩: The Moshae sends her regards!
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: They threw us one hell of a welcome party!
+        [0002B5DC] global_squad_krogan ⟨cond⟩: They threw us one hell of a welcome party!
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Nice of them to throw us a welcome party!
+        [0002B5DF] global_squad_asari ⟨cond⟩: Nice of them to throw us a welcome party!
     ├ option 4:
-        global_squad_turian ⟨cond⟩: This was a hell of a welcome party!
+        [0002B5DD] global_squad_turian ⟨cond⟩: This was a hell of a welcome party!
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: This was a hell of a welcome party!
+        [0002B5D9] global_squad_male_human ⟨cond⟩: This was a hell of a welcome party!
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: This was a hell of a welcome party!
+        [0002B5DA] global_squad_female_human ⟨cond⟩: This was a hell of a welcome party!
     └─ merge ─┘
 └─ merge ─┘
-SAM: Ryder, if you access the terminal, I can override the door.
-Hero: Okay, SAM. The relic. Still got a lead on it?
-SAM: Marking the route to the Archon's chamber. You may proceed.
+[000261A6] SAM: Ryder, if you access the terminal, I can override the door.
+[000294DE] Hero: Okay, SAM. The relic. Still got a lead on it?
+[000261AA] SAM: Marking the route to the Archon's chamber. You may proceed.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Easier said than done. Only three of us and a ship full of kett.
+    [00019F1B] global_squad_female_human ⟨cond⟩: Easier said than done. Only three of us and a ship full of kett.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Four of us. I count double. {i}(Chuckles.){/i}
+        [00028E4B] global_squad_krogan ⟨cond⟩: Four of us. I count double. {i}(Chuckles.){/i}
     ├ option 2:
-        global_squad_angara ⟨cond⟩: I prefer an open fight. The best will win.
+        [00019F1C] global_squad_angara ⟨cond⟩: I prefer an open fight. The best will win.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: It's on them to try to stop us.
+        [00019F1A] global_squad_asari ⟨cond⟩: It's on them to try to stop us.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: Now we find out how good we really are.
+        [00019F16] global_squad_turian ⟨cond⟩: Now we find out how good we really are.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Then let 'em come. The best shot wins.
+        [00019F13] global_squad_male_human ⟨cond⟩: Then let 'em come. The best shot wins.
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: Yeah, but we know where we're headed. They don't.
+        [00019F1F] global_squad_female_human ⟨cond⟩: Yeah, but we know where we're headed. They don't.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: This just got a lot harder. Three of us against a whole ship full of kett.
-    ↩ (goto) global_squad_angara: [empty]
+    [00019F1E] global_squad_male_human ⟨cond⟩: This just got a lot harder. Three of us against a whole ship full of kett.
+    ↩ (goto) [00019F14] global_squad_angara: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: If only it were that easy. Three of us against a ship full of kett?
-    ↩ (goto) global_squad_angara: [empty]
+    [00019F15] global_squad_turian ⟨cond⟩: If only it were that easy. Three of us against a ship full of kett?
+    ↩ (goto) [00019F14] global_squad_angara: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: "Proceed," huh? Three of us against a whole ship full of kett?
-    ↩ (goto) global_squad_angara: [empty]
+    [00019F18] global_squad_asari ⟨cond⟩: "Proceed," huh? Three of us against a whole ship full of kett?
+    ↩ (goto) [00019F14] global_squad_angara: [empty]
 ├ option 5:
-    global_squad_angara ⟨cond⟩: It's not that simple. Only three of us and a ship full of kett.
-    ↩ (goto) global_squad_angara: [empty]
+    [00019F12] global_squad_angara ⟨cond⟩: It's not that simple. Only three of us and a ship full of kett.
+    ↩ (goto) [00019F14] global_squad_angara: [empty]
 ├ option 6:
-    ↩ (goto) global_squad_angara: [empty]
+    ↩ (goto) [00019F14] global_squad_angara: [empty]
 └─ merge ─┘
-Hero: Armory of some kind.
+[0002B328] Hero: Armory of some kind.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Let's not be here when they put it to use.
+    [0002B32D] global_squad_female_human ⟨cond⟩: Let's not be here when they put it to use.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Let's make sure we're gone before they use it.
+    [0002B32C] global_squad_male_human ⟨cond⟩: Let's make sure we're gone before they use it.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Just as long as we're not around when they put it to use.
+    [0002B32E] global_squad_turian ⟨cond⟩: Just as long as we're not around when they put it to use.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Right. For shooting people who try to sneak onto their ship.
+    [0002B32F] global_squad_asari ⟨cond⟩: Right. For shooting people who try to sneak onto their ship.
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: Only thing I have in common with the kett: an appreciation of high-caliber firepower.
+    [0002B32B] global_squad_krogan ⟨cond⟩: Only thing I have in common with the kett: an appreciation of high-caliber firepower.
 ├ option 6:
-    global_squad_angara ⟨cond⟩: With only one use: shooting at us.
+    [0002B329] global_squad_angara ⟨cond⟩: With only one use: shooting at us.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: I'm not much for sneaking around. Give me a straight-up fight.
+    [00019F17] global_squad_krogan ⟨cond⟩: I'm not much for sneaking around. Give me a straight-up fight.
 ├ option 2:
-    SAM: Navpoint marked on your map. I have overridden security for this area. You may proceed.
+    [00019F19] SAM: Navpoint marked on your map. I have overridden security for this area. You may proceed.
 └─ merge ─┘

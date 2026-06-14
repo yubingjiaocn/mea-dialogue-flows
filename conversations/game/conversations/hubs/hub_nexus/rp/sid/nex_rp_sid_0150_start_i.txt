@@ -2,33 +2,33 @@
 # Primary speaker: nex_vetra_sister_multi
 # Source: game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0150_start_i.xml
 ==================================================
-nex_vetra_sister_multi: Good that you're here, Ryder. I found something while monitoring comms for the Nexus.
-nex_vetra_sister_multi: Multiple attacks by people called "the Three Sabers." They're hitting outposts and supply vessels.
-nex_vetra_sister_multi: The really weird part is they seem aware of our operations. Like they're getting intel.
+[00021C4F] nex_vetra_sister_multi: Good that you're here, Ryder. I found something while monitoring comms for the Nexus.
+[00021C47] nex_vetra_sister_multi: Multiple attacks by people called "the Three Sabers." They're hitting outposts and supply vessels.
+[00021C64] nex_vetra_sister_multi: The really weird part is they seem aware of our operations. Like they're getting intel.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: I hope you have some proof to back up that allegation.
-    nex_vetra_sister_multi: No real proof, just a pattern that shows they seem to know where to attack. And a feeling.
-    nex_vetra_sister_multi: I've reported it and they say they'll investigate, but then forget.
-    nex_vetra_sister_multi: But you're the Pathfinder. If someone's betraying the Nexus, you have to do something about it.
+    [00021C58] Hero: I hope you have some proof to back up that allegation.
+    [00021C6E] nex_vetra_sister_multi: No real proof, just a pattern that shows they seem to know where to attack. And a feeling.
+    [00021C6D] nex_vetra_sister_multi: I've reported it and they say they'll investigate, but then forget.
+    [00021C6F] nex_vetra_sister_multi: But you're the Pathfinder. If someone's betraying the Nexus, you have to do something about it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: If they seem to know our operations, that could spell trouble. Best to get to the bottom of it.
-        nex_vetra_sister_multi: Thank you! I knew I could count on you. Best. Pathfinder. Ever.
-        nex_vetra_sister_multi: I don't know where they hide, but I got the navpoints for their most recent raids.
-        nex_vetra_sister_multi: Maybe the Tempest scanners can figure out where they went?
+        [00021C56] Hero: If they seem to know our operations, that could spell trouble. Best to get to the bottom of it.
+        [00021C52] nex_vetra_sister_multi: Thank you! I knew I could count on you. Best. Pathfinder. Ever.
+        [00021C50] nex_vetra_sister_multi: I don't know where they hide, but I got the navpoints for their most recent raids.
+        [00021C4E] nex_vetra_sister_multi: Maybe the Tempest scanners can figure out where they went?
     ├ option 2:
-        Hero: You're leaping to conclusions, don't you think?
-        nex_vetra_sister_multi: Even if it's not a conspiracy, the Three Sabers are hurting people. We can't let that continue, right?
-        ↩ (goto) nex_vetra_sister_multi: I don't know where they hide, but I got the navpoints for their most recent raids.
+        [00021C51] Hero: You're leaping to conclusions, don't you think?
+        [00021C55] nex_vetra_sister_multi: Even if it's not a conspiracy, the Three Sabers are hurting people. We can't let that continue, right?
+        ↩ (goto) [00021C50] nex_vetra_sister_multi: I don't know where they hide, but I got the navpoints for their most recent raids.
     └─ merge ─┘
 ├ option 2:
-    Hero ⟨cond⟩: Remember the last time you asked for help?
-    nex_vetra_sister_multi: I swear on Vetra's favorite gun, I'm not lying or getting you to clean up my mess this time.
-    nex_vetra_sister_multi: I put in an official report. They keep saying they'll investigate, then they don't.
-    ↩ (goto) nex_vetra_sister_multi: But you're the Pathfinder. If someone's betraying the Nexus, you have to do something about it.
+    [00021C7E] Hero ⟨cond⟩: Remember the last time you asked for help?
+    [00021C7F] nex_vetra_sister_multi: I swear on Vetra's favorite gun, I'm not lying or getting you to clean up my mess this time.
+    [00021C82] nex_vetra_sister_multi: I put in an official report. They keep saying they'll investigate, then they don't.
+    ↩ (goto) [00021C6F] nex_vetra_sister_multi: But you're the Pathfinder. If someone's betraying the Nexus, you have to do something about it.
 ├ option 3:
-    Hero ⟨cond⟩: What are you saying? That someone's feeding them info?
-    nex_vetra_sister_multi: Maybe? It would be really bad if that were true, right?
-    ↩ (goto) nex_vetra_sister_multi: I've reported it and they say they'll investigate, but then forget.
+    [00021C49] Hero ⟨cond⟩: What are you saying? That someone's feeding them info?
+    [00021C44] nex_vetra_sister_multi: Maybe? It would be really bad if that were true, right?
+    ↩ (goto) [00021C6D] nex_vetra_sister_multi: I've reported it and they say they'll investigate, but then forget.
 └─ merge ─┘

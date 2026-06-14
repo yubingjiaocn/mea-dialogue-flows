@@ -2,88 +2,88 @@
 # Primary speaker: global_squad_turian
 # Source: game/conversations/rel/vetra/vet_r3_tem_postloyal_d.xml
 ==================================================
-global_squad_turian: Damn it, Sid.
-Hero: What's going on?
-global_squad_turian: I get influence with power players, only to have it squandered by a sister calling in favors under my name.
-global_squad_turian: Do you know she got the genome for... oh, what is it? "Cats"? Pulled from storage?
-global_squad_turian: One, there's no place to grow anything right now. Two, it seems they aren't even a food. So why?
+[00012DBB] global_squad_turian: Damn it, Sid.
+[00012DB9] Hero: What's going on?
+[00012DBA] global_squad_turian: I get influence with power players, only to have it squandered by a sister calling in favors under my name.
+[00012DB8] global_squad_turian: Do you know she got the genome for... oh, what is it? "Cats"? Pulled from storage?
+[00012DBC] global_squad_turian: One, there's no place to grow anything right now. Two, it seems they aren't even a food. So why?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: She just has her priorities a little backwards.
-    global_squad_turian: I'll say. She got this idea in her head that she needs to help everyone.
-    global_squad_turian: And she thinks what we do is so exciting, but doesn't really understand what it takes.
+    [00012DCC] Hero: She just has her priorities a little backwards.
+    [00012DCA] global_squad_turian: I'll say. She got this idea in her head that she needs to help everyone.
+    [00022D55] global_squad_turian: And she thinks what we do is so exciting, but doesn't really understand what it takes.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: How can she, when you keep trying to shield her from your work?
-        global_squad_turian: I just... didn't want her to grow up before she had to, like I did.
-        Hero: She's shown she's ready. Trust that. You can't protect her forever.
-        global_squad_turian: But what if she gets herself into another mess? What if she gets hurt?
+        [00022D5D] Hero: How can she, when you keep trying to shield her from your work?
+        [00022D63] global_squad_turian: I just... didn't want her to grow up before she had to, like I did.
+        [00022D62] Hero: She's shown she's ready. Trust that. You can't protect her forever.
+        [00022D75] global_squad_turian: But what if she gets herself into another mess? What if she gets hurt?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero: She'll have you to watch her back.
-            global_squad_turian: I hate it when you're right. She's going to go her own way, no matter what I do.
-            global_squad_turian: If she does it without my help, she'll run into even worse trouble.
-            global_squad_turian: Thanks for helping me with this. I swear my sister isn't going to drag us into an ambush again.
+            [00011B97] Hero: She'll have you to watch her back.
+            [00011BAB] global_squad_turian: I hate it when you're right. She's going to go her own way, no matter what I do.
+            [00011BBB] global_squad_turian: If she does it without my help, she'll run into even worse trouble.
+            [00011BC0] global_squad_turian: Thanks for helping me with this. I swear my sister isn't going to drag us into an ambush again.
         ├ option 2:
-            Hero: Just think of it this way, she can be your partner in crime! A sidekick!
-            global_squad_turian: Yeah, one who can't stop talking. I'm really looking forward to {i}that{/i}.
-            ↩ (goto) global_squad_turian: Thanks for helping me with this. I swear my sister isn't going to drag us into an ambush again.
+            [00011BC3] Hero: Just think of it this way, she can be your partner in crime! A sidekick!
+            [00011BC1] global_squad_turian: Yeah, one who can't stop talking. I'm really looking forward to {i}that{/i}.
+            ↩ (goto) [00011BC0] global_squad_turian: Thanks for helping me with this. I swear my sister isn't going to drag us into an ambush again.
         ├ option 3:
-            Hero ⟨cond⟩: Whatever happens, I'm here for the both of you. I care about Sid, because I care about you.
-            global_squad_turian: Ryder, I... I don't know what to say.
-            Hero: You don't have to say anything.
-            Hero: How about I let you get back to work?
+            [00012DF5] Hero ⟨cond⟩: Whatever happens, I'm here for the both of you. I care about Sid, because I care about you.
+            [00012DF9] global_squad_turian: Ryder, I... I don't know what to say.
+            [00012DF6] Hero: You don't have to say anything.
+            [00029DAE] Hero: How about I let you get back to work?
         └─ merge ─┘
     ├ option 2:
-        Hero: Because what we do {i}is{/i} exciting. We make people's lives better.
-        global_squad_turian: You make it sound so wonderful. We see some real shit.
-        Hero: But we don't quit, because what we do matters.
-        global_squad_turian: It does, doesn't it. Even on the worst days, knowing we make a difference...
-        Hero: To make a difference is probably all Sid wants.
-        ↩ (goto) global_squad_turian: But what if she gets herself into another mess? What if she gets hurt?
+        [00022D5F] Hero: Because what we do {i}is{/i} exciting. We make people's lives better.
+        [00022D6A] global_squad_turian: You make it sound so wonderful. We see some real shit.
+        [00022D6C] Hero: But we don't quit, because what we do matters.
+        [00022D73] global_squad_turian: It does, doesn't it. Even on the worst days, knowing we make a difference...
+        [00022D74] Hero: To make a difference is probably all Sid wants.
+        ↩ (goto) [00022D75] global_squad_turian: But what if she gets herself into another mess? What if she gets hurt?
     └─ merge ─┘
 ├ option 2:
-    Hero: Lots of people love cats. They make them happy.
+    [00012DCB] Hero: Lots of people love cats. They make them happy.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_turian ⟨cond⟩: We're so close to finding Meridian. Cats can wait.
-        global_squad_turian: She just doesn't think. Tries to help everyone, damn the consequences.
-        ↩ (goto) global_squad_turian: And she thinks what we do is so exciting, but doesn't really understand what it takes.
+        [00012DC5] global_squad_turian ⟨cond⟩: We're so close to finding Meridian. Cats can wait.
+        [00022D53] global_squad_turian: She just doesn't think. Tries to help everyone, damn the consequences.
+        ↩ (goto) [00022D55] global_squad_turian: And she thinks what we do is so exciting, but doesn't really understand what it takes.
     ├ option 2:
-        global_squad_turian: I don't think we're in a position to put amusement over necessities.
-        ↩ (goto) global_squad_turian: She just doesn't think. Tries to help everyone, damn the consequences.
+        [00012DC8] global_squad_turian: I don't think we're in a position to put amusement over necessities.
+        ↩ (goto) [00022D53] global_squad_turian: She just doesn't think. Tries to help everyone, damn the consequences.
     └─ merge ─┘
 └─ merge ─┘
-global_squad_turian: Then there's all her talk about helping the exiles from Kadara. She just won't drop it.
-global_squad_turian: She's sees the Initiative, all of us who came here, even the exiles, as "her folks." Family.
+[00012DCD] global_squad_turian: Then there's all her talk about helping the exiles from Kadara. She just won't drop it.
+[00011B9E] global_squad_turian: She's sees the Initiative, all of us who came here, even the exiles, as "her folks." Family.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: She's young. Maybe too trusting. That can be dangerous.
-    global_squad_turian: That what I keep saying! It disappoints her. She wants me to be some kind of... hero.
-    global_squad_turian: But I don't want to be her hero.
-    global_squad_turian: I want to keep her safe. To make sure she's never hungry. Isn't that enough?
+    [000118D8] Hero: She's young. Maybe too trusting. That can be dangerous.
+    [000118E0] global_squad_turian: That what I keep saying! It disappoints her. She wants me to be some kind of... hero.
+    [00011BBC] global_squad_turian: But I don't want to be her hero.
+    [000118DD] global_squad_turian: I want to keep her safe. To make sure she's never hungry. Isn't that enough?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: You've done so much for her. She ought to be grateful.
-        global_squad_turian: But maybe she's like this {i}because{/i} of everything I've done.
-        global_squad_turian: If her life had been hard, she'd be beaten down, cynical. Maybe she'd care less about people.
-        global_squad_turian: So maybe I should be... proud?
-        Hero: That's one way of looking at it.
-        global_squad_turian: She's going to go her own way, because I would.
-        ↩ (goto) global_squad_turian: If she does it without my help, she'll run into even worse trouble.
+        [00011B96] Hero: You've done so much for her. She ought to be grateful.
+        [00011BAA] global_squad_turian: But maybe she's like this {i}because{/i} of everything I've done.
+        [00011BAD] global_squad_turian: If her life had been hard, she'd be beaten down, cynical. Maybe she'd care less about people.
+        [00011BAC] global_squad_turian: So maybe I should be... proud?
+        [00011BB4] Hero: That's one way of looking at it.
+        [00011BBD] global_squad_turian: She's going to go her own way, because I would.
+        ↩ (goto) [00011BBB] global_squad_turian: If she does it without my help, she'll run into even worse trouble.
     ├ option 2:
-        Hero: Being safe and fed isn't always enough to keep someone happy.
-        Hero: She's growing up. Becoming her own person. You need to let her be herself.
-        global_squad_turian: What if she gets herself into some bigger mess?
+        [00011B9B] Hero: Being safe and fed isn't always enough to keep someone happy.
+        [00011B98] Hero: She's growing up. Becoming her own person. You need to let her be herself.
+        [00011B95] global_squad_turian: What if she gets herself into some bigger mess?
     └─ merge ─┘
 ├ option 2:
-    Hero: We're all in this together. If we don't look out for each other, who will?
-    global_squad_turian: You're starting to sound like her.
-    global_squad_turian: I thought I was doing right by my sister. Keeping her safe, fed. I thought it was enough.
+    [000118D7] Hero: We're all in this together. If we don't look out for each other, who will?
+    [00011B9A] global_squad_turian: You're starting to sound like her.
+    [00011BB3] global_squad_turian: I thought I was doing right by my sister. Keeping her safe, fed. I thought it was enough.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) Hero: You've done so much for her. She ought to be grateful.
+        ↩ (goto) [00011B96] Hero: You've done so much for her. She ought to be grateful.
     ├ option 2:
-        ↩ (goto) Hero: Being safe and fed isn't always enough to keep someone happy.
+        ↩ (goto) [00011B9B] Hero: Being safe and fed isn't always enough to keep someone happy.
     └─ merge ─┘
 └─ merge ─┘

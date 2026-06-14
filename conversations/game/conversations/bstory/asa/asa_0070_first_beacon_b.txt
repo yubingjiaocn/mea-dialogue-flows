@@ -4,89 +4,89 @@
 ==================================================
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    Hero: Picking up an emergency beacon. One of ours.
-    SAM: The signal indicates an escape pod from the asari ark.
+    [000182C7] Hero: Picking up an emergency beacon. One of ours.
+    [000182CC] SAM: The signal indicates an escape pod from the asari ark.
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Another sign of life. That's good.
-        Hero: Keep your eyes peeled.
+        [0002BB20] Hero ⟨cond⟩: Another sign of life. That's good.
+        [00019AC2] Hero: Keep your eyes peeled.
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: The Leusinia? They're here?
-        ↩ (goto) Hero: Keep your eyes peeled.
+        [000182CA] global_squad_female_human ⟨cond⟩: The Leusinia? They're here?
+        ↩ (goto) [00019AC2] Hero: Keep your eyes peeled.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Ha! They made it.
-        ↩ (goto) Hero: Keep your eyes peeled.
+        [000182C8] global_squad_asari ⟨cond⟩: Ha! They made it.
+        ↩ (goto) [00019AC2] Hero: Keep your eyes peeled.
     ├ option 4:
-        global_squad_angara ⟨cond⟩: Your missing people?
-        ↩ (goto) Hero: Keep your eyes peeled.
+        [000182C5] global_squad_angara ⟨cond⟩: Your missing people?
+        ↩ (goto) [00019AC2] Hero: Keep your eyes peeled.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: We found them? Finally!
-        ↩ (goto) Hero: Keep your eyes peeled.
+        [00019974] global_squad_male_human ⟨cond⟩: We found them? Finally!
+        ↩ (goto) [00019AC2] Hero: Keep your eyes peeled.
     ├ option 6:
-        global_squad_turian ⟨cond⟩: So the asari are here?
-        ↩ (goto) Hero: Keep your eyes peeled.
+        [000182C6] global_squad_turian ⟨cond⟩: So the asari are here?
+        ↩ (goto) [00019AC2] Hero: Keep your eyes peeled.
     ├ option 7:
-        ↩ (goto) Hero: Keep your eyes peeled.
+        ↩ (goto) [00019AC2] Hero: Keep your eyes peeled.
     └─ merge ─┘
 ├ option 2:
-    SAM: Approaching emergency beacon. Escape pod appears intact.
-    Hero: Let's handle those kett!
+    [000182CF] SAM: Approaching emergency beacon. Escape pod appears intact.
+    [00027578] Hero: Let's handle those kett!
 ├ option 3:
-    Hero: Wonder if there's anything useful in that beacon. I'll run a hack.
+    [0002DF2E] Hero: Wonder if there's anything useful in that beacon. I'll run a hack.
 ├ option 4:
-    Hero: Guess that emergency beacon's getting some attention!
+    [0002BB3D] Hero: Guess that emergency beacon's getting some attention!
 ├ option 5:
-    Hero: Keep it up! Let's get this beacon home!
+    [0002DE63] Hero: Keep it up! Let's get this beacon home!
 ├ option 6:
-    Hero: Hack's complete. We got it.
-    SAM: Notifying the Nexus.
+    [000182DE] Hero: Hack's complete. We got it.
+    [000275AE] SAM: Notifying the Nexus.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: The more asari we can help, the better.
+        [0002BB21] Hero ⟨cond⟩: The more asari we can help, the better.
     ├ option 2:
-        Hero ⟨cond⟩: Shame Peebee isn't here.
+        [000182EB] Hero ⟨cond⟩: Shame Peebee isn't here.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: Or Cora. She'll want to see this.
-            SAM: There is data stored in the beacon. Peebee or Lieutenant Harper could discern its relevance.
-            Hero: It's our best sign of the asari so far. There's hope.
+            [000182F1] Hero ⟨cond⟩: Or Cora. She'll want to see this.
+            [000182ED] SAM: There is data stored in the beacon. Peebee or Lieutenant Harper could discern its relevance.
+            [0001833E] Hero: It's our best sign of the asari so far. There's hope.
         ├ option 2:
-            global_squad_female_human ⟨cond⟩: I'll take a closer look back at the Tempest. Might be a data cache inside.
+            [000182EF] global_squad_female_human ⟨cond⟩: I'll take a closer look back at the Tempest. Might be a data cache inside.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                global_squad_female_human ⟨cond⟩: This could be it, Peebee. The asari ark safe. No more worrying.
-                global_squad_asari: Who's worried? Either the Leusinia's okay or it's not—either way, we'll know soon.
-                global_squad_female_human: It doesn't bother you that thousands of your people are missing?
-                global_squad_asari: "My people" can handle themselves. I've got the Remnant to worry about.
+                [000182EE] global_squad_female_human ⟨cond⟩: This could be it, Peebee. The asari ark safe. No more worrying.
+                [00018328] global_squad_asari: Who's worried? Either the Leusinia's okay or it's not—either way, we'll know soon.
+                [00018325] global_squad_female_human: It doesn't bother you that thousands of your people are missing?
+                [00018327] global_squad_asari: "My people" can handle themselves. I've got the Remnant to worry about.
             ├ option 2:
-                global_squad_male_human ⟨cond⟩: Navs for survivors? It's possible.
-                ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+                [00018337] global_squad_male_human ⟨cond⟩: Navs for survivors? It's possible.
+                ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
             ├ option 3:
-                global_squad_krogan ⟨cond⟩: Good to keep that out of enemy hands.
-                ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+                [00018338] global_squad_krogan ⟨cond⟩: Good to keep that out of enemy hands.
+                ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
             ├ option 4:
-                ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+                ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 3:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: I'll take a closer look back at the Tempest. Might be a data cache inside.
+        ↩ (goto) [000182EF] global_squad_female_human ⟨cond⟩: I'll take a closer look back at the Tempest. Might be a data cache inside.
     ├ option 4:
-        Hero: Cora will want to see this. It might help us find the ark.
+        [000182EC] Hero: Cora will want to see this. It might help us find the ark.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            global_squad_asari ⟨cond⟩: Yeah, sounds like a job for Lieutenant Organized.
-            Hero: You don't want to help?
-            global_squad_asari: She doesn't need my help. Neither does the ark.
-            global_squad_asari: Solving the Remnant could save everybody. I've got that, Cora's got them.
-            ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+            [00018329] global_squad_asari ⟨cond⟩: Yeah, sounds like a job for Lieutenant Organized.
+            [00018335] Hero: You don't want to help?
+            [00018336] global_squad_asari: She doesn't need my help. Neither does the ark.
+            [00018333] global_squad_asari: Solving the Remnant could save everybody. I've got that, Cora's got them.
+            ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
         ├ option 2:
-            global_squad_angara ⟨cond⟩: Or the people from the escape pod.
-            ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+            [00018339] global_squad_angara ⟨cond⟩: Or the people from the escape pod.
+            ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
         ├ option 3:
-            global_squad_turian ⟨cond⟩: Plus, you know. Salvage and all.
-            ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+            [0001833A] global_squad_turian ⟨cond⟩: Plus, you know. Salvage and all.
+            ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
         ├ option 4:
-            ↩ (goto) Hero: It's our best sign of the asari so far. There's hope.
+            ↩ (goto) [0001833E] Hero: It's our best sign of the asari so far. There's hope.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

@@ -4,56 +4,56 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    aya_cafe_owner_multi [OncePerGame]: Welcome to the tavetaan. Feel free to order a drink. Or if you're hungry, we have nutrient paste.
-    aya_cafe_owner_multi: Not as exciting as fresh fruit, but you'll like it.
+    [0002420B] aya_cafe_owner_multi [OncePerGame]: Welcome to the tavetaan. Feel free to order a drink. Or if you're hungry, we have nutrient paste.
+    [00024207] aya_cafe_owner_multi: Not as exciting as fresh fruit, but you'll like it.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        Hero: What does "tavetaan" mean? My translator won't pick it up.
-        aya_cafe_owner_multi: It depends on the context. If it's a person, it means "an old friend."
-        aya_cafe_owner_multi: If it's a location, like this, it's more... a place you bring someone home to.
-        Hero: What if you need to meet your tavetaan at the tavetaan?
-        aya_cafe_owner_multi: Not so hard to understand. I'm sure your language has its quirks.
-        Hero: Don't get me started.
-        ↩ (goto) aya_cafe_owner_multi: [empty]
+        [00024801] Hero: What does "tavetaan" mean? My translator won't pick it up.
+        [000247FD] aya_cafe_owner_multi: It depends on the context. If it's a person, it means "an old friend."
+        [00024802] aya_cafe_owner_multi: If it's a location, like this, it's more... a place you bring someone home to.
+        [000247FC] Hero: What if you need to meet your tavetaan at the tavetaan?
+        [00024800] aya_cafe_owner_multi: Not so hard to understand. I'm sure your language has its quirks.
+        [000247FE] Hero: Don't get me started.
+        ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
     ├ option 2:
-        Hero: What's in that stuff?
-        aya_cafe_owner_multi: In short, everything. Nearly all the food we grow goes straight into processing.
-        aya_cafe_owner_multi: We can feed an entire planet in a single harvest. Even ship some off-world.
+        [00024204] Hero: What's in that stuff?
+        [000241FF] aya_cafe_owner_multi: In short, everything. Nearly all the food we grow goes straight into processing.
+        [00024206] aya_cafe_owner_multi: We can feed an entire planet in a single harvest. Even ship some off-world.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) aya_cafe_owner_multi: [empty]
+            ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
         ├ option 2:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: How do you stretch your food that far?
-                aya_cafe_owner_multi: It's complicated. Hard to explain without going into lengthy detail.
-                aya_cafe_owner_multi: But I'd be happy to send some to your ship, along with my process notes.
-                Hero: The Nexus would love that.
-                aya_cafe_owner_multi: Consider it done.
-                ↩ (goto) aya_cafe_owner_multi: [empty]
+                [00024200] Hero: How do you stretch your food that far?
+                [0002422B] aya_cafe_owner_multi: It's complicated. Hard to explain without going into lengthy detail.
+                [0002422A] aya_cafe_owner_multi: But I'd be happy to send some to your ship, along with my process notes.
+                [00024229] Hero: The Nexus would love that.
+                [00024226] aya_cafe_owner_multi: Consider it done.
+                ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
             ├ option 2:
-                Hero: If we used your system, we'd never have a food shortage.
-                aya_cafe_owner_multi: If you want, I can send a few samples to your ship. Your people can study it.
-                ↩ (goto) Hero: The Nexus would love that.
+                [00024209] Hero: If we used your system, we'd never have a food shortage.
+                [00024228] aya_cafe_owner_multi: If you want, I can send a few samples to your ship. Your people can study it.
+                ↩ (goto) [00024229] Hero: The Nexus would love that.
             └─ merge ─┘
         ├ option 3:
-            ↩ (goto) aya_cafe_owner_multi: [empty]
+            ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
         └─ merge ─┘
     ├ option 3:
-        Hero: I'd like a drink.
+        [0003546E] Hero: I'd like a drink.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) aya_cafe_owner_multi: [empty]
+            ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
         ├ option 2:
-            ↩ (goto) aya_cafe_owner_multi: [empty]
+            ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
         ├ option 3:
-            ↩ (goto) aya_cafe_owner_multi: [empty]
+            ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
         └─ merge ─┘
     ├ option 4:
-        Hero: That's all for now.
-        aya_cafe_owner_multi: Come back anytime.
+        [0002481D] Hero: That's all for now.
+        [0002481C] aya_cafe_owner_multi: Come back anytime.
     └─ merge ─┘
 ├ option 2:
-    aya_cafe_owner_multi: Welcome back.
-    ↩ (goto) aya_cafe_owner_multi: [empty]
+    [00024205] aya_cafe_owner_multi: Welcome back.
+    ↩ (goto) [0002423F] aya_cafe_owner_multi: [empty]
 └─ merge ─┘

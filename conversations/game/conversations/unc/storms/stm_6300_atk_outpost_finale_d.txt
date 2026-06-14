@@ -2,93 +2,93 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc/storms/stm_6300_atk_outpost_finale_d.xml
 ==================================================
-ustl_settle_01_admin_multi: Pathfinder?
-Hero: The Roekaar attack is over.
+[00020A38] ustl_settle_01_admin_multi: Pathfinder?
+[00020A37] Hero: The Roekaar attack is over.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ustl_settle_01_admin_multi ⟨cond⟩: Our military personnel were chafing at the bit. Better to get them patrolling so this never happens again.
-    ustl_settle_01_admin_multi: Special thanks to our friend, Jaal. It helps to show we're not all on opposite sides.
+    [000265E2] ustl_settle_01_admin_multi ⟨cond⟩: Our military personnel were chafing at the bit. Better to get them patrolling so this never happens again.
+    [00020A39] ustl_settle_01_admin_multi: Special thanks to our friend, Jaal. It helps to show we're not all on opposite sides.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: We can't assume anyone could be an enemy. That's no way to live.
-        ustl_settle_01_admin_multi: We're not planning on it.
-        Hero: How's the team holding up?
+        [00020CDB] Hero: We can't assume anyone could be an enemy. That's no way to live.
+        [00020CE0] ustl_settle_01_admin_multi: We're not planning on it.
+        [00020CE1] Hero: How's the team holding up?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ustl_settle_01_admin_multi ⟨cond⟩: They know the drill, but it's different when it's home.
-            Hero: Maybe I should say something?
-            ustl_settle_01_admin_multi: If you like.
-            Narration: Bradley shrugs, making way for the Pathfinder to address people via their omni-tool.
+            [000265E0] ustl_settle_01_admin_multi ⟨cond⟩: They know the drill, but it's different when it's home.
+            [00020CDD] Hero: Maybe I should say something?
+            [00020CE3] ustl_settle_01_admin_multi: If you like.
+            [00020CDE] Narration: Bradley shrugs, making way for the Pathfinder to address people via their omni-tool.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                Hero: I want you to know people will hear about this.
-                Narration: The Pathfinder pauses, expecting people to be proud.
-                Hero: Your bravery this day, and every day, will not go unrecorded.
-                Hero: I'll make sure there's a commendation in every record. You all deserve it.
-                Narration: Uncomfortable radio silence. What's their response?
-                stm_outpost_staff_science: [Comm] So... when do we get back to work?
-                Narration: Bradley shrugs and smiles. He and Ryder share a nice dad/son or daughter moment. Both are proud of the outpost team and what they've accomplished.
+                [00020A6E] Hero: I want you to know people will hear about this.
+                [00020B09] Narration: The Pathfinder pauses, expecting people to be proud.
+                [00020C9E] Hero: Your bravery this day, and every day, will not go unrecorded.
+                [00020C9C] Hero: I'll make sure there's a commendation in every record. You all deserve it.
+                [00020A85] Narration: Uncomfortable radio silence. What's their response?
+                [00020A81] stm_outpost_staff_science: [Comm] So... when do we get back to work?
+                [00020A7C] Narration: Bradley shrugs and smiles. He and Ryder share a nice dad/son or daughter moment. Both are proud of the outpost team and what they've accomplished.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    ustl_settle_01_admin_multi ⟨cond⟩: No awards asked or expected.
-                    ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
-                    ustl_settle_01_admin_multi: This wasn't a good day, but it was {i}another{/i} day. You gave them that.
-                    Narration: Bradley smiles spreading his arms as he leaves, gesturing at everything.
-                    ustl_settle_01_admin_multi: Your people, Ryder.
-                    Narration: Reaction shot of Ryder, proud.
+                    [00020C97] ustl_settle_01_admin_multi ⟨cond⟩: No awards asked or expected.
+                    [00020A7B] ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                    [00020A83] ustl_settle_01_admin_multi: This wasn't a good day, but it was {i}another{/i} day. You gave them that.
+                    [00020A86] Narration: Bradley smiles spreading his arms as he leaves, gesturing at everything.
+                    [00020A82] ustl_settle_01_admin_multi: Your people, Ryder.
+                    [00020A80] Narration: Reaction shot of Ryder, proud.
                 ├ option 2:
-                    ustl_settle_01_admin_multi ⟨cond⟩: No approval asked or expected.
-                    ↩ (goto) ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                    [00020C98] ustl_settle_01_admin_multi ⟨cond⟩: No approval asked or expected.
+                    ↩ (goto) [00020A7B] ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
                 ├ option 3:
-                    ustl_settle_01_admin_multi ⟨cond⟩: No apology asked or expected.
-                    ↩ (goto) ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                    [00020A7A] ustl_settle_01_admin_multi ⟨cond⟩: No apology asked or expected.
+                    ↩ (goto) [00020A7B] ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
                 ├ option 4:
-                    ustl_settle_01_admin_multi ⟨cond⟩: No vacation asked or expected.
-                    ↩ (goto) ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                    [00020B1B] ustl_settle_01_admin_multi ⟨cond⟩: No vacation asked or expected.
+                    ↩ (goto) [00020A7B] ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
                 └─ merge ─┘
             ├ option 2:
-                Hero: Time and time again, you've shown yourselves competent, and this was no exception.
-                Narration: The Pathfinder pauses, expecting people to be proud.
-                Hero: The infrastructure you've built, the skills you've developed...
-                Hero: Despite adversity, you remain a model for the cluster.
-                ↩ (goto) Narration: Uncomfortable radio silence. What's their response?
+                [00020A67] Hero: Time and time again, you've shown yourselves competent, and this was no exception.
+                [00020C9F] Narration: The Pathfinder pauses, expecting people to be proud.
+                [00020CA0] Hero: The infrastructure you've built, the skills you've developed...
+                [00020C9D] Hero: Despite adversity, you remain a model for the cluster.
+                ↩ (goto) [00020A85] Narration: Uncomfortable radio silence. What's their response?
             ├ option 3:
-                Hero: I just want to say... I'm sorry.
-                Narration: The Pathfinder pauses, saddened by what happened.
+                [00020A70] Hero: I just want to say... I'm sorry.
+                [00020A78] Narration: The Pathfinder pauses, saddened by what happened.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero ⟨cond⟩: We ask you to defend us, but this is meant to be your safe place.
-                    Hero: This shouldn't have happened, and I'm sorry it got this far.
-                    Hero: I'm sorry.
-                    ↩ (goto) Narration: Uncomfortable radio silence. What's their response?
+                    [000265E1] Hero ⟨cond⟩: We ask you to defend us, but this is meant to be your safe place.
+                    [00020A7D] Hero: This shouldn't have happened, and I'm sorry it got this far.
+                    [00020A88] Hero: I'm sorry.
+                    ↩ (goto) [00020A85] Narration: Uncomfortable radio silence. What's their response?
                 ├ option 2:
-                    Hero ⟨cond⟩: You're colonists. Explorers. We came here to live, not fight.
-                    ↩ (goto) Hero: This shouldn't have happened, and I'm sorry it got this far.
+                    [00020A7E] Hero ⟨cond⟩: You're colonists. Explorers. We came here to live, not fight.
+                    ↩ (goto) [00020A7D] Hero: This shouldn't have happened, and I'm sorry it got this far.
                 └─ merge ─┘
             ├ option 4:
-                Hero: This was a hell of a day, and you all deserve whatever break you want.
-                Narration: The Pathfinder pauses, expecting people to be relieved.
-                Hero: You've built a fine home. The Initiative still exists because of your efforts here.
-                Hero: Reward yourself, Prodromos. You've earned it.
-                ↩ (goto) Narration: Uncomfortable radio silence. What's their response?
+                [00020A6D] Hero: This was a hell of a day, and you all deserve whatever break you want.
+                [00020B07] Narration: The Pathfinder pauses, expecting people to be relieved.
+                [00020B08] Hero: You've built a fine home. The Initiative still exists because of your efforts here.
+                [00020B06] Hero: Reward yourself, Prodromos. You've earned it.
+                ↩ (goto) [00020A85] Narration: Uncomfortable radio silence. What's their response?
             └─ merge ─┘
         ├ option 2:
-            ustl_settle_01_admin_multi ⟨cond⟩: A little shell-shocked. Can't blame them.
-            ↩ (goto) Hero: Maybe I should say something?
+            [00020CDF] ustl_settle_01_admin_multi ⟨cond⟩: A little shell-shocked. Can't blame them.
+            ↩ (goto) [00020CDD] Hero: Maybe I should say something?
         └─ merge ─┘
     ├ option 2:
-        Hero: Jaal would agree there's a line that shouldn't be crossed. There'll always be people like Akksul.
-        ustl_settle_01_admin_multi: Not here. We'll see to that.
-        ↩ (goto) Hero: How's the team holding up?
+        [00020CD9] Hero: Jaal would agree there's a line that shouldn't be crossed. There'll always be people like Akksul.
+        [00020CE2] ustl_settle_01_admin_multi: Not here. We'll see to that.
+        ↩ (goto) [00020CE1] Hero: How's the team holding up?
     └─ merge ─┘
 ├ option 2:
-    ustl_settle_01_admin_multi ⟨cond⟩: We'll know what to watch for in the future. It can't just be this old man and his hunches.
-    ↩ (goto) ustl_settle_01_admin_multi: Special thanks to our friend, Jaal. It helps to show we're not all on opposite sides.
+    [00020CD8] ustl_settle_01_admin_multi ⟨cond⟩: We'll know what to watch for in the future. It can't just be this old man and his hunches.
+    ↩ (goto) [00020A39] ustl_settle_01_admin_multi: Special thanks to our friend, Jaal. It helps to show we're not all on opposite sides.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Narration: The people of Prodromos are looking on, stopping to regard the Pathfinder.
+    [00020CD7] Narration: The people of Prodromos are looking on, stopping to regard the Pathfinder.
 ├ option 2:
-    ustl_settle_01_admin_multi: You're all thinking it. I want this place shining by nightfall. You hear me, Prodromos? Because everyone heard {i}you{/i}.
-    Narration: General hell yeah resolve (nodding, not yelled). Bradley turns to the Pathfinder as the rest leave.
+    [00020A84] ustl_settle_01_admin_multi: You're all thinking it. I want this place shining by nightfall. You hear me, Prodromos? Because everyone heard {i}you{/i}.
+    [00020A87] Narration: General hell yeah resolve (nodding, not yelled). Bradley turns to the Pathfinder as the rest leave.
 └─ merge ─┘

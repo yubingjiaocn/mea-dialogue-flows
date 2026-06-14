@@ -2,93 +2,93 @@
 # Primary speaker: kad_bar_02
 # Source: game/conversations/unc/olw/slums/olw_slums_bartender_i.xml
 ==================================================
-kad_bar_02: What's your poison?
+[00017BD5] kad_bar_02: What's your poison?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: You mean alcohol, right? Wouldn't normally ask, but...
-    kad_bar_02: It's a fair question on Kadara. Toxic water. Killer outlaws. But, in this case, just an expression.
-    Narration: Ryder throws back her drink.
-    kad_bar_02: First round's on me. You're more reputable than my usual clientele.
+    [00017C01] Hero: You mean alcohol, right? Wouldn't normally ask, but...
+    [00017C07] kad_bar_02: It's a fair question on Kadara. Toxic water. Killer outlaws. But, in this case, just an expression.
+    [00017C09] Narration: Ryder throws back her drink.
+    [00017C0A] kad_bar_02: First round's on me. You're more reputable than my usual clientele.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Things better with the Collective gone?
-        kad_bar_02: You kidding? I lost my best customer.
-        kad_bar_02: Reyes may have been a liar, but the man knew how to drink. And he paid well.
+        [00029EE1] Hero ⟨cond⟩: Things better with the Collective gone?
+        [00029EDF] kad_bar_02: You kidding? I lost my best customer.
+        [00029ED4] kad_bar_02: Reyes may have been a liar, but the man knew how to drink. And he paid well.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: You knew he was the Charlatan?
-            kad_bar_02: Could ask you the same question.
+            [00029EDA] Hero: You knew he was the Charlatan?
+            [00029EDC] kad_bar_02: Could ask you the same question.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                kad_bar_02 ⟨cond⟩: Heard you two were {i}close{/i}.
-                Hero: Not anymore.
-                ↩ (goto) ?: [empty]
+                [00029EDE] kad_bar_02 ⟨cond⟩: Heard you two were {i}close{/i}.
+                [00029ED9] Hero: Not anymore.
+                ↩ (goto) [00017C00] ?: [empty]
             ├ option 2:
-                kad_bar_02: You visited him enough.
-                Hero: Guess we were both duped.
-                ↩ (goto) ?: [empty]
+                [00029EE5] kad_bar_02: You visited him enough.
+                [00029EE0] Hero: Guess we were both duped.
+                ↩ (goto) [00017C00] ?: [empty]
             └─ merge ─┘
         ├ option 2:
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero: What was it like after leaving the Nexus?
-                kad_bar_02: Oh, it was lovely. One big, smelly, mutineer party.
-                Hero: Your sarcasm survived the trip.
-                kad_bar_02: {i}(Chuckles.){/i} What can I say? It sucked. We had limited supplies and nowhere to go.
-                kad_bar_02: Kadara's paradise in comparison. Even with the shite water.
-                ↩ (goto) ?: [empty]
+                [00017BF7] Hero: What was it like after leaving the Nexus?
+                [00017C4D] kad_bar_02: Oh, it was lovely. One big, smelly, mutineer party.
+                [00017C4F] Hero: Your sarcasm survived the trip.
+                [00017C4B] kad_bar_02: {i}(Chuckles.){/i} What can I say? It sucked. We had limited supplies and nowhere to go.
+                [00017C51] kad_bar_02: Kadara's paradise in comparison. Even with the shite water.
+                ↩ (goto) [00017C00] ?: [empty]
             ├ option 2:
-                Hero: Your bar has a unique design... something tells me these cages aren't just decorative.
-                kad_bar_02: They're for your protection as much as ours. Trust me—my employees can take care of themselves.
-                Hero: Guessing you had issues?
-                kad_bar_02: Outlaws and pirates aren't known for their manners. Some customers got rowdy and ended up losing fingers.
-                kad_bar_02: The bars won't stop a bullet, but it's a clear warning to keep your hands to yourself.
-                ↩ (goto) ?: [empty]
+                [00017BFC] Hero: Your bar has a unique design... something tells me these cages aren't just decorative.
+                [00017C0D] kad_bar_02: They're for your protection as much as ours. Trust me—my employees can take care of themselves.
+                [00017C15] Hero: Guessing you had issues?
+                [00017C13] kad_bar_02: Outlaws and pirates aren't known for their manners. Some customers got rowdy and ended up losing fingers.
+                [00017BF6] kad_bar_02: The bars won't stop a bullet, but it's a clear warning to keep your hands to yourself.
+                ↩ (goto) [00017C00] ?: [empty]
             ├ option 3:
-                Hero: I'll let you get back to it.
-                kad_bar_02: Never enough drinks to pour.
+                [00017C0E] Hero: I'll let you get back to it.
+                [00017C4C] kad_bar_02: Never enough drinks to pour.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        Hero ⟨cond⟩: You happy Sloane's gone?
-        kad_bar_02: Put all drinks on the house. For one night only, of course.
-        kad_bar_02: Doubt it will be sunshine and rainbows from here on out.
-        kad_bar_02: But I like the Charlatan's style more than Sloane's. More lenient.
-        ↩ (goto) ?: [empty]
+        [00029ED5] Hero ⟨cond⟩: You happy Sloane's gone?
+        [00029EDD] kad_bar_02: Put all drinks on the house. For one night only, of course.
+        [00029ED6] kad_bar_02: Doubt it will be sunshine and rainbows from here on out.
+        [00029EE4] kad_bar_02: But I like the Charlatan's style more than Sloane's. More lenient.
+        ↩ (goto) [00017C00] ?: [empty]
     ├ option 3:
-        Hero ⟨cond⟩: The Outcasts or the Collective giving you any trouble?
-        kad_bar_02: Not really. They tend to shoot each other in remote places, where no one's looking.
-        kad_bar_02: That won't last forever. All it takes is one wrong move and things get ugly.
-        Hero: What will you do then?
-        kad_bar_02: Board up the place and hold out 'til the smoke clears.
-        ↩ (goto) ?: [empty]
+        [00017C14] Hero ⟨cond⟩: The Outcasts or the Collective giving you any trouble?
+        [00017C50] kad_bar_02: Not really. They tend to shoot each other in remote places, where no one's looking.
+        [00017C4E] kad_bar_02: That won't last forever. All it takes is one wrong move and things get ugly.
+        [00017C4A] Hero: What will you do then?
+        [00017C52] kad_bar_02: Board up the place and hold out 'til the smoke clears.
+        ↩ (goto) [00017C00] ?: [empty]
     ├ option 4:
-        ↩ (goto) Hero: What was it like after leaving the Nexus?
+        ↩ (goto) [00017BF7] Hero: What was it like after leaving the Nexus?
     ├ option 5:
-        ↩ (goto) Hero: Your bar has a unique design... something tells me these cages aren't just decorative.
+        ↩ (goto) [00017BFC] Hero: Your bar has a unique design... something tells me these cages aren't just decorative.
     ├ option 6:
-        ↩ (goto) Hero: I'll let you get back to it.
+        ↩ (goto) [00017C0E] Hero: I'll let you get back to it.
     └─ merge ─┘
 ├ option 2:
-    Hero: I'm not picky.
+    [00017C08] Hero: I'm not picky.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        kad_bar_02: My kind of customer.
-        ↩ (goto) Narration: Ryder throws back her drink.
+        [00017C0C] kad_bar_02: My kind of customer.
+        ↩ (goto) [00017C09] Narration: Ryder throws back her drink.
     ├ option 2:
-        kad_bar_02: My kind of customer.
-        ↩ (goto) Narration: Ryder throws back her drink.
+        [0001CF24] kad_bar_02: My kind of customer.
+        ↩ (goto) [00017C09] Narration: Ryder throws back her drink.
     └─ merge ─┘
 └─ merge ─┘
-kad_bar_02: Welcome back. Get you a drink?
+[00017C03] kad_bar_02: Welcome back. Get you a drink?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Sure. I'll have whatever you made me last time.
-    kad_bar_02: One Kadara Sunrise, coming up!
-    Narration: Ryder throws back her drink.
+    [00017BFE] Hero: Sure. I'll have whatever you made me last time.
+    [00017BF9] kad_bar_02: One Kadara Sunrise, coming up!
+    [00017C12] Narration: Ryder throws back her drink.
 ├ option 2:
-    Hero: Actually, I was hoping to chat.
-    kad_bar_02: Ah. The less financially satisfying part of my job.
-    ↩ (goto) ?: [empty]
+    [00017C02] Hero: Actually, I was hoping to chat.
+    [00017C06] kad_bar_02: Ah. The less financially satisfying part of my job.
+    ↩ (goto) [00017C00] ?: [empty]
 └─ merge ─┘
-↩ (goto) ?: [empty]
+↩ (goto) [00017C00] ?: [empty]

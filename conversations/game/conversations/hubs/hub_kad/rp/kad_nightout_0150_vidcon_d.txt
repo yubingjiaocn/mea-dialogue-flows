@@ -2,74 +2,74 @@
 # Primary speaker: kad_charlatan
 # Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0150_vidcon_d.xml
 ==================================================
-kad_charlatan: Ryder.
+[00010DC4] kad_charlatan: Ryder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    kad_charlatan ⟨cond⟩: I was just thinking about you.
+    [00010DC9] kad_charlatan ⟨cond⟩: I was just thinking about you.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I'd love to hear more, but this isn't a private channel.
-        kad_charlatan: I could tell you over drinks.
-        kad_charlatan: Sloane's holding a get-together for the locals. I managed to snag an invite. Care to be my plus-one?
+        [00010DD6] Hero: I'd love to hear more, but this isn't a private channel.
+        [00010DCC] kad_charlatan: I could tell you over drinks.
+        [00010DC0] kad_charlatan: Sloane's holding a get-together for the locals. I managed to snag an invite. Care to be my plus-one?
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero [OncePerGame]: Sloane doesn't seem like the party type.
-            kad_charlatan: She sees these events as a necessary evil to keep the people happy.
+            [00010DBF] Hero [OncePerGame]: Sloane doesn't seem like the party type.
+            [00010DC1] kad_charlatan: She sees these events as a necessary evil to keep the people happy.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero ⟨cond⟩ [OncePerGame]: Are you asking me out?
-                kad_charlatan: I promise to be a perfect gentleman.
+                [00010DCA] Hero ⟨cond⟩ [OncePerGame]: Are you asking me out?
+                [00010DC2] kad_charlatan: I promise to be a perfect gentleman.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: This is just a friendly night out.
-                    kad_charlatan: Whatever you want, Ryder.
+                    [00011363] Hero: This is just a friendly night out.
+                    [00011366] kad_charlatan: Whatever you want, Ryder.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero [OncePerGame]: Sloane doesn't seem like the party type.
+                        ↩ (goto) [00010DBF] Hero [OncePerGame]: Sloane doesn't seem like the party type.
                     ├ option 2:
-                        Hero: I'd never say no to free drinks.
-                        kad_charlatan: Especially from Sloane's reserve. I'll meet you outside Outcast HQ.
+                        [00010DD3] Hero: I'd never say no to free drinks.
+                        [00010DCE] kad_charlatan: Especially from Sloane's reserve. I'll meet you outside Outcast HQ.
                     ├ option 3:
-                        Hero: I'm too busy, Reyes. You'll have to make do without me.
-                        kad_charlatan: Your call. Don't work too hard, Ryder.
+                        [00010DD7] Hero: I'm too busy, Reyes. You'll have to make do without me.
+                        [00010DC6] kad_charlatan: Your call. Don't work too hard, Ryder.
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: And if I don't want you to be a gentleman?
-                    kad_charlatan: That can be arranged.
+                    [00011364] Hero: And if I don't want you to be a gentleman?
+                    [00011365] kad_charlatan: That can be arranged.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero [OncePerGame]: Sloane doesn't seem like the party type.
+                        ↩ (goto) [00010DBF] Hero [OncePerGame]: Sloane doesn't seem like the party type.
                     ├ option 2:
-                        ↩ (goto) Hero: I'd never say no to free drinks.
+                        ↩ (goto) [00010DD3] Hero: I'd never say no to free drinks.
                     ├ option 3:
-                        ↩ (goto) Hero: I'm too busy, Reyes. You'll have to make do without me.
+                        ↩ (goto) [00010DD7] Hero: I'm too busy, Reyes. You'll have to make do without me.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: I'd never say no to free drinks.
+                ↩ (goto) [00010DD3] Hero: I'd never say no to free drinks.
             ├ option 3:
-                ↩ (goto) Hero: I'm too busy, Reyes. You'll have to make do without me.
+                ↩ (goto) [00010DD7] Hero: I'm too busy, Reyes. You'll have to make do without me.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: Are you asking me out?
+            ↩ (goto) [00010DCA] Hero ⟨cond⟩ [OncePerGame]: Are you asking me out?
         ├ option 3:
-            ↩ (goto) Hero: I'd never say no to free drinks.
+            ↩ (goto) [00010DD3] Hero: I'd never say no to free drinks.
         ├ option 4:
-            ↩ (goto) Hero: I'm too busy, Reyes. You'll have to make do without me.
+            ↩ (goto) [00010DD7] Hero: I'm too busy, Reyes. You'll have to make do without me.
         └─ merge ─┘
     ├ option 2:
-        Hero: Suvi said you called about something important.
-        kad_charlatan: Thought you could use a night off.
-        ↩ (goto) kad_charlatan: Sloane's holding a get-together for the locals. I managed to snag an invite. Care to be my plus-one?
+        [00010DD5] Hero: Suvi said you called about something important.
+        [00010DCD] kad_charlatan: Thought you could use a night off.
+        ↩ (goto) [00010DC0] kad_charlatan: Sloane's holding a get-together for the locals. I managed to snag an invite. Care to be my plus-one?
     └─ merge ─┘
 ├ option 2:
-    kad_charlatan: How's my favorite Pathfinder?
+    [00010DC8] kad_charlatan: How's my favorite Pathfinder?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Just enjoying another day of what Heleus has to offer. Why?
-        kad_charlatan: Thought we could grab a drink.
-        ↩ (goto) kad_charlatan: Sloane's holding a get-together for the locals. I managed to snag an invite. Care to be my plus-one?
+        [00010DBE] Hero: Just enjoying another day of what Heleus has to offer. Why?
+        [00010DCB] kad_charlatan: Thought we could grab a drink.
+        ↩ (goto) [00010DC0] kad_charlatan: Sloane's holding a get-together for the locals. I managed to snag an invite. Care to be my plus-one?
     ├ option 2:
-        ↩ (goto) Hero: Suvi said you called about something important.
+        ↩ (goto) [00010DD5] Hero: Suvi said you called about something important.
     └─ merge ─┘
 └─ merge ─┘

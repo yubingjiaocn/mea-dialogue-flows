@@ -2,14 +2,14 @@
 # Primary speaker: ustl_settle_01_admin_multi
 # Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0420_hall_update_a.xml
 ==================================================
-loyalty_hmm_pirate_leader: [Loudspeaker] Get me grav control! Idiots!
-ustl_settle_01_admin_multi: [Comm] Fight him for it. Report!
+[0001E411] loyalty_hmm_pirate_leader: [Loudspeaker] Get me grav control! Idiots!
+[0001E3FA] ustl_settle_01_admin_multi: [Comm] Fight him for it. Report!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    loyalty_hmm_shuttle_engineer_01_multi ⟨cond⟩: [Comm] Kett framework, angaran patch job.
-    loyalty_hmm_shuttle_engineer_03_multi: [Comm] 40% functional at best. Partially stripped.
-    loyalty_hmm_shuttle_engineer_02_multi: [Comm] Parted out, then dumped. A junker.
+    [0001E3FB] loyalty_hmm_shuttle_engineer_01_multi ⟨cond⟩: [Comm] Kett framework, angaran patch job.
+    [0001E401] loyalty_hmm_shuttle_engineer_03_multi: [Comm] 40% functional at best. Partially stripped.
+    [0001E3FE] loyalty_hmm_shuttle_engineer_02_multi: [Comm] Parted out, then dumped. A junker.
 ├ option 2:
-    stm_legacy_chief_engineer_multi: [Comm] Kett foundation, angaran patch job.
-    ↩ (goto) loyalty_hmm_shuttle_engineer_03_multi: [Comm] 40% functional at best. Partially stripped.
+    [0001FE10] stm_legacy_chief_engineer_multi: [Comm] Kett foundation, angaran patch job.
+    ↩ (goto) [0001E401] loyalty_hmm_shuttle_engineer_03_multi: [Comm] 40% functional at best. Partially stripped.
 └─ merge ─┘

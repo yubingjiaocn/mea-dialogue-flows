@@ -2,36 +2,36 @@
 # Primary speaker: ICE_Holger
 # Source: game/conversations/unc_ice/ice_onefalse_0100_i.xml
 ==================================================
-ICE_Holger: [Comm] Hey. Human. You got a death wish?
+[00031676] ICE_Holger: [Comm] Hey. Human. You got a death wish?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: If you're watching me, show yourself.
-    ICE_Holger: [Comm] You couldn't see me if you tried.
-    ICE_Holger: [Comm] Holger. Resistance. I'm hiding in a sniper nest two clicks from you.
-    ICE_Holger: [Comm] You're standing in a kett minefield. Didn't you notice the warning marker?
-    Hero: Obviously not.
-    SAM: That would explain the source of the unusual reading I detected. A coded beacon.
-    ICE_Holger: [Comm] Can't believe you didn't trip any mines. Don't know how you'll get out in one piece, either.
-    Hero: Scanning ought to show where the mines are buried.
+    [00031687] Hero: If you're watching me, show yourself.
+    [0003168A] ICE_Holger: [Comm] You couldn't see me if you tried.
+    [0003167A] ICE_Holger: [Comm] Holger. Resistance. I'm hiding in a sniper nest two clicks from you.
+    [00031675] ICE_Holger: [Comm] You're standing in a kett minefield. Didn't you notice the warning marker?
+    [0003167B] Hero: Obviously not.
+    [00031678] SAM: That would explain the source of the unusual reading I detected. A coded beacon.
+    [0003168B] ICE_Holger: [Comm] Can't believe you didn't trip any mines. Don't know how you'll get out in one piece, either.
+    [00031688] Hero: Scanning ought to show where the mines are buried.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: One shot from a weapon will detonate a mine.
-        ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
-        ICE_Holger: [Comm] If you don't make it, I'll let the base know where to find your remains.
+        [0003168E] global_squad_angara ⟨cond⟩: One shot from a weapon will detonate a mine.
+        [0003169C] ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
+        [0003169B] ICE_Holger: [Comm] If you don't make it, I'll let the base know where to find your remains.
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: If we know where to shoot, the rest is easy.
-        ↩ (goto) ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
+        [00031690] global_squad_krogan ⟨cond⟩: If we know where to shoot, the rest is easy.
+        ↩ (goto) [0003169C] ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Don't have to disarm—just set them off. Ammo works.
-        ↩ (goto) ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
+        [0003168F] global_squad_turian ⟨cond⟩: Don't have to disarm—just set them off. Ammo works.
+        ↩ (goto) [0003169C] ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
     ├ option 4:
-        global_squad_female_human ⟨cond⟩: We can remote-trip mines with weapons fire.
-        ↩ (goto) ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
+        [00031691] global_squad_female_human ⟨cond⟩: We can remote-trip mines with weapons fire.
+        ↩ (goto) [0003169C] ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Guess we could shoot the mines 'til they blow...
-        ↩ (goto) ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
+        [00031692] global_squad_male_human ⟨cond⟩: Guess we could shoot the mines 'til they blow...
+        ↩ (goto) [0003169C] ICE_Holger: [Comm] Better work fast. Kett patrols pass through pretty often.
     └─ merge ─┘
 ├ option 2:
-    Hero: Uh... not as far as I know. Who's this?
-    ↩ (goto) ICE_Holger: [Comm] Holger. Resistance. I'm hiding in a sniper nest two clicks from you.
+    [00031679] Hero: Uh... not as far as I know. Who's this?
+    ↩ (goto) [0003167A] ICE_Holger: [Comm] Holger. Resistance. I'm hiding in a sniper nest two clicks from you.
 └─ merge ─┘

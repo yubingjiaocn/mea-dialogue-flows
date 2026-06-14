@@ -2,26 +2,26 @@
 # Primary speaker: dune_gun_runner
 # Source: game/conversations/unc_dunes/dune_family_0190_comm_a.xml
 ==================================================
-SAM: I detect multiple hostile lifeforms.
-Hero ⟨cond⟩: Isabel could be in trouble. Let's move.
-dune_gun_runner: [Comm] Okay, hold it. You. The one killing my guys.
-dune_gun_runner: [Comm] Come in here. I want to talk to you.
-Hero: Was that... Isabel?
+[0002B6AC] SAM: I detect multiple hostile lifeforms.
+[0002B6AB] Hero ⟨cond⟩: Isabel could be in trouble. Let's move.
+[0002B674] dune_gun_runner: [Comm] Okay, hold it. You. The one killing my guys.
+[0002B675] dune_gun_runner: [Comm] Come in here. I want to talk to you.
+[0002B68B] Hero: Was that... Isabel?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Sounds like she's in charge.
-    Hero: Oh boy.
+    [0002B688] global_squad_krogan ⟨cond⟩: Sounds like she's in charge.
+    [0002B689] Hero: Oh boy.
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Oh man, she's leading these guys.
-    ↩ (goto) Hero: Oh boy.
+    [0002B68C] global_squad_asari ⟨cond⟩: Oh man, she's leading these guys.
+    ↩ (goto) [0002B689] Hero: Oh boy.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Sounds like she's running things here.
-    ↩ (goto) Hero: Oh boy.
+    [0002B687] global_squad_turian ⟨cond⟩: Sounds like she's running things here.
+    ↩ (goto) [0002B689] Hero: Oh boy.
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: Don't think Kent was expecting his sister to run a gang.
-    ↩ (goto) Hero: Oh boy.
+    [0002B685] global_squad_male_human ⟨cond⟩: Don't think Kent was expecting his sister to run a gang.
+    ↩ (goto) [0002B689] Hero: Oh boy.
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: So she's in charge of these guys.
-    ↩ (goto) Hero: Oh boy.
+    [0002B686] global_squad_female_human ⟨cond⟩: So she's in charge of these guys.
+    ↩ (goto) [0002B689] Hero: Oh boy.
 └─ merge ─┘
-↩ (goto) dune_gun_runner ⟨cond⟩: [empty]
+↩ (goto) [0002B68A] dune_gun_runner ⟨cond⟩: [empty]

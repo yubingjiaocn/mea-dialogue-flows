@@ -2,72 +2,72 @@
 # Primary speaker: nex_culcen_pfvi_female
 # Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_pfvi_kiosk_f_i.xml
 ==================================================
-nex_culcen_pfvi_female ⟨cond⟩: Hello. This display describes our Pathfinders, the Initiative's elite explorers.
+[00023232] nex_culcen_pfvi_female ⟨cond⟩: Hello. This display describes our Pathfinders, the Initiative's elite explorers.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Tell me about Pathfinders.
+    [000233A6] Hero: Tell me about Pathfinders.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        nex_culcen_pfvi_female ⟨cond⟩: Pathfinders survey distant worlds and discover promising new outpost sites for the Initiative.
-        nex_culcen_pfvi_female: Our colonization efforts wouldn't be possible without them.
+        [00023238] nex_culcen_pfvi_female ⟨cond⟩: Pathfinders survey distant worlds and discover promising new outpost sites for the Initiative.
+        [000233A3] nex_culcen_pfvi_female: Our colonization efforts wouldn't be possible without them.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero: Tough job. Do Pathfinders have help?
+            [0002339B] Hero: Tough job. Do Pathfinders have help?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nex_culcen_pfvi_female ⟨cond⟩: Each Pathfinder has a team of talented specialists drawn from multiple backgrounds and species.
-                ↩ (goto) Hero: [empty]
+                [0002323A] nex_culcen_pfvi_female ⟨cond⟩: Each Pathfinder has a team of talented specialists drawn from multiple backgrounds and species.
+                ↩ (goto) [000233A1] Hero: [empty]
             ├ option 2:
-                nex_culcen_pfvi_female ⟨cond⟩: Each Pathfinder is linked to a partner AI that allows them to study new worlds in hours instead of months.
-                ↩ (goto) Hero: [empty]
+                [0002323B] nex_culcen_pfvi_female ⟨cond⟩: Each Pathfinder is linked to a partner AI that allows them to study new worlds in hours instead of months.
+                ↩ (goto) [000233A1] Hero: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero: How does someone usually become a Pathfinder?
+            [0002339E] Hero: How does someone usually become a Pathfinder?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nex_culcen_pfvi_female ⟨cond⟩: The minimal requirements are: survival training, AI compatibility testing, and military or scientific experience.
-                nex_culcen_pfvi_female: If you're interested, submit your candidacy to the Pathfinder Headquarters.
-                ↩ (goto) Hero: [empty]
+                [00023242] nex_culcen_pfvi_female ⟨cond⟩: The minimal requirements are: survival training, AI compatibility testing, and military or scientific experience.
+                [000232EE] nex_culcen_pfvi_female: If you're interested, submit your candidacy to the Pathfinder Headquarters.
+                ↩ (goto) [000233A1] Hero: [empty]
             ├ option 2:
-                nex_culcen_pfvi_female ⟨cond⟩: Our Pathfinders are selected from promising candidates of every species. Former Pathfinders include:
-                nex_culcen_pfvi_female: Alec Ryder, N7 operative.
+                [00023243] nex_culcen_pfvi_female ⟨cond⟩: Our Pathfinders are selected from promising candidates of every species. Former Pathfinders include:
+                [0002324A] nex_culcen_pfvi_female: Alec Ryder, N7 operative.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    nex_culcen_pfvi_female ⟨cond⟩: Zevin Raeka, savior of Erinle.
+                    [00023249] nex_culcen_pfvi_female ⟨cond⟩: Zevin Raeka, savior of Erinle.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        nex_culcen_pfvi_female ⟨cond⟩: Matriarch Ishara, of the Kormoth Peace Accords.
+                        [0002324B] nex_culcen_pfvi_female ⟨cond⟩: Matriarch Ishara, of the Kormoth Peace Accords.
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            nex_culcen_pfvi_female ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
-                            nex_culcen_pfvi_female: We honor them.
-                            ↩ (goto) Hero: [empty]
+                            [00023248] nex_culcen_pfvi_female ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
+                            [000232E5] nex_culcen_pfvi_female: We honor them.
+                            ↩ (goto) [000233A1] Hero: [empty]
                         ├ option 2:
-                            ↩ (goto) nex_culcen_pfvi_female: We honor them.
+                            ↩ (goto) [000232E5] nex_culcen_pfvi_female: We honor them.
                         └─ merge ─┘
                     ├ option 2:
-                        ↩ (goto) nex_culcen_pfvi_female ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
+                        ↩ (goto) [00023248] nex_culcen_pfvi_female ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
                     ├ option 3:
-                        ↩ (goto) nex_culcen_pfvi_female: We honor them.
+                        ↩ (goto) [000232E5] nex_culcen_pfvi_female: We honor them.
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) nex_culcen_pfvi_female ⟨cond⟩: Matriarch Ishara, of the Kormoth Peace Accords.
+                    ↩ (goto) [0002324B] nex_culcen_pfvi_female ⟨cond⟩: Matriarch Ishara, of the Kormoth Peace Accords.
                 ├ option 3:
-                    ↩ (goto) nex_culcen_pfvi_female ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
+                    ↩ (goto) [00023248] nex_culcen_pfvi_female ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
                 ├ option 4:
-                    nex_culcen_pfvi_female: We honor him.
-                    ↩ (goto) Hero: [empty]
+                    [0002330D] nex_culcen_pfvi_female: We honor him.
+                    ↩ (goto) [000233A1] Hero: [empty]
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 3:
-            nex_culcen_pfvi_female: If you see a Pathfinder on your travels, be sure to say hello.
+            [000233A5] nex_culcen_pfvi_female: If you see a Pathfinder on your travels, be sure to say hello.
         └─ merge ─┘
     ├ option 2:
-        nex_culcen_pfvi_female ⟨cond⟩: Pathfinders are often the first to encounter new species, making them first contact ambassadors as well as explorers.
-        nex_culcen_pfvi_female: They work hard to ensure everyone knows the Initiative is peaceful.
-        ↩ (goto) Hero: [empty]
+        [00023239] nex_culcen_pfvi_female ⟨cond⟩: Pathfinders are often the first to encounter new species, making them first contact ambassadors as well as explorers.
+        [000233A8] nex_culcen_pfvi_female: They work hard to ensure everyone knows the Initiative is peaceful.
+        ↩ (goto) [000233A1] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: Maybe later.
-    nex_culcen_pfvi_female: Enjoy your day.
+    [0002339F] Hero: Maybe later.
+    [000233A7] nex_culcen_pfvi_female: Enjoy your day.
 └─ merge ─┘

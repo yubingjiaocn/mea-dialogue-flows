@@ -4,94 +4,94 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_salarian_pathfinder_multi ⟨cond⟩: {i}(Coughs.){/i}
-    global_salarian_pathfinder_multi: Making a quiet exit?
+    [0002ECF1] global_salarian_pathfinder_multi ⟨cond⟩: {i}(Coughs.){/i}
+    [0002AAF2] global_salarian_pathfinder_multi: Making a quiet exit?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: You know the job doesn't end.
+            [00022DAC] Hero ⟨cond⟩: You know the job doesn't end.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi ⟨cond⟩: Perhaps not. But we all need to remember what called us to it.
+                [00022FA0] global_salarian_pathfinder_multi ⟨cond⟩: Perhaps not. But we all need to remember what called us to it.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_salarian_pathfinder_multi ⟨cond⟩: I tried to think of a way to honor what you did. Some protocol.
-                    global_salarian_pathfinder_multi: There isn't one.
-                    global_salarian_pathfinder_multi: Your father invented this role. But you defined it.
+                    [0002AAF8] global_salarian_pathfinder_multi ⟨cond⟩: I tried to think of a way to honor what you did. Some protocol.
+                    [0002AAF9] global_salarian_pathfinder_multi: There isn't one.
+                    [0002AAFF] global_salarian_pathfinder_multi: Your father invented this role. But you defined it.
                     ┌─ BRANCH (4) ─┐
                     ├ option 1:
-                        Hero ⟨cond⟩: We've done what was needed. And this will always be here for us.
-                        Hero: But there's a galaxy out there. And you're all pioneers. That's why you're here.
-                        Hero: We're not done.
+                        [0002AAFE] Hero ⟨cond⟩: We've done what was needed. And this will always be here for us.
+                        [0002ABE4] Hero: But there's a galaxy out there. And you're all pioneers. That's why you're here.
+                        [0002AC6D] Hero: We're not done.
                     ├ option 2:
-                        Hero ⟨cond⟩: Meridian is humanity's home, and maybe one for all of Heleus. We did that.
-                        Hero: But I'm the Pathfinder. I should be out there, on the Tempest with all of you.
-                        Hero: Let's go home.
-                        ↩ (goto) global_squad_male_human: [empty]
+                        [0002AAFD] Hero ⟨cond⟩: Meridian is humanity's home, and maybe one for all of Heleus. We did that.
+                        [0002AB19] Hero: But I'm the Pathfinder. I should be out there, on the Tempest with all of you.
+                        [0002AB3B] Hero: Let's go home.
+                        ↩ (goto) [0002AB39] global_squad_male_human: [empty]
                     ├ option 3:
-                        Hero ⟨cond⟩: We've achieved a lot. But the Initiative still needs us.
-                        Hero: And if I know my crew, you want to get back out there.
-                        Hero: Let's get to work.
-                        ↩ (goto) global_squad_male_human: [empty]
+                        [0002AC77] Hero ⟨cond⟩: We've achieved a lot. But the Initiative still needs us.
+                        [0002ACA7] Hero: And if I know my crew, you want to get back out there.
+                        [0002ACAA] Hero: Let's get to work.
+                        ↩ (goto) [0002AB39] global_squad_male_human: [empty]
                     ├ option 4:
-                        Hero ⟨cond⟩: This is great and all, but it feels weird to be on a ship that isn't moving.
-                        Hero: We're explorers. There's more to see out there.
-                        Hero: Let's go find it.
-                        ↩ (goto) global_squad_male_human: [empty]
+                        [0002AC74] Hero ⟨cond⟩: This is great and all, but it feels weird to be on a ship that isn't moving.
+                        [0002ACA9] Hero: We're explorers. There's more to see out there.
+                        [0002ACA5] Hero: Let's go find it.
+                        ↩ (goto) [0002AB39] global_squad_male_human: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    crit_kett_salarian_captain_multi: I'm new to this role myself. The training didn't cover how to honor your peers.
-                    crit_kett_salarian_captain_multi: There's no protocol.
-                    crit_kett_salarian_captain_multi: Your father invented this role. But you defined it.
-                    ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                    [0002ACAF] crit_kett_salarian_captain_multi: I'm new to this role myself. The training didn't cover how to honor your peers.
+                    [0002ACB0] crit_kett_salarian_captain_multi: There's no protocol.
+                    [0002ACAD] crit_kett_salarian_captain_multi: Your father invented this role. But you defined it.
+                    ↩ (goto) [0002AAFB] global_salarian_pathfinder_multi: [empty]
                 └─ merge ─┘
             ├ option 2:
-                crit_kett_salarian_captain_multi: Yes, but it does change. More than I expected.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [0002ACB2] crit_kett_salarian_captain_multi: Yes, but it does change. More than I expected.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero ⟨cond⟩: It's no fun having the boss at the party.
+            [00022DAF] Hero ⟨cond⟩: It's no fun having the boss at the party.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi ⟨cond⟩: Have you asked? I wager that most would disagree.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [00022F9F] global_salarian_pathfinder_multi ⟨cond⟩: Have you asked? I wager that most would disagree.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             ├ option 2:
-                crit_kett_salarian_captain_multi: That depends entirely on the type of leader.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [0002ACAE] crit_kett_salarian_captain_multi: That depends entirely on the type of leader.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             └─ merge ─┘
         ├ option 3:
-            Hero ⟨cond⟩: I can't stop thinking of what I could be doing. How much is still out there.
+            [0002AC76] Hero ⟨cond⟩: I can't stop thinking of what I could be doing. How much is still out there.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi ⟨cond⟩: There's always more. That is what brought us to Andromeda.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [0002AC7D] global_salarian_pathfinder_multi ⟨cond⟩: There's always more. That is what brought us to Andromeda.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             ├ option 2:
-                crit_kett_salarian_captain_multi: I feel the same. It's a strange type of hunger that changes galaxies.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [0002ACAC] crit_kett_salarian_captain_multi: I feel the same. It's a strange type of hunger that changes galaxies.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             └─ merge ─┘
         ├ option 4:
-            Hero ⟨cond⟩: Figured I'd leave before I teared up. No one needs to see that.
+            [0002AC7B] Hero ⟨cond⟩: Figured I'd leave before I teared up. No one needs to see that.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi ⟨cond⟩: I expect that honesty is part of what draws them to you.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [0002AC7A] global_salarian_pathfinder_multi ⟨cond⟩: I expect that honesty is part of what draws them to you.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             ├ option 2:
-                crit_kett_salarian_captain_multi: Some may want to see exactly that. To know you feel the same as they do.
-                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                [0002ACB1] crit_kett_salarian_captain_multi: Some may want to see exactly that. To know you feel the same as they do.
+                ↩ (goto) [0002AC9A] global_salarian_pathfinder_multi: [empty]
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+        ↩ (goto) [0002AC73] global_salarian_pathfinder_multi: [empty]
     ├ option 3:
-        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+        ↩ (goto) [0002AC73] global_salarian_pathfinder_multi: [empty]
     ├ option 4:
-        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+        ↩ (goto) [0002AC73] global_salarian_pathfinder_multi: [empty]
     ├ option 5:
-        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+        ↩ (goto) [0002AC73] global_salarian_pathfinder_multi: [empty]
     └─ merge ─┘
 ├ option 2:
-    crit_kett_salarian_captain_multi: {i}(Coughs.){/i}
-    crit_kett_salarian_captain_multi: Leaving so soon?
-    ↩ (goto) Hero: [empty]
+    [0002ECF0] crit_kett_salarian_captain_multi: {i}(Coughs.){/i}
+    [00022D6F] crit_kett_salarian_captain_multi: Leaving so soon?
+    ↩ (goto) [00022D70] Hero: [empty]
 └─ merge ─┘

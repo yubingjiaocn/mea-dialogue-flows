@@ -2,34 +2,34 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/crit_vlt/Crit_Vlt_0175_first_cham_peebee_d.xml
 ==================================================
-Narration: Ryder and their team discover a large chamber with another gravity well.
-Narration: The "Remnant Puzzle Box" is prominently displayed. It is pretty and memorable.
-global_squad_asari: Another gravity well, and... that's new.
-Narration: She picks it up.
-Hero: What is it?
-global_squad_asari: A symbol of authority? A key? It's easy to speculate with Remnant, but we need more facts.
-global_squad_asari: I'll see what I can find on this beauty. Maybe over this way...
-Hero: Whatever has this place on lockdown is {i}that{/i} way.
-global_squad_asari: I do my best work solo. You fix up the vault, I'll investigate the relic, and together we'll figure this place out.
+[00010BFF] Narration: Ryder and their team discover a large chamber with another gravity well.
+[00010C00] Narration: The "Remnant Puzzle Box" is prominently displayed. It is pretty and memorable.
+[00010BFE] global_squad_asari: Another gravity well, and... that's new.
+[00010C01] Narration: She picks it up.
+[00010D42] Hero: What is it?
+[00010D41] global_squad_asari: A symbol of authority? A key? It's easy to speculate with Remnant, but we need more facts.
+[00010C0A] global_squad_asari: I'll see what I can find on this beauty. Maybe over this way...
+[00010C0B] Hero: Whatever has this place on lockdown is {i}that{/i} way.
+[00010C08] global_squad_asari: I do my best work solo. You fix up the vault, I'll investigate the relic, and together we'll figure this place out.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Not a bad idea. We'll cover twice the ground.
-    global_squad_asari: See, I knew you were smart.
-    global_squad_asari: I'm on frequency 145.8. Stay safe.
-    Narration: Peebee leaves.
+    [00012126] Hero: Not a bad idea. We'll cover twice the ground.
+    [00012127] global_squad_asari: See, I knew you were smart.
+    [00009770] global_squad_asari: I'm on frequency 145.8. Stay safe.
+    [0000A2B2] Narration: Peebee leaves.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: Ten credits says she ends up in a pit of spikes.
+        [0000A2B6] global_squad_male_human ⟨cond⟩: Ten credits says she ends up in a pit of spikes.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: It can't be too risky for her with everything turned off, right?
-        ↩ (goto) global_squad_turian: [empty]
+        [0000A2B7] global_squad_turian ⟨cond⟩: It can't be too risky for her with everything turned off, right?
+        ↩ (goto) [0000A2BC] global_squad_turian: [empty]
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: Nice knowing you.
-        ↩ (goto) global_squad_turian: [empty]
+        [0000A2B3] global_squad_krogan ⟨cond⟩: Nice knowing you.
+        ↩ (goto) [0000A2BC] global_squad_turian: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: You don't watch many horror vids, do you? We have no idea what's down here.
-    global_squad_asari: And we never will, if we miss something because we're huddled in a group. I'll be careful.
-    Hero: Just stay on the radio.
-    ↩ (goto) global_squad_asari: I'm on frequency 145.8. Stay safe.
+    [00012124] Hero: You don't watch many horror vids, do you? We have no idea what's down here.
+    [00012128] global_squad_asari: And we never will, if we miss something because we're huddled in a group. I'll be careful.
+    [00009772] Hero: Just stay on the radio.
+    ↩ (goto) [00009770] global_squad_asari: I'm on frequency 145.8. Stay safe.
 └─ merge ─┘

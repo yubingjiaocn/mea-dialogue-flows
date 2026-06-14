@@ -2,85 +2,85 @@
 # Primary speaker: bio_archeoastronomer
 # Source: game/conversations/unc/biolum/bio_forgstar_0000_questart_i.xml
 ==================================================
-bio_archeoastronomer: I told my colleagues what you did for me. You've made a lot of friends on Havarl, Pathfinder.
+[00032801] bio_archeoastronomer: I told my colleagues what you did for me. You've made a lot of friends on Havarl, Pathfinder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Any promising leads on lost angara colonies?
-    bio_archeoastronomer: A few. We're quietly investigating systems, but it takes time.
-    bio_archeoastronomer: In the meantime, the recent upheaval exposed ruins we never knew existed down in the valley.
-    bio_archeoastronomer: I'm told there are glyphs that resemble star charts. I'm staying to investigate. I'd better get to work.
+    [0003296C] Hero: Any promising leads on lost angara colonies?
+    [0003296E] bio_archeoastronomer: A few. We're quietly investigating systems, but it takes time.
+    [0003296D] bio_archeoastronomer: In the meantime, the recent upheaval exposed ruins we never knew existed down in the valley.
+    [00032976] bio_archeoastronomer: I'm told there are glyphs that resemble star charts. I'm staying to investigate. I'd better get to work.
 ├ option 2:
-    Hero: The feeling's mutual. I hope you find your lost colonies.
-    bio_archeoastronomer: If they exist, our people out there need to know they're not alone.
-    ↩ (goto) bio_archeoastronomer: In the meantime, the recent upheaval exposed ruins we never knew existed down in the valley.
+    [0003296A] Hero: The feeling's mutual. I hope you find your lost colonies.
+    [0003296F] bio_archeoastronomer: If they exist, our people out there need to know they're not alone.
+    ↩ (goto) [0003296D] bio_archeoastronomer: In the meantime, the recent upheaval exposed ruins we never knew existed down in the valley.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    bio_archeoastronomer: The creatures infesting my old home are still there. I can't recover my research.
+    [000327EF] bio_archeoastronomer: The creatures infesting my old home are still there. I can't recover my research.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Your work is too important to lose. Let's get it back.
-        bio_archeoastronomer: I'll provide my home's location. Just recover my research materials from the computer.
-        bio_archeoastronomer: I'll remain in contact with you by comm. Thank you for this.
+        [000327CA] Hero: Your work is too important to lose. Let's get it back.
+        [000327F4] bio_archeoastronomer: I'll provide my home's location. Just recover my research materials from the computer.
+        [00032806] bio_archeoastronomer: I'll remain in contact with you by comm. Thank you for this.
     ├ option 2:
-        Hero: There's nothing I can do for you right now.
-        bio_archeoastronomer: Very well.
+        [0003280F] Hero: There's nothing I can do for you right now.
+        [00032811] bio_archeoastronomer: Very well.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        bio_archeoastronomer: I heard you were out here. You saved Kiiran Dals' team.
-        Hero: The name's Ryder. I'm with the Andromeda Initiative.
-        bio_archeoastronomer: They say you want to help us. I wonder what you're prepared to do?
+        [00032615] bio_archeoastronomer: I heard you were out here. You saved Kiiran Dals' team.
+        [00032620] Hero: The name's Ryder. I'm with the Andromeda Initiative.
+        [00032621] bio_archeoastronomer: They say you want to help us. I wonder what you're prepared to do?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I'm ready to prove my people are good allies.
-            bio_archeoastronomer: A strong statement that doesn't answer my question.
-            bio_archeoastronomer: My name is Raashel Vier. I'm an archeoastronomer.
-            bio_archeoastronomer: I study our ancient cultural records of stellar phenomena. I piece together lost knowledge of ages past.
-            bio_archeoastronomer: My goal is to find undiscovered colonies we lost contact with—potential allies against the kett.
-            Hero: You think there might be angara worlds you don't know about?
-            bio_archeoastronomer: That's what I was trying to learn—then this happened. I was away when the disaster struck.
-            bio_archeoastronomer: I thought my home was destroyed, and all my research with it. But I just learned part of the building survived.
-            bio_archeoastronomer: I'm trying to recover my research data, but the wildlife won't let me near my old home.
+            [00032624] Hero: I'm ready to prove my people are good allies.
+            [00032630] bio_archeoastronomer: A strong statement that doesn't answer my question.
+            [00032631] bio_archeoastronomer: My name is Raashel Vier. I'm an archeoastronomer.
+            [00032634] bio_archeoastronomer: I study our ancient cultural records of stellar phenomena. I piece together lost knowledge of ages past.
+            [00032632] bio_archeoastronomer: My goal is to find undiscovered colonies we lost contact with—potential allies against the kett.
+            [000327C4] Hero: You think there might be angara worlds you don't know about?
+            [000327C5] bio_archeoastronomer: That's what I was trying to learn—then this happened. I was away when the disaster struck.
+            [000327C6] bio_archeoastronomer: I thought my home was destroyed, and all my research with it. But I just learned part of the building survived.
+            [000327C7] bio_archeoastronomer: I'm trying to recover my research data, but the wildlife won't let me near my old home.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero [OncePerGame]: These houseguests, I assume they're of the hungry variety?
-                bio_archeoastronomer: The structure has become a breeding ground for insects and predators. Too many to face alone.
+                [000327D8] Hero [OncePerGame]: These houseguests, I assume they're of the hungry variety?
+                [000327D7] bio_archeoastronomer: The structure has become a breeding ground for insects and predators. Too many to face alone.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: Your work is too important to lose. Let's get it back.
+                    ↩ (goto) [000327CA] Hero: Your work is too important to lose. Let's get it back.
                 ├ option 2:
-                    Hero: Wildlife tends to move on if you leave it alone. I'll check back later, if I have time.
-                    bio_archeoastronomer: Animals on Havarl are... persistent. I doubt I'm going anywhere.
+                    [000327CC] Hero: Wildlife tends to move on if you leave it alone. I'll check back later, if I have time.
+                    [000327EE] bio_archeoastronomer: Animals on Havarl are... persistent. I doubt I'm going anywhere.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: Your work is too important to lose. Let's get it back.
+                ↩ (goto) [000327CA] Hero: Your work is too important to lose. Let's get it back.
             ├ option 3:
-                ↩ (goto) Hero: Wildlife tends to move on if you leave it alone. I'll check back later, if I have time.
+                ↩ (goto) [000327CC] Hero: Wildlife tends to move on if you leave it alone. I'll check back later, if I have time.
             └─ merge ─┘
         ├ option 2:
-            Hero: If it gets me on your good side, I'm in.
-            bio_archeoastronomer: That's... reassuring? Assuming you mean well...
-            ↩ (goto) bio_archeoastronomer: My name is Raashel Vier. I'm an archeoastronomer.
+            [00032627] Hero: If it gets me on your good side, I'm in.
+            [00032628] bio_archeoastronomer: That's... reassuring? Assuming you mean well...
+            ↩ (goto) [00032631] bio_archeoastronomer: My name is Raashel Vier. I'm an archeoastronomer.
         └─ merge ─┘
     ├ option 2:
-        bio_archeoastronomer: I heard the advisory that you'd be out here. It didn't prepare me to meet you.
-        ↩ (goto) Hero: The name's Ryder. I'm with the Andromeda Initiative.
+        [0003261C] bio_archeoastronomer: I heard the advisory that you'd be out here. It didn't prepare me to meet you.
+        ↩ (goto) [00032620] Hero: The name's Ryder. I'm with the Andromeda Initiative.
     └─ merge ─┘
 └─ merge ─┘
-bio_archeoastronomer: Even out here, I've heard what you've done to save Havarl.
-↩ (goto) Hero: The name's Ryder. I'm with the Andromeda Initiative.
+[00032614] bio_archeoastronomer: Even out here, I've heard what you've done to save Havarl.
+↩ (goto) [00032620] Hero: The name's Ryder. I'm with the Andromeda Initiative.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        bio_archeoastronomer: My hopes rest with you. Please, help me recover my research.
+        [000327FD] bio_archeoastronomer: My hopes rest with you. Please, help me recover my research.
     ├ option 2:
-        bio_archeoastronomer: When you locate my research, we can talk over the comm.
+        [00032868] bio_archeoastronomer: When you locate my research, we can talk over the comm.
     ├ option 3:
-        bio_archeoastronomer: My research could turn the tide against the kett. I need it back.
+        [00032869] bio_archeoastronomer: My research could turn the tide against the kett. I need it back.
     └─ merge ─┘
 ├ option 2:
-    bio_archeoastronomer: Paavoa, Pathfinder. Always good to see you.
+    [00032971] bio_archeoastronomer: Paavoa, Pathfinder. Always good to see you.
 └─ merge ─┘

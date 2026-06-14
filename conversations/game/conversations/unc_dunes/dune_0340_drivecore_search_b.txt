@@ -2,117 +2,117 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_dunes/dune_0340_drivecore_search_b.xml
 ==================================================
-global_crew_science_officer: [Comm] Pathfinder. That signature SAM uploaded for the missing Remnant drive core? It's near your present location.
-global_crew_science_officer: Scanning the area should narrow the search radius.
-Hero: Thanks, Suvi. SAM, scan the area.
+[0001CD05] global_crew_science_officer: [Comm] Pathfinder. That signature SAM uploaded for the missing Remnant drive core? It's near your present location.
+[0001D84A] global_crew_science_officer: Scanning the area should narrow the search radius.
+[0001D84D] Hero: Thanks, Suvi. SAM, scan the area.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: These scavengers are desperate. I'm worried they'll do anything to keep the core.
+    [0001D851] global_squad_male_human ⟨cond⟩: These scavengers are desperate. I'm worried they'll do anything to keep the core.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: What's this thing worth to them?
+        [0001D848] global_squad_angara ⟨cond⟩: What's this thing worth to them?
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: No idea, but it's gotta be huge. A lot of their friends died for it.
+            [0001D85B] global_squad_male_human ⟨cond⟩: No idea, but it's gotta be huge. A lot of their friends died for it.
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Their friends died for it, so, a lot.
+            [0001D852] global_squad_krogan ⟨cond⟩: Their friends died for it, so, a lot.
         ├ option 3:
-            global_squad_turian ⟨cond⟩: Seems like they threw everything they had at it—must be a lot.
+            [0001D858] global_squad_turian ⟨cond⟩: Seems like they threw everything they had at it—must be a lot.
         ├ option 4:
-            global_squad_asari ⟨cond⟩: Come on. Remnant tech has to be a huge payday.
+            [0001D84B] global_squad_asari ⟨cond⟩: Come on. Remnant tech has to be a huge payday.
         ├ option 5:
-            global_squad_female_human ⟨cond⟩: No idea. A lot of their friends died getting it, though.
+            [0001D853] global_squad_female_human ⟨cond⟩: No idea. A lot of their friends died getting it, though.
         └─ merge ─┘
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: What's this thing worth to them?
-        ↩ (goto) Hero: [empty]
+        [0001D84F] global_squad_female_human ⟨cond⟩: What's this thing worth to them?
+        ↩ (goto) [0001D849] Hero: [empty]
     ├ option 3:
-        global_squad_asari ⟨cond⟩: What's this thing worth to them?
-        ↩ (goto) Hero: [empty]
+        [0001D850] global_squad_asari ⟨cond⟩: What's this thing worth to them?
+        ↩ (goto) [0001D849] Hero: [empty]
     ├ option 4:
-        global_squad_turian ⟨cond⟩: What's this thing worth to them?
-        ↩ (goto) Hero: [empty]
+        [0001D85A] global_squad_turian ⟨cond⟩: What's this thing worth to them?
+        ↩ (goto) [0001D849] Hero: [empty]
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: What's this thing worth to them?
-        ↩ (goto) Hero: [empty]
+        [0001D85C] global_squad_krogan ⟨cond⟩: What's this thing worth to them?
+        ↩ (goto) [0001D849] Hero: [empty]
     ├ option 6:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0001D849] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: These scavengers are scum, but also desperate. And desperate is bad.
-    ↩ (goto) Hero: [empty]
+    [0001D855] global_squad_krogan ⟨cond⟩: These scavengers are scum, but also desperate. And desperate is bad.
+    ↩ (goto) [0001D847] Hero: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Scavengers on this planet are so desperate. It's worrying.
-    ↩ (goto) Hero: [empty]
+    [0001D859] global_squad_turian ⟨cond⟩: Scavengers on this planet are so desperate. It's worrying.
+    ↩ (goto) [0001D847] Hero: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: If the core is so important to these scavengers, I worry what they'll do to keep it.
-    ↩ (goto) Hero: [empty]
+    [0001D857] global_squad_asari ⟨cond⟩: If the core is so important to these scavengers, I worry what they'll do to keep it.
+    ↩ (goto) [0001D847] Hero: [empty]
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: These scavengers are the most desperate I've seen. I dunno.
-    ↩ (goto) Hero: [empty]
+    [0001D856] global_squad_female_human ⟨cond⟩: These scavengers are the most desperate I've seen. I dunno.
+    ↩ (goto) [0001D847] Hero: [empty]
 ├ option 6:
-    ↩ (goto) Hero: [empty]
+    ↩ (goto) [0001D847] Hero: [empty]
 └─ merge ─┘
-global_crew_science_officer: [Comm] Nearing the new area where the signature for the Remnant drive core was detected.
-global_crew_science_officer: [Comm] We'll need to scan the area to zero in on the signal.
-Hero: Thanks, Suvi.
+[0001D2FD] global_crew_science_officer: [Comm] Nearing the new area where the signature for the Remnant drive core was detected.
+[0001D8C5] global_crew_science_officer: [Comm] We'll need to scan the area to zero in on the signal.
+[0001D8B6] Hero: Thanks, Suvi.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: If Morda wanted to use the drive core to build a bomb—that's a mighty big bomb.
+    [0001D8BC] global_squad_male_human ⟨cond⟩: If Morda wanted to use the drive core to build a bomb—that's a mighty big bomb.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: It's too bad. The raw power it contains could advance their colony by decades.
+        [0001D8B7] global_squad_angara ⟨cond⟩: It's too bad. The raw power it contains could advance their colony by decades.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: So could forcing the Nexus to give 'em everything we've got.
+            [0001D8C1] global_squad_male_human ⟨cond⟩: So could forcing the Nexus to give 'em everything we've got.
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: So could forcing the Nexus to give them everything. Lots in the colony feel they deserve it.
+            [0001D8B8] global_squad_krogan ⟨cond⟩: So could forcing the Nexus to give them everything. Lots in the colony feel they deserve it.
         ├ option 3:
-            global_squad_turian ⟨cond⟩: So could forcing the Nexus to hand over the supply stores.
+            [0001D8C3] global_squad_turian ⟨cond⟩: So could forcing the Nexus to hand over the supply stores.
         ├ option 4:
-            global_squad_asari ⟨cond⟩: So could forcing the Nexus to give them everything we've got.
+            [0001D8C6] global_squad_asari ⟨cond⟩: So could forcing the Nexus to give them everything we've got.
         ├ option 5:
-            global_squad_female_human ⟨cond⟩: So could forcing the Nexus to give them everything we've got.
+            [0001D8C2] global_squad_female_human ⟨cond⟩: So could forcing the Nexus to give them everything we've got.
         └─ merge ─┘
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: It's too bad. The raw power it contains could advance their colony by decades.
-        ↩ (goto) Hero: [empty]
+        [0001D8B4] global_squad_female_human ⟨cond⟩: It's too bad. The raw power it contains could advance their colony by decades.
+        ↩ (goto) [0001D8B3] Hero: [empty]
     ├ option 3:
-        global_squad_asari ⟨cond⟩: It's too bad. The raw power of it could advance their colony by decades.
-        ↩ (goto) Hero: [empty]
+        [0001D8B5] global_squad_asari ⟨cond⟩: It's too bad. The raw power of it could advance their colony by decades.
+        ↩ (goto) [0001D8B3] Hero: [empty]
     ├ option 4:
-        global_squad_turian ⟨cond⟩: It's too bad. The simple raw power could advance their colony by decades.
-        ↩ (goto) Hero: [empty]
+        [0001D8C0] global_squad_turian ⟨cond⟩: It's too bad. The simple raw power could advance their colony by decades.
+        ↩ (goto) [0001D8B3] Hero: [empty]
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: It's too bad. The raw power it contains would advance the krogan by decades.
-        ↩ (goto) Hero: [empty]
+        [0001D8C8] global_squad_krogan ⟨cond⟩: It's too bad. The raw power it contains would advance the krogan by decades.
+        ↩ (goto) [0001D8B3] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: I still can't believe Morda's trying to build a bomb.
-    ↩ (goto) Hero: [empty]
+    [0001D8BD] global_squad_krogan ⟨cond⟩: I still can't believe Morda's trying to build a bomb.
+    ↩ (goto) [0001D8C4] Hero: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: This core would make one big-ass bomb, right?
-    ↩ (goto) Hero: [empty]
+    [0001D8BF] global_squad_turian ⟨cond⟩: This core would make one big-ass bomb, right?
+    ↩ (goto) [0001D8C4] Hero: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Why a bomb? Will Morda listen to reason?
-    ↩ (goto) Hero: [empty]
+    [0001D8BA] global_squad_asari ⟨cond⟩: Why a bomb? Will Morda listen to reason?
+    ↩ (goto) [0001D8C4] Hero: [empty]
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: If Morda's building a bomb, well, that's a mighty big bomb.
-    ↩ (goto) Hero: [empty]
+    [0001D8B2] global_squad_female_human ⟨cond⟩: If Morda's building a bomb, well, that's a mighty big bomb.
+    ↩ (goto) [0001D8C4] Hero: [empty]
 ├ option 6:
-    ↩ (goto) Hero: [empty]
+    ↩ (goto) [0001D8C4] Hero: [empty]
 └─ merge ─┘
-global_crew_science_officer: [Comm] I've detected the drive core signal, stronger than ever. Scanning should discover where it's coming from.
-Hero: Got it.
+[0001D2FE] global_crew_science_officer: [Comm] I've detected the drive core signal, stronger than ever. Scanning should discover where it's coming from.
+[00020A21] Hero: Got it.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: These thieves are in for the shock of their lives.
+    [00020A22] global_squad_male_human ⟨cond⟩: These thieves are in for the shock of their lives.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: These scavenger scum won't be expecting us!
+    [00020A23] global_squad_krogan ⟨cond⟩: These scavenger scum won't be expecting us!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Can't wait to see the shock on their faces.
+    [00020A24] global_squad_turian ⟨cond⟩: Can't wait to see the shock on their faces.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: These guys are in for the surprise of their lives.
+    [00020A26] global_squad_asari ⟨cond⟩: These guys are in for the surprise of their lives.
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: These scavengers are in for quite a shock.
+    [00020A25] global_squad_female_human ⟨cond⟩: These scavengers are in for quite a shock.
 └─ merge ─┘

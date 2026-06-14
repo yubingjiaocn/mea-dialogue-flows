@@ -4,68 +4,68 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Here come the kett! Not gonna let us go without a fight.
-    global_squad_angara: I don't know how this is going to end!
-    global_angaran_elder_multi: I will help!
-    global_angaran_elder_multi: Come. Stand near me!
-    global_squad_angara: No, Moshae! Save your strength!
-    global_angaran_elder_multi: That's my decision to make.
+    [00021C75] global_squad_female_human ⟨cond⟩: Here come the kett! Not gonna let us go without a fight.
+    [00006ACD] global_squad_angara: I don't know how this is going to end!
+    [00006EC9] global_angaran_elder_multi: I will help!
+    [00021CD4] global_angaran_elder_multi: Come. Stand near me!
+    [00006EC8] global_squad_angara: No, Moshae! Save your strength!
+    [00006ECA] global_angaran_elder_multi: That's my decision to make.
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: Kett incoming. Not gonna let us go without a fight.
-    ↩ (goto) global_squad_angara: I don't know how this is going to end!
+    [00021C71] global_squad_krogan ⟨cond⟩: Kett incoming. Not gonna let us go without a fight.
+    ↩ (goto) [00006ACD] global_squad_angara: I don't know how this is going to end!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Kett incoming! They're not gonna make this easy.
-    ↩ (goto) global_squad_angara: I don't know how this is going to end!
+    [00021C70] global_squad_turian ⟨cond⟩: Kett incoming! They're not gonna make this easy.
+    ↩ (goto) [00006ACD] global_squad_angara: I don't know how this is going to end!
 ├ option 4:
-    global_squad_asari ⟨cond⟩: And... here come the kett! Guess they want their Moshae back.
-    ↩ (goto) global_squad_angara: I don't know how this is going to end!
+    [00021C74] global_squad_asari ⟨cond⟩: And... here come the kett! Guess they want their Moshae back.
+    ↩ (goto) [00006ACD] global_squad_angara: I don't know how this is going to end!
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Kett incoming! Couldn't let us just walk out, I guess.
-    ↩ (goto) global_squad_angara: I don't know how this is going to end!
+    [00021C72] global_squad_male_human ⟨cond⟩: Kett incoming! Couldn't let us just walk out, I guess.
+    ↩ (goto) [00006ACD] global_squad_angara: I don't know how this is going to end!
 └─ merge ─┘
 ┌─ BRANCH (10) ─┐
 ├ option 1:
-    global_angaran_elder_multi: Come close! I'll shield you!
+    [00021CD3] global_angaran_elder_multi: Come close! I'll shield you!
 ├ option 2:
-    global_angaran_elder_multi: I'm injured.
+    [00022410] global_angaran_elder_multi: I'm injured.
 ├ option 3:
-    global_angaran_elder_multi: I feel myself failing. Leave me behind if you must.
+    [00022411] global_angaran_elder_multi: I feel myself failing. Leave me behind if you must.
 ├ option 4:
-    global_angaran_elder_multi: {i}(Cries out.){/i}
-    global_squad_angara: Moshae!
-    global_angaran_elder_multi: I'm okay.
-    global_squad_angara: Forward! Let's go! No turning back!
+    [0002241A] global_angaran_elder_multi: {i}(Cries out.){/i}
+    [00022423] global_squad_angara: Moshae!
+    [00022422] global_angaran_elder_multi: I'm okay.
+    [00022419] global_squad_angara: Forward! Let's go! No turning back!
 ├ option 5:
-    Hero: Moshae Sjefa! How're you holding up!
-    global_angaran_elder_multi: Fine! Never been better!
+    [0002241D] Hero: Moshae Sjefa! How're you holding up!
+    [00022413] global_angaran_elder_multi: Fine! Never been better!
 ├ option 6:
-    global_angaran_elder_multi: I'm going to keep pushing forward. Follow me!
+    [00022418] global_angaran_elder_multi: I'm going to keep pushing forward. Follow me!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Jaal, your teacher is amazing.
-        global_angaran_elder_multi: Never underestimate me!
+        [0002241C] global_squad_female_human ⟨cond⟩: Jaal, your teacher is amazing.
+        [00022421] global_angaran_elder_multi: Never underestimate me!
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Jaal, are you sure your teacher isn't part krogan?
-        ↩ (goto) global_angaran_elder_multi: Never underestimate me!
+        [00022414] global_squad_krogan ⟨cond⟩: Jaal, are you sure your teacher isn't part krogan?
+        ↩ (goto) [00022421] global_angaran_elder_multi: Never underestimate me!
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Jaal, your teacher is impressive.
-        ↩ (goto) global_angaran_elder_multi: Never underestimate me!
+        [0002240F] global_squad_turian ⟨cond⟩: Jaal, your teacher is impressive.
+        ↩ (goto) [00022421] global_angaran_elder_multi: Never underestimate me!
     ├ option 4:
-        global_squad_asari ⟨cond⟩: Jaal, your teacher is crazy—in a good way.
-        ↩ (goto) global_angaran_elder_multi: Never underestimate me!
+        [00022412] global_squad_asari ⟨cond⟩: Jaal, your teacher is crazy—in a good way.
+        ↩ (goto) [00022421] global_angaran_elder_multi: Never underestimate me!
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Jaal, this was your teacher? Hope you paid attention.
-        ↩ (goto) global_angaran_elder_multi: Never underestimate me!
+        [0002241E] global_squad_male_human ⟨cond⟩: Jaal, this was your teacher? Hope you paid attention.
+        ↩ (goto) [00022421] global_angaran_elder_multi: Never underestimate me!
     └─ merge ─┘
 ├ option 7:
-    global_angaran_elder_multi: My shield is holding! Stay nearby!
+    [00022420] global_angaran_elder_multi: My shield is holding! Stay nearby!
 ├ option 8:
-    global_angaran_elder_multi: I'm moving forward. Follow me!
+    [0002245B] global_angaran_elder_multi: I'm moving forward. Follow me!
 ├ option 9:
-    global_angaran_elder_multi: No kett can stop us now! We defeated them here, where they live.
-    global_squad_angara: That's right!
-    global_angaran_elder_multi: Move up! We'll be rescued and leave this place.
+    [0002245C] global_angaran_elder_multi: No kett can stop us now! We defeated them here, where they live.
+    [00022461] global_squad_angara: That's right!
+    [00022460] global_angaran_elder_multi: Move up! We'll be rescued and leave this place.
 ├ option 10:
-    global_angaran_elder_multi: Jaal, you and your alien friends are fearsome.
-    global_angaran_elder_multi: I'll find a path for us! Come this way.
+    [00022464] global_angaran_elder_multi: Jaal, you and your alien friends are fearsome.
+    [00022463] global_angaran_elder_multi: I'll find a path for us! Come this way.
 └─ merge ─┘

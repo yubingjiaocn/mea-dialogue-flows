@@ -2,190 +2,190 @@
 # Primary speaker: stm_outpost_staff_engineer
 # Source: game/conversations/unc/storms/stm_0960_outpost_engineer_i.xml
 ==================================================
-stm_outpost_staff_engineer [OncePerGame]: You haven't got a fuel cell, have you? The quartermaster says there's plenty, but she would.
-stm_outpost_staff_engineer: Wait. Shit, you're the Pathfinder! Sorry. No one said VIPs were coming by.
-Hero: I'm just Ryder. Nice to meet you.
+[00017AB1] stm_outpost_staff_engineer [OncePerGame]: You haven't got a fuel cell, have you? The quartermaster says there's plenty, but she would.
+[0001D869] stm_outpost_staff_engineer: Wait. Shit, you're the Pathfinder! Sorry. No one said VIPs were coming by.
+[00017A92] Hero: I'm just Ryder. Nice to meet you.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    stm_outpost_staff_engineer ⟨cond⟩: It's... a pleasure to meet you, too. I'm Fawkes, chief engineer, at your service.
+    [0001D86A] stm_outpost_staff_engineer ⟨cond⟩: It's... a pleasure to meet you, too. I'm Fawkes, chief engineer, at your service.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        Hero: What do you do here?
-        stm_outpost_staff_engineer: My team gets things going. Water, power, communications: everything a civilization needs.
-        stm_outpost_staff_engineer: Well, not laws or a constitution, but it's easier to concentrate on those when you've got a flushing toilet.
-        ↩ (goto) Hero: [empty]
+        [00017AA5] Hero: What do you do here?
+        [00017AA6] stm_outpost_staff_engineer: My team gets things going. Water, power, communications: everything a civilization needs.
+        [00017AAA] stm_outpost_staff_engineer: Well, not laws or a constitution, but it's easier to concentrate on those when you've got a flushing toilet.
+        ↩ (goto) [00017A93] Hero: [empty]
     ├ option 2:
-        Hero: What do you think about your new home?
+        [00017AA9] Hero: What do you think about your new home?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            stm_outpost_staff_engineer ⟨cond⟩: It's really feeling like home now. All our utilities are set up, new colonists arrive every day...
-            stm_outpost_staff_engineer: No, new {i}citizens{/i}. Prodromos isn't just an outpost now, she's a town.
+            [0001DD6D] stm_outpost_staff_engineer ⟨cond⟩: It's really feeling like home now. All our utilities are set up, new colonists arrive every day...
+            [0001DD6E] stm_outpost_staff_engineer: No, new {i}citizens{/i}. Prodromos isn't just an outpost now, she's a town.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                stm_outpost_staff_engineer ⟨cond⟩: I, uh, guess you're an honorary citizen too? We wouldn't have any of this without you.
-                ↩ (goto) Hero: [empty]
+                [0001DD70] stm_outpost_staff_engineer ⟨cond⟩: I, uh, guess you're an honorary citizen too? We wouldn't have any of this without you.
+                ↩ (goto) [00017A93] Hero: [empty]
             ├ option 2:
-                stm_outpost_staff_engineer: And you laid the foundation. Must feel good to see how she's doing.
-                ↩ (goto) Hero: [empty]
+                [0001DD6F] stm_outpost_staff_engineer: And you laid the foundation. Must feel good to see how she's doing.
+                ↩ (goto) [00017A93] Hero: [empty]
             └─ merge ─┘
         ├ option 2:
-            stm_outpost_staff_engineer ⟨cond⟩: We've had time to run full mining surveys, and it's more promising than we thought.
-            stm_outpost_staff_engineer: Give us a few years, the right facilities, and Eos might be supplying a bunch of colonies.
-            stm_outpost_staff_engineer: Wouldn't that be a great turnaround?
-            ↩ (goto) Hero: [empty]
+            [0001DC46] stm_outpost_staff_engineer ⟨cond⟩: We've had time to run full mining surveys, and it's more promising than we thought.
+            [0001DCA4] stm_outpost_staff_engineer: Give us a few years, the right facilities, and Eos might be supplying a bunch of colonies.
+            [0001DCA2] stm_outpost_staff_engineer: Wouldn't that be a great turnaround?
+            ↩ (goto) [00017A93] Hero: [empty]
         ├ option 3:
-            stm_outpost_staff_engineer: First impressions? We've got water, clear skies for solar power, plants to farm...
+            [00017AAC] stm_outpost_staff_engineer: First impressions? We've got water, clear skies for solar power, plants to farm...
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                stm_outpost_staff_engineer ⟨cond⟩: The Remnant are a wild card. But I hear you almost have that solved, which is... amazing.
-                stm_outpost_staff_engineer: And you found us a good site here. I, uh, I think Eos is really going to be special.
-                ↩ (goto) Hero: [empty]
+                [0001DC47] stm_outpost_staff_engineer ⟨cond⟩: The Remnant are a wild card. But I hear you almost have that solved, which is... amazing.
+                [0001DC44] stm_outpost_staff_engineer: And you found us a good site here. I, uh, I think Eos is really going to be special.
+                ↩ (goto) [00017A93] Hero: [empty]
             ├ option 2:
-                stm_outpost_staff_engineer: The Remnant are a wild card, but Bradley says you have them covered.
-                stm_outpost_staff_engineer: It'll take work, no question. But I think Eos is really going to be something.
-                ↩ (goto) Hero: [empty]
+                [0001DC45] stm_outpost_staff_engineer: The Remnant are a wild card, but Bradley says you have them covered.
+                [0001DC43] stm_outpost_staff_engineer: It'll take work, no question. But I think Eos is really going to be something.
+                ↩ (goto) [00017A93] Hero: [empty]
             └─ merge ─┘
         └─ merge ─┘
     ├ option 3:
-        Hero: What brought you all the way to Andromeda?
-        stm_outpost_staff_engineer: There's a colony back home you've never heard of, Viridis. It failed, hard. I grew up there watching things fall apart.
-        stm_outpost_staff_engineer: When I left, I got into infrastructure, civil engineering. Boring stuff unless you've ever lived without it.
-        stm_outpost_staff_engineer: I wanted to... do Viridis right, I guess. And the Initiative was my best chance.
+        [00017AA4] Hero: What brought you all the way to Andromeda?
+        [0001DC98] stm_outpost_staff_engineer: There's a colony back home you've never heard of, Viridis. It failed, hard. I grew up there watching things fall apart.
+        [0001DC9A] stm_outpost_staff_engineer: When I left, I got into infrastructure, civil engineering. Boring stuff unless you've ever lived without it.
+        [0001DC99] stm_outpost_staff_engineer: I wanted to... do Viridis right, I guess. And the Initiative was my best chance.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            stm_outpost_staff_engineer ⟨cond⟩: Um. Thanks for asking.
-            ↩ (goto) Hero: [empty]
+            [0001DCA1] stm_outpost_staff_engineer ⟨cond⟩: Um. Thanks for asking.
+            ↩ (goto) [00017A93] Hero: [empty]
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [00017A93] Hero: [empty]
         └─ merge ─┘
     ├ option 4:
-        Hero [OncePerConversation]: What are the other outpost staff like?
+        [00017AAF] Hero [OncePerConversation]: What are the other outpost staff like?
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            stm_outpost_staff_engineer [OncePerGame]: Like Connor, you mean? She's pretty fun when you get to know her.
-            stm_outpost_staff_engineer: Just don't get to know her over a poker game. Trust me.
-            ↩ (goto) Hero: [empty]
+            [0001DCCF] stm_outpost_staff_engineer [OncePerGame]: Like Connor, you mean? She's pretty fun when you get to know her.
+            [0001DD87] stm_outpost_staff_engineer: Just don't get to know her over a poker game. Trust me.
+            ↩ (goto) [00017A93] Hero: [empty]
         ├ option 2:
-            stm_outpost_staff_engineer [OncePerGame]: Bradley's shaping up to be a good mayor. Solves problems, settles new people, breaks up fights...
-            stm_outpost_staff_engineer: Even if we get other candidates down the road, I'll keep voting for him.
-            ↩ (goto) Hero: [empty]
+            [0001DCD0] stm_outpost_staff_engineer [OncePerGame]: Bradley's shaping up to be a good mayor. Solves problems, settles new people, breaks up fights...
+            [0001DD86] stm_outpost_staff_engineer: Even if we get other candidates down the road, I'll keep voting for him.
+            ↩ (goto) [00017A93] Hero: [empty]
         ├ option 3:
-            stm_outpost_staff_engineer [OncePerGame]: Hainly's nice, but—intense, you know? All about work.
+            [0001DCD1] stm_outpost_staff_engineer [OncePerGame]: Hainly's nice, but—intense, you know? All about work.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                stm_outpost_staff_engineer ⟨cond⟩: She's mellowed out since her fiance arrived, though.
-                ↩ (goto) Hero: [empty]
+                [0001DD85] stm_outpost_staff_engineer ⟨cond⟩: She's mellowed out since her fiance arrived, though.
+                ↩ (goto) [00017A93] Hero: [empty]
             ├ option 2:
-                stm_outpost_staff_engineer: I think she misses her fiance. Maybe it's her way of dealing.
-                ↩ (goto) Hero: [empty]
+                [0001DD89] stm_outpost_staff_engineer: I think she misses her fiance. Maybe it's her way of dealing.
+                ↩ (goto) [00017A93] Hero: [empty]
             └─ merge ─┘
         ├ option 4:
-            stm_outpost_staff_engineer [OncePerGame]: I don't know Doctor Ramirez very well. He's fine to talk to, but doesn't socialize much.
-            stm_outpost_staff_engineer: He's tight with Mayor Bradley, though, so he must be okay.
-            ↩ (goto) Hero: [empty]
+            [0001DCD2] stm_outpost_staff_engineer [OncePerGame]: I don't know Doctor Ramirez very well. He's fine to talk to, but doesn't socialize much.
+            [0001DD88] stm_outpost_staff_engineer: He's tight with Mayor Bradley, though, so he must be okay.
+            ↩ (goto) [00017A93] Hero: [empty]
         ├ option 5:
-            stm_outpost_staff_engineer: We're all getting along. I keep the lights on, and everyone's happy.
-            ↩ (goto) Hero: [empty]
+            [00017AB4] stm_outpost_staff_engineer: We're all getting along. I keep the lights on, and everyone's happy.
+            ↩ (goto) [00017A93] Hero: [empty]
         └─ merge ─┘
     ├ option 5:
-        Hero: Bye, Fawkes.
+        [00017AA0] Hero: Bye, Fawkes.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            stm_outpost_staff_engineer ⟨cond⟩: Bye. Stay safe out there!
+            [00017AA8] stm_outpost_staff_engineer ⟨cond⟩: Bye. Stay safe out there!
         ├ option 2:
-            stm_outpost_staff_engineer: Have a good one.
+            [0001D870] stm_outpost_staff_engineer: Have a good one.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    stm_outpost_staff_engineer: Likewise. I'm Fawkes, chief engineer for Prodromos. Anything you need, ask away.
-    ↩ (goto) Hero: [empty]
+    [00017A97] stm_outpost_staff_engineer: Likewise. I'm Fawkes, chief engineer for Prodromos. Anything you need, ask away.
+    ↩ (goto) [00017A93] Hero: [empty]
 └─ merge ─┘
-stm_outpost_staff_engineer: I wish I could've helped with the Roekaar. I felt... kind of useless.
-stm_outpost_staff_engineer: Then again, I build roads and make water flow. All the Roekaar can do is kill people.
-↩ (goto) Hero: [empty]
-stm_outpost_staff_engineer: Hainly was spinning some yarn about my survey hammers waking up a giant Remnant.
-stm_outpost_staff_engineer: Ha! Good one, right? Right?
-↩ (goto) Hero: [empty]
-stm_outpost_staff_engineer: Hainly says you're taking my survey hammers into the field.
-stm_outpost_staff_engineer: Hope they work out. Just watch your fingers. And everyone else's.
-↩ (goto) Hero: [empty]
-stm_outpost_staff_engineer: We heard about Meridian—and felt it, too. God, the power of something like that...
+[0002ACFF] stm_outpost_staff_engineer: I wish I could've helped with the Roekaar. I felt... kind of useless.
+[0002AD02] stm_outpost_staff_engineer: Then again, I build roads and make water flow. All the Roekaar can do is kill people.
+↩ (goto) [00017A93] Hero: [empty]
+[0002ACFB] stm_outpost_staff_engineer: Hainly was spinning some yarn about my survey hammers waking up a giant Remnant.
+[0002ACFE] stm_outpost_staff_engineer: Ha! Good one, right? Right?
+↩ (goto) [00017A93] Hero: [empty]
+[0002ACFD] stm_outpost_staff_engineer: Hainly says you're taking my survey hammers into the field.
+[0002AD00] stm_outpost_staff_engineer: Hope they work out. Just watch your fingers. And everyone else's.
+↩ (goto) [00017A93] Hero: [empty]
+[00017A91] stm_outpost_staff_engineer: We heard about Meridian—and felt it, too. God, the power of something like that...
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    stm_outpost_staff_engineer ⟨cond⟩: I, uh, I'm glad you made it out okay.
-    Hero: Thanks, Fawkes.
-    stm_outpost_staff_engineer: Anything you need? Besides activating miracle technology—that's your department.
-    ↩ (goto) Hero: [empty]
+    [0001DDC1] stm_outpost_staff_engineer ⟨cond⟩: I, uh, I'm glad you made it out okay.
+    [0001DDC6] Hero: Thanks, Fawkes.
+    [0001DDC5] stm_outpost_staff_engineer: Anything you need? Besides activating miracle technology—that's your department.
+    ↩ (goto) [00017A93] Hero: [empty]
 ├ option 2:
-    stm_outpost_staff_engineer: I'm glad we didn't lose our Pathfinder in all the craziness.
-    ↩ (goto) Hero: Thanks, Fawkes.
+    [0001DDC7] stm_outpost_staff_engineer: I'm glad we didn't lose our Pathfinder in all the craziness.
+    ↩ (goto) [0001DDC6] Hero: Thanks, Fawkes.
 └─ merge ─┘
-stm_outpost_staff_engineer: These Remnant builders made cities?
-Hero: One city, at least.
-stm_outpost_staff_engineer: Damn, what I wouldn't give to look at their civil works.
-stm_outpost_staff_engineer: Even super-smart builders need plumbing, right? You can't use bots for {i}everything{/i}.
-↩ (goto) Hero: [empty]
+[00017AA3] stm_outpost_staff_engineer: These Remnant builders made cities?
+[0001DDC0] Hero: One city, at least.
+[0001DDBF] stm_outpost_staff_engineer: Damn, what I wouldn't give to look at their civil works.
+[0001DDBE] stm_outpost_staff_engineer: Even super-smart builders need plumbing, right? You can't use bots for {i}everything{/i}.
+↩ (goto) [00017A93] Hero: [empty]
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    stm_outpost_staff_engineer ⟨cond⟩: Oh, uh, hello. Say, I was hoping to ask a question. If that's okay?
+    [00017AB3] stm_outpost_staff_engineer ⟨cond⟩: Oh, uh, hello. Say, I was hoping to ask a question. If that's okay?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: What's on your mind, Fawkes?
-        stm_outpost_staff_engineer: I keep wondering: What's it like, being partnered with an AI?
+        [0001DDA2] Hero: What's on your mind, Fawkes?
+        [0001DDA5] stm_outpost_staff_engineer: I keep wondering: What's it like, being partnered with an AI?
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero: It's a unique experience—like describing how something tastes.
-            stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
-            stm_outpost_staff_engineer: People need roads, power, sewers. What do AI need? Someone's got to work that out.
+            [0001DDAB] Hero: It's a unique experience—like describing how something tastes.
+            [0001DDB0] stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
+            [0001DDB3] stm_outpost_staff_engineer: People need roads, power, sewers. What do AI need? Someone's got to work that out.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                stm_outpost_staff_engineer ⟨cond⟩: Anyway, um, thanks for answering. Did you need me for something?
-                ↩ (goto) Hero: [empty]
+                [0001DDC4] stm_outpost_staff_engineer ⟨cond⟩: Anyway, um, thanks for answering. Did you need me for something?
+                ↩ (goto) [00017A93] Hero: [empty]
             ├ option 2:
-                stm_outpost_staff_engineer: Interesting times. But you didn't come by for this—how can I help you?
-                ↩ (goto) Hero: [empty]
+                [0001DDB2] stm_outpost_staff_engineer: Interesting times. But you didn't come by for this—how can I help you?
+                ↩ (goto) [00017A93] Hero: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero: It's like having a roommate up here. Or two. Or three.
-            ↩ (goto) stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
+            [0001DDAE] Hero: It's like having a roommate up here. Or two. Or three.
+            ↩ (goto) [0001DDB0] stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
         ├ option 3:
-            Hero: We're more like symbionts. SAM learns through me, and supports the mission in return.
-            ↩ (goto) stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
+            [0001DDAC] Hero: We're more like symbionts. SAM learns through me, and supports the mission in return.
+            ↩ (goto) [0001DDB0] stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
         ├ option 4:
-            Hero: SAM and I represent something new for humanity. It's a big responsibility.
-            ↩ (goto) stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
+            [0001DDA8] Hero: SAM and I represent something new for humanity. It's a big responsibility.
+            ↩ (goto) [0001DDB0] stm_outpost_staff_engineer: I came out here to build societies, but nobody's made a society where AI are citizens, too.
         └─ merge ─┘
     ├ option 2:
-        Hero: That's not why I'm here.
+        [0001DD9E] Hero: That's not why I'm here.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            stm_outpost_staff_engineer ⟨cond⟩: Oh, okay. Sorry, I—what did you need?
-            ↩ (goto) Hero: [empty]
+            [0001DD9D] stm_outpost_staff_engineer ⟨cond⟩: Oh, okay. Sorry, I—what did you need?
+            ↩ (goto) [00017A93] Hero: [empty]
         ├ option 2:
-            stm_outpost_staff_engineer: Okay. Didn't mean to offend. You needed something?
-            ↩ (goto) Hero: [empty]
+            [0001DDA4] stm_outpost_staff_engineer: Okay. Didn't mean to offend. You needed something?
+            ↩ (goto) [00017A93] Hero: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    stm_outpost_staff_engineer: Oh—Hi, Ryder. Good timing. I was hoping to ask you something.
+    [0001DDA0] stm_outpost_staff_engineer: Oh—Hi, Ryder. Good timing. I was hoping to ask you something.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) Hero: What's on your mind, Fawkes?
+        ↩ (goto) [0001DDA2] Hero: What's on your mind, Fawkes?
     ├ option 2:
-        ↩ (goto) Hero: That's not why I'm here.
+        ↩ (goto) [0001DD9E] Hero: That's not why I'm here.
     └─ merge ─┘
 └─ merge ─┘
-stm_outpost_staff_engineer: You know, we've been scavenging the kett outpost for any engineering solutions we could use.
-stm_outpost_staff_engineer: But after word about exaltation came in, touching kett stuff makes my skin crawl.
-Hero: I know what you mean.
-stm_outpost_staff_engineer: If there's anything I can do to help stop them, just ask.
-↩ (goto) Hero: [empty]
+[0001DDA6] stm_outpost_staff_engineer: You know, we've been scavenging the kett outpost for any engineering solutions we could use.
+[0001DDDF] stm_outpost_staff_engineer: But after word about exaltation came in, touching kett stuff makes my skin crawl.
+[0001DDE0] Hero: I know what you mean.
+[0001DDDE] stm_outpost_staff_engineer: If there's anything I can do to help stop them, just ask.
+↩ (goto) [00017A93] Hero: [empty]
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    stm_outpost_staff_engineer ⟨cond⟩: Oh, you're back. Hi. Can I help you?
-    ↩ (goto) Hero: [empty]
+    [0001D86D] stm_outpost_staff_engineer ⟨cond⟩: Oh, you're back. Hi. Can I help you?
+    ↩ (goto) [00017A93] Hero: [empty]
 ├ option 2:
-    stm_outpost_staff_engineer: Hi again.
-    ↩ (goto) Hero: [empty]
+    [00017A8F] stm_outpost_staff_engineer: Hi again.
+    ↩ (goto) [00017A93] Hero: [empty]
 └─ merge ─┘
-↩ (goto) Hero: [empty]
+↩ (goto) [00017A93] Hero: [empty]

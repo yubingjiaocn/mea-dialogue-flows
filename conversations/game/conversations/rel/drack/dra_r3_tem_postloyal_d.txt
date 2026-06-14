@@ -2,68 +2,68 @@
 # Primary speaker: global_squad_krogan
 # Source: game/conversations/rel/drack/dra_r3_tem_postloyal_d.xml
 ==================================================
-global_squad_krogan: Thanks for helping me get the colony transport back, Ryder.
-global_squad_krogan: Of all the stupid things...
-Hero: That's life on the frontier for you.
+[0001B868] global_squad_krogan: Thanks for helping me get the colony transport back, Ryder.
+[0001BC1E] global_squad_krogan: Of all the stupid things...
+[00013AE2] Hero: That's life on the frontier for you.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_krogan: At least we don't have to worry about Aroane anymore.
+    [0001B442] global_squad_krogan: At least we don't have to worry about Aroane anymore.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: He looked pretty taken care of down there, yeah.
-        global_squad_krogan: {i}(Chuckles.){/i} He sure did.
-        global_squad_krogan: I can't wait to nail Spender to the wall.
+        [0001B43D] Hero: He looked pretty taken care of down there, yeah.
+        [0001B441] global_squad_krogan: {i}(Chuckles.){/i} He sure did.
+        [0001B74C] global_squad_krogan: I can't wait to nail Spender to the wall.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero: Sooner or later, we'll take him down, just like Aroane.
-            global_squad_krogan: Hopefully sooner. I have plans for him.
-            global_squad_krogan: Ugh. Listen to me. Ryder, you've been around me long enough to realize this...
-            global_squad_krogan: The fact is, I'm a relic, a symbol of the past—when krogan were bent on destroying themselves.
-            global_squad_krogan: Fighting, killing... it's all I know. For my clan—for Kesh—to have a real future? Maybe it's best I'm not part of it.
+            [0001B74F] Hero: Sooner or later, we'll take him down, just like Aroane.
+            [0001B751] global_squad_krogan: Hopefully sooner. I have plans for him.
+            [0001B473] global_squad_krogan: Ugh. Listen to me. Ryder, you've been around me long enough to realize this...
+            [0002690A] global_squad_krogan: The fact is, I'm a relic, a symbol of the past—when krogan were bent on destroying themselves.
+            [0001B469] global_squad_krogan: Fighting, killing... it's all I know. For my clan—for Kesh—to have a real future? Maybe it's best I'm not part of it.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: Fighting is pretty useful out here, in case you hadn't noticed.
-                global_squad_krogan: So, the old man still has some use, you think?
-                global_squad_krogan: Just remember who you're encouraging.
+                [0001B483] Hero: Fighting is pretty useful out here, in case you hadn't noticed.
+                [0001B87F] global_squad_krogan: So, the old man still has some use, you think?
+                [0001B87D] global_squad_krogan: Just remember who you're encouraging.
             ├ option 2:
-                Hero: Your clan needs you. And so do I. We need to look out for each other.
+                [0001B484] Hero: Your clan needs you. And so do I. We need to look out for each other.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    global_squad_krogan ⟨cond⟩: Like when you saved the salarian instead of my scouts?
-                    global_squad_krogan: I know you have other priorities, Ryder. That's fine. Understand that I have mine.
+                    [0001B492] global_squad_krogan ⟨cond⟩: Like when you saved the salarian instead of my scouts?
+                    [0001B87A] global_squad_krogan: I know you have other priorities, Ryder. That's fine. Understand that I have mine.
                 ├ option 2:
-                    global_squad_krogan ⟨cond⟩: Huh. You chose my people once already, didn't you?
-                    ↩ (goto) global_squad_krogan: Just remember who you're encouraging.
+                    [0001B882] global_squad_krogan ⟨cond⟩: Huh. You chose my people once already, didn't you?
+                    ↩ (goto) [0001B87D] global_squad_krogan: Just remember who you're encouraging.
                 ├ option 3:
-                    global_squad_krogan: You say that now...
-                    ↩ (goto) global_squad_krogan: Just remember who you're encouraging.
+                    [0001B493] global_squad_krogan: You say that now...
+                    ↩ (goto) [0001B87D] global_squad_krogan: Just remember who you're encouraging.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero ⟨cond⟩: Aroane is dead. Fine. But we're getting Spender alive.
-            global_squad_krogan: If you say so.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0001B870] Hero ⟨cond⟩: Aroane is dead. Fine. But we're getting Spender alive.
+            [0001B881] global_squad_krogan: If you say so.
+            ↩ (goto) [0001B87E] global_squad_krogan: [empty]
         ├ option 3:
-            Hero ⟨cond⟩: He'll be brought to justice—alive, like Aroane.
-            global_squad_krogan: Justice? Last time, Nexus justice just got my people the short end of the stick. As usual.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0001B74E] Hero ⟨cond⟩: He'll be brought to justice—alive, like Aroane.
+            [0001B753] global_squad_krogan: Justice? Last time, Nexus justice just got my people the short end of the stick. As usual.
+            ↩ (goto) [0001B87E] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 2:
-        Hero: I thought krogan believed in honorable combat?
-        global_squad_krogan: Oh, the kids might still. But me? I'm old—and practical.
-        ↩ (goto) global_squad_krogan: I can't wait to nail Spender to the wall.
+        [0001B43F] Hero: I thought krogan believed in honorable combat?
+        [0001B46F] global_squad_krogan: Oh, the kids might still. But me? I'm old—and practical.
+        ↩ (goto) [0001B74C] global_squad_krogan: I can't wait to nail Spender to the wall.
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan: You should've just let me kill Aroane. Would've been simpler. Safer.
+    [0001B43B] global_squad_krogan: You should've just let me kill Aroane. Would've been simpler. Safer.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: He's more useful alive than dead.
-        global_squad_krogan: Makes sense, I suppose. I can still kill him later.
-        ↩ (goto) global_squad_krogan: I can't wait to nail Spender to the wall.
+        [0001B43E] Hero: He's more useful alive than dead.
+        [0001B43C] global_squad_krogan: Makes sense, I suppose. I can still kill him later.
+        ↩ (goto) [0001B74C] global_squad_krogan: I can't wait to nail Spender to the wall.
     ├ option 2:
-        Hero: We'd already won. It would've been murder.
-        global_squad_krogan: Hey, he's a threat to the colony. He has to go.
-        ↩ (goto) global_squad_krogan: I can't wait to nail Spender to the wall.
+        [0001B440] Hero: We'd already won. It would've been murder.
+        [0001B471] global_squad_krogan: Hey, he's a threat to the colony. He has to go.
+        ↩ (goto) [0001B74C] global_squad_krogan: I can't wait to nail Spender to the wall.
     └─ merge ─┘
 └─ merge ─┘
-global_squad_krogan: Right. I'll trust you. But don't let me down, kid.
+[0001B884] global_squad_krogan: Right. I'll trust you. But don't let me down, kid.

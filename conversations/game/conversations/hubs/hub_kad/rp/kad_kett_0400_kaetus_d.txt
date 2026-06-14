@@ -2,31 +2,31 @@
 # Primary speaker: kad_queen_guard_01
 # Source: game/conversations/hubs/hub_kad/rp/kad_kett_0400_kaetus_d.xml
 ==================================================
-kad_queen: Impatient are we?
-Narration: Ryder turns around to see Sloane and Kaetus.
-Hero: Sloane. I wasn't expecting you.
-kad_queen_guard_01: She wouldn't take no for an answer.
-kad_queen: I'm not about to let someone else fight my battles.
-kad_queen: Especially an Initiative lap dog.
+[00025899] kad_queen: Impatient are we?
+[0002589A] Narration: Ryder turns around to see Sloane and Kaetus.
+[0002589B] Hero: Sloane. I wasn't expecting you.
+[0002589C] kad_queen_guard_01: She wouldn't take no for an answer.
+[000258AD] kad_queen: I'm not about to let someone else fight my battles.
+[000258A8] kad_queen: Especially an Initiative lap dog.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: You were happy enough to have this "lap dog" track down information for you.
-    kad_queen: That's what dogs do: fetch.
-    kad_queen_guard_01: Enough. Let's get this over with.
-    kad_queen: You're such a grump when you're worried.
-    kad_queen_guard_01: Every second you’re gone from the port is an opportunity for the Collective.
+    [000258AC] Hero: You were happy enough to have this "lap dog" track down information for you.
+    [000258AA] kad_queen: That's what dogs do: fetch.
+    [000258B0] kad_queen_guard_01: Enough. Let's get this over with.
+    [00025953] kad_queen: You're such a grump when you're worried.
+    [000258AE] kad_queen_guard_01: Every second you’re gone from the port is an opportunity for the Collective.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        kad_queen_guard_01: The Pathfinder and I can handle—
-        Narration: We hear movement from the kett hideout.
-        Hero: What was that?
-        kad_queen: They know we're here. Get ready!
+        [000258AB] kad_queen_guard_01: The Pathfinder and I can handle—
+        [000258A4] Narration: We hear movement from the kett hideout.
+        [000258A6] Hero: What was that?
+        [000258A7] kad_queen: They know we're here. Get ready!
     ├ option 2:
-        kad_queen_guard_01: The Pathfinder and I can handle—
-        ↩ (goto) Narration: We hear movement from the kett hideout.
+        [00030D74] kad_queen_guard_01: The Pathfinder and I can handle—
+        ↩ (goto) [000258A4] Narration: We hear movement from the kett hideout.
     └─ merge ─┘
 ├ option 2:
-    Hero: You don't want me here? Take it up with Kaetus.
-    kad_queen: Oh, I will.
-    ↩ (goto) kad_queen_guard_01: Enough. Let's get this over with.
+    [000258A3] Hero: You don't want me here? Take it up with Kaetus.
+    [000258AF] kad_queen: Oh, I will.
+    ↩ (goto) [000258B0] kad_queen_guard_01: Enough. Let's get this over with.
 └─ merge ─┘

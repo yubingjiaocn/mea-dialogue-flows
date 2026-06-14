@@ -4,21 +4,21 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    SAM [OncePerGame]: There's a power short here. We could scan the area.
+    [0002B9EC] SAM [OncePerGame]: There's a power short here. We could scan the area.
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        SAM: Scan to assess the nature of the damage.
+        [0002B9EF] SAM: Scan to assess the nature of the damage.
     ├ option 2:
-        SAM: Another power short.
+        [0002B9F3] SAM: Another power short.
     └─ merge ─┘
 ├ option 3:
-    ↩ (goto) SAM: Another power short.
+    ↩ (goto) [0002B9F3] SAM: Another power short.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
 ├ option 2:
 └─ merge ─┘
-↩ (goto) ?: [empty]
-Hero: An animal did this?
-SAM: Affirmative. I am able to track it.
+↩ (goto) [0002B9E8] ?: [empty]
+[0002B9F5] Hero: An animal did this?
+[0002B9EB] SAM: Affirmative. I am able to track it.

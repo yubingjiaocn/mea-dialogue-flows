@@ -2,23 +2,23 @@
 # Primary speaker: global_squad_male_human
 # Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0220_party_b.xml
 ==================================================
-global_squad_male_human: Definitely not kett running this thing!
-Hero: Shut them down!
-Hero: More coming in!
-global_squad_male_human: Just as surprised as we are!
+[00005B60] global_squad_male_human: Definitely not kett running this thing!
+[00005B5E] Hero: Shut them down!
+[0001E40E] Hero: More coming in!
+[0001E40F] global_squad_male_human: Just as surprised as we are!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Yeah, that'll last.
+    [0001E409] global_squad_krogan ⟨cond⟩: Yeah, that'll last.
 ├ option 2:
-    global_squad_angara ⟨cond⟩: Unlikely!
-    ↩ (goto) global_squad_male_human: [empty]
+    [0001E40D] global_squad_angara ⟨cond⟩: Unlikely!
+    ↩ (goto) [0001E40B] global_squad_male_human: [empty]
 ├ option 3:
-    global_squad_female_human ⟨cond⟩: The next wave won't be!
-    ↩ (goto) global_squad_male_human: [empty]
+    [0001E408] global_squad_female_human ⟨cond⟩: The next wave won't be!
+    ↩ (goto) [0001E40B] global_squad_male_human: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Let's hope that lasts!
-    ↩ (goto) global_squad_male_human: [empty]
+    [0001E40C] global_squad_asari ⟨cond⟩: Let's hope that lasts!
+    ↩ (goto) [0001E40B] global_squad_male_human: [empty]
 ├ option 5:
-    global_squad_turian ⟨cond⟩: They'll catch on soon enough!
-    ↩ (goto) global_squad_male_human: [empty]
+    [0001E40A] global_squad_turian ⟨cond⟩: They'll catch on soon enough!
+    ↩ (goto) [0001E40B] global_squad_male_human: [empty]
 └─ merge ─┘

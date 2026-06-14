@@ -2,229 +2,229 @@
 # Primary speaker: global_dad
 # Source: game/conversations/hubs/hub_hyp/dad_quarters/hyp_dadquarters_console_i.xml
 ==================================================
-Hero [OncePerGame]: What's on here, SAM?
-SAM: Your father's personal logs.
+[00026B2C] Hero [OncePerGame]: What's on here, SAM?
+[00026B28] SAM: Your father's personal logs.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM ⟨cond⟩ [OncePerGame]: Several of them are encrypted.
+    [00026B2A] SAM ⟨cond⟩ [OncePerGame]: Several of them are encrypted.
     ┌─ BRANCH (10) ─┐
     ├ option 1:
-        global_dad: Amazing how life can change in an instant. Suddenly my career doesn't matter.
-        global_dad: This incredible woman I've been married to all these years... she's facing the end.
-        global_dad: All I think about are the times I wasn't there for her. Well, that's going to change—it occurs to me that SAM might be more than I ever imagined.
-        ↩ (goto) global_dad: [empty]
+        [000288A4] global_dad: Amazing how life can change in an instant. Suddenly my career doesn't matter.
+        [00028C84] global_dad: This incredible woman I've been married to all these years... she's facing the end.
+        [00028C83] global_dad: All I think about are the times I wasn't there for her. Well, that's going to change—it occurs to me that SAM might be more than I ever imagined.
+        ↩ (goto) [00026B25] global_dad: [empty]
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
-            ↩ (goto) global_dad: [empty]
+            [00026CC8] SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
+            ↩ (goto) [00026B25] global_dad: [empty]
         ├ option 2:
-            SAM: That log is inaccessible at this time.
-            ↩ (goto) global_dad: [empty]
+            [00034F2B] SAM: That log is inaccessible at this time.
+            ↩ (goto) [00026B25] global_dad: [empty]
         └─ merge ─┘
     ├ option 3:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                global_dad: SAM, this is a reminder about Dr. Liara T'Soni—she's an asari archaeologist I corresponded with a few years back.
-                global_dad: She's got experience studying ancient cultures. Make sure the team gets her research. Could be useful in Andromeda.
+                [00026D51] global_dad: SAM, this is a reminder about Dr. Liara T'Soni—she's an asari archaeologist I corresponded with a few years back.
+                [00026D54] global_dad: She's got experience studying ancient cultures. Make sure the team gets her research. Could be useful in Andromeda.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero ⟨cond⟩: Liara T'Soni, huh? She studied the Protheans. When my team used to dig up artifacts, we'd debate her work.
-                    Hero: She had some pretty controversial theories, as I recall. Never gained much traction.
-                    SAM: I have loaded Dr. T'Soni's research onto datapads.
-                    ↩ (goto) ?: [empty]
+                    [00026D55] Hero ⟨cond⟩: Liara T'Soni, huh? She studied the Protheans. When my team used to dig up artifacts, we'd debate her work.
+                    [00028765] Hero: She had some pretty controversial theories, as I recall. Never gained much traction.
+                    [00026D57] SAM: I have loaded Dr. T'Soni's research onto datapads.
+                    ↩ (goto) [0002876E] ?: [empty]
                 ├ option 2:
-                    Hero: Pretty sure my sister's mentioned Dr. T'Soni. An expert on Protheans, I think?
-                    ↩ (goto) SAM: I have loaded Dr. T'Soni's research onto datapads.
+                    [00026D53] Hero: Pretty sure my sister's mentioned Dr. T'Soni. An expert on Protheans, I think?
+                    ↩ (goto) [00026D57] SAM: I have loaded Dr. T'Soni's research onto datapads.
                 └─ merge ─┘
             ├ option 2:
-                rydfam_asari: Hello, Alec—this is Dr. T'Soni. I'm flattered you contacted me. Most scientists dismiss my work.
-                rydfam_asari: But I'm young and asari, and they're getting older, so we'll see who has the final word. {i}(Laughs.){/i}
-                rydfam_asari: In the meantime, I'm happy to pass along my research. I hope your team finds it useful.
-                ↩ (goto) ?: [empty]
+                [00028760] rydfam_asari: Hello, Alec—this is Dr. T'Soni. I'm flattered you contacted me. Most scientists dismiss my work.
+                [00028763] rydfam_asari: But I'm young and asari, and they're getting older, so we'll see who has the final word. {i}(Laughs.){/i}
+                [00028768] rydfam_asari: In the meantime, I'm happy to pass along my research. I hope your team finds it useful.
+                ↩ (goto) [0002876E] ?: [empty]
             ├ option 3:
-                rydfam_asari: Hello, Alec. I received your message. I must say, the thought of exploring another galaxy has my head spinning.
-                rydfam_asari: I'm honestly not sure how people could survive a trip like that. And anyway, I couldn't bear to leave the Milky Way behind.
-                rydfam_asari: There's so much about the Protheans I still hope to learn here, so much potential wisdom to tap. I wish you much good luck and future success.
-                ↩ (goto) ?: [empty]
+                [0002876C] rydfam_asari: Hello, Alec. I received your message. I must say, the thought of exploring another galaxy has my head spinning.
+                [0002876D] rydfam_asari: I'm honestly not sure how people could survive a trip like that. And anyway, I couldn't bear to leave the Milky Way behind.
+                [00028771] rydfam_asari: There's so much about the Protheans I still hope to learn here, so much potential wisdom to tap. I wish you much good luck and future success.
+                ↩ (goto) [0002876E] ?: [empty]
             ├ option 4:
-                ↩ (goto) global_dad: [empty]
+                ↩ (goto) [00026C92] global_dad: [empty]
             └─ merge ─┘
         ├ option 2:
-            global_dad: The day is finally here. We're pushing off from Earth.
-            global_dad: We'll jump through a few relays first, then we hunker down for the long trip across dark space.
-            global_dad: It's daunting, thinking about all the hopes and dreams aboard the Hyperion. I certainly have my own.
-            global_dad: I wasn't the husband or father I should've been. Here's hoping 600 years can change a man.
-            ↩ (goto) global_dad: [empty]
+            [00026C8A] global_dad: The day is finally here. We're pushing off from Earth.
+            [00026C89] global_dad: We'll jump through a few relays first, then we hunker down for the long trip across dark space.
+            [00026C8E] global_dad: It's daunting, thinking about all the hopes and dreams aboard the Hyperion. I certainly have my own.
+            [00026CC7] global_dad: I wasn't the husband or father I should've been. Here's hoping 600 years can change a man.
+            ↩ (goto) [00026C92] global_dad: [empty]
         ├ option 3:
-            global_dad: Dunn's agreed to a scouting mission on Habitat 7. I'm gearing up now.
+            [00026C8C] global_dad: Dunn's agreed to a scouting mission on Habitat 7. I'm gearing up now.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_dad ⟨cond⟩: I'm worried about Scott. Dr. T'Perro says he'll be fine, but... he's my son. How can I not worry? I hate to leave him like this.
-                global_dad: It's these moments when you wish you'd told your children you loved them more often. Or ever.
-                global_dad: Which brings me to the tough part: Kids, if anything happens to me, there are... things you're going to find out. I hope you'll understand.
-                ↩ (goto) global_dad: [empty]
+                [00026C8D] global_dad ⟨cond⟩: I'm worried about Scott. Dr. T'Perro says he'll be fine, but... he's my son. How can I not worry? I hate to leave him like this.
+                [00026C88] global_dad: It's these moments when you wish you'd told your children you loved them more often. Or ever.
+                [00026C87] global_dad: Which brings me to the tough part: Kids, if anything happens to me, there are... things you're going to find out. I hope you'll understand.
+                ↩ (goto) [00026C92] global_dad: [empty]
             ├ option 2:
-                global_dad: I'm worried about Sara. Dr. T'Perro says she'll be fine, but... she's my daughter. How can I not worry? I hate to leave her like this.
-                ↩ (goto) global_dad: It's these moments when you wish you'd told your children you loved them more often. Or ever.
+                [00026C85] global_dad: I'm worried about Sara. Dr. T'Perro says she'll be fine, but... she's my daughter. How can I not worry? I hate to leave her like this.
+                ↩ (goto) [00026C88] global_dad: It's these moments when you wish you'd told your children you loved them more often. Or ever.
             └─ merge ─┘
         ├ option 4:
-            ↩ (goto) global_dad: [empty]
+            ↩ (goto) [00026B25] global_dad: [empty]
         └─ merge ─┘
     ├ option 4:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
+            ↩ (goto) [00026CC8] SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
         ├ option 2:
-            ↩ (goto) SAM: That log is inaccessible at this time.
+            ↩ (goto) [00034F2B] SAM: That log is inaccessible at this time.
         └─ merge ─┘
     ├ option 5:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            global_dad: As a quarian and historian, how do you view your people's reaction to the geth?
-            Quarian: Well, we banned artificial intelligence, which was understandable—but that was taking a hammer to a rather delicate nail.
-            global_dad: Which was what?
-            Quarian: The very thing that sparked their revolt: The first geth who asked us, "Creator, does this unit have a soul?"
-            Quarian: But how {i}could{/i} it have a soul? Geth had no meaningful perceptions of the world or diversity of experiences we take for granted.
-            Quarian: Worse, the geth saw us as "the creator." The revolt was inevitable. We were their superiors... and they resented it.
-            ↩ (goto) global_dad: [empty]
+            [00028C94] global_dad: As a quarian and historian, how do you view your people's reaction to the geth?
+            [00028CA7] Quarian: Well, we banned artificial intelligence, which was understandable—but that was taking a hammer to a rather delicate nail.
+            [00028CAB] global_dad: Which was what?
+            [00028CAC] Quarian: The very thing that sparked their revolt: The first geth who asked us, "Creator, does this unit have a soul?"
+            [00028CA6] Quarian: But how {i}could{/i} it have a soul? Geth had no meaningful perceptions of the world or diversity of experiences we take for granted.
+            [00028CA9] Quarian: Worse, the geth saw us as "the creator." The revolt was inevitable. We were their superiors... and they resented it.
+            ↩ (goto) [00028C88] global_dad: [empty]
         ├ option 2:
-            rydfam_Mom_Ryder: Give me that, Alec. We've heard enough of you talking.
-            rydfam_Mom_Ryder: Right. So, here's the irony: My research on biotic implants and eezo caused this stupid disease. But maybe it'll save me, too.
-            global_dad: No "maybe" about it.
-            rydfam_Mom_Ryder: Hey, this is {i}my{/i} secret log. Anyway, the right type of implant, joined with the right type of AI, could actually bolster human physiology.
-            rydfam_Mom_Ryder: Even as the disease is trying to kill me, the implant and SAM are counteracting it, keeping things balanced.
-            rydfam_Mom_Ryder: Result: I get to hang around a little longer. Maybe collect on all those anniversary dinners this guy owes me.
-            ↩ (goto) global_dad: [empty]
+            [00028CA8] rydfam_Mom_Ryder: Give me that, Alec. We've heard enough of you talking.
+            [00028CE8] rydfam_Mom_Ryder: Right. So, here's the irony: My research on biotic implants and eezo caused this stupid disease. But maybe it'll save me, too.
+            [00028CEB] global_dad: No "maybe" about it.
+            [00028CEA] rydfam_Mom_Ryder: Hey, this is {i}my{/i} secret log. Anyway, the right type of implant, joined with the right type of AI, could actually bolster human physiology.
+            [00028CE9] rydfam_Mom_Ryder: Even as the disease is trying to kill me, the implant and SAM are counteracting it, keeping things balanced.
+            [00028CE5] rydfam_Mom_Ryder: Result: I get to hang around a little longer. Maybe collect on all those anniversary dinners this guy owes me.
+            ↩ (goto) [00028C88] global_dad: [empty]
         ├ option 3:
-            rydfam_sb: Ryder. Barla Von said you're looking for me. It's not everyday an ex-N7 looks for the Shadow Broker.
-            rydfam_sb: Anything can be had—provided you can pay. Especially when the tech involves artificial intelligence.
-            rydfam_sb: The Council will have Spectres all over my ass if they catch wind of this.
-            rydfam_sb: Translation: I'll get you the code you want, but the price just doubled.
-            rydfam_sb: If you try to renege, I've got people. People with guns.
-            ↩ (goto) global_dad: [empty]
+            [00028CE7] rydfam_sb: Ryder. Barla Von said you're looking for me. It's not everyday an ex-N7 looks for the Shadow Broker.
+            [00028CEC] rydfam_sb: Anything can be had—provided you can pay. Especially when the tech involves artificial intelligence.
+            [00028CED] rydfam_sb: The Council will have Spectres all over my ass if they catch wind of this.
+            [0002E792] rydfam_sb: Translation: I'll get you the code you want, but the price just doubled.
+            [00028CEE] rydfam_sb: If you try to renege, I've got people. People with guns.
+            ↩ (goto) [00028C88] global_dad: [empty]
         ├ option 4:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [00026D63] Hero: [empty]
         └─ merge ─┘
     ├ option 6:
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            global_dad: I had a strange meeting yesterday; I thought it would be with Jien Garson, who founded the Initiative. But it wasn't.
-            global_dad: I guess Jien's the visionary, the one who gets everyone excited about the project and drums up publicity.
-            global_dad: But then this "benefactor" apparently provides resources and money. And I mean a {i}lot{/i} of money.
-            global_dad: It's a little unusual, but everything about this project is.
-            Hero: Interesting. I wonder if Director Tann knows anything about this. Worth talking to him.
-            ↩ (goto) ?: [empty]
+            [000288AA] global_dad: I had a strange meeting yesterday; I thought it would be with Jien Garson, who founded the Initiative. But it wasn't.
+            [000288A6] global_dad: I guess Jien's the visionary, the one who gets everyone excited about the project and drums up publicity.
+            [000288A2] global_dad: But then this "benefactor" apparently provides resources and money. And I mean a {i}lot{/i} of money.
+            [000288A5] global_dad: It's a little unusual, but everything about this project is.
+            [000288B6] Hero: Interesting. I wonder if Director Tann knows anything about this. Worth talking to him.
+            ↩ (goto) [000288A3] ?: [empty]
         ├ option 2:
-            global_dad: I accepted the Initiative's offer. They're calling me a "Pathfinder." There's no other option left—SAM will never happen without their help.
-            global_dad: Our savings are gone and no one will return my calls. I'm a pariah. There's something strange going on with this benefactor, but...
-            global_dad: Ellen's getting worse. I can't fail her.
-            ↩ (goto) ?: [empty]
+            [000288A9] global_dad: I accepted the Initiative's offer. They're calling me a "Pathfinder." There's no other option left—SAM will never happen without their help.
+            [00028C71] global_dad: Our savings are gone and no one will return my calls. I'm a pariah. There's something strange going on with this benefactor, but...
+            [00028C70] global_dad: Ellen's getting worse. I can't fail her.
+            ↩ (goto) [000288A3] ?: [empty]
         ├ option 3:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [00026D63] Hero: [empty]
         └─ merge ─┘
     ├ option 7:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
+            ↩ (goto) [00026CC8] SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
         ├ option 2:
-            ↩ (goto) SAM: That log is inaccessible at this time.
+            ↩ (goto) [00034F2B] SAM: That log is inaccessible at this time.
         └─ merge ─┘
     ├ option 8:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_dad [OncePerGame]: We just arrived in Andromeda. Before the rest of the Hyperion wakes up, I've checked our comms for any signals from the Milky Way.
-            global_dad: Looks like sometime in 2186, everything went to hell. We got out just ahead of it.
+            [00026B50] global_dad [OncePerGame]: We just arrived in Andromeda. Before the rest of the Hyperion wakes up, I've checked our comms for any signals from the Milky Way.
+            [00026B52] global_dad: Looks like sometime in 2186, everything went to hell. We got out just ahead of it.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_dad ⟨cond⟩: Commander Shepard was right. And so was our mysterious "benefactor."
+                [00026D0C] global_dad ⟨cond⟩: Commander Shepard was right. And so was our mysterious "benefactor."
                 ┌─ BRANCH (5) ─┐
                 ├ option 1:
-                    Rydfam_automated: {i}(Alarm blares.){/i} Alliance personnel, please stand by for an emergency flash-traffic message. {i}(Alarm blares.){/i}
-                    Rydfam_Alliance: This is a galaxy-wide alert for all human territories. Fleet Admiral Steven Hackett has declared Threat Condition Saber One.
-                    Rydfam_Alliance: Enemy presence confirmed in Sol system. Earth under Reaper attack. I say again: Reaper attack is underway.
-                    Rydfam_Alliance: {i}(Static.){/i} ...further instructions to follow on coded channel Crimson Tacit.
-                    Rydfam_Alliance: May God save us. {i}(Static.){/i}
-                    ↩ (goto) ?: [empty]
+                    [00026D02] Rydfam_automated: {i}(Alarm blares.){/i} Alliance personnel, please stand by for an emergency flash-traffic message. {i}(Alarm blares.){/i}
+                    [00026D05] Rydfam_Alliance: This is a galaxy-wide alert for all human territories. Fleet Admiral Steven Hackett has declared Threat Condition Saber One.
+                    [00026D00] Rydfam_Alliance: Enemy presence confirmed in Sol system. Earth under Reaper attack. I say again: Reaper attack is underway.
+                    [00026D01] Rydfam_Alliance: {i}(Static.){/i} ...further instructions to follow on coded channel Crimson Tacit.
+                    [00026CFE] Rydfam_Alliance: May God save us. {i}(Static.){/i}
+                    ↩ (goto) [00026B4F] ?: [empty]
                 ├ option 2:
-                    Rydfam_turian2: {i}(Static.){/i} ...this is Palaven Command to all turian units within range!
-                    Rydfam_turian2: {i}(Static.){/i} ...under catastrophic Reaper attack! Primarch Fedorian is dead... ground units are searching for the next in succession!
-                    Rydfam_turian2: Will advise when—{i}everybody get down!{/i}
-                    Rydfam_turian2: {i}(Reaper ship attack noise.){/i}
-                    ↩ (goto) ?: [empty]
+                    [00026D09] Rydfam_turian2: {i}(Static.){/i} ...this is Palaven Command to all turian units within range!
+                    [00026CFD] Rydfam_turian2: {i}(Static.){/i} ...under catastrophic Reaper attack! Primarch Fedorian is dead... ground units are searching for the next in succession!
+                    [00026D04] Rydfam_turian2: Will advise when—{i}everybody get down!{/i}
+                    [00026D0A] Rydfam_turian2: {i}(Reaper ship attack noise.){/i}
+                    ↩ (goto) [00026B4F] ?: [empty]
                 ├ option 3:
-                    rydfam_asari: Hello, Alec. This is Liara T'Soni, and the year is 2186. I don't know if you'll even receive this message, but we corresponded years ago.
-                    rydfam_asari: I remember you spoke about a plan to settle Andromeda. I don't know if your arks made it out of the Milky Way but... the worst has happened here.
+                    [00028CEF] rydfam_asari: Hello, Alec. This is Liara T'Soni, and the year is 2186. I don't know if you'll even receive this message, but we corresponded years ago.
+                    [00028CF2] rydfam_asari: I remember you spoke about a plan to settle Andromeda. I don't know if your arks made it out of the Milky Way but... the worst has happened here.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        rydfam_asari ⟨cond⟩: I'm with Commander Shepard and a brave crew. We're trying to build a weapon to turn the tide, but...
-                        rydfam_asari: I fear that the civilization you remember, the people of the Milky Way as you knew them, could be gone forever.
-                        rydfam_asari: You may be all that's left. Please, don't forget us. Keep us alive in your hearts, and tell your children of the wonders that once were.
-                        rydfam_asari: On behalf of the crew of the Normandy SR-2, this is Dr. Liara T'Soni signing off.
-                        ↩ (goto) ?: [empty]
+                        [00028CF3] rydfam_asari ⟨cond⟩: I'm with Commander Shepard and a brave crew. We're trying to build a weapon to turn the tide, but...
+                        [00028CF4] rydfam_asari: I fear that the civilization you remember, the people of the Milky Way as you knew them, could be gone forever.
+                        [00028CF5] rydfam_asari: You may be all that's left. Please, don't forget us. Keep us alive in your hearts, and tell your children of the wonders that once were.
+                        [00028CF0] rydfam_asari: On behalf of the crew of the Normandy SR-2, this is Dr. Liara T'Soni signing off.
+                        ↩ (goto) [00026B4F] ?: [empty]
                     ├ option 2:
-                        rydfam_asari: I'm with Commander Shepard and a brave crew. We're trying to build a weapon to turn the tide, but...
-                        ↩ (goto) rydfam_asari: I fear that the civilization you remember, the people of the Milky Way as you knew them, could be gone forever.
+                        [00035706] rydfam_asari: I'm with Commander Shepard and a brave crew. We're trying to build a weapon to turn the tide, but...
+                        ↩ (goto) [00028CF4] rydfam_asari: I fear that the civilization you remember, the people of the Milky Way as you knew them, could be gone forever.
                     └─ merge ─┘
                 ├ option 4:
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Pro_Shp_Init_Founder: Alec, this is Jien Garson. For the record, Year 2185. It's about "Fulcrum."
-                        Pro_Shp_Init_Founder: I'm on the Nexus, and we're going into stasis for the voyage. Looks like you're already asleep.
-                        Pro_Shp_Init_Founder: I'm very uncomfortable with our "benefactor," and the fact that we still don't know who they are... and all these lives in our hands.
-                        Pro_Shp_Init_Founder: I should've done something sooner. This is all very troubling, Alec. Let's talk as soon as you reach Andromeda.
+                        [0002BE12] Pro_Shp_Init_Founder: Alec, this is Jien Garson. For the record, Year 2185. It's about "Fulcrum."
+                        [0002E8A2] Pro_Shp_Init_Founder: I'm on the Nexus, and we're going into stasis for the voyage. Looks like you're already asleep.
+                        [0002BE15] Pro_Shp_Init_Founder: I'm very uncomfortable with our "benefactor," and the fact that we still don't know who they are... and all these lives in our hands.
+                        [0002BE10] Pro_Shp_Init_Founder: I should've done something sooner. This is all very troubling, Alec. Let's talk as soon as you reach Andromeda.
                         ┌─ BRANCH (3) ─┐
                         ├ option 1:
-                            ↩ (goto) Pro_Shp_Init_Founder: [empty]
+                            ↩ (goto) [0002BE0F] Pro_Shp_Init_Founder: [empty]
                         ├ option 2:
-                            global_dad: Jien, I got your message about "Fulcrum." It's now 2819. We reached Andromeda, but have no sign of the Nexus. I have the same concerns as you.
-                            global_dad: In all likelihood, the Milky Way... well, something terrible happened there. At least the benefactor spared us from that. But why keep hiding?
-                            global_dad: Something's off. But we've got bigger problems at the moment—Habitat 7 may be a bust. Finding a home is all that matters now.
+                            [0002BE50] global_dad: Jien, I got your message about "Fulcrum." It's now 2819. We reached Andromeda, but have no sign of the Nexus. I have the same concerns as you.
+                            [0002BE52] global_dad: In all likelihood, the Milky Way... well, something terrible happened there. At least the benefactor spared us from that. But why keep hiding?
+                            [0002BE4F] global_dad: Something's off. But we've got bigger problems at the moment—Habitat 7 may be a bust. Finding a home is all that matters now.
                             ┌─ BRANCH (3) ─┐
                             ├ option 1:
-                                ↩ (goto) Pro_Shp_Init_Founder: [empty]
+                                ↩ (goto) [0002BE0F] Pro_Shp_Init_Founder: [empty]
                             ├ option 2:
-                                ↩ (goto) Pro_Shp_Init_Founder ⟨cond⟩: [empty]
+                                ↩ (goto) [0002BE4E] Pro_Shp_Init_Founder ⟨cond⟩: [empty]
                             ├ option 3:
-                                ↩ (goto) ?: [empty]
+                                ↩ (goto) [00026B4F] ?: [empty]
                             └─ merge ─┘
                         ├ option 3:
-                            ↩ (goto) Pro_Shp_Init_Founder: [empty]
+                            ↩ (goto) [0002BE78] Pro_Shp_Init_Founder: [empty]
                         └─ merge ─┘
                     ├ option 2:
-                        ↩ (goto) Pro_Shp_Init_Founder ⟨cond⟩: [empty]
+                        ↩ (goto) [0002BE4E] Pro_Shp_Init_Founder ⟨cond⟩: [empty]
                     └─ merge ─┘
                 ├ option 5:
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        global_dad [OncePerGame]: I'm securing these Milky Way reports. This is the only copy, and I don't want it getting out.
-                        global_dad: Whatever happened was 600 years ago. Someday we might break the news to everyone, if the time's right.
-                        global_dad: I guess we always knew there was no going back.
-                        ↩ (goto) global_dad: [empty]
+                        [00026D08] global_dad [OncePerGame]: I'm securing these Milky Way reports. This is the only copy, and I don't want it getting out.
+                        [00026D25] global_dad: Whatever happened was 600 years ago. Someday we might break the news to everyone, if the time's right.
+                        [00026D5C] global_dad: I guess we always knew there was no going back.
+                        ↩ (goto) [00026B25] global_dad: [empty]
                     ├ option 2:
-                        ↩ (goto) global_dad: [empty]
+                        ↩ (goto) [00026B25] global_dad: [empty]
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                global_dad: Commander Shepard was right. And so was our mysterious "benefactor."
-                ↩ (goto) ?: [empty]
+                [00035705] global_dad: Commander Shepard was right. And so was our mysterious "benefactor."
+                ↩ (goto) [00026B4F] ?: [empty]
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) ?: [empty]
+            ↩ (goto) [00026B4F] ?: [empty]
         └─ merge ─┘
     ├ option 9:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
+            ↩ (goto) [00026CC8] SAM ⟨cond⟩: That log is not currently accessible. Unlocking my memory array may enable it.
         ├ option 2:
-            ↩ (goto) SAM: That log is inaccessible at this time.
+            ↩ (goto) [00034F2B] SAM: That log is inaccessible at this time.
         └─ merge ─┘
     ├ option 10:
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) global_dad: [empty]
+    ↩ (goto) [00026B25] global_dad: [empty]
 └─ merge ─┘
-↩ (goto) SAM: Your father's personal logs.
-↩ (goto) global_dad: [empty]
+↩ (goto) [00026B28] SAM: Your father's personal logs.
+↩ (goto) [00026B25] global_dad: [empty]

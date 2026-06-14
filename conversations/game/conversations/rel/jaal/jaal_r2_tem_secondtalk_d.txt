@@ -2,102 +2,102 @@
 # Primary speaker: Hero
 # Source: game/conversations/rel/jaal/jaal_r2_tem_secondtalk_d.xml
 ==================================================
-Hero: Jaal?
+[0001A222] Hero: Jaal?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: Not talking to me? I get it. I can't imagine how you're feeling.
-    Hero: I'll just go.
-    global_squad_angara: Don't.
-    global_squad_angara: You saved the Moshae.
+    [0001A220] Hero ⟨cond⟩: Not talking to me? I get it. I can't imagine how you're feeling.
+    [0001A230] Hero: I'll just go.
+    [0001A22D] global_squad_angara: Don't.
+    [0001A22E] global_squad_angara: You saved the Moshae.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: I won't forget that.
+        [0001C8C0] global_squad_angara ⟨cond⟩: I won't forget that.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: That's why we were there.
-            global_squad_angara: Saving her was a great thing. It will be, anyway.
-            global_squad_angara: I really miss my family at times like these.
-            global_squad_angara: Are you close to your family?
+            [0001C8BC] Hero ⟨cond⟩: That's why we were there.
+            [0001C8BD] global_squad_angara: Saving her was a great thing. It will be, anyway.
+            [0001A1FE] global_squad_angara: I really miss my family at times like these.
+            [0001A20B] global_squad_angara: Are you close to your family?
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero [OncePerGame]: You talk about family a lot.
-                global_squad_angara: Really? I guess it's just part of our culture.
-                global_squad_angara: Our families are large, and we share our parents with the community.
-                global_squad_angara: We all have many mothers.
-                Hero: My family's small.
-                global_squad_angara: And are you close?
+                [0001CC61] Hero [OncePerGame]: You talk about family a lot.
+                [0001CC62] global_squad_angara: Really? I guess it's just part of our culture.
+                [0001CC63] global_squad_angara: Our families are large, and we share our parents with the community.
+                [0001CC5E] global_squad_angara: We all have many mothers.
+                [0001CC65] Hero: My family's small.
+                [0001CC5F] global_squad_angara: And are you close?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: I was... am. My mom and dad are dead.
+                    [0001A215] Hero: I was... am. My mom and dad are dead.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        Hero ⟨cond⟩: My brother's in a medically induced coma.
-                        Hero: I'm kind of an orphan at the moment.
-                        global_squad_angara: I'm sorry.
-                        Hero: Yeah, well.
-                        Hero: This random collection of Tempest oddballs can feel like family sometimes.
-                        global_squad_angara: Yeah. I've never really felt I had a purpose—but here, I do.
-                        Hero: What about the Resistance?
-                        global_squad_angara: My place in the Resistance is... not what I'd like.
-                        Hero: But that kid on Aya looked up to you.
-                        global_squad_angara: Sure... but you're going to do something important, Ryder. I feel it.
-                        global_squad_angara: This is where I should be.
+                        [0001CC66] Hero ⟨cond⟩: My brother's in a medically induced coma.
+                        [0001C8C1] Hero: I'm kind of an orphan at the moment.
+                        [0001C8C4] global_squad_angara: I'm sorry.
+                        [0001C8C6] Hero: Yeah, well.
+                        [0001A20A] Hero: This random collection of Tempest oddballs can feel like family sometimes.
+                        [0001A20E] global_squad_angara: Yeah. I've never really felt I had a purpose—but here, I do.
+                        [0001A212] Hero: What about the Resistance?
+                        [0001A20D] global_squad_angara: My place in the Resistance is... not what I'd like.
+                        [0001A20C] Hero: But that kid on Aya looked up to you.
+                        [0001A214] global_squad_angara: Sure... but you're going to do something important, Ryder. I feel it.
+                        [0001A224] global_squad_angara: This is where I should be.
                         ┌─ BRANCH (3) ─┐
                         ├ option 1:
-                            Hero ⟨cond⟩: I like having you around. Specifically you.
-                            global_squad_angara: Because of my skill and knowledge?
-                            Hero: Not really.
-                            global_squad_angara: Because you enjoy spending time with me as much as I do with you.
-                            Hero: You do?
+                            [0001A219] Hero ⟨cond⟩: I like having you around. Specifically you.
+                            [0001C8C7] global_squad_angara: Because of my skill and knowledge?
+                            [0001CC7D] Hero: Not really.
+                            [0001CC80] global_squad_angara: Because you enjoy spending time with me as much as I do with you.
+                            [0001CC81] Hero: You do?
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                global_squad_angara ⟨cond⟩: Yes. You're fascinating. And special. And strange.
-                                Hero: Aw—thanks.
-                                global_squad_angara: And I mean it.
+                                [0001CC7F] global_squad_angara ⟨cond⟩: Yes. You're fascinating. And special. And strange.
+                                [0001CD09] Hero: Aw—thanks.
+                                [0001CD0A] global_squad_angara: And I mean it.
                             ├ option 2:
-                                global_squad_angara ⟨cond⟩: You're fascinating. So bold, yet mysterious. So odd.
-                                Hero: That's... thanks.
-                                ↩ (goto) global_squad_angara: And I mean it.
+                                [0003595F] global_squad_angara ⟨cond⟩: You're fascinating. So bold, yet mysterious. So odd.
+                                [00035960] Hero: That's... thanks.
+                                ↩ (goto) [0001CD0A] global_squad_angara: And I mean it.
                             └─ merge ─┘
                         ├ option 2:
-                            Hero: You bring a lot to the team.
-                            global_squad_angara: Thank you. I look forward to even more adventures.
+                            [0001A226] Hero: You bring a lot to the team.
+                            [0001CC7E] global_squad_angara: Thank you. I look forward to even more adventures.
                         ├ option 3:
-                            Hero: Glad you're along for the ride.
-                            global_squad_angara: {i}(Exhales.){/i} Me, too.
+                            [0001A225] Hero: Glad you're along for the ride.
+                            [0001A229] global_squad_angara: {i}(Exhales.){/i} Me, too.
                         └─ merge ─┘
                     ├ option 2:
-                        Hero ⟨cond⟩: My sister's really sick. She's on the Nexus.
-                        ↩ (goto) Hero: I'm kind of an orphan at the moment.
+                        [0001CC60] Hero ⟨cond⟩: My sister's really sick. She's on the Nexus.
+                        ↩ (goto) [0001C8C1] Hero: I'm kind of an orphan at the moment.
                     ├ option 3:
-                        ↩ (goto) global_squad_angara: I'm sorry.
+                        ↩ (goto) [0001C8C4] global_squad_angara: I'm sorry.
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: My family is complicated. Isn't much to say about it.
-                    global_squad_angara: Okay.
-                    ↩ (goto) Hero: This random collection of Tempest oddballs can feel like family sometimes.
+                    [0001A213] Hero: My family is complicated. Isn't much to say about it.
+                    [0001C8C5] global_squad_angara: Okay.
+                    ↩ (goto) [0001A20A] Hero: This random collection of Tempest oddballs can feel like family sometimes.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: I was... am. My mom and dad are dead.
+                ↩ (goto) [0001A215] Hero: I was... am. My mom and dad are dead.
             ├ option 3:
-                ↩ (goto) Hero: My family is complicated. Isn't much to say about it.
+                ↩ (goto) [0001A213] Hero: My family is complicated. Isn't much to say about it.
             └─ merge ─┘
         ├ option 2:
-            Hero: Crumbling won't help anyone.
-            global_squad_angara: I agree. We have to be strong.
-            ↩ (goto) global_squad_angara: I really miss my family at times like these.
+            [0001A200] Hero: Crumbling won't help anyone.
+            [0001A202] global_squad_angara: I agree. We have to be strong.
+            ↩ (goto) [0001A1FE] global_squad_angara: I really miss my family at times like these.
         ├ option 3:
-            Hero: I may seem tough, but I have a good shoulder.
-            global_squad_angara: That's... kind. You're kind.
-            ↩ (goto) global_squad_angara: I really miss my family at times like these.
+            [0001A1FD] Hero: I may seem tough, but I have a good shoulder.
+            [0001A209] global_squad_angara: That's... kind. You're kind.
+            ↩ (goto) [0001A1FE] global_squad_angara: I really miss my family at times like these.
         └─ merge ─┘
     ├ option 2:
-        global_squad_angara: You know?
-        ↩ (goto) Hero: [empty]
+        [0001C8BF] global_squad_angara: You know?
+        ↩ (goto) [0001C8BE] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_squad_angara: Thank you for checking, but I'm all right.
-    Hero: Don't know if I would be.
-    global_squad_angara: I have to be. How else do we go on?
-    ↩ (goto) Narration: [empty]
+    [0001A205] global_squad_angara: Thank you for checking, but I'm all right.
+    [0001A208] Hero: Don't know if I would be.
+    [0001A203] global_squad_angara: I have to be. How else do we go on?
+    ↩ (goto) [0001A204] Narration: [empty]
 └─ merge ─┘

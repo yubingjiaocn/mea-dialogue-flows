@@ -2,65 +2,65 @@
 # Primary speaker: mer_hub_staff_placements_multi
 # Source: game/conversations/hubs/hub_mer/mer_staff_placements_i.xml
 ==================================================
-mer_hub_staff_placements_multi: Good day, Pathfinder. You'll forgive me if I keep this brief. I am... at capacity.
-Hero: Is that good or bad?
-mer_hub_staff_placements_multi: Good, of course. We are beginning to deploy the main bays of the Hyperion. Expect to see a lot of new faces.
+[0002C42F] mer_hub_staff_placements_multi: Good day, Pathfinder. You'll forgive me if I keep this brief. I am... at capacity.
+[0002C42B] Hero: Is that good or bad?
+[0002C421] mer_hub_staff_placements_multi: Good, of course. We are beginning to deploy the main bays of the Hyperion. Expect to see a lot of new faces.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero: What do you think Meridian needs from me?
+    [000301DD] Hero: What do you think Meridian needs from me?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        mer_hub_staff_placements_multi: Not Meridian. The sleepers. They need opportunity. And that comes from our ability to wake them.
+        [000301E4] mer_hub_staff_placements_multi: Not Meridian. The sleepers. They need opportunity. And that comes from our ability to wake them.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            mer_hub_staff_placements_multi: You carved a direct line through the kett. But without resources, without Andromeda viability, we are still scrambling.
-            mer_hub_staff_placements_multi: It remains as it always has. Resources are the key to our future.
-            ↩ (goto) mer_hub_staff_placements_multi: [empty]
+            [000301E6] mer_hub_staff_placements_multi: You carved a direct line through the kett. But without resources, without Andromeda viability, we are still scrambling.
+            [0003041C] mer_hub_staff_placements_multi: It remains as it always has. Resources are the key to our future.
+            ↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]
         ├ option 2:
-            mer_hub_staff_placements_multi: We are stable, perhaps. But there remains opportunity for Andromeda viability.
-            ↩ (goto) mer_hub_staff_placements_multi: It remains as it always has. Resources are the key to our future.
+            [0003041D] mer_hub_staff_placements_multi: We are stable, perhaps. But there remains opportunity for Andromeda viability.
+            ↩ (goto) [0003041C] mer_hub_staff_placements_multi: It remains as it always has. Resources are the key to our future.
         └─ merge ─┘
     ├ option 2:
-        mer_hub_staff_placements_multi: I don't know. We're groaning with the abstracted "points," and can barely wake people fast enough to keep pace with you.
-        mer_hub_staff_placements_multi: You have done what we needed, Pathfinder. I couldn't ask for more.
-        ↩ (goto) mer_hub_staff_placements_multi: [empty]
+        [0003041E] mer_hub_staff_placements_multi: I don't know. We're groaning with the abstracted "points," and can barely wake people fast enough to keep pace with you.
+        [0003041B] mer_hub_staff_placements_multi: You have done what we needed, Pathfinder. I couldn't ask for more.
+        ↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: What have you learned about this world?
-    mer_hub_staff_placements_multi: I'm afraid I have turned inward, to focus on the sleepers and our fallen Hyperion.
-    mer_hub_staff_placements_multi: I am grateful that the ark remains a part of our future. There's a heart to this vessel. This home.
-    ↩ (goto) mer_hub_staff_placements_multi: [empty]
+    [000301DC] Hero: What have you learned about this world?
+    [00030405] mer_hub_staff_placements_multi: I'm afraid I have turned inward, to focus on the sleepers and our fallen Hyperion.
+    [000303FE] mer_hub_staff_placements_multi: I am grateful that the ark remains a part of our future. There's a heart to this vessel. This home.
+    ↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]
 ├ option 3:
-    Hero: How did you come to the Initiative, Darla vas Hyperion?
-    mer_hub_staff_placements_multi: It is embarrassingly simple. I lived among the quarians as a child. My parents were ambassadors to the migrant fleet.
+    [000301DE] Hero: How did you come to the Initiative, Darla vas Hyperion?
+    [00030401] mer_hub_staff_placements_multi: It is embarrassingly simple. I lived among the quarians as a child. My parents were ambassadors to the migrant fleet.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        mer_hub_staff_placements_multi [OncePerGame]: We lived as they did, in sterile conditions. I had my own enviro-suit. I didn't touch soil for a decade.
-        mer_hub_staff_placements_multi: The promise of 600 years on the Hyperion? That wasn't foreboding at all. In fact, it was comforting.
+        [00030400] mer_hub_staff_placements_multi [OncePerGame]: We lived as they did, in sterile conditions. I had my own enviro-suit. I didn't touch soil for a decade.
+        [00030406] mer_hub_staff_placements_multi: The promise of 600 years on the Hyperion? That wasn't foreboding at all. In fact, it was comforting.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I wasn't put off by the journey either.
-            mer_hub_staff_placements_multi: And that journey continues, thanks to you and the Remnant.
-            mer_hub_staff_placements_multi: I am now living in a place that bridges technology and the natural, much like when I was a child. I love Meridian.
-            ↩ (goto) mer_hub_staff_placements_multi: [empty]
+            [000303FC] Hero: I wasn't put off by the journey either.
+            [00030404] mer_hub_staff_placements_multi: And that journey continues, thanks to you and the Remnant.
+            [00030407] mer_hub_staff_placements_multi: I am now living in a place that bridges technology and the natural, much like when I was a child. I love Meridian.
+            ↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]
         ├ option 2:
-            Hero: I think many would prefer solid ground beneath their feet.
-            mer_hub_staff_placements_multi: But thanks to you, we have both.
-            ↩ (goto) mer_hub_staff_placements_multi: I am now living in a place that bridges technology and the natural, much like when I was a child. I love Meridian.
+            [00030402] Hero: I think many would prefer solid ground beneath their feet.
+            [00030408] mer_hub_staff_placements_multi: But thanks to you, we have both.
+            ↩ (goto) [00030407] mer_hub_staff_placements_multi: I am now living in a place that bridges technology and the natural, much like when I was a child. I love Meridian.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) mer_hub_staff_placements_multi: I am now living in a place that bridges technology and the natural, much like when I was a child. I love Meridian.
+        ↩ (goto) [00030407] mer_hub_staff_placements_multi: I am now living in a place that bridges technology and the natural, much like when I was a child. I love Meridian.
     └─ merge ─┘
 ├ option 4:
-    Hero: Another time.
-    mer_hub_staff_placements_multi: Esu se'lai, Pathfinder.
+    [000301D9] Hero: Another time.
+    [000303F2] mer_hub_staff_placements_multi: Esu se'lai, Pathfinder.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    mer_hub_staff_placements_multi: Hello, Pathfinder.
-    ↩ (goto) mer_hub_staff_placements_multi: [empty]
+    [0002C422] mer_hub_staff_placements_multi: Hello, Pathfinder.
+    ↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]
 ├ option 2:
-    mer_hub_staff_placements_multi: Pathfinder.
-    ↩ (goto) mer_hub_staff_placements_multi: [empty]
+    [0002C429] mer_hub_staff_placements_multi: Pathfinder.
+    ↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]
 └─ merge ─┘
-↩ (goto) mer_hub_staff_placements_multi: [empty]
+↩ (goto) [000301DF] mer_hub_staff_placements_multi: [empty]

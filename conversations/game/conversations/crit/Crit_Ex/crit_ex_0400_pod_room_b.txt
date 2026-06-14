@@ -2,43 +2,43 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0400_pod_room_b.xml
 ==================================================
-global_squad_angara: How many... pods?
+[00007335] global_squad_angara: How many... pods?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: Well... shit.
+    [0000D437] global_squad_male_human ⟨cond⟩: Well... shit.
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Oh no... Jaal...
-    ↩ (goto) global_squad_angara: [empty]
+    [0000D42F] global_squad_asari ⟨cond⟩: Oh no... Jaal...
+    ↩ (goto) [0001E37F] global_squad_angara: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: This is... damn.
-    ↩ (goto) global_squad_angara: [empty]
+    [0000D432] global_squad_turian ⟨cond⟩: This is... damn.
+    ↩ (goto) [0001E37F] global_squad_angara: [empty]
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: {i}(Sighs.){/i} No matter where we go...
-    ↩ (goto) global_squad_angara: [empty]
+    [0000D42D] global_squad_krogan ⟨cond⟩: {i}(Sighs.){/i} No matter where we go...
+    ↩ (goto) [0001E37F] global_squad_angara: [empty]
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: All this time. All those prisoners.
-    ↩ (goto) global_squad_angara: [empty]
+    [0000D434] global_squad_female_human ⟨cond⟩: All this time. All those prisoners.
+    ↩ (goto) [0001E37F] global_squad_angara: [empty]
 └─ merge ─┘
-global_squad_angara: We can try scanning.
+[00007334] global_squad_angara: We can try scanning.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: And fast.
+    [0000D433] global_squad_female_human ⟨cond⟩: And fast.
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Who are they all?
-    ↩ (goto) SAM: [empty]
+    [0000D430] global_squad_asari ⟨cond⟩: Who are they all?
+    ↩ (goto) [0001E384] SAM: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: This is going to take forever.
-    ↩ (goto) SAM: [empty]
+    [0000D438] global_squad_turian ⟨cond⟩: This is going to take forever.
+    ↩ (goto) [0001E384] SAM: [empty]
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Do it. Fast.
-    ↩ (goto) SAM: [empty]
+    [0000D435] global_squad_krogan ⟨cond⟩: Do it. Fast.
+    ↩ (goto) [0001E384] SAM: [empty]
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Right. On it.
+    [0000D42B] global_squad_male_human ⟨cond⟩: Right. On it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) SAM: [empty]
+        ↩ (goto) [0001E384] SAM: [empty]
     ├ option 2:
-        SAM: Ryder, if you find a console, I will try to access it.
+        [0000D42E] SAM: Ryder, if you find a console, I will try to access it.
     └─ merge ─┘
 └─ merge ─┘
-global_squad_angara: So far up, you can't even see where it ends.
+[0001017B] global_squad_angara: So far up, you can't even see where it ends.

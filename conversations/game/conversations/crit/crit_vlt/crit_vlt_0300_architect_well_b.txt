@@ -4,230 +4,230 @@
 ==================================================
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    Hero: Look how high it is. Might be another gravity well?
+    [00023FB7] Hero: Look how high it is. Might be another gravity well?
 ├ option 2:
-    Hero: The well's sealed. Damn.
-    Hero: Maybe we can use the conduit for emergency power, same as before.
+    [00010D2A] Hero: The well's sealed. Damn.
+    [00010D1E] Hero: Maybe we can use the conduit for emergency power, same as before.
 ├ option 3:
-    Hero: The conduit splits and goes through each of those devices.
-    SAM: Interfacing may complete the circuit and allow the well to open.
-    Hero: If it gets us to the system lockdown, let's try.
+    [0001F67D] Hero: The conduit splits and goes through each of those devices.
+    [0001F67F] SAM: Interfacing may complete the circuit and allow the well to open.
+    [0001F67E] Hero: If it gets us to the system lockdown, let's try.
 ├ option 4:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        SAM: Power restored to the gravity well. The conduit leads down.
-        SAM: Conduit fluid pressure is variable. There could be activity below.
-        Hero: Then let's dig deeper.
+        [0001465A] SAM: Power restored to the gravity well. The conduit leads down.
+        [0002E945] SAM: Conduit fluid pressure is variable. There could be activity below.
+        [00014666] Hero: Then let's dig deeper.
     ├ option 2:
-        Hero: The turret's active! And... friendly? I think interfacing put it on our side.
+        [00010D22] Hero: The turret's active! And... friendly? I think interfacing put it on our side.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: Why place a turret here? What's it defending against?
+            [00010D29] global_squad_turian ⟨cond⟩: Why place a turret here? What's it defending against?
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Could be a choke point... for something down that well.
+            [00010D24] global_squad_krogan ⟨cond⟩: Could be a choke point... for something down that well.
         ├ option 3:
-            global_squad_male_human ⟨cond⟩: That's a weird turret—but everything down here's weird.
+            [00010D1D] global_squad_male_human ⟨cond⟩: That's a weird turret—but everything down here's weird.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 5:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) SAM: Power restored to the gravity well. The conduit leads down.
+        ↩ (goto) [0001465A] SAM: Power restored to the gravity well. The conduit leads down.
     ├ option 2:
-        Hero: Device is online, and... makes a shield? At least it's friendly.
+        [00010D2C] Hero: Device is online, and... makes a shield? At least it's friendly.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            global_squad_female_human ⟨cond⟩: Layers and layers of defenses, if they're defenses.
+            [00010D2E] global_squad_female_human ⟨cond⟩: Layers and layers of defenses, if they're defenses.
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: Is all this meant to keep something down that well?
+            [00010D28] global_squad_male_human ⟨cond⟩: Is all this meant to keep something down that well?
         ├ option 3:
-            global_squad_turian ⟨cond⟩: A shield generator. You'd think all the rock above would be enough.
+            [00010D2D] global_squad_turian ⟨cond⟩: A shield generator. You'd think all the rock above would be enough.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 6:
     ┌─ BRANCH (8) ─┐
     ├ option 1:
-        Hero: Looks like we got that turret on our side just in time!
+        [0002E8FA] Hero: Looks like we got that turret on our side just in time!
     ├ option 2:
-        Hero: Good thing we have a shield to help us out!
+        [0002E8F8] Hero: Good thing we have a shield to help us out!
     ├ option 3:
-        Hero: Better safe than sorry! Take them out!
+        [0002E8F7] Hero: Better safe than sorry! Take them out!
     ├ option 4:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: You're sure this well isn't going to open up under us?
-            Hero: Pretty sure! Focus on the Remnant!
+            [0001F23D] global_squad_turian ⟨cond⟩: You're sure this well isn't going to open up under us?
+            [0001F24B] Hero: Pretty sure! Focus on the Remnant!
         ├ option 2:
-            global_squad_female_human ⟨cond⟩: You're sure this well isn't going to open up under us?
-            ↩ (goto) Hero: Pretty sure! Focus on the Remnant!
+            [0001F23B] global_squad_female_human ⟨cond⟩: You're sure this well isn't going to open up under us?
+            ↩ (goto) [0001F24B] Hero: Pretty sure! Focus on the Remnant!
         ├ option 3:
-            global_squad_krogan ⟨cond⟩: You're sure this well isn't going to open up under us?
-            ↩ (goto) Hero: Pretty sure! Focus on the Remnant!
+            [0001F23F] global_squad_krogan ⟨cond⟩: You're sure this well isn't going to open up under us?
+            ↩ (goto) [0001F24B] Hero: Pretty sure! Focus on the Remnant!
         ├ option 4:
-            global_squad_male_human ⟨cond⟩: You're sure this well isn't going to open up beneath us?
-            ↩ (goto) Hero: Pretty sure! Focus on the Remnant!
+            [0001F23E] global_squad_male_human ⟨cond⟩: You're sure this well isn't going to open up beneath us?
+            ↩ (goto) [0001F24B] Hero: Pretty sure! Focus on the Remnant!
         └─ merge ─┘
     ├ option 5:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: They're circling around!
-            Hero: Push them to the sides!
+            [0001F24A] global_squad_male_human ⟨cond⟩: They're circling around!
+            [0001F249] Hero: Push them to the sides!
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: They're circling around!
-            ↩ (goto) Hero: Push them to the sides!
+            [0001F248] global_squad_krogan ⟨cond⟩: They're circling around!
+            ↩ (goto) [0001F249] Hero: Push them to the sides!
         ├ option 3:
-            global_squad_female_human ⟨cond⟩: They're circling around!
-            ↩ (goto) Hero: Push them to the sides!
+            [0001F247] global_squad_female_human ⟨cond⟩: They're circling around!
+            ↩ (goto) [0001F249] Hero: Push them to the sides!
         ├ option 4:
-            global_squad_turian ⟨cond⟩: They're circling around!
-            ↩ (goto) Hero: Push them to the sides!
+            [0001F24C] global_squad_turian ⟨cond⟩: They're circling around!
+            ↩ (goto) [0001F249] Hero: Push them to the sides!
         └─ merge ─┘
     ├ option 6:
-        Hero: No good! Locked down against hostiles!
+        [0002E8F9] Hero: No good! Locked down against hostiles!
     ├ option 7:
-        Hero: Okay. Let's hit the other console and complete that circuit.
+        [0002E93E] Hero: Okay. Let's hit the other console and complete that circuit.
     ├ option 8:
-        Hero: Okay. Let's hit both those consoles and complete the circuit.
+        [0002E93F] Hero: Okay. Let's hit both those consoles and complete the circuit.
     └─ merge ─┘
 ├ option 7:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: They're controlling the turret!
+            [0001F24E] global_squad_turian ⟨cond⟩: They're controlling the turret!
         ├ option 2:
-            global_squad_female_human ⟨cond⟩: The Remnant have the turret!
+            [0001F254] global_squad_female_human ⟨cond⟩: The Remnant have the turret!
         ├ option 3:
-            global_squad_krogan ⟨cond⟩: The Remnant have the turret!
+            [0001F256] global_squad_krogan ⟨cond⟩: The Remnant have the turret!
         ├ option 4:
-            global_squad_male_human ⟨cond⟩: They're controlling the turret!
+            [0001F252] global_squad_male_human ⟨cond⟩: They're controlling the turret!
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: They've got the shield generator!
+            [0001F24D] global_squad_turian ⟨cond⟩: They've got the shield generator!
         ├ option 2:
-            global_squad_female_human ⟨cond⟩: They're using the shield generator!
+            [0001F251] global_squad_female_human ⟨cond⟩: They're using the shield generator!
         ├ option 3:
-            global_squad_krogan ⟨cond⟩: They've got the shield generator!
+            [0001F24F] global_squad_krogan ⟨cond⟩: They've got the shield generator!
         ├ option 4:
-            global_squad_male_human ⟨cond⟩: They're using the shield generator!
+            [0001F255] global_squad_male_human ⟨cond⟩: They're using the shield generator!
         └─ merge ─┘
     ├ option 3:
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: Whatever you did to that console, it just undid!
-            Hero: The Observer turns things hostile! Watch yourselves!
+            [00014657] global_squad_male_human ⟨cond⟩: Whatever you did to that console, it just undid!
+            [00023F83] Hero: The Observer turns things hostile! Watch yourselves!
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Did it just undo what you did? Shoot it!
-            ↩ (goto) Hero: The Observer turns things hostile! Watch yourselves!
+            [00014658] global_squad_krogan ⟨cond⟩: Did it just undo what you did? Shoot it!
+            ↩ (goto) [00023F83] Hero: The Observer turns things hostile! Watch yourselves!
         ├ option 3:
-            global_squad_female_human ⟨cond⟩: That Remnant can undo your interfacing!
-            ↩ (goto) Hero: The Observer turns things hostile! Watch yourselves!
+            [0001465D] global_squad_female_human ⟨cond⟩: That Remnant can undo your interfacing!
+            ↩ (goto) [00023F83] Hero: The Observer turns things hostile! Watch yourselves!
         └─ merge ─┘
     ├ option 4:
-        SAM: Interface countermanded.
-        Hero [OncePerGame]: Argh! Take that one down!
+        [0001F0BB] SAM: Interface countermanded.
+        [0001F0BD] Hero [OncePerGame]: Argh! Take that one down!
     ├ option 5:
-        Hero: Phew. Okay. Let's check that console again.
-        global_squad_asari: [Comm] That "de-interfacing" business. That's new. Any chance you can scan what's left of that Observer?
+        [0001465B] Hero: Phew. Okay. Let's check that console again.
+        [00014944] global_squad_asari: [Comm] That "de-interfacing" business. That's new. Any chance you can scan what's left of that Observer?
     ├ option 6:
-        ↩ (goto) SAM: Power restored to the gravity well. The conduit leads down.
+        ↩ (goto) [0001465A] SAM: Power restored to the gravity well. The conduit leads down.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (16) ─┐
 ├ option 1:
-    Hero: That looks like a turret. Be careful.
+    [000166B6] Hero: That looks like a turret. Be careful.
 ├ option 2:
-    SAM: This device appears defensive in nature.
+    [000166B7] SAM: This device appears defensive in nature.
 ├ option 3:
-    SAM: The gravity well remains in lockdown.
+    [000166B5] SAM: The gravity well remains in lockdown.
 ├ option 4:
-    Hero: What's that embedded in the wall?
+    [000166AC] Hero: What's that embedded in the wall?
 ├ option 5:
-    Hero: Is that a scale? A Remnant scale?
-    SAM: Extrapolating... The Remnant it came from would be roughly fifty meters high.
-    Hero: Uh... huh.
+    [00014957] Hero: Is that a scale? A Remnant scale?
+    [00014959] SAM: Extrapolating... The Remnant it came from would be roughly fifty meters high.
+    [0001495A] Hero: Uh... huh.
 ├ option 6:
-    Hero: Crap. The conduit sprang a leak.
+    [0001F0BF] Hero: Crap. The conduit sprang a leak.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_turian ⟨cond⟩: Right over the console. If you try interfacing, you'll burn your hands off.
-        Hero: And no fluid means no power. Damn it.
-        Hero: Maybe that's why those devices up above were turned off.
-        Hero: We're not turning back now. There has to be some way to fix the leak.
+        [0001F124] global_squad_turian ⟨cond⟩: Right over the console. If you try interfacing, you'll burn your hands off.
+        [0001F12E] Hero: And no fluid means no power. Damn it.
+        [0002E94A] Hero: Maybe that's why those devices up above were turned off.
+        [0001F121] Hero: We're not turning back now. There has to be some way to fix the leak.
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: Careful. No way you can interface with the console like that.
-        ↩ (goto) Hero: And no fluid means no power. Damn it.
+        [0001F123] global_squad_female_human ⟨cond⟩: Careful. No way you can interface with the console like that.
+        ↩ (goto) [0001F12E] Hero: And no fluid means no power. Damn it.
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: Unless you want to shower in that stuff, the console's a no go.
-        ↩ (goto) Hero: And no fluid means no power. Damn it.
+        [0001F11B] global_squad_krogan ⟨cond⟩: Unless you want to shower in that stuff, the console's a no go.
+        ↩ (goto) [0001F12E] Hero: And no fluid means no power. Damn it.
     └─ merge ─┘
 ├ option 7:
-    global_squad_asari: Ryder! Up here!
+    [0001227A] global_squad_asari: Ryder! Up here!
 ├ option 8:
-    global_squad_asari: What happened? I can't get any doors to work.
-    Hero: The conduit's breached.
-    global_squad_asari: Hey, wait. The Observers were using weird laser frequencies to fix a broken wall back there.
-    global_squad_asari: I can send the frequencies to your omni-tool. Maybe they can patch up the conduit?
-    Hero: And... received. I'll give them a shot!
+    [0001F12D] global_squad_asari: What happened? I can't get any doors to work.
+    [0001F159] Hero: The conduit's breached.
+    [0001F158] global_squad_asari: Hey, wait. The Observers were using weird laser frequencies to fix a broken wall back there.
+    [00012279] global_squad_asari: I can send the frequencies to your omni-tool. Maybe they can patch up the conduit?
+    [0003022D] Hero: And... received. I'll give them a shot!
 ├ option 9:
-    global_squad_asari: Look what I found!
+    [0001227C] global_squad_asari: Look what I found!
 ├ option 10:
-    Hero: A gauntlet, or maybe a hand tool.
+    [00012252] Hero: A gauntlet, or maybe a hand tool.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Our scientists will love it either way.
+        [00012251] global_squad_female_human ⟨cond⟩: Our scientists will love it either way.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: And it doubles as a weapon. Extra handy.
+        [00012255] global_squad_turian ⟨cond⟩: And it doubles as a weapon. Extra handy.
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: Whatever keeps the bots off.
+        [00012254] global_squad_krogan ⟨cond⟩: Whatever keeps the bots off.
     └─ merge ─┘
 ├ option 11:
-    Hero: Nice. Could freeze a Remnant in their tracks.
+    [0001F11F] Hero: Nice. Could freeze a Remnant in their tracks.
 ├ option 12:
-    Hero: The system's responding to those frequencies. Just a patch job, but it should hold.
-    global_squad_asari: Nice work!
-    global_squad_asari: If it's fixed, that console should work now!
+    [0002E8F6] Hero: The system's responding to those frequencies. Just a patch job, but it should hold.
+    [0001F15B] global_squad_asari: Nice work!
+    [0002A84D] global_squad_asari: If it's fixed, that console should work now!
 ├ option 13:
-    global_squad_asari: Uh, Ryder? Can you hit that console?
+    [0002A84C] global_squad_asari: Uh, Ryder? Can you hit that console?
 ├ option 14:
-    Hero: Dead. Without the conduit there's not even enough power for the door.
+    [0001224A] Hero: Dead. Without the conduit there's not even enough power for the door.
 ├ option 15:
-    Hero: Clear!
+    [00010D25] Hero: Clear!
 ├ option 16:
-    Hero: Looks like it worked.
-    global_squad_asari: There's even a bridge. You're a pal, Ryder.
-    Hero: Where are you going?
-    global_squad_asari: We've got to be close to the system lockdown by now. First one gets the glory.
+    [0001F16A] Hero: Looks like it worked.
+    [0001F15C] global_squad_asari: There's even a bridge. You're a pal, Ryder.
+    [0001F169] Hero: Where are you going?
+    [0001F17E] global_squad_asari: We've got to be close to the system lockdown by now. First one gets the glory.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: We'll catch up. If we got that door working, too.
+        [00030233] Hero ⟨cond⟩: We'll catch up. If we got that door working, too.
     ├ option 2:
-        Hero: We'll catch up. Let's see if we powered up a way out of here.
+        [0003024D] Hero: We'll catch up. Let's see if we powered up a way out of here.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    SAM: I recommend testing the weapon's capabilities.
+    [00023F81] SAM: I recommend testing the weapon's capabilities.
 ├ option 2:
-    global_squad_asari: Ah, shit. And no Observers to fix it.
+    [0001F15A] global_squad_asari: Ah, shit. And no Observers to fix it.
 ├ option 3:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩ [OncePerGame]: Hey, idea. Do you think that conduit fluid can freeze?
-        Hero [OncePerGame]: I guess I can try Peebee's gauntlet on it.
+        [0001F120] global_squad_male_human ⟨cond⟩ [OncePerGame]: Hey, idea. Do you think that conduit fluid can freeze?
+        [0002A4F4] Hero [OncePerGame]: I guess I can try Peebee's gauntlet on it.
     ├ option 2:
-        global_squad_female_human ⟨cond⟩ [OncePerGame]: Hm. Do you think that conduit fluid can freeze?
-        ↩ (goto) Hero [OncePerGame]: I guess I can try Peebee's gauntlet on it.
+        [0001F122] global_squad_female_human ⟨cond⟩ [OncePerGame]: Hm. Do you think that conduit fluid can freeze?
+        ↩ (goto) [0002A4F4] Hero [OncePerGame]: I guess I can try Peebee's gauntlet on it.
     ├ option 3:
-        global_squad_turian ⟨cond⟩ [OncePerGame]: You know, that cryo ability might freeze the conduit fluid.
-        ↩ (goto) Hero [OncePerGame]: I guess I can try Peebee's gauntlet on it.
+        [0001F11C] global_squad_turian ⟨cond⟩ [OncePerGame]: You know, that cryo ability might freeze the conduit fluid.
+        ↩ (goto) [0002A4F4] Hero [OncePerGame]: I guess I can try Peebee's gauntlet on it.
     ├ option 4:
-        global_squad_krogan ⟨cond⟩ [OncePerGame]: What if that gauntlet thing can freeze the conduit fluid?
+        [00022BA5] global_squad_krogan ⟨cond⟩ [OncePerGame]: What if that gauntlet thing can freeze the conduit fluid?
     └─ merge ─┘
 ├ option 4:
-    Hero: That might plug the leak, too. I'll try restarting the flow.
+    [0001F127] Hero: That might plug the leak, too. I'll try restarting the flow.
 ├ option 5:
-    Hero: It's frozen solid.
+    [0001F128] Hero: It's frozen solid.
 └─ merge ─┘

@@ -2,24 +2,24 @@
 # Primary speaker: aya_philo_1
 # Source: game/conversations/hubs/hub_aya/rp/tasks/aya_tsk_reason_0200_i.xml
 ==================================================
-aya_philo_1: Why are we even debating this rumor?
-aya_philo_3: Exactly. The idea that we were created in a laboratory... it's insane.
+[00029CD2] aya_philo_1: Why are we even debating this rumor?
+[00029CE6] aya_philo_3: Exactly. The idea that we were created in a laboratory... it's insane.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    aya_philo_2 ⟨cond⟩: Is it? Perhaps the Pathfinder can illuminate us. If the rumors {i}are{/i} true, you saw it with your own eyes.
-    aya_philo_2: Did a vanished alien species of immense power genetically engineer us? And if so, why?
+    [00029CE4] aya_philo_2 ⟨cond⟩: Is it? Perhaps the Pathfinder can illuminate us. If the rumors {i}are{/i} true, you saw it with your own eyes.
+    [00029CE1] aya_philo_2: Did a vanished alien species of immense power genetically engineer us? And if so, why?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Your Moshae is more qualified than I to answer those questions.
-        aya_philo_2: You're more politic than I was led to believe.
-        aya_philo_3: We've resolved nothing.
-        aya_philo_1: Wrong. I'm resolved to stop talking about it. There are better uses of our time.
+        [00029CE2] Hero: Your Moshae is more qualified than I to answer those questions.
+        [00029CE5] aya_philo_2: You're more politic than I was led to believe.
+        [00029CF1] aya_philo_3: We've resolved nothing.
+        [00029CF0] aya_philo_1: Wrong. I'm resolved to stop talking about it. There are better uses of our time.
     ├ option 2:
-        Hero: I found a big room with a lot of weird stuff in it I didn't understand. That's all I've got.
-        aya_philo_2: Your bluntness is matched only by your sincerity.
-        ↩ (goto) aya_philo_3: We've resolved nothing.
+        [00029CEE] Hero: I found a big room with a lot of weird stuff in it I didn't understand. That's all I've got.
+        [00029CEF] aya_philo_2: Your bluntness is matched only by your sincerity.
+        ↩ (goto) [00029CF1] aya_philo_3: We've resolved nothing.
     └─ merge ─┘
 ├ option 2:
-    aya_philo_2: Is it? Perhaps the Pathfinder can illuminate us. If the rumors {i}are{/i} true, you saw it with your own eyes.
-    ↩ (goto) aya_philo_2: Did a vanished alien species of immense power genetically engineer us? And if so, why?
+    [00031C24] aya_philo_2: Is it? Perhaps the Pathfinder can illuminate us. If the rumors {i}are{/i} true, you saw it with your own eyes.
+    ↩ (goto) [00029CE1] aya_philo_2: Did a vanished alien species of immense power genetically engineer us? And if so, why?
 └─ merge ─┘

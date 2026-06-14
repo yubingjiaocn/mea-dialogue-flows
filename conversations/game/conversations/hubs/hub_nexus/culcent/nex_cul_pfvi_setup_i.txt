@@ -2,47 +2,47 @@
 # Primary speaker: nex_culcen_pfvi_male
 # Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_pfvi_setup_i.xml
 ==================================================
-nex_culcen_pfvi_male: Welcome to the setup for your Pathfinder informational VI.
-nex_culcen_pfvi_male: I am programmed with all relevant data. However, you must identify which information I should prioritize.
-nex_culcen_pfvi_male: First, select your preferred voice and appearance: male, or female?
+[000231F7] nex_culcen_pfvi_male: Welcome to the setup for your Pathfinder informational VI.
+[000231FC] nex_culcen_pfvi_male: I am programmed with all relevant data. However, you must identify which information I should prioritize.
+[000231FA] nex_culcen_pfvi_male: First, select your preferred voice and appearance: male, or female?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Male, please.
-    nex_culcen_pfvi_male: Variable set. Which aspect of the Pathfinders' role should be highlighted: exploration and discovery, or first contact with new species?
+    [000231F8] Hero: Male, please.
+    [000231FE] nex_culcen_pfvi_male: Variable set. Which aspect of the Pathfinders' role should be highlighted: exploration and discovery, or first contact with new species?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Let's go with exploration and discovery.
-        nex_culcen_pfvi_male: Variable set. Next, should I emphasize the role of a Pathfinder team, or their partner AI?
+        [0002320C] Hero: Let's go with exploration and discovery.
+        [00023210] nex_culcen_pfvi_male: Variable set. Next, should I emphasize the role of a Pathfinder team, or their partner AI?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Talk about our SAM partners.
-            nex_culcen_pfvi_male: Variable set. Finally, should I provide career advice for future Pathfinders, or an honor roll of former Pathfinders?
+            [00023211] Hero: Talk about our SAM partners.
+            [00023216] nex_culcen_pfvi_male: Variable set. Finally, should I provide career advice for future Pathfinders, or an honor roll of former Pathfinders?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I want you to give career advice.
-                nex_culcen_pfvi_male: Setup complete. Would you like to keep these settings?
+                [00023219] Hero: I want you to give career advice.
+                [00023224] nex_culcen_pfvi_male: Setup complete. Would you like to keep these settings?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: It all sounds good to me.
-                    nex_culcen_pfvi_male: Thank you for choosing this Pathfinder informational VI. Implementing changes.
+                    [00023227] Hero: It all sounds good to me.
+                    [00023226] nex_culcen_pfvi_male: Thank you for choosing this Pathfinder informational VI. Implementing changes.
                 ├ option 2:
-                    Hero: Actually, let me start over.
-                    nex_culcen_pfvi_male: Unsetting all variables. Please identify which information I should prioritize.
-                    ↩ (goto) nex_culcen_pfvi_male: First, select your preferred voice and appearance: male, or female?
+                    [00023225] Hero: Actually, let me start over.
+                    [00023220] nex_culcen_pfvi_male: Unsetting all variables. Please identify which information I should prioritize.
+                    ↩ (goto) [000231FA] nex_culcen_pfvi_male: First, select your preferred voice and appearance: male, or female?
                 └─ merge ─┘
             ├ option 2:
-                Hero: List the former Pathfinders.
-                ↩ (goto) nex_culcen_pfvi_male: Setup complete. Would you like to keep these settings?
+                [0002321A] Hero: List the former Pathfinders.
+                ↩ (goto) [00023224] nex_culcen_pfvi_male: Setup complete. Would you like to keep these settings?
             └─ merge ─┘
         ├ option 2:
-            Hero: Go with the Pathfinder's team.
-            ↩ (goto) nex_culcen_pfvi_male: Variable set. Finally, should I provide career advice for future Pathfinders, or an honor roll of former Pathfinders?
+            [00023212] Hero: Go with the Pathfinder's team.
+            ↩ (goto) [00023216] nex_culcen_pfvi_male: Variable set. Finally, should I provide career advice for future Pathfinders, or an honor roll of former Pathfinders?
         └─ merge ─┘
     ├ option 2:
-        Hero: Meeting new species.
-        ↩ (goto) nex_culcen_pfvi_male: Variable set. Next, should I emphasize the role of a Pathfinder team, or their partner AI?
+        [0002320E] Hero: Meeting new species.
+        ↩ (goto) [00023210] nex_culcen_pfvi_male: Variable set. Next, should I emphasize the role of a Pathfinder team, or their partner AI?
     └─ merge ─┘
 ├ option 2:
-    Hero: Female, please.
-    ↩ (goto) nex_culcen_pfvi_male: Variable set. Which aspect of the Pathfinders' role should be highlighted: exploration and discovery, or first contact with new species?
+    [000231FB] Hero: Female, please.
+    ↩ (goto) [000231FE] nex_culcen_pfvi_male: Variable set. Which aspect of the Pathfinders' role should be highlighted: exploration and discovery, or first contact with new species?
 └─ merge ─┘

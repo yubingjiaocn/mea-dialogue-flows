@@ -2,33 +2,33 @@
 # Primary speaker: ice_orev
 # Source: game/conversations/unc_ice/ice_1400_angtown2_snipetask_a.xml
 ==================================================
-ice_orev: [Comm] Hey, can you help me with something?
-ice_orev: [Comm] There's a Wraith cloaked near you. I lost its movement.
-ice_orev: [Comm] Will you scan for it and let me know where it's hiding?
-Hero: Got it. Over here.
+[000267FE] ice_orev: [Comm] Hey, can you help me with something?
+[000267FF] ice_orev: [Comm] There's a Wraith cloaked near you. I lost its movement.
+[00026801] ice_orev: [Comm] Will you scan for it and let me know where it's hiding?
+[00026800] Hero: Got it. Over here.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: Impressive shot.
-    ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    [00026807] global_squad_angara ⟨cond⟩: Impressive shot.
+    [0002680B] ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Do I get to meet the mystery sniper?
-        ice_orev: [Comm] {i}(Laughs.){/i} Only right. Come find me.
+        [0002680A] Hero: Do I get to meet the mystery sniper?
+        [0002680E] ice_orev: [Comm] {i}(Laughs.){/i} Only right. Come find me.
     ├ option 2:
     └─ merge ─┘
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Nice!
-    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    [00026809] global_squad_asari ⟨cond⟩: Nice!
+    ↩ (goto) [0002680B] ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
 ├ option 3:
-    global_squad_female_human ⟨cond⟩: Not bad.
-    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    [00026808] global_squad_female_human ⟨cond⟩: Not bad.
+    ↩ (goto) [0002680B] ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Nice.
-    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    [00026804] global_squad_krogan ⟨cond⟩: Nice.
+    ↩ (goto) [0002680B] ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Good shot.
-    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    [00026806] global_squad_male_human ⟨cond⟩: Good shot.
+    ↩ (goto) [0002680B] ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
 ├ option 6:
-    global_squad_turian ⟨cond⟩: Impressive.
-    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    [0002680C] global_squad_turian ⟨cond⟩: Impressive.
+    ↩ (goto) [0002680B] ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
 └─ merge ─┘

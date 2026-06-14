@@ -2,32 +2,32 @@
 # Primary speaker: SAM
 # Source: game/conversations/crit/m4/m4_0200_console_i.xml
 ==================================================
-SAM: Accessing the ship's systems now...
-SAM: I have located the Archon's private chamber.
+[00019E82] SAM: Accessing the ship's systems now...
+[00019E80] SAM: I have located the Archon's private chamber.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Is the Archon in his quarters?
-    SAM: That information is not accessible. Only the room's location.
+    [00019E84] Hero: Is the Archon in his quarters?
+    [00019E85] SAM: That information is not accessible. Only the room's location.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) Hero: Is the Archon in his quarters?
+        ↩ (goto) [00019E84] Hero: Is the Archon in his quarters?
     ├ option 2:
-        Hero: What's their security situation look like?
-        SAM: An alert was issued, but I have countermanded it. The delay is only temporary.
-        Hero: Right. We need to hurry.
+        [00019E83] Hero: What's their security situation look like?
+        [00028E47] SAM: An alert was issued, but I have countermanded it. The delay is only temporary.
+        [00028E45] Hero: Right. We need to hurry.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) Hero: Is the Archon in his quarters?
+            ↩ (goto) [00019E84] Hero: Is the Archon in his quarters?
         ├ option 2:
-            ↩ (goto) Hero: What's their security situation look like?
+            ↩ (goto) [00019E83] Hero: What's their security situation look like?
         ├ option 3:
-            Hero: The Moshae said the relic would be in his chamber. Let's get there.
+            [00019E7E] Hero: The Moshae said the relic would be in his chamber. Let's get there.
         └─ merge ─┘
     ├ option 3:
-        ↩ (goto) Hero: The Moshae said the relic would be in his chamber. Let's get there.
+        ↩ (goto) [00019E7E] Hero: The Moshae said the relic would be in his chamber. Let's get there.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) Hero: What's their security situation look like?
+    ↩ (goto) [00019E83] Hero: What's their security situation look like?
 ├ option 3:
-    ↩ (goto) Hero: The Moshae said the relic would be in his chamber. Let's get there.
+    ↩ (goto) [00019E7E] Hero: The Moshae said the relic would be in his chamber. Let's get there.
 └─ merge ─┘

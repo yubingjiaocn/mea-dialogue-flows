@@ -2,22 +2,22 @@
 # Primary speaker: aya_gov_assist_multi
 # Source: game/conversations/hubs/hub_aya/rp/tasks/aya_20_parroff_messagestart_i.xml
 ==================================================
-aya_gov_assist_multi: Pathfinder.
+[00028F90] aya_gov_assist_multi: Pathfinder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    aya_gov_assist_multi ⟨cond⟩: I'm Enroh Bosaan, assistant to the governor.
-    aya_gov_assist_multi: As you can imagine, your arrival raised concerns from Aya's people.
+    [00028F91] aya_gov_assist_multi ⟨cond⟩: I'm Enroh Bosaan, assistant to the governor.
+    [00028F94] aya_gov_assist_multi: As you can imagine, your arrival raised concerns from Aya's people.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I thought I'd proven they have nothing to worry about.
-        aya_gov_assist_multi: You are one person. They want the Nexus to hear our voices.
-        aya_gov_assist_multi: We've set up terminals in the city so people can leave messages for your people on the Nexus.
-        aya_gov_assist_multi: I'd appreciate if you'd take a look and forward their communications to your people.
+        [00028F97] Hero: I thought I'd proven they have nothing to worry about.
+        [00028FA1] aya_gov_assist_multi: You are one person. They want the Nexus to hear our voices.
+        [00028F95] aya_gov_assist_multi: We've set up terminals in the city so people can leave messages for your people on the Nexus.
+        [00028F96] aya_gov_assist_multi: I'd appreciate if you'd take a look and forward their communications to your people.
     ├ option 2:
-        Hero: It'll take a long time to trust strangers again.
-        aya_gov_assist_multi: Which is why they want the Nexus to listen to them.
-        ↩ (goto) aya_gov_assist_multi: We've set up terminals in the city so people can leave messages for your people on the Nexus.
+        [00028F9B] Hero: It'll take a long time to trust strangers again.
+        [00028F99] aya_gov_assist_multi: Which is why they want the Nexus to listen to them.
+        ↩ (goto) [00028F95] aya_gov_assist_multi: We've set up terminals in the city so people can leave messages for your people on the Nexus.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) aya_gov_assist_multi: As you can imagine, your arrival raised concerns from Aya's people.
+    ↩ (goto) [00028F94] aya_gov_assist_multi: As you can imagine, your arrival raised concerns from Aya's people.
 └─ merge ─┘

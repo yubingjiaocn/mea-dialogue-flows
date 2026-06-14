@@ -2,106 +2,106 @@
 # Primary speaker: Hero
 # Source: game/conversations/rel/peebee/pb_r7_tem_culmination_m.xml
 ==================================================
-global_squad_asari: Heya.
-Hero: Come. Join me.
-global_squad_asari: Oh, no, no. You don't give the orders here.
-global_squad_asari: Whose surprise {i}is{/i} this, anyway?
+[000265AC] global_squad_asari: Heya.
+[000265B5] Hero: Come. Join me.
+[000266E3] global_squad_asari: Oh, no, no. You don't give the orders here.
+[000265B1] global_squad_asari: Whose surprise {i}is{/i} this, anyway?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Not an order. Just a request.
-    global_squad_asari: I'm not complaining. I have one myself...
-    global_squad_asari: Let's reenact how we met.
-    global_squad_asari: Oh, yeah. Is it me or is it getting warm in here?
-    global_squad_asari: Do you know about... asari melding? Our bodies and minds weave together... become one.
-    global_squad_asari: I've never trusted anyone enough... never trusted myself...
-    Hero: I've got you. You're safe with me.
+    [000265B2] Hero: Not an order. Just a request.
+    [000265A4] global_squad_asari: I'm not complaining. I have one myself...
+    [000266E5] global_squad_asari: Let's reenact how we met.
+    [000265AB] global_squad_asari: Oh, yeah. Is it me or is it getting warm in here?
+    [000265B3] global_squad_asari: Do you know about... asari melding? Our bodies and minds weave together... become one.
+    [000137A4] global_squad_asari: I've never trusted anyone enough... never trusted myself...
+    [000137CF] Hero: I've got you. You're safe with me.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: Scott...
-        Hero: I—I can't believe it. It's so quiet.
-        global_squad_asari: We are one. This is all ours now.
+        [00013900] global_squad_asari ⟨cond⟩: Scott...
+        [0001414B] Hero: I—I can't believe it. It's so quiet.
+        [00014148] global_squad_asari: We are one. This is all ours now.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Thank you.
-            global_squad_asari: Thank you.
+            [00014143] Hero: Thank you.
+            [00015449] global_squad_asari: Thank you.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_squad_asari: You were right: it is comfortable.
-                Hero: Better than a bedroll on the floor?
-                global_squad_asari: Much.
+                [0001539D] global_squad_asari: You were right: it is comfortable.
+                [00015394] Hero: Better than a bedroll on the floor?
+                [00015383] global_squad_asari: Much.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_squad_asari: I want you to know: it was great before, but... that was just the tip of the iceberg.
-                    global_squad_asari: This, now... it means so much more.
-                    global_squad_asari: This is where I belong.
+                    [000137A6] global_squad_asari: I want you to know: it was great before, but... that was just the tip of the iceberg.
+                    [000157EC] global_squad_asari: This, now... it means so much more.
+                    [00013910] global_squad_asari: This is where I belong.
                 ├ option 2:
-                    global_squad_asari: I want you to know: whatever kept you from saying yes before... I'm glad... I respect it.
-                    global_squad_asari: With strings... it means so much more.
-                    ↩ (goto) global_squad_asari: [empty]
+                    [000137D8] global_squad_asari: I want you to know: whatever kept you from saying yes before... I'm glad... I respect it.
+                    [000153E8] global_squad_asari: With strings... it means so much more.
+                    ↩ (goto) [000265A3] global_squad_asari: [empty]
                 └─ merge ─┘
             ├ option 2:
-                global_squad_asari: Wow, comfy.
-                ↩ (goto) Hero: Better than a bedroll on the floor?
+                [0001538B] global_squad_asari: Wow, comfy.
+                ↩ (goto) [00015394] Hero: Better than a bedroll on the floor?
             └─ merge ─┘
         ├ option 2:
-            Hero: I love you.
-            global_squad_asari: I love you.
-            ↩ (goto) Narration: [empty]
+            [00014146] Hero: I love you.
+            [0001544A] global_squad_asari: I love you.
+            ↩ (goto) [0001390E] Narration: [empty]
         └─ merge ─┘
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Sara...
-        ↩ (goto) Narration: [empty]
+        [00013904] global_squad_asari ⟨cond⟩: Sara...
+        ↩ (goto) [0001390F] Narration: [empty]
     ├ option 3:
-        global_squad_asari: Ryder...
-        ↩ (goto) Narration: [empty]
+        [000264C0] global_squad_asari: Ryder...
+        ↩ (goto) [0001390F] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: Maybe {i}that's{/i} the surprise.
-    global_squad_asari: Even on your back, you keep me on my toes.
-    ↩ (goto) Narration: [empty]
+    [000265A8] Hero: Maybe {i}that's{/i} the surprise.
+    [000265A5] global_squad_asari: Even on your back, you keep me on my toes.
+    ↩ (goto) [000265A7] Narration: [empty]
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_asari: [Audio Log] Pour. Drink. Finish. Don't let SAM keep you sober. Surprise coming. —Peebee
+    [00015393] global_squad_asari: [Audio Log] Pour. Drink. Finish. Don't let SAM keep you sober. Surprise coming. —Peebee
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I could use a drink.
-        global_squad_asari: Ahem.
-        global_squad_asari: That angaran ale sneaks up on you, huh? Did you save me some?
+        [0001537E] Hero: I could use a drink.
+        [00015386] global_squad_asari: Ahem.
+        [0001538A] global_squad_asari: That angaran ale sneaks up on you, huh? Did you save me some?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Let it never be said that I don't follow orders.
-            global_squad_asari: Yeah? Then move over.
-            Hero: Straightaway?
-            global_squad_asari: Straightaway.
+            [00015379] Hero: Let it never be said that I don't follow orders.
+            [0001539A] global_squad_asari: Yeah? Then move over.
+            [0001536D] Hero: Straightaway?
+            [000153E9] global_squad_asari: Straightaway.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I regret nothing.
-                global_squad_asari: Emotions... trust... they're...
-                Hero: Aphrodisiacs. I know.
-                global_squad_asari: Do you know... about asari melding? Our bodies and minds weave together... become one.
-                global_squad_asari: It's supposed to be the most intense experience in the galaxy.
-                Hero: Let's find out.
-                global_squad_asari: I'm scared.
-                Hero: I am, too. We're in this together.
+                [000137B1] Hero: I regret nothing.
+                [000137AF] global_squad_asari: Emotions... trust... they're...
+                [000137AB] Hero: Aphrodisiacs. I know.
+                [000137A3] global_squad_asari: Do you know... about asari melding? Our bodies and minds weave together... become one.
+                [000137A8] global_squad_asari: It's supposed to be the most intense experience in the galaxy.
+                [000153E7] Hero: Let's find out.
+                [000137D1] global_squad_asari: I'm scared.
+                [000137D4] Hero: I am, too. We're in this together.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Narration: [empty]
+                    ↩ (goto) [000137D0] Narration: [empty]
                 ├ option 2:
-                    Hero: Yes, Pelessaria.
+                    [00013909] Hero: Yes, Pelessaria.
                 └─ merge ─┘
             ├ option 2:
-                Hero: You're making me crazy.
-                ↩ (goto) global_squad_asari: Emotions... trust... they're...
+                [0001390D] Hero: You're making me crazy.
+                ↩ (goto) [000137AF] global_squad_asari: Emotions... trust... they're...
             └─ merge ─┘
         ├ option 2:
-            Hero: I would have, but that stuff is smooth. And you took so long.
-            global_squad_asari: I'm here now. Make some room.
-            ↩ (goto) Hero: Straightaway?
+            [00015374] Hero: I would have, but that stuff is smooth. And you took so long.
+            [00015390] global_squad_asari: I'm here now. Make some room.
+            ↩ (goto) [0001536D] Hero: Straightaway?
         └─ merge ─┘
     ├ option 2:
-        Hero: Heh. Another time.
+        [00015381] Hero: Heh. Another time.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) global_squad_asari: [Audio Log] Pour. Drink. Finish. Don't let SAM keep you sober. Surprise coming. —Peebee
+    ↩ (goto) [00015393] global_squad_asari: [Audio Log] Pour. Drink. Finish. Don't let SAM keep you sober. Surprise coming. —Peebee
 └─ merge ─┘

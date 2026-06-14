@@ -4,76 +4,76 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_angaran_elder_multi ⟨cond⟩: I'm not too tired for questions. Please, ask them.
+    [0002F4F0] global_angaran_elder_multi ⟨cond⟩: I'm not too tired for questions. Please, ask them.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        Hero: What was happening in that facility? It felt like a religion or a cult.
-        global_angaran_elder_multi: Perhaps, but not to them. They honestly believe they are giving us a "gift."
-        Hero: The Cardinal seemed desperate to keep that place standing.
-        global_angaran_elder_multi: The entire facility seemed dedicated to one thing—Exaltation.
-        global_angaran_elder_multi: That's why I asked you to destroy it, despite the lives it would cost.
+        [0002F502] Hero: What was happening in that facility? It felt like a religion or a cult.
+        [0002F60F] global_angaran_elder_multi: Perhaps, but not to them. They honestly believe they are giving us a "gift."
+        [0003108F] Hero: The Cardinal seemed desperate to keep that place standing.
+        [00031088] global_angaran_elder_multi: The entire facility seemed dedicated to one thing—Exaltation.
+        [0002F62F] global_angaran_elder_multi: That's why I asked you to destroy it, despite the lives it would cost.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_angaran_elder_multi ⟨cond⟩: It's good you listened to me.
-            ↩ (goto) Hero: [empty]
+            [0002F62E] global_angaran_elder_multi ⟨cond⟩: It's good you listened to me.
+            ↩ (goto) [0002F4FC] Hero: [empty]
         ├ option 2:
-            global_angaran_elder_multi: I hope the Resistance can still burn it to the ground, but I suspect the kett have already re-engineered that shield.
-            ↩ (goto) Hero: [empty]
+            [0002F62D] global_angaran_elder_multi: I hope the Resistance can still burn it to the ground, but I suspect the kett have already re-engineered that shield.
+            ↩ (goto) [0002F4FC] Hero: [empty]
         └─ merge ─┘
     ├ option 2:
-        Hero: So, Exaltation is how the kett reproduce? How did you learn that?
-        global_angaran_elder_multi: They're proud of it. They welcomed us and spoke of it openly. We were becoming them.
-        global_angaran_elder_multi: To the kett, all other life is inferior. Even, I suspect, humans.
+        [0002F503] Hero: So, Exaltation is how the kett reproduce? How did you learn that?
+        [0002F63F] global_angaran_elder_multi: They're proud of it. They welcomed us and spoke of it openly. We were becoming them.
+        [0002F800] global_angaran_elder_multi: To the kett, all other life is inferior. Even, I suspect, humans.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero: The Cardinal said she had the Archon's DNA—so was the Cardinal exalted, too?
-            global_angaran_elder_multi: From what they described, I think they can be exalted multiple times. They strive always to be greater.
-            global_angaran_elder_multi: And the Archon's DNA somehow plays a role in all of it.
-            ↩ (goto) Hero: [empty]
+            [0002F63E] Hero: The Cardinal said she had the Archon's DNA—so was the Cardinal exalted, too?
+            [0003108D] global_angaran_elder_multi: From what they described, I think they can be exalted multiple times. They strive always to be greater.
+            [0003108B] global_angaran_elder_multi: And the Archon's DNA somehow plays a role in all of it.
+            ↩ (goto) [00031087] Hero: [empty]
         ├ option 2:
-            Hero: They're going to a lot of trouble just to make baby kett.
-            global_angaran_elder_multi: I'd guess it's also a way for them to control their evolution.
-            global_angaran_elder_multi: They incorporate only traits they value and unique adaptations they don't possess.
-            Hero: So what are the chances the kett have exalted other intelligent species... somewhere?
-            global_angaran_elder_multi: I'd say those chances are excellent.
-            ↩ (goto) Hero: [empty]
+            [00031084] Hero: They're going to a lot of trouble just to make baby kett.
+            [0003108E] global_angaran_elder_multi: I'd guess it's also a way for them to control their evolution.
+            [0002F640] global_angaran_elder_multi: They incorporate only traits they value and unique adaptations they don't possess.
+            [00031090] Hero: So what are the chances the kett have exalted other intelligent species... somewhere?
+            [00031091] global_angaran_elder_multi: I'd say those chances are excellent.
+            ↩ (goto) [00031087] Hero: [empty]
         ├ option 3:
-            Hero: It looked like some of your people wanted this "kett gift." They walked right into those pods.
-            global_angaran_elder_multi: As did I. Voluntarily. Happily. But that is part of the process.
-            global_angaran_elder_multi: Part of the preparation—they called it Purification—stripped our systems of all defenses. It was very painful.
-            global_angaran_elder_multi: But after the pain came a beautiful peace—like a trance. Like a transcendence itself.
-            global_angaran_elder_multi: I willingly walked into that pod, and I cannot fault anyone else who did the same.
-            ↩ (goto) Hero: [empty]
+            [0002F64B] Hero: It looked like some of your people wanted this "kett gift." They walked right into those pods.
+            [00031085] global_angaran_elder_multi: As did I. Voluntarily. Happily. But that is part of the process.
+            [0003109A] global_angaran_elder_multi: Part of the preparation—they called it Purification—stripped our systems of all defenses. It was very painful.
+            [00031099] global_angaran_elder_multi: But after the pain came a beautiful peace—like a trance. Like a transcendence itself.
+            [0003109B] global_angaran_elder_multi: I willingly walked into that pod, and I cannot fault anyone else who did the same.
+            ↩ (goto) [00031087] Hero: [empty]
         ├ option 4:
-            Hero: SAM downloaded what he could from the facility. We'll be studying Exaltation for quite awhile.
-            ↩ (goto) Hero: [empty]
+            [00031083] Hero: SAM downloaded what he could from the facility. We'll be studying Exaltation for quite awhile.
+            ↩ (goto) [0002F4FC] Hero: [empty]
         └─ merge ─┘
     ├ option 3:
-        Hero: How long were you in that facility?
-        global_angaran_elder_multi: Days? After the Archon decided I would be exalted, I was sent to the facility alone.
-        global_angaran_elder_multi: I was housed with prisoners who described how they were kidnapped, taken to holding camps, analyzed and separated.
-        Hero: Analyzed?
-        global_angaran_elder_multi: Until now, we never understood why some of us were sent to slave camps and others just vanished.
-        global_angaran_elder_multi: The Archon chose to exalt me to use me for my knowledge. Perhaps others were chosen for their genetics.
-        Hero: "The Chosen..."
-        global_angaran_elder_multi: I'm only theorizing—I am a scientist, after all.
-        ↩ (goto) Hero: [empty]
+        [0002F7FB] Hero: How long were you in that facility?
+        [0002F821] global_angaran_elder_multi: Days? After the Archon decided I would be exalted, I was sent to the facility alone.
+        [000310C1] global_angaran_elder_multi: I was housed with prisoners who described how they were kidnapped, taken to holding camps, analyzed and separated.
+        [000310C2] Hero: Analyzed?
+        [0002F641] global_angaran_elder_multi: Until now, we never understood why some of us were sent to slave camps and others just vanished.
+        [0002F648] global_angaran_elder_multi: The Archon chose to exalt me to use me for my knowledge. Perhaps others were chosen for their genetics.
+        [000310CB] Hero: "The Chosen..."
+        [000310CA] global_angaran_elder_multi: I'm only theorizing—I am a scientist, after all.
+        ↩ (goto) [0002F4FC] Hero: [empty]
     ├ option 4:
-        Hero: I'll let you rest.
+        [0002F504] Hero: I'll let you rest.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_angaran_elder_multi [OncePerGame]: Wait—one more thing: I spoke to a guard, a former Resistance fighter who remembered me.
-            global_angaran_elder_multi: It described everything about its past, our past, with no trace of emotion.
-            global_angaran_elder_multi: It seems that victims retain memories of who they were—but after being exalted, they live only to serve the kett.
-            global_angaran_elder_multi: Does your species dream?
-            Hero: Sometimes.
-            global_angaran_elder_multi: A kett remembers being angara. Like a dream it's eager to forget. Which is... beyond comprehension.
-            global_angaran_elder_multi: Isharay, Pathfinder. I'm sure we'll talk again.
+            [0002F818] global_angaran_elder_multi [OncePerGame]: Wait—one more thing: I spoke to a guard, a former Resistance fighter who remembered me.
+            [0002F819] global_angaran_elder_multi: It described everything about its past, our past, with no trace of emotion.
+            [0002F646] global_angaran_elder_multi: It seems that victims retain memories of who they were—but after being exalted, they live only to serve the kett.
+            [000310CC] global_angaran_elder_multi: Does your species dream?
+            [0002F80F] Hero: Sometimes.
+            [0002F810] global_angaran_elder_multi: A kett remembers being angara. Like a dream it's eager to forget. Which is... beyond comprehension.
+            [0002F5FC] global_angaran_elder_multi: Isharay, Pathfinder. I'm sure we'll talk again.
         ├ option 2:
-            ↩ (goto) global_angaran_elder_multi: Isharay, Pathfinder. I'm sure we'll talk again.
+            ↩ (goto) [0002F5FC] global_angaran_elder_multi: Isharay, Pathfinder. I'm sure we'll talk again.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    global_angaran_elder_multi: You still have questions. I'll try to answer them.
-    ↩ (goto) Hero: [empty]
+    [0001DA42] global_angaran_elder_multi: You still have questions. I'll try to answer them.
+    ↩ (goto) [0002F4FC] Hero: [empty]
 └─ merge ─┘

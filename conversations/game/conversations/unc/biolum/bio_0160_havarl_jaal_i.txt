@@ -2,83 +2,83 @@
 # Primary speaker: global_squad_angara
 # Source: game/conversations/unc/biolum/bio_0160_havarl_jaal_i.xml
 ==================================================
-global_squad_angara: Are you sure you don't want me to come with you?
+[0002C03C] global_squad_angara: Are you sure you don't want me to come with you?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_angara: I don't think it's wise for you to be in angaran territory without an angaran escort.
-    global_squad_angara: I know Havarl. That, and you're already in danger of being shot on sight by Roekaar.
+    [0002C03F] global_squad_angara: I don't think it's wise for you to be in angaran territory without an angaran escort.
+    [0002C03E] global_squad_angara: I know Havarl. That, and you're already in danger of being shot on sight by Roekaar.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Jaal's right, kid.
+        [0002C04B] global_squad_krogan ⟨cond⟩: Jaal's right, kid.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I'll give it more thought and let you know if I change my mind.
-            global_squad_angara: Thank you.
+            [0002C042] Hero: I'll give it more thought and let you know if I change my mind.
+            [0002C045] global_squad_angara: Thank you.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                Hero ⟨cond⟩: You said something about angaran fanatics here?
-                global_squad_angara: Yes. Havarl is home to the Roekaar. They are... hard liners.
+                [0002C077] Hero ⟨cond⟩: You said something about angaran fanatics here?
+                [0002C076] global_squad_angara: Yes. Havarl is home to the Roekaar. They are... hard liners.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_squad_angara: Akksul's death will only be a short setback. Recruitments are increasing.
-                    ↩ (goto) global_squad_angara: [empty]
+                    [0002C078] global_squad_angara: Akksul's death will only be a short setback. Recruitments are increasing.
+                    ↩ (goto) [0002C074] global_squad_angara: [empty]
                 ├ option 2:
-                    global_squad_angara: The kett invasion has made them hostile to all aliens. Be prepared to defend yourself.
-                    ↩ (goto) global_squad_angara: [empty]
+                    [0002C079] global_squad_angara: The kett invasion has made them hostile to all aliens. Be prepared to defend yourself.
+                    ↩ (goto) [0002C074] global_squad_angara: [empty]
                 └─ merge ─┘
             ├ option 2:
-                Hero: Tell me more about Havarl.
-                global_squad_angara: Our histories point to Havarl being the homeworld of the angara.
-                global_squad_angara: We built a civilization here, and then spread throughout the cluster. Then the Scourge came and destroyed it all.
-                global_squad_angara: It took time, but we recovered.
-                ↩ (goto) global_squad_angara: [empty]
+                [0002C08E] Hero: Tell me more about Havarl.
+                [0002C08F] global_squad_angara: Our histories point to Havarl being the homeworld of the angara.
+                [0002C091] global_squad_angara: We built a civilization here, and then spread throughout the cluster. Then the Scourge came and destroyed it all.
+                [0002C08C] global_squad_angara: It took time, but we recovered.
+                ↩ (goto) [0002C074] global_squad_angara: [empty]
             ├ option 3:
-                Hero ⟨cond⟩: Did you know about Havarl's decline?
-                global_squad_angara: Most angara say that ruin is a long way off.
-                global_squad_angara: There are daara on the other side of the planet, where it's still safe to live.
-                global_squad_angara: But maybe not for much longer.
-                ↩ (goto) global_squad_angara: [empty]
+                [0002C08D] Hero ⟨cond⟩: Did you know about Havarl's decline?
+                [0002C08B] global_squad_angara: Most angara say that ruin is a long way off.
+                [0002C089] global_squad_angara: There are daara on the other side of the planet, where it's still safe to live.
+                [0002C090] global_squad_angara: But maybe not for much longer.
+                ↩ (goto) [0002C074] global_squad_angara: [empty]
             ├ option 4:
-                Hero ⟨cond⟩: You said Havarl was the birthplace of the angara. Do you think the Jardaan put you here?
-                global_squad_angara: It's the only conclusion. And it's explained a great deal.
-                global_squad_angara: There've always been strange things on Havarl—artifacts we studied, that we assumed were our own.
-                global_squad_angara: But now, I wonder if they were left there by the Jardaan, as a way to guide our advancement.
-                ↩ (goto) global_squad_angara: [empty]
+                [0002C3C2] Hero ⟨cond⟩: You said Havarl was the birthplace of the angara. Do you think the Jardaan put you here?
+                [0002C3C0] global_squad_angara: It's the only conclusion. And it's explained a great deal.
+                [0002C3C1] global_squad_angara: There've always been strange things on Havarl—artifacts we studied, that we assumed were our own.
+                [0002C3CD] global_squad_angara: But now, I wonder if they were left there by the Jardaan, as a way to guide our advancement.
+                ↩ (goto) [0002C074] global_squad_angara: [empty]
             ├ option 5:
-                Hero: I have to go. We'll speak again later.
-                global_squad_angara: Of course. I'll be here.
+                [0002C085] Hero: I have to go. We'll speak again later.
+                [0002C086] global_squad_angara: Of course. I'll be here.
             └─ merge ─┘
         ├ option 2:
-            Hero: Relax, mom. I know how to handle myself.
-            global_squad_angara: Mom? {i}(Sighs.){/i}
-            global_squad_angara: If I can't go with you, we should keep in contact on comms.
-            ↩ (goto) global_squad_angara: [empty]
+            [0002C041] Hero: Relax, mom. I know how to handle myself.
+            [0002C046] global_squad_angara: Mom? {i}(Sighs.){/i}
+            [0002C052] global_squad_angara: If I can't go with you, we should keep in contact on comms.
+            ↩ (goto) [0002C074] global_squad_angara: [empty]
         └─ merge ─┘
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: He's got a point.
-        ↩ (goto) global_squad_male_human: [empty]
+        [0002C04C] global_squad_female_human ⟨cond⟩: He's got a point.
+        ↩ (goto) [0002C04D] global_squad_male_human: [empty]
     ├ option 3:
-        global_squad_asari ⟨cond⟩: He's right. We don't know this place. He does.
-        ↩ (goto) global_squad_male_human: [empty]
+        [0002C049] global_squad_asari ⟨cond⟩: He's right. We don't know this place. He does.
+        ↩ (goto) [0002C04D] global_squad_male_human: [empty]
     ├ option 4:
-        global_squad_turian ⟨cond⟩: He's not wrong, Ryder.
-        ↩ (goto) global_squad_male_human: [empty]
+        [0002C04E] global_squad_turian ⟨cond⟩: He's not wrong, Ryder.
+        ↩ (goto) [0002C04D] global_squad_male_human: [empty]
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Jaal's right, Ryder.
-        ↩ (goto) global_squad_male_human: [empty]
+        [0002C04A] global_squad_male_human ⟨cond⟩: Jaal's right, Ryder.
+        ↩ (goto) [0002C04D] global_squad_male_human: [empty]
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) global_squad_angara: I know Havarl. That, and you're already in danger of being shot on sight by Roekaar.
+    ↩ (goto) [0002C03E] global_squad_angara: I know Havarl. That, and you're already in danger of being shot on sight by Roekaar.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    global_squad_angara: Ryder.
-    ↩ (goto) global_squad_angara: [empty]
+    [0002C04F] global_squad_angara: Ryder.
+    ↩ (goto) [0002C074] global_squad_angara: [empty]
 ├ option 2:
-    global_squad_angara: Yes?
-    ↩ (goto) global_squad_angara: [empty]
+    [0002C053] global_squad_angara: Yes?
+    ↩ (goto) [0002C074] global_squad_angara: [empty]
 ├ option 3:
-    global_squad_angara: How can I help?
-    ↩ (goto) global_squad_angara: [empty]
+    [0002C051] global_squad_angara: How can I help?
+    ↩ (goto) [0002C074] global_squad_angara: [empty]
 └─ merge ─┘
-↩ (goto) global_squad_angara: [empty]
+↩ (goto) [0002C074] global_squad_angara: [empty]

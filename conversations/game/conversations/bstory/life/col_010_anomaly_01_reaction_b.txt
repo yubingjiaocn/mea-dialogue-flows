@@ -2,22 +2,22 @@
 # Primary speaker: SAM
 # Source: game/conversations/bstory/life/col_010_anomaly_01_reaction_b.xml
 ==================================================
-global_crew_co-pilot: Ready to fly, Path... What the...!
-Hero: Find something?
-global_crew_science_officer: Something pinged {i}us{/i}. An ID request. The Tempest auto-responded.
-Hero: We'll keep an eye out in the sector.
-Hero: That a satellite? Is that what pinged us in this sector?
-global_crew_science_officer: It's pulsing an Initiative call/response code. Someone knows our tech inside and out.
-Hero: Let's get a scan.
+[0002B48B] global_crew_co-pilot: Ready to fly, Path... What the...!
+[0002B48E] Hero: Find something?
+[0002B48C] global_crew_science_officer: Something pinged {i}us{/i}. An ID request. The Tempest auto-responded.
+[0002B48D] Hero: We'll keep an eye out in the sector.
+[0002B49D] Hero: That a satellite? Is that what pinged us in this sector?
+[0002B49A] global_crew_science_officer: It's pulsing an Initiative call/response code. Someone knows our tech inside and out.
+[0002B498] Hero: Let's get a scan.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: What the hell happened?
-    global_crew_science_officer: Anti track-back measure? Drive system overloaded.
-    global_crew_science_officer: Not quick enough, though. I got a serial that... has triggered an alert?
-    SAM: Pathfinder, we are to contact Director Addison as soon as possible.
-    Hero: What is going on?
+    [0002B95D] Hero: What the hell happened?
+    [0002B95C] global_crew_science_officer: Anti track-back measure? Drive system overloaded.
+    [0002B49B] global_crew_science_officer: Not quick enough, though. I got a serial that... has triggered an alert?
+    [0002B49E] SAM: Pathfinder, we are to contact Director Addison as soon as possible.
+    [0002B4FA] Hero: What is going on?
 ├ option 2:
-    Hero: It's dead? But it pinged us?
-    global_crew_science_officer: Anti track-back measure? Hardware flashed itself.
-    ↩ (goto) global_crew_science_officer: Not quick enough, though. I got a serial that... has triggered an alert?
+    [0002B499] Hero: It's dead? But it pinged us?
+    [0002B49C] global_crew_science_officer: Anti track-back measure? Hardware flashed itself.
+    ↩ (goto) [0002B49B] global_crew_science_officer: Not quick enough, though. I got a serial that... has triggered an alert?
 └─ merge ─┘

@@ -6,23 +6,23 @@
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        dune_deadzone_mechanic: Funny seeing you here.
-        dune_deadzone_mechanic: Wanna make another deal?
+        [0002B459] dune_deadzone_mechanic: Funny seeing you here.
+        [0002B465] dune_deadzone_mechanic: Wanna make another deal?
     ├ option 2:
-        ↩ (goto) dune_deadzone_mechanic: Wanna make another deal?
+        ↩ (goto) [0002B465] dune_deadzone_mechanic: Wanna make another deal?
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        dune_deadzone_mechanic [OncePerGame]: You probably want to turn around and head back to civilization.
-        dune_deadzone_mechanic: If you can call a krogan colony civilization...
+        [0001EDD3] dune_deadzone_mechanic [OncePerGame]: You probably want to turn around and head back to civilization.
+        [0001EDD5] dune_deadzone_mechanic: If you can call a krogan colony civilization...
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: {i}(Grumbles.){/i} I really wish you'd killed him.
+            [0001EDD6] global_squad_krogan ⟨cond⟩: {i}(Grumbles.){/i} I really wish you'd killed him.
         ├ option 2:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [0001EDD7] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) dune_deadzone_mechanic: Wanna make another deal?
+        ↩ (goto) [0002B465] dune_deadzone_mechanic: Wanna make another deal?
     └─ merge ─┘
 └─ merge ─┘

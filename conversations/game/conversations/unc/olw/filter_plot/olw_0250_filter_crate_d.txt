@@ -2,101 +2,101 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc/olw/filter_plot/olw_0250_filter_crate_d.xml
 ==================================================
-SAM: Water filters. The make and design matches those found in the angaran town.
+[00026DE4] SAM: Water filters. The make and design matches those found in the angaran town.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Guess it was too much to hope exiles weren't involved.
+    [00026DE0] Hero: Guess it was too much to hope exiles weren't involved.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: So much death. And for what?
-        olw_mallox: Hey!
-        Narration: Ryder and squad turn to see Mallox, the turian in charge of Charybdis Point.
+        [00027210] global_squad_angara ⟨cond⟩: So much death. And for what?
+        [000275DC] olw_mallox: Hey!
+        [000275DD] Narration: Ryder and squad turn to see Mallox, the turian in charge of Charybdis Point.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            olw_mallox ⟨cond⟩: {i}(Sighs.){/i} You just couldn't leave it alone.
-            Hero: These filters. You stole the design from the angara. Didn't you?
-            olw_mallox: This doesn't concern you. Walk away. Before you can't.
+            [000275DA] olw_mallox ⟨cond⟩: {i}(Sighs.){/i} You just couldn't leave it alone.
+            [000282B0] Hero: These filters. You stole the design from the angara. Didn't you?
+            [000282C6] olw_mallox: This doesn't concern you. Walk away. Before you can't.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: You murdered an entire town. I'm not leaving until I know why.
-                olw_mallox: We came to them. Starving. Dying of thirst.
-                olw_mallox: But instead of helping us, those flapheads bled us dry.
-                olw_mallox: Credits, clothes, weapons... they took everything.
-                Hero: Not everything. You survived. You set up here.
-                olw_mallox: The angara are the only ones who know how to properly filter this planet’s water.
-                olw_mallox: All we wanted was to be self-sufficient. I offered to pay for the designs. They refused.
+                [000282AE] Hero: You murdered an entire town. I'm not leaving until I know why.
+                [000282AF] olw_mallox: We came to them. Starving. Dying of thirst.
+                [000282BD] olw_mallox: But instead of helping us, those flapheads bled us dry.
+                [000282B8] olw_mallox: Credits, clothes, weapons... they took everything.
+                [000282B6] Hero: Not everything. You survived. You set up here.
+                [000282B3] olw_mallox: The angara are the only ones who know how to properly filter this planet’s water.
+                [000282B1] olw_mallox: All we wanted was to be self-sufficient. I offered to pay for the designs. They refused.
                 ┌─ BRANCH (5) ─┐
                 ├ option 1:
-                    global_squad_angara ⟨cond⟩: So you poisoned them?
-                    olw_mallox: And took all their business.
+                    [000282AD] global_squad_angara ⟨cond⟩: So you poisoned them?
+                    [000282B7] olw_mallox: And took all their business.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero: You're a monster.
-                        olw_mallox: No, I'm a survivor.
-                        olw_mallox: Kill them!
+                        [000282C1] Hero: You're a monster.
+                        [000282B9] olw_mallox: No, I'm a survivor.
+                        [000282BB] olw_mallox: Kill them!
                     ├ option 2:
-                        Hero: I won't let you get away with this.
-                        olw_mallox: Figured you'd say that.
-                        ↩ (goto) olw_mallox: Kill them!
+                        [000282B5] Hero: I won't let you get away with this.
+                        [000282B2] olw_mallox: Figured you'd say that.
+                        ↩ (goto) [000282BB] olw_mallox: Kill them!
                     └─ merge ─┘
                 ├ option 2:
-                    global_squad_male_human ⟨cond⟩: So you poisoned them.
-                    ↩ (goto) olw_mallox: And took all their business.
+                    [000282CA] global_squad_male_human ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) [000282B7] olw_mallox: And took all their business.
                 ├ option 3:
-                    global_squad_female_human ⟨cond⟩: So you poisoned them.
-                    ↩ (goto) olw_mallox: And took all their business.
+                    [000282C9] global_squad_female_human ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) [000282B7] olw_mallox: And took all their business.
                 ├ option 4:
-                    global_squad_krogan ⟨cond⟩: So you poisoned them.
-                    ↩ (goto) olw_mallox: And took all their business.
+                    [000282C8] global_squad_krogan ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) [000282B7] olw_mallox: And took all their business.
                 ├ option 5:
-                    global_squad_turian ⟨cond⟩: So you poisoned them.
-                    ↩ (goto) olw_mallox: And took all their business.
+                    [000282CC] global_squad_turian ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) [000282B7] olw_mallox: And took all their business.
                 └─ merge ─┘
             ├ option 2:
-                Hero: I won't ask again. Where did you get the filter designs?
-                olw_mallox: There's a history here you wouldn't understand.
-                Hero: Try me.
-                olw_mallox: We couldn't pay Sloane's protection fees, so she forced us out.
-                olw_mallox: We came to the angara for help. Starving. Dying.
-                olw_mallox: But instead of being {i}decent{/i}, those flapheads bled us dry.
-                ↩ (goto) olw_mallox: Credits, clothes, weapons... they took everything.
+                [000282C2] Hero: I won't ask again. Where did you get the filter designs?
+                [000282C4] olw_mallox: There's a history here you wouldn't understand.
+                [000282C0] Hero: Try me.
+                [000282BA] olw_mallox: We couldn't pay Sloane's protection fees, so she forced us out.
+                [000282C3] olw_mallox: We came to the angara for help. Starving. Dying.
+                [000282C5] olw_mallox: But instead of being {i}decent{/i}, those flapheads bled us dry.
+                ↩ (goto) [000282B8] olw_mallox: Credits, clothes, weapons... they took everything.
             └─ merge ─┘
         ├ option 2:
-            olw_mallox: What are you doing in here?
-            Hero: A better question is: where'd you get the design for these water filters?
-            olw_mallox: Leave it alone. Before you can't.
+            [000275D9] olw_mallox: What are you doing in here?
+            [000282BF] Hero: A better question is: where'd you get the design for these water filters?
+            [000282BE] olw_mallox: Leave it alone. Before you can't.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) Hero: You murdered an entire town. I'm not leaving until I know why.
+                ↩ (goto) [000282AE] Hero: You murdered an entire town. I'm not leaving until I know why.
             ├ option 2:
-                ↩ (goto) Hero: I won't ask again. Where did you get the filter designs?
+                ↩ (goto) [000282C2] Hero: I won't ask again. Where did you get the filter designs?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Maybe there's another explanation?
-        ↩ (goto) olw_mallox: Hey!
+        [000275D8] global_squad_male_human ⟨cond⟩: Maybe there's another explanation?
+        ↩ (goto) [000275DC] olw_mallox: Hey!
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: The evidence is pretty damning.
-        ↩ (goto) olw_mallox: Hey!
+        [0002720C] global_squad_female_human ⟨cond⟩: The evidence is pretty damning.
+        ↩ (goto) [000275DC] olw_mallox: Hey!
     ├ option 4:
-        global_squad_krogan ⟨cond⟩: Survival. It brings out the worst in people.
-        ↩ (goto) olw_mallox: Hey!
+        [0002720D] global_squad_krogan ⟨cond⟩: Survival. It brings out the worst in people.
+        ↩ (goto) [000275DC] olw_mallox: Hey!
     ├ option 5:
-        global_squad_turian ⟨cond⟩: We should talk to them. Get the whole story.
-        ↩ (goto) olw_mallox: Hey!
+        [0002720E] global_squad_turian ⟨cond⟩: We should talk to them. Get the whole story.
+        ↩ (goto) [000275DC] olw_mallox: Hey!
     └─ merge ─┘
 ├ option 2:
-    Hero: So exiles stole the angara's design and poisoned them for good measure.
+    [00026DE5] Hero: So exiles stole the angara's design and poisoned them for good measure.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_angara ⟨cond⟩: So much death. And for what?
+        ↩ (goto) [00027210] global_squad_angara ⟨cond⟩: So much death. And for what?
     ├ option 2:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: Maybe there's another explanation?
+        ↩ (goto) [000275D8] global_squad_male_human ⟨cond⟩: Maybe there's another explanation?
     ├ option 3:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: The evidence is pretty damning.
+        ↩ (goto) [0002720C] global_squad_female_human ⟨cond⟩: The evidence is pretty damning.
     ├ option 4:
-        ↩ (goto) global_squad_krogan ⟨cond⟩: Survival. It brings out the worst in people.
+        ↩ (goto) [0002720D] global_squad_krogan ⟨cond⟩: Survival. It brings out the worst in people.
     ├ option 5:
-        ↩ (goto) global_squad_turian ⟨cond⟩: We should talk to them. Get the whole story.
+        ↩ (goto) [0002720E] global_squad_turian ⟨cond⟩: We should talk to them. Get the whole story.
     └─ merge ─┘
 └─ merge ─┘

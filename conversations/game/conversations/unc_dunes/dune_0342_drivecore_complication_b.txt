@@ -4,83 +4,83 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: Fiends! More than one.
-    Hero: We're sure this is the right spot?
-    global_crew_science_officer: [Comm] I'm sure.
-    Hero: Perfect. How come the right spot is never by a quiet pond or in a field of wildflowers?
-    SAM: I cannot pinpoint my scan until we are closer.
+    [0001D880] global_squad_angara ⟨cond⟩: Fiends! More than one.
+    [0001D87B] Hero: We're sure this is the right spot?
+    [0001D877] global_crew_science_officer: [Comm] I'm sure.
+    [0001D87E] Hero: Perfect. How come the right spot is never by a quiet pond or in a field of wildflowers?
+    [0001D87C] SAM: I cannot pinpoint my scan until we are closer.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: Right then, let's take these beasts down.
+        [0001D879] global_squad_male_human ⟨cond⟩: Right then, let's take these beasts down.
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Let's go! Fiend steaks for supper.
-        ↩ (goto) Hero: [empty]
+        [0001D878] global_squad_krogan ⟨cond⟩: Let's go! Fiend steaks for supper.
+        ↩ (goto) [0001D353] Hero: [empty]
     ├ option 3:
-        global_squad_turian ⟨cond⟩: No whining! Let's do this.
-        ↩ (goto) Hero: [empty]
+        [0001D885] global_squad_turian ⟨cond⟩: No whining! Let's do this.
+        ↩ (goto) [0001D353] Hero: [empty]
     ├ option 4:
-        global_squad_asari ⟨cond⟩: Come on, let's take these beasts down.
-        ↩ (goto) Hero: [empty]
+        [0001D882] global_squad_asari ⟨cond⟩: Come on, let's take these beasts down.
+        ↩ (goto) [0001D353] Hero: [empty]
     ├ option 5:
-        global_squad_female_human ⟨cond⟩: Enough complaining. We'd be done by now.
-        ↩ (goto) Hero: [empty]
+        [0001D883] global_squad_female_human ⟨cond⟩: Enough complaining. We'd be done by now.
+        ↩ (goto) [0001D353] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: Fiends. Plural. Fantastic.
-    ↩ (goto) Hero: We're sure this is the right spot?
+    [0001D884] global_squad_female_human ⟨cond⟩: Fiends. Plural. Fantastic.
+    ↩ (goto) [0001D87B] Hero: We're sure this is the right spot?
 ├ option 3:
-    global_squad_asari ⟨cond⟩: Fiends. More than one.
-    ↩ (goto) Hero: We're sure this is the right spot?
+    [0001D881] global_squad_asari ⟨cond⟩: Fiends. More than one.
+    ↩ (goto) [0001D87B] Hero: We're sure this is the right spot?
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Got some fiends here.
-    ↩ (goto) Hero: We're sure this is the right spot?
+    [0001D87A] global_squad_turian ⟨cond⟩: Got some fiends here.
+    ↩ (goto) [0001D87B] Hero: We're sure this is the right spot?
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: Fiends. More than one.
-    ↩ (goto) Hero: We're sure this is the right spot?
+    [0001D875] global_squad_krogan ⟨cond⟩: Fiends. More than one.
+    ↩ (goto) [0001D87B] Hero: We're sure this is the right spot?
 └─ merge ─┘
-Hero [OncePerGame]: Looks like we missed the action this time.
+[0001D351] Hero [OncePerGame]: Looks like we missed the action this time.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: Krogan versus scavengers. Think this was about the drive core or just an ambush for loot?
+    [0001DBC6] global_squad_male_human ⟨cond⟩: Krogan versus scavengers. Think this was about the drive core or just an ambush for loot?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: We should scan the bodies before they turn to dust.
+        [0001DCCA] global_squad_angara ⟨cond⟩: We should scan the bodies before they turn to dust.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: Or we do.
+            [00020A17] global_squad_male_human ⟨cond⟩: Or we do.
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Or we do.
+            [00020A15] global_squad_krogan ⟨cond⟩: Or we do.
         ├ option 3:
-            global_squad_turian ⟨cond⟩: Or we do.
+            [00020A16] global_squad_turian ⟨cond⟩: Or we do.
         ├ option 4:
-            global_squad_asari ⟨cond⟩: Or we do.
+            [00020A14] global_squad_asari ⟨cond⟩: Or we do.
         ├ option 5:
-            global_squad_female_human ⟨cond⟩: Or we do.
+            [00020A13] global_squad_female_human ⟨cond⟩: Or we do.
         └─ merge ─┘
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: Let's scan the bodies before they turn to dust, shall we?
-        ↩ (goto) Hero: [empty]
+        [0001DCCC] global_squad_female_human ⟨cond⟩: Let's scan the bodies before they turn to dust, shall we?
+        ↩ (goto) [00020A18] Hero: [empty]
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Why don't we scan the bodies before they turn to dust?
-        ↩ (goto) Hero: [empty]
+        [0001DCCB] global_squad_asari ⟨cond⟩: Why don't we scan the bodies before they turn to dust?
+        ↩ (goto) [00020A18] Hero: [empty]
     ├ option 4:
-        global_squad_turian ⟨cond⟩: How 'bout we scan the bodies before they turn to dust?
-        ↩ (goto) Hero: [empty]
+        [0001DCCD] global_squad_turian ⟨cond⟩: How 'bout we scan the bodies before they turn to dust?
+        ↩ (goto) [00020A18] Hero: [empty]
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Let's give these a quick scan before they turn to dust, how 'bout?
-        ↩ (goto) Hero: [empty]
+        [0001DCCE] global_squad_male_human ⟨cond⟩: Let's give these a quick scan before they turn to dust, how 'bout?
+        ↩ (goto) [00020A18] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_squad_krogan ⟨cond⟩: I think I know these krogan. They aren't Morda's group.
-    ↩ (goto) Hero: [empty]
+    [0001DBC7] global_squad_krogan ⟨cond⟩: I think I know these krogan. They aren't Morda's group.
+    ↩ (goto) [0001DCC8] Hero: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Krogan and scavengers. Fighting over the drive core or just an ambush for loot?
-    ↩ (goto) Hero: [empty]
+    [0001DBC4] global_squad_turian ⟨cond⟩: Krogan and scavengers. Fighting over the drive core or just an ambush for loot?
+    ↩ (goto) [0001DCC8] Hero: [empty]
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Krogan and scavengers. Was this about the drive core or some other loot?
-    ↩ (goto) Hero: [empty]
+    [0001DBC9] global_squad_asari ⟨cond⟩: Krogan and scavengers. Was this about the drive core or some other loot?
+    ↩ (goto) [0001DCC8] Hero: [empty]
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: Krogan and scavengers. Fighting over the drive core or some other loot?
-    ↩ (goto) Hero: [empty]
+    [0001DBC5] global_squad_female_human ⟨cond⟩: Krogan and scavengers. Fighting over the drive core or some other loot?
+    ↩ (goto) [0001DCC8] Hero: [empty]
 └─ merge ─┘
-↩ (goto) Hero: [empty]
+↩ (goto) [0001D353] Hero: [empty]

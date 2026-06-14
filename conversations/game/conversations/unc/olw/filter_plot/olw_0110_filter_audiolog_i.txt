@@ -2,51 +2,51 @@
 # Primary speaker: olw_ang_log
 # Source: game/conversations/unc/olw/filter_plot/olw_0110_filter_audiolog_i.xml
 ==================================================
-Hero: Hm. It's encrypted. SAM, can you get us in?
-SAM: Yes. One moment please.
-SAM: This log belonged to Skylaar Yefir, an angara who lived here.
+[000267D2] Hero: Hm. It's encrypted. SAM, can you get us in?
+[000267CB] SAM: Yes. One moment please.
+[000267BD] SAM: This log belonged to Skylaar Yefir, an angara who lived here.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero: Play the first log, SAM.
-    olw_ang_log: [Audio Log] More and more aliens keep showing up.
-    olw_ang_log: [Audio Log] They are desperate, dirty things who will pay anything for a slab of adhi and clean water.
-    olw_ang_log: [Audio Log] I thought all was lost when the kett invaded, but maybe our luck's changing.
-    ↩ (goto) ?: [empty]
+    [000267CC] Hero: Play the first log, SAM.
+    [000267CD] olw_ang_log: [Audio Log] More and more aliens keep showing up.
+    [000267C5] olw_ang_log: [Audio Log] They are desperate, dirty things who will pay anything for a slab of adhi and clean water.
+    [000267CE] olw_ang_log: [Audio Log] I thought all was lost when the kett invaded, but maybe our luck's changing.
+    ↩ (goto) [000267BE] ?: [empty]
 ├ option 2:
-    Hero: Let's hear the second log.
-    olw_ang_log: [Audio Log] Today, I caught one of the aliens studying our filtration system.
-    olw_ang_log: [Audio Log] I had Kariina and her sisters guard the facility.
-    olw_ang_log: [Audio Log] If these "exiles" learn how to make their own water filters, they won't need us anymore.
-    ↩ (goto) ?: [empty]
+    [000267BC] Hero: Let's hear the second log.
+    [000267C1] olw_ang_log: [Audio Log] Today, I caught one of the aliens studying our filtration system.
+    [000267C3] olw_ang_log: [Audio Log] I had Kariina and her sisters guard the facility.
+    [000267C2] olw_ang_log: [Audio Log] If these "exiles" learn how to make their own water filters, they won't need us anymore.
+    ↩ (goto) [000267BE] ?: [empty]
 ├ option 3:
-    Hero: Final log, SAM.
-    olw_ang_log: [Audio Log] Some of the aliens have set up shelter not far from here. They call it "Charybdis Point."
-    olw_ang_log: [Audio Log] A band of them came today demanding we hand over our water filters.
-    olw_ang_log: [Audio Log] Kariina and the others were able to drive them off, but I fear the desperate look in their eyes.
+    [000267C4] Hero: Final log, SAM.
+    [000267B6] olw_ang_log: [Audio Log] Some of the aliens have set up shelter not far from here. They call it "Charybdis Point."
+    [000267C6] olw_ang_log: [Audio Log] A band of them came today demanding we hand over our water filters.
+    [000267BB] olw_ang_log: [Audio Log] Kariina and the others were able to drive them off, but I fear the desperate look in their eyes.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩ [OncePerGame]: These exiles could be the ones who tampered with the water filters.
+        [000267B8] Hero ⟨cond⟩ [OncePerGame]: These exiles could be the ones who tampered with the water filters.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            global_squad_female_human ⟨cond⟩: People have killed for less.
-            ↩ (goto) ?: [empty]
+            [000267BF] global_squad_female_human ⟨cond⟩: People have killed for less.
+            ↩ (goto) [000267BE] ?: [empty]
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Desperate people do desperate things.
-            ↩ (goto) ?: [empty]
+            [000267CA] global_squad_krogan ⟨cond⟩: Desperate people do desperate things.
+            ↩ (goto) [000267BE] ?: [empty]
         ├ option 3:
-            global_squad_angara ⟨cond⟩: This daar must be avenged, Ryder.
-            ↩ (goto) ?: [empty]
+            [000267D0] global_squad_angara ⟨cond⟩: This daar must be avenged, Ryder.
+            ↩ (goto) [000267BE] ?: [empty]
         ├ option 4:
-            global_squad_turian ⟨cond⟩: I wouldn't put anything past some of these scavengers.
-            ↩ (goto) ?: [empty]
+            [000267B9] global_squad_turian ⟨cond⟩: I wouldn't put anything past some of these scavengers.
+            ↩ (goto) [000267BE] ?: [empty]
         ├ option 5:
-            global_squad_male_human ⟨cond⟩: Worth checking out, at the very least.
-            ↩ (goto) ?: [empty]
+            [000267C8] global_squad_male_human ⟨cond⟩: Worth checking out, at the very least.
+            ↩ (goto) [000267BE] ?: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) ?: [empty]
+        ↩ (goto) [000267BE] ?: [empty]
     └─ merge ─┘
 ├ option 4:
-    Hero: That's enough.
+    [000267B7] Hero: That's enough.
 └─ merge ─┘
-↩ (goto) ?: [empty]
+↩ (goto) [000267BE] ?: [empty]

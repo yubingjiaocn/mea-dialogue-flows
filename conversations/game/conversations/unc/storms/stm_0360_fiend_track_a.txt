@@ -4,238 +4,238 @@
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Way too quiet.
+    [0001C390] global_squad_female_human ⟨cond⟩: Way too quiet.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Way too quiet.
+    [0001C391] global_squad_male_human ⟨cond⟩: Way too quiet.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Way too quiet.
+    [0001C392] global_squad_turian ⟨cond⟩: Way too quiet.
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Way too quiet.
+    [0001C38F] global_squad_krogan ⟨cond⟩: Way too quiet.
 └─ merge ─┘
-Hero: Looks like they left in a hurry.
+[0001C383] Hero: Looks like they left in a hurry.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Reports said the evac was cut off by kett.
+    [0001C388] global_squad_female_human ⟨cond⟩: Reports said the evac was cut off by kett.
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Reports said the evac was cut off by kett.
+    [0001C386] global_squad_male_human ⟨cond⟩: Reports said the evac was cut off by kett.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: They evaced during a kett attack. Most didn't make it.
+    [0001C385] global_squad_turian ⟨cond⟩: They evaced during a kett attack. Most didn't make it.
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: {i}Tried{/i} to. Kett overran the evacuation.
+    [0001C382] global_squad_krogan ⟨cond⟩: {i}Tried{/i} to. Kett overran the evacuation.
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Secondary terminals. No access.
-    SAM: If deployment is standard, main access will be deeper in.
+    [0001C389] global_squad_female_human ⟨cond⟩: Secondary terminals. No access.
+    [0001C384] SAM: If deployment is standard, main access will be deeper in.
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Secondary terminals. Where's the good stuff, SAM?
-    ↩ (goto) SAM: If deployment is standard, main access will be deeper in.
+    [0001C387] global_squad_asari ⟨cond⟩: Secondary terminals. Where's the good stuff, SAM?
+    ↩ (goto) [0001C384] SAM: If deployment is standard, main access will be deeper in.
 ├ option 3:
-    global_squad_male_human ⟨cond⟩: Secondary terminals. No access. SAM?
-    ↩ (goto) SAM: If deployment is standard, main access will be deeper in.
+    [0001C38B] global_squad_male_human ⟨cond⟩: Secondary terminals. No access. SAM?
+    ↩ (goto) [0001C384] SAM: If deployment is standard, main access will be deeper in.
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Secondary terminals. No access. SAM?
-    ↩ (goto) SAM: If deployment is standard, main access will be deeper in.
+    [0001C38D] global_squad_turian ⟨cond⟩: Secondary terminals. No access. SAM?
+    ↩ (goto) [0001C384] SAM: If deployment is standard, main access will be deeper in.
 └─ merge ─┘
-SAM: Pathfinder, a maintenance bulletin was issued at the time of shutdown.
-Hero: What does it say?
-SAM: "Run."
+[0001C39C] SAM: Pathfinder, a maintenance bulletin was issued at the time of shutdown.
+[0001C39D] Hero: What does it say?
+[0001C39E] SAM: "Run."
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Override! Close it!
+    [0001C3A1] global_squad_female_human ⟨cond⟩: Override! Close it!
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Override! Close it!
-    ↩ (goto) global_squad_turian: [empty]
+    [0001C3A2] global_squad_asari ⟨cond⟩: Override! Close it!
+    ↩ (goto) [0001C3A4] global_squad_turian: [empty]
 ├ option 3:
-    global_squad_male_human ⟨cond⟩: Override! Close it!
-    ↩ (goto) global_squad_turian: [empty]
+    [0001C39F] global_squad_male_human ⟨cond⟩: Override! Close it!
+    ↩ (goto) [0001C3A4] global_squad_turian: [empty]
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Override! Close it!
-    ↩ (goto) global_squad_turian: [empty]
+    [0001C3A0] global_squad_turian ⟨cond⟩: Override! Close it!
+    ↩ (goto) [0001C3A4] global_squad_turian: [empty]
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Tempest, we have an unknown enemy! Evac the Pathfinder!
-    Hero: Whoa, hold on!
-    global_crew_co-pilot: [Comm] No go, Harper. We have to lay low—kett are inbound to your location!
-    Hero: Kett and that thing? Son of a...!
+    [0001C3A5] global_squad_female_human ⟨cond⟩: Tempest, we have an unknown enemy! Evac the Pathfinder!
+    [0001C3AB] Hero: Whoa, hold on!
+    [0001C3AD] global_crew_co-pilot: [Comm] No go, Harper. We have to lay low—kett are inbound to your location!
+    [0001C3B0] Hero: Kett and that thing? Son of a...!
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: Tempest, we have an unknown enemy! Evac the Pathfinder!
-    ↩ (goto) Hero: Whoa, hold on!
+    [000229EC] global_squad_female_human ⟨cond⟩: Tempest, we have an unknown enemy! Evac the Pathfinder!
+    ↩ (goto) [0001C3AB] Hero: Whoa, hold on!
 ├ option 3:
-    global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i} Don't see a lot of those.
-    Hero: What was it?
-    global_squad_krogan: Don't know. I shoot, you scan.
-    global_crew_co-pilot: [Comm] Pathfinder? Don't know what you did, but kett are inbound to your location!
-    ↩ (goto) Hero: Kett and that thing? Son of a...!
+    [0001C3AA] global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i} Don't see a lot of those.
+    [0001C3A6] Hero: What was it?
+    [0001C3A8] global_squad_krogan: Don't know. I shoot, you scan.
+    [0001C3AC] global_crew_co-pilot: [Comm] Pathfinder? Don't know what you did, but kett are inbound to your location!
+    ↩ (goto) [0001C3B0] Hero: Kett and that thing? Son of a...!
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: What the shitting hell was that!
-    Hero: Damn good question!
-    ↩ (goto) global_crew_co-pilot: [Comm] Pathfinder? Don't know what you did, but kett are inbound to your location!
+    [0001C3AE] global_squad_male_human ⟨cond⟩: What the shitting hell was that!
+    [0001C3A7] Hero: Damn good question!
+    ↩ (goto) [0001C3AC] global_crew_co-pilot: [Comm] Pathfinder? Don't know what you did, but kett are inbound to your location!
 ├ option 5:
-    global_squad_turian ⟨cond⟩: That was new!
-    Hero: No kidding. What was that?
-    ↩ (goto) global_crew_co-pilot: [Comm] Pathfinder? Don't know what you did, but kett are inbound to your location!
+    [0001C3A9] global_squad_turian ⟨cond⟩: That was new!
+    [0001C3AF] Hero: No kidding. What was that?
+    ↩ (goto) [0001C3AC] global_crew_co-pilot: [Comm] Pathfinder? Don't know what you did, but kett are inbound to your location!
 └─ merge ─┘
-Hero: Look sharp! That thing is out there!
+[0001C3B8] Hero: Look sharp! That thing is out there!
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: And the kett. Everything's grounded 'til they're gone!
-    Hero: Right. We're not soldiers, but we make do!
+    [0001C3B6] global_squad_female_human ⟨cond⟩: And the kett. Everything's grounded 'til they're gone!
+    [0001C3B7] Hero: Right. We're not soldiers, but we make do!
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: And the kett. Everything's grounded 'til they're gone!
-    ↩ (goto) Hero: Right. We're not soldiers, but we make do!
+    [0001C3BB] global_squad_male_human ⟨cond⟩: And the kett. Everything's grounded 'til they're gone!
+    ↩ (goto) [0001C3B7] Hero: Right. We're not soldiers, but we make do!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: And the kett. Everything's grounded 'til they're gone!
-    ↩ (goto) Hero: Right. We're not soldiers, but we make do!
+    [0001C3BA] global_squad_turian ⟨cond⟩: And the kett. Everything's grounded 'til they're gone!
+    ↩ (goto) [0001C3B7] Hero: Right. We're not soldiers, but we make do!
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: And the kett. We're grounded 'til they're gone!
+    [0001C3BC] global_squad_krogan ⟨cond⟩: And the kett. We're grounded 'til they're gone!
 └─ merge ─┘
-Hero: Another dropship with reinforcements! Watch out!
-Hero: The big thing is down! We got it!
+[0001C3C6] Hero: Another dropship with reinforcements! Watch out!
+[0001C3C9] Hero: The big thing is down! We got it!
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Focus on the kett!
+    [0001C3C8] global_squad_female_human ⟨cond⟩: Focus on the kett!
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Still have to mop up its handlers!
+    [0001C3CB] global_squad_male_human ⟨cond⟩: Still have to mop up its handlers!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Don't let up on the kett!
+    [0001C3CC] global_squad_turian ⟨cond⟩: Don't let up on the kett!
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Time to mop up the little ones!
+    [0001C3C7] global_squad_krogan ⟨cond⟩: Time to mop up the little ones!
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: That's the last from the dropships!
-    Hero: The big thing is still standing!
+    [0001ED33] global_squad_female_human ⟨cond⟩: That's the last from the dropships!
+    [0001C3CF] Hero: The big thing is still standing!
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Took out the last of the kett!
-    ↩ (goto) Hero: The big thing is still standing!
+    [0001ED32] global_squad_male_human ⟨cond⟩: Took out the last of the kett!
+    ↩ (goto) [0001C3CF] Hero: The big thing is still standing!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: I think we got all the kett from the ships!
-    ↩ (goto) Hero: The big thing is still standing!
+    [0001ED31] global_squad_turian ⟨cond⟩: I think we got all the kett from the ships!
+    ↩ (goto) [0001C3CF] Hero: The big thing is still standing!
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Always fun killing kett!
-    ↩ (goto) Hero: The big thing is still standing!
+    [0001ED30] global_squad_krogan ⟨cond⟩: Always fun killing kett!
+    ↩ (goto) [0001C3CF] Hero: The big thing is still standing!
 └─ merge ─┘
-Hero: Clear? We're clear!
+[0001C6AC] Hero: Clear? We're clear!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: I thought we took out their base!
+    [0001C6AD] Hero ⟨cond⟩: I thought we took out their base!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Kett keep fighting. You get used to it.
+        [0001C6B0] global_squad_krogan ⟨cond⟩: Kett keep fighting. You get used to it.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            global_squad_female_human ⟨cond⟩: We get an outpost, we'll outlast them. They can't restock anymore.
-            Hero ⟨cond⟩: Come on. I need to scan that... creature.
+            [0001C6D7] global_squad_female_human ⟨cond⟩: We get an outpost, we'll outlast them. They can't restock anymore.
+            [0001C6D4] Hero ⟨cond⟩: Come on. I need to scan that... creature.
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: We'll wear them down. We get an outpost, it's their turn to starve out.
-            ↩ (goto) Hero ⟨cond⟩: Come on. I need to scan that... creature.
+            [0001C6D6] global_squad_male_human ⟨cond⟩: We'll wear them down. We get an outpost, it's their turn to starve out.
+            ↩ (goto) [0001C6D4] Hero ⟨cond⟩: Come on. I need to scan that... creature.
         ├ option 3:
-            global_squad_turian ⟨cond⟩: You want to outlast them, we need an outpost.
-            ↩ (goto) Hero ⟨cond⟩: Come on. I need to scan that... creature.
+            [0001C6D5] global_squad_turian ⟨cond⟩: You want to outlast them, we need an outpost.
+            ↩ (goto) [0001C6D4] Hero ⟨cond⟩: Come on. I need to scan that... creature.
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan: [Comm] Kett keep fighting, Ryder. Welcome to Heleus.
+        [0001C6B2] global_squad_krogan: [Comm] Kett keep fighting, Ryder. Welcome to Heleus.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            ↩ (goto) global_squad_female_human ⟨cond⟩: We get an outpost, we'll outlast them. They can't restock anymore.
+            ↩ (goto) [0001C6D7] global_squad_female_human ⟨cond⟩: We get an outpost, we'll outlast them. They can't restock anymore.
         ├ option 2:
-            ↩ (goto) global_squad_male_human ⟨cond⟩: We'll wear them down. We get an outpost, it's their turn to starve out.
+            ↩ (goto) [0001C6D6] global_squad_male_human ⟨cond⟩: We'll wear them down. We get an outpost, it's their turn to starve out.
         ├ option 3:
-            ↩ (goto) global_squad_turian ⟨cond⟩: You want to outlast them, we need an outpost.
+            ↩ (goto) [0001C6D5] global_squad_turian ⟨cond⟩: You want to outlast them, we need an outpost.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: No wonder Site 2 failed. Resilient or not.
-        Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
+        [0001C6B5] global_squad_female_human ⟨cond⟩: No wonder Site 2 failed. Resilient or not.
+        [0001C6E3] Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Those kett are all over. They stole lots from the outposts.
-        ↩ (goto) Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
+        [0001C6B6] global_squad_asari ⟨cond⟩: Those kett are all over. They stole lots from the outposts.
+        ↩ (goto) [0001C6E3] Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
     ├ option 3:
-        global_squad_male_human ⟨cond⟩: Can't imagine Site 2 was ready for attacks like that.
-        ↩ (goto) Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
+        [0001C6B7] global_squad_male_human ⟨cond⟩: Can't imagine Site 2 was ready for attacks like that.
+        ↩ (goto) [0001C6E3] Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: Outposts weren't geared for threats like that.
-        ↩ (goto) Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
+        [0001C6B4] global_squad_turian ⟨cond⟩: Outposts weren't geared for threats like that.
+        ↩ (goto) [0001C6E3] Hero ⟨cond⟩: We'll deal with the kett soon enough. Let's scan that... creature.
     └─ merge ─┘
 └─ merge ─┘
-Hero: The scan suggests our people have smaller ones, but they aren't this... modified?
-SAM: A near total conversion, Pathfinder. It's remarkable that the creature can be classified at all.
+[0001C6AE] Hero: The scan suggests our people have smaller ones, but they aren't this... modified?
+[0001C719] SAM: A near total conversion, Pathfinder. It's remarkable that the creature can be classified at all.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Biological weapons writ large. I've hear of such. But not so... complete.
-    Hero: What are we dealing with?
+    [0001C747] global_squad_female_human ⟨cond⟩: Biological weapons writ large. I've hear of such. But not so... complete.
+    [0001C753] Hero: What are we dealing with?
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: So... it was grown for combat? Like organic artillery?
-    ↩ (goto) Hero: What are we dealing with?
+    [0001C749] global_squad_male_human ⟨cond⟩: So... it was grown for combat? Like organic artillery?
+    ↩ (goto) [0001C753] Hero: What are we dealing with?
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Specialized gear, grown or modded instead of built.
-    ↩ (goto) Hero: What are we dealing with?
+    [0001C74A] global_squad_turian ⟨cond⟩: Specialized gear, grown or modded instead of built.
+    ↩ (goto) [0001C753] Hero: What are we dealing with?
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: Eh, shoot them enough, doesn't matter where they came from.
-    ↩ (goto) Hero: What are we dealing with?
+    [0001C748] global_squad_krogan ⟨cond⟩: Eh, shoot them enough, doesn't matter where they came from.
+    ↩ (goto) [0001C753] Hero: What are we dealing with?
 └─ merge ─┘
-Hero: They knew Eos wasn't viable.
+[0001D47E] Hero: They knew Eos wasn't viable.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: There was nothing else in range. Grim, but they had no choice.
+    [0001D481] global_squad_female_human ⟨cond⟩: There was nothing else in range. Grim, but they had no choice.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Prodromos will last. I made sure of that.
+        [0001D48D] Hero ⟨cond⟩: Prodromos will last. I made sure of that.
     ├ option 2:
-        Hero ⟨cond⟩: I found a viable site. My outpost will work.
+        [0001D48E] Hero ⟨cond⟩: I found a viable site. My outpost will work.
     ├ option 3:
-        Hero: I'll find a site and make Eos work. I have to.
+        [0001D48F] Hero: I'll find a site and make Eos work. I have to.
     └─ merge ─┘
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Sure, but they had to try, right? Always have to try.
+    [0001D483] global_squad_asari ⟨cond⟩: Sure, but they had to try, right? Always have to try.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) Hero ⟨cond⟩: Prodromos will last. I made sure of that.
+        ↩ (goto) [0001D48D] Hero ⟨cond⟩: Prodromos will last. I made sure of that.
     ├ option 2:
-        ↩ (goto) Hero ⟨cond⟩: I found a viable site. My outpost will work.
+        ↩ (goto) [0001D48E] Hero ⟨cond⟩: I found a viable site. My outpost will work.
     ├ option 3:
-        ↩ (goto) Hero: I'll find a site and make Eos work. I have to.
+        ↩ (goto) [0001D48F] Hero: I'll find a site and make Eos work. I have to.
     └─ merge ─┘
 ├ option 3:
-    global_squad_male_human ⟨cond⟩: Assholes. I mean, no choice, I guess, but still. Assholes.
+    [0001D482] global_squad_male_human ⟨cond⟩: Assholes. I mean, no choice, I guess, but still. Assholes.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) Hero ⟨cond⟩: Prodromos will last. I made sure of that.
+        ↩ (goto) [0001D48D] Hero ⟨cond⟩: Prodromos will last. I made sure of that.
     ├ option 2:
-        ↩ (goto) Hero ⟨cond⟩: I found a viable site. My outpost will work.
+        ↩ (goto) [0001D48E] Hero ⟨cond⟩: I found a viable site. My outpost will work.
     ├ option 3:
-        ↩ (goto) Hero: I'll find a site and make Eos work. I have to.
+        ↩ (goto) [0001D48F] Hero: I'll find a site and make Eos work. I have to.
     └─ merge ─┘
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Some of us suspected. But what choice did we have? No outpost, no future.
+    [0001D480] global_squad_turian ⟨cond⟩: Some of us suspected. But what choice did we have? No outpost, no future.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) Hero ⟨cond⟩: Prodromos will last. I made sure of that.
+        ↩ (goto) [0001D48D] Hero ⟨cond⟩: Prodromos will last. I made sure of that.
     ├ option 2:
-        ↩ (goto) Hero ⟨cond⟩: I found a viable site. My outpost will work.
+        ↩ (goto) [0001D48E] Hero ⟨cond⟩: I found a viable site. My outpost will work.
     ├ option 3:
-        ↩ (goto) Hero: I'll find a site and make Eos work. I have to.
+        ↩ (goto) [0001D48F] Hero: I'll find a site and make Eos work. I have to.
     └─ merge ─┘
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: It was pretty obvious. I could shoot kett, but... it was only a matter of time.
+    [0001D47F] global_squad_krogan ⟨cond⟩: It was pretty obvious. I could shoot kett, but... it was only a matter of time.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) Hero ⟨cond⟩: Prodromos will last. I made sure of that.
+        ↩ (goto) [0001D48D] Hero ⟨cond⟩: Prodromos will last. I made sure of that.
     ├ option 2:
-        ↩ (goto) Hero ⟨cond⟩: I found a viable site. My outpost will work.
+        ↩ (goto) [0001D48E] Hero ⟨cond⟩: I found a viable site. My outpost will work.
     ├ option 3:
-        ↩ (goto) Hero: I'll find a site and make Eos work. I have to.
+        ↩ (goto) [0001D48F] Hero: I'll find a site and make Eos work. I have to.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: I'd expect more bodies. Like Site 1?
+    [0001C381] Hero ⟨cond⟩: I'd expect more bodies. Like Site 1?
 ├ option 2:
-    Hero: Deeper in.
+    [0001C38A] Hero: Deeper in.
 ├ option 3:
-    ↩ (goto) Hero: Right. We're not soldiers, but we make do!
+    ↩ (goto) [0001C3B7] Hero: Right. We're not soldiers, but we make do!
 └─ merge ─┘

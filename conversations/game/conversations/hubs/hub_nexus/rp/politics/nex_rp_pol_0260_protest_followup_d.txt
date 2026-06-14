@@ -2,69 +2,69 @@
 # Primary speaker: Hero
 # Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0260_protest_followup_d.xml
 ==================================================
-Narration: There's an angry group of protestors. Sirakus, from the militia, is squaring off against a protestor, Teresh.
-nex_rp_pol_militia_02: Just stand down, ma'am.
-nex_rp_pol_asari: Or you'll shoot me? Good luck explaining that to my grandchildren.
-Hero: What happened?
-nex_rp_pol_militia_02: She was about to disconnect the water hoses—threaten all the plants.
-nex_rp_pol_asari: They're saying the leaders won't wake our families. Well, this is how far we're willing to go. Their move!
+[00021E04] Narration: There's an angry group of protestors. Sirakus, from the militia, is squaring off against a protestor, Teresh.
+[00021E1A] nex_rp_pol_militia_02: Just stand down, ma'am.
+[00021E0E] nex_rp_pol_asari: Or you'll shoot me? Good luck explaining that to my grandchildren.
+[00021E16] Hero: What happened?
+[00021E17] nex_rp_pol_militia_02: She was about to disconnect the water hoses—threaten all the plants.
+[00021E15] nex_rp_pol_asari: They're saying the leaders won't wake our families. Well, this is how far we're willing to go. Their move!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: If you resort to violence, so will the leadership, and they have the militia.
-    nex_rp_pol_youth: We're not the enemy! Why's it so hard to push a button and help Mom?
+    [00021E2B] Hero: If you resort to violence, so will the leadership, and they have the militia.
+    [0002922C] nex_rp_pol_youth: We're not the enemy! Why's it so hard to push a button and help Mom?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        nex_rp_pol_militia_02 ⟨cond⟩: Take it easy, kid, the Pathfinder's got a point.
+        [00029231] nex_rp_pol_militia_02 ⟨cond⟩: Take it easy, kid, the Pathfinder's got a point.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            nex_rp_pol_youth ⟨cond⟩: I'll get help from Kadara Port if I have to! Maybe someone there will do something!
+            [00029232] nex_rp_pol_youth ⟨cond⟩: I'll get help from Kadara Port if I have to! Maybe someone there will do something!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: If you want to leave over this, we can't stop you.
-                nex_rp_pol_youth: Damn right you can't!
-                Narration: Rhys leaves.
-                nex_rp_pol_asari: Rhys! He's no older than my grandkids. Is this who we are now?
-                nex_rp_pol_asari: No. I can't... We'll wait.
-                Narration: Teresh and Sirakus settle down. The confrontation's defused.
-                nex_rp_pol_krogan: When our families hear about this—
+                [00029234] Hero: If you want to leave over this, we can't stop you.
+                [00029249] nex_rp_pol_youth: Damn right you can't!
+                [000292B7] Narration: Rhys leaves.
+                [000292BE] nex_rp_pol_asari: Rhys! He's no older than my grandkids. Is this who we are now?
+                [000292BF] nex_rp_pol_asari: No. I can't... We'll wait.
+                [00021E48] Narration: Teresh and Sirakus settle down. The confrontation's defused.
+                [00021E45] nex_rp_pol_krogan: When our families hear about this—
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    nex_rp_pol_militia_02 ⟨cond⟩: They'll probably agree with the Pathfinder. You're done here. Come on.
+                    [00021E4A] nex_rp_pol_militia_02 ⟨cond⟩: They'll probably agree with the Pathfinder. You're done here. Come on.
                 ├ option 2:
-                    nex_rp_pol_militia_02: They'll probably agree with the Pathfinder. You're done here. Come on.
-                    ↩ (goto) nex_rp_pol_krogan: [empty]
+                    [00026970] nex_rp_pol_militia_02: They'll probably agree with the Pathfinder. You're done here. Come on.
+                    ↩ (goto) [00021E57] nex_rp_pol_krogan: [empty]
                 └─ merge ─┘
             ├ option 2:
-                Hero: You want your mom to wake up and find you exiled? Or dead?
-                nex_rp_pol_youth: I...
-                nex_rp_pol_asari: Rhys, don't! Anything's better than that. Even the longest wait of our lives.
-                ↩ (goto) Narration: Teresh and Sirakus settle down. The confrontation's defused.
+                [00029235] Hero: You want your mom to wake up and find you exiled? Or dead?
+                [00029242] nex_rp_pol_youth: I...
+                [00029241] nex_rp_pol_asari: Rhys, don't! Anything's better than that. Even the longest wait of our lives.
+                ↩ (goto) [00021E48] Narration: Teresh and Sirakus settle down. The confrontation's defused.
             └─ merge ─┘
         ├ option 2:
-            nex_rp_pol_youth: I'll go off-station if I have to. I'll find... anyone who'll actually do something!
+            [00029233] nex_rp_pol_youth: I'll go off-station if I have to. I'll find... anyone who'll actually do something!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) Hero: If you want to leave over this, we can't stop you.
+                ↩ (goto) [00029234] Hero: If you want to leave over this, we can't stop you.
             ├ option 2:
-                ↩ (goto) Hero: You want your mom to wake up and find you exiled? Or dead?
+                ↩ (goto) [00029235] Hero: You want your mom to wake up and find you exiled? Or dead?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        nex_rp_pol_militia_02: Take it easy, kid, the Pathfinder's got a point.
+        [0002B0B6] nex_rp_pol_militia_02: Take it easy, kid, the Pathfinder's got a point.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) nex_rp_pol_youth ⟨cond⟩: I'll get help from Kadara Port if I have to! Maybe someone there will do something!
+            ↩ (goto) [00029232] nex_rp_pol_youth ⟨cond⟩: I'll get help from Kadara Port if I have to! Maybe someone there will do something!
         ├ option 2:
-            ↩ (goto) nex_rp_pol_youth: I'll go off-station if I have to. I'll find... anyone who'll actually do something!
+            ↩ (goto) [00029233] nex_rp_pol_youth: I'll go off-station if I have to. I'll find... anyone who'll actually do something!
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: I know this is hard, but for the good of the Nexus, we need you to be patient.
-    nex_rp_pol_youth: We've already waited! How old will I be by the time Mom's out of stasis?
+    [00021E19] Hero: I know this is hard, but for the good of the Nexus, we need you to be patient.
+    [00029230] nex_rp_pol_youth: We've already waited! How old will I be by the time Mom's out of stasis?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) nex_rp_pol_militia_02 ⟨cond⟩: Take it easy, kid, the Pathfinder's got a point.
+        ↩ (goto) [00029231] nex_rp_pol_militia_02 ⟨cond⟩: Take it easy, kid, the Pathfinder's got a point.
     ├ option 2:
-        ↩ (goto) nex_rp_pol_militia_02: Take it easy, kid, the Pathfinder's got a point.
+        ↩ (goto) [0002B0B6] nex_rp_pol_militia_02: Take it easy, kid, the Pathfinder's got a point.
     └─ merge ─┘
 └─ merge ─┘

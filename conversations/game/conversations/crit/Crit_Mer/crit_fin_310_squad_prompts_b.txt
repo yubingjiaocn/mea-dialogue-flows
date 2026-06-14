@@ -4,171 +4,171 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Ryder! You were dead.
-    Hero: The Hyperion's dark. SAM with it. We need to get back.
+    [0000C9ED] global_squad_krogan ⟨cond⟩: Ryder! You were dead.
+    [0000C9F1] Hero: The Hyperion's dark. SAM with it. We need to get back.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: But how? The door is Remnant. You need SAM to open it.
-        Hero: We {i}need{/i} to get back.
+        [0000CA01] global_squad_asari ⟨cond⟩: But how? The door is Remnant. You need SAM to open it.
+        [0000C9F5] Hero: We {i}need{/i} to get back.
     ├ option 2:
-        global_squad_angara ⟨cond⟩: Wait, no—that door is Remnant. You need SAM.
-        ↩ (goto) Hero: We {i}need{/i} to get back.
+        [0000C9FB] global_squad_angara ⟨cond⟩: Wait, no—that door is Remnant. You need SAM.
+        ↩ (goto) [0000C9F5] Hero: We {i}need{/i} to get back.
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: Wait, SAM's...? The door's Remnant. You need SAM to do anything.
-        ↩ (goto) Hero: We {i}need{/i} to get back.
+        [0000C9F7] global_squad_female_human ⟨cond⟩: Wait, SAM's...? The door's Remnant. You need SAM to do anything.
+        ↩ (goto) [0000C9F5] Hero: We {i}need{/i} to get back.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: But the door is Remnant. You need SAM.
-        ↩ (goto) Hero: We {i}need{/i} to get back.
+        [0000CA00] global_squad_turian ⟨cond⟩: But the door is Remnant. You need SAM.
+        ↩ (goto) [0000C9F5] Hero: We {i}need{/i} to get back.
     ├ option 5:
-        global_squad_male_human: But the door is Remnant. You need SAM.
-        ↩ (goto) Hero: We {i}need{/i} to get back.
+        [0000C9F6] global_squad_male_human: But the door is Remnant. You need SAM.
+        ↩ (goto) [0000C9F5] Hero: We {i}need{/i} to get back.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Ryder! You were... gone.
-    ↩ (goto) Hero: The Hyperion's dark. SAM with it. We need to get back.
+    [0000C9EA] global_squad_male_human ⟨cond⟩: Ryder! You were... gone.
+    ↩ (goto) [0000C9F1] Hero: The Hyperion's dark. SAM with it. We need to get back.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Ryder! But you were dead!
-    ↩ (goto) Hero: The Hyperion's dark. SAM with it. We need to get back.
+    [0000C9F0] global_squad_turian ⟨cond⟩: Ryder! But you were dead!
+    ↩ (goto) [0000C9F1] Hero: The Hyperion's dark. SAM with it. We need to get back.
 ├ option 4:
-    global_squad_female_human ⟨cond⟩: Ryder! Thought we lost you.
-    ↩ (goto) Hero: The Hyperion's dark. SAM with it. We need to get back.
+    [0000C9F2] global_squad_female_human ⟨cond⟩: Ryder! Thought we lost you.
+    ↩ (goto) [0000C9F1] Hero: The Hyperion's dark. SAM with it. We need to get back.
 ├ option 5:
-    global_squad_angara: But you were dead!
-    ↩ (goto) Hero: The Hyperion's dark. SAM with it. We need to get back.
+    [0000C9EE] global_squad_angara: But you were dead!
+    ↩ (goto) [0000C9F1] Hero: The Hyperion's dark. SAM with it. We need to get back.
 └─ merge ─┘
-Hero: {i}(Groan of effort.){/i}
+[0000CA0F] Hero: {i}(Groan of effort.){/i}
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Hang in there, Ryder. Just focus, slow and steady.
-    Hero: We need to get back!
+    [0001C0B0] global_squad_krogan ⟨cond⟩: Hang in there, Ryder. Just focus, slow and steady.
+    [0000C9F9] Hero: We need to get back!
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Ryder? You're pushing really hard.
-    ↩ (goto) Hero: We need to get back!
+    [0000C9FA] global_squad_male_human ⟨cond⟩: Ryder? You're pushing really hard.
+    ↩ (goto) [0000C9F9] Hero: We need to get back!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Okay, that looks like it hurt. Are you sure you...
-    ↩ (goto) Hero: We need to get back!
+    [0000C9F8] global_squad_turian ⟨cond⟩: Okay, that looks like it hurt. Are you sure you...
+    ↩ (goto) [0000C9F9] Hero: We need to get back!
 ├ option 4:
-    global_squad_female_human ⟨cond⟩: Don't! It's hurting you. We'll find another way.
-    ↩ (goto) Hero: We need to get back!
+    [0000C9FD] global_squad_female_human ⟨cond⟩: Don't! It's hurting you. We'll find another way.
+    ↩ (goto) [0000C9F9] Hero: We need to get back!
 ├ option 5:
-    global_squad_angara ⟨cond⟩: So painful. Your bravery is inspiring.
-    ↩ (goto) Hero: We need to get back!
+    [0000C9FC] global_squad_angara ⟨cond⟩: So painful. Your bravery is inspiring.
+    ↩ (goto) [0000C9F9] Hero: We need to get back!
 ├ option 6:
-    global_squad_asari ⟨cond⟩: Ryder, don't. It's too painful. Let's try something else.
-    ↩ (goto) Hero: We need to get back!
+    [0000C9FE] global_squad_asari ⟨cond⟩: Ryder, don't. It's too painful. Let's try something else.
+    ↩ (goto) [0000C9F9] Hero: We need to get back!
 └─ merge ─┘
-Hero: It's moving.
+[0000CA03] Hero: It's moving.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Your vitals are a mess. You sure this is a good idea?
-    Hero: I can do this!
+    [0001C0B1] global_squad_krogan ⟨cond⟩: Your vitals are a mess. You sure this is a good idea?
+    [0000CA0D] Hero: I can do this!
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: Your vitals are all over the place.
-    ↩ (goto) Hero: I can do this!
+    [0000CA09] global_squad_male_human ⟨cond⟩: Your vitals are all over the place.
+    ↩ (goto) [0000CA0D] Hero: I can do this!
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Ryder, stop! You're going to kill yourself!
-    ↩ (goto) Hero: I can do this!
+    [0000CA05] global_squad_turian ⟨cond⟩: Ryder, stop! You're going to kill yourself!
+    ↩ (goto) [0000CA0D] Hero: I can do this!
 ├ option 4:
-    global_squad_female_human ⟨cond⟩: Ryder! Enough!
-    ↩ (goto) Hero: I can do this!
+    [0000CA10] global_squad_female_human ⟨cond⟩: Ryder! Enough!
+    ↩ (goto) [0000CA0D] Hero: I can do this!
 ├ option 5:
-    global_squad_angara ⟨cond⟩: Your vitals are crazy. Are you sure you want to continue?
-    ↩ (goto) Hero: I can do this!
+    [0000CA04] global_squad_angara ⟨cond⟩: Your vitals are crazy. Are you sure you want to continue?
+    ↩ (goto) [0000CA0D] Hero: I can do this!
 ├ option 6:
-    global_squad_asari ⟨cond⟩: Ryder, if you die this time, I think you're dead dead.
-    ↩ (goto) Hero: I can do this!
+    [0000CA11] global_squad_asari ⟨cond⟩: Ryder, if you die this time, I think you're dead dead.
+    ↩ (goto) [0000CA0D] Hero: I can do this!
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: That hurt. Can you keep this up?
-    Hero: To the Tempest. We have to move!
+    [0000CA0C] global_squad_male_human ⟨cond⟩: That hurt. Can you keep this up?
+    [0000CA0B] Hero: To the Tempest. We have to move!
 ├ option 2:
-    global_squad_turian ⟨cond⟩: Damn. You sure you can keep going?
-    ↩ (goto) Hero: To the Tempest. We have to move!
+    [0000CA02] global_squad_turian ⟨cond⟩: Damn. You sure you can keep going?
+    ↩ (goto) [0000CA0B] Hero: To the Tempest. We have to move!
 ├ option 3:
-    global_squad_female_human ⟨cond⟩: I don't believe it! You... are you okay?
-    ↩ (goto) Hero: To the Tempest. We have to move!
+    [0000CA07] global_squad_female_human ⟨cond⟩: I don't believe it! You... are you okay?
+    ↩ (goto) [0000CA0B] Hero: To the Tempest. We have to move!
 ├ option 4:
-    global_squad_angara ⟨cond⟩: You look hurt. Can you go on?
-    ↩ (goto) Hero: To the Tempest. We have to move!
+    [0000CA08] global_squad_angara ⟨cond⟩: You look hurt. Can you go on?
+    ↩ (goto) [0000CA0B] Hero: To the Tempest. We have to move!
 ├ option 5:
-    global_squad_asari ⟨cond⟩: Are you okay? You... don't look good.
-    ↩ (goto) Hero: To the Tempest. We have to move!
+    [0000CA0E] global_squad_asari ⟨cond⟩: Are you okay? You... don't look good.
+    ↩ (goto) [0000CA0B] Hero: To the Tempest. We have to move!
 └─ merge ─┘
-global_crew_tech_officer: [Comm] {i}(Static.){/i} Try it now.
-global_crew_co-pilot: [Comm] Pathfinder? Come on!
-Hero: We're here, Tempest.
+[0000C8F2] global_crew_tech_officer: [Comm] {i}(Static.){/i} Try it now.
+[0000C8F1] global_crew_co-pilot: [Comm] Pathfinder? Come on!
+[0000C8E9] Hero: We're here, Tempest.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_crew_co-pilot ⟨cond⟩: [Comm] I got her! I got... hey!
-    global_crew_science_officer: [Comm] Pathfinder! Kett took down the comms and hijacked the Hyperion!
-    Hero: I know. The Archon's been planning since his flagship. He used me.
+    [0000C8FA] global_crew_co-pilot ⟨cond⟩: [Comm] I got her! I got... hey!
+    [0000C8F5] global_crew_science_officer: [Comm] Pathfinder! Kett took down the comms and hijacked the Hyperion!
+    [0000C8E8] Hero: I know. The Archon's been planning since his flagship. He used me.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: Tell Doc that Ryder is hurt and doing weird stuff without SAM.
-        global_crew_science_officer: [Comm] Shite. Shite!
+        [0002F4EE] global_squad_male_human ⟨cond⟩: Tell Doc that Ryder is hurt and doing weird stuff without SAM.
+        [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: Get Lexi on standby. Ryder needs treatment for... something.
-        ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+        [0000C8EF] global_squad_female_human ⟨cond⟩: Get Lexi on standby. Ryder needs treatment for... something.
+        ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
     ├ option 3:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0000C8ED] global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         ├ option 2:
-            global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0002F4EB] global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         └─ merge ─┘
     ├ option 4:
-        global_squad_angara ⟨cond⟩: The Pathfinder's going to need medical... help.
-        ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+        [0002F4EF] global_squad_angara ⟨cond⟩: The Pathfinder's going to need medical... help.
+        ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
     ├ option 5:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0000C8FE] global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         ├ option 2:
-            global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0002F4ED] global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         └─ merge ─┘
     ├ option 6:
         ┌─ BRANCH (12) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: Tell Doc that Ryder is hurt and doing weird stuff without SAM.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0000C8F8] global_squad_male_human ⟨cond⟩: Tell Doc that Ryder is hurt and doing weird stuff without SAM.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         ├ option 2:
-            ↩ (goto) global_squad_male_human ⟨cond⟩: Tell Doc that Ryder is hurt and doing weird stuff without SAM.
+            ↩ (goto) [0002F4EE] global_squad_male_human ⟨cond⟩: Tell Doc that Ryder is hurt and doing weird stuff without SAM.
         ├ option 3:
-            global_squad_angara ⟨cond⟩: The Pathfinder's going to need medical... help.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0000C8F6] global_squad_angara ⟨cond⟩: The Pathfinder's going to need medical... help.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         ├ option 4:
-            ↩ (goto) global_squad_angara ⟨cond⟩: The Pathfinder's going to need medical... help.
+            ↩ (goto) [0002F4EF] global_squad_angara ⟨cond⟩: The Pathfinder's going to need medical... help.
         ├ option 5:
-            ↩ (goto) global_squad_female_human ⟨cond⟩: Get Lexi on standby. Ryder needs treatment for... something.
+            ↩ (goto) [0000C8EF] global_squad_female_human ⟨cond⟩: Get Lexi on standby. Ryder needs treatment for... something.
         ├ option 6:
-            global_squad_female_human ⟨cond⟩: Get Lexi on standby. Ryder needs treatment for... something.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0002F4EC] global_squad_female_human ⟨cond⟩: Get Lexi on standby. Ryder needs treatment for... something.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         ├ option 7:
-            ↩ (goto) global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
+            ↩ (goto) [0000C8FE] global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
         ├ option 8:
-            ↩ (goto) global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
+            ↩ (goto) [0002F4ED] global_squad_turian ⟨cond⟩: Ryder is hurt and... changed. Be ready when we get back.
         ├ option 9:
-            ↩ (goto) global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
+            ↩ (goto) [0000C8ED] global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
         ├ option 10:
-            ↩ (goto) global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
+            ↩ (goto) [0002F4EB] global_squad_asari ⟨cond⟩: Have Lexi ready. Ryder's hurt and... there's some weirdness.
         ├ option 11:
-            global_squad_krogan ⟨cond⟩: Tell Doc that Ryder's hurt. Something's wrong.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0000C8FF] global_squad_krogan ⟨cond⟩: Tell Doc that Ryder's hurt. Something's wrong.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         ├ option 12:
-            global_squad_krogan ⟨cond⟩: Tell Doc that Ryder's hurt. Something's wrong.
-            ↩ (goto) global_crew_science_officer: [Comm] Shite. Shite!
+            [0002F4E7] global_squad_krogan ⟨cond⟩: Tell Doc that Ryder's hurt. Something's wrong.
+            ↩ (goto) [0000C8EE] global_crew_science_officer: [Comm] Shite. Shite!
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    global_crew_co-pilot: [Comm] I got him! I got... hey!
-    ↩ (goto) global_crew_science_officer: [Comm] Pathfinder! Kett took down the comms and hijacked the Hyperion!
+    [0000C8EC] global_crew_co-pilot: [Comm] I got him! I got... hey!
+    ↩ (goto) [0000C8F5] global_crew_science_officer: [Comm] Pathfinder! Kett took down the comms and hijacked the Hyperion!
 └─ merge ─┘
-global_crew_co-pilot: [Comm] We're getting reports from... everywhere. All remaining kett ships are on the move.
-Hero: It's all the Archon. If he takes Meridian, he'll destroy worlds. Starting with Eos.
-Hero: He thinks he's won.
-global_crew_science_officer: [Comm] Pathfinder? It kind of feels like he has.
+[0000C909] global_crew_co-pilot: [Comm] We're getting reports from... everywhere. All remaining kett ships are on the move.
+[0000E69E] Hero: It's all the Archon. If he takes Meridian, he'll destroy worlds. Starting with Eos.
+[0000E69F] Hero: He thinks he's won.
+[0000E69D] global_crew_science_officer: [Comm] Pathfinder? It kind of feels like he has.

@@ -2,85 +2,85 @@
 # Primary speaker: ice_haana
 # Source: game/conversations/unc_ice/ice_lostscout_0110_start_i.xml
 ==================================================
-Hero: I couldn't help but overhear...
+[00024871] Hero: I couldn't help but overhear...
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ice_raabar ⟨cond⟩: Now you've gone and involved Ryder in this madness.
+    [0002486D] ice_raabar ⟨cond⟩: Now you've gone and involved Ryder in this madness.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ice_raabar ⟨cond⟩: We have to concentrate on saving the Moshae, Haana, not your vain hope.
-        ice_haana: Raabar, I {i}know{/i} Mashal's still alive.
+        [0002486F] ice_raabar ⟨cond⟩: We have to concentrate on saving the Moshae, Haana, not your vain hope.
+        [0002486E] ice_haana: Raabar, I {i}know{/i} Mashal's still alive.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Haana, why are you convinced your friend's still alive?
-            ice_haana: Because Mashal is our best saboteur. She knows how to keep herself safe.
-            ice_haana: We destroyed a kett weapons depot, but the detonators failed. Mashal had to set off the explosives by hand.
-            ice_raabar: It put her in the middle of a blast they saw from over the hills.
-            ice_haana: But Mashal knows demolition like no one else. She'd know the safest place to hide!
+            [0002487C] Hero: Haana, why are you convinced your friend's still alive?
+            [0002488B] ice_haana: Because Mashal is our best saboteur. She knows how to keep herself safe.
+            [00024889] ice_haana: We destroyed a kett weapons depot, but the detonators failed. Mashal had to set off the explosives by hand.
+            [0002488C] ice_raabar: It put her in the middle of a blast they saw from over the hills.
+            [0002488A] ice_haana: But Mashal knows demolition like no one else. She'd know the safest place to hide!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: If your friend is as skilled as you say, it's possible she survived.
-                ice_haana: Thank. You. I've been shouting for so long and no one has listened but you.
-                ice_raabar: Even if I believed you, Anjik won't allow us to go out there. We're needed elsewhere.
-                Hero: If I'm out there, I could survey the area.
-                ice_haana: Would you? Sky-blessed! I've got the navpoint. I hope the data's compatible with your... um... gadget.
-                ice_haana: Whatever you find, please tell me. I just want the truth.
+                [0002493B] Hero: If your friend is as skilled as you say, it's possible she survived.
+                [0002495E] ice_haana: Thank. You. I've been shouting for so long and no one has listened but you.
+                [0002495F] ice_raabar: Even if I believed you, Anjik won't allow us to go out there. We're needed elsewhere.
+                [00024967] Hero: If I'm out there, I could survey the area.
+                [00024969] ice_haana: Would you? Sky-blessed! I've got the navpoint. I hope the data's compatible with your... um... gadget.
+                [0002496A] ice_haana: Whatever you find, please tell me. I just want the truth.
             ├ option 2:
-                Hero: There wouldn't be a safe place in a giant blast like that.
-                ice_haana: But if there was one, if there could be one, I know Mashal found it. I know it!
-                ice_haana: Even if she didn't, I'd rather know for sure, but Anjik won't let us go on a hunch.
-                ↩ (goto) Hero: If I'm out there, I could survey the area.
+                [0002493C] Hero: There wouldn't be a safe place in a giant blast like that.
+                [0002495C] ice_haana: But if there was one, if there could be one, I know Mashal found it. I know it!
+                [0002495D] ice_haana: Even if she didn't, I'd rather know for sure, but Anjik won't let us go on a hunch.
+                ↩ (goto) [00024967] Hero: If I'm out there, I could survey the area.
             └─ merge ─┘
         ├ option 2:
-            Hero: I understand it's difficult to admit someone you care about is gone.
-            ice_haana: Why has everyone given up?
-            ↩ (goto) ice_haana: We destroyed a kett weapons depot, but the detonators failed. Mashal had to set off the explosives by hand.
+            [0002487F] Hero: I understand it's difficult to admit someone you care about is gone.
+            [00024886] ice_haana: Why has everyone given up?
+            ↩ (goto) [00024889] ice_haana: We destroyed a kett weapons depot, but the detonators failed. Mashal had to set off the explosives by hand.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) ice_haana: Raabar, I {i}know{/i} Mashal's still alive.
+        ↩ (goto) [0002486E] ice_haana: Raabar, I {i}know{/i} Mashal's still alive.
     └─ merge ─┘
 ├ option 2:
-    ice_raabar: Now you've gone and involved Ryder in this madness.
+    [0002AB81] ice_raabar: Now you've gone and involved Ryder in this madness.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) ice_raabar ⟨cond⟩: We have to concentrate on saving the Moshae, Haana, not your vain hope.
+        ↩ (goto) [0002486F] ice_raabar ⟨cond⟩: We have to concentrate on saving the Moshae, Haana, not your vain hope.
     ├ option 2:
-        ↩ (goto) ice_haana: Raabar, I {i}know{/i} Mashal's still alive.
+        ↩ (goto) [0002486E] ice_haana: Raabar, I {i}know{/i} Mashal's still alive.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    ice_haana: Thank you, Ryder. You don't know how much this means.
+    [00024C98] ice_haana: Thank you, Ryder. You don't know how much this means.
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ice_haana: I really hope you find her.
+        [00025449] ice_haana: I really hope you find her.
     ├ option 2:
-        ice_haana: I'm sure Mashal's still out there.
+        [0002544C] ice_haana: I'm sure Mashal's still out there.
     ├ option 3:
-        ice_haana: I'm not going to stop looking.
+        [0002544A] ice_haana: I'm not going to stop looking.
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ice_haana: Did you find Mashal?
-        Hero: Yes. Sort of.
-        ice_haana: Yes? Then where is she? She didn't come back?
+        [00024AEA] ice_haana: Did you find Mashal?
+        [00024C62] Hero: Yes. Sort of.
+        [00024C5F] ice_haana: Yes? Then where is she? She didn't come back?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: She has a kett survivor with her. She won't leave until he tells her where her family is.
-            ice_haana: What? Oh, Mashal...
-            ice_raabar: I'll inform Anjik. With proof that Masha's alive, Anjik will authorize a rescue.
-            ↩ (goto) ice_haana: Thank you, Ryder. You don't know how much this means.
+            [00024C61] Hero: She has a kett survivor with her. She won't leave until he tells her where her family is.
+            [00024C96] ice_haana: What? Oh, Mashal...
+            [00024C97] ice_raabar: I'll inform Anjik. With proof that Masha's alive, Anjik will authorize a rescue.
+            ↩ (goto) [00024C98] ice_haana: Thank you, Ryder. You don't know how much this means.
         ├ option 2:
-            Hero: She needs your support to get through this.
-            ice_haana: What do you mean?
-            Hero: She's still affected by the loss of her family and that's clouding her judgment. You need to help her.
-            ↩ (goto) ice_raabar: I'll inform Anjik. With proof that Masha's alive, Anjik will authorize a rescue.
+            [00024C60] Hero: She needs your support to get through this.
+            [00024C83] ice_haana: What do you mean?
+            [00024C82] Hero: She's still affected by the loss of her family and that's clouding her judgment. You need to help her.
+            ↩ (goto) [00024C97] ice_raabar: I'll inform Anjik. With proof that Masha's alive, Anjik will authorize a rescue.
         └─ merge ─┘
     ├ option 2:
-        ice_haana [OncePerGame]: Mashal just called in. Anjik sent a squad to retrieve her.
-        ice_haana: She seemed troubled, but I suppose being trapped in rubble will do that.
-        ice_haana: I'm so happy she's still alive. Skies be bright for you, Ryder.
+        [00024AE6] ice_haana [OncePerGame]: Mashal just called in. Anjik sent a squad to retrieve her.
+        [00024AE4] ice_haana: She seemed troubled, but I suppose being trapped in rubble will do that.
+        [00024AE9] ice_haana: I'm so happy she's still alive. Skies be bright for you, Ryder.
     └─ merge ─┘
 └─ merge ─┘

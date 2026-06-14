@@ -2,77 +2,77 @@
 # Primary speaker: Hero
 # Source: game/conversations/bstory/kro/hub_nex_0900_confront_d.xml
 ==================================================
-global_nexus_colonial_assdir: I didn't have a choice. Aroane said they'd kill me!
-global_nexus_colonial_director_multi: You helped the mutineers, Spender. That was a choice, right there.
-global_nexus_militia_leader: All you had to do was ask for help. Instead you put everyone else at risk to save yourself.
+[0000C2FD] global_nexus_colonial_assdir: I didn't have a choice. Aroane said they'd kill me!
+[0001AB7A] global_nexus_colonial_director_multi: You helped the mutineers, Spender. That was a choice, right there.
+[0000C2E5] global_nexus_militia_leader: All you had to do was ask for help. Instead you put everyone else at risk to save yourself.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Please, incriminate yourself further. Tell us everything they "made you do."
-    global_nexus_colonial_assdir: What do you know, Pathfinder? You weren't there during the mutiny.
-    global_squad_krogan: You're done now, buddy. And with any luck, they'll give you to me.
+    [0000C2E8] Hero: Please, incriminate yourself further. Tell us everything they "made you do."
+    [0000C2EE] global_nexus_colonial_assdir: What do you know, Pathfinder? You weren't there during the mutiny.
+    [0000C2E7] global_squad_krogan: You're done now, buddy. And with any luck, they'll give you to me.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_nexus_control_tower: Everything the Pathfinder's saying is true. Here's the proof.
-        global_squad_krogan: A scrambler packed with logs—and credit transfers to exiles.
-        Hero: This has been going on since the mutiny. He's been altering files, stealing supplies, communicating with them...
+        [0000C300] global_nexus_control_tower: Everything the Pathfinder's saying is true. Here's the proof.
+        [0002FBA0] global_squad_krogan: A scrambler packed with logs—and credit transfers to exiles.
+        [0000C2FE] Hero: This has been going on since the mutiny. He's been altering files, stealing supplies, communicating with them...
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_nexus_militia_leader ⟨cond⟩: We have a confession from Aroane. One of the exiles.
-            global_nexus_militia_leader: [Audio Log] Aroane. On the record this time.
-            loyalty_krogan_pirateleader_multi: [Audio Log] We've been working with Spender since the mutiny. He armed us. And now he keeps us supplied... as long as we keep heat on the krogan.
-            loyalty_krogan_pirateleader_multi: [Audio Log] I don't know why he hates them. But he {i}really{/i} hates them.
-            global_nexus_militia_leader: I can't even begin to fathom the damage he's responsible for.
-            global_nexus_colonial_assdir: Like your hands are clean, Kandros? We all wanted the krogan gone. I just made it easier.
-            global_nexus_colonial_assdir: The exiles think I work for them, just like you think I work for you. That's what {i}real{/i} politics looks like.
-            global_nexus_colonial_director_multi: Right under our noses. Goddamn it, Spender!
+            [0001A303] global_nexus_militia_leader ⟨cond⟩: We have a confession from Aroane. One of the exiles.
+            [000266DB] global_nexus_militia_leader: [Audio Log] Aroane. On the record this time.
+            [000266DA] loyalty_krogan_pirateleader_multi: [Audio Log] We've been working with Spender since the mutiny. He armed us. And now he keeps us supplied... as long as we keep heat on the krogan.
+            [000336A1] loyalty_krogan_pirateleader_multi: [Audio Log] I don't know why he hates them. But he {i}really{/i} hates them.
+            [0001AB7E] global_nexus_militia_leader: I can't even begin to fathom the damage he's responsible for.
+            [000301B8] global_nexus_colonial_assdir: Like your hands are clean, Kandros? We all wanted the krogan gone. I just made it easier.
+            [000301B7] global_nexus_colonial_assdir: The exiles think I work for them, just like you think I work for you. That's what {i}real{/i} politics looks like.
+            [0000C2F1] global_nexus_colonial_director_multi: Right under our noses. Goddamn it, Spender!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: The krogan are gone. Spender forced their hand. And you let him do it.
-                global_nexus_colonial_director_multi: I... damn it. Damn it!
+                [0000C2F8] Hero: The krogan are gone. Spender forced their hand. And you let him do it.
+                [0000C2FC] global_nexus_colonial_director_multi: I... damn it. Damn it!
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    global_nexus_colonial_director_multi ⟨cond⟩: You brought it to me, Pathfinder. I should have acted then, but Tann wouldn't shut up about the krogan.
-                    Hero: You're getting a chance to fix this now.
-                    global_squad_krogan: Let's start with taking our side when my clan tries to negotiate a better deal with Tann.
-                    global_squad_krogan: You need us. And frankly, we need you.
-                    global_nexus_colonial_director_multi: {i}(Sighs.){/i} You're right. I'll back you up. We'll do it right, this time.
-                    global_nexus_militia_leader: So. What about him?
+                    [00026E3D] global_nexus_colonial_director_multi ⟨cond⟩: You brought it to me, Pathfinder. I should have acted then, but Tann wouldn't shut up about the krogan.
+                    [0000C312] Hero: You're getting a chance to fix this now.
+                    [0000C316] global_squad_krogan: Let's start with taking our side when my clan tries to negotiate a better deal with Tann.
+                    [0000C313] global_squad_krogan: You need us. And frankly, we need you.
+                    [0001A356] global_nexus_colonial_director_multi: {i}(Sighs.){/i} You're right. I'll back you up. We'll do it right, this time.
+                    [0000C314] global_nexus_militia_leader: So. What about him?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero: Kick him off the station. Let his friends out there deal with him.
-                        global_nexus_colonial_assdir: What? No, you can't do that. They'll kill me!
-                        global_squad_krogan: Your pirate friends are the least of your worries.
-                        global_squad_krogan: Thanks, Ryder. You have no idea how glad I am this business is settled.
+                        [0000C30F] Hero: Kick him off the station. Let his friends out there deal with him.
+                        [0000DB6B] global_nexus_colonial_assdir: What? No, you can't do that. They'll kill me!
+                        [0001A3BA] global_squad_krogan: Your pirate friends are the least of your worries.
+                        [0001A3B6] global_squad_krogan: Thanks, Ryder. You have no idea how glad I am this business is settled.
                     ├ option 2:
-                        Hero: Lock him up. He won't be the last, but he'll make a fine example.
-                        global_nexus_colonial_assdir: You... you're just going to throw me in a cell?
-                        global_nexus_militia_leader: Could be worse. We could throw you off the station. Think about that for a moment.
-                        ↩ (goto) global_squad_krogan: [empty]
+                        [0000C30E] Hero: Lock him up. He won't be the last, but he'll make a fine example.
+                        [0000DB6C] global_nexus_colonial_assdir: You... you're just going to throw me in a cell?
+                        [0000DB6F] global_nexus_militia_leader: Could be worse. We could throw you off the station. Think about that for a moment.
+                        ↩ (goto) [0000DB6D] global_squad_krogan: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    global_nexus_colonial_director_multi: Tann was on my ass about the krogan so much, I let myself be blind to Spender.
-                    ↩ (goto) Hero: [empty]
+                    [0000C304] global_nexus_colonial_director_multi: Tann was on my ass about the krogan so much, I let myself be blind to Spender.
+                    ↩ (goto) [0001A3BD] Hero: [empty]
                 └─ merge ─┘
             ├ option 2:
-                Hero: The krogan left. Spender played both sides just to get a promotion. You couldn't have seen that coming.
-                global_nexus_colonial_director_multi: No. No, I was given ample reasons to suspect something. I just chose not to.
+                [0000C2E4] Hero: The krogan left. Spender played both sides just to get a promotion. You couldn't have seen that coming.
+                [0000C2FA] global_nexus_colonial_director_multi: No. No, I was given ample reasons to suspect something. I just chose not to.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: You brought it to me, Pathfinder. I should have acted then, but Tann wouldn't shut up about the krogan.
+                    ↩ (goto) [00026E3D] global_nexus_colonial_director_multi ⟨cond⟩: You brought it to me, Pathfinder. I should have acted then, but Tann wouldn't shut up about the krogan.
                 ├ option 2:
-                    ↩ (goto) global_nexus_colonial_director_multi: Tann was on my ass about the krogan so much, I let myself be blind to Spender.
+                    ↩ (goto) [0000C304] global_nexus_colonial_director_multi: Tann was on my ass about the krogan so much, I let myself be blind to Spender.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            global_nexus_militia_leader: This is a massive security breach.
-            ↩ (goto) global_nexus_militia_leader: I can't even begin to fathom the damage he's responsible for.
+            [0001A304] global_nexus_militia_leader: This is a massive security breach.
+            ↩ (goto) [0001AB7E] global_nexus_militia_leader: I can't even begin to fathom the damage he's responsible for.
         └─ merge ─┘
     ├ option 2:
-        global_nexus_control_tower: Everything the Pathfinder's saying is true. Here's the proof.
-        ↩ (goto) global_squad_krogan: A scrambler packed with logs—and credit transfers to exiles.
+        [0001CF2F] global_nexus_control_tower: Everything the Pathfinder's saying is true. Here's the proof.
+        ↩ (goto) [0002FBA0] global_squad_krogan: A scrambler packed with logs—and credit transfers to exiles.
     └─ merge ─┘
 ├ option 2:
-    Hero: People died because of you, Spender.
-    global_nexus_colonial_assdir: They said no one would get hurt. I didn't hurt anyone. It's not my fault!
-    ↩ (goto) ?: [empty]
+    [0000C2FF] Hero: People died because of you, Spender.
+    [0000C2E9] global_nexus_colonial_assdir: They said no one would get hurt. I didn't hurt anyone. It's not my fault!
+    ↩ (goto) [0000C309] ?: [empty]
 └─ merge ─┘

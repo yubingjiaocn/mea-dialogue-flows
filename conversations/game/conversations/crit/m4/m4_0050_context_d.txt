@@ -4,138 +4,138 @@
 ==================================================
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: It's true, then? We found the salarian ark?
-    Hero: SAM, tactical.
-    Hero: It looks like the Archon captured it. The ships are tethered.
+    [0000CE53] global_squad_female_human ⟨cond⟩: It's true, then? We found the salarian ark?
+    [0000CE5A] Hero: SAM, tactical.
+    [00019E01] Hero: It looks like the Archon captured it. The ships are tethered.
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: What can we do?
-        Hero: I'm working on it. SAM, connect me to the Moshae.
-        SAM: On screen.
-        global_angaran_elder_multi: Ryder, it's good to see you again.
-        Hero: We've located the Archon's ship. It's more complicated than we thought, so I wanted to make sure we knew what we were looking for.
-        global_angaran_elder_multi: It was a large Remnant relic depicting Meridian. It's in his private chamber—his sanctum, he called it.
-        global_angaran_elder_multi: He's very proud of that relic.
+        [00019DFC] global_squad_angara ⟨cond⟩: What can we do?
+        [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
+        [0000E329] SAM: On screen.
+        [0000E326] global_angaran_elder_multi: Ryder, it's good to see you again.
+        [0000E32D] Hero: We've located the Archon's ship. It's more complicated than we thought, so I wanted to make sure we knew what we were looking for.
+        [0000E331] global_angaran_elder_multi: It was a large Remnant relic depicting Meridian. It's in his private chamber—his sanctum, he called it.
+        [0000E335] global_angaran_elder_multi: He's very proud of that relic.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Right up until we steal it.
-            global_angaran_elder_multi: The Archon isn't to be trifled with. He has no regard for the sanctity of life, not as we know it.
-            global_angaran_elder_multi: Be confident, Ryder, but be cautious.
-            Hero: I understand. Thank you for your help, Moshae.
-            global_angaran_elder_multi: Of course. I wish you well.
-            Narration: The vidcon ends. Ryder turns his attention back to the squad.
-            Hero: Okay, we play this right, not only do we get away with the relic, we save the salarians.
-            Narration: The holo display rotates and zooms in to show the steps of the plan.
-            Hero: I say we get onto the ark, assess the situation, then sneak onto the kett ship through the tether.
-            SAM: A feasible approach. Currently, Ark Paarchero is on standby. Only its stasis facilities are online.
-            Hero: What about the salarians?
-            SAM: Unknown.
-            Narration: Ryder and the squad exchange an uneasy glance.
+            [00019D08] Hero: Right up until we steal it.
+            [00019CF1] global_angaran_elder_multi: The Archon isn't to be trifled with. He has no regard for the sanctity of life, not as we know it.
+            [00019D27] global_angaran_elder_multi: Be confident, Ryder, but be cautious.
+            [00019D0A] Hero: I understand. Thank you for your help, Moshae.
+            [0000E332] global_angaran_elder_multi: Of course. I wish you well.
+            [0000CE3F] Narration: The vidcon ends. Ryder turns his attention back to the squad.
+            [00019E04] Hero: Okay, we play this right, not only do we get away with the relic, we save the salarians.
+            [00019E24] Narration: The holo display rotates and zooms in to show the steps of the plan.
+            [00019E25] Hero: I say we get onto the ark, assess the situation, then sneak onto the kett ship through the tether.
+            [0000CE4B] SAM: A feasible approach. Currently, Ark Paarchero is on standby. Only its stasis facilities are online.
+            [00019E2A] Hero: What about the salarians?
+            [00019E29] SAM: Unknown.
+            [00019E1E] Narration: Ryder and the squad exchange an uneasy glance.
             ┌─ BRANCH (7) ─┐
             ├ option 1:
-                global_squad_female_human ⟨cond⟩: You heard the Moshae. Who knows what the Archon's capable of?
+                [00019E27] global_squad_female_human ⟨cond⟩: You heard the Moshae. Who knows what the Archon's capable of?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
-                    Narration: Ryder looks at his squad. The stakes are high and they know it.
-                    global_crew_co-pilot: Ryder...
-                    Narration: They look over -- Kallo has stepped into the room.
-                    global_crew_co-pilot: Whatever you need. Those are my people.
-                    Hero: We'll get them back.
-                    Hero: Now let's make this one count.
-                    Narration: CUT TO: Cine of the Tempest approaching the salarian ark for docking.
+                    [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    [00019E22] Narration: Ryder looks at his squad. The stakes are high and they know it.
+                    [00024987] global_crew_co-pilot: Ryder...
+                    [00024985] Narration: They look over -- Kallo has stepped into the room.
+                    [00024986] global_crew_co-pilot: Whatever you need. Those are my people.
+                    [00024988] Hero: We'll get them back.
+                    [0002498A] Hero: Now let's make this one count.
+                    [0000CE3E] Narration: CUT TO: Cine of the Tempest approaching the salarian ark for docking.
                 ├ option 2:
-                    Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
-                    ↩ (goto) Narration: Ryder looks at his squad. The stakes are high and they know it.
+                    [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [00019E22] Narration: Ryder looks at his squad. The stakes are high and they know it.
                 └─ merge ─┘
             ├ option 2:
-                global_squad_male_human ⟨cond⟩: You heard what the Moshae said. No telling what the Archon could do.
+                [00019E1F] global_squad_male_human ⟨cond⟩: You heard what the Moshae said. No telling what the Archon could do.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    ↩ (goto) [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
                 ├ option 2:
-                    ↩ (goto) Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
                 └─ merge ─┘
             ├ option 3:
-                global_squad_turian ⟨cond⟩: You heard the Moshae. The Archon's capable of anything.
+                [00019E28] global_squad_turian ⟨cond⟩: You heard the Moshae. The Archon's capable of anything.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    ↩ (goto) [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
                 ├ option 2:
-                    ↩ (goto) Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
                 └─ merge ─┘
             ├ option 4:
-                global_squad_asari ⟨cond⟩: You heard the Moshae. The Archon's capable of anything.
+                [00019E21] global_squad_asari ⟨cond⟩: You heard the Moshae. The Archon's capable of anything.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    ↩ (goto) [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
                 ├ option 2:
-                    ↩ (goto) Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
                 └─ merge ─┘
             ├ option 5:
-                global_squad_krogan ⟨cond⟩: You heard the Moshae. The Archon hurts people. It's all he does.
+                [00019E26] global_squad_krogan ⟨cond⟩: You heard the Moshae. The Archon hurts people. It's all he does.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    ↩ (goto) [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
                 ├ option 2:
-                    ↩ (goto) Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
                 └─ merge ─┘
             ├ option 6:
-                global_squad_angara ⟨cond⟩: You heard the Moshae. The Archon has no mercy.
+                [00019E1D] global_squad_angara ⟨cond⟩: You heard the Moshae. The Archon has no mercy.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    ↩ (goto) [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
                 ├ option 2:
-                    ↩ (goto) Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
                 └─ merge ─┘
             ├ option 7:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
+                    ↩ (goto) [0000CE50] Hero: If he's done anything to those salarians, he'll find out what {i}we{/i} can do.
                 ├ option 2:
-                    ↩ (goto) Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
+                    ↩ (goto) [0000CE63] Hero: Then we keep our eyes open. We underestimate the Archon, we're dead.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: That's what we needed. I appreciate it.
-            global_angaran_elder_multi: And I appreciate what you're doing for all of us. But be careful. I've seen the Archon's cruelty. I hope you don't.
-            Hero: That makes two of us. Thank you for your help, Moshae.
-            ↩ (goto) global_angaran_elder_multi: Of course. I wish you well.
+            [00019D1F] Hero: That's what we needed. I appreciate it.
+            [00019CF2] global_angaran_elder_multi: And I appreciate what you're doing for all of us. But be careful. I've seen the Archon's cruelty. I hope you don't.
+            [00019D09] Hero: That makes two of us. Thank you for your help, Moshae.
+            ↩ (goto) [0000E332] global_angaran_elder_multi: Of course. I wish you well.
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: What's the plan?
-        ↩ (goto) Hero: I'm working on it. SAM, connect me to the Moshae.
+        [00019E02] global_squad_krogan ⟨cond⟩: What's the plan?
+        ↩ (goto) [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: What's the plan?
-        ↩ (goto) Hero: I'm working on it. SAM, connect me to the Moshae.
+        [00019E03] global_squad_asari ⟨cond⟩: What's the plan?
+        ↩ (goto) [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: What's the plan?
-        ↩ (goto) Hero: I'm working on it. SAM, connect me to the Moshae.
+        [00019DFA] global_squad_turian ⟨cond⟩: What's the plan?
+        ↩ (goto) [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: What's the plan?
-        ↩ (goto) Hero: I'm working on it. SAM, connect me to the Moshae.
+        [00019DFF] global_squad_male_human ⟨cond⟩: What's the plan?
+        ↩ (goto) [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: What's the plan?
-        ↩ (goto) Hero: I'm working on it. SAM, connect me to the Moshae.
+        [00019DFB] global_squad_female_human ⟨cond⟩: What's the plan?
+        ↩ (goto) [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
     ├ option 7:
-        ↩ (goto) Hero: I'm working on it. SAM, connect me to the Moshae.
+        ↩ (goto) [00019E00] Hero: I'm working on it. SAM, connect me to the Moshae.
     └─ merge ─┘
 ├ option 2:
-    global_squad_male_human ⟨cond⟩: It's true, then? We found the salarian ark?
-    ↩ (goto) Hero: SAM, tactical.
+    [0000CE4C] global_squad_male_human ⟨cond⟩: It's true, then? We found the salarian ark?
+    ↩ (goto) [0000CE5A] Hero: SAM, tactical.
 ├ option 3:
-    global_squad_turian ⟨cond⟩: It's true, then? We found the salarian ark?
-    ↩ (goto) Hero: SAM, tactical.
+    [0000CE57] global_squad_turian ⟨cond⟩: It's true, then? We found the salarian ark?
+    ↩ (goto) [0000CE5A] Hero: SAM, tactical.
 ├ option 4:
-    global_squad_asari ⟨cond⟩: Is it true? We found the salarian ark?
-    ↩ (goto) Hero: SAM, tactical.
+    [0000CE54] global_squad_asari ⟨cond⟩: Is it true? We found the salarian ark?
+    ↩ (goto) [0000CE5A] Hero: SAM, tactical.
 ├ option 5:
-    global_squad_krogan ⟨cond⟩: We found the salarian ark?
-    ↩ (goto) Hero: SAM, tactical.
+    [0000CE42] global_squad_krogan ⟨cond⟩: We found the salarian ark?
+    ↩ (goto) [0000CE5A] Hero: SAM, tactical.
 ├ option 6:
-    global_squad_angara ⟨cond⟩: You found another of your arks?
-    ↩ (goto) Hero: SAM, tactical.
+    [0000CE55] global_squad_angara ⟨cond⟩: You found another of your arks?
+    ↩ (goto) [0000CE5A] Hero: SAM, tactical.
 ├ option 7:
-    ↩ (goto) Hero: SAM, tactical.
+    ↩ (goto) [0000CE5A] Hero: SAM, tactical.
 └─ merge ─┘
-Hero: This one has to count. Take a deep breath and let's go.
+[00019E23] Hero: This one has to count. Take a deep breath and let's go.

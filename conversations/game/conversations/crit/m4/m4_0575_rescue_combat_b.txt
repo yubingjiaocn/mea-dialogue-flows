@@ -4,169 +4,169 @@
 ==================================================
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_angara ⟨cond⟩: Get ready... kett up ahead.
+    [0001B44A] global_squad_angara ⟨cond⟩: Get ready... kett up ahead.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_salarian_pathfinder_multi ⟨cond⟩: We can do this.
+        [0001B503] global_salarian_pathfinder_multi ⟨cond⟩: We can do this.
     ├ option 2:
-        crit_kett_krogan_scout: About to be dead kett.
+        [0001B502] crit_kett_krogan_scout: About to be dead kett.
     └─ merge ─┘
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Here we go... kett up ahead.
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001B449] global_squad_asari ⟨cond⟩: Here we go... kett up ahead.
+    ↩ (goto) [0001B505] global_squad_female_human: [empty]
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Here we go... kett up ahead.
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001B448] global_squad_turian ⟨cond⟩: Here we go... kett up ahead.
+    ↩ (goto) [0001B505] global_squad_female_human: [empty]
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: Here we go... kett up ahead.
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001B450] global_squad_male_human ⟨cond⟩: Here we go... kett up ahead.
+    ↩ (goto) [0001B505] global_squad_female_human: [empty]
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: Here we go... kett up ahead.
-    ↩ (goto) global_squad_female_human: [empty]
+    [0001B444] global_squad_female_human ⟨cond⟩: Here we go... kett up ahead.
+    ↩ (goto) [0001B505] global_squad_female_human: [empty]
 ├ option 6:
-    ↩ (goto) global_squad_female_human: [empty]
+    ↩ (goto) [0001B505] global_squad_female_human: [empty]
 └─ merge ─┘
 ┌─ BRANCH (9) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_salarian_pathfinder_multi ⟨cond⟩: We have to punch through!
+        [0001B4FF] global_salarian_pathfinder_multi ⟨cond⟩: We have to punch through!
         ┌─ BRANCH (7) ─┐
         ├ option 1:
-            global_squad_female_human ⟨cond⟩: Long way between here and there!
+            [0001B44B] global_squad_female_human ⟨cond⟩: Long way between here and there!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
+                [0002A748] global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
             ├ option 2:
-                crit_kett_krogan_scout: Or you're welcome to hang back and die!
+                [0002A747] crit_kett_krogan_scout: Or you're welcome to hang back and die!
             └─ merge ─┘
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: Tell that to them!
+            [0001B452] global_squad_male_human ⟨cond⟩: Tell that to them!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
+                ↩ (goto) [0002A748] global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
             ├ option 2:
-                ↩ (goto) crit_kett_krogan_scout: Or you're welcome to hang back and die!
+                ↩ (goto) [0002A747] crit_kett_krogan_scout: Or you're welcome to hang back and die!
             └─ merge ─┘
         ├ option 3:
-            global_squad_turian ⟨cond⟩: Tell them that!
+            [0001B44D] global_squad_turian ⟨cond⟩: Tell them that!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
+                ↩ (goto) [0002A748] global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
             ├ option 2:
-                ↩ (goto) crit_kett_krogan_scout: Or you're welcome to hang back and die!
+                ↩ (goto) [0002A747] crit_kett_krogan_scout: Or you're welcome to hang back and die!
             └─ merge ─┘
         ├ option 4:
-            global_squad_asari ⟨cond⟩: I'm trying!
+            [0001B454] global_squad_asari ⟨cond⟩: I'm trying!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
+                ↩ (goto) [0002A748] global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
             ├ option 2:
-                ↩ (goto) crit_kett_krogan_scout: Or you're welcome to hang back and die!
+                ↩ (goto) [0002A747] crit_kett_krogan_scout: Or you're welcome to hang back and die!
             └─ merge ─┘
         ├ option 5:
-            global_squad_krogan ⟨cond⟩: Tell them that!
+            [0001B474] global_squad_krogan ⟨cond⟩: Tell them that!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
+                ↩ (goto) [0002A748] global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
             ├ option 2:
-                ↩ (goto) crit_kett_krogan_scout: Or you're welcome to hang back and die!
+                ↩ (goto) [0002A747] crit_kett_krogan_scout: Or you're welcome to hang back and die!
             └─ merge ─┘
         ├ option 6:
-            ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
+            ↩ (goto) [0002A748] global_salarian_pathfinder_multi ⟨cond⟩: It's that, or die!
         ├ option 7:
-            ↩ (goto) crit_kett_krogan_scout: Or you're welcome to hang back and die!
+            ↩ (goto) [0002A747] crit_kett_krogan_scout: Or you're welcome to hang back and die!
         └─ merge ─┘
     ├ option 2:
-        crit_kett_krogan_scout: We have to punch through!
-        ↩ (goto) global_squad_angara: [empty]
+        [0001B4FD] crit_kett_krogan_scout: We have to punch through!
+        ↩ (goto) [0001B4FE] global_squad_angara: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: Tempest, this is Ryder! Do you copy?
-    global_crew_co-pilot: [Comm] I hear you, Pathfinder.
-    Hero: We have the map, but we're trying to rescue some prisoners!
-    global_crew_co-pilot: [Comm] Those kett guns won't stay offline forever.
-    Hero: I know, I know! Just tell us if anything changes!
-    global_crew_co-pilot: [Comm] You'll be the first to know. Kallo out.
+    [0001B443] Hero: Tempest, this is Ryder! Do you copy?
+    [0001B44F] global_crew_co-pilot: [Comm] I hear you, Pathfinder.
+    [0001B453] Hero: We have the map, but we're trying to rescue some prisoners!
+    [0001B44E] global_crew_co-pilot: [Comm] Those kett guns won't stay offline forever.
+    [0001B451] Hero: I know, I know! Just tell us if anything changes!
+    [0001B44C] global_crew_co-pilot: [Comm] You'll be the first to know. Kallo out.
 ├ option 3:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        crit_kett_krogan_scout ⟨cond⟩: Go! Go!
+        [0001B535] crit_kett_krogan_scout ⟨cond⟩: Go! Go!
     ├ option 2:
-        global_salarian_pathfinder_multi: Go! Go!
+        [0001B45B] global_salarian_pathfinder_multi: Go! Go!
     └─ merge ─┘
 ├ option 4:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: Think you can take {i}my{/i} people prisoner? Out of the way!
-            Hero: Keep your focus, Drack! They catch us, they exalt us!
-            crit_kett_krogan_scout: Not this krogan, they won't!
+            [0001B457] global_squad_krogan ⟨cond⟩: Think you can take {i}my{/i} people prisoner? Out of the way!
+            [0001B495] Hero: Keep your focus, Drack! They catch us, they exalt us!
+            [0001B500] crit_kett_krogan_scout: Not this krogan, they won't!
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                global_squad_female_human ⟨cond⟩: I'm not going out like that!
+                [0001B4A1] global_squad_female_human ⟨cond⟩: I'm not going out like that!
             ├ option 2:
-                global_squad_male_human ⟨cond⟩: That's not how I'm going out!
+                [0001B498] global_squad_male_human ⟨cond⟩: That's not how I'm going out!
             ├ option 3:
-                global_squad_turian ⟨cond⟩: The hell they will!
+                [0001B49D] global_squad_turian ⟨cond⟩: The hell they will!
             ├ option 4:
-                global_squad_asari ⟨cond⟩: Not how I'm going out!
+                [0001B499] global_squad_asari ⟨cond⟩: Not how I'm going out!
             ├ option 5:
-                global_squad_krogan ⟨cond⟩: They can try!
+                [0001B49F] global_squad_krogan ⟨cond⟩: They can try!
             ├ option 6:
-                global_squad_angara ⟨cond⟩: I'll die first!
+                [0001B497] global_squad_angara ⟨cond⟩: I'll die first!
             └─ merge ─┘
         ├ option 2:
-            crit_kett_krogan_scout: You're the pyjaks who tortured us! Those are {i}my{/i} people you took!
-            Hero: Careful there! They catch us, they exalt us!
+            [0001B504] crit_kett_krogan_scout: You're the pyjaks who tortured us! Those are {i}my{/i} people you took!
+            [0001B501] Hero: Careful there! They catch us, they exalt us!
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                ↩ (goto) global_squad_female_human ⟨cond⟩: I'm not going out like that!
+                ↩ (goto) [0001B4A1] global_squad_female_human ⟨cond⟩: I'm not going out like that!
             ├ option 2:
-                ↩ (goto) global_squad_male_human ⟨cond⟩: That's not how I'm going out!
+                ↩ (goto) [0001B498] global_squad_male_human ⟨cond⟩: That's not how I'm going out!
             ├ option 3:
-                ↩ (goto) global_squad_turian ⟨cond⟩: The hell they will!
+                ↩ (goto) [0001B49D] global_squad_turian ⟨cond⟩: The hell they will!
             ├ option 4:
-                ↩ (goto) global_squad_asari ⟨cond⟩: Not how I'm going out!
+                ↩ (goto) [0001B499] global_squad_asari ⟨cond⟩: Not how I'm going out!
             ├ option 5:
-                ↩ (goto) global_squad_angara ⟨cond⟩: I'll die first!
+                ↩ (goto) [0001B497] global_squad_angara ⟨cond⟩: I'll die first!
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_angara ⟨cond⟩: They're throwing everything they have at us!
-            global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
+            [0001B496] global_squad_angara ⟨cond⟩: They're throwing everything they have at us!
+            [0001B475] global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                ↩ (goto) global_squad_female_human ⟨cond⟩: I'm not going out like that!
+                ↩ (goto) [0001B4A1] global_squad_female_human ⟨cond⟩: I'm not going out like that!
             ├ option 2:
-                ↩ (goto) global_squad_male_human ⟨cond⟩: That's not how I'm going out!
+                ↩ (goto) [0001B498] global_squad_male_human ⟨cond⟩: That's not how I'm going out!
             ├ option 3:
-                ↩ (goto) global_squad_turian ⟨cond⟩: The hell they will!
+                ↩ (goto) [0001B49D] global_squad_turian ⟨cond⟩: The hell they will!
             ├ option 4:
-                ↩ (goto) global_squad_asari ⟨cond⟩: Not how I'm going out!
+                ↩ (goto) [0001B499] global_squad_asari ⟨cond⟩: Not how I'm going out!
             ├ option 5:
-                ↩ (goto) global_squad_krogan ⟨cond⟩: They can try!
+                ↩ (goto) [0001B49F] global_squad_krogan ⟨cond⟩: They can try!
             ├ option 6:
-                ↩ (goto) global_squad_angara ⟨cond⟩: I'll die first!
+                ↩ (goto) [0001B497] global_squad_angara ⟨cond⟩: I'll die first!
             └─ merge ─┘
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: This is going to be a tough one!
-            ↩ (goto) global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
+            [0001B49B] global_squad_krogan ⟨cond⟩: This is going to be a tough one!
+            ↩ (goto) [0001B475] global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
         ├ option 3:
-            global_squad_asari ⟨cond⟩: This is going to be a tough one!
-            ↩ (goto) global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
+            [0001B4A0] global_squad_asari ⟨cond⟩: This is going to be a tough one!
+            ↩ (goto) [0001B475] global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
         ├ option 4:
-            global_squad_turian ⟨cond⟩: This is going to be a tough one!
-            ↩ (goto) global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
+            [0001B49E] global_squad_turian ⟨cond⟩: This is going to be a tough one!
+            ↩ (goto) [0001B475] global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
         ├ option 5:
-            global_squad_male_human ⟨cond⟩: Man, they play for keeps!
-            ↩ (goto) global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
+            [0001B49A] global_squad_male_human ⟨cond⟩: Man, they play for keeps!
+            ↩ (goto) [0001B475] global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
         ├ option 6:
-            global_squad_female_human ⟨cond⟩: This is going to be a tough one!
-            ↩ (goto) global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
+            [0001B49C] global_squad_female_human ⟨cond⟩: This is going to be a tough one!
+            ↩ (goto) [0001B475] global_salarian_pathfinder_multi: We're fresh meat! They'd love to cut us open!
         └─ merge ─┘
     └─ merge ─┘
 ├ option 5:
@@ -174,90 +174,90 @@
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: Birtak, watch your aim!
-            crit_kett_krogan_scout: It's yours I'm worried about, old man!
+            [0001B539] global_squad_krogan ⟨cond⟩: Birtak, watch your aim!
+            [0002A750] crit_kett_krogan_scout: It's yours I'm worried about, old man!
         ├ option 2:
-            crit_kett_krogan_scout: Watch your aim in here! It's getting tight!
+            [0002A74A] crit_kett_krogan_scout: Watch your aim in here! It's getting tight!
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: You call that aiming, salarian? Maybe try to hit a few?
-            global_salarian_pathfinder_multi: I'm too busy protecting your flank!
+            [0001B530] global_squad_krogan ⟨cond⟩: You call that aiming, salarian? Maybe try to hit a few?
+            [0001B532] global_salarian_pathfinder_multi: I'm too busy protecting your flank!
         ├ option 2:
-            global_salarian_pathfinder_multi: Tight quarters! Watch where you shoot!
+            [0002A746] global_salarian_pathfinder_multi: Tight quarters! Watch where you shoot!
         └─ merge ─┘
     └─ merge ─┘
 ├ option 6:
-    global_crew_co-pilot: [Comm] Pathfinder, that kett ship is trying to reset the power.
-    Hero: Ah, crap.
-    global_crew_co-pilot: [Comm] They'll have the guns back in no time.
-    Hero: Copy that.
-    Hero: You hear that, everyone?
+    [0001B459] global_crew_co-pilot: [Comm] Pathfinder, that kett ship is trying to reset the power.
+    [0001B456] Hero: Ah, crap.
+    [0001B45A] global_crew_co-pilot: [Comm] They'll have the guns back in no time.
+    [0001B455] Hero: Copy that.
+    [0001B45C] Hero: You hear that, everyone?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Let's finish this!
+        [0001B462] global_squad_angara ⟨cond⟩: Let's finish this!
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Shooting as fast as I can!
+        [0001B465] global_squad_krogan ⟨cond⟩: Shooting as fast as I can!
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Wish I didn't!
+        [0001B464] global_squad_asari ⟨cond⟩: Wish I didn't!
     ├ option 4:
-        global_squad_turian ⟨cond⟩: Yeah, wish I hadn't!
+        [0001B467] global_squad_turian ⟨cond⟩: Yeah, wish I hadn't!
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Let's get this over with!
+        [0001B463] global_squad_male_human ⟨cond⟩: Let's get this over with!
     ├ option 6:
-        global_squad_female_human ⟨cond⟩: Let's finish this!
+        [0001B466] global_squad_female_human ⟨cond⟩: Let's finish this!
     └─ merge ─┘
 ├ option 7:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_salarian_pathfinder_multi ⟨cond⟩: That's a kett who's never getting back up!
+        [0002A74C] global_salarian_pathfinder_multi ⟨cond⟩: That's a kett who's never getting back up!
     ├ option 2:
-        crit_kett_krogan_scout: Get out of my way!
+        [0002A74F] crit_kett_krogan_scout: Get out of my way!
     └─ merge ─┘
 ├ option 8:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: {i}(Grunts in pain.){/i}
+        [0001B4AD] global_squad_female_human ⟨cond⟩: {i}(Grunts in pain.){/i}
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: {i}(Grunts in pain.){/i}
+        [0001B4AC] global_squad_male_human ⟨cond⟩: {i}(Grunts in pain.){/i}
     ├ option 3:
-        global_squad_turian ⟨cond⟩: {i}(Grunts in pain.){/i}
+        [0001B4A9] global_squad_turian ⟨cond⟩: {i}(Grunts in pain.){/i}
     ├ option 4:
-        global_squad_asari ⟨cond⟩: {i}(Grunts in pain.){/i}
+        [0001B4AB] global_squad_asari ⟨cond⟩: {i}(Grunts in pain.){/i}
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: {i}(Grunts in pain.){/i}
+        [0001B4A8] global_squad_krogan ⟨cond⟩: {i}(Grunts in pain.){/i}
     ├ option 6:
-        global_squad_angara ⟨cond⟩: {i}(Grunts in pain.){/i}
+        [0001B4AA] global_squad_angara ⟨cond⟩: {i}(Grunts in pain.){/i}
     └─ merge ─┘
 ├ option 9:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_salarian_pathfinder_multi ⟨cond⟩: Not much further!
+        [0002A74B] global_salarian_pathfinder_multi ⟨cond⟩: Not much further!
     ├ option 2:
-        crit_kett_krogan_scout: Not much farther!
+        [0002A753] crit_kett_krogan_scout: Not much farther!
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    crit_kett_krogan_scout ⟨cond⟩: There! Killed 'em all!
+    [0001B537] crit_kett_krogan_scout ⟨cond⟩: There! Killed 'em all!
 ├ option 2:
-    global_salarian_pathfinder_multi: We did it! That was the last of them!
+    [0001B533] global_salarian_pathfinder_multi: We did it! That was the last of them!
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        crit_kett_krogan_scout: My people are at the end of the corridor. With a lot of kett in the way.
+        [0001B4F3] crit_kett_krogan_scout: My people are at the end of the corridor. With a lot of kett in the way.
     ├ option 2:
-        crit_kett_krogan_scout: Drack?
-        global_squad_krogan: Birtak, what are you doing here?
-        crit_kett_krogan_scout: I got loose when the power went out. Our scouts are at the end of the corridor. With a lot of kett in the way.
+        [0001B4F0] crit_kett_krogan_scout: Drack?
+        [0001B4F4] global_squad_krogan: Birtak, what are you doing here?
+        [0001B4F5] crit_kett_krogan_scout: I got loose when the power went out. Our scouts are at the end of the corridor. With a lot of kett in the way.
     └─ merge ─┘
 ├ option 2:
-    global_squad_angara ⟨cond⟩: And we will!
+    [0001B446] global_squad_angara ⟨cond⟩: And we will!
 ├ option 3:
-    crit_kett_krogan_scout: It's yours I'm worried about!
+    [0001B531] crit_kett_krogan_scout: It's yours I'm worried about!
 ├ option 4:
-    crit_kett_krogan_scout: Name's Birtak. I got loose when the power went out, but I can't do this alone.
+    [0001B4F1] crit_kett_krogan_scout: Name's Birtak. I got loose when the power went out, but I can't do this alone.
 └─ merge ─┘

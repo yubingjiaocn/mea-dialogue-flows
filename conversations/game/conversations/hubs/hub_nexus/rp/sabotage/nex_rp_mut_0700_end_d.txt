@@ -2,57 +2,57 @@
 # Primary speaker: nex_rp_sabotage_01
 # Source: game/conversations/hubs/hub_nexus/rp/sabotage/nex_rp_mut_0700_end_d.xml
 ==================================================
-Hero: Dale Atkins, right? We need to talk.
-nex_rp_sabotage_02: Look, not to be rude, but I have work to do...
+[0000C76F] Hero: Dale Atkins, right? We need to talk.
+[0000C770] nex_rp_sabotage_02: Look, not to be rude, but I have work to do...
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: We know what you've been up to. You're done here.
-    nex_rp_sabotage_02: I—I don't know what you're talking about. I'm just doing my job, that's all!
-    Hero: Proof says you've been up to no good.
-    nex_rp_sabotage_02: Figures. Screw this. Screw all you hypocrites on this station.
-    nex_rp_sabotage_02: You weren't here when they kicked out our loved ones. Mutiny? We just wanted answers.
-    nex_rp_sabotage_02: My sister is out there! I don't even know if she's alive or...
+    [0000C795] Hero: We know what you've been up to. You're done here.
+    [0000C798] nex_rp_sabotage_02: I—I don't know what you're talking about. I'm just doing my job, that's all!
+    [0000C863] Hero: Proof says you've been up to no good.
+    [0000C79C] nex_rp_sabotage_02: Figures. Screw this. Screw all you hypocrites on this station.
+    [0000C7CD] nex_rp_sabotage_02: You weren't here when they kicked out our loved ones. Mutiny? We just wanted answers.
+    [0000C7EE] nex_rp_sabotage_02: My sister is out there! I don't even know if she's alive or...
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Whatever happened back then, hurting people now makes no sense.
-        nex_rp_sabotage_02: What do you know?
-        nex_rp_sabotage_02: {i}(Sighs.){/i} I don't care what you think.
+        [00021E13] Hero: Whatever happened back then, hurting people now makes no sense.
+        [00021E11] nex_rp_sabotage_02: What do you know?
+        [00021E12] nex_rp_sabotage_02: {i}(Sighs.){/i} I don't care what you think.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            nex_rp_sabotage_02 ⟨cond⟩: Sloane and the others were right to demand to know what was going on.
-            Hero: You could have hurt people. Killed them.
-            nex_rp_sabotage_02: Like those who got killed when the leadership had the krogan stomp on my friends?
-            nex_rp_sabotage_02: I'm done talking. I confess: it was me. Do whatever you want.
+            [0000C80C] nex_rp_sabotage_02 ⟨cond⟩: Sloane and the others were right to demand to know what was going on.
+            [0000C80D] Hero: You could have hurt people. Killed them.
+            [0000C80B] nex_rp_sabotage_02: Like those who got killed when the leadership had the krogan stomp on my friends?
+            [0000C7E8] nex_rp_sabotage_02: I'm done talking. I confess: it was me. Do whatever you want.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: Not my call. The Nexus leaders will make that decision.
-                nex_rp_sabotage_02: That lot, make a decision? That'll be the day.
+                [0000C7EB] Hero: Not my call. The Nexus leaders will make that decision.
+                [0000C7EA] nex_rp_sabotage_02: That lot, make a decision? That'll be the day.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                 ├ option 2:
                 └─ merge ─┘
             ├ option 2:
-                Hero: We can't let you stay on board. There's no saying what else you're capable of.
-                nex_rp_sabotage_02: Wait. You... you'd let me go?
-                Hero: If you call exile "letting you go," sure. You leave and you don't come back.
-                nex_rp_sabotage_02: ...I'll leave.
+                [0000C7E7] Hero: We can't let you stay on board. There's no saying what else you're capable of.
+                [0000C7ED] nex_rp_sabotage_02: Wait. You... you'd let me go?
+                [0000C865] Hero: If you call exile "letting you go," sure. You leave and you don't come back.
+                [0000C866] nex_rp_sabotage_02: ...I'll leave.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) nex_rp_sabotage_02: [empty]
+                    ↩ (goto) [00010771] nex_rp_sabotage_02: [empty]
                 ├ option 2:
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            nex_rp_sabotage_02: The mutiny leaders were right to demand to know what was going on.
-            ↩ (goto) Hero: You could have hurt people. Killed them.
+            [000221BC] nex_rp_sabotage_02: The mutiny leaders were right to demand to know what was going on.
+            ↩ (goto) [0000C80D] Hero: You could have hurt people. Killed them.
         └─ merge ─┘
     ├ option 2:
-        Hero: I'm sorry for what happened, but setting explosives isn't the answer.
-        nex_rp_sabotage_02: Neither was sending people into exile because they didn't agree with policy.
-        ↩ (goto) nex_rp_sabotage_02: {i}(Sighs.){/i} I don't care what you think.
+        [00021E14] Hero: I'm sorry for what happened, but setting explosives isn't the answer.
+        [00021E83] nex_rp_sabotage_02: Neither was sending people into exile because they didn't agree with policy.
+        ↩ (goto) [00021E12] nex_rp_sabotage_02: {i}(Sighs.){/i} I don't care what you think.
     └─ merge ─┘
 ├ option 2:
-    Hero: Is that what sabotage is called these days? Work?
-    nex_rp_sabotage_02: You're pretty arrogant for the new kid. You don't even know what's been going on.
-    ↩ (goto) Hero: Proof says you've been up to no good.
+    [0000C799] Hero: Is that what sabotage is called these days? Work?
+    [0000C809] nex_rp_sabotage_02: You're pretty arrogant for the new kid. You don't even know what's been going on.
+    ↩ (goto) [0000C863] Hero: Proof says you've been up to no good.
 └─ merge ─┘

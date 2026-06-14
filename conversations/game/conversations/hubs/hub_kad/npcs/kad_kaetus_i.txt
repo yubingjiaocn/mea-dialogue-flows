@@ -4,88 +4,88 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    kad_queen_guard_01 ⟨cond⟩: People who refuse Sloane don't usually walk away.
-    Hero: That supposed to scare me?
-    kad_queen_guard_01: Just stating a fact.
+    [0000ED9E] kad_queen_guard_01 ⟨cond⟩: People who refuse Sloane don't usually walk away.
+    [0000F28A] Hero: That supposed to scare me?
+    [0000F2A4] kad_queen_guard_01: Just stating a fact.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        Hero: The Collective is making waves in Kadara Port.
-        Hero: What's the Outcasts' plan to stay on top?
-        kad_queen_guard_01: By not telling our strategies to strangers.
-        ↩ (goto) kad_queen_guard_01: [empty]
+        [00011231] Hero: The Collective is making waves in Kadara Port.
+        [00011232] Hero: What's the Outcasts' plan to stay on top?
+        [00011230] kad_queen_guard_01: By not telling our strategies to strangers.
+        ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
     ├ option 2:
-        Hero ⟨cond⟩: Did you switch sides with Sloane during the mutiny?
-        kad_queen_guard_01: I came over on Ark Natanus. Never stepped foot on the Nexus.
+        [0000F28D] Hero ⟨cond⟩: Did you switch sides with Sloane during the mutiny?
+        [0000F29A] kad_queen_guard_01: I came over on Ark Natanus. Never stepped foot on the Nexus.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: I ran into some Natanus survivors on Havarl.
-            kad_queen_guard_01: They're still alive? Must be Rix's doing.
+            [0000F2A2] Hero ⟨cond⟩: I ran into some Natanus survivors on Havarl.
+            [0000F28F] kad_queen_guard_01: They're still alive? Must be Rix's doing.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero ⟨cond⟩: He's the new turian Pathfinder.
-                kad_queen_guard_01: Macen didn't make it? Shame.
-                ↩ (goto) kad_queen_guard_01: [empty]
+                [0000F293] Hero ⟨cond⟩: He's the new turian Pathfinder.
+                [0000F2A1] kad_queen_guard_01: Macen didn't make it? Shame.
+                ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
             ├ option 2:
-                Hero: You know Avitus?
-                kad_queen_guard_01: We've crossed paths.
-                ↩ (goto) kad_queen_guard_01: [empty]
+                [0000F295] Hero: You know Avitus?
+                [0000F296] kad_queen_guard_01: We've crossed paths.
+                ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero: Natanus? I heard it was destroyed.
-            kad_queen_guard_01: It was. There are stasis pods scattered all over the sector. I woke up with a handful of other survivors.
-            kad_queen_guard_01: Tried the colonial life. It wasn't for me.
-            ↩ (goto) kad_queen_guard_01: [empty]
+            [0000F28C] Hero: Natanus? I heard it was destroyed.
+            [0000F29F] kad_queen_guard_01: It was. There are stasis pods scattered all over the sector. I woke up with a handful of other survivors.
+            [0000F29D] kad_queen_guard_01: Tried the colonial life. It wasn't for me.
+            ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
         └─ merge ─┘
     ├ option 3:
-        Hero: You and Sloane seem close.
-        kad_queen_guard_01: What about it?
-        Hero: Nothing. Just wondering what's the story there.
-        kad_queen_guard_01: We met on the Citadel. She punched me in the face when I offered to buy her a drink.
-        Hero: Seriously?
-        kad_queen_guard_01: No. Mind your own business, Pathfinder.
-        ↩ (goto) kad_queen_guard_01: [empty]
+        [0000F291] Hero: You and Sloane seem close.
+        [0000F316] kad_queen_guard_01: What about it?
+        [0000F319] Hero: Nothing. Just wondering what's the story there.
+        [0000F318] kad_queen_guard_01: We met on the Citadel. She punched me in the face when I offered to buy her a drink.
+        [0000F317] Hero: Seriously?
+        [0000F31A] kad_queen_guard_01: No. Mind your own business, Pathfinder.
+        ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
     ├ option 4:
-        Hero: Are you Sloane's second-in-command?
-        kad_queen_guard_01: She calls me her "right-hand turian." I keep the wheel from squeaking.
-        ↩ (goto) kad_queen_guard_01: [empty]
+        [00011234] Hero: Are you Sloane's second-in-command?
+        [00011235] kad_queen_guard_01: She calls me her "right-hand turian." I keep the wheel from squeaking.
+        ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
     ├ option 5:
-        Hero: See you around, Kaetus.
+        [0000F290] Hero: See you around, Kaetus.
     └─ merge ─┘
 ├ option 2:
-    kad_queen_guard_01 ⟨cond⟩: You're not what I expected, Pathfinder.
-    Hero: I get that a lot.
-    kad_queen_guard_01: Keep staying on Sloane's good side, and I'll be really impressed.
-    ↩ (goto) kad_queen_guard_01: [empty]
+    [0000ED9F] kad_queen_guard_01 ⟨cond⟩: You're not what I expected, Pathfinder.
+    [0000F298] Hero: I get that a lot.
+    [0000F28B] kad_queen_guard_01: Keep staying on Sloane's good side, and I'll be really impressed.
+    ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
 ├ option 3:
-    kad_queen_guard_01 ⟨cond⟩: That's close enough.
-    Hero: Sorry about before. Reflexes.
-    kad_queen_guard_01: Uh huh. Keep your distance.
-    ↩ (goto) kad_queen_guard_01: [empty]
+    [0000EDA0] kad_queen_guard_01 ⟨cond⟩: That's close enough.
+    [0000F292] Hero: Sorry about before. Reflexes.
+    [0000F2A0] kad_queen_guard_01: Uh huh. Keep your distance.
+    ↩ (goto) [0000F29B] kad_queen_guard_01: [empty]
 └─ merge ─┘
-kad_queen_guard_01: Sloane should've killed you the day we met!
+[00021E74] kad_queen_guard_01: Sloane should've killed you the day we met!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: This isn't how I wanted things to go.
-    Hero: I'm sorry.
-    kad_queen_guard_01: Damn your apologies!
-    kad_queen_guard_01: You were there. You could've saved her... but you didn't.
-    kad_queen_guard_01: Why?
+    [00021E81] Hero: This isn't how I wanted things to go.
+    [00021E7E] Hero: I'm sorry.
+    [00021E7A] kad_queen_guard_01: Damn your apologies!
+    [00021E82] kad_queen_guard_01: You were there. You could've saved her... but you didn't.
+    [00021E76] kad_queen_guard_01: Why?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I just didn't like her.
-        kad_queen_guard_01: You better hope the Charlatan kills me, Ryder. Because if I ever get out of here...
-        Hero: Goodbye Kaetus.
+        [00021E6E] Hero: I just didn't like her.
+        [00021E73] kad_queen_guard_01: You better hope the Charlatan kills me, Ryder. Because if I ever get out of here...
+        [00021E79] Hero: Goodbye Kaetus.
     ├ option 2:
-        Hero: Sloane made it clear she would never forgive the Nexus.
-        Hero: How soon do you think she'd have declared war on the Initiative?
-        kad_queen_guard_01: Not soon enough, apparently.
-        ↩ (goto) kad_queen_guard_01: You better hope the Charlatan kills me, Ryder. Because if I ever get out of here...
+        [00021E80] Hero: Sloane made it clear she would never forgive the Nexus.
+        [00021E7D] Hero: How soon do you think she'd have declared war on the Initiative?
+        [00021E72] kad_queen_guard_01: Not soon enough, apparently.
+        ↩ (goto) [00021E73] kad_queen_guard_01: You better hope the Charlatan kills me, Ryder. Because if I ever get out of here...
     └─ merge ─┘
 ├ option 2:
-    Hero: Don't blame me. Sloane agreed to the duel.
-    kad_queen_guard_01: {i}(Scoffs.){/i} A duel? I know what happened!
-    kad_queen_guard_01: The sniper who pulled the trigger rubbed it in my face when they locked me up.
-    ↩ (goto) kad_queen_guard_01: You were there. You could've saved her... but you didn't.
+    [00021E78] Hero: Don't blame me. Sloane agreed to the duel.
+    [00021E7F] kad_queen_guard_01: {i}(Scoffs.){/i} A duel? I know what happened!
+    [00021E71] kad_queen_guard_01: The sniper who pulled the trigger rubbed it in my face when they locked me up.
+    ↩ (goto) [00021E82] kad_queen_guard_01: You were there. You could've saved her... but you didn't.
 └─ merge ─┘
-kad_queen_guard_01: Yep.
-↩ (goto) kad_queen_guard_01: [empty]
+[0000F29E] kad_queen_guard_01: Yep.
+↩ (goto) [0000F29B] kad_queen_guard_01: [empty]

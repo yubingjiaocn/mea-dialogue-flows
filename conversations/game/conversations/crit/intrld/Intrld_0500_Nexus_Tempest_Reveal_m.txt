@@ -2,52 +2,52 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/intrld/Intrld_0500_Nexus_Tempest_Reveal_m.xml
 ==================================================
-global_squad_female_human: They call her the Tempest.
-Hero: Let's go take a closer look!
-global_squad_turian: Let's pick it up a bit, people! We're fourteen months late!
-global_squad_turian: So you're the one who's making everything happen.
-global_squad_turian: Vetra. Vetra Nyx. Initiative wrangler, provisioner, gunner, and everything in between.
-global_squad_turian: Are we ready? The sooner we get out of here, the better.
-Hero: You're coming with us?
-global_squad_turian: Yes. Otherwise, there's no way they're letting this ship off the station.
+[00010A41] global_squad_female_human: They call her the Tempest.
+[000246DE] Hero: Let's go take a closer look!
+[000088E1] global_squad_turian: Let's pick it up a bit, people! We're fourteen months late!
+[000088EE] global_squad_turian: So you're the one who's making everything happen.
+[00008EDE] global_squad_turian: Vetra. Vetra Nyx. Initiative wrangler, provisioner, gunner, and everything in between.
+[00008EE0] global_squad_turian: Are we ready? The sooner we get out of here, the better.
+[00009547] Hero: You're coming with us?
+[00009548] global_squad_turian: Yes. Otherwise, there's no way they're letting this ship off the station.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: What's the rush?
-    global_squad_turian: Just don't want to waste any more time.
-    Nexus_interluderequisitions: Hold it. Hold it. You're not going anywhere. ⏎
-    global_squad_turian: Damn it.
+    [00009550] Hero: What's the rush?
+    [00009544] global_squad_turian: Just don't want to waste any more time.
+    [00009549] Nexus_interluderequisitions: Hold it. Hold it. You're not going anywhere. ⏎
+    [0000954A] global_squad_turian: Damn it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Is something wrong?
-        Nexus_interluderequisitions: Director Addison wants to see a complete report of the Tempest's supplies, munitions, and crew.
-        Hero: Director Tann overruled Addison...
-        Nexus_interluderequisitions: The ship's loaded out with equipment for outpost discovery—squarely under Director Addison's purview.
-        Nexus_interluderequisitions: She wants eyes on all the...
-        global_squad_turian: Seen you around. Ben, right?
-        global_squad_turian: Came here with a family, didn't you? Son still in cryo? I could pull some strings, get him to the front of the line...
-        Nexus_interluderequisitions: Really?
-        global_squad_turian: Yeah. Really.
-        Nexus_interluderequisitions: They told me he wasn't essential. But I miss him.
-        global_squad_turian: I know. I got family too, Ben.
-        Nexus_interluderequisitions: It's done. {i}(Sighs.){/i} Addison is going to kill me.
+        [00008E21] Hero: Is something wrong?
+        [0000954C] Nexus_interluderequisitions: Director Addison wants to see a complete report of the Tempest's supplies, munitions, and crew.
+        [00009546] Hero: Director Tann overruled Addison...
+        [00009559] Nexus_interluderequisitions: The ship's loaded out with equipment for outpost discovery—squarely under Director Addison's purview.
+        [0000955B] Nexus_interluderequisitions: She wants eyes on all the...
+        [00008BCC] global_squad_turian: Seen you around. Ben, right?
+        [00008BE8] global_squad_turian: Came here with a family, didn't you? Son still in cryo? I could pull some strings, get him to the front of the line...
+        [00008F87] Nexus_interluderequisitions: Really?
+        [00008F86] global_squad_turian: Yeah. Really.
+        [00008BE5] Nexus_interluderequisitions: They told me he wasn't essential. But I miss him.
+        [00008BDD] global_squad_turian: I know. I got family too, Ben.
+        [00008B62] Nexus_interluderequisitions: It's done. {i}(Sighs.){/i} Addison is going to kill me.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Nicely done.
-            global_squad_turian: Part of the job, Pathfinder.
-            global_squad_turian: All things considered, it was an easy ask.
-            global_squad_turian: And right now, you need people tearing down obstacles, not putting up more.
-            global_squad_female_human: Finally. Someone who cares about doing stuff, and not just talking about it.
+            [00008B6B] Hero: Nicely done.
+            [00008B6F] global_squad_turian: Part of the job, Pathfinder.
+            [00008B6C] global_squad_turian: All things considered, it was an easy ask.
+            [00008B7B] global_squad_turian: And right now, you need people tearing down obstacles, not putting up more.
+            [00008BEE] global_squad_female_human: Finally. Someone who cares about doing stuff, and not just talking about it.
         ├ option 2:
-            Hero: Thank goodness. For a sec I thought I was going to have to deal with Addison again.
-            global_squad_turian: And no one wants that.
-            ↩ (goto) global_squad_turian: All things considered, it was an easy ask.
+            [00008B65] Hero: Thank goodness. For a sec I thought I was going to have to deal with Addison again.
+            [00008B70] global_squad_turian: And no one wants that.
+            ↩ (goto) [00008B6C] global_squad_turian: All things considered, it was an easy ask.
         └─ merge ─┘
     ├ option 2:
-        Hero: Whatever happened, it wasn't me—I just got here.
-        ↩ (goto) Nexus_interluderequisitions: Director Addison wants to see a complete report of the Tempest's supplies, munitions, and crew.
+        [00008EF8] Hero: Whatever happened, it wasn't me—I just got here.
+        ↩ (goto) [0000954C] Nexus_interluderequisitions: Director Addison wants to see a complete report of the Tempest's supplies, munitions, and crew.
     └─ merge ─┘
 ├ option 2:
-    Hero: Yeah, let's go see the rest of Heleus.
-    ↩ (goto) Narration: [empty]
+    [0000954B] Hero: Yeah, let's go see the rest of Heleus.
+    ↩ (goto) [00008EF4] Narration: [empty]
 └─ merge ─┘
-global_crew_tech_officer: [Comm] Hey Vet—you guys coming or not?
+[00008B76] global_crew_tech_officer: [Comm] Hey Vet—you guys coming or not?

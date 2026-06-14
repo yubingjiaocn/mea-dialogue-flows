@@ -2,87 +2,87 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/crit_epi/mer_epi_0240_faction_outlaw_i.xml
 ==================================================
-Narration [OncePerGame]: Reactivity to the finale.
+[0000D626] Narration [OncePerGame]: Reactivity to the finale.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        kad_charlatan: Want to slip away? Found a great storage room.
-        kad_charlatan: Sturdy crates. Secluded. No interruptions.
+        [0002A3E0] kad_charlatan: Want to slip away? Found a great storage room.
+        [0002A3CE] kad_charlatan: Sturdy crates. Secluded. No interruptions.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: A storage room? You spoil me.
-            kad_charlatan: It'll be like our first date... but better.
-            kad_charlatan: Guess you'll be heading out soon?
-            Hero: Still a lot to do. Meridian's just one step toward making Heleus our home.
-            kad_charlatan: Yeah, but a damn big one. You deserve to celebrate.
-            kad_charlatan: And I... deserve another drink. Cheers, Pathfinder.
+            [0002A3E3] Hero: A storage room? You spoil me.
+            [0002A3D9] kad_charlatan: It'll be like our first date... but better.
+            [0002A3F2] kad_charlatan: Guess you'll be heading out soon?
+            [0002A3E2] Hero: Still a lot to do. Meridian's just one step toward making Heleus our home.
+            [0002A3CD] kad_charlatan: Yeah, but a damn big one. You deserve to celebrate.
+            [0002A3F3] kad_charlatan: And I... deserve another drink. Cheers, Pathfinder.
         ├ option 2:
-            Hero: Down, boy. We've got an audience.
-            kad_charlatan: {i}(Chuckles.){/i} Fine, fine.
-            ↩ (goto) kad_charlatan: Guess you'll be heading out soon?
+            [0002A3F7] Hero: Down, boy. We've got an audience.
+            [0002A3EA] kad_charlatan: {i}(Chuckles.){/i} Fine, fine.
+            ↩ (goto) [0002A3F2] kad_charlatan: Guess you'll be heading out soon?
         └─ merge ─┘
     ├ option 2:
-        kad_charlatan: Storage room offer still stands. Just sayin'.
+        [0002A3E7] kad_charlatan: Storage room offer still stands. Just sayin'.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        kad_charlatan: Well, if it isn't the hero of the hour.
+        [0002A3F4] kad_charlatan: Well, if it isn't the hero of the hour.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: You were pretty heroic yourself.
-            kad_charlatan: I have my moments.
-            ↩ (goto) kad_charlatan: Guess you'll be heading out soon?
+            [0002A3EE] Hero: You were pretty heroic yourself.
+            [0002A3F1] kad_charlatan: I have my moments.
+            ↩ (goto) [0002A3F2] kad_charlatan: Guess you'll be heading out soon?
         ├ option 2:
-            Hero: Thought you'd be back on Kadara.
-            kad_charlatan: And miss the party? You know me better than that.
-            ↩ (goto) kad_charlatan: Guess you'll be heading out soon?
+            [0002A3E6] Hero: Thought you'd be back on Kadara.
+            [0002A3EC] kad_charlatan: And miss the party? You know me better than that.
+            ↩ (goto) [0002A3F2] kad_charlatan: Guess you'll be heading out soon?
         └─ merge ─┘
     ├ option 2:
-        kad_charlatan: What? I'm staying out of trouble.
+        [0002A3E9] kad_charlatan: What? I'm staying out of trouble.
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        kad_queen [OncePerGame]: If you're expecting a pat on the back, you're going to be disappointed.
+        [0002A3E1] kad_queen [OncePerGame]: If you're expecting a pat on the back, you're going to be disappointed.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: All right. I'll settle for a hug.
-            kad_queen: How does your crew stand you?
-            Hero: Some people find me endearing. Charming, even.
+            [0002A3D2] Hero: All right. I'll settle for a hug.
+            [0002A3CF] kad_queen: How does your crew stand you?
+            [0002A3CC] Hero: Some people find me endearing. Charming, even.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                kad_queen ⟨cond⟩: More like insufferable. But, you do get results.
-                Hero: That was dangerously close to a "pat on the back."
-                kad_queen: You're hearing things.
+                [0002A3D8] kad_queen ⟨cond⟩: More like insufferable. But, you do get results.
+                [0002A3DE] Hero: That was dangerously close to a "pat on the back."
+                [0002A3F5] kad_queen: You're hearing things.
             ├ option 2:
-                kad_queen: So go talk to them.
-                kad_queen: I'm only here so you don't forget Kadara's contribution.
-                Hero: Noted. Enjoy the party.
-                kad_queen: Not likely.
+                [0002A3D6] kad_queen: So go talk to them.
+                [0002A3DF] kad_queen: I'm only here so you don't forget Kadara's contribution.
+                [0002A3F6] Hero: Noted. Enjoy the party.
+                [0002A3E5] kad_queen: Not likely.
             └─ merge ─┘
         ├ option 2:
-            Hero: You didn't disappoint me on the battlefield.
+            [0002A3D7] Hero: You didn't disappoint me on the battlefield.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                kad_queen ⟨cond⟩: When I enter an alliance, I mean it. Besides... I enjoy kicking some kett ass.
-                Hero: We have that in common.
-                kad_queen: That's where the similarities begin and end, Pathfinder.
+                [0002A3F8] kad_queen ⟨cond⟩: When I enter an alliance, I mean it. Besides... I enjoy kicking some kett ass.
+                [0002A3DB] Hero: We have that in common.
+                [0002A3E4] kad_queen: That's where the similarities begin and end, Pathfinder.
             ├ option 2:
-                kad_queen: For purely selfish reasons.
-                ↩ (goto) kad_queen: I'm only here so you don't forget Kadara's contribution.
+                [0002A3DA] kad_queen: For purely selfish reasons.
+                ↩ (goto) [0002A3DF] kad_queen: I'm only here so you don't forget Kadara's contribution.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        kad_queen: Plenty of people {i}actually{/i} want to talk to you. Don't waste your time with me.
+        [0002A3EF] kad_queen: Plenty of people {i}actually{/i} want to talk to you. Don't waste your time with me.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    ↩ (goto) Hero ⟨cond⟩: [empty]
+    ↩ (goto) [0002A3D5] Hero ⟨cond⟩: [empty]
 ├ option 2:
-    ↩ (goto) Hero ⟨cond⟩: [empty]
+    ↩ (goto) [0002A3FA] Hero ⟨cond⟩: [empty]
 ├ option 3:
-    ↩ (goto) kad_queen: Plenty of people {i}actually{/i} want to talk to you. Don't waste your time with me.
+    ↩ (goto) [0002A3EF] kad_queen: Plenty of people {i}actually{/i} want to talk to you. Don't waste your time with me.
 └─ merge ─┘

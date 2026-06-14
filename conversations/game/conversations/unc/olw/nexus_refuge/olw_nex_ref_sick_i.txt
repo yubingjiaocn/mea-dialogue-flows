@@ -2,21 +2,21 @@
 # Primary speaker: olw_nex_ref_caregiver
 # Source: game/conversations/unc/olw/nexus_refuge/olw_nex_ref_sick_i.xml
 ==================================================
-Hero: Is he okay?
-olw_nex_ref_caregiver: No. Running a fever. Something weird bit him and he's got an infection. Usual remedies don't work on the venom.
+[0003319A] Hero: Is he okay?
+[00033199] olw_nex_ref_caregiver: No. Running a fever. Something weird bit him and he's got an infection. Usual remedies don't work on the venom.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Here, we came across a plant. In small doses, it's supposed to be an antibiotic.
-    olw_nex_ref_caregiver: Really? We'll give it a shot. Thank you. You may have just saved his life.
+    [0003319C] Hero: Here, we came across a plant. In small doses, it's supposed to be an antibiotic.
+    [0003319D] olw_nex_ref_caregiver: Really? We'll give it a shot. Thank you. You may have just saved his life.
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Don't give up. There might still be hope.
-        olw_nex_ref_caregiver: Unless you can conjure up some sort of antibiotic out of thin air, I don't know.
+        [0003319E] Hero: Don't give up. There might still be hope.
+        [000331AE] olw_nex_ref_caregiver: Unless you can conjure up some sort of antibiotic out of thin air, I don't know.
     ├ option 2:
-        Hero: Anything we can do for him?
-        ↩ (goto) olw_nex_ref_caregiver: Unless you can conjure up some sort of antibiotic out of thin air, I don't know.
+        [0003319F] Hero: Anything we can do for him?
+        ↩ (goto) [000331AE] olw_nex_ref_caregiver: Unless you can conjure up some sort of antibiotic out of thin air, I don't know.
     └─ merge ─┘
 └─ merge ─┘
-↩ (goto) Hero: Here, we came across a plant. In small doses, it's supposed to be an antibiotic.
-olw_nex_ref_caregiver: Let me know if you find some medicine.
+↩ (goto) [0003319C] Hero: Here, we came across a plant. In small doses, it's supposed to be an antibiotic.
+[000331A1] olw_nex_ref_caregiver: Let me know if you find some medicine.

@@ -2,68 +2,68 @@
 # Primary speaker: kad_prisoner
 # Source: game/conversations/hubs/hub_kad/distractions/kad_dis_prisoner_0100_start_i.xml
 ==================================================
-kad_prisoner: Did you find Cele? Was she worried?
+[0002DA3F] kad_prisoner: Did you find Cele? Was she worried?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: No, because she's not your girlfriend.
-    kad_prisoner: Shit. I hoped she had changed her mind.
-    Hero: Focus on yourself, Jim. Cele's happy where she is.
-    kad_prisoner: {i}(Sighs.){/i} Damn it.
+    [0002DA30] Hero: No, because she's not your girlfriend.
+    [0002DA40] kad_prisoner: Shit. I hoped she had changed her mind.
+    [0002DA3C] Hero: Focus on yourself, Jim. Cele's happy where she is.
+    [0002DA29] kad_prisoner: {i}(Sighs.){/i} Damn it.
 ├ option 2:
-    Hero: I delivered your message, but Cele's happy at Tartarus.
-    kad_prisoner: Oh. So, she wasn't worried?
-    Hero: Focus on getting out, Jim.
-    kad_prisoner: Yeah, okay.
+    [0002DA2C] Hero: I delivered your message, but Cele's happy at Tartarus.
+    [0002DA2E] kad_prisoner: Oh. So, she wasn't worried?
+    [0002DA27] Hero: Focus on getting out, Jim.
+    [0002DA28] kad_prisoner: Yeah, okay.
 └─ merge ─┘
-kad_prisoner: Change your mind?
+[0002DA3E] kad_prisoner: Change your mind?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Yeah, all right. Give me the message.
-    kad_prisoner: My girlfriend, Cele, works at Tartarus. Most beautiful asari you’ve ever seen.
-    kad_prisoner: Skin like the ocean. Eyes like—
-    Hero: Jim. The message.
-    kad_prisoner: Right. Tell Cele I've run into a... complication. But I'll have the credits to pay Sloane's protection fees soon.
-    kad_prisoner: Ask her to wait for me. Oh! And leave out the part where I’m in jail. Thanks.
+    [0002DA31] Hero: Yeah, all right. Give me the message.
+    [0002DA23] kad_prisoner: My girlfriend, Cele, works at Tartarus. Most beautiful asari you’ve ever seen.
+    [0002DA26] kad_prisoner: Skin like the ocean. Eyes like—
+    [0002DA2F] Hero: Jim. The message.
+    [0002DA3A] kad_prisoner: Right. Tell Cele I've run into a... complication. But I'll have the credits to pay Sloane's protection fees soon.
+    [0002DA3D] kad_prisoner: Ask her to wait for me. Oh! And leave out the part where I’m in jail. Thanks.
 ├ option 2:
-    Hero: Still don't have time.
-    kad_prisoner: Then go somewhere else.
+    [0002DA1A] Hero: Still don't have time.
+    [0002DA2A] kad_prisoner: Then go somewhere else.
 └─ merge ─┘
-kad_prisoner: Thank god. Didn’t think anyone would stop.
-kad_prisoner: I need you to deliver a message. Please.
+[0002DA39] kad_prisoner: Thank god. Didn’t think anyone would stop.
+[0002DA37] kad_prisoner: I need you to deliver a message. Please.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero [OncePerGame]: First, tell me why they've got you locked up.
-    kad_prisoner: {i}(Sighs).{/i} I may have had too much to drink—and urinated on one of the guards.
-    kad_queen_guard_06: No "may have" about it. My boots still smell of piss!
-    kad_prisoner: I've always been a bad drunk.
+    [0002DA1F] Hero [OncePerGame]: First, tell me why they've got you locked up.
+    [0002DA2D] kad_prisoner: {i}(Sighs).{/i} I may have had too much to drink—and urinated on one of the guards.
+    [0002DA1D] kad_queen_guard_06: No "may have" about it. My boots still smell of piss!
+    [0002DA1E] kad_prisoner: I've always been a bad drunk.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        ↩ (goto) Hero [OncePerGame]: First, tell me why they've got you locked up.
+        ↩ (goto) [0002DA1F] Hero [OncePerGame]: First, tell me why they've got you locked up.
     ├ option 2:
-        Hero [OncePerGame]: What kind of message?
-        kad_prisoner: Nothing illegal! Just need to get word to my girlfriend.
-        kad_prisoner: She’s probably worried sick.
+        [0002DA42] Hero [OncePerGame]: What kind of message?
+        [0002DA36] kad_prisoner: Nothing illegal! Just need to get word to my girlfriend.
+        [0002DA38] kad_prisoner: She’s probably worried sick.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            ↩ (goto) Hero [OncePerGame]: What kind of message?
+            ↩ (goto) [0002DA42] Hero [OncePerGame]: What kind of message?
         ├ option 2:
-            ↩ (goto) Hero [OncePerGame]: First, tell me why they've got you locked up.
+            ↩ (goto) [0002DA1F] Hero [OncePerGame]: First, tell me why they've got you locked up.
         ├ option 3:
-            Hero: All right. What’s the message?
-            ↩ (goto) kad_prisoner: My girlfriend, Cele, works at Tartarus. Most beautiful asari you’ve ever seen.
+            [0002DA25] Hero: All right. What’s the message?
+            ↩ (goto) [0002DA23] kad_prisoner: My girlfriend, Cele, works at Tartarus. Most beautiful asari you’ve ever seen.
         ├ option 4:
-            Hero: Sorry, too busy.
-            kad_prisoner: Oh. Right. Of course.
+            [0002DA2B] Hero: Sorry, too busy.
+            [0002DA34] kad_prisoner: Oh. Right. Of course.
         └─ merge ─┘
     ├ option 3:
-        ↩ (goto) Hero: All right. What’s the message?
+        ↩ (goto) [0002DA25] Hero: All right. What’s the message?
     ├ option 4:
-        ↩ (goto) Hero: Sorry, too busy.
+        ↩ (goto) [0002DA2B] Hero: Sorry, too busy.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) Hero [OncePerGame]: What kind of message?
+    ↩ (goto) [0002DA42] Hero [OncePerGame]: What kind of message?
 ├ option 3:
-    ↩ (goto) Hero: All right. What’s the message?
+    ↩ (goto) [0002DA25] Hero: All right. What’s the message?
 ├ option 4:
-    ↩ (goto) Hero: Sorry, too busy.
+    ↩ (goto) [0002DA2B] Hero: Sorry, too busy.
 └─ merge ─┘

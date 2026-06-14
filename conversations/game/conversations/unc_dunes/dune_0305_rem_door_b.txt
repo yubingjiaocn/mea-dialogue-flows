@@ -2,32 +2,32 @@
 # Primary speaker: 
 # Source: game/conversations/unc_dunes/dune_0305_rem_door_b.xml
 ==================================================
-Hero: If Morda wants this derelict's drive core, what's her plan to get in?
+[0002BA3D] Hero: If Morda wants this derelict's drive core, what's her plan to get in?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Morda? With her bare hands. Also, explosives probably.
+    [0002BA25] global_squad_krogan ⟨cond⟩: Morda? With her bare hands. Also, explosives probably.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Judging by the pile of dead krogan, the scavengers didn't like her plan.
+        [0002BA24] global_squad_angara ⟨cond⟩: Judging by the pile of dead krogan, the scavengers didn't like her plan.
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Judging by the pile of dead krogan, scavengers weren't in on the plan.
+        [0002BA41] global_squad_asari ⟨cond⟩: Judging by the pile of dead krogan, scavengers weren't in on the plan.
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Judging by the pile of dead krogan, scavengers didn't like her plan.
+        [0002BA2E] global_squad_turian ⟨cond⟩: Judging by the pile of dead krogan, scavengers didn't like her plan.
     ├ option 4:
-        global_squad_male_human ⟨cond⟩: Judging by the pile of dead krogan, scavengers wanted in on the plan.
+        [0002BA28] global_squad_male_human ⟨cond⟩: Judging by the pile of dead krogan, scavengers wanted in on the plan.
     ├ option 5:
-        global_squad_female_human ⟨cond⟩: Judging by the pile of dead krogan, scavengers didn't like her plan.
+        [0002BA21] global_squad_female_human ⟨cond⟩: Judging by the pile of dead krogan, scavengers didn't like her plan.
     └─ merge ─┘
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: Brute force? Headbutts.
-    ↩ (goto) global_squad_angara: [empty]
+    [0002BA30] global_squad_female_human ⟨cond⟩: Brute force? Headbutts.
+    ↩ (goto) [0002BA3E] global_squad_angara: [empty]
 ├ option 3:
-    global_squad_male_human ⟨cond⟩: Brute force? The krogan's favorite weapon.
-    ↩ (goto) global_squad_angara: [empty]
+    [0002BA50] global_squad_male_human ⟨cond⟩: Brute force? The krogan's favorite weapon.
+    ↩ (goto) [0002BA3E] global_squad_angara: [empty]
 ├ option 4:
-    global_squad_turian ⟨cond⟩: Brute force? I never underestimate a krogan.
-    ↩ (goto) global_squad_angara: [empty]
+    [0002BA4D] global_squad_turian ⟨cond⟩: Brute force? I never underestimate a krogan.
+    ↩ (goto) [0002BA3E] global_squad_angara: [empty]
 ├ option 5:
-    global_squad_asari ⟨cond⟩: Brute force? Headbutts? Explosives?
-    ↩ (goto) global_squad_angara: [empty]
+    [0002BA48] global_squad_asari ⟨cond⟩: Brute force? Headbutts? Explosives?
+    ↩ (goto) [0002BA3E] global_squad_angara: [empty]
 └─ merge ─┘

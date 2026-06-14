@@ -2,45 +2,45 @@
 # Primary speaker: Hero
 # Source: game/conversations/bstory/kro/hub_nex_0510_snooptake_i.xml
 ==================================================
-Hero: Wait. Is that what I think it is?
-SAM: That model ship was declared missing from inventory six months ago.
-Hero: Hmm.
-SAM: Pathfinder, are you putting the box back?
+[0001AB3E] Hero: Wait. Is that what I think it is?
+[0001AB4E] SAM: That model ship was declared missing from inventory six months ago.
+[0001AB50] Hero: Hmm.
+[0001AB46] SAM: Pathfinder, are you putting the box back?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Finder's keepers.
+    [0001AB42] Hero: Finder's keepers.
 ├ option 2:
-    Hero: Yes. Yes, I am.
+    [0001AB45] Hero: Yes. Yes, I am.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM ⟨cond⟩: Accessing audio logs.
+    [0001B0BB] SAM ⟨cond⟩: Accessing audio logs.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        Hero: Play the first one.
-        global_nexus_colonial_assdir: [Audio Log] Tann is starting to get along with Vetra's replacement a little too well.
-        global_nexus_colonial_assdir: [Audio Log] Better do something about it.
-        ↩ (goto) SAM: [empty]
+        [0001B060] Hero: Play the first one.
+        [0001B0B8] global_nexus_colonial_assdir: [Audio Log] Tann is starting to get along with Vetra's replacement a little too well.
+        [0001B0B5] global_nexus_colonial_assdir: [Audio Log] Better do something about it.
+        ↩ (goto) [0001B064] SAM: [empty]
     ├ option 2:
-        Hero: Play the second one.
-        global_nexus_colonial_assdir: [Audio Log] Remind Addison that the krogan all left. Keep her unhappy.
-        ↩ (goto) SAM: [empty]
+        [0001B05E] Hero: Play the second one.
+        [0001B0B7] global_nexus_colonial_assdir: [Audio Log] Remind Addison that the krogan all left. Keep her unhappy.
+        ↩ (goto) [0001B064] SAM: [empty]
     ├ option 3:
-        Hero: Play the third one.
-        global_nexus_colonial_assdir: [Audio Log] Stay away from what's-his-face in charge of the first colony.
-        global_nexus_colonial_assdir: [Audio Log] If he thought I was messing with Addison, he could be serious trouble.
-        ↩ (goto) SAM: [empty]
+        [0001B065] Hero: Play the third one.
+        [0001B0B9] global_nexus_colonial_assdir: [Audio Log] Stay away from what's-his-face in charge of the first colony.
+        [0001B0B6] global_nexus_colonial_assdir: [Audio Log] If he thought I was messing with Addison, he could be serious trouble.
+        ↩ (goto) [0001B064] SAM: [empty]
     ├ option 4:
-        Hero: Thanks, SAM.
+        [0001B05F] Hero: Thanks, SAM.
     └─ merge ─┘
 ├ option 2:
-    SAM: The datapad is password locked. Shall I run a decryption?
+    [0001B06C] SAM: The datapad is password locked. Shall I run a decryption?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Seems worth the risk. Do it.
-        ↩ (goto) SAM ⟨cond⟩: Accessing audio logs.
+        [0001B068] Hero: Seems worth the risk. Do it.
+        ↩ (goto) [0001B0BB] SAM ⟨cond⟩: Accessing audio logs.
     ├ option 2:
-        Hero: Not sure violation of privacy is warranted here.
-        SAM: Very well.
+        [0001B06B] Hero: Not sure violation of privacy is warranted here.
+        [0001B0B4] SAM: Very well.
     └─ merge ─┘
 └─ merge ─┘

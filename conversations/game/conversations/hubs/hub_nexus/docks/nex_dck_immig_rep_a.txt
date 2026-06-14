@@ -2,87 +2,87 @@
 # Primary speaker: nex_dck_immig_rep
 # Source: game/conversations/hubs/hub_nexus/docks/nex_dck_immig_rep_a.xml
 ==================================================
-nex_dck_immig_rep: Name?
-nex_dck_hum_colonist1: Jessica Depaul.
-nex_dck_immig_rep: Hi Jessica, welcome to the Nexus. I see you here in our database. Did you have your medical scan?
-nex_dck_hum_colonist1: Yes.
-nex_dck_immig_rep: Good, let me call it up.
-nex_dck_immig_rep: There it is. Everything's in the green. You're cleared for entry.
-nex_dck_hum_colonist1: I waited my whole life for something like this. A new galaxy... my friends thought I was crazy.
-nex_dck_immig_rep: We're all probably a little crazy here, but that's the fun of it, isn't it?
-nex_dck_hum_colonist1: I hope so.
-nex_dck_immig_rep: You can proceed to the waiting area.
-nex_dck_hum_colonist1: Thank you.
-nex_dck_immig_rep: My pleasure. Next!
-nex_dck_immig_rep: And what's your name?
-nex_dck_hum_colonist2: Derek, and this is my wife, Andrea.
-nex_dck_immig_rep: Hi, it's nice to meet you. Welcome to the Nexus. Let me pull up your records.
-nex_dck_immig_rep: Here we go... your medical scans are in order. Everything's good. You're cleared for entry.
-nex_dck_hum_colonist3: Where will we be living?
+[0000F756] nex_dck_immig_rep: Name?
+[0000F752] nex_dck_hum_colonist1: Jessica Depaul.
+[0000F75E] nex_dck_immig_rep: Hi Jessica, welcome to the Nexus. I see you here in our database. Did you have your medical scan?
+[0000F757] nex_dck_hum_colonist1: Yes.
+[0000F760] nex_dck_immig_rep: Good, let me call it up.
+[0000F753] nex_dck_immig_rep: There it is. Everything's in the green. You're cleared for entry.
+[0000F775] nex_dck_hum_colonist1: I waited my whole life for something like this. A new galaxy... my friends thought I was crazy.
+[0000F772] nex_dck_immig_rep: We're all probably a little crazy here, but that's the fun of it, isn't it?
+[0000F774] nex_dck_hum_colonist1: I hope so.
+[0000F758] nex_dck_immig_rep: You can proceed to the waiting area.
+[0000F754] nex_dck_hum_colonist1: Thank you.
+[0000F75D] nex_dck_immig_rep: My pleasure. Next!
+[0000F74F] nex_dck_immig_rep: And what's your name?
+[0000F75F] nex_dck_hum_colonist2: Derek, and this is my wife, Andrea.
+[0000F75B] nex_dck_immig_rep: Hi, it's nice to meet you. Welcome to the Nexus. Let me pull up your records.
+[0000F750] nex_dck_immig_rep: Here we go... your medical scans are in order. Everything's good. You're cleared for entry.
+[0000F755] nex_dck_hum_colonist3: Where will we be living?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    nex_dck_immig_rep ⟨cond⟩: Eos. Outpost Prodromos is being established as a science center.
-    nex_dck_immig_rep: Looks like you two are nourishment engineers? Makes sense—scientists have to eat.
-    nex_dck_immig_rep: Terraforming efforts are ongoing, so it might be a while.
-    nex_dck_hum_colonist3: Terraforming? I thought everything would be ready.
-    nex_dck_immig_rep: We've had a few... unexpected wrinkles. It's nothing the Pathfinders can't handle.
-    nex_dck_immig_rep: In the meantime, you can head to the waiting area.
-    nex_dck_immig_rep: Next!
+    [0002D687] nex_dck_immig_rep ⟨cond⟩: Eos. Outpost Prodromos is being established as a science center.
+    [0002D691] nex_dck_immig_rep: Looks like you two are nourishment engineers? Makes sense—scientists have to eat.
+    [0002D688] nex_dck_immig_rep: Terraforming efforts are ongoing, so it might be a while.
+    [0000F77B] nex_dck_hum_colonist3: Terraforming? I thought everything would be ready.
+    [0000F77C] nex_dck_immig_rep: We've had a few... unexpected wrinkles. It's nothing the Pathfinders can't handle.
+    [0000F75C] nex_dck_immig_rep: In the meantime, you can head to the waiting area.
+    [0000F762] nex_dck_immig_rep: Next!
 ├ option 2:
-    nex_dck_immig_rep: Eos. Outpost Prodromos is being established as a military installation.
-    nex_dck_immig_rep: Looks like you two are nourishment engineers? Makes sense—soldiers have to eat.
-    nex_dck_hum_colonist3: How soon will we be deployed?
-    ↩ (goto) nex_dck_immig_rep: Terraforming efforts are ongoing, so it might be a while.
+    [0002D690] nex_dck_immig_rep: Eos. Outpost Prodromos is being established as a military installation.
+    [0002D68C] nex_dck_immig_rep: Looks like you two are nourishment engineers? Makes sense—soldiers have to eat.
+    [0002D6A3] nex_dck_hum_colonist3: How soon will we be deployed?
+    ↩ (goto) [0002D688] nex_dck_immig_rep: Terraforming efforts are ongoing, so it might be a while.
 └─ merge ─┘
-nex_dck_immig_rep: Hi, what's your name?
-nex_dck_hum_colonist4: Bradley Kane.
-nex_dck_immig_rep: Hello, Bradley. I've got you here in our database. I just need to verify your medical scan.
-nex_dck_immig_rep: Here it is, and... hmm. Did the doctor say anything to you?
-nex_dck_hum_colonist4: No, they were swamped. They said my results would be delayed.
-nex_dck_immig_rep: I see. The scan shows you have otitis media.
-nex_dck_hum_colonist4: Oh god, I knew it... I'd come all this way to die...
-nex_dck_immig_rep: Take it easy. It's an earache caused by a minor infection. Some immune systems need to adjust to the new environment.
-nex_dck_hum_colonist4: Oh. {i}(Sigh of relief.){/i} Right. I always was allergic to everything.
-nex_dck_immig_rep: It's not serious enough to deny entry. You'll want to see our medical staff, but otherwise, good luck.
-nex_dck_immig_rep: Next!
-nex_dck_immig_rep: Your name?
-nex_dck_hum_colonist5: Moira Purcell, security systems specialist. But I didn't come alone. My son should be here.
-nex_dck_immig_rep: Was he on the Hyperion?
-nex_dck_hum_colonist5: Yes. He's an agriculturalist.
+[0000F761] nex_dck_immig_rep: Hi, what's your name?
+[0000F769] nex_dck_hum_colonist4: Bradley Kane.
+[0000F768] nex_dck_immig_rep: Hello, Bradley. I've got you here in our database. I just need to verify your medical scan.
+[0000F76A] nex_dck_immig_rep: Here it is, and... hmm. Did the doctor say anything to you?
+[0000F770] nex_dck_hum_colonist4: No, they were swamped. They said my results would be delayed.
+[0000F76B] nex_dck_immig_rep: I see. The scan shows you have otitis media.
+[0000F767] nex_dck_hum_colonist4: Oh god, I knew it... I'd come all this way to die...
+[0000F76C] nex_dck_immig_rep: Take it easy. It's an earache caused by a minor infection. Some immune systems need to adjust to the new environment.
+[0000F76F] nex_dck_hum_colonist4: Oh. {i}(Sigh of relief.){/i} Right. I always was allergic to everything.
+[0000F76D] nex_dck_immig_rep: It's not serious enough to deny entry. You'll want to see our medical staff, but otherwise, good luck.
+[0000F773] nex_dck_immig_rep: Next!
+[0000F76E] nex_dck_immig_rep: Your name?
+[0002D68D] nex_dck_hum_colonist5: Moira Purcell, security systems specialist. But I didn't come alone. My son should be here.
+[0000F77D] nex_dck_immig_rep: Was he on the Hyperion?
+[0002D689] nex_dck_hum_colonist5: Yes. He's an agriculturalist.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    nex_dck_immig_rep ⟨cond⟩: Hmm. That's odd. Prodromos {i}is{/i} being set up as a science center. He ought to be in the first-wave deployment.
-    nex_dck_immig_rep: {i}You're{/i} on the universal wake up roster.
-    nex_dck_hum_colonist5: When will he wake up?
+    [0002D686] nex_dck_immig_rep ⟨cond⟩: Hmm. That's odd. Prodromos {i}is{/i} being set up as a science center. He ought to be in the first-wave deployment.
+    [0002D694] nex_dck_immig_rep: {i}You're{/i} on the universal wake up roster.
+    [0000F777] nex_dck_hum_colonist5: When will he wake up?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        nex_dck_immig_rep: I'm sure he'll be among the next groups revived out of stasis.
-        nex_dck_hum_colonist5: Oh, good. That's a relief.
-        nex_dck_immig_rep: You can wait for further instructions over there.
-        nex_dck_hum_colonist5: Thanks.
+        [0002D693] nex_dck_immig_rep: I'm sure he'll be among the next groups revived out of stasis.
+        [0002D68E] nex_dck_hum_colonist5: Oh, good. That's a relief.
+        [0000F918] nex_dck_immig_rep: You can wait for further instructions over there.
+        [0000F916] nex_dck_hum_colonist5: Thanks.
     ├ option 2:
-        nex_dck_immig_rep: Could be a while. I'm sure when your work is done on Eos, you can put in a transfer request to wherever he's been deployed.
-        nex_dck_hum_colonist5: I see.
-        ↩ (goto) nex_dck_immig_rep: You can wait for further instructions over there.
+        [0002D68B] nex_dck_immig_rep: Could be a while. I'm sure when your work is done on Eos, you can put in a transfer request to wherever he's been deployed.
+        [0002D68F] nex_dck_hum_colonist5: I see.
+        ↩ (goto) [0000F918] nex_dck_immig_rep: You can wait for further instructions over there.
     └─ merge ─┘
 ├ option 2:
-    nex_dck_immig_rep: Ah, there's your answer. Prodromos is being set up as a forward security station. Your son's detail won't be needed for a while.
-    ↩ (goto) nex_dck_immig_rep: {i}You're{/i} on the universal wake up roster.
+    [0002D692] nex_dck_immig_rep: Ah, there's your answer. Prodromos is being set up as a forward security station. Your son's detail won't be needed for a while.
+    ↩ (goto) [0002D694] nex_dck_immig_rep: {i}You're{/i} on the universal wake up roster.
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    nex_dck_immig_rep: We're still in the process of terraforming colonies, so we ask that you bear with us.
+    [0000F75A] nex_dck_immig_rep: We're still in the process of terraforming colonies, so we ask that you bear with us.
 ├ option 2:
-    nex_dck_hum_colonist5: Moira Purcell. But I didn't come alone. My son should be here.
+    [0000F77A] nex_dck_hum_colonist5: Moira Purcell. But I didn't come alone. My son should be here.
 ├ option 3:
-    nex_dck_immig_rep: I understand. We'll do everything we can to make sure you're together soon.
+    [0000F781] nex_dck_immig_rep: I understand. We'll do everything we can to make sure you're together soon.
 ├ option 4:
-    nex_dck_hum_colonist5: Yes. Though he was late boarding the ark.
-    nex_dck_immig_rep: Let me check the database... okay, your stasis group was revived first. Your son's group is still in deep freeze.
+    [0000F780] nex_dck_hum_colonist5: Yes. Though he was late boarding the ark.
+    [0000F77F] nex_dck_immig_rep: Let me check the database... okay, your stasis group was revived first. Your son's group is still in deep freeze.
 ├ option 5:
-    nex_dck_hum_colonist5: But—
-    nex_dck_immig_rep: I'm sorry. It's the best we can do. There are a lot of good people here who will lend a hand if you need help.
+    [0000F919] nex_dck_hum_colonist5: But—
+    [0000F917] nex_dck_immig_rep: I'm sorry. It's the best we can do. There are a lot of good people here who will lend a hand if you need help.
 ├ option 6:
-    nex_dck_immig_rep: Could be a while. Things are tight.
-    nex_dck_hum_colonist5: But he's all I've got.
+    [0000F779] nex_dck_immig_rep: Could be a while. Things are tight.
+    [0000F778] nex_dck_hum_colonist5: But he's all I've got.
 └─ merge ─┘

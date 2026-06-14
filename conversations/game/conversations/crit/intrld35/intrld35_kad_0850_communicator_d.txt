@@ -2,54 +2,54 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/intrld35/intrld35_kad_0850_communicator_d.xml
 ==================================================
-Narration: Ryder bends down and picks up the kett communicator.
-Hero: Found it!
+[0001F9F7] Narration: Ryder bends down and picks up the kett communicator.
+[0001F9F6] Hero: Found it!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: That's a mess.
-    SAM: The transponder's power source is drained.
-    Hero: So let's juice it up. Turn it on, then Gil can work his magic.
-    SAM: Once complete, this should provide us with the Archon's location. And in turn, Meridian's.
+    [000194C4] global_squad_female_human ⟨cond⟩: That's a mess.
+    [000194C6] SAM: The transponder's power source is drained.
+    [000194BF] Hero: So let's juice it up. Turn it on, then Gil can work his magic.
+    [0001F9EE] SAM: Once complete, this should provide us with the Archon's location. And in turn, Meridian's.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: See? We're halfway there already.
+        [0001F9F3] Hero: See? We're halfway there already.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: Oh, yeah. The hard part's totally behind us.
+            [0001F9F1] global_squad_turian ⟨cond⟩: Oh, yeah. The hard part's totally behind us.
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: Yep. Only easy stuff ahead.
+            [0001F9F2] global_squad_male_human ⟨cond⟩: Yep. Only easy stuff ahead.
         ├ option 3:
-            global_squad_krogan ⟨cond⟩: Sure, kid.
+            [0001F9F4] global_squad_krogan ⟨cond⟩: Sure, kid.
         ├ option 4:
-            global_squad_asari ⟨cond⟩: Loving the positivity.
+            [0001F9EC] global_squad_asari ⟨cond⟩: Loving the positivity.
         ├ option 5:
-            global_squad_angara ⟨cond⟩: I enjoy your optimism.
+            [0001F9ED] global_squad_angara ⟨cond⟩: I enjoy your optimism.
         └─ merge ─┘
     ├ option 2:
-        Hero: We're one step closer to building a home in Heleus.
+        [0001F9F5] Hero: We're one step closer to building a home in Heleus.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            ↩ (goto) global_squad_turian ⟨cond⟩: Oh, yeah. The hard part's totally behind us.
+            ↩ (goto) [0001F9F1] global_squad_turian ⟨cond⟩: Oh, yeah. The hard part's totally behind us.
         ├ option 2:
-            ↩ (goto) global_squad_male_human ⟨cond⟩: Yep. Only easy stuff ahead.
+            ↩ (goto) [0001F9F2] global_squad_male_human ⟨cond⟩: Yep. Only easy stuff ahead.
         ├ option 3:
-            ↩ (goto) global_squad_krogan ⟨cond⟩: Sure, kid.
+            ↩ (goto) [0001F9F4] global_squad_krogan ⟨cond⟩: Sure, kid.
         ├ option 4:
-            ↩ (goto) global_squad_angara ⟨cond⟩: I enjoy your optimism.
+            ↩ (goto) [0001F9ED] global_squad_angara ⟨cond⟩: I enjoy your optimism.
         ├ option 5:
-            ↩ (goto) global_squad_asari ⟨cond⟩: Loving the positivity.
+            ↩ (goto) [0001F9EC] global_squad_asari ⟨cond⟩: Loving the positivity.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Well, that's busted.
-    ↩ (goto) SAM: The transponder's power source is drained.
+    [000194C0] global_squad_asari ⟨cond⟩: Well, that's busted.
+    ↩ (goto) [000194C6] SAM: The transponder's power source is drained.
 ├ option 3:
-    global_squad_angara ⟨cond⟩: Clearly, that's broken.
-    ↩ (goto) SAM: The transponder's power source is drained.
+    [000194C1] global_squad_angara ⟨cond⟩: Clearly, that's broken.
+    ↩ (goto) [000194C6] SAM: The transponder's power source is drained.
 ├ option 4:
-    global_squad_krogan ⟨cond⟩: That thing's busted.
-    ↩ (goto) SAM: The transponder's power source is drained.
+    [000194C2] global_squad_krogan ⟨cond⟩: That thing's busted.
+    ↩ (goto) [000194C6] SAM: The transponder's power source is drained.
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Looks pretty junked.
-    ↩ (goto) SAM: The transponder's power source is drained.
+    [000194C5] global_squad_male_human ⟨cond⟩: Looks pretty junked.
+    ↩ (goto) [000194C6] SAM: The transponder's power source is drained.
 └─ merge ─┘

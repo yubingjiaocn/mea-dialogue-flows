@@ -4,72 +4,72 @@
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Whoa! Those adhi are really coming at us!
+    [0002FE0D] global_squad_female_human ⟨cond⟩: Whoa! Those adhi are really coming at us!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
-        SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+        [0002FE0C] global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+        [0002FE0F] SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
     ├ option 2:
-        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+        ↩ (goto) [0002FE0F] SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
     └─ merge ─┘
 ├ option 2:
-    global_squad_asari ⟨cond⟩: Watch out! Those adhi seem really mad!
+    [0002FE10] global_squad_asari ⟨cond⟩: Watch out! Those adhi seem really mad!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+        ↩ (goto) [0002FE0C] global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
     ├ option 2:
-        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+        ↩ (goto) [0002FE0F] SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
     └─ merge ─┘
 ├ option 3:
-    global_squad_turian ⟨cond⟩: Those adhi really have it out for us!
+    [0002FE11] global_squad_turian ⟨cond⟩: Those adhi really have it out for us!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+        ↩ (goto) [0002FE0C] global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
     ├ option 2:
-        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+        ↩ (goto) [0002FE0F] SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
     └─ merge ─┘
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: These adhi are really aggressive!
+    [0002FE0E] global_squad_male_human ⟨cond⟩: These adhi are really aggressive!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+        ↩ (goto) [0002FE0C] global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
     ├ option 2:
-        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+        ↩ (goto) [0002FE0F] SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Got the signal. This way.
+    [0002FE16] Hero: Got the signal. This way.
 ├ option 2:
-    Hero: Picking up signal.
+    [0002FE1A] Hero: Picking up signal.
 ├ option 3:
-    Hero: Getting closer.
+    [0002FE15] Hero: Getting closer.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Crap! More adhi!
+    [0002FE12] Hero: Crap! More adhi!
 ├ option 2:
-    Hero: Watch out!
+    [0002FE14] Hero: Watch out!
 ├ option 3:
-    Hero: Clear them out!
+    [0002FE18] Hero: Clear them out!
 └─ merge ─┘
-Hero: This is the source of that interference? Looks like a meteorite.
-SAM: The interference is caused by the EM radiation it's emitting. I detect that—
+[000300EF] Hero: This is the source of that interference? Looks like a meteorite.
+[000300EB] SAM: The interference is caused by the EM radiation it's emitting. I detect that—
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Detect later! Adhi!
+    [000300EC] global_squad_krogan ⟨cond⟩: Detect later! Adhi!
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: Adhi, headed our way!
+    [000300ED] global_squad_female_human ⟨cond⟩: Adhi, headed our way!
 ├ option 3:
-    global_squad_asari ⟨cond⟩: Detect later! Angry adhi headed for us!
+    [000300EA] global_squad_asari ⟨cond⟩: Detect later! Angry adhi headed for us!
 ├ option 4:
-    global_squad_angara ⟨cond⟩: Adhi! Talk later!
+    [000300EE] global_squad_angara ⟨cond⟩: Adhi! Talk later!
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: Uh, Ryder, got beasties incoming!
+    [000300F1] global_squad_male_human ⟨cond⟩: Uh, Ryder, got beasties incoming!
 └─ merge ─┘
-SAM: The signal emitted by that meteorite might be drawing the adhi, as well as driving them into a frenzy.
-Hero: How do we shut it off?
-SAM: Perhaps a scan will tell us more, Pathfinder.
-SAM: Detecting local frequency inteference. This could be affecting planetary communications.
-Hero: Let's check it out.
-SAM: Pathfinder, I can modify your omni-tool to dampen the signal.
+[000300F5] SAM: The signal emitted by that meteorite might be drawing the adhi, as well as driving them into a frenzy.
+[000300F3] Hero: How do we shut it off?
+[000300F6] SAM: Perhaps a scan will tell us more, Pathfinder.
+[00030B28] SAM: Detecting local frequency inteference. This could be affecting planetary communications.
+[00030B27] Hero: Let's check it out.
+[00030D78] SAM: Pathfinder, I can modify your omni-tool to dampen the signal.

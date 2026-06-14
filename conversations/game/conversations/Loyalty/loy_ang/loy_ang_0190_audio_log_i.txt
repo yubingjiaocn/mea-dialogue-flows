@@ -2,24 +2,24 @@
 # Primary speaker: Hero
 # Source: game/conversations/Loyalty/loy_ang/loy_ang_0190_audio_log_i.xml
 ==================================================
-loy_ang_researcher_04: [Audio Log] Akksul claims we must leave the Forge "for our own safety."
-loy_ang_researcher_04: [Audio Log] Bregohn and a few others resisted. The Roekaar knocked them out, then forced them onto the ship.
-loy_ang_researcher_04: [Audio Log] I thought Akksul was here to protect us. Why must we leave?
-Hero: Explains where the researchers are—Akksul sent them away.
+[0002A680] loy_ang_researcher_04: [Audio Log] Akksul claims we must leave the Forge "for our own safety."
+[0002A682] loy_ang_researcher_04: [Audio Log] Bregohn and a few others resisted. The Roekaar knocked them out, then forced them onto the ship.
+[0002A681] loy_ang_researcher_04: [Audio Log] I thought Akksul was here to protect us. Why must we leave?
+[0002A67D] Hero: Explains where the researchers are—Akksul sent them away.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_asari ⟨cond⟩: What's he trying to pull?
-    global_squad_angara: I don't know. But I don't want my family involved.
+    [0002A68D] global_squad_asari ⟨cond⟩: What's he trying to pull?
+    [0002A67E] global_squad_angara: I don't know. But I don't want my family involved.
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: But why?
-    ↩ (goto) global_squad_angara: I don't know. But I don't want my family involved.
+    [0002A68B] global_squad_female_human ⟨cond⟩: But why?
+    ↩ (goto) [0002A67E] global_squad_angara: I don't know. But I don't want my family involved.
 ├ option 3:
-    global_squad_krogan ⟨cond⟩: Yeah, but why?
-    ↩ (goto) global_squad_angara: I don't know. But I don't want my family involved.
+    [0002A68F] global_squad_krogan ⟨cond⟩: Yeah, but why?
+    ↩ (goto) [0002A67E] global_squad_angara: I don't know. But I don't want my family involved.
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: What's his endgame?
-    ↩ (goto) global_squad_angara: I don't know. But I don't want my family involved.
+    [0002A68C] global_squad_male_human ⟨cond⟩: What's his endgame?
+    ↩ (goto) [0002A67E] global_squad_angara: I don't know. But I don't want my family involved.
 ├ option 5:
-    global_squad_turian ⟨cond⟩: What's he playing at?
-    ↩ (goto) global_squad_angara: I don't know. But I don't want my family involved.
+    [0002A68E] global_squad_turian ⟨cond⟩: What's he playing at?
+    ↩ (goto) [0002A67E] global_squad_angara: I don't know. But I don't want my family involved.
 └─ merge ─┘

@@ -4,49 +4,49 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    dune_colony_loystart ⟨cond⟩ [OncePerGame]: Pathfinder. Thanks for rescuing Vorn.
-    dune_colony_loystart: If anything had happened to him, I don't know how I'd live with myself.
-    Hero: Just... be careful, Hark.
-    dune_colony_loystart: Yeah. Learned my lesson.
+    [0002BF4F] dune_colony_loystart ⟨cond⟩ [OncePerGame]: Pathfinder. Thanks for rescuing Vorn.
+    [0002BF4B] dune_colony_loystart: If anything had happened to him, I don't know how I'd live with myself.
+    [0002BF52] Hero: Just... be careful, Hark.
+    [0002BF48] dune_colony_loystart: Yeah. Learned my lesson.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: What do you do at the colony?
-        dune_colony_loystart: Botany... sort of. I'm Vorn's apprentice. He's the real genius with plants.
-        ↩ (goto) dune_colony_loystart: [empty]
+        [00032463] Hero ⟨cond⟩: What do you do at the colony?
+        [00032465] dune_colony_loystart: Botany... sort of. I'm Vorn's apprentice. He's the real genius with plants.
+        ↩ (goto) [0002BF45] dune_colony_loystart: [empty]
     ├ option 2:
-        Hero: Know anything about those crazy plants out on the dunes?
-        dune_colony_loystart: The red ones? Well, there used to be a lot more of them.
-        Hero: What do you mean?
-        dune_colony_loystart: You see all those red banners outside? The red paint on the walls? Yeah.
-        dune_colony_loystart: The crushed leaves make a perfect dye. Other than that, not much use. Pretty to look at, though.
-        ↩ (goto) dune_colony_loystart: [empty]
+        [0002BF47] Hero: Know anything about those crazy plants out on the dunes?
+        [0002BF56] dune_colony_loystart: The red ones? Well, there used to be a lot more of them.
+        [0002BF42] Hero: What do you mean?
+        [0002BF58] dune_colony_loystart: You see all those red banners outside? The red paint on the walls? Yeah.
+        [0002BF50] dune_colony_loystart: The crushed leaves make a perfect dye. Other than that, not much use. Pretty to look at, though.
+        ↩ (goto) [0002BF45] dune_colony_loystart: [empty]
     ├ option 3:
-        Hero: How's research going?
-        dune_colony_loystart: Slowly. We're fine on Elaaden, but plants aren't. They need a better defense against the elements.
-        dune_colony_loystart: I want to experiment by crossing vegetation with the native animal life on Elaaden.
+        [0002BF43] Hero: How's research going?
+        [0002BF4C] dune_colony_loystart: Slowly. We're fine on Elaaden, but plants aren't. They need a better defense against the elements.
+        [0002BF55] dune_colony_loystart: I want to experiment by crossing vegetation with the native animal life on Elaaden.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I think that might be a bad idea.
-            dune_colony_loystart: So does Vorn. Says he doesn't want to create another Tuchanka.
-            dune_colony_loystart: I guess there's a chance of breeding carnivorous plants like the ones back home. But it's worth the risk.
-            ↩ (goto) dune_colony_loystart: [empty]
+            [0002BF53] Hero: I think that might be a bad idea.
+            [0002BF51] dune_colony_loystart: So does Vorn. Says he doesn't want to create another Tuchanka.
+            [0002BF49] dune_colony_loystart: I guess there's a chance of breeding carnivorous plants like the ones back home. But it's worth the risk.
+            ↩ (goto) [0002BF45] dune_colony_loystart: [empty]
         ├ option 2:
-            Hero: From what I've seen of the wildlife, those'll be some exciting plants.
-            dune_colony_loystart: Now I just need to convince Vorn. He thinks it's too dangerous.
-            ↩ (goto) dune_colony_loystart: I guess there's a chance of breeding carnivorous plants like the ones back home. But it's worth the risk.
+            [0002CBC4] Hero: From what I've seen of the wildlife, those'll be some exciting plants.
+            [0002CBC6] dune_colony_loystart: Now I just need to convince Vorn. He thinks it's too dangerous.
+            ↩ (goto) [0002BF49] dune_colony_loystart: I guess there's a chance of breeding carnivorous plants like the ones back home. But it's worth the risk.
         └─ merge ─┘
     ├ option 4:
-        Hero ⟨cond⟩: Be careful, Hark.
-        dune_colony_loystart: I know. I will.
+        [0002BF4E] Hero ⟨cond⟩: Be careful, Hark.
+        [0002BF44] dune_colony_loystart: I know. I will.
     ├ option 5:
-        Hero ⟨cond⟩: I'll leave you to your work.
+        [0003246E] Hero ⟨cond⟩: I'll leave you to your work.
     └─ merge ─┘
 ├ option 2:
-    dune_colony_loystart: You must be the Pathfinder?
-    Hero: That's me.
-    ↩ (goto) dune_colony_loystart: [empty]
+    [0003246D] dune_colony_loystart: You must be the Pathfinder?
+    [0003246C] Hero: That's me.
+    ↩ (goto) [0002BF45] dune_colony_loystart: [empty]
 ├ option 3:
-    dune_colony_loystart: Hey, Pathfinder.
-    ↩ (goto) dune_colony_loystart: [empty]
+    [0002BF4A] dune_colony_loystart: Hey, Pathfinder.
+    ↩ (goto) [0002BF45] dune_colony_loystart: [empty]
 └─ merge ─┘
-dune_colony_loystart: Ah... a little busy. Sorry.
+[0002D054] dune_colony_loystart: Ah... a little busy. Sorry.

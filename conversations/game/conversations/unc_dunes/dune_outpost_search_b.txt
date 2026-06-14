@@ -2,54 +2,54 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_dunes/dune_outpost_search_b.xml
 ==================================================
-SAM: Pathfinder, this site could support an Initiative outpost.
+[0002EAAA] SAM: Pathfinder, this site could support an Initiative outpost.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_turian ⟨cond⟩: If the krogan let us move in.
+        [0002EAA7] global_squad_turian ⟨cond⟩: If the krogan let us move in.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: We need to deal with the vault situation first.
+            [0002EAA9] Hero ⟨cond⟩: We need to deal with the vault situation first.
         ├ option 2:
         └─ merge ─┘
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Only if the krogan let us be neighbors.
+        [0002EAA6] global_squad_asari ⟨cond⟩: Only if the krogan let us be neighbors.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero ⟨cond⟩: We need to deal with the vault situation first.
+            ↩ (goto) [0002EAA9] Hero ⟨cond⟩: We need to deal with the vault situation first.
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0002EAB8] Hero: [empty]
         └─ merge ─┘
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: Have to convince Morda.
+        [0002EAA3] global_squad_krogan ⟨cond⟩: Have to convince Morda.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero ⟨cond⟩: We need to deal with the vault situation first.
+            ↩ (goto) [0002EAA9] Hero ⟨cond⟩: We need to deal with the vault situation first.
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0002EAB8] Hero: [empty]
         └─ merge ─┘
     ├ option 4:
-        global_squad_male_human ⟨cond⟩: Think the krogan would let us?
+        [0002EAA5] global_squad_male_human ⟨cond⟩: Think the krogan would let us?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero ⟨cond⟩: We need to deal with the vault situation first.
+            ↩ (goto) [0002EAA9] Hero ⟨cond⟩: We need to deal with the vault situation first.
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0002EAB8] Hero: [empty]
         └─ merge ─┘
     ├ option 5:
-        global_squad_female_human ⟨cond⟩: We would need permission from the krogan.
+        [0002EAA1] global_squad_female_human ⟨cond⟩: We would need permission from the krogan.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero ⟨cond⟩: We need to deal with the vault situation first.
+            ↩ (goto) [0002EAA9] Hero ⟨cond⟩: We need to deal with the vault situation first.
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0002EAB8] Hero: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero ⟨cond⟩: I doubt Morda would let us. That ship has sailed.
+    [0002EAB9] Hero ⟨cond⟩: I doubt Morda would let us. That ship has sailed.
 ├ option 3:
-    ↩ (goto) Hero ⟨cond⟩: We need to deal with the vault situation first.
+    ↩ (goto) [0002EAA9] Hero ⟨cond⟩: We need to deal with the vault situation first.
 ├ option 4:
-    ↩ (goto) Hero: [empty]
+    ↩ (goto) [0002EAB8] Hero: [empty]
 └─ merge ─┘

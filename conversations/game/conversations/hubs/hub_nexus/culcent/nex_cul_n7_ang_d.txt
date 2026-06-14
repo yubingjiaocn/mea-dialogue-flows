@@ -2,58 +2,58 @@
 # Primary speaker: nex_culcen_n7ang
 # Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_ang_d.xml
 ==================================================
-nex_culcen_n7ang: Interesting place, isn't it? Full of smiles and handshakes. Not many soldiers.
-nex_culcen_n7ang: Even though when politicians make peace, it's we soldiers who keep it.
+[0001F6F3] nex_culcen_n7ang: Interesting place, isn't it? Full of smiles and handshakes. Not many soldiers.
+[0001F6F6] nex_culcen_n7ang: Even though when politicians make peace, it's we soldiers who keep it.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Given our situation, it's smart to show we truly come in friendship.
-    nex_culcen_n7ang: Though in these times, you should be prepared for the alternative.
-    nex_culcen_n7ang: But—names. I know you, Pathfinder. I am Andraknor, a Heskaarl with the Resistance.
-    Narration: Andraknor offers a handshake or a salute: some gesture of respect appropriate to a Heskaarl.
-    Hero: A "Heskaarl"?
-    nex_culcen_n7ang: Centuries ago, Heskaarl were "special forces." We defended colonies, passing our training down via oral history. Few remember us today.
-    nex_culcen_n7ang: I came to learn what the Milky Way knows of such things. I heard your father was part of a similar program: an N7.
+    [0001F6F5] Hero: Given our situation, it's smart to show we truly come in friendship.
+    [0001F701] nex_culcen_n7ang: Though in these times, you should be prepared for the alternative.
+    [0001F702] nex_culcen_n7ang: But—names. I know you, Pathfinder. I am Andraknor, a Heskaarl with the Resistance.
+    [0001F730] Narration: Andraknor offers a handshake or a salute: some gesture of respect appropriate to a Heskaarl.
+    [0001F713] Hero: A "Heskaarl"?
+    [0001F716] nex_culcen_n7ang: Centuries ago, Heskaarl were "special forces." We defended colonies, passing our training down via oral history. Few remember us today.
+    [0001F70D] nex_culcen_n7ang: I came to learn what the Milky Way knows of such things. I heard your father was part of a similar program: an N7.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero [OncePerGame]: What have you learned about the N7 program?
-        nex_culcen_n7ang: Human soldiers who trained on exotic worlds—Arcturus, Europa, Rio de Janeiro.
-        nex_culcen_n7ang: They learned to fight in all environments on little food or sleep. To care for their injured. To lead.
-        nex_culcen_n7ang: Is that accurate? Wasn't your father one of them?
-        ↩ (goto) Hero: [empty]
+        [0001F723] Hero [OncePerGame]: What have you learned about the N7 program?
+        [0001F722] nex_culcen_n7ang: Human soldiers who trained on exotic worlds—Arcturus, Europa, Rio de Janeiro.
+        [0001F724] nex_culcen_n7ang: They learned to fight in all environments on little food or sleep. To care for their injured. To lead.
+        [0001F725] nex_culcen_n7ang: Is that accurate? Wasn't your father one of them?
+        ↩ (goto) [000285B2] Hero: [empty]
     ├ option 2:
-        Hero: He was one of the first N7s. He was proud of that, even though he didn't stay in service.
+        [0001F714] Hero: He was one of the first N7s. He was proud of that, even though he didn't stay in service.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: Didn't stop him teaching me and my brother a few tricks.
-            nex_culcen_n7ang: So you carry a little of that knowledge with you, as well as your Pathfinder skills.
-            nex_culcen_n7ang: N7 training would benefit my people. Heskaarl training would benefit yours. Perhaps... a few war games?
-            nex_culcen_n7ang: Show me how your skills handle the tests of a Heskaarl recruit. Challenge yourself—and teach me.
+            [0002D375] Hero ⟨cond⟩: Didn't stop him teaching me and my brother a few tricks.
+            [0001F71D] nex_culcen_n7ang: So you carry a little of that knowledge with you, as well as your Pathfinder skills.
+            [0001F726] nex_culcen_n7ang: N7 training would benefit my people. Heskaarl training would benefit yours. Perhaps... a few war games?
+            [0001F727] nex_culcen_n7ang: Show me how your skills handle the tests of a Heskaarl recruit. Challenge yourself—and teach me.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: A chance to work with the angaran best of the best? Absolutely.
-                nex_culcen_n7ang: Excellent!
-                nex_culcen_n7ang: I'll activate our training beacons. Finding them can be your first test. After that, I look forward to learning.
-                Narration: Andraknor leaves the cultural center.
+                [0001F72B] Hero: A chance to work with the angaran best of the best? Absolutely.
+                [0001F72D] nex_culcen_n7ang: Excellent!
+                [0001F72E] nex_culcen_n7ang: I'll activate our training beacons. Finding them can be your first test. After that, I look forward to learning.
+                [0001F72F] Narration: Andraknor leaves the cultural center.
             ├ option 2:
-                Hero: Sounds fun, though I have a lot of responsibilities.
-                nex_culcen_n7ang: Ah, the soldier's burden! If you find time, Pathfinder, I'll be ready.
-                ↩ (goto) nex_culcen_n7ang: I'll activate our training beacons. Finding them can be your first test. After that, I look forward to learning.
+                [0001F729] Hero: Sounds fun, though I have a lot of responsibilities.
+                [0001F72C] nex_culcen_n7ang: Ah, the soldier's burden! If you find time, Pathfinder, I'll be ready.
+                ↩ (goto) [0001F72E] nex_culcen_n7ang: I'll activate our training beacons. Finding them can be your first test. After that, I look forward to learning.
             └─ merge ─┘
         ├ option 2:
-            Hero: Didn't stop him teaching me and my sister a few tricks.
-            ↩ (goto) nex_culcen_n7ang: So you carry a little of that knowledge with you, as well as your Pathfinder skills.
+            [0002D376] Hero: Didn't stop him teaching me and my sister a few tricks.
+            ↩ (goto) [0001F71D] nex_culcen_n7ang: So you carry a little of that knowledge with you, as well as your Pathfinder skills.
         └─ merge ─┘
     ├ option 3:
-        Hero: He was, although things soured when he began AI research.
+        [0001F715] Hero: He was, although things soured when he began AI research.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero ⟨cond⟩: Didn't stop him teaching me and my brother a few tricks.
+            ↩ (goto) [0002D375] Hero ⟨cond⟩: Didn't stop him teaching me and my brother a few tricks.
         ├ option 2:
-            ↩ (goto) Hero: Didn't stop him teaching me and my sister a few tricks.
+            ↩ (goto) [0002D376] Hero: Didn't stop him teaching me and my sister a few tricks.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: Politicians get nervous when you hold anything more explosive than a rotten egg.
-    nex_culcen_n7ang: You've seen this, too? The military life echoes everywhere.
-    ↩ (goto) nex_culcen_n7ang: But—names. I know you, Pathfinder. I am Andraknor, a Heskaarl with the Resistance.
+    [0001F6F4] Hero: Politicians get nervous when you hold anything more explosive than a rotten egg.
+    [0001F6FE] nex_culcen_n7ang: You've seen this, too? The military life echoes everywhere.
+    ↩ (goto) [0001F702] nex_culcen_n7ang: But—names. I know you, Pathfinder. I am Andraknor, a Heskaarl with the Resistance.
 └─ merge ─┘

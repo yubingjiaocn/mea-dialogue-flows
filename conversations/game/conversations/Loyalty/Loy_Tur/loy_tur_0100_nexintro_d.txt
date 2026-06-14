@@ -2,53 +2,53 @@
 # Primary speaker: Hero
 # Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0100_nexintro_d.xml
 ==================================================
-Narration: Ryder comes to talk to Vetra, after hearing from Kallo that she wants to talk to Ryder.
-global_squad_turian: Hey, Ryder. Got an encrypted message from Sid.
-global_squad_turian: She has news, and wanted to talk to us both.
-global_squad_turian: Connecting the call now...
-nex_vetra_sister_multi: Finally! I've been waiting for hours.
-global_squad_turian: So you wanna tell us what this is all about?
-nex_vetra_sister_multi: I was listening to outpost updates and caught a message about settlers going missing.
+[0000A711] Narration: Ryder comes to talk to Vetra, after hearing from Kallo that she wants to talk to Ryder.
+[00016988] global_squad_turian: Hey, Ryder. Got an encrypted message from Sid.
+[0001698A] global_squad_turian: She has news, and wanted to talk to us both.
+[0001698B] global_squad_turian: Connecting the call now...
+[0000A713] nex_vetra_sister_multi: Finally! I've been waiting for hours.
+[0000BF32] global_squad_turian: So you wanna tell us what this is all about?
+[0000BFA6] nex_vetra_sister_multi: I was listening to outpost updates and caught a message about settlers going missing.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: What do you mean, they're missing?
-    nex_vetra_sister_multi: They didn't leave voluntarily. No work assignments. No mining expeditions. Kidnapped.
-    nex_vetra_sister_multi: I dug around and I think I know where they've been taken.
-    nex_vetra_sister_multi: A cave system on a moon in the Remav System. Originally an angaran mine, I think, but they abandoned it.
-    SAM: I don't believe the planet you're talking about is a moon.
-    nex_vetra_sister_multi: Whatever.
-    global_squad_turian: What did I tell you about getting involved?
-    nex_vetra_sister_multi: I couldn't just do nothing.
-    Narration: Vetra sighs.
-    global_squad_turian: How do we know your intel's even reliable?
-    nex_vetra_sister_multi: It's reliable!
+    [0000BFA9] Hero: What do you mean, they're missing?
+    [0000C380] nex_vetra_sister_multi: They didn't leave voluntarily. No work assignments. No mining expeditions. Kidnapped.
+    [0000D1F5] nex_vetra_sister_multi: I dug around and I think I know where they've been taken.
+    [0001CE1C] nex_vetra_sister_multi: A cave system on a moon in the Remav System. Originally an angaran mine, I think, but they abandoned it.
+    [00031B6D] SAM: I don't believe the planet you're talking about is a moon.
+    [00031B7A] nex_vetra_sister_multi: Whatever.
+    [0000D1F6] global_squad_turian: What did I tell you about getting involved?
+    [0000D1F3] nex_vetra_sister_multi: I couldn't just do nothing.
+    [0000D1F7] Narration: Vetra sighs.
+    [0000D205] global_squad_turian: How do we know your intel's even reliable?
+    [0000D206] nex_vetra_sister_multi: It's reliable!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: We'll need more than your assurances. Who's behind this? Why target settlers?
-        nex_vetra_sister_multi: Ugh! Does it matter? Are you gonna not save them if you don't like why they're in trouble?
-        global_squad_turian: Sid... just give us everything you have on this.
-        nex_vetra_sister_multi: Already done!
-        Narration: Vetra's omnitool lights up. She fiddles with it, clearly having received something.
-        nex_vetra_sister_multi: Could I come along? I wanna help.
-        global_squad_turian: You know the answer to that.
-        nex_vetra_sister_multi: Right. Of course. Stay away from bad people. Guns. Bombs. Krogan beer.
-        Narration: Vetra checks the info on her omnitool.
-        global_squad_turian: You did good. I just want you to be safe, okay?
-        nex_vetra_sister_multi: Yeah, yeah.
-        Narration: Vetra cocks a head at Ryder in a "let's go" motion. Sid waves, Vetra ends the call.
+        [0000D203] Hero: We'll need more than your assurances. Who's behind this? Why target settlers?
+        [0000D207] nex_vetra_sister_multi: Ugh! Does it matter? Are you gonna not save them if you don't like why they're in trouble?
+        [0000D253] global_squad_turian: Sid... just give us everything you have on this.
+        [0000D251] nex_vetra_sister_multi: Already done!
+        [0000D258] Narration: Vetra's omnitool lights up. She fiddles with it, clearly having received something.
+        [00013EEE] nex_vetra_sister_multi: Could I come along? I wanna help.
+        [00013EED] global_squad_turian: You know the answer to that.
+        [0000D256] nex_vetra_sister_multi: Right. Of course. Stay away from bad people. Guns. Bombs. Krogan beer.
+        [0000D257] Narration: Vetra checks the info on her omnitool.
+        [0000D25B] global_squad_turian: You did good. I just want you to be safe, okay?
+        [0000D25A] nex_vetra_sister_multi: Yeah, yeah.
+        [0000D25C] Narration: Vetra cocks a head at Ryder in a "let's go" motion. Sid waves, Vetra ends the call.
     ├ option 2:
-        Hero: I trust your sister—and there's no sense in wasting time.
+        [0000D200] Hero: I trust your sister—and there's no sense in wasting time.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            nex_vetra_sister_multi ⟨cond⟩: See? That's a Pathfinder.
-            ↩ (goto) global_squad_turian: Sid... just give us everything you have on this.
+            [0000D202] nex_vetra_sister_multi ⟨cond⟩: See? That's a Pathfinder.
+            ↩ (goto) [0000D253] global_squad_turian: Sid... just give us everything you have on this.
         ├ option 2:
-            nex_vetra_sister_multi: See? That's a Pathfinder.
-            ↩ (goto) global_squad_turian: Sid... just give us everything you have on this.
+            [00021821] nex_vetra_sister_multi: See? That's a Pathfinder.
+            ↩ (goto) [0000D253] global_squad_turian: Sid... just give us everything you have on this.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: That doesn't sound good.
-    nex_vetra_sister_multi: Yeah, 'cause it's not. They were kidnapped.
-    ↩ (goto) nex_vetra_sister_multi: I dug around and I think I know where they've been taken.
+    [0000BFA7] Hero: That doesn't sound good.
+    [0000C565] nex_vetra_sister_multi: Yeah, 'cause it's not. They were kidnapped.
+    ↩ (goto) [0000D1F5] nex_vetra_sister_multi: I dug around and I think I know where they've been taken.
 └─ merge ─┘

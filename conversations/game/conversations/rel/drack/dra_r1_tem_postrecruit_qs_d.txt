@@ -4,273 +4,273 @@
 ==================================================
 ┌─ BRANCH (13) ─┐
 ├ option 1:
-    global_squad_krogan: Ryder. You meet Spender yet? Colonial Affairs. The "ass" in "assistant director."
-    global_squad_krogan: Got no idea why Addison keeps him around.
-    global_squad_krogan: Spender lied to the krogan during the uprising, and he's had it out for Kesh ever since.
-    global_squad_krogan: He's up to something. I just can't prove it. We should pay him a visit on the Nexus.
+    [0002FAC1] global_squad_krogan: Ryder. You meet Spender yet? Colonial Affairs. The "ass" in "assistant director."
+    [0002FAC0] global_squad_krogan: Got no idea why Addison keeps him around.
+    [0002FAC3] global_squad_krogan: Spender lied to the krogan during the uprising, and he's had it out for Kesh ever since.
+    [0002FAC2] global_squad_krogan: He's up to something. I just can't prove it. We should pay him a visit on the Nexus.
     ┌─ BRANCH (10) ─┐
     ├ option 1:
-        Hero ⟨cond⟩ [OncePerGame]: So, about that barfight on Kadara. Was that like... a date?
-        global_squad_krogan: Nah. There'd be less of an audience. And more property damage.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0003528D] Hero ⟨cond⟩ [OncePerGame]: So, about that barfight on Kadara. Was that like... a date?
+        [00035290] global_squad_krogan: Nah. There'd be less of an audience. And more property damage.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 2:
-        Hero ⟨cond⟩: Did Lexi brief you on SAM and squad connectivity yet?
-        global_squad_krogan: Yeah... You wanna hook that thing up to my comm, sure—but that's where it stops.
-        global_squad_krogan: Putting an A.I. in your head, giving it access to everything like that? It's begging for trouble.
+        [00013827] Hero ⟨cond⟩: Did Lexi brief you on SAM and squad connectivity yet?
+        [00013921] global_squad_krogan: Yeah... You wanna hook that thing up to my comm, sure—but that's where it stops.
+        [00013923] global_squad_krogan: Putting an A.I. in your head, giving it access to everything like that? It's begging for trouble.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero [OncePerGame]: Why do you say that?
-                global_squad_krogan: I've seen what bots can do when they turn on their creators.
-                global_squad_krogan: Been in some of those fights. There's a reason that kind of research was outlawed.
+                [000139D3] Hero [OncePerGame]: Why do you say that?
+                [000139DB] global_squad_krogan: I've seen what bots can do when they turn on their creators.
+                [000139DD] global_squad_krogan: Been in some of those fights. There's a reason that kind of research was outlawed.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero ⟨cond⟩: Yeah. My peacekeeping career went up in smoke when news of what my dad was researching got out.
-                    global_squad_krogan: No shit. Ruined the Ryder name, I'll bet.
-                    Hero: Almost.
+                    [000139E4] Hero ⟨cond⟩: Yeah. My peacekeeping career went up in smoke when news of what my dad was researching got out.
+                    [000139EF] global_squad_krogan: No shit. Ruined the Ryder name, I'll bet.
+                    [000139F0] Hero: Almost.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero: I'm not thrilled about it myself, but it is what it is.
-                        global_squad_krogan: Just make sure it can't unshackle itself. There'll be hell to pay if that happens.
-                        ↩ (goto) global_squad_krogan: [empty]
+                        [000139D1] Hero: I'm not thrilled about it myself, but it is what it is.
+                        [000139DF] global_squad_krogan: Just make sure it can't unshackle itself. There'll be hell to pay if that happens.
+                        ↩ (goto) [00013824] global_squad_krogan: [empty]
                     ├ option 2:
-                        Hero: SAM is part of what makes someone a Pathfinder.
-                        Hero: You're just going to have to deal with that.
-                        global_squad_krogan: So long as it's not in my head, and it ain't messing with my body.
-                        ↩ (goto) global_squad_krogan: [empty]
+                        [000139D4] Hero: SAM is part of what makes someone a Pathfinder.
+                        [000139EE] Hero: You're just going to have to deal with that.
+                        [000139E3] global_squad_krogan: So long as it's not in my head, and it ain't messing with my body.
+                        ↩ (goto) [00013824] global_squad_krogan: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: Yeah. I was dismissed from the Alliance when news of what my dad was researching got out.
-                    ↩ (goto) global_squad_krogan: No shit. Ruined the Ryder name, I'll bet.
+                    [000139E2] Hero: Yeah. I was dismissed from the Alliance when news of what my dad was researching got out.
+                    ↩ (goto) [000139EF] global_squad_krogan: No shit. Ruined the Ryder name, I'll bet.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: I'm not thrilled about it myself, but it is what it is.
+                ↩ (goto) [000139D1] Hero: I'm not thrilled about it myself, but it is what it is.
             ├ option 3:
-                ↩ (goto) Hero: SAM is part of what makes someone a Pathfinder.
+                ↩ (goto) [000139D4] Hero: SAM is part of what makes someone a Pathfinder.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 3:
-        Hero: What's it like to have Kesh as a granddaughter?
-        global_squad_krogan: Kesh is my ru'shan: Child of my blood. Raised her myself.
-        global_squad_krogan: Damn proud of her too. She did good, even with me for a granddad.
+        [0001382D] Hero: What's it like to have Kesh as a granddaughter?
+        [00013928] global_squad_krogan: Kesh is my ru'shan: Child of my blood. Raised her myself.
+        [00013945] global_squad_krogan: Damn proud of her too. She did good, even with me for a granddad.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I'm still getting to know her.
-            global_squad_krogan: There's no krogan like my ru'shan. She's worth knowing.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0001394A] Hero: I'm still getting to know her.
+            [000139A0] global_squad_krogan: There's no krogan like my ru'shan. She's worth knowing.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            Hero: She's honest. Definitely blunt.
-            global_squad_krogan: She had to take after me in some ways, I guess.
-            ↩ (goto) global_squad_krogan: [empty]
+            [00013949] Hero: She's honest. Definitely blunt.
+            [000139A2] global_squad_krogan: She had to take after me in some ways, I guess.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 4:
-        Hero: I'd like to know more about you.
-        global_squad_krogan: Fire away.
+        [00024089] Hero: I'd like to know more about you.
+        [000242C8] global_squad_krogan: Fire away.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            Hero: How did you and Vetra meet?
-            global_squad_krogan: Huh, that's right. Your father brought you into the project pretty late, didn't he?
-            global_squad_krogan: Must have been a pretty steep learning curve since they thawed you.
-            Hero: You could say that.
-            global_squad_krogan: You make do with what you get. Anyway, I met Vetra back when they were building the Nexus.
-            global_squad_krogan: She swiped supplies I was trying to get for Kesh, right under my nose.
-            global_squad_krogan: I tried to intimidate her into turning them over to me, and let me tell you, that turian takes shit from no one.
+            [00013826] Hero: How did you and Vetra meet?
+            [000175A7] global_squad_krogan: Huh, that's right. Your father brought you into the project pretty late, didn't he?
+            [000175A4] global_squad_krogan: Must have been a pretty steep learning curve since they thawed you.
+            [000175A6] Hero: You could say that.
+            [000175A5] global_squad_krogan: You make do with what you get. Anyway, I met Vetra back when they were building the Nexus.
+            [000175BD] global_squad_krogan: She swiped supplies I was trying to get for Kesh, right under my nose.
+            [00013920] global_squad_krogan: I tried to intimidate her into turning them over to me, and let me tell you, that turian takes shit from no one.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I have no problems believing that.
-                global_squad_krogan: Yeah, she told me off good.
-                global_squad_krogan: But here's the best part.
-                global_squad_krogan: She waited until I saw her again—in Kesh's office, no less—to tell me she'd been working for Kesh all along.
-                global_squad_krogan: They're both still laughing at me over that.
-                ↩ (goto) global_squad_krogan: [empty]
+                [0001391F] Hero: I have no problems believing that.
+                [00014ED9] global_squad_krogan: Yeah, she told me off good.
+                [000175AC] global_squad_krogan: But here's the best part.
+                [000175AB] global_squad_krogan: She waited until I saw her again—in Kesh's office, no less—to tell me she'd been working for Kesh all along.
+                [000175BC] global_squad_krogan: They're both still laughing at me over that.
+                ↩ (goto) [000242CB] global_squad_krogan: [empty]
             ├ option 2:
-                Hero: She really has a way of getting things done.
-                global_squad_krogan: She sure does.
-                ↩ (goto) global_squad_krogan: But here's the best part.
+                [000175A9] Hero: She really has a way of getting things done.
+                [00017642] global_squad_krogan: She sure does.
+                ↩ (goto) [000175AC] global_squad_krogan: But here's the best part.
             └─ merge ─┘
         ├ option 2:
-            Hero: Tell me more about the krogan colony.
-            global_squad_krogan: My clan's there. We also got some scouts looking for any unclaimed territory to grab up.
-            global_squad_krogan: Got a decent setup going. Self-sustainable. The works. Even some farming.
-            Hero: Farming? Krogan farm?
-            global_squad_krogan: Food's food. Just because we can eat anything doesn't mean we gotta settle for scraps.
-            global_squad_krogan: I'm pretty fond of {i}korkro{/i} roots myself. Takes a while to chew through those.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0001382B] Hero: Tell me more about the krogan colony.
+            [00013925] global_squad_krogan: My clan's there. We also got some scouts looking for any unclaimed territory to grab up.
+            [00013926] global_squad_krogan: Got a decent setup going. Self-sustainable. The works. Even some farming.
+            [0001764D] Hero: Farming? Krogan farm?
+            [0001764A] global_squad_krogan: Food's food. Just because we can eat anything doesn't mean we gotta settle for scraps.
+            [00017644] global_squad_krogan: I'm pretty fond of {i}korkro{/i} roots myself. Takes a while to chew through those.
+            ↩ (goto) [000242CB] global_squad_krogan: [empty]
         ├ option 3:
-            Hero: So, about all this combat experience you have. I'd love some details.
-            global_squad_krogan: {i}(Laughs.){/i} The list would be shorter if you asked me what experience I don't have.
-            global_squad_krogan: I've been doing this for a long time now. Centuries. Shit, well over a thousand years.
-            global_squad_krogan: Don't even know how I'm still alive, to be honest.
-            Hero: Skill?
-            global_squad_krogan: You need luck to be a merc. Skill, sure, but a whole lotta luck.
-            global_squad_krogan: And a really hard head.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0002414F] Hero: So, about all this combat experience you have. I'd love some details.
+            [0002417A] global_squad_krogan: {i}(Laughs.){/i} The list would be shorter if you asked me what experience I don't have.
+            [00024190] global_squad_krogan: I've been doing this for a long time now. Centuries. Shit, well over a thousand years.
+            [0002418E] global_squad_krogan: Don't even know how I'm still alive, to be honest.
+            [000242C4] Hero: Skill?
+            [000242C3] global_squad_krogan: You need luck to be a merc. Skill, sure, but a whole lotta luck.
+            [00024479] global_squad_krogan: And a really hard head.
+            ↩ (goto) [000242CB] global_squad_krogan: [empty]
         ├ option 4:
-            Hero ⟨cond⟩: I'd like to know about Morda.
-            global_squad_krogan: She leads the colony. Clan Nakmor. We adopted her in a few centuries ago. Morda's a fine warlord. Proud, but practical.
-            global_squad_krogan: As long as Tann doesn't have say over the clan, you'll be able to talk her back into the Initiative.
-            global_squad_krogan ⟨cond⟩: Something's going to have to get done about Spender though, or it'll get ugly again.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0002414E] Hero ⟨cond⟩: I'd like to know about Morda.
+            [00024193] global_squad_krogan: She leads the colony. Clan Nakmor. We adopted her in a few centuries ago. Morda's a fine warlord. Proud, but practical.
+            [00024192] global_squad_krogan: As long as Tann doesn't have say over the clan, you'll be able to talk her back into the Initiative.
+            [00024191] global_squad_krogan ⟨cond⟩: Something's going to have to get done about Spender though, or it'll get ugly again.
+            ↩ (goto) [000242CB] global_squad_krogan: [empty]
         ├ option 5:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 5:
-        Hero: Got any stories or advice to share?
-        global_squad_krogan: Does a pyjak scratch its butt?
+        [00024087] Hero: Got any stories or advice to share?
+        [000242CA] global_squad_krogan: Does a pyjak scratch its butt?
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            Hero [OncePerGame]: Anything about the kett—or combat in general?
-            global_squad_krogan [OncePerGame]: Well, common kett are pretty straightforward. Hit them hard enough, they die like anything else.
-            ↩ (goto) Hero: [empty]
+            [00024218] Hero [OncePerGame]: Anything about the kett—or combat in general?
+            [00024214] global_squad_krogan [OncePerGame]: Well, common kett are pretty straightforward. Hit them hard enough, they die like anything else.
+            ↩ (goto) [000242C9] Hero: [empty]
         ├ option 2:
-            Hero ⟨cond⟩: Tell me more about fighting kett.
+            [00035316] Hero ⟨cond⟩: Tell me more about fighting kett.
             ┌─ BRANCH (8) ─┐
             ├ option 1:
-                global_squad_krogan [OncePerGame]: Wraiths are sneaky little shits. Like to ghost up behind you when you least expect it.
-                global_squad_krogan: Just listen for 'em. They tend to give themselves away right before coming at you.
-                global_squad_krogan: Break through their headplates, then a headshot should do the trick.
-                ↩ (goto) Hero: [empty]
+                [00024212] global_squad_krogan [OncePerGame]: Wraiths are sneaky little shits. Like to ghost up behind you when you least expect it.
+                [0002420F] global_squad_krogan: Just listen for 'em. They tend to give themselves away right before coming at you.
+                [0002420D] global_squad_krogan: Break through their headplates, then a headshot should do the trick.
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 2:
-                global_squad_krogan [OncePerGame]: Destined are annoying. Quick. Got some crazy mist that hides them from view. Their friends too.
-                global_squad_krogan: Take a Destined down, and that mist goes away. Makes them a prime target, if you ask me.
-                global_squad_krogan: Perfect for grenade practice.
-                ↩ (goto) Hero: [empty]
+                [00024215] global_squad_krogan [OncePerGame]: Destined are annoying. Quick. Got some crazy mist that hides them from view. Their friends too.
+                [0002420C] global_squad_krogan: Take a Destined down, and that mist goes away. Makes them a prime target, if you ask me.
+                [000242EB] global_squad_krogan: Perfect for grenade practice.
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 3:
-                global_squad_krogan ⟨cond⟩ [OncePerGame]: There's just something wrong about the kett.
-                global_squad_krogan: The absolute single-mindedness...
-                ↩ (goto) Hero: [empty]
+                [000242E8] global_squad_krogan ⟨cond⟩ [OncePerGame]: There's just something wrong about the kett.
+                [0002418F] global_squad_krogan: The absolute single-mindedness...
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 4:
-                global_squad_krogan [OncePerGame]: So. Chosen. It's not good to let too many of them get close to you at once.
-                global_squad_krogan: If they hit your shields, take a step back. Let me handle 'em. Bet you anything they're not used to being rushed by a krogan.
-                ↩ (goto) Hero: [empty]
+                [0002420E] global_squad_krogan [OncePerGame]: So. Chosen. It's not good to let too many of them get close to you at once.
+                [00024241] global_squad_krogan: If they hit your shields, take a step back. Let me handle 'em. Bet you anything they're not used to being rushed by a krogan.
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 5:
-                global_squad_krogan [OncePerGame]: Fire and explosives are good against anything with heavy armor.
-                global_squad_krogan: Or anything really. Generally, no one likes being set on fire.
-                Hero: "Generally"? There's a story behind this.
-                global_squad_krogan: {i}(Laughs.){/i} There sure is.
-                ↩ (goto) Hero: [empty]
+                [00024210] global_squad_krogan [OncePerGame]: Fire and explosives are good against anything with heavy armor.
+                [00024216] global_squad_krogan: Or anything really. Generally, no one likes being set on fire.
+                [00024217] Hero: "Generally"? There's a story behind this.
+                [0002422C] global_squad_krogan: {i}(Laughs.){/i} There sure is.
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 6:
-                global_squad_krogan [OncePerGame]: Ascendant. Hmm. Keep your distance. Don't let 'em get you in those force fields.
-                global_squad_krogan: Pop that little orb, then shoot 'em in the head just like anything else.
-                ↩ (goto) Hero: [empty]
+                [00024243] global_squad_krogan [OncePerGame]: Ascendant. Hmm. Keep your distance. Don't let 'em get you in those force fields.
+                [000242D5] global_squad_krogan: Pop that little orb, then shoot 'em in the head just like anything else.
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 7:
-                global_squad_krogan [OncePerGame]: Fiends. Ugh. Kid, even I'm not gonna mess with those at close range. Keep your distance.
-                global_squad_krogan: Shoot 'em in the red, fleshy bits. Or I guess in the face, if you can't flank 'em,
-                ↩ (goto) Hero: [empty]
+                [00024213] global_squad_krogan [OncePerGame]: Fiends. Ugh. Kid, even I'm not gonna mess with those at close range. Keep your distance.
+                [000242D7] global_squad_krogan: Shoot 'em in the red, fleshy bits. Or I guess in the face, if you can't flank 'em,
+                ↩ (goto) [000242C9] Hero: [empty]
             ├ option 8:
-                global_squad_krogan: Shoot stuff and don't die. Always works for me.
-                ↩ (goto) Hero: [empty]
+                [0002416D] global_squad_krogan: Shoot stuff and don't die. Always works for me.
+                ↩ (goto) [000242C9] Hero: [empty]
             └─ merge ─┘
         ├ option 3:
-            Hero ⟨cond⟩: You mentioned that people "generally" don't like being set on fire...
-            global_squad_krogan: {i}(Chuckles.){/i} I was hoping you'd ask. So, about 400 years ago, give or take a decade...
-            global_squad_krogan: Me and my outfit were pinned down during a skirmish with another merc group.
-            global_squad_krogan: So I pull off my usual stunt: charge ahead and breach their barricade.
-            global_squad_krogan: Pop my flamethrower and get ready to let go, only to see them all screaming and running away.
-            global_squad_krogan: Turns out I'd crashed through a shipment of turian brandy on my way in. Never even noticed I was on fire, but they sure did.
-            global_squad_krogan: {i}(Laughs.){/i} Never seen a pack of mercs panic that badly before.
-            ↩ (goto) Hero: [empty]
+            [00024158] Hero ⟨cond⟩: You mentioned that people "generally" don't like being set on fire...
+            [0002422D] global_squad_krogan: {i}(Chuckles.){/i} I was hoping you'd ask. So, about 400 years ago, give or take a decade...
+            [000242DD] global_squad_krogan: Me and my outfit were pinned down during a skirmish with another merc group.
+            [000242D9] global_squad_krogan: So I pull off my usual stunt: charge ahead and breach their barricade.
+            [000242DF] global_squad_krogan: Pop my flamethrower and get ready to let go, only to see them all screaming and running away.
+            [000242E7] global_squad_krogan: Turns out I'd crashed through a shipment of turian brandy on my way in. Never even noticed I was on fire, but they sure did.
+            [000242E6] global_squad_krogan: {i}(Laughs.){/i} Never seen a pack of mercs panic that badly before.
+            ↩ (goto) [000242C9] Hero: [empty]
         ├ option 4:
-            Hero ⟨cond⟩ [OncePerGame]: Tell me about the first time you fought someone.
-            global_squad_krogan: That'd be my first battle? It was during the Krogan Rebellions.
-            global_squad_krogan: I was just some snot-nosed brat back then, but my mother wanted me to get experience.
-            global_squad_krogan: At first it was the best day of my life... then my mother died. On the battlefield.
-            ↩ (goto) Hero: [empty]
+            [00024159] Hero ⟨cond⟩ [OncePerGame]: Tell me about the first time you fought someone.
+            [000241EB] global_squad_krogan: That'd be my first battle? It was during the Krogan Rebellions.
+            [000241ED] global_squad_krogan: I was just some snot-nosed brat back then, but my mother wanted me to get experience.
+            [0002424D] global_squad_krogan: At first it was the best day of my life... then my mother died. On the battlefield.
+            ↩ (goto) [000242C9] Hero: [empty]
         ├ option 5:
-            Hero ⟨cond⟩: I'd like to hear more about your mother.
-            global_squad_krogan: She was one of the last great warlords of her generation.
-            global_squad_krogan: When my mother fell... we all did. Oh, my people held on. Sought revenge. But we splintered.
-            global_squad_krogan: Between that and the genophage, we changed. Not for the better.
+            [000241D5] Hero ⟨cond⟩: I'd like to hear more about your mother.
+            [000241D9] global_squad_krogan: She was one of the last great warlords of her generation.
+            [000241D6] global_squad_krogan: When my mother fell... we all did. Oh, my people held on. Sought revenge. But we splintered.
+            [000241DA] global_squad_krogan: Between that and the genophage, we changed. Not for the better.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: Is that why your clan came to Andromeda?
-                global_squad_krogan: A new start? A better future?
-                global_squad_krogan: We haven't had hope like that in a long time.
-                global_squad_krogan: But maybe here, with you, we'll find some.
-                ↩ (goto) global_squad_krogan: [empty]
+                [000241F4] Hero: Is that why your clan came to Andromeda?
+                [000241F1] global_squad_krogan: A new start? A better future?
+                [000241F0] global_squad_krogan: We haven't had hope like that in a long time.
+                [000241EF] global_squad_krogan: But maybe here, with you, we'll find some.
+                ↩ (goto) [00013824] global_squad_krogan: [empty]
             ├ option 2:
-                Hero: Out here offers a chance for a new start—to rebuild things.
-                global_squad_krogan: {i}(Laughs.){/i} You're so young. After everything I've seen? My people are tired, Ryder.
-                ↩ (goto) global_squad_krogan: We haven't had hope like that in a long time.
+                [000241EE] Hero: Out here offers a chance for a new start—to rebuild things.
+                [000241EC] global_squad_krogan: {i}(Laughs.){/i} You're so young. After everything I've seen? My people are tired, Ryder.
+                ↩ (goto) [000241F0] global_squad_krogan: We haven't had hope like that in a long time.
             └─ merge ─┘
         ├ option 6:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 6:
-        Hero ⟨cond⟩: Why did the krogan leave the Nexus?
-        global_squad_krogan: The Nexus got us krogan to stop the mutiny. In return, we were supposed to get a say in station business.
-        global_squad_krogan: Spender, Addison's assistant, lied about the deal. And Tann came down hard. Too hard. So we left.
-        global_squad_krogan: Kesh is alone on that station now.
+        [0001382C] Hero ⟨cond⟩: Why did the krogan leave the Nexus?
+        [000139C8] global_squad_krogan: The Nexus got us krogan to stop the mutiny. In return, we were supposed to get a say in station business.
+        [000139C5] global_squad_krogan: Spender, Addison's assistant, lied about the deal. And Tann came down hard. Too hard. So we left.
+        [00013972] global_squad_krogan: Kesh is alone on that station now.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: You think someone might try to hurt Kesh?
-            global_squad_krogan: {i}(Snorts.){/i} More like she airlocks Spender—or he tries to stab her in the back, and then she airlocks him.
-            global_squad_krogan: Tann wouldn't listen to me when I told him Spender had a part in the mutiny. I had no proof.
-            Hero: So, what's my part in this?
-            global_squad_krogan: Things need to get sorted out and my clan needs to get back on station. Without Spender messing things up.
-            global_squad_krogan: Way I see it, you're probably the best one for that job.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0001396D] Hero: You think someone might try to hurt Kesh?
+            [00013977] global_squad_krogan: {i}(Snorts.){/i} More like she airlocks Spender—or he tries to stab her in the back, and then she airlocks him.
+            [0001396B] global_squad_krogan: Tann wouldn't listen to me when I told him Spender had a part in the mutiny. I had no proof.
+            [0001A867] Hero: So, what's my part in this?
+            [00013971] global_squad_krogan: Things need to get sorted out and my clan needs to get back on station. Without Spender messing things up.
+            [0001396A] global_squad_krogan: Way I see it, you're probably the best one for that job.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            Hero: Do you think Kesh can handle station politics?
-            global_squad_krogan: Kesh can handle anything. Thing is, Spender's a liar and a coward.
-            global_squad_krogan: He was part of the mutiny. I know he was. A lot of people got hurt because of him, on both sides.
-            ↩ (goto) Hero: So, what's my part in this?
+            [00013978] Hero: Do you think Kesh can handle station politics?
+            [000139CF] global_squad_krogan: Kesh can handle anything. Thing is, Spender's a liar and a coward.
+            [00013979] global_squad_krogan: He was part of the mutiny. I know he was. A lot of people got hurt because of him, on both sides.
+            ↩ (goto) [0001A867] Hero: So, what's my part in this?
         └─ merge ─┘
     ├ option 7:
-        Hero ⟨cond⟩: I saw Spender earlier. He was talking to Kesh's assistant.
-        global_squad_krogan: That scrawny little assistant of hers, Del? She sure doesn't like him either.
+        [00024154] Hero ⟨cond⟩: I saw Spender earlier. He was talking to Kesh's assistant.
+        [0002427D] global_squad_krogan: That scrawny little assistant of hers, Del? She sure doesn't like him either.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: It looked pretty tense, as conversations go.
-            global_squad_krogan: He's a bully with power.
-            global_squad_krogan: It's only a matter of time before he does something that'll put the Nexus in danger.
-            global_squad_krogan: Let's make sure that doesn't happen.
-            ↩ (goto) global_squad_krogan: [empty]
+            [00024278] Hero: It looked pretty tense, as conversations go.
+            [00024275] global_squad_krogan: He's a bully with power.
+            [0002427B] global_squad_krogan: It's only a matter of time before he does something that'll put the Nexus in danger.
+            [0002FABD] global_squad_krogan: Let's make sure that doesn't happen.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            Hero: I've only seen him talk to her once, and I get it.
-            global_squad_krogan: Most people who meet him hate him.
-            ↩ (goto) global_squad_krogan: It's only a matter of time before he does something that'll put the Nexus in danger.
+            [00024274] Hero: I've only seen him talk to her once, and I get it.
+            [00024279] global_squad_krogan: Most people who meet him hate him.
+            ↩ (goto) [0002427B] global_squad_krogan: It's only a matter of time before he does something that'll put the Nexus in danger.
         └─ merge ─┘
     ├ option 8:
-        Hero ⟨cond⟩: Now that we've been digging, it's clear you were right about Spender.
-        global_squad_krogan: Guy like that'll do anything to get ahead. Just wonder how far he went.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0002FAED] Hero ⟨cond⟩: Now that we've been digging, it's clear you were right about Spender.
+        [0002FAF3] global_squad_krogan: Guy like that'll do anything to get ahead. Just wonder how far he went.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 9:
-        Hero ⟨cond⟩ [OncePerGame]: Are you happy now that Spender's out of the picture?
-        global_squad_krogan: Damn right I am.
+        [0002415D] Hero ⟨cond⟩ [OncePerGame]: Are you happy now that Spender's out of the picture?
+        [00024276] global_squad_krogan: Damn right I am.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: Good riddance, too. Someone somewhere will take care of him.
-            Hero: And you won't have anything to do with it, huh.
-            global_squad_krogan: Hold a grudge? Me? I would never.
-            ↩ (goto) global_squad_krogan: [empty]
+            [00024273] global_squad_krogan ⟨cond⟩: Good riddance, too. Someone somewhere will take care of him.
+            [00024285] Hero: And you won't have anything to do with it, huh.
+            [00024286] global_squad_krogan: Hold a grudge? Me? I would never.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            global_squad_krogan ⟨cond⟩: Maybe they'll forget to feed him while he's locked up.
-            Hero: Breaks your hearts, huh?
-            global_squad_krogan: {i}(Chuckles.){/i} Heart. Just got the one left.
-            ↩ (goto) global_squad_krogan: [empty]
+            [00024277] global_squad_krogan ⟨cond⟩: Maybe they'll forget to feed him while he's locked up.
+            [00024283] Hero: Breaks your hearts, huh?
+            [0002427E] global_squad_krogan: {i}(Chuckles.){/i} Heart. Just got the one left.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 10:
-        Hero: We can talk more later.
-        global_squad_krogan: Sure.
+        [0001382F] Hero: We can talk more later.
+        [00013831] global_squad_krogan: Sure.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Hey, one last thing.
-            global_squad_krogan: Yeah?
+            [00014CC8] Hero: Hey, one last thing.
+            [00014CC5] global_squad_krogan: Yeah?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I don't love being called "kid."
-                global_squad_krogan: {i}(Chuckles.){/i} I'll try to stop doing that. Can't promise I won't slip up. though.
+                [00014CCD] Hero: I don't love being called "kid."
+                [00014CC7] global_squad_krogan: {i}(Chuckles.){/i} I'll try to stop doing that. Can't promise I won't slip up. though.
             ├ option 2:
-                Hero: Is everyone a "kid" to you?
-                global_squad_krogan: {i}(Chuckles.){/i} When you get to be my age... yeah, pretty much.
-                ↩ (goto) global_squad_krogan: [empty]
+                [00014CCB] Hero: Is everyone a "kid" to you?
+                [00014CC6] global_squad_krogan: {i}(Chuckles.){/i} When you get to be my age... yeah, pretty much.
+                ↩ (goto) [00013927] global_squad_krogan: [empty]
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013927] global_squad_krogan: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
@@ -278,236 +278,236 @@
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: I can't believe you picked a salarian for ambassador. Really thought you had more sense than that, Ryder.
-            global_squad_krogan: Guess I'll stick around, but at this rate, who knows for how long.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0002EF02] global_squad_krogan ⟨cond⟩: I can't believe you picked a salarian for ambassador. Really thought you had more sense than that, Ryder.
+            [0002EF07] global_squad_krogan: Guess I'll stick around, but at this rate, who knows for how long.
+            ↩ (goto) [00013927] global_squad_krogan: [empty]
         ├ option 2:
-            global_squad_krogan: I can't believe you picked a salarian for ambassador. Really thought you had more sense than that, Ryder.
-            ↩ (goto) global_squad_krogan: Guess I'll stick around, but at this rate, who knows for how long.
+            [000304D5] global_squad_krogan: I can't believe you picked a salarian for ambassador. Really thought you had more sense than that, Ryder.
+            ↩ (goto) [0002EF07] global_squad_krogan: Guess I'll stick around, but at this rate, who knows for how long.
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan: You actually picked a krogan ambassador. And Morda, even! Couldn't be prouder to call you a friend.
-        global_squad_krogan: Wonder what other kind of trouble we can get up to.
+        [0002EF03] global_squad_krogan: You actually picked a krogan ambassador. And Morda, even! Couldn't be prouder to call you a friend.
+        [0002EF08] global_squad_krogan: Wonder what other kind of trouble we can get up to.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Drack, take a breather. It's okay to slow down.
-            global_squad_krogan: Maybe I worry I'll get too slow if I don't keep moving.
-            global_squad_krogan: Maybe.
-            ↩ (goto) global_squad_krogan: [empty]
+            [000240D1] Hero: Drack, take a breather. It's okay to slow down.
+            [000240D5] global_squad_krogan: Maybe I worry I'll get too slow if I don't keep moving.
+            [000240D2] global_squad_krogan: Maybe.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            Hero: Always looking for the next fight, aren't you, old man.
-            global_squad_krogan: Gotta admit, old habits die hard.
-            global_squad_krogan: And mine had have a long time to settle in.
-            ↩ (goto) global_squad_krogan: [empty]
+            [000240D6] Hero: Always looking for the next fight, aren't you, old man.
+            [0002410B] global_squad_krogan: Gotta admit, old habits die hard.
+            [0002410A] global_squad_krogan: And mine had have a long time to settle in.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 3:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: That was a good win. Wonder what other kind of trouble we can get up to.
+            [000240D4] global_squad_krogan ⟨cond⟩: That was a good win. Wonder what other kind of trouble we can get up to.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) Hero: Drack, take a breather. It's okay to slow down.
+                ↩ (goto) [000240D1] Hero: Drack, take a breather. It's okay to slow down.
             ├ option 2:
-                ↩ (goto) Hero: Always looking for the next fight, aren't you, old man.
+                ↩ (goto) [000240D6] Hero: Always looking for the next fight, aren't you, old man.
             └─ merge ─┘
         ├ option 2:
-            global_squad_krogan: That was a good win, but it was just the start. We've got a lot of work left out there.
+            [00024068] global_squad_krogan: That was a good win, but it was just the start. We've got a lot of work left out there.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) Hero: Drack, take a breather. It's okay to slow down.
+                ↩ (goto) [000240D1] Hero: Drack, take a breather. It's okay to slow down.
             ├ option 2:
-                ↩ (goto) Hero: Always looking for the next fight, aren't you, old man.
+                ↩ (goto) [000240D6] Hero: Always looking for the next fight, aren't you, old man.
             └─ merge ─┘
         └─ merge ─┘
     └─ merge ─┘
 ├ option 3:
-    global_squad_krogan: Every time we fight an exalted krogan, I think about how that could be me.
-    global_squad_krogan: I'd want you to kill me.
-    ↩ (goto) global_squad_krogan: [empty]
+    [0003056A] global_squad_krogan: Every time we fight an exalted krogan, I think about how that could be me.
+    [00030569] global_squad_krogan: I'd want you to kill me.
+    ↩ (goto) [00013824] global_squad_krogan: [empty]
 ├ option 4:
-    global_squad_krogan [OncePerGame]: It's not like being a created species really means anything. The angara are the angara.
-    global_squad_krogan: What matters in the end is that they exist.
-    ↩ (goto) global_squad_krogan: [empty]
+    [00024138] global_squad_krogan [OncePerGame]: It's not like being a created species really means anything. The angara are the angara.
+    [0002442C] global_squad_krogan: What matters in the end is that they exist.
+    ↩ (goto) [00013824] global_squad_krogan: [empty]
 ├ option 5:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Now is not a good time to be talking to me, Pathfinder.
-        Hero: Drack, listen—
-        global_squad_krogan: Why? Your actions told me everything I need to know.
-        global_squad_krogan: Now walk away and give me time to calm down before I do something we'll both regret.
+        [0001B2FF] global_squad_krogan ⟨cond⟩: Now is not a good time to be talking to me, Pathfinder.
+        [0001B2FD] Hero: Drack, listen—
+        [00024129] global_squad_krogan: Why? Your actions told me everything I need to know.
+        [0001B2FE] global_squad_krogan: Now walk away and give me time to calm down before I do something we'll both regret.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: All right. Calm down time. Got it.
-            global_squad_krogan: Go.
-            ↩ (goto) global_squad_krogan: [empty]
+            [00024131] Hero: All right. Calm down time. Got it.
+            [0002413F] global_squad_krogan: Go.
+            ↩ (goto) [00013927] global_squad_krogan: [empty]
         ├ option 2:
-            Hero: I'm sorry. I'm just... sorry.
-            ↩ (goto) global_squad_krogan: Go.
+            [0002412C] Hero: I'm sorry. I'm just... sorry.
+            ↩ (goto) [0002413F] global_squad_krogan: Go.
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Morda just comm'd in.
+        [000240D9] global_squad_krogan ⟨cond⟩: Morda just comm'd in.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan: Scouts are expected to arrive soon and medics are on standby.
-            global_squad_krogan: I won't forget this, Ryder. You chose krogan first.
-            global_squad_krogan: It's been a long time since anyone's seen us as anything more than cannon fodder.
+            [000240E1] global_squad_krogan: Scouts are expected to arrive soon and medics are on standby.
+            [000240E0] global_squad_krogan: I won't forget this, Ryder. You chose krogan first.
+            [000240DC] global_squad_krogan: It's been a long time since anyone's seen us as anything more than cannon fodder.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: It was the option that made the most sense.
-                global_squad_krogan: Not many would agree with you there.
-                ↩ (goto) global_squad_krogan: [empty]
+                [000240E2] Hero: It was the option that made the most sense.
+                [00024122] global_squad_krogan: Not many would agree with you there.
+                ↩ (goto) [00013824] global_squad_krogan: [empty]
             ├ option 2:
-                Hero: I couldn't let you down. My crew is like family.
-                global_squad_krogan: Only family I've had for a long time is Kesh. Guess anything can change.
-                ↩ (goto) global_squad_krogan: [empty]
+                [000240DD] Hero: I couldn't let you down. My crew is like family.
+                [00024123] global_squad_krogan: Only family I've had for a long time is Kesh. Guess anything can change.
+                ↩ (goto) [00013824] global_squad_krogan: [empty]
             └─ merge ─┘
         ├ option 2:
-            global_squad_krogan: My scouts all made it back in one piece, thanks to you.
-            ↩ (goto) global_squad_krogan: I won't forget this, Ryder. You chose krogan first.
+            [000240DF] global_squad_krogan: My scouts all made it back in one piece, thanks to you.
+            ↩ (goto) [000240E0] global_squad_krogan: I won't forget this, Ryder. You chose krogan first.
         └─ merge ─┘
     ├ option 3:
-        global_squad_krogan ⟨cond⟩: Colony just comm'd' in.
+        [000240DE] global_squad_krogan ⟨cond⟩: Colony just comm'd' in.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_squad_krogan: Scouts are expected to arrive soon and medics are on standby.
+            ↩ (goto) [000240E1] global_squad_krogan: Scouts are expected to arrive soon and medics are on standby.
         ├ option 2:
-            ↩ (goto) global_squad_krogan: My scouts all made it back in one piece, thanks to you.
+            ↩ (goto) [000240DF] global_squad_krogan: My scouts all made it back in one piece, thanks to you.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 6:
-    Hero: Hi...
+    [00024128] Hero: Hi...
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Yeah, I'm still here.
-        global_squad_krogan: I updated Kesh. Let the clan know what happened.
-        global_squad_krogan: And I'd rather be talking about something else right now, so...
-        ↩ (goto) global_squad_krogan: [empty]
+        [0002412D] global_squad_krogan ⟨cond⟩: Yeah, I'm still here.
+        [00024136] global_squad_krogan: I updated Kesh. Let the clan know what happened.
+        [00024137] global_squad_krogan: And I'd rather be talking about something else right now, so...
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Look, you already apologized for what you did. That's more than most krogan get.
-        ↩ (goto) global_squad_krogan: I updated Kesh. Let the clan know what happened.
+        [0002412F] global_squad_krogan ⟨cond⟩: Look, you already apologized for what you did. That's more than most krogan get.
+        ↩ (goto) [00024136] global_squad_krogan: I updated Kesh. Let the clan know what happened.
     └─ merge ─┘
 ├ option 7:
-    global_squad_krogan: Ah, Sloane. She hasn't changed a bit since the mutiny.
-    global_squad_krogan: Just finally showing her colors, instead of pretending to be civilized and shit.
+    [000240DB] global_squad_krogan: Ah, Sloane. She hasn't changed a bit since the mutiny.
+    [000240DA] global_squad_krogan: Just finally showing her colors, instead of pretending to be civilized and shit.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Was she like that when she ran Nexus security?
-        global_squad_krogan: Yup. Just real good at hiding the varren inside, if you know what I mean.
-        global_squad_krogan: She'll keep her word. Big on honor, that one. Just never show any weakness and you'll be fine.
-        ↩ (goto) global_squad_krogan: [empty]
+        [0002410D] Hero: Was she like that when she ran Nexus security?
+        [0002410E] global_squad_krogan: Yup. Just real good at hiding the varren inside, if you know what I mean.
+        [00024139] global_squad_krogan: She'll keep her word. Big on honor, that one. Just never show any weakness and you'll be fine.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 2:
-        Hero: Can we expect any more trouble with her, or are we done with the surprises?
-        global_squad_krogan: Done with surprises? She's twistier than a biotic in an eezo storm.
-        ↩ (goto) global_squad_krogan: She'll keep her word. Big on honor, that one. Just never show any weakness and you'll be fine.
+        [00024110] Hero: Can we expect any more trouble with her, or are we done with the surprises?
+        [00024116] global_squad_krogan: Done with surprises? She's twistier than a biotic in an eezo storm.
+        ↩ (goto) [00024139] global_squad_krogan: She'll keep her word. Big on honor, that one. Just never show any weakness and you'll be fine.
     └─ merge ─┘
 ├ option 8:
-    global_squad_krogan: That is a nice little piece of paradise the angara have. Wouldn't mind seeing it again.
+    [0002413C] global_squad_krogan: That is a nice little piece of paradise the angara have. Wouldn't mind seeing it again.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: We will. We need access to their vault, so rescuing the Moshae is a priority right now.
-        global_squad_krogan: I can work with that. Bet that Moshae of theirs has some interesting stories to tell.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00024140] Hero: We will. We need access to their vault, so rescuing the Moshae is a priority right now.
+        [00024142] global_squad_krogan: I can work with that. Bet that Moshae of theirs has some interesting stories to tell.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 2:
-        Hero: I wouldn't mind either. Maybe we can have something like that too, someday.
-        global_squad_krogan: We rescue that Moshae of theirs, maybe they'll give us some tips.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00024143] Hero: I wouldn't mind either. Maybe we can have something like that too, someday.
+        [0002413E] global_squad_krogan: We rescue that Moshae of theirs, maybe they'll give us some tips.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     └─ merge ─┘
 ├ option 9:
-    global_squad_krogan [OncePerGame]: I've seen a lot of shit in my life, but that vault certainly was a first.
-    global_squad_krogan: Things are going to be interesting with you around, kid.
+    [00013833] global_squad_krogan [OncePerGame]: I've seen a lot of shit in my life, but that vault certainly was a first.
+    [0002406A] global_squad_krogan: Things are going to be interesting with you around, kid.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: None of this was my idea, but I'll be damned if I don't call the shots myself.
-        global_squad_krogan: You're off to a hell of a start, that's for sure.
+        [0002413D] Hero: None of this was my idea, but I'll be damned if I don't call the shots myself.
+        [00024146] global_squad_krogan: You're off to a hell of a start, that's for sure.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: Also, don't call me kid.
-            global_squad_krogan: Oops.
-            ↩ (goto) global_squad_krogan: [empty]
+            [00024149] Hero ⟨cond⟩: Also, don't call me kid.
+            [00024148] global_squad_krogan: Oops.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 2:
-        Hero: Doesn't matter what life throws at me. It's what I make of it, right?
-        global_squad_krogan: You keep that going, you just might live as long as I have. Minus a zero at the end.
+        [00024141] Hero: Doesn't matter what life throws at me. It's what I make of it, right?
+        [00024144] global_squad_krogan: You keep that going, you just might live as long as I have. Minus a zero at the end.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero ⟨cond⟩: Also, don't call me kid.
+            ↩ (goto) [00024149] Hero ⟨cond⟩: Also, don't call me kid.
         ├ option 2:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 10:
-    global_squad_krogan: Thought you should know. I keep finding crumbs here on the counter.
+    [0001994C] global_squad_krogan: Thought you should know. I keep finding crumbs here on the counter.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: So we have a few messy eaters on board.
-        global_squad_krogan: I think something's nibbling our stores. Something that doesn't belong. Possibly something tasty.
+        [0001CA9B] Hero: So we have a few messy eaters on board.
+        [0001CA9E] global_squad_krogan: I think something's nibbling our stores. Something that doesn't belong. Possibly something tasty.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Maybe, or you're making too much out of a messy galley.
-            global_squad_krogan: Fine, but if it chews more than crumbs, it's on you.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0002526B] Hero: Maybe, or you're making too much out of a messy galley.
+            [0002526A] global_squad_krogan: Fine, but if it chews more than crumbs, it's on you.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            Hero: Hmm. I'll keep an eye out for stowaways.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0001994A] Hero: Hmm. I'll keep an eye out for stowaways.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 2:
-        Hero: Forget it, Drack. It's still your turn to clean the galley.
-        ↩ (goto) global_squad_krogan: I think something's nibbling our stores. Something that doesn't belong. Possibly something tasty.
+        [0001CA9A] Hero: Forget it, Drack. It's still your turn to clean the galley.
+        ↩ (goto) [0001CA9E] global_squad_krogan: I think something's nibbling our stores. Something that doesn't belong. Possibly something tasty.
     └─ merge ─┘
 ├ option 11:
-    global_squad_krogan: Just talked to Kesh.
+    [00017B4A] global_squad_krogan: Just talked to Kesh.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Colony's doing well. There might soon be some trading with the Nexus at this rate.
-        global_squad_krogan: Morda wanted that drive core, but she can appreciate a show of strength too.
-        Hero: She is a show of strength. That fight was something else.
-        global_squad_krogan: She's good. Some of the warriors she sent back were trained by her.
+        [0002414A] global_squad_krogan ⟨cond⟩: Colony's doing well. There might soon be some trading with the Nexus at this rate.
+        [00024162] global_squad_krogan: Morda wanted that drive core, but she can appreciate a show of strength too.
+        [000241D2] Hero: She is a show of strength. That fight was something else.
+        [0002442F] global_squad_krogan: She's good. Some of the warriors she sent back were trained by her.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: When one of them runs into Spender, that'll be entertaining.
-            ↩ (goto) global_squad_krogan: [empty]
+            [0002406B] global_squad_krogan ⟨cond⟩: When one of them runs into Spender, that'll be entertaining.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         ├ option 2:
-            ↩ (goto) global_squad_krogan: [empty]
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     ├ option 2:
-        global_squad_krogan: Looks like some of the clan are back at the Nexus.
-        global_squad_krogan: Hired on as mercs instead of part of the Initiative, but still. Good call you made, letting her keep the drive core.
-        Hero: New dawn for the krogan, huh?
-        global_squad_krogan: Never thought I'd see the day. Sovereign krogan as equal allies.
+        [00017B49] global_squad_krogan: Looks like some of the clan are back at the Nexus.
+        [0002406D] global_squad_krogan: Hired on as mercs instead of part of the Initiative, but still. Good call you made, letting her keep the drive core.
+        [00024161] Hero: New dawn for the krogan, huh?
+        [000241D4] global_squad_krogan: Never thought I'd see the day. Sovereign krogan as equal allies.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_squad_krogan ⟨cond⟩: When one of them runs into Spender, that'll be entertaining.
+            ↩ (goto) [0002406B] global_squad_krogan ⟨cond⟩: When one of them runs into Spender, that'll be entertaining.
         ├ option 2:
-            global_squad_krogan: My mother would have approved.
-            ↩ (goto) global_squad_krogan: [empty]
+            [000241D3] global_squad_krogan: My mother would have approved.
+            ↩ (goto) [00013824] global_squad_krogan: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 12:
-    Hero: Everything okay, Drack?
-    global_squad_krogan: {i}(Chuckles.){/i} Got my thinking face on, don't I?
-    Hero: Looked like some pretty intense thinking there, yeah.
-    global_squad_krogan: I was just thinking about what a good friend you've been. To me and my people.
-    global_squad_krogan: Just so you know, you can count on me. For anything you need.
-    ↩ (goto) global_squad_krogan: [empty]
+    [0002429E] Hero: Everything okay, Drack?
+    [0002429D] global_squad_krogan: {i}(Chuckles.){/i} Got my thinking face on, don't I?
+    [000242A0] Hero: Looked like some pretty intense thinking there, yeah.
+    [0002429C] global_squad_krogan: I was just thinking about what a good friend you've been. To me and my people.
+    [0002429F] global_squad_krogan: Just so you know, you can count on me. For anything you need.
+    ↩ (goto) [00013824] global_squad_krogan: [empty]
 ├ option 13:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        global_squad_krogan: Hey, kid.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00013814] global_squad_krogan: Hey, kid.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 2:
-        global_squad_krogan: Ryder.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00017659] global_squad_krogan: Ryder.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 3:
-        global_squad_krogan: Hey.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00024156] global_squad_krogan: Hey.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     ├ option 4:
-        global_squad_krogan: Pathfinder.
-        ↩ (goto) global_squad_krogan: [empty]
+        [00024153] global_squad_krogan: Pathfinder.
+        ↩ (goto) [00013824] global_squad_krogan: [empty]
     └─ merge ─┘
 └─ merge ─┘
-↩ (goto) global_squad_krogan: [empty]
-global_squad_krogan: Kesh told me she explained things to you. Problem is, we're both weaker this way.
-global_squad_krogan: Easier for the kett to pick off. It's not a good situation.
-↩ (goto) global_squad_krogan: Kesh is alone on that station now.
+↩ (goto) [00013824] global_squad_krogan: [empty]
+[00013963] global_squad_krogan: Kesh told me she explained things to you. Problem is, we're both weaker this way.
+[00013965] global_squad_krogan: Easier for the kett to pick off. It's not a good situation.
+↩ (goto) [00013972] global_squad_krogan: Kesh is alone on that station now.

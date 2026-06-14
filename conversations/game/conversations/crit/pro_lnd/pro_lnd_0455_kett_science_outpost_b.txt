@@ -2,214 +2,214 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/pro_lnd/pro_lnd_0455_kett_science_outpost_b.xml
 ==================================================
-Hero: Some kind of building over here.
-global_squad_male_human: Some sort of structure up that hill.
-Hero: This place is taking a beating from the storms.
-global_squad_male_human: Along with everything else on the planet.
-Hero: Maybe a lightning rod of some kind. No idea how to get it working though.
-Hero: It's what it looks like—to defend against lightning.
+[00017CE7] Hero: Some kind of building over here.
+[0000DBE4] global_squad_male_human: Some sort of structure up that hill.
+[0003481C] Hero: This place is taking a beating from the storms.
+[0003481F] global_squad_male_human: Along with everything else on the planet.
+[00034824] Hero: Maybe a lightning rod of some kind. No idea how to get it working though.
+[00024A5E] Hero: It's what it looks like—to defend against lightning.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: A broken lightning rod.
-    global_squad_male_human: Could explain why the building's damaged. Storms hammered the place.
+    [00024A63] Hero ⟨cond⟩: A broken lightning rod.
+    [0003481B] global_squad_male_human: Could explain why the building's damaged. Storms hammered the place.
 ├ option 2:
-    Hero: Looks like it's a broken lightning rod.
-    ↩ (goto) global_squad_male_human: Could explain why the building's damaged. Storms hammered the place.
+    [0003481D] Hero: Looks like it's a broken lightning rod.
+    ↩ (goto) [0003481B] global_squad_male_human: Could explain why the building's damaged. Storms hammered the place.
 └─ merge ─┘
-global_squad_male_human: Well, let's hope no one's home.
-Hero: Doesn't look like a home at all.
-global_squad_male_human: Yeah. No one's living here.
-Hero: So what it's for?
-global_squad_male_human: Doesn't look like the other structures we've seen. Different design.
+[0000DBE2] global_squad_male_human: Well, let's hope no one's home.
+[0000DBDC] Hero: Doesn't look like a home at all.
+[0000DBED] global_squad_male_human: Yeah. No one's living here.
+[00017FD4] Hero: So what it's for?
+[000216DD] global_squad_male_human: Doesn't look like the other structures we've seen. Different design.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Huh. Who knows? Let's call it a "weird alien machine."
-    global_squad_male_human: We sure could use SAM right about now.
+    [00024A8F] Hero [OncePerGame]: Huh. Who knows? Let's call it a "weird alien machine."
+    [00024A90] global_squad_male_human: We sure could use SAM right about now.
 ├ option 2:
-    Hero [OncePerGame]: Another weird alien machine.
+    [00024A8D] Hero [OncePerGame]: Another weird alien machine.
 └─ merge ─┘
-Hero: Some kind of research lab?
-global_squad_male_human: Maybe. Then it got hit by a tornado.
-Hero: Whatever this is, it scans as being old. Centuries old.
-global_squad_male_human: Wish we had SAM.
+[000145C5] Hero: Some kind of research lab?
+[000216DE] global_squad_male_human: Maybe. Then it got hit by a tornado.
+[00007020] Hero: Whatever this is, it scans as being old. Centuries old.
+[000216DC] global_squad_male_human: Wish we had SAM.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: It's older than this lab... but about the same age as that bot we just killed.
-    global_squad_male_human: So maybe these aliens found it deeper in? Like an artifact?
+    [0002547D] Hero ⟨cond⟩: It's older than this lab... but about the same age as that bot we just killed.
+    [00025463] global_squad_male_human: So maybe these aliens found it deeper in? Like an artifact?
 ├ option 2:
-    Hero: I think it's older than this lab and the equipment.
-    ↩ (goto) global_squad_male_human: So maybe these aliens found it deeper in? Like an artifact?
-└─ merge ─┘
-┌─ BRANCH (2) ─┐
-├ option 1:
-    global_squad_male_human ⟨cond⟩: It's that noise again.
-    Hero: Looks like they were trying to tunnel in.
-    global_squad_male_human: Don't think it turned out so well.
-├ option 2:
-    global_squad_male_human: Weird. You hear that?
-    ↩ (goto) Hero: Looks like they were trying to tunnel in.
-└─ merge ─┘
-global_squad_male_human: Watch it!
-Hero: What is it?
-global_squad_male_human: Pissed?
-global_squad_male_human: There!
-Hero: So now killer robots, too?
-┌─ BRANCH (2) ─┐
-├ option 1:
-    global_squad_male_human: The geth back home would love this place.
-├ option 2:
-    global_squad_male_human ⟨cond⟩: "Weird alien machines," man...
-└─ merge ─┘
-Hero: His wounds look like they're from an energy blast.
-┌─ BRANCH (2) ─┐
-├ option 1:
-    Hero ⟨cond⟩: Might've tangled with our robot friend, there.
-    global_squad_male_human ⟨cond⟩: What were they doing?
-├ option 2:
-    ↩ (goto) global_squad_male_human ⟨cond⟩: What were they doing?
-└─ merge ─┘
-Hero: Some serious energy on the other side of that door.
-┌─ BRANCH (2) ─┐
-├ option 1:
-    global_squad_male_human ⟨cond⟩: Maybe it's closed for a reason.
-    Hero: These guys were poking around where they shouldn't have.
-├ option 2:
-    ↩ (goto) Hero: These guys were poking around where they shouldn't have.
-└─ merge ─┘
-Hero: It's fried. Could be a console of some sort. For that door?
-global_squad_male_human ⟨cond⟩: Maybe it's closed for a reason.
-Hero: Doesn't say much, other than it's not organic.
-┌─ BRANCH (2) ─┐
-├ option 1:
-    Hero ⟨cond⟩: And it's about the same age as that artifact.
-    global_squad_male_human: You suppose it was guarding it?
-    Hero: Could be.
-├ option 2:
-    Hero: Old, though. Like centuries old.
-    global_squad_male_human: Like an automated guard, maybe?
-    ↩ (goto) Hero: Could be.
+    [000216DF] Hero: I think it's older than this lab and the equipment.
+    ↩ (goto) [00025463] global_squad_male_human: So maybe these aliens found it deeper in? Like an artifact?
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: Sure you don't want to look around in here?
+    [00025451] global_squad_male_human ⟨cond⟩: It's that noise again.
+    [00025454] Hero: Looks like they were trying to tunnel in.
+    [00025455] global_squad_male_human: Don't think it turned out so well.
 ├ option 2:
-    global_squad_male_human: Any theories, Recon Specialist?
+    [00025452] global_squad_male_human: Weird. You hear that?
+    ↩ (goto) [00025454] Hero: Looks like they were trying to tunnel in.
+└─ merge ─┘
+[00025446] global_squad_male_human: Watch it!
+[00025442] Hero: What is it?
+[0002545B] global_squad_male_human: Pissed?
+[00025437] global_squad_male_human: There!
+[00025433] Hero: So now killer robots, too?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    [00025436] global_squad_male_human: The geth back home would love this place.
+├ option 2:
+    [00025479] global_squad_male_human ⟨cond⟩: "Weird alien machines," man...
+└─ merge ─┘
+[00025457] Hero: His wounds look like they're from an energy blast.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    [00034820] Hero ⟨cond⟩: Might've tangled with our robot friend, there.
+    [00025912] global_squad_male_human ⟨cond⟩: What were they doing?
+├ option 2:
+    ↩ (goto) [00025912] global_squad_male_human ⟨cond⟩: What were they doing?
+└─ merge ─┘
+[00025461] Hero: Some serious energy on the other side of that door.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    [00025460] global_squad_male_human ⟨cond⟩: Maybe it's closed for a reason.
+    [00025477] Hero: These guys were poking around where they shouldn't have.
+├ option 2:
+    ↩ (goto) [00025477] Hero: These guys were poking around where they shouldn't have.
+└─ merge ─┘
+[00034821] Hero: It's fried. Could be a console of some sort. For that door?
+[00025456] global_squad_male_human ⟨cond⟩: Maybe it's closed for a reason.
+[0002547A] Hero: Doesn't say much, other than it's not organic.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    [0002547E] Hero ⟨cond⟩: And it's about the same age as that artifact.
+    [0002547F] global_squad_male_human: You suppose it was guarding it?
+    [00026F1B] Hero: Could be.
+├ option 2:
+    [0002547B] Hero: Old, though. Like centuries old.
+    [00026F1A] global_squad_male_human: Like an automated guard, maybe?
+    ↩ (goto) [00026F1B] Hero: Could be.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    [00025475] global_squad_male_human ⟨cond⟩: Sure you don't want to look around in here?
+├ option 2:
+    [00025462] global_squad_male_human: Any theories, Recon Specialist?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: There's some kind of technology on this planet. Older. Underground.
-        Hero: Something these aliens are interested in.
-        global_squad_male_human: Like archaeologists?
-        Hero: Yeah. Bloodthirsty archaeologists.
+        [00025476] Hero ⟨cond⟩: There's some kind of technology on this planet. Older. Underground.
+        [00025474] Hero: Something these aliens are interested in.
+        [0002546A] global_squad_male_human: Like archaeologists?
+        [00025469] Hero: Yeah. Bloodthirsty archaeologists.
     ├ option 2:
-        Hero: Some kind of technology on this planet.
-        ↩ (goto) Hero: Something these aliens are interested in.
+        [0002546B] Hero: Some kind of technology on this planet.
+        ↩ (goto) [00025474] Hero: Something these aliens are interested in.
     └─ merge ─┘
 └─ merge ─┘
-global_squad_male_human: Dead ones here. Wonder what happened?
-Hero: Severe burns. They were fried.
-global_squad_male_human: Lightning?
-Hero: Yeah. It's nailing them too.
-global_squad_male_human: Score one for the weather.
+[0000DBDD] global_squad_male_human: Dead ones here. Wonder what happened?
+[0000DBE5] Hero: Severe burns. They were fried.
+[0000DBE8] global_squad_male_human: Lightning?
+[000145C7] Hero: Yeah. It's nailing them too.
+[000145C6] global_squad_male_human: Score one for the weather.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: Though it fits with them being from somewhere else. They weren't ready for the storms.
+    [000162C4] Hero ⟨cond⟩: Though it fits with them being from somewhere else. They weren't ready for the storms.
 ├ option 2:
-    Hero: If they were native, you'd think they'd know better.
+    [000216E0] Hero: If they were native, you'd think they'd know better.
 └─ merge ─┘
-Hero: That's not working.
-global_squad_male_human: Wonder what's inside?
+[0000DBD8] Hero: That's not working.
+[000289F6] global_squad_male_human: Wonder what's inside?
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Nothing.
+    [000289FD] Hero [OncePerGame]: Nothing.
 ├ option 2:
-    Hero [OncePerGame]: No power.
+    [000289FB] Hero [OncePerGame]: No power.
 ├ option 3:
-    Hero [OncePerGame]: Didn't do anything.
+    [000289FA] Hero [OncePerGame]: Didn't do anything.
 └─ merge ─┘
-Hero: Whoa...
-Hero: Guess a circuit overloaded.
-global_squad_male_human: Even the equipment's out to get us.
-Hero: Weird.
-global_squad_male_human ⟨cond⟩: If that's poison, I know who to blame.
-Hero: Crap.
-global_squad_male_human: Huh. What's all this about?
+[00028C1C] Hero: Whoa...
+[00028C20] Hero: Guess a circuit overloaded.
+[00028C1F] global_squad_male_human: Even the equipment's out to get us.
+[00028C1D] Hero: Weird.
+[00028C3A] global_squad_male_human ⟨cond⟩: If that's poison, I know who to blame.
+[000289F4] Hero: Crap.
+[00024A97] global_squad_male_human: Huh. What's all this about?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: You guessed it. Another weird alien machine.
-    global_squad_male_human: Figures.
-    Hero: Only one way to find out...
-    global_squad_male_human: You mean turn it on?
+    [00024A96] Hero ⟨cond⟩: You guessed it. Another weird alien machine.
+    [000146FD] global_squad_male_human: Figures.
+    [00014700] Hero: Only one way to find out...
+    [000146FF] global_squad_male_human: You mean turn it on?
 ├ option 2:
-    Hero: It's... a weird alien machine.
-    ↩ (goto) global_squad_male_human: Figures.
+    [00014701] Hero: It's... a weird alien machine.
+    ↩ (goto) [000146FD] global_squad_male_human: Figures.
 └─ merge ─┘
-global_squad_male_human: What are you doing, Ryder?
-Hero: Oh shit...
-global_squad_male_human: That can't be good!
-global_squad_male_human: Oh.
+[00014704] global_squad_male_human: What are you doing, Ryder?
+[000146F7] Hero: Oh shit...
+[000146FE] global_squad_male_human: That can't be good!
+[00014702] global_squad_male_human: Oh.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: So the weird alien machine is a generator.
-    global_squad_male_human: Yeah. Sure. Why wouldn't it be?
-    Hero: Maybe it did something.
+    [000146FC] Hero ⟨cond⟩: So the weird alien machine is a generator.
+    [000146F8] global_squad_male_human: Yeah. Sure. Why wouldn't it be?
+    [00021661] Hero: Maybe it did something.
 ├ option 2:
-    Hero: It's a generator.
-    ↩ (goto) global_squad_male_human: Yeah. Sure. Why wouldn't it be?
+    [0002831E] Hero: It's a generator.
+    ↩ (goto) [000146F8] global_squad_male_human: Yeah. Sure. Why wouldn't it be?
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: Maybe there's a way to open that door back there?
+    [000289F8] global_squad_male_human ⟨cond⟩: Maybe there's a way to open that door back there?
 ├ option 2:
-    global_squad_male_human: Must be a way to get some lights on.
+    [000289F7] global_squad_male_human: Must be a way to get some lights on.
 └─ merge ─┘
-global_squad_male_human: Hey, that door opened.
+[000287C9] global_squad_male_human: Hey, that door opened.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero [OncePerGame]: Same language as those aliens. Wonder what he's saying?
-    global_squad_male_human: "Kill all humans," probably.
+    [00024135] Hero [OncePerGame]: Same language as those aliens. Wonder what he's saying?
+    [00024133] global_squad_male_human: "Kill all humans," probably.
 ├ option 2:
-    Hero [OncePerGame]: Not exactly poetry, is it?
+    [00028126] Hero [OncePerGame]: Not exactly poetry, is it?
 └─ merge ─┘
-Hero: Weather's still crappy.
-global_squad_male_human: Heads up! They were waiting for us!
-Hero: Oh, damn...
+[0002181D] Hero: Weather's still crappy.
+[00021663] global_squad_male_human: Heads up! They were waiting for us!
+[00021662] Hero: Oh, damn...
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    global_squad_male_human [OncePerGame]: They got a lightning rod up and running!
+    [00034829] global_squad_male_human [OncePerGame]: They got a lightning rod up and running!
 ├ option 2:
-    global_squad_male_human [OncePerGame]: Are these things stalking us?
-    Hero: Starting to feel like it!
+    [00021666] global_squad_male_human [OncePerGame]: Are these things stalking us?
+    [00021665] Hero: Starting to feel like it!
 ├ option 3:
-    global_squad_male_human [OncePerGame]: This is {i}not{/i} how I go out!
-    Hero: I don't think they're listening!
+    [00021669] global_squad_male_human [OncePerGame]: This is {i}not{/i} how I go out!
+    [0002166A] Hero: I don't think they're listening!
 └─ merge ─┘
-global_squad_male_human: There. Last one's down.
-Hero: Let's not wait around for more.
+[0002166B] global_squad_male_human: There. Last one's down.
+[00021668] Hero: Let's not wait around for more.
 ┌─ BRANCH (11) ─┐
 ├ option 1:
-    Hero: Console's fried. That door isn't opening.
+    [0002545C] Hero: Console's fried. That door isn't opening.
 ├ option 2:
-    Hero ⟨cond⟩: Might've tangled with our flying friend, there.
+    [0002545A] Hero ⟨cond⟩: Might've tangled with our flying friend, there.
 ├ option 3:
-    Hero ⟨cond⟩: This one's broken.
-    global_squad_male_human: And then the storms hammered the place.
+    [00024A6A] Hero ⟨cond⟩: This one's broken.
+    [00024A62] global_squad_male_human: And then the storms hammered the place.
 ├ option 4:
-    ↩ (goto) global_squad_male_human: And then the storms hammered the place.
+    ↩ (goto) [00024A62] global_squad_male_human: And then the storms hammered the place.
 ├ option 5:
-    global_squad_male_human: Check it out: a lightning rod.
-    Hero: Not helping much. Building's taken a beating from the storms.
+    [00024A5D] global_squad_male_human: Check it out: a lightning rod.
+    [00024A61] Hero: Not helping much. Building's taken a beating from the storms.
 ├ option 6:
-    global_squad_male_human ⟨cond⟩: Scans say anything about that machine over there?
+    [00025435] global_squad_male_human ⟨cond⟩: Scans say anything about that machine over there?
 ├ option 7:
-    global_squad_male_human ⟨cond⟩: Makes sense if they're from somewhere else.
-    global_squad_male_human ⟨cond⟩: Remember that food they were bringing in?
+    [0000B42B] global_squad_male_human ⟨cond⟩: Makes sense if they're from somewhere else.
+    [00016DA2] global_squad_male_human ⟨cond⟩: Remember that food they were bringing in?
 ├ option 8:
-    global_squad_male_human: Almost like they're not from around here.
-    global_squad_male_human ⟨cond⟩: Remember the food they were bringing in?
+    [000145C4] global_squad_male_human: Almost like they're not from around here.
+    [00016DA1] global_squad_male_human ⟨cond⟩: Remember the food they were bringing in?
 ├ option 9:
-    ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: [empty]
+    ↩ (goto) [0000701B] Hero ⟨cond⟩ [OncePerGame]: [empty]
 ├ option 10:
-    Hero: Yeah. It's nailing them too. Starting to think these guys aren't from this planet.
+    [0000DBEA] Hero: Yeah. It's nailing them too. Starting to think these guys aren't from this planet.
 ├ option 11:
-    ↩ (goto) Hero ⟨cond⟩: [empty]
+    ↩ (goto) [0000701F] Hero ⟨cond⟩: [empty]
 └─ merge ─┘

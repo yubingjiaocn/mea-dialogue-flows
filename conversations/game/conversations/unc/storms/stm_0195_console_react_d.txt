@@ -2,37 +2,37 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc/storms/stm_0195_console_react_d.xml
 ==================================================
-Hero: Power restored. We should have access to everything in Site 1 now. Right, SAM?
-SAM: Correct. Plus, I've located the source of the signal we detected in orbit. It's coming from the large alien structure just beyond Site 1.
-SAM: The structure appears almost identical to the one your father used to adjust the atmosphere on the previous planet. It's worth investigation.
+[000246CC] Hero: Power restored. We should have access to everything in Site 1 now. Right, SAM?
+[000246CB] SAM: Correct. Plus, I've located the source of the signal we detected in orbit. It's coming from the large alien structure just beyond Site 1.
+[000246CF] SAM: The structure appears almost identical to the one your father used to adjust the atmosphere on the previous planet. It's worth investigation.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: That almost feels like a lead. Damn right it's worth investigating.
+    [000246D1] Hero: That almost feels like a lead. Damn right it's worth investigating.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: Hear, hear.
-        SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
+        [000246DD] global_squad_male_human ⟨cond⟩: Hear, hear.
+        [0002481F] SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: All the more reason to see if that alien structure can make a difference to this planet.
-            Hero: C'mon... we better find that vehicle Clancy mentioned.
+            [00024821] Hero ⟨cond⟩: All the more reason to see if that alien structure can make a difference to this planet.
+            [00024820] Hero: C'mon... we better find that vehicle Clancy mentioned.
         ├ option 2:
-            Hero: So if that structure could make a difference here, well, that would be really good.
-            ↩ (goto) Hero: C'mon... we better find that vehicle Clancy mentioned.
+            [00024824] Hero: So if that structure could make a difference here, well, that would be really good.
+            ↩ (goto) [00024820] Hero: C'mon... we better find that vehicle Clancy mentioned.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
+        ↩ (goto) [0002481F] SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
     └─ merge ─┘
 ├ option 2:
-    Hero: Let's not forget what else happened on Habitat 7. This is powerful alien tech—we need to respect it, go slow.
+    [000246D0] Hero: Let's not forget what else happened on Habitat 7. This is powerful alien tech—we need to respect it, go slow.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: For sure. We'll follow your lead.
-        ↩ (goto) SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
+        [000246D5] global_squad_female_human ⟨cond⟩: For sure. We'll follow your lead.
+        ↩ (goto) [0002481F] SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: I admit, I'm really curious—but I hear you.
-        ↩ (goto) SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
+        [00024811] global_squad_turian ⟨cond⟩: I admit, I'm really curious—but I hear you.
+        ↩ (goto) [0002481F] SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
     ├ option 3:
-        ↩ (goto) SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
+        ↩ (goto) [0002481F] SAM: A warning—radiation levels beyond the perimeter of Site 1 are well above acceptable limits. You cannot proceed without additional protection.
     └─ merge ─┘
 └─ merge ─┘

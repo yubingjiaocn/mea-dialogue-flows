@@ -2,71 +2,71 @@
 # Primary speaker: global_humanark_asari_dr
 # Source: game/conversations/rel/lexi/lex_quest_0200_nex_d.xml
 ==================================================
-Narration: Lexi is staring at a bottle of alcohol in front of her—she appears sad, but not drunk.
-Hero: There you are. Looking for the meaning of life?
-global_humanark_asari_dr: At the bottom of a bottle?
+[000305DB] Narration: Lexi is staring at a bottle of alcohol in front of her—she appears sad, but not drunk.
+[000305E1] Hero: There you are. Looking for the meaning of life?
+[000305E7] global_humanark_asari_dr: At the bottom of a bottle?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: You wouldn't be the first to try.
-    global_humanark_asari_dr: Alcohol rarely provides answers.
-    Hero: Then why you are here?
-    global_humanark_asari_dr: What? I can’t kick back? Have fun?
+    [000305D8] Hero: You wouldn't be the first to try.
+    [000305E0] global_humanark_asari_dr: Alcohol rarely provides answers.
+    [000305E4] Hero: Then why you are here?
+    [000305D6] global_humanark_asari_dr: What? I can’t kick back? Have fun?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Meant no offense. It's just...
-        global_humanark_asari_dr: Just what?
-        Hero: You don't seem like you're having fun.
-        global_humanark_asari_dr: {i}(Sigh.){/i} I grew up on Omega. You'd think I'd know how to drink.
-        Hero: What's this really about?
-        global_humanark_asari_dr: Peebee thinks I don't care about the crew. That you're all just experiments to me.
-        global_humanark_asari_dr: Do you... is that how you think I see you?
+        [000305E3] Hero: Meant no offense. It's just...
+        [000305DF] global_humanark_asari_dr: Just what?
+        [000305E9] Hero: You don't seem like you're having fun.
+        [000305D3] global_humanark_asari_dr: {i}(Sigh.){/i} I grew up on Omega. You'd think I'd know how to drink.
+        [000305D7] Hero: What's this really about?
+        [000305DC] global_humanark_asari_dr: Peebee thinks I don't care about the crew. That you're all just experiments to me.
+        [000305E2] global_humanark_asari_dr: Do you... is that how you think I see you?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero [OncePerGame]: Since when do you care what Peebee thinks?
-            global_humanark_asari_dr: It’s not the first time someone told me that.
-            global_humanark_asari_dr: In fact, every one of my exes said something similar.
-            global_humanark_asari_dr: Hence why I'm taking a break from relationships.
+            [000305F2] Hero [OncePerGame]: Since when do you care what Peebee thinks?
+            [000305F1] global_humanark_asari_dr: It’s not the first time someone told me that.
+            [000305EA] global_humanark_asari_dr: In fact, every one of my exes said something similar.
+            [000305F4] global_humanark_asari_dr: Hence why I'm taking a break from relationships.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero ⟨cond⟩: So that's the real reason you said no to dinner. It wasn't because I'm not you're type.
-                global_humanark_asari_dr: Yes. I mean no! Don't change the subject! Is that how you think I see you?
+                [000305EE] Hero ⟨cond⟩: So that's the real reason you said no to dinner. It wasn't because I'm not you're type.
+                [000305F5] global_humanark_asari_dr: Yes. I mean no! Don't change the subject! Is that how you think I see you?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: You can be... distant.
-                    global_humanark_asari_dr: Then I'll be clear: I care about you as a person. Same goes for the rest of the crew.
-                    Hero: Even Peebee?
-                    global_humanark_asari_dr: Yes, even the stowaway.
-                    global_humanark_asari_dr: {i}(Sigh of relief.){/i} I should get back.
-                    Hero: What about your wine?
-                    global_humanark_asari_dr: I’ll save it for another day.
+                    [000305F7] Hero: You can be... distant.
+                    [000305EC] global_humanark_asari_dr: Then I'll be clear: I care about you as a person. Same goes for the rest of the crew.
+                    [000305FC] Hero: Even Peebee?
+                    [000305FB] global_humanark_asari_dr: Yes, even the stowaway.
+                    [000305F9] global_humanark_asari_dr: {i}(Sigh of relief.){/i} I should get back.
+                    [000305F0] Hero: What about your wine?
+                    [000305EB] global_humanark_asari_dr: I’ll save it for another day.
                 ├ option 2:
-                    Hero: You wouldn't be moping in this bar if you only saw me as an experiment.
-                    global_humanark_asari_dr: I don't mope. But you're right.
-                    global_humanark_asari_dr: {i}(Sigh of relief.){/i} Thank you, Ryder. I should get back.
-                    ↩ (goto) Hero: What about your wine?
+                    [000305ED] Hero: You wouldn't be moping in this bar if you only saw me as an experiment.
+                    [000305EF] global_humanark_asari_dr: I don't mope. But you're right.
+                    [000305F3] global_humanark_asari_dr: {i}(Sigh of relief.){/i} Thank you, Ryder. I should get back.
+                    ↩ (goto) [000305F0] Hero: What about your wine?
                 └─ merge ─┘
             ├ option 2:
-                global_humanark_asari_dr: {i}(Sigh.){/i} You didn't answer my question. Is that how you think I see you?
+                [00030AAD] global_humanark_asari_dr: {i}(Sigh.){/i} You didn't answer my question. Is that how you think I see you?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: You can be... distant.
+                    ↩ (goto) [000305F7] Hero: You can be... distant.
                 ├ option 2:
-                    ↩ (goto) Hero: You wouldn't be moping in this bar if you only saw me as an experiment.
+                    ↩ (goto) [000305ED] Hero: You wouldn't be moping in this bar if you only saw me as an experiment.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) Hero: You can be... distant.
+            ↩ (goto) [000305F7] Hero: You can be... distant.
         ├ option 3:
-            ↩ (goto) Hero: You wouldn't be moping in this bar if you only saw me as an experiment.
+            ↩ (goto) [000305ED] Hero: You wouldn't be moping in this bar if you only saw me as an experiment.
         └─ merge ─┘
     ├ option 2:
-        Hero: Lexi. You haven't touched that bottle.
-        global_humanark_asari_dr: Because you interrupted me.
-        ↩ (goto) Hero: What's this really about?
+        [000305DE] Hero: Lexi. You haven't touched that bottle.
+        [000305D9] global_humanark_asari_dr: Because you interrupted me.
+        ↩ (goto) [000305D7] Hero: What's this really about?
     └─ merge ─┘
 ├ option 2:
-    Hero: You didn't leave a note. We were worried.
-    global_humanark_asari_dr: Well, as you see, I'm fine.
-    Hero: Uh-huh.
-    ↩ (goto) global_humanark_asari_dr: What? I can’t kick back? Have fun?
+    [000305DA] Hero: You didn't leave a note. We were worried.
+    [000305E6] global_humanark_asari_dr: Well, as you see, I'm fine.
+    [000305D5] Hero: Uh-huh.
+    ↩ (goto) [000305D6] global_humanark_asari_dr: What? I can’t kick back? Have fun?
 └─ merge ─┘

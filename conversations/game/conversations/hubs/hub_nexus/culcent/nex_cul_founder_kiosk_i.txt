@@ -2,43 +2,43 @@
 # Primary speaker: Pro_Shp_Init_Founder
 # Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_founder_kiosk_i.xml
 ==================================================
-Pro_Shp_Init_Founder: Hello there, neighbor. I'm Jien Garson, the founder of the Andromeda Initiative. I thought you might like to hear more about our plans.
+[000276AB] Pro_Shp_Init_Founder: Hello there, neighbor. I'm Jien Garson, the founder of the Andromeda Initiative. I thought you might like to hear more about our plans.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Okay.
-    Pro_Shp_Init_Founder: Great. If you're seeing this, it means our Pathfinders have done their job and made new friends in the galaxy: welcome to the Nexus.
-    Pro_Shp_Init_Founder: But I want to put your mind at ease. Seeing our arks arrive in your neighborhood probably raised some concerns. I'm happy to address them.
+    [000276B0] Hero: Okay.
+    [000276AC] Pro_Shp_Init_Founder: Great. If you're seeing this, it means our Pathfinders have done their job and made new friends in the galaxy: welcome to the Nexus.
+    [000276A9] Pro_Shp_Init_Founder: But I want to put your mind at ease. Seeing our arks arrive in your neighborhood probably raised some concerns. I'm happy to address them.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        Hero: What are you planning to do in this galaxy?
-        Pro_Shp_Init_Founder: Great question. I'd be worried about that too. I can assure you: we have no hostile intentions whatsoever.
-        Pro_Shp_Init_Founder: We're pilgrims who simply want to live in peace. We're eager to learn about new cultures, new ideas, and share our own with you.
-        Pro_Shp_Init_Founder: But we understand trust needs to be earned, no matter what galaxy you're in. And the Initiative looks forward to doing just that.
-        ↩ (goto) ?: [empty]
+        [000276AA] Hero: What are you planning to do in this galaxy?
+        [000276B2] Pro_Shp_Init_Founder: Great question. I'd be worried about that too. I can assure you: we have no hostile intentions whatsoever.
+        [00027D44] Pro_Shp_Init_Founder: We're pilgrims who simply want to live in peace. We're eager to learn about new cultures, new ideas, and share our own with you.
+        [0002838E] Pro_Shp_Init_Founder: But we understand trust needs to be earned, no matter what galaxy you're in. And the Initiative looks forward to doing just that.
+        ↩ (goto) [0002838F] ?: [empty]
     ├ option 2:
-        Hero: Why did you leave the Milky Way?
-        Pro_Shp_Init_Founder: {i}(Chuckles.){/i} I get that question a lot. Many of us have a deep curiosity that needs to know: what else is out there?
-        Pro_Shp_Init_Founder: Our own Milky Way is just one tiny speck in a universe full of mysteries.
-        Pro_Shp_Init_Founder: And speaking for myself, the thought of exploring those mysteries in Andromeda was a call to adventure I could not resist.
-        ↩ (goto) ?: [empty]
+        [000276AE] Hero: Why did you leave the Milky Way?
+        [00027D45] Pro_Shp_Init_Founder: {i}(Chuckles.){/i} I get that question a lot. Many of us have a deep curiosity that needs to know: what else is out there?
+        [00028390] Pro_Shp_Init_Founder: Our own Milky Way is just one tiny speck in a universe full of mysteries.
+        [00028391] Pro_Shp_Init_Founder: And speaking for myself, the thought of exploring those mysteries in Andromeda was a call to adventure I could not resist.
+        ↩ (goto) [0002838F] ?: [empty]
     ├ option 3:
-        Pro_Shp_Init_Founder: Thank you for taking the time to listen.
-        Pro_Shp_Init_Founder: On behalf of my fellow Milky Way travelers, we couldn't be more excited about what the future holds for all of us.
+        [00028393] Pro_Shp_Init_Founder: Thank you for taking the time to listen.
+        [00028394] Pro_Shp_Init_Founder: On behalf of my fellow Milky Way travelers, we couldn't be more excited about what the future holds for all of us.
     └─ merge ─┘
 ├ option 2:
-    Hero: Maybe later.
-    Pro_Shp_Init_Founder: No problem. I'll be here whenever you'd like to learn more.
+    [000276B3] Hero: Maybe later.
+    [00028395] Pro_Shp_Init_Founder: No problem. I'll be here whenever you'd like to learn more.
 ├ option 3:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero [OncePerGame]: SAM? Can we hear that message Garson talked about?
-        SAM: Unlocking it now. Rerouting to our private channel.
-        Pro_Shp_Init_Founder: [Private] For years, there was a silent partner involved with the Initiative. The truth is, I was running out of money.
-        Pro_Shp_Init_Founder: [Private] Then a "benefactor" stepped in. I didn't ask questions. I never met them face-to-face. That was a mistake... I lied to everyone.
-        Pro_Shp_Init_Founder: [Private] Something big spooked them in the Milky Way, and now they're moving 100,000 of us to Andromeda. I hope it's all for the good, but...
-        Pro_Shp_Init_Founder: [Private] I have my doubts. And now I think they're going to remove me.
-        Pro_Shp_Init_Founder: [Private] Alec Ryder and I had a codeword for this: "Fulcrum." He may have learned more.
+        [0002D3E4] Hero [OncePerGame]: SAM? Can we hear that message Garson talked about?
+        [0002BBFD] SAM: Unlocking it now. Rerouting to our private channel.
+        [0002BBF8] Pro_Shp_Init_Founder: [Private] For years, there was a silent partner involved with the Initiative. The truth is, I was running out of money.
+        [0002BBFA] Pro_Shp_Init_Founder: [Private] Then a "benefactor" stepped in. I didn't ask questions. I never met them face-to-face. That was a mistake... I lied to everyone.
+        [0002BBFE] Pro_Shp_Init_Founder: [Private] Something big spooked them in the Milky Way, and now they're moving 100,000 of us to Andromeda. I hope it's all for the good, but...
+        [0002BBFC] Pro_Shp_Init_Founder: [Private] I have my doubts. And now I think they're going to remove me.
+        [0002BD26] Pro_Shp_Init_Founder: [Private] Alec Ryder and I had a codeword for this: "Fulcrum." He may have learned more.
     ├ option 2:
-        ↩ (goto) Pro_Shp_Init_Founder: [Private] For years, there was a silent partner involved with the Initiative. The truth is, I was running out of money.
+        ↩ (goto) [0002BBF8] Pro_Shp_Init_Founder: [Private] For years, there was a silent partner involved with the Initiative. The truth is, I was running out of money.
     └─ merge ─┘
 └─ merge ─┘

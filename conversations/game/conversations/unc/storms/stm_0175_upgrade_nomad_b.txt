@@ -4,57 +4,57 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: This might be what we need.
+    [00029D57] Hero ⟨cond⟩: This might be what we need.
 ├ option 2:
-    Hero: This is interesting...
+    [00029D55] Hero: This is interesting...
 └─ merge ─┘
-SAM: A standard-issue vehicle shield module.
+[000247E5] SAM: A standard-issue vehicle shield module.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: The research center can give us better than "standard issue."
+    [000247EA] Hero ⟨cond⟩: The research center can give us better than "standard issue."
 ├ option 2:
-    Hero ⟨cond⟩: The right tools and we could do better than "standard issue." Let's look around.
+    [0002548F] Hero ⟨cond⟩: The right tools and we could do better than "standard issue." Let's look around.
 ├ option 3:
-    Hero: Huh. Looks valuable.
+    [000247E9] Hero: Huh. Looks valuable.
 └─ merge ─┘
-Hero: One upgraded shield module, ready to take on any conditions.
+[000247E8] Hero: One upgraded shield module, ready to take on any conditions.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: Let's take a test drive and find that signal.
+    [000247F0] Hero ⟨cond⟩: Let's take a test drive and find that signal.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_turian ⟨cond⟩: I get front seat!
+        [000247F7] global_squad_turian ⟨cond⟩: I get front seat!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_male_human ⟨cond⟩: Damn, too slow.
+            [00024805] global_squad_male_human ⟨cond⟩: Damn, too slow.
         ├ option 2:
-            global_squad_female_human ⟨cond⟩: Ah, damn it.
+            [00024804] global_squad_female_human ⟨cond⟩: Ah, damn it.
         └─ merge ─┘
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: Shotgun!
+        [000247F9] global_squad_male_human ⟨cond⟩: Shotgun!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_squad_female_human ⟨cond⟩: Ah, damn it.
+            ↩ (goto) [00024804] global_squad_female_human ⟨cond⟩: Ah, damn it.
         ├ option 2:
-            global_squad_turian ⟨cond⟩: Hmph. Getting slow.
+            [00024803] global_squad_turian ⟨cond⟩: Hmph. Getting slow.
         └─ merge ─┘
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: Shotgun!
+        [000247F8] global_squad_female_human ⟨cond⟩: Shotgun!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_squad_turian ⟨cond⟩: Hmph. Getting slow.
+            ↩ (goto) [00024803] global_squad_turian ⟨cond⟩: Hmph. Getting slow.
         ├ option 2:
-            ↩ (goto) global_squad_male_human ⟨cond⟩: Damn, too slow.
+            ↩ (goto) [00024805] global_squad_male_human ⟨cond⟩: Damn, too slow.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: Once we power up the antenna, we'll know where we're driving.
+    [000247F4] Hero: Once we power up the antenna, we'll know where we're driving.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_turian ⟨cond⟩: I get front seat!
+        ↩ (goto) [000247F7] global_squad_turian ⟨cond⟩: I get front seat!
     ├ option 2:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: Shotgun!
+        ↩ (goto) [000247F9] global_squad_male_human ⟨cond⟩: Shotgun!
     ├ option 3:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: Shotgun!
+        ↩ (goto) [000247F8] global_squad_female_human ⟨cond⟩: Shotgun!
     └─ merge ─┘
 └─ merge ─┘

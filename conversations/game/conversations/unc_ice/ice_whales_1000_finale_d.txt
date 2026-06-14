@@ -2,71 +2,71 @@
 # Primary speaker: ice_drlekaaret
 # Source: game/conversations/unc_ice/ice_whales_1000_finale_d.xml
 ==================================================
-ice_drlekaaret: The people I hired shot at you, and you took care of them. I understand that. Now let's talk.
+[0002F774] ice_drlekaaret: The people I hired shot at you, and you took care of them. I understand that. Now let's talk.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: After all I've heard, I didn't expect that an angara led these hunts.
-    ice_drlekaaret: Then you've been talking to the angara here.
-    ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
-    ice_drlekaaret: But these creatures might also hold the key to our war against the kett.
-    Hero: Explain.
-    ice_drlekaaret: I've been performing tests. An enzyme in the yevara's skin could treat the effects of kett weaponry.
-    ice_drlekaaret: If I'm right, our fighters could heal faster. Push back against the kett.
+    [0002F809] Hero: After all I've heard, I didn't expect that an angara led these hunts.
+    [0002F81D] ice_drlekaaret: Then you've been talking to the angara here.
+    [0002F81E] ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
+    [0002F81B] ice_drlekaaret: But these creatures might also hold the key to our war against the kett.
+    [0002F825] Hero: Explain.
+    [0002F824] ice_drlekaaret: I've been performing tests. An enzyme in the yevara's skin could treat the effects of kett weaponry.
+    [0002F826] ice_drlekaaret: If I'm right, our fighters could heal faster. Push back against the kett.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: No... not like this. Creatures are dying.
-        ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
+        [000301A5] global_squad_angara ⟨cond⟩: No... not like this. Creatures are dying.
+        [0002F85E] ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: You really think this enzyme will work? It'll heal your people?
-            ice_drlekaaret: I need to run more tests. But it looks promising.
-            ice_drlekaaret: Just let me continue my research. For the future of my people.
+            [0002F864] Hero: You really think this enzyme will work? It'll heal your people?
+            [0002F866] ice_drlekaaret: I need to run more tests. But it looks promising.
+            [0002F877] ice_drlekaaret: Just let me continue my research. For the future of my people.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_squad_angara ⟨cond⟩: Ryder... I don't know how to feel. I can't make this decision.
+                [0002F874] global_squad_angara ⟨cond⟩: Ryder... I don't know how to feel. I can't make this decision.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: SAM, send her information to the Resistance.
-                    SAM: Transmitting data.
-                    Hero: I suggest you get off Voeld before they get that info.
-                    ice_drlekaaret: You're making a huge mistake.
+                    [0002F875] Hero: SAM, send her information to the Resistance.
+                    [0002F86F] SAM: Transmitting data.
+                    [0002F876] Hero: I suggest you get off Voeld before they get that info.
+                    [0002F878] ice_drlekaaret: You're making a huge mistake.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        global_squad_angara ⟨cond⟩: I'll contact the commander. Thank you, Ryder. I think this is the right choice.
+                        [0002F87D] global_squad_angara ⟨cond⟩: I'll contact the commander. Thank you, Ryder. I think this is the right choice.
                     ├ option 2:
-                        global_squad_angara: [Comm] I'll tell the commander. Thank you, Ryder. This feels like the right choice.
+                        [0002F87B] global_squad_angara: [Comm] I'll tell the commander. Thank you, Ryder. This feels like the right choice.
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
+                    [0002F872] Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        global_squad_angara ⟨cond⟩: This feels like a mistake.
-                        ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
+                        [0002F87C] global_squad_angara ⟨cond⟩: This feels like a mistake.
+                        [0002F87A] ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
                     ├ option 2:
-                        global_squad_angara: [Comm] This doesn't feel right.
-                        ↩ (goto) ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
+                        [0002F879] global_squad_angara: [Comm] This doesn't feel right.
+                        ↩ (goto) [0002F87A] ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                global_squad_angara: [Comm] Ryder... I can't make this decision. I hardly know how to feel.
+                [0002F871] global_squad_angara: [Comm] Ryder... I can't make this decision. I hardly know how to feel.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: SAM, send her information to the Resistance.
+                    ↩ (goto) [0002F875] Hero: SAM, send her information to the Resistance.
                 ├ option 2:
-                    ↩ (goto) Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
+                    ↩ (goto) [0002F872] Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: Even if the enzyme helps, the angara won't accept it when they know the source.
-            ice_drlekaaret: At first, maybe. But the angara have always been survivors. In time, they'll see reason.
-            ↩ (goto) ice_drlekaaret: Just let me continue my research. For the future of my people.
+            [0002F863] Hero: Even if the enzyme helps, the angara won't accept it when they know the source.
+            [0002F867] ice_drlekaaret: At first, maybe. But the angara have always been survivors. In time, they'll see reason.
+            ↩ (goto) [0002F877] ice_drlekaaret: Just let me continue my research. For the future of my people.
         └─ merge ─┘
     ├ option 2:
-        global_squad_angara: [Comm] She can't... not like this. Creatures are dying.
-        ↩ (goto) ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
+        [000301A6] global_squad_angara: [Comm] She can't... not like this. Creatures are dying.
+        ↩ (goto) [0002F85E] ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
     └─ merge ─┘
 ├ option 2:
-    Hero: You better have a great explanation for hunting yevara. Your people won't be happy to hear this.
-    ice_drlekaaret: So the angara sent you, then.
-    ↩ (goto) ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
+    [0002F80A] Hero: You better have a great explanation for hunting yevara. Your people won't be happy to hear this.
+    [0002F81C] ice_drlekaaret: So the angara sent you, then.
+    ↩ (goto) [0002F81E] ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
 └─ merge ─┘

@@ -2,76 +2,76 @@
 # Primary speaker: mer_hub_staff_chief_op_multi
 # Source: game/conversations/hubs/hub_mer/mer_staff_operations_i.xml
 ==================================================
-mer_hub_staff_chief_op_multi: What do you want?
-Hero: Something wrong?
-mer_hub_staff_chief_op_multi: Oh god, Pathfinder! This is small talk, isn't it. I'm sorry, it takes few moments to turn on my "human" face. What can I do for you?
+[0003044C] mer_hub_staff_chief_op_multi: What do you want?
+[00030441] Hero: Something wrong?
+[00030435] mer_hub_staff_chief_op_multi: Oh god, Pathfinder! This is small talk, isn't it. I'm sorry, it takes few moments to turn on my "human" face. What can I do for you?
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    Hero: What do you think Meridian needs from me?
-    mer_hub_staff_chief_op_multi: Your job {i}should{/i} be complete. Not to criticize your effort! But by the numbers, we were supposed to be beyond Pathfinders.
+    [00030452] Hero: What do you think Meridian needs from me?
+    [00030483] mer_hub_staff_chief_op_multi: Your job {i}should{/i} be complete. Not to criticize your effort! But by the numbers, we were supposed to be beyond Pathfinders.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        mer_hub_staff_chief_op_multi ⟨cond⟩: It's hard to think of "being done" with arks still in limbo. If your contacts have any information, I would focus there.
+        [00030431] mer_hub_staff_chief_op_multi ⟨cond⟩: It's hard to think of "being done" with arks still in limbo. If your contacts have any information, I would focus there.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            mer_hub_staff_chief_op_multi ⟨cond⟩: But we cannot ignore the obvious. Meridian is fine, but finite. If there remain worlds that can sustain an outpost, you must find them.
-            mer_hub_staff_chief_op_multi: Your job is to make yourself obsolete. I wish you, and all of us, the best of luck.
-            ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+            [00030484] mer_hub_staff_chief_op_multi ⟨cond⟩: But we cannot ignore the obvious. Meridian is fine, but finite. If there remain worlds that can sustain an outpost, you must find them.
+            [00030486] mer_hub_staff_chief_op_multi: Your job is to make yourself obsolete. I wish you, and all of us, the best of luck.
+            ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
         ├ option 2:
-            ↩ (goto) mer_hub_staff_chief_op_multi: Your job is to make yourself obsolete. I wish you, and all of us, the best of luck.
+            ↩ (goto) [00030486] mer_hub_staff_chief_op_multi: Your job is to make yourself obsolete. I wish you, and all of us, the best of luck.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) mer_hub_staff_chief_op_multi ⟨cond⟩: But we cannot ignore the obvious. Meridian is fine, but finite. If there remain worlds that can sustain an outpost, you must find them.
+        ↩ (goto) [00030484] mer_hub_staff_chief_op_multi ⟨cond⟩: But we cannot ignore the obvious. Meridian is fine, but finite. If there remain worlds that can sustain an outpost, you must find them.
     ├ option 3:
-        mer_hub_staff_chief_op_multi: In fact, we are in spectacular shape. Arks secured, outposts placed. Yes. We are approaching normality.
-        mer_hub_staff_chief_op_multi: Or perhaps "normal" is at least visible from here.
-        ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+        [00030485] mer_hub_staff_chief_op_multi: In fact, we are in spectacular shape. Arks secured, outposts placed. Yes. We are approaching normality.
+        [00030482] mer_hub_staff_chief_op_multi: Or perhaps "normal" is at least visible from here.
+        ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
     └─ merge ─┘
 ├ option 2:
-    Hero: What have you learned about this world?
+    [00030430] Hero: What have you learned about this world?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        mer_hub_staff_chief_op_multi [OncePerGame]: Have you seen the change in the Remnant ships? They're... doing things. They say it's automated "maintenance" but...
-        mer_hub_staff_chief_op_multi: Seven of the largest ships docked on the exterior. Power dimmed, then they left. We lost them in the Scourge.
+        [0003043B] mer_hub_staff_chief_op_multi [OncePerGame]: Have you seen the change in the Remnant ships? They're... doing things. They say it's automated "maintenance" but...
+        [000304A4] mer_hub_staff_chief_op_multi: Seven of the largest ships docked on the exterior. Power dimmed, then they left. We lost them in the Scourge.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Heleus was a mystery, but I've found explanations for nearly everything.
-            mer_hub_staff_chief_op_multi: There was a book I read as a teen—Clarke—about first contact. But there was no contact. It was just a ship on its way somewhere else.
-            mer_hub_staff_chief_op_multi: It made me feel small, that I—and humanity—wasn't the center of everything. It was humbling, but comforting too.
-            mer_hub_staff_chief_op_multi: {i}The Seven{/i} have done the same, but I'm not comforted. This place, Pathfinder, it's still bigger than us. Heleus is still bigger.
-            ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+            [000304B4] Hero: Heleus was a mystery, but I've found explanations for nearly everything.
+            [000304A9] mer_hub_staff_chief_op_multi: There was a book I read as a teen—Clarke—about first contact. But there was no contact. It was just a ship on its way somewhere else.
+            [000304A8] mer_hub_staff_chief_op_multi: It made me feel small, that I—and humanity—wasn't the center of everything. It was humbling, but comforting too.
+            [000304A3] mer_hub_staff_chief_op_multi: {i}The Seven{/i} have done the same, but I'm not comforted. This place, Pathfinder, it's still bigger than us. Heleus is still bigger.
+            ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
         ├ option 2:
-            Hero: I'm pretty tired of surprises. Should we be worried?
-            ↩ (goto) mer_hub_staff_chief_op_multi: There was a book I read as a teen—Clarke—about first contact. But there was no contact. It was just a ship on its way somewhere else.
+            [000304AA] Hero: I'm pretty tired of surprises. Should we be worried?
+            ↩ (goto) [000304A9] mer_hub_staff_chief_op_multi: There was a book I read as a teen—Clarke—about first contact. But there was no contact. It was just a ship on its way somewhere else.
         └─ merge ─┘
     ├ option 2:
-        mer_hub_staff_chief_op_multi: As I said, it seems that Heleus still has secrets. I hope, as we planned, that we will define our place.
-        ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+        [000304BC] mer_hub_staff_chief_op_multi: As I said, it seems that Heleus still has secrets. I hope, as we planned, that we will define our place.
+        ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
     └─ merge ─┘
 ├ option 3:
-    Hero: How did you come to the Initiative, Iora?
-    mer_hub_staff_chief_op_multi: Pioneers come in many forms. To be the organizational foundation, the Chief of Operations on an ark? How could I not come?
-    mer_hub_staff_chief_op_multi: Plus, I'm rather pleased my colonist ID is D-46 Chicago.
+    [00030450] Hero: How did you come to the Initiative, Iora?
+    [00030474] mer_hub_staff_chief_op_multi: Pioneers come in many forms. To be the organizational foundation, the Chief of Operations on an ark? How could I not come?
+    [00030476] mer_hub_staff_chief_op_multi: Plus, I'm rather pleased my colonist ID is D-46 Chicago.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: The... number of human chromosomes?
-        mer_hub_staff_chief_op_multi: My hometown. But that's interesting too.
-        ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+        [00030508] Hero ⟨cond⟩: The... number of human chromosomes?
+        [00030507] mer_hub_staff_chief_op_multi: My hometown. But that's interesting too.
+        ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
     ├ option 2:
-        Hero: Not sure I get it.
-        mer_hub_staff_chief_op_multi: That's all right. It's not for you.
-        ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+        [00030504] Hero: Not sure I get it.
+        [00030503] mer_hub_staff_chief_op_multi: That's all right. It's not for you.
+        ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
     └─ merge ─┘
 ├ option 4:
-    Hero: Another time.
-    mer_hub_staff_chief_op_multi: Of course, Pathfinder.
+    [0003044D] Hero: Another time.
+    [00030439] mer_hub_staff_chief_op_multi: Of course, Pathfinder.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    mer_hub_staff_chief_op_multi: Greetings, Pathfinder.
-    ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+    [00030438] mer_hub_staff_chief_op_multi: Greetings, Pathfinder.
+    ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
 ├ option 2:
-    mer_hub_staff_chief_op_multi: We are at your service.
-    ↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+    [0003043D] mer_hub_staff_chief_op_multi: We are at your service.
+    ↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]
 └─ merge ─┘
-↩ (goto) mer_hub_staff_chief_op_multi: [empty]
+↩ (goto) [00030445] mer_hub_staff_chief_op_multi: [empty]

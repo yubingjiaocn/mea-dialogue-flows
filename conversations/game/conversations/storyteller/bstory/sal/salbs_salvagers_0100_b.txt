@@ -4,94 +4,94 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    SAM: The locker contains personal items. It is registered to the Paarchero.
-    Hero: Paarchero? This is from the salarian ark.
+    [0001B738] SAM: The locker contains personal items. It is registered to the Paarchero.
+    [0001B73B] Hero: Paarchero? This is from the salarian ark.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: Maybe its owner is back on the Nexus.
-            Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B9F1] global_squad_turian ⟨cond⟩: Maybe its owner is back on the Nexus.
+            [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero ⟨cond⟩: Worth following up.
+                [0001B9F3] Hero ⟨cond⟩: Worth following up.
             ├ option 2:
-                Hero: The salarians are out there, somewhere.
+                [0001B743] Hero: The salarians are out there, somewhere.
             └─ merge ─┘
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: Guess in all the excitement, no one noticed it was missing.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B9EF] global_squad_male_human ⟨cond⟩: Guess in all the excitement, no one noticed it was missing.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 3:
-            global_squad_asari ⟨cond⟩: Boy, did it dodge a bullet.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B9F5] global_squad_asari ⟨cond⟩: Boy, did it dodge a bullet.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 4:
-            global_squad_female_human ⟨cond⟩: Another survivor.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B9F0] global_squad_female_human ⟨cond⟩: Another survivor.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 5:
-            global_squad_angara ⟨cond⟩: Ha. The kett couldn't control everything.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B9F4] global_squad_angara ⟨cond⟩: Ha. The kett couldn't control everything.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 6:
-            global_squad_krogan ⟨cond⟩: Interesting that the kett just let it go.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B9F2] global_squad_krogan ⟨cond⟩: Interesting that the kett just let it go.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: So they're here.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B73D] global_squad_turian ⟨cond⟩: So they're here.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: They made it!
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B741] global_squad_male_human ⟨cond⟩: They made it!
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 3:
-            global_squad_asari ⟨cond⟩: That means they got through dark space.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B73C] global_squad_asari ⟨cond⟩: That means they got through dark space.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 4:
-            global_squad_female_human ⟨cond⟩: Another ark survived. Phew.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B740] global_squad_female_human ⟨cond⟩: Another ark survived. Phew.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 5:
-            global_squad_angara ⟨cond⟩: More of your allies?
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B73F] global_squad_angara ⟨cond⟩: More of your allies?
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         ├ option 6:
-            global_squad_krogan ⟨cond⟩: Hmph. They actually got here, then.
-            ↩ (goto) Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
+            [0001B73E] global_squad_krogan ⟨cond⟩: Hmph. They actually got here, then.
+            ↩ (goto) [0001B744] Hero: It looks like a salvage team is hunting down these lockers—meaning there's more.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: You've got to wonder how all these personal lockers got off the salarian ark.
+    [0001B746] Hero: You've got to wonder how all these personal lockers got off the salarian ark.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: Did the kett just throw them away?
+        [0001B876] Hero ⟨cond⟩: Did the kett just throw them away?
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: At least we can bring them home.
+            [0001B873] global_squad_turian ⟨cond⟩: At least we can bring them home.
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: Or the salarians did it. Keeping mementos out of enemy hands.
+            [0001B878] global_squad_male_human ⟨cond⟩: Or the salarians did it. Keeping mementos out of enemy hands.
         ├ option 3:
-            global_squad_asari ⟨cond⟩: Probably needed more space for oppressing people.
+            [0001B872] global_squad_asari ⟨cond⟩: Probably needed more space for oppressing people.
         ├ option 4:
-            global_squad_female_human ⟨cond⟩: Didn't throw them far enough.
+            [0001B877] global_squad_female_human ⟨cond⟩: Didn't throw them far enough.
         ├ option 5:
-            global_squad_angara ⟨cond⟩: Why not? Their exalted would no longer care.
+            [0001B875] global_squad_angara ⟨cond⟩: Why not? Their exalted would no longer care.
         ├ option 6:
-            global_squad_krogan ⟨cond⟩: Shoulda sold them. No point wasting good salvage.
+            [0001B874] global_squad_krogan ⟨cond⟩: Shoulda sold them. No point wasting good salvage.
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            global_squad_turian ⟨cond⟩: Fell off the back! Sorry. Old reflex.
+            [0001B86E] global_squad_turian ⟨cond⟩: Fell off the back! Sorry. Old reflex.
         ├ option 2:
-            global_squad_male_human ⟨cond⟩: Dropping cargo could have helped them maneuver through the Scourge.
+            [0001B869] global_squad_male_human ⟨cond⟩: Dropping cargo could have helped them maneuver through the Scourge.
         ├ option 3:
-            global_squad_asari ⟨cond⟩: You know how it is when you jettison your clutter into space. Everyone does that. Right?
+            [0001B86B] global_squad_asari ⟨cond⟩: You know how it is when you jettison your clutter into space. Everyone does that. Right?
         ├ option 4:
-            global_squad_female_human ⟨cond⟩: No scorch marks or bullet holes. Probably not lost in an attack.
+            [0001B86D] global_squad_female_human ⟨cond⟩: No scorch marks or bullet holes. Probably not lost in an attack.
         ├ option 5:
-            global_squad_angara ⟨cond⟩: These are memories, precious things. It's good to save them.
+            [0001B86C] global_squad_angara ⟨cond⟩: These are memories, precious things. It's good to save them.
         ├ option 6:
-            global_squad_krogan ⟨cond⟩: Someone could have popped a hole in the hull, but—nah, doesn't seem likely.
+            [0001B86A] global_squad_krogan ⟨cond⟩: Someone could have popped a hole in the hull, but—nah, doesn't seem likely.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 3:
-    Hero: That's the last one. Sounds like the salvage team went off the grid.
-    Hero: At least these lockers will find their way home.
+    [0001B9E9] Hero: That's the last one. Sounds like the salvage team went off the grid.
+    [0001B9ED] Hero: At least these lockers will find their way home.
 └─ merge ─┘

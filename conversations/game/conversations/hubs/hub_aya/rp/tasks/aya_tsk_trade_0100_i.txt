@@ -2,88 +2,88 @@
 # Primary speaker: aya_turian_pilot
 # Source: game/conversations/hubs/hub_aya/rp/tasks/aya_tsk_trade_0100_i.xml
 ==================================================
-aya_turian_pilot [OncePerGame]: Honor to meet you, Pathfinder. Initiative Pilot Merixus. I run supplies to your outposts.
-Hero: What brings you to Aya?
-aya_turian_pilot: There are survival supplies only Aya has. I'm waiting on clearance to enter the city, but it's taking too long.
-aya_turian_pilot: I understand their caution, but the outposts need these supplies. I have to get them—now.
-Hero: They let me into the city. I can help.
-aya_turian_pilot: I appreciate that. To start, Eos needs a way to produce food to support population growth.
-aya_turian_pilot: They've requested quilloa seeds, to begin their own crops. There's an agricultural scientist who might sell some.
-Hero: I'll make sure to get those seeds.
+[00029351] aya_turian_pilot [OncePerGame]: Honor to meet you, Pathfinder. Initiative Pilot Merixus. I run supplies to your outposts.
+[00029373] Hero: What brings you to Aya?
+[00029374] aya_turian_pilot: There are survival supplies only Aya has. I'm waiting on clearance to enter the city, but it's taking too long.
+[00029589] aya_turian_pilot: I understand their caution, but the outposts need these supplies. I have to get them—now.
+[00029372] Hero: They let me into the city. I can help.
+[0002937E] aya_turian_pilot: I appreciate that. To start, Eos needs a way to produce food to support population growth.
+[0002958A] aya_turian_pilot: They've requested quilloa seeds, to begin their own crops. There's an agricultural scientist who might sell some.
+[0002960D] Hero: I'll make sure to get those seeds.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    aya_turian_pilot ⟨cond⟩: Settlers on Kadara are suffering from a bacterial infection. They need angaran antibiotics to fight it.
-    aya_turian_pilot: A medic in the city should be able to help.
-    Hero: Got it. They'll have that medicine in no time.
+    [0002937C] aya_turian_pilot ⟨cond⟩: Settlers on Kadara are suffering from a bacterial infection. They need angaran antibiotics to fight it.
+    [000295A8] aya_turian_pilot: A medic in the city should be able to help.
+    [00029619] Hero: Got it. They'll have that medicine in no time.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
-        aya_turian_pilot: There are engineers who work on the aqueducts here. I'll bet they have what we need.
-        Hero: On it. One filter, coming up.
+        [0002937A] aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
+        [000295B5] aya_turian_pilot: There are engineers who work on the aqueducts here. I'll bet they have what we need.
+        [0002937B] Hero: On it. One filter, coming up.
     ├ option 2:
-        ↩ (goto) aya_turian_pilot: [empty]
+        ↩ (goto) [00029393] aya_turian_pilot: [empty]
     └─ merge ─┘
 ├ option 2:
-    aya_turian_pilot ⟨cond⟩: Voeld's power grid is lagging without proper solar input. A solar amplifier would give them a boost.
-    aya_turian_pilot: The solar technicians here may have the required parts.
-    Hero: I'll see what I can find.
+    [0002937D] aya_turian_pilot ⟨cond⟩: Voeld's power grid is lagging without proper solar input. A solar amplifier would give them a boost.
+    [000295B2] aya_turian_pilot: The solar technicians here may have the required parts.
+    [0002961A] Hero: I'll see what I can find.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) aya_turian_pilot ⟨cond⟩: Settlers on Kadara are suffering from a bacterial infection. They need angaran antibiotics to fight it.
+        ↩ (goto) [0002937C] aya_turian_pilot ⟨cond⟩: Settlers on Kadara are suffering from a bacterial infection. They need angaran antibiotics to fight it.
     ├ option 2:
-        ↩ (goto) aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
+        ↩ (goto) [0002937A] aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
     ├ option 3:
-        ↩ (goto) aya_turian_pilot: [empty]
+        ↩ (goto) [00029393] aya_turian_pilot: [empty]
     └─ merge ─┘
 ├ option 3:
-    ↩ (goto) aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
+    ↩ (goto) [0002937A] aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
 ├ option 4:
-    ↩ (goto) aya_turian_pilot: [empty]
+    ↩ (goto) [00029393] aya_turian_pilot: [empty]
 └─ merge ─┘
-Hero ⟨cond⟩: I found quilloa seeds for Eos. Is this enough?
-aya_turian_pilot: It's perfect. I'll make sure Eos gets them.
+[00029399] Hero ⟨cond⟩: I found quilloa seeds for Eos. Is this enough?
+[00029394] aya_turian_pilot: It's perfect. I'll make sure Eos gets them.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
+    [0002937F] aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) aya_turian_pilot ⟨cond⟩: Voeld's power grid is lagging without proper solar input. A solar amplifier would give them a boost.
+        ↩ (goto) [0002937D] aya_turian_pilot ⟨cond⟩: Voeld's power grid is lagging without proper solar input. A solar amplifier would give them a boost.
     ├ option 2:
-        ↩ (goto) aya_turian_pilot ⟨cond⟩: Settlers on Kadara are suffering from a bacterial infection. They need angaran antibiotics to fight it.
+        ↩ (goto) [0002937C] aya_turian_pilot ⟨cond⟩: Settlers on Kadara are suffering from a bacterial infection. They need angaran antibiotics to fight it.
     ├ option 3:
-        ↩ (goto) aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
+        ↩ (goto) [0002937A] aya_turian_pilot ⟨cond⟩: Elaaden's water purifier can't keep up with demand. They're requesting one of those angaran ionic filters.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) aya_turian_pilot: [empty]
+    ↩ (goto) [00029393] aya_turian_pilot: [empty]
 └─ merge ─┘
-Hero ⟨cond⟩: Here, I have the antibiotics for Kadara. Will the settlers be okay?
-aya_turian_pilot: Once they have these, they'll be fine. I'll make sure they know who to thank.
+[0002939A] Hero ⟨cond⟩: Here, I have the antibiotics for Kadara. Will the settlers be okay?
+[00029398] aya_turian_pilot: Once they have these, they'll be fine. I'll make sure they know who to thank.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
+    ↩ (goto) [0002937F] aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
 ├ option 2:
-    ↩ (goto) aya_turian_pilot: [empty]
+    ↩ (goto) [00029393] aya_turian_pilot: [empty]
 └─ merge ─┘
-Hero ⟨cond⟩: Here, I found the solar amplifier for Voeld.
-aya_turian_pilot: They'll be happy to see this. No more power outages. Thank you, Pathfinder.
+[00029395] Hero ⟨cond⟩: Here, I found the solar amplifier for Voeld.
+[00029392] aya_turian_pilot: They'll be happy to see this. No more power outages. Thank you, Pathfinder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
+    ↩ (goto) [0002937F] aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
 ├ option 2:
-    ↩ (goto) aya_turian_pilot: [empty]
+    ↩ (goto) [00029393] aya_turian_pilot: [empty]
 └─ merge ─┘
-Hero ⟨cond⟩: I managed to find an ionic filter for Elaaden. Make sure they get it.
-aya_turian_pilot: I'll get this delivered right away. They'll be relieved to have enough water.
+[00029396] Hero ⟨cond⟩: I managed to find an ionic filter for Elaaden. Make sure they get it.
+[00029397] aya_turian_pilot: I'll get this delivered right away. They'll be relieved to have enough water.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
+    ↩ (goto) [0002937F] aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
 ├ option 2:
-    ↩ (goto) aya_turian_pilot: [empty]
+    ↩ (goto) [00029393] aya_turian_pilot: [empty]
 └─ merge ─┘
-aya_turian_pilot: Pathfinder.
+[00029380] aya_turian_pilot: Pathfinder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
+    ↩ (goto) [0002937F] aya_turian_pilot ⟨cond⟩: More of your outposts need help, if you have time.
 ├ option 2:
-    ↩ (goto) aya_turian_pilot: [empty]
+    ↩ (goto) [00029393] aya_turian_pilot: [empty]
 └─ merge ─┘

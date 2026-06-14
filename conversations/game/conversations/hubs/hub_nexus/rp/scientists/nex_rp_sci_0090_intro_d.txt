@@ -4,45 +4,45 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    nex_rp_sci_sci01 ⟨cond⟩ [OncePerGame]: You must be the Pathfinder. Wonderful! You and your SAM are exactly what we need.
-    Hero: Thanks, mister...?
+    [00023415] nex_rp_sci_sci01 ⟨cond⟩ [OncePerGame]: You must be the Pathfinder. Wonderful! You and your SAM are exactly what we need.
+    [0000C5C3] Hero: Thanks, mister...?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        nex_rp_sci_sci01 ⟨cond⟩: Professor Herik. My colleagues and I will work with your SAM and the data you gather to solve Andromeda's scientific mysteries.
+        [00023414] nex_rp_sci_sci01 ⟨cond⟩: Professor Herik. My colleagues and I will work with your SAM and the data you gather to solve Andromeda's scientific mysteries.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: What fields do you study?
-            nex_rp_sci_sci03: Herik's into life sciences. I do planetary geology, oceanography—rocks and runoff. Aridana's the space and math whiz.
+            [0000C5D1] Hero: What fields do you study?
+            [0000C5D7] nex_rp_sci_sci03: Herik's into life sciences. I do planetary geology, oceanography—rocks and runoff. Aridana's the space and math whiz.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nex_rp_sci_sci01 ⟨cond⟩: The sterling data you've sent has us running ragged. Addison finally gave us an actual workspace.
-                nex_rp_sci_sci03: Keep up the good work, champ.
+                [0000C604] nex_rp_sci_sci01 ⟨cond⟩: The sterling data you've sent has us running ragged. Addison finally gave us an actual workspace.
+                [0000C601] nex_rp_sci_sci03: Keep up the good work, champ.
             ├ option 2:
-                nex_rp_sci_sci01: Not that we've had much to study, with everyone cooped up for fourteen months...
-                nex_rp_sci_sci02: But your data on the Scourge flows like poetry. Now we can better advise on repairing the damage it caused.
-                nex_rp_sci_sci01: And maybe Addison will give us a real workspace. Who can think with all this racket?
+                [0000C5FF] nex_rp_sci_sci01: Not that we've had much to study, with everyone cooped up for fourteen months...
+                [0000C5C6] nex_rp_sci_sci02: But your data on the Scourge flows like poetry. Now we can better advise on repairing the damage it caused.
+                [0000C5C5] nex_rp_sci_sci01: And maybe Addison will give us a real workspace. Who can think with all this racket?
             └─ merge ─┘
         ├ option 2:
-            Hero: I'm usually out in the field, but I wouldn't mind talking shop—lab. You know.
-            nex_rp_sci_sci02: You are always welcome.
+            [0000C5D5] Hero: I'm usually out in the field, but I wouldn't mind talking shop—lab. You know.
+            [0000C5D6] nex_rp_sci_sci02: You are always welcome.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                nex_rp_sci_sci01 ⟨cond⟩: Indeed! It's thanks to your sterling data gathering that we were able to wrangle this space from Addison.
-                ↩ (goto) nex_rp_sci_sci03: Keep up the good work, champ.
+                [0000C605] nex_rp_sci_sci01 ⟨cond⟩: Indeed! It's thanks to your sterling data gathering that we were able to wrangle this space from Addison.
+                ↩ (goto) [0000C601] nex_rp_sci_sci03: Keep up the good work, champ.
             ├ option 2:
-                ↩ (goto) nex_rp_sci_sci01: Not that we've had much to study, with everyone cooped up for fourteen months...
+                ↩ (goto) [0000C5FF] nex_rp_sci_sci01: Not that we've had much to study, with everyone cooped up for fourteen months...
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        nex_rp_sci_sci01: Professor Herik. My colleagues and I work directly with SAM, refining your field scans into discoveries to benefit the Initiative. Hopefully.
+        [0000C5D4] nex_rp_sci_sci01: Professor Herik. My colleagues and I work directly with SAM, refining your field scans into discoveries to benefit the Initiative. Hopefully.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero: What fields do you study?
+            ↩ (goto) [0000C5D1] Hero: What fields do you study?
         ├ option 2:
-            ↩ (goto) Hero: I'm usually out in the field, but I wouldn't mind talking shop—lab. You know.
+            ↩ (goto) [0000C5D5] Hero: I'm usually out in the field, but I wouldn't mind talking shop—lab. You know.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    nex_rp_sci_sci01 ⟨cond⟩ [OncePerGame]: Ah, Pathfinder, the information you gathered is marvelous! You and your SAM, of course.
-    ↩ (goto) Hero: Thanks, mister...?
+    [0000C5C1] nex_rp_sci_sci01 ⟨cond⟩ [OncePerGame]: Ah, Pathfinder, the information you gathered is marvelous! You and your SAM, of course.
+    ↩ (goto) [0000C5C3] Hero: Thanks, mister...?
 └─ merge ─┘

@@ -2,51 +2,51 @@
 # Primary speaker: SAM
 # Source: game/conversations/unc/olw/outpost_loop/olw_0100_outpost_scan_b.xml
 ==================================================
-SAM: This area could be viable for an Initiative outpost, Pathfinder.
+[000194F1] SAM: This area could be viable for an Initiative outpost, Pathfinder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Kadara's water is fixed, but Sloane Kelly—she's still a problem.
-        Hero: What about the Charlatan? The Collective's gaining power.
-        SAM: We do not know the Charlatan's identity. Sloane may be our only option. Vidal could offer insight.
+        [000194EA] global_squad_angara ⟨cond⟩: Kadara's water is fixed, but Sloane Kelly—she's still a problem.
+        [00019649] Hero: What about the Charlatan? The Collective's gaining power.
+        [0001B3D3] SAM: We do not know the Charlatan's identity. Sloane may be our only option. Vidal could offer insight.
     ├ option 2:
-        global_squad_asari ⟨cond⟩: We fixed the water, but Sloane hates the Initiative. Doubt she'll let us set up here.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194F2] global_squad_asari ⟨cond⟩: We fixed the water, but Sloane hates the Initiative. Doubt she'll let us set up here.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: Water's potable now. But Sloane—she's still a problem.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194E9] global_squad_female_human ⟨cond⟩: Water's potable now. But Sloane—she's still a problem.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 4:
-        global_squad_krogan ⟨cond⟩: Sloane's not gonna let us set up on her territory.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194F4] global_squad_krogan ⟨cond⟩: Sloane's not gonna let us set up on her territory.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: This is Sloane's house. We barge in and that's asking for a fight.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194E3] global_squad_male_human ⟨cond⟩: This is Sloane's house. We barge in and that's asking for a fight.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 6:
-        global_squad_turian ⟨cond⟩: Sloane won't like the Initiative showing up on her doorstep.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194E5] global_squad_turian ⟨cond⟩: Sloane won't like the Initiative showing up on her doorstep.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     └─ merge ─┘
 ├ option 2:
-    SAM ⟨cond⟩: However, for any long-term success, you'll need to find a solution to Kadara's water toxicity problems.
+    [000194E8] SAM ⟨cond⟩: However, for any long-term success, you'll need to find a solution to Kadara's water toxicity problems.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: The person running this place holds a grudge against the Initiative. Doubt she'll let you settle here.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194E6] global_squad_angara ⟨cond⟩: The person running this place holds a grudge against the Initiative. Doubt she'll let you settle here.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Don't forget Sloane. And how she hates the Initiative.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194E7] global_squad_asari ⟨cond⟩: Don't forget Sloane. And how she hates the Initiative.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: Can't settle here unless Sloane agrees to play nice.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194E4] global_squad_female_human ⟨cond⟩: Can't settle here unless Sloane agrees to play nice.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 4:
-        global_squad_krogan ⟨cond⟩: This is Sloane's territory. Gotta make a deal with her first.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194F3] global_squad_krogan ⟨cond⟩: This is Sloane's territory. Gotta make a deal with her first.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: Exiles are also a problem. Sloane'll shoot down our shuttles before we can start building.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194EB] global_squad_male_human ⟨cond⟩: Exiles are also a problem. Sloane'll shoot down our shuttles before we can start building.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     ├ option 6:
-        global_squad_turian ⟨cond⟩: Sloane won't like us setting up outside her door.
-        ↩ (goto) Hero: What about the Charlatan? The Collective's gaining power.
+        [000194F0] global_squad_turian ⟨cond⟩: Sloane won't like us setting up outside her door.
+        ↩ (goto) [00019649] Hero: What about the Charlatan? The Collective's gaining power.
     └─ merge ─┘
 └─ merge ─┘
-SAM ⟨cond⟩: This area is viable for an Initiative outpost, Pathfinder.
+[000194ED] SAM ⟨cond⟩: This area is viable for an Initiative outpost, Pathfinder.

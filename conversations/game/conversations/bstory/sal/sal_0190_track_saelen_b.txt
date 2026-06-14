@@ -4,81 +4,81 @@
 ==================================================
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    SAM: Pathfinder, these are the approximate coordinates extrapolated from the salarian apartment.
+    [0001AB7B] SAM: Pathfinder, these are the approximate coordinates extrapolated from the salarian apartment.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: No sign anyone was here.
-        Hero: There's sand traps all over. Let's look under the surface.
+        [0001ABE0] global_squad_female_human ⟨cond⟩: No sign anyone was here.
+        [0001ABE3] Hero: There's sand traps all over. Let's look under the surface.
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: The ground feels unstable.
-        ↩ (goto) Hero: There's sand traps all over. Let's look under the surface.
+        [0001ABDD] global_squad_male_human ⟨cond⟩: The ground feels unstable.
+        ↩ (goto) [0001ABE3] Hero: There's sand traps all over. Let's look under the surface.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: And... nothing.
-        ↩ (goto) Hero: There's sand traps all over. Let's look under the surface.
+        [0001ABDF] global_squad_asari ⟨cond⟩: And... nothing.
+        ↩ (goto) [0001ABE3] Hero: There's sand traps all over. Let's look under the surface.
     ├ option 4:
-        global_squad_angara ⟨cond⟩: It appears empty.
-        ↩ (goto) Hero: There's sand traps all over. Let's look under the surface.
+        [0001ABDE] global_squad_angara ⟨cond⟩: It appears empty.
+        ↩ (goto) [0001ABE3] Hero: There's sand traps all over. Let's look under the surface.
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: This was sure worth the trip.
-        ↩ (goto) Hero: There's sand traps all over. Let's look under the surface.
+        [0001ABE2] global_squad_krogan ⟨cond⟩: This was sure worth the trip.
+        ↩ (goto) [0001ABE3] Hero: There's sand traps all over. Let's look under the surface.
     ├ option 6:
-        global_squad_turian ⟨cond⟩: Maybe they picked something up?
-        ↩ (goto) Hero: There's sand traps all over. Let's look under the surface.
+        [0001ABE1] global_squad_turian ⟨cond⟩: Maybe they picked something up?
+        ↩ (goto) [0001ABE3] Hero: There's sand traps all over. Let's look under the surface.
     └─ merge ─┘
 ├ option 2:
-    Hero: Something was here, then dragged... that way.
+    [0001ABE8] Hero: Something was here, then dragged... that way.
 ├ option 3:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Scavengers. Might be trouble.
-        Hero: The trail leads right to them.
+        [0001ABEB] global_squad_female_human ⟨cond⟩: Scavengers. Might be trouble.
+        [0001AC1E] Hero: The trail leads right to them.
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: We've got company. Probably scavengers looking for junk.
-        ↩ (goto) Hero: The trail leads right to them.
+        [0001ABEA] global_squad_male_human ⟨cond⟩: We've got company. Probably scavengers looking for junk.
+        ↩ (goto) [0001AC1E] Hero: The trail leads right to them.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Those scavengers could be a problem.
-        ↩ (goto) Hero: The trail leads right to them.
+        [0001ABE6] global_squad_asari ⟨cond⟩: Those scavengers could be a problem.
+        ↩ (goto) [0001AC1E] Hero: The trail leads right to them.
     ├ option 4:
-        global_squad_angara ⟨cond⟩: There. Scavengers. Likely unfriendly.
-        ↩ (goto) Hero: The trail leads right to them.
+        [0001ABE7] global_squad_angara ⟨cond⟩: There. Scavengers. Likely unfriendly.
+        ↩ (goto) [0001AC1E] Hero: The trail leads right to them.
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: Scavengers. This could be fun.
-        ↩ (goto) Hero: The trail leads right to them.
+        [0001ABEC] global_squad_krogan ⟨cond⟩: Scavengers. This could be fun.
+        ↩ (goto) [0001AC1E] Hero: The trail leads right to them.
     ├ option 6:
-        global_squad_turian ⟨cond⟩: Scavengers. I'd be careful. Out here, they're dangerous.
-        ↩ (goto) Hero: The trail leads right to them.
+        [0001ABE5] global_squad_turian ⟨cond⟩: Scavengers. I'd be careful. Out here, they're dangerous.
+        ↩ (goto) [0001AC1E] Hero: The trail leads right to them.
     └─ merge ─┘
 ├ option 4:
-    Hero: Yeah, they aren't friendly!
+    [0002DF0D] Hero: Yeah, they aren't friendly!
 ├ option 5:
-    Hero ⟨cond⟩: They're down. Finally.
+    [0002DF0F] Hero ⟨cond⟩: They're down. Finally.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: So, what did they drag here?
+        [0002DF10] Hero ⟨cond⟩: So, what did they drag here?
     ├ option 2:
-        Hero ⟨cond⟩: Let's check on Saelen.
+        [0002DF27] Hero ⟨cond⟩: Let's check on Saelen.
     └─ merge ─┘
 ├ option 6:
-    Hero: Wait, is that Saelen?
+    [0001AC17] Hero: Wait, is that Saelen?
 ├ option 7:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: He's alive. Barely.
-        Hero: Pass the medi-gel. Let's get him back on his feet.
+        [0001AC1A] global_squad_female_human ⟨cond⟩: He's alive. Barely.
+        [0001AC1D] Hero: Pass the medi-gel. Let's get him back on his feet.
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: He's dehydrated, but alive.
-        ↩ (goto) Hero: Pass the medi-gel. Let's get him back on his feet.
+        [0001AC1C] global_squad_male_human ⟨cond⟩: He's dehydrated, but alive.
+        ↩ (goto) [0001AC1D] Hero: Pass the medi-gel. Let's get him back on his feet.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: He's still breathing.
-        ↩ (goto) Hero: Pass the medi-gel. Let's get him back on his feet.
+        [0001AC16] global_squad_asari ⟨cond⟩: He's still breathing.
+        ↩ (goto) [0001AC1D] Hero: Pass the medi-gel. Let's get him back on his feet.
     ├ option 4:
-        global_squad_angara ⟨cond⟩: Alive, but likely not feeling well.
-        ↩ (goto) Hero: Pass the medi-gel. Let's get him back on his feet.
+        [0001AC18] global_squad_angara ⟨cond⟩: Alive, but likely not feeling well.
+        ↩ (goto) [0001AC1D] Hero: Pass the medi-gel. Let's get him back on his feet.
     ├ option 5:
-        global_squad_krogan ⟨cond⟩: He's hanging in there.
-        ↩ (goto) Hero: Pass the medi-gel. Let's get him back on his feet.
+        [0001AC15] global_squad_krogan ⟨cond⟩: He's hanging in there.
+        ↩ (goto) [0001AC1D] Hero: Pass the medi-gel. Let's get him back on his feet.
     ├ option 6:
-        global_squad_turian ⟨cond⟩: Not dead yet, but in bad shape.
-        ↩ (goto) Hero: Pass the medi-gel. Let's get him back on his feet.
+        [0001AC1F] global_squad_turian ⟨cond⟩: Not dead yet, but in bad shape.
+        ↩ (goto) [0001AC1D] Hero: Pass the medi-gel. Let's get him back on his feet.
     └─ merge ─┘
 └─ merge ─┘

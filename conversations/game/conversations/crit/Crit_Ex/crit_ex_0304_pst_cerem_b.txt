@@ -4,36 +4,36 @@
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: Did I hear that right? "The chosen"?
-    Hero: Chosen for what, exactly?
+    [000173A4] global_squad_krogan ⟨cond⟩: Did I hear that right? "The chosen"?
+    [000173AF] Hero: Chosen for what, exactly?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_krogan ⟨cond⟩: Jaal, they happy to be here?
-        global_squad_angara: No, of course not! I don't know what's going on either.
-        Hero: Whatever it is, we need to get the Moshae out of it.
+        [000173B0] global_squad_krogan ⟨cond⟩: Jaal, they happy to be here?
+        [000173AA] global_squad_angara: No, of course not! I don't know what's going on either.
+        [000173AB] Hero: Whatever it is, we need to get the Moshae out of it.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: Could they have come here because they wanted to?
-        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+        [000173AC] global_squad_turian ⟨cond⟩: Could they have come here because they wanted to?
+        ↩ (goto) [000173AA] global_squad_angara: No, of course not! I don't know what's going on either.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: Jaal... they can't have chosen to be here, can they?
-        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+        [000173A7] global_squad_asari ⟨cond⟩: Jaal... they can't have chosen to be here, can they?
+        ↩ (goto) [000173AA] global_squad_angara: No, of course not! I don't know what's going on either.
     ├ option 4:
-        global_squad_male_human ⟨cond⟩: They can't want... whatever is happening. Can they?
-        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+        [000173AE] global_squad_male_human ⟨cond⟩: They can't want... whatever is happening. Can they?
+        ↩ (goto) [000173AA] global_squad_angara: No, of course not! I don't know what's going on either.
     ├ option 5:
-        global_squad_female_human ⟨cond⟩: Jaal... could they actually want this?
-        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+        [000173A5] global_squad_female_human ⟨cond⟩: Jaal... could they actually want this?
+        ↩ (goto) [000173AA] global_squad_angara: No, of course not! I don't know what's going on either.
     └─ merge ─┘
 ├ option 2:
-    global_squad_turian ⟨cond⟩: Did she just call them "the chosen"?
-    ↩ (goto) Hero: Chosen for what, exactly?
+    [000173A6] global_squad_turian ⟨cond⟩: Did she just call them "the chosen"?
+    ↩ (goto) [000173AF] Hero: Chosen for what, exactly?
 ├ option 3:
-    global_squad_asari ⟨cond⟩: That can't be right. She called them "the chosen."
-    ↩ (goto) Hero: Chosen for what, exactly?
+    [000173A8] global_squad_asari ⟨cond⟩: That can't be right. She called them "the chosen."
+    ↩ (goto) [000173AF] Hero: Chosen for what, exactly?
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: Really not liking the sound of "the chosen."
-    ↩ (goto) Hero: Chosen for what, exactly?
+    [000173A3] global_squad_male_human ⟨cond⟩: Really not liking the sound of "the chosen."
+    ↩ (goto) [000173AF] Hero: Chosen for what, exactly?
 ├ option 5:
-    global_squad_female_human ⟨cond⟩: Did she call them "the chosen"?
-    ↩ (goto) Hero: Chosen for what, exactly?
+    [000173B1] global_squad_female_human ⟨cond⟩: Did she call them "the chosen"?
+    ↩ (goto) [000173AF] Hero: Chosen for what, exactly?
 └─ merge ─┘

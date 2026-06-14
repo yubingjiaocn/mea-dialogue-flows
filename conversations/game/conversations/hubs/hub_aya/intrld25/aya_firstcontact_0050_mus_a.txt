@@ -4,31 +4,31 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    aya_muse_student_02_multi ⟨cond⟩: How did it find us?
+    [00020A5C] aya_muse_student_02_multi ⟨cond⟩: How did it find us?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        aya_curator_avela_multi ⟨cond⟩: "She," not "it."
+        [00020A61] aya_curator_avela_multi ⟨cond⟩: "She," not "it."
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            aya_curator_avela_multi ⟨cond⟩: And stop staring.
+            [00020A59] aya_curator_avela_multi ⟨cond⟩: And stop staring.
         ├ option 2:
-            aya_curator_avela_multi: And stop staring.
+            [00030EF9] aya_curator_avela_multi: And stop staring.
         └─ merge ─┘
     ├ option 2:
-        aya_curator_avela_multi: "He," not "it."
+        [00020A62] aya_curator_avela_multi: "He," not "it."
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) aya_curator_avela_multi ⟨cond⟩: And stop staring.
+            ↩ (goto) [00020A59] aya_curator_avela_multi ⟨cond⟩: And stop staring.
         ├ option 2:
-            ↩ (goto) aya_curator_avela_multi: And stop staring.
+            ↩ (goto) [00030EF9] aya_curator_avela_multi: And stop staring.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    aya_muse_student_02_multi: How did it find us?
+    [00030EF8] aya_muse_student_02_multi: How did it find us?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) aya_curator_avela_multi ⟨cond⟩: "She," not "it."
+        ↩ (goto) [00020A61] aya_curator_avela_multi ⟨cond⟩: "She," not "it."
     ├ option 2:
-        ↩ (goto) aya_curator_avela_multi: "He," not "it."
+        ↩ (goto) [00020A62] aya_curator_avela_multi: "He," not "it."
     └─ merge ─┘
 └─ merge ─┘

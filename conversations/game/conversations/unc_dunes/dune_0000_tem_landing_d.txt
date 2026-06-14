@@ -2,83 +2,83 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_dunes/dune_0000_tem_landing_d.xml
 ==================================================
-Hero: SAM, send Kallo the navpoint provided by our krogan contact.
-Hero: Drack. We're landing on Elaaden to rendezvous with Jorgal Strux.
-global_squad_krogan: [Comm] On my way.
-Hero: Where is this meeting place exactly?
-global_crew_co-pilot: Called The Paradise. Middle of nowhere as far as I can tell.
-global_squad_krogan: Paradise is different for a krogan.
-Hero: Remnant starship? No...
-SAM: Only 41 percent exposed. I will gather what information I can, Pathfinder.
-Hero: Who lives here besides the krogan?
-global_squad_krogan: Scavengers with nothing to lose. Criminals chucked out of Kadara.
-Hero: Gonna be interesting.
-global_squad_krogan: I'm gonna head to the colony—smooth the waters.
-global_squad_krogan: Still not sure I believe what Jorgal Strux says about Morda planning a move against the Nexus.
+[0001BAF5] Hero: SAM, send Kallo the navpoint provided by our krogan contact.
+[0001BAED] Hero: Drack. We're landing on Elaaden to rendezvous with Jorgal Strux.
+[0001BAF4] global_squad_krogan: [Comm] On my way.
+[0001BA00] Hero: Where is this meeting place exactly?
+[0001B9FE] global_crew_co-pilot: Called The Paradise. Middle of nowhere as far as I can tell.
+[0001BAD1] global_squad_krogan: Paradise is different for a krogan.
+[0001BAE2] Hero: Remnant starship? No...
+[0001BAE3] SAM: Only 41 percent exposed. I will gather what information I can, Pathfinder.
+[0001BADD] Hero: Who lives here besides the krogan?
+[0001BAD9] global_squad_krogan: Scavengers with nothing to lose. Criminals chucked out of Kadara.
+[0001BAE4] Hero: Gonna be interesting.
+[0002558F] global_squad_krogan: I'm gonna head to the colony—smooth the waters.
+[0001BAFA] global_squad_krogan: Still not sure I believe what Jorgal Strux says about Morda planning a move against the Nexus.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_male_human ⟨cond⟩: I do. Bet the whole colony is still pissed.
-    ↩ (goto) Hero: Who lives here besides the krogan?
+    [0001BAE7] global_squad_male_human ⟨cond⟩: I do. Bet the whole colony is still pissed.
+    ↩ (goto) [0001BADD] Hero: Who lives here besides the krogan?
 ├ option 2:
-    global_squad_turian ⟨cond⟩: I do. Bet the whole colony is still pissed.
-    ↩ (goto) Hero: Who lives here besides the krogan?
+    [0001BB01] global_squad_turian ⟨cond⟩: I do. Bet the whole colony is still pissed.
+    ↩ (goto) [0001BADD] Hero: Who lives here besides the krogan?
 ├ option 3:
-    global_squad_asari ⟨cond⟩: I do. Bet the whole colony is still pissed.
-    ↩ (goto) Hero: Who lives here besides the krogan?
+    [0001BAF3] global_squad_asari ⟨cond⟩: I do. Bet the whole colony is still pissed.
+    ↩ (goto) [0001BADD] Hero: Who lives here besides the krogan?
 ├ option 4:
-    global_squad_female_human ⟨cond⟩: I do. Bet the whole colony is still pissed.
-    ↩ (goto) Hero: Who lives here besides the krogan?
+    [0001BAF2] global_squad_female_human ⟨cond⟩: I do. Bet the whole colony is still pissed.
+    ↩ (goto) [0001BADD] Hero: Who lives here besides the krogan?
 ├ option 5:
-    global_squad_angara ⟨cond⟩: I do. Bet the whole colony is still pissed.
+    [0001BB04] global_squad_angara ⟨cond⟩: I do. Bet the whole colony is still pissed.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM: Caution: Outside temperatures are above normal range and continuing to rise.
+    [00035399] SAM: Caution: Outside temperatures are above normal range and continuing to rise.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_female_human ⟨cond⟩: Must cool off at night, though.
-        global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
-        global_crew_science_officer: What you see is what you get.
+        [0001BAD5] global_squad_female_human ⟨cond⟩: Must cool off at night, though.
+        [0001BA01] global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
+        [0001BAD3] global_crew_science_officer: What you see is what you get.
     ├ option 2:
-        global_squad_asari ⟨cond⟩: Must cool off at night, though.
-        ↩ (goto) global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
+        [0001BADF] global_squad_asari ⟨cond⟩: Must cool off at night, though.
+        ↩ (goto) [0001BA01] global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
     ├ option 3:
-        global_squad_male_human ⟨cond⟩: Must cool off at night, though.
-        ↩ (goto) global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
+        [0001BACD] global_squad_male_human ⟨cond⟩: Must cool off at night, though.
+        ↩ (goto) [0001BA01] global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: Must cool off at night, though.
-        ↩ (goto) global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
+        [0001BAE0] global_squad_turian ⟨cond⟩: Must cool off at night, though.
+        ↩ (goto) [0001BA01] global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
     ├ option 5:
-        global_squad_angara ⟨cond⟩: Must cool off at night, though.
-        ↩ (goto) global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
+        [0001BACF] global_squad_angara ⟨cond⟩: Must cool off at night, though.
+        ↩ (goto) [0001BA01] global_crew_science_officer: No night. It's tidally locked to that gas giant, along with its sister moon Elaaden Two.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_male_human ⟨cond⟩: The barking mad. The criminally insane. The desperate.
-        ↩ (goto) Hero: Gonna be interesting.
+        [0001BADA] global_squad_male_human ⟨cond⟩: The barking mad. The criminally insane. The desperate.
+        ↩ (goto) [0001BAE4] Hero: Gonna be interesting.
     ├ option 2:
-        global_squad_turian ⟨cond⟩: The batshit crazy. The criminally insane. The desperate.
-        ↩ (goto) Hero: Gonna be interesting.
+        [0001BADC] global_squad_turian ⟨cond⟩: The batshit crazy. The criminally insane. The desperate.
+        ↩ (goto) [0001BAE4] Hero: Gonna be interesting.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: The batshit crazy. The criminally insane. The desperate.
-        ↩ (goto) Hero: Gonna be interesting.
+        [0001BAE1] global_squad_asari ⟨cond⟩: The batshit crazy. The criminally insane. The desperate.
+        ↩ (goto) [0001BAE4] Hero: Gonna be interesting.
     ├ option 4:
-        global_squad_female_human ⟨cond⟩: The batshit crazy. The criminally insane. The desperate.
-        ↩ (goto) Hero: Gonna be interesting.
+        [0001BAD2] global_squad_female_human ⟨cond⟩: The batshit crazy. The criminally insane. The desperate.
+        ↩ (goto) [0001BAE4] Hero: Gonna be interesting.
     ├ option 5:
-        global_squad_angara ⟨cond⟩: The batshit crazy. The criminally insane.
+        [0001BAD0] global_squad_angara ⟨cond⟩: The batshit crazy. The criminally insane.
     └─ merge ─┘
 └─ merge ─┘
-global_crew_science_officer: Actually, there appears to be some sense to it. It's a bit of an oasis, for this planet.
+[0001BA06] global_crew_science_officer: Actually, there appears to be some sense to it. It's a bit of an oasis, for this planet.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Okay. Let's find Strux.
+    [0001BAFC] Hero: Okay. Let's find Strux.
 ├ option 2:
-    global_crew_science_officer: The average temperature fluctuates from 40 to 42 degrees Celsius. Right now, it's 34 at the Paradise.
+    [0001BAD7] global_crew_science_officer: The average temperature fluctuates from 40 to 42 degrees Celsius. Right now, it's 34 at the Paradise.
 ├ option 3:
-    Hero: Paradise, right.
+    [0001BADE] Hero: Paradise, right.
 └─ merge ─┘
-Hero: Strux doesn't know specifics, but says Morda's planning a move against the Nexus. He thinks the krogan are ready to come back into the fold.
-Hero: Drack has doubts because he trusts Morda. We should go and check it out.
-global_squad_krogan: Hark says to meet him at the colony landing pad. He's got information on the transport.
+[0001B85C] Hero: Strux doesn't know specifics, but says Morda's planning a move against the Nexus. He thinks the krogan are ready to come back into the fold.
+[0001B85B] Hero: Drack has doubts because he trusts Morda. We should go and check it out.
+[0002651B] global_squad_krogan: Hark says to meet him at the colony landing pad. He's got information on the transport.

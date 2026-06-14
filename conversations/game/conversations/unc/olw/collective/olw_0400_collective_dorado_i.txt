@@ -2,33 +2,33 @@
 # Primary speaker: olw_char_rep_06
 # Source: game/conversations/unc/olw/collective/olw_0400_collective_dorado_i.xml
 ==================================================
-olw_char_rep_06: Need something? Go bother Crux.
+[00018369] olw_char_rep_06: Need something? Go bother Crux.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: You're a testy one.
-    olw_char_rep_06: Sorry. Haven't slept in 36 hours, thanks to another shit job.
-    Hero: 36 hours—that can't be healthy.
-    olw_char_rep_06: Defying the Charlatan's orders isn't healthy. I go where I'm told.
+    [0001835F] Hero: You're a testy one.
+    [0001835C] olw_char_rep_06: Sorry. Haven't slept in 36 hours, thanks to another shit job.
+    [0001836E] Hero: 36 hours—that can't be healthy.
+    [0001835D] olw_char_rep_06: Defying the Charlatan's orders isn't healthy. I go where I'm told.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: You've never been tempted to manipulate your boss's orders?
-        olw_char_rep_06: What—what do you mean?
-        Hero: You know—fudge the intel. Use the Collective's resources to make a profit on the side.
-        olw_char_rep_06: I don't know what you're playing at, but I'm done talking to you.
+        [00018359] Hero: You've never been tempted to manipulate your boss's orders?
+        [00018363] olw_char_rep_06: What—what do you mean?
+        [0001836A] Hero: You know—fudge the intel. Use the Collective's resources to make a profit on the side.
+        [0001835B] olw_char_rep_06: I don't know what you're playing at, but I'm done talking to you.
     ├ option 2:
-        Hero: The Charlatan send you to the sulfur springs?
-        olw_char_rep_06: I smell that bad, huh? Like I said—it was a shit job, but I can't talk details.
+        [00018367] Hero: The Charlatan send you to the sulfur springs?
+        [0001836B] olw_char_rep_06: I smell that bad, huh? Like I said—it was a shit job, but I can't talk details.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            olw_char_rep_06 ⟨cond⟩: You know the Collective—we love our secrets.
-            olw_char_rep_06: See you around, Pathfinder.
+            [00018362] olw_char_rep_06 ⟨cond⟩: You know the Collective—we love our secrets.
+            [0001836C] olw_char_rep_06: See you around, Pathfinder.
         ├ option 2:
-            olw_char_rep_06: Especially to an outsider.
-            ↩ (goto) olw_char_rep_06: See you around, Pathfinder.
+            [00018361] olw_char_rep_06: Especially to an outsider.
+            ↩ (goto) [0001836C] olw_char_rep_06: See you around, Pathfinder.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: Crux said I was welcome here. You're not making me feel welcome.
-    olw_char_rep_06: {i}(Sighs.){/i} Look. I just got back from a shit job. Haven't slept in 36 hours.
-    ↩ (goto) Hero: 36 hours—that can't be healthy.
+    [0001835A] Hero: Crux said I was welcome here. You're not making me feel welcome.
+    [00018360] olw_char_rep_06: {i}(Sighs.){/i} Look. I just got back from a shit job. Haven't slept in 36 hours.
+    ↩ (goto) [0001836E] Hero: 36 hours—that can't be healthy.
 └─ merge ─┘

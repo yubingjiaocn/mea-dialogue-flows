@@ -4,35 +4,35 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_crew_tech_officer: [Comm] Pathfinder, you're heading into the open.
-    global_crew_tech_officer: [Comm] Remember, there's forward stations in orbit. Just call one down to mark your progress or resupply.
-    global_crew_tech_officer: [Comm] And I've set up the Nomad's "come home" command. You lose it out there, a forward station can call it back.
+    [00019C99] global_crew_tech_officer: [Comm] Pathfinder, you're heading into the open.
+    [00019C9A] global_crew_tech_officer: [Comm] Remember, there's forward stations in orbit. Just call one down to mark your progress or resupply.
+    [00024B50] global_crew_tech_officer: [Comm] And I've set up the Nomad's "come home" command. You lose it out there, a forward station can call it back.
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: Big planet, Pathfinder. Shouldn't we drive?
-        Hero: Let's see what Gil's got for us.
+        [00019CA3] global_squad_asari ⟨cond⟩: Big planet, Pathfinder. Shouldn't we drive?
+        [00019CA5] Hero: Let's see what Gil's got for us.
     ├ option 2:
-        global_squad_krogan ⟨cond⟩: Big planet, Pathfinder. Where's our ride?
-        ↩ (goto) Hero: Let's see what Gil's got for us.
+        [00019CA6] global_squad_krogan ⟨cond⟩: Big planet, Pathfinder. Where's our ride?
+        ↩ (goto) [00019CA5] Hero: Let's see what Gil's got for us.
     ├ option 3:
-        global_squad_female_human ⟨cond⟩: Big planet, Pathfinder. Deploy the Nomad and we'll make better time.
-        ↩ (goto) Hero: Let's see what Gil's got for us.
+        [00019CA4] global_squad_female_human ⟨cond⟩: Big planet, Pathfinder. Deploy the Nomad and we'll make better time.
+        ↩ (goto) [00019CA5] Hero: Let's see what Gil's got for us.
     ├ option 4:
-        global_squad_male_human ⟨cond⟩: Big planet, Pathfinder. Why walk when we can ride?
-        ↩ (goto) Hero: Let's see what Gil's got for us.
+        [00019CA9] global_squad_male_human ⟨cond⟩: Big planet, Pathfinder. Why walk when we can ride?
+        ↩ (goto) [00019CA5] Hero: Let's see what Gil's got for us.
     ├ option 5:
-        global_squad_turian ⟨cond⟩: Big planet, Pathfinder. Deploy the Nomad and we'll make better time.
+        [00019CA7] global_squad_turian ⟨cond⟩: Big planet, Pathfinder. Deploy the Nomad and we'll make better time.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    global_crew_tech_officer: [Comm] Come on, Pathfinder. Drop a forward station and call for the Nomad. Let's get you riding.
+    [00019C9C] global_crew_tech_officer: [Comm] Come on, Pathfinder. Drop a forward station and call for the Nomad. Let's get you riding.
 ├ option 2:
-    ↩ (goto) Hero: Let's see what Gil's got for us.
+    ↩ (goto) [00019CA5] Hero: Let's see what Gil's got for us.
 ├ option 3:
-    global_crew_tech_officer: [Comm] And get ready for deployment.
-    Hero: Deployment of what?
-    global_crew_tech_officer: [Comm] The Nomad. It's primed and timed.
-    global_crew_tech_officer: [Comm] Andromeda's never seen the like.
+    [00019C98] global_crew_tech_officer: [Comm] And get ready for deployment.
+    [0001486B] Hero: Deployment of what?
+    [00014869] global_crew_tech_officer: [Comm] The Nomad. It's primed and timed.
+    [00019C9B] global_crew_tech_officer: [Comm] Andromeda's never seen the like.
 └─ merge ─┘

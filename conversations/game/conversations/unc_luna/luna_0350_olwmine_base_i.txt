@@ -2,42 +2,42 @@
 # Primary speaker: olw_upstart
 # Source: game/conversations/unc_luna/luna_0350_olwmine_base_i.xml
 ==================================================
-olw_upstart: [Audio Log] I don't want excuses, Krex. The dust on the surface isn't enough.
-olw_upstart: [Audio Log] If I want to take these Initiative colonies out, we'll need a hell of a lot more Helium-3.
-olw_upstart: [Audio Log] I know that Remnant tiller in the conservatory will work. Get it running. Elora out.
+[00030C32] olw_upstart: [Audio Log] I don't want excuses, Krex. The dust on the surface isn't enough.
+[00030C36] olw_upstart: [Audio Log] If I want to take these Initiative colonies out, we'll need a hell of a lot more Helium-3.
+[00030C33] olw_upstart: [Audio Log] I know that Remnant tiller in the conservatory will work. Get it running. Elora out.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: It's that asari from Kadara. She wanted to attack the colonies...
-    Hero: But it sounds like they couldn't activate some sort of Remnant tiller. SAM?
+    [00030C3A] Hero ⟨cond⟩: It's that asari from Kadara. She wanted to attack the colonies...
+    [00031666] Hero: But it sounds like they couldn't activate some sort of Remnant tiller. SAM?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        SAM ⟨cond⟩: I believe that console you interfaced with in the Remnant conservatory activated the tiller.
-        SAM: It will expose more soil to radiation, increasing Helium-3 production exponentially.
-        SAM: If my calculations are correct, this planet could fuel Nexus ships for an estimated 368 years.
+        [00030C37] SAM ⟨cond⟩: I believe that console you interfaced with in the Remnant conservatory activated the tiller.
+        [00030C35] SAM: It will expose more soil to radiation, increasing Helium-3 production exponentially.
+        [00030C31] SAM: If my calculations are correct, this planet could fuel Nexus ships for an estimated 368 years.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Our Milky Way supply will run out eventually. Now we won't have to worry.
+            [00030C3C] Hero: Our Milky Way supply will run out eventually. Now we won't have to worry.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero ⟨cond⟩: SAM, send a message to Tann. The Initiative has fuel.
+                [00030C40] Hero ⟨cond⟩: SAM, send a message to Tann. The Initiative has fuel.
             ├ option 2:
-                Hero: We need to get that tiller up and running.
-                SAM: I've marked the Remnant conservatory on your display.
+                [00030C3F] Hero: We need to get that tiller up and running.
+                [00030C3E] SAM: I've marked the Remnant conservatory on your display.
             └─ merge ─┘
         ├ option 2:
-            Hero: With that much fuel, we could discover countless new worlds.
+            [00030C41] Hero: With that much fuel, we could discover countless new worlds.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) Hero ⟨cond⟩: SAM, send a message to Tann. The Initiative has fuel.
+                ↩ (goto) [00030C40] Hero ⟨cond⟩: SAM, send a message to Tann. The Initiative has fuel.
             ├ option 2:
-                ↩ (goto) Hero: We need to get that tiller up and running.
+                ↩ (goto) [00030C3F] Hero: We need to get that tiller up and running.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        SAM: An active Remnant tiller would expose more soil to radiation, increasing Helium-3 production exponentially.
-        ↩ (goto) SAM: If my calculations are correct, this planet could fuel Nexus ships for an estimated 368 years.
+        [00030C38] SAM: An active Remnant tiller would expose more soil to radiation, increasing Helium-3 production exponentially.
+        ↩ (goto) [00030C31] SAM: If my calculations are correct, this planet could fuel Nexus ships for an estimated 368 years.
     └─ merge ─┘
 ├ option 2:
-    Hero: They wanted to attack the colonies...
-    ↩ (goto) Hero: But it sounds like they couldn't activate some sort of Remnant tiller. SAM?
+    [00030C39] Hero: They wanted to attack the colonies...
+    ↩ (goto) [00031666] Hero: But it sounds like they couldn't activate some sort of Remnant tiller. SAM?
 └─ merge ─┘

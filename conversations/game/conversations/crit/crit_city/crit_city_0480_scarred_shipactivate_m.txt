@@ -2,46 +2,46 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/crit_city/crit_city_0480_scarred_shipactivate_m.xml
 ==================================================
-SAM: Provisional repairs are complete, Pathfinder.
-Hero: Only one way to know for sure.
-Narration: Ryder takes a deep breath and reaches for the interfacing unit on the main console.
-Narration: Lights turn on. We hear the low hum of power. Remnant glyphs show up on the console panel.
-SAM: Translating... "Flight control systems online. Welcome, Administrator."
-Narration: Ryder and squad look pleased. They did it. Things are coming online, which means they're one step closer to Meridian turning on.
-Narration: Suddenly, glyphs floating across the consoles turns a different color. There is a low rumble. The ground shakes. It's a little ominous.
+[0000DC80] SAM: Provisional repairs are complete, Pathfinder.
+[0000DCEF] Hero: Only one way to know for sure.
+[0000B4D6] Narration: Ryder takes a deep breath and reaches for the interfacing unit on the main console.
+[0000A3C4] Narration: Lights turn on. We hear the low hum of power. Remnant glyphs show up on the console panel.
+[0000DCF1] SAM: Translating... "Flight control systems online. Welcome, Administrator."
+[0000DD4D] Narration: Ryder and squad look pleased. They did it. Things are coming online, which means they're one step closer to Meridian turning on.
+[0000DD4C] Narration: Suddenly, glyphs floating across the consoles turns a different color. There is a low rumble. The ground shakes. It's a little ominous.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: I don't like this. We should get out of here.
-    Narration: Ryder backs away from the console, squaddies see and follow suit.
-    SAM: Restoring the systems appears to have reactivated something else nearby.
-    Hero: I can see that, SAM, and I don't think it's good.
-    Narration: Ryder stands and ushers squaddies towards door. Just as they're at the door, a reactivated Remnant ship comes into view at the edge of the tower.
-    Narration: This gets everyone's attention, and they stop.
+    [0000DD58] Hero: I don't like this. We should get out of here.
+    [0000DD5D] Narration: Ryder backs away from the console, squaddies see and follow suit.
+    [0000DD5A] SAM: Restoring the systems appears to have reactivated something else nearby.
+    [0000DD5C] Hero: I can see that, SAM, and I don't think it's good.
+    [0000DD69] Narration: Ryder stands and ushers squaddies towards door. Just as they're at the door, a reactivated Remnant ship comes into view at the edge of the tower.
+    [0000DD6A] Narration: This gets everyone's attention, and they stop.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Narration ⟨cond⟩: If Peebee is in the squad, she's the first to move, running back towards the edge of the tower to get a front row seat.
-        global_squad_asari: Look at it. It's like one of those derelicts we've seen, only... no longer derelict!
-        Narration: Glyphs scroll across the consoles. SAM translates.
-        SAM: Translating... "Exploration vessels on standby."
-        Narration: Ryder walks up close to the edge of the tower, admiring the ships. He/she is in awe of the view.
-        SAM: We have seen Remnant ships, but none in working condition.
-        Narration: The lights on the console turn red, briefly. There's an error sound (imagine a Windows error) and SAM translates again.
-        SAM: It says it cannot retrieve commands from the Meridian Engine.
-        Hero: Hm. "Meridian Engine." SAM, do you know what—
-        Narration: Ryder is interrupted by movement down below in the city. It is a kett Ascendant (the Archon's Sword) coming in with reinforcements.
-        Narration: With commanding hand signals, we see that he is directing his reinforcements to fan out. Some head directly to the tower where Ryder and squad are.
-        Narration: The Archon's Sword looks up at the tower where Ryder is.
-        Hero: They're going to be trouble.
+        [0000DD6B] Narration ⟨cond⟩: If Peebee is in the squad, she's the first to move, running back towards the edge of the tower to get a front row seat.
+        [0000DD6C] global_squad_asari: Look at it. It's like one of those derelicts we've seen, only... no longer derelict!
+        [0000DD76] Narration: Glyphs scroll across the consoles. SAM translates.
+        [0000DD77] SAM: Translating... "Exploration vessels on standby."
+        [0000B781] Narration: Ryder walks up close to the edge of the tower, admiring the ships. He/she is in awe of the view.
+        [0000B786] SAM: We have seen Remnant ships, but none in working condition.
+        [0000B79F] Narration: The lights on the console turn red, briefly. There's an error sound (imagine a Windows error) and SAM translates again.
+        [0000B79C] SAM: It says it cannot retrieve commands from the Meridian Engine.
+        [0000B79E] Hero: Hm. "Meridian Engine." SAM, do you know what—
+        [0000B79D] Narration: Ryder is interrupted by movement down below in the city. It is a kett Ascendant (the Archon's Sword) coming in with reinforcements.
+        [0000B789] Narration: With commanding hand signals, we see that he is directing his reinforcements to fan out. Some head directly to the tower where Ryder and squad are.
+        [0000B78D] Narration: The Archon's Sword looks up at the tower where Ryder is.
+        [0000B78C] Hero: They're going to be trouble.
     ├ option 2:
-        ↩ (goto) Narration: Glyphs scroll across the consoles. SAM translates.
+        ↩ (goto) [0000DD76] Narration: Glyphs scroll across the consoles. SAM translates.
     └─ merge ─┘
 ├ option 2:
-    Hero: Looks like those repairs worked better than expected!
-    Narration: Ryder reaches for the console again, trying to figure out what might be happening.
-    SAM: Restoring systems has reactivated something else nearby, Pathfinder.
-    Hero: Yeah, but what?
-    Narration: There is a low rumble, and then a Remnant ship emerges from its dock, right in front of where everyone's standing.
-    Narration: Ryder and squad all take a step back, as the mass of the Remnant ship rises above them.
-    Narration: In the near distance, another one or two of the ships are also powering up and emerging.
-    ↩ (goto) Narration: Glyphs scroll across the consoles. SAM translates.
+    [0000DD56] Hero: Looks like those repairs worked better than expected!
+    [0000DD5E] Narration: Ryder reaches for the console again, trying to figure out what might be happening.
+    [0000DD68] SAM: Restoring systems has reactivated something else nearby, Pathfinder.
+    [0000DD8C] Hero: Yeah, but what?
+    [0000A3CC] Narration: There is a low rumble, and then a Remnant ship emerges from its dock, right in front of where everyone's standing.
+    [0000B402] Narration: Ryder and squad all take a step back, as the mass of the Remnant ship rises above them.
+    [0000A3C1] Narration: In the near distance, another one or two of the ships are also powering up and emerging.
+    ↩ (goto) [0000DD76] Narration: Glyphs scroll across the consoles. SAM translates.
 └─ merge ─┘

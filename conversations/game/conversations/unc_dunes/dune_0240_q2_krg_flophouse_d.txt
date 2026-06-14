@@ -2,59 +2,59 @@
 # Primary speaker: dune_colony_flphse_pointer
 # Source: game/conversations/unc_dunes/dune_0240_q2_krg_flophouse_d.xml
 ==================================================
-dune_colony_flphse_pointer [OncePerGame]: So you're the human Pathfinder. You look different from the pictures I saw.
+[0001B647] dune_colony_flphse_pointer [OncePerGame]: So you're the human Pathfinder. You look different from the pictures I saw.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: You probably saw pictures of my dad.
-    dune_colony_flphse_pointer: Your dad? You replaced him as Pathfinder?
-    Hero: It's a long story.
-    dune_colony_flphse_pointer: Haven't really kept up with Nexus news. Enough trouble to occupy me here.
-    Hero: Scavengers?
-    dune_colony_flphse_pointer: Amongst other things. You seen the flophouse yet?
-    dune_colony_flphse_pointer: That's where they get together. Eighty-percent shacks, hundred percent trouble.
+    [0001B64D] Hero: You probably saw pictures of my dad.
+    [0001B64F] dune_colony_flphse_pointer: Your dad? You replaced him as Pathfinder?
+    [0001B651] Hero: It's a long story.
+    [0001B657] dune_colony_flphse_pointer: Haven't really kept up with Nexus news. Enough trouble to occupy me here.
+    [0001B6B5] Hero: Scavengers?
+    [0001B659] dune_colony_flphse_pointer: Amongst other things. You seen the flophouse yet?
+    [0001B662] dune_colony_flphse_pointer: That's where they get together. Eighty-percent shacks, hundred percent trouble.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        dune_colony_flphse_pointer ⟨cond⟩: I'll give you the navpoint, so you can avoid it. Or... not, as you choose.
+        [0001B69E] dune_colony_flphse_pointer ⟨cond⟩: I'll give you the navpoint, so you can avoid it. Or... not, as you choose.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: Tell me more about the flophouse.
-            dune_colony_flphse_pointer: It's a loose collection of shelters where some scavenger gangs gather.
-            dune_colony_flphse_pointer: They knock each other around, drink, and then when they're all riled up, run raids.
-            dune_colony_flphse_pointer: And if you get close when they're hungry... well, that's how I lost a liver and gained a limp.
-            ↩ (goto) dune_colony_flphse_pointer: [empty]
+            [0001B669] Hero ⟨cond⟩: Tell me more about the flophouse.
+            [0001B69A] dune_colony_flphse_pointer: It's a loose collection of shelters where some scavenger gangs gather.
+            [0001B69B] dune_colony_flphse_pointer: They knock each other around, drink, and then when they're all riled up, run raids.
+            [0001B69D] dune_colony_flphse_pointer: And if you get close when they're hungry... well, that's how I lost a liver and gained a limp.
+            ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
         ├ option 2:
-            Hero: Have you had much trouble with scavengers at the colony?
-            dune_colony_flphse_pointer: Not yet. They're not that stupid. A bunch of squishies against a hundred-odd krogan?
-            dune_colony_flphse_pointer: Give it a little time. Resources run low, they'll get desperate, and who knows.
-            ↩ (goto) dune_colony_flphse_pointer: [empty]
+            [0001B6B4] Hero: Have you had much trouble with scavengers at the colony?
+            [0001B6BE] dune_colony_flphse_pointer: Not yet. They're not that stupid. A bunch of squishies against a hundred-odd krogan?
+            [0001B6BF] dune_colony_flphse_pointer: Give it a little time. Resources run low, they'll get desperate, and who knows.
+            ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
         ├ option 3:
-            Hero: Thanks. This information will come in handy.
-            dune_colony_flphse_pointer: Just trying to help. Be careful out there, Pathfinder.
+            [0001B6C1] Hero: Thanks. This information will come in handy.
+            [0001B6C2] dune_colony_flphse_pointer: Just trying to help. Be careful out there, Pathfinder.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) dune_colony_flphse_pointer: [empty]
+        ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: That's a relief. I love my dad, but to be honest, my hair's way nicer.
-        ↩ (goto) dune_colony_flphse_pointer: Your dad? You replaced him as Pathfinder?
+        [0001B64C] Hero ⟨cond⟩: That's a relief. I love my dad, but to be honest, my hair's way nicer.
+        ↩ (goto) [0001B64F] dune_colony_flphse_pointer: Your dad? You replaced him as Pathfinder?
     ├ option 2:
-        Hero: I'm glad. I mean, I love my dad, but I don't want to look like him. He frowned a lot.
-        ↩ (goto) dune_colony_flphse_pointer: Your dad? You replaced him as Pathfinder?
+        [0001B649] Hero: I'm glad. I mean, I love my dad, but I don't want to look like him. He frowned a lot.
+        ↩ (goto) [0001B64F] dune_colony_flphse_pointer: Your dad? You replaced him as Pathfinder?
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    dune_colony_flphse_pointer: Hello again.
-    ↩ (goto) dune_colony_flphse_pointer: [empty]
+    [0001B667] dune_colony_flphse_pointer: Hello again.
+    ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
 ├ option 2:
-    dune_colony_flphse_pointer: Pathfinder.
-    ↩ (goto) dune_colony_flphse_pointer: [empty]
+    [0001B666] dune_colony_flphse_pointer: Pathfinder.
+    ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
 ├ option 3:
-    dune_colony_flphse_pointer: What's going on?
-    ↩ (goto) dune_colony_flphse_pointer: [empty]
+    [0001B663] dune_colony_flphse_pointer: What's going on?
+    ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
 ├ option 4:
-    dune_colony_flphse_pointer: Still alive? Good to see.
-    ↩ (goto) dune_colony_flphse_pointer: [empty]
+    [0001B665] dune_colony_flphse_pointer: Still alive? Good to see.
+    ↩ (goto) [0001B668] dune_colony_flphse_pointer: [empty]
 └─ merge ─┘

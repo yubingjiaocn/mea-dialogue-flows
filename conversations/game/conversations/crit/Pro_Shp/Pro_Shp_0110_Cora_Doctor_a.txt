@@ -2,42 +2,42 @@
 # Primary speaker: global_humanark_asari_dr
 # Source: game/conversations/crit/Pro_Shp/Pro_Shp_0110_Cora_Doctor_a.xml
 ==================================================
-global_squad_female_human: What's wrong?
-global_humanark_asari_dr: I don't know. Have to check it out.
-global_squad_female_human: Well?
-global_humanark_asari_dr: It looks like some sort of power surge hit the stasis pod.
+[0001367B] global_squad_female_human: What's wrong?
+[00009D82] global_humanark_asari_dr: I don't know. Have to check it out.
+[00009D83] global_squad_female_human: Well?
+[00009D84] global_humanark_asari_dr: It looks like some sort of power surge hit the stasis pod.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_squad_female_human ⟨cond⟩: Are they okay?
-    global_humanark_asari_dr: I'm running a diagnostic now.
+    [00009DA0] global_squad_female_human ⟨cond⟩: Are they okay?
+    [00009D9F] global_humanark_asari_dr: I'm running a diagnostic now.
 ├ option 2:
-    global_squad_female_human: Are they okay?
-    ↩ (goto) global_humanark_asari_dr: I'm running a diagnostic now.
+    [00021822] global_squad_female_human: Are they okay?
+    ↩ (goto) [00009D9F] global_humanark_asari_dr: I'm running a diagnostic now.
 └─ merge ─┘
-Pro_Shp_Tech1: Give it a second for the processor to sync.
-global_humanark_asari_dr: Did the seals break?
-Pro_Shp_Tech1: No. Physical integrity looks good.
-global_squad_female_human: Well?
-Pro_Shp_Tech1: There—the power cycle is green.
-global_humanark_asari_dr: No structural damage to the pod. All connections check out.
-Pro_Shp_Tech1: It's just bad timing then. An interruption in the respiratory cycle, maybe?
-Pro_Shp_Tech1: How do you want to handle this?
+[00013C57] Pro_Shp_Tech1: Give it a second for the processor to sync.
+[00013C5A] global_humanark_asari_dr: Did the seals break?
+[00013C58] Pro_Shp_Tech1: No. Physical integrity looks good.
+[00013C55] global_squad_female_human: Well?
+[00013C5B] Pro_Shp_Tech1: There—the power cycle is green.
+[00013C5D] global_humanark_asari_dr: No structural damage to the pod. All connections check out.
+[00013C59] Pro_Shp_Tech1: It's just bad timing then. An interruption in the respiratory cycle, maybe?
+[00013C6E] Pro_Shp_Tech1: How do you want to handle this?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_humanark_asari_dr ⟨cond⟩: Keep them in the pod for now. Round the clock monitoring. We don't know if they're in true stasis anymore.
-    Pro_Shp_Tech1: Right. So parts of the body could be waking up.
-    global_humanark_asari_dr: But others aren't. We can't be sure just yet.
+    [00013C6A] global_humanark_asari_dr ⟨cond⟩: Keep them in the pod for now. Round the clock monitoring. We don't know if they're in true stasis anymore.
+    [00013C6B] Pro_Shp_Tech1: Right. So parts of the body could be waking up.
+    [00013C67] global_humanark_asari_dr: But others aren't. We can't be sure just yet.
 ├ option 2:
-    global_humanark_asari_dr: Keep them in the pod for now. Round the clock monitoring. We don't know if they're in true stasis anymore.
-    ↩ (goto) Pro_Shp_Tech1: Right. So parts of the body could be waking up.
+    [0001CB9A] global_humanark_asari_dr: Keep them in the pod for now. Round the clock monitoring. We don't know if they're in true stasis anymore.
+    ↩ (goto) [00013C6B] Pro_Shp_Tech1: Right. So parts of the body could be waking up.
 └─ merge ─┘
-Pro_Shp_Tech1: What about food?
-global_humanark_asari_dr: We can run an intravenous line into the pod. Standard nutrient package—see how their system responds.
-Pro_Shp_Tech1: Will do. I'll start slow and go from there.
-global_humanark_asari_dr: And if necessary, add boosters to the line. We can't risk pulmonary arrest.
+[00013C69] Pro_Shp_Tech1: What about food?
+[00013C6C] global_humanark_asari_dr: We can run an intravenous line into the pod. Standard nutrient package—see how their system responds.
+[00013C72] Pro_Shp_Tech1: Will do. I'll start slow and go from there.
+[00013C98] global_humanark_asari_dr: And if necessary, add boosters to the line. We can't risk pulmonary arrest.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_humanark_asari_dr ⟨cond⟩: Don't worry, Ryder. We'll take care of him. He'll make it.
+    [00013C6D] global_humanark_asari_dr ⟨cond⟩: Don't worry, Ryder. We'll take care of him. He'll make it.
 ├ option 2:
-    global_humanark_asari_dr: Don't worry, Ryder. We'll take care of her. She'll make it.
+    [00013C6F] global_humanark_asari_dr: Don't worry, Ryder. We'll take care of her. She'll make it.
 └─ merge ─┘

@@ -4,72 +4,72 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    oasis_astronomer: It's good to see you. Any chance you can help find our missing satellites?
+    [0002703C] oasis_astronomer: It's good to see you. Any chance you can help find our missing satellites?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I'll do what I can.
-        oasis_astronomer: Wonderful! I'll give you the search navpoints.
-        oasis_astronomer: I hope you have better luck than us.
+        [000270A2] Hero: I'll do what I can.
+        [000270A4] oasis_astronomer: Wonderful! I'll give you the search navpoints.
+        [000270A3] oasis_astronomer: I hope you have better luck than us.
     ├ option 2:
-        Hero: I'm working on other things. Maybe later.
-        oasis_astronomer: I see. We'll continue the search with our own ship.
+        [000270A6] Hero: I'm working on other things. Maybe later.
+        [000270A5] oasis_astronomer: I see. We'll continue the search with our own ship.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        oasis_astronomer ⟨cond⟩: I know I shouldn't blame you. It's just... I'm sorry. Please go.
+        [00027043] oasis_astronomer ⟨cond⟩: I know I shouldn't blame you. It's just... I'm sorry. Please go.
     ├ option 2:
-        oasis_astronomer: Hello, Pathfinder. How can I help?
+        [00027046] oasis_astronomer: Hello, Pathfinder. How can I help?
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero: How long have your people had space travel?
-            oasis_astronomer: Before the Scourge, we colonized many worlds—or so we're told.
-            Hero: You don’t know for sure?
-            oasis_astronomer: The Scourge erased all records. Everything became myth, passed down as oral history.
-            oasis_astronomer: We rebuilt our space program only a few hundred years ago.
-            Hero: From stone age to space age in a few centuries. Impressive.
-            oasis_astronomer: Nothing will keep us from the stars. Not the Scourge, not kett. We belong out there.
+            [00027106] Hero: How long have your people had space travel?
+            [0002710C] oasis_astronomer: Before the Scourge, we colonized many worlds—or so we're told.
+            [0002710B] Hero: You don’t know for sure?
+            [00027109] oasis_astronomer: The Scourge erased all records. Everything became myth, passed down as oral history.
+            [00027108] oasis_astronomer: We rebuilt our space program only a few hundred years ago.
+            [0002710A] Hero: From stone age to space age in a few centuries. Impressive.
+            [00027107] oasis_astronomer: Nothing will keep us from the stars. Not the Scourge, not kett. We belong out there.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero: How many planets have you colonized?
-                oasis_astronomer: When we returned to space after the Scourge, we discovered our civilization had survived on five worlds.
-                oasis_astronomer: People from one of those worlds found and settled Aya.
-                Hero: Could there be more angaran worlds from before the Scourge? Ones you don't know about?
-                oasis_astronomer: That's one reason we travel the stars—in hope of finding what we've lost.
+                [00027104] Hero: How many planets have you colonized?
+                [0002710E] oasis_astronomer: When we returned to space after the Scourge, we discovered our civilization had survived on five worlds.
+                [0002710D] oasis_astronomer: People from one of those worlds found and settled Aya.
+                [00027114] Hero: Could there be more angaran worlds from before the Scourge? Ones you don't know about?
+                [00027113] oasis_astronomer: That's one reason we travel the stars—in hope of finding what we've lost.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: How long have your people had space travel?
+                    ↩ (goto) [00027106] Hero: How long have your people had space travel?
                 ├ option 2:
-                    Hero: How good are your satellites at watching the Scourge?
-                    oasis_astronomer: They’ve served us well for many decades.
-                    oasis_astronomer: My grandmother led the program that designed them, and my mother tended them before me.
-                    Hero: Does the Scourge change shape and direction often?
-                    oasis_astronomer: On an astronomical scale, it’s like a fast-moving river. But travel routes generally remain stable for years at a time.
-                    Hero: Could your colonies wind up cut off from each other?
-                    oasis_astronomer: Worse than that. If the Scourge engulfs a world, everything on it dies.
+                    [00027100] Hero: How good are your satellites at watching the Scourge?
+                    [00027117] oasis_astronomer: They’ve served us well for many decades.
+                    [00027110] oasis_astronomer: My grandmother led the program that designed them, and my mother tended them before me.
+                    [00027112] Hero: Does the Scourge change shape and direction often?
+                    [00027111] oasis_astronomer: On an astronomical scale, it’s like a fast-moving river. But travel routes generally remain stable for years at a time.
+                    [00027115] Hero: Could your colonies wind up cut off from each other?
+                    [00027116] oasis_astronomer: Worse than that. If the Scourge engulfs a world, everything on it dies.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) Hero: How long have your people had space travel?
+                        ↩ (goto) [00027106] Hero: How long have your people had space travel?
                     ├ option 2:
-                        ↩ (goto) Hero: How many planets have you colonized?
+                        ↩ (goto) [00027104] Hero: How many planets have you colonized?
                     ├ option 3:
-                        Hero: That's all for now.
-                        oasis_astronomer: Stars and skies protect you.
+                        [00027105] Hero: That's all for now.
+                        [000270FF] oasis_astronomer: Stars and skies protect you.
                     └─ merge ─┘
                 ├ option 3:
-                    ↩ (goto) Hero: That's all for now.
+                    ↩ (goto) [00027105] Hero: That's all for now.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: How good are your satellites at watching the Scourge?
+                ↩ (goto) [00027100] Hero: How good are your satellites at watching the Scourge?
             ├ option 3:
-                ↩ (goto) Hero: That's all for now.
+                ↩ (goto) [00027105] Hero: That's all for now.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) Hero: How many planets have you colonized?
+            ↩ (goto) [00027104] Hero: How many planets have you colonized?
         ├ option 3:
-            ↩ (goto) Hero: How good are your satellites at watching the Scourge?
+            ↩ (goto) [00027100] Hero: How good are your satellites at watching the Scourge?
         ├ option 4:
-            ↩ (goto) Hero: That's all for now.
+            ↩ (goto) [00027105] Hero: That's all for now.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

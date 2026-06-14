@@ -2,41 +2,41 @@
 # Primary speaker: Hero
 # Source: game/conversations/crit/crit_city/crit_city_0250_afterlanding_b.xml
 ==================================================
-Hero: Everyone okay?
+[0000A229] Hero: Everyone okay?
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩ [OncePerGame]: I may be old, but my plating's still plenty hard.
-    Hero: We'll need to survey the area. Figure out what we're dealing with.
+    [0000A22B] global_squad_krogan ⟨cond⟩ [OncePerGame]: I may be old, but my plating's still plenty hard.
+    [000128CD] Hero: We'll need to survey the area. Figure out what we're dealing with.
 ├ option 2:
-    global_squad_female_human ⟨cond⟩ [OncePerGame]: All good. Let's move.
-    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+    [0000A228] global_squad_female_human ⟨cond⟩ [OncePerGame]: All good. Let's move.
+    ↩ (goto) [000128CD] Hero: We'll need to survey the area. Figure out what we're dealing with.
 ├ option 3:
-    global_squad_asari ⟨cond⟩ [OncePerGame]: I think I bumped my head, but I'm good.
-    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+    [0000A226] global_squad_asari ⟨cond⟩ [OncePerGame]: I think I bumped my head, but I'm good.
+    ↩ (goto) [000128CD] Hero: We'll need to survey the area. Figure out what we're dealing with.
 ├ option 4:
-    global_squad_turian ⟨cond⟩ [OncePerGame]: Everything's intact. I think.
-    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+    [0000A224] global_squad_turian ⟨cond⟩ [OncePerGame]: Everything's intact. I think.
+    ↩ (goto) [000128CD] Hero: We'll need to survey the area. Figure out what we're dealing with.
 ├ option 5:
-    global_squad_angara ⟨cond⟩ [OncePerGame]: Of course!
-    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+    [0000A221] global_squad_angara ⟨cond⟩ [OncePerGame]: Of course!
+    ↩ (goto) [000128CD] Hero: We'll need to survey the area. Figure out what we're dealing with.
 ├ option 6:
-    global_squad_male_human ⟨cond⟩ [OncePerGame]: I'll let you know when my gut stops churning.
-    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+    [0000A225] global_squad_male_human ⟨cond⟩ [OncePerGame]: I'll let you know when my gut stops churning.
+    ↩ (goto) [000128CD] Hero: We'll need to survey the area. Figure out what we're dealing with.
 └─ merge ─┘
-Hero: SAM, what do you think?
-SAM: Intense vortexes of Scourge energy. I would steer clear if I were you, Pathfinder.
-crit_city_kettsoldier: [Comm] Movement detected. Target sighted.
+[000124D6] Hero: SAM, what do you think?
+[000124D7] SAM: Intense vortexes of Scourge energy. I would steer clear if I were you, Pathfinder.
+[0000B907] crit_city_kettsoldier: [Comm] Movement detected. Target sighted.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩ [OncePerGame]: Getting weird readings from this thing.
+    [00012176] global_squad_krogan ⟨cond⟩ [OncePerGame]: Getting weird readings from this thing.
 ├ option 2:
-    global_squad_female_human ⟨cond⟩ [OncePerGame]: That's... I don't even get these readings.
+    [00012171] global_squad_female_human ⟨cond⟩ [OncePerGame]: That's... I don't even get these readings.
 ├ option 3:
-    global_squad_asari ⟨cond⟩ [OncePerGame]: Weird readings coming from that anomaly.
+    [00012179] global_squad_asari ⟨cond⟩ [OncePerGame]: Weird readings coming from that anomaly.
 ├ option 4:
-    global_squad_turian ⟨cond⟩ [OncePerGame]: That cloud over there. The energy it's giving off is real weird.
+    [0001217B] global_squad_turian ⟨cond⟩ [OncePerGame]: That cloud over there. The energy it's giving off is real weird.
 ├ option 5:
-    global_squad_angara ⟨cond⟩ [OncePerGame]: That... cloud there. I can't make sense of the readings.
+    [00012178] global_squad_angara ⟨cond⟩ [OncePerGame]: That... cloud there. I can't make sense of the readings.
 ├ option 6:
-    global_squad_male_human ⟨cond⟩ [OncePerGame]: Heads up. Weird thing is weird.
+    [00012175] global_squad_male_human ⟨cond⟩ [OncePerGame]: Heads up. Weird thing is weird.
 └─ merge ─┘

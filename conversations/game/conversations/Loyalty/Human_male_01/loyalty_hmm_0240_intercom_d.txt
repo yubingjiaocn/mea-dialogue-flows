@@ -2,39 +2,39 @@
 # Primary speaker: loyalty_hmm_pirate_leader
 # Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0240_intercom_d.xml
 ==================================================
-loyalty_hmm_pirate_leader: [Comm] For the last time, report! We just fixed those bay seals. If you idiots blew them, I'll have your skins!
-Narration: TEMP: The Pathfinder is at the intercom. Liam, watching for more enemies, gestures for them to go ahead and talk.
+[00006285] loyalty_hmm_pirate_leader: [Comm] For the last time, report! We just fixed those bay seals. If you idiots blew them, I'll have your skins!
+[00006287] Narration: TEMP: The Pathfinder is at the intercom. Liam, watching for more enemies, gestures for them to go ahead and talk.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: This is the Pathfinder. We've boarded your vessel. We demand compliance.
-    global_squad_male_human: Ugh, really?
-    loyalty_hmm_pirate_leader: [Comm] What is this? Get cameras on the bay! Well, figure it out!
-    Narration: A shot of the squad on a screen, as viewed by the pirate elsewhere.
-    loyalty_hmm_pirate_leader: [Comm] Stows? This ship is property of Talon Wing. Now you're property too, just like the rest. I don't let property mess with my payday!
+    [00006286] Hero: This is the Pathfinder. We've boarded your vessel. We demand compliance.
+    [000062B0] global_squad_male_human: Ugh, really?
+    [00006291] loyalty_hmm_pirate_leader: [Comm] What is this? Get cameras on the bay! Well, figure it out!
+    [0000629E] Narration: A shot of the squad on a screen, as viewed by the pirate elsewhere.
+    [0000981A] loyalty_hmm_pirate_leader: [Comm] Stows? This ship is property of Talon Wing. Now you're property too, just like the rest. I don't let property mess with my payday!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Narration: The Pathfinder realizes this guy isn't saying anything worthwhile and shuts off the intercom. Didn't come here to talk anyway.
-        Hero: Well, that wasn't going anywhere useful. Shoot pirates, rescue contact?
-        global_squad_male_human: She's here... somewhere. Think they salvaged this thing?
-        Hero: They're not kett.
-        Hero: SAM, do you have us?
-        SAM: Not precisely, Pathfinder. Debris and radiation are still disrupting scans.
-        Hero: So where to?
-        global_squad_male_human: Find Verand and fast. This way?
-        Narration: Liam opens the door immediately next to them, revealing several active auto-cannons. Liam immediately closes the door. Nobody likes fighting auto-cannons.
-        global_squad_male_human: Not that way.
-        Narration: More pirates emerge from the opposite end of the bay.
-        global_squad_male_human: Start there! Let's go!
+        [000062FF] Narration: The Pathfinder realizes this guy isn't saying anything worthwhile and shuts off the intercom. Didn't come here to talk anyway.
+        [000062EF] Hero: Well, that wasn't going anywhere useful. Shoot pirates, rescue contact?
+        [000091F8] global_squad_male_human: She's here... somewhere. Think they salvaged this thing?
+        [00006313] Hero: They're not kett.
+        [000091FA] Hero: SAM, do you have us?
+        [000062EE] SAM: Not precisely, Pathfinder. Debris and radiation are still disrupting scans.
+        [000062EA] Hero: So where to?
+        [000062EB] global_squad_male_human: Find Verand and fast. This way?
+        [000062ED] Narration: Liam opens the door immediately next to them, revealing several active auto-cannons. Liam immediately closes the door. Nobody likes fighting auto-cannons.
+        [000062FD] global_squad_male_human: Not that way.
+        [000062F5] Narration: More pirates emerge from the opposite end of the bay.
+        [000062F4] global_squad_male_human: Start there! Let's go!
     ├ option 2:
-        Hero: Who's "the rest"? And where did you salvage this thing?
-        loyalty_hmm_pirate_leader: [Comm] Peh! I don't answer to livestock.
-        Narration: The intercom squeals off.
-        global_squad_male_human: They've got my contact here somewhere.
-        Hero: And more, sounds like.
-        ↩ (goto) Hero: SAM, do you have us?
+        [000062E2] Hero: Who's "the rest"? And where did you salvage this thing?
+        [000062F8] loyalty_hmm_pirate_leader: [Comm] Peh! I don't answer to livestock.
+        [000062F7] Narration: The intercom squeals off.
+        [0000630B] global_squad_male_human: They've got my contact here somewhere.
+        [0000630A] Hero: And more, sounds like.
+        ↩ (goto) [000091FA] Hero: SAM, do you have us?
     └─ merge ─┘
 ├ option 2:
-    Hero: Everything's under control. Just a simple weapon malfunction. How are you?
-    global_squad_male_human: {i}(Snickers.){/i}
-    ↩ (goto) loyalty_hmm_pirate_leader: [Comm] What is this? Get cameras on the bay! Well, figure it out!
+    [000062A8] Hero: Everything's under control. Just a simple weapon malfunction. How are you?
+    [000062AE] global_squad_male_human: {i}(Snickers.){/i}
+    ↩ (goto) [00006291] loyalty_hmm_pirate_leader: [Comm] What is this? Get cameras on the bay! Well, figure it out!
 └─ merge ─┘

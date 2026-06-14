@@ -4,17 +4,17 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    SAM: I'm receiving an unusual reading from that angara.
+    [000308C2] SAM: I'm receiving an unusual reading from that angara.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        SAM: I recommend scanning the body.
+        [00030EE0] SAM: I recommend scanning the body.
     ├ option 2:
-        SAM: Scanning the body may provide more information.
+        [00030EE1] SAM: Scanning the body may provide more information.
     └─ merge ─┘
 ├ option 2:
-    SAM: I detect unusual signals from that angara, Pathfinder.
-    ↩ (goto) SAM: [empty]
+    [000308BD] SAM: I detect unusual signals from that angara, Pathfinder.
+    ↩ (goto) [00030EE2] SAM: [empty]
 ├ option 3:
-    SAM: Picking up abnormal readings from that angara.
-    ↩ (goto) SAM: [empty]
+    [00030EE3] SAM: Picking up abnormal readings from that angara.
+    ↩ (goto) [00030EE2] SAM: [empty]
 └─ merge ─┘

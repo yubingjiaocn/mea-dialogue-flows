@@ -4,71 +4,71 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    global_humanark_asari_dr ⟨cond⟩: Sara.
-    Hero ⟨cond⟩: Is my brother okay?
-    global_humanark_asari_dr: Scott's fine. His vitals are strong, but the revival procedure was interrupted.
+    [00009D8F] global_humanark_asari_dr ⟨cond⟩: Sara.
+    [00009D8B] Hero ⟨cond⟩: Is my brother okay?
+    [0002B910] global_humanark_asari_dr: Scott's fine. His vitals are strong, but the revival procedure was interrupted.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I don't like the sound of that.
-        global_humanark_asari_dr: Don't worry—it just means the process could take a bit longer than usual. SAM?
+        [00009D98] Hero: I don't like the sound of that.
+        [0002B917] global_humanark_asari_dr: Don't worry—it just means the process could take a bit longer than usual. SAM?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            SAM ⟨cond⟩: My connection to Scott's implant was suspended. However, his pulse, respiration, and brain activity are all normal.
-            global_humanark_asari_dr: To be on the safe side, we'll need to keep him in a low-level coma for a while, then let his body regain consciousness naturally.
-            global_humanark_asari_dr: He'll be fine.
-            Hero: Glad to hear it.
-            global_squad_female_human: Thanks, Lexi. Keep us updated.
+            [0002D17F] SAM ⟨cond⟩: My connection to Scott's implant was suspended. However, his pulse, respiration, and brain activity are all normal.
+            [0002B90D] global_humanark_asari_dr: To be on the safe side, we'll need to keep him in a low-level coma for a while, then let his body regain consciousness naturally.
+            [0002B93D] global_humanark_asari_dr: He'll be fine.
+            [0002B93B] Hero: Glad to hear it.
+            [0002B93C] global_squad_female_human: Thanks, Lexi. Keep us updated.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
             ├ option 2:
             └─ merge ─┘
         ├ option 2:
-            SAM: My connection to Sara's implant was suspended. However, her pulse, respiration, and brain activity are all normal.
-            global_humanark_asari_dr: To be on the safe side, we'll need to keep her in a low-level coma for a while, then let her body regain consciousness naturally.
-            global_humanark_asari_dr: She'll be fine.
-            ↩ (goto) Hero: Glad to hear it.
+            [0002D180] SAM: My connection to Sara's implant was suspended. However, her pulse, respiration, and brain activity are all normal.
+            [0002B916] global_humanark_asari_dr: To be on the safe side, we'll need to keep her in a low-level coma for a while, then let her body regain consciousness naturally.
+            [0002B93E] global_humanark_asari_dr: She'll be fine.
+            ↩ (goto) [0002B93B] Hero: Glad to hear it.
         └─ merge ─┘
     ├ option 2:
-        Hero: When can he wake up?
-        global_humanark_asari_dr: We don't want to rush it. SAM?
+        [0002B913] Hero: When can he wake up?
+        [0002B912] global_humanark_asari_dr: We don't want to rush it. SAM?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) SAM ⟨cond⟩: My connection to Scott's implant was suspended. However, his pulse, respiration, and brain activity are all normal.
+            ↩ (goto) [0002D17F] SAM ⟨cond⟩: My connection to Scott's implant was suspended. However, his pulse, respiration, and brain activity are all normal.
         ├ option 2:
-            ↩ (goto) SAM: My connection to Sara's implant was suspended. However, her pulse, respiration, and brain activity are all normal.
+            ↩ (goto) [0002D180] SAM: My connection to Sara's implant was suspended. However, her pulse, respiration, and brain activity are all normal.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    global_humanark_asari_dr ⟨cond⟩: Scott.
-    Hero: Is my sister okay?
-    global_humanark_asari_dr: Sara's fine. Her vitals are strong, but the revival procedure was interrupted.
+    [00009D8C] global_humanark_asari_dr ⟨cond⟩: Scott.
+    [00009D89] Hero: Is my sister okay?
+    [0002B90E] global_humanark_asari_dr: Sara's fine. Her vitals are strong, but the revival procedure was interrupted.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) Hero: I don't like the sound of that.
+        ↩ (goto) [00009D98] Hero: I don't like the sound of that.
     ├ option 2:
-        Hero: When can she wake up?
-        ↩ (goto) global_humanark_asari_dr: We don't want to rush it. SAM?
+        [0002B914] Hero: When can she wake up?
+        ↩ (goto) [0002B912] global_humanark_asari_dr: We don't want to rush it. SAM?
     └─ merge ─┘
 ├ option 3:
-    global_humanark_asari_dr: Ryder.
+    [00009D86] global_humanark_asari_dr: Ryder.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) Hero ⟨cond⟩: Is my brother okay?
+        ↩ (goto) [00009D8B] Hero ⟨cond⟩: Is my brother okay?
     ├ option 2:
-        ↩ (goto) Hero: Is my sister okay?
+        ↩ (goto) [00009D89] Hero: Is my sister okay?
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    SAM ⟨cond⟩: My connection with his implant isn't functioning.
+    [00013D66] SAM ⟨cond⟩: My connection with his implant isn't functioning.
 ├ option 2:
-    SAM: My connection with her implant isn't functioning.
+    [00013D69] SAM: My connection with her implant isn't functioning.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_humanark_asari_dr ⟨cond⟩: It's not life-threatening. But it could be a while before he's conscious.
-        global_squad_female_human: Keep us updated.
+        [0000B78F] global_humanark_asari_dr ⟨cond⟩: It's not life-threatening. But it could be a while before he's conscious.
+        [00013C49] global_squad_female_human: Keep us updated.
     ├ option 2:
-        global_humanark_asari_dr: It's not life-threatening. But it could be a while before she's conscious.
-        ↩ (goto) global_squad_female_human: Keep us updated.
+        [00009DC8] global_humanark_asari_dr: It's not life-threatening. But it could be a while before she's conscious.
+        ↩ (goto) [00013C49] global_squad_female_human: Keep us updated.
     └─ merge ─┘
 └─ merge ─┘

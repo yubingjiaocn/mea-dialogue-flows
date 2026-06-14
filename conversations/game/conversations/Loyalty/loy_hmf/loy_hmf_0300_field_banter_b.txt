@@ -4,60 +4,60 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    global_squad_asari ⟨cond⟩: Ow. {i}Ow.{/i}
-    Hero: What is it?
+    [0000AE63] global_squad_asari ⟨cond⟩: Ow. {i}Ow.{/i}
+    [0000AE6A] Hero: What is it?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: It's like nails on glass. Ugh.
+        [0000AE66] global_squad_asari ⟨cond⟩: It's like nails on glass. Ugh.
     ├ option 2:
-        global_squad_angara ⟨cond⟩: A tingling on my skin. It's—forgive me if I scratch.
+        [0000AE68] global_squad_angara ⟨cond⟩: A tingling on my skin. It's—forgive me if I scratch.
     ├ option 3:
-        global_squad_female_human: Don't know. Like a dog whistle.
+        [0000AE67] global_squad_female_human: Don't know. Like a dog whistle.
     └─ merge ─┘
 ├ option 2:
-    global_squad_angara ⟨cond⟩: Uhhh. Unpleasant.
-    ↩ (goto) Hero: What is it?
+    [0000AE64] global_squad_angara ⟨cond⟩: Uhhh. Unpleasant.
+    ↩ (goto) [0000AE6A] Hero: What is it?
 ├ option 3:
-    global_squad_female_human: Ah. Ow.
+    [0000AE69] global_squad_female_human: Ah. Ow.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero ⟨cond⟩: You feel it too? What's causing that?
+        [0000AF60] Hero ⟨cond⟩: You feel it too? What's causing that?
     ├ option 2:
-        ↩ (goto) Hero: What is it?
+        ↩ (goto) [0000AE6A] Hero: What is it?
     └─ merge ─┘
 └─ merge ─┘
-Hero [OncePerGame]: Some engineer left before she could clean up her workbench.
-SAM: These components were taken from ark systems, including power distribution.
-global_squad_female_human: Explains the problems we're having. What could be worth gutting the ark?
-loy_hmf_vederia_multi [OncePerGame]: Ryder, over here!
-SAM: The device requires two people for shutdown—one disconnecting the cables and another at the device itself.
-loy_hmf_vederia_multi: I'll handle the device.
-SAM: Caution: once begun, the fail-safe cycle must be completed or the device will fuse.
-Hero [OncePerGame]: Ready, Vederia? Disconnecting the first cable now.
-loy_hmf_vederia_multi [OncePerGame]: Kett!
-Hero: Watch the device, we'll handle them!
-loy_hmf_vederia_multi: But—
-global_squad_female_human: We need you, Vederia! You can do this!
-loy_hmf_vederia_multi [OncePerGame]: They're down! Okay, next cable—ready when you are!
-Hero [OncePerGame]: More kett! Take them down!
-loy_hmf_vederia_multi: Goddess, how many came aboard?
-loy_hmf_vederia_multi [OncePerGame]: All right! Now the cable!
-loy_hmf_vederia_multi [OncePerGame]: Another attack! They're desperate, Ryder, this must be the last of them!
-Hero [OncePerGame]: The kett are down!
-SAM: The device can now be deactivated.
-Hero [OncePerGame]: Second cable, we're getting there!
-Hero [OncePerGame]: Working on the last cable!
-loy_hmf_vederia_multi [OncePerGame]: Watch the glass!
+[00026E68] Hero [OncePerGame]: Some engineer left before she could clean up her workbench.
+[00026E6A] SAM: These components were taken from ark systems, including power distribution.
+[00026E69] global_squad_female_human: Explains the problems we're having. What could be worth gutting the ark?
+[00027CE5] loy_hmf_vederia_multi [OncePerGame]: Ryder, over here!
+[0000CF24] SAM: The device requires two people for shutdown—one disconnecting the cables and another at the device itself.
+[00024245] loy_hmf_vederia_multi: I'll handle the device.
+[00024244] SAM: Caution: once begun, the fail-safe cycle must be completed or the device will fuse.
+[000241F7] Hero [OncePerGame]: Ready, Vederia? Disconnecting the first cable now.
+[000241F8] loy_hmf_vederia_multi [OncePerGame]: Kett!
+[00024246] Hero: Watch the device, we'll handle them!
+[00024247] loy_hmf_vederia_multi: But—
+[00024248] global_squad_female_human: We need you, Vederia! You can do this!
+[00026FD9] loy_hmf_vederia_multi [OncePerGame]: They're down! Okay, next cable—ready when you are!
+[00026FD8] Hero [OncePerGame]: More kett! Take them down!
+[00026FE2] loy_hmf_vederia_multi: Goddess, how many came aboard?
+[00026FD7] loy_hmf_vederia_multi [OncePerGame]: All right! Now the cable!
+[00026FDA] loy_hmf_vederia_multi [OncePerGame]: Another attack! They're desperate, Ryder, this must be the last of them!
+[00026FDB] Hero [OncePerGame]: The kett are down!
+[0002424A] SAM: The device can now be deactivated.
+[000241F5] Hero [OncePerGame]: Second cable, we're getting there!
+[0002424B] Hero [OncePerGame]: Working on the last cable!
+[00027CE7] loy_hmf_vederia_multi [OncePerGame]: Watch the glass!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_asari ⟨cond⟩: Don't bother! We've got mag boots, they don't!
+    [00027CF5] global_squad_asari ⟨cond⟩: Don't bother! We've got mag boots, they don't!
 ├ option 2:
-    global_squad_turian ⟨cond⟩: It can take a few shots! Focus on the kett!
+    [00027CF7] global_squad_turian ⟨cond⟩: It can take a few shots! Focus on the kett!
 ├ option 3:
-    global_squad_krogan ⟨cond⟩: Forget it! It's tougher than the kett!
+    [00027CF8] global_squad_krogan ⟨cond⟩: Forget it! It's tougher than the kett!
 ├ option 4:
-    global_squad_male_human ⟨cond⟩: Bigger problems right now!
+    [00027CF6] global_squad_male_human ⟨cond⟩: Bigger problems right now!
 ├ option 5:
-    global_squad_angara ⟨cond⟩: If it breaks, let them breathe vacuum!
+    [00027CF4] global_squad_angara ⟨cond⟩: If it breaks, let them breathe vacuum!
 └─ merge ─┘
-global_squad_female_human [OncePerGame]: This is their last stand! Break through!
+[00027CE8] global_squad_female_human [OncePerGame]: This is their last stand! Break through!

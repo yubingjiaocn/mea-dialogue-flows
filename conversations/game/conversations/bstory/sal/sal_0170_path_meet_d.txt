@@ -4,72 +4,72 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    global_salarian_pathfinder_multi ⟨cond⟩ [OncePerGame]: Ryder. Always a pleasure. I hear you're assisting Major Saelen Varn's investigation into Dr. Aden.
-    Hero: You know Saelen?
+    [0001A928] global_salarian_pathfinder_multi ⟨cond⟩ [OncePerGame]: Ryder. Always a pleasure. I hear you're assisting Major Saelen Varn's investigation into Dr. Aden.
+    [0001A925] Hero: You know Saelen?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_salarian_pathfinder_multi ⟨cond⟩: I met him once or twice. A remarkable agent, despite his age. Unfortunately, my attempts to aid him have stalled.
+        [0001A929] global_salarian_pathfinder_multi ⟨cond⟩: I met him once or twice. A remarkable agent, despite his age. Unfortunately, my attempts to aid him have stalled.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Saelen gave me two leads, but everything I found was inconclusive.
+            [0001A933] Hero: Saelen gave me two leads, but everything I found was inconclusive.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi: I've tried enlisting ark leadership—those who woke first—but they've been busy, unhelpful, or both.
-                global_salarian_pathfinder_multi: Perhaps we should get... creative.
+                [0001A940] global_salarian_pathfinder_multi: I've tried enlisting ark leadership—those who woke first—but they've been busy, unhelpful, or both.
+                [0001A947] global_salarian_pathfinder_multi: Perhaps we should get... creative.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: Can we risk anything shady? We need any findings to be bulletproof.
+                    [0001A943] Hero: Can we risk anything shady? We need any findings to be bulletproof.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        global_salarian_pathfinder_multi ⟨cond⟩: It'll only matter if you get caught.
-                        global_salarian_pathfinder_multi ⟨cond⟩: One of the ark officers who woke early, Rand Lon, has an apartment here.
-                        global_salarian_pathfinder_multi: If he's too busy to help, you could scan around—carefully. See what you can find.
+                        [0001A94F] global_salarian_pathfinder_multi ⟨cond⟩: It'll only matter if you get caught.
+                        [0001A95A] global_salarian_pathfinder_multi ⟨cond⟩: One of the ark officers who woke early, Rand Lon, has an apartment here.
+                        [0001A95B] global_salarian_pathfinder_multi: If he's too busy to help, you could scan around—carefully. See what you can find.
                     ├ option 2:
-                        crit_kett_salarian_captain_multi: I trust you not to get caught.
-                        crit_kett_salarian_captain_multi: One of those ark officers, Rand Lon, has an apartment here.
-                        crit_kett_salarian_captain_multi: If he's busy, he won't be around, and a quick scan wouldn't hurt anything. Just... see what's there.
-                        ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+                        [0001A94E] crit_kett_salarian_captain_multi: I trust you not to get caught.
+                        [0001A959] crit_kett_salarian_captain_multi: One of those ark officers, Rand Lon, has an apartment here.
+                        [0001A958] crit_kett_salarian_captain_multi: If he's busy, he won't be around, and a quick scan wouldn't hurt anything. Just... see what's there.
+                        ↩ (goto) [0001A965] crit_kett_salarian_captain_multi: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: Hey, if we don't break the rules, who will?
+                    [0001A945] Hero: Hey, if we don't break the rules, who will?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: One of the ark officers who woke early, Rand Lon, has an apartment here.
+                        ↩ (goto) [0001A95A] global_salarian_pathfinder_multi ⟨cond⟩: One of the ark officers who woke early, Rand Lon, has an apartment here.
                     ├ option 2:
-                        ↩ (goto) crit_kett_salarian_captain_multi: One of those ark officers, Rand Lon, has an apartment here.
+                        ↩ (goto) [0001A959] crit_kett_salarian_captain_multi: One of those ark officers, Rand Lon, has an apartment here.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                crit_kett_salarian_captain_multi: I reached out to ark leadership—the ones who woke up first—but they keep putting me off.
-                crit_kett_salarian_captain_multi: I had an idea, but it might not be completely legal.
+                [0001A93F] crit_kett_salarian_captain_multi: I reached out to ark leadership—the ones who woke up first—but they keep putting me off.
+                [0001A944] crit_kett_salarian_captain_multi: I had an idea, but it might not be completely legal.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: Can we risk anything shady? We need any findings to be bulletproof.
+                    ↩ (goto) [0001A943] Hero: Can we risk anything shady? We need any findings to be bulletproof.
                 ├ option 2:
-                    ↩ (goto) Hero: Hey, if we don't break the rules, who will?
+                    ↩ (goto) [0001A945] Hero: Hey, if we don't break the rules, who will?
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: What do you make of Saelen's theory that someone betrayed your people?
+            [0001A935] Hero: What do you make of Saelen's theory that someone betrayed your people?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                global_salarian_pathfinder_multi ⟨cond⟩: It seems monstrous. But the more I consider it, the more the facts seem to fit.
-                ↩ (goto) global_salarian_pathfinder_multi: I've tried enlisting ark leadership—those who woke first—but they've been busy, unhelpful, or both.
+                [0001A93D] global_salarian_pathfinder_multi ⟨cond⟩: It seems monstrous. But the more I consider it, the more the facts seem to fit.
+                ↩ (goto) [0001A940] global_salarian_pathfinder_multi: I've tried enlisting ark leadership—those who woke first—but they've been busy, unhelpful, or both.
             ├ option 2:
-                crit_kett_salarian_captain_multi: It doesn't seem possible... but there's so much that doesn't fit otherwise.
-                ↩ (goto) crit_kett_salarian_captain_multi: I reached out to ark leadership—the ones who woke up first—but they keep putting me off.
+                [0001A93E] crit_kett_salarian_captain_multi: It doesn't seem possible... but there's so much that doesn't fit otherwise.
+                ↩ (goto) [0001A93F] crit_kett_salarian_captain_multi: I reached out to ark leadership—the ones who woke up first—but they keep putting me off.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        crit_kett_salarian_captain_multi: Only by reputation. One of STG's finest, back in the day. I tried to help him with Aden but sort of stalled.
+        [0001A927] crit_kett_salarian_captain_multi: Only by reputation. One of STG's finest, back in the day. I tried to help him with Aden but sort of stalled.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) Hero: Saelen gave me two leads, but everything I found was inconclusive.
+            ↩ (goto) [0001A933] Hero: Saelen gave me two leads, but everything I found was inconclusive.
         ├ option 2:
-            ↩ (goto) Hero: What do you make of Saelen's theory that someone betrayed your people?
+            ↩ (goto) [0001A935] Hero: What do you make of Saelen's theory that someone betrayed your people?
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    crit_kett_salarian_captain_multi [OncePerGame]: Ah, Ryder. Your pilot said you were helping Major Saelen Varn with an investigation into Dr. Aden.
-    ↩ (goto) Hero: You know Saelen?
+    [0001A926] crit_kett_salarian_captain_multi [OncePerGame]: Ah, Ryder. Your pilot said you were helping Major Saelen Varn with an investigation into Dr. Aden.
+    ↩ (goto) [0001A925] Hero: You know Saelen?
 └─ merge ─┘

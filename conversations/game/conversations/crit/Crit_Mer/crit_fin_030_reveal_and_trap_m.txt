@@ -2,114 +2,114 @@
 # Primary speaker: SAM
 # Source: game/conversations/crit/Crit_Mer/crit_fin_030_reveal_and_trap_m.xml
 ==================================================
-Narration: Ryder steels herself before the Remnant device. This is it.
-Hero: SAM? Everything ready?
-SAM: All relevant data is queued for uplink.
-Hero: Right. Let's... find a path.
-Narration: Ryder activates the Remnant console. That tells the Remnant city to reveal where Meridian was deployed by sending ships on the same course.
-SAM: Remnant ships have lifted off. They're following the override vector.
-Narration: Remnant skirt the Scourge. It trails them, leaving an expanding gap. Some of the Remnant are destroyed but the opening is clear.
-Hero: The Scourge is moving. But they're getting through to... something.
-Narration: Progress continues. The Remnant list to the side and are claimed by the Scourge, but a planetary system is revealed.
-Narration: And also, a distant jewel: Meridian.
-SAM: Meridian, Pathfinder.
+[0000C95E] Narration: Ryder steels herself before the Remnant device. This is it.
+[0000C95D] Hero: SAM? Everything ready?
+[0000C95B] SAM: All relevant data is queued for uplink.
+[0000C968] Hero: Right. Let's... find a path.
+[0000C965] Narration: Ryder activates the Remnant console. That tells the Remnant city to reveal where Meridian was deployed by sending ships on the same course.
+[000332BF] SAM: Remnant ships have lifted off. They're following the override vector.
+[0000C967] Narration: Remnant skirt the Scourge. It trails them, leaving an expanding gap. Some of the Remnant are destroyed but the opening is clear.
+[00011833] Hero: The Scourge is moving. But they're getting through to... something.
+[00011832] Narration: Progress continues. The Remnant list to the side and are claimed by the Scourge, but a planetary system is revealed.
+[0000C96C] Narration: And also, a distant jewel: Meridian.
+[0000C96A] SAM: Meridian, Pathfinder.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    global_squad_krogan ⟨cond⟩: That's Meridian? Looks strange.
+    [0000EB13] global_squad_krogan ⟨cond⟩: That's Meridian? Looks strange.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
-        SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
-        SAM: It is the means to make Heleus a home, Pathfinder.
-        Narration: The wonder of the moment sinks in, and it seems like a man-on-the-moon moment. Something "meaningful" needs to be said.
-        Narration: They start with what would have been the first line of "One small step for man" speech.
+        [0000EB1D] global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
+        [0000C966] SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
+        [0000C976] SAM: It is the means to make Heleus a home, Pathfinder.
+        [0000C975] Narration: The wonder of the moment sinks in, and it seems like a man-on-the-moon moment. Something "meaningful" needs to be said.
+        [000129EF] Narration: They start with what would have been the first line of "One small step for man" speech.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero: This is what we've worked and fought for. And it's only the start.
-            Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
-            global_main_villain: Congratulations, Pathfinder.
-            Narration: Cutaway to see the Archon from the back, silhouetted by SAM core! Lights are going off as the connect to the Pathfinder is severed.
-            global_main_villain: A great day for us all.
-            Narration: Cut back to the Pathfinder. Everyone looks concerned as they realize something has gone very very bad.
-            Hero: SAM? Tempest, what is going on?
-            Narration: Yoink goes the victory. Ryder bucks in extreme pain against the sound of feedback. The lights flicker.
+            [0000C978] Hero: This is what we've worked and fought for. And it's only the start.
+            [000129ED] Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
+            [000129EC] global_main_villain: Congratulations, Pathfinder.
+            [000129EB] Narration: Cutaway to see the Archon from the back, silhouetted by SAM core! Lights are going off as the connect to the Pathfinder is severed.
+            [000129EE] global_main_villain: A great day for us all.
+            [0000D43D] Narration: Cut back to the Pathfinder. Everyone looks concerned as they realize something has gone very very bad.
+            [0000D43F] Hero: SAM? Tempest, what is going on?
+            [0000C972] Narration: Yoink goes the victory. Ryder bucks in extreme pain against the sound of feedback. The lights flicker.
         ├ option 2:
-            Hero: All our calculations have led to this: a transformative moment for the entire Initiative.
-            ↩ (goto) Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
+            [0000C97C] Hero: All our calculations have led to this: a transformative moment for the entire Initiative.
+            ↩ (goto) [000129ED] Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
         ├ option 3:
-            Hero: This is the day everyone in the Initiative has hoped and worked for—ever since we left our own stars.
-            ↩ (goto) Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
+            [0000C97B] Hero: This is the day everyone in the Initiative has hoped and worked for—ever since we left our own stars.
+            ↩ (goto) [000129ED] Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
         ├ option 4:
-            Hero: This great moment—for which I only take partial credit—was a long time coming.
-            ↩ (goto) Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
+            [0000C977] Hero: This great moment—for which I only take partial credit—was a long time coming.
+            ↩ (goto) [000129ED] Narration: They trail off between thoughts, the world seems to close in. The Pathfinder's face falls in confusion as something begins to go very wrong.
         └─ merge ─┘
     ├ option 2:
-        global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
-        ↩ (goto) SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
+        [0000EB22] global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
+        ↩ (goto) [0000C966] SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
     ├ option 3:
-        global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
-        ↩ (goto) SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
+        [0000EB20] global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
+        ↩ (goto) [0000C966] SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
     ├ option 4:
-        global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
-        ↩ (goto) SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
+        [0000EB1E] global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
+        ↩ (goto) [0000C966] SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
     ├ option 5:
-        global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
-        ↩ (goto) SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
+        [0000EB1F] global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
+        ↩ (goto) [0000C966] SAM: A self-contained seed world. It is the heart of the vault network, and when reactivated, every connected planet will be affected.
     └─ merge ─┘
 ├ option 2:
-    global_squad_female_human ⟨cond⟩: Is that a planet? It looks... constructed.
+    [0000EB14] global_squad_female_human ⟨cond⟩: Is that a planet? It looks... constructed.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
+        ↩ (goto) [0000EB1D] global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
     ├ option 2:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
+        ↩ (goto) [0000EB22] global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
     ├ option 3:
-        ↩ (goto) global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
+        ↩ (goto) [0000EB20] global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
     ├ option 4:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
+        ↩ (goto) [0000EB1E] global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
     ├ option 5:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
+        ↩ (goto) [0000EB1F] global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
     └─ merge ─┘
 ├ option 3:
-    global_squad_angara ⟨cond⟩: A Remnant planet? Constructed?
+    [0000EB15] global_squad_angara ⟨cond⟩: A Remnant planet? Constructed?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
+        ↩ (goto) [0000EB1D] global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
     ├ option 2:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
+        ↩ (goto) [0000EB22] global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
     ├ option 3:
-        ↩ (goto) global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
+        ↩ (goto) [0000EB20] global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
     ├ option 4:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
+        ↩ (goto) [0000EB1E] global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
     ├ option 5:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
+        ↩ (goto) [0000EB1F] global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
     └─ merge ─┘
 ├ option 4:
-    global_squad_turian ⟨cond⟩: What... what is that? An artificial planet?
+    [0000EB16] global_squad_turian ⟨cond⟩: What... what is that? An artificial planet?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
+        ↩ (goto) [0000EB1D] global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
     ├ option 2:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
+        ↩ (goto) [0000EB22] global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
     ├ option 3:
-        ↩ (goto) global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
+        ↩ (goto) [0000EB20] global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
     ├ option 4:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
+        ↩ (goto) [0000EB1E] global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
     ├ option 5:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
+        ↩ (goto) [0000EB1F] global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
     └─ merge ─┘
 ├ option 5:
-    global_squad_male_human ⟨cond⟩: What... is that? A station?
+    [0000EB12] global_squad_male_human ⟨cond⟩: What... is that? A station?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
+        ↩ (goto) [0000EB1D] global_squad_asari ⟨cond⟩: These readings are... wow. It's hollow? Like your Dyson spheres, but moon-sized.
     ├ option 2:
-        ↩ (goto) global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
+        ↩ (goto) [0000EB22] global_squad_male_human ⟨cond⟩: It's hollow. Like a Dyson sphere, but moon-sized.
     ├ option 3:
-        ↩ (goto) global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
+        ↩ (goto) [0000EB20] global_squad_turian ⟨cond⟩: Data's strange. It's saying it's hollow.
     ├ option 4:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
+        ↩ (goto) [0000EB1E] global_squad_angara ⟨cond⟩: Can this be correct? The data says it's hollow.
     ├ option 5:
-        ↩ (goto) global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
+        ↩ (goto) [0000EB1F] global_squad_female_human ⟨cond⟩: It's hollow. A Dyson sphere the size of a moon.
     └─ merge ─┘
 └─ merge ─┘

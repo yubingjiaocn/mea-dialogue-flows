@@ -4,361 +4,361 @@
 ==================================================
 ┌─ BRANCH (16) ─┐
 ├ option 1:
-    global_nexus_militia_leader ⟨cond⟩: We're still looking for Knight. Please, get those devices—fast as you can.
+    [000224CB] global_nexus_militia_leader ⟨cond⟩: We're still looking for Knight. Please, get those devices—fast as you can.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: I spoke with Nilken Rensus. The man found guilty of the murder on Eos.
-            global_nexus_militia_leader: Yes, our {i}first{/i} murder here in Andromeda. I wish it had been our last.
-            global_nexus_militia_leader: When the colony attempts failed, it didn't help spirits that a high-ranking officer was killed by one of our own.
-            global_nexus_militia_leader: The mutiny here on Nexus was probably inevitable, but this acted as a spark.
+            [0001FAFD] Hero ⟨cond⟩: I spoke with Nilken Rensus. The man found guilty of the murder on Eos.
+            [0001FB03] global_nexus_militia_leader: Yes, our {i}first{/i} murder here in Andromeda. I wish it had been our last.
+            [0001FAFB] global_nexus_militia_leader: When the colony attempts failed, it didn't help spirits that a high-ranking officer was killed by one of our own.
+            [0001FB0C] global_nexus_militia_leader: The mutiny here on Nexus was probably inevitable, but this acted as a spark.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: So there was a trial and he was found guilty.
-                global_nexus_militia_leader: It was short and decisive.
-                global_nexus_militia_leader: Despite the lack of physical evidence, everything added up.
-                global_nexus_militia_leader: His only defense was: "Trust me. I didn't mean to do it."
+                [0001FB02] Hero: So there was a trial and he was found guilty.
+                [0001FB09] global_nexus_militia_leader: It was short and decisive.
+                [0001FB0B] global_nexus_militia_leader: Despite the lack of physical evidence, everything added up.
+                [0001FB00] global_nexus_militia_leader: His only defense was: "Trust me. I didn't mean to do it."
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: That {i}is{/i} the difference between murder and accidental death.
-                    global_nexus_militia_leader: In this case, motive plus opportunity plus eyewitness account equals murder.
-                    global_nexus_militia_leader: Look, knock yourself out. A key witness, Cassidy Shaw, works in Operations. Go ahead and talk to her.
-                    global_nexus_militia_leader: And there's a recording of the perpetrator threatening the victim. I'll let you cue it up on the console there.
-                    global_nexus_militia_leader: As far as I'm concerned, this case is closed.
+                    [0001FAFC] Hero: That {i}is{/i} the difference between murder and accidental death.
+                    [0001FB0E] global_nexus_militia_leader: In this case, motive plus opportunity plus eyewitness account equals murder.
+                    [0001FAFF] global_nexus_militia_leader: Look, knock yourself out. A key witness, Cassidy Shaw, works in Operations. Go ahead and talk to her.
+                    [0001FB08] global_nexus_militia_leader: And there's a recording of the perpetrator threatening the victim. I'll let you cue it up on the console there.
+                    [0001FB04] global_nexus_militia_leader: As far as I'm concerned, this case is closed.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+                        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
                     ├ option 2:
                         ┌─ BRANCH (7) ─┐
                         ├ option 1:
-                            Hero: You talk like you weren't part of the leadership. How did you end up commanding the militia?
+                            [0000A332] Hero: You talk like you weren't part of the leadership. How did you end up commanding the militia?
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                global_nexus_militia_leader ⟨cond⟩: I was escorting a prospecting team on some moon, when we ran into a species we'd never seen before.
-                                global_nexus_militia_leader: They penned us like cattle for experiments. I managed to get loose, snatched a gun, and freed the others.
-                                global_nexus_militia_leader: By the time we killed the bastards and headed back to warn the Nexus, everyone looked at me like I was in charge.
-                                Hero: That sounds familiar.
-                                global_nexus_militia_leader: The militia grew from there. Funny: once the heat is on, all kinds of people rise to the top.
-                                ↩ (goto) Hero: [empty]
+                                [0000AD58] global_nexus_militia_leader ⟨cond⟩: I was escorting a prospecting team on some moon, when we ran into a species we'd never seen before.
+                                [0000A36D] global_nexus_militia_leader: They penned us like cattle for experiments. I managed to get loose, snatched a gun, and freed the others.
+                                [0000A36F] global_nexus_militia_leader: By the time we killed the bastards and headed back to warn the Nexus, everyone looked at me like I was in charge.
+                                [0000A36E] Hero: That sounds familiar.
+                                [0000A36C] global_nexus_militia_leader: The militia grew from there. Funny: once the heat is on, all kinds of people rise to the top.
+                                ↩ (goto) [0000A32A] Hero: [empty]
                             ├ option 2:
-                                global_nexus_militia_leader ⟨cond⟩: I was escorting a prospecting team on some moon, when those kett found us.
-                                ↩ (goto) global_nexus_militia_leader: They penned us like cattle for experiments. I managed to get loose, snatched a gun, and freed the others.
+                                [0000A36A] global_nexus_militia_leader ⟨cond⟩: I was escorting a prospecting team on some moon, when those kett found us.
+                                ↩ (goto) [0000A36D] global_nexus_militia_leader: They penned us like cattle for experiments. I managed to get loose, snatched a gun, and freed the others.
                             └─ merge ─┘
                         ├ option 2:
-                            Hero: What brought you out here to Andromeda?
-                            global_nexus_militia_leader: I was tired of being the good one.
-                            Hero: "The good one"?
-                            global_nexus_militia_leader: The Kandros family is old military. There were {i}expectations{/i}. You know.
-                            global_nexus_militia_leader: Then my sister became a sculptor and Cousin Nyreen went pirate on Omega. Everyone was proud that I stayed in service.
-                            global_nexus_militia_leader: But I kept wondering: "When do I get my adventure?" Jien Garson's dream was so... grand, so gutsy. I had to be part of it.
-                            ↩ (goto) Hero: [empty]
+                            [0000E996] Hero: What brought you out here to Andromeda?
+                            [0000E998] global_nexus_militia_leader: I was tired of being the good one.
+                            [0000E992] Hero: "The good one"?
+                            [0000E994] global_nexus_militia_leader: The Kandros family is old military. There were {i}expectations{/i}. You know.
+                            [0000E9C5] global_nexus_militia_leader: Then my sister became a sculptor and Cousin Nyreen went pirate on Omega. Everyone was proud that I stayed in service.
+                            [0000E9C4] global_nexus_militia_leader: But I kept wondering: "When do I get my adventure?" Jien Garson's dream was so... grand, so gutsy. I had to be part of it.
+                            ↩ (goto) [0000A32A] Hero: [empty]
                         ├ option 3:
-                            Hero: Are the other turians managing okay?
+                            [0000A330] Hero: Are the other turians managing okay?
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                global_nexus_militia_leader ⟨cond⟩: Better. It's good to finally know what happened to the Natanus.
+                                [0000A9FA] global_nexus_militia_leader ⟨cond⟩: Better. It's good to finally know what happened to the Natanus.
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    global_nexus_militia_leader [OncePerGame]: Sajax threw a "we survived dark space" party to rally the turian recruits. They're still a little delicate this morning.
-                                    Hero: How about you?
-                                    global_nexus_militia_leader: Not telling. And don't ask so loud.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000EBB6] global_nexus_militia_leader [OncePerGame]: Sajax threw a "we survived dark space" party to rally the turian recruits. They're still a little delicate this morning.
+                                    [0000EBB0] Hero: How about you?
+                                    [0000EBAF] global_nexus_militia_leader: Not telling. And don't ask so loud.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 2:
-                                    ↩ (goto) Hero: [empty]
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 └─ merge ─┘
                             ├ option 2:
-                                global_nexus_militia_leader: So-so. We're not good at sitting around in a crisis. "Service before self" gets drummed into us at boot camp.
-                                global_nexus_militia_leader: That's probably why so many of us are in the militia. We like to earn our citizenship, whatever galaxy we're in.
-                                global_nexus_militia_leader: But it's hard to focus with our ark missing.
-                                ↩ (goto) Hero: [empty]
+                                [0000A32E] global_nexus_militia_leader: So-so. We're not good at sitting around in a crisis. "Service before self" gets drummed into us at boot camp.
+                                [0000A372] global_nexus_militia_leader: That's probably why so many of us are in the militia. We like to earn our citizenship, whatever galaxy we're in.
+                                [0000A3FC] global_nexus_militia_leader: But it's hard to focus with our ark missing.
+                                ↩ (goto) [0000A32A] Hero: [empty]
                             └─ merge ─┘
                         ├ option 4:
-                            Hero ⟨cond⟩: My team ran into some not-so-friendly locals on the way here.
-                            global_nexus_militia_leader: Bony crests, advanced tech, merciless sons of bitches?
-                            global_nexus_militia_leader: They're called the kett. We've sighted them on several worlds already.
-                            global_nexus_militia_leader: I've seen how dangerous they are firsthand. They could take the Nexus apart. Someday, Addison will believe me.
-                            ↩ (goto) Hero: [empty]
+                            [0000AD5A] Hero ⟨cond⟩: My team ran into some not-so-friendly locals on the way here.
+                            [0000AD5B] global_nexus_militia_leader: Bony crests, advanced tech, merciless sons of bitches?
+                            [0000AD59] global_nexus_militia_leader: They're called the kett. We've sighted them on several worlds already.
+                            [0000AD5F] global_nexus_militia_leader: I've seen how dangerous they are firsthand. They could take the Nexus apart. Someday, Addison will believe me.
+                            ↩ (goto) [0000A32A] Hero: [empty]
                         ├ option 5:
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                Hero [OncePerGame]: What do you know about the enemies we've encountered—the kett?
-                                global_nexus_militia_leader: We usually see them on worlds with those alien structures. The kett don't take kindly to anyone studying them. Not sure why.
-                                global_nexus_militia_leader: They don't talk to us. Every time we cross paths, there's a fight or they take prisoners.
+                                [0000ED4E] Hero [OncePerGame]: What do you know about the enemies we've encountered—the kett?
+                                [00030BC8] global_nexus_militia_leader: We usually see them on worlds with those alien structures. The kett don't take kindly to anyone studying them. Not sure why.
+                                [0000A378] global_nexus_militia_leader: They don't talk to us. Every time we cross paths, there's a fight or they take prisoners.
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    Hero ⟨cond⟩: Why? What do they want?
-                                    global_nexus_militia_leader: No one knows. But I've seen their weaponry, and what they do to those prisoners.
-                                    global_nexus_militia_leader: I want them a long, long way from the Nexus.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000A375] Hero ⟨cond⟩: Why? What do they want?
+                                    [0000A379] global_nexus_militia_leader: No one knows. But I've seen their weaponry, and what they do to those prisoners.
+                                    [0000AD5E] global_nexus_militia_leader: I want them a long, long way from the Nexus.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 2:
-                                    ↩ (goto) global_nexus_militia_leader: I want them a long, long way from the Nexus.
+                                    ↩ (goto) [0000AD5E] global_nexus_militia_leader: I want them a long, long way from the Nexus.
                                 └─ merge ─┘
                             ├ option 2:
-                                Hero: What's the latest on the kett?
+                                [0000ED4D] Hero: What's the latest on the kett?
                                 ┌─ BRANCH (6) ─┐
                                 ├ option 1:
-                                    global_nexus_militia_leader ⟨cond⟩: The Archon's lieutenant has rallied what's left of their forces, so I'm keeping the militia on a war footing.
-                                    global_nexus_militia_leader: You should keep up your training too. Plenty of kett would love to see your head on a wall.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000ED8A] global_nexus_militia_leader ⟨cond⟩: The Archon's lieutenant has rallied what's left of their forces, so I'm keeping the militia on a war footing.
+                                    [0000ED9B] global_nexus_militia_leader: You should keep up your training too. Plenty of kett would love to see your head on a wall.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 2:
-                                    global_nexus_militia_leader ⟨cond⟩: Word is they're licking their wounds. I don't like it. Injured predators turn rabid.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000ED8B] global_nexus_militia_leader ⟨cond⟩: Word is they're licking their wounds. I don't like it. Injured predators turn rabid.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 3:
-                                    global_nexus_militia_leader ⟨cond⟩: Raiding the Archon's flagship has them stirred up. The Archon's gunning for you, Ryder. Watch your back.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000ED4C] global_nexus_militia_leader ⟨cond⟩: Raiding the Archon's flagship has them stirred up. The Archon's gunning for you, Ryder. Watch your back.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 4:
-                                    global_nexus_militia_leader ⟨cond⟩: We'll be gathering information on "exaltation," that's for sure. I'll be damned if I fight my own people.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000EC3A] global_nexus_militia_leader ⟨cond⟩: We'll be gathering information on "exaltation," that's for sure. I'll be damned if I fight my own people.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 5:
-                                    global_nexus_militia_leader ⟨cond⟩: This "Archon" of theirs seems like a juicy target, if we could find him. But our intel's coming up blank.
-                                    global_nexus_militia_leader: All we know for sure is that he's interested in you. Why? How does he even know about you?
-                                    ↩ (goto) Hero: [empty]
+                                    [0000ED89] global_nexus_militia_leader ⟨cond⟩: This "Archon" of theirs seems like a juicy target, if we could find him. But our intel's coming up blank.
+                                    [0000EDA4] global_nexus_militia_leader: All we know for sure is that he's interested in you. Why? How does he even know about you?
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 ├ option 6:
-                                    global_nexus_militia_leader: Nothing right now.
-                                    ↩ (goto) Hero: [empty]
+                                    [0000ED4F] global_nexus_militia_leader: Nothing right now.
+                                    ↩ (goto) [0000A32A] Hero: [empty]
                                 └─ merge ─┘
                             └─ merge ─┘
                         ├ option 6:
-                            Hero: It's rough out there. I might need backup, if you can spare the people.
-                            global_nexus_militia_leader: I have strike teams specializing in assault and extraction. If you need serious firepower, my APEX teams have you covered.
+                            [0000A32F] Hero: It's rough out there. I might need backup, if you can spare the people.
+                            [0000A3EA] global_nexus_militia_leader: I have strike teams specializing in assault and extraction. If you need serious firepower, my APEX teams have you covered.
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                global_nexus_militia_leader ⟨cond⟩: In fact... I could give you authority to dispatch them. It'll cut down their response time.
-                                Hero: Thank you.
-                                global_nexus_militia_leader: Our current ops are on the terminal. See if there's anything that could use a shot where it counts.
-                                ↩ (goto) Hero: [empty]
+                                [0000A3E9] global_nexus_militia_leader ⟨cond⟩: In fact... I could give you authority to dispatch them. It'll cut down their response time.
+                                [0000A3FA] Hero: Thank you.
+                                [0000A3E8] global_nexus_militia_leader: Our current ops are on the terminal. See if there's anything that could use a shot where it counts.
+                                ↩ (goto) [0000A32A] Hero: [empty]
                             ├ option 2:
-                                global_nexus_militia_leader: But that isn't news to you, right?
-                                ↩ (goto) Hero: [empty]
+                                [0000AD93] global_nexus_militia_leader: But that isn't news to you, right?
+                                ↩ (goto) [0000A32A] Hero: [empty]
                             └─ merge ─┘
                         ├ option 7:
-                            Hero: Bye, Kandros. Duty calls.
-                            global_nexus_militia_leader: You and me both, Pathfinder.
+                            [0000A367] Hero: Bye, Kandros. Duty calls.
+                            [0000A369] global_nexus_militia_leader: You and me both, Pathfinder.
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: And you assume he's lying.
-                    global_nexus_militia_leader: What's a lie to a murderer?
-                    ↩ (goto) global_nexus_militia_leader: Look, knock yourself out. A key witness, Cassidy Shaw, works in Operations. Go ahead and talk to her.
+                    [0001FAF9] Hero: And you assume he's lying.
+                    [0001FB07] global_nexus_militia_leader: What's a lie to a murderer?
+                    ↩ (goto) [0001FAFF] global_nexus_militia_leader: Look, knock yourself out. A key witness, Cassidy Shaw, works in Operations. Go ahead and talk to her.
                 └─ merge ─┘
             ├ option 2:
-                Hero: It doesn't seem right to put all that on him.
-                global_nexus_militia_leader: Of course it isn't. But that's the perception.
-                ↩ (goto) global_nexus_militia_leader: Despite the lack of physical evidence, everything added up.
+                [0001FAFA] Hero: It doesn't seem right to put all that on him.
+                [0001FB0F] global_nexus_militia_leader: Of course it isn't. But that's the perception.
+                ↩ (goto) [0001FB0B] global_nexus_militia_leader: Despite the lack of physical evidence, everything added up.
             └─ merge ─┘
         ├ option 2:
-            Hero ⟨cond⟩: I need to talk to you about stasis revival and those protestors in Hydroponics.
-            global_nexus_militia_leader: I see. Maybe I should get the others for this.
+            [00022164] Hero ⟨cond⟩: I need to talk to you about stasis revival and those protestors in Hydroponics.
+            [00022161] global_nexus_militia_leader: I see. Maybe I should get the others for this.
         ├ option 3:
-            Hero ⟨cond⟩: There's an asari documentarian in your cells. Keri T'Vessa.
-            global_nexus_militia_leader: Yes. Word came down that her series was frightening people. We can't afford more unrest.
-            Hero: But—
-            global_nexus_militia_leader: I'm sorry, Ryder, but it was this or exile. At least this way she's safe. Now. Anything else?
+            [00014C16] Hero ⟨cond⟩: There's an asari documentarian in your cells. Keri T'Vessa.
+            [00014C15] global_nexus_militia_leader: Yes. Word came down that her series was frightening people. We can't afford more unrest.
+            [00014C14] Hero: But—
+            [00014C18] global_nexus_militia_leader: I'm sorry, Ryder, but it was this or exile. At least this way she's safe. Now. Anything else?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+                ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
             ├ option 2:
-                ↩ (goto) Hero: [empty]
+                ↩ (goto) [0000A32A] Hero: [empty]
             └─ merge ─┘
         ├ option 4:
-            Hero ⟨cond⟩: I was told I should talk to you about the mutiny.
-            global_nexus_militia_leader: I wasn't on the Nexus when it happened. I started reading up on it, but—you know how things get around here.
-            Hero: Do you know where Spender was during that time?
-            global_nexus_militia_leader: Why Spender? Wait. You think he might have had something to do with the mutiny?
-            Hero: Maybe. Just trying to sort things out.
-            global_nexus_militia_leader: You know, the logs I did look through showed a few discrepancies. I meant to dig deeper.
-            global_nexus_militia_leader: If you're investigating, how about I give you access to the security vid archives?
-            Hero: Thank you.
-            global_nexus_militia_leader: Anything else?
+            [0001AAFF] Hero ⟨cond⟩: I was told I should talk to you about the mutiny.
+            [0001604A] global_nexus_militia_leader: I wasn't on the Nexus when it happened. I started reading up on it, but—you know how things get around here.
+            [0001AAFE] Hero: Do you know where Spender was during that time?
+            [00016045] global_nexus_militia_leader: Why Spender? Wait. You think he might have had something to do with the mutiny?
+            [00016044] Hero: Maybe. Just trying to sort things out.
+            [00016046] global_nexus_militia_leader: You know, the logs I did look through showed a few discrepancies. I meant to dig deeper.
+            [0001604C] global_nexus_militia_leader: If you're investigating, how about I give you access to the security vid archives?
+            [0001604B] Hero: Thank you.
+            [00018563] global_nexus_militia_leader: Anything else?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+                ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
             ├ option 2:
-                ↩ (goto) Hero: [empty]
+                ↩ (goto) [0000A32A] Hero: [empty]
             └─ merge ─┘
         ├ option 5:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0000A32A] Hero: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 2:
-    global_nexus_militia_leader: Ryder, we exiled the prisoner Nilken.
-    global_nexus_militia_leader: Tough decision, based on what you uncovered on Eos.
-    global_nexus_militia_leader: His wife, Mariette, insisted on going with him.
+    [0001FAB0] global_nexus_militia_leader: Ryder, we exiled the prisoner Nilken.
+    [0001FAB1] global_nexus_militia_leader: Tough decision, based on what you uncovered on Eos.
+    [0001FAAF] global_nexus_militia_leader: His wife, Mariette, insisted on going with him.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I'm sorry to hear that.
-        global_nexus_militia_leader: It'll be a tough life out there for her. For them.
+        [0001FAA8] Hero: I'm sorry to hear that.
+        [0001FAAE] global_nexus_militia_leader: It'll be a tough life out there for her. For them.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+            ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0000A32A] Hero: [empty]
         └─ merge ─┘
     ├ option 2:
-        Hero: It's hard to let go of someone you love.
-        global_nexus_militia_leader: So it seems.
-        ↩ (goto) global_nexus_militia_leader: It'll be a tough life out there for her. For them.
+        [0001FAB3] Hero: It's hard to let go of someone you love.
+        [0001FAAB] global_nexus_militia_leader: So it seems.
+        ↩ (goto) [0001FAAE] global_nexus_militia_leader: It'll be a tough life out there for her. For them.
     └─ merge ─┘
 ├ option 3:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Those protestors in Hydroponics were cleared out. They were threatening the systems down there.
-    global_nexus_militia_leader: They didn't go quietly. But the Nexus is safe.
-    global_nexus_militia_leader: This is why I never asked to be in charge. {i}(Sighs.){/i} Need anything else?
+    [0000ED1C] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Those protestors in Hydroponics were cleared out. They were threatening the systems down there.
+    [0000ED2A] global_nexus_militia_leader: They didn't go quietly. But the Nexus is safe.
+    [0000ED57] global_nexus_militia_leader: This is why I never asked to be in charge. {i}(Sighs.){/i} Need anything else?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 4:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Thanks for understanding—about the outpost, and the protestors.
-    Hero: You don't strike me as the political type.
-    global_nexus_militia_leader: I'm not. Just pro-"keeping everyone alive." Maybe those protestors will eventually understand, too.
-    global_nexus_militia_leader: It's done. I don't want to think about it. Need something else?
+    [0000ED29] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Thanks for understanding—about the outpost, and the protestors.
+    [00010E60] Hero: You don't strike me as the political type.
+    [00010E5F] global_nexus_militia_leader: I'm not. Just pro-"keeping everyone alive." Maybe those protestors will eventually understand, too.
+    [0000ED73] global_nexus_militia_leader: It's done. I don't want to think about it. Need something else?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 5:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Well, those families are out of stasis. I know, because we're cutting rations for APEX.
-    Hero: My decision's made, Kandros.
-    global_nexus_militia_leader: And now everyone thinks protesting is how we get stuff done. Excuse me.
+    [00010E62] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Well, those families are out of stasis. I know, because we're cutting rations for APEX.
+    [00010E63] Hero: My decision's made, Kandros.
+    [00010E65] global_nexus_militia_leader: And now everyone thinks protesting is how we get stuff done. Excuse me.
 ├ option 6:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: I got your report. Both our Pathfinder and the Natanus? What a mess.
-    Hero: It could have been much worse.
+    [0000EB63] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: I got your report. Both our Pathfinder and the Natanus? What a mess.
+    [0000EBB4] Hero: It could have been much worse.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_nexus_militia_leader ⟨cond⟩: True. We've got survivors to find and a new Pathfinder out in the field—I'll take it.
-        global_nexus_militia_leader: I owe you for this, Ryder. They'd still be lost without you.
+        [0000EBB2] global_nexus_militia_leader ⟨cond⟩: True. We've got survivors to find and a new Pathfinder out in the field—I'll take it.
+        [0000EBB7] global_nexus_militia_leader: I owe you for this, Ryder. They'd still be lost without you.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+            ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0000A32A] Hero: [empty]
         └─ merge ─┘
     ├ option 2:
-        global_nexus_militia_leader: At least there's survivors out there. It'll be a long search, but we're damned motivated.
-        ↩ (goto) global_nexus_militia_leader: I owe you for this, Ryder. They'd still be lost without you.
+        [0000EBB8] global_nexus_militia_leader: At least there's survivors out there. It'll be a long search, but we're damned motivated.
+        ↩ (goto) [0000EBB7] global_nexus_militia_leader: I owe you for this, Ryder. They'd still be lost without you.
     └─ merge ─┘
 ├ option 7:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Meridian secure, the Archon beaten: that's a damn good job, Ryder. APEX is planning a tribute.
-    Hero: A statue?
-    global_nexus_militia_leader: They don't do statues. Just hope it's a new victory cocktail and not a filthy marching song.
+    [0000ED1B] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Meridian secure, the Archon beaten: that's a damn good job, Ryder. APEX is planning a tribute.
+    [0000EDCE] Hero: A statue?
+    [00018562] global_nexus_militia_leader: They don't do statues. Just hope it's a new victory cocktail and not a filthy marching song.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 8:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Did I hear this right? The angara were {i}made{/i} by the Remnant creators and that Meridian engine?
-    Hero: There's a little more to it.
-    global_nexus_militia_leader: I can barely get my head around this already. But the Remnant defenses? Those, I'm sending people to investigate.
-    global_nexus_militia_leader: Anything that has the kett running scared is worth looking into.
+    [0000ECFE] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Did I hear this right? The angara were {i}made{/i} by the Remnant creators and that Meridian engine?
+    [0000ED19] Hero: There's a little more to it.
+    [0000ED17] global_nexus_militia_leader: I can barely get my head around this already. But the Remnant defenses? Those, I'm sending people to investigate.
+    [0000ED1A] global_nexus_militia_leader: Anything that has the kett running scared is worth looking into.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 9:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: We're getting the salarian ark settled in now.
+    [0000ECA6] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: We're getting the salarian ark settled in now.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        global_nexus_militia_leader ⟨cond⟩: That's an entire wave of arks accounted for, thanks to you. Plus outposts, and—how do you find {i}time{/i} for all this?
+        [0000ECA4] global_nexus_militia_leader ⟨cond⟩: That's an entire wave of arks accounted for, thanks to you. Plus outposts, and—how do you find {i}time{/i} for all this?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: I could help you manage your time better, if you like.
-            global_nexus_militia_leader: Ha, like I have time for that.
-            global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
+            [0000ECAB] Hero: I could help you manage your time better, if you like.
+            [0000ECAC] global_nexus_militia_leader: Ha, like I have time for that.
+            [0000ED18] global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+                ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
             ├ option 2:
-                ↩ (goto) Hero: [empty]
+                ↩ (goto) [0000A32A] Hero: [empty]
             └─ merge ─┘
         ├ option 2:
-            Hero: It helps that I'm incredibly good at my job.
-            global_nexus_militia_leader: Start getting incredibly good at holding your liquor. There's a queue of people waiting to toast your health.
-            ↩ (goto) global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
+            [0000ECA9] Hero: It helps that I'm incredibly good at my job.
+            [0000ECFD] global_nexus_militia_leader: Start getting incredibly good at holding your liquor. There's a queue of people waiting to toast your health.
+            ↩ (goto) [0000ED18] global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
         └─ merge ─┘
     ├ option 2:
-        global_nexus_militia_leader ⟨cond⟩: People keep asking about the Natanus, but it's a big cluster. We'll find them.
-        ↩ (goto) global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
+        [0000ECA5] global_nexus_militia_leader ⟨cond⟩: People keep asking about the Natanus, but it's a big cluster. We'll find them.
+        ↩ (goto) [0000ED18] global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
     ├ option 3:
-        global_nexus_militia_leader: Bringing arks home is becoming a habit of yours.
-        ↩ (goto) global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
+        [0000ECA7] global_nexus_militia_leader: Bringing arks home is becoming a habit of yours.
+        ↩ (goto) [0000ED18] global_nexus_militia_leader: Just so you know... our intel says the Archon's pissed. I'd warn your team.
     └─ merge ─┘
 ├ option 10:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: So that's what the kett are up to—transforming people into willing slaves?
-    Hero: Now we know why they take so many prisoners.
-    global_nexus_militia_leader: Well, they're sure as hell not taking any more.
+    [0000EC12] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: So that's what the kett are up to—transforming people into willing slaves?
+    [0000EC0F] Hero: Now we know why they take so many prisoners.
+    [0000EC39] global_nexus_militia_leader: Well, they're sure as hell not taking any more.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 11:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: "Angara." Am I saying that right? Don't want to offend our new allies.
-    Hero: That sounds right.
-    global_nexus_militia_leader: A few angara asked to sign up for the militia. Feels strange, but I can't say no.
-    global_nexus_militia_leader: They want to kill kett and defend their home—that's just fine with me.
+    [0000ECFF] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: "Angara." Am I saying that right? Don't want to offend our new allies.
+    [0000ED01] Hero: That sounds right.
+    [0000ED00] global_nexus_militia_leader: A few angara asked to sign up for the militia. Feels strange, but I can't say no.
+    [0000ED02] global_nexus_militia_leader: They want to kill kett and defend their home—that's just fine with me.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 12:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Glad to see you, finally. I hear you've been busy out there.
-    Hero: That's one word for it.
+    [0000A9F4] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Glad to see you, finally. I hear you've been busy out there.
+    [0000A9F2] Hero: That's one word for it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Anyway, welcome to militia HQ. Excuse the mess. This office fields militia work, Nexus security, and looking for the turian ark.
-        Hero: What's the word on the turian ark?
-        global_nexus_militia_leader: Scattered readings. Some indicate the Natanus was destroyed, others that people are alive—who knows?
-        global_nexus_militia_leader: If you need anything, come see me. Even if it's just to vent.
+        [0000EC10] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Anyway, welcome to militia HQ. Excuse the mess. This office fields militia work, Nexus security, and looking for the turian ark.
+        [0000EC38] Hero: What's the word on the turian ark?
+        [0000EC37] global_nexus_militia_leader: Scattered readings. Some indicate the Natanus was destroyed, others that people are alive—who knows?
+        [0000AD92] global_nexus_militia_leader: If you need anything, come see me. Even if it's just to vent.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+            ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) Hero: [empty]
+            ↩ (goto) [0000A32A] Hero: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) global_nexus_militia_leader: If you need anything, come see me. Even if it's just to vent.
+        ↩ (goto) [0000AD92] global_nexus_militia_leader: If you need anything, come see me. Even if it's just to vent.
     └─ merge ─┘
 ├ option 13:
-    global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: I know that look. The others bent your ear, did they?
-    Hero: Something like that.
-    global_nexus_militia_leader: You get used to it. Just focus on being a Pathfinder. Can't argue with results, though they'll try.
+    [0000A325] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: I know that look. The others bent your ear, did they?
+    [0000A326] Hero: Something like that.
+    [0000A327] global_nexus_militia_leader: You get used to it. Just focus on being a Pathfinder. Can't argue with results, though they'll try.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Anyway, welcome to militia HQ. Excuse the mess. This office fields militia work, Nexus security, and looking for the turian ark.
+        ↩ (goto) [0000EC10] global_nexus_militia_leader ⟨cond⟩ [OncePerGame]: Anyway, welcome to militia HQ. Excuse the mess. This office fields militia work, Nexus security, and looking for the turian ark.
     ├ option 2:
-        ↩ (goto) global_nexus_militia_leader: If you need anything, come see me. Even if it's just to vent.
+        ↩ (goto) [0000AD92] global_nexus_militia_leader: If you need anything, come see me. Even if it's just to vent.
     └─ merge ─┘
 ├ option 14:
-    global_nexus_militia_leader ⟨cond⟩: No news on the turian ark yet. Or is this militia business?
+    [0000EBAD] global_nexus_militia_leader ⟨cond⟩: No news on the turian ark yet. Or is this militia business?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 15:
-    global_nexus_militia_leader: Hi, again.
+    [0000A3EF] global_nexus_militia_leader: Hi, again.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [empty]
+        ↩ (goto) [000224CA] global_nexus_militia_leader ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) Hero: [empty]
+        ↩ (goto) [0000A32A] Hero: [empty]
     └─ merge ─┘
 ├ option 16:
-    global_nexus_militia_leader: Later, then.
+    [0000A3FB] global_nexus_militia_leader: Later, then.
 └─ merge ─┘
-global_nexus_militia_leader: And if there was a security breach before I got here... that's bad.
+[0001AB00] global_nexus_militia_leader: And if there was a security breach before I got here... that's bad.

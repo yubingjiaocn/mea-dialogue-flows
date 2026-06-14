@@ -2,36 +2,36 @@
 # Primary speaker: global_squad_male_human
 # Source: game/conversations/hubs/hub_tem/Acquisition/hub_tem_liam_craft_tut_i.xml
 ==================================================
-global_squad_male_human: Seems like we're forever racing, but there's always time to check out new toys. Useful ones.
+[00033B4F] global_squad_male_human: Seems like we're forever racing, but there's always time to check out new toys. Useful ones.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: I'm all about what's useful.
-    global_squad_male_human: Oh, this is. Especially if you grabbed anything from Habitat 7.
-    global_squad_male_human: Raw minerals. Tech. Doesn't matter. The research station will strip that stuff down, give you options.
+    [00033B51] Hero ⟨cond⟩: I'm all about what's useful.
+    [00033B50] global_squad_male_human: Oh, this is. Especially if you grabbed anything from Habitat 7.
+    [00033B4D] global_squad_male_human: Raw minerals. Tech. Doesn't matter. The research station will strip that stuff down, give you options.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: We can craft our way through. Turn the junk we find into an advantage.
-            global_squad_male_human: Hey, with tech like this, it won't be junk for long. Not after we're through.
-            global_squad_male_human: If the best we get is what we make? Still the best. Check it out.
+            [00033B4C] Hero: We can craft our way through. Turn the junk we find into an advantage.
+            [00033B5F] global_squad_male_human: Hey, with tech like this, it won't be junk for long. Not after we're through.
+            [00033B64] global_squad_male_human: If the best we get is what we make? Still the best. Check it out.
         ├ option 2:
-            Hero: Options are good. We need more of those. For everybody.
-            global_squad_male_human: Yeah, well, "everybody" should be so lucky. This tech is aces.
-            ↩ (goto) global_squad_male_human: If the best we get is what we make? Still the best. Check it out.
+            [00033B52] Hero: Options are good. We need more of those. For everybody.
+            [00033B58] global_squad_male_human: Yeah, well, "everybody" should be so lucky. This tech is aces.
+            ↩ (goto) [00033B64] global_squad_male_human: If the best we get is what we make? Still the best. Check it out.
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: We're on our own, for everybody else. That's what Pathfinder means now.
-            ↩ (goto) global_squad_male_human: Yeah, well, "everybody" should be so lucky. This tech is aces.
+            [00033B55] Hero: We're on our own, for everybody else. That's what Pathfinder means now.
+            ↩ (goto) [00033B58] global_squad_male_human: Yeah, well, "everybody" should be so lucky. This tech is aces.
         ├ option 2:
-            Hero: I'll take any advantage I can get. Even if it's exploring junk.
-            ↩ (goto) global_squad_male_human: Hey, with tech like this, it won't be junk for long. Not after we're through.
+            [00033B56] Hero: I'll take any advantage I can get. Even if it's exploring junk.
+            ↩ (goto) [00033B5F] global_squad_male_human: Hey, with tech like this, it won't be junk for long. Not after we're through.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: Always game for new toys.
-    global_squad_male_human: This makes use of old ones. Like anything you grabbed on Habitat 7.
-    ↩ (goto) global_squad_male_human: Raw minerals. Tech. Doesn't matter. The research station will strip that stuff down, give you options.
+    [00033B4E] Hero: Always game for new toys.
+    [00033B53] global_squad_male_human: This makes use of old ones. Like anything you grabbed on Habitat 7.
+    ↩ (goto) [00033B4D] global_squad_male_human: Raw minerals. Tech. Doesn't matter. The research station will strip that stuff down, give you options.
 └─ merge ─┘

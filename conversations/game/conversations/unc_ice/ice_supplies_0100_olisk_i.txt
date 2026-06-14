@@ -4,48 +4,48 @@
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    ice_olisk: Pathfinder. Something I can do for you?
-    Hero: You the requisitions officer? I hear you're having supply issues.
-    ice_olisk: Of course not. I don't know what you heard, but everything is running fine.
+    [0002F952] ice_olisk: Pathfinder. Something I can do for you?
+    [0002F957] Hero: You the requisitions officer? I hear you're having supply issues.
+    [0002F986] ice_olisk: Of course not. I don't know what you heard, but everything is running fine.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Your communications say otherwise. You haven't received a shipment in weeks.
-        ice_olisk: Those datapads were encrypted. How did you—
-        ice_olisk: {i}(Sighs.){/i} I need to keep this news contained. No one knows the shipments have stopped.
-        ice_olisk: If word gets around, we'll have a serious morale drop. I need to investigate this quietly.
-        Hero: You have any leads?
-        ice_olisk: Not much. The supplies make it planetside, but never reach the base.
-        ice_olisk: The obvious answer is the kett. Sabotage is their style. We changed our drop point, but no luck.
-        ice_olisk: I can't send someone to investigate without word getting around. I guess there's no avoiding it, eventually.
+        [0002F987] Hero: Your communications say otherwise. You haven't received a shipment in weeks.
+        [0002F98B] ice_olisk: Those datapads were encrypted. How did you—
+        [0002F98F] ice_olisk: {i}(Sighs.){/i} I need to keep this news contained. No one knows the shipments have stopped.
+        [0002F9C5] ice_olisk: If word gets around, we'll have a serious morale drop. I need to investigate this quietly.
+        [0002F9C7] Hero: You have any leads?
+        [0002F9C6] ice_olisk: Not much. The supplies make it planetside, but never reach the base.
+        [0002F9C8] ice_olisk: The obvious answer is the kett. Sabotage is their style. We changed our drop point, but no luck.
+        [0002F9C9] ice_olisk: I can't send someone to investigate without word getting around. I guess there's no avoiding it, eventually.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Your people deserve to know what's happening. You should tell them.
-            ice_olisk: With all due respect, I'm the one keeping this camp together. I know what's best for them.
-            ice_olisk: I can't sanction an official search. But I also can't stop you from investigating on your own.
-            ice_olisk: The navpoint for the last drop location is in my personal console.
-            ice_olisk: You seem to be adept at decryption, so I'll let you figure out the rest.
+            [0002F9CC] Hero: Your people deserve to know what's happening. You should tell them.
+            [0002F9CE] ice_olisk: With all due respect, I'm the one keeping this camp together. I know what's best for them.
+            [0002F9D0] ice_olisk: I can't sanction an official search. But I also can't stop you from investigating on your own.
+            [0002F9CF] ice_olisk: The navpoint for the last drop location is in my personal console.
+            [0002F9D1] ice_olisk: You seem to be adept at decryption, so I'll let you figure out the rest.
         ├ option 2:
-            Hero: I can take a look at the drop point. That way, no one will panic.
-            ↩ (goto) ice_olisk: I can't sanction an official search. But I also can't stop you from investigating on your own.
+            [0002F9CB] Hero: I can take a look at the drop point. That way, no one will panic.
+            ↩ (goto) [0002F9D0] ice_olisk: I can't sanction an official search. But I also can't stop you from investigating on your own.
         └─ merge ─┘
     ├ option 2:
-        Hero: I saw the messages sent to you. What are you hiding?
-        ice_olisk: Keep your voice down.
-        ↩ (goto) ice_olisk: {i}(Sighs.){/i} I need to keep this news contained. No one knows the shipments have stopped.
+        [0002F98A] Hero: I saw the messages sent to you. What are you hiding?
+        [0002F98C] ice_olisk: Keep your voice down.
+        ↩ (goto) [0002F98F] ice_olisk: {i}(Sighs.){/i} I need to keep this news contained. No one knows the shipments have stopped.
     └─ merge ─┘
 ├ option 2:
-    ice_olisk: I received word that the supply drop is up and running again. And what was stopping it.
-    ice_olisk: I appreciate your help, Pathfinder.
+    [0002F9D2] ice_olisk: I received word that the supply drop is up and running again. And what was stopping it.
+    [0002F9D3] ice_olisk: I appreciate your help, Pathfinder.
 ├ option 3:
-    ice_olisk: Apologies, Pathfinder. I'm a little busy at the moment.
+    [0002F9DB] ice_olisk: Apologies, Pathfinder. I'm a little busy at the moment.
 ├ option 4:
-    ice_olisk: You need something?
+    [0002F9DA] ice_olisk: You need something?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I want to check out that supply drop. Try to solve this for you.
-        ↩ (goto) ice_olisk: I can't sanction an official search. But I also can't stop you from investigating on your own.
+        [0002F9D6] Hero: I want to check out that supply drop. Try to solve this for you.
+        ↩ (goto) [0002F9D0] ice_olisk: I can't sanction an official search. But I also can't stop you from investigating on your own.
     ├ option 2:
-        Hero: Just checking in.
-        ice_olisk: If you have any questions, I'll be here.
+        [0002F9D9] Hero: Just checking in.
+        [0002F9D4] ice_olisk: If you have any questions, I'll be here.
     └─ merge ─┘
 └─ merge ─┘

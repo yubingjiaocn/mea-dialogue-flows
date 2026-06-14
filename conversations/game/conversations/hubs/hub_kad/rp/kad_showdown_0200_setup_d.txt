@@ -2,85 +2,85 @@
 # Primary speaker: kad_queen
 # Source: game/conversations/hubs/hub_kad/rp/kad_showdown_0200_setup_d.xml
 ==================================================
-Narration: Sloane sits alone in the throne room. Kaetus and all of the other Outcasts are noticeably missing.
-Hero: Where is everybody?
-kad_queen: I told them to get out of my sight.
+[00019AEA] Narration: Sloane sits alone in the throne room. Kaetus and all of the other Outcasts are noticeably missing.
+[00019ACC] Hero: Where is everybody?
+[00019AD6] kad_queen: I told them to get out of my sight.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Take it someone pissed you off.
-    kad_queen: The Charlatan used my own people to beat up Kaetus. He's alive. Barely.
+    [00019AD8] Hero: Take it someone pissed you off.
+    [00019AE9] kad_queen: The Charlatan used my own people to beat up Kaetus. He's alive. Barely.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: I know you and Kaetus are close. I—
-        kad_queen: You don't know shit.
-        kad_queen: I didn't call you here for a pity party.
-        Hero: Why did you call me?
+        [00019AD0] Hero: I know you and Kaetus are close. I—
+        [00019AE5] kad_queen: You don't know shit.
+        [00019AE0] kad_queen: I didn't call you here for a pity party.
+        [00019AE8] Hero: Why did you call me?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero ⟨cond⟩: I'm not exactly your favorite person.
-            kad_queen: The Charlatan left a note on Kaetus's body. He wants to "settle things" between us. Meeting spot is in Draullir.
-            Hero: Could be a trap.
-            kad_queen: You think? I can't trust my own people, but you—you're an outsider.
+            [00019AE2] Hero ⟨cond⟩: I'm not exactly your favorite person.
+            [00019AE6] kad_queen: The Charlatan left a note on Kaetus's body. He wants to "settle things" between us. Meeting spot is in Draullir.
+            [00019ACD] Hero: Could be a trap.
+            [00019AE7] kad_queen: You think? I can't trust my own people, but you—you're an outsider.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                kad_queen ⟨cond⟩: And good in a fight.
+                [00019AD3] kad_queen ⟨cond⟩: And good in a fight.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    Hero [OncePerGame]: The Charlatan's had plenty of time to act. Why make a move now?
-                    kad_queen: I ignored the Collective for too long. Thought they were just another ragtag group of upstarts.
-                    kad_queen: Now they're bold. And dangerous. What happened to Kaetus is on me. I've got to end this before it gets worse.
-                    kad_queen: You with me?
+                    [00019AE1] Hero [OncePerGame]: The Charlatan's had plenty of time to act. Why make a move now?
+                    [00019AE4] kad_queen: I ignored the Collective for too long. Thought they were just another ragtag group of upstarts.
+                    [00019AD5] kad_queen: Now they're bold. And dangerous. What happened to Kaetus is on me. I've got to end this before it gets worse.
+                    [00019ADC] kad_queen: You with me?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero: I'll watch your back.
+                        [00019AC9] Hero: I'll watch your back.
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            kad_queen: Kadara's fate will be decided at this meeting.
-                            kad_queen: I was hoping it wouldn't come to this, but hey—shit happens, right? Meet me at this location. I'll go on ahead.
+                            [00019ACE] kad_queen: Kadara's fate will be decided at this meeting.
+                            [00019AE3] kad_queen: I was hoping it wouldn't come to this, but hey—shit happens, right? Meet me at this location. I'll go on ahead.
                         ├ option 2:
-                            ↩ (goto) kad_queen: I was hoping it wouldn't come to this, but hey—shit happens, right? Meet me at this location. I'll go on ahead.
+                            ↩ (goto) [00019AE3] kad_queen: I was hoping it wouldn't come to this, but hey—shit happens, right? Meet me at this location. I'll go on ahead.
                         └─ merge ─┘
                     ├ option 2:
-                        Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
-                        kad_queen: If you want an Initiative presence on Kadara, you'll be there.
-                        ↩ (goto) kad_queen: I was hoping it wouldn't come to this, but hey—shit happens, right? Meet me at this location. I'll go on ahead.
+                        [00019ADF] Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
+                        [00019ADB] kad_queen: If you want an Initiative presence on Kadara, you'll be there.
+                        ↩ (goto) [00019AE3] kad_queen: I was hoping it wouldn't come to this, but hey—shit happens, right? Meet me at this location. I'll go on ahead.
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) Hero: I'll watch your back.
+                    ↩ (goto) [00019AC9] Hero: I'll watch your back.
                 ├ option 3:
-                    ↩ (goto) Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
+                    ↩ (goto) [00019ADF] Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
                 └─ merge ─┘
             ├ option 2:
-                kad_queen ⟨cond⟩: And honorable.
+                [00019AD9] kad_queen ⟨cond⟩: And honorable.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero [OncePerGame]: The Charlatan's had plenty of time to act. Why make a move now?
+                    ↩ (goto) [00019AE1] Hero [OncePerGame]: The Charlatan's had plenty of time to act. Why make a move now?
                 ├ option 2:
-                    ↩ (goto) Hero: I'll watch your back.
+                    ↩ (goto) [00019AC9] Hero: I'll watch your back.
                 ├ option 3:
-                    ↩ (goto) Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
+                    ↩ (goto) [00019ADF] Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
                 └─ merge ─┘
             ├ option 3:
-                kad_queen: And you've proven reasonable before.
+                [00019ADE] kad_queen: And you've proven reasonable before.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero [OncePerGame]: The Charlatan's had plenty of time to act. Why make a move now?
+                    ↩ (goto) [00019AE1] Hero [OncePerGame]: The Charlatan's had plenty of time to act. Why make a move now?
                 ├ option 2:
-                    ↩ (goto) Hero: I'll watch your back.
+                    ↩ (goto) [00019AC9] Hero: I'll watch your back.
                 ├ option 3:
-                    ↩ (goto) Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
+                    ↩ (goto) [00019ADF] Hero: Like you said, I'm an outsider. Not sure if I want to get involved.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: Not that I'm complaining.
-            ↩ (goto) kad_queen: The Charlatan left a note on Kaetus's body. He wants to "settle things" between us. Meeting spot is in Draullir.
+            [00019ACF] Hero: Not that I'm complaining.
+            ↩ (goto) [00019AE6] kad_queen: The Charlatan left a note on Kaetus's body. He wants to "settle things" between us. Meeting spot is in Draullir.
         └─ merge ─┘
     ├ option 2:
-        Hero: The Charlatan's using Kaetus to put you on edge.
-        kad_queen: I know that.
-        ↩ (goto) kad_queen: I didn't call you here for a pity party.
+        [00019AD4] Hero: The Charlatan's using Kaetus to put you on edge.
+        [00019ADD] kad_queen: I know that.
+        ↩ (goto) [00019AE0] kad_queen: I didn't call you here for a pity party.
     └─ merge ─┘
 ├ option 2:
-    Hero: What happened?
-    ↩ (goto) kad_queen: The Charlatan used my own people to beat up Kaetus. He's alive. Barely.
+    [00019AEB] Hero: What happened?
+    ↩ (goto) [00019AE9] kad_queen: The Charlatan used my own people to beat up Kaetus. He's alive. Barely.
 └─ merge ─┘

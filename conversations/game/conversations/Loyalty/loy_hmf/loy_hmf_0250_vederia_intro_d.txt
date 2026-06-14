@@ -2,33 +2,33 @@
 # Primary speaker: loy_hmf_vederia_multi
 # Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0250_vederia_intro_d.xml
 ==================================================
-Narration: Vederia raises her gun as Ryder and team approach.
-loy_hmf_vederia_multi: Stop! In the name of the Goddess, I'll—
-global_squad_female_human: Shoot your rescuers?
-Narration: Vederia lowers her gun.
-loy_hmf_vederia_multi: Rescuers? And—humans! Your ark made it!
-Hero: Just about. I'm Ryder, the human Pathfinder. This is my team.
-loy_hmf_vederia_multi: I'm Vederia Damali, Sarissa's new second-in-command. Sorry about the mix-up. I hope I can help?
+[00024051] Narration: Vederia raises her gun as Ryder and team approach.
+[00024049] loy_hmf_vederia_multi: Stop! In the name of the Goddess, I'll—
+[0002404B] global_squad_female_human: Shoot your rescuers?
+[00024050] Narration: Vederia lowers her gun.
+[0002404F] loy_hmf_vederia_multi: Rescuers? And—humans! Your ark made it!
+[00024052] Hero: Just about. I'm Ryder, the human Pathfinder. This is my team.
+[0002405A] loy_hmf_vederia_multi: I'm Vederia Damali, Sarissa's new second-in-command. Sorry about the mix-up. I hope I can help?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: The captain says we need to restore power to go to FTL.
-    loy_hmf_vederia_multi: Right. Yes. I've tracked the power drain, and I think shutting the hangar bay doors will fix it.
-    loy_hmf_vederia_multi: The kett forced the doors open, and the safeties are draining power trying to shut them.
+    [00024061] Hero: The captain says we need to restore power to go to FTL.
+    [00024064] loy_hmf_vederia_multi: Right. Yes. I've tracked the power drain, and I think shutting the hangar bay doors will fix it.
+    [00024099] loy_hmf_vederia_multi: The kett forced the doors open, and the safeties are draining power trying to shut them.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Why keep the hangar bays open? There's no ships around.
-        loy_hmf_vederia_multi: I think the kett are trying to reach the bridge.
-        loy_hmf_vederia_multi: Kett can survive in vacuum for a little while. If we shut the doors, the Valiant's pet hunters lose their last escape route, too.
-        loy_hmf_vederia_multi: I pray the power will be enough for FTL. I just...
-        global_squad_female_human: Vederia, I served as a huntress. Remember Sarissa's manuals. Breathe, purpose, action. Breathe—
-        loy_hmf_vederia_multi: {i}(Breathes deeply.){/i} Okay. Please take a look at the console. I'll keep watch.
+        [00024079] Hero: Why keep the hangar bays open? There's no ships around.
+        [00024078] loy_hmf_vederia_multi: I think the kett are trying to reach the bridge.
+        [000240A5] loy_hmf_vederia_multi: Kett can survive in vacuum for a little while. If we shut the doors, the Valiant's pet hunters lose their last escape route, too.
+        [000240A6] loy_hmf_vederia_multi: I pray the power will be enough for FTL. I just...
+        [000240A9] global_squad_female_human: Vederia, I served as a huntress. Remember Sarissa's manuals. Breathe, purpose, action. Breathe—
+        [000240A8] loy_hmf_vederia_multi: {i}(Breathes deeply.){/i} Okay. Please take a look at the console. I'll keep watch.
     ├ option 2:
-        Hero: Don't worry. My SAM can probably override whatever the kett did.
-        ↩ (goto) loy_hmf_vederia_multi: Kett can survive in vacuum for a little while. If we shut the doors, the Valiant's pet hunters lose their last escape route, too.
+        [0002407F] Hero: Don't worry. My SAM can probably override whatever the kett did.
+        ↩ (goto) [000240A5] loy_hmf_vederia_multi: Kett can survive in vacuum for a little while. If we shut the doors, the Valiant's pet hunters lose their last escape route, too.
     └─ merge ─┘
 ├ option 2:
-    Hero: Just how long have you been second-in-command?
-    loy_hmf_vederia_multi: About... a week. It feels like less.
-    global_squad_female_human: Sarissa wouldn't choose you if you weren't up to this. Can you help get main power back for FTL?
-    ↩ (goto) loy_hmf_vederia_multi: Right. Yes. I've tracked the power drain, and I think shutting the hangar bay doors will fix it.
+    [00024062] Hero: Just how long have you been second-in-command?
+    [00024065] loy_hmf_vederia_multi: About... a week. It feels like less.
+    [00024076] global_squad_female_human: Sarissa wouldn't choose you if you weren't up to this. Can you help get main power back for FTL?
+    ↩ (goto) [00024064] loy_hmf_vederia_multi: Right. Yes. I've tracked the power drain, and I think shutting the hangar bay doors will fix it.
 └─ merge ─┘

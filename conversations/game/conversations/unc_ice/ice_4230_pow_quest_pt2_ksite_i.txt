@@ -2,58 +2,58 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_ice/ice_4230_pow_quest_pt2_ksite_i.xml
 ==================================================
-ice_niilj [OncePerGame]: Just in time. I would've given us another day at most. No thanks to Eraana's jabs.
-ice_eraana: If the kett can't handle being called mildly insulting things, that's on them, not me.
-ice_niilj: You see what I mean? We owe you. How'd you find us, anyway?
+[00013EE5] ice_niilj [OncePerGame]: Just in time. I would've given us another day at most. No thanks to Eraana's jabs.
+[00014326] ice_eraana: If the kett can't handle being called mildly insulting things, that's on them, not me.
+[00028A06] ice_niilj: You see what I mean? We owe you. How'd you find us, anyway?
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero ⟨cond⟩: Your nephew Skeot was trying to get you rescued.
-    ice_eraana: Good boy. He's got potential, Niilj.
-    ice_niilj: So you've said before.
-    ice_niilj: The Resistance needs to be debriefed. We'll head back to base as soon as possible.
-    ice_eraana: What about the data drive? We have to deliver it to Buxil so she can start the analysis.
+    [00028A0B] Hero ⟨cond⟩: Your nephew Skeot was trying to get you rescued.
+    [00028A27] ice_eraana: Good boy. He's got potential, Niilj.
+    [00028A25] ice_niilj: So you've said before.
+    [00028A24] ice_niilj: The Resistance needs to be debriefed. We'll head back to base as soon as possible.
+    [00028A36] ice_eraana: What about the data drive? We have to deliver it to Buxil so she can start the analysis.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ice_niilj ⟨cond⟩: Interesting. It seems we have to depend on our rescuer for more than a rescue.
-        ice_niilj: Can you deliver this drive to Techiix? If we work together, no time will be wasted.
+        [00028A42] ice_niilj ⟨cond⟩: Interesting. It seems we have to depend on our rescuer for more than a rescue.
+        [0002CE71] ice_niilj: Can you deliver this drive to Techiix? If we work together, no time will be wasted.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            Hero [OncePerGame]: What's in the drive?
-            ice_niilj: A kett code we stole while trying to infiltrate their command center.
-            ice_niilj: The kett never realized how much we downloaded off their network.
+            [00028A45] Hero [OncePerGame]: What's in the drive?
+            [00028A43] ice_niilj: A kett code we stole while trying to infiltrate their command center.
+            [00028A56] ice_niilj: The kett never realized how much we downloaded off their network.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I'll go there as soon as I can.
-                ice_niilj: Perfect. Buxil will be in her workshop.
-                ice_niilj: I hope we meet again, under better circumstances.
+                [00014323] Hero: I'll go there as soon as I can.
+                [00028AFB] ice_niilj: Perfect. Buxil will be in her workshop.
+                [00028AFC] ice_niilj: I hope we meet again, under better circumstances.
             ├ option 2:
-                Hero: If this drive is so important, are you sure you want to trust me with it?
-                ice_niilj: You saved our lives. I'd say that's a good indication you're an ally. You'll find Buxil in her workshop.
-                ↩ (goto) ice_niilj: I hope we meet again, under better circumstances.
+                [00014324] Hero: If this drive is so important, are you sure you want to trust me with it?
+                [00014321] ice_niilj: You saved our lives. I'd say that's a good indication you're an ally. You'll find Buxil in her workshop.
+                ↩ (goto) [00028AFC] ice_niilj: I hope we meet again, under better circumstances.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) Hero: I'll go there as soon as I can.
+            ↩ (goto) [00014323] Hero: I'll go there as soon as I can.
         ├ option 3:
-            ↩ (goto) Hero: If this drive is so important, are you sure you want to trust me with it?
+            ↩ (goto) [00014324] Hero: If this drive is so important, are you sure you want to trust me with it?
         └─ merge ─┘
     ├ option 2:
-        ice_niilj: Interesting. It seems we have to depend on our rescuer for more than a rescue.
-        ↩ (goto) ice_niilj: Can you deliver this drive to Techiix? If we work together, no time will be wasted.
+        [00031C38] ice_niilj: Interesting. It seems we have to depend on our rescuer for more than a rescue.
+        ↩ (goto) [0002CE71] ice_niilj: Can you deliver this drive to Techiix? If we work together, no time will be wasted.
     └─ merge ─┘
 ├ option 2:
-    Hero ⟨cond⟩: We were exploring and found the kett.
-    ice_niilj: We're even luckier than I thought.
-    ↩ (goto) ice_niilj: The Resistance needs to be debriefed. We'll head back to base as soon as possible.
+    [00028A0C] Hero ⟨cond⟩: We were exploring and found the kett.
+    [00028A26] ice_niilj: We're even luckier than I thought.
+    ↩ (goto) [00028A24] ice_niilj: The Resistance needs to be debriefed. We'll head back to base as soon as possible.
 ├ option 3:
-    Hero: Who cares? What matters is that you're free.
-    ice_niilj: Fair point.
-    ↩ (goto) ice_niilj: The Resistance needs to be debriefed. We'll head back to base as soon as possible.
+    [00028A09] Hero: Who cares? What matters is that you're free.
+    [00028A28] ice_niilj: Fair point.
+    ↩ (goto) [00028A24] ice_niilj: The Resistance needs to be debriefed. We'll head back to base as soon as possible.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    ice_niilj: Just getting our gear together before leaving.
+    [0002941A] ice_niilj: Just getting our gear together before leaving.
 ├ option 2:
-    ice_niilj: Grab all the weapons you can. The Resistance will put it to use.
+    [00029419] ice_niilj: Grab all the weapons you can. The Resistance will put it to use.
 ├ option 3:
-    ice_niilj: We'll be out of here soon.
+    [0002941C] ice_niilj: We'll be out of here soon.
 └─ merge ─┘

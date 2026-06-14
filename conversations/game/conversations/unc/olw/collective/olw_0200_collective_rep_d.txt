@@ -4,70 +4,70 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    olw_char_rep_02: Pathfinder. I'm Crux—I represent our common acquaintance.
+    [00017FAF] olw_char_rep_02: Pathfinder. I'm Crux—I represent our common acquaintance.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Do all you people have code names?
-        olw_char_rep_02: All the representatives, yes.
-        olw_char_rep_02: I'm afraid you've come at a bad time. We're having some... internal disputes.
-        olw_char_rep_02: Someone's been faking the Charlatan's orders—giving bad intel. It got two of our recruits killed.
+        [00017FAE] Hero: Do all you people have code names?
+        [00017FB7] olw_char_rep_02: All the representatives, yes.
+        [00017FEE] olw_char_rep_02: I'm afraid you've come at a bad time. We're having some... internal disputes.
+        [00017FF1] olw_char_rep_02: Someone's been faking the Charlatan's orders—giving bad intel. It got two of our recruits killed.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Someone impersonating the Charlatan could do a lot of damage.
-            olw_char_rep_02: Only the representatives have access to such high-level information.
-            olw_char_rep_02: The boss knows it's someone operating out of this base. It's my job to find the culprit.
-            Hero: So what's the holdup?
-            olw_char_rep_02: The impostor could bolt at the first sign of suspicion. I need a subtle way to smoke them out.
+            [00017FF2] Hero: Someone impersonating the Charlatan could do a lot of damage.
+            [00018008] olw_char_rep_02: Only the representatives have access to such high-level information.
+            [00018005] olw_char_rep_02: The boss knows it's someone operating out of this base. It's my job to find the culprit.
+            [00017FF4] Hero: So what's the holdup?
+            [00017FFC] olw_char_rep_02: The impostor could bolt at the first sign of suspicion. I need a subtle way to smoke them out.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                Hero [OncePerGame]: Why would someone risk impersonating the Charlatan?
-                olw_char_rep_02: Greed is a powerful motivator, Pathfinder. The Collective has access to supplies, credits—you name it.
-                olw_char_rep_02: And we only answer to one person.
+                [000182D8] Hero [OncePerGame]: Why would someone risk impersonating the Charlatan?
+                [000182D7] olw_char_rep_02: Greed is a powerful motivator, Pathfinder. The Collective has access to supplies, credits—you name it.
+                [000182DB] olw_char_rep_02: And we only answer to one person.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: You're part of a spy network. I'm sure you can figure it out.
-                    olw_char_rep_02: Your confidence is inspiring. If that's all, I need to get back to work.
+                    [00018000] Hero: You're part of a spy network. I'm sure you can figure it out.
+                    [00017FF5] olw_char_rep_02: Your confidence is inspiring. If that's all, I need to get back to work.
                 ├ option 2:
-                    Hero: Maybe I could help?
+                    [00017FFE] Hero: Maybe I could help?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        Hero ⟨cond⟩: My alliance with the Collective is new. Getting to know its members shouldn't raise suspicion.
-                        olw_char_rep_02: That's true. All right, Pathfinder, here's what we know:
-                        olw_char_rep_02: The drop point was in the sulfur springs, so the imposter should have high levels of sulfur in their clothes.
-                        Hero: SAM's sensors should be able to detect that. Anything else?
-                        olw_char_rep_02: We found footprints that could be human or asari, but too smudged to get an exact size. That's all my intel.
+                        [00017FE9] Hero ⟨cond⟩: My alliance with the Collective is new. Getting to know its members shouldn't raise suspicion.
+                        [00018002] olw_char_rep_02: That's true. All right, Pathfinder, here's what we know:
+                        [00017FEA] olw_char_rep_02: The drop point was in the sulfur springs, so the imposter should have high levels of sulfur in their clothes.
+                        [00017FF9] Hero: SAM's sensors should be able to detect that. Anything else?
+                        [00017FEC] olw_char_rep_02: We found footprints that could be human or asari, but too smudged to get an exact size. That's all my intel.
                     ├ option 2:
-                        Hero: I'm not connected to the Collective. A curious outsider would raise less suspicion than an official representative.
-                        ↩ (goto) olw_char_rep_02: That's true. All right, Pathfinder, here's what we know:
+                        [00017FF8] Hero: I'm not connected to the Collective. A curious outsider would raise less suspicion than an official representative.
+                        ↩ (goto) [00018002] olw_char_rep_02: That's true. All right, Pathfinder, here's what we know:
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) Hero: You're part of a spy network. I'm sure you can figure it out.
+                ↩ (goto) [00018000] Hero: You're part of a spy network. I'm sure you can figure it out.
             ├ option 3:
-                ↩ (goto) Hero: Maybe I could help?
+                ↩ (goto) [00017FFE] Hero: Maybe I could help?
             └─ merge ─┘
         ├ option 2:
-            Hero: This is what happens when you rule from the shadows.
-            olw_char_rep_02: Organizations with a face aren't immune to greedy bastards. Trust me.
-            ↩ (goto) olw_char_rep_02: The boss knows it's someone operating out of this base. It's my job to find the culprit.
+            [00018006] Hero: This is what happens when you rule from the shadows.
+            [00017FF3] olw_char_rep_02: Organizations with a face aren't immune to greedy bastards. Trust me.
+            ↩ (goto) [00018005] olw_char_rep_02: The boss knows it's someone operating out of this base. It's my job to find the culprit.
         └─ merge ─┘
     ├ option 2:
-        Hero: You've got a nice setup here.
-        olw_char_rep_02: It's a bit musty, but offers the privacy we need.
-        ↩ (goto) olw_char_rep_02: I'm afraid you've come at a bad time. We're having some... internal disputes.
+        [00017FB6] Hero: You've got a nice setup here.
+        [00017FB5] olw_char_rep_02: It's a bit musty, but offers the privacy we need.
+        ↩ (goto) [00017FEE] olw_char_rep_02: I'm afraid you've come at a bad time. We're having some... internal disputes.
     └─ merge ─┘
 ├ option 2:
-    olw_char_rep_02: Pathfinder. You caught me off guard. We don't receive many visitors.
+    [00017FFF] olw_char_rep_02: Pathfinder. You caught me off guard. We don't receive many visitors.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: The cesspools put them off?
-        olw_char_rep_02: They are natural deterrents, yes. The angara call this place "Draullir." Translates to "death caves."
-        olw_char_rep_02: A bit melodramatic. If you've a head for navigation, it's perfectly safe. Like most of Kadara, it's the people you should worry about.
-        Hero: What do you mean?
-        ↩ (goto) olw_char_rep_02: Someone's been faking the Charlatan's orders—giving bad intel. It got two of our recruits killed.
+        [00017FF0] Hero: The cesspools put them off?
+        [00017FF6] olw_char_rep_02: They are natural deterrents, yes. The angara call this place "Draullir." Translates to "death caves."
+        [00018003] olw_char_rep_02: A bit melodramatic. If you've a head for navigation, it's perfectly safe. Like most of Kadara, it's the people you should worry about.
+        [000182D9] Hero: What do you mean?
+        ↩ (goto) [00017FF1] olw_char_rep_02: Someone's been faking the Charlatan's orders—giving bad intel. It got two of our recruits killed.
     ├ option 2:
-        Hero: I didn't come here to cause problems.
-        olw_char_rep_02: You just have interesting timing.
-        ↩ (goto) olw_char_rep_02: Someone's been faking the Charlatan's orders—giving bad intel. It got two of our recruits killed.
+        [00018004] Hero: I didn't come here to cause problems.
+        [00018007] olw_char_rep_02: You just have interesting timing.
+        ↩ (goto) [00017FF1] olw_char_rep_02: Someone's been faking the Charlatan's orders—giving bad intel. It got two of our recruits killed.
     └─ merge ─┘
 └─ merge ─┘

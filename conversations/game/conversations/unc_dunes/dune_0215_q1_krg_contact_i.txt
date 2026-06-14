@@ -2,46 +2,46 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_dunes/dune_0215_q1_krg_contact_i.xml
 ==================================================
-Hero [OncePerGame]: Ravanor Brenk.
-dune_morda_flunky01: Quiet. Anyone tells Morda I'm talking to you and I'm kicked out.
+[0002050D] Hero [OncePerGame]: Ravanor Brenk.
+[00020508] dune_morda_flunky01: Quiet. Anyone tells Morda I'm talking to you and I'm kicked out.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: Spit out what you know and I'll take it from there.
-    dune_morda_flunky01: Okay, okay. I said quiet, not rude.
-    Hero: What?
-    dune_morda_flunky01: Did you see the crashed ship as you landed?
-    dune_morda_flunky01: Morda's after the drive core.
+    [0002050C] Hero: Spit out what you know and I'll take it from there.
+    [00020507] dune_morda_flunky01: Okay, okay. I said quiet, not rude.
+    [0002050A] Hero: What?
+    [0001F622] dune_morda_flunky01: Did you see the crashed ship as you landed?
+    [0001F624] dune_morda_flunky01: Morda's after the drive core.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: That's Remnant tech. Can krogan use that?
-        dune_morda_flunky01: What are you talking about? She's building a bomb.
-        Hero: With the drive core as a power source... SAM?
-        SAM: Dangerous to those handling it but, in the end, very possible.
-        dune_morda_flunky01: Demolition teams've been busting down walls for months, battling those robots and scavengers.
-        dune_morda_flunky01: Lots here want peace with the Nexus. If Morda gets that drive core, "boom," it's over.
-        dune_morda_flunky01: Now get away from me.
+        [0001F62B] global_squad_angara ⟨cond⟩: That's Remnant tech. Can krogan use that?
+        [0001F61F] dune_morda_flunky01: What are you talking about? She's building a bomb.
+        [0001F61E] Hero: With the drive core as a power source... SAM?
+        [0001F62D] SAM: Dangerous to those handling it but, in the end, very possible.
+        [00020510] dune_morda_flunky01: Demolition teams've been busting down walls for months, battling those robots and scavengers.
+        [0002050F] dune_morda_flunky01: Lots here want peace with the Nexus. If Morda gets that drive core, "boom," it's over.
+        [00025487] dune_morda_flunky01: Now get away from me.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: Thanks, Brenk.
+            [00025489] global_squad_krogan ⟨cond⟩: Thanks, Brenk.
         ├ option 2:
-            Hero: Got it. Thanks.
+            [00025488] Hero: Got it. Thanks.
         └─ merge ─┘
     ├ option 2:
-        global_squad_female_human ⟨cond⟩: She can't activate it. It's Remnant.
-        ↩ (goto) dune_morda_flunky01: What are you talking about? She's building a bomb.
+        [0001F62A] global_squad_female_human ⟨cond⟩: She can't activate it. It's Remnant.
+        ↩ (goto) [0001F61F] dune_morda_flunky01: What are you talking about? She's building a bomb.
     ├ option 3:
-        global_squad_asari ⟨cond⟩: That's Remnant. No way she can use it.
-        ↩ (goto) dune_morda_flunky01: What are you talking about? She's building a bomb.
+        [0001F625] global_squad_asari ⟨cond⟩: That's Remnant. No way she can use it.
+        ↩ (goto) [0001F61F] dune_morda_flunky01: What are you talking about? She's building a bomb.
     ├ option 4:
-        global_squad_turian ⟨cond⟩: Why? That's Remnant tech. She can't activate it.
-        ↩ (goto) dune_morda_flunky01: What are you talking about? She's building a bomb.
+        [0001F620] global_squad_turian ⟨cond⟩: Why? That's Remnant tech. She can't activate it.
+        ↩ (goto) [0001F61F] dune_morda_flunky01: What are you talking about? She's building a bomb.
     ├ option 5:
-        global_squad_male_human ⟨cond⟩: What for? She can't activate Remnant tech.
-        ↩ (goto) dune_morda_flunky01: What are you talking about? She's building a bomb.
+        [0001F627] global_squad_male_human ⟨cond⟩: What for? She can't activate Remnant tech.
+        ↩ (goto) [0001F61F] dune_morda_flunky01: What are you talking about? She's building a bomb.
     └─ merge ─┘
 ├ option 2:
-    Hero: Last thing I want to do is jeopardize the Nexus or this colony.
-    dune_morda_flunky01: Me neither. Or Clan Ravanor. Or Clan Jorgal. Or Clan Urdnot. Some in Clan Nakmor, too—
-    Hero: Okay. Got it.
-    ↩ (goto) dune_morda_flunky01: Did you see the crashed ship as you landed?
+    [00020509] Hero: Last thing I want to do is jeopardize the Nexus or this colony.
+    [00020506] dune_morda_flunky01: Me neither. Or Clan Ravanor. Or Clan Jorgal. Or Clan Urdnot. Some in Clan Nakmor, too—
+    [00020504] Hero: Okay. Got it.
+    ↩ (goto) [0001F622] dune_morda_flunky01: Did you see the crashed ship as you landed?
 └─ merge ─┘

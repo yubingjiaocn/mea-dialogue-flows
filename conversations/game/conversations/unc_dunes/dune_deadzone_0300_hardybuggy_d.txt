@@ -2,69 +2,69 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc_dunes/dune_deadzone_0300_hardybuggy_d.xml
 ==================================================
-dune_deadzone_mechanic: Components are scarce out here, but this board should do the trick. My backup.
-dune_deadzone_mechanic: Just swap it out with your old one. She should start up good as new.
+[0001E00E] dune_deadzone_mechanic: Components are scarce out here, but this board should do the trick. My backup.
+[0001E00F] dune_deadzone_mechanic: Just swap it out with your old one. She should start up good as new.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: How can you possibly know this is the board we need?
-    dune_deadzone_mechanic: I, um... okay, I'll level with you.
-    dune_deadzone_mechanic: Maybe you couldn't tell from my fancy suit, but I'm a scav, same as any other out here—except I'm better with my hands than most.
-    dune_deadzone_mechanic: Even built a special EMP. I push a button, it fries any vehicle that gets too close.
-    Hero: You don't say...
-    dune_deadzone_mechanic: Then I strip the vehicle, and, um, "dispatch" anyone who doesn't want me to strip said vehicle. Quite the racket.
+    [0001EBED] Hero: How can you possibly know this is the board we need?
+    [0001EBF1] dune_deadzone_mechanic: I, um... okay, I'll level with you.
+    [0001EBF5] dune_deadzone_mechanic: Maybe you couldn't tell from my fancy suit, but I'm a scav, same as any other out here—except I'm better with my hands than most.
+    [0001EBF6] dune_deadzone_mechanic: Even built a special EMP. I push a button, it fries any vehicle that gets too close.
+    [0001ECB1] Hero: You don't say...
+    [0001ECB0] dune_deadzone_mechanic: Then I strip the vehicle, and, um, "dispatch" anyone who doesn't want me to strip said vehicle. Quite the racket.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Why are you admitting all this?
-        dune_deadzone_mechanic: Because look at you. Good as I am, I can't handle that fight.
-        dune_deadzone_mechanic: Figured I'd offer what I can to help get you back on your way. No fuss, no muss, and no hard feelings.
-        dune_deadzone_mechanic: For a price, of course.
-        Hero: Seriously?
-        dune_deadzone_mechanic: Yes.
+        [0001ECB4] Hero: Why are you admitting all this?
+        [0001ECB9] dune_deadzone_mechanic: Because look at you. Good as I am, I can't handle that fight.
+        [0001ECBE] dune_deadzone_mechanic: Figured I'd offer what I can to help get you back on your way. No fuss, no muss, and no hard feelings.
+        [0001ED61] dune_deadzone_mechanic: For a price, of course.
+        [0002B7C8] Hero: Seriously?
+        [0002B7C7] dune_deadzone_mechanic: Yes.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            Hero: You drive a hard bargain, but I guess we don't have much of a choice out here.
+            [0001ECE4] Hero: You drive a hard bargain, but I guess we don't have much of a choice out here.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                dune_deadzone_mechanic ⟨cond⟩: No, you really don't.
-                dune_deadzone_mechanic: Pleasure doing business with you. Come back any time.
-                Hero: Yeah... thanks.
+                [0001ED96] dune_deadzone_mechanic ⟨cond⟩: No, you really don't.
+                [0001ED95] dune_deadzone_mechanic: Pleasure doing business with you. Come back any time.
+                [0001ED98] Hero: Yeah... thanks.
             ├ option 2:
-                dune_deadzone_mechanic: Wow, you're broke! Okay. Guess we do this the hard way.
+                [0002B7DF] dune_deadzone_mechanic: Wow, you're broke! Okay. Guess we do this the hard way.
             └─ merge ─┘
         ├ option 2:
-            Hero: We need that board. And I can't let you keep doing this to people.
-            dune_deadzone_mechanic: If not me, someone's gonna profit. But suit yourself.
-            ↩ (goto) dune_deadzone_mechanic: [empty]
+            [0001ED92] Hero: We need that board. And I can't let you keep doing this to people.
+            [0001ED9B] dune_deadzone_mechanic: If not me, someone's gonna profit. But suit yourself.
+            ↩ (goto) [0001ED9A] dune_deadzone_mechanic: [empty]
         ├ option 3:
-            Hero ⟨cond⟩ [OncePerGame]: I have this part? Someone else needed it, but...
-            SAM: Pathfinder, Nora will remain stranded if she doesn't get this catalyzer.
+            [0002B491] Hero ⟨cond⟩ [OncePerGame]: I have this part? Someone else needed it, but...
+            [0002B495] SAM: Pathfinder, Nora will remain stranded if she doesn't get this catalyzer.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                Hero: I guess we can't leave her out there. Let's rethink this.
-                ↩ (goto) Hero: [empty]
+                [0002B494] Hero: I guess we can't leave her out there. Let's rethink this.
+                ↩ (goto) [0001ED93] Hero: [empty]
             ├ option 2:
-                Hero: This is the best option. Nora will have to fend for herself.
-                dune_deadzone_mechanic: Out here, we all have to.
-                ↩ (goto) dune_deadzone_mechanic: [empty]
+                [0002B493] Hero: This is the best option. Nora will have to fend for herself.
+                [0002B4AA] dune_deadzone_mechanic: Out here, we all have to.
+                ↩ (goto) [0001ED97] dune_deadzone_mechanic: [empty]
             └─ merge ─┘
         ├ option 4:
-            Hero [OncePerGame]: Do you pull this scam often?
-            dune_deadzone_mechanic: I don't usually wait long enough to talk. The dead go all in, so consider yourself lucky.
-            ↩ (goto) Hero: [empty]
+            [0001ED90] Hero [OncePerGame]: Do you pull this scam often?
+            [0001ED8F] dune_deadzone_mechanic: I don't usually wait long enough to talk. The dead go all in, so consider yourself lucky.
+            ↩ (goto) [0001ED93] Hero: [empty]
         └─ merge ─┘
     ├ option 2:
-        Hero: Wait, so you fried the Nomad? And now you want to kill us?
-        dune_deadzone_mechanic: Well, when you put it like that, sure. But I had a change of heart when I realized you'd probably crush me.
+        [0001ECB2] Hero: Wait, so you fried the Nomad? And now you want to kill us?
+        [0001ECBF] dune_deadzone_mechanic: Well, when you put it like that, sure. But I had a change of heart when I realized you'd probably crush me.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_krogan ⟨cond⟩: Damn right.
-            ↩ (goto) dune_deadzone_mechanic: Figured I'd offer what I can to help get you back on your way. No fuss, no muss, and no hard feelings.
+            [0001ECDA] global_squad_krogan ⟨cond⟩: Damn right.
+            ↩ (goto) [0001ECBE] dune_deadzone_mechanic: Figured I'd offer what I can to help get you back on your way. No fuss, no muss, and no hard feelings.
         ├ option 2:
-            ↩ (goto) dune_deadzone_mechanic: Figured I'd offer what I can to help get you back on your way. No fuss, no muss, and no hard feelings.
+            ↩ (goto) [0001ECBE] dune_deadzone_mechanic: Figured I'd offer what I can to help get you back on your way. No fuss, no muss, and no hard feelings.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    Hero: Thanks. A friendly face is the last thing I'd expect out here.
-    dune_deadzone_mechanic: Wow, you're a nice one. Listen, though, before we go any further...
-    ↩ (goto) dune_deadzone_mechanic: Maybe you couldn't tell from my fancy suit, but I'm a scav, same as any other out here—except I'm better with my hands than most.
+    [0001EBEF] Hero: Thanks. A friendly face is the last thing I'd expect out here.
+    [0001EBF0] dune_deadzone_mechanic: Wow, you're a nice one. Listen, though, before we go any further...
+    ↩ (goto) [0001EBF5] dune_deadzone_mechanic: Maybe you couldn't tell from my fancy suit, but I'm a scav, same as any other out here—except I'm better with my hands than most.
 └─ merge ─┘

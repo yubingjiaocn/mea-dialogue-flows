@@ -4,57 +4,57 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    olw_collective_pir_01: Someone's approaching!
-    olw_char_rep_01: Stand down. They're allies.
-    olw_char_rep_01: Welcome, Pathfinder.
+    [00017CB4] olw_collective_pir_01: Someone's approaching!
+    [00017CC2] olw_char_rep_01: Stand down. They're allies.
+    [00017CB6] olw_char_rep_01: Welcome, Pathfinder.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: Still not used to you people not shooting at me.
-        olw_char_rep_01: Well, get used to it. The Charlatan's orders were clear.
+        [00017CBD] Hero: Still not used to you people not shooting at me.
+        [00017CB0] olw_char_rep_01: Well, get used to it. The Charlatan's orders were clear.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            olw_char_rep_01 ⟨cond⟩: If I didn't know any better, I'd say the boss had a soft spot for you.
-            olw_char_rep_01: But that's none of my business. Crux is in charge here. If you need something, speak with her.
+            [00017CB1] olw_char_rep_01 ⟨cond⟩: If I didn't know any better, I'd say the boss had a soft spot for you.
+            [00017CC3] olw_char_rep_01: But that's none of my business. Crux is in charge here. If you need something, speak with her.
         ├ option 2:
-            olw_char_rep_01: You must have done quite the favor for the boss.
-            ↩ (goto) olw_char_rep_01: But that's none of my business. Crux is in charge here. If you need something, speak with her.
+            [00017CC1] olw_char_rep_01: You must have done quite the favor for the boss.
+            ↩ (goto) [00017CC3] olw_char_rep_01: But that's none of my business. Crux is in charge here. If you need something, speak with her.
         └─ merge ─┘
     ├ option 2:
-        Hero: Wasn't sure if my understanding with the Charlatan had filtered through the ranks.
-        olw_char_rep_01: Even our lowest operative knows to leave you alone.
+        [00017CBE] Hero: Wasn't sure if my understanding with the Charlatan had filtered through the ranks.
+        [00017CB5] olw_char_rep_01: Even our lowest operative knows to leave you alone.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) olw_char_rep_01 ⟨cond⟩: If I didn't know any better, I'd say the boss had a soft spot for you.
+            ↩ (goto) [00017CB1] olw_char_rep_01 ⟨cond⟩: If I didn't know any better, I'd say the boss had a soft spot for you.
         ├ option 2:
-            ↩ (goto) olw_char_rep_01: You must have done quite the favor for the boss.
+            ↩ (goto) [00017CC1] olw_char_rep_01: You must have done quite the favor for the boss.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    olw_collective_pir_01: Intruders!
+    [00017AE2] olw_collective_pir_01: Intruders!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        olw_char_rep_01: Stand down! The Charlatan wants this one alive.
-        olw_char_rep_01: Out for a walk, Pathfinder?
+        [00017AE0] olw_char_rep_01: Stand down! The Charlatan wants this one alive.
+        [00017AE4] olw_char_rep_01: Out for a walk, Pathfinder?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: More of a jaunt. It's good to stretch the legs.
-            olw_char_rep_01: A sense of humor. In Kadara, that'll either get you far or dead.
-            olw_char_rep_01: But my orders are clear: you're not to be harmed.
-            olw_char_rep_01: Crux is in charge here. If you've got questions, talk to her.
+            [00017ADF] Hero: More of a jaunt. It's good to stretch the legs.
+            [00017CB9] olw_char_rep_01: A sense of humor. In Kadara, that'll either get you far or dead.
+            [00017CC0] olw_char_rep_01: But my orders are clear: you're not to be harmed.
+            [00017CBC] olw_char_rep_01: Crux is in charge here. If you've got questions, talk to her.
         ├ option 2:
-            Hero: No one else in the Collective hesitated to shoot me.
-            olw_char_rep_01: We're a big organization. Low level operatives might not have gotten the word.
-            ↩ (goto) olw_char_rep_01: But my orders are clear: you're not to be harmed.
+            [00017CB7] Hero: No one else in the Collective hesitated to shoot me.
+            [00017CB2] olw_char_rep_01: We're a big organization. Low level operatives might not have gotten the word.
+            ↩ (goto) [00017CC0] olw_char_rep_01: But my orders are clear: you're not to be harmed.
         └─ merge ─┘
     ├ option 2:
-        olw_char_rep_01: Stand down! The Charlatan wants this one alive.
-        ↩ (goto) olw_char_rep_01: Out for a walk, Pathfinder?
+        [0001CF30] olw_char_rep_01: Stand down! The Charlatan wants this one alive.
+        ↩ (goto) [00017AE4] olw_char_rep_01: Out for a walk, Pathfinder?
     └─ merge ─┘
 └─ merge ─┘
-olw_collective_pir_01: Intruders!
+[00017CBB] olw_collective_pir_01: Intruders!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    olw_char_rep_01 ⟨cond⟩: It's the Pathfinder—kill her!
+    [00017CBA] olw_char_rep_01 ⟨cond⟩: It's the Pathfinder—kill her!
 ├ option 2:
-    olw_char_rep_01: It's the Pathfinder—kill him!
+    [00017CB8] olw_char_rep_01: It's the Pathfinder—kill him!
 └─ merge ─┘

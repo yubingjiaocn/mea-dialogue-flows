@@ -4,45 +4,45 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    Hero: Can you run?
+    [0000C3FE] Hero: Can you run?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        SAM: Pathfinder, the kett are close to restoring the ship's power.
-        Hero: Tempest, we're going topside. Track for extraction.
-        global_crew_co-pilot: [Comm] Understood.
+        [0000C3FA] SAM: Pathfinder, the kett are close to restoring the ship's power.
+        [0000C401] Hero: Tempest, we're going topside. Track for extraction.
+        [0000D899] global_crew_co-pilot: [Comm] Understood.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            Hero: Raeka. Raeka, are you still there...?
-            Hero: I'm sorry.
+            [0000C3FB] Hero: Raeka. Raeka, are you still there...?
+            [0000C43E] Hero: I'm sorry.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
             ├ option 2:
-                Hero: Let's move! Move!
+                [0000C43F] Hero: Let's move! Move!
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                 ├ option 2:
-                    global_crew_co-pilot: [Comm] Ryder, now! We've got to go!
+                    [0000C440] global_crew_co-pilot: [Comm] Ryder, now! We've got to go!
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            global_salarian_pathfinder_multi: Ryder, thank you.
-            Hero: Save it for when we're safe.
-            ↩ (goto) Narration: [empty]
+            [0000C43D] global_salarian_pathfinder_multi: Ryder, thank you.
+            [0000C43C] Hero: Save it for when we're safe.
+            ↩ (goto) [0000C42B] Narration: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) SAM: Pathfinder, the kett are close to restoring the ship's power.
+        ↩ (goto) [0000C3FA] SAM: Pathfinder, the kett are close to restoring the ship's power.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) Hero: Can you run?
+    ↩ (goto) [0000C3FE] Hero: Can you run?
 ├ option 3:
-    crit_city_archonssword_multi: Power will be restored soon, Archon.
-    global_main_villain: Not soon enough! You will hunt them down and bring that human back. Or do not return.
-    crit_city_archonssword_multi: Yes, Archon.
-    global_main_villain: It seems you've been abandoned.
+    [0000C42E] crit_city_archonssword_multi: Power will be restored soon, Archon.
+    [0000C42F] global_main_villain: Not soon enough! You will hunt them down and bring that human back. Or do not return.
+    [0000D898] crit_city_archonssword_multi: Yes, Archon.
+    [0000E71B] global_main_villain: It seems you've been abandoned.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        Hero: A team is on its way. They'll escort the ark to the Nexus...
+        [0000D165] Hero: A team is on its way. They'll escort the ark to the Nexus...
     ├ option 2:
-        ↩ (goto) Narration: [empty]
+        ↩ (goto) [0000C432] Narration: [empty]
     └─ merge ─┘
 └─ merge ─┘

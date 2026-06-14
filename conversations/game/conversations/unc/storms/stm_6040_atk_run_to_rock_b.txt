@@ -2,30 +2,30 @@
 # Primary speaker: Hero
 # Source: game/conversations/unc/storms/stm_6040_atk_run_to_rock_b.xml
 ==================================================
-ustl_settle_01_admin_multi: [Comm] The Blackrock signal comes and goes. You've evened out the weather, but I wouldn't call reception clear.
-ustl_settle_01_admin_multi: [Comm] Eos still feels "frontier." Claimed but not tamed, we like to say.
-ustl_settle_01_admin_multi: [Comm] All those generators you took from the kett? Another boon you gave us.
+[0002086F] ustl_settle_01_admin_multi: [Comm] The Blackrock signal comes and goes. You've evened out the weather, but I wouldn't call reception clear.
+[00020A31] ustl_settle_01_admin_multi: [Comm] Eos still feels "frontier." Claimed but not tamed, we like to say.
+[00020869] ustl_settle_01_admin_multi: [Comm] All those generators you took from the kett? Another boon you gave us.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ustl_settle_01_admin_multi ⟨cond⟩: [Comm] After we fixed the sabotage, of course.
-    Hero: Glad to see them put to use.
+    [0002086C] ustl_settle_01_admin_multi ⟨cond⟩: [Comm] After we fixed the sabotage, of course.
+    [0002086A] Hero: Glad to see them put to use.
 ├ option 2:
-    ↩ (goto) Hero: Glad to see them put to use.
+    ↩ (goto) [0002086A] Hero: Glad to see them put to use.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ustl_settle_01_admin_multi: [Comm] Jumping the gun, Pathfinder. I wanted you to come talk with me before heading that direction.
-    Hero: Summarize?
-    ustl_settle_01_admin_multi: [Comm] Roekaar are hiding in Blackrock Tande. It feels big. Organized. That's bad.
-    Hero: We'll check it out.
+    [00020867] ustl_settle_01_admin_multi: [Comm] Jumping the gun, Pathfinder. I wanted you to come talk with me before heading that direction.
+    [00020868] Hero: Summarize?
+    [00020A2F] ustl_settle_01_admin_multi: [Comm] Roekaar are hiding in Blackrock Tande. It feels big. Organized. That's bad.
+    [00020A2E] Hero: We'll check it out.
 ├ option 2:
-    Hero: Almost at Blackrock Tande.
+    [0002086E] Hero: Almost at Blackrock Tande.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: That is definitely a Roekaar signal.
-        Hero: Understood. Eyes open.
+        [000208DB] global_squad_angara ⟨cond⟩: That is definitely a Roekaar signal.
+        [00021076] Hero: Understood. Eyes open.
     ├ option 2:
-        global_squad_angara: [Comm] Ryder? There is no doubt it's a Roekaar signal.
-        ↩ (goto) Hero: Understood. Eyes open.
+        [00021077] global_squad_angara: [Comm] Ryder? There is no doubt it's a Roekaar signal.
+        ↩ (goto) [00021076] Hero: Understood. Eyes open.
     └─ merge ─┘
 └─ merge ─┘

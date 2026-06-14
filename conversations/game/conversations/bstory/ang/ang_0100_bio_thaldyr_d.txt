@@ -2,114 +2,114 @@
 # Primary speaker: angbs_recluse
 # Source: game/conversations/bstory/ang/ang_0100_bio_thaldyr_d.xml
 ==================================================
-angbs_recluse: Don't touch me!
+[0002D6BD] angbs_recluse: Don't touch me!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    Hero: I just want to help.
+    [0002D6CC] Hero: I just want to help.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        global_squad_angara ⟨cond⟩: Your wounds... they're self-inflicted?
-        angbs_recluse: The kett. I can't go back. I won't. {i}(Winces in pain.){/i}
+        [0002D6D5] global_squad_angara ⟨cond⟩: Your wounds... they're self-inflicted?
+        [0002D6CD] angbs_recluse: The kett. I can't go back. I won't. {i}(Winces in pain.){/i}
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            global_squad_angara ⟨cond⟩: Hush now, sister.
-            global_squad_angara: The kett are dead. They can't take you. We won't let them.
-            Narration: Thaldyr stares at Jaal's face tenderly.
-            angbs_recluse: You sound like {i}him{/i}. So confident. So sure.
-            global_squad_angara ⟨cond⟩: We need to find him, Thaldyr.
-            Narration: Thaldyr dies.
+            [0002D6B5] global_squad_angara ⟨cond⟩: Hush now, sister.
+            [0002D6BA] global_squad_angara: The kett are dead. They can't take you. We won't let them.
+            [0002D6D1] Narration: Thaldyr stares at Jaal's face tenderly.
+            [0002D6B4] angbs_recluse: You sound like {i}him{/i}. So confident. So sure.
+            [0002D6CF] global_squad_angara ⟨cond⟩: We need to find him, Thaldyr.
+            [0002D6D8] Narration: Thaldyr dies.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                global_squad_angara ⟨cond⟩: Isharay, brave one.
+                [0002D6D0] global_squad_angara ⟨cond⟩: Isharay, brave one.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    Hero: Even in the end, she was devoted to him.
+                    [0002D6D6] Hero: Even in the end, she was devoted to him.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        global_squad_angara ⟨cond⟩: {i}(Scoffs.){/i} And Akksul's using that devotion to spread hate.
-                        global_squad_angara: The only other person who could reach him is the Moshae.
+                        [0002D6C1] global_squad_angara ⟨cond⟩: {i}(Scoffs.){/i} And Akksul's using that devotion to spread hate.
+                        [0002D6C2] global_squad_angara: The only other person who could reach him is the Moshae.
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            global_squad_angara ⟨cond⟩: I was hoping to keep her out of this. She's always had a blind spot when it comes to Akksul.
-                            global_squad_angara: Come on. Let's go.
+                            [0002D6B3] global_squad_angara ⟨cond⟩: I was hoping to keep her out of this. She's always had a blind spot when it comes to Akksul.
+                            [0002D6C0] global_squad_angara: Come on. Let's go.
                         ├ option 2:
-                            Hero: Another reason to rescue her.
-                            ↩ (goto) global_squad_angara: Come on. Let's go.
+                            [0002D6D2] Hero: Another reason to rescue her.
+                            ↩ (goto) [0002D6C0] global_squad_angara: Come on. Let's go.
                         └─ merge ─┘
                     ├ option 2:
-                        Hero: Better update Jaal.
+                        [0002D6BE] Hero: Better update Jaal.
                     └─ merge ─┘
                 ├ option 2:
-                    Hero: We're no closer to Akksul.
+                    [0002D6B8] Hero: We're no closer to Akksul.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        global_squad_angara ⟨cond⟩: Her devotion to him surprised me.
-                        global_squad_angara: I don't think anyone affiliated with the Roekaar will help us.
-                        ↩ (goto) global_squad_angara: The only other person who could reach him is the Moshae.
+                        [0002D6B6] global_squad_angara ⟨cond⟩: Her devotion to him surprised me.
+                        [0002D6D3] global_squad_angara: I don't think anyone affiliated with the Roekaar will help us.
+                        ↩ (goto) [0002D6C2] global_squad_angara: The only other person who could reach him is the Moshae.
                     ├ option 2:
-                        ↩ (goto) Hero: Better update Jaal.
+                        ↩ (goto) [0002D6BE] Hero: Better update Jaal.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                global_squad_krogan ⟨cond⟩: She's gone.
+                [0002D6CB] global_squad_krogan ⟨cond⟩: She's gone.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: Even in the end, she was devoted to him.
+                    ↩ (goto) [0002D6D6] Hero: Even in the end, she was devoted to him.
                 ├ option 2:
-                    ↩ (goto) Hero: We're no closer to Akksul.
+                    ↩ (goto) [0002D6B8] Hero: We're no closer to Akksul.
                 └─ merge ─┘
             ├ option 3:
-                global_squad_asari ⟨cond⟩: Poor thing.
+                [0002D6C3] global_squad_asari ⟨cond⟩: Poor thing.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: Even in the end, she was devoted to him.
+                    ↩ (goto) [0002D6D6] Hero: Even in the end, she was devoted to him.
                 ├ option 2:
-                    ↩ (goto) Hero: We're no closer to Akksul.
+                    ↩ (goto) [0002D6B8] Hero: We're no closer to Akksul.
                 └─ merge ─┘
             ├ option 4:
-                global_squad_female_human ⟨cond⟩: Hope she finds peace.
+                [0002D6BF] global_squad_female_human ⟨cond⟩: Hope she finds peace.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: Even in the end, she was devoted to him.
+                    ↩ (goto) [0002D6D6] Hero: Even in the end, she was devoted to him.
                 ├ option 2:
-                    ↩ (goto) Hero: We're no closer to Akksul.
+                    ↩ (goto) [0002D6B8] Hero: We're no closer to Akksul.
                 └─ merge ─┘
             ├ option 5:
-                global_squad_male_human ⟨cond⟩: Damn it.
+                [0002D6C4] global_squad_male_human ⟨cond⟩: Damn it.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) Hero: Even in the end, she was devoted to him.
+                    ↩ (goto) [0002D6D6] Hero: Even in the end, she was devoted to him.
                 ├ option 2:
-                    ↩ (goto) Hero: We're no closer to Akksul.
+                    ↩ (goto) [0002D6B8] Hero: We're no closer to Akksul.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            Hero: Don't push yourself. You'll make it worse.
-            Narration: Thaldyr stares at Ryder surprised.
-            angbs_recluse: I've never met a human before. You're not like {i}he{/i} described.
-            Hero: You mean Akksul?
-            angbs_recluse: He saved me. Gave me a chance to live... and die on my own terms.
+            [0002D6C5] Hero: Don't push yourself. You'll make it worse.
+            [0002D6B2] Narration: Thaldyr stares at Ryder surprised.
+            [0002D6B7] angbs_recluse: I've never met a human before. You're not like {i}he{/i} described.
+            [0002D6CE] Hero: You mean Akksul?
+            [0002D6CA] angbs_recluse: He saved me. Gave me a chance to live... and die on my own terms.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) global_squad_angara ⟨cond⟩: We need to find him, Thaldyr.
+                ↩ (goto) [0002D6CF] global_squad_angara ⟨cond⟩: We need to find him, Thaldyr.
             ├ option 2:
-                Hero: I need to find him.
-                angbs_recluse: I wanted to see him... one more...
-                ↩ (goto) Narration: Thaldyr dies.
+                [0002D6C8] Hero: I need to find him.
+                [0002D6B1] angbs_recluse: I wanted to see him... one more...
+                ↩ (goto) [0002D6D8] Narration: Thaldyr dies.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        angbs_recluse: {i}(Pained breathing.){/i} I already helped myself.
-        Hero: You did this to yourself?
-        ↩ (goto) angbs_recluse: The kett. I can't go back. I won't. {i}(Winces in pain.){/i}
+        [0002D6C6] angbs_recluse: {i}(Pained breathing.){/i} I already helped myself.
+        [0002D6D7] Hero: You did this to yourself?
+        ↩ (goto) [0002D6CD] angbs_recluse: The kett. I can't go back. I won't. {i}(Winces in pain.){/i}
     └─ merge ─┘
 ├ option 2:
-    Hero: You need medical attention.
-    angbs_recluse: {i}(Scoffs.){/i} It's too late for that. I made sure of it.
+    [0002D6D9] Hero: You need medical attention.
+    [0002D6B9] angbs_recluse: {i}(Scoffs.){/i} It's too late for that. I made sure of it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) global_squad_angara ⟨cond⟩: Your wounds... they're self-inflicted?
+        ↩ (goto) [0002D6D5] global_squad_angara ⟨cond⟩: Your wounds... they're self-inflicted?
     ├ option 2:
-        ↩ (goto) Hero: You did this to yourself?
+        ↩ (goto) [0002D6D7] Hero: You did this to yourself?
     └─ merge ─┘
 └─ merge ─┘
