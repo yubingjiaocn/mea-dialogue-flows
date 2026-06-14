@@ -26,22 +26,28 @@ MEA's in-game `Conversation` resources (dialogue trees) parsed into **human-read
 1. **By mission** → see [`MISSIONS.md`](MISSIONS.md): full list of 215 missions (Priority Ops / Allies & Relationships / Heleus Assignments / Additional Tasks) with story order and location.
 2. **By codename** → see [`CODENAMES.md`](CODENAMES.md): internal resource codename ↔ human-readable region/mission-type map.
 3. **Full index** → see [`conversations/INDEX.md`](conversations/INDEX.md): all 2369 conversations with a first-line preview.
-4. **Browse** → go into [`conversations/`](conversations/), organized by the game's internal resource paths (`game/conversations/<region>/<mission>`).
+4. **Browse** → go into [`conversations/`](conversations/), organized by mission / type (see layout below).
 
 ## Directory layout
 
+Organized by mission / type (numbered to roughly follow story order):
+
 ```
-conversations/game/conversations/
-├── crit/        Critical path (Prologue → Meridian → Epilogue)
-├── Loyalty/     Loyalty missions (per squadmate)
-├── rel/         Relationship dialogue (cora/drack/jaal/liam/peebee/vetra...)
-├── hubs/        Hub NPCs (Nexus/Aya/Kadara/Tempest...)
-├── unc*/        Exploration tasks (dunes=Elaaden / ice=Voeld / luna=H-047C)
-├── bstory/      Backstory / worldbuilding
-├── Banter/      Squad banter
-├── Space/       Space / galaxy-map dialogue
-└── ...          see CODENAMES.md
+conversations/
+├── 01_Main_Story_Priority_Ops/      Critical path, sub-folders 01→14 in story order
+│                                   (Prologue → Eos → Interludes → Archon → Meridian → Epilogue)
+├── 02_Loyalty_Missions/             Per-squadmate loyalty missions
+├── 03_Squadmates_and_Relationships/ Relationship dialogue per character
+├── 04_Hubs_and_NPCs/                Hub NPCs (Nexus/Aya/Kadara/Hyperion/Meridian/Tempest...)
+├── 05_Planet_Exploration/           Heleus tasks by planet (Elaaden/Voeld/Luna/Eos...)
+├── 06_Backstory_and_Worldbuilding/  Lore by species (Angara/Kett/Krogan...) + Ryder family
+├── 07_Squad_Banter/                 Squad banter
+├── 08_Space_and_Galaxy_Map/         Galaxy-map / system dialogue
+├── 09_Multiplayer/                  Multiplayer announcer / mission lines
+└── 10_Misc/                         Generic / storyteller / utility
 ```
+
+Every file's header keeps its original internal resource path (`# Source: game/conversations/...`), so the codename map in [`CODENAMES.md`](CODENAMES.md) still applies.
 
 ## Reading format
 
