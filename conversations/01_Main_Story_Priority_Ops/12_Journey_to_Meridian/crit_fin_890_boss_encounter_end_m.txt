@@ -1,5 +1,5 @@
 # Game/Conversations/Crit/Crit_Mer/crit_fin_890_boss_encounter_end_m
-# Primary speaker: global_main_villain
+# Primary speaker: The Archon
 # Source: game/conversations/crit/Crit_Mer/crit_fin_890_boss_encounter_end_m.xml
 ==================================================
 [0000DF39] Narration: Scene begins with the kill-shot on the Archon.
@@ -9,11 +9,11 @@
 [0000DF3B] Narration: BOOM! The remnant and the entire room light up like a Christmas tree, and a pulse of energy fires out. Small shrubs of greenery present begin to move.
 [0000DF3D] Narration: A holo display erupts from nowhere (the same as has been encountered in vaults) and a blue line begins radiating out from Meridian.
 [0000DF55] Narration: The network is online. The Pathfinder looks on in wonder, recognizing the map.
-[0000DF51] Hero: The outposts? And... everywhere?
+[0000DF51] Ryder: The outposts? And... everywhere?
 [0000DF54] Narration: A line reaches a green dot, and encircles it.
 [0000DF4C] Narration: We cut away to Prodromos, and Lt. Bradley is looking to the distance, the monoliths resonate, and the wind picks up.
 [0000DF4E] Narration: The intimate and human side of the huge thing the Pathfinder just achieved. Bradley picks up a flower, or a butterfly lands on his hand.
-[0000DF50] ustl_settle_01_admin_multi: Well, I'll be dipped.
+[0000DF50] Settle 01 Admin: Well, I'll be dipped.
 [0000DF4F] Narration: People laugh and congratulate each other behind him as he smiles and looks upward.
 [0000F812] Narration: Cut to Aya. Volcanoes quiet. Lava recedes. There is potentially an area that now has thick foliage instead of lava.
 [000129F8] Narration: Governor Paaran Shie looks on, then closes her eyes as though in thanks. Never thought she'd see the day.
@@ -24,10 +24,10 @@
 [0000E753] Narration: There's calm, and fireflies for some reason. The wonder is interrupted as the sibling groans in the distance. Ryder rushes over.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000DF52] global_sibling_male ⟨cond⟩: {i}(Groans.){/i}
-    [0000DF56] Hero: Easy. I've got you.
+    [0000DF52] Scott Ryder (Sibling) ⟨cond⟩: {i}(Groans.){/i}
+    [0000DF56] Ryder: Easy. I've got you.
     [0000DF57] Narration: The Pathfinder helps the sibling up, but stumbles themselves. They've both been through hell and look like it.
-    [0000DF58] global_sibling_male: Right, but who's got you?
+    [0000DF58] Scott Ryder (Sibling): Right, but who's got you?
     [0000DF5A] Narration: A beat, then the doctor Lexi and other MWS arrive to help now that the fighting is done.
     [0000DF5F] Narration: The squad chuckle as they all head for the entrance. Fade down.
     [0000DF5E] Narration: Fade up on the whole group walking out of the control center onto the surface. They squint into the light.
@@ -37,36 +37,36 @@
     ├ option 1:
         [0000DFAC] Narration ⟨cond⟩: NO ROMANCE. The Pathfinder remains in the center of the activity, a series of handshakes and backslaps.
         [0000F832] Narration: Suvi is to the side. She holds a hand to her ear, then talks to the Pathfinder.
-        [00012A30] global_crew_science_officer: The word's out. Everyone's elated but... the Nexus wants to know what's next.
-        [00012A39] global_crew_science_officer: What do I tell them?
+        [00012A30] Suvi (Science Officer): The word's out. Everyone's elated but... the Nexus wants to know what's next.
+        [00012A39] Suvi (Science Officer): What do I tell them?
         [00012A31] Narration: The Pathfinder looks at Suvi, at the crew and squad around them.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [00012A33] Hero: Tell them...
+            [00012A33] Ryder: Tell them...
             [00012A76] Narration: The player looks at his friends. They look back expectantly.
-            [00012A77] Hero: Tell them we're ready for anything.
+            [00012A77] Ryder: Tell them we're ready for anything.
             [00012A2C] Narration: Suvi smiles, and the noise comes up again.
             [00012A2A] Narration: Long shot of the squad and all the other ships before the camera crosses a light and we go to credits. Or whatever the transition will be.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 [0000F9A5] Narration: The Pathfinder steps to the side on the scene as the shot lengthens. Romance smirks, shakes their head and follows. Maybe Ryder raises their fist in the air.
             ├ option 2:
-                ↩ (goto) [0003574B] global_main_villain: [empty]
+                ↩ (goto) [0003574B] The Archon: [empty]
             └─ merge ─┘
         ├ option 2:
-            [00012A2E] Hero: Send them what we've seen here. Everything we've learned.
+            [00012A2E] Ryder: Send them what we've seen here. Everything we've learned.
             [00012A36] Narration: The player looks at his friends. They look back expectantly.
-            [00012A37] Hero: We have a future to plan.
+            [00012A37] Ryder: We have a future to plan.
             ↩ (goto) [00012A2C] Narration: Suvi smiles, and the noise comes up again.
         ├ option 3:
-            [00012A2F] Hero: Tell them...
+            [00012A2F] Ryder: Tell them...
             [00012A75] Narration: The player looks at his friends. They look back expectantly.
-            [00012A74] Hero: Tell them we're home.
+            [00012A74] Ryder: Tell them we're home.
             ↩ (goto) [00012A2C] Narration: Suvi smiles, and the noise comes up again.
         ├ option 4:
-            [00012A38] Hero: Tell them...
+            [00012A38] Ryder: Tell them...
             [00012A2D] Narration: The player looks at his friends. They look back expectantly.
-            [00012A32] Hero: Let us have our moment.
+            [00012A32] Ryder: Let us have our moment.
             ↩ (goto) [00012A2C] Narration: Suvi smiles, and the noise comes up again.
         └─ merge ─┘
     ├ option 2:
@@ -77,96 +77,96 @@
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 [0000F91B] Narration ⟨cond⟩: 1. Vetra. The Pathfinder walks up to Vetra. The camera closes and they an intimate quiet moment amid the happy chaos.
-                [0000DF7D] global_squad_turian: The victory's being broadcast out to everyone. Angara. Milky Way. Everyone.
+                [0000DF7D] Squadmate (Turian / Vetra): The victory's being broadcast out to everyone. Angara. Milky Way. Everyone.
                 [0000DF7F] Narration: The romance smiles warmly.
-                [0000DF81] global_squad_turian: Made a lot of people happy by securing their futures here.
+                [0000DF81] Squadmate (Turian / Vetra): Made a lot of people happy by securing their futures here.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    [0000DF85] Hero: I don't think I could've done this without you.
-                    [0000DF80] global_squad_turian: Sure, you could've. I just shoot at things.
+                    [0000DF85] Ryder: I don't think I could've done this without you.
+                    [0000DF80] Squadmate (Turian / Vetra): Sure, you could've. I just shoot at things.
                     [00012B5F] Narration: Vetra looks at the cheering crowd. She leans over to Ryder.
-                    [00012B5E] global_squad_turian: Wanna ditch these losers?
+                    [00012B5E] Squadmate (Turian / Vetra): Wanna ditch these losers?
                     [00012B5C] Narration: Ryder gives Vetra A LOOK.
-                    [00012B5D] Hero: Read my mind.
+                    [00012B5D] Ryder: Read my mind.
                     ↩ (goto) [0003573F] Narration: [empty]
                 ├ option 2:
-                    [0000F9A3] Hero: We all made this possible. The whole team.
+                    [0000F9A3] Ryder: We all made this possible. The whole team.
                     [0000F994] Narration: The squad and Tempest crew line up as the Pathfinder talks.
-                    [0000F938] Hero: We're all Pathfinders.
-                    ↩ (goto) [0003574B] global_main_villain: [empty]
+                    [0000F938] Ryder: We're all Pathfinders.
+                    ↩ (goto) [0003574B] The Archon: [empty]
                 ├ option 3:
-                    [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                    [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                     [0000F971] Narration: The Pathfinder begins to walk to the side.
-                    [0000F992] Hero: This moment belongs to everyone.
-                    ↩ (goto) [0003574B] global_main_villain: [empty]
+                    [0000F992] Ryder: This moment belongs to everyone.
+                    ↩ (goto) [0003574B] The Archon: [empty]
                 ├ option 4:
-                    [0000F933] Hero: Well, it was the least I could do.
+                    [0000F933] Ryder: Well, it was the least I could do.
                     [0000F969] Narration: Knowing smirk that the Pathfinder isn't really being a total dick. The Pathfinder winks.
-                    [0000F9AF] Hero: You know, for everyone.
-                    ↩ (goto) [0003574B] global_main_villain: [empty]
+                    [0000F9AF] Ryder: You know, for everyone.
+                    ↩ (goto) [0003574B] The Archon: [empty]
                 └─ merge ─┘
             ├ option 2:
                 [0000F962] Narration ⟨cond⟩: 2. Peebee. The Pathfinder walks up to Peebee. The camera closes and they an intimate quiet moment amid the happy chaos.
                 [00012BFF] Narration: Peebee stands there, cocksure and smiling. Ryder sidles up.
-                [0000F92A] global_squad_asari: Smile for the camera, babe. SAM's broadcasting. Everyone's watching.
+                [0000F92A] Squadmate (Asari / Peebee): Smile for the camera, babe. SAM's broadcasting. Everyone's watching.
                 [0000F929] Narration: There's an excited glint in her eyes.
-                [0000F9AB] global_squad_asari: They all want a nice big closeup of the hero who singlehandedly saved the galaxy.
+                [0000F9AB] Squadmate (Asari / Peebee): They all want a nice big closeup of the hero who singlehandedly saved the galaxy.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    [0000F9B0] Hero: What about y—
+                    [0000F9B0] Ryder: What about y—
                     [00012C00] Narration: Peebee pulls him into a passionate kiss. Just when Ryder catches up, she releases him.
-                    [0000F988] global_squad_asari: And now they all know you're mine.
+                    [0000F988] Squadmate (Asari / Peebee): And now they all know you're mine.
                     ↩ (goto) [0003573F] Narration: [empty]
                 ├ option 2:
-                    ↩ (goto) [0000F9A3] Hero: We all made this possible. The whole team.
+                    ↩ (goto) [0000F9A3] Ryder: We all made this possible. The whole team.
                 ├ option 3:
-                    ↩ (goto) [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                    ↩ (goto) [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                 ├ option 4:
-                    ↩ (goto) [0000F933] Hero: Well, it was the least I could do.
+                    ↩ (goto) [0000F933] Ryder: Well, it was the least I could do.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
             ┌─ BRANCH (3) ─┐
             ├ option 1:
                 [0000F961] Narration ⟨cond⟩: 3. Jaal. The Pathfinder walks up to Jaal. The camera closes and they an intimate quiet moment amid the happy chaos.
-                [0000F94B] global_squad_angara: SAM is broadcasting the victory. Across the cluster. Aya's celebrating too.
+                [0000F94B] Squadmate (Angara / Jaal): SAM is broadcasting the victory. Across the cluster. Aya's celebrating too.
                 [0000F92D] Narration: Jaal smiles warmly.
-                [0000F981] global_squad_angara: You did it.
+                [0000F981] Squadmate (Angara / Jaal): You did it.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    [0000F94E] Hero: No. We did it.
-                    [0000F975] global_squad_angara: You're amazing.
+                    [0000F94E] Ryder: No. We did it.
+                    [0000F975] Squadmate (Angara / Jaal): You're amazing.
                     [00012AE0] Narration: Ryder smiles and shoves Jaal gently in the chest with their right hand.
                     [00012AE2] Narration: Jaal grabs their right hand with his left and holds it to his chest. With the back of his right hand he strokes Ryder's face. They lean into it.
                     [00012AE3] Narration: Suddenly, grabbing Ryder by the ass/thighs Jaal hoists her up around his waist.
-                    [00012AE1] Hero: {i}(Laughs.){/i}
-                    [00012AE7] global_squad_angara: {i}(Laughs.){/i}
+                    [00012AE1] Ryder: {i}(Laughs.){/i}
+                    [00012AE7] Squadmate (Angara / Jaal): {i}(Laughs.){/i}
                     ↩ (goto) [0003573F] Narration: [empty]
                 ├ option 2:
-                    ↩ (goto) [0000F9A3] Hero: We all made this possible. The whole team.
+                    ↩ (goto) [0000F9A3] Ryder: We all made this possible. The whole team.
                 ├ option 3:
-                    ↩ (goto) [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                    ↩ (goto) [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                 ├ option 4:
-                    ↩ (goto) [0000F933] Hero: Well, it was the least I could do.
+                    ↩ (goto) [0000F933] Ryder: Well, it was the least I could do.
                 └─ merge ─┘
             ├ option 2:
                 [0000F97D] Narration ⟨cond⟩: 4. Liam. The Pathfinder walks up to Liam. The camera closes and they an intimate quiet moment amid the happy chaos.
-                [0000F979] global_squad_male_human: SAM is broadcasting the victory. In full holoview.
+                [0000F979] Squadmate (Human ♂): SAM is broadcasting the victory. In full holoview.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0000F921] global_squad_male_human: How are {i}you{/i} feeling?
+                    [0000F921] Squadmate (Human ♂): How are {i}you{/i} feeling?
                     ┌─ BRANCH (4) ─┐
                     ├ option 1:
-                        [0000F94F] Hero: You know what they say about the first day in a new home?
-                        [0000F945] global_squad_male_human: Get married?
-                        [00012AAA] Hero: Wait, what?
+                        [0000F94F] Ryder: You know what they say about the first day in a new home?
+                        [0000F945] Squadmate (Human ♂): Get married?
+                        [00012AAA] Ryder: Wait, what?
                         ↩ (goto) [0003573F] Narration: [empty]
                     ├ option 2:
-                        ↩ (goto) [0000F9A3] Hero: We all made this possible. The whole team.
+                        ↩ (goto) [0000F9A3] Ryder: We all made this possible. The whole team.
                     ├ option 3:
-                        ↩ (goto) [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                        ↩ (goto) [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                     ├ option 4:
-                        ↩ (goto) [0000F933] Hero: Well, it was the least I could do.
+                        ↩ (goto) [0000F933] Ryder: Well, it was the least I could do.
                     └─ merge ─┘
                 ├ option 2:
                     [0000F923] Narration: The romance smiles warmly.
@@ -176,89 +176,89 @@
                 [00012AF1] Narration: Suvi's face is lit up, and she's got her omni-tool out.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0000F927] global_crew_science_officer ⟨cond⟩: Sara!
-                    [0000F949] global_crew_science_officer: I'm getting insane readings from all over the cluster. What you've done is... it's just amazing!
+                    [0000F927] Suvi (Science Officer) ⟨cond⟩: Sara!
+                    [0000F949] Suvi (Science Officer): I'm getting insane readings from all over the cluster. What you've done is... it's just amazing!
                     ┌─ BRANCH (4) ─┐
                     ├ option 1:
-                        [0000F936] Hero: Put the omni-tool down, Suvi. You can look at that later.
-                        [0000F930] global_crew_science_officer: Look at all this data. The energy spikes from the biogenesis alone are—
+                        [0000F936] Ryder: Put the omni-tool down, Suvi. You can look at that later.
+                        [0000F930] Suvi (Science Officer): Look at all this data. The energy spikes from the biogenesis alone are—
                         [00012AEC] Narration: Ryder puts her finger on Suvi's lips—either one finger or the tips of all her fingers, whichever seems cuter.
-                        [00012AED] global_crew_science_officer: …mind-boggling?
-                        [00012AF0] Hero: I know I can’t compete with your first love, but…
+                        [00012AED] Suvi (Science Officer): …mind-boggling?
+                        [00012AF0] Ryder: I know I can’t compete with your first love, but…
                         ↩ (goto) [0003573F] Narration: [empty]
                     ├ option 2:
-                        ↩ (goto) [0000F9A3] Hero: We all made this possible. The whole team.
+                        ↩ (goto) [0000F9A3] Ryder: We all made this possible. The whole team.
                     ├ option 3:
-                        ↩ (goto) [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                        ↩ (goto) [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                     ├ option 4:
-                        ↩ (goto) [0000F933] Hero: Well, it was the least I could do.
+                        ↩ (goto) [0000F933] Ryder: Well, it was the least I could do.
                     └─ merge ─┘
                 ├ option 2:
-                    [00012AEE] global_crew_science_officer: Ryder!
-                    ↩ (goto) [0000F949] global_crew_science_officer: I'm getting insane readings from all over the cluster. What you've done is... it's just amazing!
+                    [00012AEE] Suvi (Science Officer): Ryder!
+                    ↩ (goto) [0000F949] Suvi (Science Officer): I'm getting insane readings from all over the cluster. What you've done is... it's just amazing!
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 3:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 [0000F95A] Narration ⟨cond⟩: 6. Cora. The Pathfinder walks up to Cora. The camera closes and they an intimate quiet moment amid the happy chaos.
-                [0000F972] global_squad_female_human: They're broadcasting everything.
+                [0000F972] Squadmate (Human ♀): They're broadcasting everything.
                 [0000F9A1] Narration: Cora is relieved. Wanting to believe it's OK.
-                [0000F995] global_squad_female_human: You had me scared. But you {i}always{/i} deliver.
+                [0000F995] Squadmate (Human ♀): You had me scared. But you {i}always{/i} deliver.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    [0000F9A7] Hero: Whatever we face, I'll always come back to you.
+                    [0000F9A7] Ryder: Whatever we face, I'll always come back to you.
                     [0000F986] Narration: She finally dares to believe it. Smiles. Reaches out—the Player pulls her close and they hold tight to each other. Her head on his shoulder.
                     ↩ (goto) [0003573F] Narration: [empty]
                 ├ option 2:
-                    ↩ (goto) [0000F9A3] Hero: We all made this possible. The whole team.
+                    ↩ (goto) [0000F9A3] Ryder: We all made this possible. The whole team.
                 ├ option 3:
-                    ↩ (goto) [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                    ↩ (goto) [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                 ├ option 4:
-                    ↩ (goto) [0000F933] Hero: Well, it was the least I could do.
+                    ↩ (goto) [0000F933] Ryder: Well, it was the least I could do.
                 └─ merge ─┘
             ├ option 2:
                 [0000F9AA] Narration ⟨cond⟩: 7. Gil. The Pathfinder walks up to Gil. The camera closes and they an intimate quiet moment amid the happy chaos.
                 [00012BFD] Narration: Gil stands there, does a couple slow-sarcastic claps as Ryder sidles up.
-                [0000F91F] global_crew_tech_officer: Don't do anything stupid. We're live. SAM's broadcasting to everyone.
+                [0000F91F] Gil (Tech Officer): Don't do anything stupid. We're live. SAM's broadcasting to everyone.
                 [0000F956] Narration: They smile at each other.
-                [0000F97B] global_crew_tech_officer: Never knew you were such an attention hog. Going off, saving the galaxy all by yourself.
+                [0000F97B] Gil (Tech Officer): Never knew you were such an attention hog. Going off, saving the galaxy all by yourself.
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    [0000F95F] Hero ⟨cond⟩: Somebody's got to make this place safe. We got children to raise.
-                    [0000F987] global_crew_tech_officer: Children plural, huh? Yeah. I guess we do, don't we?
+                    [0000F95F] Ryder ⟨cond⟩: Somebody's got to make this place safe. We got children to raise.
+                    [0000F987] Gil (Tech Officer): Children plural, huh? Yeah. I guess we do, don't we?
                     ↩ (goto) [0003573F] Narration: [empty]
                 ├ option 2:
-                    ↩ (goto) [0000F9A3] Hero: We all made this possible. The whole team.
+                    ↩ (goto) [0000F9A3] Ryder: We all made this possible. The whole team.
                 ├ option 3:
-                    ↩ (goto) [0000F99E] Hero: I may have been a focus, but all of Heleus came together.
+                    ↩ (goto) [0000F99E] Ryder: I may have been a focus, but all of Heleus came together.
                 ├ option 4:
-                    ↩ (goto) [0000F933] Hero: Well, it was the least I could do.
+                    ↩ (goto) [0000F933] Ryder: Well, it was the least I could do.
                 └─ merge ─┘
             └─ merge ─┘
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0000DF62] global_sibling_female: {i}(Groans.){/i}
-    [0000DF5C] Hero: Easy. I've got you.
+    [0000DF62] Sara Ryder (Sibling): {i}(Groans.){/i}
+    [0000DF5C] Ryder: Easy. I've got you.
     [0000DF69] Narration: The Pathfinder helps the Sibling up, but stumbles themselves. They've both been through hell and look like it.
-    [0000DF60] global_sibling_female: Right, but who's got you?
+    [0000DF60] Sara Ryder (Sibling): Right, but who's got you?
     ↩ (goto) [0000DF5A] Narration: A beat, then the doctor Lexi and other MWS arrive to help now that the fighting is done.
 └─ merge ─┘
 ┌─ BRANCH (7) ─┐
 ├ option 1:
     [0000F93B] Narration: The star within Meridian whites out the shot, cut to credits.
 ├ option 2:
-    [00035346] global_main_villain: DNR -- EXERTION -- stringID 217926
+    [00035346] The Archon: DNR -- EXERTION -- stringID 217926
 ├ option 3:
-    [00035345] global_main_villain: DNR -- EXERTION -- stringID 217925
+    [00035345] The Archon: DNR -- EXERTION -- stringID 217925
 ├ option 4:
-    [00035347] global_main_villain: DNR -- EXERTION -- stringID 217927
+    [00035347] The Archon: DNR -- EXERTION -- stringID 217927
 ├ option 5:
-    [0003534A] global_main_villain: DNR -- EXERTION -- stringID 217930
+    [0003534A] The Archon: DNR -- EXERTION -- stringID 217930
 ├ option 6:
-    [00035348] Hero: DNR -- EXERTION -- stringID 217928
+    [00035348] Ryder: DNR -- EXERTION -- stringID 217928
 ├ option 7:
-    [00035349] Hero: DNR -- EXERTION -- stringID 217929
+    [00035349] Ryder: DNR -- EXERTION -- stringID 217929
 └─ merge ─┘
-[0003573C] Hero: We made it...
+[0003573C] Ryder: We made it...

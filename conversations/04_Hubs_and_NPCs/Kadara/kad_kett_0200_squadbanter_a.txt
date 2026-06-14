@@ -4,151 +4,151 @@
 ==================================================
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0000FFA1] global_squad_krogan ⟨cond⟩: We're gonna run out of shuttles at this rate.
+    [0000FFA1] Squadmate (Krogan / Drack) ⟨cond⟩: We're gonna run out of shuttles at this rate.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0000FF9A] global_squad_asari ⟨cond⟩: Aftermath of an attack. Looks bad.
+        [0000FF9A] Squadmate (Asari / Peebee) ⟨cond⟩: Aftermath of an attack. Looks bad.
     ├ option 2:
-        [0000FF9E] global_squad_angara ⟨cond⟩: Any survivors?
+        [0000FF9E] Squadmate (Angara / Jaal) ⟨cond⟩: Any survivors?
     ├ option 3:
-        [0000FF9B] global_squad_male_human ⟨cond⟩: Ambushed? Anyone left?
+        [0000FF9B] Squadmate (Human ♂) ⟨cond⟩: Ambushed? Anyone left?
     ├ option 4:
-        [0000FF9D] global_squad_turian ⟨cond⟩: Someone ran into trouble.
+        [0000FF9D] Squadmate (Turian / Vetra) ⟨cond⟩: Someone ran into trouble.
     ├ option 5:
-        [0000FF9C] global_squad_female_human ⟨cond⟩: Check for survivors!
+        [0000FF9C] Squadmate (Human ♀) ⟨cond⟩: Check for survivors!
     ├ option 6:
-        [0000FF99] global_squad_krogan ⟨cond⟩: Any survivors?
+        [0000FF99] Squadmate (Krogan / Drack) ⟨cond⟩: Any survivors?
     └─ merge ─┘
 ├ option 2:
-    [0000FFA2] global_squad_female_human ⟨cond⟩: Someone took a hard landing.
-    ↩ (goto) [00029FFC] global_squad_asari: [empty]
+    [0000FFA2] Squadmate (Human ♀) ⟨cond⟩: Someone took a hard landing.
+    ↩ (goto) [00029FFC] Squadmate (Asari / Peebee): [empty]
 ├ option 3:
-    [0000FFA7] global_squad_turian ⟨cond⟩: Nasty crash.
-    ↩ (goto) [00029FFC] global_squad_asari: [empty]
+    [0000FFA7] Squadmate (Turian / Vetra) ⟨cond⟩: Nasty crash.
+    ↩ (goto) [00029FFC] Squadmate (Asari / Peebee): [empty]
 ├ option 4:
-    [0000FFA3] global_squad_male_human ⟨cond⟩: Rough landing.
-    ↩ (goto) [00029FFC] global_squad_asari: [empty]
+    [0000FFA3] Squadmate (Human ♂) ⟨cond⟩: Rough landing.
+    ↩ (goto) [00029FFC] Squadmate (Asari / Peebee): [empty]
 ├ option 5:
-    [0000FFA4] global_squad_angara ⟨cond⟩: Looks like a crash.
-    ↩ (goto) [00029FFC] global_squad_asari: [empty]
+    [0000FFA4] Squadmate (Angara / Jaal) ⟨cond⟩: Looks like a crash.
+    ↩ (goto) [00029FFC] Squadmate (Asari / Peebee): [empty]
 ├ option 6:
-    [0000FFA6] global_squad_asari ⟨cond⟩: I'm betting that was shot down.
-    ↩ (goto) [00029FFC] global_squad_asari: [empty]
+    [0000FFA6] Squadmate (Asari / Peebee) ⟨cond⟩: I'm betting that was shot down.
+    ↩ (goto) [00029FFC] Squadmate (Asari / Peebee): [empty]
 └─ merge ─┘
-[00010004] Hero: Kett tracks. They're leading up into those hills.
+[00010004] Ryder: Kett tracks. They're leading up into those hills.
 [0000FFEA] SAM: This shuttle is missing some of its components, Pathfinder.
-[0000FFF7] Hero: Damaged in the crash?
+[0000FFF7] Ryder: Damaged in the crash?
 [0000FFEE] SAM: Unlikely. The communication array would have been protected.
-[0000FFF8] Hero: Looks like it was taken.
+[0000FFF8] Ryder: Looks like it was taken.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00029FFA] Hero: Kett tracks. We're going the right way.
+    [00029FFA] Ryder: Kett tracks. We're going the right way.
 ├ option 2:
-    [00029FF8] Hero: More tracks. Can't be far now.
+    [00029FF8] Ryder: More tracks. Can't be far now.
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00025802] global_squad_krogan ⟨cond⟩: See that cave? Good spot for a hideout. Bet the kett are inside.
-    [0002580A] Hero: Kaetus. Think I found something. Sending the navpoint.
-    [00025803] kad_queen_guard_01: [Comm] Got it. On my way.
+    [00025802] Squadmate (Krogan / Drack) ⟨cond⟩: See that cave? Good spot for a hideout. Bet the kett are inside.
+    [0002580A] Ryder: Kaetus. Think I found something. Sending the navpoint.
+    [00025803] Queen Guard: [Comm] Got it. On my way.
 ├ option 2:
-    [00025808] global_squad_asari ⟨cond⟩: If I were kett, I'd hide out in that cave.
-    ↩ (goto) [0002580A] Hero: Kaetus. Think I found something. Sending the navpoint.
+    [00025808] Squadmate (Asari / Peebee) ⟨cond⟩: If I were kett, I'd hide out in that cave.
+    ↩ (goto) [0002580A] Ryder: Kaetus. Think I found something. Sending the navpoint.
 ├ option 3:
-    [00025805] global_squad_turian ⟨cond⟩: Look, a cave. Want to bet our kett are inside?
-    ↩ (goto) [0002580A] Hero: Kaetus. Think I found something. Sending the navpoint.
+    [00025805] Squadmate (Turian / Vetra) ⟨cond⟩: Look, a cave. Want to bet our kett are inside?
+    ↩ (goto) [0002580A] Ryder: Kaetus. Think I found something. Sending the navpoint.
 ├ option 4:
-    [00025807] global_squad_angara ⟨cond⟩: That cave's not a bad hideout. Could be where the kett are holed up.
-    ↩ (goto) [0002580A] Hero: Kaetus. Think I found something. Sending the navpoint.
+    [00025807] Squadmate (Angara / Jaal) ⟨cond⟩: That cave's not a bad hideout. Could be where the kett are holed up.
+    ↩ (goto) [0002580A] Ryder: Kaetus. Think I found something. Sending the navpoint.
 ├ option 5:
-    [00025806] global_squad_male_human ⟨cond⟩: A cave. Could be where Kaetus's kett are hiding?
-    ↩ (goto) [0002580A] Hero: Kaetus. Think I found something. Sending the navpoint.
+    [00025806] Squadmate (Human ♂) ⟨cond⟩: A cave. Could be where Kaetus's kett are hiding?
+    ↩ (goto) [0002580A] Ryder: Kaetus. Think I found something. Sending the navpoint.
 └─ merge ─┘
-[00010117] Hero: Some kind of incomplete communications device. I see angara components, turian...
+[00010117] Ryder: Some kind of incomplete communications device. I see angara components, turian...
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [00010114] global_squad_krogan ⟨cond⟩: Stranded, calling for help... and we found 'em. {i}(Laughs.){/i} Sucks to be them!
+    [00010114] Squadmate (Krogan / Drack) ⟨cond⟩: Stranded, calling for help... and we found 'em. {i}(Laughs.){/i} Sucks to be them!
 ├ option 2:
-    [0001011B] global_squad_female_human ⟨cond⟩: Kaetus said they were stragglers. Must've been trying to call for evac.
+    [0001011B] Squadmate (Human ♀) ⟨cond⟩: Kaetus said they were stragglers. Must've been trying to call for evac.
 ├ option 3:
-    [00010113] global_squad_asari ⟨cond⟩: Well, think we took care of Kaetus's stragglers. And before they could call for help.
-    [00010AD9] global_squad_asari: Yay, us!
+    [00010113] Squadmate (Asari / Peebee) ⟨cond⟩: Well, think we took care of Kaetus's stragglers. And before they could call for help.
+    [00010AD9] Squadmate (Asari / Peebee): Yay, us!
 ├ option 4:
-    [0001011A] global_squad_turian ⟨cond⟩: The last few stragglers, stranded on their own, calling for backup.
-    [00010119] global_squad_turian: Heh. Too slow, assholes.
+    [0001011A] Squadmate (Turian / Vetra) ⟨cond⟩: The last few stragglers, stranded on their own, calling for backup.
+    [00010119] Squadmate (Turian / Vetra): Heh. Too slow, assholes.
 ├ option 5:
-    [00010115] global_squad_angara ⟨cond⟩: Kaetus called them stragglers. They must've been stranded and trying to call for help.
+    [00010115] Squadmate (Angara / Jaal) ⟨cond⟩: Kaetus called them stragglers. They must've been stranded and trying to call for help.
 ├ option 6:
-    [00010116] global_squad_male_human ⟨cond⟩: Handy bastards. They were calling in help.
-    [00010BEF] global_squad_male_human: Used everything but a paper clip and a gum wrapper.
+    [00010116] Squadmate (Human ♂) ⟨cond⟩: Handy bastards. They were calling in help.
+    [00010BEF] Squadmate (Human ♂): Used everything but a paper clip and a gum wrapper.
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0000FFFF] global_squad_krogan: Showtime.
+        [0000FFFF] Squadmate (Krogan / Drack): Showtime.
     ├ option 2:
-        [00010002] global_squad_female_human: Kett! Watch out!
+        [00010002] Squadmate (Human ♀): Kett! Watch out!
     ├ option 3:
-        [0000FFFD] global_squad_asari: Walked into this one!
+        [0000FFFD] Squadmate (Asari / Peebee): Walked into this one!
     ├ option 4:
-        [00010000] global_squad_turian: We walked right into it!
+        [00010000] Squadmate (Turian / Vetra): We walked right into it!
     ├ option 5:
-        [00010001] global_squad_angara: Kett ambush!
+        [00010001] Squadmate (Angara / Jaal): Kett ambush!
     ├ option 6:
-        [0000FFFC] global_squad_male_human: Ambush! It's kett!
+        [0000FFFC] Squadmate (Human ♂): Ambush! It's kett!
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0001004B] global_squad_krogan: Heh. Must be the kett Kaetus was bitching about.
+        [0001004B] Squadmate (Krogan / Drack): Heh. Must be the kett Kaetus was bitching about.
     ├ option 2:
-        [00010048] global_squad_female_human: There. Kaetus said there might be kett around.
+        [00010048] Squadmate (Human ♀): There. Kaetus said there might be kett around.
     ├ option 3:
-        [0001004A] global_squad_asari: Kett hideout. Looks like the rumors are true.
+        [0001004A] Squadmate (Asari / Peebee): Kett hideout. Looks like the rumors are true.
     ├ option 4:
-        [00010049] global_squad_turian: Here we go. We found the source of Kadara's kett rumors.
+        [00010049] Squadmate (Turian / Vetra): Here we go. We found the source of Kadara's kett rumors.
     ├ option 5:
-        [00010047] global_squad_angara: Found the kett hideout.
+        [00010047] Squadmate (Angara / Jaal): Found the kett hideout.
     ├ option 6:
-        [00010046] global_squad_male_human: This where Kaetus's kett are hiding?
+        [00010046] Squadmate (Human ♂): This where Kaetus's kett are hiding?
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [000100AA] global_squad_krogan: Someone's here. Holed up in that cave, I bet.
+        [000100AA] Squadmate (Krogan / Drack): Someone's here. Holed up in that cave, I bet.
     ├ option 2:
-        [000100A9] global_squad_female_human: Someone's here. Probably taking shelter in that cave.
+        [000100A9] Squadmate (Human ♀): Someone's here. Probably taking shelter in that cave.
     ├ option 3:
-        [000100A8] global_squad_asari: Hmm. Watch your step. Somebody's in there.
+        [000100A8] Squadmate (Asari / Peebee): Hmm. Watch your step. Somebody's in there.
     ├ option 4:
-        [000100AC] global_squad_turian: Huh. Can't mistake that smell. Kett.
+        [000100AC] Squadmate (Turian / Vetra): Huh. Can't mistake that smell. Kett.
     ├ option 5:
-        [000100A7] global_squad_angara: Looks like someone's holed up in that cave.
+        [000100A7] Squadmate (Angara / Jaal): Looks like someone's holed up in that cave.
     ├ option 6:
-        [000100AB] global_squad_male_human: Been some traffic. Wonder who's inside.
+        [000100AB] Squadmate (Human ♂): Been some traffic. Wonder who's inside.
     └─ merge ─┘
 ├ option 4:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00010039] Hero: The kett we dealt with probably got parts to build their comm device from here.
+        [00010039] Ryder: The kett we dealt with probably got parts to build their comm device from here.
     ├ option 2:
-        [0000FFEB] Hero: Could be the kett that Kaetus was talking about.
+        [0000FFEB] Ryder: Could be the kett that Kaetus was talking about.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [0000FFEC] global_squad_krogan ⟨cond⟩: They're up to something.
+            [0000FFEC] Squadmate (Krogan / Drack) ⟨cond⟩: They're up to something.
         ├ option 2:
-            [0000FFF4] global_squad_female_human ⟨cond⟩: And they needed those parts for something.
+            [0000FFF4] Squadmate (Human ♀) ⟨cond⟩: And they needed those parts for something.
         ├ option 3:
-            [0000FFF5] global_squad_asari ⟨cond⟩: They're probably scrounging for materials. Building something.
+            [0000FFF5] Squadmate (Asari / Peebee) ⟨cond⟩: They're probably scrounging for materials. Building something.
         ├ option 4:
-            [0000FFF1] global_squad_turian ⟨cond⟩: No reason for those parts unless they're building something.
+            [0000FFF1] Squadmate (Turian / Vetra) ⟨cond⟩: No reason for those parts unless they're building something.
         ├ option 5:
-            [0000FFF3] global_squad_angara ⟨cond⟩: Why would they need those parts?
+            [0000FFF3] Squadmate (Angara / Jaal) ⟨cond⟩: Why would they need those parts?
         ├ option 6:
-            [0000FFF2] global_squad_male_human ⟨cond⟩: Why would they take those parts?
+            [0000FFF2] Squadmate (Human ♂) ⟨cond⟩: Why would they take those parts?
         └─ merge ─┘
     ├ option 3:
-        [00010128] Hero: Someone probably stripped the parts to sell... or build something.
+        [00010128] Ryder: Someone probably stripped the parts to sell... or build something.
     └─ merge ─┘
 └─ merge ─┘

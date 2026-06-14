@@ -1,58 +1,58 @@
 # game/conversations/unc/olw/outpost_loop/olw_0200_outpost_engineer_i
-# Primary speaker: olw_outpost_engineer
+# Primary speaker: Outpost Engineer
 # Source: game/conversations/unc/olw/outpost_loop/olw_0200_outpost_engineer_i.xml
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00029264] olw_outpost_leader ⟨cond⟩ [OncePerGame]: [Comm] Rif. Pathfinder's making the rounds. If you can step away from your rock collection for—
-    [000299FD] olw_outpost_engineer: They're drill core samples!
+    [00029264] Outpost Leader ⟨cond⟩ [OncePerGame]: [Comm] Rif. Pathfinder's making the rounds. If you can step away from your rock collection for—
+    [000299FD] Outpost Engineer: They're drill core samples!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000299F0] olw_outpost_engineer ⟨cond⟩: Not a rock—Oh, she's here. {i}(Nervous laughter.){/i} Pathfinder.
-        [000299F9] olw_outpost_engineer: Name's Rif. Mining engineer for Outpost Ditaeon.
+        [000299F0] Outpost Engineer ⟨cond⟩: Not a rock—Oh, she's here. {i}(Nervous laughter.){/i} Pathfinder.
+        [000299F9] Outpost Engineer: Name's Rif. Mining engineer for Outpost Ditaeon.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000299FC] Hero: Relax. I'm not going to judge anyone for collecting rocks.
-            [000299FB] olw_outpost_engineer: {i}(Groans.){/i} They're drill core—never mind.
+            [000299FC] Ryder: Relax. I'm not going to judge anyone for collecting rocks.
+            [000299FB] Outpost Engineer: {i}(Groans.){/i} They're drill core—never mind.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                [000299F3] Hero: What exactly does a mining engineer do?
-                [00029A14] olw_outpost_engineer: Oh, we're involved in every step of the mining process!
-                [00029A1A] olw_outpost_engineer: Christmas is a good guy, a good miner, but he needs me to help decide where to drill.
-                [00029A18] olw_outpost_engineer: And when to stop.
-                ↩ (goto) [000299F6] olw_outpost_engineer: [empty]
+                [000299F3] Ryder: What exactly does a mining engineer do?
+                [00029A14] Outpost Engineer: Oh, we're involved in every step of the mining process!
+                [00029A1A] Outpost Engineer: Christmas is a good guy, a good miner, but he needs me to help decide where to drill.
+                [00029A18] Outpost Engineer: And when to stop.
+                ↩ (goto) [000299F6] Outpost Engineer: [empty]
             ├ option 2:
-                [000299F8] Hero: What do you think of Kadara?
-                [00029A16] olw_outpost_engineer: Mineral-wise, she's a gold mine.
-                [00029A17] olw_outpost_engineer: Cartar is already putting Kadara's resources to practical use.
-                [00029A11] Hero: What about people-wise?
+                [000299F8] Ryder: What do you think of Kadara?
+                [00029A16] Outpost Engineer: Mineral-wise, she's a gold mine.
+                [00029A17] Outpost Engineer: Cartar is already putting Kadara's resources to practical use.
+                [00029A11] Ryder: What about people-wise?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00029A13] olw_outpost_engineer ⟨cond⟩: Sloane was scary on the Nexus. Now, she's plain terrifying.
-                    [00029A12] olw_outpost_engineer: I'll stick to my rocks.
-                    ↩ (goto) [000299F6] olw_outpost_engineer: [empty]
+                    [00029A13] Outpost Engineer ⟨cond⟩: Sloane was scary on the Nexus. Now, she's plain terrifying.
+                    [00029A12] Outpost Engineer: I'll stick to my rocks.
+                    ↩ (goto) [000299F6] Outpost Engineer: [empty]
                 ├ option 2:
-                    [00029A0F] olw_outpost_engineer: Oh, I'm not really a people person. But the Collective seem all right.
-                    [00029A19] olw_outpost_engineer: They certainly know the area.
-                    ↩ (goto) [000299F6] olw_outpost_engineer: [empty]
+                    [00029A0F] Outpost Engineer: Oh, I'm not really a people person. But the Collective seem all right.
+                    [00029A19] Outpost Engineer: They certainly know the area.
+                    ↩ (goto) [000299F6] Outpost Engineer: [empty]
                 └─ merge ─┘
             ├ option 3:
-                [000299FF] Hero: Good chatting with you, Rif.
-                [00029A10] olw_outpost_engineer: Anytime, Pathfinder.
+                [000299FF] Ryder: Good chatting with you, Rif.
+                [00029A10] Outpost Engineer: Anytime, Pathfinder.
             └─ merge ─┘
         ├ option 2:
-            [000299F7] Hero: Christmas giving you a hard time?
-            [00029A15] olw_outpost_engineer: {i}(Nervous laughter.){/i} Always. But that's just his way. I don't mind.
-            ↩ (goto) [000299F6] olw_outpost_engineer: [empty]
+            [000299F7] Ryder: Christmas giving you a hard time?
+            [00029A15] Outpost Engineer: {i}(Nervous laughter.){/i} Always. But that's just his way. I don't mind.
+            ↩ (goto) [000299F6] Outpost Engineer: [empty]
         └─ merge ─┘
     ├ option 2:
-        [000299FA] olw_outpost_engineer: Not a rock—Oh, he's here. {i}(Nervous laughter.){/i} Pathfinder.
-        ↩ (goto) [000299F9] olw_outpost_engineer: Name's Rif. Mining engineer for Outpost Ditaeon.
+        [000299FA] Outpost Engineer: Not a rock—Oh, he's here. {i}(Nervous laughter.){/i} Pathfinder.
+        ↩ (goto) [000299F9] Outpost Engineer: Name's Rif. Mining engineer for Outpost Ditaeon.
     └─ merge ─┘
 ├ option 2:
-    [00030D76] olw_outpost_leader [OncePerGame]: [Comm] Rif. Pathfinder's making the rounds. If you can step away from your rock collection for—
-    ↩ (goto) [000299FD] olw_outpost_engineer: They're drill core samples!
+    [00030D76] Outpost Leader [OncePerGame]: [Comm] Rif. Pathfinder's making the rounds. If you can step away from your rock collection for—
+    ↩ (goto) [000299FD] Outpost Engineer: They're drill core samples!
 ├ option 3:
-    [000299F2] olw_outpost_engineer: Back again?
-    ↩ (goto) [000299F6] olw_outpost_engineer: [empty]
+    [000299F2] Outpost Engineer: Back again?
+    ↩ (goto) [000299F6] Outpost Engineer: [empty]
 └─ merge ─┘

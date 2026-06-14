@@ -1,81 +1,81 @@
 # Game/Conversations/Crit/Crit_City/crit_city_0200_mako_landing_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_city/crit_city_0200_mako_landing_m.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001AC89] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Initiating Ghost Storm, on my mark. Three, two... go!
-    [0001953A] crit_city_archonssword_multi: [Comm] Enemy signature detected. Commence pursuit.
+    [0001AC89] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] Initiating Ghost Storm, on my mark. Three, two... go!
+    [0001953A] City Archonssword: [Comm] Enemy signature detected. Commence pursuit.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001AC8A] global_crew_science_officer ⟨cond⟩: Raeka, it's working!
-        [0001AC8B] global_salarian_pathfinder_multi: [Comm] Reading a bunch of kett headed our way. Pulling back. It's all you now, Tempest.
-        [0000C641] global_crew_science_officer: We should get them as close as possible to here.
-        [0000C674] global_crew_science_officer: Intense readings. Could be some kind of control center.
-        [0000C648] global_crew_co-pilot: No decent landing sites. This could get messy.
-        [0000C660] global_crew_science_officer: How messy?
-        [0000C662] global_crew_co-pilot: [Comm] Ryder, looks like a flyby is our only option.
-        [0000C785] global_crew_co-pilot: [Comm] I'll get as low as possible, but you'll have to eject over the target area.
+        [0001AC8A] Suvi (Science Officer) ⟨cond⟩: Raeka, it's working!
+        [0001AC8B] Salarian Pathfinder (Hayjer): [Comm] Reading a bunch of kett headed our way. Pulling back. It's all you now, Tempest.
+        [0000C641] Suvi (Science Officer): We should get them as close as possible to here.
+        [0000C674] Suvi (Science Officer): Intense readings. Could be some kind of control center.
+        [0000C648] Kallo (Co-pilot): No decent landing sites. This could get messy.
+        [0000C660] Suvi (Science Officer): How messy?
+        [0000C662] Kallo (Co-pilot): [Comm] Ryder, looks like a flyby is our only option.
+        [0000C785] Kallo (Co-pilot): [Comm] I'll get as low as possible, but you'll have to eject over the target area.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0000C63C] Hero: This is our one shot. We have to take the risk.
+            [0000C63C] Ryder: This is our one shot. We have to take the risk.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000D44E] global_squad_male_human: Another hot drop? We got this.
-                [0000D453] Hero: We don't exactly have a history of soft landings.
-                [0000D467] global_squad_male_human: Wouldn't want it any other way.
-                [0000C67F] global_crew_tech_officer: All right, you know the drill. Watch your rate of descent.
-                [0000C72C] global_crew_tech_officer: Shields should take care of the rest.
-                [0000D60F] global_crew_science_officer: [Comm] So far so good. The kett haven't detected us.
-                [0000D651] global_crew_co-pilot: [Comm] But once we go in, we'll be clear as day to any troops on the ground.
+                [0000D44E] Squadmate (Human ♂): Another hot drop? We got this.
+                [0000D453] Ryder: We don't exactly have a history of soft landings.
+                [0000D467] Squadmate (Human ♂): Wouldn't want it any other way.
+                [0000C67F] Gil (Tech Officer): All right, you know the drill. Watch your rate of descent.
+                [0000C72C] Gil (Tech Officer): Shields should take care of the rest.
+                [0000D60F] Suvi (Science Officer): [Comm] So far so good. The kett haven't detected us.
+                [0000D651] Kallo (Co-pilot): [Comm] But once we go in, we'll be clear as day to any troops on the ground.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0000D469] Hero: The Tempest can take some shots if it has to.
-                    [0000D653] global_crew_co-pilot: [Comm] Some. Not many.
-                    [0000D46C] global_crew_science_officer: We're too close! The kett will see us!
-                    [0000A20D] global_crew_co-pilot: Then you better find me a drop zone!
-                    [0000A20C] global_crew_science_officer: Okay... okay, I think I see one. There!
-                    [0000A212] global_crew_co-pilot: Got it.
-                    [0000A211] global_crew_co-pilot: Five seconds to drop!
-                    [0000C79D] Hero: {i}(Grunts.){/i}
+                    [0000D469] Ryder: The Tempest can take some shots if it has to.
+                    [0000D653] Kallo (Co-pilot): [Comm] Some. Not many.
+                    [0000D46C] Suvi (Science Officer): We're too close! The kett will see us!
+                    [0000A20D] Kallo (Co-pilot): Then you better find me a drop zone!
+                    [0000A20C] Suvi (Science Officer): Okay... okay, I think I see one. There!
+                    [0000A212] Kallo (Co-pilot): Got it.
+                    [0000A211] Kallo (Co-pilot): Five seconds to drop!
+                    [0000C79D] Ryder: {i}(Grunts.){/i}
                 ├ option 2:
-                    [0000D60C] Hero: Don't worry about us. Just make sure you and the Tempest get out safe.
-                    [0000D654] global_crew_co-pilot: [Comm] Loud and clear.
+                    [0000D60C] Ryder: Don't worry about us. Just make sure you and the Tempest get out safe.
+                    [0000D654] Kallo (Co-pilot): [Comm] Loud and clear.
                     ↩ (goto) [0000A20B] Narration: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [0000D5CF] global_crew_tech_officer: You've fallen out of things before, right? Just don't scream too loud on the way down.
-                [0000E856] global_crew_tech_officer: It's embarrassing.
+                [0000D5CF] Gil (Tech Officer): You've fallen out of things before, right? Just don't scream too loud on the way down.
+                [0000E856] Gil (Tech Officer): It's embarrassing.
                 ↩ (goto) [0000D44B] Narration: [empty]
             └─ merge ─┘
         ├ option 2:
-            [0000C794] Hero: I've fallen out of so many things now I should be a pro.
+            [0000C794] Ryder: I've fallen out of so many things now I should be a pro.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0000D449] global_squad_male_human: She's right, you know. Ever since our date on that first planet.
-                    [0000D44A] Hero: Habitat 7. Not a date.
-                    [0000D66D] global_squad_male_human: Every time, I'm like, are you a repeating angel? Because you keep falling from... {i}(Snickers.){/i}
+                    [0000D449] Squadmate (Human ♂): She's right, you know. Ever since our date on that first planet.
+                    [0000D44A] Ryder: Habitat 7. Not a date.
+                    [0000D66D] Squadmate (Human ♂): Every time, I'm like, are you a repeating angel? Because you keep falling from... {i}(Snickers.){/i}
                     ↩ (goto) [0000D44B] Narration: [empty]
                 ├ option 2:
-                    [0000E8D4] global_squad_male_human: Ever since day one on Habitat 7. Good times.
-                    [0000D447] global_squad_male_human: Except the shuttle exploding. Let's not do that again.
-                    [0000D444] global_crew_tech_officer: What he said. I've got this "shuttle" streamlined. Plus I'm gonna be on it.
+                    [0000E8D4] Squadmate (Human ♂): Ever since day one on Habitat 7. Good times.
+                    [0000D447] Squadmate (Human ♂): Except the shuttle exploding. Let's not do that again.
+                    [0000D444] Gil (Tech Officer): What he said. I've got this "shuttle" streamlined. Plus I'm gonna be on it.
                     ↩ (goto) [0000D44B] Narration: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [0000D60E] global_crew_tech_officer: Heard about your freefall to Habitat 7. Liam said he could hear you screaming the whole way down.
-                [0000E857] global_crew_tech_officer: Keep it buttoned this go-round, huh? It's embarrassing.
+                [0000D60E] Gil (Tech Officer): Heard about your freefall to Habitat 7. Liam said he could hear you screaming the whole way down.
+                [0000E857] Gil (Tech Officer): Keep it buttoned this go-round, huh? It's embarrassing.
                 ↩ (goto) [0000D44B] Narration: [empty]
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0001953D] global_crew_science_officer: Hayjer, it's working!
-        [0001953E] crit_kett_salarian_captain_multi: [Comm] Reading a bunch of kett headed our way. Pulling back. It's all you now, Tempest.
+        [0001953D] Suvi (Science Officer): Hayjer, it's working!
+        [0001953E] Kett Salarian Captain: [Comm] Reading a bunch of kett headed our way. Pulling back. It's all you now, Tempest.
         ↩ (goto) [0000A208] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0001953F] crit_kett_salarian_captain_multi: [Comm] Initiating Ghost Storm, on my mark. Three, two... go!
-    ↩ (goto) [0001953B] crit_kett_salarian_captain_multi: [empty]
+    [0001953F] Kett Salarian Captain: [Comm] Initiating Ghost Storm, on my mark. Three, two... go!
+    ↩ (goto) [0001953B] Kett Salarian Captain: [empty]
 └─ merge ─┘

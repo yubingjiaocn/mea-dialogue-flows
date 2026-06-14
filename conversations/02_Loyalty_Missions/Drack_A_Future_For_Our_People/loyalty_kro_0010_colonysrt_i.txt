@@ -1,65 +1,65 @@
 # game/conversations/loyalty/krogan_01/loyalty_kro_0010_colonysrt_i
-# Primary speaker: dune_colony_loystart
+# Primary speaker: Colony Loystart
 # Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0010_colonysrt_i.xml
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000253B7] dune_colony_loystart ⟨cond⟩ [OncePerGame]: Drack! Sir! You're here!
-    [000253AB] global_squad_krogan: Settle down a second, Hark.
-    [0002C874] dune_colony_loystart: Sorry. This is just more excitement than I'm used to.
-    [0002C872] dune_colony_loystart: I tracked the stolen transport to one of Elaaden's moons. You need to take your ship. Nothing we've got has stealth.
+    [000253B7] Colony Loystart ⟨cond⟩ [OncePerGame]: Drack! Sir! You're here!
+    [000253AB] Squadmate (Krogan / Drack): Settle down a second, Hark.
+    [0002C874] Colony Loystart: Sorry. This is just more excitement than I'm used to.
+    [0002C872] Colony Loystart: I tracked the stolen transport to one of Elaaden's moons. You need to take your ship. Nothing we've got has stealth.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000253AC] Hero: Let's go.
-        [000253B0] dune_colony_loystart: My coordinates should drop you just close enough to sneak in.
+        [000253AC] Ryder: Let's go.
+        [000253B0] Colony Loystart: My coordinates should drop you just close enough to sneak in.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002652A] global_squad_krogan ⟨cond⟩: What are we walking into?
-            [0002652C] dune_colony_loystart: A group of Nexus exiles. They're hiding out in an old complex up there.
+            [0002652A] Squadmate (Krogan / Drack) ⟨cond⟩: What are we walking into?
+            [0002652C] Colony Loystart: A group of Nexus exiles. They're hiding out in an old complex up there.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00026C4E] Hero ⟨cond⟩: Nexus exiles. Friends of yours, Drack?
-                [00026C4D] global_squad_krogan: We made a lot of "friends" during the mutiny.
-                [00026C4F] global_squad_krogan: Guess we'll find out.
+                [00026C4E] Ryder ⟨cond⟩: Nexus exiles. Friends of yours, Drack?
+                [00026C4D] Squadmate (Krogan / Drack): We made a lot of "friends" during the mutiny.
+                [00026C4F] Squadmate (Krogan / Drack): Guess we'll find out.
             ├ option 2:
-                [000266B1] Hero: Nexus exiles? Drack will love that.
+                [000266B1] Ryder: Nexus exiles? Drack will love that.
             └─ merge ─┘
         ├ option 2:
-            [00026C4A] Hero: What are we walking into?
-            ↩ (goto) [0002652C] dune_colony_loystart: A group of Nexus exiles. They're hiding out in an old complex up there.
+            [00026C4A] Ryder: What are we walking into?
+            ↩ (goto) [0002652C] Colony Loystart: A group of Nexus exiles. They're hiding out in an old complex up there.
         └─ merge ─┘
     ├ option 2:
-        [000253B1] Hero: We'll be back soon.
-        [000253C8] dune_colony_loystart: I'll be here.
+        [000253B1] Ryder: We'll be back soon.
+        [000253C8] Colony Loystart: I'll be here.
     ├ option 3:
-        [00026198] Hero [OncePerGame]: How did they steal the transport?
-        [00026527] dune_colony_loystart: I... had the security system off while I was transferring a new sample, and well...
-        [00026C4B] dune_colony_loystart: They snuck in from the far side.
-        [000265B8] dune_colony_loystart: Morda thinks Vorn took the transport for a sample run. I didn't tell her otherwise.
+        [00026198] Ryder [OncePerGame]: How did they steal the transport?
+        [00026527] Colony Loystart: I... had the security system off while I was transferring a new sample, and well...
+        [00026C4B] Colony Loystart: They snuck in from the far side.
+        [000265B8] Colony Loystart: Morda thinks Vorn took the transport for a sample run. I didn't tell her otherwise.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000265CD] global_squad_krogan ⟨cond⟩: If she finds out what really happened, she'll fry your quads over a low fire.
-            [000265CC] dune_colony_loystart: I know. {i}(Shudders.){/i} Thank you so much for helping me.
-            ↩ (goto) [0002651D] Hero: [empty]
+            [000265CD] Squadmate (Krogan / Drack) ⟨cond⟩: If she finds out what really happened, she'll fry your quads over a low fire.
+            [000265CC] Colony Loystart: I know. {i}(Shudders.){/i} Thank you so much for helping me.
+            ↩ (goto) [0002651D] Ryder: [empty]
         ├ option 2:
-            [00026C48] Hero: If she ever finds out...
-            ↩ (goto) [000265CC] dune_colony_loystart: I know. {i}(Shudders.){/i} Thank you so much for helping me.
+            [00026C48] Ryder: If she ever finds out...
+            ↩ (goto) [000265CC] Colony Loystart: I know. {i}(Shudders.){/i} Thank you so much for helping me.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00026C46] dune_colony_loystart: Drack told me you'd be heading over.
-    ↩ (goto) [0002C872] dune_colony_loystart: I tracked the stolen transport to one of Elaaden's moons. You need to take your ship. Nothing we've got has stealth.
+    [00026C46] Colony Loystart: Drack told me you'd be heading over.
+    ↩ (goto) [0002C872] Colony Loystart: I tracked the stolen transport to one of Elaaden's moons. You need to take your ship. Nothing we've got has stealth.
 ├ option 3:
-    [000265B9] dune_colony_loystart ⟨cond⟩: Ready to go?
-    ↩ (goto) [0002651D] Hero: [empty]
+    [000265B9] Colony Loystart ⟨cond⟩: Ready to go?
+    ↩ (goto) [0002651D] Ryder: [empty]
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026C49] dune_colony_loystart: You must be the Pathfinder?
-    [00026C47] Hero: That's me.
+    [00026C49] Colony Loystart: You must be the Pathfinder?
+    [00026C47] Ryder: That's me.
 ├ option 2:
-    [00028FD8] Hero [OncePerGame]: What do you do at the colony?
-    [00028FD9] dune_colony_loystart: Botany... sort of. I'm Vorn's apprentice. He's the real genius with plants.
-    [00028FD7] dune_colony_loystart: Come to think of it, I haven't seen Vorn since the transport was stolen. Wonder where he is...
-    ↩ (goto) [0002651D] Hero: [empty]
+    [00028FD8] Ryder [OncePerGame]: What do you do at the colony?
+    [00028FD9] Colony Loystart: Botany... sort of. I'm Vorn's apprentice. He's the real genius with plants.
+    [00028FD7] Colony Loystart: Come to think of it, I haven't seen Vorn since the transport was stolen. Wonder where he is...
+    ↩ (goto) [0002651D] Ryder: [empty]
 └─ merge ─┘

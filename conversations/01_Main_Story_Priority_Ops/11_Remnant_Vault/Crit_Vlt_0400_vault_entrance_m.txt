@@ -1,112 +1,112 @@
 # Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0400_vault_entrance_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_vlt/Crit_Vlt_0400_vault_entrance_m.xml
 ==================================================
-[0001480B] Hero: We're almost clear! Where are you?
-[00014808] Hero: Hello? Peebee!
-[0000CC1D] Hero: Go! Go, go, go!
-[000092CE] global_squad_asari: Ahh, it's right on our heels!
-[000092DC] Hero: Get to the gravity well!
+[0001480B] Ryder: We're almost clear! Where are you?
+[00014808] Ryder: Hello? Peebee!
+[0000CC1D] Ryder: Go! Go, go, go!
+[000092CE] Squadmate (Asari / Peebee): Ahh, it's right on our heels!
+[000092DC] Ryder: Get to the gravity well!
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000092D0] global_squad_turian ⟨cond⟩: Shit, it's sealed! Try to get something under it!
-    [00009A75] Hero: Come on!
+    [000092D0] Squadmate (Turian / Vetra) ⟨cond⟩: Shit, it's sealed! Try to get something under it!
+    [00009A75] Ryder: Come on!
     [00009319] SAM: Vault restart is now complete.
-    [000092DE] global_squad_asari: That was... Talk about a rush.
+    [000092DE] Squadmate (Asari / Peebee): That was... Talk about a rush.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000092E7] Hero [OncePerGame]: What was that... field?
+        [000092E7] Ryder [OncePerGame]: What was that... field?
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0000A552] global_squad_krogan ⟨cond⟩: Looked like a security system to me.
-            [000092E9] global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+            [0000A552] Squadmate (Krogan / Drack) ⟨cond⟩: Looked like a security system to me.
+            [000092E9] Squadmate (Asari / Peebee): An immune response? Maybe one last scrub before startup? This place is full of surprises.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [000092F0] Hero: Nothing like outrunning death.
-                [0000A87D] global_squad_asari: Or reactivating a huge, mysterious vault. Nice going.
+                [000092F0] Ryder: Nothing like outrunning death.
+                [0000A87D] Squadmate (Asari / Peebee): Or reactivating a huge, mysterious vault. Nice going.
                 [00032335] SAM: Atmosphere processor is online. Recovering last console activity.
-                [0000A878] global_squad_asari: Is that the Heleus Cluster?
-                [0000931A] Hero: Yeah. There we are. That's Eos.
+                [0000A878] Squadmate (Asari / Peebee): Is that the Heleus Cluster?
+                [0000931A] Ryder: Yeah. There we are. That's Eos.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    [0000931B] global_squad_turian ⟨cond⟩: Something happened. Because we restarted the system?
-                    [0000931F] Hero: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
-                    [0000A6AD] global_squad_asari: Maybe, but why is there a whole network of them? What's all this for?
+                    [0000931B] Squadmate (Turian / Vetra) ⟨cond⟩: Something happened. Because we restarted the system?
+                    [0000931F] Ryder: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
+                    [0000A6AD] Squadmate (Asari / Peebee): Maybe, but why is there a whole network of them? What's all this for?
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0000A6AE] Hero: Unless the builders show up to explain themselves, all we've got is guesswork.
-                        [0000A8B9] Hero: So far, we've seen bots, living plants, atmosphere processors...
+                        [0000A6AE] Ryder: Unless the builders show up to explain themselves, all we've got is guesswork.
+                        [0000A8B9] Ryder: So far, we've seen bots, living plants, atmosphere processors...
                         ┌─ BRANCH (3) ─┐
                         ├ option 1:
-                            [0000A6D0] global_squad_krogan ⟨cond⟩: On Tuchanka, they built towers to steady the atmosphere after the nuclear winter.
-                            [0000A70C] Hero: To help it support life.
+                            [0000A6D0] Squadmate (Krogan / Drack) ⟨cond⟩: On Tuchanka, they built towers to steady the atmosphere after the nuclear winter.
+                            [0000A70C] Ryder: To help it support life.
                             ┌─ BRANCH (3) ─┐
                             ├ option 1:
-                                [0000A87A] global_squad_female_human ⟨cond⟩: That first processor we saw was making things worse, but maybe it malfunctioned.
-                                [0000A706] Hero: Is that what these builders were trying to do? Make worlds habitable? Even terraform a whole cluster?
-                                [0000A707] global_squad_asari: Hey. Look there.
-                                [0000A70B] global_squad_asari: That's different. Maybe it's active? We've got to go see!
-                                [0000CC54] Hero: SAM?
+                                [0000A87A] Squadmate (Human ♀) ⟨cond⟩: That first processor we saw was making things worse, but maybe it malfunctioned.
+                                [0000A706] Ryder: Is that what these builders were trying to do? Make worlds habitable? Even terraform a whole cluster?
+                                [0000A707] Squadmate (Asari / Peebee): Hey. Look there.
+                                [0000A70B] Squadmate (Asari / Peebee): That's different. Maybe it's active? We've got to go see!
+                                [0000CC54] Ryder: SAM?
                                 [0000A709] SAM: Extrapolating. These coordinates lie beyond the space we have currently surveyed, Pathfinder.
-                                [0000A753] Hero: Mark it on our charts. We need more to go on.
-                                [0000A87E] Hero: Let's head up to the surface. I could use some fresh air.
+                                [0000A753] Ryder: Mark it on our charts. We need more to go on.
+                                [0000A87E] Ryder: Let's head up to the surface. I could use some fresh air.
                             ├ option 2:
-                                [0000A879] global_squad_male_human ⟨cond⟩: Then maybe the first processor we saw was broken. Destroying that planet, instead of...
+                                [0000A879] Squadmate (Human ♂) ⟨cond⟩: Then maybe the first processor we saw was broken. Destroying that planet, instead of...
                                 ↩ (goto) [0000A7C0] Narration: [empty]
                             ├ option 3:
                                 [0000AB69] SAM: The first processor we encountered might have been damaged and acting contrary to its design.
                                 ↩ (goto) [0000A7C0] Narration: [empty]
                             └─ merge ─┘
                         ├ option 2:
-                            [0000A6CF] global_squad_turian ⟨cond⟩: I once did supply runs for a Council team that was seeding some ice planet's atmosphere, trying to melt the ice caps.
-                            ↩ (goto) [0000A70C] Hero: To help it support life.
+                            [0000A6CF] Squadmate (Turian / Vetra) ⟨cond⟩: I once did supply runs for a Council team that was seeding some ice planet's atmosphere, trying to melt the ice caps.
+                            ↩ (goto) [0000A70C] Ryder: To help it support life.
                         ├ option 3:
-                            [0000A6D1] global_squad_male_human ⟨cond⟩: Back home, some corporation hit a desert world with an ice comet. They changed the atmosphere to bring rain.
-                            ↩ (goto) [0000A70C] Hero: To help it support life.
+                            [0000A6D1] Squadmate (Human ♂) ⟨cond⟩: Back home, some corporation hit a desert world with an ice comet. They changed the atmosphere to bring rain.
+                            ↩ (goto) [0000A70C] Ryder: To help it support life.
                         └─ merge ─┘
                     ├ option 2:
-                        [0000A6B1] Hero: This tech can create Observers from nowhere or ravage a whole planet, and that's just what we've seen.
-                        [0000A75A] Hero: The bots, those plants back there, the atmosphere processors...
+                        [0000A6B1] Ryder: This tech can create Observers from nowhere or ravage a whole planet, and that's just what we've seen.
+                        [0000A75A] Ryder: The bots, those plants back there, the atmosphere processors...
                         ┌─ BRANCH (3) ─┐
                         ├ option 1:
-                            ↩ (goto) [0000A6D0] global_squad_krogan ⟨cond⟩: On Tuchanka, they built towers to steady the atmosphere after the nuclear winter.
+                            ↩ (goto) [0000A6D0] Squadmate (Krogan / Drack) ⟨cond⟩: On Tuchanka, they built towers to steady the atmosphere after the nuclear winter.
                         ├ option 2:
-                            ↩ (goto) [0000A6CF] global_squad_turian ⟨cond⟩: I once did supply runs for a Council team that was seeding some ice planet's atmosphere, trying to melt the ice caps.
+                            ↩ (goto) [0000A6CF] Squadmate (Turian / Vetra) ⟨cond⟩: I once did supply runs for a Council team that was seeding some ice planet's atmosphere, trying to melt the ice caps.
                         ├ option 3:
-                            ↩ (goto) [0000A6D1] global_squad_male_human ⟨cond⟩: Back home, some corporation hit a desert world with an ice comet. They changed the atmosphere to bring rain.
+                            ↩ (goto) [0000A6D1] Squadmate (Human ♂) ⟨cond⟩: Back home, some corporation hit a desert world with an ice comet. They changed the atmosphere to bring rain.
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 2:
-                    [00009315] global_squad_krogan ⟨cond⟩: We did something. The system restart?
-                    ↩ (goto) [0000931F] Hero: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
+                    [00009315] Squadmate (Krogan / Drack) ⟨cond⟩: We did something. The system restart?
+                    ↩ (goto) [0000931F] Ryder: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
                 ├ option 3:
-                    [00009314] global_squad_male_human ⟨cond⟩: Whoa. Did restarting the system do that?
-                    ↩ (goto) [0000931F] Hero: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
+                    [00009314] Squadmate (Human ♂) ⟨cond⟩: Whoa. Did restarting the system do that?
+                    ↩ (goto) [0000931F] Ryder: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
                 └─ merge ─┘
             ├ option 2:
-                [000092EF] Hero: We have to be more careful. That field almost disintegrated us!
-                [0000A87C] global_squad_asari: But it didn't. You want to focus on that or the cool vault you just activated?
+                [000092EF] Ryder: We have to be more careful. That field almost disintegrated us!
+                [0000A87C] Squadmate (Asari / Peebee): But it didn't. You want to focus on that or the cool vault you just activated?
                 ↩ (goto) [00032335] SAM: Atmosphere processor is online. Recovering last console activity.
             └─ merge ─┘
         ├ option 2:
-            [0000A554] global_squad_turian ⟨cond⟩: I know a trap when I see one.
-            ↩ (goto) [000092E9] global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+            [0000A554] Squadmate (Turian / Vetra) ⟨cond⟩: I know a trap when I see one.
+            ↩ (goto) [000092E9] Squadmate (Asari / Peebee): An immune response? Maybe one last scrub before startup? This place is full of surprises.
         ├ option 3:
-            [0000A558] global_squad_female_human ⟨cond⟩: Might've been sweeping the vault... or chasing us.
-            ↩ (goto) [000092E9] global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+            [0000A558] Squadmate (Human ♀) ⟨cond⟩: Might've been sweeping the vault... or chasing us.
+            ↩ (goto) [000092E9] Squadmate (Asari / Peebee): An immune response? Maybe one last scrub before startup? This place is full of surprises.
         ├ option 4:
-            ↩ (goto) [000092E9] global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+            ↩ (goto) [000092E9] Squadmate (Asari / Peebee): An immune response? Maybe one last scrub before startup? This place is full of surprises.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [000092F0] Hero: Nothing like outrunning death.
+        ↩ (goto) [000092F0] Ryder: Nothing like outrunning death.
     ├ option 3:
-        ↩ (goto) [000092EF] Hero: We have to be more careful. That field almost disintegrated us!
+        ↩ (goto) [000092EF] Ryder: We have to be more careful. That field almost disintegrated us!
     └─ merge ─┘
 ├ option 2:
-    [000092CF] global_squad_krogan ⟨cond⟩: I'm not dying 'cause a door's locked! Bust it down!
+    [000092CF] Squadmate (Krogan / Drack) ⟨cond⟩: I'm not dying 'cause a door's locked! Bust it down!
     ↩ (goto) [000092DA] Narration: [empty]
 ├ option 3:
-    [000092CB] global_squad_female_human ⟨cond⟩: Not moving! Find an override!
+    [000092CB] Squadmate (Human ♀) ⟨cond⟩: Not moving! Find an override!
     ↩ (goto) [000092DA] Narration: [empty]
 └─ merge ─┘
 [00023F59] SAM: Console is attempting surface reconnection.

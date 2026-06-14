@@ -2,56 +2,56 @@
 # Primary speaker: SAM
 # Source: game/conversations/crit/m4/m4_0325_door_panel_i.xml
 ==================================================
-[00029DC1] crit_kett_door_voice: Rok tal?
+[00029DC1] Kett Door Voice: Rok tal?
 [00029DBD] SAM: The system is asking for your authorization. How do you wish to respond?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00029DC2] Hero: [Kett processing] Uh... gosad nura... torak... shura...
+    [00029DC2] Ryder: [Kett processing] Uh... gosad nura... torak... shura...
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        [00029DB9] global_squad_female_human ⟨cond⟩: Really?
-        [00029DBB] crit_kett_door_voice: Nok ra.
+        [00029DB9] Squadmate (Human ♀) ⟨cond⟩: Really?
+        [00029DBB] Kett Door Voice: Nok ra.
         [00029E20] SAM: Access denied.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00029DC2] Hero: [Kett processing] Uh... gosad nura... torak... shura...
+            ↩ (goto) [00029DC2] Ryder: [Kett processing] Uh... gosad nura... torak... shura...
         ├ option 2:
-            [00029DB7] Hero: [Kett processing] Intruders have been spotted on the ship. We need to secure this area.
-            [00029DC4] crit_kett_door_voice: Yol ma.
+            [00029DB7] Ryder: [Kett processing] Intruders have been spotted on the ship. We need to secure this area.
+            [00029DC4] Kett Door Voice: Yol ma.
             [00029DC5] SAM: Access granted.
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                [0002AC0A] global_squad_angara ⟨cond⟩: Impressive. But also disturbing.
+                [0002AC0A] Squadmate (Angara / Jaal) ⟨cond⟩: Impressive. But also disturbing.
             ├ option 2:
-                [0002AC09] global_squad_krogan ⟨cond⟩: That was creepy, if you ask me.
+                [0002AC09] Squadmate (Krogan / Drack) ⟨cond⟩: That was creepy, if you ask me.
             ├ option 3:
-                [0002AC08] global_squad_asari ⟨cond⟩: Wonders never cease.
+                [0002AC08] Squadmate (Asari / Peebee) ⟨cond⟩: Wonders never cease.
             ├ option 4:
-                [0002AC0D] global_squad_turian ⟨cond⟩: You're kidding.
+                [0002AC0D] Squadmate (Turian / Vetra) ⟨cond⟩: You're kidding.
             ├ option 5:
-                [0002AC0B] global_squad_male_human ⟨cond⟩: That actually worked?
+                [0002AC0B] Squadmate (Human ♂) ⟨cond⟩: That actually worked?
             ├ option 6:
-                [0002AC0C] global_squad_female_human ⟨cond⟩: I can't believe that worked.
+                [0002AC0C] Squadmate (Human ♀) ⟨cond⟩: I can't believe that worked.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [00029DBF] global_squad_male_human ⟨cond⟩: Really?
-        ↩ (goto) [00029DBB] crit_kett_door_voice: Nok ra.
+        [00029DBF] Squadmate (Human ♂) ⟨cond⟩: Really?
+        ↩ (goto) [00029DBB] Kett Door Voice: Nok ra.
     ├ option 3:
-        [00029DBC] global_squad_turian ⟨cond⟩: Really?
-        ↩ (goto) [00029DBB] crit_kett_door_voice: Nok ra.
+        [00029DBC] Squadmate (Turian / Vetra) ⟨cond⟩: Really?
+        ↩ (goto) [00029DBB] Kett Door Voice: Nok ra.
     ├ option 4:
-        [00029DBA] global_squad_asari ⟨cond⟩: Really?
-        ↩ (goto) [00029DBB] crit_kett_door_voice: Nok ra.
+        [00029DBA] Squadmate (Asari / Peebee) ⟨cond⟩: Really?
+        ↩ (goto) [00029DBB] Kett Door Voice: Nok ra.
     ├ option 5:
-        [00029DB8] global_squad_krogan ⟨cond⟩: Really?
-        ↩ (goto) [00029DBB] crit_kett_door_voice: Nok ra.
+        [00029DB8] Squadmate (Krogan / Drack) ⟨cond⟩: Really?
+        ↩ (goto) [00029DBB] Kett Door Voice: Nok ra.
     ├ option 6:
-        [00029DC0] global_squad_angara ⟨cond⟩: Really?
-        ↩ (goto) [00029DBB] crit_kett_door_voice: Nok ra.
+        [00029DC0] Squadmate (Angara / Jaal) ⟨cond⟩: Really?
+        ↩ (goto) [00029DBB] Kett Door Voice: Nok ra.
     ├ option 7:
-        ↩ (goto) [00029DBB] crit_kett_door_voice: Nok ra.
+        ↩ (goto) [00029DBB] Kett Door Voice: Nok ra.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00029DB7] Hero: [Kett processing] Intruders have been spotted on the ship. We need to secure this area.
+    ↩ (goto) [00029DB7] Ryder: [Kett processing] Intruders have been spotted on the ship. We need to secure this area.
 └─ merge ─┘

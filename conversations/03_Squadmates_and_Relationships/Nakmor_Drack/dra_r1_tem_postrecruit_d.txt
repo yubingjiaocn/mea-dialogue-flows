@@ -1,83 +1,83 @@
 # game/conversations/rel/drack/dra_r1_tem_postrecruit_d
-# Primary speaker: global_squad_krogan
+# Primary speaker: Squadmate (Krogan / Drack)
 # Source: game/conversations/rel/drack/dra_r1_tem_postrecruit_d.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001B9EE] global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
-    [0002AAEF] Hero: Who were you talking to?
-    [0002AAF0] global_squad_krogan: Kesh. Nexus superintendent. Thinks she can boss me around just 'cause she's my granddaughter.
+    [0001B9EE] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
+    [0002AAEF] Ryder: Who were you talking to?
+    [0002AAF0] Squadmate (Krogan / Drack): Kesh. Nexus superintendent. Thinks she can boss me around just 'cause she's my granddaughter.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00014C44] Hero: Well, welcome to the Tempest. Trouble's what we do.
-        [00014C54] global_squad_krogan: {i}(Laughs.){/i} I like the way you think, kid.
-        [00014C69] Hero: Hmm. Someone somewhere shivered when I said that.
-        [00014C80] global_squad_krogan: Probably Tann. Damn politicians.
-        [00014C4E] Hero: Is that all you brought?
-        [00014C3F] global_squad_krogan: You travel lean when supplies are tight and you're on your own.
+        [00014C44] Ryder: Well, welcome to the Tempest. Trouble's what we do.
+        [00014C54] Squadmate (Krogan / Drack): {i}(Laughs.){/i} I like the way you think, kid.
+        [00014C69] Ryder: Hmm. Someone somewhere shivered when I said that.
+        [00014C80] Squadmate (Krogan / Drack): Probably Tann. Damn politicians.
+        [00014C4E] Ryder: Is that all you brought?
+        [00014C3F] Squadmate (Krogan / Drack): You travel lean when supplies are tight and you're on your own.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00014C5B] Hero: Your people had to know what it'd be like when you left the Nexus.
-                [00014C61] global_squad_krogan: We did, but there weren't a lot of options.
-                [00014C65] global_squad_krogan: After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
-                [00014C83] global_squad_krogan: Easy choice. Bad consequences all around.
+                [00014C5B] Ryder: Your people had to know what it'd be like when you left the Nexus.
+                [00014C61] Squadmate (Krogan / Drack): We did, but there weren't a lot of options.
+                [00014C65] Squadmate (Krogan / Drack): After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
+                [00014C83] Squadmate (Krogan / Drack): Easy choice. Bad consequences all around.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    [00014CBE] Hero [OncePerGame]: Not all krogan left. Your granddaughter stayed.
-                    [00014CC0] global_squad_krogan: Good thing she did. Without my ru'shan, you wouldn't have had much of a station to tie your ship to.
-                    [000184DA] global_squad_krogan: As for me... I'm way more useful out here. Lots to shoot at, for one.
+                    [00014CBE] Ryder [OncePerGame]: Not all krogan left. Your granddaughter stayed.
+                    [00014CC0] Squadmate (Krogan / Drack): Good thing she did. Without my ru'shan, you wouldn't have had much of a station to tie your ship to.
+                    [000184DA] Squadmate (Krogan / Drack): As for me... I'm way more useful out here. Lots to shoot at, for one.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [00014C8A] Hero: Your people come first.
-                        [000184E6] global_squad_krogan: Keeping Kesh and our colony safe will always be my top priority.
-                        [00014C95] global_squad_krogan: That's why I'm happy to tag along, help make this galaxy a little more... hospitable.
-                        [00019283] Hero: Can't argue with that.
+                        [00014C8A] Ryder: Your people come first.
+                        [000184E6] Squadmate (Krogan / Drack): Keeping Kesh and our colony safe will always be my top priority.
+                        [00014C95] Squadmate (Krogan / Drack): That's why I'm happy to tag along, help make this galaxy a little more... hospitable.
+                        [00019283] Ryder: Can't argue with that.
                     ├ option 2:
-                        [00014C88] Hero: Krogan could have made a real difference on the Nexus.
-                        [00014C93] global_squad_krogan: Staying under those conditions would have just resulted in another mutiny.
-                        [00014C98] global_squad_krogan: We have a much better shot at something good out here.
-                        ↩ (goto) [00019283] Hero: Can't argue with that.
+                        [00014C88] Ryder: Krogan could have made a real difference on the Nexus.
+                        [00014C93] Squadmate (Krogan / Drack): Staying under those conditions would have just resulted in another mutiny.
+                        [00014C98] Squadmate (Krogan / Drack): We have a much better shot at something good out here.
+                        ↩ (goto) [00019283] Ryder: Can't argue with that.
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) [00014C88] Hero: Krogan could have made a real difference on the Nexus.
+                    ↩ (goto) [00014C88] Ryder: Krogan could have made a real difference on the Nexus.
                 ├ option 3:
-                    ↩ (goto) [00014C8A] Hero: Your people come first.
+                    ↩ (goto) [00014C8A] Ryder: Your people come first.
                 └─ merge ─┘
             ├ option 2:
-                [00014C7B] Hero: Leaving the Nexus can't have been an easy choice.
-                [00014C53] global_squad_krogan: It was, actually.
-                [00014C4D] global_squad_krogan: Staying became impossible.
-                ↩ (goto) [00014C65] global_squad_krogan: After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
+                [00014C7B] Ryder: Leaving the Nexus can't have been an easy choice.
+                [00014C53] Squadmate (Krogan / Drack): It was, actually.
+                [00014C4D] Squadmate (Krogan / Drack): Staying became impossible.
+                ↩ (goto) [00014C65] Squadmate (Krogan / Drack): After the mutiny happened, it was either buckle under Tann's rules or start our own colony.
             └─ merge ─┘
         ├ option 2:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00014C42] Hero: Where are your friends? The other krogan?
-                [00014C57] global_squad_krogan: We found a place to plant our feet. Make our own rules.
-                [00014C82] global_squad_krogan: Leaving the Nexus wasn't ideal, but we've managed.
-                [00014C85] Hero: So why did you leave?
-                ↩ (goto) [00014C4D] global_squad_krogan: Staying became impossible.
+                [00014C42] Ryder: Where are your friends? The other krogan?
+                [00014C57] Squadmate (Krogan / Drack): We found a place to plant our feet. Make our own rules.
+                [00014C82] Squadmate (Krogan / Drack): Leaving the Nexus wasn't ideal, but we've managed.
+                [00014C85] Ryder: So why did you leave?
+                ↩ (goto) [00014C4D] Squadmate (Krogan / Drack): Staying became impossible.
             ├ option 2:
-                [00014C48] Hero: Everyone's tight on supplies. The Nexus is no exception.
-                [000184E7] global_squad_krogan: You think it's the same as being exiled? Life outside the Nexus ain't exactly friendly.
-                ↩ (goto) [00014C85] Hero: So why did you leave?
+                [00014C48] Ryder: Everyone's tight on supplies. The Nexus is no exception.
+                [000184E7] Squadmate (Krogan / Drack): You think it's the same as being exiled? Life outside the Nexus ain't exactly friendly.
+                ↩ (goto) [00014C85] Ryder: So why did you leave?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [00014C7C] Hero: I like the no trouble plan. How about we stick with that?
-        [00014C40] global_squad_krogan: {i}(Laughs.){/i} Kesh said not too much trouble, kid. Not {i}no{/i} trouble.
-        [00014C6B] global_squad_krogan: The kett make sure some trouble's always coming for you.
-        [00014C46] Hero: That's not reassuring.
-        [00014C55] global_squad_krogan: Life out here ain't reassuring. You'll get used to it.
-        ↩ (goto) [00014C72] global_squad_krogan: [empty]
+        [00014C7C] Ryder: I like the no trouble plan. How about we stick with that?
+        [00014C40] Squadmate (Krogan / Drack): {i}(Laughs.){/i} Kesh said not too much trouble, kid. Not {i}no{/i} trouble.
+        [00014C6B] Squadmate (Krogan / Drack): The kett make sure some trouble's always coming for you.
+        [00014C46] Ryder: That's not reassuring.
+        [00014C55] Squadmate (Krogan / Drack): Life out here ain't reassuring. You'll get used to it.
+        ↩ (goto) [00014C72] Squadmate (Krogan / Drack): [empty]
     └─ merge ─┘
 ├ option 2:
-    [00014C76] global_squad_krogan: {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
-    ↩ (goto) [0002AAEF] Hero: Who were you talking to?
+    [00014C76] Squadmate (Krogan / Drack): {i}(Chuckles.){/i} "Don't give the Pathfinder too much trouble." Ah, ru'shan.
+    ↩ (goto) [0002AAEF] Ryder: Who were you talking to?
 └─ merge ─┘
-[00014CF7] global_squad_krogan: That lieutenant of yours, Harper. She's got a good head on her shoulders.
-[00014CF5] global_squad_krogan: I'll talk to her, brief her on what it's been like on the front.
-[00014CF0] global_squad_krogan: And I'll try to stay out of trouble.
-[00014CF4] global_squad_krogan: Mostly.
+[00014CF7] Squadmate (Krogan / Drack): That lieutenant of yours, Harper. She's got a good head on her shoulders.
+[00014CF5] Squadmate (Krogan / Drack): I'll talk to her, brief her on what it's been like on the front.
+[00014CF0] Squadmate (Krogan / Drack): And I'll try to stay out of trouble.
+[00014CF4] Squadmate (Krogan / Drack): Mostly.

@@ -1,128 +1,128 @@
 # game/conversations/bstory/remrel/rrb_0100_vld_pb_1st_proj_remtech_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/remrel/rrb_0100_vld_pb_1st_proj_remtech_b.xml
 ==================================================
-[00026F5D] Hero: These are the ruins we're looking for.
+[00026F5D] Ryder: These are the ruins we're looking for.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026F5C] global_squad_asari ⟨cond⟩: Time to scrounge for tech.
+    [00026F5C] Squadmate (Asari / Peebee) ⟨cond⟩: Time to scrounge for tech.
 ├ option 2:
-    [00026F5E] Hero ⟨cond⟩: Let's find some tech for Peebee.
+    [00026F5E] Ryder ⟨cond⟩: Let's find some tech for Peebee.
 └─ merge ─┘
-[0002EAF1] Hero: Gotta take out these Remnant, then get the piece of tech we need!
-[0002EAEE] Hero: Glyph over here.
-[0002EAF3] Hero: Got it.
+[0002EAF1] Ryder: Gotta take out these Remnant, then get the piece of tech we need!
+[0002EAEE] Ryder: Glyph over here.
+[0002EAF3] Ryder: Got it.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026901] Hero ⟨cond⟩: Is this what you need for your project, Peebee?
-    [00026902] global_squad_asari: Looks like it. Very cool little piece of rem-tech.
+    [00026901] Ryder ⟨cond⟩: Is this what you need for your project, Peebee?
+    [00026902] Squadmate (Asari / Peebee): Looks like it. Very cool little piece of rem-tech.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0001CDD7] global_squad_angara ⟨cond⟩: "Rem-tech"?
+        [0001CDD7] Squadmate (Angara / Jaal) ⟨cond⟩: "Rem-tech"?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001CDD9] global_squad_asari: Yeah, shortcut I made up. "Rem" is short for "Remnant," and—
+            [0001CDD9] Squadmate (Asari / Peebee): Yeah, shortcut I made up. "Rem" is short for "Remnant," and—
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                [0001CDE6] global_squad_angara ⟨cond⟩: I comprehend.
-                [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+                [0001CDE6] Squadmate (Angara / Jaal) ⟨cond⟩: I comprehend.
+                [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00026900] global_squad_asari ⟨cond⟩: Appreciate it. Come see me on the ship—I'll give you an update on the project.
+                    [00026900] Squadmate (Asari / Peebee) ⟨cond⟩: Appreciate it. Come see me on the ship—I'll give you an update on the project.
                 ├ option 2:
-                    [000268FF] Hero: I'll deliver this piece and hopefully find out what her secret project is.
-                    ↩ (goto) [0001CDF6] global_squad_angara: [empty]
+                    [000268FF] Ryder: I'll deliver this piece and hopefully find out what her secret project is.
+                    ↩ (goto) [0001CDF6] Squadmate (Angara / Jaal): [empty]
                 └─ merge ─┘
             ├ option 2:
-                [0001CDE7] global_squad_krogan ⟨cond⟩: Got it.
-                ↩ (goto) [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+                [0001CDE7] Squadmate (Krogan / Drack) ⟨cond⟩: Got it.
+                ↩ (goto) [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
             ├ option 3:
-                [0001CDFB] global_squad_turian ⟨cond⟩: Say no more, got it.
-                ↩ (goto) [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+                [0001CDFB] Squadmate (Turian / Vetra) ⟨cond⟩: Say no more, got it.
+                ↩ (goto) [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
             ├ option 4:
-                [0001CDEC] global_squad_male_human ⟨cond⟩: Yeah, yeah, I get it.
-                ↩ (goto) [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+                [0001CDEC] Squadmate (Human ♂) ⟨cond⟩: Yeah, yeah, I get it.
+                ↩ (goto) [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
             ├ option 5:
-                [0001CDF8] global_squad_female_human ⟨cond⟩: Noted.
-                ↩ (goto) [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+                [0001CDF8] Squadmate (Human ♀) ⟨cond⟩: Noted.
+                ↩ (goto) [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
             └─ merge ─┘
         ├ option 2:
-            [0001CDE0] Hero: Peebee's term.
-            ↩ (goto) [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+            [0001CDE0] Ryder: Peebee's term.
+            ↩ (goto) [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
         └─ merge ─┘
     ├ option 2:
-        [0001CDDE] global_squad_krogan ⟨cond⟩: "Rem-tech"?
+        [0001CDDE] Squadmate (Krogan / Drack) ⟨cond⟩: "Rem-tech"?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001CDEE] global_squad_female_human ⟨cond⟩: [empty]
+            ↩ (goto) [0001CDEE] Squadmate (Human ♀) ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) [0001CDEB] global_squad_female_human: [empty]
+            ↩ (goto) [0001CDEB] Squadmate (Human ♀): [empty]
         └─ merge ─┘
     ├ option 3:
-        [0001CDE1] global_squad_turian ⟨cond⟩: "Rem-tech"?
+        [0001CDE1] Squadmate (Turian / Vetra) ⟨cond⟩: "Rem-tech"?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001CDEE] global_squad_female_human ⟨cond⟩: [empty]
+            ↩ (goto) [0001CDEE] Squadmate (Human ♀) ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) [0001CDEB] global_squad_female_human: [empty]
+            ↩ (goto) [0001CDEB] Squadmate (Human ♀): [empty]
         └─ merge ─┘
     ├ option 4:
-        [0001CDD6] global_squad_male_human ⟨cond⟩: "Rem-tech"?
+        [0001CDD6] Squadmate (Human ♂) ⟨cond⟩: "Rem-tech"?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001CDEE] global_squad_female_human ⟨cond⟩: [empty]
+            ↩ (goto) [0001CDEE] Squadmate (Human ♀) ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) [0001CDEB] global_squad_female_human: [empty]
+            ↩ (goto) [0001CDEB] Squadmate (Human ♀): [empty]
         └─ merge ─┘
     ├ option 5:
-        [0001CDD3] global_squad_female_human ⟨cond⟩: "Rem-tech"?
+        [0001CDD3] Squadmate (Human ♀) ⟨cond⟩: "Rem-tech"?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001CDEE] global_squad_female_human ⟨cond⟩: [empty]
+            ↩ (goto) [0001CDEE] Squadmate (Human ♀) ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) [0001CDEB] global_squad_female_human: [empty]
+            ↩ (goto) [0001CDEB] Squadmate (Human ♀): [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00026903] Hero: This must be the piece of rem-tech Peebee needs.
+    [00026903] Ryder: This must be the piece of rem-tech Peebee needs.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [0001CDD7] global_squad_angara ⟨cond⟩: "Rem-tech"?
+        ↩ (goto) [0001CDD7] Squadmate (Angara / Jaal) ⟨cond⟩: "Rem-tech"?
     ├ option 2:
-        ↩ (goto) [0001CDDE] global_squad_krogan ⟨cond⟩: "Rem-tech"?
+        ↩ (goto) [0001CDDE] Squadmate (Krogan / Drack) ⟨cond⟩: "Rem-tech"?
     ├ option 3:
-        ↩ (goto) [0001CDE1] global_squad_turian ⟨cond⟩: "Rem-tech"?
+        ↩ (goto) [0001CDE1] Squadmate (Turian / Vetra) ⟨cond⟩: "Rem-tech"?
     ├ option 4:
-        ↩ (goto) [0001CDD6] global_squad_male_human ⟨cond⟩: "Rem-tech"?
+        ↩ (goto) [0001CDD6] Squadmate (Human ♂) ⟨cond⟩: "Rem-tech"?
     ├ option 5:
-        ↩ (goto) [0001CDD3] global_squad_female_human ⟨cond⟩: "Rem-tech"?
+        ↩ (goto) [0001CDD3] Squadmate (Human ♀) ⟨cond⟩: "Rem-tech"?
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001CE02] Hero: There's good salvageable Rem-tech here.
+    [0001CE02] Ryder: There's good salvageable Rem-tech here.
 ├ option 2:
-    [0001CDEF] Hero: She's looking for pieces that will help her understand Remnant systems. And for a personal project. I promised to help.
+    [0001CDEF] Ryder: She's looking for pieces that will help her understand Remnant systems. And for a personal project. I promised to help.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001CDDB] global_squad_asari: Yup. This will do nicely, thank you.
-        ↩ (goto) [0001CDF2] Hero: Any time we come across ruins like this, let's scrounge what we can.
+        [0001CDDB] Squadmate (Asari / Peebee): Yup. This will do nicely, thank you.
+        ↩ (goto) [0001CDF2] Ryder: Any time we come across ruins like this, let's scrounge what we can.
     ├ option 2:
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [0001CDDC] global_squad_female_human ⟨cond⟩: "I" meaning "everyone."
-            [0001DB5A] Hero: Pretty much.
+            [0001CDDC] Squadmate (Human ♀) ⟨cond⟩: "I" meaning "everyone."
+            [0001DB5A] Ryder: Pretty much.
         ├ option 2:
-            [0001CDEA] global_squad_male_human ⟨cond⟩: So now we're all helping.
-            ↩ (goto) [0001DB5A] Hero: Pretty much.
+            [0001CDEA] Squadmate (Human ♂) ⟨cond⟩: So now we're all helping.
+            ↩ (goto) [0001DB5A] Ryder: Pretty much.
         ├ option 3:
-            [0001CDE8] global_squad_turian ⟨cond⟩: So, "I" meaning "we."
-            ↩ (goto) [0001DB5A] Hero: Pretty much.
+            [0001CDE8] Squadmate (Turian / Vetra) ⟨cond⟩: So, "I" meaning "we."
+            ↩ (goto) [0001DB5A] Ryder: Pretty much.
         ├ option 4:
-            [0001CDFA] global_squad_krogan ⟨cond⟩: So we're all drafted.
-            ↩ (goto) [0001DB5A] Hero: Pretty much.
+            [0001CDFA] Squadmate (Krogan / Drack) ⟨cond⟩: So we're all drafted.
+            ↩ (goto) [0001DB5A] Ryder: Pretty much.
         ├ option 5:
-            [0001CDE5] global_squad_angara ⟨cond⟩: Then we should all assist her.
+            [0001CDE5] Squadmate (Angara / Jaal) ⟨cond⟩: Then we should all assist her.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

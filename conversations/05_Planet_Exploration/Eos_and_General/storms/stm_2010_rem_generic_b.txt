@@ -1,53 +1,53 @@
 # game/conversations/unc/storms/stm_2010_rem_generic_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_2010_rem_generic_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001E338] Hero ⟨cond⟩: More Remnant bots. These ones don't seem hostile.
-    [0002944A] global_squad_asari ⟨cond⟩: [Comm] Maybe, but get too close or mess with their tech, and zap!
+    [0001E338] Ryder ⟨cond⟩: More Remnant bots. These ones don't seem hostile.
+    [0002944A] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] Maybe, but get too close or mess with their tech, and zap!
 ├ option 2:
-    [0002BD89] Hero: Hey, over there. Those look like... bots?
+    [0002BD89] Ryder: Hey, over there. Those look like... bots?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002BDAC] Hero ⟨cond⟩: Same ones we saw on Habitat 7.
-        [0002BD8A] Hero: They don't seem aggressive.
+        [0002BDAC] Ryder ⟨cond⟩: Same ones we saw on Habitat 7.
+        [0002BD8A] Ryder: They don't seem aggressive.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0002BDAD] global_squad_male_human ⟨cond⟩: What if they're like the kett?
+            [0002BDAD] Squadmate (Human ♂) ⟨cond⟩: What if they're like the kett?
         ├ option 2:
-            [0002BDAF] global_squad_female_human ⟨cond⟩: Not yet.
+            [0002BDAF] Squadmate (Human ♀) ⟨cond⟩: Not yet.
         ├ option 3:
-            [0002BDAE] global_squad_turian ⟨cond⟩: How do we tell?
+            [0002BDAE] Squadmate (Turian / Vetra) ⟨cond⟩: How do we tell?
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [0002BD8A] Hero: They don't seem aggressive.
+        ↩ (goto) [0002BD8A] Ryder: They don't seem aggressive.
     └─ merge ─┘
 └─ merge ─┘
-[00029449] Hero [OncePerGame]: Guess we made them angry!
+[00029449] Ryder [OncePerGame]: Guess we made them angry!
 ┌─ BRANCH (12) ─┐
 ├ option 1:
-    [0001E368] global_squad_asari ⟨cond⟩: Just parts left.
+    [0001E368] Squadmate (Asari / Peebee) ⟨cond⟩: Just parts left.
 ├ option 2:
-    [0001E35B] global_squad_female_human ⟨cond⟩: All Remnant down.
+    [0001E35B] Squadmate (Human ♀) ⟨cond⟩: All Remnant down.
 ├ option 3:
-    [0001E357] global_squad_krogan ⟨cond⟩: I've stopped keeping count.
+    [0001E357] Squadmate (Krogan / Drack) ⟨cond⟩: I've stopped keeping count.
 ├ option 4:
-    [0001E353] Hero: No more Remnant nearby.
+    [0001E353] Ryder: No more Remnant nearby.
 ├ option 5:
-    [0001E351] global_squad_male_human ⟨cond⟩: They're scrap. Done.
+    [0001E351] Squadmate (Human ♂) ⟨cond⟩: They're scrap. Done.
 ├ option 6:
-    [0001E35D] global_squad_turian ⟨cond⟩: Nothing but salvage.
+    [0001E35D] Squadmate (Turian / Vetra) ⟨cond⟩: Nothing but salvage.
 ├ option 7:
-    [0001E354] global_squad_asari ⟨cond⟩: They're all deactivated.
+    [0001E354] Squadmate (Asari / Peebee) ⟨cond⟩: They're all deactivated.
 ├ option 8:
-    [0001E358] global_squad_krogan ⟨cond⟩: Junked 'em.
+    [0001E358] Squadmate (Krogan / Drack) ⟨cond⟩: Junked 'em.
 ├ option 9:
-    [0001E355] global_squad_male_human ⟨cond⟩: We took them apart.
+    [0001E355] Squadmate (Human ♂) ⟨cond⟩: We took them apart.
 ├ option 10:
-    [0001E352] Hero: They're down.
+    [0001E352] Ryder: They're down.
 ├ option 11:
-    [0001E35C] global_squad_female_human ⟨cond⟩: Remnant deactivated.
+    [0001E35C] Squadmate (Human ♀) ⟨cond⟩: Remnant deactivated.
 ├ option 12:
-    [0001E359] global_squad_turian ⟨cond⟩: All taken care of.
+    [0001E359] Squadmate (Turian / Vetra) ⟨cond⟩: All taken care of.
 └─ merge ─┘

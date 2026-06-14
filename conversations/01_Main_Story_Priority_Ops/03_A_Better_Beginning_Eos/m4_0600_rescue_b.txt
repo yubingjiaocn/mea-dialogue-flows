@@ -1,106 +1,106 @@
 # Game/Conversations/Crit/M4/m4_0600_rescue_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/m4/m4_0600_rescue_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001B624] global_salarian_pathfinder_multi: Pathfinder, you came!
-    [0001B61B] Hero: Raeka... we couldn't just leave you here.
-    [0001B625] global_salarian_pathfinder_multi: Thank you. My people are at the end of the tunnel. It's kett the whole way.
-    [0001B627] Hero: Then we push ahead and don't stop for anything.
+    [0001B624] Salarian Pathfinder (Hayjer): Pathfinder, you came!
+    [0001B61B] Ryder: Raeka... we couldn't just leave you here.
+    [0001B625] Salarian Pathfinder (Hayjer): Thank you. My people are at the end of the tunnel. It's kett the whole way.
+    [0001B627] Ryder: Then we push ahead and don't stop for anything.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001B61A] global_squad_krogan ⟨cond⟩: Including krogan?
-        [0001B622] Hero: Drack...
-        [0001B623] global_squad_krogan: Don't worry. I'll shoot whatever needs shooting.
-        [0001B633] Hero: Let's go.
+        [0001B61A] Squadmate (Krogan / Drack) ⟨cond⟩: Including krogan?
+        [0001B622] Ryder: Drack...
+        [0001B623] Squadmate (Krogan / Drack): Don't worry. I'll shoot whatever needs shooting.
+        [0001B633] Ryder: Let's go.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
         ├ option 2:
-            [0001B62A] global_squad_female_human ⟨cond⟩: No argument here. I'd say we've worn out our welcome.
+            [0001B62A] Squadmate (Human ♀) ⟨cond⟩: No argument here. I'd say we've worn out our welcome.
         ├ option 3:
-            [0001B61F] global_squad_male_human ⟨cond⟩: Run and gun. Works for me.
+            [0001B61F] Squadmate (Human ♂) ⟨cond⟩: Run and gun. Works for me.
         ├ option 4:
-            [0001B620] global_squad_turian ⟨cond⟩: Sooner we get out of here, the better.
+            [0001B620] Squadmate (Turian / Vetra) ⟨cond⟩: Sooner we get out of here, the better.
         ├ option 5:
-            [0001B632] global_squad_asari ⟨cond⟩: I'm in.
+            [0001B632] Squadmate (Asari / Peebee) ⟨cond⟩: I'm in.
         ├ option 6:
-            [0001B621] global_squad_angara ⟨cond⟩: The faster, the better.
+            [0001B621] Squadmate (Angara / Jaal) ⟨cond⟩: The faster, the better.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [0001B633] Hero: Let's go.
+        ↩ (goto) [0001B633] Ryder: Let's go.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001B62D] crit_kett_krogan_scout: Drack?
-        [0001B631] global_squad_krogan: Birtak, what are you doing here?
-        [0001B62E] crit_kett_krogan_scout: I got loose when the power went out. Our scouts are at the end of the corridor. With a lot of kett in the way.
-        [0001B626] Hero: Then we push ahead and don't stop for anything. Let's go.
+        [0001B62D] Kett Krogan Scout: Drack?
+        [0001B631] Squadmate (Krogan / Drack): Birtak, what are you doing here?
+        [0001B62E] Kett Krogan Scout: I got loose when the power went out. Our scouts are at the end of the corridor. With a lot of kett in the way.
+        [0001B626] Ryder: Then we push ahead and don't stop for anything. Let's go.
         ┌─ BRANCH (7) ─┐
         ├ option 1:
-            ↩ (goto) [0001B634] global_squad_angara: [empty]
+            ↩ (goto) [0001B634] Squadmate (Angara / Jaal): [empty]
         ├ option 2:
-            [0001B628] global_squad_krogan ⟨cond⟩: Got your back. Let's do it!
+            [0001B628] Squadmate (Krogan / Drack) ⟨cond⟩: Got your back. Let's do it!
         ├ option 3:
-            ↩ (goto) [0001B62A] global_squad_female_human ⟨cond⟩: No argument here. I'd say we've worn out our welcome.
+            ↩ (goto) [0001B62A] Squadmate (Human ♀) ⟨cond⟩: No argument here. I'd say we've worn out our welcome.
         ├ option 4:
-            ↩ (goto) [0001B61F] global_squad_male_human ⟨cond⟩: Run and gun. Works for me.
+            ↩ (goto) [0001B61F] Squadmate (Human ♂) ⟨cond⟩: Run and gun. Works for me.
         ├ option 5:
-            ↩ (goto) [0001B620] global_squad_turian ⟨cond⟩: Sooner we get out of here, the better.
+            ↩ (goto) [0001B620] Squadmate (Turian / Vetra) ⟨cond⟩: Sooner we get out of here, the better.
         ├ option 6:
-            ↩ (goto) [0001B632] global_squad_asari ⟨cond⟩: I'm in.
+            ↩ (goto) [0001B632] Squadmate (Asari / Peebee) ⟨cond⟩: I'm in.
         ├ option 7:
-            ↩ (goto) [0001B621] global_squad_angara ⟨cond⟩: The faster, the better.
+            ↩ (goto) [0001B621] Squadmate (Angara / Jaal) ⟨cond⟩: The faster, the better.
         └─ merge ─┘
     ├ option 2:
-        [0001B62F] crit_kett_krogan_scout: Who are you?
-        [0001B61C] Hero: Pathfinder Ryder. We're here to rescue the prisoners. Who are you?
-        [0001B61E] crit_kett_krogan_scout: Birtak. A scout for Nakmor Drack. I got loose when the power went out, but I can't do this alone.
-        [0001B62C] crit_kett_krogan_scout: My people are being held at the end of the corridor. With a lot of kett in the way.
-        ↩ (goto) [0001B626] Hero: Then we push ahead and don't stop for anything. Let's go.
+        [0001B62F] Kett Krogan Scout: Who are you?
+        [0001B61C] Ryder: Pathfinder Ryder. We're here to rescue the prisoners. Who are you?
+        [0001B61E] Kett Krogan Scout: Birtak. A scout for Nakmor Drack. I got loose when the power went out, but I can't do this alone.
+        [0001B62C] Kett Krogan Scout: My people are being held at the end of the corridor. With a lot of kett in the way.
+        ↩ (goto) [0001B626] Ryder: Then we push ahead and don't stop for anything. Let's go.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000D7CA] global_squad_krogan ⟨cond⟩: Let's get them out of there.
-        [0001B545] crit_kett_krogan_scout ⟨cond⟩: The terminal next to the door.
+        [0000D7CA] Squadmate (Krogan / Drack) ⟨cond⟩: Let's get them out of there.
+        [0001B545] Kett Krogan Scout ⟨cond⟩: The terminal next to the door.
     ├ option 2:
-        [0001B54F] Hero: Let's get them out of there.
+        [0001B54F] Ryder: Let's get them out of there.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001B545] crit_kett_krogan_scout ⟨cond⟩: The terminal next to the door.
+            ↩ (goto) [0001B545] Kett Krogan Scout ⟨cond⟩: The terminal next to the door.
         ├ option 2:
-            [0001B549] global_salarian_pathfinder_multi: There's a terminal near the door.
+            [0001B549] Salarian Pathfinder (Hayjer): There's a terminal near the door.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [0001B54F] Hero: Let's get them out of there.
+        ↩ (goto) [0001B54F] Ryder: Let's get them out of there.
     ├ option 2:
-        ↩ (goto) [0001B545] crit_kett_krogan_scout ⟨cond⟩: The terminal next to the door.
+        ↩ (goto) [0001B545] Kett Krogan Scout ⟨cond⟩: The terminal next to the door.
     ├ option 3:
-        ↩ (goto) [0001B549] global_salarian_pathfinder_multi: There's a terminal near the door.
+        ↩ (goto) [0001B549] Salarian Pathfinder (Hayjer): There's a terminal near the door.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001B547] global_squad_angara ⟨cond⟩: Look at them—treated like animals.
+    [0001B547] Squadmate (Angara / Jaal) ⟨cond⟩: Look at them—treated like animals.
 ├ option 2:
-    [0001B54A] global_squad_asari ⟨cond⟩: Look at them—treated like animals.
+    [0001B54A] Squadmate (Asari / Peebee) ⟨cond⟩: Look at them—treated like animals.
 ├ option 3:
-    [0001B53F] global_squad_turian ⟨cond⟩: Look at them—treated like animals.
+    [0001B53F] Squadmate (Turian / Vetra) ⟨cond⟩: Look at them—treated like animals.
 ├ option 4:
-    [0001B544] global_squad_male_human ⟨cond⟩: Look at them—treated like animals.
+    [0001B544] Squadmate (Human ♂) ⟨cond⟩: Look at them—treated like animals.
 ├ option 5:
-    [0001B543] global_squad_female_human ⟨cond⟩: Look at them—treated like animals.
+    [0001B543] Squadmate (Human ♀) ⟨cond⟩: Look at them—treated like animals.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001B635] crit_kett_krogan_scout ⟨cond⟩: What are you waiting for? Let's get on with it!
+    [0001B635] Kett Krogan Scout ⟨cond⟩: What are you waiting for? Let's get on with it!
 ├ option 2:
-    [0001B636] global_salarian_pathfinder_multi: Ryder, hurry! We don't have much time!
+    [0001B636] Salarian Pathfinder (Hayjer): Ryder, hurry! We don't have much time!
 └─ merge ─┘

@@ -1,306 +1,306 @@
 # game/conversations/rel/kallo/kallo_r0_tem_investigate_d
-# Primary speaker: global_crew_co-pilot
+# Primary speaker: Kallo (Co-pilot)
 # Source: game/conversations/rel/kallo/kallo_r0_tem_investigate_d.xml
 ==================================================
 ┌─ BRANCH (10) ─┐
 ├ option 1:
-    [0001C8E0] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: A foolish thing to get angry over, isn't it.
+    [0001C8E0] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: A foolish thing to get angry over, isn't it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001C8DA] global_crew_co-pilot ⟨cond⟩: I suppose the Tempest is just like any other ship, to be taken apart and put back together.
-        [0001C8ED] global_crew_co-pilot: Or she will be, once Gil's had his way.
+        [0001C8DA] Kallo (Co-pilot) ⟨cond⟩: I suppose the Tempest is just like any other ship, to be taken apart and put back together.
+        [0001C8ED] Kallo (Co-pilot): Or she will be, once Gil's had his way.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001C8DB] Hero: I expect you to let Gil do his work from now on. No more bickering.
-            [0001C8EB] global_crew_co-pilot: Understood, Pathfinder.
+            [0001C8DB] Ryder: I expect you to let Gil do his work from now on. No more bickering.
+            [0001C8EB] Kallo (Co-pilot): Understood, Pathfinder.
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                [0001BC15] Hero: You know, I haven't actually met many salarians.
-                [0001BC3B] global_crew_co-pilot: Careful. Depending who you ask, we're conniving spies, genius researchers, or meddling scientists.
-                [0001BC3E] global_crew_co-pilot: We have to pack a lot of living into forty-odd years. Everything gets accelerated. Lines blur.
+                [0001BC15] Ryder: You know, I haven't actually met many salarians.
+                [0001BC3B] Kallo (Co-pilot): Careful. Depending who you ask, we're conniving spies, genius researchers, or meddling scientists.
+                [0001BC3E] Kallo (Co-pilot): We have to pack a lot of living into forty-odd years. Everything gets accelerated. Lines blur.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001BC43] global_crew_co-pilot ⟨cond⟩: And if Dr. Aden was being honest, we haven't learned a damned thing from our old mistakes.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC43] Kallo (Co-pilot) ⟨cond⟩: And if Dr. Aden was being honest, we haven't learned a damned thing from our old mistakes.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 2:
-                    [0001BC40] global_crew_co-pilot: I just hope we don't repeat our old mistakes out here.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC40] Kallo (Co-pilot): I just hope we don't repeat our old mistakes out here.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 └─ merge ─┘
             ├ option 2:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001BC3D] Hero [OncePerGame]: If you helped to build the Tempest, you must know plenty about her.
-                    [0001D07A] global_crew_co-pilot: Just about everything by memory. It was quite the effort to get her working.
-                    [0001D09A] global_crew_co-pilot: The Initiative needed absolutely up-to-date technology, which we all had to coordinate. And some of it was rather tricky to acquire.
-                    [0001D09D] Hero: Acquire?
-                    [0001D09B] global_crew_co-pilot: Buy. Legally and above board, of course. {i}(Coughs.){/i} Yes.
-                    [0001D09C] global_crew_co-pilot: Sadly, the other Pathfinder vessels were lost when that "Scourge" hit the Nexus. The Tempest is truly unique.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC3D] Ryder [OncePerGame]: If you helped to build the Tempest, you must know plenty about her.
+                    [0001D07A] Kallo (Co-pilot): Just about everything by memory. It was quite the effort to get her working.
+                    [0001D09A] Kallo (Co-pilot): The Initiative needed absolutely up-to-date technology, which we all had to coordinate. And some of it was rather tricky to acquire.
+                    [0001D09D] Ryder: Acquire?
+                    [0001D09B] Kallo (Co-pilot): Buy. Legally and above board, of course. {i}(Coughs.){/i} Yes.
+                    [0001D09C] Kallo (Co-pilot): Sadly, the other Pathfinder vessels were lost when that "Scourge" hit the Nexus. The Tempest is truly unique.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 2:
-                    [0001BC3F] Hero: Tell me something else about the ship.
+                    [0001BC3F] Ryder: Tell me something else about the ship.
                     ┌─ BRANCH (6) ─┐
                     ├ option 1:
-                        [0001D07B] global_crew_co-pilot ⟨cond⟩: I'm sorry, Ryder. I don't really feel like reminiscing.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001D07B] Kallo (Co-pilot) ⟨cond⟩: I'm sorry, Ryder. I don't really feel like reminiscing.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     ├ option 2:
-                        [0001BC84] global_crew_co-pilot [OncePerGame]: Her engine's based on the ark's ODSY drive, which got us through dark space.
-                        [0001BCC0] global_crew_co-pilot: The core takes the static electricity it generates and stores it in capacitors. We basically make our own power supply.
-                        [0001BCBD] global_crew_co-pilot: It took Sorenna and Teon weeks to get it working in a smaller ship—and a few electrical shocks.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001BC84] Kallo (Co-pilot) [OncePerGame]: Her engine's based on the ark's ODSY drive, which got us through dark space.
+                        [0001BCC0] Kallo (Co-pilot): The core takes the static electricity it generates and stores it in capacitors. We basically make our own power supply.
+                        [0001BCBD] Kallo (Co-pilot): It took Sorenna and Teon weeks to get it working in a smaller ship—and a few electrical shocks.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     ├ option 3:
-                        [0001BCBE] global_crew_co-pilot [OncePerGame]: Our aerospace engineer was Teon'Adda vas Moreh. A quarian fellow—and absolutely fearless.
-                        [0001BCBF] global_crew_co-pilot: Once, some Omega scrap dealer pulled the "we don't sell to quarians" nonsense. Teon found... a workaround.
-                        [0001BFC9] Hero: What did he do?
-                        [0001BFC8] global_crew_co-pilot: He glued a memory foam to his environmental suit, then during the negotiations, leaned against the drive core he wanted. Very casual.
-                        [0001BFC7] global_crew_co-pilot: It made a perfect mold of the components—and the scrap dealer was none the wiser.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001BCBE] Kallo (Co-pilot) [OncePerGame]: Our aerospace engineer was Teon'Adda vas Moreh. A quarian fellow—and absolutely fearless.
+                        [0001BCBF] Kallo (Co-pilot): Once, some Omega scrap dealer pulled the "we don't sell to quarians" nonsense. Teon found... a workaround.
+                        [0001BFC9] Ryder: What did he do?
+                        [0001BFC8] Kallo (Co-pilot): He glued a memory foam to his environmental suit, then during the negotiations, leaned against the drive core he wanted. Very casual.
+                        [0001BFC7] Kallo (Co-pilot): It made a perfect mold of the components—and the scrap dealer was none the wiser.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     ├ option 4:
-                        [0001BC82] global_crew_co-pilot [OncePerGame]: The "glass" on board? It's actually a clear oxide and nanofiber compound. It bends rather than shattering.
-                        [0001BC83] Hero: How tough is it? We're only an arm's length away from hard vacuum.
-                        [0001BC81] global_crew_co-pilot: Our testing involved three drunk krogan with sledgehammers and a C-Sec battering ram. It's sturdy.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001BC82] Kallo (Co-pilot) [OncePerGame]: The "glass" on board? It's actually a clear oxide and nanofiber compound. It bends rather than shattering.
+                        [0001BC83] Ryder: How tough is it? We're only an arm's length away from hard vacuum.
+                        [0001BC81] Kallo (Co-pilot): Our testing involved three drunk krogan with sledgehammers and a C-Sec battering ram. It's sturdy.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     ├ option 5:
-                        [0001BFCA] global_crew_co-pilot [OncePerConversation]: O'Connell, our systems designer, was running a power distribution model. How power moves through the ship.
-                        [0001C098] global_crew_co-pilot: But he forgot to lock his terminal, and we, um, added a few embellishments.
-                        [0001C099] global_crew_co-pilot: For two days, poor O'Connell was convinced that turning on all the bathroom lights would overload the engine core.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001BFCA] Kallo (Co-pilot) [OncePerConversation]: O'Connell, our systems designer, was running a power distribution model. How power moves through the ship.
+                        [0001C098] Kallo (Co-pilot): But he forgot to lock his terminal, and we, um, added a few embellishments.
+                        [0001C099] Kallo (Co-pilot): For two days, poor O'Connell was convinced that turning on all the bathroom lights would overload the engine core.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     ├ option 6:
-                        [0001C0AF] global_crew_co-pilot: I'm all out of stories for now. Sorry. You'll have to make some new ones.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001C0AF] Kallo (Co-pilot): I'm all out of stories for now. Sorry. You'll have to make some new ones.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 3:
-                [0001BC45] Hero ⟨cond⟩: What do you think of the rest of the crew?
+                [0001BC45] Ryder ⟨cond⟩: What do you think of the rest of the crew?
                 ┌─ BRANCH (11) ─┐
                 ├ option 1:
-                    [0001BC4C] global_crew_co-pilot [OncePerGame]: Well... I can't talk about Suvi. She's sitting right there.
-                    [0001BC4E] global_crew_science_officer: I'm not listening. You can say whatever you like.
-                    [0001BC51] global_crew_co-pilot: Oh no, I'm not falling for that again.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC4C] Kallo (Co-pilot) [OncePerGame]: Well... I can't talk about Suvi. She's sitting right there.
+                    [0001BC4E] Suvi (Science Officer): I'm not listening. You can say whatever you like.
+                    [0001BC51] Kallo (Co-pilot): Oh no, I'm not falling for that again.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 2:
-                    [0001BC50] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: I'll admit it, Gil's rather irritating. He insists on redesigning systems rather than maintaining them.
-                    [0001BC4D] global_crew_science_officer: He likes to do things his way.
-                    [0001BC52] global_crew_co-pilot: {i}(Sighs.){/i} That doesn't make it the right way.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC50] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: I'll admit it, Gil's rather irritating. He insists on redesigning systems rather than maintaining them.
+                    [0001BC4D] Suvi (Science Officer): He likes to do things his way.
+                    [0001BC52] Kallo (Co-pilot): {i}(Sighs.){/i} That doesn't make it the right way.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 3:
-                    [0001BC77] global_crew_co-pilot [OncePerGame]: Liam's quite fun. Not many humans have that kind of energy.
-                    [0001C108] global_crew_co-pilot: I probably shouldn't have told him there are secret compartments in the armory, though. He's been looking all day.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC77] Kallo (Co-pilot) [OncePerGame]: Liam's quite fun. Not many humans have that kind of energy.
+                    [0001C108] Kallo (Co-pilot): I probably shouldn't have told him there are secret compartments in the armory, though. He's been looking all day.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 4:
-                    [0001BC4F] global_crew_co-pilot [OncePerGame]: Dr. T'Perro seems nice, if quiet. It must be very different here, compared to the Hyperion. Fewer people in stasis shock.
-                    [0001BC55] Hero: Let's keep it that way.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC4F] Kallo (Co-pilot) [OncePerGame]: Dr. T'Perro seems nice, if quiet. It must be very different here, compared to the Hyperion. Fewer people in stasis shock.
+                    [0001BC55] Ryder: Let's keep it that way.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 5:
-                    [0001BC58] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: Given Drack's history with salarians, it's probably better I just stay out of his way.
-                    [0001BF27] global_crew_co-pilot: Too bad. That grunnien roast he makes smells delicious.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC58] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: Given Drack's history with salarians, it's probably better I just stay out of his way.
+                    [0001BF27] Kallo (Co-pilot): Too bad. That grunnien roast he makes smells delicious.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 6:
-                    [0001BC54] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: I like Peebee, but... I really hope she doesn't lean on the escape pod's manual release by accident.
-                    [0001BC56] Hero: Is that easy to do?
-                    [0001BC57] global_crew_co-pilot: It's an escape pod. If it's difficult to use, you're doing it wrong.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC54] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: I like Peebee, but... I really hope she doesn't lean on the escape pod's manual release by accident.
+                    [0001BC56] Ryder: Is that easy to do?
+                    [0001BC57] Kallo (Co-pilot): It's an escape pod. If it's difficult to use, you're doing it wrong.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 7:
-                    [0001BC53] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: I think that Peebee needs to read a few safety manuals.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC53] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: I think that Peebee needs to read a few safety manuals.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 8:
-                    [0001BC75] global_crew_co-pilot [OncePerGame]: Vetra's very kind. She actually got hold of some dried seaweed snacks for me. Said I needed "feeding up."
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC75] Kallo (Co-pilot) [OncePerGame]: Vetra's very kind. She actually got hold of some dried seaweed snacks for me. Said I needed "feeding up."
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 9:
-                    [0001BC6F] global_crew_co-pilot [OncePerGame]: I don't talk to Cora much. She always seems so busy.
-                    [0001BC71] global_crew_co-pilot: There are things I'd like to ask her about your father, but it never seems like a good time.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC6F] Kallo (Co-pilot) [OncePerGame]: I don't talk to Cora much. She always seems so busy.
+                    [0001BC71] Kallo (Co-pilot): There are things I'd like to ask her about your father, but it never seems like a good time.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 10:
-                    [0001BC70] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: Jaal has all sorts of questions about the ship. I gave him some technical manuals. He tore right through them.
-                    [0001BC72] global_crew_co-pilot: I should ask him about angaran ships. Imagine something actually designed to handle that damned Scourge.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC70] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: Jaal has all sorts of questions about the ship. I gave him some technical manuals. He tore right through them.
+                    [0001BC72] Kallo (Co-pilot): I should ask him about angaran ships. Imagine something actually designed to handle that damned Scourge.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 ├ option 11:
-                    [0001BC76] global_crew_co-pilot: If I gossip any more, I'll get in trouble.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC76] Kallo (Co-pilot): If I gossip any more, I'll get in trouble.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 └─ merge ─┘
             ├ option 4:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001BC21] Hero [OncePerGame]: I couldn't help overhearing you and Gil.
-                    [0001BC25] Hero: It sounded pretty heated.
-                    [0001BC1F] global_crew_co-pilot: He likes redesigning things, but the ship was built this way for a reason. I wish Gil would respect that.
+                    [0001BC21] Ryder [OncePerGame]: I couldn't help overhearing you and Gil.
+                    [0001BC25] Ryder: It sounded pretty heated.
+                    [0001BC1F] Kallo (Co-pilot): He likes redesigning things, but the ship was built this way for a reason. I wish Gil would respect that.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0001BC3A] global_crew_co-pilot ⟨cond⟩: At least as much as he respects you.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001BC3A] Kallo (Co-pilot) ⟨cond⟩: At least as much as he respects you.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     ├ option 2:
-                        [0001BC3C] global_crew_co-pilot: It's nothing to concern yourself about, really.
-                        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                        [0001BC3C] Kallo (Co-pilot): It's nothing to concern yourself about, really.
+                        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    [0001BC20] Hero: You and Gil still aren't getting along?
-                    [0001BC24] global_crew_co-pilot: He's being stubborn. All I want is for him to respect the ship. Apparently that's too much to ask.
-                    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                    [0001BC20] Ryder: You and Gil still aren't getting along?
+                    [0001BC24] Kallo (Co-pilot): He's being stubborn. All I want is for him to respect the ship. Apparently that's too much to ask.
+                    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
                 └─ merge ─┘
             ├ option 5:
-                [0001CDAF] Hero ⟨cond⟩: Are you and Gil still managing to get along?
-                [0001CDB1] global_crew_co-pilot: It's... cordial. So far. He takes approaches I'd never think of.
-                [0001CDBE] global_crew_co-pilot: And having all our statistics memorized saves time. We'll see.
-                [0001CDB4] global_crew_co-pilot: Though he insists R2 FBA couplings are better than T7s! Can you imagine?
-                [0001CDB2] Hero: You know, I really can't.
-                ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                [0001CDAF] Ryder ⟨cond⟩: Are you and Gil still managing to get along?
+                [0001CDB1] Kallo (Co-pilot): It's... cordial. So far. He takes approaches I'd never think of.
+                [0001CDBE] Kallo (Co-pilot): And having all our statistics memorized saves time. We'll see.
+                [0001CDB4] Kallo (Co-pilot): Though he insists R2 FBA couplings are better than T7s! Can you imagine?
+                [0001CDB2] Ryder: You know, I really can't.
+                ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
             ├ option 6:
-                [0001BC0D] Hero: I'll let you concentrate.
-                [0001BC13] global_crew_co-pilot: You know where I'll be.
+                [0001BC0D] Ryder: I'll let you concentrate.
+                [0001BC13] Kallo (Co-pilot): You know where I'll be.
             └─ merge ─┘
         ├ option 2:
-            [0001C8DD] Hero: Gil's upgrading the Tempest, not scrapping her. She's in good hands.
+            [0001C8DD] Ryder: Gil's upgrading the Tempest, not scrapping her. She's in good hands.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001C8D6] global_crew_co-pilot ⟨cond⟩: Perhaps he's given you better reasons to trust him.
-                [0001C8EC] global_crew_co-pilot: But perhaps... {i}(Sighs.){/i} Anything else?
-                ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                [0001C8D6] Kallo (Co-pilot) ⟨cond⟩: Perhaps he's given you better reasons to trust him.
+                [0001C8EC] Kallo (Co-pilot): But perhaps... {i}(Sighs.){/i} Anything else?
+                ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
             ├ option 2:
-                [0001C8D9] global_crew_co-pilot: I wish I could believe you.
-                ↩ (goto) [0001C8EC] global_crew_co-pilot: But perhaps... {i}(Sighs.){/i} Anything else?
+                [0001C8D9] Kallo (Co-pilot): I wish I could believe you.
+                ↩ (goto) [0001C8EC] Kallo (Co-pilot): But perhaps... {i}(Sighs.){/i} Anything else?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0001C8F1] global_crew_co-pilot: Perhaps you had to be there when the Tempest was made. In a way, I'm always there. I see my team's faces as clearly as yours.
-        [0001C8E4] global_crew_co-pilot: What's the saying? People aren't dead while someone still remembers them?
+        [0001C8F1] Kallo (Co-pilot): Perhaps you had to be there when the Tempest was made. In a way, I'm always there. I see my team's faces as clearly as yours.
+        [0001C8E4] Kallo (Co-pilot): What's the saying? People aren't dead while someone still remembers them?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0001C8E5] Hero [OncePerGame]: Remember them for me. Tell me who they were.
-            [0001C8D8] global_crew_co-pilot: Sorenna still wore her bondmate's perfume years after they separated. I can see the patterns Teon embroidered in his enviro suit.
-            [0001C8E6] global_crew_co-pilot: I see Lucille. O'Connell too... Maybe they're not completely gone.
+            [0001C8E5] Ryder [OncePerGame]: Remember them for me. Tell me who they were.
+            [0001C8D8] Kallo (Co-pilot): Sorenna still wore her bondmate's perfume years after they separated. I can see the patterns Teon embroidered in his enviro suit.
+            [0001C8E6] Kallo (Co-pilot): I see Lucille. O'Connell too... Maybe they're not completely gone.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001C8DE] Hero: If they still comfort and inspire you, are the people you love really dead?
-                [0001C8EE] global_crew_co-pilot: It would be... very hard to be the last. Though the Tempest will outlast us all.
-                [0001C8E2] global_crew_co-pilot: Did you need anything else?
-                ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                [0001C8DE] Ryder: If they still comfort and inspire you, are the people you love really dead?
+                [0001C8EE] Kallo (Co-pilot): It would be... very hard to be the last. Though the Tempest will outlast us all.
+                [0001C8E2] Kallo (Co-pilot): Did you need anything else?
+                ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
             ├ option 2:
-                [0001C8E9] Hero: I know you literally can't forget them, but you can remember and still let go.
-                [0001C8F0] global_crew_co-pilot: Perhaps humans can.
-                ↩ (goto) [0001C8E2] global_crew_co-pilot: Did you need anything else?
+                [0001C8E9] Ryder: I know you literally can't forget them, but you can remember and still let go.
+                [0001C8F0] Kallo (Co-pilot): Perhaps humans can.
+                ↩ (goto) [0001C8E2] Kallo (Co-pilot): Did you need anything else?
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [0001C8DE] Hero: If they still comfort and inspire you, are the people you love really dead?
+            ↩ (goto) [0001C8DE] Ryder: If they still comfort and inspire you, are the people you love really dead?
         ├ option 3:
-            ↩ (goto) [0001C8E9] Hero: I know you literally can't forget them, but you can remember and still let go.
+            ↩ (goto) [0001C8E9] Ryder: I know you literally can't forget them, but you can remember and still let go.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001CBAE] global_crew_co-pilot [OncePerGame]: Ryder... might I borrow your research room access?
-        [0001CB9B] Hero: What for?
+        [0001CBAE] Kallo (Co-pilot) [OncePerGame]: Ryder... might I borrow your research room access?
+        [0001CB9B] Ryder: What for?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D079] global_crew_co-pilot ⟨cond⟩: There's a small something I need to take care of.
-            [0001D07C] global_crew_co-pilot ⟨cond⟩: I might need your help, if you could.
+            [0001D079] Kallo (Co-pilot) ⟨cond⟩: There's a small something I need to take care of.
+            [0001D07C] Kallo (Co-pilot) ⟨cond⟩: I might need your help, if you could.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001CBA8] Hero: I'll help if I can.
-                [0001CBCA] global_crew_co-pilot: Suvi, could you take the helm for a little while?
+                [0001CBA8] Ryder: I'll help if I can.
+                [0001CBCA] Kallo (Co-pilot): Suvi, could you take the helm for a little while?
             ├ option 2:
-                [0001CBA9] Hero: When I've got some free time.
-                [0001CBCC] global_crew_co-pilot: Understood. Anything else you'd like to discuss?
-                ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+                [0001CBA9] Ryder: When I've got some free time.
+                [0001CBCC] Kallo (Co-pilot): Understood. Anything else you'd like to discuss?
+                ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
             └─ merge ─┘
         ├ option 2:
-            [0001CBA7] global_crew_co-pilot: Nothing much. Just hoping to research something in my spare time.
-            [0001CBB0] global_crew_co-pilot: Oh, would you care to help?
+            [0001CBA7] Kallo (Co-pilot): Nothing much. Just hoping to research something in my spare time.
+            [0001CBB0] Kallo (Co-pilot): Oh, would you care to help?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [0001CBA8] Hero: I'll help if I can.
+                ↩ (goto) [0001CBA8] Ryder: I'll help if I can.
             ├ option 2:
-                ↩ (goto) [0001CBA9] Hero: When I've got some free time.
+                ↩ (goto) [0001CBA9] Ryder: When I've got some free time.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0001CBAF] Hero: About you using the research room.
+        [0001CBAF] Ryder: About you using the research room.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001D07C] global_crew_co-pilot ⟨cond⟩: I might need your help, if you could.
+            ↩ (goto) [0001D07C] Kallo (Co-pilot) ⟨cond⟩: I might need your help, if you could.
         ├ option 2:
-            ↩ (goto) [0001CBB0] global_crew_co-pilot: Oh, would you care to help?
+            ↩ (goto) [0001CBB0] Kallo (Co-pilot): Oh, would you care to help?
         └─ merge ─┘
     └─ merge ─┘
 ├ option 3:
-    [0001C09A] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: A real victory—our ark, back at the Nexus! I'd almost given up hope.
+    [0001C09A] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: A real victory—our ark, back at the Nexus! I'd almost given up hope.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001C0A4] Hero: The kett won't touch the Paarchero again. The militia will see to that.
+        [0001C0A4] Ryder: The kett won't touch the Paarchero again. The militia will see to that.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001C0AA] global_crew_co-pilot ⟨cond⟩: It's horrible to think of salarians in kett hands. But at least our Pathfinder made it.
-            [0001C0AE] global_crew_co-pilot: Thank you, Ryder. I mean it, truly. If you ever need a favor, just ask.
-            ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+            [0001C0AA] Kallo (Co-pilot) ⟨cond⟩: It's horrible to think of salarians in kett hands. But at least our Pathfinder made it.
+            [0001C0AE] Kallo (Co-pilot): Thank you, Ryder. I mean it, truly. If you ever need a favor, just ask.
+            ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
         ├ option 2:
-            [0001C0AB] global_crew_co-pilot: Losing Pathfinder Raeka is... a blow. So many salarians joined the Initiative because of her.
-            [0001C0AC] global_crew_co-pilot: But you did your best. Did you need me?
-            ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+            [0001C0AB] Kallo (Co-pilot): Losing Pathfinder Raeka is... a blow. So many salarians joined the Initiative because of her.
+            [0001C0AC] Kallo (Co-pilot): But you did your best. Did you need me?
+            ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
         └─ merge ─┘
     ├ option 2:
-        [0001C0A1] Hero: I find things, Kallo. My job description's only one word.
+        [0001C0A1] Ryder: I find things, Kallo. My job description's only one word.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001C0AA] global_crew_co-pilot ⟨cond⟩: It's horrible to think of salarians in kett hands. But at least our Pathfinder made it.
+            ↩ (goto) [0001C0AA] Kallo (Co-pilot) ⟨cond⟩: It's horrible to think of salarians in kett hands. But at least our Pathfinder made it.
         ├ option 2:
-            ↩ (goto) [0001C0AB] global_crew_co-pilot: Losing Pathfinder Raeka is... a blow. So many salarians joined the Initiative because of her.
+            ↩ (goto) [0001C0AB] Kallo (Co-pilot): Losing Pathfinder Raeka is... a blow. So many salarians joined the Initiative because of her.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 4:
-    [0001D2E1] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: I hear you found a stasis locker from the salarian ark?
-    [0001D2E4] Hero: Technically someone else found it first, but yes.
-    [0001D2E0] global_crew_co-pilot: How wonderful! I know it's not the ark itself, but any sign is better than nothing, surely.
-    [0001D2E3] global_crew_co-pilot: Please, if I can help the search at all, just ask. Or ask anyway. You're good company.
-    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+    [0001D2E1] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: I hear you found a stasis locker from the salarian ark?
+    [0001D2E4] Ryder: Technically someone else found it first, but yes.
+    [0001D2E0] Kallo (Co-pilot): How wonderful! I know it's not the ark itself, but any sign is better than nothing, surely.
+    [0001D2E3] Kallo (Co-pilot): Please, if I can help the search at all, just ask. Or ask anyway. You're good company.
+    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
 ├ option 5:
-    [0001BCCD] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: I don't believe it. Gil's reconfigured our entire nav array.
-    [0001BCCC] global_crew_co-pilot: O'Connell risked a dozen spacewalks putting that in place. Damn it!
-    [0001BCD8] global_crew_science_officer: Kallo, don't—
-    [0001BCD9] global_crew_co-pilot: Take the helm. I've had enough of this!
+    [0001BCCD] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: I don't believe it. Gil's reconfigured our entire nav array.
+    [0001BCCC] Kallo (Co-pilot): O'Connell risked a dozen spacewalks putting that in place. Damn it!
+    [0001BCD8] Suvi (Science Officer): Kallo, don't—
+    [0001BCD9] Kallo (Co-pilot): Take the helm. I've had enough of this!
 ├ option 6:
-    [0001D2DF] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: That's what the salarian ark was worth to our "officers"? Thousands of lives, for maybe a future advantage against the kett?
+    [0001D2DF] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: That's what the salarian ark was worth to our "officers"? Thousands of lives, for maybe a future advantage against the kett?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D2DE] global_crew_co-pilot ⟨cond⟩: I suppose you agreed, since you let those traitors walk free.
+        [0001D2DE] Kallo (Co-pilot) ⟨cond⟩: I suppose you agreed, since you let those traitors walk free.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001D306] Hero: This isn't up for discussion, Kallo. It was necessary.
-            [0001D302] global_crew_co-pilot: I see. I hope you don't decide more salarian deaths are "necessary."
-            ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+            [0001D306] Ryder: This isn't up for discussion, Kallo. It was necessary.
+            [0001D302] Kallo (Co-pilot): I see. I hope you don't decide more salarian deaths are "necessary."
+            ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
         ├ option 2:
-            [0001D307] Hero: Nothing would help those people who died or got exalted. But this way, it wasn't for nothing.
-            [0001D357] global_crew_co-pilot: Certainly not. You got a vague promise from a known liar in return.
-            ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+            [0001D307] Ryder: Nothing would help those people who died or got exalted. But this way, it wasn't for nothing.
+            [0001D357] Kallo (Co-pilot): Certainly not. You got a vague promise from a known liar in return.
+            ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
         ├ option 3:
-            [0001D305] Hero: The kett have an empire out there. We can't match them for strength. We have to be smarter.
-            [0001D358] global_crew_co-pilot: I... You... Ugh. This is why I prefer flying. Things are simple at FTL.
-            ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+            [0001D305] Ryder: The kett have an empire out there. We can't match them for strength. We have to be smarter.
+            [0001D358] Kallo (Co-pilot): I... You... Ugh. This is why I prefer flying. Things are simple at FTL.
+            ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
         ├ option 4:
-            [0001D301] Hero: It tears me up that I had to excuse something so terrible. I'm sorry.
-            [0001D359] global_crew_co-pilot: I hope we aren't all sorrier someday that you let them go.
-            ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+            [0001D301] Ryder: It tears me up that I had to excuse something so terrible. I'm sorry.
+            [0001D359] Kallo (Co-pilot): I hope we aren't all sorrier someday that you let them go.
+            ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
         └─ merge ─┘
     ├ option 2:
-        [0001D2DD] global_crew_co-pilot ⟨cond⟩: You're a better person than I, Ryder. I'd have toasted Aden in our thruster exhaust.
-        [0001D2E2] global_crew_co-pilot: But at least the dead and their families have some justice. Need anything else?
-        ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+        [0001D2DD] Kallo (Co-pilot) ⟨cond⟩: You're a better person than I, Ryder. I'd have toasted Aden in our thruster exhaust.
+        [0001D2E2] Kallo (Co-pilot): But at least the dead and their families have some justice. Need anything else?
+        ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
     └─ merge ─┘
 ├ option 7:
-    [0001C100] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: Disguises. People dumped in the desert... So much for an optimistic new start.
-    [0001C0FF] global_crew_co-pilot: I hope this Saelen character isn't trying for some... triple cross.
-    [0001C101] Hero: Me too.
-    [0001C0FE] global_crew_co-pilot: Say the word and I'll land the ship on him. Anything else in the meantime?
-    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+    [0001C100] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: Disguises. People dumped in the desert... So much for an optimistic new start.
+    [0001C0FF] Kallo (Co-pilot): I hope this Saelen character isn't trying for some... triple cross.
+    [0001C101] Ryder: Me too.
+    [0001C0FE] Kallo (Co-pilot): Say the word and I'll land the ship on him. Anything else in the meantime?
+    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
 ├ option 8:
-    [0001C09C] global_crew_co-pilot ⟨cond⟩ [OncePerGame]: So that message was from an STG agent?
-    [0001C0A0] Hero: One who's convinced your people were betrayed.
-    [0001C0D0] global_crew_co-pilot: That's bizarre. What could the kett offer anyone that's worth an ark?
-    [0001C09F] global_crew_co-pilot: Watch your step, Ryder. Back home, when STG was involved, things got messy.
-    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+    [0001C09C] Kallo (Co-pilot) ⟨cond⟩ [OncePerGame]: So that message was from an STG agent?
+    [0001C0A0] Ryder: One who's convinced your people were betrayed.
+    [0001C0D0] Kallo (Co-pilot): That's bizarre. What could the kett offer anyone that's worth an ark?
+    [0001C09F] Kallo (Co-pilot): Watch your step, Ryder. Back home, when STG was involved, things got messy.
+    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
 ├ option 9:
-    [0001BC1D] global_crew_co-pilot ⟨cond⟩: Pathfinder.
-    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+    [0001BC1D] Kallo (Co-pilot) ⟨cond⟩: Pathfinder.
+    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
 ├ option 10:
-    [0001BC14] global_crew_co-pilot: What can I do for you?
-    ↩ (goto) [0001BC19] global_crew_co-pilot: [empty]
+    [0001BC14] Kallo (Co-pilot): What can I do for you?
+    ↩ (goto) [0001BC19] Kallo (Co-pilot): [empty]
 └─ merge ─┘
-[0001BC23] global_crew_co-pilot: Oh. Sorry about that.
+[0001BC23] Kallo (Co-pilot): Oh. Sorry about that.

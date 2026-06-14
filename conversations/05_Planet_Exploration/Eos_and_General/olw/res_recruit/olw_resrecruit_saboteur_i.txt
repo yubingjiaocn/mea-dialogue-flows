@@ -1,75 +1,75 @@
 # game/conversations/unc/olw/res_recruit/olw_resrecruit_saboteur_i
-# Primary speaker: olw_ang_saboteur
+# Primary speaker: Ang Saboteur
 # Source: game/conversations/unc/olw/res_recruit/olw_resrecruit_saboteur_i.xml
 ==================================================
-[000268D5] olw_ang_saboteur [OncePerGame]: Well, you definitely don't look like an outlaw. Good thing I disarmed the traps.
-[00027289] olw_ang_saboteur: Sorry about that. I'm used to your kind giving me trouble.
+[000268D5] Ang Saboteur [OncePerGame]: Well, you definitely don't look like an outlaw. Good thing I disarmed the traps.
+[00027289] Ang Saboteur: Sorry about that. I'm used to your kind giving me trouble.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002728A] Hero: What's my kind doing?
-    [00027297] olw_ang_saboteur: The usual. Trying to rob me. Messing with the Remnant. Shooting at my people.
-    [00027295] olw_ang_saboteur: Not all of them, of course. But enough to make me shoot first.
+    [0002728A] Ryder: What's my kind doing?
+    [00027297] Ang Saboteur: The usual. Trying to rob me. Messing with the Remnant. Shooting at my people.
+    [00027295] Ang Saboteur: Not all of them, of course. But enough to make me shoot first.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [000268D9] Hero: What are you doing out here?
-        [000272A6] olw_ang_saboteur: Keeping my people safe. Between the kett and the outlaws, we've been pushed out of our homes.
-        [000272A3] olw_ang_saboteur: Some decided to dig their heels in and weather the attacks.
-        [000272A8] olw_ang_saboteur: I'm making sure they survive.
-        ↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+        [000268D9] Ryder: What are you doing out here?
+        [000272A6] Ang Saboteur: Keeping my people safe. Between the kett and the outlaws, we've been pushed out of our homes.
+        [000272A3] Ang Saboteur: Some decided to dig their heels in and weather the attacks.
+        [000272A8] Ang Saboteur: I'm making sure they survive.
+        ↩ (goto) [000268D8] Ang Saboteur: [empty]
     ├ option 2:
-        [000268D6] Hero: You said you had traps around here?
-        [000272A5] olw_ang_saboteur: Corrosive traps. Made them with the gas from the vents.
-        [000272A7] Hero: That's smart.
-        [000272A4] olw_ang_saboteur: You have to get creative out here. I learned sabotage when shooting stopped working.
-        [000272A9] olw_ang_saboteur: I can disable vehicles, take down shields—anything that gives us an edge over attackers.
-        ↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+        [000268D6] Ryder: You said you had traps around here?
+        [000272A5] Ang Saboteur: Corrosive traps. Made them with the gas from the vents.
+        [000272A7] Ryder: That's smart.
+        [000272A4] Ang Saboteur: You have to get creative out here. I learned sabotage when shooting stopped working.
+        [000272A9] Ang Saboteur: I can disable vehicles, take down shields—anything that gives us an edge over attackers.
+        ↩ (goto) [000268D8] Ang Saboteur: [empty]
     ├ option 3:
-        [000268D7] Hero ⟨cond⟩: The Resistance could use someone with skills like yours.
-        [000272AA] olw_ang_saboteur: We have enough to deal with here. I'm not leaving my people.
+        [000268D7] Ryder ⟨cond⟩: The Resistance could use someone with skills like yours.
+        [000272AA] Ang Saboteur: We have enough to deal with here. I'm not leaving my people.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [000272AC] global_squad_angara ⟨cond⟩: If we don't take the fight to the kett, your people will never be safe.
-            [000272B1] olw_ang_saboteur: And what would you know about it?
+            [000272AC] Squadmate (Angara / Jaal) ⟨cond⟩: If we don't take the fight to the kett, your people will never be safe.
+            [000272B1] Ang Saboteur: And what would you know about it?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [000272B2] global_squad_angara ⟨cond⟩: The Pathfinder and I have seen what the kett can do. In time, they'll come for Kadara. For you.
+                [000272B2] Squadmate (Angara / Jaal) ⟨cond⟩: The Pathfinder and I have seen what the kett can do. In time, they'll come for Kadara. For you.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [000272AD] Hero: If you join, you can make a better world for your people.
-                    [000272BB] global_squad_angara: Not just on Kadara. Everywhere.
-                    [000272BD] olw_ang_saboteur: When you put it that way... I guess I don't have much of a choice.
-                    [000272B9] Hero: At least go to Voeld and talk to them.
-                    [000272BC] olw_ang_saboteur: Fine. I'll go check it out. No promises.
-                    ↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+                    [000272AD] Ryder: If you join, you can make a better world for your people.
+                    [000272BB] Squadmate (Angara / Jaal): Not just on Kadara. Everywhere.
+                    [000272BD] Ang Saboteur: When you put it that way... I guess I don't have much of a choice.
+                    [000272B9] Ryder: At least go to Voeld and talk to them.
+                    [000272BC] Ang Saboteur: Fine. I'll go check it out. No promises.
+                    ↩ (goto) [000268D8] Ang Saboteur: [empty]
                 ├ option 2:
-                    [000272B3] Hero: Aren't you sick of playing defense? This is your shot at throwing the first punch.
-                    [000272BA] olw_ang_saboteur: Suppose that's an idea I can get behind.
-                    ↩ (goto) [000272B9] Hero: At least go to Voeld and talk to them.
+                    [000272B3] Ryder: Aren't you sick of playing defense? This is your shot at throwing the first punch.
+                    [000272BA] Ang Saboteur: Suppose that's an idea I can get behind.
+                    ↩ (goto) [000272B9] Ryder: At least go to Voeld and talk to them.
                 └─ merge ─┘
             ├ option 2:
-                [0002B85D] global_squad_angara: The Pathfinder and I have seen what the kett can do. In time, they'll come for Kadara. For you.
+                [0002B85D] Squadmate (Angara / Jaal): The Pathfinder and I have seen what the kett can do. In time, they'll come for Kadara. For you.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [000272AD] Hero: If you join, you can make a better world for your people.
+                    ↩ (goto) [000272AD] Ryder: If you join, you can make a better world for your people.
                 ├ option 2:
-                    ↩ (goto) [000272B3] Hero: Aren't you sick of playing defense? This is your shot at throwing the first punch.
+                    ↩ (goto) [000272B3] Ryder: Aren't you sick of playing defense? This is your shot at throwing the first punch.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [000272AF] olw_ang_saboteur ⟨cond⟩: Besides, what does a human know about the Resistance?
-            ↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+            [000272AF] Ang Saboteur ⟨cond⟩: Besides, what does a human know about the Resistance?
+            ↩ (goto) [000268D8] Ang Saboteur: [empty]
         ├ option 3:
-            [0002B85C] olw_ang_saboteur: Besides, what does a human know about the Resistance?
-            ↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+            [0002B85C] Ang Saboteur: Besides, what does a human know about the Resistance?
+            ↩ (goto) [000268D8] Ang Saboteur: [empty]
         └─ merge ─┘
     ├ option 4:
-        [000272B4] Hero: Stay safe out here.
-        [000272BE] olw_ang_saboteur: No problem there.
+        [000272B4] Ryder: Stay safe out here.
+        [000272BE] Ang Saboteur: No problem there.
     └─ merge ─┘
 ├ option 2:
-    [0002728B] Hero: You've only seen the worst of us. We have some good ones.
-    [00027298] olw_ang_saboteur: Well, you haven't shot at me yet. That's a start.
-    ↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+    [0002728B] Ryder: You've only seen the worst of us. We have some good ones.
+    [00027298] Ang Saboteur: Well, you haven't shot at me yet. That's a start.
+    ↩ (goto) [000268D8] Ang Saboteur: [empty]
 └─ merge ─┘
-[000268DC] olw_ang_saboteur: Yeah?
-↩ (goto) [000268D8] olw_ang_saboteur: [empty]
+[000268DC] Ang Saboteur: Yeah?
+↩ (goto) [000268D8] Ang Saboteur: [empty]

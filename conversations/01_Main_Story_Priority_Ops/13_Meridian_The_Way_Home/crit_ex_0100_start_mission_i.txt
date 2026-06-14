@@ -1,23 +1,23 @@
 # Game/Conversations/Crit/Crit_Ex/crit_ex_0100_start_mission_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0100_start_mission_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000C78A] crit_ex_res_pilot_multi [OncePerGame]: Are you the Pathfinder that Evfra was talking about?
-    [0000C78B] Hero: That's me.
-    [0000C78F] crit_ex_res_fighter_3_multi: We're the team assigned to breach the facility with you. Hopefully rescue Moshae Sjefa.
-    [0000C787] crit_ex_res_pilot_multi: I'm your pilot. The kett facility is on the other side of the planet.
-    [0000C78E] crit_ex_res_fighter_3_multi: Ready to head out?
+    [0000C78A] Ex Res Pilot [OncePerGame]: Are you the Pathfinder that Evfra was talking about?
+    [0000C78B] Ryder: That's me.
+    [0000C78F] Ex Res Fighter: We're the team assigned to breach the facility with you. Hopefully rescue Moshae Sjefa.
+    [0000C787] Ex Res Pilot: I'm your pilot. The kett facility is on the other side of the planet.
+    [0000C78E] Ex Res Fighter: Ready to head out?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000C78D] Hero: No time to waste. You can fill me in on the shuttle.
-        [0000C790] crit_ex_res_pilot_multi: Okay. Everybody in.
+        [0000C78D] Ryder: No time to waste. You can fill me in on the shuttle.
+        [0000C790] Ex Res Pilot: Okay. Everybody in.
     ├ option 2:
-        [0000C788] Hero: I'll be back.
-        [00006AB6] crit_ex_res_pilot_multi: And we'll be here.
+        [0000C788] Ryder: I'll be back.
+        [00006AB6] Ex Res Pilot: And we'll be here.
     └─ merge ─┘
 ├ option 2:
-    [000167AA] crit_ex_res_pilot_multi: Ready to head to the kett facility?
-    ↩ (goto) [000167A8] Hero: [empty]
+    [000167AA] Ex Res Pilot: Ready to head to the kett facility?
+    ↩ (goto) [000167A8] Ryder: [empty]
 └─ merge ─┘

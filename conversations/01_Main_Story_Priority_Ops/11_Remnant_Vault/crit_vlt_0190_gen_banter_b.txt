@@ -1,99 +1,99 @@
 # game/conversations/crit/crit_vlt/crit_vlt_0190_gen_banter_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_vlt/crit_vlt_0190_gen_banter_b.xml
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001F3E2] global_squad_turian ⟨cond⟩: I keep thinking someone's watching us.
-        [0001F685] Hero: Let's stay focused. We can worry after we find the system lockdown.
+        [0001F3E2] Squadmate (Turian / Vetra) ⟨cond⟩: I keep thinking someone's watching us.
+        [0001F685] Ryder: Let's stay focused. We can worry after we find the system lockdown.
     ├ option 2:
-        [0001F3E1] global_squad_krogan ⟨cond⟩: It's too damn quiet down here.
-        ↩ (goto) [0001F685] Hero: Let's stay focused. We can worry after we find the system lockdown.
+        [0001F3E1] Squadmate (Krogan / Drack) ⟨cond⟩: It's too damn quiet down here.
+        ↩ (goto) [0001F685] Ryder: Let's stay focused. We can worry after we find the system lockdown.
     ├ option 3:
-        [0001F3E3] global_squad_female_human ⟨cond⟩: There's a low hum through everything here. Can you feel it?
-        ↩ (goto) [0001F685] Hero: Let's stay focused. We can worry after we find the system lockdown.
+        [0001F3E3] Squadmate (Human ♀) ⟨cond⟩: There's a low hum through everything here. Can you feel it?
+        ↩ (goto) [0001F685] Ryder: Let's stay focused. We can worry after we find the system lockdown.
     └─ merge ─┘
 ├ option 2:
-    [0001EEAF] global_squad_asari: [Comm] Oh, wow. I just saw a dozen Observers flying around a waterfall, like a flock of birds.
-    [0001EEB0] global_squad_asari: [Comm] It's amazing. This really is their habitat.
-    [0001EEAE] Hero: We'll be out of their way soon.
-    [0001EEA9] global_squad_asari: [Comm] Not too soon, right? You wouldn't believe the data I'm getting.
+    [0001EEAF] Squadmate (Asari / Peebee): [Comm] Oh, wow. I just saw a dozen Observers flying around a waterfall, like a flock of birds.
+    [0001EEB0] Squadmate (Asari / Peebee): [Comm] It's amazing. This really is their habitat.
+    [0001EEAE] Ryder: We'll be out of their way soon.
+    [0001EEA9] Squadmate (Asari / Peebee): [Comm] Not too soon, right? You wouldn't believe the data I'm getting.
 ├ option 3:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001EEAD] global_squad_krogan ⟨cond⟩: This place smells old. And I'd know.
+        [0001EEAD] Squadmate (Krogan / Drack) ⟨cond⟩: This place smells old. And I'd know.
         [00030D26] SAM: Unknown. Radiation counts indicate the vault has been offline for several hundred years.
-        [00022816] Hero: Around the time the Scourge appeared?
-        [00030D27] Hero: That can't be a coincidence. Maybe the Scourge is why all this tech was abandoned?
+        [00022816] Ryder: Around the time the Scourge appeared?
+        [00030D27] Ryder: That can't be a coincidence. Maybe the Scourge is why all this tech was abandoned?
     ├ option 2:
-        [0001F2CB] global_squad_female_human ⟨cond⟩: Barely any dust. How old is this place?
+        [0001F2CB] Squadmate (Human ♀) ⟨cond⟩: Barely any dust. How old is this place?
         ↩ (goto) [00030D26] SAM: Unknown. Radiation counts indicate the vault has been offline for several hundred years.
     ├ option 3:
-        [0001F2C9] global_squad_male_human ⟨cond⟩: It's all so clean for something... how old?
+        [0001F2C9] Squadmate (Human ♂) ⟨cond⟩: It's all so clean for something... how old?
         ↩ (goto) [00030D26] SAM: Unknown. Radiation counts indicate the vault has been offline for several hundred years.
     └─ merge ─┘
 ├ option 4:
-    [0001F06E] Hero: Dad would have really loved this place.
+    [0001F06E] Ryder: Dad would have really loved this place.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001F071] global_squad_female_human ⟨cond⟩: Nothing hooked him like the unknown.
+        [0001F071] Squadmate (Human ♀) ⟨cond⟩: Nothing hooked him like the unknown.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001F2C0] Hero ⟨cond⟩: Someday, Scott could be exploring down here.
+            [0001F2C0] Ryder ⟨cond⟩: Someday, Scott could be exploring down here.
         ├ option 2:
-            [0001F2C1] Hero: Someday, Sara could be exploring down here.
+            [0001F2C1] Ryder: Someday, Sara could be exploring down here.
         └─ merge ─┘
     ├ option 2:
-        [0001F06F] global_squad_male_human ⟨cond⟩: No kidding. He'd have us scanning every millimeter.
+        [0001F06F] Squadmate (Human ♂) ⟨cond⟩: No kidding. He'd have us scanning every millimeter.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001F2C0] Hero ⟨cond⟩: Someday, Scott could be exploring down here.
+            ↩ (goto) [0001F2C0] Ryder ⟨cond⟩: Someday, Scott could be exploring down here.
         ├ option 2:
-            ↩ (goto) [0001F2C1] Hero: Someday, Sara could be exploring down here.
+            ↩ (goto) [0001F2C1] Ryder: Someday, Sara could be exploring down here.
         └─ merge ─┘
     ├ option 3:
         [0001F070] SAM: He prized discovery and new frontiers.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001F2C0] Hero ⟨cond⟩: Someday, Scott could be exploring down here.
+            ↩ (goto) [0001F2C0] Ryder ⟨cond⟩: Someday, Scott could be exploring down here.
         ├ option 2:
-            ↩ (goto) [0001F2C1] Hero: Someday, Sara could be exploring down here.
+            ↩ (goto) [0001F2C1] Ryder: Someday, Sara could be exploring down here.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (12) ─┐
 ├ option 1:
-    [00022BFC] global_squad_female_human ⟨cond⟩ [OncePerGame]: The air's tingly. Like the moment before lightning.
+    [00022BFC] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: The air's tingly. Like the moment before lightning.
 ├ option 2:
-    [00022BFA] global_squad_female_human ⟨cond⟩ [OncePerGame]: All that time on Eos, {i}this{/i} was right under our feet.
+    [00022BFA] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: All that time on Eos, {i}this{/i} was right under our feet.
 ├ option 3:
-    [00022BF9] global_squad_female_human ⟨cond⟩ [OncePerGame]: Everything's massive—and beautiful.
+    [00022BF9] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Everything's massive—and beautiful.
 ├ option 4:
-    [00022BF8] global_squad_male_human ⟨cond⟩ [OncePerGame]: It's all so huge. I see one thing, I'm probably missing three more.
+    [00022BF8] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: It's all so huge. I see one thing, I'm probably missing three more.
 ├ option 5:
-    [00022BFE] global_squad_male_human ⟨cond⟩ [OncePerGame]: We'll never be able to describe all this. People will have to see it for themselves.
+    [00022BFE] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: We'll never be able to describe all this. People will have to see it for themselves.
 ├ option 6:
-    [00022BFD] global_squad_male_human ⟨cond⟩ [OncePerGame]: Readouts say the air's fresh, even without a helmet. How's that possible?
+    [00022BFD] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Readouts say the air's fresh, even without a helmet. How's that possible?
 ├ option 7:
-    [00022BF7] global_squad_turian ⟨cond⟩ [OncePerGame]: All this technology, just... waiting. Sleeping.
+    [00022BF7] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: All this technology, just... waiting. Sleeping.
 ├ option 8:
-    [00022BFF] global_squad_turian ⟨cond⟩ [OncePerGame]: What do you think the system lockdown looks like? Probably something huge.
+    [00022BFF] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: What do you think the system lockdown looks like? Probably something huge.
 ├ option 9:
-    [00022C03] global_squad_turian ⟨cond⟩ [OncePerGame]: Imagine this place full of people. It could fit the whole Nexus.
+    [00022C03] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Imagine this place full of people. It could fit the whole Nexus.
 ├ option 10:
-    [00022C00] global_squad_krogan ⟨cond⟩ [OncePerGame]: Long echoes down here. Anything could be listening.
+    [00022C00] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Long echoes down here. Anything could be listening.
 ├ option 11:
-    [00022C02] global_squad_krogan ⟨cond⟩ [OncePerGame]: We're following in some damn big footsteps, Ryder.
+    [00022C02] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: We're following in some damn big footsteps, Ryder.
 ├ option 12:
-    [00022C01] global_squad_krogan ⟨cond⟩ [OncePerGame]: Wonder if the ruins back home on Tuchanka ever looked this shiny.
+    [00022C01] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Wonder if the ruins back home on Tuchanka ever looked this shiny.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00022817] Hero ⟨cond⟩: Old for sure, but I've seen more ancient ruins.
+    [00022817] Ryder ⟨cond⟩: Old for sure, but I've seen more ancient ruins.
     [00022814] SAM: I estimate no one has entered the vault for several hundred years.
 ├ option 2:
-    [0001F2C8] Hero: It seems old, but not really {i}ancient{/i}.
+    [0001F2C8] Ryder: It seems old, but not really {i}ancient{/i}.
     ↩ (goto) [00022814] SAM: I estimate no one has entered the vault for several hundred years.
 └─ merge ─┘

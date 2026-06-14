@@ -1,28 +1,28 @@
 # Game/Conversations/HUBS/Hub_Nexus/Hub_Nexus_VI_Kiosk1_i
-# Primary speaker: Nexus_VI_Kiosk
+# Primary speaker: VI Kiosk
 # Source: game/conversations/hubs/hub_nexus/Hub_Nexus_VI_Kiosk1_i.xml
 ==================================================
-[000098B1] Nexus_VI_Kiosk ⟨cond⟩: How may I assist?
+[000098B1] VI Kiosk ⟨cond⟩: How may I assist?
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0000985E] Hero: What can you tell me about the Andromeda Galaxy?
-    [000098DB] Nexus_VI_Kiosk: Here in Andromeda, you are over two million light-years away from the Milky Way Galaxy.
-    [000098DA] Nexus_VI_Kiosk: This is the furthest any lifeform has ever traveled outside our home system, making you a brave pioneer, indeed.
-    [000098E0] Nexus_VI_Kiosk: The Nexus itself is located in a region known as the Heleus Cluster.
-    [000098E4] Nexus_VI_Kiosk: Here, you and thousands of your fellow colonists will fulfill your dreams of settling a new home. Fortune awaits!
+    [0000985E] Ryder: What can you tell me about the Andromeda Galaxy?
+    [000098DB] VI Kiosk: Here in Andromeda, you are over two million light-years away from the Milky Way Galaxy.
+    [000098DA] VI Kiosk: This is the furthest any lifeform has ever traveled outside our home system, making you a brave pioneer, indeed.
+    [000098E0] VI Kiosk: The Nexus itself is located in a region known as the Heleus Cluster.
+    [000098E4] VI Kiosk: Here, you and thousands of your fellow colonists will fulfill your dreams of settling a new home. Fortune awaits!
     ↩ (goto) [0000AD65] ?: [empty]
 ├ option 2:
-    [00009859] Hero: How does the immigration process work?
-    [000098DD] Nexus_VI_Kiosk: We ask that you submit to a brief medical exam to ensure your health and well-being after making such a long journey.
-    [000098F0] Nexus_VI_Kiosk: Once you've been cleared, our colonization experts will assist you in finding your new home.
-    [000098EF] Nexus_VI_Kiosk: Please be mindful of the queue: thousands of eager colonists like you are waiting to begin their new life in Andromeda!
+    [00009859] Ryder: How does the immigration process work?
+    [000098DD] VI Kiosk: We ask that you submit to a brief medical exam to ensure your health and well-being after making such a long journey.
+    [000098F0] VI Kiosk: Once you've been cleared, our colonization experts will assist you in finding your new home.
+    [000098EF] VI Kiosk: Please be mindful of the queue: thousands of eager colonists like you are waiting to begin their new life in Andromeda!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000AD64] global_squad_male_human ⟨cond⟩: Uh... where? Place is deserted.
+                [0000AD64] Squadmate (Human ♂) ⟨cond⟩: Uh... where? Place is deserted.
                 ↩ (goto) [0000AD65] ?: [empty]
             ├ option 2:
                 ↩ (goto) [0000AD65] ?: [empty]
@@ -34,16 +34,16 @@
         ↩ (goto) [0000AD65] ?: [empty]
     └─ merge ─┘
 ├ option 3:
-    [00009865] Hero: What is the Nexus?
-    [000098DC] Nexus_VI_Kiosk: The Nexus serves as the central hub for the Andromeda Initiative's colonization efforts.
-    [000098E2] Nexus_VI_Kiosk: It is the first destination for all colonists upon their arrival in the new galaxy.
-    [000098E8] Nexus_VI_Kiosk: Please enjoy the many venues the Nexus has to offer. As the station expands, it will one day serve as the seat of government for Milky Way colonists.
-    [000098E9] Nexus_VI_Kiosk: Providing a safe, stable, and prosperous environment is our primary goal.
+    [00009865] Ryder: What is the Nexus?
+    [000098DC] VI Kiosk: The Nexus serves as the central hub for the Andromeda Initiative's colonization efforts.
+    [000098E2] VI Kiosk: It is the first destination for all colonists upon their arrival in the new galaxy.
+    [000098E8] VI Kiosk: Please enjoy the many venues the Nexus has to offer. As the station expands, it will one day serve as the seat of government for Milky Way colonists.
+    [000098E9] VI Kiosk: Providing a safe, stable, and prosperous environment is our primary goal.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000154E1] global_squad_female_human ⟨cond⟩: Not from the looks of it.
+            [000154E1] Squadmate (Human ♀) ⟨cond⟩: Not from the looks of it.
             ↩ (goto) [0000AD65] ?: [empty]
         ├ option 2:
             ↩ (goto) [0000AD65] ?: [empty]
@@ -52,22 +52,22 @@
         ↩ (goto) [0000AD65] ?: [empty]
     └─ merge ─┘
 ├ option 4:
-    [000098B4] Hero: Where do colonists live?
+    [000098B4] Ryder: Where do colonists live?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001073C] Nexus_VI_Kiosk ⟨cond⟩: We ask for your patience as our Pathfinders explore the Heleus cluster in search of new worlds to call home.
-        [0001073B] Nexus_VI_Kiosk: Colonists will be transferred to outposts based on the Initiative's current resource requirements.
+        [0001073C] VI Kiosk ⟨cond⟩: We ask for your patience as our Pathfinders explore the Heleus cluster in search of new worlds to call home.
+        [0001073B] VI Kiosk: Colonists will be transferred to outposts based on the Initiative's current resource requirements.
         ↩ (goto) [0000AD65] ?: [empty]
     ├ option 2:
-        [000098D9] Nexus_VI_Kiosk: Once you've cleared immigration, our helpful staff will assist you in choosing the homeworld of your dreams.
-        [000098ED] Nexus_VI_Kiosk: Will it be the tropical paradise of Habitat 7? The gentle rolling hills of Habitat 3? Or perhaps the mysterious twilight world of Habitat 5?
-        [000098EE] Nexus_VI_Kiosk: Whichever you choose, rest assured our Pathfinders have carefully vetted all colony worlds to ensure your security and prosperity.
+        [000098D9] VI Kiosk: Once you've cleared immigration, our helpful staff will assist you in choosing the homeworld of your dreams.
+        [000098ED] VI Kiosk: Will it be the tropical paradise of Habitat 7? The gentle rolling hills of Habitat 3? Or perhaps the mysterious twilight world of Habitat 5?
+        [000098EE] VI Kiosk: Whichever you choose, rest assured our Pathfinders have carefully vetted all colony worlds to ensure your security and prosperity.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000ADDF] Hero ⟨cond⟩: Oh, boy.
-                [000154E0] global_squad_male_human: Habitat 7? That's where we landed. She's way out of date.
+                [0000ADDF] Ryder ⟨cond⟩: Oh, boy.
+                [000154E0] Squadmate (Human ♂): Habitat 7? That's where we landed. She's way out of date.
                 ↩ (goto) [0000AD65] ?: [empty]
             ├ option 2:
                 ↩ (goto) [0000AD65] ?: [empty]
@@ -77,17 +77,17 @@
         └─ merge ─┘
     └─ merge ─┘
 ├ option 5:
-    [000098B2] Hero: What year is it?
-    [00009867] Nexus_VI_Kiosk: The current year is 2819. After spending over 600 years in stasis, it's normal to feel disoriented or confused upon arrival.
-    [00009869] Nexus_VI_Kiosk: Our helpful medical staff can assist with any physical or psychological aftereffects you may be experiencing.
+    [000098B2] Ryder: What year is it?
+    [00009867] VI Kiosk: The current year is 2819. After spending over 600 years in stasis, it's normal to feel disoriented or confused upon arrival.
+    [00009869] VI Kiosk: Our helpful medical staff can assist with any physical or psychological aftereffects you may be experiencing.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000ADE1] global_squad_female_human ⟨cond⟩: Well, she's got the date right, at least.
-                [0000ADE2] Hero: So where is everyone?
+                [0000ADE1] Squadmate (Human ♀) ⟨cond⟩: Well, she's got the date right, at least.
+                [0000ADE2] Ryder: So where is everyone?
                 ↩ (goto) [0000AD65] ?: [empty]
             ├ option 2:
                 ↩ (goto) [0000AD65] ?: [empty]
@@ -99,40 +99,40 @@
         ↩ (goto) [0000AD65] ?: [empty]
     └─ merge ─┘
 ├ option 6:
-    [000098AC] Hero: That's all.
+    [000098AC] Ryder: That's all.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000098FA] Nexus_VI_Kiosk ⟨cond⟩: It has been my pleasure.
+        [000098FA] VI Kiosk ⟨cond⟩: It has been my pleasure.
     ├ option 2:
-        [000098E7] Nexus_VI_Kiosk: It has been my pleasure. Please see one of our helpful immigration staff for further assistance.
-        [000098E1] Nexus_VI_Kiosk: And welcome to your new home in Andromeda, where the brightest star is you!
+        [000098E7] VI Kiosk: It has been my pleasure. Please see one of our helpful immigration staff for further assistance.
+        [000098E1] VI Kiosk: And welcome to your new home in Andromeda, where the brightest star is you!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000098E6] Nexus_VI_Kiosk: Current wait time for immigration processing is: UNKNOWN ERROR.
+            [000098E6] VI Kiosk: Current wait time for immigration processing is: UNKNOWN ERROR.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000992B] global_squad_female_human ⟨cond⟩: Right. That was helpful.
+                [0000992B] Squadmate (Human ♀) ⟨cond⟩: Right. That was helpful.
             ├ option 2:
             └─ merge ─┘
         ├ option 2:
-            [00010745] Nexus_VI_Kiosk: Current wait time for immigration processing is: 25 minutes.
+            [00010745] VI Kiosk: Current wait time for immigration processing is: 25 minutes.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘
-[0000908B] Nexus_VI_Kiosk: Welcome to the Nexus, gateway to Andromeda. I'm Avina, a virtual intelligence designed to assist you with immigration.
+[0000908B] VI Kiosk: Welcome to the Nexus, gateway to Andromeda. I'm Avina, a virtual intelligence designed to assist you with immigration.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000098B3] global_squad_male_human ⟨cond⟩: Can you tell us where the welcome party is hiding?
-        [000098AE] Nexus_VI_Kiosk: I'm sorry. My code is limited to information and simple interaction simulations.
-        [0000E740] Nexus_VI_Kiosk: Please select from the following pre-programmed responses.
+        [000098B3] Squadmate (Human ♂) ⟨cond⟩: Can you tell us where the welcome party is hiding?
+        [000098AE] VI Kiosk: I'm sorry. My code is limited to information and simple interaction simulations.
+        [0000E740] VI Kiosk: Please select from the following pre-programmed responses.
         ↩ (goto) [0000AD65] ?: [empty]
     ├ option 2:
-        [000098E3] Nexus_VI_Kiosk: How may I assist you?
+        [000098E3] VI Kiosk: How may I assist you?
         ↩ (goto) [0000AD65] ?: [empty]
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [000098E3] Nexus_VI_Kiosk: How may I assist you?
+    ↩ (goto) [000098E3] VI Kiosk: How may I assist you?
 └─ merge ─┘
 ↩ (goto) [0000AD65] ?: [empty]

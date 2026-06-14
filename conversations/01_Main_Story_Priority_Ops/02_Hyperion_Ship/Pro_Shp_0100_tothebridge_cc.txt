@@ -1,33 +1,33 @@
 # Game/Conversations/Crit/Pro_Shp/Pro_Shp_0100_tothebridge_cc
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Pro_Shp/Pro_Shp_0100_tothebridge_cc.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00010BD2] global_squad_female_human: This is Cora! I'm at the cryo bay! Brace for a reset...
-    [00010BD7] global_squad_female_human: Everyone okay?
-    [00010BD5] global_humanark_asari_dr: I think so.
-    [00010BD1] Hero: What happened?
-    [00010BD6] global_squad_female_human: We're not sure. Sensors are scrambled.
+    [00010BD2] Squadmate (Human ♀): This is Cora! I'm at the cryo bay! Brace for a reset...
+    [00010BD7] Squadmate (Human ♀): Everyone okay?
+    [00010BD5] Dr. Lexi / Asari Doctor: I think so.
+    [00010BD1] Ryder: What happened?
+    [00010BD6] Squadmate (Human ♀): We're not sure. Sensors are scrambled.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000114F2] global_squad_female_human ⟨cond⟩: But it's good to see you're up, Scott. Feels like centuries since we spoke.
-        [00010EC5] global_dad: [Loudspeaker] This is the Pathfinder. Mission teams, continue preparations. Cora, Ryders, report to the bridge.
-        [00010EC4] global_squad_female_human: You heard him, let's get—
-        [00010F87] Pro_Shp_Tech1: Uh, we have a problem over here.
+        [000114F2] Squadmate (Human ♀) ⟨cond⟩: But it's good to see you're up, Scott. Feels like centuries since we spoke.
+        [00010EC5] Alec Ryder (Dad): [Loudspeaker] This is the Pathfinder. Mission teams, continue preparations. Cora, Ryders, report to the bridge.
+        [00010EC4] Squadmate (Human ♀): You heard him, let's get—
+        [00010F87] Shp Tech1: Uh, we have a problem over here.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00010EC3] Pro_Shp_Tech1 ⟨cond⟩: It's Scott Ryder.
+            [00010EC3] Shp Tech1 ⟨cond⟩: It's Scott Ryder.
         ├ option 2:
-            [00010EC6] Pro_Shp_Tech1: It's Sara Ryder.
+            [00010EC6] Shp Tech1: It's Sara Ryder.
         └─ merge ─┘
     ├ option 2:
-        [000114F1] global_squad_female_human ⟨cond⟩: But it's good to see you're up, Sara. Feels like centuries since we spoke.
+        [000114F1] Squadmate (Human ♀) ⟨cond⟩: But it's good to see you're up, Sara. Feels like centuries since we spoke.
         ↩ (goto) [00011F59] Narration: [empty]
     ├ option 3:
-        [000114F0] global_squad_female_human: But it's good to see you're up. Feels like centuries since we spoke.
+        [000114F0] Squadmate (Human ♀): But it's good to see you're up. Feels like centuries since we spoke.
         ↩ (goto) [00011F59] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0003571E] Hero: What happened?
+    [0003571E] Ryder: What happened?
 └─ merge ─┘

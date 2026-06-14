@@ -1,5 +1,5 @@
 # game/conversations/unc_ice/ice_9000_sttlment_search_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_9000_sttlment_search_b.xml
 ==================================================
 [0002A7C4] SAM: Pathfinder, this site could be viable for an Initiative outpost.
@@ -7,30 +7,30 @@
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002A7C5] global_squad_male_human ⟨cond⟩: So they can freeze their asses off? Yeah, no.
+        [0002A7C5] Squadmate (Human ♂) ⟨cond⟩: So they can freeze their asses off? Yeah, no.
         [0002A7CA] SAM: Activating the vault would stabilize the climate.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002A7CB] Hero ⟨cond⟩: Well, we know what we have to do.
+            [0002A7CB] Ryder ⟨cond⟩: Well, we know what we have to do.
         ├ option 2:
-            [0002C878] Hero ⟨cond⟩: I'm not building an outpost without the angara's permission.
+            [0002C878] Ryder ⟨cond⟩: I'm not building an outpost without the angara's permission.
         └─ merge ─┘
     ├ option 2:
-        [0002A7CC] global_squad_krogan ⟨cond⟩: Yeah. So they can freeze to death.
+        [0002A7CC] Squadmate (Krogan / Drack) ⟨cond⟩: Yeah. So they can freeze to death.
         ↩ (goto) [0002A7CA] SAM: Activating the vault would stabilize the climate.
     ├ option 3:
-        [0002A7C9] global_squad_asari ⟨cond⟩: Uh, have you seen this place? They'd freeze to death.
+        [0002A7C9] Squadmate (Asari / Peebee) ⟨cond⟩: Uh, have you seen this place? They'd freeze to death.
         ↩ (goto) [0002A7CA] SAM: Activating the vault would stabilize the climate.
     ├ option 4:
-        [0002A7C6] global_squad_turian ⟨cond⟩: Not like this. They'd freeze to death in less than a week.
+        [0002A7C6] Squadmate (Turian / Vetra) ⟨cond⟩: Not like this. They'd freeze to death in less than a week.
         ↩ (goto) [0002A7CA] SAM: Activating the vault would stabilize the climate.
     ├ option 5:
-        [0002A7C7] global_squad_female_human ⟨cond⟩: Not like this, it isn't. They'd freeze to death.
+        [0002A7C7] Squadmate (Human ♀) ⟨cond⟩: Not like this, it isn't. They'd freeze to death.
         ↩ (goto) [0002A7CA] SAM: Activating the vault would stabilize the climate.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0002A7CB] Hero ⟨cond⟩: Well, we know what we have to do.
+    ↩ (goto) [0002A7CB] Ryder ⟨cond⟩: Well, we know what we have to do.
 ├ option 3:
-    ↩ (goto) [0002C878] Hero ⟨cond⟩: I'm not building an outpost without the angara's permission.
+    ↩ (goto) [0002C878] Ryder ⟨cond⟩: I'm not building an outpost without the angara's permission.
 └─ merge ─┘
 [0002A7CF] SAM: This site is viable for an Initiative outpost, Pathfinder.

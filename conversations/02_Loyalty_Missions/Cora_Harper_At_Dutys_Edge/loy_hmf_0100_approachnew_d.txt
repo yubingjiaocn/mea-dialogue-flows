@@ -1,42 +1,42 @@
 # game/conversations/loyalty/loy_hmf/loy_hmf_0100_approachnew_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0100_approachnew_d.xml
 ==================================================
 [0001C2F7] Narration: The Tempest is navigating its way through a dense patch of the Scourge.
 [0001C1D5] Narration: Ryder is at her station, looking alert.
-[0001C2E8] global_crew_co-pilot: We're approaching the navpoints Cora found.
-[0001C2E7] global_crew_co-pilot: {i}Something's{/i} there. It might be an ark, but the damn Scourge isn't helping.
-[0001C2F9] Hero: SAM, help out with sensors.
+[0001C2E8] Kallo (Co-pilot): We're approaching the navpoints Cora found.
+[0001C2E7] Kallo (Co-pilot): {i}Something's{/i} there. It might be an ark, but the damn Scourge isn't helping.
+[0001C2F9] Ryder: SAM, help out with sensors.
 [0001C2F8] Narration: Cora Harper enters, suited up, and peers outside.
-[0001C330] global_squad_female_human: Hard to believe the Leusinia could survive in all this.
+[0001C330] Squadmate (Human ♀): Hard to believe the Leusinia could survive in all this.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0001C32E] Hero: Why would the asari ark be here?
-    [0001C32C] global_squad_female_human: Might be lost, or looking for something.
-    [0001C32A] global_squad_female_human: Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
-    [0001C334] Hero: The commando you mentioned. You still believe she'll save the day?
-    [0001C331] global_squad_female_human: Sarissa was a legend even before she was the Pathfinder's bodyguard. She'll have a plan.
-    [0001C32D] global_crew_co-pilot: Aha! Detecting an Initiative vessel.
+    [0001C32E] Ryder: Why would the asari ark be here?
+    [0001C32C] Squadmate (Human ♀): Might be lost, or looking for something.
+    [0001C32A] Squadmate (Human ♀): Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
+    [0001C334] Ryder: The commando you mentioned. You still believe she'll save the day?
+    [0001C331] Squadmate (Human ♀): Sarissa was a legend even before she was the Pathfinder's bodyguard. She'll have a plan.
+    [0001C32D] Kallo (Co-pilot): Aha! Detecting an Initiative vessel.
     [0001C328] Narration: The asari ark becomes visible through the Scourge.
     [0001C325] Narration: Cora goes to a console.
-    [0001C33B] global_squad_female_human: Reading life signs. And minimal power, multiple hull breaches... she's a wreck.
+    [0001C33B] Squadmate (Human ♀): Reading life signs. And minimal power, multiple hull breaches... she's a wreck.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001C33A] Hero: Either the kett or the Scourge really left a mark.
-        [0001C34B] Hero: Kallo, take us in.
-        [0001C34C] global_crew_co-pilot: I'll try. Must be one docking bay still holding together...
+        [0001C33A] Ryder: Either the kett or the Scourge really left a mark.
+        [0001C34B] Ryder: Kallo, take us in.
+        [0001C34C] Kallo (Co-pilot): I'll try. Must be one docking bay still holding together...
         [0001C34A] Narration: The Tempest approaches the asari ark.
         [0001C4B6] Narration: The ship lands. Ryder, Cora, and team exit carefully into the damaged ark.
     ├ option 2:
-        [0001C33C] Hero: If she's spaceworthy and her crew's alive, that's all we need.
-        ↩ (goto) [0001C34B] Hero: Kallo, take us in.
+        [0001C33C] Ryder: If she's spaceworthy and her crew's alive, that's all we need.
+        ↩ (goto) [0001C34B] Ryder: Kallo, take us in.
     └─ merge ─┘
 ├ option 2:
-    [0001C329] Hero ⟨cond⟩: It's going to be all right.
-    [0001C32F] global_squad_female_human: I... it will. Thanks.
-    ↩ (goto) [0001C32A] global_squad_female_human: Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
+    [0001C329] Ryder ⟨cond⟩: It's going to be all right.
+    [0001C32F] Squadmate (Human ♀): I... it will. Thanks.
+    ↩ (goto) [0001C32A] Squadmate (Human ♀): Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
 ├ option 3:
-    [0001C332] Hero ⟨cond⟩: Focus on how we can help them.
-    [0001C333] global_squad_female_human: Good call. Help asari, piss off the kett—very cathartic.
-    ↩ (goto) [0001C32A] global_squad_female_human: Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
+    [0001C332] Ryder ⟨cond⟩: Focus on how we can help them.
+    [0001C333] Squadmate (Human ♀): Good call. Help asari, piss off the kett—very cathartic.
+    ↩ (goto) [0001C32A] Squadmate (Human ♀): Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
 └─ merge ─┘

@@ -1,32 +1,32 @@
 # game/conversations/unc/storms/stm_0190_relay_npcs_leave_d
-# Primary speaker: stm_relay_scav_leader_01_multi
+# Primary speaker: Relay Scav Leader
 # Source: game/conversations/unc/storms/stm_0190_relay_npcs_leave_d.xml
 ==================================================
-[000245EC] stm_relay_scav_leader_01_multi: You took down all those kett? Sure, use the power relay. Hell, take whatever you like.
-[000245EF] stm_relay_scav_leader_01_multi: Word of advice, though: If that signal of yours is out past the perimeter, you'll need a ride.
+[000245EC] Relay Scav Leader: You took down all those kett? Sure, use the power relay. Hell, take whatever you like.
+[000245EF] Relay Scav Leader: Word of advice, though: If that signal of yours is out past the perimeter, you'll need a ride.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000245ED] Hero ⟨cond⟩: We found one. The Nomad.
-    [000245F5] stm_relay_scav_leader_01_multi: Fix her up right, and that should get you where you need to go.
-    [00024605] stm_relay_scav_leader_01_multi: We're heading to our shuttle. Keep this up, maybe next time we'll find more than just salvage 'round here.
+    [000245ED] Ryder ⟨cond⟩: We found one. The Nomad.
+    [000245F5] Relay Scav Leader: Fix her up right, and that should get you where you need to go.
+    [00024605] Relay Scav Leader: We're heading to our shuttle. Keep this up, maybe next time we'll find more than just salvage 'round here.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00034FCB] Hero: Don't suppose you've got anything we can use?
+        [00034FCB] Ryder: Don't suppose you've got anything we can use?
     ├ option 2:
-        [00034FCA] Hero: Go on. We'll take it from here.
-        [00025590] stm_relay_scav_leader_01_multi: I guess Crazy Blue has to buy her parts from someone else.
+        [00034FCA] Ryder: Go on. We'll take it from here.
+        [00025590] Relay Scav Leader: I guess Crazy Blue has to buy her parts from someone else.
     └─ merge ─┘
 ├ option 2:
-    [000245F3] Hero: A ride?
-    [000245EE] stm_relay_scav_leader_01_multi: Shuttles aren't fun in these winds. You need wheels. I think they kept a little something in storage.
+    [000245F3] Ryder: A ride?
+    [000245EE] Relay Scav Leader: Shuttles aren't fun in these winds. You need wheels. I think they kept a little something in storage.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000245F4] Hero: I'll take another look around the outpost.
-        [00029EAE] stm_relay_scav_leader_01_multi: Just finding it won't be enough. Hope you're smarter than we were.
-        ↩ (goto) [00024605] stm_relay_scav_leader_01_multi: We're heading to our shuttle. Keep this up, maybe next time we'll find more than just salvage 'round here.
+        [000245F4] Ryder: I'll take another look around the outpost.
+        [00029EAE] Relay Scav Leader: Just finding it won't be enough. Hope you're smarter than we were.
+        ↩ (goto) [00024605] Relay Scav Leader: We're heading to our shuttle. Keep this up, maybe next time we'll find more than just salvage 'round here.
     ├ option 2:
-        [00024604] Hero: Didn't get around to salvaging it yet?
-        [00024601] stm_relay_scav_leader_01_multi: I tried. It ain't that simple. Might be easier for a Pathfinder, though.
-        ↩ (goto) [00024605] stm_relay_scav_leader_01_multi: We're heading to our shuttle. Keep this up, maybe next time we'll find more than just salvage 'round here.
+        [00024604] Ryder: Didn't get around to salvaging it yet?
+        [00024601] Relay Scav Leader: I tried. It ain't that simple. Might be easier for a Pathfinder, though.
+        ↩ (goto) [00024605] Relay Scav Leader: We're heading to our shuttle. Keep this up, maybe next time we'll find more than just salvage 'round here.
     └─ merge ─┘
 └─ merge ─┘

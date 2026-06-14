@@ -1,72 +1,72 @@
 # game/conversations/crit/crit_mer/crit_fin_780_combat_fiend_squad_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Mer/crit_fin_780_combat_fiend_squad_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002646C] crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] Do these kett know how committed we are? Can they understand their misfortune?
+    [0002646C] Kett Salarian Captain ⟨cond⟩: [Comm] Do these kett know how committed we are? Can they understand their misfortune?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00026481] global_squad_female_human ⟨cond⟩: Keep control, no mistakes!
+        [00026481] Squadmate (Human ♀) ⟨cond⟩: Keep control, no mistakes!
     ├ option 2:
-        [0002647F] global_squad_male_human ⟨cond⟩: Do not need to tell me twice!
-        ↩ (goto) [00031D6B] global_squad_asari: [empty]
+        [0002647F] Squadmate (Human ♂) ⟨cond⟩: Do not need to tell me twice!
+        ↩ (goto) [00031D6B] Squadmate (Asari / Peebee): [empty]
     ├ option 3:
-        [0002647D] global_squad_angara ⟨cond⟩: They've earned it!
-        ↩ (goto) [00031D6B] global_squad_asari: [empty]
+        [0002647D] Squadmate (Angara / Jaal) ⟨cond⟩: They've earned it!
+        ↩ (goto) [00031D6B] Squadmate (Asari / Peebee): [empty]
     ├ option 4:
-        [00026480] global_squad_krogan ⟨cond⟩: Break them!
-        ↩ (goto) [00031D6B] global_squad_asari: [empty]
+        [00026480] Squadmate (Krogan / Drack) ⟨cond⟩: Break them!
+        ↩ (goto) [00031D6B] Squadmate (Asari / Peebee): [empty]
     ├ option 5:
-        [0002647E] global_squad_turian ⟨cond⟩: Make it hurt!
-        ↩ (goto) [00031D6B] global_squad_asari: [empty]
+        [0002647E] Squadmate (Turian / Vetra) ⟨cond⟩: Make it hurt!
+        ↩ (goto) [00031D6B] Squadmate (Asari / Peebee): [empty]
     ├ option 6:
-        [00026482] global_squad_asari ⟨cond⟩: Looking forward to this one!
-        ↩ (goto) [00031D6B] global_squad_asari: [empty]
+        [00026482] Squadmate (Asari / Peebee) ⟨cond⟩: Looking forward to this one!
+        ↩ (goto) [00031D6B] Squadmate (Asari / Peebee): [empty]
     └─ merge ─┘
 ├ option 2:
-    [0002646E] crit_kett_krogan_scout: [Comm] First kett after the Hyperion? Make. Them. Pay!
+    [0002646E] Kett Krogan Scout: [Comm] First kett after the Hyperion? Make. Them. Pay!
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        ↩ (goto) [00026481] global_squad_female_human ⟨cond⟩: Keep control, no mistakes!
+        ↩ (goto) [00026481] Squadmate (Human ♀) ⟨cond⟩: Keep control, no mistakes!
     ├ option 2:
-        ↩ (goto) [0002647F] global_squad_male_human ⟨cond⟩: Do not need to tell me twice!
+        ↩ (goto) [0002647F] Squadmate (Human ♂) ⟨cond⟩: Do not need to tell me twice!
     ├ option 3:
-        ↩ (goto) [0002647D] global_squad_angara ⟨cond⟩: They've earned it!
+        ↩ (goto) [0002647D] Squadmate (Angara / Jaal) ⟨cond⟩: They've earned it!
     ├ option 4:
-        ↩ (goto) [00026480] global_squad_krogan ⟨cond⟩: Break them!
+        ↩ (goto) [00026480] Squadmate (Krogan / Drack) ⟨cond⟩: Break them!
     ├ option 5:
-        ↩ (goto) [0002647E] global_squad_turian ⟨cond⟩: Make it hurt!
+        ↩ (goto) [0002647E] Squadmate (Turian / Vetra) ⟨cond⟩: Make it hurt!
     ├ option 6:
-        ↩ (goto) [00026482] global_squad_asari ⟨cond⟩: Looking forward to this one!
+        ↩ (goto) [00026482] Squadmate (Asari / Peebee) ⟨cond⟩: Looking forward to this one!
     └─ merge ─┘
 └─ merge ─┘
-[00026469] Hero: They have a pet!
+[00026469] Ryder: They have a pet!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026484] crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] That's not all! Destroyer!
-    [00026485] Hero: Let's try to not get between them!
+    [00026484] Kett Salarian Captain ⟨cond⟩: [Comm] That's not all! Destroyer!
+    [00026485] Ryder: Let's try to not get between them!
 ├ option 2:
-    [00026483] crit_kett_krogan_scout: [Comm] Destroyer, too! Watch out!
-    ↩ (goto) [00026485] Hero: Let's try to not get between them!
+    [00026483] Kett Krogan Scout: [Comm] Destroyer, too! Watch out!
+    ↩ (goto) [00026485] Ryder: Let's try to not get between them!
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026470] kad_charlatan ⟨cond⟩: [Comm] Shoring up defenses, Ryder. You okay up there?
+    [00026470] The Charlatan ⟨cond⟩: [Comm] Shoring up defenses, Ryder. You okay up there?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00026487] crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] We are secure for the moment.
-        [00026488] Hero: Secure like we're staying. Next stop, the Archon.
+        [00026487] Kett Salarian Captain ⟨cond⟩: [Comm] We are secure for the moment.
+        [00026488] Ryder: Secure like we're staying. Next stop, the Archon.
     ├ option 2:
-        [00026486] crit_kett_krogan_scout: [Comm] Kicked their teeth in. If they have them.
-        ↩ (goto) [00026488] Hero: Secure like we're staying. Next stop, the Archon.
+        [00026486] Kett Krogan Scout: [Comm] Kicked their teeth in. If they have them.
+        ↩ (goto) [00026488] Ryder: Secure like we're staying. Next stop, the Archon.
     └─ merge ─┘
 ├ option 2:
-    [0002646F] kad_queen: [Comm] We're anchored here, Pathfinder. You better not be dead.
+    [0002646F] Krogan Overlord (Nakmor Morda): [Comm] We're anchored here, Pathfinder. You better not be dead.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00026487] crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] We are secure for the moment.
+        ↩ (goto) [00026487] Kett Salarian Captain ⟨cond⟩: [Comm] We are secure for the moment.
     ├ option 2:
-        ↩ (goto) [00026486] crit_kett_krogan_scout: [Comm] Kicked their teeth in. If they have them.
+        ↩ (goto) [00026486] Kett Krogan Scout: [Comm] Kicked their teeth in. If they have them.
     └─ merge ─┘
 └─ merge ─┘

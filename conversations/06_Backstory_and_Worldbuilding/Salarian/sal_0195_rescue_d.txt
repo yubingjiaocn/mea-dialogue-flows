@@ -1,71 +1,71 @@
 # game/conversations/bstory/sal/sal_0195_rescue_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/sal/sal_0195_rescue_d.xml
 ==================================================
-[0001AB74] Hero: Saelen? What happened to you?
-[0001AB75] global_salarian_major: Saelen? Ha. Very familiar for our first real meeting.
+[0001AB74] Ryder: Saelen? What happened to you?
+[0001AB75] Global Salarian Major: Saelen? Ha. Very familiar for our first real meeting.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001AC53] global_squad_krogan ⟨cond⟩: Not funny, salarian.
-    [0001AC21] global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
-    [0001AB7D] global_salarian_major: I imagine I was supposed to vanish out here while he used my cloak device. Any "Saelen" you met was Dr. Aden in disguise.
+    [0001AC53] Squadmate (Krogan / Drack) ⟨cond⟩: Not funny, salarian.
+    [0001AC21] Global Salarian Major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    [0001AB7D] Global Salarian Major: I imagine I was supposed to vanish out here while he used my cloak device. Any "Saelen" you met was Dr. Aden in disguise.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001AB95] Hero: Wait, you—he asked me to analyze leads that could implicate him.
-        [0001B0DF] global_salarian_major: Let me guess: Aden asked you to scan those leads? I suspected the traitor was hiding messages on optical encoders.
-        [0001ABA6] global_salarian_major: Those messages were the real proof I needed. But a powerful scanner like yours would wipe them.
-        [0001ABAA] global_salarian_major: Aden used you, and—uh!—my investigation, to cover his tracks. Canny bastard.
+        [0001AB95] Ryder: Wait, you—he asked me to analyze leads that could implicate him.
+        [0001B0DF] Global Salarian Major: Let me guess: Aden asked you to scan those leads? I suspected the traitor was hiding messages on optical encoders.
+        [0001ABA6] Global Salarian Major: Those messages were the real proof I needed. But a powerful scanner like yours would wipe them.
+        [0001ABAA] Global Salarian Major: Aden used you, and—uh!—my investigation, to cover his tracks. Canny bastard.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001AC46] Hero: I examined an apartment belonging to a salarian officer, Rand Lon. The clues there led me to you.
-            [0001AC88] global_salarian_major: Interesting. That confirms my suspicions.
-            [0001AC66] global_salarian_major: Everything comes back to our ark. Aden didn't have the clearance to alter logs or affect the nav computer, yet he's obviously guilty.
-            [0001AC67] global_salarian_major: I suspect Aden is the front man for a conspiracy involving the kett. He's the key to blowing it open.
+            [0001AC46] Ryder: I examined an apartment belonging to a salarian officer, Rand Lon. The clues there led me to you.
+            [0001AC88] Global Salarian Major: Interesting. That confirms my suspicions.
+            [0001AC66] Global Salarian Major: Everything comes back to our ark. Aden didn't have the clearance to alter logs or affect the nav computer, yet he's obviously guilty.
+            [0001AC67] Global Salarian Major: I suspect Aden is the front man for a conspiracy involving the kett. He's the key to blowing it open.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001AC68] Hero: Right. Except Aden got rid of anything we had on him and I'll bet Rand Lon has disappeared.
-                [0001ABAB] global_salarian_major: Aden—uh!—he forgot the dart he poisoned me with. Still in there with the ballistics intact.
-                [0001AD4C] global_salarian_major: Contact Aden. Feign ignorance, and ask for a meeting. I'll be there to arrest him.
+                [0001AC68] Ryder: Right. Except Aden got rid of anything we had on him and I'll bet Rand Lon has disappeared.
+                [0001ABAB] Global Salarian Major: Aden—uh!—he forgot the dart he poisoned me with. Still in there with the ballistics intact.
+                [0001AD4C] Global Salarian Major: Contact Aden. Feign ignorance, and ask for a meeting. I'll be there to arrest him.
                 [0001AD4B] Narration: Saelen leaves.
-                [0001B11D] Hero: We'd need somewhere to meet Aden. Somewhere neutral.
+                [0001B11D] Ryder: We'd need somewhere to meet Aden. Somewhere neutral.
                 [0001B11E] SAM: There are caves on Kadara that might be suitable.
-                [0001AD67] Hero: Send the word.
+                [0001AD67] Ryder: Send the word.
             ├ option 2:
-                [0001AC65] Hero: Enough conspiracies. I'm not going to be used again.
+                [0001AC65] Ryder: Enough conspiracies. I'm not going to be used again.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001AD28] global_salarian_major ⟨cond⟩: Aden tried to murder me. What might he do to, say, your brother?
-                    [0001AC82] global_salarian_major: He overlooked the last piece of evidence: the dart used to poison me. Still—uh!—inside with the ballistics intact.
-                    [0001AD3A] global_salarian_major: We could prove Aden's guilt—he'd agree to meet you. My people could finally have justice. But it's your decision.
+                    [0001AD28] Global Salarian Major ⟨cond⟩: Aden tried to murder me. What might he do to, say, your brother?
+                    [0001AC82] Global Salarian Major: He overlooked the last piece of evidence: the dart used to poison me. Still—uh!—inside with the ballistics intact.
+                    [0001AD3A] Global Salarian Major: We could prove Aden's guilt—he'd agree to meet you. My people could finally have justice. But it's your decision.
                     ↩ (goto) [0001AD4B] Narration: Saelen leaves.
                 ├ option 2:
-                    [0001AC79] global_salarian_major: Aden tried to murder me. What might he do to, say, your sister?
-                    ↩ (goto) [0001AC82] global_salarian_major: He overlooked the last piece of evidence: the dart used to poison me. Still—uh!—inside with the ballistics intact.
+                    [0001AC79] Global Salarian Major: Aden tried to murder me. What might he do to, say, your sister?
+                    ↩ (goto) [0001AC82] Global Salarian Major: He overlooked the last piece of evidence: the dart used to poison me. Still—uh!—inside with the ballistics intact.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [0001AC6A] Hero: I feel like you and Dr. Aden are taking turns yanking my strings.
-            [0001AC6B] global_salarian_major: Then who is Aden's puppeteer?
-            ↩ (goto) [0001AC66] global_salarian_major: Everything comes back to our ark. Aden didn't have the clearance to alter logs or affect the nav computer, yet he's obviously guilty.
+            [0001AC6A] Ryder: I feel like you and Dr. Aden are taking turns yanking my strings.
+            [0001AC6B] Global Salarian Major: Then who is Aden's puppeteer?
+            ↩ (goto) [0001AC66] Global Salarian Major: Everything comes back to our ark. Aden didn't have the clearance to alter logs or affect the nav computer, yet he's obviously guilty.
         └─ merge ─┘
     ├ option 2:
-        [0001ABA7] Hero: How did Aden get the drop on a seasoned STG agent?
-        [0001ABA8] global_salarian_major: He shot me in the chest with a neurodepressant. If I didn't regularly dose myself with poisons, he might have actually killed me.
-        ↩ (goto) [0001ABAA] global_salarian_major: Aden used you, and—uh!—my investigation, to cover his tracks. Canny bastard.
+        [0001ABA7] Ryder: How did Aden get the drop on a seasoned STG agent?
+        [0001ABA8] Global Salarian Major: He shot me in the chest with a neurodepressant. If I didn't regularly dose myself with poisons, he might have actually killed me.
+        ↩ (goto) [0001ABAA] Global Salarian Major: Aden used you, and—uh!—my investigation, to cover his tracks. Canny bastard.
     └─ merge ─┘
 ├ option 2:
-    [0001B0DE] global_squad_female_human ⟨cond⟩: You're sure he's okay?
-    ↩ (goto) [0001AC21] global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    [0001B0DE] Squadmate (Human ♀) ⟨cond⟩: You're sure he's okay?
+    ↩ (goto) [0001AC21] Global Salarian Major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
 ├ option 3:
-    [0001B0E0] global_squad_angara ⟨cond⟩: He's confused.
-    ↩ (goto) [0001AC21] global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    [0001B0E0] Squadmate (Angara / Jaal) ⟨cond⟩: He's confused.
+    ↩ (goto) [0001AC21] Global Salarian Major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
 ├ option 4:
-    [0001AC52] global_squad_turian ⟨cond⟩: You don't remember us?
-    ↩ (goto) [0001AC21] global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    [0001AC52] Squadmate (Turian / Vetra) ⟨cond⟩: You don't remember us?
+    ↩ (goto) [0001AC21] Global Salarian Major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
 ├ option 5:
-    [0001AD4E] global_squad_asari ⟨cond⟩: Cracked your head, huh?
-    ↩ (goto) [0001AC21] global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    [0001AD4E] Squadmate (Asari / Peebee) ⟨cond⟩: Cracked your head, huh?
+    ↩ (goto) [0001AC21] Global Salarian Major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
 ├ option 6:
-    [0001AC55] global_squad_male_human ⟨cond⟩: Uh, second meeting.
-    ↩ (goto) [0001AC21] global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    [0001AC55] Squadmate (Human ♂) ⟨cond⟩: Uh, second meeting.
+    ↩ (goto) [0001AC21] Global Salarian Major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
 └─ merge ─┘

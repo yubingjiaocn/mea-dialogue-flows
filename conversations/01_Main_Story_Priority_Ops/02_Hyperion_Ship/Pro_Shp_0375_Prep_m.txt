@@ -1,44 +1,44 @@
 # Game/Conversations/Crit/Pro_Shp/Pro_Shp_0375_Prep_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Pro_Shp/Pro_Shp_0375_Prep_m.xml
 ==================================================
 [00009C48] Narration: Ryder is in the locker room, just putting on a final piece of armor (maybe a glove).
 [00009F76] Narration: Ryder looks up and notices their sibling's locker: "Sara Ryder" (or "Scott Ryder").
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00009F74] Hero ⟨cond⟩: My brother's going to hate that he missed this.
-    [00009F6F] global_squad_female_human: Are all the Ryders adrenaline junkies?
+    [00009F74] Ryder ⟨cond⟩: My brother's going to hate that he missed this.
+    [00009F6F] Squadmate (Human ♀): Are all the Ryders adrenaline junkies?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00009F70] Hero ⟨cond⟩: I guess it's in our blood. I was born a minute ahead of him.
-        [00009F71] Hero: I never let him forget it.
+        [00009F70] Ryder ⟨cond⟩: I guess it's in our blood. I was born a minute ahead of him.
+        [00009F71] Ryder: I never let him forget it.
         [00009F77] Narration: Ryder lingers on the sibling's locker, concerned.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00009F75] global_squad_female_human ⟨cond⟩: Don't worry. I'm sure Scott will pull through.
-            [00009F81] Hero: Yeah, and when he does, he'll want to hear stories.
-            [00009F83] global_squad_female_human: So let's get out there and find him one.
+            [00009F75] Squadmate (Human ♀) ⟨cond⟩: Don't worry. I'm sure Scott will pull through.
+            [00009F81] Ryder: Yeah, and when he does, he'll want to hear stories.
+            [00009F83] Squadmate (Human ♀): So let's get out there and find him one.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
             ├ option 2:
-                ↩ (goto) [00034F0B] global_squad_female_human ⟨cond⟩: [empty]
+                ↩ (goto) [00034F0B] Squadmate (Human ♀) ⟨cond⟩: [empty]
             └─ merge ─┘
         ├ option 2:
-            [00009F87] global_squad_female_human: Well, don't worry. I'm sure Sara will pull through.
-            [00009F82] Hero: When she does, she's gonna want stories.
-            [00009F85] global_squad_female_human: So let's get out there and find her some.
+            [00009F87] Squadmate (Human ♀): Well, don't worry. I'm sure Sara will pull through.
+            [00009F82] Ryder: When she does, she's gonna want stories.
+            [00009F85] Squadmate (Human ♀): So let's get out there and find her some.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
             ├ option 2:
-                ↩ (goto) [00034F0B] global_squad_female_human ⟨cond⟩: [empty]
+                ↩ (goto) [00034F0B] Squadmate (Human ♀) ⟨cond⟩: [empty]
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [00009F72] Hero: I guess it's in our blood. She beat me into the world by one minute.
-        [00009F86] Hero: Couldn't wait to get started.
+        [00009F72] Ryder: I guess it's in our blood. She beat me into the world by one minute.
+        [00009F86] Ryder: Couldn't wait to get started.
         ↩ (goto) [00009F77] Narration: Ryder lingers on the sibling's locker, concerned.
     └─ merge ─┘
 ├ option 2:
-    [00009F78] Hero: My sister's going to hate that she missed this.
-    ↩ (goto) [00009F6F] global_squad_female_human: Are all the Ryders adrenaline junkies?
+    [00009F78] Ryder: My sister's going to hate that she missed this.
+    ↩ (goto) [00009F6F] Squadmate (Human ♀): Are all the Ryders adrenaline junkies?
 └─ merge ─┘

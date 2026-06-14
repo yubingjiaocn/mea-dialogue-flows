@@ -1,40 +1,40 @@
 # game/conversations/unc_ice/ice_2750_frzn_city_bomb_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_2750_frzn_city_bomb_b.xml
 ==================================================
-[000272FC] Hero: We need to figure out how to get behind this wall. A scan might help.
+[000272FC] Ryder: We need to figure out how to get behind this wall. A scan might help.
 [000272F9] SAM: Pathfinder, I detect a strong, unidentified energy signature emanating from behind that wall.
-[00027325] Hero: So there really is something back there.
-[00027326] Hero: It also looks like we're going to have to blast our way through with the explosives around here.
-[000272FD] Hero: Think we have enough?
+[00027325] Ryder: So there really is something back there.
+[00027326] Ryder: It also looks like we're going to have to blast our way through with the explosives around here.
+[000272FD] Ryder: Think we have enough?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002923B] global_squad_krogan ⟨cond⟩: That should get us at least partway through. I'll punch us the rest of the way if I have to.
-    [0002923A] global_squad_male_human ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
+    [0002923B] Squadmate (Krogan / Drack) ⟨cond⟩: That should get us at least partway through. I'll punch us the rest of the way if I have to.
+    [0002923A] Squadmate (Human ♂) ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
 ├ option 2:
-    [0002923C] global_squad_female_human ⟨cond⟩: I'd say so. We don't want to bring the entire place down on ourselves.
-    ↩ (goto) [0002923A] global_squad_male_human ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
+    [0002923C] Squadmate (Human ♀) ⟨cond⟩: I'd say so. We don't want to bring the entire place down on ourselves.
+    ↩ (goto) [0002923A] Squadmate (Human ♂) ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
 ├ option 3:
-    [0002923D] global_squad_asari ⟨cond⟩: If that isn't enough, nothing's getting through.
-    ↩ (goto) [0002923A] global_squad_male_human ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
+    [0002923D] Squadmate (Asari / Peebee) ⟨cond⟩: If that isn't enough, nothing's getting through.
+    ↩ (goto) [0002923A] Squadmate (Human ♂) ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
 ├ option 4:
-    [00029238] global_squad_angara ⟨cond⟩: I should say so.
-    ↩ (goto) [0002923A] global_squad_male_human ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
+    [00029238] Squadmate (Angara / Jaal) ⟨cond⟩: I should say so.
+    ↩ (goto) [0002923A] Squadmate (Human ♂) ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
 ├ option 5:
-    [00029239] global_squad_turian ⟨cond⟩: Yep. That'll get us through. Hopefully.
-    ↩ (goto) [0002923A] global_squad_male_human ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
+    [00029239] Squadmate (Turian / Vetra) ⟨cond⟩: Yep. That'll get us through. Hopefully.
+    ↩ (goto) [0002923A] Squadmate (Human ♂) ⟨cond⟩: Setting off explosives in an icy cave. This is a brilliant idea.
 └─ merge ─┘
-[000272FA] Hero: Here we go!
-[00027300] Hero: Everyone okay? No one crushed by falling ice?
+[000272FA] Ryder: Here we go!
+[00027300] Ryder: Everyone okay? No one crushed by falling ice?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00029246] global_squad_female_human ⟨cond⟩: Yep. And it looks like the blast worked.
+    [00029246] Squadmate (Human ♀) ⟨cond⟩: Yep. And it looks like the blast worked.
 ├ option 2:
-    [00029247] global_squad_asari ⟨cond⟩: Yes, and look! We're in!
+    [00029247] Squadmate (Asari / Peebee) ⟨cond⟩: Yes, and look! We're in!
 ├ option 3:
-    [00029243] global_squad_turian ⟨cond⟩: All good, and it looks like we're through.
+    [00029243] Squadmate (Turian / Vetra) ⟨cond⟩: All good, and it looks like we're through.
 ├ option 4:
-    [00029244] global_squad_angara ⟨cond⟩: All accounted for, and the blast brought the wall down.
+    [00029244] Squadmate (Angara / Jaal) ⟨cond⟩: All accounted for, and the blast brought the wall down.
 ├ option 5:
-    [00029245] global_squad_male_human ⟨cond⟩: Pleased to report that I'm intact. And glad to see that the wall isn't.
+    [00029245] Squadmate (Human ♂) ⟨cond⟩: Pleased to report that I'm intact. And glad to see that the wall isn't.
 └─ merge ─┘

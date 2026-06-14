@@ -1,40 +1,40 @@
 # game/conversations/unc/olw/medicine_shack/olw_medicine_0150_npc_i
-# Primary speaker: olw_medicine_npc1
+# Primary speaker: Medicine Npc1
 # Source: game/conversations/unc/olw/medicine_shack/olw_medicine_0150_npc_i.xml
 ==================================================
-[00032C72] Hero: We got your SOS. What's the emergency?
-[00032C76] olw_medicine_npc1: Oh... uh... well, it's not like life or death or anything, it's just... our plant over there is dying.
+[00032C72] Ryder: We got your SOS. What's the emergency?
+[00032C76] Medicine Npc1: Oh... uh... well, it's not like life or death or anything, it's just... our plant over there is dying.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00032C70] Hero: Are you kidding me?! We thought it was important! Like someone {i}dying!{/i}
-    [00032C75] olw_medicine_NPC2: Hold on, now. So, yeah, maybe we oversold it, but it's important to {i}us{/i}.
-    [00032C74] olw_medicine_NPC2: It's how we make a living out here. Our plant, uh... well, has "medicinal properties."
-    [00032C77] olw_medicine_npc1: Heh heh. "Medicinal." That sounds good.
-    [00032C73] olw_medicine_NPC2: And we sell it to, you know, customers who need, uh... medicinal assistance.
-    [00032C6F] olw_medicine_npc1: But our heat lamp UV thing broke and it's gonna die. And you look like the clever type. Maybe you could find one?
+    [00032C70] Ryder: Are you kidding me?! We thought it was important! Like someone {i}dying!{/i}
+    [00032C75] Medicine NPC2: Hold on, now. So, yeah, maybe we oversold it, but it's important to {i}us{/i}.
+    [00032C74] Medicine NPC2: It's how we make a living out here. Our plant, uh... well, has "medicinal properties."
+    [00032C77] Medicine Npc1: Heh heh. "Medicinal." That sounds good.
+    [00032C73] Medicine NPC2: And we sell it to, you know, customers who need, uh... medicinal assistance.
+    [00032C6F] Medicine Npc1: But our heat lamp UV thing broke and it's gonna die. And you look like the clever type. Maybe you could find one?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00032CD4] Hero: {i}Sure{/i} this is all about medicine.
-        [00032CD2] olw_medicine_npc1: It totally is! Antibiotic whatchamacallit. And maybe it has... other benefits, but in the badlands you can't be picky.
+        [00032CD4] Ryder: {i}Sure{/i} this is all about medicine.
+        [00032CD2] Medicine Npc1: It totally is! Antibiotic whatchamacallit. And maybe it has... other benefits, but in the badlands you can't be picky.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00032D21] Hero: I've got a light for your plant.
-            [00032D20] olw_medicine_npc1: Seriously? Wow. In the middle of nowhere. Awesome. This'll do it!
-            [00032D24] olw_medicine_NPC2: And hey, feel free to take a sample with you. You know, if you ever need to fight off an infection. Or...
-            [00032D1F] olw_medicine_npc1: Be quiet, man.
+            [00032D21] Ryder: I've got a light for your plant.
+            [00032D20] Medicine Npc1: Seriously? Wow. In the middle of nowhere. Awesome. This'll do it!
+            [00032D24] Medicine NPC2: And hey, feel free to take a sample with you. You know, if you ever need to fight off an infection. Or...
+            [00032D1F] Medicine Npc1: Be quiet, man.
         ├ option 2:
-            [00032CD1] Hero: I'll have to get back to you on that. Or not.
-            [00032CD3] olw_medicine_npc1: The first thing you just said. We'll take that option. Remember, a UV lamp thing.
+            [00032CD1] Ryder: I'll have to get back to you on that. Or not.
+            [00032CD3] Medicine Npc1: The first thing you just said. We'll take that option. Remember, a UV lamp thing.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [000340FF] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [000340FF] Ryder ⟨cond⟩: [empty]
     ├ option 3:
-        ↩ (goto) [00032CD1] Hero: I'll have to get back to you on that. Or not.
+        ↩ (goto) [00032CD1] Ryder: I'll have to get back to you on that. Or not.
     └─ merge ─┘
 ├ option 2:
-    [00032C6E] Hero: What the hell makes a plant so important?
-    ↩ (goto) [00032C74] olw_medicine_NPC2: It's how we make a living out here. Our plant, uh... well, has "medicinal properties."
+    [00032C6E] Ryder: What the hell makes a plant so important?
+    ↩ (goto) [00032C74] Medicine NPC2: It's how we make a living out here. Our plant, uh... well, has "medicinal properties."
 └─ merge ─┘
-↩ (goto) [00032D21] Hero: I've got a light for your plant.
-[00032DB7] olw_medicine_npc1: Yo. Did you get the lights?
-[00032DB5] Hero: Not yet.
+↩ (goto) [00032D21] Ryder: I've got a light for your plant.
+[00032DB7] Medicine Npc1: Yo. Did you get the lights?
+[00032DB5] Ryder: Not yet.

@@ -1,78 +1,78 @@
 # Game/Conversations/Crit/M4/m4_0550_post_fight_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/m4/m4_0550_post_fight_d.xml
 ==================================================
 [0000D0D6] SAM: Pathfinder, a moment. I'm picking up krogan life signs onboard the ship. Several captives are being held not far from your location.
 [0001A3D7] SAM: They are scheduled for exaltation.
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    [0000D0BA] global_squad_krogan ⟨cond⟩: Damn. Could be the rest of my missing scouts.
-    [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    [0000D0BA] Squadmate (Krogan / Drack) ⟨cond⟩: Damn. Could be the rest of my missing scouts.
+    [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
     [0000D0CC] SAM: If you act quickly.
     [0000D0DC] Narration: They start to go but then Raeka unexpectedly comes through on Ryder's omni-tool.
-    [0000D0C2] global_salarian_pathfinder_multi: [Comm] Ryder, it's Raeka. I'm pinned down. Don't think I'm going to make it.
-    [0000D0E0] Hero: Where are you?
-    [0000D0DA] global_salarian_pathfinder_multi: [Comm] Near holding cells where they're keeping several of my people. They're still alive.
-    [00019E63] global_salarian_pathfinder_multi: [Comm] I ordered Captain Hayjer back to the ark.
-    [0000D0BE] Hero: You should be with him.
-    [00019E62] global_salarian_pathfinder_multi: [Comm] I couldn't leave my people—I had to try. And now... I think it's over. From one Pathfinder to another... farewell. Raeka out.
-    [00019E64] Hero: Damn it.
+    [0000D0C2] Salarian Pathfinder (Hayjer): [Comm] Ryder, it's Raeka. I'm pinned down. Don't think I'm going to make it.
+    [0000D0E0] Ryder: Where are you?
+    [0000D0DA] Salarian Pathfinder (Hayjer): [Comm] Near holding cells where they're keeping several of my people. They're still alive.
+    [00019E63] Salarian Pathfinder (Hayjer): [Comm] I ordered Captain Hayjer back to the ark.
+    [0000D0BE] Ryder: You should be with him.
+    [00019E62] Salarian Pathfinder (Hayjer): [Comm] I couldn't leave my people—I had to try. And now... I think it's over. From one Pathfinder to another... farewell. Raeka out.
+    [00019E64] Ryder: Damn it.
     [00019E58] SAM: There isn't time to save both. Once the kett restore power, you'll be trapped.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0002A8A4] global_squad_krogan ⟨cond⟩: Ryder, my scouts...
+        [0002A8A4] Squadmate (Krogan / Drack) ⟨cond⟩: Ryder, my scouts...
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0000D0CF] Hero: Reload. We're going after Raeka.
+            [0000D0CF] Ryder: Reload. We're going after Raeka.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000D0CA] Hero ⟨cond⟩: Drack, I'm sorry.
-                [0000D0CD] global_squad_krogan: {i}(Grumbles.){/i}
+                [0000D0CA] Ryder ⟨cond⟩: Drack, I'm sorry.
+                [0000D0CD] Squadmate (Krogan / Drack): {i}(Grumbles.){/i}
                 [0000D0D7] Narration: Ryder leads the team out with grim determination.
             ├ option 2:
                 ↩ (goto) [0000D0D7] Narration: Ryder leads the team out with grim determination.
             └─ merge ─┘
         ├ option 2:
-            [0000D0B9] Hero: Reload. We've got to save those krogan from exaltation.
+            [0000D0B9] Ryder: Reload. We've got to save those krogan from exaltation.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002A9BE] global_squad_krogan ⟨cond⟩: Damn right, we do.
+                [0002A9BE] Squadmate (Krogan / Drack) ⟨cond⟩: Damn right, we do.
                 ↩ (goto) [0000D0D7] Narration: Ryder leads the team out with grim determination.
             ├ option 2:
                 ↩ (goto) [0000D0D7] Narration: Ryder leads the team out with grim determination.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0002A8A7] global_squad_turian ⟨cond⟩: This is our only chance to save Drack's scouts. They'll be turned into more of those... monsters.
-        ↩ (goto) [0002A8A6] global_squad_krogan: [empty]
+        [0002A8A7] Squadmate (Turian / Vetra) ⟨cond⟩: This is our only chance to save Drack's scouts. They'll be turned into more of those... monsters.
+        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
     ├ option 3:
-        [0002A8A9] global_squad_angara ⟨cond⟩: This is the last chance for Drack's scouts. The Archon will turn them into monsters.
-        ↩ (goto) [0002A8A6] global_squad_krogan: [empty]
+        [0002A8A9] Squadmate (Angara / Jaal) ⟨cond⟩: This is the last chance for Drack's scouts. The Archon will turn them into monsters.
+        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
     ├ option 4:
-        [0002A8A8] global_squad_asari ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
-        ↩ (goto) [0002A8A6] global_squad_krogan: [empty]
+        [0002A8A8] Squadmate (Asari / Peebee) ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
+        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
     ├ option 5:
-        [0002A8A5] global_squad_male_human ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. He'll turn them into monsters.
-        ↩ (goto) [0002A8A6] global_squad_krogan: [empty]
+        [0002A8A5] Squadmate (Human ♂) ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. He'll turn them into monsters.
+        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
     ├ option 6:
-        [0002A8A3] global_squad_female_human ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
-        ↩ (goto) [0002A8A6] global_squad_krogan: [empty]
+        [0002A8A3] Squadmate (Human ♀) ⟨cond⟩: But Drack's scouts—we just saw what the Archon will do to them. They'll be turned into monsters.
+        ↩ (goto) [0002A8A6] Squadmate (Krogan / Drack): [empty]
     └─ merge ─┘
 ├ option 2:
-    [0000D0C4] global_squad_turian ⟨cond⟩: Could be the rest of Drack's missing scouts.
-    ↩ (goto) [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    [0000D0C4] Squadmate (Turian / Vetra) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 3:
-    [0000D0D1] global_squad_angara ⟨cond⟩: Could be the rest of Drack's missing scouts.
-    ↩ (goto) [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    [0000D0D1] Squadmate (Angara / Jaal) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 4:
-    [0000D0D8] global_squad_asari ⟨cond⟩: Could be the rest of Drack's missing scouts.
-    ↩ (goto) [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    [0000D0D8] Squadmate (Asari / Peebee) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 5:
-    [0000D0E7] global_squad_male_human ⟨cond⟩: Could be the rest of Drack's missing scouts.
-    ↩ (goto) [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    [0000D0E7] Squadmate (Human ♂) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 6:
-    [0000D0BB] global_squad_female_human ⟨cond⟩: Could be the rest of Drack's missing scouts.
-    ↩ (goto) [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    [0000D0BB] Squadmate (Human ♀) ⟨cond⟩: Could be the rest of Drack's missing scouts.
+    ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 ├ option 7:
-    ↩ (goto) [0000D0BF] Hero: SAM, do we have time to get there before the kett restore power?
+    ↩ (goto) [0000D0BF] Ryder: SAM, do we have time to get there before the kett restore power?
 └─ merge ─┘

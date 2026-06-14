@@ -1,73 +1,73 @@
 # game/conversations/unc_dunes/dune_0120_recruit_engin_i
-# Primary speaker: dune_water_engineer
+# Primary speaker: Water Engineer
 # Source: game/conversations/unc_dunes/dune_0120_recruit_engin_i.xml
 ==================================================
-[0002673E] dune_water_engineer: Careful out there.
-[00026647] dune_water_engineer [OncePerGame]: New armor, well-maintained weapons... I take it you're not one of the locals.
+[0002673E] Water Engineer: Careful out there.
+[00026647] Water Engineer [OncePerGame]: New armor, well-maintained weapons... I take it you're not one of the locals.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026648] Hero: You've been trained to spot this.
-    [000266ED] dune_water_engineer: One of the reasons Annea hired me. I know whose good side to get on.
+    [00026648] Ryder: You've been trained to spot this.
+    [000266ED] Water Engineer: One of the reasons Annea hired me. I know whose good side to get on.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [000266CD] Hero: So you work for the water merchant?
-        [000266F0] dune_water_engineer: I designed the filtration systems. Now I keep them from breaking down in the heat.
-        [00026722] Hero: You're an engineer?
-        [00026720] dune_water_engineer: Of sorts. On Kadara, I designed defense systems for the settlements.
-        [000266D1] dune_water_engineer: Specialized in hidden traps to use in the dark. {i}(Chuckles.){/i} I can't continue that work here.
-        [00026706] Hero: Why?
-        [00026707] dune_water_engineer: The sun never goes down on Elaaden. No nighttime. Just constant, blazing daylight.
-        [00026708] dune_water_engineer: It's why the Paradise does so well. Water isn't the only commodity. We have shade.
+        [000266CD] Ryder: So you work for the water merchant?
+        [000266F0] Water Engineer: I designed the filtration systems. Now I keep them from breaking down in the heat.
+        [00026722] Ryder: You're an engineer?
+        [00026720] Water Engineer: Of sorts. On Kadara, I designed defense systems for the settlements.
+        [000266D1] Water Engineer: Specialized in hidden traps to use in the dark. {i}(Chuckles.){/i} I can't continue that work here.
+        [00026706] Ryder: Why?
+        [00026707] Water Engineer: The sun never goes down on Elaaden. No nighttime. Just constant, blazing daylight.
+        [00026708] Water Engineer: It's why the Paradise does so well. Water isn't the only commodity. We have shade.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00026723] Hero: How'd you end up here?
-            [0002671E] dune_water_engineer: Same as anyone. I was desperate. Ran up a debt on Kadara and needed to escape.
-            [0002671F] dune_water_engineer: I have to say, life isn't bad here. I move between the Paradise and New Tuchanka, keeping the water tanks running.
-            [00026724] dune_water_engineer: Sometimes I even go to the flophouse to buy extra parts from the scavengers. They respect me there.
-            [00026721] dune_water_engineer: Still, I miss the exciting stuff. Felt like I was making a difference when I built defense systems.
-            ↩ (goto) [000266CF] dune_water_engineer: [empty]
+            [00026723] Ryder: How'd you end up here?
+            [0002671E] Water Engineer: Same as anyone. I was desperate. Ran up a debt on Kadara and needed to escape.
+            [0002671F] Water Engineer: I have to say, life isn't bad here. I move between the Paradise and New Tuchanka, keeping the water tanks running.
+            [00026724] Water Engineer: Sometimes I even go to the flophouse to buy extra parts from the scavengers. They respect me there.
+            [00026721] Water Engineer: Still, I miss the exciting stuff. Felt like I was making a difference when I built defense systems.
+            ↩ (goto) [000266CF] Water Engineer: [empty]
         ├ option 2:
-            [000289A2] Hero ⟨cond⟩: What's your boss like?
-            [00026725] dune_water_engineer: She gave me a job and a place to live. I'm grateful to her for that.
-            [00026727] Hero: But?
-            [00026726] dune_water_engineer: She's not easy on... your kind. I've seen her deny them water based on nothing but her mood.
-            [00026728] dune_water_engineer: She didn't live on Kadara like I did. All she's seen is the exiles on Elaaden.
-            [00026729] dune_water_engineer: It's enough to turn anyone against outsiders. But I don't like seeing people suffer. Even exiles.
-            ↩ (goto) [000266CF] dune_water_engineer: [empty]
+            [000289A2] Ryder ⟨cond⟩: What's your boss like?
+            [00026725] Water Engineer: She gave me a job and a place to live. I'm grateful to her for that.
+            [00026727] Ryder: But?
+            [00026726] Water Engineer: She's not easy on... your kind. I've seen her deny them water based on nothing but her mood.
+            [00026728] Water Engineer: She didn't live on Kadara like I did. All she's seen is the exiles on Elaaden.
+            [00026729] Water Engineer: It's enough to turn anyone against outsiders. But I don't like seeing people suffer. Even exiles.
+            ↩ (goto) [000266CF] Water Engineer: [empty]
         ├ option 3:
-            [000266D3] Hero ⟨cond⟩: If you want to make a difference again, the Resistance needs recruits on Voeld.
-            [0002672A] dune_water_engineer: The Resistance? It's a nice thought, but I doubt they'd take a lowlife like me.
+            [000266D3] Ryder ⟨cond⟩: If you want to make a difference again, the Resistance needs recruits on Voeld.
+            [0002672A] Water Engineer: The Resistance? It's a nice thought, but I doubt they'd take a lowlife like me.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002672B] global_squad_angara ⟨cond⟩: With your skills, Evfra will welcome you. We don't turn away those who want to fight.
-                [0002672E] dune_water_engineer: You're a member?
+                [0002672B] Squadmate (Angara / Jaal) ⟨cond⟩: With your skills, Evfra will welcome you. We don't turn away those who want to fight.
+                [0002672E] Water Engineer: You're a member?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00026731] Hero: Jaal's right. Voeld needs an engineer who can work in harsh conditions.
-                    [00026734] dune_water_engineer: {i}(Chuckles.){/i} Harsh conditions. That's me.
-                    [0002672D] dune_water_engineer: Voeld, huh? Guess it'd be a change from all this sand.
-                    [00026735] dune_water_engineer: All right, fine. I'll check out the camp. See what I can do.
+                    [00026731] Ryder: Jaal's right. Voeld needs an engineer who can work in harsh conditions.
+                    [00026734] Water Engineer: {i}(Chuckles.){/i} Harsh conditions. That's me.
+                    [0002672D] Water Engineer: Voeld, huh? Guess it'd be a change from all this sand.
+                    [00026735] Water Engineer: All right, fine. I'll check out the camp. See what I can do.
                 ├ option 2:
-                    [00026733] Hero: You're looking at one of the best fighters in the Resistance.
-                    [0002672F] dune_water_engineer: Is that so...
-                    ↩ (goto) [0002672D] dune_water_engineer: Voeld, huh? Guess it'd be a change from all this sand.
+                    [00026733] Ryder: You're looking at one of the best fighters in the Resistance.
+                    [0002672F] Water Engineer: Is that so...
+                    ↩ (goto) [0002672D] Water Engineer: Voeld, huh? Guess it'd be a change from all this sand.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) [000266CF] dune_water_engineer: [empty]
+                ↩ (goto) [000266CF] Water Engineer: [empty]
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [000289A2] Hero ⟨cond⟩: What's your boss like?
+        ↩ (goto) [000289A2] Ryder ⟨cond⟩: What's your boss like?
     ├ option 3:
-        ↩ (goto) [000266D3] Hero ⟨cond⟩: If you want to make a difference again, the Resistance needs recruits on Voeld.
+        ↩ (goto) [000266D3] Ryder ⟨cond⟩: If you want to make a difference again, the Resistance needs recruits on Voeld.
     ├ option 4:
-        [0002673D] Hero: I should get going.
-        ↩ (goto) [0002673E] dune_water_engineer: Careful out there.
+        [0002673D] Ryder: I should get going.
+        ↩ (goto) [0002673E] Water Engineer: Careful out there.
     └─ merge ─┘
 ├ option 2:
-    [00026658] Hero: Think I'll stick out?
-    [000266EC] dune_water_engineer: Like water in the desert. My boss Annea picked up on you from the second you landed.
-    ↩ (goto) [000266CF] dune_water_engineer: [empty]
+    [00026658] Ryder: Think I'll stick out?
+    [000266EC] Water Engineer: Like water in the desert. My boss Annea picked up on you from the second you landed.
+    ↩ (goto) [000266CF] Water Engineer: [empty]
 └─ merge ─┘
-[000266CB] dune_water_engineer: Pathfinder.
-↩ (goto) [000266CF] dune_water_engineer: [empty]
+[000266CB] Water Engineer: Pathfinder.
+↩ (goto) [000266CF] Water Engineer: [empty]

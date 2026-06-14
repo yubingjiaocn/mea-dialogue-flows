@@ -1,57 +1,57 @@
 # game/conversations/unc_dunes/dune_deadzone_0100_breakdown_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_dunes/dune_deadzone_0100_breakdown_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001E810] Hero: Whoa. Feel that? The Nomad's really struggling.
+    [0001E810] Ryder: Whoa. Feel that? The Nomad's really struggling.
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001E80F] Hero: We really don't want to break down right now.
+        [0001E80F] Ryder: We really don't want to break down right now.
     ├ option 2:
-        [0001E80E] Hero: There's gotta be something out here worth this trip.
+        [0001E80E] Ryder: There's gotta be something out here worth this trip.
     └─ merge ─┘
 └─ merge ─┘
-[0001E7B6] Hero: Wait. What's happening? Oh, no, no, no.
+[0001E7B6] Ryder: Wait. What's happening? Oh, no, no, no.
 [0001E7B8] SAM: Pathfinder, the Nomad appears to have lost power.
-[0001E7B7] Hero: I see that, SAM. Can you tell me why?
+[0001E7B7] Ryder: I see that, SAM. Can you tell me why?
 [0001E7CD] SAM: Unknown, but damage to the onboard computer is consistent with an EMP.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001E7C7] global_squad_krogan ⟨cond⟩: An EMP? Out here?
-    [0001E7C6] Hero: Let's take a look around.
+    [0001E7C7] Squadmate (Krogan / Drack) ⟨cond⟩: An EMP? Out here?
+    [0001E7C6] Ryder: Let's take a look around.
 ├ option 2:
-    [0001E7CC] global_squad_female_human ⟨cond⟩: An EMP? Out here?
-    ↩ (goto) [0001E7C6] Hero: Let's take a look around.
+    [0001E7CC] Squadmate (Human ♀) ⟨cond⟩: An EMP? Out here?
+    ↩ (goto) [0001E7C6] Ryder: Let's take a look around.
 ├ option 3:
-    [0001E7CB] global_squad_asari ⟨cond⟩: An EMP? Out here?
-    ↩ (goto) [0001E7C6] Hero: Let's take a look around.
+    [0001E7CB] Squadmate (Asari / Peebee) ⟨cond⟩: An EMP? Out here?
+    ↩ (goto) [0001E7C6] Ryder: Let's take a look around.
 ├ option 4:
-    [0001E7CA] global_squad_angara ⟨cond⟩: An EMP? From where?
-    ↩ (goto) [0001E7C6] Hero: Let's take a look around.
+    [0001E7CA] Squadmate (Angara / Jaal) ⟨cond⟩: An EMP? From where?
+    ↩ (goto) [0001E7C6] Ryder: Let's take a look around.
 ├ option 5:
-    [0001E7C9] global_squad_male_human ⟨cond⟩: An EMP? From where?
-    ↩ (goto) [0001E7C6] Hero: Let's take a look around.
+    [0001E7C9] Squadmate (Human ♂) ⟨cond⟩: An EMP? From where?
+    ↩ (goto) [0001E7C6] Ryder: Let's take a look around.
 ├ option 6:
-    [0001E7C8] global_squad_turian ⟨cond⟩: An EMP? From where?
-    ↩ (goto) [0001E7C6] Hero: Let's take a look around.
+    [0001E7C8] Squadmate (Turian / Vetra) ⟨cond⟩: An EMP? From where?
+    ↩ (goto) [0001E7C6] Ryder: Let's take a look around.
 └─ merge ─┘
-[0001E802] Hero: A vehicle. Nobody around.
+[0001E802] Ryder: A vehicle. Nobody around.
 [0001E80C] SAM: It appears abandoned. Nothing of value left behind.
-[0001E80D] Hero: Stripped for parts?
-[0001E806] Hero: Look, another abandoned vehicle.
+[0001E80D] Ryder: Stripped for parts?
+[0001E806] Ryder: Look, another abandoned vehicle.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001E808] global_squad_krogan ⟨cond⟩: That one looks stripped too.
+    [0001E808] Squadmate (Krogan / Drack) ⟨cond⟩: That one looks stripped too.
 ├ option 2:
-    [0001E809] global_squad_asari ⟨cond⟩: Why are we driving out here again?
+    [0001E809] Squadmate (Asari / Peebee) ⟨cond⟩: Why are we driving out here again?
 ├ option 3:
-    [0001E803] global_squad_male_human ⟨cond⟩: Why are we driving out here again?
+    [0001E803] Squadmate (Human ♂) ⟨cond⟩: Why are we driving out here again?
 ├ option 4:
-    [0001E807] global_squad_angara ⟨cond⟩: That bodes well...
+    [0001E807] Squadmate (Angara / Jaal) ⟨cond⟩: That bodes well...
 ├ option 5:
-    [0001E804] global_squad_turian ⟨cond⟩: Maybe we should turn around?
+    [0001E804] Squadmate (Turian / Vetra) ⟨cond⟩: Maybe we should turn around?
 ├ option 6:
-    [0001E805] global_squad_female_human ⟨cond⟩: That one looks stripped too.
+    [0001E805] Squadmate (Human ♀) ⟨cond⟩: That one looks stripped too.
 └─ merge ─┘

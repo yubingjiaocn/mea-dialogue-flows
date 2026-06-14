@@ -1,41 +1,41 @@
 # game/conversations/unc/storms/stm_0398_kett_bain_approach_a
-# Primary speaker: stm_kett_hunter_multi
+# Primary speaker: Kett Hunter
 # Source: game/conversations/unc/storms/stm_0398_kett_bain_approach_a.xml
 ==================================================
-[00031D79] stm_kett_hunter_multi: [Comm] You’re a long way from the flock, little duck.
-[00031D7B] Hero: Little duck? Who is this?
-[00031D75] stm_kett_hunter_multi: [Comm] Someone who's got work for you. Come to my navpoint, if you think you're up for it.
+[00031D79] Kett Hunter: [Comm] You’re a long way from the flock, little duck.
+[00031D7B] Ryder: Little duck? Who is this?
+[00031D75] Kett Hunter: [Comm] Someone who's got work for you. Come to my navpoint, if you think you're up for it.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00031D76] global_squad_female_human ⟨cond⟩: Don't want to keep him waiting, {i}little duck{/i}.
-    [00031D7C] Hero: That is {i}not{/i} becoming a thing.
+    [00031D76] Squadmate (Human ♀) ⟨cond⟩: Don't want to keep him waiting, {i}little duck{/i}.
+    [00031D7C] Ryder: That is {i}not{/i} becoming a thing.
 ├ option 2:
-    [00031D74] global_squad_male_human ⟨cond⟩: Shall we, {i}little duck{/i}?
-    ↩ (goto) [00031D7C] Hero: That is {i}not{/i} becoming a thing.
+    [00031D74] Squadmate (Human ♂) ⟨cond⟩: Shall we, {i}little duck{/i}?
+    ↩ (goto) [00031D7C] Ryder: That is {i}not{/i} becoming a thing.
 ├ option 3:
-    [00031D78] global_squad_turian ⟨cond⟩: Wanna check it out, {i}little duck{/i}?
-    ↩ (goto) [00031D7C] Hero: That is {i}not{/i} becoming a thing.
+    [00031D78] Squadmate (Turian / Vetra) ⟨cond⟩: Wanna check it out, {i}little duck{/i}?
+    ↩ (goto) [00031D7C] Ryder: That is {i}not{/i} becoming a thing.
 ├ option 4:
-    [00031D77] global_squad_asari ⟨cond⟩: What do you say, {i}little duck{/i}?
-    ↩ (goto) [00031D7C] Hero: That is {i}not{/i} becoming a thing.
+    [00031D77] Squadmate (Asari / Peebee) ⟨cond⟩: What do you say, {i}little duck{/i}?
+    ↩ (goto) [00031D7C] Ryder: That is {i}not{/i} becoming a thing.
 ├ option 5:
-    [00031D7A] global_squad_krogan ⟨cond⟩: Wanna look into it, {i}little duck{/i}?
-    ↩ (goto) [00031D7C] Hero: That is {i}not{/i} becoming a thing.
+    [00031D7A] Squadmate (Krogan / Drack) ⟨cond⟩: Wanna look into it, {i}little duck{/i}?
+    ↩ (goto) [00031D7C] Ryder: That is {i}not{/i} becoming a thing.
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00031D85] global_squad_female_human ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker?
-    [00031D82] Hero: We don't know he's a friend.
+    [00031D85] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker?
+    [00031D82] Ryder: We don't know he's a friend.
 ├ option 2:
-    [00031D81] global_squad_male_human ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Huh.
-    ↩ (goto) [00031D82] Hero: We don't know he's a friend.
+    [00031D81] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Huh.
+    ↩ (goto) [00031D82] Ryder: We don't know he's a friend.
 ├ option 3:
-    [00031D87] global_squad_turian ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker?
-    ↩ (goto) [00031D82] Hero: We don't know he's a friend.
+    [00031D87] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker?
+    ↩ (goto) [00031D82] Ryder: We don't know he's a friend.
 ├ option 4:
-    [00031D84] global_squad_asari ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Weird.
-    ↩ (goto) [00031D82] Hero: We don't know he's a friend.
+    [00031D84] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Weird.
+    ↩ (goto) [00031D82] Ryder: We don't know he's a friend.
 ├ option 5:
-    [00031D83] global_squad_krogan ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Hm.
-    ↩ (goto) [00031D82] Hero: We don't know he's a friend.
+    [00031D83] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Hm.
+    ↩ (goto) [00031D82] Ryder: We don't know he's a friend.
 └─ merge ─┘

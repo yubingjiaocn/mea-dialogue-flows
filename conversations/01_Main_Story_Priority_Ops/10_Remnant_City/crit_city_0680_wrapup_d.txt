@@ -1,116 +1,116 @@
 # Game/Conversations/Crit/Crit_City/crit_city_0680_wrapup_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_city/crit_city_0680_wrapup_d.xml
 ==================================================
-[000135E6] global_crew_co-pilot: [Comm] Ground team: Is everyone all right?
-[00013600] Hero: Everyone accounted for.
-[0001360A] global_crew_science_officer: [Comm] We saw everything from orbit—it was incredible. The entire city lit up... the scans went wild!
-[00015880] global_crew_co-pilot: [Comm] And Ryder, the kett are retreating. Whatever you did—it worked.
+[000135E6] Kallo (Co-pilot): [Comm] Ground team: Is everyone all right?
+[00013600] Ryder: Everyone accounted for.
+[0001360A] Suvi (Science Officer): [Comm] We saw everything from orbit—it was incredible. The entire city lit up... the scans went wild!
+[00015880] Kallo (Co-pilot): [Comm] And Ryder, the kett are retreating. Whatever you did—it worked.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001594A] Hero: A full retreat? That's a relief to hear.
-    [00013605] global_crew_co-pilot: [Comm] Any progress on Meridian? Have you got it working yet?
-    [000135EE] Hero: This isn't Meridian—or at least, not all of it. Hard to explain. We'll brief you later.
-    [000135E1] Hero: So Meridian's gone, but shouldn't this thing know the navpoint of where it went?
+    [0001594A] Ryder: A full retreat? That's a relief to hear.
+    [00013605] Kallo (Co-pilot): [Comm] Any progress on Meridian? Have you got it working yet?
+    [000135EE] Ryder: This isn't Meridian—or at least, not all of it. Hard to explain. We'll brief you later.
+    [000135E1] Ryder: So Meridian's gone, but shouldn't this thing know the navpoint of where it went?
     [00013610] SAM: Contact with the Scourge will have altered Meridian's original path. It would take countless years to determine its current location.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001365E] Hero: All this Remnant tech around us. The Jardaan had to have a plan...
+        [0001365E] Ryder: All this Remnant tech around us. The Jardaan had to have a plan...
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [00013AEE] global_squad_krogan ⟨cond⟩: I don't think they had much time for a plan.
-            [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            [00013AEE] Squadmate (Krogan / Drack) ⟨cond⟩: I don't think they had much time for a plan.
+            [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                [00013B07] global_squad_krogan ⟨cond⟩: What are you thinking, kid?
+                [00013B07] Squadmate (Krogan / Drack) ⟨cond⟩: What are you thinking, kid?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [000136BE] Hero: I don't know yet. We'll have to think about it.
+                    [000136BE] Ryder: I don't know yet. We'll have to think about it.
                     ┌─ BRANCH (6) ─┐
                     ├ option 1:
-                        [000158BF] global_squad_krogan ⟨cond⟩: You heard Kallo. The kett are running. From us.
-                        [00013B0C] Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
-                        [00013B0A] Hero: SAM, collect all the data you can. Radio the Tempest for extraction.
-                        [00013B0D] Hero: This is going to take work, and it's going to take {i}all{/i} of us.
+                        [000158BF] Squadmate (Krogan / Drack) ⟨cond⟩: You heard Kallo. The kett are running. From us.
+                        [00013B0C] Ryder: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        [00013B0A] Ryder: SAM, collect all the data you can. Radio the Tempest for extraction.
+                        [00013B0D] Ryder: This is going to take work, and it's going to take {i}all{/i} of us.
                     ├ option 2:
-                        [000158C1] global_squad_female_human ⟨cond⟩: Okay, no Meridian. But we kicked the kett out of a major stronghold. That's huge.
-                        ↩ (goto) [00013B0C] Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        [000158C1] Squadmate (Human ♀) ⟨cond⟩: Okay, no Meridian. But we kicked the kett out of a major stronghold. That's huge.
+                        ↩ (goto) [00013B0C] Ryder: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
                     ├ option 3:
-                        [000158C3] global_squad_asari ⟨cond⟩: Yeah, we don't have Meridian yet, but we took this city back from the kett! That's big!
-                        ↩ (goto) [00013B0C] Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        [000158C3] Squadmate (Asari / Peebee) ⟨cond⟩: Yeah, we don't have Meridian yet, but we took this city back from the kett! That's big!
+                        ↩ (goto) [00013B0C] Ryder: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
                     ├ option 4:
-                        [000158BA] global_squad_turian ⟨cond⟩: Hey, at least we took the city back from the kett. That's a big win.
-                        ↩ (goto) [00013B0C] Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        [000158BA] Squadmate (Turian / Vetra) ⟨cond⟩: Hey, at least we took the city back from the kett. That's a big win.
+                        ↩ (goto) [00013B0C] Ryder: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
                     ├ option 5:
-                        [000158BD] global_squad_angara ⟨cond⟩: What we did here today is powerful. We took this city from the kett. Our city.
-                        ↩ (goto) [00013B0C] Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        [000158BD] Squadmate (Angara / Jaal) ⟨cond⟩: What we did here today is powerful. We took this city from the kett. Our city.
+                        ↩ (goto) [00013B0C] Ryder: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
                     ├ option 6:
-                        [000158BB] global_squad_male_human ⟨cond⟩: Well, the kett got their arses handed to them today. That's big.
-                        ↩ (goto) [00013B0C] Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        [000158BB] Squadmate (Human ♂) ⟨cond⟩: Well, the kett got their arses handed to them today. That's big.
+                        ↩ (goto) [00013B0C] Ryder: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
                     └─ merge ─┘
                 ├ option 2:
-                    [000136BF] Hero: I was actually hoping one of you might continue the thought.
+                    [000136BF] Ryder: I was actually hoping one of you might continue the thought.
                     ↩ (goto) [00013B0B] Narration: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [00013B04] global_squad_female_human ⟨cond⟩: At what?
-                ↩ (goto) [00013B05] global_squad_male_human: [empty]
+                [00013B04] Squadmate (Human ♀) ⟨cond⟩: At what?
+                ↩ (goto) [00013B05] Squadmate (Human ♂): [empty]
             ├ option 3:
-                [00013B06] global_squad_asari ⟨cond⟩: Look at what, exactly?
-                ↩ (goto) [00013B05] global_squad_male_human: [empty]
+                [00013B06] Squadmate (Asari / Peebee) ⟨cond⟩: Look at what, exactly?
+                ↩ (goto) [00013B05] Squadmate (Human ♂): [empty]
             ├ option 4:
-                [00013B09] global_squad_turian ⟨cond⟩: What do you mean?
-                ↩ (goto) [00013B05] global_squad_male_human: [empty]
+                [00013B09] Squadmate (Turian / Vetra) ⟨cond⟩: What do you mean?
+                ↩ (goto) [00013B05] Squadmate (Human ♂): [empty]
             ├ option 5:
-                [00013B03] global_squad_angara ⟨cond⟩: Look for what?
-                ↩ (goto) [00013B05] global_squad_male_human: [empty]
+                [00013B03] Squadmate (Angara / Jaal) ⟨cond⟩: Look for what?
+                ↩ (goto) [00013B05] Squadmate (Human ♂): [empty]
             ├ option 6:
-                [00013B08] global_squad_male_human ⟨cond⟩: Look at what, exactly?
-                ↩ (goto) [00013B05] global_squad_male_human: [empty]
+                [00013B08] Squadmate (Human ♂) ⟨cond⟩: Look at what, exactly?
+                ↩ (goto) [00013B05] Squadmate (Human ♂): [empty]
             └─ merge ─┘
         ├ option 2:
-            [00013AED] global_squad_female_human ⟨cond⟩: Did they have time for a plan?
-            ↩ (goto) [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            [00013AED] Squadmate (Human ♀) ⟨cond⟩: Did they have time for a plan?
+            ↩ (goto) [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
         ├ option 3:
-            [00013AF0] global_squad_asari ⟨cond⟩: Their plan seemed to be "Oh crap, let's get outta here!"
-            ↩ (goto) [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            [00013AF0] Squadmate (Asari / Peebee) ⟨cond⟩: Their plan seemed to be "Oh crap, let's get outta here!"
+            ↩ (goto) [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
         ├ option 4:
-            [00013AEC] global_squad_turian ⟨cond⟩: If they had a plan, I doubt we'd be seeing this much Scourge damage.
-            ↩ (goto) [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            [00013AEC] Squadmate (Turian / Vetra) ⟨cond⟩: If they had a plan, I doubt we'd be seeing this much Scourge damage.
+            ↩ (goto) [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
         ├ option 5:
-            [00013AF1] global_squad_angara ⟨cond⟩: This seems too haphazard to have been planned.
-            ↩ (goto) [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            [00013AF1] Squadmate (Angara / Jaal) ⟨cond⟩: This seems too haphazard to have been planned.
+            ↩ (goto) [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
         ├ option 6:
-            [00013AEF] global_squad_male_human ⟨cond⟩: Doesn't seem like they had the time.
-            ↩ (goto) [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            [00013AEF] Squadmate (Human ♂) ⟨cond⟩: Doesn't seem like they had the time.
+            ↩ (goto) [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
         └─ merge ─┘
     ├ option 2:
-        [0001365B] Hero: If it takes years, then it takes years. People are relying on me.
+        [0001365B] Ryder: If it takes years, then it takes years. People are relying on me.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [000135FE] global_squad_asari ⟨cond⟩: But we don't have years. We have to find another way.
-            [00013AAA] Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            [000135FE] Squadmate (Asari / Peebee) ⟨cond⟩: But we don't have years. We have to find another way.
+            [00013AAA] Ryder: SAM, can you see anything else in here? Any kind of data that could be a clue?
             [00013AAB] SAM: Nothing immediately obvious, Pathfinder. But I will continue my investigations.
-            ↩ (goto) [00013AD7] Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            ↩ (goto) [00013AD7] Ryder: Well, if the Scourge is messing things up, maybe that's where we should look?
         ├ option 2:
-            [000135E2] global_squad_krogan ⟨cond⟩: This can't take years. We find another way.
-            ↩ (goto) [00013AAA] Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            [000135E2] Squadmate (Krogan / Drack) ⟨cond⟩: This can't take years. We find another way.
+            ↩ (goto) [00013AAA] Ryder: SAM, can you see anything else in here? Any kind of data that could be a clue?
         ├ option 3:
-            [00013611] global_squad_turian ⟨cond⟩: People relying on us is exactly why this can't take forever.
-            ↩ (goto) [00013AAA] Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            [00013611] Squadmate (Turian / Vetra) ⟨cond⟩: People relying on us is exactly why this can't take forever.
+            ↩ (goto) [00013AAA] Ryder: SAM, can you see anything else in here? Any kind of data that could be a clue?
         ├ option 4:
-            [00013606] global_squad_female_human ⟨cond⟩: The kett won't give us that time. We need an alternative.
-            ↩ (goto) [00013AAA] Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            [00013606] Squadmate (Human ♀) ⟨cond⟩: The kett won't give us that time. We need an alternative.
+            ↩ (goto) [00013AAA] Ryder: SAM, can you see anything else in here? Any kind of data that could be a clue?
         ├ option 5:
-            [0001360D] global_squad_angara ⟨cond⟩: No one in Heleus has that kind of time any longer.
-            ↩ (goto) [00013AAA] Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            [0001360D] Squadmate (Angara / Jaal) ⟨cond⟩: No one in Heleus has that kind of time any longer.
+            ↩ (goto) [00013AAA] Ryder: SAM, can you see anything else in here? Any kind of data that could be a clue?
         ├ option 6:
-            [000135F1] global_squad_male_human ⟨cond⟩: We don't have years. Has to be a way.
-            ↩ (goto) [00013AAA] Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            [000135F1] Squadmate (Human ♂) ⟨cond⟩: We don't have years. Has to be a way.
+            ↩ (goto) [00013AAA] Ryder: SAM, can you see anything else in here? Any kind of data that could be a clue?
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0001594D] Hero: They got the ass-kicking they needed. Hand-delivered by us.
+    [0001594D] Ryder: They got the ass-kicking they needed. Hand-delivered by us.
     [000159C5] SAM: Given your command over the Remnant's defenses, Pathfinder, I predict the kett will not attempt to recapture the city.
     ↩ (goto) [00015949] Narration: [empty]
 └─ merge ─┘

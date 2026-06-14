@@ -1,47 +1,47 @@
 # game/conversations/hubs/hub_kad/rp/kad_extremist_0350_crimescene_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/hubs/hub_kad/rp/kad_extremist_0350_crimescene_i.xml
 ==================================================
-[00010A2D] Hero: Reyes. I'm at the crime scene.
-[00010A28] kad_charlatan: [Comm] Great. I've got intel on our dead guy. Krogan male. Went by the name of Zear.
-[00010A2C] kad_charlatan: [Comm] His frontal plate was pried off before he was shot to death.
+[00010A2D] Ryder: Reyes. I'm at the crime scene.
+[00010A28] The Charlatan: [Comm] Great. I've got intel on our dead guy. Krogan male. Went by the name of Zear.
+[00010A2C] The Charlatan: [Comm] His frontal plate was pried off before he was shot to death.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00010A26] Hero: Poor bastard.
+    [00010A26] Ryder: Poor bastard.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00010A33] global_squad_krogan ⟨cond⟩: Not one of mine.
-        [00010A27] kad_charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
+        [00010A33] Squadmate (Krogan / Drack) ⟨cond⟩: Not one of mine.
+        [00010A27] The Charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
     ├ option 2:
-        [00010A34] global_squad_male_human ⟨cond⟩: They were making a point. Not someone you want just walking around.
-        ↩ (goto) [00010A27] kad_charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
+        [00010A34] Squadmate (Human ♂) ⟨cond⟩: They were making a point. Not someone you want just walking around.
+        ↩ (goto) [00010A27] The Charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
     ├ option 3:
-        [00010A32] global_squad_asari ⟨cond⟩: Nice to see sadism is alive and well.
-        ↩ (goto) [00010A27] kad_charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
+        [00010A32] Squadmate (Asari / Peebee) ⟨cond⟩: Nice to see sadism is alive and well.
+        ↩ (goto) [00010A27] The Charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
     ├ option 4:
-        [00010A2B] global_squad_angara ⟨cond⟩: This cannot go unpunished.
-        ↩ (goto) [00010A27] kad_charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
+        [00010A2B] Squadmate (Angara / Jaal) ⟨cond⟩: This cannot go unpunished.
+        ↩ (goto) [00010A27] The Charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
     ├ option 5:
-        [00010A2E] global_squad_female_human ⟨cond⟩: Brutal. And personal. Someone's got a grudge.
-        ↩ (goto) [00010A27] kad_charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
+        [00010A2E] Squadmate (Human ♀) ⟨cond⟩: Brutal. And personal. Someone's got a grudge.
+        ↩ (goto) [00010A27] The Charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
     ├ option 6:
-        [00010A2F] global_squad_turian ⟨cond⟩: That monster is gonna pay for this.
-        ↩ (goto) [00010A27] kad_charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
+        [00010A2F] Squadmate (Turian / Vetra) ⟨cond⟩: That monster is gonna pay for this.
+        ↩ (goto) [00010A27] The Charlatan: [Comm] Do your scanning thing. Look for anything that might lead us to the killer.
     └─ merge ─┘
 ├ option 2:
-    [00010A29] Hero: They wanted him to suffer.
+    [00010A29] Ryder: They wanted him to suffer.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        ↩ (goto) [00010A33] global_squad_krogan ⟨cond⟩: Not one of mine.
+        ↩ (goto) [00010A33] Squadmate (Krogan / Drack) ⟨cond⟩: Not one of mine.
     ├ option 2:
-        ↩ (goto) [00010A34] global_squad_male_human ⟨cond⟩: They were making a point. Not someone you want just walking around.
+        ↩ (goto) [00010A34] Squadmate (Human ♂) ⟨cond⟩: They were making a point. Not someone you want just walking around.
     ├ option 3:
-        ↩ (goto) [00010A32] global_squad_asari ⟨cond⟩: Nice to see sadism is alive and well.
+        ↩ (goto) [00010A32] Squadmate (Asari / Peebee) ⟨cond⟩: Nice to see sadism is alive and well.
     ├ option 4:
-        ↩ (goto) [00010A2B] global_squad_angara ⟨cond⟩: This cannot go unpunished.
+        ↩ (goto) [00010A2B] Squadmate (Angara / Jaal) ⟨cond⟩: This cannot go unpunished.
     ├ option 5:
-        ↩ (goto) [00010A2E] global_squad_female_human ⟨cond⟩: Brutal. And personal. Someone's got a grudge.
+        ↩ (goto) [00010A2E] Squadmate (Human ♀) ⟨cond⟩: Brutal. And personal. Someone's got a grudge.
     ├ option 6:
-        ↩ (goto) [00010A2F] global_squad_turian ⟨cond⟩: That monster is gonna pay for this.
+        ↩ (goto) [00010A2F] Squadmate (Turian / Vetra) ⟨cond⟩: That monster is gonna pay for this.
     └─ merge ─┘
 └─ merge ─┘

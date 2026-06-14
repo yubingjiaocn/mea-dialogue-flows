@@ -1,112 +1,112 @@
 # game/conversations/loyalty/loy_asa/loy_asa_0320_2nd_terr_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/loy_asa/loy_asa_0320_2nd_terr_b.xml
 ==================================================
-[0001A3CB] global_kalinda: [Comm] Pelessaria, the high road is much more direct.
-[0001A3CD] global_squad_asari: How the hell did you find us here, Kalinda?
-[0001A3D6] global_kalinda: [Comm] Guess you didn't notice the little transmitter I hid in Poc. So sloppy. Ta.
-[0001A3D2] global_squad_asari: Ugh! That... Ryder, we need to pick up the pace.
+[0001A3CB] Kalinda: [Comm] Pelessaria, the high road is much more direct.
+[0001A3CD] Squadmate (Asari / Peebee): How the hell did you find us here, Kalinda?
+[0001A3D6] Kalinda: [Comm] Guess you didn't notice the little transmitter I hid in Poc. So sloppy. Ta.
+[0001A3D2] Squadmate (Asari / Peebee): Ugh! That... Ryder, we need to pick up the pace.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002AB0E] global_squad_female_human ⟨cond⟩: Dormant turret.
-    [0002AB0B] Hero: The controls should be nearby...
+    [0002AB0E] Squadmate (Human ♀) ⟨cond⟩: Dormant turret.
+    [0002AB0B] Ryder: The controls should be nearby...
 ├ option 2:
-    [0002AB12] global_squad_male_human ⟨cond⟩: Dormant turret.
-    ↩ (goto) [0002AB0B] Hero: The controls should be nearby...
+    [0002AB12] Squadmate (Human ♂) ⟨cond⟩: Dormant turret.
+    ↩ (goto) [0002AB0B] Ryder: The controls should be nearby...
 ├ option 3:
-    [0002AB08] global_squad_turian ⟨cond⟩: Dormant turret.
-    ↩ (goto) [0002AB0B] Hero: The controls should be nearby...
+    [0002AB08] Squadmate (Turian / Vetra) ⟨cond⟩: Dormant turret.
+    ↩ (goto) [0002AB0B] Ryder: The controls should be nearby...
 ├ option 4:
-    [0002AB0A] global_squad_krogan ⟨cond⟩: Dormant turret.
-    ↩ (goto) [0002AB0B] Hero: The controls should be nearby...
+    [0002AB0A] Squadmate (Krogan / Drack) ⟨cond⟩: Dormant turret.
+    ↩ (goto) [0002AB0B] Ryder: The controls should be nearby...
 ├ option 5:
-    [0002AB0C] global_squad_angara ⟨cond⟩: Dormant turret.
-    ↩ (goto) [0002AB0B] Hero: The controls should be nearby...
+    [0002AB0C] Squadmate (Angara / Jaal) ⟨cond⟩: Dormant turret.
+    ↩ (goto) [0002AB0B] Ryder: The controls should be nearby...
 └─ merge ─┘
-[0002AB10] Hero: Aha, the turret controls.
+[0002AB10] Ryder: Aha, the turret controls.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002AB0F] Hero: Get this thing working for us!
+    [0002AB0F] Ryder: Get this thing working for us!
 ├ option 2:
-    [0002AB04] Hero: Nice turret. Cover me.
+    [0002AB04] Ryder: Nice turret. Cover me.
 └─ merge ─┘
-[0002C3E0] global_squad_asari: Shit! The Observers turned that turret against us!
-[0001A3D1] global_squad_asari: We have to make it across to the next ridge.
+[0002C3E0] Squadmate (Asari / Peebee): Shit! The Observers turned that turret against us!
+[0001A3D1] Squadmate (Asari / Peebee): We have to make it across to the next ridge.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A4A9] global_squad_female_human ⟨cond⟩: Chasm's too far to jump.
+    [0001A4A9] Squadmate (Human ♀) ⟨cond⟩: Chasm's too far to jump.
     [0001A4B3] SAM: There may be a way to extend that antenna.
 ├ option 2:
-    [0001A4B8] global_squad_male_human ⟨cond⟩: Chasm's too far to jump.
+    [0001A4B8] Squadmate (Human ♂) ⟨cond⟩: Chasm's too far to jump.
     ↩ (goto) [0001A4B3] SAM: There may be a way to extend that antenna.
 ├ option 3:
-    [0001A4AA] global_squad_turian ⟨cond⟩: Chasm's too far to jump.
+    [0001A4AA] Squadmate (Turian / Vetra) ⟨cond⟩: Chasm's too far to jump.
     ↩ (goto) [0001A4B3] SAM: There may be a way to extend that antenna.
 ├ option 4:
-    [0001A4BA] global_squad_krogan ⟨cond⟩: That's a wide chasm for a jump.
+    [0001A4BA] Squadmate (Krogan / Drack) ⟨cond⟩: That's a wide chasm for a jump.
     ↩ (goto) [0001A4B3] SAM: There may be a way to extend that antenna.
 ├ option 5:
-    [0001A4B9] global_squad_angara ⟨cond⟩: The chasm is too wide for a jump.
+    [0001A4B9] Squadmate (Angara / Jaal) ⟨cond⟩: The chasm is too wide for a jump.
     ↩ (goto) [0001A4B3] SAM: There may be a way to extend that antenna.
 └─ merge ─┘
 [0001A4A7] SAM: Pathfinder, interfacing with this console should allow you to extend the antenna so you can jump across.
-[0001A4B0] global_squad_asari: Whoa. Major activity.
+[0001A4B0] Squadmate (Asari / Peebee): Whoa. Major activity.
 [0001A4B1] SAM: I can complete the hack, but you'll have to stay close.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A4B6] global_squad_female_human ⟨cond⟩: Incoming!
+    [0001A4B6] Squadmate (Human ♀) ⟨cond⟩: Incoming!
 ├ option 2:
-    [0001A4BC] global_squad_male_human ⟨cond⟩: Incoming!
+    [0001A4BC] Squadmate (Human ♂) ⟨cond⟩: Incoming!
 ├ option 3:
-    [0001A4A5] global_squad_turian ⟨cond⟩: Incoming!
+    [0001A4A5] Squadmate (Turian / Vetra) ⟨cond⟩: Incoming!
 ├ option 4:
-    [0001A4B4] global_squad_krogan ⟨cond⟩: Incoming!
+    [0001A4B4] Squadmate (Krogan / Drack) ⟨cond⟩: Incoming!
 ├ option 5:
-    [0001A4A4] global_squad_angara ⟨cond⟩: Incoming!
+    [0001A4A4] Squadmate (Angara / Jaal) ⟨cond⟩: Incoming!
 └─ merge ─┘
 [0001A4A2] SAM: Still working on it. Rerouting power from these other structures.
-[0002AB05] Hero: And reducing our cover.
-[0001A4AF] global_squad_asari: Shit. We'll never catch Kalinda!
-[0001A4AB] Hero: Hunker down—more Remnant.
-[0001A4BB] global_kalinda: [Comm] No bots to fight up here. {i}(Laughs.){/i}
-[0001A4AC] global_squad_asari: I'm going to kill her.
+[0002AB05] Ryder: And reducing our cover.
+[0001A4AF] Squadmate (Asari / Peebee): Shit. We'll never catch Kalinda!
+[0001A4AB] Ryder: Hunker down—more Remnant.
+[0001A4BB] Kalinda: [Comm] No bots to fight up here. {i}(Laughs.){/i}
+[0001A4AC] Squadmate (Asari / Peebee): I'm going to kill her.
 [00030471] SAM: Pathfinder, the hack is suspended until you return to the console platform.
-[0001A4BD] global_squad_asari: The antenna is extending—let's go!
+[0001A4BD] Squadmate (Asari / Peebee): The antenna is extending—let's go!
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002AB07] global_squad_asari [OncePerGame]: Kalinda's getting ahead of us.
+    [0002AB07] Squadmate (Asari / Peebee) [OncePerGame]: Kalinda's getting ahead of us.
 ├ option 2:
-    [0002AB13] global_squad_asari [OncePerGame]: She's going to beat us to the signal source.
+    [0002AB13] Squadmate (Asari / Peebee) [OncePerGame]: She's going to beat us to the signal source.
 ├ option 3:
-    [0002AB09] global_squad_asari [OncePerGame]: Let's hustle, please.
+    [0002AB09] Squadmate (Asari / Peebee) [OncePerGame]: Let's hustle, please.
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A7B1] global_squad_female_human ⟨cond⟩: Kalinda's men spotted on the upper ridge.
-    [0001A7B8] Hero: Hmm, they're in sniper range.
+    [0001A7B1] Squadmate (Human ♀) ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    [0001A7B8] Ryder: Hmm, they're in sniper range.
 ├ option 2:
-    [0001A7B6] global_squad_male_human ⟨cond⟩: Kalinda's men spotted on the upper ridge.
-    ↩ (goto) [0001A7B8] Hero: Hmm, they're in sniper range.
+    [0001A7B6] Squadmate (Human ♂) ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    ↩ (goto) [0001A7B8] Ryder: Hmm, they're in sniper range.
 ├ option 3:
-    [0001A7B7] global_squad_turian ⟨cond⟩: Kalinda's men spotted on the upper ridge.
-    ↩ (goto) [0001A7B8] Hero: Hmm, they're in sniper range.
+    [0001A7B7] Squadmate (Turian / Vetra) ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    ↩ (goto) [0001A7B8] Ryder: Hmm, they're in sniper range.
 ├ option 4:
-    [0001A7B2] global_squad_krogan ⟨cond⟩: Kalinda's men—on the ridge up there.
-    ↩ (goto) [0001A7B8] Hero: Hmm, they're in sniper range.
+    [0001A7B2] Squadmate (Krogan / Drack) ⟨cond⟩: Kalinda's men—on the ridge up there.
+    ↩ (goto) [0001A7B8] Ryder: Hmm, they're in sniper range.
 ├ option 5:
-    [0001A7B5] global_squad_angara ⟨cond⟩: Kalinda's men spotted on the upper ridge.
-    ↩ (goto) [0001A7B8] Hero: Hmm, they're in sniper range.
+    [0001A7B5] Squadmate (Angara / Jaal) ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    ↩ (goto) [0001A7B8] Ryder: Hmm, they're in sniper range.
 └─ merge ─┘
-[0001A7B0] global_kalinda: [Comm] Oh no, not Larry! {i}(Laughs.){/i} Thanks Ryder, bigger cut for the rest of us!
+[0001A7B0] Kalinda: [Comm] Oh no, not Larry! {i}(Laughs.){/i} Thanks Ryder, bigger cut for the rest of us!
 [0001A3D0] SAM: Interacting with the Remnant must have opened a way in for her.
-[0001A3C9] global_squad_asari: Great. Just great.
+[0001A3C9] Squadmate (Asari / Peebee): Great. Just great.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0001A4B7] Hero: On it.
+    [0001A4B7] Ryder: On it.
 ├ option 2:
-    [0001A7D5] Hero: Wait—there's someone on the ridge above us.
+    [0001A7D5] Ryder: Wait—there's someone on the ridge above us.
 ├ option 3:
-    [0001A4B2] Hero: Get this turret working for us.
+    [0001A4B2] Ryder: Get this turret working for us.
 ├ option 4:
-    [0001A4A1] Hero: Get control of this turret. Might come in handy.
+    [0001A4A1] Ryder: Get control of this turret. Might come in handy.
 └─ merge ─┘

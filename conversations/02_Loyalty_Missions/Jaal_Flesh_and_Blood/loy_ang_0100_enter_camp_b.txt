@@ -1,166 +1,166 @@
 # game/conversations/loyalty/loy_ang/loy_ang_0100_enter_camp_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/loy_ang/loy_ang_0100_enter_camp_b.xml
 ==================================================
-[000261D0] global_squad_angara [OncePerGame]: It's... deserted. The govataan is usually filled with travelers.
-[000261BD] Hero: Avka said no traffic in or out.
+[000261D0] Squadmate (Angara / Jaal) [OncePerGame]: It's... deserted. The govataan is usually filled with travelers.
+[000261BD] Ryder: Avka said no traffic in or out.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [000261B2] global_squad_asari ⟨cond⟩: Doesn't make it less creepy.
-    [0002AF56] global_squad_angara: Where are the Roekaar?
+    [000261B2] Squadmate (Asari / Peebee) ⟨cond⟩: Doesn't make it less creepy.
+    [0002AF56] Squadmate (Angara / Jaal): Where are the Roekaar?
 ├ option 2:
-    [000261BE] global_squad_female_human ⟨cond⟩: Doesn't explain where everyone went.
-    ↩ (goto) [0002AF56] global_squad_angara: Where are the Roekaar?
+    [000261BE] Squadmate (Human ♀) ⟨cond⟩: Doesn't explain where everyone went.
+    ↩ (goto) [0002AF56] Squadmate (Angara / Jaal): Where are the Roekaar?
 ├ option 3:
-    [000261C5] global_squad_krogan ⟨cond⟩: I don't like this.
-    ↩ (goto) [0002AF56] global_squad_angara: Where are the Roekaar?
+    [000261C5] Squadmate (Krogan / Drack) ⟨cond⟩: I don't like this.
+    ↩ (goto) [0002AF56] Squadmate (Angara / Jaal): Where are the Roekaar?
 ├ option 4:
-    [000261C6] global_squad_male_human ⟨cond⟩: Doesn't explain the ghost town.
-    ↩ (goto) [0002AF56] global_squad_angara: Where are the Roekaar?
+    [000261C6] Squadmate (Human ♂) ⟨cond⟩: Doesn't explain the ghost town.
+    ↩ (goto) [0002AF56] Squadmate (Angara / Jaal): Where are the Roekaar?
 ├ option 5:
-    [000261B1] global_squad_turian ⟨cond⟩: Still expected to see {i}someone{/i}.
-    ↩ (goto) [0002AF56] global_squad_angara: Where are the Roekaar?
+    [000261B1] Squadmate (Turian / Vetra) ⟨cond⟩: Still expected to see {i}someone{/i}.
+    ↩ (goto) [0002AF56] Squadmate (Angara / Jaal): Where are the Roekaar?
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002A562] Hero: It’s got juice, but everything’s offline. Should I re-establish comms?
-    [0002A563] global_squad_angara: Let's leave it for now. Might tip off the Roekaar—wherever they are.
+    [0002A562] Ryder: It’s got juice, but everything’s offline. Should I re-establish comms?
+    [0002A563] Squadmate (Angara / Jaal): Let's leave it for now. Might tip off the Roekaar—wherever they are.
 ├ option 2:
-    [0002A5DD] Hero: Arrivals were steady until a week ago.
-    [0002A5E6] global_squad_angara: Most angara come here at least once in their lives.
-    [0002A5D8] global_squad_angara: Either for the tradition or to share knowledge.
-    [0002A5C7] Hero: Which did you visit for?
-    [0002A5E0] global_squad_angara: A bit of both. Come on, let's keep looking for Baranjj and the others.
+    [0002A5DD] Ryder: Arrivals were steady until a week ago.
+    [0002A5E6] Squadmate (Angara / Jaal): Most angara come here at least once in their lives.
+    [0002A5D8] Squadmate (Angara / Jaal): Either for the tradition or to share knowledge.
+    [0002A5C7] Ryder: Which did you visit for?
+    [0002A5E0] Squadmate (Angara / Jaal): A bit of both. Come on, let's keep looking for Baranjj and the others.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002A5DE] Hero: Wherever the angara went, they left a lot of supplies behind.
+    [0002A5DE] Ryder: Wherever the angara went, they left a lot of supplies behind.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002A5D1] global_squad_asari ⟨cond⟩: Seriously. Where'd they get all this stuff?
-        [0002A5C3] global_squad_angara: Aya and the Resistance provide support.
-        [0002A5DB] global_squad_angara: If the kett destroyed the Forge, it would be a terrible blow.
+        [0002A5D1] Squadmate (Asari / Peebee) ⟨cond⟩: Seriously. Where'd they get all this stuff?
+        [0002A5C3] Squadmate (Angara / Jaal): Aya and the Resistance provide support.
+        [0002A5DB] Squadmate (Angara / Jaal): If the kett destroyed the Forge, it would be a terrible blow.
     ├ option 2:
-        [0002A5CD] global_squad_female_human ⟨cond⟩: Stuff you'd want to take with you.
-        ↩ (goto) [0002A5C3] global_squad_angara: Aya and the Resistance provide support.
+        [0002A5CD] Squadmate (Human ♀) ⟨cond⟩: Stuff you'd want to take with you.
+        ↩ (goto) [0002A5C3] Squadmate (Angara / Jaal): Aya and the Resistance provide support.
     ├ option 3:
-        [0002A5E7] global_squad_krogan ⟨cond⟩: Well-stocked. The Roekaar bring this in?
-        ↩ (goto) [0002A5C3] global_squad_angara: Aya and the Resistance provide support.
+        [0002A5E7] Squadmate (Krogan / Drack) ⟨cond⟩: Well-stocked. The Roekaar bring this in?
+        ↩ (goto) [0002A5C3] Squadmate (Angara / Jaal): Aya and the Resistance provide support.
     ├ option 4:
-        [0002A5E3] global_squad_male_human ⟨cond⟩: Where'd they get all this?
-        ↩ (goto) [0002A5C3] global_squad_angara: Aya and the Resistance provide support.
+        [0002A5E3] Squadmate (Human ♂) ⟨cond⟩: Where'd they get all this?
+        ↩ (goto) [0002A5C3] Squadmate (Angara / Jaal): Aya and the Resistance provide support.
     ├ option 5:
-        [0002A5D4] global_squad_turian ⟨cond⟩: These are some serious supplies.
-        ↩ (goto) [0002A5C3] global_squad_angara: Aya and the Resistance provide support.
+        [0002A5D4] Squadmate (Turian / Vetra) ⟨cond⟩: These are some serious supplies.
+        ↩ (goto) [0002A5C3] Squadmate (Angara / Jaal): Aya and the Resistance provide support.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [000261B9] global_squad_asari ⟨cond⟩: And people say I'm messy.
-            [000261B8] Hero: They left in a hurry.
-            [00028E3E] global_squad_angara: Or were forced out.
+            [000261B9] Squadmate (Asari / Peebee) ⟨cond⟩: And people say I'm messy.
+            [000261B8] Ryder: They left in a hurry.
+            [00028E3E] Squadmate (Angara / Jaal): Or were forced out.
         ├ option 2:
-            [000261CC] global_squad_female_human ⟨cond⟩: Looks like someone tossed it.
-            ↩ (goto) [000261B8] Hero: They left in a hurry.
+            [000261CC] Squadmate (Human ♀) ⟨cond⟩: Looks like someone tossed it.
+            ↩ (goto) [000261B8] Ryder: They left in a hurry.
         ├ option 3:
-            [000261C9] global_squad_krogan ⟨cond⟩: Place is trashed.
-            ↩ (goto) [000261B8] Hero: They left in a hurry.
+            [000261C9] Squadmate (Krogan / Drack) ⟨cond⟩: Place is trashed.
+            ↩ (goto) [000261B8] Ryder: They left in a hurry.
         ├ option 4:
-            [000261CA] global_squad_male_human ⟨cond⟩: It got completely tossed.
-            ↩ (goto) [000261B8] Hero: They left in a hurry.
+            [000261CA] Squadmate (Human ♂) ⟨cond⟩: It got completely tossed.
+            ↩ (goto) [000261B8] Ryder: They left in a hurry.
         ├ option 5:
-            [000261B4] global_squad_turian ⟨cond⟩: Someone trashed it.
-            ↩ (goto) [000261B8] Hero: They left in a hurry.
+            [000261B4] Squadmate (Turian / Vetra) ⟨cond⟩: Someone trashed it.
+            ↩ (goto) [000261B8] Ryder: They left in a hurry.
         └─ merge ─┘
     ├ option 2:
-        [0002A5D6] Hero: Some of these are on loan from the Repository.
-        [0002A5CA] global_squad_angara: Avela and the researchers often exchange artifacts.
+        [0002A5D6] Ryder: Some of these are on loan from the Repository.
+        [0002A5CA] Squadmate (Angara / Jaal): Avela and the researchers often exchange artifacts.
     ├ option 3:
-        [0002A5D2] Hero: Nutrient paste. Half-eaten.
-        [0002A5D3] global_squad_angara: Won't get a timeline from that. Stuff stays fresh for years.
+        [0002A5D2] Ryder: Nutrient paste. Half-eaten.
+        [0002A5D3] Squadmate (Angara / Jaal): Won't get a timeline from that. Stuff stays fresh for years.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002A5CE] global_squad_asari ⟨cond⟩: Is that... blood?
+        [0002A5CE] Squadmate (Asari / Peebee) ⟨cond⟩: Is that... blood?
     ├ option 2:
-        [0002A5C2] global_squad_female_human ⟨cond⟩: That looks like blood.
+        [0002A5C2] Squadmate (Human ♀) ⟨cond⟩: That looks like blood.
     ├ option 3:
-        [0002A5D5] global_squad_krogan ⟨cond⟩: I smell blood.
+        [0002A5D5] Squadmate (Krogan / Drack) ⟨cond⟩: I smell blood.
     ├ option 4:
-        [0002A5C1] global_squad_male_human ⟨cond⟩: Looks like blood.
+        [0002A5C1] Squadmate (Human ♂) ⟨cond⟩: Looks like blood.
     ├ option 5:
-        [0002A5C9] global_squad_turian ⟨cond⟩: Is that... blood?
+        [0002A5C9] Squadmate (Turian / Vetra) ⟨cond⟩: Is that... blood?
     └─ merge ─┘
 ├ option 2:
-    [000261D2] Hero: It's angaran.
-    [000261C1] global_squad_angara: Akksul doesn't kill angara.
+    [000261D2] Ryder: It's angaran.
+    [000261C1] Squadmate (Angara / Jaal): Akksul doesn't kill angara.
     [0002A5BF] SAM: The amount of blood and back-spatter suggests a non-lethal blow.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002A5D0] global_squad_asari ⟨cond⟩: Comforting. I guess.
+        [0002A5D0] Squadmate (Asari / Peebee) ⟨cond⟩: Comforting. I guess.
     ├ option 2:
-        [0002A5CF] global_squad_female_human ⟨cond⟩: Still not a good sign.
+        [0002A5CF] Squadmate (Human ♀) ⟨cond⟩: Still not a good sign.
     ├ option 3:
-        [0002A5D9] global_squad_krogan ⟨cond⟩: So he just beat the shit out of them.
+        [0002A5D9] Squadmate (Krogan / Drack) ⟨cond⟩: So he just beat the shit out of them.
     ├ option 4:
-        [0002A5DA] global_squad_male_human ⟨cond⟩: Won't kill, but he unloads like a thug.
+        [0002A5DA] Squadmate (Human ♂) ⟨cond⟩: Won't kill, but he unloads like a thug.
     ├ option 5:
-        [0002A5E2] global_squad_turian ⟨cond⟩: What are the Roekaar doing?
+        [0002A5E2] Squadmate (Turian / Vetra) ⟨cond⟩: What are the Roekaar doing?
     └─ merge ─┘
 ├ option 3:
-    [0002A5E4] Hero: Dehydrated. No one's watered them for awhile.
-    [0002A69D] global_squad_angara: These were taken from the Forge. They would've been given the utmost care.
+    [0002A5E4] Ryder: Dehydrated. No one's watered them for awhile.
+    [0002A69D] Squadmate (Angara / Jaal): These were taken from the Forge. They would've been given the utmost care.
 ├ option 4:
-    [0002A5C4] Hero: Fancy equipment. What were the researchers studying?
-    [0002A5C6] global_squad_angara: Everything, really. As much as we revere the Forge, we know very little about it.
-    [0002A5E1] global_squad_asari ⟨cond⟩: Part of its appeal.
+    [0002A5C4] Ryder: Fancy equipment. What were the researchers studying?
+    [0002A5C6] Squadmate (Angara / Jaal): Everything, really. As much as we revere the Forge, we know very little about it.
+    [0002A5E1] Squadmate (Asari / Peebee) ⟨cond⟩: Part of its appeal.
 ├ option 5:
-    [0002A5DC] Hero: Power's on, but running low.
-    [0002A69C] global_squad_angara: No one bothered to turn it off.
+    [0002A5DC] Ryder: Power's on, but running low.
+    [0002A69C] Squadmate (Angara / Jaal): No one bothered to turn it off.
 ├ option 6:
-    [0002A738] Hero: Broken window. Sign of a struggle, maybe.
+    [0002A738] Ryder: Broken window. Sign of a struggle, maybe.
 └─ merge ─┘
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    [000263DD] Hero [OncePerGame]: Why is the Forge so important?
-    [000263DA] global_squad_angara: It's one of the few ruins that predates the Scourge.
-    [000263DB] global_squad_angara: We don't have many of those left.
+    [000263DD] Ryder [OncePerGame]: Why is the Forge so important?
+    [000263DA] Squadmate (Angara / Jaal): It's one of the few ruins that predates the Scourge.
+    [000263DB] Squadmate (Angara / Jaal): We don't have many of those left.
 ├ option 2:
-    [00028C66] global_squad_asari ⟨cond⟩ [OncePerGame]: We're going to find your family, Jaal.
-    [00028C68] global_squad_angara: Just hope they haven't done anything stupid.
+    [00028C66] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: We're going to find your family, Jaal.
+    [00028C68] Squadmate (Angara / Jaal): Just hope they haven't done anything stupid.
 ├ option 3:
-    [00028C69] global_squad_krogan ⟨cond⟩ [OncePerGame]: Keep your head up. Won't find your family looking down there.
-    [00028C63] global_squad_angara: I didn't ask for your advice.
+    [00028C69] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Keep your head up. Won't find your family looking down there.
+    [00028C63] Squadmate (Angara / Jaal): I didn't ask for your advice.
 ├ option 4:
-    [00028C67] global_squad_male_human ⟨cond⟩ [OncePerGame]: Jaal, we're getting your family out of here.
-    ↩ (goto) [00028C68] global_squad_angara: Just hope they haven't done anything stupid.
+    [00028C67] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Jaal, we're getting your family out of here.
+    ↩ (goto) [00028C68] Squadmate (Angara / Jaal): Just hope they haven't done anything stupid.
 ├ option 5:
-    [00028C65] global_squad_turian ⟨cond⟩ [OncePerGame]: I know it's tough, Jaal. But we'll find your family.
-    ↩ (goto) [00028C68] global_squad_angara: Just hope they haven't done anything stupid.
+    [00028C65] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: I know it's tough, Jaal. But we'll find your family.
+    ↩ (goto) [00028C68] Squadmate (Angara / Jaal): Just hope they haven't done anything stupid.
 ├ option 6:
-    [00028C64] global_squad_female_human ⟨cond⟩ [OncePerGame]: Don't worry, Jaal. We'll find your brothers and sister.
-    ↩ (goto) [00028C68] global_squad_angara: Just hope they haven't done anything stupid.
+    [00028C64] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Don't worry, Jaal. We'll find your brothers and sister.
+    ↩ (goto) [00028C68] Squadmate (Angara / Jaal): Just hope they haven't done anything stupid.
 ├ option 7:
-    [000275EF] Hero [OncePerGame]: So, the govataan—it's not part of the Forge?
-    [000275EE] global_squad_angara: No—the researchers who live here needed a place to welcome visitors.
+    [000275EF] Ryder [OncePerGame]: So, the govataan—it's not part of the Forge?
+    [000275EE] Squadmate (Angara / Jaal): No—the researchers who live here needed a place to welcome visitors.
 └─ merge ─┘
-[0002AF57] global_squad_angara [OncePerGame]: What happened? Where is everyone?
+[0002AF57] Squadmate (Angara / Jaal) [OncePerGame]: What happened? Where is everyone?
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00028E3B] global_squad_asari ⟨cond⟩: Not sure. But I don't think the answer's here.
+    [00028E3B] Squadmate (Asari / Peebee) ⟨cond⟩: Not sure. But I don't think the answer's here.
 ├ option 2:
-    [00028E3C] global_squad_female_human ⟨cond⟩: No clue. But your family's not here. We should keep moving.
+    [00028E3C] Squadmate (Human ♀) ⟨cond⟩: No clue. But your family's not here. We should keep moving.
 ├ option 3:
-    [00028E39] global_squad_krogan ⟨cond⟩: Not here, obviously. We should get moving.
+    [00028E39] Squadmate (Krogan / Drack) ⟨cond⟩: Not here, obviously. We should get moving.
 ├ option 4:
-    [00028E3A] global_squad_male_human ⟨cond⟩: I do not like this. Where's your family?
+    [00028E3A] Squadmate (Human ♂) ⟨cond⟩: I do not like this. Where's your family?
 ├ option 5:
-    [00028E3D] global_squad_turian ⟨cond⟩: Let's push forward. Maybe answers are ahead.
+    [00028E3D] Squadmate (Turian / Vetra) ⟨cond⟩: Let's push forward. Maybe answers are ahead.
 └─ merge ─┘
-[000261CE] Hero: You hear that?
-[000261D1] global_squad_angara: Akksul's voice.
+[000261CE] Ryder: You hear that?
+[000261D1] Squadmate (Angara / Jaal): Akksul's voice.

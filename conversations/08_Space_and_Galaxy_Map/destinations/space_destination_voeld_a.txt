@@ -1,24 +1,24 @@
 # game/conversations/space/destinations/space_destination_voeld_a
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Space/destinations/space_destination_voeld_a.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002B01B] global_squad_angara ⟨cond⟩ [OncePerGame]: [Comm] Voeld is the heart of our war against the kett.
-    [0002B019] global_squad_angara: [Comm] I once took part in an attack on one of their bases.
-    [0002B01C] Hero: Sounds like fun.
-    [0002B01A] global_squad_angara: [Comm] It was desperate. We won, but only barely.
+    [0002B01B] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: [Comm] Voeld is the heart of our war against the kett.
+    [0002B019] Squadmate (Angara / Jaal): [Comm] I once took part in an attack on one of their bases.
+    [0002B01C] Ryder: Sounds like fun.
+    [0002B01A] Squadmate (Angara / Jaal): [Comm] It was desperate. We won, but only barely.
 ├ option 2:
-    [0002B021] global_crew_co-pilot: Beginning approach.
+    [0002B021] Kallo (Co-pilot): Beginning approach.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002B01D] Hero [OncePerGame]: Okay, bundle up, people.
-    [0002B01E] global_crew_co-pilot: I'll stay on my nice, warm ship.
+    [0002B01D] Ryder [OncePerGame]: Okay, bundle up, people.
+    [0002B01E] Kallo (Co-pilot): I'll stay on my nice, warm ship.
 ├ option 2:
-    [0002B020] Hero [OncePerGame]: Not really a holiday destination.
+    [0002B020] Ryder [OncePerGame]: Not really a holiday destination.
 ├ option 3:
-    [0002B62A] global_crew_science_officer: Voeld orbit is steady.
+    [0002B62A] Suvi (Science Officer): Voeld orbit is steady.
 └─ merge ─┘
-[0002B002] global_crew_science_officer: Departing Voeld.
-[0002B022] global_squad_angara: [Comm] We're not yet ready.
+[0002B002] Suvi (Science Officer): Departing Voeld.
+[0002B022] Squadmate (Angara / Jaal): [Comm] We're not yet ready.

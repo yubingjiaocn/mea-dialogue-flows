@@ -4,9 +4,9 @@
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0001C849] Hero: SAM? What was that?
+    [0001C849] Ryder: SAM? What was that?
     [0001C843] SAM: An eidetic trigger, related to your father and the portions of my memory array he locked.
-    [0001C846] Hero: What triggered it?
+    [0001C846] Ryder: What triggered it?
     [0001C845] SAM: Alec tied it to your progression as Pathfinder, not to a location.
     [0001C852] SAM: Puzzling as it may be, my programming is clear: Locating more of these triggers will unlock the memories.
     ┌─ BRANCH (2) ─┐
@@ -17,7 +17,7 @@
 ├ option 2:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001C823] Hero: SAM, another memory trigger?
+        [0001C823] Ryder: SAM, another memory trigger?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ↩ (goto) [0001C856] SAM: One of your father's memories is now accessible. Return to SAM Node on the Hyperion to investigate further.
@@ -25,24 +25,24 @@
             [0001C85A] SAM: Yes, though my memory array remains locked. Additional triggers are required.
         └─ merge ─┘
     ├ option 2:
-        [0001C824] Hero: Another "eidetic trigger," SAM?
+        [0001C824] Ryder: Another "eidetic trigger," SAM?
         ↩ (goto) [0001C83E] SAM: [empty]
     ├ option 3:
-        [0001C820] Hero: SAM, another memory prompt?
+        [0001C820] Ryder: SAM, another memory prompt?
         ↩ (goto) [0001C83E] SAM: [empty]
     ├ option 4:
-        [0001C82A] Hero: Another memory trigger?
+        [0001C82A] Ryder: Another memory trigger?
         ↩ (goto) [0001C83E] SAM: [empty]
     └─ merge ─┘
 ├ option 3:
-    [0001C847] Hero: Looks like that was another memory gate, SAM.
+    [0001C847] Ryder: Looks like that was another memory gate, SAM.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [0001C844] SAM ⟨cond⟩: And the last. The final memory is unlocked.
         [0001C848] SAM: Please return to SAM Node.
     ├ option 2:
         [00030EFE] SAM: And the last. However, a deeper level of encryption is in place. Unfortunately, the conditions to unlock it haven't yet been satisfied.
-        [00030F06] Hero: Well, let me know when that changes. No telling what Dad was up to.
+        [00030F06] Ryder: Well, let me know when that changes. No telling what Dad was up to.
     └─ merge ─┘
 └─ merge ─┘
 ↩ (goto) [0001C825] SAM: [empty]

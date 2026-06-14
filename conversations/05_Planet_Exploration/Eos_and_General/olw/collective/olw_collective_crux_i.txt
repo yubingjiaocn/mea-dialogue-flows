@@ -1,64 +1,64 @@
 # game/conversations/unc/olw/collective/olw_collective_crux_i
-# Primary speaker: olw_char_rep_02
+# Primary speaker: Char Rep
 # Source: game/conversations/unc/olw/collective/olw_collective_crux_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001A038] olw_char_rep_02 ⟨cond⟩: Pathfinder. Need something?
+    [0001A038] Char Rep ⟨cond⟩: Pathfinder. Need something?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0001A036] Hero: What's it like working for the Collective?
-        [0001A02D] olw_char_rep_02: Enjoyable for the most part. Pay's good and being a representative gets me respect.
-        [0001A04B] olw_char_rep_02: Sure, I live in a cave, but every job has its downside, right?
-        [0001A02E] Hero: You've no regrets about leaving the Nexus then?
-        [0001A043] olw_char_rep_02: No way. Those idiots have no idea what they're doing. At least the Charlatan has their shit figured out.
-        ↩ (goto) [0001A051] olw_char_rep_02: [empty]
+        [0001A036] Ryder: What's it like working for the Collective?
+        [0001A02D] Char Rep: Enjoyable for the most part. Pay's good and being a representative gets me respect.
+        [0001A04B] Char Rep: Sure, I live in a cave, but every job has its downside, right?
+        [0001A02E] Ryder: You've no regrets about leaving the Nexus then?
+        [0001A043] Char Rep: No way. Those idiots have no idea what they're doing. At least the Charlatan has their shit figured out.
+        ↩ (goto) [0001A051] Char Rep: [empty]
     ├ option 2:
-        [0001A033] Hero: What is a Charlatan representative, exactly?
-        [0001A041] olw_char_rep_02: Most members of the Collective have no direct contact with the Charlatan. The boss delivers their orders through us.
-        [0001A032] olw_char_rep_02: Even as a representative, I only get messages. I've never met the Charlatan in person.
-        [0001A035] Hero: You're okay with that?
-        [0001A048] olw_char_rep_02: I don't like being micromanaged. As long as I carry out the Charlatan's orders, I have the freedom to do as I want.
-        ↩ (goto) [0001A051] olw_char_rep_02: [empty]
+        [0001A033] Ryder: What is a Charlatan representative, exactly?
+        [0001A041] Char Rep: Most members of the Collective have no direct contact with the Charlatan. The boss delivers their orders through us.
+        [0001A032] Char Rep: Even as a representative, I only get messages. I've never met the Charlatan in person.
+        [0001A035] Ryder: You're okay with that?
+        [0001A048] Char Rep: I don't like being micromanaged. As long as I carry out the Charlatan's orders, I have the freedom to do as I want.
+        ↩ (goto) [0001A051] Char Rep: [empty]
     ├ option 3:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001A02F] Hero ⟨cond⟩: Why did you choose to work for the Charlatan instead of Sloane?
-            [0001A045] olw_char_rep_02: Doesn't matter now. The bitch is dead.
-            [0001A046] Hero: Humor me.
-            [0001A047] olw_char_rep_02: Sloane had a habit of promoting her friends—not the qualified.
-            [0001A042] olw_char_rep_02: The Charlatan doesn't care who you are—just how you perform.
-            ↩ (goto) [0001A051] olw_char_rep_02: [empty]
+            [0001A02F] Ryder ⟨cond⟩: Why did you choose to work for the Charlatan instead of Sloane?
+            [0001A045] Char Rep: Doesn't matter now. The bitch is dead.
+            [0001A046] Ryder: Humor me.
+            [0001A047] Char Rep: Sloane had a habit of promoting her friends—not the qualified.
+            [0001A042] Char Rep: The Charlatan doesn't care who you are—just how you perform.
+            ↩ (goto) [0001A051] Char Rep: [empty]
         ├ option 2:
-            [0001A031] Hero: Why work for the Charlatan instead of Sloane?
-            [0001A02B] olw_char_rep_02: Because moving up in the Outcasts is a popularity contest. Sloane promotes her friends over the qualified.
-            ↩ (goto) [0001A042] olw_char_rep_02: The Charlatan doesn't care who you are—just how you perform.
+            [0001A031] Ryder: Why work for the Charlatan instead of Sloane?
+            [0001A02B] Char Rep: Because moving up in the Outcasts is a popularity contest. Sloane promotes her friends over the qualified.
+            ↩ (goto) [0001A042] Char Rep: The Charlatan doesn't care who you are—just how you perform.
         └─ merge ─┘
     ├ option 4:
-        [0001A02C] Hero ⟨cond⟩: You find out who's impersonating the Charlatan?
-        [0001A04F] olw_char_rep_02: No—still working it out. Why?
+        [0001A02C] Ryder ⟨cond⟩: You find out who's impersonating the Charlatan?
+        [0001A04F] Char Rep: No—still working it out. Why?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001A053] Hero: No reason—just curious.
-            ↩ (goto) [0001A051] olw_char_rep_02: [empty]
+            [0001A053] Ryder: No reason—just curious.
+            ↩ (goto) [0001A051] Char Rep: [empty]
         ├ option 2:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001A04E] Hero ⟨cond⟩: I could poke around. My alliance with the Collective is new. Getting to know its members shouldn't raise suspicion.
-                [0001A034] olw_char_rep_02: You've got a point. All right, here's what we know...
-                [0001A030] olw_char_rep_02: The drop point was in the sulfur springs, so the imposter should have high levels of sulfur in their clothes.
-                [0001A04D] Hero: SAM's sensors should be able to detect for that. Anything else I need to know?
-                [0001A03D] olw_char_rep_02: We found footprints that could be human or asari, but too smudged to get an exact size. That's all my intel.
-                ↩ (goto) [0001A051] olw_char_rep_02: [empty]
+                [0001A04E] Ryder ⟨cond⟩: I could poke around. My alliance with the Collective is new. Getting to know its members shouldn't raise suspicion.
+                [0001A034] Char Rep: You've got a point. All right, here's what we know...
+                [0001A030] Char Rep: The drop point was in the sulfur springs, so the imposter should have high levels of sulfur in their clothes.
+                [0001A04D] Ryder: SAM's sensors should be able to detect for that. Anything else I need to know?
+                [0001A03D] Char Rep: We found footprints that could be human or asari, but too smudged to get an exact size. That's all my intel.
+                ↩ (goto) [0001A051] Char Rep: [empty]
             ├ option 2:
-                [0001A044] Hero: The imposter wouldn't worry as much about an outsider poking around.
-                ↩ (goto) [0001A034] olw_char_rep_02: You've got a point. All right, here's what we know...
+                [0001A044] Ryder: The imposter wouldn't worry as much about an outsider poking around.
+                ↩ (goto) [0001A034] Char Rep: You've got a point. All right, here's what we know...
             └─ merge ─┘
         └─ merge ─┘
     ├ option 5:
-        [0001A052] Hero: Thanks for the chat.
+        [0001A052] Ryder: Thanks for the chat.
     └─ merge ─┘
 ├ option 2:
-    [0001A039] olw_char_rep_02: Pathfinder. Still here?
-    ↩ (goto) [0001A051] olw_char_rep_02: [empty]
+    [0001A039] Char Rep: Pathfinder. Still here?
+    ↩ (goto) [0001A051] Char Rep: [empty]
 └─ merge ─┘

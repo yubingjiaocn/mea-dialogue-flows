@@ -1,62 +1,62 @@
 # Game/Conversations/Crit/M4/m4_0550_sanctum_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/m4/m4_0550_sanctum_m.xml
 ==================================================
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0000C3E4] global_squad_male_human ⟨cond⟩: Is that a krogan...?
+    [0000C3E4] Squadmate (Human ♂) ⟨cond⟩: Is that a krogan...?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0000C38D] global_squad_krogan ⟨cond⟩: Not anymore, it isn't. Must be one of my missing scouts. I can't tell which one.
+        [0000C38D] Squadmate (Krogan / Drack) ⟨cond⟩: Not anymore, it isn't. Must be one of my missing scouts. I can't tell which one.
         [0000C39E] SAM: It's clear the kett are closing in on successfully exalting the species.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0000C3DC] Hero: They're driven and efficient, that's for sure.
+            [0000C3DC] Ryder: They're driven and efficient, that's for sure.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000C3B1] global_squad_krogan ⟨cond⟩: They must pay.
+                [0000C3B1] Squadmate (Krogan / Drack) ⟨cond⟩: They must pay.
             ├ option 2:
                 ↩ (goto) [0000C3AE] Narration: [empty]
             └─ merge ─┘
         ├ option 2:
-            [0000C3C9] Hero: I'm beginning to hate these guys.
+            [0000C3C9] Ryder: I'm beginning to hate these guys.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000C3DD] global_squad_krogan ⟨cond⟩: Get in line.
+                [0000C3DD] Squadmate (Krogan / Drack) ⟨cond⟩: Get in line.
                 ↩ (goto) [0000C3AE] Narration: [empty]
             ├ option 2:
                 ↩ (goto) [0000C3AE] Narration: [empty]
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0000C3C5] global_squad_asari ⟨cond⟩: It {i}was{/i}. Probably one of Drack's missing scouts.
+        [0000C3C5] Squadmate (Asari / Peebee) ⟨cond⟩: It {i}was{/i}. Probably one of Drack's missing scouts.
         [0000C3D8] SAM: The DNA is krogan, but drastically altered.
         ↩ (goto) [0000C39E] SAM: It's clear the kett are closing in on successfully exalting the species.
     ├ option 3:
-        [0000C38E] global_squad_angara ⟨cond⟩: It {i}was{/i}. Probably one of Drack's missing scouts.
+        [0000C38E] Squadmate (Angara / Jaal) ⟨cond⟩: It {i}was{/i}. Probably one of Drack's missing scouts.
         ↩ (goto) [0000C3F1] Narration: [empty]
     ├ option 4:
-        [0000C3A7] global_squad_turian ⟨cond⟩: It {i}was{/i}. Could be one of Drack's missing scouts.
+        [0000C3A7] Squadmate (Turian / Vetra) ⟨cond⟩: It {i}was{/i}. Could be one of Drack's missing scouts.
         ↩ (goto) [0000C3F1] Narration: [empty]
     ├ option 5:
-        [0000C3A8] global_squad_female_human ⟨cond⟩: It {i}was{/i}. One of Drack's missing scouts, maybe.
+        [0000C3A8] Squadmate (Human ♀) ⟨cond⟩: It {i}was{/i}. One of Drack's missing scouts, maybe.
         ↩ (goto) [0000C3F1] Narration: [empty]
     ├ option 6:
-        [0000C3C6] global_squad_male_human ⟨cond⟩: It {i}was{/i}. One of Drack's missing scouts? Son of a...
+        [0000C3C6] Squadmate (Human ♂) ⟨cond⟩: It {i}was{/i}. One of Drack's missing scouts? Son of a...
         ↩ (goto) [0000C3F1] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0000C3AC] global_squad_female_human ⟨cond⟩: Is that a krogan...?
-    ↩ (goto) [0000C3EF] global_squad_krogan: [empty]
+    [0000C3AC] Squadmate (Human ♀) ⟨cond⟩: Is that a krogan...?
+    ↩ (goto) [0000C3EF] Squadmate (Krogan / Drack): [empty]
 ├ option 3:
-    [0000C3A1] global_squad_turian ⟨cond⟩: Looks like a... krogan.
-    ↩ (goto) [0000C3EF] global_squad_krogan: [empty]
+    [0000C3A1] Squadmate (Turian / Vetra) ⟨cond⟩: Looks like a... krogan.
+    ↩ (goto) [0000C3EF] Squadmate (Krogan / Drack): [empty]
 ├ option 4:
-    [0000C391] global_squad_angara ⟨cond⟩: Is that a krogan...?
-    ↩ (goto) [0000C3EF] global_squad_krogan: [empty]
+    [0000C391] Squadmate (Angara / Jaal) ⟨cond⟩: Is that a krogan...?
+    ↩ (goto) [0000C3EF] Squadmate (Krogan / Drack): [empty]
 ├ option 5:
-    [0000C3F7] global_squad_asari ⟨cond⟩: Is that a krogan...?
-    ↩ (goto) [0000C3EF] global_squad_krogan: [empty]
+    [0000C3F7] Squadmate (Asari / Peebee) ⟨cond⟩: Is that a krogan...?
+    ↩ (goto) [0000C3EF] Squadmate (Krogan / Drack): [empty]
 ├ option 6:
-    ↩ (goto) [0000C3EF] global_squad_krogan: [empty]
+    ↩ (goto) [0000C3EF] Squadmate (Krogan / Drack): [empty]
 └─ merge ─┘

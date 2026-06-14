@@ -1,43 +1,43 @@
 # Game/Conversations/Crit/Crit_Ex/crit_ex_0200_shuttle_debrief_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0200_shuttle_debrief_d.xml
 ==================================================
-[00006BE4] Hero: So—no one has ever seen the inside of one of these places? Really?
-[00006BE8] global_squad_angara: None who lived to tell. Prisoners who go in are never seen again. They're "the disappeared."
+[00006BE4] Ryder: So—no one has ever seen the inside of one of these places? Really?
+[00006BE8] Squadmate (Angara / Jaal): None who lived to tell. Prisoners who go in are never seen again. They're "the disappeared."
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000C801] global_squad_female_human ⟨cond⟩: That's grim. No one's escaped?
-    [00006BF4] crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
-    [0000CAF4] crit_ex_res_fighter_3_multi: We lost so many fighters trying. The price was too high.
-    [00006BF5] crit_ex_res_fighter_1_multi: I like to believe that the kett take important angara from here to their home cluster.
-    [0000CAF6] global_squad_angara: What? As slaves?
-    [0000CAF5] crit_ex_res_fighter_1_multi: I guess...
-    [00006BF0] global_squad_angara: Death is better.
+    [0000C801] Squadmate (Human ♀) ⟨cond⟩: That's grim. No one's escaped?
+    [00006BF4] Ex Res Fighter: Sure, we've liberated kett work camps, but never these facilities.
+    [0000CAF4] Ex Res Fighter: We lost so many fighters trying. The price was too high.
+    [00006BF5] Ex Res Fighter: I like to believe that the kett take important angara from here to their home cluster.
+    [0000CAF6] Squadmate (Angara / Jaal): What? As slaves?
+    [0000CAF5] Ex Res Fighter: I guess...
+    [00006BF0] Squadmate (Angara / Jaal): Death is better.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00006BED] Hero: Life without freedom is... just... pointless.
-        [00006C81] Hero: What you guys are going through is a nightmare.
-        [00006BE6] crit_ex_res_fighter_3_multi: It's why we're excited to be part of this mission.
-        [0000CAF2] crit_ex_res_pilot_multi: We're here. And let's be quick—this storm's getting worse.
-        [00006BEF] Hero: Once we're through the shield, you take point. We'll look for Moshae Sjefa. Let's just try to stay safe. Okay?
-        [00006BEE] crit_ex_res_fighter_1_multi: Okay.
-        [00006BF1] crit_ex_res_fighter_2_multi: But Pathfinder, no one joins the Resistance to stay safe.
-        [00006BE2] crit_ex_res_pilot_multi: [Comm] Good luck. Radio me when you're ready to go.
+        [00006BED] Ryder: Life without freedom is... just... pointless.
+        [00006C81] Ryder: What you guys are going through is a nightmare.
+        [00006BE6] Ex Res Fighter: It's why we're excited to be part of this mission.
+        [0000CAF2] Ex Res Pilot: We're here. And let's be quick—this storm's getting worse.
+        [00006BEF] Ryder: Once we're through the shield, you take point. We'll look for Moshae Sjefa. Let's just try to stay safe. Okay?
+        [00006BEE] Ex Res Fighter: Okay.
+        [00006BF1] Ex Res Fighter: But Pathfinder, no one joins the Resistance to stay safe.
+        [00006BE2] Ex Res Pilot: [Comm] Good luck. Radio me when you're ready to go.
     ├ option 2:
-        [00006C80] Hero: Jaal, we can't just give in to blanket despair. We gotta have hope.
-        [00006BE9] Hero: It's why they fight. It's why we're here.
-        ↩ (goto) [00006BE6] crit_ex_res_fighter_3_multi: It's why we're excited to be part of this mission.
+        [00006C80] Ryder: Jaal, we can't just give in to blanket despair. We gotta have hope.
+        [00006BE9] Ryder: It's why they fight. It's why we're here.
+        ↩ (goto) [00006BE6] Ex Res Fighter: It's why we're excited to be part of this mission.
     └─ merge ─┘
 ├ option 2:
-    [0000C806] global_squad_male_human ⟨cond⟩: But haven't you staged rescues before?
-    ↩ (goto) [00006BF4] crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+    [0000C806] Squadmate (Human ♂) ⟨cond⟩: But haven't you staged rescues before?
+    ↩ (goto) [00006BF4] Ex Res Fighter: Sure, we've liberated kett work camps, but never these facilities.
 ├ option 3:
-    [0000C802] global_squad_asari ⟨cond⟩: Ooh, mysterious. No one's escaped?
-    ↩ (goto) [00006BF4] crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+    [0000C802] Squadmate (Asari / Peebee) ⟨cond⟩: Ooh, mysterious. No one's escaped?
+    ↩ (goto) [00006BF4] Ex Res Fighter: Sure, we've liberated kett work camps, but never these facilities.
 ├ option 4:
-    [0000C803] global_squad_turian ⟨cond⟩: And the angara slaves? What about them?
-    ↩ (goto) [00006BF4] crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+    [0000C803] Squadmate (Turian / Vetra) ⟨cond⟩: And the angara slaves? What about them?
+    ↩ (goto) [00006BF4] Ex Res Fighter: Sure, we've liberated kett work camps, but never these facilities.
 ├ option 5:
-    [0000C807] global_squad_krogan ⟨cond⟩: Figures. What about the slaves you've freed?
-    ↩ (goto) [00006BF4] crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+    [0000C807] Squadmate (Krogan / Drack) ⟨cond⟩: Figures. What about the slaves you've freed?
+    ↩ (goto) [00006BF4] Ex Res Fighter: Sure, we've liberated kett work camps, but never these facilities.
 └─ merge ─┘

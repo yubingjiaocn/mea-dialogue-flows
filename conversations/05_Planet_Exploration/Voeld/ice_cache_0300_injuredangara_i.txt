@@ -1,83 +1,83 @@
 # game/conversations/unc_ice/ice_cache_0300_injuredangara_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_cache_0300_injuredangara_i.xml
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000310B9] global_squad_angara ⟨cond⟩: Is she all right?
+    [000310B9] Squadmate (Angara / Jaal) ⟨cond⟩: Is she all right?
     [000310BD] SAM: She has lost a lot of blood.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000310E1] global_squad_angara ⟨cond⟩: Arosh enav, sister. Help is here.
-        [000310E2] ICE_cache_injured: I... I couldn't stop the bleeding. The supply crate was empty.
+        [000310E1] Squadmate (Angara / Jaal) ⟨cond⟩: Arosh enav, sister. Help is here.
+        [000310E2] Cache Injured: I... I couldn't stop the bleeding. The supply crate was empty.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00031100] Hero: We brought the supplies.
-            [00031151] ICE_cache_injured: Leave them in the cache and I can help myself. You need to get supplies to the other locations.
-            [00031155] ICE_cache_injured: There may be others like me, in dire need.
+            [00031100] Ryder: We brought the supplies.
+            [00031151] Cache Injured: Leave them in the cache and I can help myself. You need to get supplies to the other locations.
+            [00031155] Cache Injured: There may be others like me, in dire need.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0003115D] Hero: What happened to you?
-                [0003116B] ICE_cache_injured: My patrol was escorting a caravan of specimens from Hjara. The kett ambushed us.
-                [00031167] ICE_cache_injured: They took the cargo and some of the scientists. Killed everyone else.
-                [0003116A] ICE_cache_injured: I... I pretended to be dead. It kept me alive. A cowardly act.
+                [0003115D] Ryder: What happened to you?
+                [0003116B] Cache Injured: My patrol was escorting a caravan of specimens from Hjara. The kett ambushed us.
+                [00031167] Cache Injured: They took the cargo and some of the scientists. Killed everyone else.
+                [0003116A] Cache Injured: I... I pretended to be dead. It kept me alive. A cowardly act.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0003116D] Hero: Your death wouldn't have helped anyone. This way, you fight another day.
-                        [00031169] ICE_cache_injured: I get to fight another day because of you.
-                        ↩ (goto) [00031157] Hero: [empty]
+                        [0003116D] Ryder: Your death wouldn't have helped anyone. This way, you fight another day.
+                        [00031169] Cache Injured: I get to fight another day because of you.
+                        ↩ (goto) [00031157] Ryder: [empty]
                     ├ option 2:
-                        [0003116E] Hero: You fought to protect your people. You crawled here, bleeding, hoping to live to fight again.
-                        [00031168] Hero: I don't see a coward anywhere.
-                        [0003116F] ICE_cache_injured: Thank you.
-                        ↩ (goto) [00031157] Hero: [empty]
+                        [0003116E] Ryder: You fought to protect your people. You crawled here, bleeding, hoping to live to fight again.
+                        [00031168] Ryder: I don't see a coward anywhere.
+                        [0003116F] Cache Injured: Thank you.
+                        ↩ (goto) [00031157] Ryder: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) [00031157] Hero: [empty]
+                    ↩ (goto) [00031157] Ryder: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [0003115E] Hero: If you're all right, I'll get going.
+                [0003115E] Ryder: If you're all right, I'll get going.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00031161] ICE_cache_injured [OncePerGame]: Go. Go. Thank you and ansala venjyuri, whoever you are.
-                    [0003115A] Hero: Ryder.
-                    [0003115B] ICE_cache_injured: Ryder. I'll remember that. I hope to see you again, Ryder.
+                    [00031161] Cache Injured [OncePerGame]: Go. Go. Thank you and ansala venjyuri, whoever you are.
+                    [0003115A] Ryder: Ryder.
+                    [0003115B] Cache Injured: Ryder. I'll remember that. I hope to see you again, Ryder.
                 ├ option 2:
-                    [00031163] ICE_cache_injured: I will be fine. I promise.
+                    [00031163] Cache Injured: I will be fine. I promise.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [000310FE] Hero: You're still with us, that's good. Breathing, talking, also good. We've got the supplies to fix everything else.
-            [00031121] ICE_cache_injured: You have the medical supplies with you? Thank the stars.
-            ↩ (goto) [00031151] ICE_cache_injured: Leave them in the cache and I can help myself. You need to get supplies to the other locations.
+            [000310FE] Ryder: You're still with us, that's good. Breathing, talking, also good. We've got the supplies to fix everything else.
+            [00031121] Cache Injured: You have the medical supplies with you? Thank the stars.
+            ↩ (goto) [00031151] Cache Injured: Leave them in the cache and I can help myself. You need to get supplies to the other locations.
         └─ merge ─┘
     ├ option 2:
-        [000310E3] ICE_cache_injured: Help... help me please.
-        ↩ (goto) [000310E2] ICE_cache_injured: I... I couldn't stop the bleeding. The supply crate was empty.
+        [000310E3] Cache Injured: Help... help me please.
+        ↩ (goto) [000310E2] Cache Injured: I... I couldn't stop the bleeding. The supply crate was empty.
     └─ merge ─┘
 ├ option 2:
-    [000310BC] global_squad_male_human ⟨cond⟩: Check her vitals.
+    [000310BC] Squadmate (Human ♂) ⟨cond⟩: Check her vitals.
     ↩ (goto) [000310BD] SAM: She has lost a lot of blood.
 ├ option 3:
-    [000310BA] Hero: SAM, what's her status?
+    [000310BA] Ryder: SAM, what's her status?
     ↩ (goto) [000310BD] SAM: She has lost a lot of blood.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0003118F] ICE_cache_injured: You should be on your way.
-    ↩ (goto) [00031157] Hero: [empty]
+    [0003118F] Cache Injured: You should be on your way.
+    ↩ (goto) [00031157] Ryder: [empty]
 ├ option 2:
-    [00031192] ICE_cache_injured: I can't patch myself up until you refill the cache. Please?
-    ↩ (goto) [00031157] Hero: [empty]
+    [00031192] Cache Injured: I can't patch myself up until you refill the cache. Please?
+    ↩ (goto) [00031157] Ryder: [empty]
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000311BE] ICE_cache_injured [OncePerGame]: It is good to see you again, Ryder.
-    [000311C0] ICE_cache_injured: Dr. Harihn says I'll make a full recovery. In a few weeks, I could even be fighting kett again.
-    [000311BF] ICE_cache_injured: You saved my life. I'll always remember that.
+    [000311BE] Cache Injured [OncePerGame]: It is good to see you again, Ryder.
+    [000311C0] Cache Injured: Dr. Harihn says I'll make a full recovery. In a few weeks, I could even be fighting kett again.
+    [000311BF] Cache Injured: You saved my life. I'll always remember that.
 ├ option 2:
-    [000311C1] ICE_cache_injured: Stars keep you safe, Ryder.
+    [000311C1] Cache Injured: Stars keep you safe, Ryder.
 └─ merge ─┘
-↩ (goto) [00031157] Hero: [empty]
+↩ (goto) [00031157] Ryder: [empty]

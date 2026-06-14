@@ -1,21 +1,21 @@
 # game/conversations/unc/storms/stm_0315_research_station_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_0315_research_station_d.xml
 ==================================================
-[0001CA85] Hero: Well, what do you know. The outpost's research center is still intact.
+[0001CA85] Ryder: Well, what do you know. The outpost's research center is still intact.
 [0001C79E] SAM: Updating the Tempest on this critical recovery.
-[0001CABE] global_crew_science_officer: [Comm] Research was always key to the Initiative. We'll need it here too.
+[0001CABE] Suvi (Science Officer): [Comm] Research was always key to the Initiative. We'll need it here too.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001C79F] Hero: This tech is how we survive in Andromeda. Ingenuity on the ground.
+    [0001C79F] Ryder: This tech is how we survive in Andromeda. Ingenuity on the ground.
     [0001D3EA] SAM ⟨cond⟩: Someone else agrees. This research center was used recently to monitor the alien signal.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00025490] Hero ⟨cond⟩: Once we upgrade the shield module, we can find the source. And whoever else is looking.
+        [00025490] Ryder ⟨cond⟩: Once we upgrade the shield module, we can find the source. And whoever else is looking.
     ├ option 2:
-        [000254B8] Hero: This gives us the tools to find the source. And maybe whoever else is looking.
+        [000254B8] Ryder: This gives us the tools to find the source. And maybe whoever else is looking.
     └─ merge ─┘
 ├ option 2:
-    [0001CA8B] Hero: We're not scavenging anymore. This is how we rebuild.
+    [0001CA8B] Ryder: We're not scavenging anymore. This is how we rebuild.
     ↩ (goto) [0001D3EA] SAM ⟨cond⟩: Someone else agrees. This research center was used recently to monitor the alien signal.
 └─ merge ─┘

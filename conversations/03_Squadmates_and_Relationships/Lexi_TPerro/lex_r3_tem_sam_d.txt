@@ -1,74 +1,74 @@
 # game/conversations/rel/lexi/lex_r3_tem_sam_d
-# Primary speaker: global_humanark_asari_dr
+# Primary speaker: Dr. Lexi / Asari Doctor
 # Source: game/conversations/rel/lexi/lex_r3_tem_sam_d.xml
 ==================================================
-[0001D70C] global_humanark_asari_dr: We need to talk. About SAM.
+[0001D70C] Dr. Lexi / Asari Doctor: We need to talk. About SAM.
 [0001D708] SAM: Dr. T'Perro does not approve of how we escaped the kett containment field on the Archon's flagship.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001D722] global_humanark_asari_dr ⟨cond⟩: By stopping the Pathfinder's heart—no, I do not approve.
+    [0001D722] Dr. Lexi / Asari Doctor ⟨cond⟩: By stopping the Pathfinder's heart—no, I do not approve.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D719] Hero: Relax, doc. It turned out okay.
-        [0001D721] global_humanark_asari_dr: Dying—even temporarily—is never "okay."
+        [0001D719] Ryder: Relax, doc. It turned out okay.
+        [0001D721] Dr. Lexi / Asari Doctor: Dying—even temporarily—is never "okay."
         [0001D71E] Narration: Lexi rubs her temples and takes a moment to calm down.
-        [0001D70E] global_humanark_asari_dr: Ryder. SAM {i}killed{/i} you. Yes, he brought you back, but what if he didn't?
+        [0001D70E] Dr. Lexi / Asari Doctor: Ryder. SAM {i}killed{/i} you. Yes, he brought you back, but what if he didn't?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             [0001D70D] SAM ⟨cond⟩: I cannot learn without the Pathfinder. That would be akin to killing a part of myself.
-            [0001E0FB] global_humanark_asari_dr: You're lines of code. You can't die.
+            [0001E0FB] Dr. Lexi / Asari Doctor: You're lines of code. You can't die.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001D709] Hero: SAM would never hurt me.
+                [0001D709] Ryder: SAM would never hurt me.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
                     [0001E102] SAM ⟨cond⟩: Thank you, Sara.
-                    [0001D70A] global_humanark_asari_dr: Look. I'm not against SAM.
+                    [0001D70A] Dr. Lexi / Asari Doctor: Look. I'm not against SAM.
                     [0001E103] Narration: Lexi looks up towards the ceiling and speaks a little more loudly to address SAM.
                     [0001E0F9] Narration: Obviously, this isn't necessary, but Lexi is a bit flustered and frustrated.
-                    [0001D70F] global_humanark_asari_dr: I'm not against you, SAM.
-                    [0001D723] global_humanark_asari_dr: But my job's hard enough without an AI stopping your heart.
-                    [0001E101] global_humanark_asari_dr: Even to save your life.
+                    [0001D70F] Dr. Lexi / Asari Doctor: I'm not against you, SAM.
+                    [0001D723] Dr. Lexi / Asari Doctor: But my job's hard enough without an AI stopping your heart.
+                    [0001E101] Dr. Lexi / Asari Doctor: Even to save your life.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0001D71F] Hero: All right. I'll find a new party trick.
-                        [0001D71C] global_humanark_asari_dr: Have Gil teach you Three-Card Monte or something.
+                        [0001D71F] Ryder: All right. I'll find a new party trick.
+                        [0001D71C] Dr. Lexi / Asari Doctor: Have Gil teach you Three-Card Monte or something.
                         [0001D75C] SAM: Lexi. I apologize for any distress I have caused you.
-                        [0001E0FE] global_humanark_asari_dr: {i}(Sighs.){/i} And I'm sorry for calling you "lines of code."
-                        [0001E0FC] global_humanark_asari_dr: You're more than that. Even if you don't have cells to prove it.
+                        [0001E0FE] Dr. Lexi / Asari Doctor: {i}(Sighs.){/i} And I'm sorry for calling you "lines of code."
+                        [0001E0FC] Dr. Lexi / Asari Doctor: You're more than that. Even if you don't have cells to prove it.
                     ├ option 2:
-                        [0001D717] Hero: Your concern is noted, doctor.
-                        [0001D71B] global_humanark_asari_dr: Of course it has.
+                        [0001D717] Ryder: Your concern is noted, doctor.
+                        [0001D71B] Dr. Lexi / Asari Doctor: Of course it has.
                         ↩ (goto) [0001D75C] SAM: Lexi. I apologize for any distress I have caused you.
                     └─ merge ─┘
                 ├ option 2:
                     [0001E0FA] SAM ⟨cond⟩: Thank you, Scott.
-                    ↩ (goto) [0001D70A] global_humanark_asari_dr: Look. I'm not against SAM.
+                    ↩ (goto) [0001D70A] Dr. Lexi / Asari Doctor: Look. I'm not against SAM.
                 ├ option 3:
                     [0001E0FF] SAM: Thank you, Ryder.
-                    ↩ (goto) [0001D70A] global_humanark_asari_dr: Look. I'm not against SAM.
+                    ↩ (goto) [0001D70A] Dr. Lexi / Asari Doctor: Look. I'm not against SAM.
                 └─ merge ─┘
             ├ option 2:
-                [0001D71A] Hero: Hurting me goes against SAM's design.
-                [0001E0FD] global_humanark_asari_dr: Because AI have never acted against their designs before.
-                ↩ (goto) [0001D70A] global_humanark_asari_dr: Look. I'm not against SAM.
+                [0001D71A] Ryder: Hurting me goes against SAM's design.
+                [0001E0FD] Dr. Lexi / Asari Doctor: Because AI have never acted against their designs before.
+                ↩ (goto) [0001D70A] Dr. Lexi / Asari Doctor: Look. I'm not against SAM.
             └─ merge ─┘
         ├ option 2:
             [000229E8] SAM: I cannot learn without the Pathfinder. That would be akin to killing a part of myself.
-            ↩ (goto) [0001E0FB] global_humanark_asari_dr: You're lines of code. You can't die.
+            ↩ (goto) [0001E0FB] Dr. Lexi / Asari Doctor: You're lines of code. You can't die.
         └─ merge ─┘
     ├ option 2:
-        [0001D711] Hero: We didn't have a choice.
-        [0001E100] Hero: If there had been another option, I would've taken it.
-        [0001D707] global_humanark_asari_dr: How can you be so calm about this?
+        [0001D711] Ryder: We didn't have a choice.
+        [0001E100] Ryder: If there had been another option, I would've taken it.
+        [0001D707] Dr. Lexi / Asari Doctor: How can you be so calm about this?
         ↩ (goto) [0001D71E] Narration: Lexi rubs her temples and takes a moment to calm down.
     └─ merge ─┘
 ├ option 2:
-    [000229E4] global_humanark_asari_dr: By stopping the Pathfinder's heart—no, I do not approve.
+    [000229E4] Dr. Lexi / Asari Doctor: By stopping the Pathfinder's heart—no, I do not approve.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0001D719] Hero: Relax, doc. It turned out okay.
+        ↩ (goto) [0001D719] Ryder: Relax, doc. It turned out okay.
     ├ option 2:
-        ↩ (goto) [0001D711] Hero: We didn't have a choice.
+        ↩ (goto) [0001D711] Ryder: We didn't have a choice.
     └─ merge ─┘
 └─ merge ─┘

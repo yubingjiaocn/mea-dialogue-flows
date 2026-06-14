@@ -1,47 +1,47 @@
 # game/conversations/unc/storms/stm_6200_atk_site_1_battle_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_6200_atk_site_1_battle_b.xml
 ==================================================
-[00021018] Hero: There's Roekaar bunkered in Promise!
+[00021018] Ryder: There's Roekaar bunkered in Promise!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00021016] global_squad_angara ⟨cond⟩: Do not let that stand!
+    [00021016] Squadmate (Angara / Jaal) ⟨cond⟩: Do not let that stand!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00021017] global_squad_female_human ⟨cond⟩: We will not!
+        [00021017] Squadmate (Human ♀) ⟨cond⟩: We will not!
     ├ option 2:
-        [0002101A] global_squad_asari ⟨cond⟩: Wasn't planning on it!
+        [0002101A] Squadmate (Asari / Peebee) ⟨cond⟩: Wasn't planning on it!
     ├ option 3:
-        [00021019] global_squad_turian ⟨cond⟩: Shit no we won't!
+        [00021019] Squadmate (Turian / Vetra) ⟨cond⟩: Shit no we won't!
     ├ option 4:
-        [00021014] global_squad_male_human ⟨cond⟩: Hell no we won't!
+        [00021014] Squadmate (Human ♂) ⟨cond⟩: Hell no we won't!
     ├ option 5:
-        [00021015] global_squad_krogan ⟨cond⟩: Bust them up!
+        [00021015] Squadmate (Krogan / Drack) ⟨cond⟩: Bust them up!
     └─ merge ─┘
 ├ option 2:
-    [0002101C] global_squad_angara: [Comm] Do not let that stand!
+    [0002101C] Squadmate (Angara / Jaal): [Comm] Do not let that stand!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [00021017] global_squad_female_human ⟨cond⟩: We will not!
+        ↩ (goto) [00021017] Squadmate (Human ♀) ⟨cond⟩: We will not!
     ├ option 2:
-        ↩ (goto) [0002101A] global_squad_asari ⟨cond⟩: Wasn't planning on it!
+        ↩ (goto) [0002101A] Squadmate (Asari / Peebee) ⟨cond⟩: Wasn't planning on it!
     ├ option 3:
-        ↩ (goto) [00021019] global_squad_turian ⟨cond⟩: Shit no we won't!
+        ↩ (goto) [00021019] Squadmate (Turian / Vetra) ⟨cond⟩: Shit no we won't!
     ├ option 4:
-        ↩ (goto) [00021014] global_squad_male_human ⟨cond⟩: Hell no we won't!
+        ↩ (goto) [00021014] Squadmate (Human ♂) ⟨cond⟩: Hell no we won't!
     ├ option 5:
-        ↩ (goto) [00021015] global_squad_krogan ⟨cond⟩: Bust them up!
+        ↩ (goto) [00021015] Squadmate (Krogan / Drack) ⟨cond⟩: Bust them up!
     └─ merge ─┘
 └─ merge ─┘
-[00020909] Hero: They've got a Hydra! Watch your flanks!
+[00020909] Ryder: They've got a Hydra! Watch your flanks!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020906] global_squad_angara ⟨cond⟩: That's the last of them. We did it, Ryder.
+    [00020906] Squadmate (Angara / Jaal) ⟨cond⟩: That's the last of them. We did it, Ryder.
     [0002D183] SAM: Pathfinder. Akksul's shuttle is leaving orbit.
-    [00021070] global_extremist_leader: [Comm] I'll remember this. We're not finished.
-    [00021074] ustl_settle_01_admin_multi: [Comm] You are today. And we'll be ready next time.
-    [00021073] ustl_settle_01_admin_multi: [Comm] Come to Prodromos, Pathfinder. We owe you. Again.
+    [00021070] Global Extremist Leader: [Comm] I'll remember this. We're not finished.
+    [00021074] Settle 01 Admin: [Comm] You are today. And we'll be ready next time.
+    [00021073] Settle 01 Admin: [Comm] Come to Prodromos, Pathfinder. We owe you. Again.
 ├ option 2:
-    [00021071] global_squad_angara: [Comm] You broke them, Ryder. Akksul's shuttle is leaving orbit.
-    ↩ (goto) [00021070] global_extremist_leader: [Comm] I'll remember this. We're not finished.
+    [00021071] Squadmate (Angara / Jaal): [Comm] You broke them, Ryder. Akksul's shuttle is leaving orbit.
+    ↩ (goto) [00021070] Global Extremist Leader: [Comm] I'll remember this. We're not finished.
 └─ merge ─┘

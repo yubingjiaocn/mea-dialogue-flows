@@ -1,48 +1,48 @@
 # Game/Conversations/HUBS/Hub_Tem/Acquisition/Hub_Tem_Acquisition_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/hubs/hub_tem/Acquisition/Hub_Tem_Acquisition_m.xml
 ==================================================
 [0000853C] Narration: TEMP: Ryder ventures up the ramp of the Tempest, getting their first look at their new ship. Vetra and Harper follow.
-[00008539] global_squad_turian: Everything's state-of-the-art.
+[00008539] Squadmate (Turian / Vetra): Everything's state-of-the-art.
 [00008548] Narration: TEMP: Ryder starts making their way to the elevator.
-[00008541] global_squad_turian: Labs, sensors, exploration gear...
-[0000853D] global_squad_turian: Plus her crew, of course. The best in their field.
+[00008541] Squadmate (Turian / Vetra): Labs, sensors, exploration gear...
+[0000853D] Squadmate (Turian / Vetra): Plus her crew, of course. The best in their field.
 [000085AE] Narration: TEMP: Looking around in awe, the Player comes up against Dr. T'Perro.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00009A09] global_humanark_asari_dr ⟨cond⟩: Glad to see you're doing so well, Scott.
+    [00009A09] Dr. Lexi / Asari Doctor ⟨cond⟩: Glad to see you're doing so well, Scott.
     [00008EB0] Narration: TEMP: They go up the elevator. As they pass the engine core, Ryder cranes to see it.
-    [00008EB1] global_squad_turian: The engine core's based on the ark's ODSY drive.
+    [00008EB1] Squadmate (Turian / Vetra): The engine core's based on the ark's ODSY drive.
     [000099EE] Narration: TEMP: Gil Brodie looks out of the engine room.
-    [00009A0F] global_crew_tech_officer: But runs a hell of a lot quieter.
-    [000099E2] global_squad_turian: That's Gil Brodie. Engineer, mechanic, all-round wrench jockey.
+    [00009A0F] Gil (Tech Officer): But runs a hell of a lot quieter.
+    [000099E2] Squadmate (Turian / Vetra): That's Gil Brodie. Engineer, mechanic, all-round wrench jockey.
     [0000855A] Narration: TEMP: They start heading towards the research room.
     [0000854B] Narration: TEMP: Vetra and Ryder continue into the research room. SAM's voice echoes over the intercom.
-    [00008EB2] global_squad_turian: We call this the research room. There's space for upgrading equipment, gathering intel...
+    [00008EB2] Squadmate (Turian / Vetra): We call this the research room. There's space for upgrading equipment, gathering intel...
     [000099FD] SAM: Router engaged. Securing connection to Tempest.
-    [000099E9] global_crew_science_officer: Welcome aboard, SAM. And Ryder, of course!
-    [00008556] global_squad_turian: All run by Suvi Anwar, our science officer.
+    [000099E9] Suvi (Science Officer): Welcome aboard, SAM. And Ryder, of course!
+    [00008556] Squadmate (Turian / Vetra): All run by Suvi Anwar, our science officer.
     [00008561] Narration: TEMP: Suvi watches them go as Vetra leads Ryder up to the meeting room to continue the tour.
-    [000085B2] global_squad_turian: Your quarters are below. Plenty of space up here to get everyone together.
-    [00008ECC] global_squad_turian: It's all yours. She's light, stealthy, and the fastest ship in her class.
+    [000085B2] Squadmate (Turian / Vetra): Your quarters are below. Plenty of space up here to get everyone together.
+    [00008ECC] Squadmate (Turian / Vetra): It's all yours. She's light, stealthy, and the fastest ship in her class.
     [00008559] Narration: TEMP: Ryder leans on the rail and takes a moment, looking down at his/her new ship starting to come alive, and reflecting.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00008801] Hero: Every plan the Initiative made is out the window. Now it's on us to find the way.
+        [00008801] Ryder: Every plan the Initiative made is out the window. Now it's on us to find the way.
         [00008A71] Narration: TEMP: Vetra smiles encouragingly.
-        [00008A72] global_squad_turian: We all came here ready for a challenge.
-        [00008A74] global_squad_turian: Everyone's dying to meet their new Pathfinder. Take a minute to say hello, if you like.
-        [00009A16] global_squad_turian: When you're ready to fly, head over to the bridge. Our pilot should have everything good to go.
+        [00008A72] Squadmate (Turian / Vetra): We all came here ready for a challenge.
+        [00008A74] Squadmate (Turian / Vetra): Everyone's dying to meet their new Pathfinder. Take a minute to say hello, if you like.
+        [00009A16] Squadmate (Turian / Vetra): When you're ready to fly, head over to the bridge. Our pilot should have everything good to go.
     ├ option 2:
-        [00008558] Hero: It's really going to be something, isn't it?
+        [00008558] Ryder: It's really going to be something, isn't it?
         [0000855B] Narration: TEMP: Vetra grins.
-        [0000855C] global_squad_turian: I haven't even shown you the best part.
-        ↩ (goto) [00008A74] global_squad_turian: Everyone's dying to meet their new Pathfinder. Take a minute to say hello, if you like.
+        [0000855C] Squadmate (Turian / Vetra): I haven't even shown you the best part.
+        ↩ (goto) [00008A74] Squadmate (Turian / Vetra): Everyone's dying to meet their new Pathfinder. Take a minute to say hello, if you like.
     └─ merge ─┘
 ├ option 2:
-    [000099FE] global_humanark_asari_dr ⟨cond⟩: Good to see you're looking so well, Sara.
+    [000099FE] Dr. Lexi / Asari Doctor ⟨cond⟩: Good to see you're looking so well, Sara.
     ↩ (goto) [00008EB0] Narration: TEMP: They go up the elevator. As they pass the engine core, Ryder cranes to see it.
 ├ option 3:
-    [00009A0A] global_humanark_asari_dr: Ah, glad to see you looking well.
+    [00009A0A] Dr. Lexi / Asari Doctor: Ah, glad to see you looking well.
     ↩ (goto) [00008EB0] Narration: TEMP: They go up the elevator. As they pass the engine core, Ryder cranes to see it.
 └─ merge ─┘

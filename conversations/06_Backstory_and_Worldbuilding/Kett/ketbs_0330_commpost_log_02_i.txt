@@ -1,75 +1,75 @@
 # game/conversations/bstory/ket/ketbs_0330_commpost_log_02_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/ket/ketbs_0330_commpost_log_02_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000211D5] global_main_villain_lieutenant: [Audio Log] Communications: Efficiency in undoing the damage caused by the Archon noted.
-    [000211D4] global_main_villain_lieutenant: [Audio Log] Records show awareness and disapproval of the Archon's command from the start.
-    [000212FC] global_main_villain_lieutenant: [Audio Log] Service to be commended.
-    [000211DB] Hero: Sounds like some kett didn't approve of the Archon.
+    [000211D5] Archon's Lieutenant: [Audio Log] Communications: Efficiency in undoing the damage caused by the Archon noted.
+    [000211D4] Archon's Lieutenant: [Audio Log] Records show awareness and disapproval of the Archon's command from the start.
+    [000212FC] Archon's Lieutenant: [Audio Log] Service to be commended.
+    [000211DB] Ryder: Sounds like some kett didn't approve of the Archon.
 ├ option 2:
-    [00020319] global_main_villain_lieutenant: [Audio Log] Communications: Only Archon is aware of shifting situation in Heleus.
-    [0002031B] global_main_villain_lieutenant: [Audio Log] If Archon's opinion is that protocols are not to our benefit, accept his wisdom.
-    [0002031A] global_main_villain_lieutenant: [Audio Log] He is the Senate's voice in Heleus, and must be obeyed.
+    [00020319] Archon's Lieutenant: [Audio Log] Communications: Only Archon is aware of shifting situation in Heleus.
+    [0002031B] Archon's Lieutenant: [Audio Log] If Archon's opinion is that protocols are not to our benefit, accept his wisdom.
+    [0002031A] Archon's Lieutenant: [Audio Log] He is the Senate's voice in Heleus, and must be obeyed.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002031E] global_squad_krogan ⟨cond⟩ [OncePerGame]: She doesn't sound completely convinced.
+        [0002031E] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: She doesn't sound completely convinced.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00020326] Hero: It sounds like the kett are starting to question what the Archon's doing.
-            [0002032A] Hero: If this continues, it might be good for all of us.
+            [00020326] Ryder: It sounds like the kett are starting to question what the Archon's doing.
+            [0002032A] Ryder: If this continues, it might be good for all of us.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                [0002142C] global_squad_krogan ⟨cond⟩: So what do we do now?
+                [0002142C] Squadmate (Krogan / Drack) ⟨cond⟩: So what do we do now?
                 [0002143C] SAM: There is likely nothing to be done. But conflicts between factions seldom resolve quietly.
-                [0002143B] Hero: Then we'll just have to keep an ear to the ground for now. With luck, something will happen.
+                [0002143B] Ryder: Then we'll just have to keep an ear to the ground for now. With luck, something will happen.
             ├ option 2:
-                [00021427] global_squad_asari ⟨cond⟩: So what's next?
+                [00021427] Squadmate (Asari / Peebee) ⟨cond⟩: So what's next?
                 ↩ (goto) [0002143C] SAM: There is likely nothing to be done. But conflicts between factions seldom resolve quietly.
             ├ option 3:
-                [0002142A] global_squad_turian ⟨cond⟩: So what's next?
+                [0002142A] Squadmate (Turian / Vetra) ⟨cond⟩: So what's next?
                 ↩ (goto) [0002143C] SAM: There is likely nothing to be done. But conflicts between factions seldom resolve quietly.
             ├ option 4:
-                [00021426] global_squad_angara ⟨cond⟩: What do we do with this then?
+                [00021426] Squadmate (Angara / Jaal) ⟨cond⟩: What do we do with this then?
                 ↩ (goto) [0002143C] SAM: There is likely nothing to be done. But conflicts between factions seldom resolve quietly.
             ├ option 5:
-                [00021430] global_squad_male_human ⟨cond⟩: So what's next?
+                [00021430] Squadmate (Human ♂) ⟨cond⟩: So what's next?
                 ↩ (goto) [0002143C] SAM: There is likely nothing to be done. But conflicts between factions seldom resolve quietly.
             └─ merge ─┘
         ├ option 2:
-            [0002032B] Hero: I wouldn't read too much into it.
-            [00020328] Hero: Even if there's fractures within the kett, they still operate like a monolithic, unified army.
-            [0002032D] Hero: And that's who we have to contend with.
+            [0002032B] Ryder: I wouldn't read too much into it.
+            [00020328] Ryder: Even if there's fractures within the kett, they still operate like a monolithic, unified army.
+            [0002032D] Ryder: And that's who we have to contend with.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                [00021431] global_squad_krogan ⟨cond⟩: Good point, kid. But no reason we shouldn't monitor the situation.
-                [00021435] Hero: We'll keep an ear to the ground. See if anything comes up.
+                [00021431] Squadmate (Krogan / Drack) ⟨cond⟩: Good point, kid. But no reason we shouldn't monitor the situation.
+                [00021435] Ryder: We'll keep an ear to the ground. See if anything comes up.
             ├ option 2:
-                [0002142F] global_squad_asari ⟨cond⟩: Yeah. But something like this could blow up any minute.
-                ↩ (goto) [00021435] Hero: We'll keep an ear to the ground. See if anything comes up.
+                [0002142F] Squadmate (Asari / Peebee) ⟨cond⟩: Yeah. But something like this could blow up any minute.
+                ↩ (goto) [00021435] Ryder: We'll keep an ear to the ground. See if anything comes up.
             ├ option 3:
-                [0002142B] global_squad_turian ⟨cond⟩: This could develop into something more, even if it's nothing now.
-                ↩ (goto) [00021435] Hero: We'll keep an ear to the ground. See if anything comes up.
+                [0002142B] Squadmate (Turian / Vetra) ⟨cond⟩: This could develop into something more, even if it's nothing now.
+                ↩ (goto) [00021435] Ryder: We'll keep an ear to the ground. See if anything comes up.
             ├ option 4:
-                [00021429] global_squad_angara ⟨cond⟩: Conflicts like this can develop quickly. We should keep an eye out.
-                ↩ (goto) [00021435] Hero: We'll keep an ear to the ground. See if anything comes up.
+                [00021429] Squadmate (Angara / Jaal) ⟨cond⟩: Conflicts like this can develop quickly. We should keep an eye out.
+                ↩ (goto) [00021435] Ryder: We'll keep an ear to the ground. See if anything comes up.
             ├ option 5:
-                [0002142D] global_squad_male_human ⟨cond⟩: We're putting this aside? What if it develops?
-                ↩ (goto) [00021435] Hero: We'll keep an ear to the ground. See if anything comes up.
+                [0002142D] Squadmate (Human ♂) ⟨cond⟩: We're putting this aside? What if it develops?
+                ↩ (goto) [00021435] Ryder: We'll keep an ear to the ground. See if anything comes up.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0002031C] global_squad_female_human ⟨cond⟩ [OncePerGame]: Someone's repeating the party line.
-        ↩ (goto) [00020329] global_main_villain_lieutenant: [empty]
+        [0002031C] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Someone's repeating the party line.
+        ↩ (goto) [00020329] Archon's Lieutenant: [empty]
     ├ option 3:
-        [0002031F] global_squad_turian ⟨cond⟩ [OncePerGame]: I get the feeling there's more to this.
-        ↩ (goto) [00020329] global_main_villain_lieutenant: [empty]
+        [0002031F] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: I get the feeling there's more to this.
+        ↩ (goto) [00020329] Archon's Lieutenant: [empty]
     ├ option 4:
-        [00020320] global_squad_angara ⟨cond⟩ [OncePerGame]: There's something here. I don't believe the Primus and the Archon agree.
-        ↩ (goto) [00020329] global_main_villain_lieutenant: [empty]
+        [00020320] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: There's something here. I don't believe the Primus and the Archon agree.
+        ↩ (goto) [00020329] Archon's Lieutenant: [empty]
     ├ option 5:
-        [0002031D] global_squad_male_human ⟨cond⟩ [OncePerGame]: There's no way she believes what she's saying.
-        ↩ (goto) [00020329] global_main_villain_lieutenant: [empty]
+        [0002031D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: There's no way she believes what she's saying.
+        ↩ (goto) [00020329] Archon's Lieutenant: [empty]
     └─ merge ─┘
 └─ merge ─┘

@@ -1,95 +1,95 @@
 # game/conversations/hubs/hub_kad/rp/kad_extremist_0500_hideout_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/hubs/hub_kad/rp/kad_extremist_0500_hideout_d.xml
 ==================================================
 [00010AB9] Narration: Cinematic triggers on the door to the Roekaar hideout. Ryder and squad look around for Reyes at the meeting spot.
-[00010AA5] Hero: Reyes should be here.
+[00010AA5] Ryder: Reyes should be here.
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    [00010A7D] global_squad_male_human ⟨cond⟩: Keep it in your pants. Or out. Whatever.
-    [00010A88] Hero: That's not—
+    [00010A7D] Squadmate (Human ♂) ⟨cond⟩: Keep it in your pants. Or out. Whatever.
+    [00010A88] Ryder: That's not—
     [00010A82] Narration: The sound of a door opening cuts Ryder short.
     [00010A85] Narration: Three Roekaar have Ryder's squad at gunpoint. The Pathfinder slowlys lifts her hands.
-    [00010A90] kad_extremist_01: Don't move.
-    [00010AA2] Hero: Were we too loud?
-    [00010AA3] kad_extremist_01: Shut up. Farah will deal with you.
+    [00010A90] Extremist: Don't move.
+    [00010AA2] Ryder: Were we too loud?
+    [00010AA3] Extremist: Shut up. Farah will deal with you.
     [00010A7C] Narration: Farah inspects the Pathfinder. She looks hungry to kill them.
-    [00010AB4] kad_extremist_leader: I don't need to tell you what happens next.
+    [00010AB4] Extremist Leader: I don't need to tell you what happens next.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00010AB8] Hero: You're going to try to kill me and my friends. I've got a few questions first.
-        [00010AAE] kad_extremist_leader: No.
+        [00010AB8] Ryder: You're going to try to kill me and my friends. I've got a few questions first.
+        [00010AAE] Extremist Leader: No.
         [00010A8D] Narration: Farah takes out a knife. It's identical to the one found at the crime scene.
-        [00010AA7] kad_extremist_leader: You'll bleed. Just like the others.
-        [00010C81] Hero: So it's true. You murdered innocent people.
-        [00010C80] kad_extremist_leader: Invaders and sympathizers are not innocent. I will protect my home.
+        [00010AA7] Extremist Leader: You'll bleed. Just like the others.
+        [00010C81] Ryder: So it's true. You murdered innocent people.
+        [00010C80] Extremist Leader: Invaders and sympathizers are not innocent. I will protect my home.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00010A7E] Hero: Don't let your hate poison you. We can coexist.
+            [00010A7E] Ryder: Don't let your hate poison you. We can coexist.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00010AAC] kad_extremist_leader ⟨cond⟩: I saw Akksul die by your hand.
+                [00010AAC] Extremist Leader ⟨cond⟩: I saw Akksul die by your hand.
                 [00010AA1] Narration: When it's suddenly shot out of her hand!
-                [0002E02F] kad_extremist_leader: {i}(Shouts in pain.){/i}
-                [00010A89] kad_charlatan: Not so fast.
+                [0002E02F] Extremist Leader: {i}(Shouts in pain.){/i}
+                [00010A89] The Charlatan: Not so fast.
                 [00010AAA] Narration: Reyes Vidal joins Ryder's side, his gun still trained on Farah.
-                [00010AAD] Hero: You're late!
+                [00010AAD] Ryder: You're late!
                 [00010A99] Narration: Ryder and Reyes stand back to back.
-                [00010AB0] kad_charlatan: I've got a good reason. You'll see in three...
-                [00010AB3] kad_extremist_leader: Don't just stand there!
-                [00010A80] kad_charlatan: Two...
-                [00010A97] kad_extremist_leader: Kill them!
+                [00010AB0] The Charlatan: I've got a good reason. You'll see in three...
+                [00010AB3] Extremist Leader: Don't just stand there!
+                [00010A80] The Charlatan: Two...
+                [00010A97] Extremist Leader: Kill them!
                 [00010AB2] Narration: An explosion rocks the room, killing some of the Roekaar.
                 [00010AA0] Narration: Reyes smiles at Ryder.
-                [00010A92] kad_charlatan: Still mad?
+                [00010A92] The Charlatan: Still mad?
                 [00010AAF] Narration: Farah grabs a weapon from the floor. She is enraged.
-                [00010AA8] kad_extremist_leader: Die!
+                [00010AA8] Extremist Leader: Die!
             ├ option 2:
-                [00010AA4] kad_extremist_leader: Like here on Kadara? Sloane lies to my people and uses them for power.
-                [00010A8F] Hero: I'm not Sloane.
+                [00010AA4] Extremist Leader: Like here on Kadara? Sloane lies to my people and uses them for power.
+                [00010A8F] Ryder: I'm not Sloane.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00010A8E] Hero ⟨cond⟩: She would have killed Akksul. I showed him mercy.
-                    [00010A9C] kad_extremist_leader: I don't care!
+                    [00010A8E] Ryder ⟨cond⟩: She would have killed Akksul. I showed him mercy.
+                    [00010A9C] Extremist Leader: I don't care!
                     ↩ (goto) [00010A9E] Narration: [empty]
                 ├ option 2:
-                    [00010AA6] kad_extremist_leader: You are all the same.
+                    [00010AA6] Extremist Leader: You are all the same.
                     ↩ (goto) [00010A9E] Narration: [empty]
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [00010A7B] Hero: Like it or not, we're here to stay. You can't kill us all.
-            [00010AA9] kad_extremist_leader: I can try.
+            [00010A7B] Ryder: Like it or not, we're here to stay. You can't kill us all.
+            [00010AA9] Extremist Leader: I can try.
             ↩ (goto) [00010A9E] Narration: [empty]
         └─ merge ─┘
     ├ option 2:
-        [00010AB6] Hero: Settle down. We only came to talk.
-        [00010A9F] kad_extremist_leader: We don't talk with outsiders.
+        [00010AB6] Ryder: Settle down. We only came to talk.
+        [00010A9F] Extremist Leader: We don't talk with outsiders.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00010A9A] global_squad_angara ⟨cond⟩: What about one of your own?
-            [00010AB7] kad_extremist_leader: You eat with them. Travel with them. {i}Smell{/i} like them.
+            [00010A9A] Squadmate (Angara / Jaal) ⟨cond⟩: What about one of your own?
+            [00010AB7] Extremist Leader: You eat with them. Travel with them. {i}Smell{/i} like them.
             ↩ (goto) [00010A8D] Narration: Farah takes out a knife. It's identical to the one found at the crime scene.
         ├ option 2:
             ↩ (goto) [00010A8D] Narration: Farah takes out a knife. It's identical to the one found at the crime scene.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00011431] global_squad_asari ⟨cond⟩: Not getting enough at home, huh?
-    ↩ (goto) [00010A88] Hero: That's not—
+    [00011431] Squadmate (Asari / Peebee) ⟨cond⟩: Not getting enough at home, huh?
+    ↩ (goto) [00010A88] Ryder: That's not—
 ├ option 3:
-    [00010A96] global_squad_asari ⟨cond⟩: You like him.
-    ↩ (goto) [00010A88] Hero: That's not—
+    [00010A96] Squadmate (Asari / Peebee) ⟨cond⟩: You like him.
+    ↩ (goto) [00010A88] Ryder: That's not—
 ├ option 4:
-    [00010A8B] global_squad_angara ⟨cond⟩: You like him.
-    ↩ (goto) [00010A88] Hero: That's not—
+    [00010A8B] Squadmate (Angara / Jaal) ⟨cond⟩: You like him.
+    ↩ (goto) [00010A88] Ryder: That's not—
 ├ option 5:
-    [00010A81] global_squad_female_human ⟨cond⟩: Lonely, are we?
-    ↩ (goto) [00010A88] Hero: That's not—
+    [00010A81] Squadmate (Human ♀) ⟨cond⟩: Lonely, are we?
+    ↩ (goto) [00010A88] Ryder: That's not—
 ├ option 6:
-    [00010A8A] global_squad_turian ⟨cond⟩: So, is there something going on? You and Reyes?
-    ↩ (goto) [00010A88] Hero: That's not—
+    [00010A8A] Squadmate (Turian / Vetra) ⟨cond⟩: So, is there something going on? You and Reyes?
+    ↩ (goto) [00010A88] Ryder: That's not—
 ├ option 7:
     [00010A84] SAM: I detect no sign of Mr. Vidal, Pathfinder. Shall we proceed without him?
-    ↩ (goto) [00010A88] Hero: That's not—
+    ↩ (goto) [00010A88] Ryder: That's not—
 └─ merge ─┘

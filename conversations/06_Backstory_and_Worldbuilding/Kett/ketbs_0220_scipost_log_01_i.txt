@@ -1,41 +1,41 @@
 # game/conversations/bstory/ket/ketbs_0220_scipost_log_01_i
-# Primary speaker: ket_scipost_kettscholar
+# Primary speaker: Ket Scipost Kettscholar
 # Source: game/conversations/bstory/ket/ketbs_0220_scipost_log_01_i.xml
 ==================================================
 [0002004D] SAM: There is an audio log saved on this device, Pathfinder.
-[00020051] Hero: Kett? Let's get a translation, SAM.
+[00020051] Ryder: Kett? Let's get a translation, SAM.
 [00020050] SAM: Processing...
-[0002004F] ket_scipost_kettscholar: [Audio Log] The angaran genetic code that expresses as projection of a bioelectric field has been isolated.
-[00020053] ket_scipost_kettscholar: [Audio Log] The process to integrate this into our own genome is ongoing. Early successes documented.
-[00020054] ket_scipost_kettscholar: [Audio Log] Once complete, adaptation to be distributed to all Ascendant in Heleus.
-[00020052] ket_scipost_kettscholar: [Audio Log] Ability may also prove useful as part of base soldier configurations.
-[00020056] ket_scipost_kettscholar: [Audio Log] All research has been transmitted to the empire.
-[00020063] Hero: Exaltation is not just about making more kett. It's an exchange.
+[0002004F] Ket Scipost Kettscholar: [Audio Log] The angaran genetic code that expresses as projection of a bioelectric field has been isolated.
+[00020053] Ket Scipost Kettscholar: [Audio Log] The process to integrate this into our own genome is ongoing. Early successes documented.
+[00020054] Ket Scipost Kettscholar: [Audio Log] Once complete, adaptation to be distributed to all Ascendant in Heleus.
+[00020052] Ket Scipost Kettscholar: [Audio Log] Ability may also prove useful as part of base soldier configurations.
+[00020056] Ket Scipost Kettscholar: [Audio Log] All research has been transmitted to the empire.
+[00020063] Ryder: Exaltation is not just about making more kett. It's an exchange.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [00020061] global_squad_krogan ⟨cond⟩ [OncePerGame]: Let's see them try to "exchange" with the krogan.
-    [00020064] Hero: There's bound to be more here. Let's keep moving.
+    [00020061] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Let's see them try to "exchange" with the krogan.
+    [00020064] Ryder: There's bound to be more here. Let's keep moving.
 ├ option 2:
-    [00020060] global_squad_female_human ⟨cond⟩ [OncePerGame]: The kett get stronger while everyone else is annihilated.
-    ↩ (goto) [00020064] Hero: There's bound to be more here. Let's keep moving.
+    [00020060] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: The kett get stronger while everyone else is annihilated.
+    ↩ (goto) [00020064] Ryder: There's bound to be more here. Let's keep moving.
 ├ option 3:
-    [0002005E] global_squad_asari ⟨cond⟩ [OncePerGame]: So what's an original kett like? How much have they stolen?
-    ↩ (goto) [00020064] Hero: There's bound to be more here. Let's keep moving.
+    [0002005E] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: So what's an original kett like? How much have they stolen?
+    ↩ (goto) [00020064] Ryder: There's bound to be more here. Let's keep moving.
 ├ option 4:
-    [00020062] global_squad_turian ⟨cond⟩ [OncePerGame]: What a horror show.
-    ↩ (goto) [00020064] Hero: There's bound to be more here. Let's keep moving.
+    [00020062] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: What a horror show.
+    ↩ (goto) [00020064] Ryder: There's bound to be more here. Let's keep moving.
 ├ option 5:
-    [0002005F] global_squad_angara ⟨cond⟩ [OncePerGame]: An exchange requires consenting parties.
-    ↩ (goto) [00020064] Hero: There's bound to be more here. Let's keep moving.
+    [0002005F] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: An exchange requires consenting parties.
+    ↩ (goto) [00020064] Ryder: There's bound to be more here. Let's keep moving.
 ├ option 6:
-    [0002005D] global_squad_male_human ⟨cond⟩ [OncePerGame]: I think I saw a horror vid about this once.
-    ↩ (goto) [00020064] Hero: There's bound to be more here. Let's keep moving.
+    [0002005D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: I think I saw a horror vid about this once.
+    ↩ (goto) [00020064] Ryder: There's bound to be more here. Let's keep moving.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020058] Hero: Genetic manipulation. That's what the kett are about. Stealing traits from other species.
+    [00020058] Ryder: Genetic manipulation. That's what the kett are about. Stealing traits from other species.
     [00020059] SAM: Genetic manipulation instead of natural adaptation.
 ├ option 2:
-    [0002005A] Hero: Did I hear that right? Are the kett upgrading themselves so they can zap us?
+    [0002005A] Ryder: Did I hear that right? Are the kett upgrading themselves so they can zap us?
     ↩ (goto) [00020059] SAM: Genetic manipulation instead of natural adaptation.
 └─ merge ─┘

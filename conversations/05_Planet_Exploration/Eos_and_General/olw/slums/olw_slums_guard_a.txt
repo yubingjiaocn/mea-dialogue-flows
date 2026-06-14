@@ -1,40 +1,40 @@
 # game/conversations/unc/olw/slums/olw_slums_guard_a
-# Primary speaker: olw_outcast_guard_01
+# Primary speaker: Outcast Guard
 # Source: game/conversations/unc/olw/slums/olw_slums_guard_a.xml
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000284B3] olw_outcast_guard_01: {i}(Yawns.){/i} Just a few more hours.
+        [000284B3] Outcast Guard: {i}(Yawns.){/i} Just a few more hours.
     ├ option 2:
-        [000284BD] olw_outcast_guard_01: {i}(Hums.){/i} Damn I'm bored.
+        [000284BD] Outcast Guard: {i}(Hums.){/i} Damn I'm bored.
     ├ option 3:
-        [000284B5] olw_outcast_guard_01: Don't cause trouble.
+        [000284B5] Outcast Guard: Don't cause trouble.
     └─ merge ─┘
 ├ option 2:
-    [000284C2] olw_outcast_guard_01 [OncePerGame]: If Kaetus catches us on this frequency, he'll have my ass.
-    [000284BC] olw_outcast_guard_02: [Comm] {i}(Laughs.){/i} You worry too much. Coming to Tartarus later?
-    [000284AA] olw_outcast_guard_01: Depends. Who's coming?
+    [000284C2] Outcast Guard [OncePerGame]: If Kaetus catches us on this frequency, he'll have my ass.
+    [000284BC] Outcast Guard: [Comm] {i}(Laughs.){/i} You worry too much. Coming to Tartarus later?
+    [000284AA] Outcast Guard: Depends. Who's coming?
 ├ option 3:
-    [000284AE] kad_queen_guard_01 [OncePerGame]: [Comm] Mix up your patrol pattern. Report {i}anyone{/i} you think's suspicious.
-    [000284C1] olw_outcast_guard_01: There was someone poking around.
-    [000284B0] kad_queen_guard_01: [Comm] Who? What did they look like?
+    [000284AE] Queen Guard [OncePerGame]: [Comm] Mix up your patrol pattern. Report {i}anyone{/i} you think's suspicious.
+    [000284C1] Outcast Guard: There was someone poking around.
+    [000284B0] Queen Guard: [Comm] Who? What did they look like?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000284BF] olw_outcast_guard_01 ⟨cond⟩: She was wearing high-grade armor.
-        [000284B6] kad_queen_guard_01: [Comm] That's just the Pathfinder. She's not a threat. For now.
-        [000284AF] olw_outcast_guard_01: So I shouldn't keep tabs?
-        [000284BB] kad_queen_guard_01: [Comm] I didn’t say that...
+        [000284BF] Outcast Guard ⟨cond⟩: She was wearing high-grade armor.
+        [000284B6] Queen Guard: [Comm] That's just the Pathfinder. She's not a threat. For now.
+        [000284AF] Outcast Guard: So I shouldn't keep tabs?
+        [000284BB] Queen Guard: [Comm] I didn’t say that...
     ├ option 2:
-        [000284BA] olw_outcast_guard_01: He was wearing high-grade armor.
-        [000284A8] kad_queen_guard_01: [Comm] That’s just the Pathfinder. He’s not a threat. For now.
-        ↩ (goto) [000284AF] olw_outcast_guard_01: So I shouldn't keep tabs?
+        [000284BA] Outcast Guard: He was wearing high-grade armor.
+        [000284A8] Queen Guard: [Comm] That’s just the Pathfinder. He’s not a threat. For now.
+        ↩ (goto) [000284AF] Outcast Guard: So I shouldn't keep tabs?
     └─ merge ─┘
 ├ option 4:
-    [000284BE] olw_outcast_guard_02 [OncePerGame]: [Comm] Is it true? The Collective got Emel?
-    [000284B8] olw_outcast_guard_01: It's true.
-    [000284B9] olw_outcast_guard_02: [Comm] Why hasn't Sloane given the order yet?
-    [000284C0] olw_outcast_guard_02: [Comm] We should’ve cleared out these bastards ages ago!
-    [000284AD] olw_outcast_guard_01: Shut up. How many times do I have to tell you? This isn't a private frequency.
+    [000284BE] Outcast Guard [OncePerGame]: [Comm] Is it true? The Collective got Emel?
+    [000284B8] Outcast Guard: It's true.
+    [000284B9] Outcast Guard: [Comm] Why hasn't Sloane given the order yet?
+    [000284C0] Outcast Guard: [Comm] We should’ve cleared out these bastards ages ago!
+    [000284AD] Outcast Guard: Shut up. How many times do I have to tell you? This isn't a private frequency.
 └─ merge ─┘

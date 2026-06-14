@@ -1,26 +1,26 @@
 # game/conversations/crit/crit_ex/crit_ex_0250_post_cmbat_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0250_post_cmbat_b.xml
 ==================================================
-[000173E8] crit_ex_res_fighter_2_multi: [Comm] Pathfinder, come in.
-[000173EA] Hero: How's it going?
-[000173E1] crit_ex_res_fighter_2_multi: [Comm] We're undetected, but from where we're hiding, we can see some of our people.
-[000173EB] global_squad_angara: We seem to be in a kett-only area. No Moshae yet.
-[000173E5] crit_ex_res_fighter_2_multi: [Comm] Understood. We're just discussing our next move. We'll be in touch.
+[000173E8] Ex Res Fighter: [Comm] Pathfinder, come in.
+[000173EA] Ryder: How's it going?
+[000173E1] Ex Res Fighter: [Comm] We're undetected, but from where we're hiding, we can see some of our people.
+[000173EB] Squadmate (Angara / Jaal): We seem to be in a kett-only area. No Moshae yet.
+[000173E5] Ex Res Fighter: [Comm] Understood. We're just discussing our next move. We'll be in touch.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [000173E7] global_squad_female_human ⟨cond⟩: Who's making a speech?
+    [000173E7] Squadmate (Human ♀) ⟨cond⟩: Who's making a speech?
     [000173E3] SAM: Uncertain, but I am providing a translation regardless.
 ├ option 2:
-    [000173EC] global_squad_krogan ⟨cond⟩: Sounds like a speech. Vid, maybe?
+    [000173EC] Squadmate (Krogan / Drack) ⟨cond⟩: Sounds like a speech. Vid, maybe?
     ↩ (goto) [000173E3] SAM: Uncertain, but I am providing a translation regardless.
 ├ option 3:
-    [000173E4] global_squad_turian ⟨cond⟩: What is going on? Someone making a speech?
+    [000173E4] Squadmate (Turian / Vetra) ⟨cond⟩: What is going on? Someone making a speech?
     ↩ (goto) [000173E3] SAM: Uncertain, but I am providing a translation regardless.
 ├ option 4:
-    [000173E2] global_squad_asari ⟨cond⟩: Is that a speech? Where is it coming from?
+    [000173E2] Squadmate (Asari / Peebee) ⟨cond⟩: Is that a speech? Where is it coming from?
     ↩ (goto) [000173E3] SAM: Uncertain, but I am providing a translation regardless.
 ├ option 5:
-    [000173E9] global_squad_male_human ⟨cond⟩: Sounds like quite the production. Where's it coming from?
+    [000173E9] Squadmate (Human ♂) ⟨cond⟩: Sounds like quite the production. Where's it coming from?
     ↩ (goto) [000173E3] SAM: Uncertain, but I am providing a translation regardless.
 └─ merge ─┘

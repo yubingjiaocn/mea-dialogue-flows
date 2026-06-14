@@ -1,44 +1,44 @@
 # game/conversations/hubs/hub_kad/npcs/kad_nfa_recruiter_i
-# Primary speaker: kad_nfa_recruiter
+# Primary speaker: Nfa Recruiter
 # Source: game/conversations/hubs/hub_kad/npcs/kad_nfa_recruiter_i.xml
 ==================================================
-[00012A21] kad_nfa_recruiter: Pathfinder! Interested in the Collective's services?
-[00012A23] Hero: How do you know who I am?
-[00012A22] kad_nfa_recruiter: The Collective makes a point of knowing everything—and everyone—worth knowing in Heleus.
-[00012A1F] Hero: You sound more like information brokers than pirates.
-[00012A20] kad_nfa_recruiter: The two aren't mutually exclusive.
+[00012A21] Nfa Recruiter: Pathfinder! Interested in the Collective's services?
+[00012A23] Ryder: How do you know who I am?
+[00012A22] Nfa Recruiter: The Collective makes a point of knowing everything—and everyone—worth knowing in Heleus.
+[00012A1F] Ryder: You sound more like information brokers than pirates.
+[00012A20] Nfa Recruiter: The two aren't mutually exclusive.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001116C] Hero: I'm having trouble nailing down what the Collective is, exactly.
-    [00011166] kad_nfa_recruiter: Understandable. We aren't one thing. Think of us as a service provider—we cater to our clients needs.
-    [000111FA] Hero: Even if that means killing and stealing from people.
-    [000111FE] kad_nfa_recruiter: Survival is an ugly business, Pathfinder. But, unlike the Outcasts, we aren't governed by hate.
-    [000111FB] kad_nfa_recruiter: If the Initiative proved reasonable, I'm sure the Charlatan would be willing to work with the Nexus.
+    [0001116C] Ryder: I'm having trouble nailing down what the Collective is, exactly.
+    [00011166] Nfa Recruiter: Understandable. We aren't one thing. Think of us as a service provider—we cater to our clients needs.
+    [000111FA] Ryder: Even if that means killing and stealing from people.
+    [000111FE] Nfa Recruiter: Survival is an ugly business, Pathfinder. But, unlike the Outcasts, we aren't governed by hate.
+    [000111FB] Nfa Recruiter: If the Initiative proved reasonable, I'm sure the Charlatan would be willing to work with the Nexus.
     ↩ (goto) [0001116A] ?: [empty]
 ├ option 2:
-    [00011163] Hero: Who is the Charlatan? No one seems to have a straight answer.
-    [000111F5] kad_nfa_recruiter: The Charlatan is our leader and a private individual. Even I haven't seen them in person.
-    [000111F9] Hero: You take orders from a stranger?
-    [000111F4] kad_nfa_recruiter: I've met representatives. People who speak for the Charlatan and carry out their will.
-    [000111F7] kad_nfa_recruiter: Whoever the Charlatan is—man or woman—they provide. Information, care, resources. It's ours.
-    [000111F3] kad_nfa_recruiter: That's enough for me.
+    [00011163] Ryder: Who is the Charlatan? No one seems to have a straight answer.
+    [000111F5] Nfa Recruiter: The Charlatan is our leader and a private individual. Even I haven't seen them in person.
+    [000111F9] Ryder: You take orders from a stranger?
+    [000111F4] Nfa Recruiter: I've met representatives. People who speak for the Charlatan and carry out their will.
+    [000111F7] Nfa Recruiter: Whoever the Charlatan is—man or woman—they provide. Information, care, resources. It's ours.
+    [000111F3] Nfa Recruiter: That's enough for me.
     ↩ (goto) [0001116A] ?: [empty]
 ├ option 3:
-    [0001116B] Hero: Let's say I was interested in joining your little gang. How would I do that?
-    [000111FF] kad_nfa_recruiter: You're more high-profile than our usual members, but it's up to the Charlatan who joins.
-    [000111F2] kad_nfa_recruiter: If you have potential, our leader will reach out to you. Usually through a representative.
-    [000111FD] Hero: And then what?
-    [000111F1] kad_nfa_recruiter: For some, that's it. Others may have to pass a test. It's different for every recruit.
+    [0001116B] Ryder: Let's say I was interested in joining your little gang. How would I do that?
+    [000111FF] Nfa Recruiter: You're more high-profile than our usual members, but it's up to the Charlatan who joins.
+    [000111F2] Nfa Recruiter: If you have potential, our leader will reach out to you. Usually through a representative.
+    [000111FD] Ryder: And then what?
+    [000111F1] Nfa Recruiter: For some, that's it. Others may have to pass a test. It's different for every recruit.
     ↩ (goto) [0001116A] ?: [empty]
 ├ option 4:
-    [00011162] Hero: What's going on between the Collective and the Outcasts?
-    [00011209] kad_nfa_recruiter: Officially, nothing.
-    [0001120A] Hero: Unofficially?
-    [0001120B] kad_nfa_recruiter: Lines are being drawn, Pathfinder. That's all I can say.
+    [00011162] Ryder: What's going on between the Collective and the Outcasts?
+    [00011209] Nfa Recruiter: Officially, nothing.
+    [0001120A] Ryder: Unofficially?
+    [0001120B] Nfa Recruiter: Lines are being drawn, Pathfinder. That's all I can say.
     ↩ (goto) [0001116A] ?: [empty]
 ├ option 5:
-    [00011200] Hero: Thanks for your time.
-    [000111F6] kad_nfa_recruiter: Of course, Pathfinder. Of course.
+    [00011200] Ryder: Thanks for your time.
+    [000111F6] Nfa Recruiter: Of course, Pathfinder. Of course.
 └─ merge ─┘
-[00011168] kad_nfa_recruiter ⟨cond⟩: Pathfinder. You have questions about the Collective?
+[00011168] Nfa Recruiter ⟨cond⟩: Pathfinder. You have questions about the Collective?
 ↩ (goto) [0001116A] ?: [empty]

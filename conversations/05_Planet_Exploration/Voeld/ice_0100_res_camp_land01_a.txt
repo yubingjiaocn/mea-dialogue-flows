@@ -1,64 +1,64 @@
 # game/conversations/unc_ice/ice_0100_res_camp_land01_a
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_0100_res_camp_land01_a.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001264F] ice_roshev: Nice ship.
+    [0001264F] Roshev: Nice ship.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001F5A6] ice_roshev: Jaal. You finally back?
-        [0001F5AE] global_squad_angara: Not for long.
+        [0001F5A6] Roshev: Jaal. You finally back?
+        [0001F5AE] Squadmate (Angara / Jaal): Not for long.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001F5B0] ice_roshev: This is the squad Evfra sent?
-            [0001F5A8] ice_roshev: Heckt and the others are waiting on the shuttle pad.
+            [0001F5B0] Roshev: This is the squad Evfra sent?
+            [0001F5A8] Roshev: Heckt and the others are waiting on the shuttle pad.
         ├ option 2:
-            [0002CB76] ice_roshev: Who are they? You have the commander's authorization to take them to the base?
-            [0002CB75] global_squad_angara: Yes. She knows. We're headed to see her now.
+            [0002CB76] Roshev: Who are they? You have the commander's authorization to take them to the base?
+            [0002CB75] Squadmate (Angara / Jaal): Yes. She knows. We're headed to see her now.
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001F5A5] ice_roshev: You must be the squad Evfra sent.
-            ↩ (goto) [0001F5A8] ice_roshev: Heckt and the others are waiting on the shuttle pad.
+            [0001F5A5] Roshev: You must be the squad Evfra sent.
+            ↩ (goto) [0001F5A8] Roshev: Heckt and the others are waiting on the shuttle pad.
         ├ option 2:
-            [0002CB90] ice_roshev: So you're the aliens Jaal mentioned. If not for him, you wouldn't be allowed to set foot here.
-            [0002CB91] Hero: I understand.
-            [0002CB8F] ice_roshev: Commander Do Xeel will want to speak to you.
+            [0002CB90] Roshev: So you're the aliens Jaal mentioned. If not for him, you wouldn't be allowed to set foot here.
+            [0002CB91] Ryder: I understand.
+            [0002CB8F] Roshev: Commander Do Xeel will want to speak to you.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001F5AD] ice_roshev [OncePerGame]: You're back.
+        [0001F5AD] Roshev [OncePerGame]: You're back.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001F658] ice_roshev: Jaal? Stars, it's really you.
+            [0001F658] Roshev: Jaal? Stars, it's really you.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                [0001F655] ice_roshev: I can't believe you got the Moshae out of there. None of us can.
+                [0001F655] Roshev: I can't believe you got the Moshae out of there. None of us can.
             ├ option 2:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [0001F5A8] ice_roshev: Heckt and the others are waiting on the shuttle pad.
+                    ↩ (goto) [0001F5A8] Roshev: Heckt and the others are waiting on the shuttle pad.
                 ├ option 2:
-                    ↩ (goto) [0001F5A5] ice_roshev: You must be the squad Evfra sent.
+                    ↩ (goto) [0001F5A5] Roshev: You must be the squad Evfra sent.
                 └─ merge ─┘
             ├ option 3:
-                [0001F65A] ice_roshev: Commander Do Xeel is in her office. You should see her.
+                [0001F65A] Roshev: Commander Do Xeel is in her office. You should see her.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [0001F64D] ice_roshev: [empty]
+            ↩ (goto) [0001F64D] Roshev: [empty]
         └─ merge ─┘
     ├ option 2:
-        [0001F64A] ice_roshev: Hey.
+        [0001F64A] Roshev: Hey.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001F654] ice_roshev ⟨cond⟩: [empty]
+            ↩ (goto) [0001F654] Roshev ⟨cond⟩: [empty]
         ├ option 2:
-            ↩ (goto) [0001F656] ice_roshev: [empty]
+            ↩ (goto) [0001F656] Roshev: [empty]
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘
-[0002CB77] ice_roshev: Turn right once you get inside the base. If the snow blinds you, hug the wall.
+[0002CB77] Roshev: Turn right once you get inside the base. If the snow blinds you, hug the wall.

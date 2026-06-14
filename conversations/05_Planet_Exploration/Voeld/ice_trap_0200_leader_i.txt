@@ -1,53 +1,53 @@
 # game/conversations/unc_ice/ice_trap_0200_leader_i
-# Primary speaker: ice_ayran
+# Primary speaker: Ayran
 # Source: game/conversations/unc_ice/ice_trap_0200_leader_i.xml
 ==================================================
-[0003015F] ice_ayran: Thank you for the assistance. Any enemy of the kett is an ally of ours.
+[0003015F] Ayran: Thank you for the assistance. Any enemy of the kett is an ally of ours.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00030161] global_squad_angara ⟨cond⟩: What is this? We thought there were civilians who needed assistance!
-    [00030163] ice_ayran: Not this time. This was the Resistance giving the kett what they deserve.
-    [00030166] ice_ayran: There's a group that's been attacking shuttles. Killing and scavenging from innocents.
-    [00030164] ice_ayran: I knew the beacon would attract them. They'd come here to find unarmed, easy victims.
+    [00030161] Squadmate (Angara / Jaal) ⟨cond⟩: What is this? We thought there were civilians who needed assistance!
+    [00030163] Ayran: Not this time. This was the Resistance giving the kett what they deserve.
+    [00030166] Ayran: There's a group that's been attacking shuttles. Killing and scavenging from innocents.
+    [00030164] Ayran: I knew the beacon would attract them. They'd come here to find unarmed, easy victims.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0003016A] Hero: What happens when a real beacon goes up, and the kett slaughter everyone, thinking they're Resistance?
-        [0003016E] ice_ayran: They were already doing that!
+        [0003016A] Ryder: What happens when a real beacon goes up, and the kett slaughter everyone, thinking they're Resistance?
+        [0003016E] Ayran: They were already doing that!
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00030176] global_squad_angara ⟨cond⟩: These actions have put more in danger.
-            [00030179] ice_ayran: Enough talk. We have more kett incoming!
+            [00030176] Squadmate (Angara / Jaal) ⟨cond⟩: These actions have put more in danger.
+            [00030179] Ayran: Enough talk. We have more kett incoming!
         ├ option 2:
-            [00030174] global_squad_female_human ⟨cond⟩: But it's still a dirty move. More civilians might suffer because of it.
-            ↩ (goto) [00030179] ice_ayran: Enough talk. We have more kett incoming!
+            [00030174] Squadmate (Human ♀) ⟨cond⟩: But it's still a dirty move. More civilians might suffer because of it.
+            ↩ (goto) [00030179] Ayran: Enough talk. We have more kett incoming!
         ├ option 3:
-            [00030168] global_squad_male_human ⟨cond⟩: And now you've given them a better excuse!
-            ↩ (goto) [00030179] ice_ayran: Enough talk. We have more kett incoming!
+            [00030168] Squadmate (Human ♂) ⟨cond⟩: And now you've given them a better excuse!
+            ↩ (goto) [00030179] Ayran: Enough talk. We have more kett incoming!
         └─ merge ─┘
     ├ option 2:
-        [0003016B] Hero: Clever trap. Looks like they fell for it.
+        [0003016B] Ryder: Clever trap. Looks like they fell for it.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00030178] global_squad_male_human ⟨cond⟩: Are you serious, Ryder? This was a dirty trick and you know it.
-            ↩ (goto) [00030179] ice_ayran: Enough talk. We have more kett incoming!
+            [00030178] Squadmate (Human ♂) ⟨cond⟩: Are you serious, Ryder? This was a dirty trick and you know it.
+            ↩ (goto) [00030179] Ayran: Enough talk. We have more kett incoming!
         ├ option 2:
-            ↩ (goto) [00030174] global_squad_female_human ⟨cond⟩: But it's still a dirty move. More civilians might suffer because of it.
+            ↩ (goto) [00030174] Squadmate (Human ♀) ⟨cond⟩: But it's still a dirty move. More civilians might suffer because of it.
         ├ option 3:
-            ↩ (goto) [00030176] global_squad_angara ⟨cond⟩: These actions have put more in danger.
+            ↩ (goto) [00030176] Squadmate (Angara / Jaal) ⟨cond⟩: These actions have put more in danger.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00030162] Hero: You don't look like you're in distress. What was that beacon for?
-    [00030165] ice_ayran: To draw the kett. To give them what they deserve.
-    ↩ (goto) [00030166] ice_ayran: There's a group that's been attacking shuttles. Killing and scavenging from innocents.
+    [00030162] Ryder: You don't look like you're in distress. What was that beacon for?
+    [00030165] Ayran: To draw the kett. To give them what they deserve.
+    ↩ (goto) [00030166] Ayran: There's a group that's been attacking shuttles. Killing and scavenging from innocents.
 └─ merge ─┘
-[0003017A] ice_ayran: That's probably the last of them.
+[0003017A] Ayran: That's probably the last of them.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0003017E] ice_ayran: These kett will never make victims of Voeld's people again.
-    [0003017F] ice_ayran: Take what you want from the fallen. And thanks for all the help.
+    [0003017E] Ayran: These kett will never make victims of Voeld's people again.
+    [0003017F] Ayran: Take what you want from the fallen. And thanks for all the help.
 ├ option 2:
-    [00030183] ice_ayran: Yes, what we did was underhanded, but the kett have done the same. We're just returning the favor.
-    [00030181] ice_ayran: Thank you for the help, but it's best you were on your way.
+    [00030183] Ayran: Yes, what we did was underhanded, but the kett have done the same. We're just returning the favor.
+    [00030181] Ayran: Thank you for the help, but it's best you were on your way.
 └─ merge ─┘
-[00030B1B] ice_ayran: Just going over our checks before we get out of here.
+[00030B1B] Ayran: Just going over our checks before we get out of here.

@@ -1,101 +1,101 @@
 # game/conversations/loyalty/loy_asa/loy_asa_0380_rem_chamber_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/loy_asa/loy_asa_0380_rem_chamber_b.xml
 ==================================================
-[0001A6D6] global_kalinda: Hold them here, Krannit! I'm making sure they can't follow!
-[0001A6D2] global_squad_asari: Shit, what's she up to?
-[0001C805] Hero: Krannit's that krogan outlaw we keep running into.
-[0002ADAE] global_squad_asari: Looks like we'll run into him one more time.
-[0001A6DA] global_kalinda: [Comm] Hahaha! So long, losers!
-[0001BCDE] global_squad_asari: No, no, no! Kalinda's barred the way.
+[0001A6D6] Kalinda: Hold them here, Krannit! I'm making sure they can't follow!
+[0001A6D2] Squadmate (Asari / Peebee): Shit, what's she up to?
+[0001C805] Ryder: Krannit's that krogan outlaw we keep running into.
+[0002ADAE] Squadmate (Asari / Peebee): Looks like we'll run into him one more time.
+[0001A6DA] Kalinda: [Comm] Hahaha! So long, losers!
+[0001BCDE] Squadmate (Asari / Peebee): No, no, no! Kalinda's barred the way.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A6C1] global_squad_female_human ⟨cond⟩: Reception committee!
+    [0001A6C1] Squadmate (Human ♀) ⟨cond⟩: Reception committee!
 ├ option 2:
-    [0001A6C5] global_squad_male_human ⟨cond⟩: More assholes!
+    [0001A6C5] Squadmate (Human ♂) ⟨cond⟩: More assholes!
 ├ option 3:
-    [0001A6C8] global_squad_turian ⟨cond⟩: Reception committee!
+    [0001A6C8] Squadmate (Turian / Vetra) ⟨cond⟩: Reception committee!
 ├ option 4:
-    [0001A6CE] global_squad_krogan ⟨cond⟩: More of Kalinda's trash!
+    [0001A6CE] Squadmate (Krogan / Drack) ⟨cond⟩: More of Kalinda's trash!
 ├ option 5:
-    [0001A6C2] global_squad_angara ⟨cond⟩: She's sent more men our way!
+    [0001A6C2] Squadmate (Angara / Jaal) ⟨cond⟩: She's sent more men our way!
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001A6C6] global_squad_asari: Another dispenser! Get us some airborne support!
+    [0001A6C6] Squadmate (Asari / Peebee): Another dispenser! Get us some airborne support!
 ├ option 2:
-    [0002C9D9] global_squad_asari: I bet this console controls the dispenser.
+    [0002C9D9] Squadmate (Asari / Peebee): I bet this console controls the dispenser.
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A6C7] global_squad_female_human ⟨cond⟩: Friendly inbound.
+    [0001A6C7] Squadmate (Human ♀) ⟨cond⟩: Friendly inbound.
 ├ option 2:
-    [0001A6C4] global_squad_male_human ⟨cond⟩: Friendly inbound.
+    [0001A6C4] Squadmate (Human ♂) ⟨cond⟩: Friendly inbound.
 ├ option 3:
-    [0001A6C9] global_squad_turian ⟨cond⟩: Friendly inbound.
+    [0001A6C9] Squadmate (Turian / Vetra) ⟨cond⟩: Friendly inbound.
 ├ option 4:
-    [0001A6BF] global_squad_krogan ⟨cond⟩: Friendly inbound.
+    [0001A6BF] Squadmate (Krogan / Drack) ⟨cond⟩: Friendly inbound.
 ├ option 5:
-    [0001A6CC] global_squad_angara ⟨cond⟩: Ally inbound.
+    [0001A6CC] Squadmate (Angara / Jaal) ⟨cond⟩: Ally inbound.
 └─ merge ─┘
-[0001CCB5] global_squad_asari: Krannit's down!
-[0002B31C] global_squad_asari: Up there, above the gate. Another power node.
+[0001CCB5] Squadmate (Asari / Peebee): Krannit's down!
+[0002B31C] Squadmate (Asari / Peebee): Up there, above the gate. Another power node.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002C9FB] global_squad_asari: Work your magic, little guy.
+        [0002C9FB] Squadmate (Asari / Peebee): Work your magic, little guy.
     ├ option 2:
         [0002C9EF] SAM: Scanning the disabled node will direct the allied Observer to it.
     └─ merge ─┘
 ├ option 2:
-    [0002C9F0] global_squad_asari: There's got to be a console for the dispenser around here.
+    [0002C9F0] Squadmate (Asari / Peebee): There's got to be a console for the dispenser around here.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ↩ (goto) [0002C9EF] SAM: Scanning the disabled node will direct the allied Observer to it.
 ├ option 2:
-    ↩ (goto) [0002C9FB] global_squad_asari: Work your magic, little guy.
+    ↩ (goto) [0002C9FB] Squadmate (Asari / Peebee): Work your magic, little guy.
 └─ merge ─┘
 [0001C91F] SAM: To open the dormant gate, the conduit node needs repair.
 [0001A6D8] SAM: The conduit node is damaged. As before, if you deploy an allied Observer, it will enact repairs and open the gate.
-[0001A761] global_squad_asari: All right! We're back in the game.
+[0001A761] Squadmate (Asari / Peebee): All right! We're back in the game.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002CA40] global_squad_asari: Come on, Ryder—scan the gate node so the bot will repair it.
+    [0002CA40] Squadmate (Asari / Peebee): Come on, Ryder—scan the gate node so the bot will repair it.
 ├ option 2:
-    [0002CA3F] global_squad_asari: Got to access the console to activate the dispenser.
+    [0002CA3F] Squadmate (Asari / Peebee): Got to access the console to activate the dispenser.
 └─ merge ─┘
 [0001B8AA] SAM: The console here will summon an allied Observer to repair the damaged gateway node.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002AD9A] global_squad_asari [OncePerGame]: We're almost to the signal source. Let's go!
+    [0002AD9A] Squadmate (Asari / Peebee) [OncePerGame]: We're almost to the signal source. Let's go!
 ├ option 2:
-    [0002AD9E] global_squad_asari [OncePerGame]: We have to move—Kalinda's probably there by now!
+    [0002AD9E] Squadmate (Asari / Peebee) [OncePerGame]: We have to move—Kalinda's probably there by now!
 └─ merge ─┘
-[0001CD1D] global_squad_asari: Good, our new friends are coming along. They'll come in handy.
+[0001CD1D] Squadmate (Asari / Peebee): Good, our new friends are coming along. They'll come in handy.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     [0001A6D1] SAM: They are in a state of pronounced degradation—it's certain the source of the signal is the reason.
 ├ option 2:
-    [0001B8AB] global_squad_asari: The Observers are going to repair the nodes!
-    [0001B8B1] Hero: Hope they last.
+    [0001B8AB] Squadmate (Asari / Peebee): The Observers are going to repair the nodes!
+    [0001B8B1] Ryder: Hope they last.
 ├ option 3:
-    [0001B8A8] global_squad_asari: Here they come.
+    [0001B8A8] Squadmate (Asari / Peebee): Here they come.
 └─ merge ─┘
 ┌─ BRANCH (8) ─┐
 ├ option 1:
-    [0001B749] global_squad_asari: We should scan the area. There must be a way past this gate.
+    [0001B749] Squadmate (Asari / Peebee): We should scan the area. There must be a way past this gate.
 ├ option 2:
-    [0001A75E] global_squad_asari: Hello, friendly Observers.
+    [0001A75E] Squadmate (Asari / Peebee): Hello, friendly Observers.
 ├ option 3:
-    [0001A6D7] global_squad_asari: Wait—the Observers are doing it!
+    [0001A6D7] Squadmate (Asari / Peebee): Wait—the Observers are doing it!
 ├ option 4:
     [0001A75D] SAM: There is a damaged gateway. I suggest scanning for a solution.
 ├ option 5:
-    [0001BCDF] Hero: We'll find another.
+    [0001BCDF] Ryder: We'll find another.
 ├ option 6:
-    [0001C804] global_kalinda: [Comm] Krannit, status report, damn it—did you stop them?
+    [0001C804] Kalinda: [Comm] Krannit, status report, damn it—did you stop them?
 ├ option 7:
 ├ option 8:
     [0001B8AD] SAM: Pathfinder, the console ahead is another access point for your allied Observers.

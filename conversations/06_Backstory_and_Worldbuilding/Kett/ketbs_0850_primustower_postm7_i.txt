@@ -1,85 +1,85 @@
 # game/conversations/bstory/ket/ketbs_0850_primustower_postm7_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/ket/ketbs_0850_primustower_postm7_i.xml
 ==================================================
 [00020E86] SAM: Pathfinder, this is the machine that is sending out those transmissions.
 [00020E8B] SAM: It is currently broadcasting something.
-[00020E8C] Hero: Put it on.
-[00020E8F] global_main_villain_lieutenant: [Audio Log] We have no use for those who echo the Archon. Adhere to the kett ways, or be discarded.
-[00020E93] global_main_villain_lieutenant: [Audio Log] The purge has only just begun.
+[00020E8C] Ryder: Put it on.
+[00020E8F] Archon's Lieutenant: [Audio Log] We have no use for those who echo the Archon. Adhere to the kett ways, or be discarded.
+[00020E93] Archon's Lieutenant: [Audio Log] The purge has only just begun.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020E94] Hero: If the kett are fighting amongst themselves, that helps us.
+    [00020E94] Ryder: If the kett are fighting amongst themselves, that helps us.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020F9B] global_squad_female_human ⟨cond⟩ [OncePerGame]: If the Primus doesn't run out of people to kill.
-        [00021654] global_squad_female_human: I worry about how this affects our fight against the kett.
+        [00020F9B] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: If the Primus doesn't run out of people to kill.
+        [00021654] Squadmate (Human ♀): I worry about how this affects our fight against the kett.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00021657] Hero: After they're done with the angara, they'll move on to us.
-            [0002165C] Hero: We need to gain a foothold here, make sure we're strong enough to take them when they come.
-            [00020FEB] Hero: SAM, is there anything else here?
+            [00021657] Ryder: After they're done with the angara, they'll move on to us.
+            [0002165C] Ryder: We need to gain a foothold here, make sure we're strong enough to take them when they come.
+            [00020FEB] Ryder: SAM, is there anything else here?
             [00020FEA] SAM: No, Pathfinder.
-            [00020FE9] Hero: Back out into Heleus, then.
+            [00020FE9] Ryder: Back out into Heleus, then.
         ├ option 2:
-            [00021656] Hero: We know more about them now. They're not all alike. They can go their own way.
-            [0002165A] Hero: Maybe that means, I don't know... maybe it means that one day, we'll be able to reason with them.
-            ↩ (goto) [00020FEB] Hero: SAM, is there anything else here?
+            [00021656] Ryder: We know more about them now. They're not all alike. They can go their own way.
+            [0002165A] Ryder: Maybe that means, I don't know... maybe it means that one day, we'll be able to reason with them.
+            ↩ (goto) [00020FEB] Ryder: SAM, is there anything else here?
         └─ merge ─┘
     ├ option 2:
-        [00020F9D] global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know if that's fighting. That wasn't a fair fight.
-        [0002164F] global_squad_asari: How does this affect us and our struggle against them?
+        [00020F9D] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: I don't know if that's fighting. That wasn't a fair fight.
+        [0002164F] Squadmate (Asari / Peebee): How does this affect us and our struggle against them?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00021657] Hero: After they're done with the angara, they'll move on to us.
+            ↩ (goto) [00021657] Ryder: After they're done with the angara, they'll move on to us.
         ├ option 2:
-            ↩ (goto) [00021656] Hero: We know more about them now. They're not all alike. They can go their own way.
+            ↩ (goto) [00021656] Ryder: We know more about them now. They're not all alike. They can go their own way.
         └─ merge ─┘
     ├ option 3:
-        [00020F9F] global_squad_turian ⟨cond⟩ [OncePerGame]: It won't last long if she keeps up like that.
-        [00021652] global_squad_turian: I want to know what this means for us, fighting them.
+        [00020F9F] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: It won't last long if she keeps up like that.
+        [00021652] Squadmate (Turian / Vetra): I want to know what this means for us, fighting them.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00021657] Hero: After they're done with the angara, they'll move on to us.
+            ↩ (goto) [00021657] Ryder: After they're done with the angara, they'll move on to us.
         ├ option 2:
-            ↩ (goto) [00021656] Hero: We know more about them now. They're not all alike. They can go their own way.
+            ↩ (goto) [00021656] Ryder: We know more about them now. They're not all alike. They can go their own way.
         └─ merge ─┘
     ├ option 4:
-        [00020F9E] global_squad_angara ⟨cond⟩ [OncePerGame]: lt won't take long for the Primus to eliminate her enemies.
-        [00021650] global_squad_angara: I wonder what this means for our fight with the kett.
+        [00020F9E] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: lt won't take long for the Primus to eliminate her enemies.
+        [00021650] Squadmate (Angara / Jaal): I wonder what this means for our fight with the kett.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00021657] Hero: After they're done with the angara, they'll move on to us.
+            ↩ (goto) [00021657] Ryder: After they're done with the angara, they'll move on to us.
         ├ option 2:
-            ↩ (goto) [00021656] Hero: We know more about them now. They're not all alike. They can go their own way.
+            ↩ (goto) [00021656] Ryder: We know more about them now. They're not all alike. They can go their own way.
         └─ merge ─┘
     ├ option 5:
-        [00020FA0] global_squad_male_human ⟨cond⟩ [OncePerGame]: That's not gonna last once her "purge" is over.
-        [00021651] global_squad_male_human: I wonder what this means for the kett, and for us.
+        [00020FA0] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: That's not gonna last once her "purge" is over.
+        [00021651] Squadmate (Human ♂): I wonder what this means for the kett, and for us.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00021657] Hero: After they're done with the angara, they'll move on to us.
+            ↩ (goto) [00021657] Ryder: After they're done with the angara, they'll move on to us.
         ├ option 2:
-            ↩ (goto) [00021656] Hero: We know more about them now. They're not all alike. They can go their own way.
+            ↩ (goto) [00021656] Ryder: We know more about them now. They're not all alike. They can go their own way.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00020E96] Hero: I know they're kett, but I feel sorry for them.
+    [00020E96] Ryder: I know they're kett, but I feel sorry for them.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020FE8] global_squad_female_human ⟨cond⟩ [OncePerGame]: Yeah, I know what you mean.
-        ↩ (goto) [00021654] global_squad_female_human: I worry about how this affects our fight against the kett.
+        [00020FE8] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Yeah, I know what you mean.
+        ↩ (goto) [00021654] Squadmate (Human ♀): I worry about how this affects our fight against the kett.
     ├ option 2:
-        [00020FE7] global_squad_asari ⟨cond⟩ [OncePerGame]: I know what you mean.
-        ↩ (goto) [0002164F] global_squad_asari: How does this affect us and our struggle against them?
+        [00020FE7] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: I know what you mean.
+        ↩ (goto) [0002164F] Squadmate (Asari / Peebee): How does this affect us and our struggle against them?
     ├ option 3:
-        [00020FEC] global_squad_turian ⟨cond⟩ [OncePerGame]: Not me.
-        ↩ (goto) [00021652] global_squad_turian: I want to know what this means for us, fighting them.
+        [00020FEC] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Not me.
+        ↩ (goto) [00021652] Squadmate (Turian / Vetra): I want to know what this means for us, fighting them.
     ├ option 4:
-        [00020FED] global_squad_angara ⟨cond⟩ [OncePerGame]: I don't.
-        ↩ (goto) [00021650] global_squad_angara: I wonder what this means for our fight with the kett.
+        [00020FED] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: I don't.
+        ↩ (goto) [00021650] Squadmate (Angara / Jaal): I wonder what this means for our fight with the kett.
     ├ option 5:
-        [00020FE6] global_squad_male_human ⟨cond⟩ [OncePerGame]: Only a little bit.
-        ↩ (goto) [00021651] global_squad_male_human: I wonder what this means for the kett, and for us.
+        [00020FE6] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Only a little bit.
+        ↩ (goto) [00021651] Squadmate (Human ♂): I wonder what this means for the kett, and for us.
     └─ merge ─┘
 └─ merge ─┘

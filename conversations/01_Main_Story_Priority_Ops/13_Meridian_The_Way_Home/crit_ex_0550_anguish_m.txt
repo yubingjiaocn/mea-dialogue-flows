@@ -1,112 +1,112 @@
 # Game/Conversations/Crit/Crit_Ex/crit_ex_0550_anguish_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0550_anguish_m.xml
 ==================================================
-[00006B22] Hero: Jaal.
-[00006B2A] global_squad_angara: They are us.
+[00006B22] Ryder: Jaal.
+[00006B2A] Squadmate (Angara / Jaal): They are us.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000CA21] global_squad_krogan ⟨cond⟩: Yeah.
-    [00006B36] global_squad_angara: {i}(Weeps.){/i}
+    [0000CA21] Squadmate (Krogan / Drack) ⟨cond⟩: Yeah.
+    [00006B36] Squadmate (Angara / Jaal): {i}(Weeps.){/i}
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0000CA24] global_squad_krogan ⟨cond⟩: We don't have much time.
+        [0000CA24] Squadmate (Krogan / Drack) ⟨cond⟩: We don't have much time.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [0000CA20] global_squad_krogan ⟨cond⟩: Let's keep looking. This isn't the only room.
-            [00006B31] Hero: We'd better find her fast.
-            [00006B25] global_squad_angara: They're us.
-            [00006B2D] Hero: Yeah...
-            [00007952] global_squad_angara: How many have I killed, not knowing? Ryder, I did not know.
+            [0000CA20] Squadmate (Krogan / Drack) ⟨cond⟩: Let's keep looking. This isn't the only room.
+            [00006B31] Ryder: We'd better find her fast.
+            [00006B25] Squadmate (Angara / Jaal): They're us.
+            [00006B2D] Ryder: Yeah...
+            [00007952] Squadmate (Angara / Jaal): How many have I killed, not knowing? Ryder, I did not know.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00006DD6] Hero: Jaal, the blame belongs with the kett.
-                [00006DD4] global_squad_angara: There's no comfort in that.
-                [00007954] Hero: No. But maybe fuel for the Resistance.
-                [000099BC] global_squad_angara: Maybe.
+                [00006DD6] Ryder: Jaal, the blame belongs with the kett.
+                [00006DD4] Squadmate (Angara / Jaal): There's no comfort in that.
+                [00007954] Ryder: No. But maybe fuel for the Resistance.
+                [000099BC] Squadmate (Angara / Jaal): Maybe.
                 ┌─ BRANCH (5) ─┐
                 ├ option 1:
-                    [0000CA29] global_squad_turian ⟨cond⟩: [Comm] Ryder! Jaal! I got her. She's here!
+                    [0000CA29] Squadmate (Turian / Vetra) ⟨cond⟩: [Comm] Ryder! Jaal! I got her. She's here!
                     ┌─ BRANCH (5) ─┐
                     ├ option 1:
-                        [0000CA31] global_squad_krogan ⟨cond⟩: Move! Let's go!
-                        [000099BE] Hero: SAM! Get me into that room, now!
-                        [00006B24] global_squad_angara: {i}(Yells.){/i}
+                        [0000CA31] Squadmate (Krogan / Drack) ⟨cond⟩: Move! Let's go!
+                        [000099BE] Ryder: SAM! Get me into that room, now!
+                        [00006B24] Squadmate (Angara / Jaal): {i}(Yells.){/i}
                         [00006B2F] SAM: Initiating decontamination bypass hack.
-                        [000099BF] crit_ex_grand_kett: No!
+                        [000099BF] Ex Grand Kett: No!
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
                         ├ option 2:
                         └─ merge ─┘
                     ├ option 2:
-                        [0000CA34] global_squad_turian ⟨cond⟩: Let's go!
-                        ↩ (goto) [000099BE] Hero: SAM! Get me into that room, now!
+                        [0000CA34] Squadmate (Turian / Vetra) ⟨cond⟩: Let's go!
+                        ↩ (goto) [000099BE] Ryder: SAM! Get me into that room, now!
                     ├ option 3:
-                        [0000CA2F] global_squad_male_human ⟨cond⟩: We have to move!
-                        ↩ (goto) [000099BE] Hero: SAM! Get me into that room, now!
+                        [0000CA2F] Squadmate (Human ♂) ⟨cond⟩: We have to move!
+                        ↩ (goto) [000099BE] Ryder: SAM! Get me into that room, now!
                     ├ option 4:
-                        [0000CA33] global_squad_female_human ⟨cond⟩: Go. Go!
-                        ↩ (goto) [000099BE] Hero: SAM! Get me into that room, now!
+                        [0000CA33] Squadmate (Human ♀) ⟨cond⟩: Go. Go!
+                        ↩ (goto) [000099BE] Ryder: SAM! Get me into that room, now!
                     ├ option 5:
-                        [00006B2C] global_squad_asari ⟨cond⟩: C'mon, c'mon.
-                        ↩ (goto) [000099BE] Hero: SAM! Get me into that room, now!
+                        [00006B2C] Squadmate (Asari / Peebee) ⟨cond⟩: C'mon, c'mon.
+                        ↩ (goto) [000099BE] Ryder: SAM! Get me into that room, now!
                     └─ merge ─┘
                 ├ option 2:
-                    [0000CA1C] global_squad_krogan ⟨cond⟩: [Comm] Down here. Found her.
+                    [0000CA1C] Squadmate (Krogan / Drack) ⟨cond⟩: [Comm] Down here. Found her.
                     ↩ (goto) [00006B21] Narration: [empty]
                 ├ option 3:
-                    [0000CA28] global_squad_asari ⟨cond⟩: [Comm] Ryder! Jaal! She's here, hurry!
+                    [0000CA28] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] Ryder! Jaal! She's here, hurry!
                     ↩ (goto) [00006B21] Narration: [empty]
                 ├ option 4:
-                    [0000CA27] global_squad_male_human ⟨cond⟩: [Comm] Ryder! Jaal! She's down here!
+                    [0000CA27] Squadmate (Human ♂) ⟨cond⟩: [Comm] Ryder! Jaal! She's down here!
                     ↩ (goto) [00006B21] Narration: [empty]
                 ├ option 5:
-                    [00006B33] global_squad_female_human ⟨cond⟩: [Comm] Ryder! Jaal! I found her. Down here.
+                    [00006B33] Squadmate (Human ♀) ⟨cond⟩: [Comm] Ryder! Jaal! I found her. Down here.
                     ↩ (goto) [00006B21] Narration: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [00006B20] Hero: How can I help? What do you need?
-                [00006B28] global_squad_angara: That is kind. I... don't know.
-                [00007953] Hero: Well, then let's start by finding the Moshae. If anyone can figure out what this means for the angara, I'm guessing it's her.
-                [0000A292] global_squad_angara: You're probably right.
+                [00006B20] Ryder: How can I help? What do you need?
+                [00006B28] Squadmate (Angara / Jaal): That is kind. I... don't know.
+                [00007953] Ryder: Well, then let's start by finding the Moshae. If anyone can figure out what this means for the angara, I'm guessing it's her.
+                [0000A292] Squadmate (Angara / Jaal): You're probably right.
                 ↩ (goto) [00007955] Narration: [empty]
             └─ merge ─┘
         ├ option 2:
-            [0000CA12] global_squad_turian ⟨cond⟩: The Moshae...
-            ↩ (goto) [00006B31] Hero: We'd better find her fast.
+            [0000CA12] Squadmate (Turian / Vetra) ⟨cond⟩: The Moshae...
+            ↩ (goto) [00006B31] Ryder: We'd better find her fast.
         ├ option 3:
-            [0000CA1B] global_squad_male_human ⟨cond⟩: I'll scout ahead. The Moshae's bound to be here somewhere.
-            ↩ (goto) [00006B31] Hero: We'd better find her fast.
+            [0000CA1B] Squadmate (Human ♂) ⟨cond⟩: I'll scout ahead. The Moshae's bound to be here somewhere.
+            ↩ (goto) [00006B31] Ryder: We'd better find her fast.
         ├ option 4:
-            [0000CA1D] global_squad_female_human ⟨cond⟩: There are more rooms. I'll keep scanning for her.
-            ↩ (goto) [00006B31] Hero: We'd better find her fast.
+            [0000CA1D] Squadmate (Human ♀) ⟨cond⟩: There are more rooms. I'll keep scanning for her.
+            ↩ (goto) [00006B31] Ryder: We'd better find her fast.
         ├ option 5:
-            [00006B2E] global_squad_asari ⟨cond⟩: I'll keep scanning for her—it looks like there are other rooms like this.
-            ↩ (goto) [00006B31] Hero: We'd better find her fast.
+            [00006B2E] Squadmate (Asari / Peebee) ⟨cond⟩: I'll keep scanning for her—it looks like there are other rooms like this.
+            ↩ (goto) [00006B31] Ryder: We'd better find her fast.
         └─ merge ─┘
     ├ option 2:
-        [0000CA1E] global_squad_turian ⟨cond⟩: I'll keep scanning for the Moshae. She's got to be here somewhere.
+        [0000CA1E] Squadmate (Turian / Vetra) ⟨cond⟩: I'll keep scanning for the Moshae. She's got to be here somewhere.
         ↩ (goto) [00006B27] Narration: [empty]
     ├ option 3:
-        [0000CA13] global_squad_male_human ⟨cond⟩: We, ah, have t—
+        [0000CA13] Squadmate (Human ♂) ⟨cond⟩: We, ah, have t—
         ↩ (goto) [00006B27] Narration: [empty]
     ├ option 4:
-        [0000CA16] global_squad_female_human ⟨cond⟩: The Moshae...
+        [0000CA16] Squadmate (Human ♀) ⟨cond⟩: The Moshae...
         ↩ (goto) [00006B27] Narration: [empty]
     ├ option 5:
-        [00006B37] global_squad_asari ⟨cond⟩: The Moshae...
+        [00006B37] Squadmate (Asari / Peebee) ⟨cond⟩: The Moshae...
         ↩ (goto) [00006B27] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0000CA15] global_squad_turian ⟨cond⟩: Jaal. I'm—
-    ↩ (goto) [00006B36] global_squad_angara: {i}(Weeps.){/i}
+    [0000CA15] Squadmate (Turian / Vetra) ⟨cond⟩: Jaal. I'm—
+    ↩ (goto) [00006B36] Squadmate (Angara / Jaal): {i}(Weeps.){/i}
 ├ option 3:
-    [0000CA26] global_squad_asari ⟨cond⟩: Jaal. I'm—
-    ↩ (goto) [00006B36] global_squad_angara: {i}(Weeps.){/i}
+    [0000CA26] Squadmate (Asari / Peebee) ⟨cond⟩: Jaal. I'm—
+    ↩ (goto) [00006B36] Squadmate (Angara / Jaal): {i}(Weeps.){/i}
 ├ option 4:
-    [0000CA14] global_squad_male_human ⟨cond⟩: Well, that's...
-    ↩ (goto) [00006B36] global_squad_angara: {i}(Weeps.){/i}
+    [0000CA14] Squadmate (Human ♂) ⟨cond⟩: Well, that's...
+    ↩ (goto) [00006B36] Squadmate (Angara / Jaal): {i}(Weeps.){/i}
 ├ option 5:
-    [00006B35] global_squad_female_human ⟨cond⟩: Jaal. I'm—
-    ↩ (goto) [00006B36] global_squad_angara: {i}(Weeps.){/i}
+    [00006B35] Squadmate (Human ♀) ⟨cond⟩: Jaal. I'm—
+    ↩ (goto) [00006B36] Squadmate (Angara / Jaal): {i}(Weeps.){/i}
 └─ merge ─┘

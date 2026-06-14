@@ -1,193 +1,193 @@
 # game/conversations/unc/storms/stm_0930_outpost_supply_i
-# Primary speaker: stm_outpost_staff_supply
+# Primary speaker: Outpost Staff Supply
 # Source: game/conversations/unc/storms/stm_0930_outpost_supply_i.xml
 ==================================================
-[00017A18] stm_outpost_staff_supply [OncePerGame]: Hello. Kim Connor: supplies, trade, procurement. Anything you need, I can provide.
+[00017A18] Outpost Staff Supply [OncePerGame]: Hello. Kim Connor: supplies, trade, procurement. Anything you need, I can provide.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001DE14] stm_outpost_staff_supply ⟨cond⟩: Though you do have the Queen Quartermaster beside you.
-    [0001DE17] Hero: You know Vetra?
+    [0001DE14] Outpost Staff Supply ⟨cond⟩: Though you do have the Queen Quartermaster beside you.
+    [0001DE17] Ryder: You know Vetra?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001DE13] global_squad_turian ⟨cond⟩: Back on the Nexus, Connor worked with me to get everything for the Tempest.
-        [0001DE5F] stm_outpost_staff_supply: But I need ground under my feet. And soon, hopefully, trade will flourish on Eos.
+        [0001DE13] Squadmate (Turian / Vetra) ⟨cond⟩: Back on the Nexus, Connor worked with me to get everything for the Tempest.
+        [0001DE5F] Outpost Staff Supply: But I need ground under my feet. And soon, hopefully, trade will flourish on Eos.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [00017A20] Hero [OncePerConversation]: Does the outpost have everything it needs?
+            [00017A20] Ryder [OncePerConversation]: Does the outpost have everything it needs?
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                [00017A21] stm_outpost_staff_supply ⟨cond⟩: Bradley and I are stockpiling. Canned food, fuel, element zero: all sealed underground.
-                [0001DFC5] stm_outpost_staff_supply: We are no longer in lean times, so we can prepare for what may come.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [00017A21] Outpost Staff Supply ⟨cond⟩: Bradley and I are stockpiling. Canned food, fuel, element zero: all sealed underground.
+                [0001DFC5] Outpost Staff Supply: We are no longer in lean times, so we can prepare for what may come.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 2:
-                [0001DFBD] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: We have a shortage of vehicle parts, but I'm using that to requisition a manufacturing plant.
-                [0001DFC6] stm_outpost_staff_supply: Another big step towards self-sufficiency.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DFBD] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: We have a shortage of vehicle parts, but I'm using that to requisition a manufacturing plant.
+                [0001DFC6] Outpost Staff Supply: Another big step towards self-sufficiency.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 3:
-                [0001DFBF] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: Enough to support more mining and exploration teams, which means more raw materials.
+                [0001DFBF] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: Enough to support more mining and exploration teams, which means more raw materials.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002ACDD] stm_outpost_staff_supply ⟨cond⟩: Fuel for Hainly's labs. She's already working in there night and day.
-                    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                    [0002ACDD] Outpost Staff Supply ⟨cond⟩: Fuel for Hainly's labs. She's already working in there night and day.
+                    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                 ├ option 2:
-                    [0001DFC4] stm_outpost_staff_supply ⟨cond⟩: And I can trade those for luxury items. Never underestimate the effect of a good bottle of whiskey on morale.
-                    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                    [0001DFC4] Outpost Staff Supply ⟨cond⟩: And I can trade those for luxury items. Never underestimate the effect of a good bottle of whiskey on morale.
+                    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                 └─ merge ─┘
             ├ option 4:
-                [0001DFC0] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: We run through construction materials almost as fast as I can source them.
-                [0001DFC2] stm_outpost_staff_supply: But that means we're growing. As long as I have toilet paper, there are few complaints.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DFC0] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: We run through construction materials almost as fast as I can source them.
+                [0001DFC2] Outpost Staff Supply: But that means we're growing. As long as I have toilet paper, there are few complaints.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 5:
-                [0001DEBE] stm_outpost_staff_supply [OncePerGame]: The Nexus furnished us with the basics, but that isn't enough for a home. Providing the rest is my responsibility.
+                [0001DEBE] Outpost Staff Supply [OncePerGame]: The Nexus furnished us with the basics, but that isn't enough for a home. Providing the rest is my responsibility.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002ACDF] stm_outpost_staff_supply ⟨cond⟩: Feeding a whole barracks of soldiers. This should be fun.
-                    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                    [0002ACDF] Outpost Staff Supply ⟨cond⟩: Feeding a whole barracks of soldiers. This should be fun.
+                    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                 ├ option 2:
-                    [0002ACE0] stm_outpost_staff_supply ⟨cond⟩: The labs can't work without good logistics. They'll have it.
-                    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                    [0002ACE0] Outpost Staff Supply ⟨cond⟩: The labs can't work without good logistics. They'll have it.
+                    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                 └─ merge ─┘
             ├ option 6:
-                [0001DFC1] stm_outpost_staff_supply: Enough to greet our favorite guest, Pathfinder.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DFC1] Outpost Staff Supply: Enough to greet our favorite guest, Pathfinder.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 2:
-            [00017A37] Hero: Is Eos trading with any new partners?
+            [00017A37] Ryder: Is Eos trading with any new partners?
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                [0001DF94] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: Meridian. Isn't it strange to say? Like "Yes, we're trading with Atlantis now."
-                [0001DF95] stm_outpost_staff_supply: Our first outpost and our most remote, assisting one another. A good omen.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DF94] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: Meridian. Isn't it strange to say? Like "Yes, we're trading with Atlantis now."
+                [0001DF95] Outpost Staff Supply: Our first outpost and our most remote, assisting one another. A good omen.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 2:
-                [0001DEB9] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: Kadara Port, but finding trustworthy sources there is a careful dance.
+                [0001DEB9] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: Kadara Port, but finding trustworthy sources there is a careful dance.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001DEC5] global_squad_turian ⟨cond⟩: Let me guess: the Nexus is itchy about trading with their exiles?
-                    [0001DEC4] stm_outpost_staff_supply: That, too.
-                    [0001DECE] stm_outpost_staff_supply: Pirates don't trade, they take. I'm buying armor and munitions so they don't mistake Eos for a target.
+                    [0001DEC5] Squadmate (Turian / Vetra) ⟨cond⟩: Let me guess: the Nexus is itchy about trading with their exiles?
+                    [0001DEC4] Outpost Staff Supply: That, too.
+                    [0001DECE] Outpost Staff Supply: Pirates don't trade, they take. I'm buying armor and munitions so they don't mistake Eos for a target.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002ACEA] stm_outpost_staff_supply ⟨cond⟩: Though our soldiers would give them a warm welcome, I'm sure.
-                        ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                        [0002ACEA] Outpost Staff Supply ⟨cond⟩: Though our soldiers would give them a warm welcome, I'm sure.
+                        ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                     ├ option 2:
-                        ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                        ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) [0001DECE] stm_outpost_staff_supply: Pirates don't trade, they take. I'm buying armor and munitions so they don't mistake Eos for a target.
+                    ↩ (goto) [0001DECE] Outpost Staff Supply: Pirates don't trade, they take. I'm buying armor and munitions so they don't mistake Eos for a target.
                 └─ merge ─┘
             ├ option 3:
-                [0001DEBA] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: I found contacts on Aya who are willing to trade. The supplies they have are... novel.
-                [0001DEC3] stm_outpost_staff_supply: But we and the angara are both in need. It's a good beginning.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DEBA] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: I found contacts on Aya who are willing to trade. The supplies they have are... novel.
+                [0001DEC3] Outpost Staff Supply: But we and the angara are both in need. It's a good beginning.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 4:
-                [0001DEBC] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: Right now? Just the Nexus. But I have contracts with wildcat salvagers and independent miners. There will be more.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DEBC] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: Right now? Just the Nexus. But I have contracts with wildcat salvagers and independent miners. There will be more.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 5:
-                [0001DEB6] stm_outpost_staff_supply: No one new since we spoke. But that will change.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DEB6] Outpost Staff Supply: No one new since we spoke. But that will change.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 3:
-            [00017A28] Hero: You said you know Vetra. What's she really like?
+            [00017A28] Ryder: You said you know Vetra. What's she really like?
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                [0001DEA7] global_squad_turian ⟨cond⟩: Not a word, Connor.
-                [0001DEA9] stm_outpost_staff_supply: As you like. Of course, you can't always be listening...
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DEA7] Squadmate (Turian / Vetra) ⟨cond⟩: Not a word, Connor.
+                [0001DEA9] Outpost Staff Supply: As you like. Of course, you can't always be listening...
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 2:
-                [0001DF9D] stm_outpost_staff_supply ⟨cond⟩: I hear you and she are very close these days.
-                [0001DF9C] stm_outpost_staff_supply: Be good to her. She gives a lot of herself—someone needs to give back.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001DF9D] Outpost Staff Supply ⟨cond⟩: I hear you and she are very close these days.
+                [0001DF9C] Outpost Staff Supply: Be good to her. She gives a lot of herself—someone needs to give back.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 3:
-                [00017A32] stm_outpost_staff_supply: Ah, Vetra. You're lucky to have her. Few weathered the mutiny on the Nexus as gracefully.
-                [00017A27] stm_outpost_staff_supply: The mutineers tried to convince her to join them. She refused, yet many of them are still her contacts and allies.
-                [0001DF1F] stm_outpost_staff_supply: If Vetra Nyx has advice for you, I'd listen.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [00017A32] Outpost Staff Supply: Ah, Vetra. You're lucky to have her. Few weathered the mutiny on the Nexus as gracefully.
+                [00017A27] Outpost Staff Supply: The mutineers tried to convince her to join them. She refused, yet many of them are still her contacts and allies.
+                [0001DF1F] Outpost Staff Supply: If Vetra Nyx has advice for you, I'd listen.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 4:
-            [00017A3D] Hero: So how did you end up here, Connor?
+            [00017A3D] Ryder: So how did you end up here, Connor?
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                [00017A31] stm_outpost_staff_supply [OncePerGame]: Me? You're the grand explorer. I fill out requisition forms.
-                [0001DFE8] Hero: Really? Everyone here has some kind of story.
-                [00017A39] stm_outpost_staff_supply: I left mine back home. Or—they're still... Ask me another time.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [00017A31] Outpost Staff Supply [OncePerGame]: Me? You're the grand explorer. I fill out requisition forms.
+                [0001DFE8] Ryder: Really? Everyone here has some kind of story.
+                [00017A39] Outpost Staff Supply: I left mine back home. Or—they're still... Ask me another time.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 2:
-                [0001E195] stm_outpost_staff_supply ⟨cond⟩ [OncePerGame]: You keep asking that.
-                [0001E192] Hero: I'm still interested.
-                [0001E193] stm_outpost_staff_supply: I had a very good life in the Milky Way. Wealth, a wonderful family.
-                [0001E194] stm_outpost_staff_supply: Precious things make you a target. And drastic steps are sometimes needed to protect them. No more for now. Sorry.
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001E195] Outpost Staff Supply ⟨cond⟩ [OncePerGame]: You keep asking that.
+                [0001E192] Ryder: I'm still interested.
+                [0001E193] Outpost Staff Supply: I had a very good life in the Milky Way. Wealth, a wonderful family.
+                [0001E194] Outpost Staff Supply: Precious things make you a target. And drastic steps are sometimes needed to protect them. No more for now. Sorry.
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             ├ option 3:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001DF9E] stm_outpost_staff_supply [OncePerGame]: {i}(Sighs.){/i} You are truly persistent.
-                    [0001E007] stm_outpost_staff_supply: Back in the Milky Way, I was an executive of the ExSolar Shipping company. I had millions of credits and five beautiful daughters.
-                    [0001DFEA] stm_outpost_staff_supply: But one of my asari partners began a hostile takeover, and tried to bankrupt everyone I loved.
-                    [0001E015] stm_outpost_staff_supply: I had already invested in the Initiative, longing for a simpler life. But I couldn't leave my children destitute. Drastic measures were needed.
+                    [0001DF9E] Outpost Staff Supply [OncePerGame]: {i}(Sighs.){/i} You are truly persistent.
+                    [0001E007] Outpost Staff Supply: Back in the Milky Way, I was an executive of the ExSolar Shipping company. I had millions of credits and five beautiful daughters.
+                    [0001DFEA] Outpost Staff Supply: But one of my asari partners began a hostile takeover, and tried to bankrupt everyone I loved.
+                    [0001E015] Outpost Staff Supply: I had already invested in the Initiative, longing for a simpler life. But I couldn't leave my children destitute. Drastic measures were needed.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0001E017] Hero: You should have had your partner tossed in jail.
-                        [0001E01E] stm_outpost_staff_supply: She threatened my daughters. I would show no such mercy.
-                        [0001E018] stm_outpost_staff_supply: Asari tax law has many interesting loopholes. Many are designed specifically to protect your wealth when you live for centuries.
+                        [0001E017] Ryder: You should have had your partner tossed in jail.
+                        [0001E01E] Outpost Staff Supply: She threatened my daughters. I would show no such mercy.
+                        [0001E018] Outpost Staff Supply: Asari tax law has many interesting loopholes. Many are designed specifically to protect your wealth when you live for centuries.
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            [0001E025] global_squad_turian ⟨cond⟩: You sly pyjak. Six hundred years in stasis would certainly qualify as "centuries."
-                            [0001E022] stm_outpost_staff_supply: My children's children are safe and provided for. And I sleep well knowing my rival chokes on bitter tears.
-                            ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                            [0001E025] Squadmate (Turian / Vetra) ⟨cond⟩: You sly pyjak. Six hundred years in stasis would certainly qualify as "centuries."
+                            [0001E022] Outpost Staff Supply: My children's children are safe and provided for. And I sleep well knowing my rival chokes on bitter tears.
+                            ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                         ├ option 2:
-                            [0001E020] Hero: ...and if you came to Andromeda, technically you'd be alive for 600 years.
-                            ↩ (goto) [0001E022] stm_outpost_staff_supply: My children's children are safe and provided for. And I sleep well knowing my rival chokes on bitter tears.
+                            [0001E020] Ryder: ...and if you came to Andromeda, technically you'd be alive for 600 years.
+                            ↩ (goto) [0001E022] Outpost Staff Supply: My children's children are safe and provided for. And I sleep well knowing my rival chokes on bitter tears.
                         └─ merge ─┘
                     ├ option 2:
-                        [0001E01F] Hero: Oh, did your rival have "an accident"?
-                        [0001E019] stm_outpost_staff_supply: Where is the elegance in that?
-                        ↩ (goto) [0001E018] stm_outpost_staff_supply: Asari tax law has many interesting loopholes. Many are designed specifically to protect your wealth when you live for centuries.
+                        [0001E01F] Ryder: Oh, did your rival have "an accident"?
+                        [0001E019] Outpost Staff Supply: Where is the elegance in that?
+                        ↩ (goto) [0001E018] Outpost Staff Supply: Asari tax law has many interesting loopholes. Many are designed specifically to protect your wealth when you live for centuries.
                     └─ merge ─┘
                 ├ option 2:
-                    [0001E01C] stm_outpost_staff_supply: You know more than most. Eos is my life now, and it's a good one.
-                    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                    [0001E01C] Outpost Staff Supply: You know more than most. Eos is my life now, and it's a good one.
+                    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
                 └─ merge ─┘
             ├ option 4:
-                [0001E014] stm_outpost_staff_supply: Another time. I'm sure you needed something else?
-                ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+                [0001E014] Outpost Staff Supply: Another time. I'm sure you needed something else?
+                ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 5:
-            [00017A36] Hero: See you later.
-            [00017A3E] stm_outpost_staff_supply: Be well. Come back again.
+            [00017A36] Ryder: See you later.
+            [00017A3E] Outpost Staff Supply: Be well. Come back again.
         └─ merge ─┘
     ├ option 2:
-        [0001DE15] stm_outpost_staff_supply: I worked with her on the Nexus in those days of chaos.
-        ↩ (goto) [0001DE5F] stm_outpost_staff_supply: But I need ground under my feet. And soon, hopefully, trade will flourish on Eos.
+        [0001DE15] Outpost Staff Supply: I worked with her on the Nexus in those days of chaos.
+        ↩ (goto) [0001DE5F] Outpost Staff Supply: But I need ground under my feet. And soon, hopefully, trade will flourish on Eos.
     └─ merge ─┘
 ├ option 2:
-    [0001DE16] stm_outpost_staff_supply: Though I hear you've got Vetra Nyx keeping you well-stocked.
-    ↩ (goto) [0001DE17] Hero: You know Vetra?
+    [0001DE16] Outpost Staff Supply: Though I hear you've got Vetra Nyx keeping you well-stocked.
+    ↩ (goto) [0001DE17] Ryder: You know Vetra?
 └─ merge ─┘
-[0002ACC5] stm_outpost_staff_supply: You and Bradley handled the Roekaar admirably, Pathfinder.
+[0002ACC5] Outpost Staff Supply: You and Bradley handled the Roekaar admirably, Pathfinder.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002ACC6] stm_outpost_staff_supply ⟨cond⟩: The younger soldiers are training constantly. The Roekaar don't know what they've awakened.
-    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+    [0002ACC6] Outpost Staff Supply ⟨cond⟩: The younger soldiers are training constantly. The Roekaar don't know what they've awakened.
+    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
 ├ option 2:
-    [0002ACDE] stm_outpost_staff_supply ⟨cond⟩: "Simple researchers and colonists," they thought. Hah—we aren't such easy prey.
-    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+    [0002ACDE] Outpost Staff Supply ⟨cond⟩: "Simple researchers and colonists," they thought. Hah—we aren't such easy prey.
+    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
 └─ merge ─┘
-[0001E016] stm_outpost_staff_supply: You change everything you touch, Pathfinder. Eos, this cluster, and now Meridian.
-↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
-[0001E01B] stm_outpost_staff_supply: Andromeda's truths peel away, and there are more mysteries beneath. If I can ease your course to Meridian, let me know.
-↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
-[0001E012] stm_outpost_staff_supply: I hear the salarians are restored to us.
-[0001E023] Hero: At a price.
-[0001E024] stm_outpost_staff_supply: Take it from a quartermaster, Pathfinder. Nothing worthwhile is free.
-↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
-[00017A3B] stm_outpost_staff_supply: This "exaltation" is a horrible truth for the angara to live with. I pray we don't have to do the same.
-↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+[0001E016] Outpost Staff Supply: You change everything you touch, Pathfinder. Eos, this cluster, and now Meridian.
+↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
+[0001E01B] Outpost Staff Supply: Andromeda's truths peel away, and there are more mysteries beneath. If I can ease your course to Meridian, let me know.
+↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
+[0001E012] Outpost Staff Supply: I hear the salarians are restored to us.
+[0001E023] Ryder: At a price.
+[0001E024] Outpost Staff Supply: Take it from a quartermaster, Pathfinder. Nothing worthwhile is free.
+↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
+[00017A3B] Outpost Staff Supply: This "exaltation" is a horrible truth for the angara to live with. I pray we don't have to do the same.
+↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001DE7D] stm_outpost_staff_supply ⟨cond⟩: Pathfinder. Vetra. Anything you need?
-    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+    [0001DE7D] Outpost Staff Supply ⟨cond⟩: Pathfinder. Vetra. Anything you need?
+    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
 ├ option 2:
-    [00017A1C] stm_outpost_staff_supply: You're back. Anything you need?
-    ↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+    [00017A1C] Outpost Staff Supply: You're back. Anything you need?
+    ↩ (goto) [00017A2A] Outpost Staff Supply: [empty]
 └─ merge ─┘
-↩ (goto) [00017A2A] stm_outpost_staff_supply: [empty]
+↩ (goto) [00017A2A] Outpost Staff Supply: [empty]

@@ -1,92 +1,92 @@
 # Game/Conversations/Crit/M4/m4_0550_sanctum2_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/m4/m4_0550_sanctum2_m.xml
 ==================================================
 [0000DB0F] SAM: Pathfinder, this is the relic the Moshae described. It does seem to be a map.
 [0000DB06] SAM: I'll overlay the chart we uncovered in the vault on Eos.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0000DB13] global_squad_female_human ⟨cond⟩: So that's...
-    [0000DB17] Hero: It's Meridian.
+    [0000DB13] Squadmate (Human ♀) ⟨cond⟩: So that's...
+    [0000DB17] Ryder: It's Meridian.
     [0000DB22] SAM: Coordinates secured, Pathfinder.
-    [0000DB23] global_main_villain: So that's what you're after.
-    [0000DB29] global_main_villain: There's more to Meridian than you know. Changing the weather is a fraction of its power—and I will not allow you to defile it.
+    [0000DB23] The Archon: So that's what you're after.
+    [0000DB29] The Archon: There's more to Meridian than you know. Changing the weather is a fraction of its power—and I will not allow you to defile it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000DB26] Hero: I'm better equipped to handle it than you.
-        [0000DB20] global_main_villain: Why? Because you have an artificial intelligence in your head explaining it?
-        [0000E713] global_main_villain: I've seen what transpired in the laboratory, and now I know what makes you... special.
-        [0000DB15] global_main_villain: Meridian is mine. I've tolerated you long enough. Once your vessels are destroyed, you will be stranded here.
-        [0000DB09] Hero: Captain, fire the EMP!
-        [0000DB31] crit_kett_salarian_captain_multi: [Comm] Done!
+        [0000DB26] Ryder: I'm better equipped to handle it than you.
+        [0000DB20] The Archon: Why? Because you have an artificial intelligence in your head explaining it?
+        [0000E713] The Archon: I've seen what transpired in the laboratory, and now I know what makes you... special.
+        [0000DB15] The Archon: Meridian is mine. I've tolerated you long enough. Once your vessels are destroyed, you will be stranded here.
+        [0000DB09] Ryder: Captain, fire the EMP!
+        [0000DB31] Kett Salarian Captain: [Comm] Done!
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [0000DB16] global_squad_female_human ⟨cond⟩: That can't be good.
+            [0000DB16] Squadmate (Human ♀) ⟨cond⟩: That can't be good.
             ┌─ BRANCH (6) ─┐
             ├ option 1:
-                [0000DB04] global_squad_male_human ⟨cond⟩: You've got to be kidding...
+                [0000DB04] Squadmate (Human ♂) ⟨cond⟩: You've got to be kidding...
                 [0000DB2F] SAM: Ryder, the EMP—
-                [0000DB03] Hero: Yeah, I get it. We released the krogan.
+                [0000DB03] Ryder: Yeah, I get it. We released the krogan.
             ├ option 2:
-                [0000DB2B] global_squad_female_human ⟨cond⟩: Oh shit...
+                [0000DB2B] Squadmate (Human ♀) ⟨cond⟩: Oh shit...
                 ↩ (goto) [0000DB2F] SAM: Ryder, the EMP—
             ├ option 3:
-                [0000DB1F] global_squad_asari ⟨cond⟩: Oh shit...
+                [0000DB1F] Squadmate (Asari / Peebee) ⟨cond⟩: Oh shit...
                 ↩ (goto) [0000DB2F] SAM: Ryder, the EMP—
             ├ option 4:
-                [0000DB12] global_squad_turian ⟨cond⟩: Oh shit...
+                [0000DB12] Squadmate (Turian / Vetra) ⟨cond⟩: Oh shit...
                 ↩ (goto) [0000DB2F] SAM: Ryder, the EMP—
             ├ option 5:
-                [0000DB21] global_squad_krogan ⟨cond⟩: Oh shit...
+                [0000DB21] Squadmate (Krogan / Drack) ⟨cond⟩: Oh shit...
                 ↩ (goto) [0000DB2F] SAM: Ryder, the EMP—
             ├ option 6:
-                [0000DB2A] global_squad_angara ⟨cond⟩: Damn it...
+                [0000DB2A] Squadmate (Angara / Jaal) ⟨cond⟩: Damn it...
                 ↩ (goto) [0000DB2F] SAM: Ryder, the EMP—
             └─ merge ─┘
         ├ option 2:
-            [0000DB1D] global_squad_male_human ⟨cond⟩: That's... not a good sound.
+            [0000DB1D] Squadmate (Human ♂) ⟨cond⟩: That's... not a good sound.
             ↩ (goto) [0000DB32] Narration: [empty]
         ├ option 3:
-            [0000DB2E] global_squad_angara ⟨cond⟩: What was that?
+            [0000DB2E] Squadmate (Angara / Jaal) ⟨cond⟩: What was that?
             ↩ (goto) [0000DB32] Narration: [empty]
         ├ option 4:
-            [0000DB2C] global_squad_krogan ⟨cond⟩: What was that?
+            [0000DB2C] Squadmate (Krogan / Drack) ⟨cond⟩: What was that?
             ↩ (goto) [0000DB32] Narration: [empty]
         ├ option 5:
-            [0000DB0D] global_squad_turian ⟨cond⟩: That didn't sound good.
+            [0000DB0D] Squadmate (Turian / Vetra) ⟨cond⟩: That didn't sound good.
             ↩ (goto) [0000DB32] Narration: [empty]
         ├ option 6:
-            [0000DB25] global_squad_asari ⟨cond⟩: I don't like the sound of that.
+            [0000DB25] Squadmate (Asari / Peebee) ⟨cond⟩: I don't like the sound of that.
             ↩ (goto) [0000DB32] Narration: [empty]
         └─ merge ─┘
     ├ option 2:
-        [0000DB0B] Hero: You didn't allow me to escape your little trap either, did you?
-        [0000DB11] global_main_villain: That wasn't you. It was the artificial intelligence in your head.
-        ↩ (goto) [0000E713] global_main_villain: I've seen what transpired in the laboratory, and now I know what makes you... special.
+        [0000DB0B] Ryder: You didn't allow me to escape your little trap either, did you?
+        [0000DB11] The Archon: That wasn't you. It was the artificial intelligence in your head.
+        ↩ (goto) [0000E713] The Archon: I've seen what transpired in the laboratory, and now I know what makes you... special.
     └─ merge ─┘
 ├ option 2:
-    [0000DB05] global_squad_male_human ⟨cond⟩: Hello, hello.
-    ↩ (goto) [0000DB17] Hero: It's Meridian.
+    [0000DB05] Squadmate (Human ♂) ⟨cond⟩: Hello, hello.
+    ↩ (goto) [0000DB17] Ryder: It's Meridian.
 ├ option 3:
-    [0000DB2D] global_squad_angara ⟨cond⟩: Is that...?
-    ↩ (goto) [0000DB17] Hero: It's Meridian.
+    [0000DB2D] Squadmate (Angara / Jaal) ⟨cond⟩: Is that...?
+    ↩ (goto) [0000DB17] Ryder: It's Meridian.
 ├ option 4:
-    [0000DB28] global_squad_krogan ⟨cond⟩: Look at that...
-    ↩ (goto) [0000DB17] Hero: It's Meridian.
+    [0000DB28] Squadmate (Krogan / Drack) ⟨cond⟩: Look at that...
+    ↩ (goto) [0000DB17] Ryder: It's Meridian.
 ├ option 5:
-    [0000DB10] global_squad_turian ⟨cond⟩: Finally...
-    ↩ (goto) [0000DB17] Hero: It's Meridian.
+    [0000DB10] Squadmate (Turian / Vetra) ⟨cond⟩: Finally...
+    ↩ (goto) [0000DB17] Ryder: It's Meridian.
 ├ option 6:
-    [0000DB1E] global_squad_asari ⟨cond⟩: Looky looky...
-    ↩ (goto) [0000DB17] Hero: It's Meridian.
+    [0000DB1E] Squadmate (Asari / Peebee) ⟨cond⟩: Looky looky...
+    ↩ (goto) [0000DB17] Ryder: It's Meridian.
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [00035224] Hero: Exertion -- stringID 217636
+    [00035224] Ryder: Exertion -- stringID 217636
 ├ option 2:
-    [00035225] Hero: Exertion -- stringID 217637
+    [00035225] Ryder: Exertion -- stringID 217637
 ├ option 3:
-    [00035222] Hero: Exertion -- stringID 217634
+    [00035222] Ryder: Exertion -- stringID 217634
 ├ option 4:
-    [00035223] Hero: Exertion -- stringID 217635
+    [00035223] Ryder: Exertion -- stringID 217635
 └─ merge ─┘

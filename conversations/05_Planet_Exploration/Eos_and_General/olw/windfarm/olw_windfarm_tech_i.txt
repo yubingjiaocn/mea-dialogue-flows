@@ -1,42 +1,42 @@
 # game/conversations/unc/olw/windfarm/olw_windfarm_tech_i
-# Primary speaker: olw_windfarmer
+# Primary speaker: Windfarmer
 # Source: game/conversations/unc/olw/windfarm/olw_windfarm_tech_i.xml
 ==================================================
-[00028560] olw_windfarmer: How did you get in here?
+[00028560] Windfarmer: How did you get in here?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002855E] Hero: I used my legs.
-    [00028554] olw_windfarmer: Well use them to walk back out. I’m busy.
-    [00028555] Hero: I just want to ask a few questions.
-    [00028564] olw_windfarmer: Fine, but be quick about it.
+    [0002855E] Ryder: I used my legs.
+    [00028554] Windfarmer: Well use them to walk back out. I’m busy.
+    [00028555] Ryder: I just want to ask a few questions.
+    [00028564] Windfarmer: Fine, but be quick about it.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002855C] Hero: What do you do here?
-        [00028557] olw_windfarmer: I keep the turbines spinning.
-        [0002855A] olw_windfarmer: A small miracle considering all the scavengers trying to steal parts.
-        ↩ (goto) [00028550] olw_windfarmer: [empty]
+        [0002855C] Ryder: What do you do here?
+        [00028557] Windfarmer: I keep the turbines spinning.
+        [0002855A] Windfarmer: A small miracle considering all the scavengers trying to steal parts.
+        ↩ (goto) [00028550] Windfarmer: [empty]
     ├ option 2:
-        [00028567] Hero: Does the wind farm power Kadara Port?
-        [0002855B] olw_windfarmer: And everything else around here.
-        [00028563] olw_windfarmer: Not that anyone sends their gratitude.
-        [0002854F] olw_windfarmer: They only contact us when something's broken.
+        [00028567] Ryder: Does the wind farm power Kadara Port?
+        [0002855B] Windfarmer: And everything else around here.
+        [00028563] Windfarmer: Not that anyone sends their gratitude.
+        [0002854F] Windfarmer: They only contact us when something's broken.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002855D] Hero ⟨cond⟩: The Charlatan doesn't give you a kickback?
-            [00028566] olw_windfarmer: Not enough. This is a dangerous job. I deserve hazard pay.
-            ↩ (goto) [00028550] olw_windfarmer: [empty]
+            [0002855D] Ryder ⟨cond⟩: The Charlatan doesn't give you a kickback?
+            [00028566] Windfarmer: Not enough. This is a dangerous job. I deserve hazard pay.
+            ↩ (goto) [00028550] Windfarmer: [empty]
         ├ option 2:
-            [00028559] Hero: Sloane doesn't give you a kickback?
-            ↩ (goto) [00028566] olw_windfarmer: Not enough. This is a dangerous job. I deserve hazard pay.
+            [00028559] Ryder: Sloane doesn't give you a kickback?
+            ↩ (goto) [00028566] Windfarmer: Not enough. This is a dangerous job. I deserve hazard pay.
         └─ merge ─┘
     ├ option 3:
-        [00028558] Hero: Thanks for your time.
-        [00028553] olw_windfarmer: Yeah, yeah. Let me get back to work.
+        [00028558] Ryder: Thanks for your time.
+        [00028553] Windfarmer: Yeah, yeah. Let me get back to work.
     └─ merge ─┘
 ├ option 2:
-    [00028562] Hero: I didn't realize this was a restricted area.
-    [00028561] olw_windfarmer: Technically, it's not. But most of our "visitors" are scavengers.
-    ↩ (goto) [00028555] Hero: I just want to ask a few questions.
+    [00028562] Ryder: I didn't realize this was a restricted area.
+    [00028561] Windfarmer: Technically, it's not. But most of our "visitors" are scavengers.
+    ↩ (goto) [00028555] Ryder: I just want to ask a few questions.
 └─ merge ─┘
-[0002854E] olw_windfarmer: What?
-↩ (goto) [00028550] olw_windfarmer: [empty]
+[0002854E] Windfarmer: What?
+↩ (goto) [00028550] Windfarmer: [empty]

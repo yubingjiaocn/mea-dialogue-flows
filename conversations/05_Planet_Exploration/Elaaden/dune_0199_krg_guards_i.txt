@@ -1,88 +1,88 @@
 # game/conversations/unc_dunes/dune_0199_krg_guards_i
-# Primary speaker: dune_colony_guard01
+# Primary speaker: Colony Guard01
 # Source: game/conversations/unc_dunes/dune_0199_krg_guards_i.xml
 ==================================================
-[0001E594] dune_colony_guard02: Move along. No outsiders.
+[0001E594] Colony Guard02: Move along. No outsiders.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001E9B7] global_squad_krogan ⟨cond⟩: She's with me. Human Pathfinder.
+    [0001E9B7] Squadmate (Krogan / Drack) ⟨cond⟩: She's with me. Human Pathfinder.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001E9B6] dune_colony_guard01 ⟨cond⟩: Drack. It's been a while.
+        [0001E9B6] Colony Guard01 ⟨cond⟩: Drack. It's been a while.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001E9B5] Hero ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
-            [0001E9BA] dune_colony_guard02: So now Strux is friends with the Nexus. Traitor.
-            [000313F8] global_squad_krogan: Think I'm a traitor too?
-            [0001E595] dune_colony_guard01: Shut it, Brek.
+            [0001E9B5] Ryder ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
+            [0001E9BA] Colony Guard02: So now Strux is friends with the Nexus. Traitor.
+            [000313F8] Squadmate (Krogan / Drack): Think I'm a traitor too?
+            [0001E595] Colony Guard01: Shut it, Brek.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001E9C3] Hero: Don't make me headbutt you. I absolutely will.
-                [00033499] dune_colony_guard02: Hmph. Tougher than you look. All right. Go ahead.
-                [0001E9C6] dune_colony_guard01: I'll spread the word so Morda knows you're here.
-                [000316B4] global_squad_krogan: Good.
+                [0001E9C3] Ryder: Don't make me headbutt you. I absolutely will.
+                [00033499] Colony Guard02: Hmph. Tougher than you look. All right. Go ahead.
+                [0001E9C6] Colony Guard01: I'll spread the word so Morda knows you're here.
+                [000316B4] Squadmate (Krogan / Drack): Good.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0003169A] global_squad_krogan ⟨cond⟩: I'll see you inside, Ryder. Gonna have a few more words with this pair first.
+                    [0003169A] Squadmate (Krogan / Drack) ⟨cond⟩: I'll see you inside, Ryder. Gonna have a few more words with this pair first.
                 ├ option 2:
-                    ↩ (goto) [0003145D] dune_colony_guard01: [empty]
+                    ↩ (goto) [0003145D] Colony Guard01: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [0001E9C4] Hero: I'm not here to step on any toes. I can help you guys out.
-                [0001E9BE] dune_colony_guard01: You assume we need help.
+                [0001E9C4] Ryder: I'm not here to step on any toes. I can help you guys out.
+                [0001E9BE] Colony Guard01: You assume we need help.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0003140D] global_squad_krogan ⟨cond⟩: Hey. You guys did your job. Now stand down and let them in.
-                    [0003145A] dune_colony_guard02: But Drack...
-                    [0001E9BF] dune_colony_guard01: Didn't I tell you to shut up?
-                    ↩ (goto) [0001E9C6] dune_colony_guard01: I'll spread the word so Morda knows you're here.
+                    [0003140D] Squadmate (Krogan / Drack) ⟨cond⟩: Hey. You guys did your job. Now stand down and let them in.
+                    [0003145A] Colony Guard02: But Drack...
+                    [0001E9BF] Colony Guard01: Didn't I tell you to shut up?
+                    ↩ (goto) [0001E9C6] Colony Guard01: I'll spread the word so Morda knows you're here.
                 ├ option 2:
-                    [00033B35] global_squad_krogan: Hey. You guys did your job. Now stand down and let them in.
-                    ↩ (goto) [0003145A] dune_colony_guard02: But Drack...
+                    [00033B35] Squadmate (Krogan / Drack): Hey. You guys did your job. Now stand down and let them in.
+                    ↩ (goto) [0003145A] Colony Guard02: But Drack...
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [000313F7] Hero: Name's Ryder. Drack's been running with us since we met on Eos.
-            [0001E9BD] dune_colony_guard02: Nexus send you begging us to come back?
-            ↩ (goto) [0001E595] dune_colony_guard01: Shut it, Brek.
+            [000313F7] Ryder: Name's Ryder. Drack's been running with us since we met on Eos.
+            [0001E9BD] Colony Guard02: Nexus send you begging us to come back?
+            ↩ (goto) [0001E595] Colony Guard01: Shut it, Brek.
         └─ merge ─┘
     ├ option 2:
-        [000313E9] dune_colony_guard02 ⟨cond⟩: The one you were telling us about?
+        [000313E9] Colony Guard02 ⟨cond⟩: The one you were telling us about?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E9B5] Hero ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
+            ↩ (goto) [0001E9B5] Ryder ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
         ├ option 2:
-            ↩ (goto) [000313F7] Hero: Name's Ryder. Drack's been running with us since we met on Eos.
+            ↩ (goto) [000313F7] Ryder: Name's Ryder. Drack's been running with us since we met on Eos.
         └─ merge ─┘
     ├ option 3:
-        [00033AF7] dune_colony_guard02: The one you were telling us about?
+        [00033AF7] Colony Guard02: The one you were telling us about?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E9B5] Hero ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
+            ↩ (goto) [0001E9B5] Ryder ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
         ├ option 2:
-            ↩ (goto) [000313F7] Hero: Name's Ryder. Drack's been running with us since we met on Eos.
+            ↩ (goto) [000313F7] Ryder: Name's Ryder. Drack's been running with us since we met on Eos.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0001E9B8] global_squad_krogan: He's with me. Human Pathfinder.
+    [0001E9B8] Squadmate (Krogan / Drack): He's with me. Human Pathfinder.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [0001E9B6] dune_colony_guard01 ⟨cond⟩: Drack. It's been a while.
+        ↩ (goto) [0001E9B6] Colony Guard01 ⟨cond⟩: Drack. It's been a while.
     ├ option 2:
-        ↩ (goto) [000313E9] dune_colony_guard02 ⟨cond⟩: The one you were telling us about?
+        ↩ (goto) [000313E9] Colony Guard02 ⟨cond⟩: The one you were telling us about?
     ├ option 3:
-        ↩ (goto) [00033AF7] dune_colony_guard02: The one you were telling us about?
+        ↩ (goto) [00033AF7] Colony Guard02: The one you were telling us about?
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0001E9C8] dune_colony_guard02: Hmph. Tougher than you look. All right. Go ahead.
+    [0001E9C8] Colony Guard02: Hmph. Tougher than you look. All right. Go ahead.
 ├ option 2:
-    [0001E596] dune_colony_guard01: You have a reason to be here?
+    [0001E596] Colony Guard01: You have a reason to be here?
 ├ option 3:
-    [0001E9C7] dune_colony_guard01: But I can't think of a reason to stop you, so you're free to go in.
-    [0001E9C0] dune_colony_guard02: Big mistake.
-    [0001E9C2] dune_colony_guard01: Piss anyone off, you're on your own.
+    [0001E9C7] Colony Guard01: But I can't think of a reason to stop you, so you're free to go in.
+    [0001E9C0] Colony Guard02: Big mistake.
+    [0001E9C2] Colony Guard01: Piss anyone off, you're on your own.
 ├ option 4:
-    [0001E9B9] Hero: I'm a Pathfinder. Just visiting.
+    [0001E9B9] Ryder: I'm a Pathfinder. Just visiting.
 └─ merge ─┘

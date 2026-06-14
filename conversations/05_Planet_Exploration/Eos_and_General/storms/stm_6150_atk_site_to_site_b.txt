@@ -1,27 +1,27 @@
 # game/conversations/unc/storms/stm_6150_atk_site_to_site_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_6150_atk_site_to_site_b.xml
 ==================================================
-[00020E92] global_extremist_leader: [Comm] This site is a decoy! Rally at these coordinates!
-[00020E90] Hero: They're on to us! Where are they going?
-[00020E91] ustl_settle_01_admin_multi: [Comm] I'll tell you. Site 1! We overcharged the power relay to draw them in!
+[00020E92] Global Extremist Leader: [Comm] This site is a decoy! Rally at these coordinates!
+[00020E90] Ryder: They're on to us! Where are they going?
+[00020E91] Settle 01 Admin: [Comm] I'll tell you. Site 1! We overcharged the power relay to draw them in!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020E98] global_squad_angara ⟨cond⟩: Akksul's {i}not{/i} going to be happy about that.
-    [00020E9B] Hero: Promise, here we come!
+    [00020E98] Squadmate (Angara / Jaal) ⟨cond⟩: Akksul's {i}not{/i} going to be happy about that.
+    [00020E9B] Ryder: Promise, here we come!
 ├ option 2:
-    [00020E99] global_squad_angara: [Comm] Akksul's {i}not{/i} going to be happy about that.
-    ↩ (goto) [00020E9B] Hero: Promise, here we come!
+    [00020E99] Squadmate (Angara / Jaal): [Comm] Akksul's {i}not{/i} going to be happy about that.
+    ↩ (goto) [00020E9B] Ryder: Promise, here we come!
 └─ merge ─┘
-[00020F97] stm_6000_atk_roekaar_enemy: [Comm] Akksul! There's nothing here!
-[00020F9A] global_extremist_leader: [Comm] There must be. It's their first outpost. I'll come down from orbit.
-[00020F99] stm_6000_atk_roekaar_enemy: [Comm] Not until we've secured the area!
+[00020F97] 6000 Atk Roekaar Enemy: [Comm] Akksul! There's nothing here!
+[00020F9A] Global Extremist Leader: [Comm] There must be. It's their first outpost. I'll come down from orbit.
+[00020F99] 6000 Atk Roekaar Enemy: [Comm] Not until we've secured the area!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020F98] stm_6000_atk_roekaar_enemy ⟨cond⟩: [Comm] Akksul! The Pathfinder is coming!
-    [00020F96] stm_6000_atk_roekaar_enemy: [Comm] Motherless! Everyone prepare to defend!
-    [00021013] Hero: Sounds like they're losing their support.
+    [00020F98] 6000 Atk Roekaar Enemy ⟨cond⟩: [Comm] Akksul! The Pathfinder is coming!
+    [00020F96] 6000 Atk Roekaar Enemy: [Comm] Motherless! Everyone prepare to defend!
+    [00021013] Ryder: Sounds like they're losing their support.
 ├ option 2:
-    [000327FF] stm_6000_atk_roekaar_enemy: [Comm] Akksul! The Pathfinder is coming!
-    ↩ (goto) [00020F96] stm_6000_atk_roekaar_enemy: [Comm] Motherless! Everyone prepare to defend!
+    [000327FF] 6000 Atk Roekaar Enemy: [Comm] Akksul! The Pathfinder is coming!
+    ↩ (goto) [00020F96] 6000 Atk Roekaar Enemy: [Comm] Motherless! Everyone prepare to defend!
 └─ merge ─┘

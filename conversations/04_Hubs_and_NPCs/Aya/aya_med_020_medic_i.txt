@@ -1,41 +1,41 @@
 # game/conversations/hubs/hub_aya/medcenter/aya_med_020_medic_i
-# Primary speaker: aya_reshq_medic_multi
+# Primary speaker: Reshq Medic
 # Source: game/conversations/hubs/hub_aya/medcenter/aya_med_020_medic_i.xml
 ==================================================
-[00028608] aya_reshq_medic_multi [OncePerGame]: I assume you're the human everyone's buzzing about.
-[0002860C] aya_reshq_medic_multi: If you're looking for treatment, I'm afraid I don't know enough about human physiology to be much help.
-[00028675] aya_reshq_medic_multi: Unless you can make use of the ion beds.
+[00028608] Reshq Medic [OncePerGame]: I assume you're the human everyone's buzzing about.
+[0002860C] Reshq Medic: If you're looking for treatment, I'm afraid I don't know enough about human physiology to be much help.
+[00028675] Reshq Medic: Unless you can make use of the ion beds.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002860A] Hero: Is there something special about the beds here?
-    [000286BB] aya_reshq_medic_multi: They're filled with a negatively charged ion gel.
-    [000286BA] aya_reshq_medic_multi: The gel works with our natural electricity to speed recovery.
-    [000286BC] Hero: Think it'd work on other species?
-    [000286B9] aya_reshq_medic_multi: Without bioelectricity, it would be of small benefit. But it might reduce pain.
+    [0002860A] Ryder: Is there something special about the beds here?
+    [000286BB] Reshq Medic: They're filled with a negatively charged ion gel.
+    [000286BA] Reshq Medic: The gel works with our natural electricity to speed recovery.
+    [000286BC] Ryder: Think it'd work on other species?
+    [000286B9] Reshq Medic: Without bioelectricity, it would be of small benefit. But it might reduce pain.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000286BD] Hero: So you guys are electrically charged?
-        [000286BF] aya_reshq_medic_multi: Our bodies produce a store of electricity that we can dispel in a surge of energy.
-        [000286C1] aya_reshq_medic_multi: We use it for short-range communication, healing, even combat.
-        [000286C3] aya_reshq_medic_multi: I admit—I was surprised to learn your kind doesn't have that ability.
-        [000286C4] Hero: Some of us are biotic. It's similar... kinda.
-        [000286C2] aya_reshq_medic_multi: I would be interested to study biotics.
-        ↩ (goto) [00028609] aya_reshq_medic_multi: [empty]
+        [000286BD] Ryder: So you guys are electrically charged?
+        [000286BF] Reshq Medic: Our bodies produce a store of electricity that we can dispel in a surge of energy.
+        [000286C1] Reshq Medic: We use it for short-range communication, healing, even combat.
+        [000286C3] Reshq Medic: I admit—I was surprised to learn your kind doesn't have that ability.
+        [000286C4] Ryder: Some of us are biotic. It's similar... kinda.
+        [000286C2] Reshq Medic: I would be interested to study biotics.
+        ↩ (goto) [00028609] Reshq Medic: [empty]
     ├ option 2:
-        [00028616] Hero ⟨cond⟩: If Jaal takes a hit on my watch, my doctor needs to know how to treat him.
-        [000286CC] Hero: Can you point me to resources she can use to learn your methods?
-        [000286CA] aya_reshq_medic_multi: So you're considering all possibilities. Jaal is in good hands.
-        [000286CE] aya_reshq_medic_multi: I have medical journals on treating angaran injuries and preventing complications.
-        [000286CD] aya_reshq_medic_multi: You're welcome to upload them to your ship's doctor for study.
-        ↩ (goto) [00028609] aya_reshq_medic_multi: [empty]
+        [00028616] Ryder ⟨cond⟩: If Jaal takes a hit on my watch, my doctor needs to know how to treat him.
+        [000286CC] Ryder: Can you point me to resources she can use to learn your methods?
+        [000286CA] Reshq Medic: So you're considering all possibilities. Jaal is in good hands.
+        [000286CE] Reshq Medic: I have medical journals on treating angaran injuries and preventing complications.
+        [000286CD] Reshq Medic: You're welcome to upload them to your ship's doctor for study.
+        ↩ (goto) [00028609] Reshq Medic: [empty]
     ├ option 3:
-        [00028611] Hero: I'll get moving.
-        [000286D4] aya_reshq_medic_multi: Isharay.
+        [00028611] Ryder: I'll get moving.
+        [000286D4] Reshq Medic: Isharay.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00028616] Hero ⟨cond⟩: If Jaal takes a hit on my watch, my doctor needs to know how to treat him.
+    ↩ (goto) [00028616] Ryder ⟨cond⟩: If Jaal takes a hit on my watch, my doctor needs to know how to treat him.
 ├ option 3:
-    ↩ (goto) [00028611] Hero: I'll get moving.
+    ↩ (goto) [00028611] Ryder: I'll get moving.
 └─ merge ─┘
-[00028676] aya_reshq_medic_multi: How can I help?
-↩ (goto) [00028609] aya_reshq_medic_multi: [empty]
+[00028676] Reshq Medic: How can I help?
+↩ (goto) [00028609] Reshq Medic: [empty]

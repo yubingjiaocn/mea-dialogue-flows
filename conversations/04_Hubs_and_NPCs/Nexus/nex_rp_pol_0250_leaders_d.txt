@@ -1,55 +1,55 @@
 # game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0250_leaders_d
-# Primary speaker: global_nexus_PI_director
+# Primary speaker: Jarun Tann (Director)
 # Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0250_leaders_d.xml
 ==================================================
-[00010AF9] global_nexus_PI_director: Protestors have seized Hydroponics?
-[00010AFB] Hero: They want their families out of stasis. The outpost on Eos disrupted the schedule.
-[00021BBC] Hero: They're scattered across colony blocks—dozens of people. The protestors want this fixed today.
-[00010AFA] global_nexus_PI_director: The realities of our position are—
-[00010B41] global_arkcon_superintendent: We can't wake those families. We don't have the resources, and there's nowhere to put them.
+[00010AF9] Jarun Tann (Director): Protestors have seized Hydroponics?
+[00010AFB] Ryder: They want their families out of stasis. The outpost on Eos disrupted the schedule.
+[00021BBC] Ryder: They're scattered across colony blocks—dozens of people. The protestors want this fixed today.
+[00010AFA] Jarun Tann (Director): The realities of our position are—
+[00010B41] Ark Superintendent: We can't wake those families. We don't have the resources, and there's nowhere to put them.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00028FF7] Hero: We only just got on our feet. Plus it messes up the schedule again.
-    [00028FFD] Hero: What do you suggest?
-    [00029006] global_nexus_PI_director: Leave the families in stasis where it's safe, and get those protestors out of Hydroponics.
-    [00010B4D] global_nexus_PI_director: They seem sympathetic, but so did the exiles. We can't risk another revolt. Survival is more important than family reunions.
+    [00028FF7] Ryder: We only just got on our feet. Plus it messes up the schedule again.
+    [00028FFD] Ryder: What do you suggest?
+    [00029006] Jarun Tann (Director): Leave the families in stasis where it's safe, and get those protestors out of Hydroponics.
+    [00010B4D] Jarun Tann (Director): They seem sympathetic, but so did the exiles. We can't risk another revolt. Survival is more important than family reunions.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [00021BD5] Hero [OncePerGame]: Do you think these protests could turn violent?
-        [00021BD3] global_nexus_militia_leader: We're all pioneers. Even civilians are tough enough to start something.
-        [00021BD6] global_arkcon_superintendent: And interfering in Hydroponics threatens our oxygen supply. They know that.
-        ↩ (goto) [00010B56] Hero: [empty]
+        [00021BD5] Ryder [OncePerGame]: Do you think these protests could turn violent?
+        [00021BD3] Tiran Kandros (Militia Leader): We're all pioneers. Even civilians are tough enough to start something.
+        [00021BD6] Ark Superintendent: And interfering in Hydroponics threatens our oxygen supply. They know that.
+        ↩ (goto) [00010B56] Ryder: [empty]
     ├ option 2:
-        [00010B4F] Hero [OncePerGame]: What would you do with the protestors?
-        [00010B54] global_nexus_militia_leader: I'd send in a squad and march them out. At gunpoint, if we must.
-        [00010B55] global_nexus_militia_leader: If they resist, a few might land in medbay. But it's better than losing hydroponics—or the Nexus.
-        ↩ (goto) [00010B56] Hero: [empty]
+        [00010B4F] Ryder [OncePerGame]: What would you do with the protestors?
+        [00010B54] Tiran Kandros (Militia Leader): I'd send in a squad and march them out. At gunpoint, if we must.
+        [00010B55] Tiran Kandros (Militia Leader): If they resist, a few might land in medbay. But it's better than losing hydroponics—or the Nexus.
+        ↩ (goto) [00010B56] Ryder: [empty]
     ├ option 3:
-        [00010B4E] Hero: We have to look at the bigger picture. Get them out of there.
-        [00010B57] global_nexus_PI_director: Kandros?
-        [00010B5D] global_nexus_militia_leader: I'll send in a team, but... it might go smoother if Ryder's there.
-        [00010B5F] global_nexus_PI_director: A good idea. Sometimes we have to give bad news. That's a Pathfinder's duty too.
+        [00010B4E] Ryder: We have to look at the bigger picture. Get them out of there.
+        [00010B57] Jarun Tann (Director): Kandros?
+        [00010B5D] Tiran Kandros (Militia Leader): I'll send in a team, but... it might go smoother if Ryder's there.
+        [00010B5F] Jarun Tann (Director): A good idea. Sometimes we have to give bad news. That's a Pathfinder's duty too.
     ├ option 4:
-        [00010B52] Hero: These people aren't the enemy. We didn't come all this way to rip families apart.
-        [00010B5B] Hero: We'll manage the resource squeeze somehow.
-        [00010B58] global_nexus_PI_director: Your compassion is... admirable, but...
-        [00010B5A] global_nexus_militia_leader: Guess we're all tightening our belts.
-        [00029035] global_nexus_colonial_director_multi: You can run a stasis override command from Operations. I hope the rest will be that easy.
+        [00010B52] Ryder: These people aren't the enemy. We didn't come all this way to rip families apart.
+        [00010B5B] Ryder: We'll manage the resource squeeze somehow.
+        [00010B58] Jarun Tann (Director): Your compassion is... admirable, but...
+        [00010B5A] Tiran Kandros (Militia Leader): Guess we're all tightening our belts.
+        [00029035] Foster Addison (Colonial Director): You can run a stasis override command from Operations. I hope the rest will be that easy.
     └─ merge ─┘
 ├ option 2:
-    [00031BAE] Hero ⟨cond⟩: Then what's the point of all those outposts I've founded?
-    [00031BB0] global_nexus_colonial_director_multi: People need more than space, Ryder. They need work they're trained for. And we don't have placements for those families.
-    [00031BAD] global_nexus_colonial_director_multi: If I just toss them to any outpost with a spare bunk, they become a burden we can't afford.
-    ↩ (goto) [00028FFD] Hero: What do you suggest?
+    [00031BAE] Ryder ⟨cond⟩: Then what's the point of all those outposts I've founded?
+    [00031BB0] Foster Addison (Colonial Director): People need more than space, Ryder. They need work they're trained for. And we don't have placements for those families.
+    [00031BAD] Foster Addison (Colonial Director): If I just toss them to any outpost with a spare bunk, they become a burden we can't afford.
+    ↩ (goto) [00028FFD] Ryder: What do you suggest?
 ├ option 3:
-    [00028FF8] Hero ⟨cond⟩: We settled Eos! There's no space down there for a few extra?
-    [00028FFE] global_nexus_colonial_director_multi: It's not that simple, Ryder. Everything Eos produces right now is accounted for.
+    [00028FF8] Ryder ⟨cond⟩: We settled Eos! There's no space down there for a few extra?
+    [00028FFE] Foster Addison (Colonial Director): It's not that simple, Ryder. Everything Eos produces right now is accounted for.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00028FF9] global_arkcon_superintendent ⟨cond⟩: And what would those scientists do at a military outpost?
-        ↩ (goto) [00028FFD] Hero: What do you suggest?
+        [00028FF9] Ark Superintendent ⟨cond⟩: And what would those scientists do at a military outpost?
+        ↩ (goto) [00028FFD] Ryder: What do you suggest?
     ├ option 2:
-        [00028FFB] global_nexus_militia_leader ⟨cond⟩: And if we send soldiers to a research outpost, there'll be trouble.
-        ↩ (goto) [00028FFD] Hero: What do you suggest?
+        [00028FFB] Tiran Kandros (Militia Leader) ⟨cond⟩: And if we send soldiers to a research outpost, there'll be trouble.
+        ↩ (goto) [00028FFD] Ryder: What do you suggest?
     └─ merge ─┘
 └─ merge ─┘

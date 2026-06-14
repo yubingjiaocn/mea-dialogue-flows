@@ -1,62 +1,62 @@
 # game/conversations/crit/crit_mer/crit_fin_745_ark_reaction_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Mer/crit_fin_745_ark_reaction_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00025BD0] Hero ⟨cond⟩: Everyone read? That landing just made our stake in Meridian permanent.
+    [00025BD0] Ryder ⟨cond⟩: Everyone read? That landing just made our stake in Meridian permanent.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00025BE0] Hero ⟨cond⟩: This isn't a race. We're fighting for home.
-        [00025BDF] global_nexus_militia_leader: [Comm] No argument, Ryder.
-        [00025BE1] global_angaran_elder_multi: [Comm] You have our support.
+        [00025BE0] Ryder ⟨cond⟩: This isn't a race. We're fighting for home.
+        [00025BDF] Tiran Kandros (Militia Leader): [Comm] No argument, Ryder.
+        [00025BE1] Angaran Elder: [Comm] You have our support.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00025BE2] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Pathfinder, you take that message straight to the Archon.
+            [00025BE2] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] Pathfinder, you take that message straight to the Archon.
         ├ option 2:
-            [00025BE3] crit_kett_salarian_captain_multi: [Comm] Pathfinder, it's your honor to take that response to the Archon.
-            ↩ (goto) [00031D69] crit_kett_salarian_captain_multi: [empty]
+            [00025BE3] Kett Salarian Captain: [Comm] Pathfinder, it's your honor to take that response to the Archon.
+            ↩ (goto) [00031D69] Kett Salarian Captain: [empty]
         └─ merge ─┘
     ├ option 2:
-        [00025BDE] Hero: Dunn brought us home. It's up to us to keep it.
-        ↩ (goto) [00025BDF] global_nexus_militia_leader: [Comm] No argument, Ryder.
+        [00025BDE] Ryder: Dunn brought us home. It's up to us to keep it.
+        ↩ (goto) [00025BDF] Tiran Kandros (Militia Leader): [Comm] No argument, Ryder.
     └─ merge ─┘
 ├ option 2:
-    [00025BD2] Hero: Everyone listening? That landing means humanity's staying long term.
+    [00025BD2] Ryder: Everyone listening? That landing means humanity's staying long term.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00025BCF] Hero ⟨cond⟩: And this just became a fight for the homefront.
-        ↩ (goto) [00025BDF] global_nexus_militia_leader: [Comm] No argument, Ryder.
+        [00025BCF] Ryder ⟨cond⟩: And this just became a fight for the homefront.
+        ↩ (goto) [00025BDF] Tiran Kandros (Militia Leader): [Comm] No argument, Ryder.
     ├ option 2:
-        [00025BD9] Hero: Anyone disagrees, we send them to the captain.
-        ↩ (goto) [00025BDF] global_nexus_militia_leader: [Comm] No argument, Ryder.
+        [00025BD9] Ryder: Anyone disagrees, we send them to the captain.
+        ↩ (goto) [00025BDF] Tiran Kandros (Militia Leader): [Comm] No argument, Ryder.
     └─ merge ─┘
 └─ merge ─┘
-[00025BE5] global_arkcon_superintendent: [Comm] Deploying to safeguard ark systems.
+[00025BE5] Ark Superintendent: [Comm] Deploying to safeguard ark systems.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00025BE9] global_angara_hmm_contact_multi ⟨cond⟩: [Comm] On site. She'll be stable in no time.
+    [00025BE9] Global Angara Hmm Contact ⟨cond⟩: [Comm] On site. She'll be stable in no time.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00025BEA] global_humanark_captain_multi ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
+        [00025BEA] Captain Dunn ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
     ├ option 2:
-        [00025BEB] global_crew_doctor_multi: [Comm] Treating the wounded and... commencing bridge recovery.
-        ↩ (goto) [00031D6A] global_crew_doctor_multi: [empty]
+        [00025BEB] Lexi (Doctor): [Comm] Treating the wounded and... commencing bridge recovery.
+        ↩ (goto) [00031D6A] Lexi (Doctor): [empty]
     └─ merge ─┘
 ├ option 2:
-    [00025BEC] bio_outpost_staff_engineer_multi ⟨cond⟩: [Comm] Stabilizing cores. She'll stay solid.
+    [00025BEC] Outpost Staff Engineer ⟨cond⟩: [Comm] Stabilizing cores. She'll stay solid.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00025BEA] global_humanark_captain_multi ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
+        ↩ (goto) [00025BEA] Captain Dunn ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
     ├ option 2:
-        ↩ (goto) [00025BEB] global_crew_doctor_multi: [Comm] Treating the wounded and... commencing bridge recovery.
+        ↩ (goto) [00025BEB] Lexi (Doctor): [Comm] Treating the wounded and... commencing bridge recovery.
     └─ merge ─┘
 ├ option 3:
-    [00025BE8] stm_outpost_staff_engineer: [Comm] Commencing. We'll keep her cores stable.
+    [00025BE8] Outpost Staff Engineer: [Comm] Commencing. We'll keep her cores stable.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00025BEA] global_humanark_captain_multi ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
+        ↩ (goto) [00025BEA] Captain Dunn ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
     ├ option 2:
-        ↩ (goto) [00025BEB] global_crew_doctor_multi: [Comm] Treating the wounded and... commencing bridge recovery.
+        ↩ (goto) [00025BEB] Lexi (Doctor): [Comm] Treating the wounded and... commencing bridge recovery.
     └─ merge ─┘
 └─ merge ─┘

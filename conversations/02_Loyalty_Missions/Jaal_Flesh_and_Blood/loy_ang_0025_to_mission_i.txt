@@ -1,31 +1,31 @@
 # game/conversations/loyalty/loy_ang/loy_ang_0025_to_mission_i
-# Primary speaker: loy_ang_pilot
+# Primary speaker: Ang Pilot
 # Source: game/conversations/Loyalty/loy_ang/loy_ang_0025_to_mission_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000246EB] loy_ang_pilot [OncePerGame]: Avka says you need a ride to the Forge.
+    [000246EB] Ang Pilot [OncePerGame]: Avka says you need a ride to the Forge.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000246EA] global_squad_angara ⟨cond⟩: The quieter, the better.
-        [000246ED] loy_ang_pilot: Not a miracle worker, but I'll do my best. You ready?
+        [000246EA] Squadmate (Angara / Jaal) ⟨cond⟩: The quieter, the better.
+        [000246ED] Ang Pilot: Not a miracle worker, but I'll do my best. You ready?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000246EE] Hero: Let's do this.
+            [000246EE] Ryder: Let's do this.
             [000246EC] Narration: Let's go!
         ├ option 2:
-            [000246E9] Hero: Still need to finish a few things.
-            [000246E6] loy_ang_pilot: Well, the shuttle's prepped.
+            [000246E9] Ryder: Still need to finish a few things.
+            [000246E6] Ang Pilot: Well, the shuttle's prepped.
         └─ merge ─┘
     ├ option 2:
-        [00025426] loy_ang_pilot: You ready?
+        [00025426] Ang Pilot: You ready?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [000246EE] Hero: Let's do this.
+            ↩ (goto) [000246EE] Ryder: Let's do this.
         ├ option 2:
-            ↩ (goto) [000246E9] Hero: Still need to finish a few things.
+            ↩ (goto) [000246E9] Ryder: Still need to finish a few things.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00025426] loy_ang_pilot: You ready?
+    ↩ (goto) [00025426] Ang Pilot: You ready?
 └─ merge ─┘

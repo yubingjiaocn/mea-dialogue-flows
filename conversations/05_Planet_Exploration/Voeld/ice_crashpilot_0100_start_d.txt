@@ -1,57 +1,57 @@
 # game/conversations/unc_ice/ice_crashpilot_0100_start_d
-# Primary speaker: ice_maareldevalan
+# Primary speaker: Maareldevalan
 # Source: game/conversations/unc_ice/ice_crashpilot_0100_start_d.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002578D] ice_maareldevalan ⟨cond⟩: You're the one who destroyed that kett base.
-    [0002578E] ice_maareldevalan: Please, you need to help me.
-    [00025790] Hero: What's wrong?
-    [0002562D] ice_maareldevalan: My brother Keva was a pilot for the Resistance. A month ago, his ship went down over Voeld.
-    [00025640] ice_maareldevalan: They pronounced him missing in action. As good as dead, in kett territory.
+    [0002578D] Maareldevalan ⟨cond⟩: You're the one who destroyed that kett base.
+    [0002578E] Maareldevalan: Please, you need to help me.
+    [00025790] Ryder: What's wrong?
+    [0002562D] Maareldevalan: My brother Keva was a pilot for the Resistance. A month ago, his ship went down over Voeld.
+    [00025640] Maareldevalan: They pronounced him missing in action. As good as dead, in kett territory.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002563F] Hero: They haven't found him, right? It's possible he survived.
-        [0002576E] ice_maareldevalan: That's why I'm here.
-        [00025644] ice_maareldevalan: I can accept the loss. If Keva died, it was for his people. But I need the truth.
-        [00025643] ice_maareldevalan: I can't stand not knowing happened to him. However small, there's still a chance he's alive.
-        [00025641] ice_maareldevalan: I came here to look for him, but they won't let me go out there. They say it's too dangerous.
-        [00025648] Hero: They're right. You can't just walk into the kett's backyard.
-        [00025647] ice_maareldevalan: But you can. Please, find him. Help my family move on.
+        [0002563F] Ryder: They haven't found him, right? It's possible he survived.
+        [0002576E] Maareldevalan: That's why I'm here.
+        [00025644] Maareldevalan: I can accept the loss. If Keva died, it was for his people. But I need the truth.
+        [00025643] Maareldevalan: I can't stand not knowing happened to him. However small, there's still a chance he's alive.
+        [00025641] Maareldevalan: I came here to look for him, but they won't let me go out there. They say it's too dangerous.
+        [00025648] Ryder: They're right. You can't just walk into the kett's backyard.
+        [00025647] Maareldevalan: But you can. Please, find him. Help my family move on.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [000256A0] Hero [OncePerGame]: It's endless ice out there. How would I find one person?
-            [000256B4] ice_maareldevalan: I grabbed a transmission ID from the comms he sent me. You can use it to trace him.
-            [00025747] ice_maareldevalan: If he's alive, he'll be calling for help. And if... if that's not the case, his comm will still be active.
+            [000256A0] Ryder [OncePerGame]: It's endless ice out there. How would I find one person?
+            [000256B4] Maareldevalan: I grabbed a transmission ID from the comms he sent me. You can use it to trace him.
+            [00025747] Maareldevalan: If he's alive, he'll be calling for help. And if... if that's not the case, his comm will still be active.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00025646] Hero: I understand needing to know the truth. I'll find him.
-                [00025753] ice_maareldevalan: Thank the sun. Here's the transmission ID from his comm.
-                [00025752] Hero: SAM, get anything from that?
+                [00025646] Ryder: I understand needing to know the truth. I'll find him.
+                [00025753] Maareldevalan: Thank the sun. Here's the transmission ID from his comm.
+                [00025752] Ryder: SAM, get anything from that?
                 [0002574F] SAM: I've traced the ID to a potential location.
-                [00025750] ice_maareldevalan: I'm prepared for whatever you find. Thank you, Pathfinder.
+                [00025750] Maareldevalan: I'm prepared for whatever you find. Thank you, Pathfinder.
             ├ option 2:
-                [00025649] Hero: I'd be risking my squad to ease your mind. I can't do that.
-                [00025758] ice_maareldevalan: I understand. I don't want to put you in danger.
-                [0002598D] ice_maareldevalan: I'll be here if you change your mind.
+                [00025649] Ryder: I'd be risking my squad to ease your mind. I can't do that.
+                [00025758] Maareldevalan: I understand. I don't want to put you in danger.
+                [0002598D] Maareldevalan: I'll be here if you change your mind.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [00025646] Hero: I understand needing to know the truth. I'll find him.
+            ↩ (goto) [00025646] Ryder: I understand needing to know the truth. I'll find him.
         ├ option 3:
-            ↩ (goto) [00025649] Hero: I'd be risking my squad to ease your mind. I can't do that.
+            ↩ (goto) [00025649] Ryder: I'd be risking my squad to ease your mind. I can't do that.
         └─ merge ─┘
     ├ option 2:
-        [00025642] Hero: Getting news like that can't be easy.
-        ↩ (goto) [00025644] ice_maareldevalan: I can accept the loss. If Keva died, it was for his people. But I need the truth.
+        [00025642] Ryder: Getting news like that can't be easy.
+        ↩ (goto) [00025644] Maareldevalan: I can accept the loss. If Keva died, it was for his people. But I need the truth.
     └─ merge ─┘
 ├ option 2:
-    [0002578F] ice_maareldevalan: You're the one who brought our people back.
-    ↩ (goto) [0002578E] ice_maareldevalan: Please, you need to help me.
+    [0002578F] Maareldevalan: You're the one who brought our people back.
+    ↩ (goto) [0002578E] Maareldevalan: Please, you need to help me.
 └─ merge ─┘
-[00025760] ice_maareldevalan: I still don't know what happened to my brother. You're the only one who can help me.
+[00025760] Maareldevalan: I still don't know what happened to my brother. You're the only one who can help me.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    ↩ (goto) [00025646] Hero: I understand needing to know the truth. I'll find him.
+    ↩ (goto) [00025646] Ryder: I understand needing to know the truth. I'll find him.
 ├ option 2:
-    ↩ (goto) [00025649] Hero: I'd be risking my squad to ease your mind. I can't do that.
+    ↩ (goto) [00025649] Ryder: I'd be risking my squad to ease your mind. I can't do that.
 └─ merge ─┘

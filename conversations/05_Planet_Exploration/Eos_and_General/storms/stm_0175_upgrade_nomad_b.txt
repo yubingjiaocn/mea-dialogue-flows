@@ -1,60 +1,60 @@
 # game/conversations/unc/storms/stm_0175_upgrade_nomad_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_0175_upgrade_nomad_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00029D57] Hero ⟨cond⟩: This might be what we need.
+    [00029D57] Ryder ⟨cond⟩: This might be what we need.
 ├ option 2:
-    [00029D55] Hero: This is interesting...
+    [00029D55] Ryder: This is interesting...
 └─ merge ─┘
 [000247E5] SAM: A standard-issue vehicle shield module.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000247EA] Hero ⟨cond⟩: The research center can give us better than "standard issue."
+    [000247EA] Ryder ⟨cond⟩: The research center can give us better than "standard issue."
 ├ option 2:
-    [0002548F] Hero ⟨cond⟩: The right tools and we could do better than "standard issue." Let's look around.
+    [0002548F] Ryder ⟨cond⟩: The right tools and we could do better than "standard issue." Let's look around.
 ├ option 3:
-    [000247E9] Hero: Huh. Looks valuable.
+    [000247E9] Ryder: Huh. Looks valuable.
 └─ merge ─┘
-[000247E8] Hero: One upgraded shield module, ready to take on any conditions.
+[000247E8] Ryder: One upgraded shield module, ready to take on any conditions.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000247F0] Hero ⟨cond⟩: Let's take a test drive and find that signal.
+    [000247F0] Ryder ⟨cond⟩: Let's take a test drive and find that signal.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000247F7] global_squad_turian ⟨cond⟩: I get front seat!
+        [000247F7] Squadmate (Turian / Vetra) ⟨cond⟩: I get front seat!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00024805] global_squad_male_human ⟨cond⟩: Damn, too slow.
+            [00024805] Squadmate (Human ♂) ⟨cond⟩: Damn, too slow.
         ├ option 2:
-            [00024804] global_squad_female_human ⟨cond⟩: Ah, damn it.
+            [00024804] Squadmate (Human ♀) ⟨cond⟩: Ah, damn it.
         └─ merge ─┘
     ├ option 2:
-        [000247F9] global_squad_male_human ⟨cond⟩: Shotgun!
+        [000247F9] Squadmate (Human ♂) ⟨cond⟩: Shotgun!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00024804] global_squad_female_human ⟨cond⟩: Ah, damn it.
+            ↩ (goto) [00024804] Squadmate (Human ♀) ⟨cond⟩: Ah, damn it.
         ├ option 2:
-            [00024803] global_squad_turian ⟨cond⟩: Hmph. Getting slow.
+            [00024803] Squadmate (Turian / Vetra) ⟨cond⟩: Hmph. Getting slow.
         └─ merge ─┘
     ├ option 3:
-        [000247F8] global_squad_female_human ⟨cond⟩: Shotgun!
+        [000247F8] Squadmate (Human ♀) ⟨cond⟩: Shotgun!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00024803] global_squad_turian ⟨cond⟩: Hmph. Getting slow.
+            ↩ (goto) [00024803] Squadmate (Turian / Vetra) ⟨cond⟩: Hmph. Getting slow.
         ├ option 2:
-            ↩ (goto) [00024805] global_squad_male_human ⟨cond⟩: Damn, too slow.
+            ↩ (goto) [00024805] Squadmate (Human ♂) ⟨cond⟩: Damn, too slow.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [000247F4] Hero: Once we power up the antenna, we'll know where we're driving.
+    [000247F4] Ryder: Once we power up the antenna, we'll know where we're driving.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [000247F7] global_squad_turian ⟨cond⟩: I get front seat!
+        ↩ (goto) [000247F7] Squadmate (Turian / Vetra) ⟨cond⟩: I get front seat!
     ├ option 2:
-        ↩ (goto) [000247F9] global_squad_male_human ⟨cond⟩: Shotgun!
+        ↩ (goto) [000247F9] Squadmate (Human ♂) ⟨cond⟩: Shotgun!
     ├ option 3:
-        ↩ (goto) [000247F8] global_squad_female_human ⟨cond⟩: Shotgun!
+        ↩ (goto) [000247F8] Squadmate (Human ♀) ⟨cond⟩: Shotgun!
     └─ merge ─┘
 └─ merge ─┘

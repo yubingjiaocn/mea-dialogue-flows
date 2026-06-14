@@ -1,95 +1,95 @@
 # Game/Conversations/Crit/Crit_Mer/crit_fin_010_opening_gate_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Mer/crit_fin_010_opening_gate_d.xml
 ==================================================
-[0000E636] global_crew_science_officer: [Comm] Everything looks right, Pathfinder. Find the override, apply that hardware, and the Remnant will fly the same vector as Meridian.
+[0000E636] Suvi (Science Officer): [Comm] Everything looks right, Pathfinder. Find the override, apply that hardware, and the Remnant will fly the same vector as Meridian.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000D3AE] global_squad_angara ⟨cond⟩: And all our work together will pay off. Ready?
+    [0000D3AE] Squadmate (Angara / Jaal) ⟨cond⟩: And all our work together will pay off. Ready?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000D3AC] Hero: It's time. And we're due.
+        [0000D3AC] Ryder: It's time. And we're due.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [0000D3B8] global_squad_turian ⟨cond⟩: This is for us. Let's do it.
-            [0000D3B2] Hero: {i}(Exhales.){/i} Tempest, we're going in.
-            [0002515A] Hero: Quiet so far but... something's different.
+            [0000D3B8] Squadmate (Turian / Vetra) ⟨cond⟩: This is for us. Let's do it.
+            [0000D3B2] Ryder: {i}(Exhales.){/i} Tempest, we're going in.
+            [0002515A] Ryder: Quiet so far but... something's different.
             [00024FA5] SAM: Orbital scans identified a separate energy grid within the tower.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                [00024F5F] global_squad_turian ⟨cond⟩: Meaning?
-                [00024F5D] Hero: Defenses here may not be on our side.
+                [00024F5F] Squadmate (Turian / Vetra) ⟨cond⟩: Meaning?
+                [00024F5D] Ryder: Defenses here may not be on our side.
             ├ option 2:
-                [00024F64] global_squad_female_human ⟨cond⟩: Meaning?
-                ↩ (goto) [00024F5D] Hero: Defenses here may not be on our side.
+                [00024F64] Squadmate (Human ♀) ⟨cond⟩: Meaning?
+                ↩ (goto) [00024F5D] Ryder: Defenses here may not be on our side.
             ├ option 3:
-                [00024F5E] global_squad_male_human ⟨cond⟩: Meaning?
-                ↩ (goto) [00024F5D] Hero: Defenses here may not be on our side.
+                [00024F5E] Squadmate (Human ♂) ⟨cond⟩: Meaning?
+                ↩ (goto) [00024F5D] Ryder: Defenses here may not be on our side.
             ├ option 4:
-                [00024F62] global_squad_krogan ⟨cond⟩: So that means...
-                ↩ (goto) [00024F5D] Hero: Defenses here may not be on our side.
+                [00024F62] Squadmate (Krogan / Drack) ⟨cond⟩: So that means...
+                ↩ (goto) [00024F5D] Ryder: Defenses here may not be on our side.
             ├ option 5:
-                [00024F61] global_squad_asari ⟨cond⟩: Meaning?
-                ↩ (goto) [00024F5D] Hero: Defenses here may not be on our side.
+                [00024F61] Squadmate (Asari / Peebee) ⟨cond⟩: Meaning?
+                ↩ (goto) [00024F5D] Ryder: Defenses here may not be on our side.
             └─ merge ─┘
         ├ option 2:
-            [0000D3B4] global_squad_female_human ⟨cond⟩: Everything we've worked for led to this.
-            ↩ (goto) [0000D3B2] Hero: {i}(Exhales.){/i} Tempest, we're going in.
+            [0000D3B4] Squadmate (Human ♀) ⟨cond⟩: Everything we've worked for led to this.
+            ↩ (goto) [0000D3B2] Ryder: {i}(Exhales.){/i} Tempest, we're going in.
         ├ option 3:
-            [0000D3B7] global_squad_male_human ⟨cond⟩: For the Initiative, let's get it done.
-            ↩ (goto) [0000D3B2] Hero: {i}(Exhales.){/i} Tempest, we're going in.
+            [0000D3B7] Squadmate (Human ♂) ⟨cond⟩: For the Initiative, let's get it done.
+            ↩ (goto) [0000D3B2] Ryder: {i}(Exhales.){/i} Tempest, we're going in.
         ├ option 4:
-            [0000D3B5] global_squad_krogan ⟨cond⟩: Then let's do this.
-            ↩ (goto) [0000D3B2] Hero: {i}(Exhales.){/i} Tempest, we're going in.
+            [0000D3B5] Squadmate (Krogan / Drack) ⟨cond⟩: Then let's do this.
+            ↩ (goto) [0000D3B2] Ryder: {i}(Exhales.){/i} Tempest, we're going in.
         ├ option 5:
-            [0000D3B3] global_squad_asari ⟨cond⟩: This is what we've been fighting for. Let's go already.
-            ↩ (goto) [0000D3B2] Hero: {i}(Exhales.){/i} Tempest, we're going in.
+            [0000D3B3] Squadmate (Asari / Peebee) ⟨cond⟩: This is what we've been fighting for. Let's go already.
+            ↩ (goto) [0000D3B2] Ryder: {i}(Exhales.){/i} Tempest, we're going in.
         └─ merge ─┘
     ├ option 2:
-        [0000D3AD] Hero: It's a lot to process, but we earned it.
+        [0000D3AD] Ryder: It's a lot to process, but we earned it.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            ↩ (goto) [0000D3B8] global_squad_turian ⟨cond⟩: This is for us. Let's do it.
+            ↩ (goto) [0000D3B8] Squadmate (Turian / Vetra) ⟨cond⟩: This is for us. Let's do it.
         ├ option 2:
-            ↩ (goto) [0000D3B4] global_squad_female_human ⟨cond⟩: Everything we've worked for led to this.
+            ↩ (goto) [0000D3B4] Squadmate (Human ♀) ⟨cond⟩: Everything we've worked for led to this.
         ├ option 3:
-            ↩ (goto) [0000D3B7] global_squad_male_human ⟨cond⟩: For the Initiative, let's get it done.
+            ↩ (goto) [0000D3B7] Squadmate (Human ♂) ⟨cond⟩: For the Initiative, let's get it done.
         ├ option 4:
-            ↩ (goto) [0000D3B5] global_squad_krogan ⟨cond⟩: Then let's do this.
+            ↩ (goto) [0000D3B5] Squadmate (Krogan / Drack) ⟨cond⟩: Then let's do this.
         ├ option 5:
-            ↩ (goto) [0000D3B3] global_squad_asari ⟨cond⟩: This is what we've been fighting for. Let's go already.
+            ↩ (goto) [0000D3B3] Squadmate (Asari / Peebee) ⟨cond⟩: This is what we've been fighting for. Let's go already.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0000D39F] global_squad_asari ⟨cond⟩: This is a big move. Our biggest yet. You ready?
+    [0000D39F] Squadmate (Asari / Peebee) ⟨cond⟩: This is a big move. Our biggest yet. You ready?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000D3AC] Hero: It's time. And we're due.
+        ↩ (goto) [0000D3AC] Ryder: It's time. And we're due.
     ├ option 2:
-        ↩ (goto) [0000D3AD] Hero: It's a lot to process, but we earned it.
+        ↩ (goto) [0000D3AD] Ryder: It's a lot to process, but we earned it.
     └─ merge ─┘
 ├ option 3:
-    [0000D3A1] global_squad_krogan ⟨cond⟩: And maybe we get lucky. For once. Ready?
+    [0000D3A1] Squadmate (Krogan / Drack) ⟨cond⟩: And maybe we get lucky. For once. Ready?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000D3AC] Hero: It's time. And we're due.
+        ↩ (goto) [0000D3AC] Ryder: It's time. And we're due.
     ├ option 2:
-        ↩ (goto) [0000D3AD] Hero: It's a lot to process, but we earned it.
+        ↩ (goto) [0000D3AD] Ryder: It's a lot to process, but we earned it.
     └─ merge ─┘
 ├ option 4:
-    [0000D3A9] global_squad_male_human ⟨cond⟩: And maybe, just maybe, we get lucky. For once. Ready?
+    [0000D3A9] Squadmate (Human ♂) ⟨cond⟩: And maybe, just maybe, we get lucky. For once. Ready?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000D3AC] Hero: It's time. And we're due.
+        ↩ (goto) [0000D3AC] Ryder: It's time. And we're due.
     ├ option 2:
-        ↩ (goto) [0000D3AD] Hero: It's a lot to process, but we earned it.
+        ↩ (goto) [0000D3AD] Ryder: It's a lot to process, but we earned it.
     └─ merge ─┘
 ├ option 5:
-    [0000D3A2] global_squad_female_human ⟨cond⟩: And hopefully—victory. Ready?
+    [0000D3A2] Squadmate (Human ♀) ⟨cond⟩: And hopefully—victory. Ready?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000D3AC] Hero: It's time. And we're due.
+        ↩ (goto) [0000D3AC] Ryder: It's time. And we're due.
     ├ option 2:
-        ↩ (goto) [0000D3AD] Hero: It's a lot to process, but we earned it.
+        ↩ (goto) [0000D3AD] Ryder: It's a lot to process, but we earned it.
     └─ merge ─┘
 └─ merge ─┘

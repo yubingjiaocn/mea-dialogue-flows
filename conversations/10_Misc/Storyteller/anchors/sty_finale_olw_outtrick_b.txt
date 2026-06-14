@@ -1,26 +1,26 @@
 # game/conversations/storyteller/anchors/sty_finale_olw_outtrick_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/storyteller/anchors/sty_finale_olw_outtrick_b.xml
 ==================================================
 [000325A6] SAM: We're nearing the exchange point specified in the outlaw's datapad.
-[000325A1] Hero: Shit. Guess it turned out exactly like the outlaw said it would.
+[000325A1] Ryder: Shit. Guess it turned out exactly like the outlaw said it would.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [000325A4] global_squad_turian ⟨cond⟩: Not quite. I'm guessing that's him by the loot.
+    [000325A4] Squadmate (Turian / Vetra) ⟨cond⟩: Not quite. I'm guessing that's him by the loot.
     [000325A2] SAM: Pathfinder, there's an additional datapad here.
 ├ option 2:
-    [000325A8] global_squad_krogan ⟨cond⟩: Except he didn't make it either.
+    [000325A8] Squadmate (Krogan / Drack) ⟨cond⟩: Except he didn't make it either.
     ↩ (goto) [000325A2] SAM: Pathfinder, there's an additional datapad here.
 ├ option 3:
-    [000325A7] global_squad_asari ⟨cond⟩: Not exactly. I think that's our guy by the loot.
+    [000325A7] Squadmate (Asari / Peebee) ⟨cond⟩: Not exactly. I think that's our guy by the loot.
     ↩ (goto) [000325A2] SAM: Pathfinder, there's an additional datapad here.
 ├ option 4:
-    [000325A5] global_squad_male_human ⟨cond⟩: Except he got the business end of a rifle. Look.
+    [000325A5] Squadmate (Human ♂) ⟨cond⟩: Except he got the business end of a rifle. Look.
     ↩ (goto) [000325A2] SAM: Pathfinder, there's an additional datapad here.
 ├ option 5:
-    [000325A3] global_squad_female_human ⟨cond⟩: Judging by the body near the loot, I guess he didn't make it out.
+    [000325A3] Squadmate (Human ♀) ⟨cond⟩: Judging by the body near the loot, I guess he didn't make it out.
     ↩ (goto) [000325A2] SAM: Pathfinder, there's an additional datapad here.
 └─ merge ─┘
-[000325AE] Hero: So his plan didn't work out after all.
+[000325AE] Ryder: So his plan didn't work out after all.
 [000325AB] SAM: These caches contain valuable resources, Pathfinder. I suggest repurposing them for the Initiative.
-[000325AD] Hero: At least some good will come from this.
+[000325AD] Ryder: At least some good will come from this.

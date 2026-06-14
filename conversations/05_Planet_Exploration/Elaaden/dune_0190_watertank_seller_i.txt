@@ -1,66 +1,66 @@
 # game/conversations/unc_dunes/dune_0190_watertank_seller_i
-# Primary speaker: dune_watertank_seller
+# Primary speaker: Watertank Seller
 # Source: game/conversations/unc_dunes/dune_0190_watertank_seller_i.xml
 ==================================================
-[0001DC2F] dune_watertank_seller: Ah. Annea told me to watch out for you.
-[0001DC83] dune_watertank_seller: She told me you're welcome to use the water in the tanks, free of charge.
+[0001DC2F] Watertank Seller: Ah. Annea told me to watch out for you.
+[0001DC83] Watertank Seller: She told me you're welcome to use the water in the tanks, free of charge.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0001E5B4] global_squad_angara ⟨cond⟩ [OncePerGame]: This is unusual. I don't think anyone's ever called Annea generous before.
+    [0001E5B4] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: This is unusual. I don't think anyone's ever called Annea generous before.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001DC82] Hero: Please pass on my thanks to Annea.
-        [0001DC84] dune_watertank_seller: Of course. You must've made an impression.
-        [0001DC7C] dune_watertank_seller: I have never known Annea to do this.
-        [0001DC81] dune_watertank_seller: Water is a scarce and valuable resource on Elaaden.
+        [0001DC82] Ryder: Please pass on my thanks to Annea.
+        [0001DC84] Watertank Seller: Of course. You must've made an impression.
+        [0001DC7C] Watertank Seller: I have never known Annea to do this.
+        [0001DC81] Watertank Seller: Water is a scarce and valuable resource on Elaaden.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001DC89] Hero: Is all this water for sale?
-            [0001DC90] dune_watertank_seller: Some of the supply goes to the trading post, of course, but yes, most of it's for sale.
-            [0001DC96] dune_watertank_seller: Anyone who wants water on Elaaden has to come here.
-            [0001DC94] dune_watertank_seller: There is very little elsewhere on the planet.
-            ↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+            [0001DC89] Ryder: Is all this water for sale?
+            [0001DC90] Watertank Seller: Some of the supply goes to the trading post, of course, but yes, most of it's for sale.
+            [0001DC96] Watertank Seller: Anyone who wants water on Elaaden has to come here.
+            [0001DC94] Watertank Seller: There is very little elsewhere on the planet.
+            ↩ (goto) [0001DC8A] Watertank Seller: [empty]
         ├ option 2:
-            [0001DC8B] Hero: Seems odd to place the water tanks so close to that gaping chasm.
-            [0001DC92] dune_watertank_seller: Someone once told me Annea does it as a security measure.
-            [0001DC9F] dune_watertank_seller: She empties the tanks into the gorge if anyone tries to steal the water.
-            [0001DC9E] dune_watertank_seller: I've never seen it happen myself, but others have. Can you imagine? What a waste.
-            ↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+            [0001DC8B] Ryder: Seems odd to place the water tanks so close to that gaping chasm.
+            [0001DC92] Watertank Seller: Someone once told me Annea does it as a security measure.
+            [0001DC9F] Watertank Seller: She empties the tanks into the gorge if anyone tries to steal the water.
+            [0001DC9E] Watertank Seller: I've never seen it happen myself, but others have. Can you imagine? What a waste.
+            ↩ (goto) [0001DC8A] Watertank Seller: [empty]
         ├ option 3:
-            [0001DC86] Hero: Where does this water come from?
-            [0001DC8E] dune_watertank_seller: I believe that's a trade secret. I don't even know where she gets it.
-            [0001DC8F] dune_watertank_seller: At first I thought she traded with Kadara, but that can't be it.
-            [0001E814] dune_watertank_seller: It's impossible for all of this volume to be from Kadara.
-            ↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+            [0001DC86] Ryder: Where does this water come from?
+            [0001DC8E] Watertank Seller: I believe that's a trade secret. I don't even know where she gets it.
+            [0001DC8F] Watertank Seller: At first I thought she traded with Kadara, but that can't be it.
+            [0001E814] Watertank Seller: It's impossible for all of this volume to be from Kadara.
+            ↩ (goto) [0001DC8A] Watertank Seller: [empty]
         ├ option 4:
-            [0001DC97] Hero: I'll let you get on with your work.
-            [0001DCA0] dune_watertank_seller: Have a lovely day.
+            [0001DC97] Ryder: I'll let you get on with your work.
+            [0001DCA0] Watertank Seller: Have a lovely day.
         └─ merge ─┘
     ├ option 2:
-        [0001DC7F] Hero: Hey, you hear that, everyone? First, second and third rounds are on me!
-        [0001DC7D] dune_watertank_seller: Your companions are, of course, invited to use the supply as well, but please, no one else.
-        [0001DC7E] dune_watertank_seller: Annea is running a business here.
-        ↩ (goto) [0001DC81] dune_watertank_seller: Water is a scarce and valuable resource on Elaaden.
+        [0001DC7F] Ryder: Hey, you hear that, everyone? First, second and third rounds are on me!
+        [0001DC7D] Watertank Seller: Your companions are, of course, invited to use the supply as well, but please, no one else.
+        [0001DC7E] Watertank Seller: Annea is running a business here.
+        ↩ (goto) [0001DC81] Watertank Seller: Water is a scarce and valuable resource on Elaaden.
     └─ merge ─┘
 ├ option 2:
-    [0001E5B7] global_squad_turian ⟨cond⟩ [OncePerGame]: Weird. I didn't think Annea was the sort of person to just give things away.
-    ↩ (goto) [0001E5B3] dune_watertank_seller: [empty]
+    [0001E5B7] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Weird. I didn't think Annea was the sort of person to just give things away.
+    ↩ (goto) [0001E5B3] Watertank Seller: [empty]
 ├ option 3:
-    ↩ (goto) [0001E5B3] dune_watertank_seller: [empty]
+    ↩ (goto) [0001E5B3] Watertank Seller: [empty]
 └─ merge ─┘
-[0001EB3F] dune_watertank_seller: If you're here for water, you'll need to speak with Annea first.
-[0001EB40] dune_watertank_seller: You cut the deal with her, she gives you a chit, and I dispense the water.
-[0001EB41] dune_watertank_seller: You can take your entire allotment at once, or in portions. Up to you.
-↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+[0001EB3F] Watertank Seller: If you're here for water, you'll need to speak with Annea first.
+[0001EB40] Watertank Seller: You cut the deal with her, she gives you a chit, and I dispense the water.
+[0001EB41] Watertank Seller: You can take your entire allotment at once, or in portions. Up to you.
+↩ (goto) [0001DC8A] Watertank Seller: [empty]
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0001DC9D] dune_watertank_seller: Hello again.
-    ↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+    [0001DC9D] Watertank Seller: Hello again.
+    ↩ (goto) [0001DC8A] Watertank Seller: [empty]
 ├ option 2:
-    [0001DC9C] dune_watertank_seller: Welcome back.
-    ↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+    [0001DC9C] Watertank Seller: Welcome back.
+    ↩ (goto) [0001DC8A] Watertank Seller: [empty]
 ├ option 3:
-    [0001DC9B] dune_watertank_seller: Something you need?
-    ↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+    [0001DC9B] Watertank Seller: Something you need?
+    ↩ (goto) [0001DC8A] Watertank Seller: [empty]
 └─ merge ─┘
-↩ (goto) [0001DC8A] dune_watertank_seller: [empty]
+↩ (goto) [0001DC8A] Watertank Seller: [empty]

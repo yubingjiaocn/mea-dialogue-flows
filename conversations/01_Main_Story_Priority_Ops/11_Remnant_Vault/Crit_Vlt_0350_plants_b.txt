@@ -1,114 +1,114 @@
 # Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0350_plants_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_vlt/Crit_Vlt_0350_plants_b.xml
 ==================================================
 ┌─ BRANCH (30) ─┐
 ├ option 1:
-    [0001ECCA] Hero: Will you look at that.
+    [0001ECCA] Ryder: Will you look at that.
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00012270] global_squad_turian ⟨cond⟩: Nowhere to go but down.
+        [00012270] Squadmate (Turian / Vetra) ⟨cond⟩: Nowhere to go but down.
     ├ option 2:
-        [00012272] global_squad_female_human ⟨cond⟩: How do we get across?
+        [00012272] Squadmate (Human ♀) ⟨cond⟩: How do we get across?
     ├ option 3:
-        [00012271] global_squad_male_human ⟨cond⟩: No ramps in here. Maybe it's "Observers only."
+        [00012271] Squadmate (Human ♂) ⟨cond⟩: No ramps in here. Maybe it's "Observers only."
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000163A7] global_squad_male_human ⟨cond⟩: That did it.
-        [000163AC] Hero: Watch your step. It's still a long drop.
+        [000163A7] Squadmate (Human ♂) ⟨cond⟩: That did it.
+        [000163AC] Ryder: Watch your step. It's still a long drop.
     ├ option 2:
-        [000163AA] global_squad_female_human ⟨cond⟩: Looks like they didn't want anyone getting through here easy.
-        ↩ (goto) [000163AC] Hero: Watch your step. It's still a long drop.
+        [000163AA] Squadmate (Human ♀) ⟨cond⟩: Looks like they didn't want anyone getting through here easy.
+        ↩ (goto) [000163AC] Ryder: Watch your step. It's still a long drop.
     ├ option 3:
-        [000163A8] global_squad_krogan ⟨cond⟩: Not like those Observers need a solid floor...
-        ↩ (goto) [000163AC] Hero: Watch your step. It's still a long drop.
+        [000163A8] Squadmate (Krogan / Drack) ⟨cond⟩: Not like those Observers need a solid floor...
+        ↩ (goto) [000163AC] Ryder: Watch your step. It's still a long drop.
     └─ merge ─┘
 ├ option 4:
-    [000166BB] Hero: It made a new path.
-    [00030297] Hero: I think that's the right way. We could reach it if we backtrack.
+    [000166BB] Ryder: It made a new path.
+    [00030297] Ryder: I think that's the right way. We could reach it if we backtrack.
 ├ option 5:
-    [000123E7] global_squad_asari: [Comm] Ryder, I think I got it! This relic is some kind of data storage device.
-    [000123E5] Hero: What's on it?
-    [000123E8] global_squad_asari: [Comm] Give me a chance. I'll need my notes back on the surface to really crack it.
-    [0001F07D] global_squad_asari: [Comm] But just imagine if it has one of those data patterns {i}intact{/i}. Think what mysteries we could solve.
+    [000123E7] Squadmate (Asari / Peebee): [Comm] Ryder, I think I got it! This relic is some kind of data storage device.
+    [000123E5] Ryder: What's on it?
+    [000123E8] Squadmate (Asari / Peebee): [Comm] Give me a chance. I'll need my notes back on the surface to really crack it.
+    [0001F07D] Squadmate (Asari / Peebee): [Comm] But just imagine if it has one of those data patterns {i}intact{/i}. Think what mysteries we could solve.
 ├ option 6:
-    [00009D30] Hero: Wait. Plants? All the way down here?
+    [00009D30] Ryder: Wait. Plants? All the way down here?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00009D27] global_squad_male_human ⟨cond⟩: You see them too? Thought all the gravity fun had messed up my eyes.
-        [00009D2B] Hero: No sunlight. No water. They should all be dead.
+        [00009D27] Squadmate (Human ♂) ⟨cond⟩: You see them too? Thought all the gravity fun had messed up my eyes.
+        [00009D2B] Ryder: No sunlight. No water. They should all be dead.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00009D32] global_squad_turian ⟨cond⟩: The planet's a wasteland, but maybe they're just hardy?
+            [00009D32] Squadmate (Turian / Vetra) ⟨cond⟩: The planet's a wasteland, but maybe they're just hardy?
             [00009D2F] SAM: The source of the system lockdown may yield more information. We appear to be close.
         ├ option 2:
-            [00009D22] global_squad_krogan ⟨cond⟩: Depends. Tuchanka spur-vines sprout anywhere.
+            [00009D22] Squadmate (Krogan / Drack) ⟨cond⟩: Depends. Tuchanka spur-vines sprout anywhere.
             ↩ (goto) [00009D2F] SAM: The source of the system lockdown may yield more information. We appear to be close.
         ├ option 3:
             ↩ (goto) [00009D2F] SAM: The source of the system lockdown may yield more information. We appear to be close.
         └─ merge ─┘
     ├ option 2:
-        [00009D33] global_squad_female_human ⟨cond⟩: That's... strange.
-        ↩ (goto) [00009D2B] Hero: No sunlight. No water. They should all be dead.
+        [00009D33] Squadmate (Human ♀) ⟨cond⟩: That's... strange.
+        ↩ (goto) [00009D2B] Ryder: No sunlight. No water. They should all be dead.
     ├ option 3:
-        [00009D2A] global_squad_turian ⟨cond⟩: Maybe someone thought the place needed decorating.
-        ↩ (goto) [00009D2B] Hero: No sunlight. No water. They should all be dead.
+        [00009D2A] Squadmate (Turian / Vetra) ⟨cond⟩: Maybe someone thought the place needed decorating.
+        ↩ (goto) [00009D2B] Ryder: No sunlight. No water. They should all be dead.
     └─ merge ─┘
 ├ option 7:
-    [0001471B] Hero: It {i}looks{/i} stable... Everyone watch your landing.
+    [0001471B] Ryder: It {i}looks{/i} stable... Everyone watch your landing.
 ├ option 8:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EFD1] global_squad_krogan ⟨cond⟩: You know how to show us a good time, Ryder.
+            [0001EFD1] Squadmate (Krogan / Drack) ⟨cond⟩: You know how to show us a good time, Ryder.
         ├ option 2:
-            [0001EFCE] global_squad_female_human ⟨cond⟩: Glad I didn't eat a big breakfast.
+            [0001EFCE] Squadmate (Human ♀) ⟨cond⟩: Glad I didn't eat a big breakfast.
         ├ option 3:
-            [0001EFD5] global_squad_turian ⟨cond⟩: If this doesn't test-fly the jump-jets, nothing will.
+            [0001EFD5] Squadmate (Turian / Vetra) ⟨cond⟩: If this doesn't test-fly the jump-jets, nothing will.
         ├ option 4:
-            [0001EFD0] global_squad_male_human ⟨cond⟩: I'm starting to get the hang of this.
+            [0001EFD0] Squadmate (Human ♂) ⟨cond⟩: I'm starting to get the hang of this.
         └─ merge ─┘
     ├ option 2:
         [0001F182] SAM: Armor hydraulics compensating.
     ├ option 3:
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0001EFCF] global_squad_female_human ⟨cond⟩: Oops. That bit's slippery.
+            [0001EFCF] Squadmate (Human ♀) ⟨cond⟩: Oops. That bit's slippery.
         ├ option 2:
-            [0001EFD2] global_squad_male_human ⟨cond⟩: Uh! No, I'm okay.
+            [0001EFD2] Squadmate (Human ♂) ⟨cond⟩: Uh! No, I'm okay.
         ├ option 3:
-            [0001EFD4] global_squad_turian ⟨cond⟩: Ah, almost lost my footing.
+            [0001EFD4] Squadmate (Turian / Vetra) ⟨cond⟩: Ah, almost lost my footing.
         └─ merge ─┘
     ├ option 4:
-        [0001F180] Hero: We're two gravity wells down already, and this place goes even deeper.
-        [0001F187] Hero: What's at the bottom?
+        [0001F180] Ryder: We're two gravity wells down already, and this place goes even deeper.
+        [0001F187] Ryder: What's at the bottom?
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001F189] global_squad_female_human ⟨cond⟩: Let's not find out the hard way.
+            [0001F189] Squadmate (Human ♀) ⟨cond⟩: Let's not find out the hard way.
         ├ option 2:
-            [0001F188] global_squad_krogan ⟨cond⟩: Angry bots. Just a guess.
+            [0001F188] Squadmate (Krogan / Drack) ⟨cond⟩: Angry bots. Just a guess.
         ├ option 3:
-            [0001F186] global_squad_turian ⟨cond⟩: If there is a bottom. Who says it doesn't go down to the core?
+            [0001F186] Squadmate (Turian / Vetra) ⟨cond⟩: If there is a bottom. Who says it doesn't go down to the core?
         ├ option 4:
-            [0001F185] global_squad_male_human ⟨cond⟩: We've got to leave something for the next trip.
+            [0001F185] Squadmate (Human ♂) ⟨cond⟩: We've got to leave something for the next trip.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 9:
-    [00010D30] Hero: Too far, even for jump-jets.
+    [00010D30] Ryder: Too far, even for jump-jets.
 ├ option 10:
-    [0001F47C] Hero: Now where does that go?
+    [0001F47C] Ryder: Now where does that go?
 ├ option 11:
-    [0001EE50] Hero: Look at all those data patterns. It's practically a library.
-    [0001EE4A] global_squad_asari: [Comm] You're kidding.
-    [0001EE4F] Hero: I'm looking at it right now.
-    [0001EE44] global_squad_asari: [Comm] And I went the other way. Crap. I'd kill to be standing where you are.
+    [0001EE50] Ryder: Look at all those data patterns. It's practically a library.
+    [0001EE4A] Squadmate (Asari / Peebee): [Comm] You're kidding.
+    [0001EE4F] Ryder: I'm looking at it right now.
+    [0001EE44] Squadmate (Asari / Peebee): [Comm] And I went the other way. Crap. I'd kill to be standing where you are.
 ├ option 12:
     [0001EE41] SAM: Severe data corruption detected.
-    [0001EE42] Hero: Is there anything left?
+    [0001EE42] Ryder: Is there anything left?
     [0001EE43] SAM: A possible reference to Eos, and a term that could translate to "craft," "discovery," or "edifice."
 ├ option 13:
     ┌─ BRANCH (5) ─┐
@@ -118,14 +118,14 @@
         [0001EE4B] SAM [OncePerGame]: Data recovered. A phrase that seems analogous to "atmospheric conditions."
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0001EE45] global_squad_female_human ⟨cond⟩: Atmosphere again.
-            [0001EE51] Hero: We're on the right track.
+            [0001EE45] Squadmate (Human ♀) ⟨cond⟩: Atmosphere again.
+            [0001EE51] Ryder: We're on the right track.
         ├ option 2:
-            [0001EE40] global_squad_male_human ⟨cond⟩: "Atmospheric." As in, processor.
-            ↩ (goto) [0001EE51] Hero: We're on the right track.
+            [0001EE40] Squadmate (Human ♂) ⟨cond⟩: "Atmospheric." As in, processor.
+            ↩ (goto) [0001EE51] Ryder: We're on the right track.
         ├ option 3:
-            [0001EE3F] global_squad_krogan ⟨cond⟩: Atmosphere. Just what we're after.
-            ↩ (goto) [0001EE51] Hero: We're on the right track.
+            [0001EE3F] Squadmate (Krogan / Drack) ⟨cond⟩: Atmosphere. Just what we're after.
+            ↩ (goto) [0001EE51] Ryder: We're on the right track.
         └─ merge ─┘
     ├ option 3:
         [0001EE49] SAM [OncePerGame]: Data recovered. These fragments appear to be from system reports generated by the vault.
@@ -134,131 +134,131 @@
         [0001EE48] SAM [OncePerGame]: Data corruption. Unable to translate.
     ├ option 5:
         [0001EE4C] SAM [OncePerGame]: Data corruption. Approximating a translation of surviving terms.
-        [0001EE69] Hero: "Protocol." "Disengage." "Verdurous..." Verdurous?
-        [0001EE68] global_squad_asari: [Comm] {i}(Sighs.){/i} So many answers, right there, and no way to reach them.
+        [0001EE69] Ryder: "Protocol." "Disengage." "Verdurous..." Verdurous?
+        [0001EE68] Squadmate (Asari / Peebee): [Comm] {i}(Sighs.){/i} So many answers, right there, and no way to reach them.
     └─ merge ─┘
 ├ option 14:
-    [0001F675] Hero: Interesting, but I think we're missing something.
+    [0001F675] Ryder: Interesting, but I think we're missing something.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001F679] global_squad_turian ⟨cond⟩: Let's look around.
+        [0001F679] Squadmate (Turian / Vetra) ⟨cond⟩: Let's look around.
     ├ option 2:
-        [0001F67B] global_squad_male_human ⟨cond⟩: Let's look around.
+        [0001F67B] Squadmate (Human ♂) ⟨cond⟩: Let's look around.
     ├ option 3:
-        [0001F677] global_squad_female_human ⟨cond⟩: Let's look around.
+        [0001F677] Squadmate (Human ♀) ⟨cond⟩: Let's look around.
     └─ merge ─┘
 ├ option 15:
     [0001F67A] SAM: Glyph recovered.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002E930] Hero: I don't see anywhere to use it.
+        [0002E930] Ryder: I don't see anywhere to use it.
     ├ option 2:
-        [0001F674] Hero: It would work in that grid, but we're still one short.
+        [0001F674] Ryder: It would work in that grid, but we're still one short.
     └─ merge ─┘
 ├ option 16:
-    [0002E92F] Hero: Another glyph with nowhere to go.
+    [0002E92F] Ryder: Another glyph with nowhere to go.
 ├ option 17:
-    [0001F678] Hero: Another glyph. Let's look at that grid again.
+    [0001F678] Ryder: Another glyph. Let's look at that grid again.
 ├ option 18:
-    [0001F676] Hero: Got it!
+    [0001F676] Ryder: Got it!
 ├ option 19:
-    [00030287] Hero: Looks like a side room. Still, could be anything in here.
+    [00030287] Ryder: Looks like a side room. Still, could be anything in here.
 ├ option 20:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001ECD1] global_squad_krogan ⟨cond⟩: Oh, great.
-        [0001ECC9] Hero: It'll be fine.
+        [0001ECD1] Squadmate (Krogan / Drack) ⟨cond⟩: Oh, great.
+        [0001ECC9] Ryder: It'll be fine.
     ├ option 2:
-        [0001ECD0] global_squad_male_human ⟨cond⟩: Oh. Ha. Nope.
-        ↩ (goto) [0001ECC9] Hero: It'll be fine.
+        [0001ECD0] Squadmate (Human ♂) ⟨cond⟩: Oh. Ha. Nope.
+        ↩ (goto) [0001ECC9] Ryder: It'll be fine.
     ├ option 3:
-        [0001ECC6] global_squad_female_human ⟨cond⟩: Uh. Could we not?
-        ↩ (goto) [0001ECC9] Hero: It'll be fine.
+        [0001ECC6] Squadmate (Human ♀) ⟨cond⟩: Uh. Could we not?
+        ↩ (goto) [0001ECC9] Ryder: It'll be fine.
     └─ merge ─┘
 ├ option 21:
-    [0001ECD2] Hero: We're all good.
+    [0001ECD2] Ryder: We're all good.
 ├ option 22:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001ECCB] global_squad_turian ⟨cond⟩: Hate this. Hate it.
+        [0001ECCB] Squadmate (Turian / Vetra) ⟨cond⟩: Hate this. Hate it.
     ├ option 2:
-        [0001ECC7] global_squad_female_human ⟨cond⟩: They're—no. Just the light.
+        [0001ECC7] Squadmate (Human ♀) ⟨cond⟩: They're—no. Just the light.
     ├ option 3:
-        [0001ECDF] global_squad_krogan ⟨cond⟩: Damn it, Ryder.
+        [0001ECDF] Squadmate (Krogan / Drack) ⟨cond⟩: Damn it, Ryder.
     ├ option 4:
-        [0001ECE0] global_squad_male_human ⟨cond⟩: Not moving... it's just your eyes...
+        [0001ECE0] Squadmate (Human ♂) ⟨cond⟩: Not moving... it's just your eyes...
     └─ merge ─┘
 ├ option 23:
-    [0001ECD4] Hero: See? Absolutely fine.
+    [0001ECD4] Ryder: See? Absolutely fine.
 ├ option 24:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001ECF1] global_squad_female_human ⟨cond⟩: Ah! Damn it!
-        [0001ECF2] Hero: It's okay. It's fine.
+        [0001ECF1] Squadmate (Human ♀) ⟨cond⟩: Ah! Damn it!
+        [0001ECF2] Ryder: It's okay. It's fine.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001ECF4] global_squad_male_human ⟨cond⟩: Knew it. Phew. Come on.
+            [0001ECF4] Squadmate (Human ♂) ⟨cond⟩: Knew it. Phew. Come on.
         ├ option 2:
-            [0001ECF3] global_squad_krogan ⟨cond⟩: I hate this place.
+            [0001ECF3] Squadmate (Krogan / Drack) ⟨cond⟩: I hate this place.
         ├ option 3:
-            [0001ECF5] global_squad_turian ⟨cond⟩: Stop saying fine! Let's just get out of here.
+            [0001ECF5] Squadmate (Turian / Vetra) ⟨cond⟩: Stop saying fine! Let's just get out of here.
         ├ option 4:
-            [0001ECF6] global_squad_female_human ⟨cond⟩: Yeah. Sure. Great.
+            [0001ECF6] Squadmate (Human ♀) ⟨cond⟩: Yeah. Sure. Great.
         └─ merge ─┘
     ├ option 2:
-        [0001ECF8] global_squad_turian ⟨cond⟩: Oh crap!
-        ↩ (goto) [0001ECF2] Hero: It's okay. It's fine.
+        [0001ECF8] Squadmate (Turian / Vetra) ⟨cond⟩: Oh crap!
+        ↩ (goto) [0001ECF2] Ryder: It's okay. It's fine.
     ├ option 3:
-        [0001ECF7] global_squad_krogan ⟨cond⟩: Gah!
-        ↩ (goto) [0001ECF2] Hero: It's okay. It's fine.
+        [0001ECF7] Squadmate (Krogan / Drack) ⟨cond⟩: Gah!
+        ↩ (goto) [0001ECF2] Ryder: It's okay. It's fine.
     ├ option 4:
-        [0001ECF0] global_squad_male_human ⟨cond⟩: Shit!
-        ↩ (goto) [0001ECF2] Hero: It's okay. It's fine.
+        [0001ECF0] Squadmate (Human ♂) ⟨cond⟩: Shit!
+        ↩ (goto) [0001ECF2] Ryder: It's okay. It's fine.
     └─ merge ─┘
 ├ option 25:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00010D32] global_squad_male_human ⟨cond⟩: Now that is cool!
+        [00010D32] Squadmate (Human ♂) ⟨cond⟩: Now that is cool!
     ├ option 2:
-        [00010D33] global_squad_krogan ⟨cond⟩: Well, this is a first. Even for me...
+        [00010D33] Squadmate (Krogan / Drack) ⟨cond⟩: Well, this is a first. Even for me...
     ├ option 3:
-        [00010D31] global_squad_female_human ⟨cond⟩: Come to Andromeda. Walk on air.
+        [00010D31] Squadmate (Human ♀) ⟨cond⟩: Come to Andromeda. Walk on air.
     └─ merge ─┘
 ├ option 26:
-    [00012573] Hero: Sealed off. I don't think we can burn through that.
+    [00012573] Ryder: Sealed off. I don't think we can burn through that.
 ├ option 27:
     [00012572] SAM: All conduits converge here, Pathfinder.
-    [0001256F] Hero: That must be the lockdown console.
+    [0001256F] Ryder: That must be the lockdown console.
 ├ option 28:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00012570] global_squad_krogan ⟨cond⟩: We're right in the heart of this place.
+        [00012570] Squadmate (Krogan / Drack) ⟨cond⟩: We're right in the heart of this place.
     ├ option 2:
-        [00012574] global_squad_male_human ⟨cond⟩: {i}(Shivers.){/i} The back of my neck's doing that thing.
+        [00012574] Squadmate (Human ♂) ⟨cond⟩: {i}(Shivers.){/i} The back of my neck's doing that thing.
     ├ option 3:
-        [00012571] global_squad_female_human ⟨cond⟩: Like a giant machine, with us in the gears.
+        [00012571] Squadmate (Human ♀) ⟨cond⟩: Like a giant machine, with us in the gears.
     └─ merge ─┘
 ├ option 29:
-    [0001F07A] Hero: Feel that? This whole platform's resonating with... something.
-    [000166BE] Hero: We must be close.
+    [0001F07A] Ryder: Feel that? This whole platform's resonating with... something.
+    [000166BE] Ryder: We must be close.
 ├ option 30:
-    [000166BF] Hero: No question. This is the heart of the vault.
+    [000166BF] Ryder: No question. This is the heart of the vault.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000166C1] global_squad_krogan ⟨cond⟩: I've never seen anything like it.
+        [000166C1] Squadmate (Krogan / Drack) ⟨cond⟩: I've never seen anything like it.
     ├ option 2:
-        [000166C3] global_squad_female_human ⟨cond⟩: I've never seen anything like it.
+        [000166C3] Squadmate (Human ♀) ⟨cond⟩: I've never seen anything like it.
     ├ option 3:
-        [000166C2] global_squad_turian ⟨cond⟩: I've never seen anything like it.
+        [000166C2] Squadmate (Turian / Vetra) ⟨cond⟩: I've never seen anything like it.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0001EFD3] global_squad_krogan ⟨cond⟩: {i}(Grunts.){/i} A dozen old leg breaks are coming back to haunt me.
-    [0001F041] Hero: War wounds?
-    [0001F042] global_squad_krogan: Heh. Raising kids.
+    [0001EFD3] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Grunts.){/i} A dozen old leg breaks are coming back to haunt me.
+    [0001F041] Ryder: War wounds?
+    [0001F042] Squadmate (Krogan / Drack): Heh. Raising kids.
 ├ option 2:
-    [00009D25] global_squad_female_human ⟨cond⟩: Nice, a houseplant even I can't kill.
+    [00009D25] Squadmate (Human ♀) ⟨cond⟩: Nice, a houseplant even I can't kill.
     ↩ (goto) [00009D2F] SAM: The source of the system lockdown may yield more information. We appear to be close.
 ├ option 3:
     [00012277] SAM: The conduit appears to end at that console.

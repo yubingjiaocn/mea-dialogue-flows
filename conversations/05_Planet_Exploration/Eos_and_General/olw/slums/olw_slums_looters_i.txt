@@ -1,26 +1,26 @@
 # game/conversations/unc/olw/slums/olw_slums_looters_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/olw/slums/olw_slums_looters_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002F129] olw_looter_01 [OncePerGame]: Fuck off. This one's ours.
+    [0002F129] Looter [OncePerGame]: Fuck off. This one's ours.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002F120] Hero: Yep. My mistake. Enjoy.
-        [0002F127] olw_looter_02: {i}(Scoffs.){/i} Asshole.
+        [0002F120] Ryder: Yep. My mistake. Enjoy.
+        [0002F127] Looter: {i}(Scoffs.){/i} Asshole.
     ├ option 2:
-        [0002F123] Hero: Looting is wrong.
+        [0002F123] Ryder: Looting is wrong.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002F122] olw_looter_02 ⟨cond⟩: {i}(Laughs.){/i} She for real?
-            [0002F121] olw_looter_01: {i}(Laughs){/i} "Looting is wrong." What a little bitch.
+            [0002F122] Looter ⟨cond⟩: {i}(Laughs.){/i} She for real?
+            [0002F121] Looter: {i}(Laughs){/i} "Looting is wrong." What a little bitch.
             [0002F126] SAM: Let's not antagonize them further, Pathfinder.
         ├ option 2:
-            [0002F124] olw_looter_02: {i}(Laughs.){/i} This guy for real?
-            ↩ (goto) [0002F121] olw_looter_01: {i}(Laughs){/i} "Looting is wrong." What a little bitch.
+            [0002F124] Looter: {i}(Laughs.){/i} This guy for real?
+            ↩ (goto) [0002F121] Looter: {i}(Laughs){/i} "Looting is wrong." What a little bitch.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0002F12B] olw_looter_01: I said fuck off!
+    [0002F12B] Looter: I said fuck off!
 └─ merge ─┘

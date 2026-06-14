@@ -1,64 +1,64 @@
 # game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0200_protest_d
-# Primary speaker: nex_rp_pol_asari
+# Primary speaker: Rp Pol Asari
 # Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0200_protest_d.xml
 ==================================================
-[00022147] Hero: Hey, what's going on?
-[00010AE5] nex_rp_pol_krogan: That's your "new galaxy"! Making speeches about some fresh start while your kids stay frozen!
+[00022147] Ryder: Hey, what's going on?
+[00010AE5] Rp Pol Krogan: That's your "new galaxy"! Making speeches about some fresh start while your kids stay frozen!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00010AE7] nex_rp_pol_asari ⟨cond⟩: And it's all thanks to your Pathfinder!
-    [00010AE4] Hero: Excuse me?
-    [00010AE9] nex_rp_pol_asari: We've waited months for our families to come out of stasis. They should have gone to your outpost.
+    [00010AE7] Rp Pol Asari ⟨cond⟩: And it's all thanks to your Pathfinder!
+    [00010AE4] Ryder: Excuse me?
+    [00010AE9] Rp Pol Asari: We've waited months for our families to come out of stasis. They should have gone to your outpost.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00028FA7] nex_rp_pol_asari ⟨cond⟩: But because you wanted military personnel, people tagged as "scientific support" have to wait. Again!
-        [00031111] nex_rp_pol_turian: All the reassignments mean they're in ten different colony blocks now!
-        [00028FA6] nex_rp_pol_youth: And my mother just got caught in the middle.
+        [00028FA7] Rp Pol Asari ⟨cond⟩: But because you wanted military personnel, people tagged as "scientific support" have to wait. Again!
+        [00031111] Rp Pol Turian: All the reassignments mean they're in ten different colony blocks now!
+        [00028FA6] Rp Pol Youth: And my mother just got caught in the middle.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00028FC2] Hero: We only had resources for one outpost, so I focused on the skills we needed most.
+            [00028FC2] Ryder: We only had resources for one outpost, so I focused on the skills we needed most.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00028FBB] nex_rp_pol_asari ⟨cond⟩: Well, your pick has my grandchildren trapped in that pod.
-                [00010AF2] nex_rp_pol_youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
-                [00031110] nex_rp_pol_turian: You do stasis revivals. You can tell our leaders you're opening those pods. Today.
+                [00028FBB] Rp Pol Asari ⟨cond⟩: Well, your pick has my grandchildren trapped in that pod.
+                [00010AF2] Rp Pol Youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
+                [00031110] Rp Pol Turian: You do stasis revivals. You can tell our leaders you're opening those pods. Today.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    [00031145] Hero [OncePerGame]: I authorize whole colony blocks or a few emergency revivals. I can't wake dozens of random people.
-                    [00031143] nex_rp_pol_turian: We don't care whose finger pushes the button. If you can't, our "leaders" can. And if you tell them, they will.
+                    [00031145] Ryder [OncePerGame]: I authorize whole colony blocks or a few emergency revivals. I can't wake dozens of random people.
+                    [00031143] Rp Pol Turian: We don't care whose finger pushes the button. If you can't, our "leaders" can. And if you tell them, they will.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [00028FBF] Hero: Okay. I'll talk to the leadership about what we can do.
-                        [00028FDB] nex_rp_pol_krogan: Fourteen months of promises. It's time for some results.
-                        [00031144] nex_rp_pol_turian: We tried petitioning Addison. She ignored us. Screw her.
-                        [00028FDA] nex_rp_pol_asari: Start with Kandros. He sent those tin soldiers over there. Maybe he'll take us seriously.
+                        [00028FBF] Ryder: Okay. I'll talk to the leadership about what we can do.
+                        [00028FDB] Rp Pol Krogan: Fourteen months of promises. It's time for some results.
+                        [00031144] Rp Pol Turian: We tried petitioning Addison. She ignored us. Screw her.
+                        [00028FDA] Rp Pol Asari: Start with Kandros. He sent those tin soldiers over there. Maybe he'll take us seriously.
                     ├ option 2:
-                        [00028FC3] Hero: This is a big issue, bigger than just my say-so.
-                        [00028FD4] nex_rp_pol_krogan: Bullshit! You're their hero right now—they'll do anything you say.
-                        ↩ (goto) [00031144] nex_rp_pol_turian: We tried petitioning Addison. She ignored us. Screw her.
+                        [00028FC3] Ryder: This is a big issue, bigger than just my say-so.
+                        [00028FD4] Rp Pol Krogan: Bullshit! You're their hero right now—they'll do anything you say.
+                        ↩ (goto) [00031144] Rp Pol Turian: We tried petitioning Addison. She ignored us. Screw her.
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) [00028FBF] Hero: Okay. I'll talk to the leadership about what we can do.
+                    ↩ (goto) [00028FBF] Ryder: Okay. I'll talk to the leadership about what we can do.
                 ├ option 3:
-                    ↩ (goto) [00028FC3] Hero: This is a big issue, bigger than just my say-so.
+                    ↩ (goto) [00028FC3] Ryder: This is a big issue, bigger than just my say-so.
                 └─ merge ─┘
             ├ option 2:
-                [00028FBD] nex_rp_pol_krogan ⟨cond⟩: And what {i}we{/i} need is our families back!
-                ↩ (goto) [00010AF2] nex_rp_pol_youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
+                [00028FBD] Rp Pol Krogan ⟨cond⟩: And what {i}we{/i} need is our families back!
+                ↩ (goto) [00010AF2] Rp Pol Youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
             └─ merge ─┘
         ├ option 2:
-            [00010AE8] Hero: I founded the outpost—I didn't decide who would stay in stasis.
-            [00010AEF] nex_rp_pol_asari: You don't care that you've torn families apart?
-            [00010AF1] Hero: That's not what I said.
-            ↩ (goto) [00010AF2] nex_rp_pol_youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
+            [00010AE8] Ryder: I founded the outpost—I didn't decide who would stay in stasis.
+            [00010AEF] Rp Pol Asari: You don't care that you've torn families apart?
+            [00010AF1] Ryder: That's not what I said.
+            ↩ (goto) [00010AF2] Rp Pol Youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
         └─ merge ─┘
     ├ option 2:
-        [00028FA5] nex_rp_pol_krogan ⟨cond⟩: But since you think research is so important, military personnel got bumped down the list. Like my clan brothers.
-        ↩ (goto) [00031111] nex_rp_pol_turian: All the reassignments mean they're in ten different colony blocks now!
+        [00028FA5] Rp Pol Krogan ⟨cond⟩: But since you think research is so important, military personnel got bumped down the list. Like my clan brothers.
+        ↩ (goto) [00031111] Rp Pol Turian: All the reassignments mean they're in ten different colony blocks now!
     └─ merge ─┘
 ├ option 2:
-    [00013966] nex_rp_pol_asari: And it's all thanks to your Pathfinder!
-    ↩ (goto) [00010AE4] Hero: Excuse me?
+    [00013966] Rp Pol Asari: And it's all thanks to your Pathfinder!
+    ↩ (goto) [00010AE4] Ryder: Excuse me?
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:

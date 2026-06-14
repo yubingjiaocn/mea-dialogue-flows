@@ -1,53 +1,53 @@
 # Game/Conversations/Bstory/kro/kbs_ela_chase_par_001_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/kro/kbs_ela_chase_par_001_b.xml
 ==================================================
 [0000AA81] SAM: This is the location from the Spender vid, Pathfinder.
 [0002BD61] SAM: Anti-vehicular mines ahead. It's best to proceed on foot.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0002BD7C] global_squad_female_human ⟨cond⟩: Outlaws. Maybe friends of Spender?
-    [0000AA80] global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+    [0002BD7C] Squadmate (Human ♀) ⟨cond⟩: Outlaws. Maybe friends of Spender?
+    [0000AA80] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
 ├ option 2:
-    [0002BD7D] global_squad_asari ⟨cond⟩: Looks like outlaws. Friends of Spender?
-    ↩ (goto) [0000AA80] global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+    [0002BD7D] Squadmate (Asari / Peebee) ⟨cond⟩: Looks like outlaws. Friends of Spender?
+    ↩ (goto) [0000AA80] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
 ├ option 3:
-    [0002BD7B] global_squad_male_human ⟨cond⟩: Looks like outlaws. Friends of Spender?
-    ↩ (goto) [0000AA80] global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+    [0002BD7B] Squadmate (Human ♂) ⟨cond⟩: Looks like outlaws. Friends of Spender?
+    ↩ (goto) [0000AA80] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
 ├ option 4:
-    [0002BD60] global_squad_turian ⟨cond⟩: Outlaws. Maybe friends of Spender?
+    [0002BD60] Squadmate (Turian / Vetra) ⟨cond⟩: Outlaws. Maybe friends of Spender?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000AA80] global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+        ↩ (goto) [0000AA80] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
     ├ option 2:
-        [0000AA82] Hero: Let's do this.
+        [0000AA82] Ryder: Let's do this.
     └─ merge ─┘
 └─ merge ─┘
 [0001AB04] SAM: Pathfinder. I've updated the map with the navpoint to the location in the Spender video.
-[0001AB0B] Hero: Wonder what we'll find there.
+[0001AB0B] Ryder: Wonder what we'll find there.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001AB09] global_squad_krogan ⟨cond⟩: Something to hang Spender with, I hope.
+    [0001AB09] Squadmate (Krogan / Drack) ⟨cond⟩: Something to hang Spender with, I hope.
 ├ option 2:
-    [0001AB0D] global_squad_turian ⟨cond⟩: Hopefully proof Spender's up to no good. I never did like him.
+    [0001AB0D] Squadmate (Turian / Vetra) ⟨cond⟩: Hopefully proof Spender's up to no good. I never did like him.
 ├ option 3:
-    [0001AB0A] global_squad_asari ⟨cond⟩: Proof that Spender's a bad guy would sure make Kesh happy.
+    [0001AB0A] Squadmate (Asari / Peebee) ⟨cond⟩: Proof that Spender's a bad guy would sure make Kesh happy.
 ├ option 4:
-    [0001AB0C] global_squad_female_human ⟨cond⟩: Proof, hopefully.
+    [0001AB0C] Squadmate (Human ♀) ⟨cond⟩: Proof, hopefully.
 ├ option 5:
-    [0001AB08] global_squad_male_human ⟨cond⟩: Hopefully proof, one way or another.
+    [0001AB08] Squadmate (Human ♂) ⟨cond⟩: Hopefully proof, one way or another.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000AA85] global_squad_krogan ⟨cond⟩: What the... Hey, get back here!
+        [0000AA85] Squadmate (Krogan / Drack) ⟨cond⟩: What the... Hey, get back here!
     ├ option 2:
         [0000AA88] SAM: I suggest following them before they're out of range, Pathfinder.
-        [0001A36D] global_squad_krogan ⟨cond⟩: Trust an AI to point out the obvious.
+        [0001A36D] Squadmate (Krogan / Drack) ⟨cond⟩: Trust an AI to point out the obvious.
     └─ merge ─┘
 ├ option 2:
     [0000AA92] SAM: They're out of range, Pathfinder.
     [0001A23F] SAM: However, I detect an active signal nearby.
-    [0001A23E] Hero: Worth investigating.
+    [0001A23E] Ryder: Worth investigating.
 └─ merge ─┘

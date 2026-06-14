@@ -1,56 +1,56 @@
 # game/conversations/bstory/sal/sal_0185_intruder_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/sal/sal_0185_intruder_d.xml
 ==================================================
 [0001AA81] Narration: As Ryder is leaving Rand Lon's apartment, they bump into Rand Lon who's entering. Lon isn't pleased.
-[0001AA82] salbs_official: What are you doing in my apartment?
-[0001AAA6] Hero: You must be Rand Lon.
-[0001AAA7] salbs_official: And—yes, you're the one who saved our ark. What are you doing here?
+[0001AA82] Salbs Official: What are you doing in my apartment?
+[0001AAA6] Ryder: You must be Rand Lon.
+[0001AAA7] Salbs Official: And—yes, you're the one who saved our ark. What are you doing here?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001AAA9] Hero: I'm conducting an investigation about the salarian ark. I wanted to check a few things.
-    [0001AAD5] salbs_official: Ah, I did hear about this. I was too busy to assist.
-    [0001B0A3] salbs_official: I suppose I'll have to make the time. What do you need?
+    [0001AAA9] Ryder: I'm conducting an investigation about the salarian ark. I wanted to check a few things.
+    [0001AAD5] Salbs Official: Ah, I did hear about this. I was too busy to assist.
+    [0001B0A3] Salbs Official: I suppose I'll have to make the time. What do you need?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001AAE6] Hero: First, explain why your console's been scrubbed and why there's traces of a neurodepressant in here.
-        [0001AAFB] salbs_official: Probably because I visited the labs and I suffered a power surge. Shall I also explain my heart medication? My clan ornaments?
-        [0001AB07] salbs_official: You sound just like—oh, wait. Did you get roped into another of Saelen Varn's crusades?
-        [0001AAED] Hero: What do you mean?
-        [0001AAEC] salbs_official: No, I won't spread rumors. You can go, but I wouldn't break into any more homes on Saelen's advice.
+        [0001AAE6] Ryder: First, explain why your console's been scrubbed and why there's traces of a neurodepressant in here.
+        [0001AAFB] Salbs Official: Probably because I visited the labs and I suffered a power surge. Shall I also explain my heart medication? My clan ornaments?
+        [0001AB07] Salbs Official: You sound just like—oh, wait. Did you get roped into another of Saelen Varn's crusades?
+        [0001AAED] Ryder: What do you mean?
+        [0001AAEC] Salbs Official: No, I won't spread rumors. You can go, but I wouldn't break into any more homes on Saelen's advice.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001AAF1] Hero: There's obviously been some misunderstanding. Goodbye.
-            [0001AB11] salbs_official: Please don't touch anything else on your way out.
+            [0001AAF1] Ryder: There's obviously been some misunderstanding. Goodbye.
+            [0001AB11] Salbs Official: Please don't touch anything else on your way out.
         ├ option 2:
-            [0001AAF0] Hero: If I've been misled, I should hear these rumors.
-            [0001AB22] salbs_official: The Major is brilliant, but... he's just been in STG too long.
-            [0001AB2C] salbs_official: He's been bothering us with "conspiracies" since he woke up. It's common in retired agents. They can't navigate a world without espionage.
-            [0001AB2E] Hero: I see.
-            [0001AB2D] salbs_official: Look, let's forget this happened—for the Major's sake. Goodbye, Pathfinder.
-            ↩ (goto) [0001AB3A] salbs_official: [empty]
+            [0001AAF0] Ryder: If I've been misled, I should hear these rumors.
+            [0001AB22] Salbs Official: The Major is brilliant, but... he's just been in STG too long.
+            [0001AB2C] Salbs Official: He's been bothering us with "conspiracies" since he woke up. It's common in retired agents. They can't navigate a world without espionage.
+            [0001AB2E] Ryder: I see.
+            [0001AB2D] Salbs Official: Look, let's forget this happened—for the Major's sake. Goodbye, Pathfinder.
+            ↩ (goto) [0001AB3A] Salbs Official: [empty]
         └─ merge ─┘
     ├ option 2:
-        [0001B0A8] Hero: I'd like to ask Dr. Aden a few questions. Do you know him, or where he is?
-        [0001B0AB] salbs_official: Oh yes, Aden's some sort of biologist. We were among the first to wake up. Difficult times.
-        [0001B0AC] salbs_official: I haven't seen him since the ark was rescued. Why Aden?
-        [0001B0AA] Hero: Saelen Varn mentioned—
-        [0001AAE4] salbs_official: Saelen? Oh, I see. If the Major's at it again, this makes more sense.
-        ↩ (goto) [0001AAED] Hero: What do you mean?
+        [0001B0A8] Ryder: I'd like to ask Dr. Aden a few questions. Do you know him, or where he is?
+        [0001B0AB] Salbs Official: Oh yes, Aden's some sort of biologist. We were among the first to wake up. Difficult times.
+        [0001B0AC] Salbs Official: I haven't seen him since the ark was rescued. Why Aden?
+        [0001B0AA] Ryder: Saelen Varn mentioned—
+        [0001AAE4] Salbs Official: Saelen? Oh, I see. If the Major's at it again, this makes more sense.
+        ↩ (goto) [0001AAED] Ryder: What do you mean?
     └─ merge ─┘
 ├ option 2:
-    [0001AAA8] Hero: My fault. I'm visiting a friend and these doors all look alike.
-    [0001AAD2] salbs_official: You're quite obviously not here by accident.
-    [0001AAE1] salbs_official: Now please explain why you broke in or I'll have to report this to the militia.
+    [0001AAA8] Ryder: My fault. I'm visiting a friend and these doors all look alike.
+    [0001AAD2] Salbs Official: You're quite obviously not here by accident.
+    [0001AAE1] Salbs Official: Now please explain why you broke in or I'll have to report this to the militia.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0001AAE6] Hero: First, explain why your console's been scrubbed and why there's traces of a neurodepressant in here.
+        ↩ (goto) [0001AAE6] Ryder: First, explain why your console's been scrubbed and why there's traces of a neurodepressant in here.
     ├ option 2:
-        [0001AADE] Hero: I'm working with Major Saelen Varn—he has the paperwork.
-        ↩ (goto) [0001AAE4] salbs_official: Saelen? Oh, I see. If the Major's at it again, this makes more sense.
+        [0001AADE] Ryder: I'm working with Major Saelen Varn—he has the paperwork.
+        ↩ (goto) [0001AAE4] Salbs Official: Saelen? Oh, I see. If the Major's at it again, this makes more sense.
     └─ merge ─┘
 └─ merge ─┘
-[0001B0B3] Hero: I'm trying to understand how the ark's systems could've been hacked.
-[0001B0B2] salbs_official: Not easily. There's all kinds of fail-safes. You'd need security clearances that even I don't have.
-[0001B0B0] salbs_official: You think that's what happened? Why?
-↩ (goto) [0001B0AA] Hero: Saelen Varn mentioned—
+[0001B0B3] Ryder: I'm trying to understand how the ark's systems could've been hacked.
+[0001B0B2] Salbs Official: Not easily. There's all kinds of fail-safes. You'd need security clearances that even I don't have.
+[0001B0B0] Salbs Official: You think that's what happened? Why?
+↩ (goto) [0001B0AA] Ryder: Saelen Varn mentioned—

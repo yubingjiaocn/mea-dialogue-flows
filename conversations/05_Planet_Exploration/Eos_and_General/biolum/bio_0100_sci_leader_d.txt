@@ -1,182 +1,182 @@
 # game/conversations/unc/biolum/bio_0100_sci_leader_d
-# Primary speaker: bio_sci_leader
+# Primary speaker: Sci Leader
 # Source: game/conversations/unc/biolum/bio_0100_sci_leader_d.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002BC06] bio_sci_leader: Jaal! We heard about the Moshae's rescue. I'm so relieved. We were all worried for her.
+        [0002BC06] Sci Leader: Jaal! We heard about the Moshae's rescue. I'm so relieved. We were all worried for her.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002BC0B] bio_sci_leader ⟨cond⟩: This must be the Pathfinder Ryder. I am honored.
-            [0002BA6A] global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
-            [0002BA6C] bio_sci_leader: You haven't heard? While the team was exploring the monolith, something went terribly wrong.
-            [0002C451] bio_sci_leader: They were caught in some kind of Remnant stasis field. Frozen in place. Unresponsive.
+            [0002BC0B] Sci Leader ⟨cond⟩: This must be the Pathfinder Ryder. I am honored.
+            [0002BA6A] Squadmate (Angara / Jaal): Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+            [0002BA6C] Sci Leader: You haven't heard? While the team was exploring the monolith, something went terribly wrong.
+            [0002C451] Sci Leader: They were caught in some kind of Remnant stasis field. Frozen in place. Unresponsive.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002BA94] Hero: Are they still alive?
-                [0002BA6D] bio_sci_leader: Vitals remain steady, and neural patterns resemble those exhibited in deep sleep.
-                [0002BA96] bio_sci_leader: We subjected them to various stimuli. Injections of kichari. Nothing worked.
+                [0002BA94] Ryder: Are they still alive?
+                [0002BA6D] Sci Leader: Vitals remain steady, and neural patterns resemble those exhibited in deep sleep.
+                [0002BA96] Sci Leader: We subjected them to various stimuli. Injections of kichari. Nothing worked.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002BC0D] global_squad_angara: Ryder can help. I'm sure of it.
-                    [0002B1C4] bio_sci_leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
+                    [0002BC0D] Squadmate (Angara / Jaal): Ryder can help. I'm sure of it.
+                    [0002B1C4] Sci Leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
                 ├ option 2:
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002BA9F] global_squad_angara ⟨cond⟩: Let Ryder try. She's worked the Remnant tech inside a vault. Or so she says.
-                        [0002BAA9] bio_sci_leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
-                        ↩ (goto) [0002B1C4] bio_sci_leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
+                        [0002BA9F] Squadmate (Angara / Jaal) ⟨cond⟩: Let Ryder try. She's worked the Remnant tech inside a vault. Or so she says.
+                        [0002BAA9] Sci Leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
+                        ↩ (goto) [0002B1C4] Sci Leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
                     ├ option 2:
-                        [0002BA9E] global_squad_angara: Let Ryder try. He's worked the Remnant tech inside a vault. Or so he says.
-                        ↩ (goto) [0002BAA9] bio_sci_leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
+                        [0002BA9E] Squadmate (Angara / Jaal): Let Ryder try. He's worked the Remnant tech inside a vault. Or so he says.
+                        ↩ (goto) [0002BAA9] Sci Leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                [0002BA93] Hero: I know how to work Remnant tech. I can help you.
+                [0002BA93] Ryder: I know how to work Remnant tech. I can help you.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002BC0F] bio_sci_leader: We've tried everything we can think of. I suppose it's worth trying this.
-                    ↩ (goto) [0002B1C4] bio_sci_leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
+                    [0002BC0F] Sci Leader: We've tried everything we can think of. I suppose it's worth trying this.
+                    ↩ (goto) [0002B1C4] Sci Leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
                 ├ option 2:
-                    [0002BACB] global_squad_angara: Ryder has seen a vault and apparently reset it. Somehow.
-                    ↩ (goto) [0002BAA9] bio_sci_leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
+                    [0002BACB] Squadmate (Angara / Jaal): Ryder has seen a vault and apparently reset it. Somehow.
+                    ↩ (goto) [0002BAA9] Sci Leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [00031C28] bio_sci_leader: This must be the Pathfinder Ryder. I am honored.
-            ↩ (goto) [0002BA6A] global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+            [00031C28] Sci Leader: This must be the Pathfinder Ryder. I am honored.
+            ↩ (goto) [0002BA6A] Squadmate (Angara / Jaal): Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
         └─ merge ─┘
     ├ option 2:
-        [0002BC0A] bio_sci_leader: Jaal has been telling me all about your rescue of the Moshae. I am honored to meet you, Pathfinder Ryder.
-        ↩ (goto) [0002BA6A] global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+        [0002BC0A] Sci Leader: Jaal has been telling me all about your rescue of the Moshae. I am honored to meet you, Pathfinder Ryder.
+        ↩ (goto) [0002BA6A] Squadmate (Angara / Jaal): Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002B9B5] bio_sci_leader: Jaal? What are you doing here? In the company of these... people?
+        [0002B9B5] Sci Leader: Jaal? What are you doing here? In the company of these... people?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002B9B3] global_squad_angara ⟨cond⟩: Kiiran, this is Pathfinder Ryder, from a long way away.
-            [0002B9B4] global_squad_angara: Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
+            [0002B9B3] Squadmate (Angara / Jaal) ⟨cond⟩: Kiiran, this is Pathfinder Ryder, from a long way away.
+            [0002B9B4] Squadmate (Angara / Jaal): Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002B9D7] Hero: I am honored to meet you, as a representative of the Andromeda Initiative.
-                [0002BA1A] bio_sci_leader: Are all their people this formal?
-                [0002BA1C] global_squad_angara: I don't think so.
-                ↩ (goto) [0002BA6A] global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+                [0002B9D7] Ryder: I am honored to meet you, as a representative of the Andromeda Initiative.
+                [0002BA1A] Sci Leader: Are all their people this formal?
+                [0002BA1C] Squadmate (Angara / Jaal): I don't think so.
+                ↩ (goto) [0002BA6A] Squadmate (Angara / Jaal): Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
             ├ option 2:
-                [0002B9D6] Hero: I just have to say, Havarl is beautiful!
-                [0002BA1B] bio_sci_leader: The planet's beauty is the least of my current concerns.
-                ↩ (goto) [0002BA6A] global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+                [0002B9D6] Ryder: I just have to say, Havarl is beautiful!
+                [0002BA1B] Sci Leader: The planet's beauty is the least of my current concerns.
+                ↩ (goto) [0002BA6A] Squadmate (Angara / Jaal): Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
             └─ merge ─┘
         ├ option 2:
-            [00031C27] global_squad_angara: Kiiran, this is Pathfinder Ryder, from a long way away.
-            ↩ (goto) [0002B9B4] global_squad_angara: Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
+            [00031C27] Squadmate (Angara / Jaal): Kiiran, this is Pathfinder Ryder, from a long way away.
+            ↩ (goto) [0002B9B4] Squadmate (Angara / Jaal): Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
         └─ merge ─┘
     ├ option 2:
-        [0002B99C] bio_sci_leader: This is them? The ones from the other galaxy?
-        [0002BA6B] global_squad_angara: Yes.
-        ↩ (goto) [0002B9B4] global_squad_angara: Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
+        [0002B99C] Sci Leader: This is them? The ones from the other galaxy?
+        [0002BA6B] Squadmate (Angara / Jaal): Yes.
+        ↩ (goto) [0002B9B4] Squadmate (Angara / Jaal): Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002DAC4] bio_sci_leader: What do you mean "grey, spiky aliens?" Kett?
-    [0002DAC7] bio_sci_frozen_researcher: No, these were different. We were doing a survey of the area and saw them. Before the freeze.
+    [0002DAC4] Sci Leader: What do you mean "grey, spiky aliens?" Kett?
+    [0002DAC7] Sci Frozen Researcher: No, these were different. We were doing a survey of the area and saw them. Before the freeze.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002DAD2] bio_sci_frozen_researcher: They look liked that one, with Ryder!
+        [0002DAD2] Sci Frozen Researcher: They look liked that one, with Ryder!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002DACE] Hero: Turians. Yes, we found them.
-            [0002DAD4] bio_sci_leader: Before you say any more, Pathfinder Ryder, I want to thank you for saving my team.
-            [0002D2FF] bio_sci_frozen_researcher: You weren't lying. Kiiran told us everything. She even had pictures.
+            [0002DACE] Ryder: Turians. Yes, we found them.
+            [0002DAD4] Sci Leader: Before you say any more, Pathfinder Ryder, I want to thank you for saving my team.
+            [0002D2FF] Sci Frozen Researcher: You weren't lying. Kiiran told us everything. She even had pictures.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002BB23] bio_sci_leader: I apologize for the indifferent welcome you received from me earlier.
+                [0002BB23] Sci Leader: I apologize for the indifferent welcome you received from me earlier.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002BB25] Hero: Don't worry about it. You had no reason to trust me. The last aliens you met were kett.
-                    [0002D332] global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
-                    [0002D334] global_squad_angara: We should speak to him as soon as we can. Perhaps on the Tempest?
-                    [0002BBF7] bio_sci_frozen_researcher: Kiiran, I've been thinking. If Ryder can use Remnant, couldn't we fix the monoliths? Stop Havarl's decline?
-                    [0002BC03] Hero: Havarl's decline?
-                    [0002D342] bio_sci_leader: This will take time to explain. We can discuss it further, when you have time.
-                    [0002DABD] bio_sci_leader ⟨cond⟩: And don't forget to talk to Torvar about those, what did you call them... turians?
+                    [0002BB25] Ryder: Don't worry about it. You had no reason to trust me. The last aliens you met were kett.
+                    [0002D332] Squadmate (Angara / Jaal): Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                    [0002D334] Squadmate (Angara / Jaal): We should speak to him as soon as we can. Perhaps on the Tempest?
+                    [0002BBF7] Sci Frozen Researcher: Kiiran, I've been thinking. If Ryder can use Remnant, couldn't we fix the monoliths? Stop Havarl's decline?
+                    [0002BC03] Ryder: Havarl's decline?
+                    [0002D342] Sci Leader: This will take time to explain. We can discuss it further, when you have time.
+                    [0002DABD] Sci Leader ⟨cond⟩: And don't forget to talk to Torvar about those, what did you call them... turians?
                 ├ option 2:
-                    [0002BB22] Hero: After everything you've faced, I wouldn't have blamed you if you shot at me.
-                    [0002BBEE] bio_sci_frozen_researcher: We're all glad that didn't happen.
-                    ↩ (goto) [0002D332] global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                    [0002BB22] Ryder: After everything you've faced, I wouldn't have blamed you if you shot at me.
+                    [0002BBEE] Sci Frozen Researcher: We're all glad that didn't happen.
+                    ↩ (goto) [0002D332] Squadmate (Angara / Jaal): Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
                 └─ merge ─┘
             ├ option 2:
-                [0002BBF2] bio_sci_leader: We tried everything to free the team—and failed. Thank the stars you came along.
+                [0002BBF2] Sci Leader: We tried everything to free the team—and failed. Thank the stars you came along.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002D333] Hero: The Andromeda Initiative wants to reassure the angara that we're not enemies.
-                    [0002D340] bio_sci_leader: Then you should know that I am reassured.
-                    ↩ (goto) [0002D332] global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                    [0002D333] Ryder: The Andromeda Initiative wants to reassure the angara that we're not enemies.
+                    [0002D340] Sci Leader: Then you should know that I am reassured.
+                    ↩ (goto) [0002D332] Squadmate (Angara / Jaal): Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
                 ├ option 2:
-                    [0002D331] Hero: Hey, not a problem. Just doing my bit as your friendly neighborhood alien Pathfinder.
-                    ↩ (goto) [0002D332] global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                    [0002D331] Ryder: Hey, not a problem. Just doing my bit as your friendly neighborhood alien Pathfinder.
+                    ↩ (goto) [0002D332] Squadmate (Angara / Jaal): Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [0002DAC8] global_squad_turian: Turians?
-            [0002DAC5] bio_sci_leader: Why don't you and Torvar talk about that later. Right now, I want to thank you for saving my team.
-            ↩ (goto) [0002D2FF] bio_sci_frozen_researcher: You weren't lying. Kiiran told us everything. She even had pictures.
+            [0002DAC8] Squadmate (Turian / Vetra): Turians?
+            [0002DAC5] Sci Leader: Why don't you and Torvar talk about that later. Right now, I want to thank you for saving my team.
+            ↩ (goto) [0002D2FF] Sci Frozen Researcher: You weren't lying. Kiiran told us everything. She even had pictures.
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0002DAD3] global_squad_turian ⟨cond⟩: [empty]
+            ↩ (goto) [0002DAD3] Squadmate (Turian / Vetra) ⟨cond⟩: [empty]
         ├ option 2:
-            [0002DAC9] Hero: You mean Turians? You saw Turians?
-            ↩ (goto) [0002DAC5] bio_sci_leader: Why don't you and Torvar talk about that later. Right now, I want to thank you for saving my team.
+            [0002DAC9] Ryder: You mean Turians? You saw Turians?
+            ↩ (goto) [0002DAC5] Sci Leader: Why don't you and Torvar talk about that later. Right now, I want to thank you for saving my team.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0002D2FF] bio_sci_frozen_researcher: You weren't lying. Kiiran told us everything. She even had pictures.
+    ↩ (goto) [0002D2FF] Sci Frozen Researcher: You weren't lying. Kiiran told us everything. She even had pictures.
 └─ merge ─┘
-[0002D353] Hero: You were saying something about the planet being in decline?
-[0002BC04] bio_sci_leader: It doesn't look like it, but Havarl is sick.
-[0002D352] bio_sci_leader: It started here, uncontrolled mutations in organic life—killing some, turning others into poison.
-[0002BC24] bio_sci_leader: We're starting to see the same elsewhere. The planet's ecosystem is crumbling, slowly but surely.
-[0002BC13] bio_sci_frozen_researcher: It's the monoliths. There are only two of them when there should be three.
+[0002D353] Ryder: You were saying something about the planet being in decline?
+[0002BC04] Sci Leader: It doesn't look like it, but Havarl is sick.
+[0002D352] Sci Leader: It started here, uncontrolled mutations in organic life—killing some, turning others into poison.
+[0002BC24] Sci Leader: We're starting to see the same elsewhere. The planet's ecosystem is crumbling, slowly but surely.
+[0002BC13] Sci Frozen Researcher: It's the monoliths. There are only two of them when there should be three.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002BC27] Hero: There's so much life here. Your vault must be working.
-    [0002BC29] bio_sci_frozen_researcher: In some fashion, most likely. But the monoliths are responsible for propagating the vault's instructions across the planet.
-    [0002BC2A] bio_sci_frozen_researcher: With only two out of three monoliths working, the instructions are imbalanced. So life is imbalanced.
-    [0002BC30] bio_sci_frozen_researcher: We've never tried asking the sages. There could be something in their oral history.
-    [0002BC3C] bio_sci_leader: Stars. Those superstitious hermits don't care about modern angara. You know that.
-    [0002BC3D] bio_sci_frozen_researcher: You saw the projections for the planet's survival. What do we have to lose?
+    [0002BC27] Ryder: There's so much life here. Your vault must be working.
+    [0002BC29] Sci Frozen Researcher: In some fashion, most likely. But the monoliths are responsible for propagating the vault's instructions across the planet.
+    [0002BC2A] Sci Frozen Researcher: With only two out of three monoliths working, the instructions are imbalanced. So life is imbalanced.
+    [0002BC30] Sci Frozen Researcher: We've never tried asking the sages. There could be something in their oral history.
+    [0002BC3C] Sci Leader: Stars. Those superstitious hermits don't care about modern angara. You know that.
+    [0002BC3D] Sci Frozen Researcher: You saw the projections for the planet's survival. What do we have to lose?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002BC41] Hero [OncePerGame]: Sages? Oral histories?
-        [0002BC42] bio_sci_leader: On Mithrava. That old Remnant edifice over there. They trace their families back to a time just after the Scourge.
-        [0002BC47] bio_sci_leader: They believe isolation will maintain the purity of the histories. By preventing contamination by modern thought. Basic sense.
-        [0002BC48] bio_sci_leader: They probably don't even understand or care that Havarl's dying.
+        [0002BC41] Ryder [OncePerGame]: Sages? Oral histories?
+        [0002BC42] Sci Leader: On Mithrava. That old Remnant edifice over there. They trace their families back to a time just after the Scourge.
+        [0002BC47] Sci Leader: They believe isolation will maintain the purity of the histories. By preventing contamination by modern thought. Basic sense.
+        [0002BC48] Sci Leader: They probably don't even understand or care that Havarl's dying.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002BC43] Hero: If asking your sages doesn't work, we'll be back here. So what's the harm in it?
-            [0002BC4C] bio_sci_leader: The trek up Mithrava's teeming with Remnant. Most of us don't attempt it. But maybe you could do it.
-            [0002D348] bio_sci_leader: Follow the Remnant river—and keep your head. I'd hate to hear something terrible happened in pursuit of some ancient legend.
+            [0002BC43] Ryder: If asking your sages doesn't work, we'll be back here. So what's the harm in it?
+            [0002BC4C] Sci Leader: The trek up Mithrava's teeming with Remnant. Most of us don't attempt it. But maybe you could do it.
+            [0002D348] Sci Leader: Follow the Remnant river—and keep your head. I'd hate to hear something terrible happened in pursuit of some ancient legend.
         ├ option 2:
-            [0002BC45] Hero: Is there no other option? Couldn't we trace the location of the third monolith from the two we know about?
-            [0002BC4B] bio_sci_frozen_researcher: We've tried that. But the connections between monoliths have deteriorated.
-            ↩ (goto) [0002BC4C] bio_sci_leader: The trek up Mithrava's teeming with Remnant. Most of us don't attempt it. But maybe you could do it.
+            [0002BC45] Ryder: Is there no other option? Couldn't we trace the location of the third monolith from the two we know about?
+            [0002BC4B] Sci Frozen Researcher: We've tried that. But the connections between monoliths have deteriorated.
+            ↩ (goto) [0002BC4C] Sci Leader: The trek up Mithrava's teeming with Remnant. Most of us don't attempt it. But maybe you could do it.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [0002BC43] Hero: If asking your sages doesn't work, we'll be back here. So what's the harm in it?
+        ↩ (goto) [0002BC43] Ryder: If asking your sages doesn't work, we'll be back here. So what's the harm in it?
     ├ option 3:
-        ↩ (goto) [0002BC45] Hero: Is there no other option? Couldn't we trace the location of the third monolith from the two we know about?
+        ↩ (goto) [0002BC45] Ryder: Is there no other option? Couldn't we trace the location of the third monolith from the two we know about?
     └─ merge ─┘
 ├ option 2:
-    [0002BC28] Hero: So, I go to the third monolith, turn it on, reset the vault, and voila!
-    [0002BC2C] bio_sci_leader: That is just the thing, Pathfinder Ryder. There {i}is{/i} no third monolith. It's lost.
-    [0002BC2B] Hero: How do you lose an entire monolith?
-    [0002BC2D] bio_sci_leader: It could be destroyed, for all we know.
-    ↩ (goto) [0002BC30] bio_sci_frozen_researcher: We've never tried asking the sages. There could be something in their oral history.
+    [0002BC28] Ryder: So, I go to the third monolith, turn it on, reset the vault, and voila!
+    [0002BC2C] Sci Leader: That is just the thing, Pathfinder Ryder. There {i}is{/i} no third monolith. It's lost.
+    [0002BC2B] Ryder: How do you lose an entire monolith?
+    [0002BC2D] Sci Leader: It could be destroyed, for all we know.
+    ↩ (goto) [0002BC30] Sci Frozen Researcher: We've never tried asking the sages. There could be something in their oral history.
 └─ merge ─┘

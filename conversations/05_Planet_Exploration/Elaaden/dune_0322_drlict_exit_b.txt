@@ -1,42 +1,42 @@
 # game/conversations/unc_dunes/dune_0322_drlict_exit_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_dunes/dune_0322_drlict_exit_b.xml
 ==================================================
-[0001B33C] Hero [OncePerGame]: Finally. Back out into the bright, bright—scorching light of day.
+[0001B33C] Ryder [OncePerGame]: Finally. Back out into the bright, bright—scorching light of day.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00020A08] global_squad_angara ⟨cond⟩: Uh! Angara do poorly in such heat! Sorry to complain, everyone.
-    [0001C874] global_crew_tech_officer: [Comm] We've got a lock on your position. Sending down a forward station.
-    [00020A05] Hero: Suvi, SAM's uploaded a signature from the Remnant drive core housing. Can you trace it?
-    [0001CAAA] global_crew_science_officer: [Comm] Tricky from our position. It won't be a full scan.
-    [00020A06] Hero: Give me whatever you can—we need to find out who stole it.
+    [00020A08] Squadmate (Angara / Jaal) ⟨cond⟩: Uh! Angara do poorly in such heat! Sorry to complain, everyone.
+    [0001C874] Gil (Tech Officer): [Comm] We've got a lock on your position. Sending down a forward station.
+    [00020A05] Ryder: Suvi, SAM's uploaded a signature from the Remnant drive core housing. Can you trace it?
+    [0001CAAA] Suvi (Science Officer): [Comm] Tricky from our position. It won't be a full scan.
+    [00020A06] Ryder: Give me whatever you can—we need to find out who stole it.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020A03] global_squad_male_human ⟨cond⟩: Yeah. Did it fall into the wrong hands or the even worse than wrong hands?
-        [0001CAAB] global_crew_science_officer: [Comm] Okay, think I've got something. I've updated your nav system.
+        [00020A03] Squadmate (Human ♂) ⟨cond⟩: Yeah. Did it fall into the wrong hands or the even worse than wrong hands?
+        [0001CAAB] Suvi (Science Officer): [Comm] Okay, think I've got something. I've updated your nav system.
     ├ option 2:
-        [00020A0B] global_squad_krogan ⟨cond⟩: Scavenger scum!
-        ↩ (goto) [0001CAAB] global_crew_science_officer: [Comm] Okay, think I've got something. I've updated your nav system.
+        [00020A0B] Squadmate (Krogan / Drack) ⟨cond⟩: Scavenger scum!
+        ↩ (goto) [0001CAAB] Suvi (Science Officer): [Comm] Okay, think I've got something. I've updated your nav system.
     ├ option 3:
-        [00020A0E] global_squad_turian ⟨cond⟩: Yeah. Did it fall into the wrong hands or the even worse than wrong hands?
-        ↩ (goto) [0001CAAB] global_crew_science_officer: [Comm] Okay, think I've got something. I've updated your nav system.
+        [00020A0E] Squadmate (Turian / Vetra) ⟨cond⟩: Yeah. Did it fall into the wrong hands or the even worse than wrong hands?
+        ↩ (goto) [0001CAAB] Suvi (Science Officer): [Comm] Okay, think I've got something. I've updated your nav system.
     ├ option 4:
-        [00020A11] global_squad_asari ⟨cond⟩: Yeah. Did the bad guys get it? Or the really bad guys?
-        ↩ (goto) [0001CAAB] global_crew_science_officer: [Comm] Okay, think I've got something. I've updated your nav system.
+        [00020A11] Squadmate (Asari / Peebee) ⟨cond⟩: Yeah. Did the bad guys get it? Or the really bad guys?
+        ↩ (goto) [0001CAAB] Suvi (Science Officer): [Comm] Okay, think I've got something. I've updated your nav system.
     ├ option 5:
-        [00020A02] global_squad_female_human ⟨cond⟩: Exactly. Did the bad guys get it? Or the really bad guys?
-        ↩ (goto) [0001CAAB] global_crew_science_officer: [Comm] Okay, think I've got something. I've updated your nav system.
+        [00020A02] Squadmate (Human ♀) ⟨cond⟩: Exactly. Did the bad guys get it? Or the really bad guys?
+        ↩ (goto) [0001CAAB] Suvi (Science Officer): [Comm] Okay, think I've got something. I've updated your nav system.
     └─ merge ─┘
 ├ option 2:
-    [00020A09] global_squad_female_human ⟨cond⟩: Yup. Sun. Relentless sun.
-    ↩ (goto) [0001C874] global_crew_tech_officer: [Comm] We've got a lock on your position. Sending down a forward station.
+    [00020A09] Squadmate (Human ♀) ⟨cond⟩: Yup. Sun. Relentless sun.
+    ↩ (goto) [0001C874] Gil (Tech Officer): [Comm] We've got a lock on your position. Sending down a forward station.
 ├ option 3:
-    [00020A07] global_squad_asari ⟨cond⟩: Meh. Better than rain.
-    ↩ (goto) [0001C874] global_crew_tech_officer: [Comm] We've got a lock on your position. Sending down a forward station.
+    [00020A07] Squadmate (Asari / Peebee) ⟨cond⟩: Meh. Better than rain.
+    ↩ (goto) [0001C874] Gil (Tech Officer): [Comm] We've got a lock on your position. Sending down a forward station.
 ├ option 4:
-    [00020A0A] global_squad_turian ⟨cond⟩: In a place where it's never not day.
-    ↩ (goto) [0001C874] global_crew_tech_officer: [Comm] We've got a lock on your position. Sending down a forward station.
+    [00020A0A] Squadmate (Turian / Vetra) ⟨cond⟩: In a place where it's never not day.
+    ↩ (goto) [0001C874] Gil (Tech Officer): [Comm] We've got a lock on your position. Sending down a forward station.
 ├ option 5:
-    [00020A10] global_squad_krogan ⟨cond⟩: Sun brings out the color in my good eye.
-    ↩ (goto) [0001C874] global_crew_tech_officer: [Comm] We've got a lock on your position. Sending down a forward station.
+    [00020A10] Squadmate (Krogan / Drack) ⟨cond⟩: Sun brings out the color in my good eye.
+    ↩ (goto) [0001C874] Gil (Tech Officer): [Comm] We've got a lock on your position. Sending down a forward station.
 └─ merge ─┘

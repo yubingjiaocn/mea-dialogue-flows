@@ -1,77 +1,77 @@
 # game/conversations/unc_ice/ice_8910_behmth_combat_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_8910_behmth_combat_b.xml
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00029D1C] global_squad_female_human ⟨cond⟩: It's an Architect! This is what attacked the settlers!
+    [00029D1C] Squadmate (Human ♀) ⟨cond⟩: It's an Architect! This is what attacked the settlers!
 ├ option 2:
-    [00029D1B] global_squad_male_human ⟨cond⟩: There's our culprit! An Architect!
+    [00029D1B] Squadmate (Human ♂) ⟨cond⟩: There's our culprit! An Architect!
 ├ option 3:
-    [00029D1A] global_squad_asari ⟨cond⟩: Whoa, look out! Architect!
+    [00029D1A] Squadmate (Asari / Peebee) ⟨cond⟩: Whoa, look out! Architect!
 ├ option 4:
-    [00029D1E] global_squad_angara ⟨cond⟩: An Architect!
+    [00029D1E] Squadmate (Angara / Jaal) ⟨cond⟩: An Architect!
 ├ option 5:
-    [00029D19] global_squad_krogan ⟨cond⟩: Architect!
+    [00029D19] Squadmate (Krogan / Drack) ⟨cond⟩: Architect!
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [00028C33] global_squad_angara ⟨cond⟩: It's retreating!
-    [00028C39] Hero: Keep on it! Don't let it get away!
+    [00028C33] Squadmate (Angara / Jaal) ⟨cond⟩: It's retreating!
+    [00028C39] Ryder: Keep on it! Don't let it get away!
 ├ option 2:
-    [00028C38] global_squad_asari ⟨cond⟩: It's running away!
-    ↩ (goto) [00028C39] Hero: Keep on it! Don't let it get away!
+    [00028C38] Squadmate (Asari / Peebee) ⟨cond⟩: It's running away!
+    ↩ (goto) [00028C39] Ryder: Keep on it! Don't let it get away!
 ├ option 3:
-    [00028C36] global_squad_female_human ⟨cond⟩: It's on the move!
-    ↩ (goto) [00028C39] Hero: Keep on it! Don't let it get away!
+    [00028C36] Squadmate (Human ♀) ⟨cond⟩: It's on the move!
+    ↩ (goto) [00028C39] Ryder: Keep on it! Don't let it get away!
 ├ option 4:
-    [00028C35] global_squad_krogan ⟨cond⟩: It's moving!
-    ↩ (goto) [00028C39] Hero: Keep on it! Don't let it get away!
+    [00028C35] Squadmate (Krogan / Drack) ⟨cond⟩: It's moving!
+    ↩ (goto) [00028C39] Ryder: Keep on it! Don't let it get away!
 ├ option 5:
-    [00028C32] global_squad_male_human ⟨cond⟩: We have it on the run!
-    ↩ (goto) [00028C39] Hero: Keep on it! Don't let it get away!
+    [00028C32] Squadmate (Human ♂) ⟨cond⟩: We have it on the run!
+    ↩ (goto) [00028C39] Ryder: Keep on it! Don't let it get away!
 ├ option 6:
-    [00028C37] global_squad_turian ⟨cond⟩: It's moving back!
-    ↩ (goto) [00028C39] Hero: Keep on it! Don't let it get away!
+    [00028C37] Squadmate (Turian / Vetra) ⟨cond⟩: It's moving back!
+    ↩ (goto) [00028C39] Ryder: Keep on it! Don't let it get away!
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00029D27] global_squad_asari ⟨cond⟩: Wow... this thing caused a lot of trouble.
+    [00029D27] Squadmate (Asari / Peebee) ⟨cond⟩: Wow... this thing caused a lot of trouble.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00029D29] Hero ⟨cond⟩: We should tell Priya what happened here.
+        [00029D29] Ryder ⟨cond⟩: We should tell Priya what happened here.
     ├ option 2:
         [00029D2C] SAM: Pathfinder, you may want to inform your outpost leader what happened here.
     └─ merge ─┘
 ├ option 2:
-    [00029D2B] global_squad_turian ⟨cond⟩: Well, that takes care of that.
+    [00029D2B] Squadmate (Turian / Vetra) ⟨cond⟩: Well, that takes care of that.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00029D29] Hero ⟨cond⟩: We should tell Priya what happened here.
+        ↩ (goto) [00029D29] Ryder ⟨cond⟩: We should tell Priya what happened here.
     ├ option 2:
         ↩ (goto) [00029D2C] SAM: Pathfinder, you may want to inform your outpost leader what happened here.
     └─ merge ─┘
 ├ option 3:
-    [00028C3B] global_squad_female_human ⟨cond⟩: That's it. It's over.
+    [00028C3B] Squadmate (Human ♀) ⟨cond⟩: That's it. It's over.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00029D29] Hero ⟨cond⟩: We should tell Priya what happened here.
+        ↩ (goto) [00029D29] Ryder ⟨cond⟩: We should tell Priya what happened here.
     ├ option 2:
         ↩ (goto) [00029D2C] SAM: Pathfinder, you may want to inform your outpost leader what happened here.
     └─ merge ─┘
 ├ option 4:
-    [00029D2A] global_squad_angara ⟨cond⟩: It's over.
+    [00029D2A] Squadmate (Angara / Jaal) ⟨cond⟩: It's over.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00029D29] Hero ⟨cond⟩: We should tell Priya what happened here.
+        ↩ (goto) [00029D29] Ryder ⟨cond⟩: We should tell Priya what happened here.
     ├ option 2:
         ↩ (goto) [00029D2C] SAM: Pathfinder, you may want to inform your outpost leader what happened here.
     └─ merge ─┘
 ├ option 5:
-    [00029D28] global_squad_male_human ⟨cond⟩: We did it.
+    [00029D28] Squadmate (Human ♂) ⟨cond⟩: We did it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [00029D29] Hero ⟨cond⟩: We should tell Priya what happened here.
+        ↩ (goto) [00029D29] Ryder ⟨cond⟩: We should tell Priya what happened here.
     ├ option 2:
         ↩ (goto) [00029D2C] SAM: Pathfinder, you may want to inform your outpost leader what happened here.
     └─ merge ─┘

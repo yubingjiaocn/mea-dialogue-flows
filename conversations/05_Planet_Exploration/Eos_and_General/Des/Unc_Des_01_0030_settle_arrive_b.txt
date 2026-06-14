@@ -1,33 +1,33 @@
 # Game/Conversations/Unc/Des/Unc_Des_01_0030_settle_arrive_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/Des/Unc_Des_01_0030_settle_arrive_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00008F1B] Hero: Ah, this is not good. Tempest, we have a lot of damage at the outpost.
-    [0000767B] global_crew_science_officer: [Comm] Standing by for evac.
-    [00007676] Hero: I don't think that will help. This looks days old.
+    [00008F1B] Ryder: Ah, this is not good. Tempest, we have a lot of damage at the outpost.
+    [0000767B] Suvi (Science Officer): [Comm] Standing by for evac.
+    [00007676] Ryder: I don't think that will help. This looks days old.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [000077ED] global_squad_female_human ⟨cond⟩: I expected a fight. Not this. Where do we start?
-        [00008F1C] Hero: Everywhere. We check everywhere.
+        [000077ED] Squadmate (Human ♀) ⟨cond⟩: I expected a fight. Not this. Where do we start?
+        [00008F1C] Ryder: Everywhere. We check everywhere.
     ├ option 2:
-        [000077E9] global_squad_male_human ⟨cond⟩: You scanning, or do we start marking trajectories with thread?
-        ↩ (goto) [00008F1C] Hero: Everywhere. We check everywhere.
+        [000077E9] Squadmate (Human ♂) ⟨cond⟩: You scanning, or do we start marking trajectories with thread?
+        ↩ (goto) [00008F1C] Ryder: Everywhere. We check everywhere.
     ├ option 3:
-        [000077EE] global_squad_angara ⟨cond⟩: We put up a fight. Or started one. Can your scans tell who instigated?
-        ↩ (goto) [00008F1C] Hero: Everywhere. We check everywhere.
+        [000077EE] Squadmate (Angara / Jaal) ⟨cond⟩: We put up a fight. Or started one. Can your scans tell who instigated?
+        ↩ (goto) [00008F1C] Ryder: Everywhere. We check everywhere.
     ├ option 4:
-        [000077EB] global_squad_turian ⟨cond⟩: Maybe scans can make some sense of this?
-        ↩ (goto) [00008F1C] Hero: Everywhere. We check everywhere.
+        [000077EB] Squadmate (Turian / Vetra) ⟨cond⟩: Maybe scans can make some sense of this?
+        ↩ (goto) [00008F1C] Ryder: Everywhere. We check everywhere.
     ├ option 5:
-        [000077EC] global_salarian_major ⟨cond⟩: Perhaps scans will shed some light on this firefight?
-        ↩ (goto) [00008F1C] Hero: Everywhere. We check everywhere.
+        [000077EC] Global Salarian Major ⟨cond⟩: Perhaps scans will shed some light on this firefight?
+        ↩ (goto) [00008F1C] Ryder: Everywhere. We check everywhere.
     ├ option 6:
-        [000077E8] global_squad_krogan ⟨cond⟩: {i}(Sniffs.){/i} Firefight. Real shindig. Good luck piecing this together.
-        ↩ (goto) [00008F1C] Hero: Everywhere. We check everywhere.
+        [000077E8] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Sniffs.){/i} Firefight. Real shindig. Good luck piecing this together.
+        ↩ (goto) [00008F1C] Ryder: Everywhere. We check everywhere.
     └─ merge ─┘
 ├ option 2:
-    [00007672] Hero: Ah, this is not good. Tempest, we have bodies at the outpost.
-    ↩ (goto) [0000767B] global_crew_science_officer: [Comm] Standing by for evac.
+    [00007672] Ryder: Ah, this is not good. Tempest, we have bodies at the outpost.
+    ↩ (goto) [0000767B] Suvi (Science Officer): [Comm] Standing by for evac.
 └─ merge ─┘

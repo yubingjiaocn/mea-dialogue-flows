@@ -1,45 +1,45 @@
 # game/conversations/bstory/tur/tur_0450_lun_power_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/tur/tur_0450_lun_power_b.xml
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00030093] Hero [OncePerGame]: Hey! This door's still got power.
+    [00030093] Ryder [OncePerGame]: Hey! This door's still got power.
     [0003026C] SAM: I wouldn't open that, Pathfinder—it leads to space. Perhaps you could divert the power to a different door?
 ├ option 2:
-    [000300A4] Hero [OncePerGame]: Locked. Needs power to open.
+    [000300A4] Ryder [OncePerGame]: Locked. Needs power to open.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0003026D] global_turian_pathfinder_multi ⟨cond⟩: What about that other door?
+        [0003026D] Turian Pathfinder (Avitus Rix) ⟨cond⟩: What about that other door?
     ├ option 2:
-        [0003026E] global_turian_pathfinder_multi: Something's gotta still be online in this wreck.
+        [0003026E] Turian Pathfinder (Avitus Rix): Something's gotta still be online in this wreck.
     └─ merge ─┘
 ├ option 3:
     [000300A5] SAM: Power has been diverted, Pathfinder.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00030108] Hero [OncePerGame]: Well, we're not going that way.
+    [00030108] Ryder [OncePerGame]: Well, we're not going that way.
 ├ option 2:
-    [00030105] Hero [OncePerGame]: {i}(Sighs.){/i} This one also needs power.
-    [00030283] global_turian_pathfinder_multi: Maybe we can use the same trick as last time? Divert power from something else?
+    [00030105] Ryder [OncePerGame]: {i}(Sighs.){/i} This one also needs power.
+    [00030283] Turian Pathfinder (Avitus Rix): Maybe we can use the same trick as last time? Divert power from something else?
 ├ option 3:
     [00030104] SAM: The door should now be operational, Pathfinder.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00030285] global_turian_pathfinder_multi: That door leads to the SAM Node. We've got to get in there.
+    [00030285] Turian Pathfinder (Avitus Rix): That door leads to the SAM Node. We've got to get in there.
 ├ option 2:
-    [00030158] Hero [OncePerGame]: Surprise. It's locked.
+    [00030158] Ryder [OncePerGame]: Surprise. It's locked.
 ├ option 3:
     [00030159] SAM: The SAM Node should now be accessible.
 └─ merge ─┘
-[00030267] Hero [OncePerGame]: We're lucky this part of the ark survived.
+[00030267] Ryder [OncePerGame]: We're lucky this part of the ark survived.
 [00030265] SAM: Looks can be deceiving, Pathfinder. The hull is barely holding together.
-[0003099F] Hero: Thanks, SAM. Always a ray of sunshine.
+[0003099F] Ryder: Thanks, SAM. Always a ray of sunshine.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00030284] Hero [OncePerGame]: This one's still got juice.
+    [00030284] Ryder [OncePerGame]: This one's still got juice.
 ├ option 2:
-    [00030286] Hero: Avitus, over here!
+    [00030286] Ryder: Avitus, over here!
 └─ merge ─┘

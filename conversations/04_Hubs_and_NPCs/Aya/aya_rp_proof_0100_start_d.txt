@@ -1,102 +1,102 @@
 # game/conversations/hubs/hub_aya/rp/proof/aya_rp_proof_0100_start_d
-# Primary speaker: oasis_vill_merchant
+# Primary speaker: Vill Merchant
 # Source: game/conversations/hubs/hub_aya/rp/proof/aya_rp_proof_0100_start_d.xml
 ==================================================
-[0002D52D] oasis_vill_merchant: Trade? Trade. {i}Trade{/i}.
-[0002D534] Hero: Are you asking or telling?
-[0002D538] oasis_vill_merchant: Wondering. Do you exchange goods and services? How does your economy work?
+[0002D52D] Vill Merchant: Trade? Trade. {i}Trade{/i}.
+[0002D534] Ryder: Are you asking or telling?
+[0002D538] Vill Merchant: Wondering. Do you exchange goods and services? How does your economy work?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002D537] Hero: We pay for things with a currency called credits. Abstract wealth.
-    [0002D610] oasis_vill_merchant: The kett offered gifts. Made odd bargains. Never traded.
-    [0002D612] oasis_vill_merchant: What are your credits worth? What can we do with them?
-    [0002D618] Hero: You pay them to us for whatever {i}we're{/i} selling.
-    [0002D614] oasis_vill_merchant: Now we cut open the heart! {i}What{/i} do you offer?
+    [0002D537] Ryder: We pay for things with a currency called credits. Abstract wealth.
+    [0002D610] Vill Merchant: The kett offered gifts. Made odd bargains. Never traded.
+    [0002D612] Vill Merchant: What are your credits worth? What can we do with them?
+    [0002D618] Ryder: You pay them to us for whatever {i}we're{/i} selling.
+    [0002D614] Vill Merchant: Now we cut open the heart! {i}What{/i} do you offer?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002D617] Hero: I can set up a meeting to arrange a formal trade agreement.
-        [0002D628] oasis_vill_merchant: Complicated. Another time.
-        [0002D627] Hero: Is there something else I can do for you?
-        [0002D629] oasis_vill_merchant: Yes. Call me Sohkaa. I run cargo between Aya and other worlds. Good work. Good at it.
-        [0002D62A] oasis_vill_merchant: You're here to help my people? Prove it. I need help.
-        [0001C45C] oasis_vill_merchant: One of my suppliers off-world stopped checking in. Has things I need. There could be trouble.
+        [0002D617] Ryder: I can set up a meeting to arrange a formal trade agreement.
+        [0002D628] Vill Merchant: Complicated. Another time.
+        [0002D627] Ryder: Is there something else I can do for you?
+        [0002D629] Vill Merchant: Yes. Call me Sohkaa. I run cargo between Aya and other worlds. Good work. Good at it.
+        [0002D62A] Vill Merchant: You're here to help my people? Prove it. I need help.
+        [0001C45C] Vill Merchant: One of my suppliers off-world stopped checking in. Has things I need. There could be trouble.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0002D62E] Hero [OncePerGame]: What makes you think I can help?
-            [0002D662] oasis_vill_merchant: You found Aya. Maybe you find my supplier. Can't hurt to ask.
+            [0002D62E] Ryder [OncePerGame]: What makes you think I can help?
+            [0002D662] Vill Merchant: You found Aya. Maybe you find my supplier. Can't hurt to ask.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002D62D] Hero: We might have different definitions of "trouble." What do you mean?
-                [0002D636] oasis_vill_merchant: Natural hazards. Wild predators. Misadventure. What do {i}you{/i} mean?
-                [0002D637] Hero: Same thing. What's your supplier carrying, exactly?
-                [0002D635] oasis_vill_merchant: Supplies I need, exactly. Things to keep my people alive. Essentials.
-                [0001CC27] oasis_vill_merchant: You have a ship. I have my supplier's navpoint. His name is Keldo.
-                [0001E2E6] oasis_vill_merchant: Find him, his supplies. Come back and prove you're helpful. Then maybe we trade.
+                [0002D62D] Ryder: We might have different definitions of "trouble." What do you mean?
+                [0002D636] Vill Merchant: Natural hazards. Wild predators. Misadventure. What do {i}you{/i} mean?
+                [0002D637] Ryder: Same thing. What's your supplier carrying, exactly?
+                [0002D635] Vill Merchant: Supplies I need, exactly. Things to keep my people alive. Essentials.
+                [0001CC27] Vill Merchant: You have a ship. I have my supplier's navpoint. His name is Keldo.
+                [0001E2E6] Vill Merchant: Find him, his supplies. Come back and prove you're helpful. Then maybe we trade.
             ├ option 2:
-                [0002D62F] Hero: You're one of few people here willing to give me a chance. I'll take it.
-                ↩ (goto) [0001CC27] oasis_vill_merchant: You have a ship. I have my supplier's navpoint. His name is Keldo.
+                [0002D62F] Ryder: You're one of few people here willing to give me a chance. I'll take it.
+                ↩ (goto) [0001CC27] Vill Merchant: You have a ship. I have my supplier's navpoint. His name is Keldo.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [0002D62D] Hero: We might have different definitions of "trouble." What do you mean?
+            ↩ (goto) [0002D62D] Ryder: We might have different definitions of "trouble." What do you mean?
         ├ option 3:
-            ↩ (goto) [0002D62F] Hero: You're one of few people here willing to give me a chance. I'll take it.
+            ↩ (goto) [0002D62F] Ryder: You're one of few people here willing to give me a chance. I'll take it.
         └─ merge ─┘
     ├ option 2:
-        [0002D619] Hero: I don't know... what do you want?
-        [0002D613] oasis_vill_merchant: Your ship.
-        [0002D615] Hero: Not for sale.
-        [0002D616] oasis_vill_merchant: Worth a try.
-        ↩ (goto) [0002D627] Hero: Is there something else I can do for you?
+        [0002D619] Ryder: I don't know... what do you want?
+        [0002D613] Vill Merchant: Your ship.
+        [0002D615] Ryder: Not for sale.
+        [0002D616] Vill Merchant: Worth a try.
+        ↩ (goto) [0002D627] Ryder: Is there something else I can do for you?
     └─ merge ─┘
 ├ option 2:
-    [0002D536] Hero: We have credits, but little to spend them on.
-    [0002D611] oasis_vill_merchant: Think you might spend them here? Could be.
-    ↩ (goto) [0002D612] oasis_vill_merchant: What are your credits worth? What can we do with them?
+    [0002D536] Ryder: We have credits, but little to spend them on.
+    [0002D611] Vill Merchant: Think you might spend them here? Could be.
+    ↩ (goto) [0002D612] Vill Merchant: What are your credits worth? What can we do with them?
 └─ merge ─┘
-[0002D630] Hero: No offense, but I get the feeling you're not telling me everything.
-[0002D634] oasis_vill_merchant: No offense taken—you're right. Here's what you don't know.
-↩ (goto) [0001CC27] oasis_vill_merchant: You have a ship. I have my supplier's navpoint. His name is Keldo.
+[0002D630] Ryder: No offense, but I get the feeling you're not telling me everything.
+[0002D634] Vill Merchant: No offense taken—you're right. Here's what you don't know.
+↩ (goto) [0001CC27] Vill Merchant: You have a ship. I have my supplier's navpoint. His name is Keldo.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001C45F] oasis_vill_merchant ⟨cond⟩: You saved the Moshae? You seem so eager to help.
-    [0001C464] oasis_vill_merchant: I'm still trying to understand why.
+    [0001C45F] Vill Merchant ⟨cond⟩: You saved the Moshae? You seem so eager to help.
+    [0001C464] Vill Merchant: I'm still trying to understand why.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001CC2D] global_squad_angara ⟨cond⟩: I told you they were good people, Sohkaa.
-        [0001CC2B] oasis_vill_merchant: That you did, Jaal. Even so...
-        [0001CC59] oasis_vill_merchant: Trust has to be earned. The kett taught us that.
-        [0001CC28] Hero: I thought I was doing that rescuing the Moshae.
-        [0001CC2C] oasis_vill_merchant: That's good for Evfra and Paaran.
-        [0001CC29] oasis_vill_merchant: But for the people of Aya? Workers? Soldiers? Merchants like me?
-        [0001C467] oasis_vill_merchant: If you want our support, we need to see it too.
+        [0001CC2D] Squadmate (Angara / Jaal) ⟨cond⟩: I told you they were good people, Sohkaa.
+        [0001CC2B] Vill Merchant: That you did, Jaal. Even so...
+        [0001CC59] Vill Merchant: Trust has to be earned. The kett taught us that.
+        [0001CC28] Ryder: I thought I was doing that rescuing the Moshae.
+        [0001CC2C] Vill Merchant: That's good for Evfra and Paaran.
+        [0001CC29] Vill Merchant: But for the people of Aya? Workers? Soldiers? Merchants like me?
+        [0001C467] Vill Merchant: If you want our support, we need to see it too.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001C45E] Hero: What kind of help are we talking about here?
+            [0001C45E] Ryder: What kind of help are we talking about here?
         ├ option 2:
-            [0001C45A] Hero: What do you need me to do?
+            [0001C45A] Ryder: What do you need me to do?
         └─ merge ─┘
     ├ option 2:
-        [0001CC69] oasis_vill_merchant ⟨cond⟩: Jaal told me: "Sohkaa, the Pathfinder can be trusted." Maybe that's true, but...
-        ↩ (goto) [0001CC59] oasis_vill_merchant: Trust has to be earned. The kett taught us that.
+        [0001CC69] Vill Merchant ⟨cond⟩: Jaal told me: "Sohkaa, the Pathfinder can be trusted." Maybe that's true, but...
+        ↩ (goto) [0001CC59] Vill Merchant: Trust has to be earned. The kett taught us that.
     ├ option 3:
-        [000229B2] oasis_vill_merchant: Jaal told me: "Sohkaa, the Pathfinder can be trusted." Maybe that's true, but...
-        ↩ (goto) [0001CC59] oasis_vill_merchant: Trust has to be earned. The kett taught us that.
+        [000229B2] Vill Merchant: Jaal told me: "Sohkaa, the Pathfinder can be trusted." Maybe that's true, but...
+        ↩ (goto) [0001CC59] Vill Merchant: Trust has to be earned. The kett taught us that.
     └─ merge ─┘
 ├ option 2:
-    [000170D8] oasis_vill_merchant: So, you're the alien everyone's going on about.
-    [0001B2D7] Hero: That would be me, yeah.
-    [0001B248] oasis_vill_merchant: I'm honestly shocked you're even allowed to land at the docks.
-    [0001CC17] Hero: I... hmm...
-    [0001C459] oasis_vill_merchant: My mother used to say: "Sohkaa, everyone has a motive."
-    [0001CC2A] oasis_vill_merchant: Paaran and Jaal seem to accept yours. I'm not convinced.
+    [000170D8] Vill Merchant: So, you're the alien everyone's going on about.
+    [0001B2D7] Ryder: That would be me, yeah.
+    [0001B248] Vill Merchant: I'm honestly shocked you're even allowed to land at the docks.
+    [0001CC17] Ryder: I... hmm...
+    [0001C459] Vill Merchant: My mother used to say: "Sohkaa, everyone has a motive."
+    [0001CC2A] Vill Merchant: Paaran and Jaal seem to accept yours. I'm not convinced.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001CC5A] Hero: Allies help each other. We both benefit from working together.
-        [0001CC5D] oasis_vill_merchant: Time will tell...
-        ↩ (goto) [0001CC59] oasis_vill_merchant: Trust has to be earned. The kett taught us that.
+        [0001CC5A] Ryder: Allies help each other. We both benefit from working together.
+        [0001CC5D] Vill Merchant: Time will tell...
+        ↩ (goto) [0001CC59] Vill Merchant: Trust has to be earned. The kett taught us that.
     ├ option 2:
-        [0001CC58] Hero: I need you to trust that my motives are honorable.
-        [0001CC57] oasis_vill_merchant: Not with talk...
-        ↩ (goto) [0001CC59] oasis_vill_merchant: Trust has to be earned. The kett taught us that.
+        [0001CC58] Ryder: I need you to trust that my motives are honorable.
+        [0001CC57] Vill Merchant: Not with talk...
+        ↩ (goto) [0001CC59] Vill Merchant: Trust has to be earned. The kett taught us that.
     └─ merge ─┘
 └─ merge ─┘

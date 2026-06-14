@@ -1,52 +1,52 @@
 # game/conversations/unc/biolum/bio_0300_sanc_climb_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/biolum/bio_0300_sanc_climb_b.xml
 ==================================================
-[0002B5E6] Hero: Looks like this is our only way in.
+[0002B5E6] Ryder: Looks like this is our only way in.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002B5E5] global_squad_krogan ⟨cond⟩: Doesn't look like it's working.
+    [0002B5E5] Squadmate (Krogan / Drack) ⟨cond⟩: Doesn't look like it's working.
 ├ option 2:
-    [0002B5E3] global_squad_female_human ⟨cond⟩: Is that even on?
+    [0002B5E3] Squadmate (Human ♀) ⟨cond⟩: Is that even on?
     ↩ (goto) [000341AA] SAM: [empty]
 ├ option 3:
-    [0002B5E2] global_squad_asari ⟨cond⟩: Doesn't seem to be on.
+    [0002B5E2] Squadmate (Asari / Peebee) ⟨cond⟩: Doesn't seem to be on.
     ↩ (goto) [000341AA] SAM: [empty]
 ├ option 4:
-    [0002B5E4] global_squad_turian ⟨cond⟩: It's not on, Ryder.
+    [0002B5E4] Squadmate (Turian / Vetra) ⟨cond⟩: It's not on, Ryder.
     ↩ (goto) [000341AA] SAM: [empty]
 ├ option 5:
-    [0002B5E7] global_squad_angara ⟨cond⟩: This isn't activated.
+    [0002B5E7] Squadmate (Angara / Jaal) ⟨cond⟩: This isn't activated.
     ↩ (goto) [000341AA] SAM: [empty]
 └─ merge ─┘
-[0002B5F4] Hero: Let's give this a try.
+[0002B5F4] Ryder: Let's give this a try.
 [000330F8] SAM: Pathfinder, for a moment I detected a weak energy pulse. It's gone now. Perhaps we could return later.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002B5FD] global_squad_turian ⟨cond⟩: No one's afraid of heights, are they?
+    [0002B5FD] Squadmate (Turian / Vetra) ⟨cond⟩: No one's afraid of heights, are they?
 ├ option 2:
-    [0002B600] global_squad_krogan ⟨cond⟩: That's a long way up.
+    [0002B600] Squadmate (Krogan / Drack) ⟨cond⟩: That's a long way up.
 └─ merge ─┘
-[0002B5FC] global_squad_female_human ⟨cond⟩: The path's been used, but not recently. I see tracks.
+[0002B5FC] Squadmate (Human ♀) ⟨cond⟩: The path's been used, but not recently. I see tracks.
 [0002B2B3] SAM: It is Remnant tech, Pathfinder. We could attempt interfacing.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002B5FB] global_squad_male_human ⟨cond⟩ [OncePerGame]: Climbing to a great height to speak to some wise, old hermits. It's like we're in a vid or something.
-    [0002B62D] global_squad_male_human: If they hand us a magical artifact, I'm going to eat my helmet.
+    [0002B5FB] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Climbing to a great height to speak to some wise, old hermits. It's like we're in a vid or something.
+    [0002B62D] Squadmate (Human ♂): If they hand us a magical artifact, I'm going to eat my helmet.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002B62C] global_squad_female_human ⟨cond⟩: Gonna hold you to that, Kosta.
+        [0002B62C] Squadmate (Human ♀) ⟨cond⟩: Gonna hold you to that, Kosta.
     ├ option 2:
-        [0002B62E] global_squad_turian ⟨cond⟩: That's something I'd like to see.
+        [0002B62E] Squadmate (Turian / Vetra) ⟨cond⟩: That's something I'd like to see.
     ├ option 3:
-        [0002D936] global_squad_krogan ⟨cond⟩: It ain't easy. Trust me.
+        [0002D936] Squadmate (Krogan / Drack) ⟨cond⟩: It ain't easy. Trust me.
     └─ merge ─┘
 ├ option 2:
-    [0002B5FE] global_squad_asari ⟨cond⟩ [OncePerGame]: I wonder if the sages up here know anything about the Remnant.
-    [0002B630] global_squad_asari: It's probably too much to hope they'll share secrets with us.
-    [0002B62F] Hero: I wouldn't count on it.
+    [0002B5FE] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: I wonder if the sages up here know anything about the Remnant.
+    [0002B630] Squadmate (Asari / Peebee): It's probably too much to hope they'll share secrets with us.
+    [0002B62F] Ryder: I wouldn't count on it.
 ├ option 3:
-    [0002B5FF] global_squad_angara ⟨cond⟩ [OncePerGame]: I've never been up here before. I {i}have{/i} heard of the sages of Mithrava, but never gave them much thought.
-    [0002B622] Hero: Why not?
-    [0002B624] global_squad_angara: Isn't a story worthless if it isn't shared? If the accounts of our past are kept hidden, they may as well not exist at all.
+    [0002B5FF] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: I've never been up here before. I {i}have{/i} heard of the sages of Mithrava, but never gave them much thought.
+    [0002B622] Ryder: Why not?
+    [0002B624] Squadmate (Angara / Jaal): Isn't a story worthless if it isn't shared? If the accounts of our past are kept hidden, they may as well not exist at all.
 └─ merge ─┘

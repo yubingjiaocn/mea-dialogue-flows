@@ -1,44 +1,44 @@
 # game/conversations/unc/storms/stm_0180_relay_station_door_d
-# Primary speaker: stm_relay_scav_leader_01_multi
+# Primary speaker: Relay Scav Leader
 # Source: game/conversations/unc/storms/stm_0180_relay_station_door_d.xml
 ==================================================
-[000245D7] stm_relay_scav_leader_01_multi: [Comm] Huh. Guess that ship wasn't kett, then. They don't knock.
+[000245D7] Relay Scav Leader: [Comm] Huh. Guess that ship wasn't kett, then. They don't knock.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026EBE] Hero ⟨cond⟩: So there are people here.
-    [00026EBD] stm_relay_scav_leader_01_multi: [Comm] And we're trying to keep a low profile.
-    [00026EBC] stm_relay_scav_leader_01_multi: [Comm] Now shove off. Find your own salvage. This spot's taken.
+    [00026EBE] Ryder ⟨cond⟩: So there are people here.
+    [00026EBD] Relay Scav Leader: [Comm] And we're trying to keep a low profile.
+    [00026EBC] Relay Scav Leader: [Comm] Now shove off. Find your own salvage. This spot's taken.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000245DE] Hero: I'm not a salvager, I'm a Pathfinder. We've come to fix all this.
-        [000245CF] stm_relay_scav_leader_01_multi: [Comm] Call me Clancy. Pathfinder, huh? Like that changes much.
-        [0002461A] stm_relay_scav_leader_01_multi: [Comm] The Nexus just can't let Eos go, can it? However much it fails down here.
-        [000245D3] Hero: I'm tracking a signal that will help Eos. I only need power for the antenna.
-        [000245D9] stm_relay_scav_leader_01_multi: [Comm] Look, I cut the power for a reason. The kett are patrolling today.
-        [000245DC] stm_relay_scav_leader_01_multi: [Comm] You turn the power relay back on, they'll know there's a juicy target alive down here.
+        [000245DE] Ryder: I'm not a salvager, I'm a Pathfinder. We've come to fix all this.
+        [000245CF] Relay Scav Leader: [Comm] Call me Clancy. Pathfinder, huh? Like that changes much.
+        [0002461A] Relay Scav Leader: [Comm] The Nexus just can't let Eos go, can it? However much it fails down here.
+        [000245D3] Ryder: I'm tracking a signal that will help Eos. I only need power for the antenna.
+        [000245D9] Relay Scav Leader: [Comm] Look, I cut the power for a reason. The kett are patrolling today.
+        [000245DC] Relay Scav Leader: [Comm] You turn the power relay back on, they'll know there's a juicy target alive down here.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000245D6] Hero: Is it smarter to hide and hope, or take a chance that might save this whole planet?
-            [000245E3] stm_relay_scav_leader_01_multi: [Comm] I remember when people used to talk like that.
-            [000245E4] stm_relay_scav_leader_01_multi: [Comm] Okay, I'll enable the generators out there. You want to poke the tiger, it's on you.
+            [000245D6] Ryder: Is it smarter to hide and hope, or take a chance that might save this whole planet?
+            [000245E3] Relay Scav Leader: [Comm] I remember when people used to talk like that.
+            [000245E4] Relay Scav Leader: [Comm] Okay, I'll enable the generators out there. You want to poke the tiger, it's on you.
         ├ option 2:
-            [000245DA] Hero: Help me with the power relay, and I'll take care of the kett.
-            [000245DF] stm_relay_scav_leader_01_multi: [Comm] You're crazy. Though maybe it's a good crazy.
-            ↩ (goto) [000245E4] stm_relay_scav_leader_01_multi: [Comm] Okay, I'll enable the generators out there. You want to poke the tiger, it's on you.
+            [000245DA] Ryder: Help me with the power relay, and I'll take care of the kett.
+            [000245DF] Relay Scav Leader: [Comm] You're crazy. Though maybe it's a good crazy.
+            ↩ (goto) [000245E4] Relay Scav Leader: [Comm] Okay, I'll enable the generators out there. You want to poke the tiger, it's on you.
         └─ merge ─┘
     ├ option 2:
-        [000245D4] Hero: So you're a salvager. Got a name? I'm Ryder.
-        [000245D2] stm_relay_scav_leader_01_multi: [Comm] Clancy. Making an honest living by—Wait, Ryder? As in Pathfinder?
-        ↩ (goto) [0002461A] stm_relay_scav_leader_01_multi: [Comm] The Nexus just can't let Eos go, can it? However much it fails down here.
+        [000245D4] Ryder: So you're a salvager. Got a name? I'm Ryder.
+        [000245D2] Relay Scav Leader: [Comm] Clancy. Making an honest living by—Wait, Ryder? As in Pathfinder?
+        ↩ (goto) [0002461A] Relay Scav Leader: [Comm] The Nexus just can't let Eos go, can it? However much it fails down here.
     └─ merge ─┘
 ├ option 2:
-    [000245D1] Hero: There are people here? We thought everyone left was gone.
-    [000245D5] stm_relay_scav_leader_01_multi: [Comm] 'Course you did.
-    ↩ (goto) [00026EBC] stm_relay_scav_leader_01_multi: [Comm] Now shove off. Find your own salvage. This spot's taken.
+    [000245D1] Ryder: There are people here? We thought everyone left was gone.
+    [000245D5] Relay Scav Leader: [Comm] 'Course you did.
+    ↩ (goto) [00026EBC] Relay Scav Leader: [Comm] Now shove off. Find your own salvage. This spot's taken.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000140AF] stm_relay_scav_leader_01_multi ⟨cond⟩: [Comm] Go ahead and start the generators. It'll bring the kett, and that's on you.
+    [000140AF] Relay Scav Leader ⟨cond⟩: [Comm] Go ahead and start the generators. It'll bring the kett, and that's on you.
 ├ option 2:
-    [00019C34] stm_relay_scav_leader_01_multi: [Comm] Turn on the generators. If you took their base, we're good!
+    [00019C34] Relay Scav Leader: [Comm] Turn on the generators. If you took their base, we're good!
 └─ merge ─┘

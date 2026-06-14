@@ -1,31 +1,31 @@
 # game/conversations/unc_ice/ice_0100_res_camp_land03_a
-# Primary speaker: ice_disgruntledfighter_1
+# Primary speaker: Disgruntledfighter
 # Source: game/conversations/unc_ice/ice_0100_res_camp_land03_a.xml
 ==================================================
-[00025C4E] ice_disgruntledfighter_2: So that awful place really is gone...
-[00025C50] ice_disgruntledfighter_1: Wish I was there when it happened.
-[00025C4F] ice_disgruntledfighter_2: Would've been nice to watch it burn to the ground.
+[00025C4E] Disgruntledfighter: So that awful place really is gone...
+[00025C50] Disgruntledfighter: Wish I was there when it happened.
+[00025C4F] Disgruntledfighter: Would've been nice to watch it burn to the ground.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026C73] ice_disgruntledfighter_1 ⟨cond⟩: You didn't hear about the human? Landed right in the middle of Aya.
-    [00025C5C] ice_disgruntledfighter_2: No... I hope they dealt with it.
+    [00026C73] Disgruntledfighter ⟨cond⟩: You didn't hear about the human? Landed right in the middle of Aya.
+    [00025C5C] Disgruntledfighter: No... I hope they dealt with it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00025C55] global_squad_angara ⟨cond⟩: That human is a Pathfinder fighting for us. Have some respect.
-            [00025C5B] ice_disgruntledfighter_2: Jaal! And... the Pathfinder.
-            [00025C5D] Hero: Don't worry. They dealt with me.
+            [00025C55] Squadmate (Angara / Jaal) ⟨cond⟩: That human is a Pathfinder fighting for us. Have some respect.
+            [00025C5B] Disgruntledfighter: Jaal! And... the Pathfinder.
+            [00025C5D] Ryder: Don't worry. They dealt with me.
         ├ option 2:
-            [0002AC18] global_squad_angara: That human is a Pathfinder fighting for us. Have some respect.
-            [0002AC19] ice_disgruntledfighter_2: Jaal! And... the Pathfinder.
-            ↩ (goto) [00025C5D] Hero: Don't worry. They dealt with me.
+            [0002AC18] Squadmate (Angara / Jaal): That human is a Pathfinder fighting for us. Have some respect.
+            [0002AC19] Disgruntledfighter: Jaal! And... the Pathfinder.
+            ↩ (goto) [00025C5D] Ryder: Don't worry. They dealt with me.
         └─ merge ─┘
     ├ option 2:
-        [00026C72] ice_disgruntledfighter_2: Stars above. You're the...
-        ↩ (goto) [00025C5D] Hero: Don't worry. They dealt with me.
+        [00026C72] Disgruntledfighter: Stars above. You're the...
+        ↩ (goto) [00025C5D] Ryder: Don't worry. They dealt with me.
     └─ merge ─┘
 ├ option 2:
-    [0002AC17] ice_disgruntledfighter_1: You didn't hear about the human? Landed right in the middle of Aya.
-    ↩ (goto) [00025C5C] ice_disgruntledfighter_2: No... I hope they dealt with it.
+    [0002AC17] Disgruntledfighter: You didn't hear about the human? Landed right in the middle of Aya.
+    ↩ (goto) [00025C5C] Disgruntledfighter: No... I hope they dealt with it.
 └─ merge ─┘

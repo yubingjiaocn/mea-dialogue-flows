@@ -1,125 +1,125 @@
 # Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0150_first_chamber_banter_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_vlt/Crit_Vlt_0150_first_chamber_banter_b.xml
 ==================================================
 ┌─ BRANCH (17) ─┐
 ├ option 1:
-    [0001471A] global_squad_asari: Anything could be important. Let's be thorough.
+    [0001471A] Squadmate (Asari / Peebee): Anything could be important. Let's be thorough.
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001101C] Hero: Not what we're looking for, but worth getting a record.
+        [0001101C] Ryder: Not what we're looking for, but worth getting a record.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0001102E] global_squad_turian ⟨cond⟩: Watch your fingers. There might be traps.
-            [00011030] Hero: I'm not detecting any.
-            [00011031] global_squad_turian: I've made that mistake before.
+            [0001102E] Squadmate (Turian / Vetra) ⟨cond⟩: Watch your fingers. There might be traps.
+            [00011030] Ryder: I'm not detecting any.
+            [00011031] Squadmate (Turian / Vetra): I've made that mistake before.
         ├ option 2:
-            [0001102F] global_squad_female_human ⟨cond⟩: You go ahead. I've got your back.
+            [0001102F] Squadmate (Human ♀) ⟨cond⟩: You go ahead. I've got your back.
         ├ option 3:
-            [0001102D] global_squad_male_human ⟨cond⟩: Tann's going to lose his mind when he hears about this place.
+            [0001102D] Squadmate (Human ♂) ⟨cond⟩: Tann's going to lose his mind when he hears about this place.
         └─ merge ─┘
     ├ option 2:
-        [00011018] Hero: Got anything?
-        [00011024] global_squad_asari: There's element zero threaded through all this tech. Imagine the engineering that would take.
+        [00011018] Ryder: Got anything?
+        [00011024] Squadmate (Asari / Peebee): There's element zero threaded through all this tech. Imagine the engineering that would take.
     └─ merge ─┘
 ├ option 3:
-    [0001EDF5] Hero: Look there. Do you see that?
+    [0001EDF5] Ryder: Look there. Do you see that?
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001EDF7] global_squad_krogan ⟨cond⟩: Whatever it is looks broken.
+        [0001EDF7] Squadmate (Krogan / Drack) ⟨cond⟩: Whatever it is looks broken.
     ├ option 2:
-        [0001EDF2] global_squad_male_human ⟨cond⟩: Looks like a broken information display.
+        [0001EDF2] Squadmate (Human ♂) ⟨cond⟩: Looks like a broken information display.
     ├ option 3:
-        [0001EDF3] global_squad_female_human ⟨cond⟩: Might be data—or bits of it.
+        [0001EDF3] Squadmate (Human ♀) ⟨cond⟩: Might be data—or bits of it.
     ├ option 4:
-        [0001EDF9] global_squad_turian ⟨cond⟩: It looks like data but—broken? Incomplete?
+        [0001EDF9] Squadmate (Turian / Vetra) ⟨cond⟩: It looks like data but—broken? Incomplete?
     └─ merge ─┘
 ├ option 4:
-    [0001EDF8] Hero: I'm getting something from that data pattern, but the glyphs make no sense.
-    [0001EDF1] global_squad_asari: Damn it.
+    [0001EDF8] Ryder: I'm getting something from that data pattern, but the glyphs make no sense.
+    [0001EDF1] Squadmate (Asari / Peebee): Damn it.
     [0001EDF6] SAM: Data corruption detected. What survives is highly technical.
     [0001EDF4] SAM: From the context, this could be instructions or a warning.
 ├ option 5:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001101E] Hero: Only minimal power. I don't think it triggered the atmosphere processor, but...
+        [0001101E] Ryder: Only minimal power. I don't think it triggered the atmosphere processor, but...
         [00011021] SAM: Pathfinder, a conduit beneath the floor just activated. Fluid is running through it.
         [0001103C] SAM: It could be generating emergency power. Your scanner will have more details.
     ├ option 2:
-        [0001103B] Hero: I see the conduit, SAM. Whatever it is, it leads out of the room.
+        [0001103B] Ryder: I see the conduit, SAM. Whatever it is, it leads out of the room.
     └─ merge ─┘
 ├ option 6:
     [0001F3FB] SAM: No interface connectivity detected. The barrier cannot be removed manually.
-    [0001F4D0] Hero: Too bad.
+    [0001F4D0] Ryder: Too bad.
 ├ option 7:
-    [0001F3FC] Hero: Locked.
+    [0001F3FC] Ryder: Locked.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001F4D6] global_squad_female_human ⟨cond⟩: She seems good at taking care of herself.
+        [0001F4D6] Squadmate (Human ♀) ⟨cond⟩: She seems good at taking care of herself.
     ├ option 2:
-        [0001F4D7] global_squad_krogan ⟨cond⟩: At least she won't be underfoot.
+        [0001F4D7] Squadmate (Krogan / Drack) ⟨cond⟩: At least she won't be underfoot.
     ├ option 3:
-        [0001F4D8] global_squad_male_human ⟨cond⟩: Let's hope her expertise finds her a way back.
+        [0001F4D8] Squadmate (Human ♂) ⟨cond⟩: Let's hope her expertise finds her a way back.
     └─ merge ─┘
 ├ option 8:
-    [000135DC] Hero [OncePerGame]: Looks like a blast shield. That might be handy.
+    [000135DC] Ryder [OncePerGame]: Looks like a blast shield. That might be handy.
 ├ option 9:
-    [000117B8] Hero: No way through, no interface points... hmm. SAM, note it down for later.
+    [000117B8] Ryder: No way through, no interface points... hmm. SAM, note it down for later.
 ├ option 10:
-    [0001EF12] Hero: This door should be working.
-    [0001EF14] global_squad_asari: It's got power, right? Do we... need a password?
+    [0001EF12] Ryder: This door should be working.
+    [0001EF14] Squadmate (Asari / Peebee): It's got power, right? Do we... need a password?
 ├ option 11:
-    [00022BA7] global_squad_asari: What about these holographic patterns? Can you scan one?
+    [00022BA7] Squadmate (Asari / Peebee): What about these holographic patterns? Can you scan one?
 ├ option 12:
-    [00022BA6] Hero: Open. We read it, we get access.
+    [00022BA6] Ryder: Open. We read it, we get access.
 ├ option 13:
     [0001EF16] SAM: Phrase recovered. "Must read to access." This console links to surface facilities.
-    [0001EF13] Hero: Then it must control the atmosphere processor.
+    [0001EF13] Ryder: Then it must control the atmosphere processor.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00010CF5] global_squad_asari: No glyphs. It looks dead—or locked down, like most of this place.
+        [00010CF5] Squadmate (Asari / Peebee): No glyphs. It looks dead—or locked down, like most of this place.
         [00010CF7] SAM: The fluid conduit leads to this console and farther into the vault.
-        [00010CF8] Hero: So if we follow that conduit, it might lead to the system lockdown.
+        [00010CF8] Ryder: So if we follow that conduit, it might lead to the system lockdown.
     ├ option 2:
-        ↩ (goto) [00010CF5] global_squad_asari: No glyphs. It looks dead—or locked down, like most of this place.
+        ↩ (goto) [00010CF5] Squadmate (Asari / Peebee): No glyphs. It looks dead—or locked down, like most of this place.
     └─ merge ─┘
 ├ option 14:
-    [0001EFC7] global_squad_asari: These data pattern things are incredible. If I'm right, each one can hold hundreds of zettabytes.
-    [0001EFC8] global_squad_asari: There are whole species who get by with less.
+    [0001EFC7] Squadmate (Asari / Peebee): These data pattern things are incredible. If I'm right, each one can hold hundreds of zettabytes.
+    [0001EFC8] Squadmate (Asari / Peebee): There are whole species who get by with less.
 ├ option 15:
     [0001EFC6] SAM: Minor corruption detected. The pattern suggests significant data present, but it cannot be accessed.
 ├ option 16:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001F3D7] global_squad_asari: I think that gravity well works in reverse, too.
-        [0001F3DB] Hero: Then we have a way out.
-        [0001F3D6] global_squad_asari: You're not leaving already, are you?
-        [0001F3D9] Hero: Not until we find those processor controls.
+        [0001F3D7] Squadmate (Asari / Peebee): I think that gravity well works in reverse, too.
+        [0001F3DB] Ryder: Then we have a way out.
+        [0001F3D6] Squadmate (Asari / Peebee): You're not leaving already, are you?
+        [0001F3D9] Ryder: Not until we find those processor controls.
     ├ option 2:
-        [00030D19] Hero: No signs of any kett. Maybe they can't get into the vault?
-        [00030D1C] global_squad_asari: But you can. That'll get their attention.
-        [00030D1B] Hero: Lucky me.
+        [00030D19] Ryder: No signs of any kett. Maybe they can't get into the vault?
+        [00030D1C] Squadmate (Asari / Peebee): But you can. That'll get their attention.
+        [00030D1B] Ryder: Lucky me.
     ├ option 3:
         ┌─ BRANCH (7) ─┐
         ├ option 1:
-            [0001F3D3] global_squad_female_human ⟨cond⟩ [OncePerGame]: Shouldn't it be warmer this deep underground?
+            [0001F3D3] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Shouldn't it be warmer this deep underground?
         ├ option 2:
-            [0001F3D5] global_squad_asari [OncePerGame]: Now that's interesting.
+            [0001F3D5] Squadmate (Asari / Peebee) [OncePerGame]: Now that's interesting.
         ├ option 3:
-            [0001F3DC] global_squad_krogan ⟨cond⟩ [OncePerGame]: You think any other Remnant structures run this deep?
+            [0001F3DC] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: You think any other Remnant structures run this deep?
         ├ option 4:
-            [0001F3D8] global_squad_asari [OncePerGame]: Aha, what have we here?
+            [0001F3D8] Squadmate (Asari / Peebee) [OncePerGame]: Aha, what have we here?
         ├ option 5:
-            [0001F3DD] global_squad_turian ⟨cond⟩ [OncePerGame]: We're so far down. I can't even see the top of the well.
+            [0001F3DD] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: We're so far down. I can't even see the top of the well.
         ├ option 6:
-            [0001F3E0] global_squad_asari [OncePerGame]: Wow. I really was just scratching the surface.
+            [0001F3E0] Squadmate (Asari / Peebee) [OncePerGame]: Wow. I really was just scratching the surface.
         ├ option 7:
-            [0001F3DA] global_squad_male_human ⟨cond⟩ [OncePerGame]: Here's the rock you kicked down here, safe and sound.
+            [0001F3DA] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Here's the rock you kicked down here, safe and sound.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 17:
     [0001668C] SAM: It appears to reconfigure panels that rise from the floor.
-    [0001668D] Hero: That could come in handy.
+    [0001668D] Ryder: That could come in handy.
 └─ merge ─┘
-[00010CF6] Hero: There. It might be controls for the atmosphere processor.
+[00010CF6] Ryder: There. It might be controls for the atmosphere processor.

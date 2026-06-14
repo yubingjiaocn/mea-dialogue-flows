@@ -1,60 +1,60 @@
 # game/conversations/unc/biolum/bio_0195_sci_historian_qs_i
-# Primary speaker: bio_outpost_historian
+# Primary speaker: Outpost Historian
 # Source: game/conversations/unc/biolum/bio_0195_sci_historian_qs_i.xml
 ==================================================
-[00032D15] bio_outpost_historian: What?
+[00032D15] Outpost Historian: What?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00032D2B] Hero: Is everything all right? You seem distressed.
-    [00032D28] bio_outpost_historian: Would you like a reward for that astute observation?
-    [00032D27] bio_outpost_historian: Hmm, you're that alien visitor that came to Aya asking about our vault.
-    [00032D2C] Hero: You've heard of me?
-    [00032D2D] bio_outpost_historian: Who hasn't? When strange new species turn up, reports spread fast. After the kett, can't be too careful.
-    [00032D66] bio_outpost_historian: Luj Ansen. Historian with the Repository of History, Aya.
-    [00032DAA] bio_outpost_historian: Listen, if there's nothing you need, could you go away? I'm busy trying to get transport off this cursed planet.
+    [00032D2B] Ryder: Is everything all right? You seem distressed.
+    [00032D28] Outpost Historian: Would you like a reward for that astute observation?
+    [00032D27] Outpost Historian: Hmm, you're that alien visitor that came to Aya asking about our vault.
+    [00032D2C] Ryder: You've heard of me?
+    [00032D2D] Outpost Historian: Who hasn't? When strange new species turn up, reports spread fast. After the kett, can't be too careful.
+    [00032D66] Outpost Historian: Luj Ansen. Historian with the Repository of History, Aya.
+    [00032DAA] Outpost Historian: Listen, if there's nothing you need, could you go away? I'm busy trying to get transport off this cursed planet.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [00033010] Hero: You don't seem to like Havarl very much.
-        [00033018] bio_outpost_historian: Havarl's other regions suit me just fine. But here? Oh no, I don't do well in this fierce wilderness.
-        [00033019] bio_outpost_historian: You think these shelters keep you safe? They don't. Woke up this morning and found a thorny vine wormed its way into my bunk.
-        [0003301A] bio_outpost_historian: I'm stranded here because a branch pierced my shuttle's power core.
-        ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+        [00033010] Ryder: You don't seem to like Havarl very much.
+        [00033018] Outpost Historian: Havarl's other regions suit me just fine. But here? Oh no, I don't do well in this fierce wilderness.
+        [00033019] Outpost Historian: You think these shelters keep you safe? They don't. Woke up this morning and found a thorny vine wormed its way into my bunk.
+        [0003301A] Outpost Historian: I'm stranded here because a branch pierced my shuttle's power core.
+        ↩ (goto) [00032E99] Outpost Historian: [empty]
     ├ option 2:
-        [0003300E] Hero: Why did you come here from Aya?
-        [0003301F] bio_outpost_historian: Kiiran's team found some Remnant relics while digging around the old ruins. I was sent to collect them for the repository.
-        [00033020] bio_outpost_historian: It shouldn't have taken more than a day. But things never go according to schedule, do they?
-        ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+        [0003300E] Ryder: Why did you come here from Aya?
+        [0003301F] Outpost Historian: Kiiran's team found some Remnant relics while digging around the old ruins. I was sent to collect them for the repository.
+        [00033020] Outpost Historian: It shouldn't have taken more than a day. But things never go according to schedule, do they?
+        ↩ (goto) [00032E99] Outpost Historian: [empty]
     ├ option 3:
-        [0003300C] Hero ⟨cond⟩: You mentioned Remnant ruins? Are there lots of Remnant here?
-        [00033025] bio_outpost_historian: Yes. If you've been out in the jungle, you might have seen some of it.
-        [00033024] bio_outpost_historian: We think the ruins were part of a vast Remnant complex. We've seen evidence of hallways that wound through the area, both above and below the ground.
-        [00033064] bio_outpost_historian: Generations ago, our people took shelter in what we found here. That's how Pelaav was established.
+        [0003300C] Ryder ⟨cond⟩: You mentioned Remnant ruins? Are there lots of Remnant here?
+        [00033025] Outpost Historian: Yes. If you've been out in the jungle, you might have seen some of it.
+        [00033024] Outpost Historian: We think the ruins were part of a vast Remnant complex. We've seen evidence of hallways that wound through the area, both above and below the ground.
+        [00033064] Outpost Historian: Generations ago, our people took shelter in what we found here. That's how Pelaav was established.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00033061] Hero [OncePerGame]: Were there no hostile Remnant machines?
-            [00033063] bio_outpost_historian: None, according to the histories. We found artifacts, of course, bits of things that we could study.
-            [00033062] bio_outpost_historian: But they say it was like moving into an empty home.
-            ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+            [00033061] Ryder [OncePerGame]: Were there no hostile Remnant machines?
+            [00033063] Outpost Historian: None, according to the histories. We found artifacts, of course, bits of things that we could study.
+            [00033062] Outpost Historian: But they say it was like moving into an empty home.
+            ↩ (goto) [00032E99] Outpost Historian: [empty]
         ├ option 2:
-            ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+            ↩ (goto) [00032E99] Outpost Historian: [empty]
         └─ merge ─┘
     ├ option 4:
-        [00033065] Hero: I won't bother you further.
-        [00033067] bio_outpost_historian: Very well. Watch out for plants while you're out there. Vicious things.
+        [00033065] Ryder: I won't bother you further.
+        [00033067] Outpost Historian: Very well. Watch out for plants while you're out there. Vicious things.
     └─ merge ─┘
 ├ option 2:
-    [00032D26] Hero: Sorry! I'm clearly in the wrong place.
-    ↩ (goto) [00032D27] bio_outpost_historian: Hmm, you're that alien visitor that came to Aya asking about our vault.
+    [00032D26] Ryder: Sorry! I'm clearly in the wrong place.
+    ↩ (goto) [00032D27] Outpost Historian: Hmm, you're that alien visitor that came to Aya asking about our vault.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00032E9A] bio_outpost_historian: What do you want this time?
-    ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+    [00032E9A] Outpost Historian: What do you want this time?
+    ↩ (goto) [00032E99] Outpost Historian: [empty]
 ├ option 2:
-    [00032E97] bio_outpost_historian: Yes?
-    ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+    [00032E97] Outpost Historian: Yes?
+    ↩ (goto) [00032E99] Outpost Historian: [empty]
 ├ option 3:
-    [00032E96] bio_outpost_historian: What now?
-    ↩ (goto) [00032E99] bio_outpost_historian: [empty]
+    [00032E96] Outpost Historian: What now?
+    ↩ (goto) [00032E99] Outpost Historian: [empty]
 └─ merge ─┘
-↩ (goto) [00032E99] bio_outpost_historian: [empty]
+↩ (goto) [00032E99] Outpost Historian: [empty]

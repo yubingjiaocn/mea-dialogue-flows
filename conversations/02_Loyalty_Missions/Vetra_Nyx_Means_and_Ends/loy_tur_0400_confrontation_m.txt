@@ -1,19 +1,19 @@
 # Game/Conversations/Loyalty/Loy_Tur/loy_tur_0400_confrontation_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0400_confrontation_m.xml
 ==================================================
 [0000A607] Narration: Escaping the base, the squad discover Meriweather waiting with Sid grabbed by the back of her neck. Meriweather is holding a flashing grenade.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000A60F] loy_tur_outlawboss: Think carefully about your next move, Pathfinder.
-    [0000A972] Hero: That explodes, it takes you out, too.
-    [0000A60E] loy_tur_outlawboss: You won't let that happen.
-    [0000ACAF] nex_vetra_sister_multi: Vetra...
-    [0000A614] global_squad_turian: It's going to be okay. We're going to get you out of this.
+    [0000A60F] Tur Outlawboss: Think carefully about your next move, Pathfinder.
+    [0000A972] Ryder: That explodes, it takes you out, too.
+    [0000A60E] Tur Outlawboss: You won't let that happen.
+    [0000ACAF] Sid (Vetra's Sister): Vetra...
+    [0000A614] Squadmate (Turian / Vetra): It's going to be okay. We're going to get you out of this.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000A971] Hero: Okay. We're talking. Now what?
-        [0000A96F] loy_tur_outlawboss: Put your weapons on the ground.
+        [0000A971] Ryder: Okay. We're talking. Now what?
+        [0000A96F] Tur Outlawboss: Put your weapons on the ground.
         [0000A620] Narration: Ryder nods at Vetra. They slowly lower their weapons to the ground. Meriweather looks antsy.
         [0000A61D] Narration: As she crouches, Vetra takes the opportunity to look at Ryder. She indicates her gun and then subtly cocks her head towards Meriweather.
         [0000A974] Narration: Ryder notices Vetra's power armor "juicing up," pistons ready. She's like a cat ready to pounce.
@@ -23,24 +23,24 @@
             [0000A628] Narration: Just as Ryder's gun touches the ground, Ryder jumps back up and shoots Meriweather in the shoulder, on the side with the grenade.
             [0000A629] Narration: Vetra knocks Meriweather aside and scoops up the dangerously flashing grenade. She hurls it away and jumps on Sid to shield her from the blast.
             [0000A624] Narration: Meriweather recovers from her blow. She shoots at Vetra and Sid, but misses. Vetra herds Sid behind cover.
-            [0000A625] loy_tur_outlawboss: Get them! Kill all of them!
+            [0000A625] Tur Outlawboss: Get them! Kill all of them!
             [0000A626] Narration: Combat starts.
         ├ option 2:
             [0000A62D] Narration: Ryder puts his/her gun down, and stands back up slowly.
             [0000A62F] Narration: Vetra looks surprised, but quickly follows Ryder's lead by leaving her gun.
-            [0000A632] Hero: So this is what you're all about? Kidnapping? Threatening children?
-            [0000A631] Hero: That's what you came to Heleus for?
+            [0000A632] Ryder: So this is what you're all about? Kidnapping? Threatening children?
+            [0000A631] Ryder: That's what you came to Heleus for?
             [0000A62C] Narration: Meriweather looks like she's thinking real hard.
-            [0000A62B] global_squad_turian: You can still do what's right. Turn off the explosive.
-            [0000A98E] loy_tur_outlawboss: There's no right or wrong anymore. Just survival.
+            [0000A62B] Squadmate (Turian / Vetra): You can still do what's right. Turn off the explosive.
+            [0000A98E] Tur Outlawboss: There's no right or wrong anymore. Just survival.
             [0000A984] Narration: She throws the grenade at Ryder. Ryder ducks and rolls, grabbing his/her gun from the ground at the same time.
             [0000A98A] Narration: Vetra does almost the same thing, and they both pop back up, ready for combat.
             [0000A9A3] Narration: Combat!
         └─ merge ─┘
     ├ option 2:
-        [0000A96E] Hero: Come on, that's a kid you got there. She's not a threat. Let her go.
-        [0000A616] loy_tur_outlawboss: She hacked my security. And she's as tall as you are. ⏎
-        [0000A618] loy_tur_outlawboss: Guns on the ground!
+        [0000A96E] Ryder: Come on, that's a kid you got there. She's not a threat. Let her go.
+        [0000A616] Tur Outlawboss: She hacked my security. And she's as tall as you are. ⏎
+        [0000A618] Tur Outlawboss: Guns on the ground!
         ↩ (goto) [0000A620] Narration: Ryder nods at Vetra. They slowly lower their weapons to the ground. Meriweather looks antsy.
     └─ merge ─┘
 ├ option 2:
@@ -48,19 +48,19 @@
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0000A98D] loy_tur_outlawboss: "What's right"? Like killing everyone in your way?
+    [0000A98D] Tur Outlawboss: "What's right"? Like killing everyone in your way?
     [0000A98F] Narration: Meriweather looks like she's preparing herself mentally.
 ├ option 2:
-    [0000A97C] Hero: The Charlatan wouldn't want this. Killing children isn't his style.
-    [0000A97B] loy_tur_outlawboss: Yeah, well, "his style" works for him. I do what I have to.
-    [0000A9A5] global_squad_turian: Or you can do what's right.
+    [0000A97C] Ryder: The Charlatan wouldn't want this. Killing children isn't his style.
+    [0000A97B] Tur Outlawboss: Yeah, well, "his style" works for him. I do what I have to.
+    [0000A9A5] Squadmate (Turian / Vetra): Or you can do what's right.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [0000A982] Narration: Meriweather looks conflicted.
-        [0000A9A1] loy_tur_outlawboss: They say all kinds of things about you, Pathfinder, but I saw for myself what you are.
-        [0000A988] loy_tur_outlawboss: You put down your guns, and you didn't kill all my people to get to me.
+        [0000A9A1] Tur Outlawboss: They say all kinds of things about you, Pathfinder, but I saw for myself what you are.
+        [0000A988] Tur Outlawboss: You put down your guns, and you didn't kill all my people to get to me.
         [0000A989] Narration: Meriweather looks at Sid's terrified face and realizes what she's become. She disarms the grenade.
-        [0000A98C] loy_tur_outlawboss: I'm done doing someone else's dirty work.
+        [0000A98C] Tur Outlawboss: I'm done doing someone else's dirty work.
         [0000A998] Narration: Meriweather walks off, trusting that Ryder won't shoot her in the back.
     ├ option 2:
         ↩ (goto) [0000A994] Narration: [empty]

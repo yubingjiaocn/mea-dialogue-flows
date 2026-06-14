@@ -1,60 +1,60 @@
 # Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0100_gravity_well_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_vlt/Crit_Vlt_0100_gravity_well_m.xml
 ==================================================
 [00008696] Narration: The Player interfaces with the vault door. A moment later it grinds open, slowly...
 [00008693] Narration: ...Revealing an empty room beyond with some stones and sand littering the floor.
 [00008694] Narration: Everyone wanders inside, looking around.
-[000086AB] global_squad_asari: No. No, this can't be right. All that fanfare for an empty room?
-[000086B1] global_squad_asari: There's some secret here. There must be. Do your Pathfinder thing.
+[000086AB] Squadmate (Asari / Peebee): No. No, this can't be right. All that fanfare for an empty room?
+[000086B1] Squadmate (Asari / Peebee): There's some secret here. There must be. Do your Pathfinder thing.
 [000086B3] Narration: Something trembles. Everyone backs up as a beam of light emerges from the ceiling and strikes the floor...
 [000086B2] Narration: ...which reconfigures, revealing a huge, deep shaft leading far underground.
-[000086AF] global_squad_asari: Oh, you're {i}good.{/i}
+[000086AF] Squadmate (Asari / Peebee): Oh, you're {i}good.{/i}
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000086AC] Hero: I didn't do a thing.
+    [000086AC] Ryder: I didn't do a thing.
     [000086B4] Narration: Everyone peers into the hole.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [000086B9] global_squad_turian ⟨cond⟩: That's a long way down. Can't tell how far.
+        [000086B9] Squadmate (Turian / Vetra) ⟨cond⟩: That's a long way down. Can't tell how far.
         [000086BC] Narration: Or tries to... The stone is seized by some sort of force and begins falling gently.
         [000086BF] Narration: Peebee is immediately fascinated.
-        [00008C48] global_squad_asari: That can't be air pressure. Electrostatic? Ah, gravitation.
-        [000086BD] global_squad_asari: Oh, you idiot, Peebee. That wasn't the front door. This is!
+        [00008C48] Squadmate (Asari / Peebee): That can't be air pressure. Electrostatic? Ah, gravitation.
+        [000086BD] Squadmate (Asari / Peebee): Oh, you idiot, Peebee. That wasn't the front door. This is!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00009BE3] Hero: I'll let you know!
+            [00009BE3] Ryder: I'll let you know!
             [00009C44] Narration: The Player leaps into the hole.
-            [00009C43] global_squad_asari: Hey!
+            [00009C43] Squadmate (Asari / Peebee): Hey!
             [00009C45] Narration: She leaps after the Player. The remaining squadmates exchange a look, then grit their teeth and jump after them.
             [0000A53E] Narration: Falling dialogue plays in a separate file. As they fall, we cut to...
             [00009D4D] Narration: The bottom of the shaft. The entrance to the gravity well is the only clearly lit part of this chamber.
             [00009D3A] Narration: The Player, their squad, and Peebee finally come to earth—gently—at the bottom of the shaft of light.
             [00009D4B] Narration: Slowly, they make their way into the dark chamber. Their lights snap on.
-            [00009D41] global_squad_asari: Now this is more like it.
+            [00009D41] Squadmate (Asari / Peebee): Now this is more like it.
             [00009D43] Narration: The Player's POV. We can see we're in a massive, dark, underground structure. It's quiet and creepy.
-            [0000A758] Hero: Looks like a bunker. Or a vault?
-            [00009D49] global_squad_asari: Whatever you call it, the controls for that atmosphere processor might be down here somewhere.
-            [00009D3E] Hero: Let's find out.
+            [0000A758] Ryder: Looks like a bunker. Or a vault?
+            [00009D49] Squadmate (Asari / Peebee): Whatever you call it, the controls for that atmosphere processor might be down here somewhere.
+            [00009D3E] Ryder: Let's find out.
         ├ option 2:
-            [00009BE2] Hero: What do you—?
+            [00009BE2] Ryder: What do you—?
             [000086C5] Narration: Peebee leaps into the hole.
-            [000086C8] Hero: Hey!
-            [000086C6] global_squad_asari: Come on, Pathfinder!
+            [000086C8] Ryder: Hey!
+            [000086C6] Squadmate (Asari / Peebee): Come on, Pathfinder!
             [00008C43] Narration: The Player looks at their squadmates, shrugs, then grits their teeth and leaps into the hole after Peebee. The squadmates follow.
             ↩ (goto) [0000A53E] Narration: Falling dialogue plays in a separate file. As they fall, we cut to...
         └─ merge ─┘
     ├ option 2:
-        [000086EE] global_squad_krogan ⟨cond⟩: Pretty deep. Someone didn't know when to stop digging.
+        [000086EE] Squadmate (Krogan / Drack) ⟨cond⟩: Pretty deep. Someone didn't know when to stop digging.
         ↩ (goto) [000086BE] Narration: [empty]
     ├ option 3:
-        [000086B8] global_squad_male_human ⟨cond⟩: How far down do you think it goes?
+        [000086B8] Squadmate (Human ♂) ⟨cond⟩: How far down do you think it goes?
         ↩ (goto) [000086BE] Narration: [empty]
     ├ option 4:
-        [0000A1A1] global_squad_asari: Quite the drop. How deep, do you think?
+        [0000A1A1] Squadmate (Asari / Peebee): Quite the drop. How deep, do you think?
         ↩ (goto) [000086BE] Narration: [empty]
     └─ merge ─┘
 ├ option 2:
-    [000086AE] Hero: And I make it look so easy.
+    [000086AE] Ryder: And I make it look so easy.
     ↩ (goto) [000086B4] Narration: Everyone peers into the hole.
 └─ merge ─┘

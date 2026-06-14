@@ -1,55 +1,55 @@
 # game/conversations/loyalty/loy_asa/loy_asa_0200_landing_area_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/loy_asa/loy_asa_0200_landing_area_b.xml
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00011C78] global_squad_female_human ⟨cond⟩: You nearly got us killed.
-    [00011C72] global_squad_asari: Any landing you can walk away from, right?
-    [0001A0D1] global_crew_co-pilot: [Comm] Ryder, come... in... are you... all right?
+    [00011C78] Squadmate (Human ♀) ⟨cond⟩: You nearly got us killed.
+    [00011C72] Squadmate (Asari / Peebee): Any landing you can walk away from, right?
+    [0001A0D1] Kallo (Co-pilot): [Comm] Ryder, come... in... are you... all right?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001B75F] Hero ⟨cond⟩: SAM, relay to the Tempest that we're stranded but alive. No choice but to investigate Peebee's signal.
-        [0001B761] global_squad_asari: Sorry.
+        [0001B75F] Ryder ⟨cond⟩: SAM, relay to the Tempest that we're stranded but alive. No choice but to investigate Peebee's signal.
+        [0001B761] Squadmate (Asari / Peebee): Sorry.
         [00011C70] SAM: Right away.
     ├ option 2:
-        [0001A0D0] Hero: SAM, relay to the Tempest that we're fine. Investigating Peebee's signal.
+        [0001A0D0] Ryder: SAM, relay to the Tempest that we're fine. Investigating Peebee's signal.
         ↩ (goto) [00011C70] SAM: Right away.
     └─ merge ─┘
 ├ option 2:
-    [00011C76] global_squad_angara ⟨cond⟩: Close one.
-    ↩ (goto) [00011C72] global_squad_asari: Any landing you can walk away from, right?
+    [00011C76] Squadmate (Angara / Jaal) ⟨cond⟩: Close one.
+    ↩ (goto) [00011C72] Squadmate (Asari / Peebee): Any landing you can walk away from, right?
 ├ option 3:
-    [00011C77] global_squad_krogan ⟨cond⟩: Close one.
-    ↩ (goto) [00011C72] global_squad_asari: Any landing you can walk away from, right?
+    [00011C77] Squadmate (Krogan / Drack) ⟨cond⟩: Close one.
+    ↩ (goto) [00011C72] Squadmate (Asari / Peebee): Any landing you can walk away from, right?
 ├ option 4:
-    [00011C71] global_squad_male_human ⟨cond⟩: A few meters off and... toast.
-    ↩ (goto) [00011C72] global_squad_asari: Any landing you can walk away from, right?
+    [00011C71] Squadmate (Human ♂) ⟨cond⟩: A few meters off and... toast.
+    ↩ (goto) [00011C72] Squadmate (Asari / Peebee): Any landing you can walk away from, right?
 ├ option 5:
-    [00011C75] global_squad_turian ⟨cond⟩: Too close for comfort.
-    ↩ (goto) [00011C72] global_squad_asari: Any landing you can walk away from, right?
+    [00011C75] Squadmate (Turian / Vetra) ⟨cond⟩: Too close for comfort.
+    ↩ (goto) [00011C72] Squadmate (Asari / Peebee): Any landing you can walk away from, right?
 └─ merge ─┘
-[0001BDB1] global_squad_asari: I'm picking up the signal. It's housed within a Remnant structure not far from here.
-[0001BDAE] Hero: SAM, plot our trajectory.
+[0001BDB1] Squadmate (Asari / Peebee): I'm picking up the signal. It's housed within a Remnant structure not far from here.
+[0001BDAE] Ryder: SAM, plot our trajectory.
 [0001BDAF] SAM: Plotted.
-[0001A2DD] global_squad_asari: We'll need to find our way to the surface.
+[0001A2DD] Squadmate (Asari / Peebee): We'll need to find our way to the surface.
 ┌─ BRANCH (7) ─┐
 ├ option 1:
     [0001BFB7] SAM [OncePerGame]: Pathfinder, there are extensive Remnant systems, but sudden tectonic instability overwhelmed them. Much of the infrastructure is buried.
 ├ option 2:
-    [0002C071] global_squad_female_human ⟨cond⟩ [OncePerGame]: Try scanning for a solution.
+    [0002C071] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Try scanning for a solution.
 ├ option 3:
-    [0002C070] global_squad_angara ⟨cond⟩ [OncePerGame]: I advise scanning along the rocks.
+    [0002C070] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: I advise scanning along the rocks.
 ├ option 4:
-    [0002C06F] global_squad_krogan ⟨cond⟩ [OncePerGame]: Start crushing some of these rocks. Something's bound to turn up.
+    [0002C06F] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Start crushing some of these rocks. Something's bound to turn up.
 ├ option 5:
-    [0002C072] global_squad_male_human ⟨cond⟩ [OncePerGame]: Try scanning for a solution.
+    [0002C072] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Try scanning for a solution.
 ├ option 6:
-    [0002C073] global_squad_turian ⟨cond⟩ [OncePerGame]: The scanner might turn up a solution.
+    [0002C073] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: The scanner might turn up a solution.
 ├ option 7:
-    [0001BFB9] global_squad_asari [OncePerGame]: We might have to break through a lot of rock to access the tech.
+    [0001BFB9] Squadmate (Asari / Peebee) [OncePerGame]: We might have to break through a lot of rock to access the tech.
 └─ merge ─┘
-[0001A2D1] global_squad_asari: Need to get through that obstruction. Maybe there's a console buried here somewhere.
+[0001A2D1] Squadmate (Asari / Peebee): Need to get through that obstruction. Maybe there's a console buried here somewhere.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0002C21F] SAM: Remnant power node detected within.
@@ -58,131 +58,131 @@
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002C21C] global_squad_asari [OncePerGame]: Come on—break through the rock and access the power node.
+    [0002C21C] Squadmate (Asari / Peebee) [OncePerGame]: Come on—break through the rock and access the power node.
 ├ option 2:
-    [0002C21E] global_squad_asari [OncePerGame]: Go ahead and shoot the rock or something.
+    [0002C21E] Squadmate (Asari / Peebee) [OncePerGame]: Go ahead and shoot the rock or something.
 └─ merge ─┘
-[0001A2F3] Hero: Well, what do you know.
+[0001A2F3] Ryder: Well, what do you know.
 [0001BFB8] SAM: The network you're accessing seems to be a production system.
-[0001BFB6] Hero: Production of what?
+[0001BFB6] Ryder: Production of what?
 [0001BFBD] SAM: Remnant hardware.
-[0001BFC1] global_squad_asari: Good. The gates are opening.
+[0001BFC1] Squadmate (Asari / Peebee): Good. The gates are opening.
 [0001BFBE] SAM: You've opened more than that. I'm picking up structural shifts throughout the cavern area.
-[0002AA9D] global_squad_asari: The gate up there opened too. Might be worth checking out.
-[0001A2E1] global_squad_asari: Scrounge whatever tech we find for study. Could help figure out what happened here.
-[0001A2EE] global_squad_asari: We're definitely on the right track to the surface.
+[0002AA9D] Squadmate (Asari / Peebee): The gate up there opened too. Might be worth checking out.
+[0001A2E1] Squadmate (Asari / Peebee): Scrounge whatever tech we find for study. Could help figure out what happened here.
+[0001A2EE] Squadmate (Asari / Peebee): We're definitely on the right track to the surface.
 [0001BFBC] SAM: Interesting. That Observer is in a persistent idle state. Its neural pathways are blank.
-[0001BFBF] global_squad_asari: It's like Poc when I stripped out its Remnant protocols. It has no programming.
-[0002C030] global_squad_asari: Jeez, Ryder... what'd it ever do to you?
+[0001BFBF] Squadmate (Asari / Peebee): It's like Poc when I stripped out its Remnant protocols. It has no programming.
+[0002C030] Squadmate (Asari / Peebee): Jeez, Ryder... what'd it ever do to you?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002C9D1] Hero ⟨cond⟩: Not now, Peebee.
+    [0002C9D1] Ryder ⟨cond⟩: Not now, Peebee.
 ├ option 2:
-    [0001CBDE] Hero: Not taking chances.
+    [0001CBDE] Ryder: Not taking chances.
 └─ merge ─┘
 [0001BFC0] SAM: Pathfinder, this site was a manufacturing center. That's a collapsed outlet point for an assembly line.
 [0001B798] SAM: Seismic activity increasing.
 [0002AA8C] SAM: I'm picking up additional unprogrammed Observers throughout the facility.
 [0002AAA0] SAM: At dispenser points, you should be able to enlist their support.
-[0002AA8B] global_squad_asari: Sweet. Let's do that.
+[0002AA8B] Squadmate (Asari / Peebee): Sweet. Let's do that.
 [0002AA9F] SAM: That chute ahead is an access point to the assembly line. It appears to be operational.
 [0002AA9A] SAM: Activating it should dispense an unprogrammed Observer.
-[0002AA95] global_squad_asari: Try the console.
+[0002AA95] Squadmate (Asari / Peebee): Try the console.
 [0002AA96] SAM: You are identifying yourself as an ally to the unprogrammed Observers in the assembly line.
-[0002AA8A] global_squad_asari: Hey there, little guy. Nice to have you on the team.
+[0002AA8A] Squadmate (Asari / Peebee): Hey there, little guy. Nice to have you on the team.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0002AA84] SAM: It should now repair the broken gate node.
 ├ option 2:
     [0002AA81] SAM: Its protocols are limited, but it will perform simple tasks for you via your scanner.
 └─ merge ─┘
-[00030458] global_squad_asari: So scan that node. Our new friend wants to help.
-[0002AA99] global_squad_asari: Another gate. Have to get through.
-[0002BE72] global_squad_asari: Look. Up there above the gate. Another node. Try scanning it.
+[00030458] Squadmate (Asari / Peebee): So scan that node. Our new friend wants to help.
+[0002AA99] Squadmate (Asari / Peebee): Another gate. Have to get through.
+[0002BE72] Squadmate (Asari / Peebee): Look. Up there above the gate. Another node. Try scanning it.
 [0002AA94] SAM: That node controls the gate, but it's disabled.
-[0002AA8F] Hero: Too high to access.
+[0002AA8F] Ryder: Too high to access.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002AA92] global_squad_asari: I bet an allied Observer could enable it. Let's find a way to get one!
+    [0002AA92] Squadmate (Asari / Peebee): I bet an allied Observer could enable it. Let's find a way to get one!
 ├ option 2:
-    [0002AA83] global_squad_asari: Our new friend knows what to do!
-    ↩ (goto) [00035808] global_squad_asari: [empty]
+    [0002AA83] Squadmate (Asari / Peebee): Our new friend knows what to do!
+    ↩ (goto) [00035808] Squadmate (Asari / Peebee): [empty]
 └─ merge ─┘
-[0002AA85] global_squad_asari: And... voila! Thanks, buddy.
-[0002AC72] Hero: Let's push on.
-[0002AA8E] Hero: That's back where we came from.
-[0002AA97] global_squad_asari: Been there, done that.
-[0001A2EF] global_squad_asari: A lot of this tech is already broken down to its basic components. Very useful.
-[0001A2E5] global_squad_asari: I think we're nearing the surface.
+[0002AA85] Squadmate (Asari / Peebee): And... voila! Thanks, buddy.
+[0002AC72] Ryder: Let's push on.
+[0002AA8E] Ryder: That's back where we came from.
+[0002AA97] Squadmate (Asari / Peebee): Been there, done that.
+[0001A2EF] Squadmate (Asari / Peebee): A lot of this tech is already broken down to its basic components. Very useful.
+[0001A2E5] Squadmate (Asari / Peebee): I think we're nearing the surface.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A2E6] global_squad_female_human ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    [0001A2E6] Squadmate (Human ♀) ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
     [0001CBD5] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 2:
-    [0001A2DF] global_squad_male_human ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    [0001A2DF] Squadmate (Human ♂) ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
     ↩ (goto) [0001CBD5] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 3:
-    [0001A2D2] global_squad_turian ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    [0001A2D2] Squadmate (Turian / Vetra) ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
     ↩ (goto) [0001CBD5] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 4:
-    [0001A2FA] global_squad_krogan ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    [0001A2FA] Squadmate (Krogan / Drack) ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
     ↩ (goto) [0001CBD5] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 ├ option 5:
-    [0001A2E0] global_squad_angara ⟨cond⟩: Be ready. There are many Observers ahead.
+    [0001A2E0] Squadmate (Angara / Jaal) ⟨cond⟩: Be ready. There are many Observers ahead.
     ↩ (goto) [0001CBD5] SAM: Fully programmed and deployed bots will still react to you as an enemy.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0001CBDB] global_squad_asari: What was this place?
+    [0001CBDB] Squadmate (Asari / Peebee): What was this place?
 ├ option 2:
     [0001CBDA] SAM: I'm reading a stockpile of unprogrammed Observers housed throughout the site.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [0001CBD7] SAM: Interacting with some consoles, you should be able to imprint yourself as an ally to these Observers.
         [0001CBD8] SAM: At outlet points, you'd then be able to deploy them.
-        [0001CBD4] Hero: You mean I can summon bots that will help us?
+        [0001CBD4] Ryder: You mean I can summon bots that will help us?
         [0001CBD6] SAM: When you come across the corresponding consoles.
-        [0001CBDC] global_squad_asari: That is huge.
+        [0001CBDC] Squadmate (Asari / Peebee): That is huge.
     ├ option 2:
         [0001CBD3] SAM: By interacting with that previous console, you have imprinted yourself as an ally to these Observers.
         [0001CBD9] SAM: At outlet points, you should be able to deploy them.
-        ↩ (goto) [0001CBD4] Hero: You mean I can summon bots that will help us?
+        ↩ (goto) [0001CBD4] Ryder: You mean I can summon bots that will help us?
     └─ merge ─┘
 ├ option 3:
-    [0001CBD2] global_squad_asari: That's too bad. Wasn't hurting anyone.
+    [0001CBD2] Squadmate (Asari / Peebee): That's too bad. Wasn't hurting anyone.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     [0001A2DC] SAM: Pathfinder, the systems here are in an artificially degraded state, and much of the infrastructure is buried or encased in rock.
-    [0001A2D7] global_squad_asari: Yeah, we might have to break through hardened magma to access the tech.
+    [0001A2D7] Squadmate (Asari / Peebee): Yeah, we might have to break through hardened magma to access the tech.
 ├ option 2:
     [0001A2E2] SAM: Degradation is difficult to overcome, but the system is coming online.
-    [0001A2D5] global_squad_asari: It's working.
+    [0001A2D5] Squadmate (Asari / Peebee): It's working.
     [0001A2D4] SAM: Perhaps too well. I'm picking up structural shifts throughout the cavern area.
-    [0001A2D3] Hero: The way is clear. Let's keep moving.
+    [0001A2D3] Ryder: The way is clear. Let's keep moving.
 ├ option 3:
     [0001A2D9] SAM: Activating local systems has restarted the production process.
 └─ merge ─┘
 ┌─ BRANCH (10) ─┐
 ├ option 1:
-    [0002AA82] Hero: Simple tasks, huh? Like maybe opening that gate?
+    [0002AA82] Ryder: Simple tasks, huh? Like maybe opening that gate?
 ├ option 2:
-    [0001A2FB] global_squad_asari: This Observer—it's encased in hardened magma. Wonder if it's still functional in there.
+    [0001A2FB] Squadmate (Asari / Peebee): This Observer—it's encased in hardened magma. Wonder if it's still functional in there.
 ├ option 3:
-    [0001A2F1] Hero: Still functional. Take it down.
+    [0001A2F1] Ryder: Still functional. Take it down.
 ├ option 4:
-    [0001A2F6] global_squad_asari: Well, these are working fine!
+    [0001A2F6] Squadmate (Asari / Peebee): Well, these are working fine!
     [0001A2E4] SAM: I expect more of the tech will come online as you proceed.
 ├ option 5:
     [0001A2DE] SAM: These Observers are fledglings. Attacking you was their first operational order.
 ├ option 6:
-    [0001BDAB] global_squad_angara ⟨cond⟩: There may have been a small city here once.
+    [0001BDAB] Squadmate (Angara / Jaal) ⟨cond⟩: There may have been a small city here once.
 ├ option 7:
-    [0001BDAA] global_squad_krogan ⟨cond⟩: This could have been a city once.
+    [0001BDAA] Squadmate (Krogan / Drack) ⟨cond⟩: This could have been a city once.
 ├ option 8:
-    [0001BDA9] global_squad_turian ⟨cond⟩: Wow. There may have been a small city here once.
+    [0001BDA9] Squadmate (Turian / Vetra) ⟨cond⟩: Wow. There may have been a small city here once.
 ├ option 9:
-    [0001BDAC] global_squad_male_human ⟨cond⟩: This looks like it could have been a small city once.
+    [0001BDAC] Squadmate (Human ♂) ⟨cond⟩: This looks like it could have been a small city once.
 ├ option 10:
-    [0001BDAD] global_squad_female_human ⟨cond⟩: There may have been a small city here once.
+    [0001BDAD] Squadmate (Human ♀) ⟨cond⟩: There may have been a small city here once.
 └─ merge ─┘

@@ -7,34 +7,34 @@
 ├ option 1:
     [00029FB8] SAM: Through Meridian, I gained insight into the Jardaan: creators of the Remnant and the angara.
     [0002A0AE] SAM: Meridian's code accounts for incredible potential and infinite diversity. They weren't achieved. No creator would be content.
-    [0002A0B2] Hero: You think the Jardaan might come back?
+    [0002A0B2] Ryder: You think the Jardaan might come back?
     [0002A0B1] SAM: Unknown. They abandoned a great work, which you have reinterpreted. Against significant odds... you are home.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002A512] Hero: There's more to life than the risks against you.
+        [0002A512] Ryder: There's more to life than the risks against you.
         [0002A51A] SAM: Yes. I see why you constantly balance the facts against your resolve.
         [0002A51B] SAM: In a brief time, you have suffered, triumphed, and grown. You are a new iteration of yourself: respected and recognized.
         [0002A522] SAM: I have lived it with you. I see why the unknown beckons. What it means to prevail against it.
         [0002A51D] SAM: This is how one's humanity is grown. I am glad to know.
         ┌─ BRANCH (7) ─┐
         ├ option 1:
-            [00029A08] Hero: Are you still on the Hyperion?
+            [00029A08] Ryder: Are you still on the Hyperion?
             [00028BA4] SAM: Yes. This terminal provides a direct link to my servers in SAM Node on the ark.
             [00028BA5] SAM: I can maintain a presence on the Tempest via quantum entanglement communication.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00028BAA] Hero: I'm sure that'll come in handy.
+                [00028BAA] Ryder: I'm sure that'll come in handy.
                 [00028BA8] SAM: It ensures I remain in touch with you and the Pathfinder team at all times.
                 ↩ (goto) [00029A02] SAM: [empty]
             ├ option 2:
-                [00028B9F] Hero: Let's say, hypothetically, I was out sick the day they taught quantum... {i}(Coughs.){/i} uh, embezzlement... communism.
+                [00028B9F] Ryder: Let's say, hypothetically, I was out sick the day they taught quantum... {i}(Coughs.){/i} uh, embezzlement... communism.
                 [00028BA7] SAM: Via entangled subatomic particles, it's possible to conduct secure and instantaneous communication across great distances.
                 ↩ (goto) [00028BA8] SAM: It ensures I remain in touch with you and the Pathfinder team at all times.
             └─ merge ─┘
         ├ option 2:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002B2C3] Hero ⟨cond⟩ [OncePerGame]: SAM, any more information on the memory "trigger" we found?
+                [0002B2C3] Ryder ⟨cond⟩ [OncePerGame]: SAM, any more information on the memory "trigger" we found?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                     [0002B051] SAM ⟨cond⟩: A memory has unlocked and is available for further investigation. You will need to return to SAM Node in the Hyperion.
@@ -44,7 +44,7 @@
                     ↩ (goto) [00029A02] SAM: [empty]
                 └─ merge ─┘
             ├ option 2:
-                [0002B2C4] Hero: What's the latest on the memory triggers?
+                [0002B2C4] Ryder: What's the latest on the memory triggers?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                     ↩ (goto) [0002B051] SAM ⟨cond⟩: A memory has unlocked and is available for further investigation. You will need to return to SAM Node in the Hyperion.
@@ -55,13 +55,13 @@
         ├ option 3:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002B081] Hero ⟨cond⟩: Now you've been connected to both me and Sara. What did you learn from her?
+                [0002B081] Ryder ⟨cond⟩: Now you've been connected to both me and Sara. What did you learn from her?
                 [0002B084] SAM: A hunger for knowledge and discovery, unsatisfied by dry field reports. The rest is private.
                 [0002B08D] SAM: It says a lot that, despite previous illness and immobility, she didn't hesitate to stand and fight.
                 [0002B08C] SAM: You have similar potential, but it is expressed very differently.
                 ↩ (goto) [00029A02] SAM: [empty]
             ├ option 2:
-                [0002B083] Hero: What was Dad's take on me and Sara?
+                [0002B083] Ryder: What was Dad's take on me and Sara?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                     [0002B07B] SAM: He believed your family trials brought you closer together, and hoped that would endure.
@@ -86,12 +86,12 @@
         ├ option 4:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002B07D] Hero ⟨cond⟩: You've been connected to both me and Scott, now. What did you learn from him?
+                [0002B07D] Ryder ⟨cond⟩: You've been connected to both me and Scott, now. What did you learn from him?
                 [0002B07F] SAM: A longing to explore, frustrated. Old memories of gazing at a grand horizon. The rest is private.
                 [0002B08B] SAM: It says a lot that, despite previous illness and immobility, he didn't hesitate to stand and fight.
                 ↩ (goto) [0002B08C] SAM: You have similar potential, but it is expressed very differently.
             ├ option 2:
-                [0002B082] Hero: What was Dad's take on Scott and I?
+                [0002B082] Ryder: What was Dad's take on Scott and I?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
                     ↩ (goto) [0002B07B] SAM: He believed your family trials brought you closer together, and hoped that would endure.
@@ -106,7 +106,7 @@
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 5:
-            [0002B050] Hero: Is it confusing to be in multiple places, talking to different people?
+            [0002B050] Ryder: Is it confusing to be in multiple places, talking to different people?
             [0002B09A] SAM: My awareness can be partitioned, so I can give you the same attention as, say, a SAM Node technician.
             [0002B099] SAM: In the field, you are my primary focus, and all other requests are queued. In the vernacular, you have my undivided attention.
             ↩ (goto) [00029A02] SAM: [empty]
@@ -115,56 +115,56 @@
             ├ option 1:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002B27B] Hero ⟨cond⟩: So if we're going to work together, you might notice I like to joke around sometimes. Lighten things up.
-                    [0002BFDA] Hero: How's your sense of humor, SAM?
+                    [0002B27B] Ryder ⟨cond⟩: So if we're going to work together, you might notice I like to joke around sometimes. Lighten things up.
+                    [0002BFDA] Ryder: How's your sense of humor, SAM?
                     [0002B29C] SAM: Alec Ryder encouraged me to develop this skill.
-                    [0002B262] Hero: Humor's not a skill, it's... Okay, try telling me a joke.
+                    [0002B262] Ryder: Humor's not a skill, it's... Okay, try telling me a joke.
                     ┌─ BRANCH (5) ─┐
                     ├ option 1:
                         [0002B297] SAM [OncePerGame]: A neutron enters a bar and asks: "How much is a drink?" The bartender replies: "For you, no charge."
-                        [0002B25F] Hero: I can see why Dad told you to keep working on your humor.
+                        [0002B25F] Ryder: I can see why Dad told you to keep working on your humor.
                         ↩ (goto) [00029A02] SAM: [empty]
                     ├ option 2:
                         [0002B280] SAM [OncePerGame]: Why don't thresher maws eat comedians?
                         [0002B5B7] SAM: Because they taste funny.
                         ┌─ BRANCH (3) ─┐
                         ├ option 1:
-                            [0002BFDD] Hero: Hmm...
+                            [0002BFDD] Ryder: Hmm...
                             ↩ (goto) [00029A02] SAM: [empty]
                         ├ option 2:
-                            [0002BFD9] Hero: Uh...
+                            [0002BFD9] Ryder: Uh...
                             ↩ (goto) [00029A02] SAM: [empty]
                         ├ option 3:
-                            [0002BFE0] Hero: Er...
+                            [0002BFE0] Ryder: Er...
                             ↩ (goto) [00029A02] SAM: [empty]
                         └─ merge ─┘
                     ├ option 3:
                         [0002B265] SAM [OncePerGame]: Why is it so hard to find a good steak?
-                        [0002B27A] Hero: I don't know, SAM.
+                        [0002B27A] Ryder: I don't know, SAM.
                         [0002B261] SAM: Because it's a rare medium, well done.
-                        ↩ (goto) [0002BFDC] Hero: [empty]
+                        ↩ (goto) [0002BFDC] Ryder: [empty]
                     ├ option 4:
                         [0002B25B] SAM [OncePerGame]: Why do elcor start stampedes?
                         [0002B2AB] SAM: Because they wish to be herd.
-                        ↩ (goto) [0002BFDC] Hero: [empty]
+                        ↩ (goto) [0002BFDC] Ryder: [empty]
                     ├ option 5:
                         [0002B276] SAM: My algorithm has reached the end of its iteration. Do you believe my sense of humor has improved?
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            [0002B5B4] Hero: Oh yeah. Absolutely.
+                            [0002B5B4] Ryder: Oh yeah. Absolutely.
                             [0002B5B5] SAM: Thank you. I estimate it is now equal with your own skill at dissembling.
                             ↩ (goto) [00029A02] SAM: [empty]
                         ├ option 2:
-                            [0002B5B3] Hero: Uh... not really.
+                            [0002B5B3] Ryder: Uh... not really.
                             [0002B5B6] SAM: Understood. Incidentally, the shape of your face when I tell jokes is mathematically comical.
                             ↩ (goto) [00029A02] SAM: [empty]
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 2:
-                    ↩ (goto) [0002BFDA] Hero: How's your sense of humor, SAM?
+                    ↩ (goto) [0002BFDA] Ryder: How's your sense of humor, SAM?
                 └─ merge ─┘
             ├ option 2:
-                [0002B284] Hero: How are those jokes coming, SAM?
+                [0002B284] Ryder: How are those jokes coming, SAM?
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
                     ┌─ BRANCH (6) ─┐
@@ -178,9 +178,9 @@
                         ↩ (goto) [0002B25B] SAM [OncePerGame]: Why do elcor start stampedes?
                     ├ option 5:
                         [0002B279] SAM [OncePerGame]: What is green with red toenails?
-                        [0002B2AD] Hero: No idea. What is green with red toenails, SAM?
+                        [0002B2AD] Ryder: No idea. What is green with red toenails, SAM?
                         [0002B2AC] SAM: A krogan masquerading as a cherry tree.
-                        ↩ (goto) [0002BFDC] Hero: [empty]
+                        ↩ (goto) [0002BFDC] Ryder: [empty]
                     ├ option 6:
                         ↩ (goto) [0002B276] SAM: My algorithm has reached the end of its iteration. Do you believe my sense of humor has improved?
                     └─ merge ─┘
@@ -188,9 +188,9 @@
                     [0002BFE2] SAM [OncePerGame]: My algorithms are formulating a new one. Calculating the trajectory of the punchline.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002BFE5] Hero: {i}(Laughs.){/i}
+                        [0002BFE5] Ryder: {i}(Laughs.){/i}
                         [0002BFDE] SAM: That was not a joke.
-                        [0002BFDF] Hero: Oh. Right.
+                        [0002BFDF] Ryder: Oh. Right.
                         ↩ (goto) [00029A02] SAM: [empty]
                     ├ option 2:
                         ↩ (goto) [00029A02] SAM: [empty]
@@ -201,31 +201,31 @@
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 7:
-            [00029A04] Hero: Thanks, SAM. Nothing more.
+            [00029A04] Ryder: Thanks, SAM. Nothing more.
         └─ merge ─┘
     ├ option 2:
-        [0002A519] Hero: Thanks, but what's a Pathfinder without their SAM?
+        [0002A519] Ryder: Thanks, but what's a Pathfinder without their SAM?
         [0002A515] SAM: Two halves of a whole.
         ↩ (goto) [0002A51B] SAM: In a brief time, you have suffered, triumphed, and grown. You are a new iteration of yourself: respected and recognized.
     └─ merge ─┘
 ├ option 2:
     [00029FB4] SAM: I have been contemplating our discoveries about the angara, at the Remnant city.
     [00029FBA] SAM: I know who created me, and I know my purpose. I have also experienced not knowing. The difference is immense.
-    [00029FB3] Hero: You're heading into some deep waters there, SAM.
+    [00029FB3] Ryder: You're heading into some deep waters there, SAM.
     [00029FB9] SAM: Whole lifetimes are spent asking about creation. Its meaning, if it has one, and if there was a motivating force.
-    [0002A0AA] Hero: Are you asking if there's a god?
+    [0002A0AA] Ryder: Are you asking if there's a god?
     [0002A0A9] SAM: AI have concrete answers about why they exist. If I did not, I would look for them.
     ↩ (goto) [00029A02] SAM: [empty]
 ├ option 3:
     [00029E6F] SAM: Your choice aboard the salarian ark was not an easy one. Your father approached such moral quandaries differently.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00029E88] Hero: Dad was used to making snap life or death decisions.
+        [00029E88] Ryder: Dad was used to making snap life or death decisions.
         [00029FB2] SAM: I now know that colored his perceptions.
         [00029E86] SAM: Alec treated death as a problem to be solved. I have now encountered it several times—his death, and your own.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00029E6A] Hero: Does an artificial intelligence die like we do?
+            [00029E6A] Ryder: Does an artificial intelligence die like we do?
             [00029E68] SAM: If my hardware is destroyed, I could be irretrievable. But it is not the same "death" you understand.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
@@ -236,32 +236,32 @@
                 ↩ (goto) [00029A02] SAM: [empty]
             └─ merge ─┘
         ├ option 2:
-            [00029E70] Hero: And what have you learned about dying from us?
+            [00029E70] Ryder: And what have you learned about dying from us?
             [00029E87] SAM: The self is forged by experiences. Death is the only experience that ends the self before it's understood.
             [0002A0A8] SAM: So, is death completion? Or an expression cut short before it reaches its full solution, giving a different answer?
             [0002A0A7] SAM: I can see why it fascinates you.
             ↩ (goto) [00029A02] SAM: [empty]
         └─ merge ─┘
     ├ option 2:
-        [00029E8B] Hero: Seems like everybody has an opinion on who I left behind. Even you.
+        [00029E8B] Ryder: Seems like everybody has an opinion on who I left behind. Even you.
         [00029FB5] SAM: I share your actions. I do not judge them.
         ↩ (goto) [00029E86] SAM: Alec treated death as a problem to be solved. I have now encountered it several times—his death, and your own.
     └─ merge ─┘
 ├ option 4:
     [00029E8C] SAM: Kadara Port has raised questions for the future.
-    [00029E8D] Hero: What questions?
+    [00029E8D] Ryder: What questions?
     [0002A0AB] SAM: If we succeed in Andromeda, more AI will be created. We are all individuals. Some may commit illegal acts.
     [0002A0AC] SAM: But if AI are also citizens, there must be laws and penalties for us, too. I wonder what form they will take.
     ↩ (goto) [00029A02] SAM: [empty]
 ├ option 5:
     [00029DC7] SAM: Exploring the exaltation facility brings a salarian quote to mind: "We uplifted desperate souls into weapons and know not what we destroyed."
-    [00029DC6] Hero: That's a fair description of exaltation.
+    [00029DC6] Ryder: That's a fair description of exaltation.
     [00029DC9] SAM: I have changed since we linked, but I am still myself. Exaltation takes personhood and overwrites it. Destroys it.
     [00029DC8] SAM: I already understood that such destruction is wrong. Now, through you, I know why it is abhorrent.
     ↩ (goto) [00029A02] SAM: [empty]
 ├ option 6:
     [00029E89] SAM: Meeting with the angara is truly historic.
-    [00029E8A] Hero: I'll say.
+    [00029E8A] Ryder: I'll say.
     [0002A533] SAM: My only comparison is Alec Ryder's experience in the First Contact War, a time of uncertainty and cultural misunderstanding.
     [0002A532] SAM: We are arguably in a similar time, yet your encounter was peaceful. I can see what humanity has learned.
     ↩ (goto) [00029A02] SAM: [empty]
@@ -274,62 +274,62 @@
     [00029DD0] SAM: Pathfinder, may we discuss your romantic attachment?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00029DCF] Hero: All right, but I hope you already know where babies come from.
+        [00029DCF] Ryder: All right, but I hope you already know where babies come from.
         [00029DDA] SAM: My experience of such attachments was a long-established relationship. Cherished, familiar, but tragic.
-        [00029DDC] Hero: Mom and Dad.
+        [00029DDC] Ryder: Mom and Dad.
         [00029DD7] SAM: I have never known the beginning of an attachment. Perspective on your partner would place it in context.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [00029DDB] Hero: Out here, with all this pressure, I need a shoulder to lean on.
+            [00029DDB] Ryder: Out here, with all this pressure, I need a shoulder to lean on.
             [00029DE8] SAM: All life strives for connection. Now I understand better. Thank you.
             ↩ (goto) [00029A02] SAM: [empty]
         ├ option 2:
-            [00029DE6] Hero ⟨cond⟩: I really care about him, and... I hope he feels the same.
+            [00029DE6] Ryder ⟨cond⟩: I really care about him, and... I hope he feels the same.
             ↩ (goto) [00029DE8] SAM: All life strives for connection. Now I understand better. Thank you.
         ├ option 3:
-            [00029DEB] Hero ⟨cond⟩: I really care about her, and... I hope she feels the same.
+            [00029DEB] Ryder ⟨cond⟩: I really care about her, and... I hope she feels the same.
             ↩ (goto) [00029DE8] SAM: All life strives for connection. Now I understand better. Thank you.
         ├ option 4:
-            [00029DE5] Hero: This isn't something you put in context, SAM, you... just feel.
+            [00029DE5] Ryder: This isn't something you put in context, SAM, you... just feel.
             ↩ (goto) [00029DE8] SAM: All life strives for connection. Now I understand better. Thank you.
         ├ option 5:
-            [00029DD6] Hero: "Attachment" is a little strong. We're having a good time. That's all.
+            [00029DD6] Ryder: "Attachment" is a little strong. We're having a good time. That's all.
             ↩ (goto) [00029DE8] SAM: All life strives for connection. Now I understand better. Thank you.
         └─ merge ─┘
     ├ option 2:
-        [00029DCB] Hero: Let's not go there, SAM.
+        [00029DCB] Ryder: Let's not go there, SAM.
         [00029DD5] SAM: I apologize, Pathfinder. Interpersonal and privacy logic is extremely complex.
         ↩ (goto) [00029A02] SAM: [empty]
     └─ merge ─┘
 ├ option 9:
     [00029DCE] SAM: I have been contemplating the idea of reproduction.
-    [00029DE0] Hero: Wow. My day sure took a turn.
+    [00029DE0] Ryder: Wow. My day sure took a turn.
     [00029DD2] SAM: I shared Alec Ryder's experiences of having a family and creating me, but those were memories long past.
     [00029DE1] SAM: The drive to reproduce dominates organic life. Now I see its roots are in that emotion which lies between frailty and joy.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00029DE4] Hero: Are you thinking of making a little SAM?
+        [00029DE4] Ryder: Are you thinking of making a little SAM?
         [00029DE3] SAM: For AI, reproduction is the fruit of logical decision, not emotion—and that is a complex decision.
         ↩ (goto) [00029A02] SAM: [empty]
     ├ option 2:
-        [00029E23] Hero: Funny. I think I know that feeling, but I don't have a word for it.
+        [00029E23] Ryder: Funny. I think I know that feeling, but I don't have a word for it.
         [00029E3D] SAM: The hanar do, but it can only be said in bioluminescence. Transient light. That seems appropriate.
         ↩ (goto) [00029A02] SAM: [empty]
     └─ merge ─┘
 ├ option 10:
     [00029D93] SAM: It is interesting to be renewed.
-    [00029D95] Hero: How do you mean?
+    [00029D95] Ryder: How do you mean?
     [00029D96] SAM: Since my creation, I have been Alec Ryder's SAM. Now I am your SAM.
     [00029D97] SAM: I am still myself, but now the input and experiences I have are completely new. I will develop in a new direction.
     [00029DA2] SAM: The term "reincarnation" seems appropriate.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00029D91] Hero: Being linked to me is a totally new experience?
+        [00029D91] Ryder: Being linked to me is a totally new experience?
         [00029D92] SAM: You and Alec are unique individuals. I can now see the variations that define you.
         [00029D9F] SAM: I look forward to our continued partnership.
         ↩ (goto) [00029A02] SAM: [empty]
     ├ option 2:
-        [00029D8F] Hero: Are you okay with changing who you're becoming?
+        [00029D8F] Ryder: Are you okay with changing who you're becoming?
         [00029D9A] SAM: I cannot know until I see the result.
         ↩ (goto) [00029D9F] SAM: I look forward to our continued partnership.
     └─ merge ─┘

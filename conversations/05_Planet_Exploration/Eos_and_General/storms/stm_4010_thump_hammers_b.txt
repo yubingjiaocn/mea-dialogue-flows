@@ -1,126 +1,126 @@
 # game/conversations/unc/storms/stm_4010_thump_hammers_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_4010_thump_hammers_b.xml
 ==================================================
 ┌─ BRANCH (11) ─┐
 ├ option 1:
-    [0002048E] Hero: Okay, firing the first hammer. Hold on to something.
+    [0002048E] Ryder: Okay, firing the first hammer. Hold on to something.
 ├ option 2:
-    [00020496] Hero: Remnant, coming from below!
+    [00020496] Ryder: Remnant, coming from below!
 ├ option 3:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020495] global_squad_krogan ⟨cond⟩: Ha! Let's do that again!
+        [00020495] Squadmate (Krogan / Drack) ⟨cond⟩: Ha! Let's do that again!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00020492] Hero ⟨cond⟩: That should give the Architect a wake-up call.
-            [000204AF] Hero: Let's place the next hammer.
+            [00020492] Ryder ⟨cond⟩: That should give the Architect a wake-up call.
+            [000204AF] Ryder: Let's place the next hammer.
         ├ option 2:
-            [00020498] Hero: That's a big tremor for a couple of Remnant.
-            ↩ (goto) [000204AF] Hero: Let's place the next hammer.
+            [00020498] Ryder: That's a big tremor for a couple of Remnant.
+            ↩ (goto) [000204AF] Ryder: Let's place the next hammer.
         └─ merge ─┘
     ├ option 2:
-        [00020497] global_squad_female_human ⟨cond⟩: That'll keep you on your toes.
+        [00020497] Squadmate (Human ♀) ⟨cond⟩: That'll keep you on your toes.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00020492] Hero ⟨cond⟩: That should give the Architect a wake-up call.
+            ↩ (goto) [00020492] Ryder ⟨cond⟩: That should give the Architect a wake-up call.
         ├ option 2:
-            ↩ (goto) [00020498] Hero: That's a big tremor for a couple of Remnant.
+            ↩ (goto) [00020498] Ryder: That's a big tremor for a couple of Remnant.
         └─ merge ─┘
     ├ option 3:
-        [00020491] global_squad_angara ⟨cond⟩: I must borrow one of those hammers. For... important reasons.
+        [00020491] Squadmate (Angara / Jaal) ⟨cond⟩: I must borrow one of those hammers. For... important reasons.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00020492] Hero ⟨cond⟩: That should give the Architect a wake-up call.
+            ↩ (goto) [00020492] Ryder ⟨cond⟩: That should give the Architect a wake-up call.
         ├ option 2:
-            ↩ (goto) [00020498] Hero: That's a big tremor for a couple of Remnant.
+            ↩ (goto) [00020498] Ryder: That's a big tremor for a couple of Remnant.
         └─ merge ─┘
     ├ option 4:
-        [00020490] global_squad_asari ⟨cond⟩: Now that's a fun way to call the Remnant.
+        [00020490] Squadmate (Asari / Peebee) ⟨cond⟩: Now that's a fun way to call the Remnant.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00020492] Hero ⟨cond⟩: That should give the Architect a wake-up call.
+            ↩ (goto) [00020492] Ryder ⟨cond⟩: That should give the Architect a wake-up call.
         ├ option 2:
-            ↩ (goto) [00020498] Hero: That's a big tremor for a couple of Remnant.
+            ↩ (goto) [00020498] Ryder: That's a big tremor for a couple of Remnant.
         └─ merge ─┘
     ├ option 5:
-        [0002048F] global_squad_male_human ⟨cond⟩: Ha. Guess they don't like how we knocked.
+        [0002048F] Squadmate (Human ♂) ⟨cond⟩: Ha. Guess they don't like how we knocked.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00020492] Hero ⟨cond⟩: That should give the Architect a wake-up call.
+            ↩ (goto) [00020492] Ryder ⟨cond⟩: That should give the Architect a wake-up call.
         ├ option 2:
-            ↩ (goto) [00020498] Hero: That's a big tremor for a couple of Remnant.
+            ↩ (goto) [00020498] Ryder: That's a big tremor for a couple of Remnant.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 4:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002049F] global_squad_male_human ⟨cond⟩: Who are they? Colonial Affairs didn't list anyone out here.
+        [0002049F] Squadmate (Human ♂) ⟨cond⟩: Who are they? Colonial Affairs didn't list anyone out here.
     ├ option 2:
-        [0002049E] global_squad_female_human ⟨cond⟩: Company. Looks like they mean business.
+        [0002049E] Squadmate (Human ♀) ⟨cond⟩: Company. Looks like they mean business.
     ├ option 3:
-        [0002049A] global_squad_angara ⟨cond⟩: Strangers, right in our way.
+        [0002049A] Squadmate (Angara / Jaal) ⟨cond⟩: Strangers, right in our way.
     ├ option 4:
-        [0002049B] global_squad_krogan ⟨cond⟩: Look at that. Squatters right in our hammer spot.
+        [0002049B] Squadmate (Krogan / Drack) ⟨cond⟩: Look at that. Squatters right in our hammer spot.
     ├ option 5:
-        [0002049D] global_squad_turian ⟨cond⟩: Someone's here. This far out, I'd guess they're not friendly.
+        [0002049D] Squadmate (Turian / Vetra) ⟨cond⟩: Someone's here. This far out, I'd guess they're not friendly.
     └─ merge ─┘
 ├ option 5:
-    [0002054C] Hero [OncePerGame]: This is the spot that Advent scout gave us. Natural gas, right under our feet.
+    [0002054C] Ryder [OncePerGame]: This is the spot that Advent scout gave us. Natural gas, right under our feet.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020655] global_squad_krogan ⟨cond⟩: Don't worry about the environment. Someone can always live here.
-        [0002B77E] Hero: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
+        [00020655] Squadmate (Krogan / Drack) ⟨cond⟩: Don't worry about the environment. Someone can always live here.
+        [0002B77E] Ryder: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
     ├ option 2:
-        [0002065D] global_squad_turian ⟨cond⟩: We really want to do this? On our first world?
-        ↩ (goto) [0002B77E] Hero: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
+        [0002065D] Squadmate (Turian / Vetra) ⟨cond⟩: We really want to do this? On our first world?
+        ↩ (goto) [0002B77E] Ryder: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
     ├ option 3:
-        [0002065B] global_squad_female_human ⟨cond⟩: And soon in the atmosphere.
-        ↩ (goto) [0002B77E] Hero: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
+        [0002065B] Squadmate (Human ♀) ⟨cond⟩: And soon in the atmosphere.
+        ↩ (goto) [0002B77E] Ryder: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
     ├ option 4:
-        [00020650] global_squad_asari ⟨cond⟩: Didn't we just fix this planet?
-        ↩ (goto) [0002B77E] Hero: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
+        [00020650] Squadmate (Asari / Peebee) ⟨cond⟩: Didn't we just fix this planet?
+        ↩ (goto) [0002B77E] Ryder: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
     ├ option 5:
-        [0002065A] global_squad_male_human ⟨cond⟩: A few generations, and you can just breathe it in.
-        ↩ (goto) [0002B77E] Hero: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
+        [0002065A] Squadmate (Human ♂) ⟨cond⟩: A few generations, and you can just breathe it in.
+        ↩ (goto) [0002B77E] Ryder: I guess we could go to the other site, and tap water for Prodromos. We need to pick.
     └─ merge ─┘
 ├ option 6:
-    [00020548] Hero [OncePerGame]: The flow's moved, but we can tap the underground rivers from here.
+    [00020548] Ryder [OncePerGame]: The flow's moved, but we can tap the underground rivers from here.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020659] global_squad_krogan ⟨cond⟩: Don't worry about those other guys. They'll find more water.
-        [0002B77F] Hero: The gas deposit's at the other site. That would help Advent. But we can't do both.
+        [00020659] Squadmate (Krogan / Drack) ⟨cond⟩: Don't worry about those other guys. They'll find more water.
+        [0002B77F] Ryder: The gas deposit's at the other site. That would help Advent. But we can't do both.
     ├ option 2:
-        [0002065E] global_squad_turian ⟨cond⟩: At Advent's expense.
-        ↩ (goto) [0002B77F] Hero: The gas deposit's at the other site. That would help Advent. But we can't do both.
+        [0002065E] Squadmate (Turian / Vetra) ⟨cond⟩: At Advent's expense.
+        ↩ (goto) [0002B77F] Ryder: The gas deposit's at the other site. That would help Advent. But we can't do both.
     ├ option 3:
-        [00020651] global_squad_angara ⟨cond⟩: What about the needs of the people in Advent?
-        ↩ (goto) [0002B77F] Hero: The gas deposit's at the other site. That would help Advent. But we can't do both.
+        [00020651] Squadmate (Angara / Jaal) ⟨cond⟩: What about the needs of the people in Advent?
+        ↩ (goto) [0002B77F] Ryder: The gas deposit's at the other site. That would help Advent. But we can't do both.
     ├ option 4:
-        [0002065C] global_squad_asari ⟨cond⟩: Advent will be fine. And we were here first.
-        ↩ (goto) [0002B77F] Hero: The gas deposit's at the other site. That would help Advent. But we can't do both.
+        [0002065C] Squadmate (Asari / Peebee) ⟨cond⟩: Advent will be fine. And we were here first.
+        ↩ (goto) [0002B77F] Ryder: The gas deposit's at the other site. That would help Advent. But we can't do both.
     ├ option 5:
-        [00020652] global_squad_male_human ⟨cond⟩: If you think Advent will be okay, go for it.
-        ↩ (goto) [0002B77F] Hero: The gas deposit's at the other site. That would help Advent. But we can't do both.
+        [00020652] Squadmate (Human ♂) ⟨cond⟩: If you think Advent will be okay, go for it.
+        ↩ (goto) [0002B77F] Ryder: The gas deposit's at the other site. That would help Advent. But we can't do both.
     └─ merge ─┘
 ├ option 7:
-    [0002048C] Hero: All right. Second hammer, here we go.
+    [0002048C] Ryder: All right. Second hammer, here we go.
 ├ option 8:
-    [000207EC] Hero: More Remnant!
+    [000207EC] Ryder: More Remnant!
 ├ option 9:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000204B0] Hero ⟨cond⟩: Let's hope the Architect didn't wake up hungry.
+        [000204B0] Ryder ⟨cond⟩: Let's hope the Architect didn't wake up hungry.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             [00020657] SAM ⟨cond⟩: Pathfinder, the gas deposit has been exposed, but not completely.
-            [00020656] Hero: Plot a new hammer site, SAM. One last hit should do it.
+            [00020656] Ryder: Plot a new hammer site, SAM. One last hit should do it.
         ├ option 2:
             [000207EB] SAM: Pathfinder, the underground water flow has moved, but not sufficiently.
-            ↩ (goto) [00020656] Hero: Plot a new hammer site, SAM. One last hit should do it.
+            ↩ (goto) [00020656] Ryder: Plot a new hammer site, SAM. One last hit should do it.
         └─ merge ─┘
     ├ option 2:
-        [000204B1] Hero: Those tremors aren't the hammers or the Remnant. What is that?
+        [000204B1] Ryder: Those tremors aren't the hammers or the Remnant. What is that?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             ↩ (goto) [00020657] SAM ⟨cond⟩: Pathfinder, the gas deposit has been exposed, but not completely.
@@ -129,25 +129,25 @@
         └─ merge ─┘
     └─ merge ─┘
 ├ option 10:
-    [000204E6] Hero: Last hammer.
+    [000204E6] Ryder: Last hammer.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000204E9] Hero ⟨cond⟩: Brace yourselves.
+        [000204E9] Ryder ⟨cond⟩: Brace yourselves.
     ├ option 2:
-        [000204EA] Hero: This should finish the job. Everyone ready?
-        ↩ (goto) [000207F8] Hero: [empty]
+        [000204EA] Ryder: This should finish the job. Everyone ready?
+        ↩ (goto) [000207F8] Ryder: [empty]
     └─ merge ─┘
 ├ option 11:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00020935] Hero ⟨cond⟩: Those things are a handful.
-        [00020961] stm_outpost_staff_science: [Comm] Ryder? It's Hainly at the outpost. I just got a massive spike on the seismic readings. The Architect?
-        [00020965] Hero: Yeah. It followed the hammers.
-        [00020964] stm_outpost_staff_science: [Comm] Great work, Ryder. The outpost's safe, and that Architect should give us just what we need.
+        [00020935] Ryder ⟨cond⟩: Those things are a handful.
+        [00020961] Outpost Staff Science: [Comm] Ryder? It's Hainly at the outpost. I just got a massive spike on the seismic readings. The Architect?
+        [00020965] Ryder: Yeah. It followed the hammers.
+        [00020964] Outpost Staff Science: [Comm] Great work, Ryder. The outpost's safe, and that Architect should give us just what we need.
     ├ option 2:
-        [00020934] Hero: Okay. Good. Not what I was expecting, but... wow.
-        [00020962] stm_outpost_staff_science: [Comm] Ryder, it's Hainly, back at the outpost! The seismic readings just went crazy, what happened?
-        [00020960] Hero: A Remnant the size of a building.
-        [00020963] stm_outpost_staff_science: [Comm] What? At least you made it. And kept that thing away from the outpost. Nice work.
+        [00020934] Ryder: Okay. Good. Not what I was expecting, but... wow.
+        [00020962] Outpost Staff Science: [Comm] Ryder, it's Hainly, back at the outpost! The seismic readings just went crazy, what happened?
+        [00020960] Ryder: A Remnant the size of a building.
+        [00020963] Outpost Staff Science: [Comm] What? At least you made it. And kept that thing away from the outpost. Nice work.
     └─ merge ─┘
 └─ merge ─┘

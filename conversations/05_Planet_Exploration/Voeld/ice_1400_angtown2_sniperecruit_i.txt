@@ -1,78 +1,78 @@
 # game/conversations/unc_ice/ice_1400_angtown2_sniperecruit_i
-# Primary speaker: ice_orev
+# Primary speaker: Orev
 # Source: game/conversations/unc_ice/ice_1400_angtown2_sniperecruit_i.xml
 ==================================================
-[00026825] ice_orev: Go ahead and scan that Wraith for me. I'll take it from there.
+[00026825] Orev: Go ahead and scan that Wraith for me. I'll take it from there.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026814] ice_orev: There you are.
-    [000267D3] Hero: Nice shot back there.
-    [00026813] ice_orev: Thanks. My father taught me as soon as I was old enough to hold a gun.
+    [00026814] Orev: There you are.
+    [000267D3] Ryder: Nice shot back there.
+    [00026813] Orev: Thanks. My father taught me as soon as I was old enough to hold a gun.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00026812] Hero: Life must be harsh out here. He taught you well.
-        [00026815] ice_orev: He's always prepared. Made sure I could shoot, hunt, and make a camp.
+        [00026812] Ryder: Life must be harsh out here. He taught you well.
+        [00026815] Orev: He's always prepared. Made sure I could shoot, hunt, and make a camp.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [00026852] Hero: You ever shoot Remnant out here?
-            [00026853] ice_orev: I don't see them too often.
-            [00026851] ice_orev: I heard there's a big one somewhere, but I've never found it.
+            [00026852] Ryder: You ever shoot Remnant out here?
+            [00026853] Orev: I don't see them too often.
+            [00026851] Orev: I heard there's a big one somewhere, but I've never found it.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00026855] Hero ⟨cond⟩: The Architect? Yeah, I got it.
-                [00026854] ice_orev: You did? Now I'm impressed.
-                ↩ (goto) [0002681B] ice_orev: [empty]
+                [00026855] Ryder ⟨cond⟩: The Architect? Yeah, I got it.
+                [00026854] Orev: You did? Now I'm impressed.
+                ↩ (goto) [0002681B] Orev: [empty]
             ├ option 2:
-                ↩ (goto) [0002681B] ice_orev: [empty]
+                ↩ (goto) [0002681B] Orev: [empty]
             └─ merge ─┘
         ├ option 2:
-            [00026819] Hero: Do the kett come around here a lot?
-            [0002684B] ice_orev: Only some. Resistance patrols keep most from getting through.
-            [0002684C] ice_orev: I pick off the stragglers. Usually Wraiths like the one you helped me with.
-            [0002684A] Hero: You ever miss one?
-            [00026848] ice_orev: Miss? Never.
-            ↩ (goto) [0002681B] ice_orev: [empty]
+            [00026819] Ryder: Do the kett come around here a lot?
+            [0002684B] Orev: Only some. Resistance patrols keep most from getting through.
+            [0002684C] Orev: I pick off the stragglers. Usually Wraiths like the one you helped me with.
+            [0002684A] Ryder: You ever miss one?
+            [00026848] Orev: Miss? Never.
+            ↩ (goto) [0002681B] Orev: [empty]
         ├ option 3:
-            [0002681A] Hero ⟨cond⟩: You ever think of joining the Resistance? They'd be lucky to have you.
-            [00026831] ice_orev: I want to. But my family would never allow it. Not after my brother...
+            [0002681A] Ryder ⟨cond⟩: You ever think of joining the Resistance? They'd be lucky to have you.
+            [00026831] Orev: I want to. But my family would never allow it. Not after my brother...
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00026835] global_squad_angara ⟨cond⟩: Your brother was a sharpshooter too. Neraav.
-                [00026838] ice_orev: How'd you—Jaal? Stars, you were his friend.
-                [00026837] global_squad_angara: He was a good man. Fought hard for his people.
-                [00026836] ice_orev: I want to follow his example. But my family...
+                [00026835] Squadmate (Angara / Jaal) ⟨cond⟩: Your brother was a sharpshooter too. Neraav.
+                [00026838] Orev: How'd you—Jaal? Stars, you were his friend.
+                [00026837] Squadmate (Angara / Jaal): He was a good man. Fought hard for his people.
+                [00026836] Orev: I want to follow his example. But my family...
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002683B] Hero: This is your call.
-                    [0002683D] global_squad_angara: This is what you truly want?
-                    [0002683E] ice_orev: It is. I want to help.
-                    [0002683F] global_squad_angara: Then tell them. I've met your father—he'll listen.
-                    [00026840] ice_orev: You're right.
-                    [00026842] ice_orev: It's time I speak to my family.
+                    [0002683B] Ryder: This is your call.
+                    [0002683D] Squadmate (Angara / Jaal): This is what you truly want?
+                    [0002683E] Orev: It is. I want to help.
+                    [0002683F] Squadmate (Angara / Jaal): Then tell them. I've met your father—he'll listen.
+                    [00026840] Orev: You're right.
+                    [00026842] Orev: It's time I speak to my family.
                 ├ option 2:
-                    [0002683C] Hero: If that's how they feel, I won't push it.
-                    [00026841] ice_orev: No... it's something I've wanted for a while. I want to help.
-                    ↩ (goto) [00026842] ice_orev: It's time I speak to my family.
+                    [0002683C] Ryder: If that's how they feel, I won't push it.
+                    [00026841] Orev: No... it's something I've wanted for a while. I want to help.
+                    ↩ (goto) [00026842] Orev: It's time I speak to my family.
                 └─ merge ─┘
             ├ option 2:
-                [00026D5B] ice_orev: Anyway, it's just not possible.
-                ↩ (goto) [0002681B] ice_orev: [empty]
+                [00026D5B] Orev: Anyway, it's just not possible.
+                ↩ (goto) [0002681B] Orev: [empty]
             └─ merge ─┘
         ├ option 4:
-            [0002681C] Hero: Stay safe out here.
-            [00026849] ice_orev: See you around.
+            [0002681C] Ryder: Stay safe out here.
+            [00026849] Orev: See you around.
         └─ merge ─┘
     ├ option 2:
-        [00026811] Hero: I'm glad I'm not on the business end of that thing.
-        [00026816] ice_orev: As long as you're not kett, you're safe.
-        ↩ (goto) [0002681B] ice_orev: [empty]
+        [00026811] Ryder: I'm glad I'm not on the business end of that thing.
+        [00026816] Orev: As long as you're not kett, you're safe.
+        ↩ (goto) [0002681B] Orev: [empty]
     └─ merge ─┘
 ├ option 2:
-    [00026827] ice_orev: I recognize you. Good to see you outside my scope.
-    ↩ (goto) [000267D3] Hero: Nice shot back there.
+    [00026827] Orev: I recognize you. Good to see you outside my scope.
+    ↩ (goto) [000267D3] Ryder: Nice shot back there.
 └─ merge ─┘
-[0002681E] ice_orev: Hey. Back again?
-↩ (goto) [0002681B] ice_orev: [empty]
-[00026850] Hero: An Architect? Really?
-[00026857] ice_orev: If it's out there, it must be buried in the snow.
-↩ (goto) [0002681B] ice_orev: [empty]
+[0002681E] Orev: Hey. Back again?
+↩ (goto) [0002681B] Orev: [empty]
+[00026850] Ryder: An Architect? Really?
+[00026857] Orev: If it's out there, it must be buried in the snow.
+↩ (goto) [0002681B] Orev: [empty]

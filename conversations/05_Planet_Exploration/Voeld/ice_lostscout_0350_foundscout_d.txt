@@ -1,98 +1,98 @@
 # game/conversations/unc_ice/ice_lostscout_0350_foundscout_d
-# Primary speaker: ice_mashal
+# Primary speaker: Mashal
 # Source: game/conversations/unc_ice/ice_lostscout_0350_foundscout_d.xml
 ==================================================
-[00024A9F] ice_mashal: Who are you? Are you here to find me? Did Haana send you?
+[00024A9F] Mashal: Who are you? Are you here to find me? Did Haana send you?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00024AA4] ice_mashal: Foolish girl. She never knows when to give up.
+    [00024AA4] Mashal: Foolish girl. She never knows when to give up.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00024AA8] Hero: Haana was sure you survived the blast, but how?
-        [00024AAD] ice_mashal: Couldn't outrun the explosion, so I found a reinforced wall and put up a field at the moment of impact.
-        [00024AAA] ice_mashal: Almost flashed out, but it was that or die.
-        [00024AB7] ice_mainedkett: End... this.
-        [00024ABA] ice_mainedkett: Hurt. End... this.
-        [00024AB9] ice_mashal: That's all it says. That's all it ever says! I've burned, I've peeled, I've gouged. It won't tell me where they are...
-        [00024AC0] Hero: You tortured this person?
-        [00024AC1] ice_mashal: It's not a person! It's kett! They took my family!
+        [00024AA8] Ryder: Haana was sure you survived the blast, but how?
+        [00024AAD] Mashal: Couldn't outrun the explosion, so I found a reinforced wall and put up a field at the moment of impact.
+        [00024AAA] Mashal: Almost flashed out, but it was that or die.
+        [00024AB7] Mainedkett: End... this.
+        [00024ABA] Mainedkett: Hurt. End... this.
+        [00024AB9] Mashal: That's all it says. That's all it ever says! I've burned, I've peeled, I've gouged. It won't tell me where they are...
+        [00024AC0] Ryder: You tortured this person?
+        [00024AC1] Mashal: It's not a person! It's kett! They took my family!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00024AC7] Hero: We need to leave this place. You're not thinking straight.
-            [00024ACA] ice_mashal: I can't leave. This is my only chance to talk to these things. To find my family.
-            [00024ACD] ice_mashal: If... if I leave here, I leave them. I... can't.
+            [00024AC7] Ryder: We need to leave this place. You're not thinking straight.
+            [00024ACA] Mashal: I can't leave. This is my only chance to talk to these things. To find my family.
+            [00024ACD] Mashal: If... if I leave here, I leave them. I... can't.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00024ACF] Hero: All right. Let's go guys.
+                [00024ACF] Ryder: All right. Let's go guys.
                 ┌─ BRANCH (5) ─┐
                 ├ option 1:
-                    [00024AD8] global_squad_krogan ⟨cond⟩: What? We're leaving?
-                    [0003489B] Hero: There's nothing we can do.
+                    [00024AD8] Squadmate (Krogan / Drack) ⟨cond⟩: What? We're leaving?
+                    [0003489B] Ryder: There's nothing we can do.
                 ├ option 2:
-                    [00024AD6] global_squad_female_human ⟨cond⟩: After everything? We're leaving her?
-                    ↩ (goto) [0003489B] Hero: There's nothing we can do.
+                    [00024AD6] Squadmate (Human ♀) ⟨cond⟩: After everything? We're leaving her?
+                    ↩ (goto) [0003489B] Ryder: There's nothing we can do.
                 ├ option 3:
-                    [00024AD7] global_squad_asari ⟨cond⟩: We can't just leave her!
-                    ↩ (goto) [0003489B] Hero: There's nothing we can do.
+                    [00024AD7] Squadmate (Asari / Peebee) ⟨cond⟩: We can't just leave her!
+                    ↩ (goto) [0003489B] Ryder: There's nothing we can do.
                 ├ option 4:
-                    [00024AD5] global_squad_angara ⟨cond⟩: Ryder, no. We can't leave her.
-                    ↩ (goto) [0003489B] Hero: There's nothing we can do.
+                    [00024AD5] Squadmate (Angara / Jaal) ⟨cond⟩: Ryder, no. We can't leave her.
+                    ↩ (goto) [0003489B] Ryder: There's nothing we can do.
                 ├ option 5:
-                    [00024AD9] global_squad_male_human ⟨cond⟩: You're not serious! We came all this way!
-                    ↩ (goto) [0003489B] Hero: There's nothing we can do.
+                    [00024AD9] Squadmate (Human ♂) ⟨cond⟩: You're not serious! We came all this way!
+                    ↩ (goto) [0003489B] Ryder: There's nothing we can do.
                 └─ merge ─┘
             ├ option 2:
-                [00024AD1] Hero: I'm sorry, but they're gone.
-                [00024AD2] ice_mashal: No!
-                [00024AD4] Hero: You have friends waiting for you. People who still care. You'll die here.
-                [00024AE1] ice_mashal: How could you? It could've told me. I could've found them again...
-                [00024AE2] Hero: Go home, Mashal.
-                [00024AE3] ice_mashal: Fine. I'll signal the base, and inform the Resistance of my position.
+                [00024AD1] Ryder: I'm sorry, but they're gone.
+                [00024AD2] Mashal: No!
+                [00024AD4] Ryder: You have friends waiting for you. People who still care. You'll die here.
+                [00024AE1] Mashal: How could you? It could've told me. I could've found them again...
+                [00024AE2] Ryder: Go home, Mashal.
+                [00024AE3] Mashal: Fine. I'll signal the base, and inform the Resistance of my position.
             └─ merge ─┘
         ├ option 2:
-            [00024AC9] Hero: I don't care what he is. Torture isn't right! Maybe he doesn't know!
-            [00024ACC] ice_mashal: It must know. It must. This is my only chance.
-            [00024ACB] ice_mashal: If it doesn't know, then I've lost them. I can't lose them.
+            [00024AC9] Ryder: I don't care what he is. Torture isn't right! Maybe he doesn't know!
+            [00024ACC] Mashal: It must know. It must. This is my only chance.
+            [00024ACB] Mashal: If it doesn't know, then I've lost them. I can't lose them.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [00024ACF] Hero: All right. Let's go guys.
+                ↩ (goto) [00024ACF] Ryder: All right. Let's go guys.
             ├ option 2:
-                ↩ (goto) [00024AD1] Hero: I'm sorry, but they're gone.
+                ↩ (goto) [00024AD1] Ryder: I'm sorry, but they're gone.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [00024AA9] Hero: Whoa. Haana was right and no one believed her.
-        [00024AAE] ice_mashal: I shouldn't have survived. Didn't think I would.
-        ↩ (goto) [00024AB7] ice_mainedkett: End... this.
+        [00024AA9] Ryder: Whoa. Haana was right and no one believed her.
+        [00024AAE] Mashal: I shouldn't have survived. Didn't think I would.
+        ↩ (goto) [00024AB7] Mainedkett: End... this.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00024AAE] ice_mashal: I shouldn't have survived. Didn't think I would.
+    ↩ (goto) [00024AAE] Mashal: I shouldn't have survived. Didn't think I would.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00024ADA] Hero: The door's still open. She'll find her way when she's ready.
+    [00024ADA] Ryder: The door's still open. She'll find her way when she's ready.
 ├ option 2:
-    [00024AA0] ice_mashal: I know you. I... I've seen you with Moshae Sjefa.
-    [00024AA3] global_squad_angara: Jaal.
-    [00024AA1] ice_mashal: That's it. Yes. Jaal. Did Haana send you?
+    [00024AA0] Mashal: I know you. I... I've seen you with Moshae Sjefa.
+    [00024AA3] Squadmate (Angara / Jaal): Jaal.
+    [00024AA1] Mashal: That's it. Yes. Jaal. Did Haana send you?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [000305AE] ice_mashal ⟨cond⟩: [empty]
+        ↩ (goto) [000305AE] Mashal ⟨cond⟩: [empty]
     ├ option 2:
-        ↩ (goto) [000305AF] ice_mashal: [empty]
+        ↩ (goto) [000305AF] Mashal: [empty]
     └─ merge ─┘
 ├ option 3:
-    [00024AB2] ice_mashal: You don't deserve death, filth.
+    [00024AB2] Mashal: You don't deserve death, filth.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00024AB3] global_squad_female_human ⟨cond⟩: Wounds. Looks... like... oh, crap.
+        [00024AB3] Squadmate (Human ♀) ⟨cond⟩: Wounds. Looks... like... oh, crap.
     ├ option 2:
-        [00024AB8] global_squad_turian ⟨cond⟩: What's his story?
+        [00024AB8] Squadmate (Turian / Vetra) ⟨cond⟩: What's his story?
     ├ option 3:
-        [00024AB6] global_squad_asari ⟨cond⟩: Um... that kett...
+        [00024AB6] Squadmate (Asari / Peebee) ⟨cond⟩: Um... that kett...
     ├ option 4:
-        [00024AB4] global_squad_angara ⟨cond⟩: What's going on here?
+        [00024AB4] Squadmate (Angara / Jaal) ⟨cond⟩: What's going on here?
     ├ option 5:
-        [00024AB1] global_squad_male_human ⟨cond⟩: What's with the kett?
+        [00024AB1] Squadmate (Human ♂) ⟨cond⟩: What's with the kett?
     └─ merge ─┘
 └─ merge ─┘

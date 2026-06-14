@@ -1,128 +1,128 @@
 # game/conversations/loyalty/human_male_01/loyalty_hmm_0430_lockdown_a
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0430_lockdown_a.xml
 ==================================================
-[0001E428] loyalty_hmm_pirate_leader: [Loudspeaker] There! See how it's done? Sealed them in!
-[0001E42A] loyalty_hmm_pirate_leader: [Loudspeaker] Shoot them—no more excuses!
-[0001E43E] global_squad_male_human: Shit!
+[0001E428] Hmm Pirate Leader: [Loudspeaker] There! See how it's done? Sealed them in!
+[0001E42A] Hmm Pirate Leader: [Loudspeaker] Shoot them—no more excuses!
+[0001E43E] Squadmate (Human ♂): Shit!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001E43A] ustl_settle_01_admin_multi ⟨cond⟩: [Comm] Pathfinder? Tanner's working on the lockdown.
-    [0001E431] loyalty_hmm_shuttle_engineer_01_multi: [Comm] Everything's a mess. I can get you out, but I need data.
-    [0001E42F] loyalty_hmm_shuttle_engineer_01_multi: [Comm] There should be a control hub in that room? Get a scan and have your SAM push it to me.
+    [0001E43A] Settle 01 Admin ⟨cond⟩: [Comm] Pathfinder? Tanner's working on the lockdown.
+    [0001E431] Hmm Shuttle Engineer: [Comm] Everything's a mess. I can get you out, but I need data.
+    [0001E42F] Hmm Shuttle Engineer: [Comm] There should be a control hub in that room? Get a scan and have your SAM push it to me.
 ├ option 2:
-    [0001E826] ustl_settle_01_admin_multi: [Comm] Pathfinder? Grace is working on the lockdown.
-    [0001E824] stm_legacy_chief_engineer_multi: [Comm] Thank you for the chance. Let's get eyes on some data.
-    [0001E825] stm_legacy_chief_engineer_multi: [Comm] Can you spot a control hub or console? In the room? Have your SAM push a scan of it to me.
-    ↩ (goto) [0001E43F] loyalty_hmm_shuttle_engineer_01_multi: [empty]
+    [0001E826] Settle 01 Admin: [Comm] Pathfinder? Grace is working on the lockdown.
+    [0001E824] Legacy Chief Engineer: [Comm] Thank you for the chance. Let's get eyes on some data.
+    [0001E825] Legacy Chief Engineer: [Comm] Can you spot a control hub or console? In the room? Have your SAM push a scan of it to me.
+    ↩ (goto) [0001E43F] Hmm Shuttle Engineer: [empty]
 └─ merge ─┘
 [0001E438] SAM: Forwarding scan result.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001E436] loyalty_hmm_shuttle_engineer_01_multi ⟨cond⟩: [Comm] Aha! This Calot ran a simple power reroute. Amateur.
-    [0001E43D] loyalty_hmm_shuttle_engineer_01_multi: [Comm] Hit these access points, Pathfinder. I'll sync with your effort.
-    [0001E43B] Hero: Well. Go team.
+    [0001E436] Hmm Shuttle Engineer ⟨cond⟩: [Comm] Aha! This Calot ran a simple power reroute. Amateur.
+    [0001E43D] Hmm Shuttle Engineer: [Comm] Hit these access points, Pathfinder. I'll sync with your effort.
+    [0001E43B] Ryder: Well. Go team.
 ├ option 2:
-    [0001E828] stm_legacy_chief_engineer_multi: [Comm] Thought so. Calot did a power reroute. Easy fix.
-    [0001E827] stm_legacy_chief_engineer_multi: [Comm] Here's two access points to hit. I'll sync when you activate.
-    ↩ (goto) [0001E43B] Hero: Well. Go team.
+    [0001E828] Legacy Chief Engineer: [Comm] Thought so. Calot did a power reroute. Easy fix.
+    [0001E827] Legacy Chief Engineer: [Comm] Here's two access points to hit. I'll sync when you activate.
+    ↩ (goto) [0001E43B] Ryder: Well. Go team.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001E439] loyalty_hmm_shuttle_engineer_01_multi [OncePerGame]: [Comm] That's the stuff. Keep it up.
+        [0001E439] Hmm Shuttle Engineer [OncePerGame]: [Comm] That's the stuff. Keep it up.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
-            [0001E437] global_squad_male_human: He found a way to retrofit a derelict, and he's wasting it on raiding?
+            [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            [0001E437] Squadmate (Human ♂): He found a way to retrofit a derelict, and he's wasting it on raiding?
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                [0001E441] global_squad_krogan ⟨cond⟩: Sometimes you just want to see shit burn.
+                [0001E441] Squadmate (Krogan / Drack) ⟨cond⟩: Sometimes you just want to see shit burn.
             ├ option 2:
-                [0001E442] global_squad_angara ⟨cond⟩: Some people get beat down and don't get back up.
+                [0001E442] Squadmate (Angara / Jaal) ⟨cond⟩: Some people get beat down and don't get back up.
             ├ option 3:
-                [0001E443] global_squad_female_human ⟨cond⟩: Not everyone wants to fix themselves.
+                [0001E443] Squadmate (Human ♀) ⟨cond⟩: Not everyone wants to fix themselves.
             ├ option 4:
-                [0001E440] global_squad_asari ⟨cond⟩: Some people waste their chances on stupid things.
+                [0001E440] Squadmate (Asari / Peebee) ⟨cond⟩: Some people waste their chances on stupid things.
             ├ option 5:
-                [0001E444] global_squad_turian ⟨cond⟩: That's someone who gave up. Seen it before.
+                [0001E444] Squadmate (Turian / Vetra) ⟨cond⟩: That's someone who gave up. Seen it before.
             └─ merge ─┘
         ├ option 2:
-            [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
-            [0001E42C] Hero: Big chip on his shoulder. This ship definitely made him dangerous.
-            [0001E434] global_squad_male_human: Seen his kind before. Small man, big gun.
+            [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
+            [0001E42C] Ryder: Big chip on his shoulder. This ship definitely made him dangerous.
+            [0001E434] Squadmate (Human ♂): Seen his kind before. Small man, big gun.
         └─ merge ─┘
     ├ option 2:
-        [0001E43C] loyalty_hmm_shuttle_engineer_01_multi: [Comm] That's all I need. Give me a minute.
+        [0001E43C] Hmm Shuttle Engineer: [Comm] That's all I need. Give me a minute.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            ↩ (goto) [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
         ├ option 2:
-            ↩ (goto) [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            ↩ (goto) [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001E82B] stm_legacy_chief_engineer_multi [OncePerGame]: [Comm] Progress made. Next one.
+        [0001E82B] Legacy Chief Engineer [OncePerGame]: [Comm] Progress made. Next one.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            ↩ (goto) [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
         ├ option 2:
-            ↩ (goto) [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            ↩ (goto) [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
         └─ merge ─┘
     ├ option 2:
-        [0001E82C] stm_legacy_chief_engineer_multi: [Comm] Looks good. Hold for unlock.
+        [0001E82C] Legacy Chief Engineer: [Comm] Looks good. Hold for unlock.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            ↩ (goto) [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
         ├ option 2:
-            ↩ (goto) [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            ↩ (goto) [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        [0002DB37] ustl_settle_01_admin_multi ⟨cond⟩: [Comm] Pathfinder? Tanner's working on the lockdown.
-        [0002DB36] loyalty_hmm_shuttle_engineer_01_multi: [Comm] Everything's a mess. I can get you out, but I need data.
-        [0002DB3D] loyalty_hmm_shuttle_engineer_01_multi: [Comm] There should be a control hub in that room? Get a scan and have your SAM push it to me.
+        [0002DB37] Settle 01 Admin ⟨cond⟩: [Comm] Pathfinder? Tanner's working on the lockdown.
+        [0002DB36] Hmm Shuttle Engineer: [Comm] Everything's a mess. I can get you out, but I need data.
+        [0002DB3D] Hmm Shuttle Engineer: [Comm] There should be a control hub in that room? Get a scan and have your SAM push it to me.
     ├ option 2:
-        [0002DB35] ustl_settle_01_admin_multi: [Comm] Pathfinder? Grace is working on the lockdown.
-        [0002DB3B] stm_legacy_chief_engineer_multi: [Comm] Thank you for the chance. Let's get eyes on some data.
-        [0002DB43] stm_legacy_chief_engineer_multi: [Comm] Can you spot a control hub or console? In the room? Have your SAM push a scan of it to me.
-        ↩ (goto) [0002DB3E] loyalty_hmm_shuttle_engineer_01_multi: [empty]
+        [0002DB35] Settle 01 Admin: [Comm] Pathfinder? Grace is working on the lockdown.
+        [0002DB3B] Legacy Chief Engineer: [Comm] Thank you for the chance. Let's get eyes on some data.
+        [0002DB43] Legacy Chief Engineer: [Comm] Can you spot a control hub or console? In the room? Have your SAM push a scan of it to me.
+        ↩ (goto) [0002DB3E] Hmm Shuttle Engineer: [empty]
     ├ option 3:
-        [0002DB3A] loyalty_hmm_shuttle_engineer_01_multi ⟨cond⟩: [Comm] Aha! This Calot ran a simple power reroute. Amateur.
-        [0002DB3F] loyalty_hmm_shuttle_engineer_01_multi: [Comm] Hit these access points, Pathfinder. I'll sync with your effort.
-        [0002DB39] Hero: Well. Go team.
+        [0002DB3A] Hmm Shuttle Engineer ⟨cond⟩: [Comm] Aha! This Calot ran a simple power reroute. Amateur.
+        [0002DB3F] Hmm Shuttle Engineer: [Comm] Hit these access points, Pathfinder. I'll sync with your effort.
+        [0002DB39] Ryder: Well. Go team.
     ├ option 4:
-        [0002DB44] stm_legacy_chief_engineer_multi: [Comm] Thought so. Calot did a power reroute. Easy fix.
-        [0002DB3C] stm_legacy_chief_engineer_multi: [Comm] Here's two access points to hit. I'll sync when you activate.
-        ↩ (goto) [0002DB39] Hero: Well. Go team.
+        [0002DB44] Legacy Chief Engineer: [Comm] Thought so. Calot did a power reroute. Easy fix.
+        [0002DB3C] Legacy Chief Engineer: [Comm] Here's two access points to hit. I'll sync when you activate.
+        ↩ (goto) [0002DB39] Ryder: Well. Go team.
     ├ option 5:
-        [0002DB41] loyalty_hmm_shuttle_engineer_01_multi [OncePerGame]: [Comm] That's the stuff. Keep it up.
+        [0002DB41] Hmm Shuttle Engineer [OncePerGame]: [Comm] That's the stuff. Keep it up.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            ↩ (goto) [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
         ├ option 2:
-            ↩ (goto) [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            ↩ (goto) [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
         └─ merge ─┘
     ├ option 6:
-        [0002DB42] loyalty_hmm_shuttle_engineer_01_multi: [Comm] That's all I need. Give me a minute.
+        [0002DB42] Hmm Shuttle Engineer: [Comm] That's all I need. Give me a minute.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            ↩ (goto) [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
         ├ option 2:
-            ↩ (goto) [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            ↩ (goto) [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
         └─ merge ─┘
     ├ option 7:
-        [0002DB40] stm_legacy_chief_engineer_multi [OncePerGame]: [Comm] Progress made. Next one.
+        [0002DB40] Legacy Chief Engineer [OncePerGame]: [Comm] Progress made. Next one.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001E430] Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            ↩ (goto) [0001E430] Ryder ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
         ├ option 2:
-            ↩ (goto) [0001E42D] global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            ↩ (goto) [0001E42D] Squadmate (Human ♂) [OncePerGame]: And we know a little about this Calot.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

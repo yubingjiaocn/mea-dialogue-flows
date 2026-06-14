@@ -1,125 +1,125 @@
 # game/conversations/unc_dunes/dune_0550_q4_water_banter_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_dunes/dune_0550_q4_water_banter_b.xml
 ==================================================
-[0001D76E] Hero: I think this is Annea's office.
+[0001D76E] Ryder: I think this is Annea's office.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001D773] global_squad_female_human ⟨cond⟩ [OncePerGame]: I'll be the lookout. Check the door.
-    [0001EB9D] Hero: As expected. It's locked.
+    [0001D773] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: I'll be the lookout. Check the door.
+    [0001EB9D] Ryder: As expected. It's locked.
     [0001EB9E] SAM: A scan should tell you how best to proceed, Pathfinder.
 ├ option 2:
-    [0001D775] global_squad_asari ⟨cond⟩ [OncePerGame]: Coast is clear! Get on getting that door open.
-    ↩ (goto) [0001EB9D] Hero: As expected. It's locked.
+    [0001D775] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Coast is clear! Get on getting that door open.
+    ↩ (goto) [0001EB9D] Ryder: As expected. It's locked.
 ├ option 3:
-    [0001D774] global_squad_turian ⟨cond⟩ [OncePerGame]: I'll watch for guards. You check out the security.
-    ↩ (goto) [0001EB9D] Hero: As expected. It's locked.
+    [0001D774] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: I'll watch for guards. You check out the security.
+    ↩ (goto) [0001EB9D] Ryder: As expected. It's locked.
 ├ option 4:
-    [0001D776] global_squad_angara ⟨cond⟩ [OncePerGame]: Check the security on that door. I'll keep a look out for guards.
-    ↩ (goto) [0001EB9D] Hero: As expected. It's locked.
+    [0001D776] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Check the security on that door. I'll keep a look out for guards.
+    ↩ (goto) [0001EB9D] Ryder: As expected. It's locked.
 ├ option 5:
-    [0001D772] global_squad_male_human ⟨cond⟩ [OncePerGame]: You get the door. I'll watch for guards.
-    ↩ (goto) [0001EB9D] Hero: As expected. It's locked.
+    [0001D772] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: You get the door. I'll watch for guards.
+    ↩ (goto) [0001EB9D] Ryder: As expected. It's locked.
 └─ merge ─┘
-[0001D77D] Hero: SAM, what can you tell me?
+[0001D77D] Ryder: SAM, what can you tell me?
 [0001D75D] SAM: The door requires a code. The wrong input will trigger an alarm and a lockdown.
-[0001D7FF] Hero: Great.
+[0001D7FF] Ryder: Great.
 [0001D800] SAM: Pathfinder, this door is connected to a wider network.
 [0001D7FE] SAM: If we find a site suitable for hacking, we may be able to learn the code.
 [0001D802] SAM: This should lead us to an appropriate port.
-[0001D804] Hero: Got the code for the office door.
+[0001D804] Ryder: Got the code for the office door.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001D808] global_squad_krogan ⟨cond⟩ [OncePerGame]: We're in. Let's be quick, in case Annea comes by.
+    [0001D808] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: We're in. Let's be quick, in case Annea comes by.
 ├ option 2:
-    [0001D809] global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's find what we need before someone comes by.
+    [0001D809] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Let's find what we need before someone comes by.
 ├ option 3:
-    [0001D80B] global_squad_asari ⟨cond⟩ [OncePerGame]: We're in! Better be quick in case Annea strolls by.
+    [0001D80B] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: We're in! Better be quick in case Annea strolls by.
 ├ option 4:
-    [0001D807] global_squad_turian ⟨cond⟩ [OncePerGame]: Let's get what we came for before someone sees us.
+    [0001D807] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Let's get what we came for before someone sees us.
 ├ option 5:
-    [0001D80A] global_squad_male_human ⟨cond⟩ [OncePerGame]: Let's get in and get out. Don't want anyone to know we're here.
+    [0001D80A] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Let's get in and get out. Don't want anyone to know we're here.
 └─ merge ─┘
-[0001D81B] Hero: An underground lake. That's where she's getting her water.
-[0001D821] Hero: Got the navpoint. Let's get out of here.
+[0001D81B] Ryder: An underground lake. That's where she's getting her water.
+[0001D821] Ryder: Got the navpoint. Let's get out of here.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001D820] global_squad_krogan ⟨cond⟩ [OncePerGame]: Are you sure this is right? Doesn't look like anything's here.
-    [0001D824] Hero: Maybe with a scan...
+    [0001D820] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Are you sure this is right? Doesn't look like anything's here.
+    [0001D824] Ryder: Maybe with a scan...
 ├ option 2:
-    [0001D822] global_squad_female_human ⟨cond⟩ [OncePerGame]: This is the place. I don't see anything though.
-    ↩ (goto) [0001D824] Hero: Maybe with a scan...
+    [0001D822] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: This is the place. I don't see anything though.
+    ↩ (goto) [0001D824] Ryder: Maybe with a scan...
 ├ option 3:
-    [0001D823] global_squad_asari ⟨cond⟩ [OncePerGame]: Well, this looks like every other patch of sand.
-    ↩ (goto) [0001D824] Hero: Maybe with a scan...
+    [0001D823] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Well, this looks like every other patch of sand.
+    ↩ (goto) [0001D824] Ryder: Maybe with a scan...
 ├ option 4:
-    [0001D81F] global_squad_turian ⟨cond⟩ [OncePerGame]: There's a lake under here? I find that hard to believe.
-    ↩ (goto) [0001D824] Hero: Maybe with a scan...
+    [0001D81F] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: There's a lake under here? I find that hard to believe.
+    ↩ (goto) [0001D824] Ryder: Maybe with a scan...
 ├ option 5:
-    [0001D81A] global_squad_angara ⟨cond⟩ [OncePerGame]: There's nothing here. I hope we haven't made a mistake.
-    ↩ (goto) [0001D824] Hero: Maybe with a scan...
+    [0001D81A] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: There's nothing here. I hope we haven't made a mistake.
+    ↩ (goto) [0001D824] Ryder: Maybe with a scan...
 ├ option 6:
-    [0001D81C] global_squad_male_human ⟨cond⟩ [OncePerGame]: It's supposed to be here? I don't see anything.
-    ↩ (goto) [0001D824] Hero: Maybe with a scan...
+    [0001D81C] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: It's supposed to be here? I don't see anything.
+    ↩ (goto) [0001D824] Ryder: Maybe with a scan...
 └─ merge ─┘
-[0001D82D] Hero: There's something here.
+[0001D82D] Ryder: There's something here.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001D829] global_squad_krogan ⟨cond⟩ [OncePerGame]: Good going, kid.
+    [0001D829] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Good going, kid.
 ├ option 2:
-    [0001D82E] global_squad_female_human ⟨cond⟩ [OncePerGame]: Nice one, Ryder.
+    [0001D82E] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Nice one, Ryder.
 ├ option 3:
-    [0001D830] global_squad_asari ⟨cond⟩ [OncePerGame]: Awesome!
+    [0001D830] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Awesome!
 ├ option 4:
-    [0001D82C] global_squad_turian ⟨cond⟩ [OncePerGame]: {i}(Chuckles.){/i} Look at that! You found a path.
+    [0001D82C] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: {i}(Chuckles.){/i} Look at that! You found a path.
 ├ option 5:
-    [0001D82F] global_squad_angara ⟨cond⟩ [OncePerGame]: You found it! Wonderful!
+    [0001D82F] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: You found it! Wonderful!
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001D83E] global_squad_krogan ⟨cond⟩ [OncePerGame]: Remnant. Destroyed. Is there a Remnant ruin down here?
+    [0001D83E] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Remnant. Destroyed. Is there a Remnant ruin down here?
 ├ option 2:
-    [0001D841] global_squad_female_human ⟨cond⟩ [OncePerGame]: Looks like this place might have been guarded by Remnant.
+    [0001D841] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Looks like this place might have been guarded by Remnant.
 ├ option 3:
-    [0001D83F] global_squad_asari ⟨cond⟩ [OncePerGame]: Whoa, I wasn't expecting to see Remnant here.
-    [0001D844] global_squad_asari: Come to think of it, maybe this is a Remnant facility. Part of the terraforming plan?
+    [0001D83F] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Whoa, I wasn't expecting to see Remnant here.
+    [0001D844] Squadmate (Asari / Peebee): Come to think of it, maybe this is a Remnant facility. Part of the terraforming plan?
 ├ option 4:
-    [0001D842] global_squad_angara ⟨cond⟩ [OncePerGame]: Remnant. Could've been guarding this area at one point.
+    [0001D842] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Remnant. Could've been guarding this area at one point.
 ├ option 5:
-    [0001D843] global_squad_male_human ⟨cond⟩ [OncePerGame]: What are Remnant doing down here?
+    [0001D843] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: What are Remnant doing down here?
 └─ merge ─┘
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001D85F] global_squad_krogan ⟨cond⟩ [OncePerGame]: That's a lot more water than I was expecting.
+    [0001D85F] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: That's a lot more water than I was expecting.
 ├ option 2:
-    [0001D861] global_squad_female_human ⟨cond⟩ [OncePerGame]: It... it goes on forever.
+    [0001D861] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: It... it goes on forever.
 ├ option 3:
-    [0001D863] global_squad_asari ⟨cond⟩ [OncePerGame]: How did a scan not pick this up?
+    [0001D863] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: How did a scan not pick this up?
 ├ option 4:
-    [0001D860] global_squad_turian ⟨cond⟩ [OncePerGame]: That's a lot of water.
+    [0001D860] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: That's a lot of water.
 ├ option 5:
-    [0001D862] global_squad_angara ⟨cond⟩ [OncePerGame]: How did Annea keep this hidden?
+    [0001D862] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: How did Annea keep this hidden?
 ├ option 6:
-    [0001D864] global_squad_male_human ⟨cond⟩ [OncePerGame]: And no one knew this was here? Incredible.
+    [0001D864] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: And no one knew this was here? Incredible.
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001EB07] global_squad_krogan ⟨cond⟩ [OncePerGame]: Hey, kid. Don't forget we need to find information on Annea's water source.
-    [0001EB1A] global_squad_krogan: Her office is probably a good place to start.
+    [0001EB07] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Hey, kid. Don't forget we need to find information on Annea's water source.
+    [0001EB1A] Squadmate (Krogan / Drack): Her office is probably a good place to start.
 ├ option 2:
-    [0001EB0D] global_squad_female_human ⟨cond⟩ [OncePerGame]: We should search for information on Annea's water source.
-    [0001EB18] global_squad_female_human: Her office is probably a good start.
+    [0001EB0D] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: We should search for information on Annea's water source.
+    [0001EB18] Squadmate (Human ♀): Her office is probably a good start.
 ├ option 3:
-    [0001EB0C] global_squad_asari ⟨cond⟩ [OncePerGame]: Now that we're back here, we should dig around for info on Annea's water.
-    [0001EB17] global_squad_asari: Maybe her office?
+    [0001EB0C] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Now that we're back here, we should dig around for info on Annea's water.
+    [0001EB17] Squadmate (Asari / Peebee): Maybe her office?
 ├ option 4:
-    [0001EB0B] global_squad_turian ⟨cond⟩ [OncePerGame]: Since we're here, we should look for info on Annea's water.
-    [0001EB16] global_squad_turian: Maybe check out her office?
+    [0001EB0B] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Since we're here, we should look for info on Annea's water.
+    [0001EB16] Squadmate (Turian / Vetra): Maybe check out her office?
 ├ option 5:
-    [0001EB08] global_squad_angara ⟨cond⟩ [OncePerGame]: We should try to get information about Annea's water supply.
-    [0001EB19] global_squad_angara: Her office is probably nearby.
+    [0001EB08] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: We should try to get information about Annea's water supply.
+    [0001EB19] Squadmate (Angara / Jaal): Her office is probably nearby.
 └─ merge ─┘
-↩ (goto) [0001EB9D] Hero: As expected. It's locked.
+↩ (goto) [0001EB9D] Ryder: As expected. It's locked.
 [0001D866] SAM: Pathfinder, the structure surrounding this lake is constructed.
 [0001D867] SAM: It bears similarity to the cave systems that house vaults.
-[0001D868] Hero: Huh. I wonder what the Remnant builders' plans were.
+[0001D868] Ryder: Huh. I wonder what the Remnant builders' plans were.

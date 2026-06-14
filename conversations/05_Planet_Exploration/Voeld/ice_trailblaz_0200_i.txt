@@ -1,39 +1,39 @@
 # game/conversations/unc_ice/ice_trailblaz_0200_i
-# Primary speaker: ICE_Helmoj
+# Primary speaker: Helmoj
 # Source: game/conversations/unc_ice/ice_trailblaz_0200_i.xml
 ==================================================
-[00031C0B] ICE_Helmoj: [Audio Log] Whoever hears this message, please... find our daughter, Ibyl. She was headed for Techiix.
-[00031C0A] ICE_Helmoj: [Audio Log] The kett are hunting us. They stole our sons and daughters. Ibyl is all my wife and I have left.
-[00031C0F] ICE_Helmoj: [Audio Log] We heard Techiix was safe, but it's too far. Too dark out here.
-[00031C0E] ICE_Helmoj: [Audio Log] We sent Ibyl on without us. To save her.
-[00031C0D] ICE_Helmoj: [Audio Log] The kett followed us. I hear them outside. They'll find me and Eira. Only a matter of time.
-[00031C0C] ICE_Helmoj: [Audio Log] Ibyl, if you ever hear this, we love you. Never forget that. Be strong.
+[00031C0B] Helmoj: [Audio Log] Whoever hears this message, please... find our daughter, Ibyl. She was headed for Techiix.
+[00031C0A] Helmoj: [Audio Log] The kett are hunting us. They stole our sons and daughters. Ibyl is all my wife and I have left.
+[00031C0F] Helmoj: [Audio Log] We heard Techiix was safe, but it's too far. Too dark out here.
+[00031C0E] Helmoj: [Audio Log] We sent Ibyl on without us. To save her.
+[00031C0D] Helmoj: [Audio Log] The kett followed us. I hear them outside. They'll find me and Eira. Only a matter of time.
+[00031C0C] Helmoj: [Audio Log] Ibyl, if you ever hear this, we love you. Never forget that. Be strong.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00031C23] Hero: The kett got her parents, too. What did those things want with a whole family?
+    [00031C23] Ryder: The kett got her parents, too. What did those things want with a whole family?
     [00031C2B] SAM: I possess insufficient data to draw a reliable conclusion.
-    [00031D1A] Hero: SAM, transmit the family's audio logs to the Resistance. We've done all we can.
+    [00031D1A] Ryder: SAM, transmit the family's audio logs to the Resistance. We've done all we can.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00031C17] global_squad_angara ⟨cond⟩: The kett left a trap!
+        [00031C17] Squadmate (Angara / Jaal) ⟨cond⟩: The kett left a trap!
     ├ option 2:
-        [00031C19] global_squad_asari ⟨cond⟩: We've got a problem!
-        ↩ (goto) [00031C30] global_squad_turian: [empty]
+        [00031C19] Squadmate (Asari / Peebee) ⟨cond⟩: We've got a problem!
+        ↩ (goto) [00031C30] Squadmate (Turian / Vetra): [empty]
     ├ option 3:
-        [00031C1A] global_squad_female_human ⟨cond⟩: Heads-up—we're surrounded!
-        ↩ (goto) [00031C30] global_squad_turian: [empty]
+        [00031C1A] Squadmate (Human ♀) ⟨cond⟩: Heads-up—we're surrounded!
+        ↩ (goto) [00031C30] Squadmate (Turian / Vetra): [empty]
     ├ option 4:
-        [00031C1C] global_squad_krogan ⟨cond⟩: It's not over yet!
-        ↩ (goto) [00031C30] global_squad_turian: [empty]
+        [00031C1C] Squadmate (Krogan / Drack) ⟨cond⟩: It's not over yet!
+        ↩ (goto) [00031C30] Squadmate (Turian / Vetra): [empty]
     ├ option 5:
-        [00031C1B] global_squad_male_human ⟨cond⟩: Something followed {i}us{/i}!
-        ↩ (goto) [00031C30] global_squad_turian: [empty]
+        [00031C1B] Squadmate (Human ♂) ⟨cond⟩: Something followed {i}us{/i}!
+        ↩ (goto) [00031C30] Squadmate (Turian / Vetra): [empty]
     ├ option 6:
-        [00031C15] global_squad_turian ⟨cond⟩: Hostiles! All over us!
-        ↩ (goto) [00031C30] global_squad_turian: [empty]
+        [00031C15] Squadmate (Turian / Vetra) ⟨cond⟩: Hostiles! All over us!
+        ↩ (goto) [00031C30] Squadmate (Turian / Vetra): [empty]
     └─ merge ─┘
 ├ option 2:
-    [00031C22] Hero: The daughter's out there alone. If the kett catch up to her...
+    [00031C22] Ryder: The daughter's out there alone. If the kett catch up to her...
     [00031C2C] SAM: A search of the region from here to Techiix should reveal her status.
-    ↩ (goto) [00031C16] ICE_Helmoj: [empty]
+    ↩ (goto) [00031C16] Helmoj: [empty]
 └─ merge ─┘

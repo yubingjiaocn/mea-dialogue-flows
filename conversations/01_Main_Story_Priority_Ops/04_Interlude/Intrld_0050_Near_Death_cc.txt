@@ -1,5 +1,5 @@
 # Game/Conversations/Crit/Intrld/Intrld_0050_Near_Death_cc
-# Primary speaker: global_squad_female_human
+# Primary speaker: Squadmate (Human ♀)
 # Source: game/conversations/crit/intrld/Intrld_0050_Near_Death_cc.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
@@ -9,37 +9,37 @@
     [000085D2] Narration: We see the shuttle above, coming in for a landing...
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000085CC] global_squad_female_human ⟨cond⟩: Move! She's going into cardiac arrest!
+        [000085CC] Squadmate (Human ♀) ⟨cond⟩: Move! She's going into cardiac arrest!
     ├ option 2:
-        [000085D1] global_squad_female_human: Move! He's going into cardiac arrest!
+        [000085D1] Squadmate (Human ♀): Move! He's going into cardiac arrest!
         [000085D0] Narration: CUT TO: Inside the shuttle, on the floor. Harry is giving Ryder CPR...
-        [000085D6] global_crew_doctor_multi ⟨cond⟩: Pulse is weakening! Tell the ark to prep med-bay! C'mon.
+        [000085D6] Lexi (Doctor) ⟨cond⟩: Pulse is weakening! Tell the ark to prep med-bay! C'mon.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0000DAC9] global_crew_doctor_multi: Pulse is weakening! Tell the ark to prep med-bay! C'mon.
+            [0000DAC9] Lexi (Doctor): Pulse is weakening! Tell the ark to prep med-bay! C'mon.
         ├ option 2:
             [000085D3] Narration: CUT TO: Inside the ark's med-bay, Ryder lying on a surgery table. Reality is becoming more and more disjointed...
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [000086A1] global_crew_doctor_multi ⟨cond⟩: Pulse dropping! We're losing them!
+                [000086A1] Lexi (Doctor) ⟨cond⟩: Pulse dropping! We're losing them!
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [000085D9] global_humanark_asari_dr ⟨cond⟩: It's a seizure! Her brain can't handle the connection!
-                    [000086A0] global_humanark_asari_dr: Get her to SAM Node!
+                    [000085D9] Dr. Lexi / Asari Doctor ⟨cond⟩: It's a seizure! Her brain can't handle the connection!
+                    [000086A0] Dr. Lexi / Asari Doctor: Get her to SAM Node!
                 ├ option 2:
-                    [0000869F] global_humanark_asari_dr: It's a seizure! His brain can't handle the connection!
-                    [000085DA] global_humanark_asari_dr: Get him to SAM Node!
+                    [0000869F] Dr. Lexi / Asari Doctor: It's a seizure! His brain can't handle the connection!
+                    [000085DA] Dr. Lexi / Asari Doctor: Get him to SAM Node!
                     [000085D7] Narration: Chaotic impressions as Ryder is carried down to the SAM Node computer server room and laid out on the floor.
                     [000085D5] Narration: Panels are ripped off walls as wires are strung around Ryder's head.
-                    [000085DE] global_humanark_asari_dr: SAM, what's the reading?
+                    [000085DE] Dr. Lexi / Asari Doctor: SAM, what's the reading?
                     [000085D8] SAM: Ryder's implant is overloading. I suggest a hardwire connection.
-                    [000085DF] global_humanark_asari_dr: Do it!
+                    [000085DF] Dr. Lexi / Asari Doctor: Do it!
                     [000085CD] Narration: The N7 helmet Ryder's wearing is tossed aside and now wires are attached to his/her skull.
-                    [000085DC] global_crew_doctor_multi: There!
+                    [000085DC] Lexi (Doctor): There!
                     [000085DB] Narration: A connection is made...but it blows out the mental circuits and Ryder falls into a coma... BLACKING OUT....
                 └─ merge ─┘
             ├ option 2:
-                [0000DABD] global_crew_doctor_multi: Pulse dropping! We're losing them!
+                [0000DABD] Lexi (Doctor): Pulse dropping! We're losing them!
             └─ merge ─┘
         └─ merge ─┘
     └─ merge ─┘

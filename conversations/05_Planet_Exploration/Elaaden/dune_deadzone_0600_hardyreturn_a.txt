@@ -1,28 +1,28 @@
 # game/conversations/unc_dunes/dune_deadzone_0600_hardyreturn_a
-# Primary speaker: dune_deadzone_mechanic
+# Primary speaker: Deadzone Mechanic
 # Source: game/conversations/unc_dunes/dune_deadzone_0600_hardyreturn_a.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002B459] dune_deadzone_mechanic: Funny seeing you here.
-        [0002B465] dune_deadzone_mechanic: Wanna make another deal?
+        [0002B459] Deadzone Mechanic: Funny seeing you here.
+        [0002B465] Deadzone Mechanic: Wanna make another deal?
     ├ option 2:
-        ↩ (goto) [0002B465] dune_deadzone_mechanic: Wanna make another deal?
+        ↩ (goto) [0002B465] Deadzone Mechanic: Wanna make another deal?
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001EDD3] dune_deadzone_mechanic [OncePerGame]: You probably want to turn around and head back to civilization.
-        [0001EDD5] dune_deadzone_mechanic: If you can call a krogan colony civilization...
+        [0001EDD3] Deadzone Mechanic [OncePerGame]: You probably want to turn around and head back to civilization.
+        [0001EDD5] Deadzone Mechanic: If you can call a krogan colony civilization...
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001EDD6] global_squad_krogan ⟨cond⟩: {i}(Grumbles.){/i} I really wish you'd killed him.
+            [0001EDD6] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Grumbles.){/i} I really wish you'd killed him.
         ├ option 2:
-            ↩ (goto) [0001EDD7] global_squad_krogan: [empty]
+            ↩ (goto) [0001EDD7] Squadmate (Krogan / Drack): [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [0002B465] dune_deadzone_mechanic: Wanna make another deal?
+        ↩ (goto) [0002B465] Deadzone Mechanic: Wanna make another deal?
     └─ merge ─┘
 └─ merge ─┘

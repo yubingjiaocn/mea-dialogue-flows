@@ -1,67 +1,67 @@
 # game/conversations/bstory/asa/asa_0210_ship_banter_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/asa/asa_0210_ship_banter_b.xml
 ==================================================
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [00017EAC] Hero: Picking up a faint signal. Looks like a friendly ship?
+    [00017EAC] Ryder: Picking up a faint signal. Looks like a friendly ship?
     [00017EAD] SAM: It matches the transponder code for asari survey vessel "Periphona."
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00017EA7] global_squad_female_human ⟨cond⟩: That's the ship Hydaria mentioned.
-        [00017EA6] Hero: We might be close.
+        [00017EA7] Squadmate (Human ♀) ⟨cond⟩: That's the ship Hydaria mentioned.
+        [00017EA6] Ryder: We might be close.
     ├ option 2:
-        [00017EA4] global_squad_asari ⟨cond⟩: Isn't that the ship you and Cora were looking for?
-        ↩ (goto) [00017EA6] Hero: We might be close.
+        [00017EA4] Squadmate (Asari / Peebee) ⟨cond⟩: Isn't that the ship you and Cora were looking for?
+        ↩ (goto) [00017EA6] Ryder: We might be close.
     ├ option 3:
-        [00017EAB] global_squad_male_human ⟨cond⟩: The one we're looking for. Right?
-        ↩ (goto) [00017EA6] Hero: We might be close.
+        [00017EAB] Squadmate (Human ♂) ⟨cond⟩: The one we're looking for. Right?
+        ↩ (goto) [00017EA6] Ryder: We might be close.
     ├ option 4:
-        [00017EAA] global_squad_turian ⟨cond⟩: That's the ship you're looking for.
-        ↩ (goto) [00017EA6] Hero: We might be close.
+        [00017EAA] Squadmate (Turian / Vetra) ⟨cond⟩: That's the ship you're looking for.
+        ↩ (goto) [00017EA6] Ryder: We might be close.
     ├ option 5:
-        [00017EA9] global_squad_angara ⟨cond⟩: Isn't that the asari ship we're looking for?
-        ↩ (goto) [00017EA6] Hero: We might be close.
+        [00017EA9] Squadmate (Angara / Jaal) ⟨cond⟩: Isn't that the asari ship we're looking for?
+        ↩ (goto) [00017EA6] Ryder: We might be close.
     ├ option 6:
-        [00017EA5] global_squad_krogan ⟨cond⟩: Isn't that the asari ship we're looking for?
-        ↩ (goto) [00017EA6] Hero: We might be close.
+        [00017EA5] Squadmate (Krogan / Drack) ⟨cond⟩: Isn't that the asari ship we're looking for?
+        ↩ (goto) [00017EA6] Ryder: We might be close.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002B4D8] Hero [OncePerGame]: Huh. I thought this would be the Periphona.
+        [0002B4D8] Ryder [OncePerGame]: Huh. I thought this would be the Periphona.
         [0002B4D5] SAM: Ice or mineral deposits may be reflecting false positives. The real signal must be relatively close.
     ├ option 2:
-        [0002B4D6] Hero: Another false reading. But we must be closing in.
+        [0002B4D6] Ryder: Another false reading. But we must be closing in.
     ├ option 3:
-        [0002B4D7] Hero: False signal. One down.
+        [0002B4D7] Ryder: False signal. One down.
     └─ merge ─┘
 ├ option 3:
-    [00017EAF] Hero: Still getting the Periphona's signal.
+    [00017EAF] Ryder: Still getting the Periphona's signal.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00017EBE] global_squad_female_human ⟨cond⟩: Wonder why she's on the ground.
+        [00017EBE] Squadmate (Human ♀) ⟨cond⟩: Wonder why she's on the ground.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [00017EBF] global_squad_asari ⟨cond⟩: Bathroom break?
+            [00017EBF] Squadmate (Asari / Peebee) ⟨cond⟩: Bathroom break?
         ├ option 2:
-            [00017EC4] global_squad_turian ⟨cond⟩: Maybe they decided to stay put.
+            [00017EC4] Squadmate (Turian / Vetra) ⟨cond⟩: Maybe they decided to stay put.
         ├ option 3:
-            [00017EBC] global_squad_male_human ⟨cond⟩: Oh, we have to check that out.
+            [00017EBC] Squadmate (Human ♂) ⟨cond⟩: Oh, we have to check that out.
         ├ option 4:
-            [00017EC3] global_squad_krogan ⟨cond⟩: It's smart if the kett are looking for them.
+            [00017EC3] Squadmate (Krogan / Drack) ⟨cond⟩: It's smart if the kett are looking for them.
         └─ merge ─┘
     ├ option 2:
-        [00017EC1] Hero: Guess she's grounded.
+        [00017EC1] Ryder: Guess she's grounded.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            ↩ (goto) [00017EBF] global_squad_asari ⟨cond⟩: Bathroom break?
+            ↩ (goto) [00017EBF] Squadmate (Asari / Peebee) ⟨cond⟩: Bathroom break?
         ├ option 2:
-            ↩ (goto) [00017EC4] global_squad_turian ⟨cond⟩: Maybe they decided to stay put.
+            ↩ (goto) [00017EC4] Squadmate (Turian / Vetra) ⟨cond⟩: Maybe they decided to stay put.
         ├ option 3:
-            ↩ (goto) [00017EBC] global_squad_male_human ⟨cond⟩: Oh, we have to check that out.
+            ↩ (goto) [00017EBC] Squadmate (Human ♂) ⟨cond⟩: Oh, we have to check that out.
         ├ option 4:
-            ↩ (goto) [00017EC3] global_squad_krogan ⟨cond⟩: It's smart if the kett are looking for them.
+            ↩ (goto) [00017EC3] Squadmate (Krogan / Drack) ⟨cond⟩: It's smart if the kett are looking for them.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 4:
@@ -70,52 +70,52 @@
     [00017EAE] SAM: This is the source of the Periphona's signal.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00017EB4] global_squad_female_human ⟨cond⟩: Oh god.
-        [0002DE52] Hero: And there's kett on-site. Let's clear them out.
+        [00017EB4] Squadmate (Human ♀) ⟨cond⟩: Oh god.
+        [0002DE52] Ryder: And there's kett on-site. Let's clear them out.
     ├ option 2:
-        [00017EB7] global_squad_angara ⟨cond⟩: And only wreckage.
-        ↩ (goto) [0002DE52] Hero: And there's kett on-site. Let's clear them out.
+        [00017EB7] Squadmate (Angara / Jaal) ⟨cond⟩: And only wreckage.
+        ↩ (goto) [0002DE52] Ryder: And there's kett on-site. Let's clear them out.
     ├ option 3:
-        [00017EB5] global_squad_turian ⟨cond⟩: There's nothing left.
-        ↩ (goto) [0002DE52] Hero: And there's kett on-site. Let's clear them out.
+        [00017EB5] Squadmate (Turian / Vetra) ⟨cond⟩: There's nothing left.
+        ↩ (goto) [0002DE52] Ryder: And there's kett on-site. Let's clear them out.
     ├ option 4:
-        [00017EB8] global_squad_krogan ⟨cond⟩: That's a lot of debris.
-        ↩ (goto) [0002DE52] Hero: And there's kett on-site. Let's clear them out.
+        [00017EB8] Squadmate (Krogan / Drack) ⟨cond⟩: That's a lot of debris.
+        ↩ (goto) [0002DE52] Ryder: And there's kett on-site. Let's clear them out.
     ├ option 5:
-        [00017EBA] global_squad_asari ⟨cond⟩: That's a mess.
-        ↩ (goto) [0002DE52] Hero: And there's kett on-site. Let's clear them out.
+        [00017EBA] Squadmate (Asari / Peebee) ⟨cond⟩: That's a mess.
+        ↩ (goto) [0002DE52] Ryder: And there's kett on-site. Let's clear them out.
     ├ option 6:
-        [00017EB6] global_squad_male_human ⟨cond⟩: Ah hell, not good.
-        ↩ (goto) [0002DE52] Hero: And there's kett on-site. Let's clear them out.
+        [00017EB6] Squadmate (Human ♂) ⟨cond⟩: Ah hell, not good.
+        ↩ (goto) [0002DE52] Ryder: And there's kett on-site. Let's clear them out.
     └─ merge ─┘
 ├ option 6:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002DE54] Hero [OncePerGame]: Take them down hard!
+        [0002DE54] Ryder [OncePerGame]: Take them down hard!
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0002DE53] global_squad_female_human ⟨cond⟩: Don't you worry!
+            [0002DE53] Squadmate (Human ♀) ⟨cond⟩: Don't you worry!
         ├ option 2:
-            [0002DE56] global_squad_asari ⟨cond⟩: I hear that!
+            [0002DE56] Squadmate (Asari / Peebee) ⟨cond⟩: I hear that!
         ├ option 3:
-            [0002DE5C] global_squad_krogan ⟨cond⟩: Only way I know how!
+            [0002DE5C] Squadmate (Krogan / Drack) ⟨cond⟩: Only way I know how!
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [0002DE61] global_squad_female_human ⟨cond⟩: Stay sharp! They've got defenses!
+            [0002DE61] Squadmate (Human ♀) ⟨cond⟩: Stay sharp! They've got defenses!
         ├ option 2:
-            [0002DE5D] global_squad_asari ⟨cond⟩: Careful, the kett left a surprise!
+            [0002DE5D] Squadmate (Asari / Peebee) ⟨cond⟩: Careful, the kett left a surprise!
         ├ option 3:
-            [0002DE5A] global_squad_turian ⟨cond⟩: Watch out! They set up defenses!
+            [0002DE5A] Squadmate (Turian / Vetra) ⟨cond⟩: Watch out! They set up defenses!
         ├ option 4:
-            [0002DE5F] global_squad_male_human ⟨cond⟩: They've got defenses, be careful!
+            [0002DE5F] Squadmate (Human ♂) ⟨cond⟩: They've got defenses, be careful!
         ├ option 5:
-            [0002DE60] global_squad_angara ⟨cond⟩: Their defenses can't save them!
+            [0002DE60] Squadmate (Angara / Jaal) ⟨cond⟩: Their defenses can't save them!
         ├ option 6:
-            [0002DE5B] global_squad_krogan ⟨cond⟩: The kett left one of their toys!
+            [0002DE5B] Squadmate (Krogan / Drack) ⟨cond⟩: The kett left one of their toys!
         └─ merge ─┘
     ├ option 3:
-        [0002DE5E] Hero [OncePerGame]: Clear!
+        [0002DE5E] Ryder [OncePerGame]: Clear!
     └─ merge ─┘
 └─ merge ─┘

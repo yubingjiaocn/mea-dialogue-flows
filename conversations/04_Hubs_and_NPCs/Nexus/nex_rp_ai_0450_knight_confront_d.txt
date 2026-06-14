@@ -1,51 +1,51 @@
 # game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0450_knight_confront_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0450_knight_confront_d.xml
 ==================================================
 [000201F0] SAM: Kandros reports the sniper is ready.
-[000201EF] Hero: Understood, SAM.
-[000201FC] nex_rp_ai_leader: "Sam." Such a human name.
+[000201EF] Ryder: Understood, SAM.
+[000201FC] Rp Ai Leader: "Sam." Such a human name.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000201FB] nex_rp_ai_leader ⟨cond⟩: But you murdered my colleagues. God only knows what happened to my son. Nothing in you is human now.
+    [000201FB] Rp Ai Leader ⟨cond⟩: But you murdered my colleagues. God only knows what happened to my son. Nothing in you is human now.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00020201] Hero: I'm still me. But when I'm partnered with SAM, I can do superhuman things.
-        [00020277] nex_rp_ai_leader: I wonder which of you I'm talking to. Do you even know?
-        [00020294] nex_rp_ai_leader: I'm sorry. It won't let you see, but you're the beginning of the end.
-        [000215E5] nex_rp_ai_leader: Alain... I'm sorry...
+        [00020201] Ryder: I'm still me. But when I'm partnered with SAM, I can do superhuman things.
+        [00020277] Rp Ai Leader: I wonder which of you I'm talking to. Do you even know?
+        [00020294] Rp Ai Leader: I'm sorry. It won't let you see, but you're the beginning of the end.
+        [000215E5] Rp Ai Leader: Alain... I'm sorry...
     ├ option 2:
-        [00020200] Hero: I dream, I bleed, I feel—like you. I just have a little extra.
-        [00020278] nex_rp_ai_leader: Until SAM decides otherwise.
-        ↩ (goto) [00020294] nex_rp_ai_leader: I'm sorry. It won't let you see, but you're the beginning of the end.
+        [00020200] Ryder: I dream, I bleed, I feel—like you. I just have a little extra.
+        [00020278] Rp Ai Leader: Until SAM decides otherwise.
+        ↩ (goto) [00020294] Rp Ai Leader: I'm sorry. It won't let you see, but you're the beginning of the end.
     └─ merge ─┘
 ├ option 2:
-    [00020202] nex_rp_ai_leader ⟨cond⟩: No one ever listens. Your father built his human-AI implant. Overlord went on despite my...
+    [00020202] Rp Ai Leader ⟨cond⟩: No one ever listens. Your father built his human-AI implant. Overlord went on despite my...
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00020208] Hero: Everything keeps coming back to that project. What did you do?
-        [0002020E] nex_rp_ai_leader: I thought Overlord might help my son. They made him a candidate for their butchery. So I sabotaged it.
-        [00020210] nex_rp_ai_leader: I faked rogue code and ripped him out. Alain was... hurt, terribly. But he was alive and himself, not a...
-        [0002020F] nex_rp_ai_leader: First Overlord, then SAM. Horrors, forced on {i}children{/i}! It has to end, even if I must do the unforgivable!
+        [00020208] Ryder: Everything keeps coming back to that project. What did you do?
+        [0002020E] Rp Ai Leader: I thought Overlord might help my son. They made him a candidate for their butchery. So I sabotaged it.
+        [00020210] Rp Ai Leader: I faked rogue code and ripped him out. Alain was... hurt, terribly. But he was alive and himself, not a...
+        [0002020F] Rp Ai Leader: First Overlord, then SAM. Horrors, forced on {i}children{/i}! It has to end, even if I must do the unforgivable!
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00020295] Hero ⟨cond⟩ [OncePerGame]: Dad created SAM to help my mother survive a terminal illness.
-            [00021586] nex_rp_ai_leader: Many terrible things come from good intentions. I should know.
-            ↩ (goto) [000202DB] Hero: [empty]
+            [00020295] Ryder ⟨cond⟩ [OncePerGame]: Dad created SAM to help my mother survive a terminal illness.
+            [00021586] Rp Ai Leader: Many terrible things come from good intentions. I should know.
+            ↩ (goto) [000202DB] Ryder: [empty]
         ├ option 2:
-            [0002021C] Hero: This crusade hurt more than your son. Now you face justice.
+            [0002021C] Ryder: This crusade hurt more than your son. Now you face justice.
             ↩ (goto) [000215E4] Narration: [empty]
         ├ option 3:
-            [0002021B] Hero: SAM and I helped Alain together. He's going to be all right.
-            [0002026A] nex_rp_ai_leader: No. Th—the code I made... no one could fix—
-            [000215B8] Hero: SAM did. Stand down, and you can ask Alain yourself.
-            [00020268] nex_rp_ai_leader: Here. The last device.
-            [0002039C] Hero: Thank you.
-            [0002039D] nex_rp_ai_leader: No matter what sentence they give me, I hope Alain will forgive me some day.
-            [0002039E] nex_rp_ai_leader: If SAM really is what you say, perhaps it can forgive me too.
+            [0002021B] Ryder: SAM and I helped Alain together. He's going to be all right.
+            [0002026A] Rp Ai Leader: No. Th—the code I made... no one could fix—
+            [000215B8] Ryder: SAM did. Stand down, and you can ask Alain yourself.
+            [00020268] Rp Ai Leader: Here. The last device.
+            [0002039C] Ryder: Thank you.
+            [0002039D] Rp Ai Leader: No matter what sentence they give me, I hope Alain will forgive me some day.
+            [0002039E] Rp Ai Leader: If SAM really is what you say, perhaps it can forgive me too.
         └─ merge ─┘
     ├ option 2:
-        [00020209] Hero: You're trying to bury something. And I think that's what this is really about.
-        ↩ (goto) [0002020E] nex_rp_ai_leader: I thought Overlord might help my son. They made him a candidate for their butchery. So I sabotaged it.
+        [00020209] Ryder: You're trying to bury something. And I think that's what this is really about.
+        ↩ (goto) [0002020E] Rp Ai Leader: I thought Overlord might help my son. They made him a candidate for their butchery. So I sabotaged it.
     └─ merge ─┘
 └─ merge ─┘

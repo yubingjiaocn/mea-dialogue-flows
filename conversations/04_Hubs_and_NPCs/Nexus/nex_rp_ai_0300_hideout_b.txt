@@ -1,5 +1,5 @@
 # game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0300_hideout_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0300_hideout_b.xml
 ==================================================
 ┌─ BRANCH (7) ─┐
@@ -7,88 +7,88 @@
     [0001FC15] SAM: [Private] Pathfinder, it's unlikely an AI detector could discern our private channel. However, this may not be true for your scanner.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0001FC2B] global_squad_krogan ⟨cond⟩: Knight's planning something big. That's not good.
-        [0001FC4D] Hero: She's dangerous. Let's find out what's up—discreetly.
+        [0001FC2B] Squadmate (Krogan / Drack) ⟨cond⟩: Knight's planning something big. That's not good.
+        [0001FC4D] Ryder: She's dangerous. Let's find out what's up—discreetly.
     ├ option 2:
-        [0001FC2A] global_squad_turian ⟨cond⟩: Whatever Knight's planning can't be good.
-        ↩ (goto) [0001FC4D] Hero: She's dangerous. Let's find out what's up—discreetly.
+        [0001FC2A] Squadmate (Turian / Vetra) ⟨cond⟩: Whatever Knight's planning can't be good.
+        ↩ (goto) [0001FC4D] Ryder: She's dangerous. Let's find out what's up—discreetly.
     ├ option 3:
-        [0001FC2C] global_squad_asari ⟨cond⟩: Knight's planning something big. That's not good.
-        ↩ (goto) [0001FC4D] Hero: She's dangerous. Let's find out what's up—discreetly.
+        [0001FC2C] Squadmate (Asari / Peebee) ⟨cond⟩: Knight's planning something big. That's not good.
+        ↩ (goto) [0001FC4D] Ryder: She's dangerous. Let's find out what's up—discreetly.
     ├ option 4:
-        [0001FC2E] global_squad_female_human ⟨cond⟩: So Knight has big plans. Can't be good.
-        ↩ (goto) [0001FC4D] Hero: She's dangerous. Let's find out what's up—discreetly.
+        [0001FC2E] Squadmate (Human ♀) ⟨cond⟩: So Knight has big plans. Can't be good.
+        ↩ (goto) [0001FC4D] Ryder: She's dangerous. Let's find out what's up—discreetly.
     ├ option 5:
-        [0001FC7C] global_squad_angara ⟨cond⟩: This Knight's plans can't be good.
-        ↩ (goto) [0001FC4D] Hero: She's dangerous. Let's find out what's up—discreetly.
+        [0001FC7C] Squadmate (Angara / Jaal) ⟨cond⟩: This Knight's plans can't be good.
+        ↩ (goto) [0001FC4D] Ryder: She's dangerous. Let's find out what's up—discreetly.
     ├ option 6:
-        [0001FC2D] global_squad_male_human ⟨cond⟩: Whatever Knight's planning can't be good.
-        ↩ (goto) [0001FC4D] Hero: She's dangerous. Let's find out what's up—discreetly.
+        [0001FC2D] Squadmate (Human ♂) ⟨cond⟩: Whatever Knight's planning can't be good.
+        ↩ (goto) [0001FC4D] Ryder: She's dangerous. Let's find out what's up—discreetly.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001FC4E] Hero [OncePerGame]: Ah! My scanner tripped the AI detector.
+        [0001FC4E] Ryder [OncePerGame]: Ah! My scanner tripped the AI detector.
         [0001FC50] SAM: [Private] I can mask this as an error, but future pings might draw attention.
-        [0001FD5E] Hero: Maybe there's another way to find out what Knight's planning. If she gives us enough time.
+        [0001FD5E] Ryder: Maybe there's another way to find out what Knight's planning. If she gives us enough time.
     ├ option 2:
-        [0001FC54] Hero [OncePerGame]: The AI detector picked up the scan.
-        [0001FE0F] Hero: That'll be hard to explain away.
+        [0001FC54] Ryder [OncePerGame]: The AI detector picked up the scan.
+        [0001FE0F] Ryder: That'll be hard to explain away.
     ├ option 3:
-        [0001FC53] Hero [OncePerGame]: Damn it.
+        [0001FC53] Ryder [OncePerGame]: Damn it.
     ├ option 4:
-        [0001FC55] Hero [OncePerGame]: They must know something's up by now. Be ready.
+        [0001FC55] Ryder [OncePerGame]: They must know something's up by now. Be ready.
     └─ merge ─┘
 ├ option 3:
     [00020140] SAM: [Private] Pathfinder, I believe we can fix Alain's implants. I have schematics for an appropriate device.
     [0002013F] SAM: [Private] It will require time and resources.
-    [00020141] Hero: Or I could start scanning. But that's risky.
+    [00020141] Ryder: Or I could start scanning. But that's risky.
 ├ option 4:
-    [0001FD64] Hero ⟨cond⟩: {i}(Sighs.){/i} This must be tough to hear, SAM.
+    [0001FD64] Ryder ⟨cond⟩: {i}(Sighs.){/i} This must be tough to hear, SAM.
     [0001FD68] SAM: [Private] Those AI are the product of a different civilization. Ours will be founded on organic-synthetic partnership.
     [0001FD65] SAM: [Private] I bridge the hard-earned lessons of the past and the promise of the future.
 ├ option 5:
-    [00020148] Hero: "Mercury." Sounds like a code name for whatever Knight's doing.
+    [00020148] Ryder: "Mercury." Sounds like a code name for whatever Knight's doing.
     [00020149] SAM: [Private] This will enable me to find any relevant data quickly.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00020082] Hero ⟨cond⟩: Let's search Knight's console and see what she's up to.
+        [00020082] Ryder ⟨cond⟩: Let's search Knight's console and see what she's up to.
     ├ option 2:
-        [00020084] Hero: We just need somewhere to access Knight's files.
+        [00020084] Ryder: We just need somewhere to access Knight's files.
     └─ merge ─┘
 ├ option 6:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002007E] Hero [OncePerGame]: Looks like Knight's personal console. SAM, can you get into it?
+        [0002007E] Ryder [OncePerGame]: Looks like Knight's personal console. SAM, can you get into it?
         [00020080] SAM: [Private] Yes, but my access will trigger the AI detector. You'll only have one chance.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00020083] Hero ⟨cond⟩: We know what to look for. Let's do this.
+            [00020083] Ryder ⟨cond⟩: We know what to look for. Let's do this.
         ├ option 2:
-            [00020081] Hero: Okay. Let's wait until we know what we're looking for.
+            [00020081] Ryder: Okay. Let's wait until we know what we're looking for.
         └─ merge ─┘
     ├ option 2:
-        [0002007F] Hero ⟨cond⟩: We need to be certain what to look for first.
+        [0002007F] Ryder ⟨cond⟩: We need to be certain what to look for first.
     └─ merge ─┘
 ├ option 7:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020079] Hero: Junk.
+        [00020079] Ryder: Junk.
     ├ option 2:
         [0001FD73] SAM: [Private] A military-grade EMP device, normally used to damage electrical equipment.
     ├ option 3:
-        [0001FD75] Hero: Blueprints for the computer network on the Nexus.
-        [0002143D] Hero: So we don't know what she's planning, but we know where.
+        [0001FD75] Ryder: Blueprints for the computer network on the Nexus.
+        [0002143D] Ryder: So we don't know what she's planning, but we know where.
     ├ option 4:
-        [0001FD77] Hero: It's a schematic for a... blue box?
+        [0001FD77] Ryder: It's a schematic for a... blue box?
         [0002008C] SAM: [Private] A quantum computer. They serve several purposes, including creating AI.
     ├ option 5:
-        [0001FD74] Hero: This should be enough to go on.
+        [0001FD74] Ryder: This should be enough to go on.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00020082] Hero ⟨cond⟩: Let's search Knight's console and see what she's up to.
+            ↩ (goto) [00020082] Ryder ⟨cond⟩: Let's search Knight's console and see what she's up to.
         ├ option 2:
-            ↩ (goto) [00020084] Hero: We just need somewhere to access Knight's files.
+            ↩ (goto) [00020084] Ryder: We just need somewhere to access Knight's files.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

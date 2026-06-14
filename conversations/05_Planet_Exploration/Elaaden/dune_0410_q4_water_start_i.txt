@@ -1,80 +1,80 @@
 # game/conversations/unc_dunes/dune_0410_q4_water_start_i
-# Primary speaker: dune_water_radioscav01
+# Primary speaker: Water Radioscav01
 # Source: game/conversations/unc_dunes/dune_0410_q4_water_start_i.xml
 ==================================================
-[0001D073] dune_water_radioscav01: [Comm] Had a thought. You think Annea has info about her water source in her office?
-[0001D51D] dune_water_radioscav02: [Comm] The one by the docks? Security's insane. We'll never get in there.
-[0001D51E] dune_water_radioscav01: [Comm] Just trying to find an alternative to combing the wastes.
-[0001D076] dune_water_radioscav02: [Comm] Hey, did you make sure comms aren't set to wide broadcast?
-[0001D077] dune_water_radioscav01: [Comm] Uh... what? Sh—
-[0001D525] Hero: Huh. Comms just went dead.
+[0001D073] Water Radioscav01: [Comm] Had a thought. You think Annea has info about her water source in her office?
+[0001D51D] Water Radioscav02: [Comm] The one by the docks? Security's insane. We'll never get in there.
+[0001D51E] Water Radioscav01: [Comm] Just trying to find an alternative to combing the wastes.
+[0001D076] Water Radioscav02: [Comm] Hey, did you make sure comms aren't set to wide broadcast?
+[0001D077] Water Radioscav01: [Comm] Uh... what? Sh—
+[0001D525] Ryder: Huh. Comms just went dead.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001D521] global_squad_krogan ⟨cond⟩ [OncePerGame]: All of the colony's water comes from Annea too.
-    [0001D586] global_squad_krogan: The deal works right now, but it may not last.
+    [0001D521] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: All of the colony's water comes from Annea too.
+    [0001D586] Squadmate (Krogan / Drack): The deal works right now, but it may not last.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D5FD] Hero: The vault's active. A terraformed Elaaden will have surface water.
+            [0001D5FD] Ryder: The vault's active. A terraformed Elaaden will have surface water.
             [0001D5FF] SAM: Terraforming is a slow process, Pathfinder.
             [0001D600] SAM: The scarcity of water presents an immediate obstacle to any attempts to settle.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001D604] global_squad_krogan ⟨cond⟩ [OncePerGame]: And the krogan are already here. This could quickly become a problem.
-                [0001D647] Hero: Worth investigating then.
-                [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+                [0001D604] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: And the krogan are already here. This could quickly become a problem.
+                [0001D647] Ryder: Worth investigating then.
+                [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
             ├ option 2:
-                ↩ (goto) [0001D647] Hero: Worth investigating then.
+                ↩ (goto) [0001D647] Ryder: Worth investigating then.
             └─ merge ─┘
         ├ option 2:
-            [0001D5FE] Hero: There's a vault here. A terraformed Elaaden should have abundant water.
+            [0001D5FE] Ryder: There's a vault here. A terraformed Elaaden should have abundant water.
             ↩ (goto) [0001D5FF] SAM: Terraforming is a slow process, Pathfinder.
         └─ merge ─┘
     ├ option 2:
-        [0001D5C0] Hero: This impacts the long-term survival of everyone here. Krogan, exiles, it doesn't matter.
-        [0001D645] Hero: We need to improve the situation if we can.
+        [0001D5C0] Ryder: This impacts the long-term survival of everyone here. Krogan, exiles, it doesn't matter.
+        [0001D645] Ryder: We need to improve the situation if we can.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [0001D693] global_squad_krogan ⟨cond⟩ [OncePerGame]: That's what I like to hear. Where do we start?
-            ↩ (goto) [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+            [0001D693] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: That's what I like to hear. Where do we start?
+            ↩ (goto) [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
         ├ option 2:
-            [0001D697] global_squad_female_human ⟨cond⟩ [OncePerGame]: I hope you have a better method in mind than those scavengers.
-            ↩ (goto) [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+            [0001D697] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: I hope you have a better method in mind than those scavengers.
+            ↩ (goto) [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
         ├ option 3:
-            [0001D699] global_squad_asari ⟨cond⟩ [OncePerGame]: Have scans revealed anything about buried groundwater?
-            ↩ (goto) [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+            [0001D699] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Have scans revealed anything about buried groundwater?
+            ↩ (goto) [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
         ├ option 4:
-            [0001D698] global_squad_turian ⟨cond⟩ [OncePerGame]: So we're hunting for water now?
-            ↩ (goto) [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+            [0001D698] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: So we're hunting for water now?
+            ↩ (goto) [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
         ├ option 5:
-            [0001D694] global_squad_angara ⟨cond⟩ [OncePerGame]: Elaaden's a big planet. Where do we start?
-            ↩ (goto) [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+            [0001D694] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Elaaden's a big planet. Where do we start?
+            ↩ (goto) [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
         ├ option 6:
-            [0001D695] global_squad_male_human ⟨cond⟩ [OncePerGame]: Looking for water? Let me just pull out my antique dowsing rod.
-            [0001D696] Hero: Keep it in your pants, Kosta.
-            [0001D69A] global_squad_male_human: No, a dowsing rod is... it's... uh, wait, you were just teasing...
-            ↩ (goto) [0001D6CD] Hero: Those scavengers talked about security around Annea's office. I bet there's something there.
+            [0001D695] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Looking for water? Let me just pull out my antique dowsing rod.
+            [0001D696] Ryder: Keep it in your pants, Kosta.
+            [0001D69A] Squadmate (Human ♂): No, a dowsing rod is... it's... uh, wait, you were just teasing...
+            ↩ (goto) [0001D6CD] Ryder: Those scavengers talked about security around Annea's office. I bet there's something there.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0001D522] global_squad_female_human ⟨cond⟩ [OncePerGame]: A reliable water source is necessary for anyone who tries to settle here.
-    [0001D587] global_squad_female_human: Annea can't be the only person holding the trump card.
-    ↩ (goto) [0001D5C2] Hero: [empty]
+    [0001D522] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: A reliable water source is necessary for anyone who tries to settle here.
+    [0001D587] Squadmate (Human ♀): Annea can't be the only person holding the trump card.
+    ↩ (goto) [0001D5C2] Ryder: [empty]
 ├ option 3:
-    [0001D51F] global_squad_asari ⟨cond⟩ [OncePerGame]: I knew she looked shifty! Keeping all the water from people?
-    [0001D5BA] global_squad_asari: She's just playing on their desperation.
-    ↩ (goto) [0001D5C2] Hero: [empty]
+    [0001D51F] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: I knew she looked shifty! Keeping all the water from people?
+    [0001D5BA] Squadmate (Asari / Peebee): She's just playing on their desperation.
+    ↩ (goto) [0001D5C2] Ryder: [empty]
 ├ option 4:
-    [0001D520] global_squad_turian ⟨cond⟩ [OncePerGame]: So Annea's got a secret water source.
-    [0001D588] global_squad_turian: If she won't trade, it'll be a disaster for everyone who lives here.
-    ↩ (goto) [0001D5C2] Hero: [empty]
+    [0001D520] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: So Annea's got a secret water source.
+    [0001D588] Squadmate (Turian / Vetra): If she won't trade, it'll be a disaster for everyone who lives here.
+    ↩ (goto) [0001D5C2] Ryder: [empty]
 ├ option 5:
-    [0001D524] global_squad_angara ⟨cond⟩ [OncePerGame]: I've heard of this. Some time ago, Annea inherited knowledge of a secret water source.
-    [0001D5B9] global_squad_angara: Rationing it gives her power over anyone who wants to live here.
-    ↩ (goto) [0001D5C2] Hero: [empty]
+    [0001D524] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: I've heard of this. Some time ago, Annea inherited knowledge of a secret water source.
+    [0001D5B9] Squadmate (Angara / Jaal): Rationing it gives her power over anyone who wants to live here.
+    ↩ (goto) [0001D5C2] Ryder: [empty]
 ├ option 6:
-    [0001D523] global_squad_male_human ⟨cond⟩ [OncePerGame]: So that's how she's able to boss everyone around. She has what everyone needs.
-    [0001D5BB] global_squad_male_human: Bad news for everyone but Annea.
-    ↩ (goto) [0001D5C2] Hero: [empty]
+    [0001D523] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: So that's how she's able to boss everyone around. She has what everyone needs.
+    [0001D5BB] Squadmate (Human ♂): Bad news for everyone but Annea.
+    ↩ (goto) [0001D5C2] Ryder: [empty]
 └─ merge ─┘

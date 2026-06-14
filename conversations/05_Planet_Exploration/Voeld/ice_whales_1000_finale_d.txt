@@ -1,72 +1,72 @@
 # game/conversations/unc_ice/ice_whales_1000_finale_d
-# Primary speaker: ice_drlekaaret
+# Primary speaker: Drlekaaret
 # Source: game/conversations/unc_ice/ice_whales_1000_finale_d.xml
 ==================================================
-[0002F774] ice_drlekaaret: The people I hired shot at you, and you took care of them. I understand that. Now let's talk.
+[0002F774] Drlekaaret: The people I hired shot at you, and you took care of them. I understand that. Now let's talk.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002F809] Hero: After all I've heard, I didn't expect that an angara led these hunts.
-    [0002F81D] ice_drlekaaret: Then you've been talking to the angara here.
-    [0002F81E] ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
-    [0002F81B] ice_drlekaaret: But these creatures might also hold the key to our war against the kett.
-    [0002F825] Hero: Explain.
-    [0002F824] ice_drlekaaret: I've been performing tests. An enzyme in the yevara's skin could treat the effects of kett weaponry.
-    [0002F826] ice_drlekaaret: If I'm right, our fighters could heal faster. Push back against the kett.
+    [0002F809] Ryder: After all I've heard, I didn't expect that an angara led these hunts.
+    [0002F81D] Drlekaaret: Then you've been talking to the angara here.
+    [0002F81E] Drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
+    [0002F81B] Drlekaaret: But these creatures might also hold the key to our war against the kett.
+    [0002F825] Ryder: Explain.
+    [0002F824] Drlekaaret: I've been performing tests. An enzyme in the yevara's skin could treat the effects of kett weaponry.
+    [0002F826] Drlekaaret: If I'm right, our fighters could heal faster. Push back against the kett.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000301A5] global_squad_angara ⟨cond⟩: No... not like this. Creatures are dying.
-        [0002F85E] ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
+        [000301A5] Squadmate (Angara / Jaal) ⟨cond⟩: No... not like this. Creatures are dying.
+        [0002F85E] Drlekaaret: You see? My people would rather cling to tradition than think about the future.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002F864] Hero: You really think this enzyme will work? It'll heal your people?
-            [0002F866] ice_drlekaaret: I need to run more tests. But it looks promising.
-            [0002F877] ice_drlekaaret: Just let me continue my research. For the future of my people.
+            [0002F864] Ryder: You really think this enzyme will work? It'll heal your people?
+            [0002F866] Drlekaaret: I need to run more tests. But it looks promising.
+            [0002F877] Drlekaaret: Just let me continue my research. For the future of my people.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002F874] global_squad_angara ⟨cond⟩: Ryder... I don't know how to feel. I can't make this decision.
+                [0002F874] Squadmate (Angara / Jaal) ⟨cond⟩: Ryder... I don't know how to feel. I can't make this decision.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002F875] Hero: SAM, send her information to the Resistance.
+                    [0002F875] Ryder: SAM, send her information to the Resistance.
                     [0002F86F] SAM: Transmitting data.
-                    [0002F876] Hero: I suggest you get off Voeld before they get that info.
-                    [0002F878] ice_drlekaaret: You're making a huge mistake.
+                    [0002F876] Ryder: I suggest you get off Voeld before they get that info.
+                    [0002F878] Drlekaaret: You're making a huge mistake.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002F87D] global_squad_angara ⟨cond⟩: I'll contact the commander. Thank you, Ryder. I think this is the right choice.
+                        [0002F87D] Squadmate (Angara / Jaal) ⟨cond⟩: I'll contact the commander. Thank you, Ryder. I think this is the right choice.
                     ├ option 2:
-                        [0002F87B] global_squad_angara: [Comm] I'll tell the commander. Thank you, Ryder. This feels like the right choice.
+                        [0002F87B] Squadmate (Angara / Jaal): [Comm] I'll tell the commander. Thank you, Ryder. This feels like the right choice.
                     └─ merge ─┘
                 ├ option 2:
-                    [0002F872] Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
+                    [0002F872] Ryder: If this work helps people, I can't stop you. But you need to be up front with your people.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002F87C] global_squad_angara ⟨cond⟩: This feels like a mistake.
-                        [0002F87A] ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
+                        [0002F87C] Squadmate (Angara / Jaal) ⟨cond⟩: This feels like a mistake.
+                        [0002F87A] Drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
                     ├ option 2:
-                        [0002F879] global_squad_angara: [Comm] This doesn't feel right.
-                        ↩ (goto) [0002F87A] ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
+                        [0002F879] Squadmate (Angara / Jaal): [Comm] This doesn't feel right.
+                        ↩ (goto) [0002F87A] Drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                [0002F871] global_squad_angara: [Comm] Ryder... I can't make this decision. I hardly know how to feel.
+                [0002F871] Squadmate (Angara / Jaal): [Comm] Ryder... I can't make this decision. I hardly know how to feel.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [0002F875] Hero: SAM, send her information to the Resistance.
+                    ↩ (goto) [0002F875] Ryder: SAM, send her information to the Resistance.
                 ├ option 2:
-                    ↩ (goto) [0002F872] Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
+                    ↩ (goto) [0002F872] Ryder: If this work helps people, I can't stop you. But you need to be up front with your people.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [0002F863] Hero: Even if the enzyme helps, the angara won't accept it when they know the source.
-            [0002F867] ice_drlekaaret: At first, maybe. But the angara have always been survivors. In time, they'll see reason.
-            ↩ (goto) [0002F877] ice_drlekaaret: Just let me continue my research. For the future of my people.
+            [0002F863] Ryder: Even if the enzyme helps, the angara won't accept it when they know the source.
+            [0002F867] Drlekaaret: At first, maybe. But the angara have always been survivors. In time, they'll see reason.
+            ↩ (goto) [0002F877] Drlekaaret: Just let me continue my research. For the future of my people.
         └─ merge ─┘
     ├ option 2:
-        [000301A6] global_squad_angara: [Comm] She can't... not like this. Creatures are dying.
-        ↩ (goto) [0002F85E] ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
+        [000301A6] Squadmate (Angara / Jaal): [Comm] She can't... not like this. Creatures are dying.
+        ↩ (goto) [0002F85E] Drlekaaret: You see? My people would rather cling to tradition than think about the future.
     └─ merge ─┘
 ├ option 2:
-    [0002F80A] Hero: You better have a great explanation for hunting yevara. Your people won't be happy to hear this.
-    [0002F81C] ice_drlekaaret: So the angara sent you, then.
-    ↩ (goto) [0002F81E] ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
+    [0002F80A] Ryder: You better have a great explanation for hunting yevara. Your people won't be happy to hear this.
+    [0002F81C] Drlekaaret: So the angara sent you, then.
+    ↩ (goto) [0002F81E] Drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
 └─ merge ─┘

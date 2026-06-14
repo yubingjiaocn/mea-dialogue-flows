@@ -1,52 +1,52 @@
 # game/conversations/unc_ice/ice_0300_medic_i
-# Primary speaker: ice_eskaal
+# Primary speaker: Eskaal
 # Source: game/conversations/unc_ice/ice_0300_medic_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000261F8] ice_eskaal [OncePerGame]: If you need patching up, you'll have to wait. A patrol just came through and I need to see to them.
+    [000261F8] Eskaal [OncePerGame]: If you need patching up, you'll have to wait. A patrol just came through and I need to see to them.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00026230] Hero: Did they run into something out there?
-        [00026603] ice_eskaal: The kett are getting bolder. A band of them attacked our patrol last night.
-        [00026604] ice_eskaal: Our people managed to get out without much trouble, but I need to check them over.
+        [00026230] Ryder: Did they run into something out there?
+        [00026603] Eskaal: The kett are getting bolder. A band of them attacked our patrol last night.
+        [00026604] Eskaal: Our people managed to get out without much trouble, but I need to check them over.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [00026200] Hero: It can't be easy living in a place like this.
-            [00026206] ice_eskaal: Between the cold and the lack of sun, it's tough to keep morale up.
-            [00026237] ice_eskaal: Most of us come from Aya or Havarl, so it's a big adjustment. Immunity drops. People get sick.
-            [0002622F] ice_eskaal: But if the civilians in the settlements can live here without complaint, so can we.
-            ↩ (goto) [000261F6] ice_eskaal: [empty]
+            [00026200] Ryder: It can't be easy living in a place like this.
+            [00026206] Eskaal: Between the cold and the lack of sun, it's tough to keep morale up.
+            [00026237] Eskaal: Most of us come from Aya or Havarl, so it's a big adjustment. Immunity drops. People get sick.
+            [0002622F] Eskaal: But if the civilians in the settlements can live here without complaint, so can we.
+            ↩ (goto) [000261F6] Eskaal: [empty]
         ├ option 2:
-            [000265EB] Hero: It's actually warm in here. Those heaters work pretty well.
-            [000265F2] ice_eskaal: We don't use them for heat. They generate artificial sun so we don't go dark.
-            [000265F1] Hero: What do you mean, "go dark"?
-            [000265EF] ice_eskaal: Right, I suppose you wouldn't know about that. Our bodies generate energy from sunlight.
-            [000265EE] ice_eskaal: If we don't get enough, our immune systems weaken and our bio-energy slows. We go dark.
-            ↩ (goto) [000261F6] ice_eskaal: [empty]
+            [000265EB] Ryder: It's actually warm in here. Those heaters work pretty well.
+            [000265F2] Eskaal: We don't use them for heat. They generate artificial sun so we don't go dark.
+            [000265F1] Ryder: What do you mean, "go dark"?
+            [000265EF] Eskaal: Right, I suppose you wouldn't know about that. Our bodies generate energy from sunlight.
+            [000265EE] Eskaal: If we don't get enough, our immune systems weaken and our bio-energy slows. We go dark.
+            ↩ (goto) [000261F6] Eskaal: [empty]
         ├ option 3:
-            [000261FE] Hero ⟨cond⟩ [OncePerGame]: I guess you heard about exaltation. Think there's a way to reverse it?
-            [00026232] ice_eskaal: I... don't know. It would take years—maybe decades—to discover a cure like that. It might not be possible.
+            [000261FE] Ryder ⟨cond⟩ [OncePerGame]: I guess you heard about exaltation. Think there's a way to reverse it?
+            [00026232] Eskaal: I... don't know. It would take years—maybe decades—to discover a cure like that. It might not be possible.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00026236] global_squad_angara ⟨cond⟩: We need to try.
-                [00026233] ice_eskaal: Easier said than done.
-                [00026231] ice_eskaal: Regardless, that sort of research is far beyond my skill.
-                ↩ (goto) [000261F6] ice_eskaal: [empty]
+                [00026236] Squadmate (Angara / Jaal) ⟨cond⟩: We need to try.
+                [00026233] Eskaal: Easier said than done.
+                [00026231] Eskaal: Regardless, that sort of research is far beyond my skill.
+                ↩ (goto) [000261F6] Eskaal: [empty]
             ├ option 2:
-                ↩ (goto) [00026231] ice_eskaal: Regardless, that sort of research is far beyond my skill.
+                ↩ (goto) [00026231] Eskaal: Regardless, that sort of research is far beyond my skill.
             └─ merge ─┘
         ├ option 4:
-            [000265F4] Hero: I'll come back if I need anything.
-            [000265F5] ice_eskaal: I'll be here.
+            [000265F4] Ryder: I'll come back if I need anything.
+            [000265F5] Eskaal: I'll be here.
         └─ merge ─┘
     ├ option 2:
-        [000261FC] Hero: You guys seem very understaffed.
-        [000261F3] ice_eskaal: Volunteer medics are hard to come by. Especially ones who can handle Voeld.
-        ↩ (goto) [000261F6] ice_eskaal: [empty]
+        [000261FC] Ryder: You guys seem very understaffed.
+        [000261F3] Eskaal: Volunteer medics are hard to come by. Especially ones who can handle Voeld.
+        ↩ (goto) [000261F6] Eskaal: [empty]
     └─ merge ─┘
 ├ option 2:
-    [000265ED] ice_eskaal: What can I do for you?
-    ↩ (goto) [000261F6] ice_eskaal: [empty]
+    [000265ED] Eskaal: What can I do for you?
+    ↩ (goto) [000261F6] Eskaal: [empty]
 └─ merge ─┘
-[000261FD] ice_eskaal: Most skilled doctors end up in the med center in Techiix. So for now, I'm all they've got.
+[000261FD] Eskaal: Most skilled doctors end up in the med center in Techiix. So for now, I'm all they've got.

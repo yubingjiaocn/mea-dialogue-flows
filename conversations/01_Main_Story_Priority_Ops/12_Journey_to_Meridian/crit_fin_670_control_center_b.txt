@@ -1,162 +1,162 @@
 # Game/Conversations/Crit/Crit_Mer/crit_fin_670_control_center_b
-# Primary speaker: global_crew_science_officer
+# Primary speaker: Suvi (Science Officer)
 # Source: game/conversations/crit/Crit_Mer/crit_fin_670_control_center_b.xml
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000DD32] global_squad_female_human ⟨cond⟩: The Archon must be inside already!
+    [0000DD32] Squadmate (Human ♀) ⟨cond⟩: The Archon must be inside already!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000DD28] Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
-        [000264AE] Hero: We can't let that happen.
+        [0000DD28] Ryder ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+        [000264AE] Ryder: We can't let that happen.
     ├ option 2:
-        [00025D13] Hero: He'll use Sara to make Meridian a weapon.
-        ↩ (goto) [000264AE] Hero: We can't let that happen.
+        [00025D13] Ryder: He'll use Sara to make Meridian a weapon.
+        ↩ (goto) [000264AE] Ryder: We can't let that happen.
     └─ merge ─┘
 ├ option 2:
-    [0000DD26] global_squad_asari ⟨cond⟩: The Archon must be inside already!
+    [0000DD26] Squadmate (Asari / Peebee) ⟨cond⟩: The Archon must be inside already!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000DD28] Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+        ↩ (goto) [0000DD28] Ryder ⟨cond⟩: He'll use Scott to make Meridian a weapon.
     ├ option 2:
-        ↩ (goto) [00025D13] Hero: He'll use Sara to make Meridian a weapon.
+        ↩ (goto) [00025D13] Ryder: He'll use Sara to make Meridian a weapon.
     └─ merge ─┘
 ├ option 3:
-    [0000DD36] global_squad_angara ⟨cond⟩: The Archon must be inside already!
+    [0000DD36] Squadmate (Angara / Jaal) ⟨cond⟩: The Archon must be inside already!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000DD28] Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+        ↩ (goto) [0000DD28] Ryder ⟨cond⟩: He'll use Scott to make Meridian a weapon.
     ├ option 2:
-        ↩ (goto) [00025D13] Hero: He'll use Sara to make Meridian a weapon.
+        ↩ (goto) [00025D13] Ryder: He'll use Sara to make Meridian a weapon.
     └─ merge ─┘
 ├ option 4:
-    [0000DD31] global_squad_male_human ⟨cond⟩: The Archon must be inside already!
+    [0000DD31] Squadmate (Human ♂) ⟨cond⟩: The Archon must be inside already!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000DD28] Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+        ↩ (goto) [0000DD28] Ryder ⟨cond⟩: He'll use Scott to make Meridian a weapon.
     ├ option 2:
-        ↩ (goto) [00025D13] Hero: He'll use Sara to make Meridian a weapon.
+        ↩ (goto) [00025D13] Ryder: He'll use Sara to make Meridian a weapon.
     └─ merge ─┘
 ├ option 5:
-    [0000DD30] global_squad_turian ⟨cond⟩: The Archon must be inside already!
+    [0000DD30] Squadmate (Turian / Vetra) ⟨cond⟩: The Archon must be inside already!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000DD28] Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+        ↩ (goto) [0000DD28] Ryder ⟨cond⟩: He'll use Scott to make Meridian a weapon.
     ├ option 2:
-        ↩ (goto) [00025D13] Hero: He'll use Sara to make Meridian a weapon.
+        ↩ (goto) [00025D13] Ryder: He'll use Sara to make Meridian a weapon.
     └─ merge ─┘
 └─ merge ─┘
-[0000BD72] global_crew_science_officer: [Comm] Multiple groups joining the fight!
-[0000BD6C] Hero: It's all or nothing!
+[0000BD72] Suvi (Science Officer): [Comm] Multiple groups joining the fight!
+[0000BD6C] Ryder: It's all or nothing!
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    [00015AAF] global_squad_female_human ⟨cond⟩ [OncePerGame]: [Comm] Right!
+    [00015AAF] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: [Comm] Right!
     ↩ (goto) [00015AB0] Narration: [empty]
 ├ option 2:
-    [00015AAD] global_squad_asari ⟨cond⟩ [OncePerGame]: [Comm] Ready as anything!
+    [00015AAD] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: [Comm] Ready as anything!
     ↩ (goto) [00015AB0] Narration: [empty]
 ├ option 3:
-    [00015AB1] global_squad_angara ⟨cond⟩ [OncePerGame]: [Comm] We're with you!
+    [00015AB1] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: [Comm] We're with you!
     ↩ (goto) [00015AB0] Narration: [empty]
 ├ option 4:
-    [00015AAE] global_squad_male_human ⟨cond⟩ [OncePerGame]: [Comm] Go team!
+    [00015AAE] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: [Comm] Go team!
     ↩ (goto) [00015AB0] Narration: [empty]
 ├ option 5:
-    [00015AB2] global_squad_turian ⟨cond⟩ [OncePerGame]: [Comm] I hear that!
+    [00015AB2] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: [Comm] I hear that!
     ↩ (goto) [00015AB0] Narration: [empty]
 ├ option 6:
-    [00015AB3] global_squad_krogan ⟨cond⟩ [OncePerGame]: [Comm] {i}(Laughs.){/i}
+    [00015AB3] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: [Comm] {i}(Laughs.){/i}
 ├ option 7:
-    ↩ (goto) [0000BD77] global_crew_science_officer: [empty]
+    ↩ (goto) [0000BD77] Suvi (Science Officer): [empty]
 └─ merge ─┘
-[00025856] global_crew_science_officer: [Comm] Watch out, Pathfinder. The big kett ship is coming back around!
+[00025856] Suvi (Science Officer): [Comm] Watch out, Pathfinder. The big kett ship is coming back around!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000DD22] global_squad_female_human ⟨cond⟩: Keep moving! We can't let them stop us!
-    [0000BD7A] Hero: I think it's veering off!
+    [0000DD22] Squadmate (Human ♀) ⟨cond⟩: Keep moving! We can't let them stop us!
+    [0000BD7A] Ryder: I think it's veering off!
 ├ option 2:
-    [0000DD21] global_squad_krogan ⟨cond⟩: We gotta keep moving!
-    ↩ (goto) [0000BD7A] Hero: I think it's veering off!
+    [0000DD21] Squadmate (Krogan / Drack) ⟨cond⟩: We gotta keep moving!
+    ↩ (goto) [0000BD7A] Ryder: I think it's veering off!
 ├ option 3:
-    [0000DD24] global_squad_angara ⟨cond⟩: Stay on course! There's nothing we can do down here.
-    ↩ (goto) [0000BD7A] Hero: I think it's veering off!
+    [0000DD24] Squadmate (Angara / Jaal) ⟨cond⟩: Stay on course! There's nothing we can do down here.
+    ↩ (goto) [0000BD7A] Ryder: I think it's veering off!
 ├ option 4:
-    [0000DD23] global_squad_turian ⟨cond⟩: Drive faster! Moving targets are harder to hit!
-    ↩ (goto) [0000BD7A] Hero: I think it's veering off!
+    [0000DD23] Squadmate (Turian / Vetra) ⟨cond⟩: Drive faster! Moving targets are harder to hit!
+    ↩ (goto) [0000BD7A] Ryder: I think it's veering off!
 ├ option 5:
-    [0000DD20] global_squad_male_human ⟨cond⟩: Can't hit it from down here! Keep going in!
-    ↩ (goto) [0000BD7A] Hero: I think it's veering off!
+    [0000DD20] Squadmate (Human ♂) ⟨cond⟩: Can't hit it from down here! Keep going in!
+    ↩ (goto) [0000BD7A] Ryder: I think it's veering off!
 └─ merge ─┘
-[00025857] global_crew_science_officer: [Comm] Wait, that kett ship has lost data shielding. Pathfinder, it's the Primus! The Archon's second!
+[00025857] Suvi (Science Officer): [Comm] Wait, that kett ship has lost data shielding. Pathfinder, it's the Primus! The Archon's second!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000DC5D] global_squad_female_human ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
-    [0000DC5B] Hero: Flying low and slow. What's she doing?
-    [00025858] global_crew_science_officer: [Comm] The kill code she gave you! Access their ground equipment and I'll upload it like SAM!
+    [0000DC5D] Squadmate (Human ♀) ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    [0000DC5B] Ryder: Flying low and slow. What's she doing?
+    [00025858] Suvi (Science Officer): [Comm] The kill code she gave you! Access their ground equipment and I'll upload it like SAM!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0000DD03] global_squad_turian ⟨cond⟩: Do we really know it's a kill code? What if it's not?
+        [0000DD03] Squadmate (Turian / Vetra) ⟨cond⟩: Do we really know it's a kill code? What if it's not?
     ├ option 2:
-        [0000DCF7] global_squad_asari ⟨cond⟩: Pretty risky! What if it's not a kill code?
+        [0000DCF7] Squadmate (Asari / Peebee) ⟨cond⟩: Pretty risky! What if it's not a kill code?
     ├ option 3:
-        [0000DD09] global_squad_male_human ⟨cond⟩: Not sure I want a deal with that devil.
+        [0000DD09] Squadmate (Human ♂) ⟨cond⟩: Not sure I want a deal with that devil.
     ├ option 4:
-        [0000DCF5] global_squad_angara ⟨cond⟩: That's a risky deal!
+        [0000DCF5] Squadmate (Angara / Jaal) ⟨cond⟩: That's a risky deal!
     ├ option 5:
-        [0000DD01] global_squad_krogan ⟨cond⟩: You sure you want to make that kind of deal?
+        [0000DD01] Squadmate (Krogan / Drack) ⟨cond⟩: You sure you want to make that kind of deal?
     └─ merge ─┘
 ├ option 2:
-    [0000DC87] global_squad_krogan ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
-    ↩ (goto) [0000DC5B] Hero: Flying low and slow. What's she doing?
+    [0000DC87] Squadmate (Krogan / Drack) ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    ↩ (goto) [0000DC5B] Ryder: Flying low and slow. What's she doing?
 ├ option 3:
-    [0000DC86] global_squad_angara ⟨cond⟩: She is shooting a lot for someone who offered to bargain!
-    ↩ (goto) [0000DC5B] Hero: Flying low and slow. What's she doing?
+    [0000DC86] Squadmate (Angara / Jaal) ⟨cond⟩: She is shooting a lot for someone who offered to bargain!
+    ↩ (goto) [0000DC5B] Ryder: Flying low and slow. What's she doing?
 ├ option 4:
-    [0000DC89] global_squad_male_human ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
-    ↩ (goto) [0000DC5B] Hero: Flying low and slow. What's she doing?
+    [0000DC89] Squadmate (Human ♂) ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    ↩ (goto) [0000DC5B] Ryder: Flying low and slow. What's she doing?
 ├ option 5:
-    [0000DC88] global_squad_asari ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
-    ↩ (goto) [0000DC5B] Hero: Flying low and slow. What's she doing?
+    [0000DC88] Squadmate (Asari / Peebee) ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    ↩ (goto) [0000DC5B] Ryder: Flying low and slow. What's she doing?
 └─ merge ─┘
-[0000DD02] global_crew_science_officer: [Comm] Kill code deployed! Main thrusters on the Primus's ship are failing!
-[0000DCFD] Hero: She gets to look like she was sabotaged, and we get an easier run.
+[0000DD02] Suvi (Science Officer): [Comm] Kill code deployed! Main thrusters on the Primus's ship are failing!
+[0000DCFD] Ryder: She gets to look like she was sabotaged, and we get an easier run.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000DCFB] global_squad_krogan ⟨cond⟩: Before shooting us in the back.
+    [0000DCFB] Squadmate (Krogan / Drack) ⟨cond⟩: Before shooting us in the back.
 ├ option 2:
-    [0000DCF9] global_squad_turian ⟨cond⟩: This better not come back to bite us.
+    [0000DCF9] Squadmate (Turian / Vetra) ⟨cond⟩: This better not come back to bite us.
 ├ option 3:
-    [0000DCF4] global_squad_male_human ⟨cond⟩: Hope this doesn't bite us in the ass.
+    [0000DCF4] Squadmate (Human ♂) ⟨cond⟩: Hope this doesn't bite us in the ass.
 ├ option 4:
-    [0000DD05] global_squad_asari ⟨cond⟩: Hope this doesn't bite us in the tail.
+    [0000DD05] Squadmate (Asari / Peebee) ⟨cond⟩: Hope this doesn't bite us in the tail.
 ├ option 5:
-    [0000DCFC] global_squad_angara ⟨cond⟩: I hope we don't regret this.
+    [0000DCFC] Squadmate (Angara / Jaal) ⟨cond⟩: I hope we don't regret this.
 └─ merge ─┘
-[0000DD12] global_crew_science_officer: [Comm] The Primus is pulling away! Reinforcements incoming!
-[0000DD10] Hero: She holds a grudge, but we're not taking her deal.
+[0000DD12] Suvi (Science Officer): [Comm] The Primus is pulling away! Reinforcements incoming!
+[0000DD10] Ryder: She holds a grudge, but we're not taking her deal.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0000DD17] global_squad_krogan ⟨cond⟩: Not complaining.
+    [0000DD17] Squadmate (Krogan / Drack) ⟨cond⟩: Not complaining.
 ├ option 2:
-    [0000DD16] global_squad_turian ⟨cond⟩: Not complaining.
+    [0000DD16] Squadmate (Turian / Vetra) ⟨cond⟩: Not complaining.
 ├ option 3:
-    [0000DD15] global_squad_male_human ⟨cond⟩: Not complaining.
+    [0000DD15] Squadmate (Human ♂) ⟨cond⟩: Not complaining.
 ├ option 4:
-    [0000DD14] global_squad_angara ⟨cond⟩: Not complaining.
+    [0000DD14] Squadmate (Angara / Jaal) ⟨cond⟩: Not complaining.
 ├ option 5:
-    [0000DD13] global_squad_asari ⟨cond⟩: Not complaining.
+    [0000DD13] Squadmate (Asari / Peebee) ⟨cond⟩: Not complaining.
 └─ merge ─┘
-[00025742] Hero: Kett dropship! Head's up!
-[00025CE8] global_nexus_militia_leader: [Comm] Your own reinforcements on-site, Pathfinder!
-[00025CEA] angararesleader_multi: [Comm] The Resistance is with you!
+[00025742] Ryder: Kett dropship! Head's up!
+[00025CE8] Tiran Kandros (Militia Leader): [Comm] Your own reinforcements on-site, Pathfinder!
+[00025CEA] Evfra de Tershaav (Resistance Leader): [Comm] The Resistance is with you!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00025CF0] kad_charlatan ⟨cond⟩: [Comm] Always up for the adventure. Or whatever this is!
+    [00025CF0] The Charlatan ⟨cond⟩: [Comm] Always up for the adventure. Or whatever this is!
 ├ option 2:
-    [00025CE9] kad_queen: [Comm] Kadara's here too. Remember that.
+    [00025CE9] Krogan Overlord (Nakmor Morda): [Comm] Kadara's here too. Remember that.
 └─ merge ─┘
-[0002574A] global_nexus_militia_leader: [Comm] Holding here, Pathfinder. We'll follow once topside is secure.
-[0002574D] angararesleader_multi: [Comm] Don't know how many kett got in, but there won't be more.
-[0002574C] Hero: More kett deploying! Get ready!
-[00025CE5] global_crew_science_officer: [Comm] The Primus is holding position!
-[00025CE3] Hero: She's waiting for an answer on the deal.
+[0002574A] Tiran Kandros (Militia Leader): [Comm] Holding here, Pathfinder. We'll follow once topside is secure.
+[0002574D] Evfra de Tershaav (Resistance Leader): [Comm] Don't know how many kett got in, but there won't be more.
+[0002574C] Ryder: More kett deploying! Get ready!
+[00025CE5] Suvi (Science Officer): [Comm] The Primus is holding position!
+[00025CE3] Ryder: She's waiting for an answer on the deal.

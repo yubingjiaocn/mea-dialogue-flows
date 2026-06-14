@@ -1,81 +1,81 @@
 # game/conversations/bstory/sal/sal_0150_device_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/sal/sal_0150_device_b.xml
 ==================================================
-[0002DF04] Hero [OncePerGame]: Kett! Right where that agent sent us!
+[0002DF04] Ryder [OncePerGame]: Kett! Right where that agent sent us!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002DF09] global_squad_angara ⟨cond⟩: They're not going to talk peacefully!
+    [0002DF09] Squadmate (Angara / Jaal) ⟨cond⟩: They're not going to talk peacefully!
 ├ option 2:
-    [0002DF07] global_squad_asari ⟨cond⟩: I don't think they're going to answer any questions!
+    [0002DF07] Squadmate (Asari / Peebee) ⟨cond⟩: I don't think they're going to answer any questions!
 ├ option 3:
-    [0002DF06] global_squad_krogan ⟨cond⟩: Easier to search when they're dead!
+    [0002DF06] Squadmate (Krogan / Drack) ⟨cond⟩: Easier to search when they're dead!
 ├ option 4:
-    [0002DF0A] global_squad_male_human ⟨cond⟩: Guess it's too late to talk this out!
+    [0002DF0A] Squadmate (Human ♂) ⟨cond⟩: Guess it's too late to talk this out!
 ├ option 5:
-    [0002DF08] global_squad_female_human ⟨cond⟩: We want answers, we'll have to fight for them!
+    [0002DF08] Squadmate (Human ♀) ⟨cond⟩: We want answers, we'll have to fight for them!
 └─ merge ─┘
-[00019EEB] Hero: If that STG agent was right, this kett was Dr. Aden's contact.
-[00019EF5] Hero: Let's get a scan.
+[00019EEB] Ryder: If that STG agent was right, this kett was Dr. Aden's contact.
+[00019EF5] Ryder: Let's get a scan.
 [00019EEA] SAM: This kett has a Milky Way comm device implanted.
 [00019EF8] SAM: Particle vibration on the transmitter resembles salarian encryptions.
-[00019EFA] Hero: "Resembles" doesn't prove much. The kett could've found the implant on the salarian ark.
+[00019EFA] Ryder: "Resembles" doesn't prove much. The kett could've found the implant on the salarian ark.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00019F00] global_squad_angara ⟨cond⟩: There is still Aden's equipment.
+        [00019F00] Squadmate (Angara / Jaal) ⟨cond⟩: There is still Aden's equipment.
     ├ option 2:
-        [00019F04] global_squad_asari ⟨cond⟩: We've still got the other lead, Aden's equipment.
+        [00019F04] Squadmate (Asari / Peebee) ⟨cond⟩: We've still got the other lead, Aden's equipment.
     ├ option 3:
-        [00019F02] global_squad_turian ⟨cond⟩: We should check out Aden's equipment, too.
+        [00019F02] Squadmate (Turian / Vetra) ⟨cond⟩: We should check out Aden's equipment, too.
     ├ option 4:
-        [00019F01] global_squad_male_human ⟨cond⟩: Aden's equipment might be the clincher.
+        [00019F01] Squadmate (Human ♂) ⟨cond⟩: Aden's equipment might be the clincher.
     ├ option 5:
-        [00019F05] global_squad_krogan ⟨cond⟩: We've got that other lead to check on.
+        [00019F05] Squadmate (Krogan / Drack) ⟨cond⟩: We've got that other lead to check on.
     └─ merge ─┘
 ├ option 2:
-    [00019EFF] Hero ⟨cond⟩: The best leads on Aden's "betrayal," and they're both circumstantial.
+    [00019EFF] Ryder ⟨cond⟩: The best leads on Aden's "betrayal," and they're both circumstantial.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00019F3C] global_squad_male_human ⟨cond⟩: Maybe he's not the guy...
+        [00019F3C] Squadmate (Human ♂) ⟨cond⟩: Maybe he's not the guy...
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00019F3E] Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+            [00019F3E] Ryder ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
         ├ option 2:
-            [0001A88D] Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+            [0001A88D] Ryder ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
         └─ merge ─┘
     ├ option 2:
-        [00019EFC] global_squad_female_human ⟨cond⟩: Can't hang him for that.
+        [00019EFC] Squadmate (Human ♀) ⟨cond⟩: Can't hang him for that.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00019F3E] Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+            ↩ (goto) [00019F3E] Ryder ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
         ├ option 2:
-            ↩ (goto) [0001A88D] Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+            ↩ (goto) [0001A88D] Ryder ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
         └─ merge ─┘
     ├ option 3:
-        [00019F3F] global_squad_krogan ⟨cond⟩: He's salarian. Probably guilty of something.
+        [00019F3F] Squadmate (Krogan / Drack) ⟨cond⟩: He's salarian. Probably guilty of something.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00019F3E] Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+            ↩ (goto) [00019F3E] Ryder ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
         ├ option 2:
-            ↩ (goto) [0001A88D] Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+            ↩ (goto) [0001A88D] Ryder ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
         └─ merge ─┘
     ├ option 4:
-        [00019F3D] global_squad_turian ⟨cond⟩: So, we cleared an innocent man?
+        [00019F3D] Squadmate (Turian / Vetra) ⟨cond⟩: So, we cleared an innocent man?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00019F3E] Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+            ↩ (goto) [00019F3E] Ryder ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
         ├ option 2:
-            ↩ (goto) [0001A88D] Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+            ↩ (goto) [0001A88D] Ryder ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
         └─ merge ─┘
     ├ option 5:
-        [00019F40] global_squad_asari ⟨cond⟩: Too bad for Saelen.
+        [00019F40] Squadmate (Asari / Peebee) ⟨cond⟩: Too bad for Saelen.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00019F3E] Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+            ↩ (goto) [00019F3E] Ryder ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
         ├ option 2:
-            ↩ (goto) [0001A88D] Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+            ↩ (goto) [0001A88D] Ryder ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

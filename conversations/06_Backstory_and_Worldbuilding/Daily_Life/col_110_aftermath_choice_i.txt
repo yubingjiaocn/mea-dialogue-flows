@@ -2,75 +2,75 @@
 # Primary speaker: SAM
 # Source: game/conversations/bstory/life/col_110_aftermath_choice_i.xml
 ==================================================
-[0002BEFE] global_nexus_colonial_director_multi: Pathfinder. I have Dr. Kennedy on the channel.
-[0002BEFF] global_nexus_colonial_director_multi: She is... very tired. But alive.
-[0002BF01] Hero: And the baby?
-[0002BF6D] col_rogue_out_leader: Lungs like a banshee, and safe.
-[0002BF73] global_nexus_colonial_director_multi: And now that you're back in the fold, it's the Initiative's job to keep you safe.
+[0002BEFE] Foster Addison (Colonial Director): Pathfinder. I have Dr. Kennedy on the channel.
+[0002BEFF] Foster Addison (Colonial Director): She is... very tired. But alive.
+[0002BF01] Ryder: And the baby?
+[0002BF6D] Col Rogue Out Leader: Lungs like a banshee, and safe.
+[0002BF73] Foster Addison (Colonial Director): And now that you're back in the fold, it's the Initiative's job to keep you safe.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002C00E] Hero [OncePerGame]: This all started with tech that could steal Initiative resources.
-    [0002C011] global_nexus_colonial_director_multi: Dr. Kennedy has graciously offered to return her research, and any resources gained along the way.
-    [0002C013] col_rogue_out_leader: I could always just purge all data.
-    [0002C00F] global_nexus_colonial_director_multi: No, thank you. We'll keep things simple: you and your trackers all safely accounted for.
+    [0002C00E] Ryder [OncePerGame]: This all started with tech that could steal Initiative resources.
+    [0002C011] Foster Addison (Colonial Director): Dr. Kennedy has graciously offered to return her research, and any resources gained along the way.
+    [0002C013] Col Rogue Out Leader: I could always just purge all data.
+    [0002C00F] Foster Addison (Colonial Director): No, thank you. We'll keep things simple: you and your trackers all safely accounted for.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002BF86] Hero: We fought off kett and Roekaar. Those threats won't just go away.
-        [0002BFB8] col_rogue_out_leader: That's the Nexus way. Shut the doors and hope.
-        [0002BFCE] col_rogue_out_leader: Don't get me wrong, I'm grateful as hell, but it won't be long before none of this matters.
-        [0002BFD0] col_rogue_out_leader: There's others out there. I was just furthest along.
-        [0002C214] col_rogue_out_leader: If you want us safe, make it all safe.
+        [0002BF86] Ryder: We fought off kett and Roekaar. Those threats won't just go away.
+        [0002BFB8] Col Rogue Out Leader: That's the Nexus way. Shut the doors and hope.
+        [0002BFCE] Col Rogue Out Leader: Don't get me wrong, I'm grateful as hell, but it won't be long before none of this matters.
+        [0002BFD0] Col Rogue Out Leader: There's others out there. I was just furthest along.
+        [0002C214] Col Rogue Out Leader: If you want us safe, make it all safe.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002C017] Hero: It's best if you're on the Nexus.
-            [0002C019] global_nexus_colonial_director_multi: Where I can keep an eye on you. And we can talk.
-            [0002C021] col_rogue_out_leader: I haven't changed, Foster.
-            [0002C020] global_nexus_colonial_director_multi: That's what I hoped you'd say.
+            [0002C017] Ryder: It's best if you're on the Nexus.
+            [0002C019] Foster Addison (Colonial Director): Where I can keep an eye on you. And we can talk.
+            [0002C021] Col Rogue Out Leader: I haven't changed, Foster.
+            [0002C020] Foster Addison (Colonial Director): That's what I hoped you'd say.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002C038] Hero: Good luck out there, Dr. Kennedy.
-                [0002C036] col_rogue_out_leader: You as well, Ryder. Best as you can.
+                [0002C038] Ryder: Good luck out there, Dr. Kennedy.
+                [0002C036] Col Rogue Out Leader: You as well, Ryder. Best as you can.
             ├ option 2:
-                [0002C034] Hero: You never said what name you chose. Maybe Pathfinder?
+                [0002C034] Ryder: You never said what name you chose. Maybe Pathfinder?
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    [0002C037] Hero ⟨cond⟩: Sara's good too.
-                    [0002C055] col_rogue_out_leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
-                    [0002C20F] col_rogue_out_leader: Goodbye, Ryder. And thank you.
+                    [0002C037] Ryder ⟨cond⟩: Sara's good too.
+                    [0002C055] Col Rogue Out Leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
+                    [0002C20F] Col Rogue Out Leader: Goodbye, Ryder. And thank you.
                 ├ option 2:
-                    [0002C039] Hero ⟨cond⟩: Scott's good too.
-                    ↩ (goto) [0002C055] col_rogue_out_leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
+                    [0002C039] Ryder ⟨cond⟩: Scott's good too.
+                    ↩ (goto) [0002C055] Col Rogue Out Leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
                 ├ option 3:
-                    [0002C035] Hero: It's not Ryder, is it?
-                    ↩ (goto) [0002C055] col_rogue_out_leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
+                    [0002C035] Ryder: It's not Ryder, is it?
+                    ↩ (goto) [0002C055] Col Rogue Out Leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002C015] Hero ⟨cond⟩: Prodromos has started reversing the procreation blockers. You'll fit right in.
-                [0002C01B] global_nexus_colonial_director_multi: It's not too far. If you ever want to talk.
-                ↩ (goto) [0002C021] col_rogue_out_leader: I haven't changed, Foster.
+                [0002C015] Ryder ⟨cond⟩: Prodromos has started reversing the procreation blockers. You'll fit right in.
+                [0002C01B] Foster Addison (Colonial Director): It's not too far. If you ever want to talk.
+                ↩ (goto) [0002C021] Col Rogue Out Leader: I haven't changed, Foster.
             ├ option 2:
-                [0002C018] Hero: Prodromos is where we started our new lives. They'd love to welcome this one.
-                ↩ (goto) [0002C01B] global_nexus_colonial_director_multi: It's not too far. If you ever want to talk.
+                [0002C018] Ryder: Prodromos is where we started our new lives. They'd love to welcome this one.
+                ↩ (goto) [0002C01B] Foster Addison (Colonial Director): It's not too far. If you ever want to talk.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [0002BF85] Hero: Locking people up isn't the solution. We can't watch everyone all the time.
-        [0002BFB9] global_nexus_colonial_director_multi: You had to comb the cluster and run a gauntlet to save them.
-        [0002BFCF] col_rogue_out_leader: From what I've heard, they've done the same for every outpost.
+        [0002BF85] Ryder: Locking people up isn't the solution. We can't watch everyone all the time.
+        [0002BFB9] Foster Addison (Colonial Director): You had to comb the cluster and run a gauntlet to save them.
+        [0002BFCF] Col Rogue Out Leader: From what I've heard, they've done the same for every outpost.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002BFCD] col_rogue_out_leader ⟨cond⟩: Your Pathfinder knows you can't keep this bottled.
-            ↩ (goto) [0002C214] col_rogue_out_leader: If you want us safe, make it all safe.
+            [0002BFCD] Col Rogue Out Leader ⟨cond⟩: Your Pathfinder knows you can't keep this bottled.
+            ↩ (goto) [0002C214] Col Rogue Out Leader: If you want us safe, make it all safe.
         ├ option 2:
-            [00030D73] col_rogue_out_leader: Your Pathfinder knows you can't keep this bottled.
-            ↩ (goto) [0002C214] col_rogue_out_leader: If you want us safe, make it all safe.
+            [00030D73] Col Rogue Out Leader: Your Pathfinder knows you can't keep this bottled.
+            ↩ (goto) [0002C214] Col Rogue Out Leader: If you want us safe, make it all safe.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0002BF86] Hero: We fought off kett and Roekaar. Those threats won't just go away.
+    ↩ (goto) [0002BF86] Ryder: We fought off kett and Roekaar. Those threats won't just go away.
 ├ option 3:
-    ↩ (goto) [0002BF85] Hero: Locking people up isn't the solution. We can't watch everyone all the time.
+    ↩ (goto) [0002BF85] Ryder: Locking people up isn't the solution. We can't watch everyone all the time.
 └─ merge ─┘

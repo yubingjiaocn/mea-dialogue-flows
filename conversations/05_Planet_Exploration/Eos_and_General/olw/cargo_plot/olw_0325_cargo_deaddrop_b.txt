@@ -1,73 +1,73 @@
 # game/conversations/unc/olw/cargo_plot/olw_0325_cargo_deaddrop_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/olw/cargo_plot/olw_0325_cargo_deaddrop_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002A007] Hero: Maybe this will get us inside.
+    [0002A007] Ryder: Maybe this will get us inside.
 ├ option 2:
-    [00026FEF] Hero: What's that?
+    [00026FEF] Ryder: What's that?
 └─ merge ─┘
-[00029FE6] Hero: Think I found something. Looks like a wire.
-[0002A01B] Hero: Here goes nothing.
+[00029FE6] Ryder: Think I found something. Looks like a wire.
+[0002A01B] Ryder: Here goes nothing.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002A01A] global_squad_krogan ⟨cond⟩: Did it do anything?
+        [0002A01A] Squadmate (Krogan / Drack) ⟨cond⟩: Did it do anything?
     ├ option 2:
-        [0002A015] global_squad_female_human ⟨cond⟩: Let's check back.
+        [0002A015] Squadmate (Human ♀) ⟨cond⟩: Let's check back.
     ├ option 3:
-        [0002A016] global_squad_male_human ⟨cond⟩: Huh. Did it work?
+        [0002A016] Squadmate (Human ♂) ⟨cond⟩: Huh. Did it work?
     ├ option 4:
-        [0002A01E] global_squad_asari ⟨cond⟩: That it?
+        [0002A01E] Squadmate (Asari / Peebee) ⟨cond⟩: That it?
     ├ option 5:
-        [0002A019] global_squad_angara ⟨cond⟩: Interesting. Did it work?
+        [0002A019] Squadmate (Angara / Jaal) ⟨cond⟩: Interesting. Did it work?
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00029FE5] global_squad_krogan ⟨cond⟩: You know, kid. Switches can be attached to things that explode.
-        [0002A012] Hero: This one was fine.
+        [00029FE5] Squadmate (Krogan / Drack) ⟨cond⟩: You know, kid. Switches can be attached to things that explode.
+        [0002A012] Ryder: This one was fine.
     ├ option 2:
-        [0002A013] global_squad_female_human ⟨cond⟩: Maybe look around before pulling random switches?
-        [0002A020] Hero: Where's the fun in that?
+        [0002A013] Squadmate (Human ♀) ⟨cond⟩: Maybe look around before pulling random switches?
+        [0002A020] Ryder: Where's the fun in that?
     ├ option 3:
-        [00029FEA] global_squad_male_human ⟨cond⟩: Well, we didn't blow up. Good sign.
-        [0002A018] Hero: Check around. It must've done something.
+        [00029FEA] Squadmate (Human ♂) ⟨cond⟩: Well, we didn't blow up. Good sign.
+        [0002A018] Ryder: Check around. It must've done something.
     ├ option 4:
-        [00029FE9] global_squad_turian ⟨cond⟩: Your curiosity is gonna get us killed one day.
-        [0002A01D] Hero: But not today.
+        [00029FE9] Squadmate (Turian / Vetra) ⟨cond⟩: Your curiosity is gonna get us killed one day.
+        [0002A01D] Ryder: But not today.
     ├ option 5:
-        [00029FE8] global_squad_asari ⟨cond⟩: Huh. Did it do anything?
-        [0002A021] Hero: Check around.
+        [00029FE8] Squadmate (Asari / Peebee) ⟨cond⟩: Huh. Did it do anything?
+        [0002A021] Ryder: Check around.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0002A001] global_squad_asari ⟨cond⟩: Well, that's not natural.
-        [0002A005] Hero: Gotta be a way to get inside. SAM?
+        [0002A001] Squadmate (Asari / Peebee) ⟨cond⟩: Well, that's not natural.
+        [0002A005] Ryder: Gotta be a way to get inside. SAM?
         [0002A002] SAM: The lock is controlled remotely. Perhaps by something nearby.
     ├ option 2:
-        [00029FFE] global_squad_angara ⟨cond⟩: Something's built into these rocks.
-        ↩ (goto) [0002A005] Hero: Gotta be a way to get inside. SAM?
+        [00029FFE] Squadmate (Angara / Jaal) ⟨cond⟩: Something's built into these rocks.
+        ↩ (goto) [0002A005] Ryder: Gotta be a way to get inside. SAM?
     ├ option 3:
-        [0002A003] global_squad_turian ⟨cond⟩: Hey Ryder. Something's hidden here.
-        ↩ (goto) [0002A005] Hero: Gotta be a way to get inside. SAM?
+        [0002A003] Squadmate (Turian / Vetra) ⟨cond⟩: Hey Ryder. Something's hidden here.
+        ↩ (goto) [0002A005] Ryder: Gotta be a way to get inside. SAM?
     ├ option 4:
-        [0002A009] global_squad_krogan ⟨cond⟩: Sneaky bastards. Look at this, Ryder.
-        ↩ (goto) [0002A005] Hero: Gotta be a way to get inside. SAM?
+        [0002A009] Squadmate (Krogan / Drack) ⟨cond⟩: Sneaky bastards. Look at this, Ryder.
+        ↩ (goto) [0002A005] Ryder: Gotta be a way to get inside. SAM?
     ├ option 5:
-        [0002A000] global_squad_male_human ⟨cond⟩: Some kind of grate here.
-        ↩ (goto) [0002A005] Hero: Gotta be a way to get inside. SAM?
+        [0002A000] Squadmate (Human ♂) ⟨cond⟩: Some kind of grate here.
+        ↩ (goto) [0002A005] Ryder: Gotta be a way to get inside. SAM?
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002A014] Hero: Success. It's open.
+        [0002A014] Ryder: Success. It's open.
     ├ option 2:
-        [0002A01C] Hero: Huh. A datapad.
+        [0002A01C] Ryder: Huh. A datapad.
     └─ merge ─┘
 └─ merge ─┘

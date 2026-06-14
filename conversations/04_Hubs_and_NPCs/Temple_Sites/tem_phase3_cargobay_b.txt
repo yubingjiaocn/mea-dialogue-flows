@@ -1,68 +1,68 @@
 # game/conversations/hubs/hub_tem/banter/tem_phase3_cargobay_b
-# Primary speaker: global_squad_krogan
+# Primary speaker: Squadmate (Krogan / Drack)
 # Source: game/conversations/hubs/hub_tem/banter/tem_phase3_cargobay_b.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002CEF8] global_squad_female_human: [Comm] Got a minute? I'm in the bio lab.
+        [0002CEF8] Squadmate (Human ♀): [Comm] Got a minute? I'm in the bio lab.
     ├ option 2:
-        [0002CEFC] global_crew_tech_officer: [Comm] In engineering if you need anything, Ryder.
+        [0002CEFC] Gil (Tech Officer): [Comm] In engineering if you need anything, Ryder.
     ├ option 3:
-        [0002CEFB] global_squad_krogan: [Comm] I'm in the galley when you're free.
+        [0002CEFB] Squadmate (Krogan / Drack): [Comm] I'm in the galley when you're free.
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [0002C0CB] global_squad_krogan: Now exaltation. The kett just keep asking for more trouble.
-        [0002C0CA] global_crew_tech_officer: Really looking forward to kicking those guys in the teeth.
-        [0002C0F5] global_squad_female_human: Get us there, and we'll save you a place in line.
+        [0002C0CB] Squadmate (Krogan / Drack): Now exaltation. The kett just keep asking for more trouble.
+        [0002C0CA] Gil (Tech Officer): Really looking forward to kicking those guys in the teeth.
+        [0002C0F5] Squadmate (Human ♀): Get us there, and we'll save you a place in line.
     ├ option 2:
-        [0002CEEB] global_squad_krogan: So the angara were fighting their own this whole time. Fuck...
-        [0002CEE8] global_crew_tech_officer: Wonder how Jaal's taking it.
-        [0002CEF1] global_squad_female_human: Not well.
+        [0002CEEB] Squadmate (Krogan / Drack): So the angara were fighting their own this whole time. Fuck...
+        [0002CEE8] Gil (Tech Officer): Wonder how Jaal's taking it.
+        [0002CEF1] Squadmate (Human ♀): Not well.
     ├ option 3:
-        [0002CEF0] global_crew_tech_officer ⟨cond⟩: Ryder has me tinkering with a kett transmitter. Either of you know why?
+        [0002CEF0] Gil (Tech Officer) ⟨cond⟩: Ryder has me tinkering with a kett transmitter. Either of you know why?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002CEEF] global_squad_female_human ⟨cond⟩: She didn't tell you?
+            [0002CEEF] Squadmate (Human ♀) ⟨cond⟩: She didn't tell you?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002E0B8] global_crew_tech_officer ⟨cond⟩: Said we're trying to find the Archon's flagship, so we can board it.
-                [0002E0B7] global_crew_tech_officer: Clearly a joke. Hoping you can give me the straight scoop.
-                [0002CEE9] global_squad_krogan: That's exactly what we're gonna do.
-                [0002E0B6] global_crew_tech_officer: Say... what?
+                [0002E0B8] Gil (Tech Officer) ⟨cond⟩: Said we're trying to find the Archon's flagship, so we can board it.
+                [0002E0B7] Gil (Tech Officer): Clearly a joke. Hoping you can give me the straight scoop.
+                [0002CEE9] Squadmate (Krogan / Drack): That's exactly what we're gonna do.
+                [0002E0B6] Gil (Tech Officer): Say... what?
             ├ option 2:
-                [00032852] global_crew_tech_officer: Said we're trying to find the Archon's flagship, so we can board it.
-                ↩ (goto) [0002E0B7] global_crew_tech_officer: Clearly a joke. Hoping you can give me the straight scoop.
+                [00032852] Gil (Tech Officer): Said we're trying to find the Archon's flagship, so we can board it.
+                ↩ (goto) [0002E0B7] Gil (Tech Officer): Clearly a joke. Hoping you can give me the straight scoop.
             └─ merge ─┘
         ├ option 2:
-            [0002E0B5] global_squad_female_human: He didn't tell you?
+            [0002E0B5] Squadmate (Human ♀): He didn't tell you?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [0002E0B8] global_crew_tech_officer ⟨cond⟩: Said we're trying to find the Archon's flagship, so we can board it.
+                ↩ (goto) [0002E0B8] Gil (Tech Officer) ⟨cond⟩: Said we're trying to find the Archon's flagship, so we can board it.
             ├ option 2:
-                ↩ (goto) [00032852] global_crew_tech_officer: Said we're trying to find the Archon's flagship, so we can board it.
+                ↩ (goto) [00032852] Gil (Tech Officer): Said we're trying to find the Archon's flagship, so we can board it.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 4:
-        [0002C10B] global_squad_female_human: No poker tonight. Reports. Lots of them.
-        [0002C10F] global_crew_tech_officer: But Lieutenant, you can't possibly lose three in a row.
-        [0002C10A] global_squad_female_human: I know what you're trying to do, and I hate that it's working.
-        [0002C10C] global_squad_krogan: {i}(Laughs.){/i} How're you gonna spend your fortune, Gil?
+        [0002C10B] Squadmate (Human ♀): No poker tonight. Reports. Lots of them.
+        [0002C10F] Gil (Tech Officer): But Lieutenant, you can't possibly lose three in a row.
+        [0002C10A] Squadmate (Human ♀): I know what you're trying to do, and I hate that it's working.
+        [0002C10C] Squadmate (Krogan / Drack): {i}(Laughs.){/i} How're you gonna spend your fortune, Gil?
     ├ option 5:
-        [0002E827] global_crew_tech_officer: Hey, Drack—devil's advocate, okay?
-        [0002E822] global_squad_krogan: Go for it.
-        [0002E826] global_crew_tech_officer: With the kett entrenched here, and things... as they are, maybe we should focus our efforts on leaving this cluster?
-        [0002E825] global_squad_krogan: You mean quit? Run away?
-        [0002E81E] global_crew_tech_officer: Well, we came to find a new home, not a new enemy, right?
-        [0002E81F] global_squad_female_human: We knew this was a possible scenario. And we took the jump, anyway.
-        [0002E824] global_squad_krogan: What she said.
+        [0002E827] Gil (Tech Officer): Hey, Drack—devil's advocate, okay?
+        [0002E822] Squadmate (Krogan / Drack): Go for it.
+        [0002E826] Gil (Tech Officer): With the kett entrenched here, and things... as they are, maybe we should focus our efforts on leaving this cluster?
+        [0002E825] Squadmate (Krogan / Drack): You mean quit? Run away?
+        [0002E81E] Gil (Tech Officer): Well, we came to find a new home, not a new enemy, right?
+        [0002E81F] Squadmate (Human ♀): We knew this was a possible scenario. And we took the jump, anyway.
+        [0002E824] Squadmate (Krogan / Drack): What she said.
     ├ option 6:
-        [0002E829] global_squad_krogan: So the turians kick out the genophage, basically destroy our people, and they get a pat on the back and a seat on the council.
-        [0002E828] global_squad_krogan: But what do I get? A medal.
-        [0002E821] global_squad_female_human: A medal? From who?
-        [0002E823] global_squad_krogan: My buddy. Made one out of a piece of scrap and pinned it to my chest. Still got it somewhere.
+        [0002E829] Squadmate (Krogan / Drack): So the turians kick out the genophage, basically destroy our people, and they get a pat on the back and a seat on the council.
+        [0002E828] Squadmate (Krogan / Drack): But what do I get? A medal.
+        [0002E821] Squadmate (Human ♀): A medal? From who?
+        [0002E823] Squadmate (Krogan / Drack): My buddy. Made one out of a piece of scrap and pinned it to my chest. Still got it somewhere.
     └─ merge ─┘
 └─ merge ─┘

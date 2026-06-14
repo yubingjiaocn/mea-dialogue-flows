@@ -1,76 +1,76 @@
 # game/conversations/bstory/ket/ketbs_0600_device_suvihelp02_d
-# Primary speaker: global_crew_science_officer
+# Primary speaker: Suvi (Science Officer)
 # Source: game/conversations/bstory/ket/ketbs_0600_device_suvihelp02_d.xml
 ==================================================
-[00028617] global_humanark_asari_dr: Got your memo, Suvi. Data's right here but I'm not sure what you're expecting to find.
-[00028618] global_crew_science_officer: [Comm] Tell me you have it all sequenced.
-[0002861C] global_humanark_asari_dr: Yes, of course. It was the first thing I—
-[00028619] global_crew_science_officer: [Comm] Perfect! SAM, can you test combinations of sequences against the lock?
+[00028617] Dr. Lexi / Asari Doctor: Got your memo, Suvi. Data's right here but I'm not sure what you're expecting to find.
+[00028618] Suvi (Science Officer): [Comm] Tell me you have it all sequenced.
+[0002861C] Dr. Lexi / Asari Doctor: Yes, of course. It was the first thing I—
+[00028619] Suvi (Science Officer): [Comm] Perfect! SAM, can you test combinations of sequences against the lock?
 [000209BC] SAM: Testing...
-[0002861B] Hero: Brute force, Dr. Anwar?
-[0002861A] global_crew_science_officer: [Comm] Tried and true method, and with SAM's processing speed, it should take no time at—
+[0002861B] Ryder: Brute force, Dr. Anwar?
+[0002861A] Suvi (Science Officer): [Comm] Tried and true method, and with SAM's processing speed, it should take no time at—
 [0002861F] SAM: Key found.
-[000209BA] global_crew_science_officer: [Comm] Whoa. We thought it was a data log. But it's not. It's... it's...
-[000209C0] global_humanark_asari_dr: Er...? It just locked onto a transmission.
+[000209BA] Suvi (Science Officer): [Comm] Whoa. We thought it was a data log. But it's not. It's... it's...
+[000209C0] Dr. Lexi / Asari Doctor: Er...? It just locked onto a transmission.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000209C2] Hero: Does it compromise our security?
+    [000209C2] Ryder: Does it compromise our security?
     [000209C5] SAM: The device is a receiver. It will not reveal our location.
-    [000209C6] global_crew_science_officer: [Comm] This transmission is... audio.
+    [000209C6] Suvi (Science Officer): [Comm] This transmission is... audio.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00020E4E] global_main_villain_lieutenant: [Audio Log] The Archon abandoned our way. Cast aside tradition, defied protocol.
-        [00020E4F] global_main_villain_lieutenant: [Audio Log] Those who repeat his mistakes will suffer his fate.
+        [00020E4E] Archon's Lieutenant: [Audio Log] The Archon abandoned our way. Cast aside tradition, defied protocol.
+        [00020E4F] Archon's Lieutenant: [Audio Log] Those who repeat his mistakes will suffer his fate.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00020E50] Hero: The Primus is trying to maintain control of the kett. Getting rid of anyone sympathetic to the Archon.
-            [00020E53] global_crew_science_officer: [Comm] Nothing like encouraging unity by killing everyone who disagrees.
-            [000209D6] global_crew_science_officer: [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
-            [000214AC] global_crew_science_officer: [Comm] I'll transmit it to your omni-tool, in case you want to check it out.
-            [000209D8] Hero: What do you think we'll find out there?
+            [00020E50] Ryder: The Primus is trying to maintain control of the kett. Getting rid of anyone sympathetic to the Archon.
+            [00020E53] Suvi (Science Officer): [Comm] Nothing like encouraging unity by killing everyone who disagrees.
+            [000209D6] Suvi (Science Officer): [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
+            [000214AC] Suvi (Science Officer): [Comm] I'll transmit it to your omni-tool, in case you want to check it out.
+            [000209D8] Ryder: What do you think we'll find out there?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [000214AA] global_crew_science_officer: [Comm] I don't know. Maybe the Primus? Maybe her people?
-                [000214A8] global_humanark_asari_dr: Whatever it is, please be careful, Ryder.
+                [000214AA] Suvi (Science Officer): [Comm] I don't know. Maybe the Primus? Maybe her people?
+                [000214A8] Dr. Lexi / Asari Doctor: Whatever it is, please be careful, Ryder.
             ├ option 2:
-                [000209D7] global_crew_science_officer: [Comm] I don't know. It might be a base of kett dissidents, organizing against the Archon.
-                ↩ (goto) [000214A8] global_humanark_asari_dr: Whatever it is, please be careful, Ryder.
+                [000209D7] Suvi (Science Officer): [Comm] I don't know. It might be a base of kett dissidents, organizing against the Archon.
+                ↩ (goto) [000214A8] Dr. Lexi / Asari Doctor: Whatever it is, please be careful, Ryder.
             └─ merge ─┘
         ├ option 2:
-            [00020E55] Hero: Wow. Harsh.
-            [00020E52] global_crew_science_officer: [Comm] No one ever accused the kett of being soft.
-            ↩ (goto) [000209D6] global_crew_science_officer: [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
+            [00020E55] Ryder: Wow. Harsh.
+            [00020E52] Suvi (Science Officer): [Comm] No one ever accused the kett of being soft.
+            ↩ (goto) [000209D6] Suvi (Science Officer): [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
         └─ merge ─┘
     ├ option 2:
-        [000209C7] ket_mysteryspeaker: [Audio Log] ...the Archon has abandoned our way. Spurns tradition, defies protocol.
-        [000209CA] ket_mysteryspeaker: [Audio Log] He abuses his authority, obsesses over Remnant secrets, and keeps us cut off from home.
-        [000209C8] ket_mysteryspeaker: [Audio Log] This cannot continue. He will return to the path of right, or be destroyed. This is my promise.
-        [000209C9] ket_mysteryspeaker: [Audio Log] An Archon stands tall only while we hold him up.
+        [000209C7] Ket Mysteryspeaker: [Audio Log] ...the Archon has abandoned our way. Spurns tradition, defies protocol.
+        [000209CA] Ket Mysteryspeaker: [Audio Log] He abuses his authority, obsesses over Remnant secrets, and keeps us cut off from home.
+        [000209C8] Ket Mysteryspeaker: [Audio Log] This cannot continue. He will return to the path of right, or be destroyed. This is my promise.
+        [000209C9] Ket Mysteryspeaker: [Audio Log] An Archon stands tall only while we hold him up.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000209CE] Hero: Someone's gunning for the Archon. I'd say that's something we can exploit.
-            [000209D2] global_humanark_asari_dr: You don't mean... try to make some kind of deal?
-            [000209CF] Hero: Don't know yet. What else is in the transmission?
-            [000209D5] global_crew_science_officer: [Comm] It's the same stuff. It repeats.
-            ↩ (goto) [000209D6] global_crew_science_officer: [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
+            [000209CE] Ryder: Someone's gunning for the Archon. I'd say that's something we can exploit.
+            [000209D2] Dr. Lexi / Asari Doctor: You don't mean... try to make some kind of deal?
+            [000209CF] Ryder: Don't know yet. What else is in the transmission?
+            [000209D5] Suvi (Science Officer): [Comm] It's the same stuff. It repeats.
+            ↩ (goto) [000209D6] Suvi (Science Officer): [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
         ├ option 2:
-            [000209CD] Hero: Someone's really upset at the Archon.
-            [000209D1] global_humanark_asari_dr: A collectivist culture would take a harsh view of any action that defied the will of the group.
-            [00028620] global_humanark_asari_dr: And isolating the kett here would breed resentment. They may feel... abandoned.
-            [000209D4] Hero: Kett? Feeling abandoned?
-            [00028621] global_humanark_asari_dr: Some things are universal.
-            ↩ (goto) [000209D6] global_crew_science_officer: [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
+            [000209CD] Ryder: Someone's really upset at the Archon.
+            [000209D1] Dr. Lexi / Asari Doctor: A collectivist culture would take a harsh view of any action that defied the will of the group.
+            [00028620] Dr. Lexi / Asari Doctor: And isolating the kett here would breed resentment. They may feel... abandoned.
+            [000209D4] Ryder: Kett? Feeling abandoned?
+            [00028621] Dr. Lexi / Asari Doctor: Some things are universal.
+            ↩ (goto) [000209D6] Suvi (Science Officer): [Comm] I wonder if there's a way to trace the signal... scanning for navpoint.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [000209C4] Hero: Oh, crap! Turn it off! Who knows what it's doing.
+    [000209C4] Ryder: Oh, crap! Turn it off! Who knows what it's doing.
     ↩ (goto) [000209C5] SAM: The device is a receiver. It will not reveal our location.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [000209D0] SAM: The Archon ordered a stop to all transmissions to the kett empire.
 ├ option 2:
-    [000214A6] global_crew_science_officer: Hey, Ryder. Thanks for doing all the legwork to activate this kett biometric lock.
-    [000214A7] global_crew_science_officer: Anyway, SAM's been working hard, and we got our replicated key.
-    [000209BD] Hero: Let's do it.
+    [000214A6] Suvi (Science Officer): Hey, Ryder. Thanks for doing all the legwork to activate this kett biometric lock.
+    [000214A7] Suvi (Science Officer): Anyway, SAM's been working hard, and we got our replicated key.
+    [000209BD] Ryder: Let's do it.
 └─ merge ─┘

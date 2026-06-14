@@ -1,34 +1,34 @@
 # game/conversations/bstory/ryderfam/ryd_sibling_alert_a
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/ryderfam/ryd_sibling_alert_a.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026629] Hero ⟨cond⟩: Scott, it's me.
-    [0002662E] global_sibling_male: [Comm] How's it going?
-    [0002662A] Hero: In the med-bay, there's a stasis pod for "Elizabeth Reilly." Find it, and I'll meet you there.
+    [00026629] Ryder ⟨cond⟩: Scott, it's me.
+    [0002662E] Scott Ryder (Sibling): [Comm] How's it going?
+    [0002662A] Ryder: In the med-bay, there's a stasis pod for "Elizabeth Reilly." Find it, and I'll meet you there.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00026632] global_sibling_male ⟨cond⟩: [Comm] Something wrong?
-        [00026630] Hero: No—just the opposite.
+        [00026632] Scott Ryder (Sibling) ⟨cond⟩: [Comm] Something wrong?
+        [00026630] Ryder: No—just the opposite.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002662D] global_sibling_male ⟨cond⟩: [Comm] So mysterious. Don't keep me waiting.
+            [0002662D] Scott Ryder (Sibling) ⟨cond⟩: [Comm] So mysterious. Don't keep me waiting.
         ├ option 2:
-            [0002662C] global_sibling_female: [Comm] Well, don't leave me hanging. Hurry up.
+            [0002662C] Sara Ryder (Sibling): [Comm] Well, don't leave me hanging. Hurry up.
         └─ merge ─┘
     ├ option 2:
-        [00026633] global_sibling_female: [Comm] Something wrong?
-        ↩ (goto) [00026630] Hero: No—just the opposite.
+        [00026633] Sara Ryder (Sibling): [Comm] Something wrong?
+        ↩ (goto) [00026630] Ryder: No—just the opposite.
     └─ merge ─┘
 ├ option 2:
-    [00026631] Hero: Sara, it's me.
-    [0002662F] global_sibling_female: [Comm] How are you?
-    ↩ (goto) [0002662A] Hero: In the med-bay, there's a stasis pod for "Elizabeth Reilly." Find it, and I'll meet you there.
+    [00026631] Ryder: Sara, it's me.
+    [0002662F] Sara Ryder (Sibling): [Comm] How are you?
+    ↩ (goto) [0002662A] Ryder: In the med-bay, there's a stasis pod for "Elizabeth Reilly." Find it, and I'll meet you there.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002665D] global_sibling_male ⟨cond⟩: There you are. What's all this about?
+    [0002665D] Scott Ryder (Sibling) ⟨cond⟩: There you are. What's all this about?
 ├ option 2:
-    [0002665C] global_sibling_female: There you are. What's going on?
+    [0002665C] Sara Ryder (Sibling): There you are. What's going on?
 └─ merge ─┘

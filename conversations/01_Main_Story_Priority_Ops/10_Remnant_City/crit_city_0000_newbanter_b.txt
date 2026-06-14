@@ -1,20 +1,20 @@
 # game/conversations/crit/crit_city/crit_city_0000_newbanter_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_city/crit_city_0000_newbanter_b.xml
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0002C003] Hero: There's the bridge. Let's get going.
+    [0002C003] Ryder: There's the bridge. Let's get going.
 ├ option 2:
-    [0002FE23] Hero: Let's see what Meridian's all about. We can start by finding its central hub.
+    [0002FE23] Ryder: Let's see what Meridian's all about. We can start by finding its central hub.
 ├ option 3:
     [0002FE25] SAM: Pathfinder, interfacing with that console has activated a gravity well.
 ├ option 4:
-    [000301F6] Hero: There's a lot to look at here. Let's not miss any of it.
+    [000301F6] Ryder: There's a lot to look at here. Let's not miss any of it.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002C007] Hero: Kett above us! We're completely open!
+    [0002C007] Ryder: Kett above us! We're completely open!
 ├ option 2:
     [0002C00D] SAM: Be warned, Pathfinder—Remnant on approach!
 ├ option 3:
@@ -22,21 +22,21 @@
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0002C9C8] Hero: That's a lot of kett equipment. Looks like they set up camp.
+    [0002C9C8] Ryder: That's a lot of kett equipment. Looks like they set up camp.
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002CA0C] Hero: Hey, that looks like a Remnant console we could use!
+        [0002CA0C] Ryder: Hey, that looks like a Remnant console we could use!
     ├ option 2:
         [0002CA0D] SAM: Remnant signal detected. There may be a usable network node nearby.
         ↩ (goto) [0002CA15] SAM: [empty]
     └─ merge ─┘
 ├ option 3:
-    [0002CA22] Hero: More hostiles sighted!
+    [0002CA22] Ryder: More hostiles sighted!
 ├ option 4:
-    [0002FE2B] Hero: Wow, it's all completely overgrown.
+    [0002FE2B] Ryder: Wow, it's all completely overgrown.
 ├ option 5:
-    [0002FE2F] Hero [OncePerGame]: Gotta be getting close to one of those towers. We need to activate both to reach Meridian's core.
+    [0002FE2F] Ryder [OncePerGame]: Gotta be getting close to one of those towers. We need to activate both to reach Meridian's core.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
@@ -44,211 +44,211 @@
     ├ option 1:
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [00030216] global_squad_krogan ⟨cond⟩ [OncePerGame]: Big jump! Watch your feet!
+            [00030216] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Big jump! Watch your feet!
         ├ option 2:
-            [00030211] global_squad_female_human ⟨cond⟩ [OncePerGame]: Ryder, be careful!
-            ↩ (goto) [0002C9DF] Hero: [empty]
+            [00030211] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Ryder, be careful!
+            ↩ (goto) [0002C9DF] Ryder: [empty]
         ├ option 3:
-            [00030215] global_squad_asari ⟨cond⟩ [OncePerGame]: Ryder, you see something? Where we going?
-            ↩ (goto) [0002C9DF] Hero: [empty]
+            [00030215] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Ryder, you see something? Where we going?
+            ↩ (goto) [0002C9DF] Ryder: [empty]
         ├ option 4:
-            [00030213] global_squad_turian ⟨cond⟩ [OncePerGame]: Watch your landing, Ryder! That's a long way to fall.
-            ↩ (goto) [0002C9DF] Hero: [empty]
+            [00030213] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Watch your landing, Ryder! That's a long way to fall.
+            ↩ (goto) [0002C9DF] Ryder: [empty]
         ├ option 5:
-            [00030217] global_squad_angara ⟨cond⟩ [OncePerGame]: Be careful, Ryder! It's a long way down!
-            ↩ (goto) [0002C9DF] Hero: [empty]
+            [00030217] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Be careful, Ryder! It's a long way down!
+            ↩ (goto) [0002C9DF] Ryder: [empty]
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            ↩ (goto) [00030216] global_squad_krogan ⟨cond⟩ [OncePerGame]: Big jump! Watch your feet!
+            ↩ (goto) [00030216] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Big jump! Watch your feet!
         ├ option 2:
-            ↩ (goto) [00030211] global_squad_female_human ⟨cond⟩ [OncePerGame]: Ryder, be careful!
+            ↩ (goto) [00030211] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Ryder, be careful!
         ├ option 3:
-            ↩ (goto) [00030215] global_squad_asari ⟨cond⟩ [OncePerGame]: Ryder, you see something? Where we going?
+            ↩ (goto) [00030215] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Ryder, you see something? Where we going?
         ├ option 4:
-            ↩ (goto) [00030213] global_squad_turian ⟨cond⟩ [OncePerGame]: Watch your landing, Ryder! That's a long way to fall.
+            ↩ (goto) [00030213] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Watch your landing, Ryder! That's a long way to fall.
         ├ option 5:
-            ↩ (goto) [00030217] global_squad_angara ⟨cond⟩ [OncePerGame]: Be careful, Ryder! It's a long way down!
+            ↩ (goto) [00030217] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Be careful, Ryder! It's a long way down!
         └─ merge ─┘
     ├ option 3:
         [00030212] SAM: Be careful, Pathfinder. The vectors involved in these leaps are quite concerning.
-        ↩ (goto) [0002C9DF] Hero: [empty]
+        ↩ (goto) [0002C9DF] Ryder: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0002CEB4] Hero: TEMP: delete this line
+    [0002CEB4] Ryder: TEMP: delete this line
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002D3ED] Hero: TEMP: Delete this line
+    [0002D3ED] Ryder: TEMP: Delete this line
 ├ option 2:
-    [0002FDAB] Hero: All right—two towers going. Should get us into Meridian's main control room.
+    [0002FDAB] Ryder: All right—two towers going. Should get us into Meridian's main control room.
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0002FDB0] Hero: I see the conduits. Some kind of pattern here.
+    [0002FDB0] Ryder: I see the conduits. Some kind of pattern here.
 ├ option 2:
-    [0002FDB4] Hero: Some kind of glyph on this thing.
+    [0002FDB4] Ryder: Some kind of glyph on this thing.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [0002FDB2] SAM ⟨cond⟩: It matches the pattern on the main console, Pathfinder.
     ├ option 2:
-        [0002FDB5] Hero: Looks like part of some kind of pattern.
-        ↩ (goto) [0002FDB6] Hero: [empty]
+        [0002FDB5] Ryder: Looks like part of some kind of pattern.
+        ↩ (goto) [0002FDB6] Ryder: [empty]
     └─ merge ─┘
 ├ option 3:
-    [0002FDBE] Hero: Let's see about re-routing the power past all the damage.
+    [0002FDBE] Ryder: Let's see about re-routing the power past all the damage.
 ├ option 4:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002FE1D] Hero [OncePerGame]: Must've messed up the power re-route. Need to follow the pattern.
+        [0002FE1D] Ryder [OncePerGame]: Must've messed up the power re-route. Need to follow the pattern.
     ├ option 2:
-        [0002FE1E] Hero [OncePerGame]: Well not that. Got to make sure the pattern's right.
+        [0002FE1E] Ryder [OncePerGame]: Well not that. Got to make sure the pattern's right.
     ├ option 3:
-        [0002FE1C] Hero [OncePerGame]: One more try at re-routing this power.
+        [0002FE1C] Ryder [OncePerGame]: One more try at re-routing this power.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002FDAE] Hero: If we crack Meridian's controls first, we make sure the Archon can't use it.
+    [0002FDAE] Ryder: If we crack Meridian's controls first, we make sure the Archon can't use it.
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00030D2D] global_squad_krogan ⟨cond⟩: That's a lot of not-quite-angara.
+        [00030D2D] Squadmate (Krogan / Drack) ⟨cond⟩: That's a lot of not-quite-angara.
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [000334F3] global_squad_female_human ⟨cond⟩: Ugh. It's like a creepy dollhouse.
+            [000334F3] Squadmate (Human ♀) ⟨cond⟩: Ugh. It's like a creepy dollhouse.
         ├ option 2:
-            [000334F6] global_squad_asari ⟨cond⟩: It's just incredible.
+            [000334F6] Squadmate (Asari / Peebee) ⟨cond⟩: It's just incredible.
         ├ option 3:
-            [000334F4] global_squad_turian ⟨cond⟩: Gotta admit, it's unsettling.
+            [000334F4] Squadmate (Turian / Vetra) ⟨cond⟩: Gotta admit, it's unsettling.
         ├ option 4:
-            [000334F7] global_squad_angara ⟨cond⟩: This is both... thrilling and awful.
+            [000334F7] Squadmate (Angara / Jaal) ⟨cond⟩: This is both... thrilling and awful.
         ├ option 5:
-            [000334F2] global_squad_male_human ⟨cond⟩: Starting to worry more about what else these Remnant can do.
+            [000334F2] Squadmate (Human ♂) ⟨cond⟩: Starting to worry more about what else these Remnant can do.
         └─ merge ─┘
     ├ option 2:
-        [00030D32] global_squad_asari ⟨cond⟩: Wow. So many. Why did they archive previous iterations?
+        [00030D32] Squadmate (Asari / Peebee) ⟨cond⟩: Wow. So many. Why did they archive previous iterations?
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [000334F5] global_squad_krogan ⟨cond⟩: Don't like it. Feels wrong.
+            [000334F5] Squadmate (Krogan / Drack) ⟨cond⟩: Don't like it. Feels wrong.
         ├ option 2:
-            ↩ (goto) [000334F3] global_squad_female_human ⟨cond⟩: Ugh. It's like a creepy dollhouse.
+            ↩ (goto) [000334F3] Squadmate (Human ♀) ⟨cond⟩: Ugh. It's like a creepy dollhouse.
         ├ option 3:
-            ↩ (goto) [000334F4] global_squad_turian ⟨cond⟩: Gotta admit, it's unsettling.
+            ↩ (goto) [000334F4] Squadmate (Turian / Vetra) ⟨cond⟩: Gotta admit, it's unsettling.
         ├ option 4:
-            ↩ (goto) [000334F7] global_squad_angara ⟨cond⟩: This is both... thrilling and awful.
+            ↩ (goto) [000334F7] Squadmate (Angara / Jaal) ⟨cond⟩: This is both... thrilling and awful.
         ├ option 5:
-            ↩ (goto) [000334F2] global_squad_male_human ⟨cond⟩: Starting to worry more about what else these Remnant can do.
+            ↩ (goto) [000334F2] Squadmate (Human ♂) ⟨cond⟩: Starting to worry more about what else these Remnant can do.
         └─ merge ─┘
     ├ option 3:
-        [00030D2F] global_squad_turian ⟨cond⟩: That's a lot of these things. Why did they keep them around?
+        [00030D2F] Squadmate (Turian / Vetra) ⟨cond⟩: That's a lot of these things. Why did they keep them around?
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            ↩ (goto) [000334F5] global_squad_krogan ⟨cond⟩: Don't like it. Feels wrong.
+            ↩ (goto) [000334F5] Squadmate (Krogan / Drack) ⟨cond⟩: Don't like it. Feels wrong.
         ├ option 2:
-            ↩ (goto) [000334F3] global_squad_female_human ⟨cond⟩: Ugh. It's like a creepy dollhouse.
+            ↩ (goto) [000334F3] Squadmate (Human ♀) ⟨cond⟩: Ugh. It's like a creepy dollhouse.
         ├ option 3:
-            ↩ (goto) [000334F6] global_squad_asari ⟨cond⟩: It's just incredible.
+            ↩ (goto) [000334F6] Squadmate (Asari / Peebee) ⟨cond⟩: It's just incredible.
         ├ option 4:
-            ↩ (goto) [000334F7] global_squad_angara ⟨cond⟩: This is both... thrilling and awful.
+            ↩ (goto) [000334F7] Squadmate (Angara / Jaal) ⟨cond⟩: This is both... thrilling and awful.
         ├ option 5:
-            ↩ (goto) [000334F2] global_squad_male_human ⟨cond⟩: Starting to worry more about what else these Remnant can do.
+            ↩ (goto) [000334F2] Squadmate (Human ♂) ⟨cond⟩: Starting to worry more about what else these Remnant can do.
         └─ merge ─┘
     ├ option 4:
-        [00030D30] global_squad_angara ⟨cond⟩: Stars. There must be hundreds... why are this many of them here?
+        [00030D30] Squadmate (Angara / Jaal) ⟨cond⟩: Stars. There must be hundreds... why are this many of them here?
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            ↩ (goto) [000334F5] global_squad_krogan ⟨cond⟩: Don't like it. Feels wrong.
+            ↩ (goto) [000334F5] Squadmate (Krogan / Drack) ⟨cond⟩: Don't like it. Feels wrong.
         ├ option 2:
-            ↩ (goto) [000334F3] global_squad_female_human ⟨cond⟩: Ugh. It's like a creepy dollhouse.
+            ↩ (goto) [000334F3] Squadmate (Human ♀) ⟨cond⟩: Ugh. It's like a creepy dollhouse.
         ├ option 3:
-            ↩ (goto) [000334F6] global_squad_asari ⟨cond⟩: It's just incredible.
+            ↩ (goto) [000334F6] Squadmate (Asari / Peebee) ⟨cond⟩: It's just incredible.
         ├ option 4:
-            ↩ (goto) [000334F4] global_squad_turian ⟨cond⟩: Gotta admit, it's unsettling.
+            ↩ (goto) [000334F4] Squadmate (Turian / Vetra) ⟨cond⟩: Gotta admit, it's unsettling.
         ├ option 5:
-            ↩ (goto) [000334F2] global_squad_male_human ⟨cond⟩: Starting to worry more about what else these Remnant can do.
+            ↩ (goto) [000334F2] Squadmate (Human ♂) ⟨cond⟩: Starting to worry more about what else these Remnant can do.
         └─ merge ─┘
     ├ option 5:
-        [00030D31] global_squad_male_human ⟨cond⟩: {i}(Whistles.){/i} There must be hundreds in here.
+        [00030D31] Squadmate (Human ♂) ⟨cond⟩: {i}(Whistles.){/i} There must be hundreds in here.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            ↩ (goto) [000334F5] global_squad_krogan ⟨cond⟩: Don't like it. Feels wrong.
+            ↩ (goto) [000334F5] Squadmate (Krogan / Drack) ⟨cond⟩: Don't like it. Feels wrong.
         ├ option 2:
-            ↩ (goto) [000334F3] global_squad_female_human ⟨cond⟩: Ugh. It's like a creepy dollhouse.
+            ↩ (goto) [000334F3] Squadmate (Human ♀) ⟨cond⟩: Ugh. It's like a creepy dollhouse.
         ├ option 3:
-            ↩ (goto) [000334F6] global_squad_asari ⟨cond⟩: It's just incredible.
+            ↩ (goto) [000334F6] Squadmate (Asari / Peebee) ⟨cond⟩: It's just incredible.
         ├ option 4:
-            ↩ (goto) [000334F4] global_squad_turian ⟨cond⟩: Gotta admit, it's unsettling.
+            ↩ (goto) [000334F4] Squadmate (Turian / Vetra) ⟨cond⟩: Gotta admit, it's unsettling.
         ├ option 5:
-            ↩ (goto) [000334F7] global_squad_angara ⟨cond⟩: This is both... thrilling and awful.
+            ↩ (goto) [000334F7] Squadmate (Angara / Jaal) ⟨cond⟩: This is both... thrilling and awful.
         ├ option 6:
-            ↩ (goto) [000334F2] global_squad_male_human ⟨cond⟩: Starting to worry more about what else these Remnant can do.
+            ↩ (goto) [000334F2] Squadmate (Human ♂) ⟨cond⟩: Starting to worry more about what else these Remnant can do.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 3:
-    [00031064] Hero: Those observers weren't here before, were they?
+    [00031064] Ryder: Those observers weren't here before, were they?
     [00031068] SAM: You activated the Remnant systems here, Pathfinder. They are likely resuming their duties.
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [00030347] Hero: Watch your backs! It's one of those that can cloak!
+    [00030347] Ryder: Watch your backs! It's one of those that can cloak!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [000335C0] global_squad_krogan ⟨cond⟩: I can still smell that kett stench!
+        [000335C0] Squadmate (Krogan / Drack) ⟨cond⟩: I can still smell that kett stench!
     ├ option 2:
-        [000335BF] global_squad_asari ⟨cond⟩: Not getting past me, cloak or no cloak!
+        [000335BF] Squadmate (Asari / Peebee) ⟨cond⟩: Not getting past me, cloak or no cloak!
     ├ option 3:
-        [000335BE] global_squad_turian ⟨cond⟩: Let's see if the cloak stops gunfire!
+        [000335BE] Squadmate (Turian / Vetra) ⟨cond⟩: Let's see if the cloak stops gunfire!
     ├ option 4:
-        [000335BD] global_squad_angara ⟨cond⟩: I hate those things!
+        [000335BD] Squadmate (Angara / Jaal) ⟨cond⟩: I hate those things!
     ├ option 5:
-        [000335BC] global_squad_male_human ⟨cond⟩: Watch your back if you watch mine!
+        [000335BC] Squadmate (Human ♂) ⟨cond⟩: Watch your back if you watch mine!
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00030345] Hero: Lost visual on the leader!
+        [00030345] Ryder: Lost visual on the leader!
     ├ option 2:
-        [0003033E] Hero: Any of you see where she went?
+        [0003033E] Ryder: Any of you see where she went?
     ├ option 3:
-        [0003033F] Hero: She's cloaked again!
+        [0003033F] Ryder: She's cloaked again!
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00030341] Hero: Got you!
+        [00030341] Ryder: Got you!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0003034D] Hero: And don't forget the rest of those kett!
+            [0003034D] Ryder: And don't forget the rest of those kett!
         ├ option 2:
         └─ merge ─┘
     ├ option 2:
-        [00030346] Hero: I see her! Focus fire!
+        [00030346] Ryder: I see her! Focus fire!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0003034D] Hero: And don't forget the rest of those kett!
+            ↩ (goto) [0003034D] Ryder: And don't forget the rest of those kett!
         ├ option 2:
-            ↩ (goto) [000351EA] Hero: [empty]
+            ↩ (goto) [000351EA] Ryder: [empty]
         └─ merge ─┘
     ├ option 3:
-        [00030340] Hero: Target in view!
+        [00030340] Ryder: Target in view!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0003034D] Hero: And don't forget the rest of those kett!
+            ↩ (goto) [0003034D] Ryder: And don't forget the rest of those kett!
         ├ option 2:
-            ↩ (goto) [000351EA] Hero: [empty]
+            ↩ (goto) [000351EA] Ryder: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 4:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00030348] Hero: I know you're around here somewhere...
+        [00030348] Ryder: I know you're around here somewhere...
     ├ option 2:
-        [0003034A] Hero: Think you're so sneaky, don't you?
-        ↩ (goto) [0003034C] Hero: [empty]
+        [0003034A] Ryder: Think you're so sneaky, don't you?
+        ↩ (goto) [0003034C] Ryder: [empty]
     ├ option 3:
-        [0003034B] Hero: Come on, where are you?
-        ↩ (goto) [0003034C] Hero: [empty]
+        [0003034B] Ryder: Come on, where are you?
+        ↩ (goto) [0003034C] Ryder: [empty]
     └─ merge ─┘
 └─ merge ─┘

@@ -1,58 +1,58 @@
 # game/conversations/hubs/hub_kad/rp/kad_extremist_0400_crimescene_a
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/hubs/hub_kad/rp/kad_extremist_0400_crimescene_a.xml
 ==================================================
-[00010780] Hero: Angaran blood. Matches your Roekaar theory, Reyes.
+[00010780] Ryder: Angaran blood. Matches your Roekaar theory, Reyes.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0001078F] SAM ⟨cond⟩: This DNA along with the inscription and footprints supports the theory proposed by Mr. Vidal, Pathfinder.
-    [0001078D] kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
-    [00010789] Hero: You know where they are?
-    [00010790] kad_charlatan: [Comm] I wasn't sitting on my ass this whole time. I'm looking at the place right now.
-    [00010A38] Hero: Send me the coordinates. These murders stop today.
+    [0001078D] The Charlatan: [Comm] Let's pay our local Roekaar a visit.
+    [00010789] Ryder: You know where they are?
+    [00010790] The Charlatan: [Comm] I wasn't sitting on my ass this whole time. I'm looking at the place right now.
+    [00010A38] Ryder: Send me the coordinates. These murders stop today.
 ├ option 2:
     [0001077D] SAM: DNA cannot identify political affiliations.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00010774] kad_charlatan [OncePerGame]: [Comm] It's a start.
+        [00010774] The Charlatan [OncePerGame]: [Comm] It's a start.
     ├ option 2:
-        [00010787] kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+        [00010787] The Charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
     └─ merge ─┘
 └─ merge ─┘
 [00010772] SAM: These footprints are distinctly angaran.
-[00010786] Hero: I count at least three attackers. The tracks make it look like an ambush.
-[00010796] kad_charlatan: [Comm] Fits the Roekaar profile.
+[00010786] Ryder: I count at least three attackers. The tracks make it look like an ambush.
+[00010796] The Charlatan: [Comm] Fits the Roekaar profile.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     [0001078A] SAM ⟨cond⟩: These footprints along with the inscription and DNA support the theory proposed by Mr. Vidal, Pathfinder.
-    ↩ (goto) [0001078D] kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+    ↩ (goto) [0001078D] The Charlatan: [Comm] Let's pay our local Roekaar a visit.
 ├ option 2:
-    ↩ (goto) [00010774] kad_charlatan [OncePerGame]: [Comm] It's a start.
+    ↩ (goto) [00010774] The Charlatan [OncePerGame]: [Comm] It's a start.
 ├ option 3:
-    ↩ (goto) [00010787] kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+    ↩ (goto) [00010787] The Charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
 └─ merge ─┘
-[00010788] Hero: The angaran footprints lead this way.
-[00010773] kad_charlatan: [Comm] See where they go.
-[0001078E] Hero: A knife. Killer must've dropped it during the getaway. Something's carved into the blade.
+[00010788] Ryder: The angaran footprints lead this way.
+[00010773] The Charlatan: [Comm] See where they go.
+[0001078E] Ryder: A knife. Killer must've dropped it during the getaway. Something's carved into the blade.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00010777] global_squad_angara ⟨cond⟩: "A home filled with strangers becomes a prison." Akksul's words.
+    [00010777] Squadmate (Angara / Jaal) ⟨cond⟩: "A home filled with strangers becomes a prison." Akksul's words.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [00010794] SAM: We do not know if the wielder was angaran. An exile could have stolen the blade.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00010774] kad_charlatan [OncePerGame]: [Comm] It's a start.
+            ↩ (goto) [00010774] The Charlatan [OncePerGame]: [Comm] It's a start.
         ├ option 2:
-            ↩ (goto) [00010787] kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+            ↩ (goto) [00010787] The Charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
         └─ merge ─┘
     ├ option 2:
         [00010782] SAM ⟨cond⟩: This inscription along with the DNA and footprints supports the theory proposed by Mr. Vidal, Pathfinder.
-        ↩ (goto) [0001078D] kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+        ↩ (goto) [0001078D] The Charlatan: [Comm] Let's pay our local Roekaar a visit.
     └─ merge ─┘
 ├ option 2:
     [00010783] SAM: It's Shelesh, the angaran trade language. "A home filled with strangers becomes a prison."
-    [00010792] Hero: Sounds pretty Roekaar.
+    [00010792] Ryder: Sounds pretty Roekaar.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         ↩ (goto) [00010782] SAM ⟨cond⟩: This inscription along with the DNA and footprints supports the theory proposed by Mr. Vidal, Pathfinder.
@@ -62,9 +62,9 @@
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    ↩ (goto) [00010774] kad_charlatan [OncePerGame]: [Comm] It's a start.
+    ↩ (goto) [00010774] The Charlatan [OncePerGame]: [Comm] It's a start.
 ├ option 2:
-    ↩ (goto) [00010787] kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+    ↩ (goto) [00010787] The Charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
 ├ option 3:
-    ↩ (goto) [0001078D] kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+    ↩ (goto) [0001078D] The Charlatan: [Comm] Let's pay our local Roekaar a visit.
 └─ merge ─┘

@@ -1,81 +1,81 @@
 # game/conversations/unc_dunes/dune_shaman_0300_gren_i
-# Primary speaker: dune_colony_gren
+# Primary speaker: Colony Gren
 # Source: game/conversations/unc_dunes/dune_shaman_0300_gren_i.xml
 ==================================================
-[0001D2B2] dune_colony_gren: I'll meet you at the arena.
+[0001D2B2] Colony Gren: I'll meet you at the arena.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
 ├ option 2:
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000351E9] Hero ⟨cond⟩: It's Gren, isn't it? I'm the Pathfinder. There's a Rite of Union waiting for you.
-    [0001CCE0] dune_colony_gren: I told Kortik, and now I'm telling you. I won't do it.
-    [0001CEBF] Hero: Varka already agreed to the rite.
-    [0001CEC1] dune_colony_gren: Don't care. I'm not fighting with that arrogant sack of rocks.
+    [000351E9] Ryder ⟨cond⟩: It's Gren, isn't it? I'm the Pathfinder. There's a Rite of Union waiting for you.
+    [0001CCE0] Colony Gren: I told Kortik, and now I'm telling you. I won't do it.
+    [0001CEBF] Ryder: Varka already agreed to the rite.
+    [0001CEC1] Colony Gren: Don't care. I'm not fighting with that arrogant sack of rocks.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001CEB0] Hero: You want to destroy the colony over this stupid feud?
-        [0001CEB7] dune_colony_gren: This colony is all I give a damn about.
-        [0001CEB3] Hero: Then don't let it get that far. Do the right thing, Gren.
-        [0001CEB8] dune_colony_gren: You sound like Kortik.
-        [0001CEC2] dune_colony_gren: Fine. If it gets everyone off my back, I'll perform the rite.
-        [0001CEB9] dune_colony_gren: But I don't trust Varka to fight fair. The second that fiend is dead, she'll gun for me.
-        [0001CEB1] dune_colony_gren: I need a third party to keep her in check. Someone neutral. Like a Pathfinder.
-        [0001CEC0] Hero: Me?
-        [0001CEB2] dune_colony_gren: That's right. I don't fight unless you do.
-        [0001CEBC] Hero: What about my squad?
-        [0001CEAF] dune_colony_gren: No squad. Just you, me, and Varka.
-        [0001DB31] Hero: Guess I don't have much of a choice.
+        [0001CEB0] Ryder: You want to destroy the colony over this stupid feud?
+        [0001CEB7] Colony Gren: This colony is all I give a damn about.
+        [0001CEB3] Ryder: Then don't let it get that far. Do the right thing, Gren.
+        [0001CEB8] Colony Gren: You sound like Kortik.
+        [0001CEC2] Colony Gren: Fine. If it gets everyone off my back, I'll perform the rite.
+        [0001CEB9] Colony Gren: But I don't trust Varka to fight fair. The second that fiend is dead, she'll gun for me.
+        [0001CEB1] Colony Gren: I need a third party to keep her in check. Someone neutral. Like a Pathfinder.
+        [0001CEC0] Ryder: Me?
+        [0001CEB2] Colony Gren: That's right. I don't fight unless you do.
+        [0001CEBC] Ryder: What about my squad?
+        [0001CEAF] Colony Gren: No squad. Just you, me, and Varka.
+        [0001DB31] Ryder: Guess I don't have much of a choice.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00035020] Hero: [empty]
+            ↩ (goto) [00035020] Ryder: [empty]
         ├ option 2:
-            ↩ (goto) [0003501D] Hero: [empty]
+            ↩ (goto) [0003501D] Ryder: [empty]
         └─ merge ─┘
     ├ option 2:
-        [0001DA53] Hero ⟨cond⟩: Help me out here, Drack.
-        [0001DA52] global_squad_krogan: Kid, you have two choices.
-        [0001DA54] global_squad_krogan: Charge into that arena—or listen to Varka call you a quadless coward for the rest of your life.
-        [0001DA50] dune_colony_gren: So you're ganging up on me, too.
-        [0001D229] dune_colony_gren: Any chance you'll just give up and leave me alone?
+        [0001DA53] Ryder ⟨cond⟩: Help me out here, Drack.
+        [0001DA52] Squadmate (Krogan / Drack): Kid, you have two choices.
+        [0001DA54] Squadmate (Krogan / Drack): Charge into that arena—or listen to Varka call you a quadless coward for the rest of your life.
+        [0001DA50] Colony Gren: So you're ganging up on me, too.
+        [0001D229] Colony Gren: Any chance you'll just give up and leave me alone?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D226] Hero: I wouldn't be here if it wasn't important.
-            [0001D22A] dune_colony_gren: Yeah, yeah.
-            ↩ (goto) [0001CEC2] dune_colony_gren: Fine. If it gets everyone off my back, I'll perform the rite.
+            [0001D226] Ryder: I wouldn't be here if it wasn't important.
+            [0001D22A] Colony Gren: Yeah, yeah.
+            ↩ (goto) [0001CEC2] Colony Gren: Fine. If it gets everyone off my back, I'll perform the rite.
         ├ option 2:
-            [0001D224] Hero: You had to be stubborn. Now you're stuck with me.
-            [0001D228] dune_colony_gren: Thought so.
-            ↩ (goto) [0001CEC2] dune_colony_gren: Fine. If it gets everyone off my back, I'll perform the rite.
+            [0001D224] Ryder: You had to be stubborn. Now you're stuck with me.
+            [0001D228] Colony Gren: Thought so.
+            ↩ (goto) [0001CEC2] Colony Gren: Fine. If it gets everyone off my back, I'll perform the rite.
         └─ merge ─┘
     ├ option 3:
-        [0001CEBA] Hero ⟨cond⟩: I guess Varka was right after all.
-        [0001CEC6] dune_colony_gren: What?
-        [0001CEB4] Hero: She told me not to bother. Said you wouldn't want to get shown up.
-        [0001CEBD] dune_colony_gren: That so? Thought she'd take all the glory for herself? Typical.
-        [0001D21E] Hero: Prove her wrong.
-        [0001D222] dune_colony_gren: Don't think I can't tell what you're doing.
-        ↩ (goto) [0001D229] dune_colony_gren: Any chance you'll just give up and leave me alone?
+        [0001CEBA] Ryder ⟨cond⟩: I guess Varka was right after all.
+        [0001CEC6] Colony Gren: What?
+        [0001CEB4] Ryder: She told me not to bother. Said you wouldn't want to get shown up.
+        [0001CEBD] Colony Gren: That so? Thought she'd take all the glory for herself? Typical.
+        [0001D21E] Ryder: Prove her wrong.
+        [0001D222] Colony Gren: Don't think I can't tell what you're doing.
+        ↩ (goto) [0001D229] Colony Gren: Any chance you'll just give up and leave me alone?
     └─ merge ─┘
 ├ option 2:
-    [0001D21D] dune_colony_gren: What?
+    [0001D21D] Colony Gren: What?
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001D21C] Hero: If you hate Varka so much, why not just leave?
-        [0001D21F] dune_colony_gren: And go where? The Nexus? Kadara and fight for scraps?
-        [0001D220] dune_colony_gren: I'm not going anywhere. This is home now. I won't give it up to her.
-        ↩ (goto) [0001D221] dune_colony_gren: [empty]
+        [0001D21C] Ryder: If you hate Varka so much, why not just leave?
+        [0001D21F] Colony Gren: And go where? The Nexus? Kadara and fight for scraps?
+        [0001D220] Colony Gren: I'm not going anywhere. This is home now. I won't give it up to her.
+        ↩ (goto) [0001D221] Colony Gren: [empty]
     ├ option 2:
-        [0001D2A3] Hero: I heard you and Varka fought side by side back home.
-        [0001D2B0] dune_colony_gren: Even then, she was always showing off. Moving in on my turf. Pushing my buttons.
-        [0001D2B4] Hero: And you didn't do the same to her?
-        [0001D2B3] dune_colony_gren: Heh. Difference is, it was funny when I did it.
-        [0001D2AE] dune_colony_gren: She's bad enough in small doses. Now I have to see her every day.
-        ↩ (goto) [0001D221] dune_colony_gren: [empty]
+        [0001D2A3] Ryder: I heard you and Varka fought side by side back home.
+        [0001D2B0] Colony Gren: Even then, she was always showing off. Moving in on my turf. Pushing my buttons.
+        [0001D2B4] Ryder: And you didn't do the same to her?
+        [0001D2B3] Colony Gren: Heh. Difference is, it was funny when I did it.
+        [0001D2AE] Colony Gren: She's bad enough in small doses. Now I have to see her every day.
+        ↩ (goto) [0001D221] Colony Gren: [empty]
     ├ option 3:
-        [0001D2AF] Hero: That's all.
-        [0001D9E4] dune_colony_gren: Good.
+        [0001D2AF] Ryder: That's all.
+        [0001D9E4] Colony Gren: Good.
     └─ merge ─┘
 └─ merge ─┘
-[0001CEBE] dune_colony_gren: When you're ready, meet me at the arena. Let's get this over with.
+[0001CEBE] Colony Gren: When you're ready, meet me at the arena. Let's get this over with.

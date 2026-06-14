@@ -1,30 +1,30 @@
 # game/conversations/unc_dunes/dune_deadzone_0500_postbattle_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_dunes/dune_deadzone_0500_postbattle_b.xml
 ==================================================
-[0001EDCD] Hero: Let's collect that board and get out of here.
-[0001EDCC] Hero: I bet he has a whole case of these somewhere.
+[0001EDCD] Ryder: Let's collect that board and get out of here.
+[0001EDCC] Ryder: I bet he has a whole case of these somewhere.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [0001EE86] global_squad_turian ⟨cond⟩ [OncePerGame]: I've had enough of being stuck.
+    [0001EE86] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: I've had enough of being stuck.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001EDD1] global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's get out of here.
-        [0001EDD0] global_squad_asari ⟨cond⟩ [OncePerGame]: This wasn't my favorite trip we've taken.
-        [0001EDCE] global_squad_angara ⟨cond⟩ [OncePerGame]: It's sad how some choose to live.
-        [0001EDCF] global_squad_krogan ⟨cond⟩ [OncePerGame]: Good riddance.
+        [0001EDD1] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Let's get out of here.
+        [0001EDD0] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: This wasn't my favorite trip we've taken.
+        [0001EDCE] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: It's sad how some choose to live.
+        [0001EDCF] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Good riddance.
     ├ option 2:
-        [0001EDD2] global_squad_male_human ⟨cond⟩ [OncePerGame]: Did we have to kill him? What a waste.
-        ↩ (goto) [0001EDCF] global_squad_krogan ⟨cond⟩ [OncePerGame]: Good riddance.
+        [0001EDD2] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Did we have to kill him? What a waste.
+        ↩ (goto) [0001EDCF] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Good riddance.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0001EDD2] global_squad_male_human ⟨cond⟩ [OncePerGame]: Did we have to kill him? What a waste.
+    ↩ (goto) [0001EDD2] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Did we have to kill him? What a waste.
 ├ option 3:
-    ↩ (goto) [0001EDD1] global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's get out of here.
+    ↩ (goto) [0001EDD1] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Let's get out of here.
 ├ option 4:
-    ↩ (goto) [0001EDD0] global_squad_asari ⟨cond⟩ [OncePerGame]: This wasn't my favorite trip we've taken.
+    ↩ (goto) [0001EDD0] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: This wasn't my favorite trip we've taken.
 ├ option 5:
-    ↩ (goto) [0001EDCE] global_squad_angara ⟨cond⟩ [OncePerGame]: It's sad how some choose to live.
+    ↩ (goto) [0001EDCE] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: It's sad how some choose to live.
 ├ option 6:
-    ↩ (goto) [0001EDCF] global_squad_krogan ⟨cond⟩ [OncePerGame]: Good riddance.
+    ↩ (goto) [0001EDCF] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Good riddance.
 └─ merge ─┘

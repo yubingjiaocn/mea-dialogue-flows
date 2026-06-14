@@ -1,33 +1,33 @@
 # game/conversations/unc_ice/ice_trap_0100_start_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_trap_0100_start_b.xml
 ==================================================
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00030140] global_squad_angara ⟨cond⟩: That's a signal beacon, used by angaran civilians. It's a distress call.
-    [0003014B] Hero: Got it. We should see if we can lend a hand.
+    [00030140] Squadmate (Angara / Jaal) ⟨cond⟩: That's a signal beacon, used by angaran civilians. It's a distress call.
+    [0003014B] Ryder: Got it. We should see if we can lend a hand.
 ├ option 2:
-    [0003013F] global_squad_krogan ⟨cond⟩: That's a flare. Flares are bad news.
-    ↩ (goto) [0003014B] Hero: Got it. We should see if we can lend a hand.
+    [0003013F] Squadmate (Krogan / Drack) ⟨cond⟩: That's a flare. Flares are bad news.
+    ↩ (goto) [0003014B] Ryder: Got it. We should see if we can lend a hand.
 ├ option 3:
-    [0003013E] global_squad_female_human ⟨cond⟩: Ryder, that's a flare. Someone could be in trouble.
-    ↩ (goto) [0003014B] Hero: Got it. We should see if we can lend a hand.
+    [0003013E] Squadmate (Human ♀) ⟨cond⟩: Ryder, that's a flare. Someone could be in trouble.
+    ↩ (goto) [0003014B] Ryder: Got it. We should see if we can lend a hand.
 ├ option 4:
-    [0003013C] global_squad_turian ⟨cond⟩: Flare! Think someone's in trouble?
-    ↩ (goto) [0003014B] Hero: Got it. We should see if we can lend a hand.
+    [0003013C] Squadmate (Turian / Vetra) ⟨cond⟩: Flare! Think someone's in trouble?
+    ↩ (goto) [0003014B] Ryder: Got it. We should see if we can lend a hand.
 ├ option 5:
-    [0003013D] global_squad_male_human ⟨cond⟩: Flare! Someone needs assistance!
-    ↩ (goto) [0003014B] Hero: Got it. We should see if we can lend a hand.
+    [0003013D] Squadmate (Human ♂) ⟨cond⟩: Flare! Someone needs assistance!
+    ↩ (goto) [0003014B] Ryder: Got it. We should see if we can lend a hand.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00030150] global_squad_angara ⟨cond⟩: Kett. I recognize their fire.
+    [00030150] Squadmate (Angara / Jaal) ⟨cond⟩: Kett. I recognize their fire.
 ├ option 2:
-    [00030151] Hero: It's the kett. They must be going after the angara.
+    [00030151] Ryder: It's the kett. They must be going after the angara.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0003015A] ice_ayran: You're Jaal! Join the fight, brother!
+    [0003015A] Ayran: You're Jaal! Join the fight, brother!
 ├ option 2:
-    [0003015C] ice_ayran: Who are you? You don't look like kett. Join the fight, or stay out of the way!
+    [0003015C] Ayran: Who are you? You don't look like kett. Join the fight, or stay out of the way!
 └─ merge ─┘

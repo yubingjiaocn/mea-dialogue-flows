@@ -1,134 +1,134 @@
 # game/conversations/loyalty/loy_hmf/loy_hmf_0300_livingq_b
-# Primary speaker: global_squad_female_human
+# Primary speaker: Squadmate (Human ♀)
 # Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0300_livingq_b.xml
 ==================================================
-[0001C51B] global_squad_female_human [OncePerGame]: An evacuation order. Someone must have dropped it.
+[0001C51B] Squadmate (Human ♀) [OncePerGame]: An evacuation order. Someone must have dropped it.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001C521] global_squad_asari ⟨cond⟩: I would too if the kett were on my heels.
+    [0001C521] Squadmate (Asari / Peebee) ⟨cond⟩: I would too if the kett were on my heels.
 ├ option 2:
-    [0001C51F] global_squad_turian ⟨cond⟩: "Don't wait for family." That's rough.
+    [0001C51F] Squadmate (Turian / Vetra) ⟨cond⟩: "Don't wait for family." That's rough.
 ├ option 3:
-    [0001C520] global_squad_krogan ⟨cond⟩: Sounds like they told people to just go.
+    [0001C520] Squadmate (Krogan / Drack) ⟨cond⟩: Sounds like they told people to just go.
 ├ option 4:
-    [0001C522] global_squad_male_human ⟨cond⟩: "Perrin Lamazia." Wonder what happened to her.
+    [0001C522] Squadmate (Human ♂) ⟨cond⟩: "Perrin Lamazia." Wonder what happened to her.
 ├ option 5:
-    [0001C51E] global_squad_angara ⟨cond⟩: It says not to wait for family. What else is worth waiting for?
+    [0001C51E] Squadmate (Angara / Jaal) ⟨cond⟩: It says not to wait for family. What else is worth waiting for?
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001C14D] global_squad_asari ⟨cond⟩: Ugh, it's pitch black down here.
-    [0001C14F] Hero: Watch your step.
+    [0001C14D] Squadmate (Asari / Peebee) ⟨cond⟩: Ugh, it's pitch black down here.
+    [0001C14F] Ryder: Watch your step.
 ├ option 2:
-    [0001C14E] global_squad_turian ⟨cond⟩: Guess the asari cut the lights. Or someone did.
-    ↩ (goto) [0001C14F] Hero: Watch your step.
+    [0001C14E] Squadmate (Turian / Vetra) ⟨cond⟩: Guess the asari cut the lights. Or someone did.
+    ↩ (goto) [0001C14F] Ryder: Watch your step.
 ├ option 3:
-    [0001C14B] global_squad_krogan ⟨cond⟩: Someone's saving power on lights.
-    ↩ (goto) [0001C14F] Hero: Watch your step.
+    [0001C14B] Squadmate (Krogan / Drack) ⟨cond⟩: Someone's saving power on lights.
+    ↩ (goto) [0001C14F] Ryder: Watch your step.
 ├ option 4:
-    [0001C149] global_squad_male_human ⟨cond⟩: No power for lights.
-    ↩ (goto) [0001C14F] Hero: Watch your step.
+    [0001C149] Squadmate (Human ♂) ⟨cond⟩: No power for lights.
+    ↩ (goto) [0001C14F] Ryder: Watch your step.
 ├ option 5:
-    [0001C14C] global_squad_angara ⟨cond⟩: Hmm. Difficult to shoot what you can't see.
-    ↩ (goto) [0001C14F] Hero: Watch your step.
+    [0001C14C] Squadmate (Angara / Jaal) ⟨cond⟩: Hmm. Difficult to shoot what you can't see.
+    ↩ (goto) [0001C14F] Ryder: Watch your step.
 └─ merge ─┘
-[0000CEF9] Hero: They really packed people in.
+[0000CEF9] Ryder: They really packed people in.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000CEF5] global_squad_asari ⟨cond⟩: A lot of asari think communal living is cozy.
-    [0000CEF2] Hero: You're not one of them?
-    [0000CEFD] global_squad_asari: Hell no! Give me personal space. And stuff space.
+    [0000CEF5] Squadmate (Asari / Peebee) ⟨cond⟩: A lot of asari think communal living is cozy.
+    [0000CEF2] Ryder: You're not one of them?
+    [0000CEFD] Squadmate (Asari / Peebee): Hell no! Give me personal space. And stuff space.
 ├ option 2:
-    [0000CEF4] global_squad_female_human: All waiting to evacuate.
+    [0000CEF4] Squadmate (Human ♀): All waiting to evacuate.
 └─ merge ─┘
-[0001C50A] Hero [OncePerGame]: That's an animal crate.
+[0001C50A] Ryder [OncePerGame]: That's an animal crate.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001C50E] global_squad_angara ⟨cond⟩: These are used to transport kett beasts.
-    [0001C512] global_squad_female_human: Oh, great.
+    [0001C50E] Squadmate (Angara / Jaal) ⟨cond⟩: These are used to transport kett beasts.
+    [0001C512] Squadmate (Human ♀): Oh, great.
 ├ option 2:
-    [0001C510] global_squad_asari ⟨cond⟩: Not any Thessian animal, that's for sure.
-    ↩ (goto) [0001C512] global_squad_female_human: Oh, great.
+    [0001C510] Squadmate (Asari / Peebee) ⟨cond⟩: Not any Thessian animal, that's for sure.
+    ↩ (goto) [0001C512] Squadmate (Human ♀): Oh, great.
 ├ option 3:
-    [0001C50F] global_squad_turian ⟨cond⟩: Smell that? Hasn't been empty for long.
-    [0001C511] global_squad_female_human: That doesn't look asari.
+    [0001C50F] Squadmate (Turian / Vetra) ⟨cond⟩: Smell that? Hasn't been empty for long.
+    [0001C511] Squadmate (Human ♀): That doesn't look asari.
 ├ option 4:
-    [0001C50B] global_squad_krogan ⟨cond⟩: Big damn animal.
-    ↩ (goto) [0001C511] global_squad_female_human: That doesn't look asari.
+    [0001C50B] Squadmate (Krogan / Drack) ⟨cond⟩: Big damn animal.
+    ↩ (goto) [0001C511] Squadmate (Human ♀): That doesn't look asari.
 ├ option 5:
-    [0001C50C] global_squad_male_human ⟨cond⟩: Maybe someone... brought their dog?
-    ↩ (goto) [0001C511] global_squad_female_human: That doesn't look asari.
+    [0001C50C] Squadmate (Human ♂) ⟨cond⟩: Maybe someone... brought their dog?
+    ↩ (goto) [0001C511] Squadmate (Human ♀): That doesn't look asari.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001C53C] global_squad_angara ⟨cond⟩: Wraiths!
+    [0001C53C] Squadmate (Angara / Jaal) ⟨cond⟩: Wraiths!
 ├ option 2:
-    [0001C53D] global_squad_female_human: The kett brought their pets!
+    [0001C53D] Squadmate (Human ♀): The kett brought their pets!
 └─ merge ─┘
-[00027D12] global_squad_female_human [OncePerGame]: Really hope these things got aboard {i}after{/i} the children left.
-[0000CF03] Hero: Stasis locker. Everything some colonist wanted to bring from home.
-[0000CF02] global_squad_angara ⟨cond⟩: Someone's entire world in one box.
+[00027D12] Squadmate (Human ♀) [OncePerGame]: Really hope these things got aboard {i}after{/i} the children left.
+[0000CF03] Ryder: Stasis locker. Everything some colonist wanted to bring from home.
+[0000CF02] Squadmate (Angara / Jaal) ⟨cond⟩: Someone's entire world in one box.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001C13C] global_squad_asari ⟨cond⟩: Whoa. Hear that?
+    [0001C13C] Squadmate (Asari / Peebee) ⟨cond⟩: Whoa. Hear that?
 ├ option 2:
-    [0001C13E] global_squad_turian ⟨cond⟩: We're not alone.
+    [0001C13E] Squadmate (Turian / Vetra) ⟨cond⟩: We're not alone.
 ├ option 3:
-    [0001C13D] global_squad_krogan ⟨cond⟩: Shhh. Someone's here.
+    [0001C13D] Squadmate (Krogan / Drack) ⟨cond⟩: Shhh. Someone's here.
 ├ option 4:
-    [0001C13A] global_squad_male_human ⟨cond⟩: Hey. We've got company.
+    [0001C13A] Squadmate (Human ♂) ⟨cond⟩: Hey. We've got company.
 ├ option 5:
-    [0001C13B] global_squad_angara ⟨cond⟩: Careful. I hear kett.
+    [0001C13B] Squadmate (Angara / Jaal) ⟨cond⟩: Careful. I hear kett.
 └─ merge ─┘
-[0000CEF8] global_squad_female_human: What were they up to?
+[0000CEF8] Squadmate (Human ♀): What were they up to?
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0000CEF7] global_squad_asari ⟨cond⟩: Looking for a nicer room? Good luck, buddy.
+    [0000CEF7] Squadmate (Asari / Peebee) ⟨cond⟩: Looking for a nicer room? Good luck, buddy.
 ├ option 2:
-    [0000CEF1] global_squad_turian ⟨cond⟩: Probably looking for a way out. Guess they found one.
+    [0000CEF1] Squadmate (Turian / Vetra) ⟨cond⟩: Probably looking for a way out. Guess they found one.
 ├ option 3:
-    [0000CEFC] global_squad_male_human ⟨cond⟩: This one's too dead to ask.
+    [0000CEFC] Squadmate (Human ♂) ⟨cond⟩: This one's too dead to ask.
 ├ option 4:
-    [0000D5D0] Hero: They were probably trying to sneak past us.
+    [0000D5D0] Ryder: They were probably trying to sneak past us.
 └─ merge ─┘
-[00011444] global_squad_female_human [OncePerGame]: "Theris." That's Sarissa's last name.
-[00011445] global_squad_female_human: So many people. Crammed in, waiting, hearing the emergency alarms...
+[00011444] Squadmate (Human ♀) [OncePerGame]: "Theris." That's Sarissa's last name.
+[00011445] Squadmate (Human ♀): So many people. Crammed in, waiting, hearing the emergency alarms...
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00011446] global_squad_female_human ⟨cond⟩: And no one came to save them.
+    [00011446] Squadmate (Human ♀) ⟨cond⟩: And no one came to save them.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001144B] global_squad_krogan ⟨cond⟩: They survived. That's a win.
+        [0001144B] Squadmate (Krogan / Drack) ⟨cond⟩: They survived. That's a win.
     ├ option 2:
-        [00011447] global_squad_asari ⟨cond⟩: Now you're just making this depressing.
+        [00011447] Squadmate (Asari / Peebee) ⟨cond⟩: Now you're just making this depressing.
     └─ merge ─┘
 ├ option 2:
-    [00011449] global_squad_female_human: The kett did that to them.
+    [00011449] Squadmate (Human ♀): The kett did that to them.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001144D] global_squad_krogan ⟨cond⟩: Screw being sad. Get angry, and use it.
+        [0001144D] Squadmate (Krogan / Drack) ⟨cond⟩: Screw being sad. Get angry, and use it.
     ├ option 2:
-        [0001144C] global_squad_angara ⟨cond⟩: Another reason to bring down retribution.
+        [0001144C] Squadmate (Angara / Jaal) ⟨cond⟩: Another reason to bring down retribution.
     ├ option 3:
-        [00011448] global_squad_male_human ⟨cond⟩: But they made it out in the end. So will the ark.
+        [00011448] Squadmate (Human ♂) ⟨cond⟩: But they made it out in the end. So will the ark.
     └─ merge ─┘
 └─ merge ─┘
-[00024287] Hero [OncePerGame]: What's this?
+[00024287] Ryder [OncePerGame]: What's this?
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [00024298] global_squad_turian ⟨cond⟩: Someone's memorial, I think.
-    [00024294] global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+    [00024298] Squadmate (Turian / Vetra) ⟨cond⟩: Someone's memorial, I think.
+    [00024294] Squadmate (Human ♀): The nameplate says "Matriarch Ishara." The Pathfinder who died.
 ├ option 2:
-    [00024295] global_squad_male_human ⟨cond⟩: It's like a memorial.
-    ↩ (goto) [00024294] global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+    [00024295] Squadmate (Human ♂) ⟨cond⟩: It's like a memorial.
+    ↩ (goto) [00024294] Squadmate (Human ♀): The nameplate says "Matriarch Ishara." The Pathfinder who died.
 ├ option 3:
-    [0002429A] global_squad_angara ⟨cond⟩: It could be a small shrine.
-    ↩ (goto) [00024294] global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+    [0002429A] Squadmate (Angara / Jaal) ⟨cond⟩: It could be a small shrine.
+    ↩ (goto) [00024294] Squadmate (Human ♀): The nameplate says "Matriarch Ishara." The Pathfinder who died.
 ├ option 4:
-    ↩ (goto) [00024294] global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+    ↩ (goto) [00024294] Squadmate (Human ♀): The nameplate says "Matriarch Ishara." The Pathfinder who died.
 └─ merge ─┘
-[00024299] Hero [OncePerGame]: Did you know Matriarch Ishara?
-[0002429B] global_squad_female_human: Only by reputation. She was a diplomat, very wise and respected.
-[00024297] global_squad_female_human: And the kett took her away. {i}(Sighs.){/i} It must be eating Sarissa up inside.
-[00024296] global_squad_asari ⟨cond⟩: It's like a bunk memorial.
-↩ (goto) [00024294] global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+[00024299] Ryder [OncePerGame]: Did you know Matriarch Ishara?
+[0002429B] Squadmate (Human ♀): Only by reputation. She was a diplomat, very wise and respected.
+[00024297] Squadmate (Human ♀): And the kett took her away. {i}(Sighs.){/i} It must be eating Sarissa up inside.
+[00024296] Squadmate (Asari / Peebee) ⟨cond⟩: It's like a bunk memorial.
+↩ (goto) [00024294] Squadmate (Human ♀): The nameplate says "Matriarch Ishara." The Pathfinder who died.

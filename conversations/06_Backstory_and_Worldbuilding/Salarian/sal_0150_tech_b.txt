@@ -1,76 +1,76 @@
 # game/conversations/bstory/sal/sal_0150_tech_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/bstory/sal/sal_0150_tech_b.xml
 ==================================================
-[00019F5E] Hero [OncePerGame]: This must be Dr. Aden's workspace, the one the STG agent is investigating.
-[00019F62] Hero: Let's see what a scan turns up.
+[00019F5E] Ryder [OncePerGame]: This must be Dr. Aden's workspace, the one the STG agent is investigating.
+[00019F62] Ryder: Let's see what a scan turns up.
 [00019F61] SAM: This equipment has been sterilized with a standard radioisotope.
 [00019F63] SAM: There are trace elements of biomaterial that could be consistent with exaltation pods.
-[00019F67] Hero: Or they could be leftovers from Aden's experiments.
+[00019F67] Ryder: Or they could be leftovers from Aden's experiments.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00019F6C] global_squad_angara ⟨cond⟩: The agent mentioned a kett handler, too.
+        [00019F6C] Squadmate (Angara / Jaal) ⟨cond⟩: The agent mentioned a kett handler, too.
     ├ option 2:
-        [00019F6D] global_squad_female_human ⟨cond⟩: So let's check out the other lead, the kett handler.
+        [00019F6D] Squadmate (Human ♀) ⟨cond⟩: So let's check out the other lead, the kett handler.
     ├ option 3:
-        [00019F6B] global_squad_turian ⟨cond⟩: We should look into the lead about the kett handler.
+        [00019F6B] Squadmate (Turian / Vetra) ⟨cond⟩: We should look into the lead about the kett handler.
     ├ option 4:
-        [00019F6E] global_squad_male_human ⟨cond⟩: What about the kett handler? That might prove it.
+        [00019F6E] Squadmate (Human ♂) ⟨cond⟩: What about the kett handler? That might prove it.
     ├ option 5:
-        [00019F6A] global_squad_krogan ⟨cond⟩: What about the other lead?
+        [00019F6A] Squadmate (Krogan / Drack) ⟨cond⟩: What about the other lead?
     └─ merge ─┘
 ├ option 2:
-    [00019F6F] Hero ⟨cond⟩: Both of these leads seem circumstantial. Nothing proves Aden betrayed the ark.
+    [00019F6F] Ryder ⟨cond⟩: Both of these leads seem circumstantial. Nothing proves Aden betrayed the ark.
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00019F72] global_squad_asari ⟨cond⟩: Yeah, it's pretty thin.
+        [00019F72] Squadmate (Asari / Peebee) ⟨cond⟩: Yeah, it's pretty thin.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001A8F2] Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+            [0001A8F2] Ryder ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
         ├ option 2:
-            [0001A8F3] Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+            [0001A8F3] Ryder ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
         └─ merge ─┘
     ├ option 2:
-        [00019F70] global_squad_angara ⟨cond⟩: Collaborators usually show more signs.
+        [00019F70] Squadmate (Angara / Jaal) ⟨cond⟩: Collaborators usually show more signs.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001A8F2] Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+            ↩ (goto) [0001A8F2] Ryder ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
         ├ option 2:
-            ↩ (goto) [0001A8F3] Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+            ↩ (goto) [0001A8F3] Ryder ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
         └─ merge ─┘
     ├ option 3:
-        [00019F73] global_squad_female_human ⟨cond⟩: So now what?
+        [00019F73] Squadmate (Human ♀) ⟨cond⟩: So now what?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001A8F2] Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+            ↩ (goto) [0001A8F2] Ryder ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
         ├ option 2:
-            ↩ (goto) [0001A8F3] Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+            ↩ (goto) [0001A8F3] Ryder ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
         └─ merge ─┘
     ├ option 4:
-        [00019F71] global_squad_turian ⟨cond⟩: There goes Saelen's investigation.
+        [00019F71] Squadmate (Turian / Vetra) ⟨cond⟩: There goes Saelen's investigation.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001A8F2] Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+            ↩ (goto) [0001A8F2] Ryder ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
         ├ option 2:
-            ↩ (goto) [0001A8F3] Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+            ↩ (goto) [0001A8F3] Ryder ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
         └─ merge ─┘
     ├ option 5:
-        [00019F74] global_squad_male_human ⟨cond⟩: At least we ruled out a suspect.
+        [00019F74] Squadmate (Human ♂) ⟨cond⟩: At least we ruled out a suspect.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001A8F2] Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+            ↩ (goto) [0001A8F2] Ryder ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
         ├ option 2:
-            ↩ (goto) [0001A8F3] Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+            ↩ (goto) [0001A8F3] Ryder ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
         └─ merge ─┘
     ├ option 6:
-        [00019F75] global_squad_krogan ⟨cond⟩: No one squirms like a salarian.
+        [00019F75] Squadmate (Krogan / Drack) ⟨cond⟩: No one squirms like a salarian.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [0001A8F2] Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+            ↩ (goto) [0001A8F2] Ryder ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
         ├ option 2:
-            ↩ (goto) [0001A8F3] Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+            ↩ (goto) [0001A8F3] Ryder ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

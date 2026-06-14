@@ -1,56 +1,56 @@
 # game/conversations/unc/storms/stm_9000_remconspire_outpost_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_9000_remconspire_outpost_b.xml
 ==================================================
-[00031B31] Hero: Someone left a warning. Looks like a work crew thinks they can take control of the Remnant.
+[00031B31] Ryder: Someone left a warning. Looks like a work crew thinks they can take control of the Remnant.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00031B74] global_squad_krogan ⟨cond⟩: I'll hear a stupider idea today, but that's a front-runner.
+    [00031B74] Squadmate (Krogan / Drack) ⟨cond⟩: I'll hear a stupider idea today, but that's a front-runner.
     [00031B73] SAM: Work crew rosters are posted publicly.
-    [00031B6F] Hero: The datapad mentioned medbay. A little work, we could find where to catch up with them.
+    [00031B6F] Ryder: The datapad mentioned medbay. A little work, we could find where to catch up with them.
 ├ option 2:
-    [00031B71] global_squad_asari ⟨cond⟩: They'll get chewed up if they try.
+    [00031B71] Squadmate (Asari / Peebee) ⟨cond⟩: They'll get chewed up if they try.
     ↩ (goto) [00031B73] SAM: Work crew rosters are posted publicly.
 ├ option 3:
-    [00031B70] global_squad_male_human ⟨cond⟩: That's a recipe for trouble.
+    [00031B70] Squadmate (Human ♂) ⟨cond⟩: That's a recipe for trouble.
     ↩ (goto) [00031B73] SAM: Work crew rosters are posted publicly.
 ├ option 4:
-    [00031B6E] global_squad_female_human ⟨cond⟩: That's an incredibly bad idea.
+    [00031B6E] Squadmate (Human ♀) ⟨cond⟩: That's an incredibly bad idea.
     ↩ (goto) [00031B73] SAM: Work crew rosters are posted publicly.
 ├ option 5:
-    [00031B75] global_squad_turian ⟨cond⟩: Yeah, that'll end well.
+    [00031B75] Squadmate (Turian / Vetra) ⟨cond⟩: Yeah, that'll end well.
     ↩ (goto) [00031B73] SAM: Work crew rosters are posted publicly.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00031BC8] Hero [OncePerGame]: Work rosters. That datapad mentioned the name Jennings...
-    [00031BCF] Hero: Here—Axel Jennings. Assigned to set up weather monitoring devices all over the desert.
+    [00031BC8] Ryder [OncePerGame]: Work rosters. That datapad mentioned the name Jennings...
+    [00031BCF] Ryder: Here—Axel Jennings. Assigned to set up weather monitoring devices all over the desert.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [00031BCE] SAM ⟨cond⟩: Only one location matches the sand from the medical equipment: a monolith.
-        [00031BF0] Hero: Let's go.
+        [00031BF0] Ryder: Let's go.
     ├ option 2:
-        [00031BCD] Hero: Too many locations to check them all. We need to narrow it down.
+        [00031BCD] Ryder: Too many locations to check them all. We need to narrow it down.
     └─ merge ─┘
 ├ option 2:
-    [00031BC7] Hero [OncePerGame]: This definitely treated wounds caused by a Remnant. That datapad said the work crew tried to control them.
+    [00031BC7] Ryder [OncePerGame]: This definitely treated wounds caused by a Remnant. That datapad said the work crew tried to control them.
     [00031BC6] SAM: Sand particles were removed from the wound. Analyzing.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [00031BDA] SAM ⟨cond⟩: Comparing with locations from the work roster, it's likely the injury occurred near a monolith.
-        ↩ (goto) [00031BF0] Hero: Let's go.
+        ↩ (goto) [00031BF0] Ryder: Let's go.
     ├ option 2:
         [00031BDB] SAM: The sand may be from several locations. I need more data to form a conclusion.
     └─ merge ─┘
 └─ merge ─┘
-[00031BFD] Hero: No sign of that work crew... but someone left their gear behind.
-[00031C01] Hero: Wait—I've got an open comm channel.
-[00031BFE] stm_remconspire_crew_01: [Comm] Easy money. Once the electrical charge builds up, we'll have ourselves some nice, obedient Remnant.
-[00031BFF] stm_remconspire_crew_02: [Comm] You better be sure this time, Jennings.
-[00031C00] stm_remconspire_crew_01: [Comm] If you're that spooked, go hide behind the Four Giants. I'm busy.
-[00031C29] Hero: Damn it! We've got to find them before they get themselves killed.
+[00031BFD] Ryder: No sign of that work crew... but someone left their gear behind.
+[00031C01] Ryder: Wait—I've got an open comm channel.
+[00031BFE] Remconspire Crew: [Comm] Easy money. Once the electrical charge builds up, we'll have ourselves some nice, obedient Remnant.
+[00031BFF] Remconspire Crew: [Comm] You better be sure this time, Jennings.
+[00031C00] Remconspire Crew: [Comm] If you're that spooked, go hide behind the Four Giants. I'm busy.
+[00031C29] Ryder: Damn it! We've got to find them before they get themselves killed.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
 ├ option 2:
 └─ merge ─┘
-[00031CF4] stm_remconspire_crew_03: Help us! Please!
+[00031CF4] Remconspire Crew: Help us! Please!

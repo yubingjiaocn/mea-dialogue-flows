@@ -1,43 +1,43 @@
 # game/conversations/unc/storms/stm_0170_find_nomad_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_0170_find_nomad_i.xml
 ==================================================
-[0002478F] Hero: "Special requisition: all-terrain scout rover."
-[00024798] global_crew_tech_officer: [Comm] A Nomad! Six wheel drive. Jump-jets. Just what you need.
+[0002478F] Ryder: "Special requisition: all-terrain scout rover."
+[00024798] Gil (Tech Officer): [Comm] A Nomad! Six wheel drive. Jump-jets. Just what you need.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000247C9] global_squad_turian ⟨cond⟩: So shiny.
+    [000247C9] Squadmate (Turian / Vetra) ⟨cond⟩: So shiny.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0002479E] Hero ⟨cond⟩: This must be what Clancy meant.
+        [0002479E] Ryder ⟨cond⟩: This must be what Clancy meant.
         [0002A61A] SAM: The crate requires an access code from a forward station.
         [0002A633] SAM: Forward stations act as emergency resupply checkpoints. Several are currently in orbit.
-        [0002A61E] Hero: I can call one down. Let's find a good spot.
+        [0002A61E] Ryder: I can call one down. Let's find a good spot.
     ├ option 2:
-        [0002479D] Hero ⟨cond⟩: This might be our ticket through the radiation.
+        [0002479D] Ryder ⟨cond⟩: This might be our ticket through the radiation.
         ↩ (goto) [0002A61A] SAM: The crate requires an access code from a forward station.
     ├ option 3:
-        [0002479C] Hero: And now it's ours.
+        [0002479C] Ryder: And now it's ours.
         ↩ (goto) [0002A61A] SAM: The crate requires an access code from a forward station.
     └─ merge ─┘
 ├ option 2:
-    [000247CB] global_squad_male_human ⟨cond⟩: I might be drooling a little bit.
+    [000247CB] Squadmate (Human ♂) ⟨cond⟩: I might be drooling a little bit.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [0002479E] Hero ⟨cond⟩: This must be what Clancy meant.
+        ↩ (goto) [0002479E] Ryder ⟨cond⟩: This must be what Clancy meant.
     ├ option 2:
-        ↩ (goto) [0002479D] Hero ⟨cond⟩: This might be our ticket through the radiation.
+        ↩ (goto) [0002479D] Ryder ⟨cond⟩: This might be our ticket through the radiation.
     ├ option 3:
-        ↩ (goto) [0002479C] Hero: And now it's ours.
+        ↩ (goto) [0002479C] Ryder: And now it's ours.
     └─ merge ─┘
 ├ option 3:
-    [000247CA] global_squad_female_human ⟨cond⟩: The Initiative only built a few.
+    [000247CA] Squadmate (Human ♀) ⟨cond⟩: The Initiative only built a few.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [0002479E] Hero ⟨cond⟩: This must be what Clancy meant.
+        ↩ (goto) [0002479E] Ryder ⟨cond⟩: This must be what Clancy meant.
     ├ option 2:
-        ↩ (goto) [0002479D] Hero ⟨cond⟩: This might be our ticket through the radiation.
+        ↩ (goto) [0002479D] Ryder ⟨cond⟩: This might be our ticket through the radiation.
     ├ option 3:
-        ↩ (goto) [0002479C] Hero: And now it's ours.
+        ↩ (goto) [0002479C] Ryder: And now it's ours.
     └─ merge ─┘
 └─ merge ─┘

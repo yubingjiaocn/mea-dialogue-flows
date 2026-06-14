@@ -1,301 +1,301 @@
 # game/conversations/unc/storms/stm_0950_outpost_science_i
-# Primary speaker: stm_outpost_staff_science
+# Primary speaker: Outpost Staff Science
 # Source: game/conversations/unc/storms/stm_0950_outpost_science_i.xml
 ==================================================
-[00017A6E] stm_outpost_staff_science [OncePerGame]: Ah, Pathfinder. I hear you're to thank for our physics-defying atmosphere processor.
-[00017A85] Hero: That's me. I'm Ryder.
-[00017A83] stm_outpost_staff_science: Hainly Abrams, director of scientific research on Eos. And writer of papers that start "What the hell, weather?"
+[00017A6E] Outpost Staff Science [OncePerGame]: Ah, Pathfinder. I hear you're to thank for our physics-defying atmosphere processor.
+[00017A85] Ryder: That's me. I'm Ryder.
+[00017A83] Outpost Staff Science: Hainly Abrams, director of scientific research on Eos. And writer of papers that start "What the hell, weather?"
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002712E] stm_outpost_staff_science ⟨cond⟩: Since we're prioritizing military defenses, we may be asking that question for a while.
-    [0001D646] stm_outpost_staff_science: But—new galaxy, new world, and a really new start. Got to keep up. How can I help you?
+    [0002712E] Outpost Staff Science ⟨cond⟩: Since we're prioritizing military defenses, we may be asking that question for a while.
+    [0001D646] Outpost Staff Science: But—new galaxy, new world, and a really new start. Got to keep up. How can I help you?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        [00017A8B] Hero: Activating that vault changed the planet. Anything to worry about?
+        [00017A8B] Ryder: Activating that vault changed the planet. Anything to worry about?
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001D845] stm_outpost_staff_science ⟨cond⟩: Like I said, we've already seen changes since you triggered Meridian. Nothing scary just yet.
+            [0001D845] Outpost Staff Science ⟨cond⟩: Like I said, we've already seen changes since you triggered Meridian. Nothing scary just yet.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002713B] stm_outpost_staff_science ⟨cond⟩: I swiped some military scanners to keep an eye on things. Best I can do.
-                ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                [0002713B] Outpost Staff Science ⟨cond⟩: I swiped some military scanners to keep an eye on things. Best I can do.
+                ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
             ├ option 2:
-                [0001D846] stm_outpost_staff_science: But Bradley's authorized round-the-clock observations—whatever's unfolding, we won't miss a thing.
-                ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                [0001D846] Outpost Staff Science: But Bradley's authorized round-the-clock observations—whatever's unfolding, we won't miss a thing.
+                ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 2:
-            [0001D6A8] stm_outpost_staff_science ⟨cond⟩: Looking at data from the other outposts, whatever these vaults are doing seems to be permanent and beneficial. So far.
-            [00017A88] stm_outpost_staff_science: But the storms show no signs of returning, and I know who to contact for Remnant tech support. I'll take it.
+            [0001D6A8] Outpost Staff Science ⟨cond⟩: Looking at data from the other outposts, whatever these vaults are doing seems to be permanent and beneficial. So far.
+            [00017A88] Outpost Staff Science: But the storms show no signs of returning, and I know who to contact for Remnant tech support. I'll take it.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001D6A7] stm_outpost_staff_science ⟨cond⟩: Now if we could figure out what's causing those seismic events, I could really sleep at night.
-                ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                [0001D6A7] Outpost Staff Science ⟨cond⟩: Now if we could figure out what's causing those seismic events, I could really sleep at night.
+                ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
             ├ option 2:
-                ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 3:
-            [00027136] stm_outpost_staff_science ⟨cond⟩: I don't believe so. Sadly our equipment is tuned for incoming enemies, not watching the skies.
-            ↩ (goto) [00017A88] stm_outpost_staff_science: But the storms show no signs of returning, and I know who to contact for Remnant tech support. I'll take it.
+            [00027136] Outpost Staff Science ⟨cond⟩: I don't believe so. Sadly our equipment is tuned for incoming enemies, not watching the skies.
+            ↩ (goto) [00017A88] Outpost Staff Science: But the storms show no signs of returning, and I know who to contact for Remnant tech support. I'll take it.
         ├ option 4:
-            [00017A8A] stm_outpost_staff_science: Considering it's world-altering technology we've never encountered before... I hope not?
-            ↩ (goto) [00017A88] stm_outpost_staff_science: But the storms show no signs of returning, and I know who to contact for Remnant tech support. I'll take it.
+            [00017A8A] Outpost Staff Science: Considering it's world-altering technology we've never encountered before... I hope not?
+            ↩ (goto) [00017A88] Outpost Staff Science: But the storms show no signs of returning, and I know who to contact for Remnant tech support. I'll take it.
         └─ merge ─┘
     ├ option 2:
-        [00027133] Hero ⟨cond⟩: How do you feel about Eos having a military outpost?
-        [00027132] stm_outpost_staff_science: Honestly, I don't like it much. This isn't what the Initiative's for, is it?
-        [00027138] stm_outpost_staff_science: We need to study Eos, understand the Remnant tech, but our budget's earmarked for military research. {i}(Sighs.){/i}
-        ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+        [00027133] Ryder ⟨cond⟩: How do you feel about Eos having a military outpost?
+        [00027132] Outpost Staff Science: Honestly, I don't like it much. This isn't what the Initiative's for, is it?
+        [00027138] Outpost Staff Science: We need to study Eos, understand the Remnant tech, but our budget's earmarked for military research. {i}(Sighs.){/i}
+        ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
     ├ option 3:
-        [00017A89] Hero ⟨cond⟩: What kind of research are you working on?
+        [00017A89] Ryder ⟨cond⟩: What kind of research are you working on?
         ┌─ BRANCH (7) ─┐
         ├ option 1:
-            [0001D6FD] stm_outpost_staff_science ⟨cond⟩ [OncePerGame]: Making sense of the massive "Meridian reaction" you caused. The whole ecology of Eos is shifting to—something.
-            [0001D748] stm_outpost_staff_science: Don't get me wrong, this is incredible, place-in-scientific-history-stuff! If I can just figure it out.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [0001D6FD] Outpost Staff Science ⟨cond⟩ [OncePerGame]: Making sense of the massive "Meridian reaction" you caused. The whole ecology of Eos is shifting to—something.
+            [0001D748] Outpost Staff Science: Don't get me wrong, this is incredible, place-in-scientific-history-stuff! If I can just figure it out.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         ├ option 2:
-            [00017A71] stm_outpost_staff_science ⟨cond⟩ [OncePerGame]: We finally built a probe to study the atmosphere processor. Bernard can—
-            [0001D75A] Hero: Bernard?
-            [0001D75B] stm_outpost_staff_science: {i}(Sighs.){/i} Bradley held a public vote on what to name the probe. At least it's memorable.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [00017A71] Outpost Staff Science ⟨cond⟩ [OncePerGame]: We finally built a probe to study the atmosphere processor. Bernard can—
+            [0001D75A] Ryder: Bernard?
+            [0001D75B] Outpost Staff Science: {i}(Sighs.){/i} Bradley held a public vote on what to name the probe. At least it's memorable.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         ├ option 3:
-            [0001D6E4] stm_outpost_staff_science ⟨cond⟩ [OncePerGame]: We're seeing actual wildlife migration—the storms prevented that for centuries. Lots of bagging and tagging right now.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [0001D6E4] Outpost Staff Science ⟨cond⟩ [OncePerGame]: We're seeing actual wildlife migration—the storms prevented that for centuries. Lots of bagging and tagging right now.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         ├ option 4:
-            [0001D6E0] stm_outpost_staff_science ⟨cond⟩ [OncePerGame]: Ramirez asked me to help out with vaccines, so I'm growing bacteria. The glamorous life of a scientist.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [0001D6E0] Outpost Staff Science ⟨cond⟩ [OncePerGame]: Ramirez asked me to help out with vaccines, so I'm growing bacteria. The glamorous life of a scientist.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         ├ option 5:
-            [0001D6E3] stm_outpost_staff_science [OncePerGame]: Your basic first-in scientific work: soil, water, atmospherics. Plus studying Remnant tech, because now I need to understand that to survive here.
+            [0001D6E3] Outpost Staff Science [OncePerGame]: Your basic first-in scientific work: soil, water, atmospherics. Plus studying Remnant tech, because now I need to understand that to survive here.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001D74A] stm_outpost_staff_science ⟨cond⟩: But Miss, er, Peebee's notes have been very handy. Thank you.
-                [0001D749] global_squad_asari: No problem.
-                ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                [0001D74A] Outpost Staff Science ⟨cond⟩: But Miss, er, Peebee's notes have been very handy. Thank you.
+                [0001D749] Squadmate (Asari / Peebee): No problem.
+                ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
             ├ option 2:
-                ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
             └─ merge ─┘
         ├ option 6:
-            [0001D6E9] stm_outpost_staff_science ⟨cond⟩: Studying these Meridian effects will keep me busy for a while. Just another century or two.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [0001D6E9] Outpost Staff Science ⟨cond⟩: Studying these Meridian effects will keep me busy for a while. Just another century or two.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         ├ option 7:
-            [0001D6E2] stm_outpost_staff_science: I'm reading up on the Remnant. Our lives here on Eos probably depend on it, so keep those scans coming.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [0001D6E2] Outpost Staff Science: I'm reading up on the Remnant. Our lives here on Eos probably depend on it, so keep those scans coming.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         └─ merge ─┘
     ├ option 4:
-        [00017A67] Hero: What do you make of Lieutenant Bradley?
+        [00017A67] Ryder: What do you make of Lieutenant Bradley?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D6E1] stm_outpost_staff_science ⟨cond⟩: I like that he'll hang up on Director Tann to help someone carry a bag of cement.
-            [00017A6F] stm_outpost_staff_science: Bradley would carry this outpost on his back if he had to. And we'll make sure he never has to.
-            ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+            [0001D6E1] Outpost Staff Science ⟨cond⟩: I like that he'll hang up on Director Tann to help someone carry a bag of cement.
+            [00017A6F] Outpost Staff Science: Bradley would carry this outpost on his back if he had to. And we'll make sure he never has to.
+            ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
         ├ option 2:
-            [00017A77] stm_outpost_staff_science: Determined as hell. And he has incredible faith in us to get this done.
-            ↩ (goto) [00017A6F] stm_outpost_staff_science: Bradley would carry this outpost on his back if he had to. And we'll make sure he never has to.
+            [00017A77] Outpost Staff Science: Determined as hell. And he has incredible faith in us to get this done.
+            ↩ (goto) [00017A6F] Outpost Staff Science: Bradley would carry this outpost on his back if he had to. And we'll make sure he never has to.
         └─ merge ─┘
     ├ option 5:
-        [0001DA08] Hero ⟨cond⟩: What brought you out here to Andromeda?
-        [0001DA05] stm_outpost_staff_science: Back home, I was filling test tubes in some dead-end lab. People knew me as Stephan. But that was never who I was.
-        [0002A726] stm_outpost_staff_science: I knew what I could do. And I knew who I wanted to do it as.
-        [0001DA09] stm_outpost_staff_science: "Hainly Abrams, Andromeda Explorer." That's me. Feels good. Feels right.
-        [0001DA06] Hero: What made you choose the name "Hainly"?
-        [0001DA02] stm_outpost_staff_science: It's the initials of all my favorite places back home. My fiance helped me pick it before we left.
-        [0001E994] stm_outpost_staff_science ⟨cond⟩: And now Evan's here to make it complete, thanks to you.
-        [0001DA04] stm_outpost_staff_science: When it's time, I'm... hoping Bradley will perform our wedding ceremony.
-        ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+        [0001DA08] Ryder ⟨cond⟩: What brought you out here to Andromeda?
+        [0001DA05] Outpost Staff Science: Back home, I was filling test tubes in some dead-end lab. People knew me as Stephan. But that was never who I was.
+        [0002A726] Outpost Staff Science: I knew what I could do. And I knew who I wanted to do it as.
+        [0001DA09] Outpost Staff Science: "Hainly Abrams, Andromeda Explorer." That's me. Feels good. Feels right.
+        [0001DA06] Ryder: What made you choose the name "Hainly"?
+        [0001DA02] Outpost Staff Science: It's the initials of all my favorite places back home. My fiance helped me pick it before we left.
+        [0001E994] Outpost Staff Science ⟨cond⟩: And now Evan's here to make it complete, thanks to you.
+        [0001DA04] Outpost Staff Science: When it's time, I'm... hoping Bradley will perform our wedding ceremony.
+        ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
     ├ option 6:
-        [00017A7A] Hero: I've got to go.
-        [00017A6A] stm_outpost_staff_science: Keep up the good work.
+        [00017A7A] Ryder: I've got to go.
+        [00017A6A] Outpost Staff Science: Keep up the good work.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0001D646] stm_outpost_staff_science: But—new galaxy, new world, and a really new start. Got to keep up. How can I help you?
+    ↩ (goto) [0001D646] Outpost Staff Science: But—new galaxy, new world, and a really new start. Got to keep up. How can I help you?
 └─ merge ─┘
-[0002ACE5] stm_outpost_staff_science: It seems like there's no galaxy free of people like the Roekaar.
+[0002ACE5] Outpost Staff Science: It seems like there's no galaxy free of people like the Roekaar.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0002ACE3] stm_outpost_staff_science ⟨cond⟩: For once, I was glad to have so many soldiers around.
-    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+    [0002ACE3] Outpost Staff Science ⟨cond⟩: For once, I was glad to have so many soldiers around.
+    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
 ├ option 2:
-    [0002ACE2] stm_outpost_staff_science ⟨cond⟩: So much for peaceful studies. Maybe we should get some armed personnel after all.
-    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+    [0002ACE2] Outpost Staff Science ⟨cond⟩: So much for peaceful studies. Maybe we should get some armed personnel after all.
+    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
 └─ merge ─┘
-[00020966] stm_outpost_staff_science: This is a lot to take in.
+[00020966] Outpost Staff Science: This is a lot to take in.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00020968] stm_outpost_staff_science ⟨cond⟩: A giant Remnant is, uh, definitely something, but now we know what we're dealing with.
+    [00020968] Outpost Staff Science ⟨cond⟩: A giant Remnant is, uh, definitely something, but now we know what we're dealing with.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00020969] stm_outpost_staff_science ⟨cond⟩: Though, you know that mining natural gas isn't good for Eos. We learned that on Earth.
+        [00020969] Outpost Staff Science ⟨cond⟩: Though, you know that mining natural gas isn't good for Eos. We learned that on Earth.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00020981] Hero: This planet has an atmosphere processor. It's a different situation.
-            [00020A4A] stm_outpost_staff_science: So different that this mining could do anything.
-            [00020976] stm_outpost_staff_science: I wonder. That independent nation, Advent, doesn't want anything to do with us or the Nexus.
+            [00020981] Ryder: This planet has an atmosphere processor. It's a different situation.
+            [00020A4A] Outpost Staff Science: So different that this mining could do anything.
+            [00020976] Outpost Staff Science: I wonder. That independent nation, Advent, doesn't want anything to do with us or the Nexus.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002097B] stm_outpost_staff_science ⟨cond⟩: Would that include helping them handle Architects? We're all on Eos together.
+                [0002097B] Outpost Staff Science ⟨cond⟩: Would that include helping them handle Architects? We're all on Eos together.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0002097D] Hero: Ideals shouldn't get people killed. If this happens near Advent, we should go and help.
+                    [0002097D] Ryder: Ideals shouldn't get people killed. If this happens near Advent, we should go and help.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002ACE6] stm_outpost_staff_science ⟨cond⟩: It'll give those soldiers something to do.
-                        [00020984] stm_outpost_staff_science: I'll bring this to Bradley. Who knew we'd already need international policies?
-                        [0002098A] stm_outpost_staff_science: Thanks, Ryder. Somehow, life around here just got even more interesting...
-                        ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                        [0002ACE6] Outpost Staff Science ⟨cond⟩: It'll give those soldiers something to do.
+                        [00020984] Outpost Staff Science: I'll bring this to Bradley. Who knew we'd already need international policies?
+                        [0002098A] Outpost Staff Science: Thanks, Ryder. Somehow, life around here just got even more interesting...
+                        ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
                     ├ option 2:
-                        ↩ (goto) [00020984] stm_outpost_staff_science: I'll bring this to Bradley. Who knew we'd already need international policies?
+                        ↩ (goto) [00020984] Outpost Staff Science: I'll bring this to Bradley. Who knew we'd already need international policies?
                     └─ merge ─┘
                 ├ option 2:
-                    [00020977] Hero: We can give them our data and advice, but we have to respect what they want.
-                    [00020985] stm_outpost_staff_science: Trust me, I can respect a choice other people don't get. We'll exchange knowledge.
-                    ↩ (goto) [0002098A] stm_outpost_staff_science: Thanks, Ryder. Somehow, life around here just got even more interesting...
+                    [00020977] Ryder: We can give them our data and advice, but we have to respect what they want.
+                    [00020985] Outpost Staff Science: Trust me, I can respect a choice other people don't get. We'll exchange knowledge.
+                    ↩ (goto) [0002098A] Outpost Staff Science: Thanks, Ryder. Somehow, life around here just got even more interesting...
                 └─ merge ─┘
             ├ option 2:
-                [00020979] stm_outpost_staff_science: But what about those giant Remnant? If there's another one, we should help our neighbors.
+                [00020979] Outpost Staff Science: But what about those giant Remnant? If there's another one, we should help our neighbors.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [0002097D] Hero: Ideals shouldn't get people killed. If this happens near Advent, we should go and help.
+                    ↩ (goto) [0002097D] Ryder: Ideals shouldn't get people killed. If this happens near Advent, we should go and help.
                 ├ option 2:
-                    ↩ (goto) [00020977] Hero: We can give them our data and advice, but we have to respect what they want.
+                    ↩ (goto) [00020977] Ryder: We can give them our data and advice, but we have to respect what they want.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [00020982] Hero: We always knew these resources would come with an environmental cost.
-            [00020A53] stm_outpost_staff_science: I know, I just have a responsibility to count it.
-            ↩ (goto) [00020976] stm_outpost_staff_science: I wonder. That independent nation, Advent, doesn't want anything to do with us or the Nexus.
+            [00020982] Ryder: We always knew these resources would come with an environmental cost.
+            [00020A53] Outpost Staff Science: I know, I just have a responsibility to count it.
+            ↩ (goto) [00020976] Outpost Staff Science: I wonder. That independent nation, Advent, doesn't want anything to do with us or the Nexus.
         └─ merge ─┘
     ├ option 2:
-        [00020967] stm_outpost_staff_science: At least Eos has sustainable irrigation. We're taking good care of our new home.
+        [00020967] Outpost Staff Science: At least Eos has sustainable irrigation. We're taking good care of our new home.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002097C] Hero: Those independent nation people will need to trade with us for water.
-            [00020A54] stm_outpost_staff_science: Yeah. It's a shame we affect them. They want the Nexus to leave them alone.
+            [0002097C] Ryder: Those independent nation people will need to trade with us for water.
+            [00020A54] Outpost Staff Science: Yeah. It's a shame we affect them. They want the Nexus to leave them alone.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [0002097B] stm_outpost_staff_science ⟨cond⟩: Would that include helping them handle Architects? We're all on Eos together.
+                ↩ (goto) [0002097B] Outpost Staff Science ⟨cond⟩: Would that include helping them handle Architects? We're all on Eos together.
             ├ option 2:
-                ↩ (goto) [00020979] stm_outpost_staff_science: But what about those giant Remnant? If there's another one, we should help our neighbors.
+                ↩ (goto) [00020979] Outpost Staff Science: But what about those giant Remnant? If there's another one, we should help our neighbors.
             └─ merge ─┘
         ├ option 2:
-            [00020978] Hero: We're starting off the right way.
-            ↩ (goto) [00020976] stm_outpost_staff_science: I wonder. That independent nation, Advent, doesn't want anything to do with us or the Nexus.
+            [00020978] Ryder: We're starting off the right way.
+            ↩ (goto) [00020976] Outpost Staff Science: I wonder. That independent nation, Advent, doesn't want anything to do with us or the Nexus.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00020969] stm_outpost_staff_science ⟨cond⟩: Though, you know that mining natural gas isn't good for Eos. We learned that on Earth.
+    ↩ (goto) [00020969] Outpost Staff Science ⟨cond⟩: Though, you know that mining natural gas isn't good for Eos. We learned that on Earth.
 ├ option 3:
-    ↩ (goto) [00020967] stm_outpost_staff_science: At least Eos has sustainable irrigation. We're taking good care of our new home.
+    ↩ (goto) [00020967] Outpost Staff Science: At least Eos has sustainable irrigation. We're taking good care of our new home.
 └─ merge ─┘
-[00017A6C] stm_outpost_staff_science [OncePerGame]: There. Did you feel that tremor? We've been tracking major seismic activity lately.
+[00017A6C] Outpost Staff Science [OncePerGame]: There. Did you feel that tremor? We've been tracking major seismic activity lately.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000203A4] stm_outpost_staff_science ⟨cond⟩: The wave patterns match those Remnant "Architects." I think there's a big one nearby.
+    [000203A4] Outpost Staff Science ⟨cond⟩: The wave patterns match those Remnant "Architects." I think there's a big one nearby.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000203A5] Hero: The outpost isn't set up to handle an Architect.
-        [000203FA] stm_outpost_staff_science: No, we're not, but this isn't all bad.
-        [000203B1] stm_outpost_staff_science: Eos has massive underground rivers we can't tap. But, if we lured it just right, I believe that Architect could help irrigate the desert.
-        [000203A8] stm_outpost_staff_science: Our seismic survey hammers would be perfect. All I need is someone to place them. Um. Please?
+        [000203A5] Ryder: The outpost isn't set up to handle an Architect.
+        [000203FA] Outpost Staff Science: No, we're not, but this isn't all bad.
+        [000203B1] Outpost Staff Science: Eos has massive underground rivers we can't tap. But, if we lured it just right, I believe that Architect could help irrigate the desert.
+        [000203A8] Outpost Staff Science: Our seismic survey hammers would be perfect. All I need is someone to place them. Um. Please?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [000203AB] Hero [OncePerGame]: What's a seismic survey hammer?
-            [00020403] stm_outpost_staff_science: Fawkes built them. They punch like a dozen krogan and cause vibrational changes underground.
-            [00020404] stm_outpost_staff_science: The hammers give good geophysics data, but honestly? They're just fun.
+            [000203AB] Ryder [OncePerGame]: What's a seismic survey hammer?
+            [00020403] Outpost Staff Science: Fawkes built them. They punch like a dozen krogan and cause vibrational changes underground.
+            [00020404] Outpost Staff Science: The hammers give good geophysics data, but honestly? They're just fun.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [000203FF] Hero: You got it. Just tell me where to go.
+                [000203FF] Ryder: You got it. Just tell me where to go.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00020408] stm_outpost_staff_science ⟨cond⟩: I've marked out what seems to be the Architect's path, and several points where we can lure it. Put the hammers there.
-                    [0002040B] stm_outpost_staff_science: Just be careful. The tremors are getting worse. Anything else before you go?
-                    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+                    [00020408] Outpost Staff Science ⟨cond⟩: I've marked out what seems to be the Architect's path, and several points where we can lure it. Put the hammers there.
+                    [0002040B] Outpost Staff Science: Just be careful. The tremors are getting worse. Anything else before you go?
+                    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
                 ├ option 2:
-                    [0002040D] stm_outpost_staff_science: I've marked out the areas where the tremors seem centered. Trigger the hammers there.
-                    ↩ (goto) [0002040B] stm_outpost_staff_science: Just be careful. The tremors are getting worse. Anything else before you go?
+                    [0002040D] Outpost Staff Science: I've marked out the areas where the tremors seem centered. Trigger the hammers there.
+                    ↩ (goto) [0002040B] Outpost Staff Science: Just be careful. The tremors are getting worse. Anything else before you go?
                 └─ merge ─┘
             ├ option 2:
-                [00020401] Hero: I'm busy right now, but I might find time.
+                [00020401] Ryder: I'm busy right now, but I might find time.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [00020408] stm_outpost_staff_science ⟨cond⟩: I've marked out what seems to be the Architect's path, and several points where we can lure it. Put the hammers there.
+                    ↩ (goto) [00020408] Outpost Staff Science ⟨cond⟩: I've marked out what seems to be the Architect's path, and several points where we can lure it. Put the hammers there.
                 ├ option 2:
-                    ↩ (goto) [0002040D] stm_outpost_staff_science: I've marked out the areas where the tremors seem centered. Trigger the hammers there.
+                    ↩ (goto) [0002040D] Outpost Staff Science: I've marked out the areas where the tremors seem centered. Trigger the hammers there.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [000203FF] Hero: You got it. Just tell me where to go.
+            ↩ (goto) [000203FF] Ryder: You got it. Just tell me where to go.
         ├ option 3:
-            ↩ (goto) [00020401] Hero: I'm busy right now, but I might find time.
+            ↩ (goto) [00020401] Ryder: I'm busy right now, but I might find time.
         └─ merge ─┘
     ├ option 2:
-        [000203AF] Hero: We've tackled Architects before. This'll be a snap.
-        [000203A9] stm_outpost_staff_science: Well, before you build a fireplace big enough for your trophies, I've got a plan.
-        ↩ (goto) [000203B1] stm_outpost_staff_science: Eos has massive underground rivers we can't tap. But, if we lured it just right, I believe that Architect could help irrigate the desert.
+        [000203AF] Ryder: We've tackled Architects before. This'll be a snap.
+        [000203A9] Outpost Staff Science: Well, before you build a fireplace big enough for your trophies, I've got a plan.
+        ↩ (goto) [000203B1] Outpost Staff Science: Eos has massive underground rivers we can't tap. But, if we lured it just right, I believe that Architect could help irrigate the desert.
     └─ merge ─┘
 ├ option 2:
-    [000203A2] stm_outpost_staff_science: But I don't know what's causing it. Something strange is going on out there.
+    [000203A2] Outpost Staff Science: But I don't know what's causing it. Something strange is going on out there.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000203A6] Hero: An earthquake something, or volcano something...?
-        [000203FC] stm_outpost_staff_science: I'm guessing a Remnant something—that might help us.
-        [00020405] stm_outpost_staff_science: Eos has massive underground rivers we can't tap. But altering those tremors just right might crack the ground for irrigation.
-        ↩ (goto) [000203A8] stm_outpost_staff_science: Our seismic survey hammers would be perfect. All I need is someone to place them. Um. Please?
+        [000203A6] Ryder: An earthquake something, or volcano something...?
+        [000203FC] Outpost Staff Science: I'm guessing a Remnant something—that might help us.
+        [00020405] Outpost Staff Science: Eos has massive underground rivers we can't tap. But altering those tremors just right might crack the ground for irrigation.
+        ↩ (goto) [000203A8] Outpost Staff Science: Our seismic survey hammers would be perfect. All I need is someone to place them. Um. Please?
     ├ option 2:
-        [000203A7] Hero: When isn't there? I solve one mystery on Eos and three more pop up.
-        [000203F9] stm_outpost_staff_science: This one might be a blessing in disguise.
-        ↩ (goto) [00020405] stm_outpost_staff_science: Eos has massive underground rivers we can't tap. But altering those tremors just right might crack the ground for irrigation.
+        [000203A7] Ryder: When isn't there? I solve one mystery on Eos and three more pop up.
+        [000203F9] Outpost Staff Science: This one might be a blessing in disguise.
+        ↩ (goto) [00020405] Outpost Staff Science: Eos has massive underground rivers we can't tap. But altering those tremors just right might crack the ground for irrigation.
     └─ merge ─┘
 └─ merge ─┘
-[00017A70] stm_outpost_staff_science: What did you {i}do{/i}? The Remnant tech here is going haywire! In the best possible way, but—
-[0001D7FC] Hero: We knew activating Meridian would change the cluster.
+[00017A70] Outpost Staff Science: What did you {i}do{/i}? The Remnant tech here is going haywire! In the best possible way, but—
+[0001D7FC] Ryder: We knew activating Meridian would change the cluster.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001D7FB] stm_outpost_staff_science ⟨cond⟩: "Change a star cluster," she says. Like it's changing a light bulb.
-    [0001D825] stm_outpost_staff_science: Eos is a bigger responsibility than ever. We really did make this world what it is.
-    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+    [0001D7FB] Outpost Staff Science ⟨cond⟩: "Change a star cluster," she says. Like it's changing a light bulb.
+    [0001D825] Outpost Staff Science: Eos is a bigger responsibility than ever. We really did make this world what it is.
+    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
 ├ option 2:
-    [0001D7FD] stm_outpost_staff_science: "Change a star cluster," he says. Like it's changing a light bulb.
-    ↩ (goto) [0001D825] stm_outpost_staff_science: Eos is a bigger responsibility than ever. We really did make this world what it is.
+    [0001D7FD] Outpost Staff Science: "Change a star cluster," he says. Like it's changing a light bulb.
+    ↩ (goto) [0001D825] Outpost Staff Science: Eos is a bigger responsibility than ever. We really did make this world what it is.
 └─ merge ─┘
-[00017A82] stm_outpost_staff_science: They're saying you found a Remnant city.
-[0001D77A] Hero: Not Meridian, unfortunately.
-[0001D778] stm_outpost_staff_science: But a whole Remnant city! Maybe there's records about Eos. We might finally understand what they were doing here.
-[0001D7EC] stm_outpost_staff_science: Until then—anything you need?
-↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
-[00017A75] stm_outpost_staff_science: Ryder, this "exaltation" of the kett's—is it contagious?
-[0001D779] Hero: No, not from what we saw.
-[0001D7EA] stm_outpost_staff_science: Thank god, because I just sent a team to scan around the old kett outpost.
-[0001D7EB] stm_outpost_staff_science: If I'd sent them there and... well, forget it. Did you need something?
-↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
-[0001DA14] stm_outpost_staff_science: Ryder... I was wondering if I could ask a favor. It's sort of professional, and sort of not.
-[0001DA16] Hero: What do you mean?
-[0001DA15] stm_outpost_staff_science: Eos really needs a water purification technician. Our block has one assigned, but after everything that happened, he's still in stasis.
-[0001DA1B] stm_outpost_staff_science: I... He's my fiance, so I can't ask for a fast-track. Conflict of interest and all. But you could. Would you?
+[00017A82] Outpost Staff Science: They're saying you found a Remnant city.
+[0001D77A] Ryder: Not Meridian, unfortunately.
+[0001D778] Outpost Staff Science: But a whole Remnant city! Maybe there's records about Eos. We might finally understand what they were doing here.
+[0001D7EC] Outpost Staff Science: Until then—anything you need?
+↩ (goto) [00017A79] Outpost Staff Supply: [empty]
+[00017A75] Outpost Staff Science: Ryder, this "exaltation" of the kett's—is it contagious?
+[0001D779] Ryder: No, not from what we saw.
+[0001D7EA] Outpost Staff Science: Thank god, because I just sent a team to scan around the old kett outpost.
+[0001D7EB] Outpost Staff Science: If I'd sent them there and... well, forget it. Did you need something?
+↩ (goto) [00017A79] Outpost Staff Supply: [empty]
+[0001DA14] Outpost Staff Science: Ryder... I was wondering if I could ask a favor. It's sort of professional, and sort of not.
+[0001DA16] Ryder: What do you mean?
+[0001DA15] Outpost Staff Science: Eos really needs a water purification technician. Our block has one assigned, but after everything that happened, he's still in stasis.
+[0001DA1B] Outpost Staff Science: I... He's my fiance, so I can't ask for a fast-track. Conflict of interest and all. But you could. Would you?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001DA1D] Hero: I'll see what I can do.
-    [0001DA29] stm_outpost_staff_science: That would be wonderful! His name is Evan Kendricks.
-    [0001DA31] stm_outpost_staff_science: Do you need anything in the meantime?
-    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+    [0001DA1D] Ryder: I'll see what I can do.
+    [0001DA29] Outpost Staff Science: That would be wonderful! His name is Evan Kendricks.
+    [0001DA31] Outpost Staff Science: Do you need anything in the meantime?
+    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
 ├ option 2:
-    [0001DA1F] Hero: Playing favorites is a touchy subject right now, Hainly.
-    [0001DA2E] stm_outpost_staff_science: I get it. Probably unprofessional to even ask.
-    [0001DA33] stm_outpost_staff_science: His name is Evan Kendricks. If the situation changes again, maybe... well. You came by for a reason, right?
-    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+    [0001DA1F] Ryder: Playing favorites is a touchy subject right now, Hainly.
+    [0001DA2E] Outpost Staff Science: I get it. Probably unprofessional to even ask.
+    [0001DA33] Outpost Staff Science: His name is Evan Kendricks. If the situation changes again, maybe... well. You came by for a reason, right?
+    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
 └─ merge ─┘
-[0001DA18] stm_outpost_staff_science: I don't know what to say. Evan's here, and the outpost will have clean water! Thank you. So much.
+[0001DA18] Outpost Staff Science: I don't know what to say. Evan's here, and the outpost will have clean water! Thank you. So much.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001DA30] Hero: Eos needed his expertise. It made sense to fast-track him.
-    [0001DA2D] stm_outpost_staff_science: Absolutely. Just one of those happy coincidences!
-    [0001DA2C] stm_outpost_staff_science: I hope you've got formal wear, because we'd love to have you front-row-center at the wedding.
-    [0001DA2F] stm_outpost_staff_science: And you could even take a shower beforehand, in fresh Eos water.
-    ↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
+    [0001DA30] Ryder: Eos needed his expertise. It made sense to fast-track him.
+    [0001DA2D] Outpost Staff Science: Absolutely. Just one of those happy coincidences!
+    [0001DA2C] Outpost Staff Science: I hope you've got formal wear, because we'd love to have you front-row-center at the wedding.
+    [0001DA2F] Outpost Staff Science: And you could even take a shower beforehand, in fresh Eos water.
+    ↩ (goto) [00017A79] Outpost Staff Supply: [empty]
 ├ option 2:
-    [0001DA2A] Hero: Love conquers all—even stasis.
-    ↩ (goto) [0001DA2C] stm_outpost_staff_science: I hope you've got formal wear, because we'd love to have you front-row-center at the wedding.
+    [0001DA2A] Ryder: Love conquers all—even stasis.
+    ↩ (goto) [0001DA2C] Outpost Staff Science: I hope you've got formal wear, because we'd love to have you front-row-center at the wedding.
 └─ merge ─┘
-[00017A73] stm_outpost_staff_science: Welcome back.
-↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
-↩ (goto) [00017A79] stm_outpost_staff_supply: [empty]
-[0001DA03] stm_outpost_staff_science: Thanks. Once my fiance is out of stasis, it'll be complete.
-[0001D9FF] Hero: Congratulations. Talk about a whole new life.
+[00017A73] Outpost Staff Science: Welcome back.
+↩ (goto) [00017A79] Outpost Staff Supply: [empty]
+↩ (goto) [00017A79] Outpost Staff Supply: [empty]
+[0001DA03] Outpost Staff Science: Thanks. Once my fiance is out of stasis, it'll be complete.
+[0001D9FF] Ryder: Congratulations. Talk about a whole new life.

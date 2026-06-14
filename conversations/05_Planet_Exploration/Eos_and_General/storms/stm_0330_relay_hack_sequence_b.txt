@@ -1,61 +1,61 @@
 # game/conversations/unc/storms/stm_0330_relay_hack_sequence_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_0330_relay_hack_sequence_b.xml
 ==================================================
-[0001CC1F] Hero: Expect trouble when we start the generators.
+[0001CC1F] Ryder: Expect trouble when we start the generators.
 [0001CCB8] SAM: There's an error in the start-up sequence. Manual input required.
-[0001CDA2] Hero: Damn it.
+[0001CDA2] Ryder: Damn it.
 [0001CD5E] SAM: Please scan one of the pylons to determine a hackable input location.
 [0001CCBB] SAM: Generator interface possible. Location marked.
-[0001CCBC] Hero: We've got company!
-[0001CCB7] Hero: Generator is active.
-[00029B58] global_crew_science_officer: [Comm] Ryder, we've got activity on the sensors. Can't pinpoint it just yet...
-[0002A674] Hero: Got it. We'll stay alert.
+[0001CCBC] Ryder: We've got company!
+[0001CCB7] Ryder: Generator is active.
+[00029B58] Suvi (Science Officer): [Comm] Ryder, we've got activity on the sensors. Can't pinpoint it just yet...
+[0002A674] Ryder: Got it. We'll stay alert.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0001CCDC] global_squad_female_human ⟨cond⟩: Taking fire!
+    [0001CCDC] Squadmate (Human ♀) ⟨cond⟩: Taking fire!
 ├ option 2:
-    [0001CCDB] global_squad_asari ⟨cond⟩: They're shooting at me!
+    [0001CCDB] Squadmate (Asari / Peebee) ⟨cond⟩: They're shooting at me!
 ├ option 3:
-    [0001CCDD] global_squad_male_human ⟨cond⟩: Getting hit over here!
+    [0001CCDD] Squadmate (Human ♂) ⟨cond⟩: Getting hit over here!
 ├ option 4:
-    [0001CCDA] global_squad_turian ⟨cond⟩: I'm being shot at!
+    [0001CCDA] Squadmate (Turian / Vetra) ⟨cond⟩: I'm being shot at!
 └─ merge ─┘
-[0001CCB9] Hero: That should let us restore power at the relay building.
+[0001CCB9] Ryder: That should let us restore power at the relay building.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [0001CCE5] global_squad_female_human ⟨cond⟩: Up and running!
+    [0001CCE5] Squadmate (Human ♀) ⟨cond⟩: Up and running!
 ├ option 2:
-    [0001CCE6] global_squad_asari ⟨cond⟩: Up and running!
+    [0001CCE6] Squadmate (Asari / Peebee) ⟨cond⟩: Up and running!
 ├ option 3:
-    [0001CCE3] global_squad_male_human ⟨cond⟩: Up and running!
+    [0001CCE3] Squadmate (Human ♂) ⟨cond⟩: Up and running!
 ├ option 4:
-    [0001CCE4] global_squad_turian ⟨cond⟩: Up and running!
+    [0001CCE4] Squadmate (Turian / Vetra) ⟨cond⟩: Up and running!
 └─ merge ─┘
 [0001CD92] SAM: Pathfinder, there must be a scannable interface on the power pylon.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001CCDE] global_squad_female_human ⟨cond⟩: I got it! Moving to the next generator!
+    [0001CCDE] Squadmate (Human ♀) ⟨cond⟩: I got it! Moving to the next generator!
 ├ option 2:
-    [0001CCD8] global_squad_male_human ⟨cond⟩: I got it! Moving to the next generator!
+    [0001CCD8] Squadmate (Human ♂) ⟨cond⟩: I got it! Moving to the next generator!
 ├ option 3:
-    [0001CCD9] global_squad_turian ⟨cond⟩: I got it! Moving to the next generator!
+    [0001CCD9] Squadmate (Turian / Vetra) ⟨cond⟩: I got it! Moving to the next generator!
 ├ option 4:
-    [0001CCD7] global_squad_asari ⟨cond⟩: I got it! Moving to the next generator!
+    [0001CCD7] Squadmate (Asari / Peebee) ⟨cond⟩: I got it! Moving to the next generator!
 ├ option 5:
     [0001CCC5] SAM ⟨cond⟩: Manual input is still required.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001CCC3] Hero ⟨cond⟩: Cora, hold while we take the kett!
-        [0001CCD2] global_squad_female_human: Holding position!
+        [0001CCC3] Ryder ⟨cond⟩: Cora, hold while we take the kett!
+        [0001CCD2] Squadmate (Human ♀): Holding position!
     ├ option 2:
-        [0001CCC7] Hero ⟨cond⟩: Liam, hold while we take the kett!
-        [0001CCD4] global_squad_male_human: On it!
+        [0001CCC7] Ryder ⟨cond⟩: Liam, hold while we take the kett!
+        [0001CCD4] Squadmate (Human ♂): On it!
     ├ option 3:
-        [0001CCC1] Hero ⟨cond⟩: Vetra, hold while we take the kett!
-        [0001CCD1] global_squad_turian: Right!
+        [0001CCC1] Ryder ⟨cond⟩: Vetra, hold while we take the kett!
+        [0001CCD1] Squadmate (Turian / Vetra): Right!
     ├ option 4:
-        [0001CCC2] Hero ⟨cond⟩: Peebee, hold while we take the kett!
-        [0001CCD0] global_squad_asari: Uh, sure!
+        [0001CCC2] Ryder ⟨cond⟩: Peebee, hold while we take the kett!
+        [0001CCD0] Squadmate (Asari / Peebee): Uh, sure!
     └─ merge ─┘
 └─ merge ─┘

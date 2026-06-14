@@ -54,15 +54,23 @@ def lookup(sid):
     en = EN.get(k, "")
     return k, en, (zh or "")
 
+try:
+    import speakers as _spk
+    _prettify = _spk.prettify
+except Exception:
+    _prettify = lambda x: x
+
 def short_ebx(ref):
-    """[Ebx] game/vocharacters/unc/dunes/dune_colony_junker [guid] -> dune_colony_junker"""
+    """[Ebx] game/vocharacters/unc/dunes/dune_colony_junker [guid] -> readable name"""
     if not ref or ref == "nullptr":
         return ""
     m = re.search(r'\[Ebx\]\s+([^\[]+?)\s*\[', ref)
     if m:
         p = m.group(1).strip().rstrip('/')
-        return p.split('/')[-1]
-    return ref
+        code = p.split('/')[-1]
+    else:
+        code = ref
+    return _prettify(code)
 
 GUID_RE = re.compile(r'\[(ConversationLine|ConversationLink)\]\s+([0-9a-fA-F-]{36})')
 

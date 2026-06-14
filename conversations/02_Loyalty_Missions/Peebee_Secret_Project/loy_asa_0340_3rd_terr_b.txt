@@ -1,164 +1,164 @@
 # game/conversations/loyalty/loy_asa/loy_asa_0340_3rd_terr_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/Loyalty/loy_asa/loy_asa_0340_3rd_terr_b.xml
 ==================================================
 [0001CC88] SAM: Pathfinder, there's another dispenser for unprogrammed Observers in this area.
-[0001A4D2] global_squad_asari: Who cares? What matters is that mountain of rock is between us and the signal source.
-[0003052E] global_squad_asari: Need to get across there, but that huge boulder's in the way.
+[0001A4D2] Squadmate (Asari / Peebee): Who cares? What matters is that mountain of rock is between us and the signal source.
+[0003052E] Squadmate (Asari / Peebee): Need to get across there, but that huge boulder's in the way.
 [00030527] SAM: Pathfinder, scanning the boulder will help determine a course of action.
 [0001B8B8] SAM: The rock is too dense for your weapons, but there is a deep fissure that an Observer's beam might be able to exploit.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00030713] global_squad_asari: So scan the fissure and tell the bot to attack it.
+        [00030713] Squadmate (Asari / Peebee): So scan the fissure and tell the bot to attack it.
     ├ option 2:
-        [00030525] global_squad_asari: So use the console you found to summon a bot.
+        [00030525] Squadmate (Asari / Peebee): So use the console you found to summon a bot.
     └─ merge ─┘
 ├ option 2:
     [0002AC90] SAM: I suggest you find the console that controls the dispenser.
-    [0002AC8C] global_squad_asari: Right. Get a friendly bot to do it.
-    ↩ (goto) [00030533] global_squad_asari: [empty]
+    [0002AC8C] Squadmate (Asari / Peebee): Right. Get a friendly bot to do it.
+    ↩ (goto) [00030533] Squadmate (Asari / Peebee): [empty]
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002AC85] global_squad_asari [OncePerGame]: Let's find the console for the dispenser.
+    [0002AC85] Squadmate (Asari / Peebee) [OncePerGame]: Let's find the console for the dispenser.
 ├ option 2:
-    [0002AC7E] global_squad_asari [OncePerGame]: It could be encased in rock, like some of the others.
+    [0002AC7E] Squadmate (Asari / Peebee) [OncePerGame]: It could be encased in rock, like some of the others.
 ├ option 3:
-    [0002C8D1] global_squad_asari [OncePerGame]: The scanner could help us find it.
+    [0002C8D1] Squadmate (Asari / Peebee) [OncePerGame]: The scanner could help us find it.
 └─ merge ─┘
-[0002AC8A] Hero: Now we're in business.
+[0002AC8A] Ryder: Now we're in business.
 [0002AC8B] SAM: Activating could draw hostile Remnant.
-[0002AC8D] global_squad_asari: SAM was right—it comes with a ton of angry bots!
-[0002AC84] Hero: At least our new friend is fighting for us!
-[0002AC82] Hero: Anyone order a friendly Observer?
+[0002AC8D] Squadmate (Asari / Peebee): SAM was right—it comes with a ton of angry bots!
+[0002AC84] Ryder: At least our new friend is fighting for us!
+[0002AC82] Ryder: Anyone order a friendly Observer?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001A5BE] global_squad_asari: Hack the turret—we could use the help!
+    [0001A5BE] Squadmate (Asari / Peebee): Hack the turret—we could use the help!
 ├ option 2:
-    [0002C889] global_squad_asari: Another turret. Worth a hack, no?
+    [0002C889] Squadmate (Asari / Peebee): Another turret. Worth a hack, no?
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001A5C3] global_squad_asari: Just what the doctor ordered.
+    [0001A5C3] Squadmate (Asari / Peebee): Just what the doctor ordered.
 ├ option 2:
-    [0002C82A] global_squad_asari: Just in case. Good idea.
+    [0002C82A] Squadmate (Asari / Peebee): Just in case. Good idea.
 └─ merge ─┘
-[0002C840] global_squad_asari: Damn it! The turret's been turned against us.
+[0002C840] Squadmate (Asari / Peebee): Damn it! The turret's been turned against us.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0001A5BA] global_squad_female_human ⟨cond⟩: Hostile Observers inbound!
-    [0001A5CC] Hero: Front and back!
+    [0001A5BA] Squadmate (Human ♀) ⟨cond⟩: Hostile Observers inbound!
+    [0001A5CC] Ryder: Front and back!
 ├ option 2:
-    [0001A5D0] global_squad_male_human ⟨cond⟩: Hostile Observers inbound!
-    ↩ (goto) [0001A5CC] Hero: Front and back!
+    [0001A5D0] Squadmate (Human ♂) ⟨cond⟩: Hostile Observers inbound!
+    ↩ (goto) [0001A5CC] Ryder: Front and back!
 ├ option 3:
-    [0001A5CE] global_squad_turian ⟨cond⟩: Hostile Observers inbound!
-    ↩ (goto) [0001A5CC] Hero: Front and back!
+    [0001A5CE] Squadmate (Turian / Vetra) ⟨cond⟩: Hostile Observers inbound!
+    ↩ (goto) [0001A5CC] Ryder: Front and back!
 ├ option 4:
-    [0001A5BD] global_squad_krogan ⟨cond⟩: Hostile Observers headed our way!
-    ↩ (goto) [0001A5CC] Hero: Front and back!
+    [0001A5BD] Squadmate (Krogan / Drack) ⟨cond⟩: Hostile Observers headed our way!
+    ↩ (goto) [0001A5CC] Ryder: Front and back!
 ├ option 5:
-    [0001A5C7] global_squad_angara ⟨cond⟩: Hostile Observers coming!
-    ↩ (goto) [0001A5CC] Hero: Front and back!
+    [0001A5C7] Squadmate (Angara / Jaal) ⟨cond⟩: Hostile Observers coming!
+    ↩ (goto) [0001A5CC] Ryder: Front and back!
 └─ merge ─┘
 [0001A631] SAM: Pathfinder, interfacing is escalating tectonic activity. The area is becoming increasingly unstable.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00030532] global_squad_asari: Come on, let's scan the boulder fissure so the Observer will attack it.
+    [00030532] Squadmate (Asari / Peebee): Come on, let's scan the boulder fissure so the Observer will attack it.
 ├ option 2:
-    [000305B0] global_squad_asari: Come on, we have to get past that boulder. Try to destroy it.
+    [000305B0] Squadmate (Asari / Peebee): Come on, we have to get past that boulder. Try to destroy it.
     ↩ (goto) [0001B8B8] SAM: The rock is too dense for your weapons, but there is a deep fissure that an Observer's beam might be able to exploit.
 └─ merge ─┘
-[0001B8BA] global_squad_asari: Damn mountain of rock in the way. We've got to get through—Kalinda could already be there.
-↩ (goto) [00030532] global_squad_asari: Come on, let's scan the boulder fissure so the Observer will attack it.
-[0001B8BE] global_squad_asari: Observer to the rescue.
-[0001CC8D] global_squad_asari: All right! Let's get across and over the ridge!
+[0001B8BA] Squadmate (Asari / Peebee): Damn mountain of rock in the way. We've got to get through—Kalinda could already be there.
+↩ (goto) [00030532] Squadmate (Asari / Peebee): Come on, let's scan the boulder fissure so the Observer will attack it.
+[0001B8BE] Squadmate (Asari / Peebee): Observer to the rescue.
+[0001CC8D] Squadmate (Asari / Peebee): All right! Let's get across and over the ridge!
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002AC83] global_squad_asari [OncePerGame]: What are we waiting for?
+    [0002AC83] Squadmate (Asari / Peebee) [OncePerGame]: What are we waiting for?
 ├ option 2:
-    [0002AC89] global_squad_asari [OncePerGame]: Let's go. Kalinda's already over there.
+    [0002AC89] Squadmate (Asari / Peebee) [OncePerGame]: Let's go. Kalinda's already over there.
 ├ option 3:
-    [0002AC7F] global_squad_asari [OncePerGame]: Ryder, please!
+    [0002AC7F] Squadmate (Asari / Peebee) [OncePerGame]: Ryder, please!
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0001C5CC] SAM: Pathfinder, I'm reading several Remnant bots that have not been imprinted with protocols, still in standby mode.
     [0001C5D0] SAM: You might be able to access consoles and link yourself to them as an ally.
-    [0001C5CF] Hero: Interesting.
+    [0001C5CF] Ryder: Interesting.
 ├ option 2:
     [0001C5CB] SAM: Pathfinder, accessing the console here should identify you as an ally to the unprogrammed Remnant in the area.
-    [0001C5CD] Hero: Think they'll fight for me?
-    [0001C5CE] global_squad_asari: It's worth a try.
+    [0001C5CD] Ryder: Think they'll fight for me?
+    [0001C5CE] Squadmate (Asari / Peebee): It's worth a try.
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0002AC88] global_squad_asari: Let's just break through that rock already.
+    [0002AC88] Squadmate (Asari / Peebee): Let's just break through that rock already.
     [0001B8BC] SAM: If you scan the rock for fissures, your allied Observers will attack them.
-    [0001B8B6] Hero: Sounds like a plan.
+    [0001B8B6] Ryder: Sounds like a plan.
 ├ option 2:
     [00030530] SAM: If you scan the fissure, your Observer will attack it.
 ├ option 3:
-    [0002AC80] global_kalinda: [Comm] So unlucky, babe. {i}I've{/i} got a clear path.
-    [0002AC93] global_squad_asari: {i}(Frustrated growl.){/i}
+    [0002AC80] Kalinda: [Comm] So unlucky, babe. {i}I've{/i} got a clear path.
+    [0002AC93] Squadmate (Asari / Peebee): {i}(Frustrated growl.){/i}
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0001A4D4] SAM: Pathfinder, the closer we get to Peebee's signal, the worse the Remnant degradation becomes.
-    [0001A4D1] global_squad_asari: If the device we're after breaks down rem-tech, it could be super useful.
+    [0001A4D1] Squadmate (Asari / Peebee): If the device we're after breaks down rem-tech, it could be super useful.
 ├ option 2:
     [0001B8B3] SAM: Pathfinder, the degradation is inhibiting certain Observers' ability to recognize an enemy.
     [0001B8BD] SAM: There's a console where you should be able to summon Observers that will consider you friendly and assist you in combat.
 └─ merge ─┘
 ┌─ BRANCH (16) ─┐
 ├ option 1:
-    [0001CC8A] Hero: Time to put that to the test.
+    [0001CC8A] Ryder: Time to put that to the test.
 ├ option 2:
-    [0002AC86] global_squad_asari: Please scan the damn thing for fissures.
+    [0002AC86] Squadmate (Asari / Peebee): Please scan the damn thing for fissures.
 ├ option 3:
-    [0001A5BF] global_squad_asari: We sure could use more cover!
+    [0001A5BF] Squadmate (Asari / Peebee): We sure could use more cover!
 ├ option 4:
-    [0001A5CB] global_squad_asari: That'll help!
+    [0001A5CB] Squadmate (Asari / Peebee): That'll help!
 ├ option 5:
     [0001CC8E] SAM: This is the console that should deploy allied Observers.
-    [0001CC8B] Hero: Here goes nothing.
+    [0001CC8B] Ryder: Here goes nothing.
 ├ option 6:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0001C7E5] global_squad_female_human ⟨cond⟩: It's working. The Observers are joining the fight.
+        [0001C7E5] Squadmate (Human ♀) ⟨cond⟩: It's working. The Observers are joining the fight.
     ├ option 2:
-        [0001C7E4] global_squad_male_human ⟨cond⟩: It's working. The Observers are joining in.
+        [0001C7E4] Squadmate (Human ♂) ⟨cond⟩: It's working. The Observers are joining in.
     ├ option 3:
-        [0001C7E7] global_squad_turian ⟨cond⟩: It's working. The Observers are joining the fight.
+        [0001C7E7] Squadmate (Turian / Vetra) ⟨cond⟩: It's working. The Observers are joining the fight.
     ├ option 4:
-        [0001C7E8] global_squad_krogan ⟨cond⟩: It's working. The Observers are fighting!
+        [0001C7E8] Squadmate (Krogan / Drack) ⟨cond⟩: It's working. The Observers are fighting!
     ├ option 5:
-        [0001C7E3] global_squad_angara ⟨cond⟩: It's working. The Observers are joining the fight.
+        [0001C7E3] Squadmate (Angara / Jaal) ⟨cond⟩: It's working. The Observers are joining the fight.
     └─ merge ─┘
 ├ option 7:
     [0001B8B4] SAM: There's no other route from here. You'll have to overcome that mountain of rock.
 ├ option 8:
     [0001B8B2] SAM: If you use the console I pointed out and summon allied Observers, you could scan the fissures and the Observers will attack them.
 ├ option 9:
-    [0001B915] global_squad_asari: Hey, how about summoning some friendly Observers to blow up the rock, huh?
+    [0001B915] Squadmate (Asari / Peebee): Hey, how about summoning some friendly Observers to blow up the rock, huh?
 ├ option 10:
 ├ option 11:
-    [0001CC89] Hero: Great.
+    [0001CC89] Ryder: Great.
 ├ option 12:
-    [0001A5C0] global_squad_female_human ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
-    [0001A5C1] Hero: This could be trouble.
+    [0001A5C0] Squadmate (Human ♀) ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
+    [0001A5C1] Ryder: This could be trouble.
 ├ option 13:
-    [0001A5BB] global_squad_male_human ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
-    ↩ (goto) [0001A5C1] Hero: This could be trouble.
+    [0001A5BB] Squadmate (Human ♂) ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
+    ↩ (goto) [0001A5C1] Ryder: This could be trouble.
 ├ option 14:
-    [0001A5C9] global_squad_turian ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
-    ↩ (goto) [0001A5C1] Hero: This could be trouble.
+    [0001A5C9] Squadmate (Turian / Vetra) ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
+    ↩ (goto) [0001A5C1] Ryder: This could be trouble.
 ├ option 15:
-    [0001A5CD] global_squad_krogan ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
-    ↩ (goto) [0001A5C1] Hero: This could be trouble.
+    [0001A5CD] Squadmate (Krogan / Drack) ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
+    ↩ (goto) [0001A5C1] Ryder: This could be trouble.
 ├ option 16:
-    [0001A5C2] global_squad_angara ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
-    ↩ (goto) [0001A5C1] Hero: This could be trouble.
+    [0001A5C2] Squadmate (Angara / Jaal) ⟨cond⟩: That's not all. Those Assemblers are trying to free a Destroyer.
+    ↩ (goto) [0001A5C1] Ryder: This could be trouble.
 └─ merge ─┘

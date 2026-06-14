@@ -1,58 +1,58 @@
 # game/conversations/rel/kallo/kallo_r3_confrontation_d
-# Primary speaker: global_crew_co-pilot
+# Primary speaker: Kallo (Co-pilot)
 # Source: game/conversations/rel/kallo/kallo_r3_confrontation_d.xml
 ==================================================
 [0001BCE3] Narration: Fade up as Ryder enters the research room from the bridge side. Gil and Kallo are mid-argument: Kallo is angry, Gil is stoic.
 [0001BCFA] Narration: Several of the crew and squad are watching uneasily (Cora, Drack, Jaal, Liam, Lexi).
-[0001BCE6] global_crew_co-pilot: You don't give a damn what my team and I went through to build this ship!
-[0001BCE7] global_crew_tech_officer: No, I don't. I care about us surviving out here, and if that means redesigning—
-[0001BCF6] global_crew_co-pilot: You don't have the right!
+[0001BCE6] Kallo (Co-pilot): You don't give a damn what my team and I went through to build this ship!
+[0001BCE7] Gil (Tech Officer): No, I don't. I care about us surviving out here, and if that means redesigning—
+[0001BCF6] Kallo (Co-pilot): You don't have the right!
 [0001BDD7] Narration: Ryder gets between them.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001BCF5] Hero: All right, let's talk this out. What's going on?
-    [0001BCFC] global_crew_tech_officer: I'm doing my job, and he's undoing it because—hell if I know.
+    [0001BCF5] Ryder: All right, let's talk this out. What's going on?
+    [0001BCFC] Gil (Tech Officer): I'm doing my job, and he's undoing it because—hell if I know.
     [0001BDD0] Narration: Kallo starts getting visibly worked up.
-    [0001BCFE] global_crew_co-pilot: You weren't here. We had to get all kinds of new tech working in a single starship. Fifty-hour shifts. Epiphanies. Accidents...
-    [0001CB20] global_crew_co-pilot: Humans can forget. Salarians can't. To me, it's all still happening. My team is {i}here{/i}!
-    [0001BD50] global_crew_co-pilot: Stripping down the Tempest like some broken radio risks everything they suffered to build. Their legacy!
+    [0001BCFE] Kallo (Co-pilot): You weren't here. We had to get all kinds of new tech working in a single starship. Fifty-hour shifts. Epiphanies. Accidents...
+    [0001CB20] Kallo (Co-pilot): Humans can forget. Salarians can't. To me, it's all still happening. My team is {i}here{/i}!
+    [0001BD50] Kallo (Co-pilot): Stripping down the Tempest like some broken radio risks everything they suffered to build. Their legacy!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001BDA1] Hero: I can see how you'd feel that way.
-        [0001D80C] global_crew_tech_officer: Seriously?
-        [0001BDB3] global_crew_tech_officer: Look, Kallo. Your people did a great job. But they're dead. And they couldn't have anticipated half the problems in Heleus. Like the Scourge.
-        [0001BDBC] global_crew_tech_officer: If we don't adapt, we'll die too. Is that what you want their "legacy" to be?
-        [0001BDBF] global_crew_co-pilot: Gutting a complex ship out in space isn't adapting! It's irresponsible! And... disrespectful.
+        [0001BDA1] Ryder: I can see how you'd feel that way.
+        [0001D80C] Gil (Tech Officer): Seriously?
+        [0001BDB3] Gil (Tech Officer): Look, Kallo. Your people did a great job. But they're dead. And they couldn't have anticipated half the problems in Heleus. Like the Scourge.
+        [0001BDBC] Gil (Tech Officer): If we don't adapt, we'll die too. Is that what you want their "legacy" to be?
+        [0001BDBF] Kallo (Co-pilot): Gutting a complex ship out in space isn't adapting! It's irresponsible! And... disrespectful.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001BDBB] Hero: The Tempest has too many new systems doing new things to just adapt on the fly.
-            [0001BDD4] Hero: If we make changes, let's make them carefully. And with respect.
+            [0001BDBB] Ryder: The Tempest has too many new systems doing new things to just adapt on the fly.
+            [0001BDD4] Ryder: If we make changes, let's make them carefully. And with respect.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001BDD9] global_crew_tech_officer ⟨cond⟩: I thought you at least would get it.
+                [0001BDD9] Gil (Tech Officer) ⟨cond⟩: I thought you at least would get it.
                 [0001BDD8] Narration: Gil leaves.
-                [0001BF1F] global_crew_co-pilot: Ryder, I... I know it's not... Thank you.
-                [0001BF24] Hero: Okay, it's over. Let's get back to work.
+                [0001BF1F] Kallo (Co-pilot): Ryder, I... I know it's not... Thank you.
+                [0001BF24] Ryder: Okay, it's over. Let's get back to work.
             ├ option 2:
-                [0001BDD5] global_crew_tech_officer: She's your ship. I just hope you know what you're doing.
+                [0001BDD5] Gil (Tech Officer): She's your ship. I just hope you know what you're doing.
                 ↩ (goto) [0001BDD8] Narration: Gil leaves.
             └─ merge ─┘
         ├ option 2:
-            [0001BDBA] Hero: The Tempest is ours now. She has to serve our mission first, in whatever capacity we need.
-            [0001BDD2] Hero: Gil, change whatever you have to.
-            [0001BDD3] global_crew_co-pilot: I wonder. In time, will strangers be treating your achievements so carelessly?
+            [0001BDBA] Ryder: The Tempest is ours now. She has to serve our mission first, in whatever capacity we need.
+            [0001BDD2] Ryder: Gil, change whatever you have to.
+            [0001BDD3] Kallo (Co-pilot): I wonder. In time, will strangers be treating your achievements so carelessly?
             [0001BDDA] Narration: Kallo leaves.
-            [0001BF20] global_crew_tech_officer: Peace and quiet. Finally. Thanks, Ryder.
-            [0001BF21] Hero: Okay, show's over. Back to it.
+            [0001BF20] Gil (Tech Officer): Peace and quiet. Finally. Thanks, Ryder.
+            [0001BF21] Ryder: Okay, show's over. Back to it.
             [0001BF23] Narration: Fade out as people turn and leave.
-            ↩ (goto) [0001BF22] Hero: [empty]
+            ↩ (goto) [0001BF22] Ryder: [empty]
         └─ merge ─┘
     ├ option 2:
-        [0001BDB2] Hero: If he had the Tempest up on blocks, I might see it.
-        ↩ (goto) [0001BDB3] global_crew_tech_officer: Look, Kallo. Your people did a great job. But they're dead. And they couldn't have anticipated half the problems in Heleus. Like the Scourge.
+        [0001BDB2] Ryder: If he had the Tempest up on blocks, I might see it.
+        ↩ (goto) [0001BDB3] Gil (Tech Officer): Look, Kallo. Your people did a great job. But they're dead. And they couldn't have anticipated half the problems in Heleus. Like the Scourge.
     └─ merge ─┘
 ├ option 2:
-    [0001BCF3] Hero: Knock it off, both of you!
-    [0001BCFB] global_crew_tech_officer: Sure. Once he gets off my back about how I work on the Tempest.
+    [0001BCF3] Ryder: Knock it off, both of you!
+    [0001BCFB] Gil (Tech Officer): Sure. Once he gets off my back about how I work on the Tempest.
     ↩ (goto) [0001BDD0] Narration: Kallo starts getting visibly worked up.
 └─ merge ─┘

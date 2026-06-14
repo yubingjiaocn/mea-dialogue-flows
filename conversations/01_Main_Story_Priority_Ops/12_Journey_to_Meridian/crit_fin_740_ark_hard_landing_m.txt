@@ -1,84 +1,84 @@
 # game/conversations/crit/crit_mer/crit_fin_740_ark_hard_landing_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Mer/crit_fin_740_ark_hard_landing_m.xml
 ==================================================
-[000247C6] global_crew_science_officer: [Comm] Pathfinder, multiple system failures on the Hyperion!
-[000247C4] Hero: Damn it. Dunn? Dunn, is there anything we can do?
-[000247C0] global_humanark_captain_multi: [Comm] Stay out of our way.
-[000247CF] global_humanark_captain_multi: There's no pulling up. This is the captain. I need everyone to cryo. Go! Go! Go. I'm rerouting power to all medbay inertials! I can give us one shot.
+[000247C6] Suvi (Science Officer): [Comm] Pathfinder, multiple system failures on the Hyperion!
+[000247C4] Ryder: Damn it. Dunn? Dunn, is there anything we can do?
+[000247C0] Captain Dunn: [Comm] Stay out of our way.
+[000247CF] Captain Dunn: There's no pulling up. This is the captain. I need everyone to cryo. Go! Go! Go. I'm rerouting power to all medbay inertials! I can give us one shot.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00024D03] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] I'll keep the kett off you, Dunn. Can you save any power for the bridge shields?
-        [00024D08] global_humanark_captain_multi: The sleepers take priority.
-        [00024D17] global_humanark_captain_multi: All hands brace!
+        [00024D03] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] I'll keep the kett off you, Dunn. Can you save any power for the bridge shields?
+        [00024D08] Captain Dunn: The sleepers take priority.
+        [00024D17] Captain Dunn: All hands brace!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00024D26] global_humanark_captain_multi: And it's been an honor to ser—
-            [00024D25] Hero: Captain Dunn? Captain Dunn!
+            [00024D26] Captain Dunn: And it's been an honor to ser—
+            [00024D25] Ryder: Captain Dunn? Captain Dunn!
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00024D21] global_humanark_captain_multi ⟨cond⟩: [Comm] Still here, Ryder. Cryo pods... intact.
-                [00024D28] global_humanark_captain_multi: [Comm] Give the Pathfinders my thanks. And the Archon the tip of your boot.
+                [00024D21] Captain Dunn ⟨cond⟩: [Comm] Still here, Ryder. Cryo pods... intact.
+                [00024D28] Captain Dunn: [Comm] Give the Pathfinders my thanks. And the Archon the tip of your boot.
             ├ option 2:
-                [00024D1C] global_crew_science_officer: [Comm] The cryo pods are intact. She brought it down. But... there's no signal from the bridge.
+                [00024D1C] Suvi (Science Officer): [Comm] The cryo pods are intact. She brought it down. But... there's no signal from the bridge.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [00024D1D] global_humanark_captain_multi: [empty]
+            ↩ (goto) [00024D1D] Captain Dunn: [empty]
         └─ merge ─┘
     ├ option 2:
-        [0002553C] crit_kett_salarian_captain_multi: [Comm] I can keep the kett away, Captain. Can you reserve anything for bridge shields?
-        ↩ (goto) [00024D0B] global_humanark_captain_multi: [empty]
+        [0002553C] Kett Salarian Captain: [Comm] I can keep the kett away, Captain. Can you reserve anything for bridge shields?
+        ↩ (goto) [00024D0B] Captain Dunn: [empty]
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00024D14] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] I'll keep the kett away. Avitus, can you help?
-        [00024D0F] global_turian_pathfinder_multi: [Comm] Doesn't matter how close I can get, I can't power the bridge.
-        ↩ (goto) [00024D0B] global_humanark_captain_multi: [empty]
+        [00024D14] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] I'll keep the kett away. Avitus, can you help?
+        [00024D0F] Turian Pathfinder (Avitus Rix): [Comm] Doesn't matter how close I can get, I can't power the bridge.
+        ↩ (goto) [00024D0B] Captain Dunn: [empty]
     ├ option 2:
-        [00025539] crit_kett_salarian_captain_multi: [Comm] I'll hold the kett back. Avitus, can you assist?
-        ↩ (goto) [00024D0F] global_turian_pathfinder_multi: [Comm] Doesn't matter how close I can get, I can't power the bridge.
+        [00025539] Kett Salarian Captain: [Comm] I'll hold the kett back. Avitus, can you assist?
+        ↩ (goto) [00024D0F] Turian Pathfinder (Avitus Rix): [Comm] Doesn't matter how close I can get, I can't power the bridge.
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [00024D07] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] I'll keep the kett away. Vederia, can you assist in securing the bridge?
-        [00024D04] loy_hmf_vederia_multi: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
-        ↩ (goto) [00024D0B] global_humanark_captain_multi: [empty]
+        [00024D07] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] I'll keep the kett away. Vederia, can you assist in securing the bridge?
+        [00024D04] Hmf Vederia: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
+        ↩ (goto) [00024D0B] Captain Dunn: [empty]
     ├ option 2:
-        [0002553B] crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] I'll hold the kett back. Vederia, can you do anything to secure the bridge?
-        ↩ (goto) [00024D04] loy_hmf_vederia_multi: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
+        [0002553B] Kett Salarian Captain ⟨cond⟩: [Comm] I'll hold the kett back. Vederia, can you do anything to secure the bridge?
+        ↩ (goto) [00024D04] Hmf Vederia: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
     ├ option 3:
-        [00024D0A] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] I'll keep the kett away. Sarissa, can you assist in securing the bridge?
-        [00024D09] loy_hmf_cmdr_sarissa_multi: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
-        ↩ (goto) [00024D0B] global_humanark_captain_multi: [empty]
+        [00024D0A] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] I'll keep the kett away. Sarissa, can you assist in securing the bridge?
+        [00024D09] Hmf Cmdr Sarissa: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
+        ↩ (goto) [00024D0B] Captain Dunn: [empty]
     ├ option 4:
-        [0002553A] crit_kett_salarian_captain_multi: [Comm] I'll hold the kett back. Sarissa, can you do anything to secure the bridge?
-        ↩ (goto) [00024D09] loy_hmf_cmdr_sarissa_multi: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
+        [0002553A] Kett Salarian Captain: [Comm] I'll hold the kett back. Sarissa, can you do anything to secure the bridge?
+        ↩ (goto) [00024D09] Hmf Cmdr Sarissa: [Comm] Attempting to shield the bridge with biotics, but I can't get close enough.
     └─ merge ─┘
 ├ option 4:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00024D10] global_salarian_pathfinder_multi ⟨cond⟩: [Comm] I'll keep the kett away. Can you two assist?
+        [00024D10] Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] I'll keep the kett away. Can you two assist?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00024D13] loy_hmf_vederia_multi ⟨cond⟩: [Comm] Get me close enough and I'll biotically shield the bridge!
-            [00024D05] global_turian_pathfinder_multi: [Comm] You want close, you'll have it.
-            [00024D24] global_humanark_captain_multi: The sleepers take priority.
-            ↩ (goto) [00024D1E] global_humanark_captain_multi: [empty]
+            [00024D13] Hmf Vederia ⟨cond⟩: [Comm] Get me close enough and I'll biotically shield the bridge!
+            [00024D05] Turian Pathfinder (Avitus Rix): [Comm] You want close, you'll have it.
+            [00024D24] Captain Dunn: The sleepers take priority.
+            ↩ (goto) [00024D1E] Captain Dunn: [empty]
         ├ option 2:
-            [00024D11] loy_hmf_cmdr_sarissa_multi: [Comm] Get me close enough and I'll biotically shield the bridge!
-            ↩ (goto) [00024D05] global_turian_pathfinder_multi: [Comm] You want close, you'll have it.
+            [00024D11] Hmf Cmdr Sarissa: [Comm] Get me close enough and I'll biotically shield the bridge!
+            ↩ (goto) [00024D05] Turian Pathfinder (Avitus Rix): [Comm] You want close, you'll have it.
         └─ merge ─┘
     ├ option 2:
-        [0002553E] crit_kett_salarian_captain_multi: [Comm] I'll hold the kett back. Can you two assist?
+        [0002553E] Kett Salarian Captain: [Comm] I'll hold the kett back. Can you two assist?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            ↩ (goto) [00024D13] loy_hmf_vederia_multi ⟨cond⟩: [Comm] Get me close enough and I'll biotically shield the bridge!
+            ↩ (goto) [00024D13] Hmf Vederia ⟨cond⟩: [Comm] Get me close enough and I'll biotically shield the bridge!
         ├ option 2:
-            ↩ (goto) [00024D11] loy_hmf_cmdr_sarissa_multi: [Comm] Get me close enough and I'll biotically shield the bridge!
+            ↩ (goto) [00024D11] Hmf Cmdr Sarissa: [Comm] Get me close enough and I'll biotically shield the bridge!
         └─ merge ─┘
     └─ merge ─┘
 └─ merge ─┘

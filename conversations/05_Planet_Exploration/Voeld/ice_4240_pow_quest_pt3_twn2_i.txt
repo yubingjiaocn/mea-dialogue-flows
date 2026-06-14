@@ -1,113 +1,113 @@
 # game/conversations/unc_ice/ice_4240_pow_quest_pt3_twn2_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_ice/ice_4240_pow_quest_pt3_twn2_i.xml
 ==================================================
-[00028D98] ice_buxil: Thank you for everything you've done.
-[00028EA1] ice_buxil: My people have fought a lonely battle against the kett. It's nice to finally have someone to fight beside.
+[00028D98] Buxil: Thank you for everything you've done.
+[00028EA1] Buxil: My people have fought a lonely battle against the kett. It's nice to finally have someone to fight beside.
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [00028CA1] Hero: Tell me about Niilj. What does he do?
-    [00028C99] ice_buxil: He's one of the best agents in the Resistance. His squad has completed dozens of missions. They have hundreds of kett kills.
-    [00028C9D] ice_buxil: They call him Shavod-gaan. "Whisper."
-    [00028CA4] ice_buxil: Funny, because he could never keep his voice down when we were children.
-    ↩ (goto) [00028C9A] Hero: [empty]
+    [00028CA1] Ryder: Tell me about Niilj. What does he do?
+    [00028C99] Buxil: He's one of the best agents in the Resistance. His squad has completed dozens of missions. They have hundreds of kett kills.
+    [00028C9D] Buxil: They call him Shavod-gaan. "Whisper."
+    [00028CA4] Buxil: Funny, because he could never keep his voice down when we were children.
+    ↩ (goto) [00028C9A] Ryder: [empty]
 ├ option 2:
-    [00028C96] Hero: What is your role in the Resistance?
-    [00028CB8] ice_buxil: I'm a data analyst. Sometimes hacker. I try to leave the fighting to those that are good at it.
-    [00028EB1] ice_buxil: I used to do research at Ja Niihk, before the kett occupied it. I barely escaped the attack.
+    [00028C96] Ryder: What is your role in the Resistance?
+    [00028CB8] Buxil: I'm a data analyst. Sometimes hacker. I try to leave the fighting to those that are good at it.
+    [00028EB1] Buxil: I used to do research at Ja Niihk, before the kett occupied it. I barely escaped the attack.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00028CB4] Hero ⟨cond⟩: Ja Niihk?
-        [00028CB7] ice_buxil: An ancient angara city, frozen in the ice. The kett claimed it for themselves.
+        [00028CB4] Ryder ⟨cond⟩: Ja Niihk?
+        [00028CB7] Buxil: An ancient angara city, frozen in the ice. The kett claimed it for themselves.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00028CB5] ice_buxil ⟨cond⟩: If the command base is taken out, we could turn our attention there.
-            ↩ (goto) [00028C9A] Hero: [empty]
+            [00028CB5] Buxil ⟨cond⟩: If the command base is taken out, we could turn our attention there.
+            ↩ (goto) [00028C9A] Ryder: [empty]
         ├ option 2:
-            ↩ (goto) [00028C9A] Hero: [empty]
+            ↩ (goto) [00028C9A] Ryder: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [00028C9A] Hero: [empty]
+        ↩ (goto) [00028C9A] Ryder: [empty]
     └─ merge ─┘
 ├ option 3:
-    [00028CA3] Hero ⟨cond⟩: Anything you can tell me about the kett command center?
-    [00028CAF] ice_buxil: That base is the center of kett operations on Voeld. The labor camps, comms outposts, even the dig at Ja Niihk.
-    ↩ (goto) [00028C9A] Hero: [empty]
+    [00028CA3] Ryder ⟨cond⟩: Anything you can tell me about the kett command center?
+    [00028CAF] Buxil: That base is the center of kett operations on Voeld. The labor camps, comms outposts, even the dig at Ja Niihk.
+    ↩ (goto) [00028C9A] Ryder: [empty]
 ├ option 4:
-    [00028CBB] Hero: I'll let you go.
+    [00028CBB] Ryder: I'll let you go.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00028CB9] ice_buxil ⟨cond⟩: Good. We need to take down that kett base while we can.
+        [00028CB9] Buxil ⟨cond⟩: Good. We need to take down that kett base while we can.
     ├ option 2:
-        [00028CC3] ice_buxil: Very well. It was nice to see you again.
+        [00028CC3] Buxil: Very well. It was nice to see you again.
     └─ merge ─┘
 └─ merge ─┘
-[00028B8D] Hero ⟨cond⟩ [OncePerGame]: Are you Buxil? I have something for you.
-[00028B8C] ice_buxil: From my brother who can't stop being a hero? Yes, Anjik told me to expect you.
+[00028B8D] Ryder ⟨cond⟩ [OncePerGame]: Are you Buxil? I have something for you.
+[00028B8C] Buxil: From my brother who can't stop being a hero? Yes, Anjik told me to expect you.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00028BB1] ice_buxil ⟨cond⟩: My son Skeot said he'd sent people after Niilj. I thought "more lives lost." Nice to see I was wrong.
-    [00028BB0] ice_buxil: Thanks for getting him out. Losing him would've set our efforts back months.
+    [00028BB1] Buxil ⟨cond⟩: My son Skeot said he'd sent people after Niilj. I thought "more lives lost." Nice to see I was wrong.
+    [00028BB0] Buxil: Thanks for getting him out. Losing him would've set our efforts back months.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00028BD9] Hero: Is the data they carried that important?
-        [00028BDA] ice_buxil: Niilj and the commander seem to think so.
-        [00028BDC] ice_buxil: Now, let's see what we have here.
-        [00028C03] ice_buxil: Stars and skies. This is... this is a layout of the kett command center. Entrances, exits, security. We'll be able to cripple their operations.
-        [00028C23] ice_buxil: Wait, there's something else here... oh. That's not good.
-        [00028C22] Hero: What?
-        [00028C21] ice_buxil: The base entrances are shielded and locked with a code which changes. Often.
-        [00028C25] ice_buxil: Metadata tells me they downloaded this weeks ago. The code is about to change again.
-        [00028C26] ice_buxil: If an attack is going to happen, it needs to happen now.
+        [00028BD9] Ryder: Is the data they carried that important?
+        [00028BDA] Buxil: Niilj and the commander seem to think so.
+        [00028BDC] Buxil: Now, let's see what we have here.
+        [00028C03] Buxil: Stars and skies. This is... this is a layout of the kett command center. Entrances, exits, security. We'll be able to cripple their operations.
+        [00028C23] Buxil: Wait, there's something else here... oh. That's not good.
+        [00028C22] Ryder: What?
+        [00028C21] Buxil: The base entrances are shielded and locked with a code which changes. Often.
+        [00028C25] Buxil: Metadata tells me they downloaded this weeks ago. The code is about to change again.
+        [00028C26] Buxil: If an attack is going to happen, it needs to happen now.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00028C29] Hero: Let me help. Tell me what to do.
-            [00028C78] ice_buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
-            [00028C7A] ice_buxil: I've sent you the map and a navpoint for a side entrance that won't have as many guards.
-            [00028C79] ice_buxil: Go, quickly! We'll be in touch.
+            [00028C29] Ryder: Let me help. Tell me what to do.
+            [00028C78] Buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
+            [00028C7A] Buxil: I've sent you the map and a navpoint for a side entrance that won't have as many guards.
+            [00028C79] Buxil: Go, quickly! We'll be in touch.
         ├ option 2:
-            [00028C2A] Hero: Crap. That's a lot of pressure.
-            [00028C73] ice_buxil: By the time the Resistance gets a team together, it might be too late. But your squad is ready.
+            [00028C2A] Ryder: Crap. That's a lot of pressure.
+            [00028C73] Buxil: By the time the Resistance gets a team together, it might be too late. But your squad is ready.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [00028C77] global_squad_angara ⟨cond⟩: I agree. If this is our only chance, it's up to us.
-                ↩ (goto) [00028C78] ice_buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
+                [00028C77] Squadmate (Angara / Jaal) ⟨cond⟩: I agree. If this is our only chance, it's up to us.
+                ↩ (goto) [00028C78] Buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
             ├ option 2:
-                ↩ (goto) [00028C78] ice_buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
+                ↩ (goto) [00028C78] Buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [00028BDD] Hero: Losing family is hard. I'm glad I could spare you that pain.
-        [00028BE9] ice_buxil: Thank you. They talk about your abilities, but no one's said anything about your kindness.
-        [00028BF3] Hero: Oh... pfft.
-        ↩ (goto) [00028BDC] ice_buxil: Now, let's see what we have here.
+        [00028BDD] Ryder: Losing family is hard. I'm glad I could spare you that pain.
+        [00028BE9] Buxil: Thank you. They talk about your abilities, but no one's said anything about your kindness.
+        [00028BF3] Ryder: Oh... pfft.
+        ↩ (goto) [00028BDC] Buxil: Now, let's see what we have here.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00028BB0] ice_buxil: Thanks for getting him out. Losing him would've set our efforts back months.
+    ↩ (goto) [00028BB0] Buxil: Thanks for getting him out. Losing him would've set our efforts back months.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00028C9C] ice_buxil [OncePerGame]: Why are you still here? Get going or we'll miss our chance.
-        [00028CA2] Hero: I just have a couple of questions.
-        [00028C98] ice_buxil: All right. I'll try to answer quickly.
-        ↩ (goto) [00028C9A] Hero: [empty]
+        [00028C9C] Buxil [OncePerGame]: Why are you still here? Get going or we'll miss our chance.
+        [00028CA2] Ryder: I just have a couple of questions.
+        [00028C98] Buxil: All right. I'll try to answer quickly.
+        ↩ (goto) [00028C9A] Ryder: [empty]
     ├ option 2:
-        [00028C97] ice_buxil: If you have questions, let's make it quick.
-        ↩ (goto) [00028C9A] Hero: [empty]
+        [00028C97] Buxil: If you have questions, let's make it quick.
+        ↩ (goto) [00028C9A] Ryder: [empty]
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [00028CC4] ice_buxil: What do you need?
-        ↩ (goto) [00028C9A] Hero: [empty]
+        [00028CC4] Buxil: What do you need?
+        ↩ (goto) [00028C9A] Ryder: [empty]
     ├ option 2:
-        [00028CC6] ice_buxil: Yes?
-        ↩ (goto) [00028C9A] Hero: [empty]
+        [00028CC6] Buxil: Yes?
+        ↩ (goto) [00028C9A] Ryder: [empty]
     ├ option 3:
-        [00028CC5] ice_buxil: Questions?
-        ↩ (goto) [00028C9A] Hero: [empty]
+        [00028CC5] Buxil: Questions?
+        ↩ (goto) [00028C9A] Ryder: [empty]
     └─ merge ─┘
 └─ merge ─┘
-↩ (goto) [00028C9A] Hero: [empty]
+↩ (goto) [00028C9A] Ryder: [empty]

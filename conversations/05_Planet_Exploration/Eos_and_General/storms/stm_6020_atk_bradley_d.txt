@@ -1,72 +1,72 @@
 # game/conversations/unc/storms/stm_6020_atk_bradley_d
-# Primary speaker: ustl_settle_01_admin_multi
+# Primary speaker: Settle 01 Admin
 # Source: game/conversations/unc/storms/stm_6020_atk_bradley_d.xml
 ==================================================
-[000202C4] ustl_settle_01_admin_multi: Thanks for coming. Knew you'd be up for it.
-[000202C3] Hero: I need answers. You said there were hostiles inbound.
+[000202C4] Settle 01 Admin: Thanks for coming. Knew you'd be up for it.
+[000202C3] Ryder: I need answers. You said there were hostiles inbound.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000265A2] ustl_settle_01_admin_multi ⟨cond⟩: We have soldiers. We've handled a raid or two without a sweat. But this is bigger.
+    [000265A2] Settle 01 Admin ⟨cond⟩: We have soldiers. We've handled a raid or two without a sweat. But this is bigger.
     [000202E0] Narration: Bradley gestures in the direction of the Blackrock Tande mountains with his omni-tool. In the distance, a light flashes?
-    [00020634] stm_atk_message_voice: [Angaran Comm] ...four, five, repeat. Stockpile complete, waiting for beacon. Launch on detection. Repeat, one, two, three...
+    [00020634] Atk Message Voice: [Angaran Comm] ...four, five, repeat. Stockpile complete, waiting for beacon. Launch on detection. Repeat, one, two, three...
     [00020635] Narration: Bradley puts his arm down.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000202DC] Hero: What am I hearing, Bradley?
-        [00020633] ustl_settle_01_admin_multi: Here's my worry: maybe the raids we've seen were just a decoy, so someone could do a slow tactical buildup in the Blackrock.
-        [00020A29] Hero: Tactical? You mean military?
+        [000202DC] Ryder: What am I hearing, Bradley?
+        [00020633] Settle 01 Admin: Here's my worry: maybe the raids we've seen were just a decoy, so someone could do a slow tactical buildup in the Blackrock.
+        [00020A29] Ryder: Tactical? You mean military?
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00020A32] global_squad_angara ⟨cond⟩: No, that was an angaran voice. He means Roekaar. That's why he called us.
+            [00020A32] Squadmate (Angara / Jaal) ⟨cond⟩: No, that was an angaran voice. He means Roekaar. That's why he called us.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [000265BA] ustl_settle_01_admin_multi ⟨cond⟩: Even with our defenses, imagine how the Nexus would respond to an assault on our first outpost.
+                [000265BA] Settle 01 Admin ⟨cond⟩: Even with our defenses, imagine how the Nexus would respond to an assault on our first outpost.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00020A35] global_squad_angara ⟨cond⟩: Exactly the response Akksul wants.
+                    [00020A35] Squadmate (Angara / Jaal) ⟨cond⟩: Exactly the response Akksul wants.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002082C] Hero: I'm sure we can check it out without drawing too much attention.
-                        [00020825] ustl_settle_01_admin_multi: You're the person for the job.
-                        [0002082D] ustl_settle_01_admin_multi: I hope I'm wrong, Pathfinder. I didn't want to bring this kind of thinking to Andromeda.
-                        [00020829] ustl_settle_01_admin_multi: Head to Blackrock Tande. I'll transmit the navpoint for the signal.
+                        [0002082C] Ryder: I'm sure we can check it out without drawing too much attention.
+                        [00020825] Settle 01 Admin: You're the person for the job.
+                        [0002082D] Settle 01 Admin: I hope I'm wrong, Pathfinder. I didn't want to bring this kind of thinking to Andromeda.
+                        [00020829] Settle 01 Admin: Head to Blackrock Tande. I'll transmit the navpoint for the signal.
                     ├ option 2:
-                        [0002082A] Hero: Eos has been through enough. We'll put a stop to whatever this is.
-                        [00020827] ustl_settle_01_admin_multi: I knew you would.
-                        ↩ (goto) [0002082D] ustl_settle_01_admin_multi: I hope I'm wrong, Pathfinder. I didn't want to bring this kind of thinking to Andromeda.
+                        [0002082A] Ryder: Eos has been through enough. We'll put a stop to whatever this is.
+                        [00020827] Settle 01 Admin: I knew you would.
+                        ↩ (goto) [0002082D] Settle 01 Admin: I hope I'm wrong, Pathfinder. I didn't want to bring this kind of thinking to Andromeda.
                     └─ merge ─┘
                 ├ option 2:
-                    [00020A36] ustl_settle_01_admin_multi: That's what the Roekaar want. I'm nobody's fool.
+                    [00020A36] Settle 01 Admin: That's what the Roekaar want. I'm nobody's fool.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        ↩ (goto) [0002082C] Hero: I'm sure we can check it out without drawing too much attention.
+                        ↩ (goto) [0002082C] Ryder: I'm sure we can check it out without drawing too much attention.
                     ├ option 2:
-                        ↩ (goto) [0002082A] Hero: Eos has been through enough. We'll put a stop to whatever this is.
+                        ↩ (goto) [0002082A] Ryder: Eos has been through enough. We'll put a stop to whatever this is.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                [00020A33] ustl_settle_01_admin_multi ⟨cond⟩: An attack our first outpost? Can you imagine how the Nexus would react?
+                [00020A33] Settle 01 Admin ⟨cond⟩: An attack our first outpost? Can you imagine how the Nexus would react?
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [00020A35] global_squad_angara ⟨cond⟩: Exactly the response Akksul wants.
+                    ↩ (goto) [00020A35] Squadmate (Angara / Jaal) ⟨cond⟩: Exactly the response Akksul wants.
                 ├ option 2:
-                    ↩ (goto) [00020A36] ustl_settle_01_admin_multi: That's what the Roekaar want. I'm nobody's fool.
+                    ↩ (goto) [00020A36] Settle 01 Admin: That's what the Roekaar want. I'm nobody's fool.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [00020A34] ustl_settle_01_admin_multi: I mean Roekaar. That's why I called you instead of raising the alarm.
+            [00020A34] Settle 01 Admin: I mean Roekaar. That's why I called you instead of raising the alarm.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [000265BA] ustl_settle_01_admin_multi ⟨cond⟩: Even with our defenses, imagine how the Nexus would respond to an assault on our first outpost.
+                ↩ (goto) [000265BA] Settle 01 Admin ⟨cond⟩: Even with our defenses, imagine how the Nexus would respond to an assault on our first outpost.
             ├ option 2:
-                ↩ (goto) [00020A33] ustl_settle_01_admin_multi ⟨cond⟩: An attack our first outpost? Can you imagine how the Nexus would react?
+                ↩ (goto) [00020A33] Settle 01 Admin ⟨cond⟩: An attack our first outpost? Can you imagine how the Nexus would react?
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        [000202DF] Hero: I came a long way to hear that.
-        ↩ (goto) [00020633] ustl_settle_01_admin_multi: Here's my worry: maybe the raids we've seen were just a decoy, so someone could do a slow tactical buildup in the Blackrock.
+        [000202DF] Ryder: I came a long way to hear that.
+        ↩ (goto) [00020633] Settle 01 Admin: Here's my worry: maybe the raids we've seen were just a decoy, so someone could do a slow tactical buildup in the Blackrock.
     └─ merge ─┘
 ├ option 2:
-    [0002082E] ustl_settle_01_admin_multi ⟨cond⟩: We've had raids. With all our scientific gizmos, we expected pirates. But not this.
+    [0002082E] Settle 01 Admin ⟨cond⟩: We've had raids. With all our scientific gizmos, we expected pirates. But not this.
     ↩ (goto) [000202E0] Narration: Bradley gestures in the direction of the Blackrock Tande mountains with his omni-tool. In the distance, a light flashes?
 └─ merge ─┘

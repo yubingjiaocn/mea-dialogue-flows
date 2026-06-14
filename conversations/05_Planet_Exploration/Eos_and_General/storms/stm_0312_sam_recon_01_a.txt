@@ -4,15 +4,15 @@
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00031463] Hero [OncePerGame]: If walls could talk...
+    [00031463] Ryder [OncePerGame]: If walls could talk...
     [00031462] SAM: Actually, with enough sensory data, I might be able to reconstruct an image of the past.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00031461] global_squad_male_human ⟨cond⟩: Wait. You can do that?
+        [00031461] Squadmate (Human ♂) ⟨cond⟩: Wait. You can do that?
         [00031473] SAM: Normally, it would be impossible. But since this is an Initiative building, I have access to a multitude of data and arrays.
-        [00031474] Hero: Let's give it a shot.
+        [00031474] Ryder: Let's give it a shot.
     ├ option 2:
-        [0003146C] global_squad_turian ⟨cond⟩: Seriously? You can do that?
+        [0003146C] Squadmate (Turian / Vetra) ⟨cond⟩: Seriously? You can do that?
         ↩ (goto) [00031473] SAM: Normally, it would be impossible. But since this is an Initiative building, I have access to a multitude of data and arrays.
     └─ merge ─┘
 ├ option 2:
@@ -21,37 +21,37 @@
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00031465] global_squad_male_human ⟨cond⟩: Holy shit. It works! Can you get audio?
+    [00031465] Squadmate (Human ♂) ⟨cond⟩: Holy shit. It works! Can you get audio?
     [0003146F] SAM: Compiling now.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
     ├ option 2:
-        [00031469] stm_site01_manager_01: You step outside recently? There's nothing "golden" about Eos.
-        [0003146D] stm_site01_manager_02: Not saying there won't be challenges, but we can do this, Wilcox.
-        [00031468] stm_site01_manager_02: We have to.
+        [00031469] Site01 Manager: You step outside recently? There's nothing "golden" about Eos.
+        [0003146D] Site01 Manager: Not saying there won't be challenges, but we can do this, Wilcox.
+        [00031468] Site01 Manager: We have to.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000347DF] global_squad_female_human ⟨cond⟩: It's like we're listening to ghosts.
+            [000347DF] Squadmate (Human ♀) ⟨cond⟩: It's like we're listening to ghosts.
         ├ option 2:
-            [000347E0] global_squad_male_human ⟨cond⟩: Got to admire her determination. Even if it didn't work out.
+            [000347E0] Squadmate (Human ♂) ⟨cond⟩: Got to admire her determination. Even if it didn't work out.
         └─ merge ─┘
     ├ option 3:
-        [00031467] stm_site01_manager_01: We can't survive another attack. The storms and radiation were already killing us. Now we've got {i}those things{/i}?
-        [00031472] stm_site01_manager_02: We can't return to the Nexus with our tails between our legs! The whole station is counting on us.
-        [0003146B] stm_site01_manager_01: Then they're counting on corpses.
+        [00031467] Site01 Manager: We can't survive another attack. The storms and radiation were already killing us. Now we've got {i}those things{/i}?
+        [00031472] Site01 Manager: We can't return to the Nexus with our tails between our legs! The whole station is counting on us.
+        [0003146B] Site01 Manager: Then they're counting on corpses.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000347E2] global_squad_turian ⟨cond⟩: Damn. That's... grim.
+            [000347E2] Squadmate (Turian / Vetra) ⟨cond⟩: Damn. That's... grim.
         ├ option 2:
-            [000347E1] global_squad_female_human ⟨cond⟩: "Those things?" Must be talking about the kett.
+            [000347E1] Squadmate (Human ♀) ⟨cond⟩: "Those things?" Must be talking about the kett.
         └─ merge ─┘
     ├ option 4:
-        ↩ (goto) [00031469] stm_site01_manager_01: You step outside recently? There's nothing "golden" about Eos.
+        ↩ (goto) [00031469] Site01 Manager: You step outside recently? There's nothing "golden" about Eos.
     ├ option 5:
-        ↩ (goto) [00031467] stm_site01_manager_01: We can't survive another attack. The storms and radiation were already killing us. Now we've got {i}those things{/i}?
+        ↩ (goto) [00031467] Site01 Manager: We can't survive another attack. The storms and radiation were already killing us. Now we've got {i}those things{/i}?
     └─ merge ─┘
 ├ option 2:
-    [00031471] global_squad_turian ⟨cond⟩: It actually worked. Is there audio?
+    [00031471] Squadmate (Turian / Vetra) ⟨cond⟩: It actually worked. Is there audio?
     ↩ (goto) [0003146F] SAM: Compiling now.
 └─ merge ─┘
 ↩ (goto) [00031466] SAM: [empty]

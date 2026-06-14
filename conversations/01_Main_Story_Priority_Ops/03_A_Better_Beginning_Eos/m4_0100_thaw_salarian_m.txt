@@ -1,69 +1,69 @@
 # Game/Conversations/Crit/M4/m4_0100_thaw_salarian_m
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/m4/m4_0100_thaw_salarian_m.xml
 ==================================================
-[0000BF10] Hero: Hey there, take it slow.
-[0000BF19] global_salarian_pathfinder_multi: No need. I'm fine. Salarian stasis recovery is almost immediate.
-[0000BF21] global_salarian_pathfinder_multi: Who are you?
+[0000BF10] Ryder: Hey there, take it slow.
+[0000BF19] Salarian Pathfinder (Hayjer): No need. I'm fine. Salarian stasis recovery is almost immediate.
+[0000BF21] Salarian Pathfinder (Hayjer): Who are you?
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0000BF0C] Hero ⟨cond⟩: Scott Ryder, Pathfinder for the human ark.
-    [0000BF1D] global_salarian_pathfinder_multi: Where's Alec?
-    [0000BF16] Hero: He... didn't make it.
-    [0000D67F] global_salarian_pathfinder_multi: This is madness. Stasis was a mistake. I should never have agreed to it.
+    [0000BF0C] Ryder ⟨cond⟩: Scott Ryder, Pathfinder for the human ark.
+    [0000BF1D] Salarian Pathfinder (Hayjer): Where's Alec?
+    [0000BF16] Ryder: He... didn't make it.
+    [0000D67F] Salarian Pathfinder (Hayjer): This is madness. Stasis was a mistake. I should never have agreed to it.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000D67C] Hero: Tell me what you're doing.
-        [0000D675] global_salarian_pathfinder_multi: Seeing what I've woken up to.
-        [0000BF0F] global_salarian_pathfinder_multi: A hostile species—an armada—set upon us. Our captain saw no choice but surrender. Said we'd live to fight another day.
-        [0000BF05] global_salarian_pathfinder_multi: He convinced me to hide in the general population, and to dismantle my SAM so we wouldn't fall into enemy hands.
-        [0000BF1A] global_salarian_pathfinder_multi: But we're still in their grasp, I see.
+        [0000D67C] Ryder: Tell me what you're doing.
+        [0000D675] Salarian Pathfinder (Hayjer): Seeing what I've woken up to.
+        [0000BF0F] Salarian Pathfinder (Hayjer): A hostile species—an armada—set upon us. Our captain saw no choice but surrender. Said we'd live to fight another day.
+        [0000BF05] Salarian Pathfinder (Hayjer): He convinced me to hide in the general population, and to dismantle my SAM so we wouldn't fall into enemy hands.
+        [0000BF1A] Salarian Pathfinder (Hayjer): But we're still in their grasp, I see.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [0000BF0D] global_squad_female_human ⟨cond⟩: That's about to change.
-            [0000BF22] Hero: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
-            [0000D685] global_salarian_pathfinder_multi: That'll be no trouble. And then I'll work on freeing the ark, so you can focus on your objective.
+            [0000BF0D] Squadmate (Human ♀) ⟨cond⟩: That's about to change.
+            [0000BF22] Ryder: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
+            [0000D685] Salarian Pathfinder (Hayjer): That'll be no trouble. And then I'll work on freeing the ark, so you can focus on your objective.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0000D679] Hero: Do what you can. But stay quiet. We don't want to alert the enemy.
-                [0000D67D] global_salarian_pathfinder_multi: {i}(Deep breath.){/i} Yes, yes, of course.
-                [0000D677] Hero: I'm keying you into our comms. We'll stay in touch.
+                [0000D679] Ryder: Do what you can. But stay quiet. We don't want to alert the enemy.
+                [0000D67D] Salarian Pathfinder (Hayjer): {i}(Deep breath.){/i} Yes, yes, of course.
+                [0000D677] Ryder: I'm keying you into our comms. We'll stay in touch.
                 [0000BF12] SAM: Hello, Pathfinder Raeka.
-                [0000BF08] global_salarian_pathfinder_multi: Ah, a SAM in my head again. I'm back in the game.
-                [0000BF11] global_salarian_pathfinder_multi: We'll be ready, Ryder.
-                [0000DA88] Hero: Tempest, we're in the tether, going across to the kett ship now.
-                [0000DA89] global_crew_co-pilot: [Comm] So far, there are no indications they're aware of your presence. Good luck, Pathfinder.
+                [0000BF08] Salarian Pathfinder (Hayjer): Ah, a SAM in my head again. I'm back in the game.
+                [0000BF11] Salarian Pathfinder (Hayjer): We'll be ready, Ryder.
+                [0000DA88] Ryder: Tempest, we're in the tether, going across to the kett ship now.
+                [0000DA89] Kallo (Co-pilot): [Comm] So far, there are no indications they're aware of your presence. Good luck, Pathfinder.
             ├ option 2:
-                [0000D673] Hero: We'll get the ark out somehow. Just wake up your team and stay put.
-                [0000D683] global_salarian_pathfinder_multi: {i}(Deep breath.){/i} One thing at a time. Of course.
-                ↩ (goto) [0000D677] Hero: I'm keying you into our comms. We'll stay in touch.
+                [0000D673] Ryder: We'll get the ark out somehow. Just wake up your team and stay put.
+                [0000D683] Salarian Pathfinder (Hayjer): {i}(Deep breath.){/i} One thing at a time. Of course.
+                ↩ (goto) [0000D677] Ryder: I'm keying you into our comms. We'll stay in touch.
             └─ merge ─┘
         ├ option 2:
-            [0000BF23] global_squad_male_human ⟨cond⟩: Not anymore. Well, almost.
-            ↩ (goto) [0000BF22] Hero: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
+            [0000BF23] Squadmate (Human ♂) ⟨cond⟩: Not anymore. Well, almost.
+            ↩ (goto) [0000BF22] Ryder: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
         ├ option 3:
-            [0000BF20] global_squad_angara ⟨cond⟩: We have come to liberate you.
-            ↩ (goto) [0000BF22] Hero: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
+            [0000BF20] Squadmate (Angara / Jaal) ⟨cond⟩: We have come to liberate you.
+            ↩ (goto) [0000BF22] Ryder: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
         ├ option 4:
-            [0000BF17] global_squad_asari ⟨cond⟩: We're the rescue party.
-            ↩ (goto) [0000BF22] Hero: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
+            [0000BF17] Squadmate (Asari / Peebee) ⟨cond⟩: We're the rescue party.
+            ↩ (goto) [0000BF22] Ryder: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
         ├ option 5:
-            [0000BF1E] global_squad_krogan ⟨cond⟩: Not for long.
-            ↩ (goto) [0000BF22] Hero: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
+            [0000BF1E] Squadmate (Krogan / Drack) ⟨cond⟩: Not for long.
+            ↩ (goto) [0000BF22] Ryder: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
         ├ option 6:
-            [0000BF0E] global_squad_turian ⟨cond⟩: Not for long.
-            ↩ (goto) [0000BF22] Hero: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
+            [0000BF0E] Squadmate (Turian / Vetra) ⟨cond⟩: Not for long.
+            ↩ (goto) [0000BF22] Ryder: We're heading into the kett vessel to gather intelligence. Wake up a flight crew and ready the ark for escape. On my signal.
         └─ merge ─┘
     ├ option 2:
-        [0000D67B] Hero: What's bothering you?
-        [0000D67A] global_salarian_pathfinder_multi: A leader leads. She doesn't go to sleep.
-        ↩ (goto) [0000BF0F] global_salarian_pathfinder_multi: A hostile species—an armada—set upon us. Our captain saw no choice but surrender. Said we'd live to fight another day.
+        [0000D67B] Ryder: What's bothering you?
+        [0000D67A] Salarian Pathfinder (Hayjer): A leader leads. She doesn't go to sleep.
+        ↩ (goto) [0000BF0F] Salarian Pathfinder (Hayjer): A hostile species—an armada—set upon us. Our captain saw no choice but surrender. Said we'd live to fight another day.
     └─ merge ─┘
 ├ option 2:
-    [0000BF15] Hero ⟨cond⟩: Sara Ryder, Pathfinder for the human ark.
-    ↩ (goto) [0000BF1D] global_salarian_pathfinder_multi: Where's Alec?
+    [0000BF15] Ryder ⟨cond⟩: Sara Ryder, Pathfinder for the human ark.
+    ↩ (goto) [0000BF1D] Salarian Pathfinder (Hayjer): Where's Alec?
 ├ option 3:
-    [0000E5DB] Hero: Ryder, Pathfinder for the human ark.
-    ↩ (goto) [0000BF1D] global_salarian_pathfinder_multi: Where's Alec?
+    [0000E5DB] Ryder: Ryder, Pathfinder for the human ark.
+    ↩ (goto) [0000BF1D] Salarian Pathfinder (Hayjer): Where's Alec?
 └─ merge ─┘
-[0002F689] global_salarian_pathfinder_multi: {i}(Breathing.){/i}
+[0002F689] Salarian Pathfinder (Hayjer): {i}(Breathing.){/i}

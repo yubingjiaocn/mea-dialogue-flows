@@ -1,127 +1,127 @@
 # game/conversations/hubs/hub_kad/npcs/kad_bar_main_i
-# Primary speaker: kad_bar_01
+# Primary speaker: Bar
 # Source: game/conversations/hubs/hub_kad/npcs/kad_bar_main_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000ED0B] kad_bar_01 [OncePerGame]: What can I get you? Don't say, "Surprise me."
+    [0000ED0B] Bar [OncePerGame]: What can I get you? Don't say, "Surprise me."
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [00012AAD] Hero [OncePerGame]: So, what's the latest in Kadara?
+        [00012AAD] Ryder [OncePerGame]: So, what's the latest in Kadara?
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [00021DBD] kad_bar_01: The Collective made their move—and failed. Thanks to you, I hear.
-            [00021DBA] kad_bar_01: Can't believe Reyes was the Charlatan. Bastard's still got an open tab.
-            [00021DB7] kad_bar_01: As for Sloane... she's grumpy as ever. Bumped up Outcast security looking for Collective stragglers.
-            [00021DB8] Hero: Anyone know where Reyes went?
-            [00021DB3] kad_bar_01: Nope. He's long gone. I doubt he'll be back.
+            [00021DBD] Bar: The Collective made their move—and failed. Thanks to you, I hear.
+            [00021DBA] Bar: Can't believe Reyes was the Charlatan. Bastard's still got an open tab.
+            [00021DB7] Bar: As for Sloane... she's grumpy as ever. Bumped up Outcast security looking for Collective stragglers.
+            [00021DB8] Ryder: Anyone know where Reyes went?
+            [00021DB3] Bar: Nope. He's long gone. I doubt he'll be back.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                ↩ (goto) [00012AAD] Hero [OncePerGame]: So, what's the latest in Kadara?
+                ↩ (goto) [00012AAD] Ryder [OncePerGame]: So, what's the latest in Kadara?
             ├ option 2:
-                [0000ED0A] Hero [OncePerGame]: Were you a bartender back in the Milky Way?
-                [0000ED2B] kad_bar_01: Yep.
-                [0000ED2C] Hero: You like it?
-                [0000ED2D] kad_bar_01: Nope.
-                [00012AAC] Hero: So why do it?
-                [00012AC7] kad_bar_01: It's familiar.
+                [0000ED0A] Ryder [OncePerGame]: Were you a bartender back in the Milky Way?
+                [0000ED2B] Bar: Yep.
+                [0000ED2C] Ryder: You like it?
+                [0000ED2D] Bar: Nope.
+                [00012AAC] Ryder: So why do it?
+                [00012AC7] Bar: It's familiar.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00012ABE] Hero: When you're surrounded by the alien, it's comforting to do something familiar.
-                    [00012AC2] kad_bar_01: Yeah. Sure.
+                    [00012ABE] Ryder: When you're surrounded by the alien, it's comforting to do something familiar.
+                    [00012AC2] Bar: Yeah. Sure.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        [0000ED13] Hero: Whiskey. Neat.
-                        [0000ED5B] kad_bar_01: That's the only way we serve it.
+                        [0000ED13] Ryder: Whiskey. Neat.
+                        [0000ED5B] Bar: That's the only way we serve it.
                         [000324F8] Narration: Ryder throws back the whiskey.
                     ├ option 2:
-                        [0000ED10] Hero: Actually, I'm okay.
-                        [0000ED15] kad_bar_01: Whatever.
+                        [0000ED10] Ryder: Actually, I'm okay.
+                        [0000ED15] Bar: Whatever.
                     ├ option 3:
-                        ↩ (goto) [00012AAD] Hero [OncePerGame]: So, what's the latest in Kadara?
+                        ↩ (goto) [00012AAD] Ryder [OncePerGame]: So, what's the latest in Kadara?
                     └─ merge ─┘
                 ├ option 2:
-                    [00012AC3] Hero: If you wanted familiar, you're in the wrong galaxy.
-                    [00012AB5] kad_bar_01: I am where I am. Bartended on Thessia for 200 years. Thought I wanted a change. Turns out change sucks.
+                    [00012AC3] Ryder: If you wanted familiar, you're in the wrong galaxy.
+                    [00012AB5] Bar: I am where I am. Bartended on Thessia for 200 years. Thought I wanted a change. Turns out change sucks.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) [0000ED13] Hero: Whiskey. Neat.
+                        ↩ (goto) [0000ED13] Ryder: Whiskey. Neat.
                     ├ option 2:
-                        ↩ (goto) [0000ED10] Hero: Actually, I'm okay.
+                        ↩ (goto) [0000ED10] Ryder: Actually, I'm okay.
                     ├ option 3:
-                        ↩ (goto) [00012AAD] Hero [OncePerGame]: So, what's the latest in Kadara?
+                        ↩ (goto) [00012AAD] Ryder [OncePerGame]: So, what's the latest in Kadara?
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 3:
-                ↩ (goto) [0000ED13] Hero: Whiskey. Neat.
+                ↩ (goto) [0000ED13] Ryder: Whiskey. Neat.
             ├ option 4:
-                ↩ (goto) [0000ED10] Hero: Actually, I'm okay.
+                ↩ (goto) [0000ED10] Ryder: Actually, I'm okay.
             └─ merge ─┘
         ├ option 2:
-            [00021DBB] kad_bar_01: Sloane's dead. But you know that.
-            [00021DB5] kad_bar_01: The angara seem happy to have one of their own in charge.
-            [00021DB4] kad_bar_01: Even if Keema obviously works for the Charlatan.
-            [00021DB2] kad_bar_01: Not sure how I feel about Kadara being touted as a "Free Port."
-            [00021DB9] Hero: Why's that?
-            [00021DBE] kad_bar_01: Besides the fact that it's a load of pyjak, "free" is bad for business.
+            [00021DBB] Bar: Sloane's dead. But you know that.
+            [00021DB5] Bar: The angara seem happy to have one of their own in charge.
+            [00021DB4] Bar: Even if Keema obviously works for the Charlatan.
+            [00021DB2] Bar: Not sure how I feel about Kadara being touted as a "Free Port."
+            [00021DB9] Ryder: Why's that?
+            [00021DBE] Bar: Besides the fact that it's a load of pyjak, "free" is bad for business.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                ↩ (goto) [0000ED0A] Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+                ↩ (goto) [0000ED0A] Ryder [OncePerGame]: Were you a bartender back in the Milky Way?
             ├ option 2:
-                ↩ (goto) [0000ED13] Hero: Whiskey. Neat.
+                ↩ (goto) [0000ED13] Ryder: Whiskey. Neat.
             ├ option 3:
-                ↩ (goto) [0000ED10] Hero: Actually, I'm okay.
+                ↩ (goto) [0000ED10] Ryder: Actually, I'm okay.
             └─ merge ─┘
         ├ option 3:
-            [00012AB6] kad_bar_01: The port's on the brink of civil war. The Charlatan and the Collective have been gunning for Sloane's throne.
-            [00012AAE] kad_bar_01: Thought it was all talk, until they started killing each other in the badlands.
-            [00012AAF] Hero: You're pretty calm about it.
-            [00012AB9] kad_bar_01: When you live in a place run by pirates, violence becomes relative. I'm not going to worry until the shooting's outside my bar.
+            [00012AB6] Bar: The port's on the brink of civil war. The Charlatan and the Collective have been gunning for Sloane's throne.
+            [00012AAE] Bar: Thought it was all talk, until they started killing each other in the badlands.
+            [00012AAF] Ryder: You're pretty calm about it.
+            [00012AB9] Bar: When you live in a place run by pirates, violence becomes relative. I'm not going to worry until the shooting's outside my bar.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                [00012ABB] Hero: You mentioned the Charlatan and the Collective...
-                [00012AC6] kad_bar_01: Yeah. What about them?
-                [00012AC8] Hero: Who are they?
-                [00012AAB] kad_bar_01: {i}(Sighs.){/i} Wow, you're new here. No one knows who the Charlatan is—that's kind of the point.
-                [00012AB3] kad_bar_01: He, she, they—whatever—run the Collective. They like to think of themselves as some kind of spy network.
-                [00012ABD] kad_bar_01: But they're just thugs. Might be a little smarter than the Outcasts, but no one's got the moral high ground in Kadara.
-                ↩ (goto) [00012AB4] kad_bar_01: [empty]
+                [00012ABB] Ryder: You mentioned the Charlatan and the Collective...
+                [00012AC6] Bar: Yeah. What about them?
+                [00012AC8] Ryder: Who are they?
+                [00012AAB] Bar: {i}(Sighs.){/i} Wow, you're new here. No one knows who the Charlatan is—that's kind of the point.
+                [00012AB3] Bar: He, she, they—whatever—run the Collective. They like to think of themselves as some kind of spy network.
+                [00012ABD] Bar: But they're just thugs. Might be a little smarter than the Outcasts, but no one's got the moral high ground in Kadara.
+                ↩ (goto) [00012AB4] Bar: [empty]
             ├ option 2:
-                [00012AC0] Hero: How do you feel about Sloane? Do you like her?
-                [00012AB0] kad_bar_01: I like Sloane fine, but her "protection fees" can go to hell.
-                [00012AB1] Hero: She makes you pay for protection?
-                [00012ABA] kad_bar_01: Yep. And the price of "safety" keeps getting higher. Can't complain too much, though. The Outcasts are my biggest customers.
-                ↩ (goto) [00012AB4] kad_bar_01: [empty]
+                [00012AC0] Ryder: How do you feel about Sloane? Do you like her?
+                [00012AB0] Bar: I like Sloane fine, but her "protection fees" can go to hell.
+                [00012AB1] Ryder: She makes you pay for protection?
+                [00012ABA] Bar: Yep. And the price of "safety" keeps getting higher. Can't complain too much, though. The Outcasts are my biggest customers.
+                ↩ (goto) [00012AB4] Bar: [empty]
             ├ option 3:
-                [00012AB7] Hero: Thanks for the gossip.
-                [00012AB8] kad_bar_01: Part of the job.
+                [00012AB7] Ryder: Thanks for the gossip.
+                [00012AB8] Bar: Part of the job.
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    ↩ (goto) [0000ED0A] Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+                    ↩ (goto) [0000ED0A] Ryder [OncePerGame]: Were you a bartender back in the Milky Way?
                 ├ option 2:
-                    ↩ (goto) [0000ED13] Hero: Whiskey. Neat.
+                    ↩ (goto) [0000ED13] Ryder: Whiskey. Neat.
                 ├ option 3:
-                    ↩ (goto) [0000ED10] Hero: Actually, I'm okay.
+                    ↩ (goto) [0000ED10] Ryder: Actually, I'm okay.
                 └─ merge ─┘
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [0000ED0A] Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+        ↩ (goto) [0000ED0A] Ryder [OncePerGame]: Were you a bartender back in the Milky Way?
     ├ option 3:
-        ↩ (goto) [0000ED13] Hero: Whiskey. Neat.
+        ↩ (goto) [0000ED13] Ryder: Whiskey. Neat.
     ├ option 4:
-        ↩ (goto) [0000ED10] Hero: Actually, I'm okay.
+        ↩ (goto) [0000ED10] Ryder: Actually, I'm okay.
     └─ merge ─┘
 ├ option 2:
-    [000324F2] kad_bar_01: What can I get you?
+    [000324F2] Bar: What can I get you?
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        ↩ (goto) [00012AAD] Hero [OncePerGame]: So, what's the latest in Kadara?
+        ↩ (goto) [00012AAD] Ryder [OncePerGame]: So, what's the latest in Kadara?
     ├ option 2:
-        ↩ (goto) [0000ED0A] Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+        ↩ (goto) [0000ED0A] Ryder [OncePerGame]: Were you a bartender back in the Milky Way?
     ├ option 3:
-        ↩ (goto) [0000ED13] Hero: Whiskey. Neat.
+        ↩ (goto) [0000ED13] Ryder: Whiskey. Neat.
     ├ option 4:
-        ↩ (goto) [0000ED10] Hero: Actually, I'm okay.
+        ↩ (goto) [0000ED10] Ryder: Actually, I'm okay.
     └─ merge ─┘
 └─ merge ─┘

@@ -1,44 +1,44 @@
 # Game/Conversations/Crit/Crit_City/crit_city_0100_planning_meeting_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_city/crit_city_0100_planning_meeting_d.xml
 ==================================================
-[0000A7B5] Hero: The Nexus leaders think our search for Meridian is a waste of time, but we know they're wrong.
-[0000FC4B] Hero: Turning on vaults won't be enough without the heart of the system.
-[0000FC4A] Hero: So we're going on a recon mission, and we're going to deliver proof that Meridian's the answer.
-[0000FC47] global_squad_female_human: Just to clarify: You're defying a direct order?
+[0000A7B5] Ryder: The Nexus leaders think our search for Meridian is a waste of time, but we know they're wrong.
+[0000FC4B] Ryder: Turning on vaults won't be enough without the heart of the system.
+[0000FC4A] Ryder: So we're going on a recon mission, and we're going to deliver proof that Meridian's the answer.
+[0000FC47] Squadmate (Human ♀): Just to clarify: You're defying a direct order?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000A7D7] Hero: It's my job to bring us home, and that's what I'm doing. With or without permission.
-    [0000FC4C] global_squad_krogan: {i}(Laughs){/i} That's the spirit!
-    [0000D40D] global_squad_angara: And the kett?
-    [0001AC62] Hero: That's where the Ghost Storm technology comes in.
+    [0000A7D7] Ryder: It's my job to bring us home, and that's what I'm doing. With or without permission.
+    [0000FC4C] Squadmate (Krogan / Drack): {i}(Laughs){/i} That's the spirit!
+    [0000D40D] Squadmate (Angara / Jaal): And the kett?
+    [0001AC62] Ryder: That's where the Ghost Storm technology comes in.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001AC64] Hero ⟨cond⟩: Isn't that right, Raeka?
-        [0001AC85] global_salarian_pathfinder_multi: [Comm] Absolutely. Our forged signals should divert some kett from you.
-        [0000FCF4] global_squad_turian: It won't be all of them, but it'll be enough.
-        [0000FC48] global_crew_co-pilot: The Tempest is small and fast. I don't need a big window.
-        [0000D507] global_crew_co-pilot: We'll drop you off and make our exit before the kett catch on.
-        [0000A80C] global_squad_asari: Once we're on Meridian, it'll be a small team. Move fast, figure out its secrets.
-        [0000A80D] global_squad_krogan: Right behind enemy lines. Good time to assess their numbers, defenses...
-        [0000D41F] global_crew_co-pilot: And when you're ready, we'll extract you the same way we got you in.
-        [0000A80E] global_squad_male_human: If we come back with actuals on Meridian? The Nexus will sit up.
+        [0001AC64] Ryder ⟨cond⟩: Isn't that right, Raeka?
+        [0001AC85] Salarian Pathfinder (Hayjer): [Comm] Absolutely. Our forged signals should divert some kett from you.
+        [0000FCF4] Squadmate (Turian / Vetra): It won't be all of them, but it'll be enough.
+        [0000FC48] Kallo (Co-pilot): The Tempest is small and fast. I don't need a big window.
+        [0000D507] Kallo (Co-pilot): We'll drop you off and make our exit before the kett catch on.
+        [0000A80C] Squadmate (Asari / Peebee): Once we're on Meridian, it'll be a small team. Move fast, figure out its secrets.
+        [0000A80D] Squadmate (Krogan / Drack): Right behind enemy lines. Good time to assess their numbers, defenses...
+        [0000D41F] Kallo (Co-pilot): And when you're ready, we'll extract you the same way we got you in.
+        [0000A80E] Squadmate (Human ♂): If we come back with actuals on Meridian? The Nexus will sit up.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0000FCF5] Hero ⟨cond⟩: Sounds like a solid plan. Raeka, you ready?
-            [0001AC86] global_salarian_pathfinder_multi: [Comm] Good to go on your word, Pathfinder.
-            [0000A812] Hero: All right, guys. This is it. Let's get moving.
+            [0000FCF5] Ryder ⟨cond⟩: Sounds like a solid plan. Raeka, you ready?
+            [0001AC86] Salarian Pathfinder (Hayjer): [Comm] Good to go on your word, Pathfinder.
+            [0000A812] Ryder: All right, guys. This is it. Let's get moving.
         ├ option 2:
-            [0001AC87] Hero: Sounds like a solid plan, team. Hayjer, you ready?
-            [0001AC84] crit_kett_salarian_captain_multi: [Comm] Good to go on your word, Pathfinder.
-            ↩ (goto) [0000A812] Hero: All right, guys. This is it. Let's get moving.
+            [0001AC87] Ryder: Sounds like a solid plan, team. Hayjer, you ready?
+            [0001AC84] Kett Salarian Captain: [Comm] Good to go on your word, Pathfinder.
+            ↩ (goto) [0000A812] Ryder: All right, guys. This is it. Let's get moving.
         └─ merge ─┘
     ├ option 2:
-        [0001AC63] Hero: Isn't that right, Hayjer?
-        [0000FC46] crit_kett_salarian_captain_multi: [Comm] Exactly. Our forged signals should divert some kett from you.
-        ↩ (goto) [0000FCF4] global_squad_turian: It won't be all of them, but it'll be enough.
+        [0001AC63] Ryder: Isn't that right, Hayjer?
+        [0000FC46] Kett Salarian Captain: [Comm] Exactly. Our forged signals should divert some kett from you.
+        ↩ (goto) [0000FCF4] Squadmate (Turian / Vetra): It won't be all of them, but it'll be enough.
     └─ merge ─┘
 ├ option 2:
-    [0000A7D9] Hero: No, not "me." "We." We are going to defy them.
-    ↩ (goto) [0000FC4C] global_squad_krogan: {i}(Laughs){/i} That's the spirit!
+    [0000A7D9] Ryder: No, not "me." "We." We are going to defy them.
+    ↩ (goto) [0000FC4C] Squadmate (Krogan / Drack): {i}(Laughs){/i} That's the spirit!
 └─ merge ─┘

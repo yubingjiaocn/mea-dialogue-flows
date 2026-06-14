@@ -1,369 +1,369 @@
 # game/conversations/unc/storms/stm_0430_kett_boss_invictor_a
-# Primary speaker: stm_kett_base_boss
+# Primary speaker: Kett Base Boss
 # Source: game/conversations/unc/storms/stm_0430_kett_boss_invictor_a.xml
 ==================================================
-[00026AAF] Hero: Running a bypass! Keep them back!
+[00026AAF] Ryder: Running a bypass! Keep them back!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D0CA] stm_kett_base_boss: [Comm] How are they breaking through! We are at peak capacity!
+        [0001D0CA] Kett Base Boss: [Comm] How are they breaking through! We are at peak capacity!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000259E0] Hero ⟨cond⟩: That must be the Invictor.
+            [000259E0] Ryder ⟨cond⟩: That must be the Invictor.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                [00025BB9] Hero ⟨cond⟩: SAM, can you figure out what he's saying?
+                [00025BB9] Ryder ⟨cond⟩: SAM, can you figure out what he's saying?
                 ┌─ BRANCH (3) ─┐
                 ├ option 1:
-                    [00025BC1] stm_kett_hunter_multi: [Comm] Probably "who kicked down my front door?"
+                    [00025BC1] Kett Hunter: [Comm] Probably "who kicked down my front door?"
                     [00025C45] SAM: Prepping translation database.
                 ├ option 2:
-                    [00025BBA] global_squad_krogan ⟨cond⟩: Who cares? Everyone sounds the same when they're dead.
+                    [00025BBA] Squadmate (Krogan / Drack) ⟨cond⟩: Who cares? Everyone sounds the same when they're dead.
                     ↩ (goto) [00025C45] SAM: Prepping translation database.
                 ├ option 3:
                     ↩ (goto) [00025C45] SAM: Prepping translation database.
                 └─ merge ─┘
             ├ option 2:
-                [0001D0C9] stm_kett_hunter_multi ⟨cond⟩: [Comm] You're in for a party! Wish I could see it!
+                [0001D0C9] Kett Hunter ⟨cond⟩: [Comm] You're in for a party! Wish I could see it!
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001A1F4] global_squad_asari ⟨cond⟩: We are caught between crazy people!
+                    [0001A1F4] Squadmate (Asari / Peebee) ⟨cond⟩: We are caught between crazy people!
                 ├ option 2:
-                    [0001A1EF] global_squad_female_human ⟨cond⟩: Not here to impress people!
+                    [0001A1EF] Squadmate (Human ♀) ⟨cond⟩: Not here to impress people!
                 └─ merge ─┘
             ├ option 3:
-                [000259DF] global_squad_krogan ⟨cond⟩: Ha! He has no idea what he's in for.
+                [000259DF] Squadmate (Krogan / Drack) ⟨cond⟩: Ha! He has no idea what he's in for.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001A1F9] global_squad_male_human ⟨cond⟩: I love this krogan!
+                    [0001A1F9] Squadmate (Human ♂) ⟨cond⟩: I love this krogan!
                 ├ option 2:
-                    [0001A1E3] global_squad_turian ⟨cond⟩: It's not a game, Drack!
+                    [0001A1E3] Squadmate (Turian / Vetra) ⟨cond⟩: It's not a game, Drack!
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [00029AE8] Hero: I'm guessing that's the kett in charge.
+            [00029AE8] Ryder: I'm guessing that's the kett in charge.
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                ↩ (goto) [00025BB9] Hero ⟨cond⟩: SAM, can you figure out what he's saying?
+                ↩ (goto) [00025BB9] Ryder ⟨cond⟩: SAM, can you figure out what he's saying?
             ├ option 2:
-                ↩ (goto) [0001D0C9] stm_kett_hunter_multi ⟨cond⟩: [Comm] You're in for a party! Wish I could see it!
+                ↩ (goto) [0001D0C9] Kett Hunter ⟨cond⟩: [Comm] You're in for a party! Wish I could see it!
             ├ option 3:
-                ↩ (goto) [000259DF] global_squad_krogan ⟨cond⟩: Ha! He has no idea what he's in for.
+                ↩ (goto) [000259DF] Squadmate (Krogan / Drack) ⟨cond⟩: Ha! He has no idea what he's in for.
             ├ option 4:
-                [0001A1E1] global_squad_krogan ⟨cond⟩: [Comm] {i}(Laughs.){/i} Pulled your plug, maw-stain!
+                [0001A1E1] Squadmate (Krogan / Drack) ⟨cond⟩: [Comm] {i}(Laughs.){/i} Pulled your plug, maw-stain!
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    ↩ (goto) [0001A1F4] global_squad_asari ⟨cond⟩: We are caught between crazy people!
+                    ↩ (goto) [0001A1F4] Squadmate (Asari / Peebee) ⟨cond⟩: We are caught between crazy people!
                 ├ option 2:
-                    ↩ (goto) [0001A1EF] global_squad_female_human ⟨cond⟩: Not here to impress people!
+                    ↩ (goto) [0001A1EF] Squadmate (Human ♀) ⟨cond⟩: Not here to impress people!
                 ├ option 3:
-                    ↩ (goto) [0001A1F9] global_squad_male_human ⟨cond⟩: I love this krogan!
+                    ↩ (goto) [0001A1F9] Squadmate (Human ♂) ⟨cond⟩: I love this krogan!
                 ├ option 4:
-                    ↩ (goto) [0001A1E3] global_squad_turian ⟨cond⟩: It's not a game, Drack!
+                    ↩ (goto) [0001A1E3] Squadmate (Turian / Vetra) ⟨cond⟩: It's not a game, Drack!
                 └─ merge ─┘
             └─ merge ─┘
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001A1FA] stm_kett_base_boss ⟨cond⟩: [Comm] Who allowed this failure? Where are the turret engineers?
+            [0001A1FA] Kett Base Boss ⟨cond⟩: [Comm] Who allowed this failure? Where are the turret engineers?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [000259E0] Hero ⟨cond⟩: That must be the Invictor.
+                ↩ (goto) [000259E0] Ryder ⟨cond⟩: That must be the Invictor.
             ├ option 2:
-                ↩ (goto) [00029AE8] Hero: I'm guessing that's the kett in charge.
+                ↩ (goto) [00029AE8] Ryder: I'm guessing that's the kett in charge.
             └─ merge ─┘
         ├ option 2:
-            [0001EEC7] stm_kett_base_boss ⟨cond⟩: [Comm] Why were the turrets at half-capacity? Where is your discipline?
+            [0001EEC7] Kett Base Boss ⟨cond⟩: [Comm] Why were the turrets at half-capacity? Where is your discipline?
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                ↩ (goto) [000259E0] Hero ⟨cond⟩: That must be the Invictor.
+                ↩ (goto) [000259E0] Ryder ⟨cond⟩: That must be the Invictor.
             ├ option 2:
-                ↩ (goto) [00029AE8] Hero: I'm guessing that's the kett in charge.
+                ↩ (goto) [00029AE8] Ryder: I'm guessing that's the kett in charge.
             └─ merge ─┘
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00025BB2] stm_kett_base_boss: [Comm] Ganzaid len kirokhas!
+    [00025BB2] Kett Base Boss: [Comm] Ganzaid len kirokhas!
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [000322E3] stm_kett_hunter_multi ⟨cond⟩: [Comm] Judging from his dulcet tones, that's the kett in charge.
-        ↩ (goto) [00025BB9] Hero ⟨cond⟩: SAM, can you figure out what he's saying?
+        [000322E3] Kett Hunter ⟨cond⟩: [Comm] Judging from his dulcet tones, that's the kett in charge.
+        ↩ (goto) [00025BB9] Ryder ⟨cond⟩: SAM, can you figure out what he's saying?
     ├ option 2:
-        ↩ (goto) [000259E0] Hero ⟨cond⟩: That must be the Invictor.
+        ↩ (goto) [000259E0] Ryder ⟨cond⟩: That must be the Invictor.
     ├ option 3:
-        ↩ (goto) [00029AE8] Hero: I'm guessing that's the kett in charge.
+        ↩ (goto) [00029AE8] Ryder: I'm guessing that's the kett in charge.
     └─ merge ─┘
 └─ merge ─┘
-[000259DE] Hero: This shield around the base is massive.
+[000259DE] Ryder: This shield around the base is massive.
 [00025B6A] SAM: Purpose unknown. It may protect against the atmospheric conditions.
-[00025B69] Hero: And intruders. Let's burst the kett's bubble.
+[00025B69] Ryder: And intruders. Let's burst the kett's bubble.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D124] stm_kett_base_boss: [Comm] Reinforcements! Overwhelm these animals!
+        [0001D124] Kett Base Boss: [Comm] Reinforcements! Overwhelm these animals!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [000322E9] stm_kett_hunter_multi ⟨cond⟩: [Comm] Get ready for company!
-            [000322EA] Hero: How many of these guys are there?
+            [000322E9] Kett Hunter ⟨cond⟩: [Comm] Get ready for company!
+            [000322EA] Ryder: How many of these guys are there?
         ├ option 2:
-            ↩ (goto) [000322EA] Hero: How many of these guys are there?
+            ↩ (goto) [000322EA] Ryder: How many of these guys are there?
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0001D12B] global_squad_krogan: [Comm] Incoming, Nexus! There's always more kett!
+            [0001D12B] Squadmate (Krogan / Drack): [Comm] Incoming, Nexus! There's always more kett!
         ├ option 2:
-            [0001EEDF] stm_kett_base_boss ⟨cond⟩: [Comm] This is how you reinforce? I ordered a full response! Move!
-            [0001EEE0] global_squad_krogan ⟨cond⟩: [Comm] Cut his backup in half! {i}(Laughs.){/i}
+            [0001EEDF] Kett Base Boss ⟨cond⟩: [Comm] This is how you reinforce? I ordered a full response! Move!
+            [0001EEE0] Squadmate (Krogan / Drack) ⟨cond⟩: [Comm] Cut his backup in half! {i}(Laughs.){/i}
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                [0001CE67] global_squad_asari ⟨cond⟩: Still feels like a lot!
+                [0001CE67] Squadmate (Asari / Peebee) ⟨cond⟩: Still feels like a lot!
             ├ option 2:
-                [0001CE62] global_squad_female_human ⟨cond⟩: Still deadly! Be careful!
+                [0001CE62] Squadmate (Human ♀) ⟨cond⟩: Still deadly! Be careful!
             ├ option 3:
-                [0001CE63] global_squad_male_human ⟨cond⟩: Bring 'em on!
+                [0001CE63] Squadmate (Human ♂) ⟨cond⟩: Bring 'em on!
             ├ option 4:
-                [0001CE6A] global_squad_turian ⟨cond⟩: Some is still more than none!
+                [0001CE6A] Squadmate (Turian / Vetra) ⟨cond⟩: Some is still more than none!
             └─ merge ─┘
         ├ option 3:
-            [0001CE6C] stm_kett_base_boss ⟨cond⟩: [Comm] Where are my reinforcements? I want those creatures dead!
-            [0001CE5E] global_squad_krogan: [Comm] He's got dregs for backup, you saw to that!
+            [0001CE6C] Kett Base Boss ⟨cond⟩: [Comm] Where are my reinforcements? I want those creatures dead!
+            [0001CE5E] Squadmate (Krogan / Drack): [Comm] He's got dregs for backup, you saw to that!
             ┌─ BRANCH (4) ─┐
             ├ option 1:
-                ↩ (goto) [0001CE67] global_squad_asari ⟨cond⟩: Still feels like a lot!
+                ↩ (goto) [0001CE67] Squadmate (Asari / Peebee) ⟨cond⟩: Still feels like a lot!
             ├ option 2:
-                ↩ (goto) [0001CE62] global_squad_female_human ⟨cond⟩: Still deadly! Be careful!
+                ↩ (goto) [0001CE62] Squadmate (Human ♀) ⟨cond⟩: Still deadly! Be careful!
             ├ option 3:
-                ↩ (goto) [0001CE63] global_squad_male_human ⟨cond⟩: Bring 'em on!
+                ↩ (goto) [0001CE63] Squadmate (Human ♂) ⟨cond⟩: Bring 'em on!
             ├ option 4:
-                ↩ (goto) [0001CE6A] global_squad_turian ⟨cond⟩: Some is still more than none!
+                ↩ (goto) [0001CE6A] Squadmate (Turian / Vetra) ⟨cond⟩: Some is still more than none!
             └─ merge ─┘
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00025BC6] stm_kett_base_boss: [Comm] Khengoret! Nykheron: thogad!
+    [00025BC6] Kett Base Boss: [Comm] Khengoret! Nykheron: thogad!
     [00025C3D] SAM: Adding to language database.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001A1E4] stm_kett_base_boss: [Comm] Insult! Our perfection cannot be defeated!
+    [0001A1E4] Kett Base Boss: [Comm] Insult! Our perfection cannot be defeated!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001A1F3] stm_kett_hunter_multi ⟨cond⟩: [Comm] Hear that? I think you struck a nerve.
+        [0001A1F3] Kett Hunter ⟨cond⟩: [Comm] Hear that? I think you struck a nerve.
     ├ option 2:
-        [00025C3C] global_squad_krogan ⟨cond⟩: He's getting scared.
+        [00025C3C] Squadmate (Krogan / Drack) ⟨cond⟩: He's getting scared.
     └─ merge ─┘
 ├ option 2:
-    [00025BBF] stm_kett_base_boss: [Comm] Nykheron! Rekhat kahden nehz khesaidunan!
+    [00025BBF] Kett Base Boss: [Comm] Nykheron! Rekhat kahden nehz khesaidunan!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00025C3E] stm_kett_hunter_multi ⟨cond⟩: [Comm] {i}(Laughs.){/i} I love it when they whine.
+        [00025C3E] Kett Hunter ⟨cond⟩: [Comm] {i}(Laughs.){/i} I love it when they whine.
     ├ option 2:
-        [00025C3F] global_squad_krogan ⟨cond⟩: What was that? "Help me, save me"?
+        [00025C3F] Squadmate (Krogan / Drack) ⟨cond⟩: What was that? "Help me, save me"?
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D159] stm_kett_base_boss: [Comm] I deny you, creature! My best will wear you down!
-        [0001D161] Hero: Look for security terminals! Anything with access! We're getting down there!
+        [0001D159] Kett Base Boss: [Comm] I deny you, creature! My best will wear you down!
+        [0001D161] Ryder: Look for security terminals! Anything with access! We're getting down there!
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001CE89] stm_kett_base_boss: [Comm] You think you've sabotaged everything, but I deny you.
-            ↩ (goto) [0001D161] Hero: Look for security terminals! Anything with access! We're getting down there!
+            [0001CE89] Kett Base Boss: [Comm] You think you've sabotaged everything, but I deny you.
+            ↩ (goto) [0001D161] Ryder: Look for security terminals! Anything with access! We're getting down there!
         ├ option 2:
-            [0001EEEC] stm_kett_base_boss: [Comm] You've destroyed much, but will go no further!
-            ↩ (goto) [0001D161] Hero: Look for security terminals! Anything with access! We're getting down there!
+            [0001EEEC] Kett Base Boss: [Comm] You've destroyed much, but will go no further!
+            ↩ (goto) [0001D161] Ryder: Look for security terminals! Anything with access! We're getting down there!
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00025BB4] stm_kett_base_boss: [Comm] Niad lezekhod! I deny!
-    [00025C40] Hero: Our translator's getting somewhere.
-    [00026AB0] Hero: If he's locked us out, let's look for underground access—security terminals, anything he's got!
+    [00025BB4] Kett Base Boss: [Comm] Niad lezekhod! I deny!
+    [00025C40] Ryder: Our translator's getting somewhere.
+    [00026AB0] Ryder: If he's locked us out, let's look for underground access—security terminals, anything he's got!
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00026AB8] Hero [OncePerGame]: Got a security terminal! We can get access below!
+    [00026AB8] Ryder [OncePerGame]: Got a security terminal! We can get access below!
 ├ option 2:
-    [00026AB6] Hero [OncePerGame]: Another terminal! Deactivating now!
+    [00026AB6] Ryder [OncePerGame]: Another terminal! Deactivating now!
 ├ option 3:
-    [00026AB4] Hero [OncePerGame]: Last terminal!
+    [00026AB4] Ryder [OncePerGame]: Last terminal!
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [00026AC7] global_squad_female_human ⟨cond⟩: Defending this point!
+        [00026AC7] Squadmate (Human ♀) ⟨cond⟩: Defending this point!
     ├ option 2:
-        [00026AC5] global_squad_male_human ⟨cond⟩: Everyone stay sharp!
+        [00026AC5] Squadmate (Human ♂) ⟨cond⟩: Everyone stay sharp!
     ├ option 3:
-        [00026AC8] global_squad_turian ⟨cond⟩: We'll hold them off!
+        [00026AC8] Squadmate (Turian / Vetra) ⟨cond⟩: We'll hold them off!
     ├ option 4:
-        [00026AC6] global_squad_asari ⟨cond⟩: Ha! The kett will be mad.
+        [00026AC6] Squadmate (Asari / Peebee) ⟨cond⟩: Ha! The kett will be mad.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [00026ABC] Hero [OncePerGame]: First terminal down. Find the rest!
+    [00026ABC] Ryder [OncePerGame]: First terminal down. Find the rest!
 ├ option 2:
     [00026ABA] SAM [OncePerGame]: Terminal disabled. I estimate disabling one more will force the override.
 ├ option 3:
-    [00026ABB] Hero [OncePerGame]: Done. We've got underground access—the Invictor's cornered. Let's finish this.
-    [000322EE] stm_kett_hunter_multi ⟨cond⟩: [Comm] Don't go easy on the bastard.
+    [00026ABB] Ryder [OncePerGame]: Done. We've got underground access—the Invictor's cornered. Let's finish this.
+    [000322EE] Kett Hunter ⟨cond⟩: [Comm] Don't go easy on the bastard.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D119] stm_kett_base_boss: [Comm] How is this possible! Protect communications!
+        [0001D119] Kett Base Boss: [Comm] How is this possible! Protect communications!
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D122] stm_kett_hunter_multi ⟨cond⟩: [Comm] He's got no more tricks up his sleeve. Put him down.
+            [0001D122] Kett Hunter ⟨cond⟩: [Comm] He's got no more tricks up his sleeve. Put him down.
         ├ option 2:
-            [000322E8] Hero: We can do this! He's running out of options!
+            [000322E8] Ryder: We can do this! He's running out of options!
         └─ merge ─┘
     ├ option 2:
-        [0001A1E2] stm_kett_base_boss: [Comm] Infiltrators! Protect communications or I'll bury you with them!
-        [0001A1F1] global_squad_krogan: [Comm] You're everyone's fault but his, Nexus!
+        [0001A1E2] Kett Base Boss: [Comm] Infiltrators! Protect communications or I'll bury you with them!
+        [0001A1F1] Squadmate (Krogan / Drack): [Comm] You're everyone's fault but his, Nexus!
     └─ merge ─┘
 ├ option 2:
-    [00025BC5] stm_kett_base_boss: [Comm] Enough! Khengoret, to communications! To protect!
+    [00025BC5] Kett Base Boss: [Comm] Enough! Khengoret, to communications! To protect!
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D127] stm_kett_base_boss: You broke through our best, but more remain! I am Invictor!
+        [0001D127] Kett Base Boss: You broke through our best, but more remain! I am Invictor!
         ┌─ BRANCH (5) ─┐
         ├ option 1:
-            [000259D8] global_squad_krogan ⟨cond⟩: Dead meat doesn't have a name!
+            [000259D8] Squadmate (Krogan / Drack) ⟨cond⟩: Dead meat doesn't have a name!
         ├ option 2:
-            [0001CE5F] global_squad_asari ⟨cond⟩: Watch out! He's ticked!
+            [0001CE5F] Squadmate (Asari / Peebee) ⟨cond⟩: Watch out! He's ticked!
         ├ option 3:
-            [0001CE6D] global_squad_female_human ⟨cond⟩: Focus, he's still a threat!
+            [0001CE6D] Squadmate (Human ♀) ⟨cond⟩: Focus, he's still a threat!
         ├ option 4:
-            [0001CE69] global_squad_male_human ⟨cond⟩: I am sick of this asshole's voice!
+            [0001CE69] Squadmate (Human ♂) ⟨cond⟩: I am sick of this asshole's voice!
         ├ option 5:
-            [0001CE72] global_squad_turian ⟨cond⟩: Fighting scared! You can hear it!
+            [0001CE72] Squadmate (Turian / Vetra) ⟨cond⟩: Fighting scared! You can hear it!
         └─ merge ─┘
     ├ option 2:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001CE64] stm_kett_base_boss: Vermin! You sabotaged everything beneath me, but I am Invictor!
+            [0001CE64] Kett Base Boss: Vermin! You sabotaged everything beneath me, but I am Invictor!
         ├ option 2:
-            [0001EEB7] stm_kett_base_boss: You think you have weakened me? You know nothing. I am Invictor!
+            [0001EEB7] Kett Base Boss: You think you have weakened me? You know nothing. I am Invictor!
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00025BB5] stm_kett_base_boss: Nykheron—lesser creatures! You destroy my sohukad. But here, you fall! I am Invictor!
+    [00025BB5] Kett Base Boss: Nykheron—lesser creatures! You destroy my sohukad. But here, you fall! I am Invictor!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [000259D8] global_squad_krogan ⟨cond⟩: Dead meat doesn't have a name!
+        ↩ (goto) [000259D8] Squadmate (Krogan / Drack) ⟨cond⟩: Dead meat doesn't have a name!
     ├ option 2:
-        ↩ (goto) [0001CE5F] global_squad_asari ⟨cond⟩: Watch out! He's ticked!
+        ↩ (goto) [0001CE5F] Squadmate (Asari / Peebee) ⟨cond⟩: Watch out! He's ticked!
     ├ option 3:
-        ↩ (goto) [0001CE6D] global_squad_female_human ⟨cond⟩: Focus, he's still a threat!
+        ↩ (goto) [0001CE6D] Squadmate (Human ♀) ⟨cond⟩: Focus, he's still a threat!
     ├ option 4:
-        ↩ (goto) [0001CE69] global_squad_male_human ⟨cond⟩: I am sick of this asshole's voice!
+        ↩ (goto) [0001CE69] Squadmate (Human ♂) ⟨cond⟩: I am sick of this asshole's voice!
     ├ option 5:
-        ↩ (goto) [0001CE72] global_squad_turian ⟨cond⟩: Fighting scared! You can hear it!
+        ↩ (goto) [0001CE72] Squadmate (Turian / Vetra) ⟨cond⟩: Fighting scared! You can hear it!
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [000259D7] global_squad_krogan ⟨cond⟩: Now that's a good day's work!
+    [000259D7] Squadmate (Krogan / Drack) ⟨cond⟩: Now that's a good day's work!
 ├ option 2:
-    [0001CE71] global_squad_female_human ⟨cond⟩: Primary target down!
+    [0001CE71] Squadmate (Human ♀) ⟨cond⟩: Primary target down!
 ├ option 3:
-    [0001CE68] global_squad_male_human ⟨cond⟩: Got him! That one felt good!
+    [0001CE68] Squadmate (Human ♂) ⟨cond⟩: Got him! That one felt good!
 ├ option 4:
-    [0001CE70] global_squad_turian ⟨cond⟩: Finally shut him up!
+    [0001CE70] Squadmate (Turian / Vetra) ⟨cond⟩: Finally shut him up!
 ├ option 5:
-    [0001CE65] global_squad_asari ⟨cond⟩: Not going to miss that one!
+    [0001CE65] Squadmate (Asari / Peebee) ⟨cond⟩: Not going to miss that one!
 └─ merge ─┘
-[0001D18E] Hero: That's all of them.
+[0001D18E] Ryder: That's all of them.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00025C49] stm_kett_hunter_multi ⟨cond⟩: [Comm] Pathfinder. Still alive?
+    [00025C49] Kett Hunter ⟨cond⟩: [Comm] Pathfinder. Still alive?
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [000322E2] Hero: Told you I was ready.
+        [000322E2] Ryder: Told you I was ready.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001D1A5] global_squad_asari ⟨cond⟩: Let's shut down the base comms to be sure.
+            [0001D1A5] Squadmate (Asari / Peebee) ⟨cond⟩: Let's shut down the base comms to be sure.
             [0001D1A2] SAM: Power and communications are centered at the top of the tower.
         ├ option 2:
-            [0001D1A6] global_squad_female_human ⟨cond⟩: Let's shut down the base comms to be sure.
+            [0001D1A6] Squadmate (Human ♀) ⟨cond⟩: Let's shut down the base comms to be sure.
             ↩ (goto) [0001D1A2] SAM: Power and communications are centered at the top of the tower.
         ├ option 3:
-            [0001D1A3] global_squad_male_human ⟨cond⟩: Let's shut down the base comms to be sure.
+            [0001D1A3] Squadmate (Human ♂) ⟨cond⟩: Let's shut down the base comms to be sure.
             ↩ (goto) [0001D1A2] SAM: Power and communications are centered at the top of the tower.
         ├ option 4:
-            [0001D1A4] global_squad_turian ⟨cond⟩: Let's shut down the base comms to be sure.
+            [0001D1A4] Squadmate (Turian / Vetra) ⟨cond⟩: Let's shut down the base comms to be sure.
             ↩ (goto) [0001D1A2] SAM: Power and communications are centered at the top of the tower.
         └─ merge ─┘
     ├ option 2:
-        [000322E6] Hero: Don't sound so worried. We won the day.
+        [000322E6] Ryder: Don't sound so worried. We won the day.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            ↩ (goto) [0001D1A5] global_squad_asari ⟨cond⟩: Let's shut down the base comms to be sure.
+            ↩ (goto) [0001D1A5] Squadmate (Asari / Peebee) ⟨cond⟩: Let's shut down the base comms to be sure.
         ├ option 2:
-            ↩ (goto) [0001D1A6] global_squad_female_human ⟨cond⟩: Let's shut down the base comms to be sure.
+            ↩ (goto) [0001D1A6] Squadmate (Human ♀) ⟨cond⟩: Let's shut down the base comms to be sure.
         ├ option 3:
-            ↩ (goto) [0001D1A3] global_squad_male_human ⟨cond⟩: Let's shut down the base comms to be sure.
+            ↩ (goto) [0001D1A3] Squadmate (Human ♂) ⟨cond⟩: Let's shut down the base comms to be sure.
         ├ option 4:
-            ↩ (goto) [0001D1A4] global_squad_turian ⟨cond⟩: Let's shut down the base comms to be sure.
+            ↩ (goto) [0001D1A4] Squadmate (Turian / Vetra) ⟨cond⟩: Let's shut down the base comms to be sure.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0001D1A5] global_squad_asari ⟨cond⟩: Let's shut down the base comms to be sure.
+    ↩ (goto) [0001D1A5] Squadmate (Asari / Peebee) ⟨cond⟩: Let's shut down the base comms to be sure.
 ├ option 3:
-    ↩ (goto) [0001D1A6] global_squad_female_human ⟨cond⟩: Let's shut down the base comms to be sure.
+    ↩ (goto) [0001D1A6] Squadmate (Human ♀) ⟨cond⟩: Let's shut down the base comms to be sure.
 ├ option 4:
-    ↩ (goto) [0001D1A3] global_squad_male_human ⟨cond⟩: Let's shut down the base comms to be sure.
+    ↩ (goto) [0001D1A3] Squadmate (Human ♂) ⟨cond⟩: Let's shut down the base comms to be sure.
 ├ option 5:
-    ↩ (goto) [0001D1A4] global_squad_turian ⟨cond⟩: Let's shut down the base comms to be sure.
+    ↩ (goto) [0001D1A4] Squadmate (Turian / Vetra) ⟨cond⟩: Let's shut down the base comms to be sure.
 └─ merge ─┘
 ┌─ BRANCH (4) ─┐
 ├ option 1:
-    [00025A78] global_squad_krogan ⟨cond⟩: So here's where they kept the good stuff.
+    [00025A78] Squadmate (Krogan / Drack) ⟨cond⟩: So here's where they kept the good stuff.
 ├ option 2:
-    [00025A75] global_squad_turian ⟨cond⟩: Nice stash that Invictor had.
+    [00025A75] Squadmate (Turian / Vetra) ⟨cond⟩: Nice stash that Invictor had.
 ├ option 3:
-    [00025A7A] global_squad_asari ⟨cond⟩: The Invictor? More like the Hoarder.
+    [00025A7A] Squadmate (Asari / Peebee) ⟨cond⟩: The Invictor? More like the Hoarder.
 ├ option 4:
-    [00025A81] global_squad_male_human ⟨cond⟩: All this gear and the Invictor still got beat.
+    [00025A81] Squadmate (Human ♂) ⟨cond⟩: All this gear and the Invictor still got beat.
 └─ merge ─┘
-[00025A76] Hero: That's it. The base is offline.
+[00025A76] Ryder: That's it. The base is offline.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00025A7F] global_squad_krogan ⟨cond⟩: Everything outside too. Take a look.
-    [000322EF] stm_kett_hunter_multi ⟨cond⟩: You're a goddamn hero, Pathfinder.
+    [00025A7F] Squadmate (Krogan / Drack) ⟨cond⟩: Everything outside too. Take a look.
+    [000322EF] Kett Hunter ⟨cond⟩: You're a goddamn hero, Pathfinder.
 ├ option 2:
-    [00025A7C] global_squad_female_human ⟨cond⟩: Everything is. Look down there.
-    ↩ (goto) [000322EF] stm_kett_hunter_multi ⟨cond⟩: You're a goddamn hero, Pathfinder.
+    [00025A7C] Squadmate (Human ♀) ⟨cond⟩: Everything is. Look down there.
+    ↩ (goto) [000322EF] Kett Hunter ⟨cond⟩: You're a goddamn hero, Pathfinder.
 ├ option 3:
-    [00025A80] global_squad_male_human ⟨cond⟩: Not just the base. Look out there. We shut everything off.
-    ↩ (goto) [000322EF] stm_kett_hunter_multi ⟨cond⟩: You're a goddamn hero, Pathfinder.
+    [00025A80] Squadmate (Human ♂) ⟨cond⟩: Not just the base. Look out there. We shut everything off.
+    ↩ (goto) [000322EF] Kett Hunter ⟨cond⟩: You're a goddamn hero, Pathfinder.
 ├ option 4:
-    [00025A7B] global_squad_turian ⟨cond⟩: We got a front-row seat. Look outside.
-    ↩ (goto) [000322EF] stm_kett_hunter_multi ⟨cond⟩: You're a goddamn hero, Pathfinder.
+    [00025A7B] Squadmate (Turian / Vetra) ⟨cond⟩: We got a front-row seat. Look outside.
+    ↩ (goto) [000322EF] Kett Hunter ⟨cond⟩: You're a goddamn hero, Pathfinder.
 ├ option 5:
-    [00025A77] global_squad_asari ⟨cond⟩: Whoa, nice view of everything we pulled the plug on.
-    ↩ (goto) [000322EF] stm_kett_hunter_multi ⟨cond⟩: You're a goddamn hero, Pathfinder.
+    [00025A77] Squadmate (Asari / Peebee) ⟨cond⟩: Whoa, nice view of everything we pulled the plug on.
+    ↩ (goto) [000322EF] Kett Hunter ⟨cond⟩: You're a goddamn hero, Pathfinder.
 └─ merge ─┘
-[000322F1] Hero: Sounds like Mr. Invictor didn't even want to be on Eos. He was ordered to stay "at all costs."
+[000322F1] Ryder: Sounds like Mr. Invictor didn't even want to be on Eos. He was ordered to stay "at all costs."
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [000322F2] global_squad_krogan ⟨cond⟩: {i}(Snort.){/i} He paid that price.
+    [000322F2] Squadmate (Krogan / Drack) ⟨cond⟩: {i}(Snort.){/i} He paid that price.
 ├ option 2:
-    [000322F5] global_squad_female_human ⟨cond⟩: Division among the ranks?
+    [000322F5] Squadmate (Human ♀) ⟨cond⟩: Division among the ranks?
 ├ option 3:
-    [000322F0] global_squad_male_human ⟨cond⟩: Still an asshole.
+    [000322F0] Squadmate (Human ♂) ⟨cond⟩: Still an asshole.
 ├ option 4:
-    [000322F3] global_squad_turian ⟨cond⟩: Some orders are meant to be broken.
+    [000322F3] Squadmate (Turian / Vetra) ⟨cond⟩: Some orders are meant to be broken.
 ├ option 5:
-    [000322F6] global_squad_asari ⟨cond⟩: He didn't have to follow orders.
+    [000322F6] Squadmate (Asari / Peebee) ⟨cond⟩: He didn't have to follow orders.
 └─ merge ─┘

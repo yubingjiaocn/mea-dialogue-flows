@@ -1,27 +1,27 @@
 # Game/Conversations/Loyalty/Human_male_01/loyalty_hmm_0400_post_cav_goal_a
-# Primary speaker: loyalty_hmm_pirate_leader
+# Primary speaker: Hmm Pirate Leader
 # Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0400_post_cav_goal_a.xml
 ==================================================
-[00033659] Hero: We're here. But things have gone a little sideways.
-[00009130] loyalty_hmm_pirate_leader: [Loudspeaker] Get to engineering and fix the gravs! —Then I'll do it myself! {i}(Sounds of shooting.){/i}
-[00009132] ustl_settle_01_admin_multi: [Comm] Sounds like we made your man angry.
-[00009131] ustl_settle_01_admin_multi: [Comm] You take care of the fighting, Liam. Find Verand. We'll keep this barge stable!
-[00009133] global_squad_male_human: Oh hell, yeah!
+[00033659] Ryder: We're here. But things have gone a little sideways.
+[00009130] Hmm Pirate Leader: [Loudspeaker] Get to engineering and fix the gravs! —Then I'll do it myself! {i}(Sounds of shooting.){/i}
+[00009132] Settle 01 Admin: [Comm] Sounds like we made your man angry.
+[00009131] Settle 01 Admin: [Comm] You take care of the fighting, Liam. Find Verand. We'll keep this barge stable!
+[00009133] Squadmate (Human ♂): Oh hell, yeah!
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00024562] global_squad_krogan ⟨cond⟩: We've lost the map. SAM?
+    [00024562] Squadmate (Krogan / Drack) ⟨cond⟩: We've lost the map. SAM?
     [0002455C] SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
-    [00024569] global_squad_male_human: I feel you.
+    [00024569] Squadmate (Human ♂): I feel you.
 ├ option 2:
-    [0002455E] global_squad_angara ⟨cond⟩: We've lost the map. SAM?
+    [0002455E] Squadmate (Angara / Jaal) ⟨cond⟩: We've lost the map. SAM?
     ↩ (goto) [0002455C] SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
 ├ option 3:
-    [0002455F] global_squad_female_human ⟨cond⟩: We've lost the map. SAM?
+    [0002455F] Squadmate (Human ♀) ⟨cond⟩: We've lost the map. SAM?
     ↩ (goto) [0002455C] SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
 ├ option 4:
-    [00024560] global_squad_asari ⟨cond⟩: We've lost the map. SAM?
+    [00024560] Squadmate (Asari / Peebee) ⟨cond⟩: We've lost the map. SAM?
     ↩ (goto) [0002455C] SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
 ├ option 5:
-    [0002455D] global_squad_turian ⟨cond⟩: We've lost the map. SAM?
+    [0002455D] Squadmate (Turian / Vetra) ⟨cond⟩: We've lost the map. SAM?
     ↩ (goto) [0002455C] SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
 └─ merge ─┘

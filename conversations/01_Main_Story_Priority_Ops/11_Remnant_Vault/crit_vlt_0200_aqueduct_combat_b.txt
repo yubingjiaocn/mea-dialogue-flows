@@ -1,141 +1,141 @@
 # game/conversations/crit/crit_vlt/crit_vlt_0200_aqueduct_combat_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_vlt/crit_vlt_0200_aqueduct_combat_b.xml
 ==================================================
 ┌─ BRANCH (4) ─┐
 ├ option 1:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001EECB] Hero [OncePerGame]: Assemblers! They're hostile!
-        [0001EEE2] global_squad_asari: [Comm] Careful! Remember they make other Remnant!
+        [0001EECB] Ryder [OncePerGame]: Assemblers! They're hostile!
+        [0001EEE2] Squadmate (Asari / Peebee): [Comm] Careful! Remember they make other Remnant!
     ├ option 2:
-        [0001EF01] Hero: We've got them where we want them!
+        [0001EF01] Ryder: We've got them where we want them!
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EF04] global_squad_turian ⟨cond⟩: They're probably thinking the same!
+            [0001EF04] Squadmate (Turian / Vetra) ⟨cond⟩: They're probably thinking the same!
         ├ option 2:
-            [0001EF03] global_squad_male_human ⟨cond⟩: They're probably thinking the same!
+            [0001EF03] Squadmate (Human ♂) ⟨cond⟩: They're probably thinking the same!
         ├ option 3:
-            [0001EF02] global_squad_krogan ⟨cond⟩: They're probably thinking the same!
+            [0001EF02] Squadmate (Krogan / Drack) ⟨cond⟩: They're probably thinking the same!
         ├ option 4:
-            [0001EF00] global_squad_female_human ⟨cond⟩: They're probably thinking the same!
+            [0001EF00] Squadmate (Human ♀) ⟨cond⟩: They're probably thinking the same!
         └─ merge ─┘
     ├ option 3:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EEE1] global_squad_female_human ⟨cond⟩: Getting cramped in here!
+            [0001EEE1] Squadmate (Human ♀) ⟨cond⟩: Getting cramped in here!
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                [0001EEF8] global_squad_male_human ⟨cond⟩: Better than getting our feet wet!
+                [0001EEF8] Squadmate (Human ♂) ⟨cond⟩: Better than getting our feet wet!
             ├ option 2:
-                [0001EEFA] global_squad_turian ⟨cond⟩: Better than getting our feet wet!
+                [0001EEFA] Squadmate (Turian / Vetra) ⟨cond⟩: Better than getting our feet wet!
             ├ option 3:
-                [0001EEF9] global_squad_krogan ⟨cond⟩: Better than getting our feet wet!
+                [0001EEF9] Squadmate (Krogan / Drack) ⟨cond⟩: Better than getting our feet wet!
             └─ merge ─┘
         ├ option 2:
-            [0001EEE5] global_squad_krogan ⟨cond⟩: Getting cramped in here!
+            [0001EEE5] Squadmate (Krogan / Drack) ⟨cond⟩: Getting cramped in here!
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                ↩ (goto) [0001EEF8] global_squad_male_human ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEF8] Squadmate (Human ♂) ⟨cond⟩: Better than getting our feet wet!
             ├ option 2:
-                ↩ (goto) [0001EEFA] global_squad_turian ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEFA] Squadmate (Turian / Vetra) ⟨cond⟩: Better than getting our feet wet!
             ├ option 3:
-                [0001EEFB] global_squad_female_human ⟨cond⟩: Better than getting our feet wet!
+                [0001EEFB] Squadmate (Human ♀) ⟨cond⟩: Better than getting our feet wet!
             └─ merge ─┘
         ├ option 3:
-            [0001EEE4] global_squad_turian ⟨cond⟩: Getting cramped in here!
+            [0001EEE4] Squadmate (Turian / Vetra) ⟨cond⟩: Getting cramped in here!
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                ↩ (goto) [0001EEF8] global_squad_male_human ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEF8] Squadmate (Human ♂) ⟨cond⟩: Better than getting our feet wet!
             ├ option 2:
-                ↩ (goto) [0001EEF9] global_squad_krogan ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEF9] Squadmate (Krogan / Drack) ⟨cond⟩: Better than getting our feet wet!
             ├ option 3:
-                ↩ (goto) [0001EEFB] global_squad_female_human ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEFB] Squadmate (Human ♀) ⟨cond⟩: Better than getting our feet wet!
             └─ merge ─┘
         ├ option 4:
-            [0001EEE3] global_squad_male_human ⟨cond⟩: Getting cramped in here!
+            [0001EEE3] Squadmate (Human ♂) ⟨cond⟩: Getting cramped in here!
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                ↩ (goto) [0001EEF9] global_squad_krogan ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEF9] Squadmate (Krogan / Drack) ⟨cond⟩: Better than getting our feet wet!
             ├ option 2:
-                ↩ (goto) [0001EEFA] global_squad_turian ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEFA] Squadmate (Turian / Vetra) ⟨cond⟩: Better than getting our feet wet!
             ├ option 3:
-                ↩ (goto) [0001EEFB] global_squad_female_human ⟨cond⟩: Better than getting our feet wet!
+                ↩ (goto) [0001EEFB] Squadmate (Human ♀) ⟨cond⟩: Better than getting our feet wet!
             └─ merge ─┘
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001EF31] Hero: Remnant!
+        [0001EF31] Ryder: Remnant!
     ├ option 2:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EFAE] global_squad_male_human ⟨cond⟩: Careful! Don't fall in that liquid!
-            [0001EFA4] global_squad_asari ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
+            [0001EFAE] Squadmate (Human ♂) ⟨cond⟩: Careful! Don't fall in that liquid!
+            [0001EFA4] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
         ├ option 2:
-            [0001EFB1] global_squad_female_human ⟨cond⟩: Careful! Don't fall in that liquid!
-            ↩ (goto) [0001EFA4] global_squad_asari ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
+            [0001EFB1] Squadmate (Human ♀) ⟨cond⟩: Careful! Don't fall in that liquid!
+            ↩ (goto) [0001EFA4] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
         ├ option 3:
-            [0001EFB0] global_squad_turian ⟨cond⟩: Careful! Don't fall in that liquid!
-            ↩ (goto) [0001EFA4] global_squad_asari ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
+            [0001EFB0] Squadmate (Turian / Vetra) ⟨cond⟩: Careful! Don't fall in that liquid!
+            ↩ (goto) [0001EFA4] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
         ├ option 4:
-            [0001EFAF] global_squad_krogan ⟨cond⟩: Careful! Don't fall in that liquid!
-            ↩ (goto) [0001EFA4] global_squad_asari ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
+            [0001EFAF] Squadmate (Krogan / Drack) ⟨cond⟩: Careful! Don't fall in that liquid!
+            ↩ (goto) [0001EFA4] Squadmate (Asari / Peebee) ⟨cond⟩: [Comm] It burns through your shields! Found that out the hard way!
         └─ merge ─┘
     ├ option 3:
-        [0001EFA3] Hero: Use the pillars for cover!
+        [0001EFA3] Ryder: Use the pillars for cover!
     └─ merge ─┘
 ├ option 3:
     ┌─ BRANCH (4) ─┐
     ├ option 1:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EFB7] global_squad_turian ⟨cond⟩: We've got company! More Remnant!
+            [0001EFB7] Squadmate (Turian / Vetra) ⟨cond⟩: We've got company! More Remnant!
         ├ option 2:
-            [0001EFB5] global_squad_female_human ⟨cond⟩: Up there, more Remnant!
+            [0001EFB5] Squadmate (Human ♀) ⟨cond⟩: Up there, more Remnant!
         ├ option 3:
-            [0001EFB6] global_squad_krogan ⟨cond⟩: Remnant! Let's send them down the river!
+            [0001EFB6] Squadmate (Krogan / Drack) ⟨cond⟩: Remnant! Let's send them down the river!
         ├ option 4:
-            [0001EFB4] global_squad_male_human ⟨cond⟩: More bad guys, guarding the aqueduct!
+            [0001EFB4] Squadmate (Human ♂) ⟨cond⟩: More bad guys, guarding the aqueduct!
         └─ merge ─┘
     ├ option 2:
-        [0001EEDE] Hero [OncePerGame]: Watch the edges!
+        [0001EEDE] Ryder [OncePerGame]: Watch the edges!
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EF84] global_squad_krogan ⟨cond⟩: No shit!
+            [0001EF84] Squadmate (Krogan / Drack) ⟨cond⟩: No shit!
         ├ option 2:
-            [0001EF83] global_squad_male_human ⟨cond⟩: Way ahead of you!
+            [0001EF83] Squadmate (Human ♂) ⟨cond⟩: Way ahead of you!
         ├ option 3:
-            [0001EF85] global_squad_female_human ⟨cond⟩: Got it!
+            [0001EF85] Squadmate (Human ♀) ⟨cond⟩: Got it!
         ├ option 4:
-            [0001EF82] global_squad_turian ⟨cond⟩: I'm trying!
+            [0001EF82] Squadmate (Turian / Vetra) ⟨cond⟩: I'm trying!
         └─ merge ─┘
     ├ option 3:
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001EFC1] global_squad_krogan ⟨cond⟩: Eyes up! Don't let them get above us!
+            [0001EFC1] Squadmate (Krogan / Drack) ⟨cond⟩: Eyes up! Don't let them get above us!
         ├ option 2:
-            [0001EFC2] global_squad_male_human ⟨cond⟩: Keep looking up! Don't let them get above us!
+            [0001EFC2] Squadmate (Human ♂) ⟨cond⟩: Keep looking up! Don't let them get above us!
         ├ option 3:
-            [0001EFC0] global_squad_female_human ⟨cond⟩: Eyes up! Don't let them get above us!
+            [0001EFC0] Squadmate (Human ♀) ⟨cond⟩: Eyes up! Don't let them get above us!
         ├ option 4:
-            [0001EFBF] global_squad_turian ⟨cond⟩: Keep looking up! Don't let them get above us!
+            [0001EFBF] Squadmate (Turian / Vetra) ⟨cond⟩: Keep looking up! Don't let them get above us!
         └─ merge ─┘
     ├ option 4:
-        [0001EFB2] Hero: Keep up the pressure! We're almost through!
+        [0001EFB2] Ryder: Keep up the pressure! We're almost through!
     └─ merge ─┘
 ├ option 4:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0001EF87] global_squad_krogan ⟨cond⟩: We're done here.
+        [0001EF87] Squadmate (Krogan / Drack) ⟨cond⟩: We're done here.
     ├ option 2:
-        [0001EF88] global_squad_male_human ⟨cond⟩: We're good!
+        [0001EF88] Squadmate (Human ♂) ⟨cond⟩: We're good!
     ├ option 3:
-        [0001EF8A] global_squad_female_human ⟨cond⟩: Hostiles down!
+        [0001EF8A] Squadmate (Human ♀) ⟨cond⟩: Hostiles down!
     ├ option 4:
-        [0001EF8B] global_squad_turian ⟨cond⟩: Looks clear!
+        [0001EF8B] Squadmate (Turian / Vetra) ⟨cond⟩: Looks clear!
     ├ option 5:
-        [0001EF89] global_squad_asari: [Comm] You're good? Great.
+        [0001EF89] Squadmate (Asari / Peebee): [Comm] You're good? Great.
     └─ merge ─┘
 └─ merge ─┘

@@ -1,42 +1,42 @@
 # game/conversations/unc_dunes/dune_0208_discuss1_i
-# Primary speaker: dune_colony_discuss_01
+# Primary speaker: Colony Discuss
 # Source: game/conversations/unc_dunes/dune_0208_discuss1_i.xml
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [0003357F] dune_colony_discuss_02 ⟨cond⟩ [OncePerGame]: Now here's someone who's actually been to Kadara. You can ask her.
-    [0002E80E] dune_colony_discuss_02: If Arkal wants to be a heavy for some Kadara slimeball, he can. I wasn't going to stop him.
-    [0002E809] dune_colony_discuss_01: He'll be treated like an expendable attack dog, and he'll die. And his death will be on your hands.
-    [0003357D] dune_colony_discuss_02: Or! He's using {i}them{/i} to make a bunch of credits so we can live easier.
+    [0003357F] Colony Discuss ⟨cond⟩ [OncePerGame]: Now here's someone who's actually been to Kadara. You can ask her.
+    [0002E80E] Colony Discuss: If Arkal wants to be a heavy for some Kadara slimeball, he can. I wasn't going to stop him.
+    [0002E809] Colony Discuss: He'll be treated like an expendable attack dog, and he'll die. And his death will be on your hands.
+    [0003357D] Colony Discuss: Or! He's using {i}them{/i} to make a bunch of credits so we can live easier.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0002E810] Hero: He's a krogan. You guys don't go down that easy.
-        [0002E80B] dune_colony_discuss_01: You're cracking {i}jokes{/i}? I should beat you into the dust, Nexus scum.
+        [0002E810] Ryder: He's a krogan. You guys don't go down that easy.
+        [0002E80B] Colony Discuss: You're cracking {i}jokes{/i}? I should beat you into the dust, Nexus scum.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002E8F4] global_squad_krogan ⟨cond⟩: Hey. Watch it.
-            [0002E813] dune_colony_discuss_02: You should go. I'll handle this.
-            [0002E8F2] Hero: But... but she asked me. You asked me. Sheesh.
+            [0002E8F4] Squadmate (Krogan / Drack) ⟨cond⟩: Hey. Watch it.
+            [0002E813] Colony Discuss: You should go. I'll handle this.
+            [0002E8F2] Ryder: But... but she asked me. You asked me. Sheesh.
         ├ option 2:
-            ↩ (goto) [0002E813] dune_colony_discuss_02: You should go. I'll handle this.
+            ↩ (goto) [0002E813] Colony Discuss: You should go. I'll handle this.
         └─ merge ─┘
     ├ option 2:
-        [0002E811] Hero: Do you want me to find this Arkal for you?
-        [0002E812] dune_colony_discuss_01: No. I'll track him down myself.
-        [0002E80F] dune_colony_discuss_02: It's best if you don't get involved. But thank you.
+        [0002E811] Ryder: Do you want me to find this Arkal for you?
+        [0002E812] Colony Discuss: No. I'll track him down myself.
+        [0002E80F] Colony Discuss: It's best if you don't get involved. But thank you.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0002E8F3] global_squad_krogan ⟨cond⟩: Just let it go, Ryder. This is a krogan matter. They'll figure it out.
-            ↩ (goto) [0002E8F2] Hero: But... but she asked me. You asked me. Sheesh.
+            [0002E8F3] Squadmate (Krogan / Drack) ⟨cond⟩: Just let it go, Ryder. This is a krogan matter. They'll figure it out.
+            ↩ (goto) [0002E8F2] Ryder: But... but she asked me. You asked me. Sheesh.
         ├ option 2:
-            ↩ (goto) [0002E8F2] Hero: But... but she asked me. You asked me. Sheesh.
+            ↩ (goto) [0002E8F2] Ryder: But... but she asked me. You asked me. Sheesh.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [0003357C] dune_colony_discuss_02 [OncePerGame]: Now here's a sane person who actually knows about Kadara. Let's ask him.
-    [0003357B] Hero: I can try?
-    [0002E80C] dune_colony_discuss_01: He's my {i}son{/i}, Nera. She let my only son fly to that hellhole.
-    ↩ (goto) [0002E80E] dune_colony_discuss_02: If Arkal wants to be a heavy for some Kadara slimeball, he can. I wasn't going to stop him.
+    [0003357C] Colony Discuss [OncePerGame]: Now here's a sane person who actually knows about Kadara. Let's ask him.
+    [0003357B] Ryder: I can try?
+    [0002E80C] Colony Discuss: He's my {i}son{/i}, Nera. She let my only son fly to that hellhole.
+    ↩ (goto) [0002E80E] Colony Discuss: If Arkal wants to be a heavy for some Kadara slimeball, he can. I wasn't going to stop him.
 ├ option 3:
-    [0002E81D] dune_colony_discuss_02: We're fine. I'm handling it.
+    [0002E81D] Colony Discuss: We're fine. I'm handling it.
 └─ merge ─┘

@@ -1,66 +1,66 @@
 # game/conversations/unc/olw/cannibal_plot/olw_0200_cannibal_house_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/olw/cannibal_plot/olw_0200_cannibal_house_b.xml
 ==================================================
-[00032993] Hero [OncePerGame]: There it is. Last known location of this Johan guy. Hopefully Remi's inside. And alive.
+[00032993] Ryder [OncePerGame]: There it is. Last known location of this Johan guy. Hopefully Remi's inside. And alive.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00032990] global_squad_krogan ⟨cond⟩: Expect the worst. Then be surprised. That's my motto.
+    [00032990] Squadmate (Krogan / Drack) ⟨cond⟩: Expect the worst. Then be surprised. That's my motto.
 ├ option 2:
-    [00032996] global_squad_female_human ⟨cond⟩: Either way, Warden said to prep for a fight.
+    [00032996] Squadmate (Human ♀) ⟨cond⟩: Either way, Warden said to prep for a fight.
 ├ option 3:
-    [00032994] global_squad_asari ⟨cond⟩: And hasn't become one of the crazies out here.
+    [00032994] Squadmate (Asari / Peebee) ⟨cond⟩: And hasn't become one of the crazies out here.
 ├ option 4:
-    [00032997] global_squad_turian ⟨cond⟩: Warden said Johan ran a nasty crew. Don't expect a warm welcome.
+    [00032997] Squadmate (Turian / Vetra) ⟨cond⟩: Warden said Johan ran a nasty crew. Don't expect a warm welcome.
 ├ option 5:
-    [00032992] global_squad_male_human ⟨cond⟩: Maybe they're not as bad as the Warden made them out to be?
-    [0003298E] Hero: Not holding my breath.
+    [00032992] Squadmate (Human ♂) ⟨cond⟩: Maybe they're not as bad as the Warden made them out to be?
+    [0003298E] Ryder: Not holding my breath.
 └─ merge ─┘
-[00032991] Hero [OncePerGame]: Don't think they're gonna invite us in for coffee!
-[0003298B] Hero [OncePerGame]: All right. Let's find Remi.
-[0003298D] Hero [OncePerGame]: Holy shit.
+[00032991] Ryder [OncePerGame]: Don't think they're gonna invite us in for coffee!
+[0003298B] Ryder [OncePerGame]: All right. Let's find Remi.
+[0003298D] Ryder [OncePerGame]: Holy shit.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [0003299B] global_squad_male_human ⟨cond⟩: It's like a scene from Silence of the Face Eaters.
+    [0003299B] Squadmate (Human ♂) ⟨cond⟩: It's like a scene from Silence of the Face Eaters.
 ├ option 2:
-    [0003298F] global_squad_krogan ⟨cond⟩: Could at least clean up some.
+    [0003298F] Squadmate (Krogan / Drack) ⟨cond⟩: Could at least clean up some.
 ├ option 3:
-    [00032999] global_squad_female_human ⟨cond⟩: That's a lot of blood.
+    [00032999] Squadmate (Human ♀) ⟨cond⟩: That's a lot of blood.
 ├ option 4:
-    [0003299F] global_squad_asari ⟨cond⟩: Ew. Blood, much?
+    [0003299F] Squadmate (Asari / Peebee) ⟨cond⟩: Ew. Blood, much?
 ├ option 5:
-    [000329EC] global_squad_angara ⟨cond⟩ [OncePerGame]: These people are monsters.
+    [000329EC] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: These people are monsters.
 └─ merge ─┘
 [000329E8] SAM: It's human, Pathfinder.
 [000329E4] SAM: Detecting traces of human flesh and blood.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [000329E6] Hero: SAM, are you saying they were... eating people?
+    [000329E6] Ryder: SAM, are you saying they were... eating people?
     [00032A0C] SAM: Yes, Pathfinder.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [000329E3] global_squad_krogan ⟨cond⟩: Hopefully they killed them first.
-        [000329E5] Hero: Come on, Drack.
-        [000329E2] global_squad_krogan: What? Just saying.
+        [000329E3] Squadmate (Krogan / Drack) ⟨cond⟩: Hopefully they killed them first.
+        [000329E5] Ryder: Come on, Drack.
+        [000329E2] Squadmate (Krogan / Drack): What? Just saying.
     ├ option 2:
-        [000329E7] global_squad_female_human ⟨cond⟩: {i}(Disgusted noise.){/i} I'm gonna be sick.
+        [000329E7] Squadmate (Human ♀) ⟨cond⟩: {i}(Disgusted noise.){/i} I'm gonna be sick.
     ├ option 3:
-        [000329EB] global_squad_asari ⟨cond⟩: What. The. Fuck.
+        [000329EB] Squadmate (Asari / Peebee) ⟨cond⟩: What. The. Fuck.
     ├ option 4:
-        [000329ED] global_squad_turian ⟨cond⟩: That's messed up.
+        [000329ED] Squadmate (Turian / Vetra) ⟨cond⟩: That's messed up.
     ├ option 5:
-        [000329E9] global_squad_male_human ⟨cond⟩: Fucking hell.
+        [000329E9] Squadmate (Human ♂) ⟨cond⟩: Fucking hell.
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [000329E3] global_squad_krogan ⟨cond⟩: Hopefully they killed them first.
+    ↩ (goto) [000329E3] Squadmate (Krogan / Drack) ⟨cond⟩: Hopefully they killed them first.
 ├ option 3:
-    ↩ (goto) [000329E7] global_squad_female_human ⟨cond⟩: {i}(Disgusted noise.){/i} I'm gonna be sick.
+    ↩ (goto) [000329E7] Squadmate (Human ♀) ⟨cond⟩: {i}(Disgusted noise.){/i} I'm gonna be sick.
 ├ option 4:
-    ↩ (goto) [000329EB] global_squad_asari ⟨cond⟩: What. The. Fuck.
+    ↩ (goto) [000329EB] Squadmate (Asari / Peebee) ⟨cond⟩: What. The. Fuck.
 ├ option 5:
-    ↩ (goto) [000329ED] global_squad_turian ⟨cond⟩: That's messed up.
+    ↩ (goto) [000329ED] Squadmate (Turian / Vetra) ⟨cond⟩: That's messed up.
 ├ option 6:
-    ↩ (goto) [000329E9] global_squad_male_human ⟨cond⟩: Fucking hell.
+    ↩ (goto) [000329E9] Squadmate (Human ♂) ⟨cond⟩: Fucking hell.
 └─ merge ─┘
 [000329EE] SAM: Some of the victim's organs are missing.
-[000329EA] Hero: Ugh.
+[000329EA] Ryder: Ugh.

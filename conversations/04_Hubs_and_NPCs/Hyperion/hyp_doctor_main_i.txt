@@ -1,196 +1,196 @@
 # game/conversations/hubs/hub_hyp/medbay/hyp_doctor_main_i
-# Primary speaker: global_crew_doctor_multi
+# Primary speaker: Lexi (Doctor)
 # Source: game/conversations/hubs/hub_hyp/medbay/hyp_doctor_main_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D196] global_crew_doctor_multi ⟨cond⟩: I'm glad to see you and your brother back together finally.
+        [0001D196] Lexi (Doctor) ⟨cond⟩: I'm glad to see you and your brother back together finally.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D195] Hero: I appreciate you looking out for Scott.
-            [0001D1A9] global_crew_doctor_multi: Your family's been through enough. It was time you had some good news.
+            [0001D195] Ryder: I appreciate you looking out for Scott.
+            [0001D1A9] Lexi (Doctor): Your family's been through enough. It was time you had some good news.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0001D1F4] global_crew_doctor_multi ⟨cond⟩: Though we need to keep him around for observation. Give him time to recover.
+                [0001D1F4] Lexi (Doctor) ⟨cond⟩: Though we need to keep him around for observation. Give him time to recover.
                 ┌─ BRANCH (6) ─┐
                 ├ option 1:
-                    [0000B975] Hero ⟨cond⟩: How's Scott doing?
+                    [0000B975] Ryder ⟨cond⟩: How's Scott doing?
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        [00022140] global_crew_doctor_multi ⟨cond⟩: Feel free to ask him.
-                        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                        [00022140] Lexi (Doctor) ⟨cond⟩: Feel free to ask him.
+                        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                     ├ option 2:
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            [0001D2D0] global_crew_doctor_multi ⟨cond⟩: Well, hearing that your dad's dead and the new home is a bust... that was stressful.
-                            [0001D2DC] global_crew_doctor_multi: But I don't think there was any permanent damage. Not physically, at least.
-                            ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                            [0001D2D0] Lexi (Doctor) ⟨cond⟩: Well, hearing that your dad's dead and the new home is a bust... that was stressful.
+                            [0001D2DC] Lexi (Doctor): But I don't think there was any permanent damage. Not physically, at least.
+                            ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                         ├ option 2:
-                            [0001D3F8] global_crew_doctor_multi: Everything seems fine. Hearing your voice had to help.
-                            [0001D3F9] global_crew_doctor_multi: Even if you did bend the truth there.
-                            ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                            [0001D3F8] Lexi (Doctor): Everything seems fine. Hearing your voice had to help.
+                            [0001D3F9] Lexi (Doctor): Even if you did bend the truth there.
+                            ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                         └─ merge ─┘
                     ├ option 3:
-                        [0000B9F9] global_crew_doctor_multi: His condition's stable. I see signs of REM activity in the brain, so he's dreaming. Means all the wiring still works.
-                        [0000B9F8] Hero: How'd this happen?
-                        [0000B9F6] global_crew_doctor_multi: It was dumb luck, really. We hit the Scourge at the worst possible moment, just as the stasis revival was kicking in.
-                        [0000B9FF] global_crew_doctor_multi: It's a vulnerable moment—coming out of a 600-year nap, then wham! The circuits fried and overloaded the neural pathways.
-                        [0000BAA2] global_crew_doctor_multi: Don't worry. I'm on it. We're not losing another Ryder.
-                        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                        [0000B9F9] Lexi (Doctor): His condition's stable. I see signs of REM activity in the brain, so he's dreaming. Means all the wiring still works.
+                        [0000B9F8] Ryder: How'd this happen?
+                        [0000B9F6] Lexi (Doctor): It was dumb luck, really. We hit the Scourge at the worst possible moment, just as the stasis revival was kicking in.
+                        [0000B9FF] Lexi (Doctor): It's a vulnerable moment—coming out of a 600-year nap, then wham! The circuits fried and overloaded the neural pathways.
+                        [0000BAA2] Lexi (Doctor): Don't worry. I'm on it. We're not losing another Ryder.
+                        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                     └─ merge ─┘
                 ├ option 2:
-                    [0000B973] Hero ⟨cond⟩: How's Sara doing?
+                    [0000B973] Ryder ⟨cond⟩: How's Sara doing?
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        [00022141] global_crew_doctor_multi ⟨cond⟩: Feel free to ask her.
-                        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                        [00022141] Lexi (Doctor) ⟨cond⟩: Feel free to ask her.
+                        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                     ├ option 2:
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            ↩ (goto) [0001D2D0] global_crew_doctor_multi ⟨cond⟩: Well, hearing that your dad's dead and the new home is a bust... that was stressful.
+                            ↩ (goto) [0001D2D0] Lexi (Doctor) ⟨cond⟩: Well, hearing that your dad's dead and the new home is a bust... that was stressful.
                         ├ option 2:
-                            ↩ (goto) [0001D3F8] global_crew_doctor_multi: Everything seems fine. Hearing your voice had to help.
+                            ↩ (goto) [0001D3F8] Lexi (Doctor): Everything seems fine. Hearing your voice had to help.
                         └─ merge ─┘
                     ├ option 3:
-                        [0000B9FA] global_crew_doctor_multi: Her condition's stable. I see signs of REM activity in the brain, so she's dreaming. Means all the wiring still works.
-                        ↩ (goto) [0000B9F8] Hero: How'd this happen?
+                        [0000B9FA] Lexi (Doctor): Her condition's stable. I see signs of REM activity in the brain, so she's dreaming. Means all the wiring still works.
+                        ↩ (goto) [0000B9F8] Ryder: How'd this happen?
                     └─ merge ─┘
                 ├ option 3:
-                    [00033DB9] Hero ⟨cond⟩: Are you staying here on the Hyperion?
-                    [0001D204] global_crew_doctor_multi: You know that moment when you realize you're just getting too old?
-                    [0001D202] Hero: Uh...
-                    [0001D205] global_crew_doctor_multi: Ha, right. Look who I'm talking to. Trust me, it happens. For me, it was Habitat 7.
-                    [0001D203] global_crew_doctor_multi: Watching you guys running around, dodging lightning and the kett... it's a young man's game. Pains me to admit it, but it's passed me by.
+                    [00033DB9] Ryder ⟨cond⟩: Are you staying here on the Hyperion?
+                    [0001D204] Lexi (Doctor): You know that moment when you realize you're just getting too old?
+                    [0001D202] Ryder: Uh...
+                    [0001D205] Lexi (Doctor): Ha, right. Look who I'm talking to. Trust me, it happens. For me, it was Habitat 7.
+                    [0001D203] Lexi (Doctor): Watching you guys running around, dodging lightning and the kett... it's a young man's game. Pains me to admit it, but it's passed me by.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0001D201] global_crew_doctor_multi: So it made sense that Lexi and I switch places. She's younger. Well, for asari. They're still teenagers when they're 200.
-                        [0000B983] global_crew_doctor_multi: And she's one hell of a doctor. She'll serve the Tempest well.
+                        [0001D201] Lexi (Doctor): So it made sense that Lexi and I switch places. She's younger. Well, for asari. They're still teenagers when they're 200.
+                        [0000B983] Lexi (Doctor): And she's one hell of a doctor. She'll serve the Tempest well.
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
                             ┌─ BRANCH (2) ─┐
                             ├ option 1:
-                                [0000B97A] Hero: We'll miss you, Harry.
-                                [0001D273] global_crew_doctor_multi: Just make sure to raise some hell once in awhile, will you? I'm living vicariously through you.
-                                [0001D547] Hero: Deal.
-                                ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                                [0000B97A] Ryder: We'll miss you, Harry.
+                                [0001D273] Lexi (Doctor): Just make sure to raise some hell once in awhile, will you? I'm living vicariously through you.
+                                [0001D547] Ryder: Deal.
+                                ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                             ├ option 2:
-                                [0001D276] Hero: What will you do on the Hyperion?
-                                [0001D274] global_crew_doctor_multi: We still have thousands of people taking a nap here, and they need tending to.
+                                [0001D276] Ryder: What will you do on the Hyperion?
+                                [0001D274] Lexi (Doctor): We still have thousands of people taking a nap here, and they need tending to.
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    [0000B971] global_crew_doctor_multi ⟨cond⟩: And this way I can look out for Scott.
-                                    ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                                    [0000B971] Lexi (Doctor) ⟨cond⟩: And this way I can look out for Scott.
+                                    ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                                 ├ option 2:
-                                    [0000B97B] global_crew_doctor_multi: And this way I can look out for Sara.
-                                    ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                                    [0000B97B] Lexi (Doctor): And this way I can look out for Sara.
+                                    ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                                 └─ merge ─┘
                             └─ merge ─┘
                         ├ option 2:
-                            ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                            ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                         └─ merge ─┘
                     ├ option 2:
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
                             ↩ (goto) [0001D272] ? [OncePerGame]: [empty]
                         ├ option 2:
-                            ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                            ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 4:
-                    [0000B9E5] Hero ⟨cond⟩: So you and Lexi swapped jobs?
-                    ↩ (goto) [0001D204] global_crew_doctor_multi: You know that moment when you realize you're just getting too old?
+                    [0000B9E5] Ryder ⟨cond⟩: So you and Lexi swapped jobs?
+                    ↩ (goto) [0001D204] Lexi (Doctor): You know that moment when you realize you're just getting too old?
                 ├ option 5:
-                    [0001D2D1] Hero: How did you end up with the Initiative?
-                    [0001D2D3] global_crew_doctor_multi: Well, you reach a point in life where you wonder: is that all there is?
-                    [0001D3FB] global_crew_doctor_multi: I'd accomplished everything in the Milky Way I could. I was locked into a future of diminishing returns.
-                    [0001D3FA] global_crew_doctor_multi: So coming here... was the world's biggest mid-life crisis. A chance to wake up in the morning and feel hope instead of arthritis.
-                    ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                    [0001D2D1] Ryder: How did you end up with the Initiative?
+                    [0001D2D3] Lexi (Doctor): Well, you reach a point in life where you wonder: is that all there is?
+                    [0001D3FB] Lexi (Doctor): I'd accomplished everything in the Milky Way I could. I was locked into a future of diminishing returns.
+                    [0001D3FA] Lexi (Doctor): So coming here... was the world's biggest mid-life crisis. A chance to wake up in the morning and feel hope instead of arthritis.
+                    ↩ (goto) [0000B977] Lexi (Doctor): [empty]
                 ├ option 6:
-                    [0000B9E0] Hero: That's all, Harry. Thanks.
+                    [0000B9E0] Ryder: That's all, Harry. Thanks.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            [0000BAB3] global_crew_doctor_multi ⟨cond⟩: Don't be a stranger. If anything changes with Scott, I'll let you know.
+                            [0000BAB3] Lexi (Doctor) ⟨cond⟩: Don't be a stranger. If anything changes with Scott, I'll let you know.
                         ├ option 2:
-                            [0000BAB5] global_crew_doctor_multi: Don't be a stranger. If anything changes with Sara, I'll let you know.
+                            [0000BAB5] Lexi (Doctor): Don't be a stranger. If anything changes with Sara, I'll let you know.
                         └─ merge ─┘
                     ├ option 2:
-                        [0000BAB2] global_crew_doctor_multi: I'll be here if you need me.
+                        [0000BAB2] Lexi (Doctor): I'll be here if you need me.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
-                [0001D1F5] global_crew_doctor_multi: Though we need to keep her around for observation. Give her time to recover.
-                ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+                [0001D1F5] Lexi (Doctor): Though we need to keep her around for observation. Give her time to recover.
+                ↩ (goto) [0000B977] Lexi (Doctor): [empty]
             └─ merge ─┘
         ├ option 2:
-            [0001D198] Hero: Now that he's awake, what's the prognosis?
-            [0001D1F6] global_crew_doctor_multi: Everything looks good. Scott's a fighter. His recovery had more to do with that than anything I did.
-            ↩ (goto) [0001D1F4] global_crew_doctor_multi ⟨cond⟩: Though we need to keep him around for observation. Give him time to recover.
+            [0001D198] Ryder: Now that he's awake, what's the prognosis?
+            [0001D1F6] Lexi (Doctor): Everything looks good. Scott's a fighter. His recovery had more to do with that than anything I did.
+            ↩ (goto) [0001D1F4] Lexi (Doctor) ⟨cond⟩: Though we need to keep him around for observation. Give him time to recover.
         └─ merge ─┘
     ├ option 2:
-        [0001D193] global_crew_doctor_multi: I'm glad to see you and your sister back together finally.
+        [0001D193] Lexi (Doctor): I'm glad to see you and your sister back together finally.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001D192] Hero: I appreciate you looking out for Sara.
-            ↩ (goto) [0001D1A9] global_crew_doctor_multi: Your family's been through enough. It was time you had some good news.
+            [0001D192] Ryder: I appreciate you looking out for Sara.
+            ↩ (goto) [0001D1A9] Lexi (Doctor): Your family's been through enough. It was time you had some good news.
         ├ option 2:
-            [0001D197] Hero: Now that she's awake, what's the prognosis?
-            [0001D1AA] global_crew_doctor_multi: Everything looks good. Sara's a fighter. Her recovery had more to do with that than anything I did.
-            ↩ (goto) [0001D1F5] global_crew_doctor_multi: Though we need to keep her around for observation. Give her time to recover.
+            [0001D197] Ryder: Now that she's awake, what's the prognosis?
+            [0001D1AA] Lexi (Doctor): Everything looks good. Sara's a fighter. Her recovery had more to do with that than anything I did.
+            ↩ (goto) [0001D1F5] Lexi (Doctor): Though we need to keep her around for observation. Give her time to recover.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+    ↩ (goto) [0000B977] Lexi (Doctor): [empty]
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001D093] global_crew_doctor_multi ⟨cond⟩ [OncePerGame]: Ryder. That was a hell of a thing, talking to your brother in a coma.
-    [0001D095] global_crew_doctor_multi: Can't say I really bought into the whole SAM implant, but, well, that was pretty amazing.
+    [0001D093] Lexi (Doctor) ⟨cond⟩ [OncePerGame]: Ryder. That was a hell of a thing, talking to your brother in a coma.
+    [0001D095] Lexi (Doctor): Can't say I really bought into the whole SAM implant, but, well, that was pretty amazing.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0001D17E] Hero: Yeah, it was. I had no idea we could do that.
-        [0001D179] global_crew_doctor_multi: Just when you think you've seen it all. And here a 600-year trip to a new galaxy seemed like science fiction.
-        [0001D17F] global_crew_doctor_multi: Something new every day.
-        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+        [0001D17E] Ryder: Yeah, it was. I had no idea we could do that.
+        [0001D179] Lexi (Doctor): Just when you think you've seen it all. And here a 600-year trip to a new galaxy seemed like science fiction.
+        [0001D17F] Lexi (Doctor): Something new every day.
+        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
     ├ option 2:
-        [0001D17D] Hero: I don't know. The whole thing was strange.
-        [0001D17C] global_crew_doctor_multi: I know what you mean, but everything seems weird at first. There was a time when my profession thought "germs" were a crazy idea.
-        [0001D17A] global_crew_doctor_multi: Just takes getting used to. And if it can help my patients, I'll keep an open mind.
-        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+        [0001D17D] Ryder: I don't know. The whole thing was strange.
+        [0001D17C] Lexi (Doctor): I know what you mean, but everything seems weird at first. There was a time when my profession thought "germs" were a crazy idea.
+        [0001D17A] Lexi (Doctor): Just takes getting used to. And if it can help my patients, I'll keep an open mind.
+        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
     └─ merge ─┘
 ├ option 2:
-    [0001D091] global_crew_doctor_multi: Ryder. That was a hell of a thing, talking to your sister in a coma.
-    ↩ (goto) [0001D095] global_crew_doctor_multi: Can't say I really bought into the whole SAM implant, but, well, that was pretty amazing.
+    [0001D091] Lexi (Doctor): Ryder. That was a hell of a thing, talking to your sister in a coma.
+    ↩ (goto) [0001D095] Lexi (Doctor): Can't say I really bought into the whole SAM implant, but, well, that was pretty amazing.
 └─ merge ─┘
-[0000B97E] global_crew_doctor_multi [OncePerGame]: Ryder, good to see you. Damn shame about your dad, though. I'm sorry we couldn't save him.
+[0000B97E] Lexi (Doctor) [OncePerGame]: Ryder, good to see you. Damn shame about your dad, though. I'm sorry we couldn't save him.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000B980] Hero: I haven't heard how he died?
-    [0000B979] global_crew_doctor_multi: Like a hero, that's how. That's the only part that matters.
-    [0000B9D1] global_crew_doctor_multi: I've met one Pathfinder... well, two, with you, but I figure that's the way to go: taking your last breath on an uncharted world.
-    [0000B9DA] Hero: Yeah. Sounds about right.
+    [0000B980] Ryder: I haven't heard how he died?
+    [0000B979] Lexi (Doctor): Like a hero, that's how. That's the only part that matters.
+    [0000B9D1] Lexi (Doctor): I've met one Pathfinder... well, two, with you, but I figure that's the way to go: taking your last breath on an uncharted world.
+    [0000B9DA] Ryder: Yeah. Sounds about right.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [0000B9E1] global_crew_doctor_multi ⟨cond⟩: Now I just need to make sure your brother here pulls through.
-        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+        [0000B9E1] Lexi (Doctor) ⟨cond⟩: Now I just need to make sure your brother here pulls through.
+        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
     ├ option 2:
-        [0000B9E3] global_crew_doctor_multi: Now I just need to make sure your sister here pulls through.
-        ↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+        [0000B9E3] Lexi (Doctor): Now I just need to make sure your sister here pulls through.
+        ↩ (goto) [0000B977] Lexi (Doctor): [empty]
     └─ merge ─┘
 ├ option 2:
-    [0000B97D] Hero: I'm sure you did everything you could.
-    [0000B986] global_crew_doctor_multi: Yeah, but still, we lost a Pathfinder on my watch. Doesn't sit right.
-    [0000B9DB] Hero: My dad knew the danger. Part of the job.
+    [0000B97D] Ryder: I'm sure you did everything you could.
+    [0000B986] Lexi (Doctor): Yeah, but still, we lost a Pathfinder on my watch. Doesn't sit right.
+    [0000B9DB] Ryder: My dad knew the danger. Part of the job.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        ↩ (goto) [0000B9E1] global_crew_doctor_multi ⟨cond⟩: Now I just need to make sure your brother here pulls through.
+        ↩ (goto) [0000B9E1] Lexi (Doctor) ⟨cond⟩: Now I just need to make sure your brother here pulls through.
     ├ option 2:
-        ↩ (goto) [0000B9E3] global_crew_doctor_multi: Now I just need to make sure your sister here pulls through.
+        ↩ (goto) [0000B9E3] Lexi (Doctor): Now I just need to make sure your sister here pulls through.
     └─ merge ─┘
 └─ merge ─┘
-[0000B97C] global_crew_doctor_multi: Back for a visit?
-↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
-↩ (goto) [0000B977] global_crew_doctor_multi: [empty]
+[0000B97C] Lexi (Doctor): Back for a visit?
+↩ (goto) [0000B977] Lexi (Doctor): [empty]
+↩ (goto) [0000B977] Lexi (Doctor): [empty]

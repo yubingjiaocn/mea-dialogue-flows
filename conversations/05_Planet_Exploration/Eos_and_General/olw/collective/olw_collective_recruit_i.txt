@@ -1,29 +1,29 @@
 # game/conversations/unc/olw/collective/olw_collective_recruit_i
-# Primary speaker: olw_collective_recruit_03
+# Primary speaker: Collective Recruit
 # Source: game/conversations/unc/olw/collective/olw_collective_recruit_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00033477] olw_collective_recruit_03 [OncePerGame]: Are you a new recruit, too?
-    [0003347A] Hero: No... just happened to stumble on this place.
-    [00033479] olw_collective_recruit_03: Oh! You're the Pathfinder. Crux said we're to be nice to you. I'm new here. Still trying to take everything in.
+    [00033477] Collective Recruit [OncePerGame]: Are you a new recruit, too?
+    [0003347A] Ryder: No... just happened to stumble on this place.
+    [00033479] Collective Recruit: Oh! You're the Pathfinder. Crux said we're to be nice to you. I'm new here. Still trying to take everything in.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00033472] Hero: Why join the Collective?
-        [00033478] olw_collective_recruit_03: I lived in port my whole life. Then Sloane shows up and demands a protection fee.
-        [00033476] olw_collective_recruit_03: My family was still reeling from encounters with kett. We couldn't pay, so the Outcasts banished us to the badlands.
-        [0003347C] olw_collective_recruit_03: The Collective promised us protection and a chance to get back at Sloane. So I took it.
+        [00033472] Ryder: Why join the Collective?
+        [00033478] Collective Recruit: I lived in port my whole life. Then Sloane shows up and demands a protection fee.
+        [00033476] Collective Recruit: My family was still reeling from encounters with kett. We couldn't pay, so the Outcasts banished us to the badlands.
+        [0003347C] Collective Recruit: The Collective promised us protection and a chance to get back at Sloane. So I took it.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00033474] olw_collective_recruit_03 ⟨cond⟩: It's worked out well, I think.
-            ↩ (goto) [0003347B] olw_collective_recruit_03: [empty]
+            [00033474] Collective Recruit ⟨cond⟩: It's worked out well, I think.
+            ↩ (goto) [0003347B] Collective Recruit: [empty]
         ├ option 2:
-            ↩ (goto) [0003347B] olw_collective_recruit_03: [empty]
+            ↩ (goto) [0003347B] Collective Recruit: [empty]
         └─ merge ─┘
     ├ option 2:
-        [00033473] Hero: See you around.
+        [00033473] Ryder: See you around.
     └─ merge ─┘
 ├ option 2:
-    [0003347D] olw_collective_recruit_03: Hello!
-    ↩ (goto) [0003347B] olw_collective_recruit_03: [empty]
+    [0003347D] Collective Recruit: Hello!
+    ↩ (goto) [0003347B] Collective Recruit: [empty]
 └─ merge ─┘

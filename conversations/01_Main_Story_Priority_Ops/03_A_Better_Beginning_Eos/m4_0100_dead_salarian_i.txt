@@ -2,26 +2,26 @@
 # Primary speaker: SAM
 # Source: game/conversations/crit/m4/m4_0100_dead_salarian_i.xml
 ==================================================
-[0002322D] Hero: What do their records say about the salarian, SAM?
+[0002322D] Ryder: What do their records say about the salarian, SAM?
 ┌─ BRANCH (2) ─┐
 ├ option 1:
     [0002322E] SAM ⟨cond⟩: The patient is deceased.
     [000245B6] SAM: He is identified as Pathfinder Zevin Raeka.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [000243FF] Hero: {i}(Sighs.){/i} Another Pathfinder down. We can't keep losing good people.
+        [000243FF] Ryder: {i}(Sighs.){/i} Another Pathfinder down. We can't keep losing good people.
         [000243F8] SAM: Agreed.
         [000243FA] SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
     ├ option 2:
-        [00024400] Hero: What's the cause of death?
+        [00024400] Ryder: What's the cause of death?
         [000243F5] SAM: A brain embolism while in stasis.
         ↩ (goto) [000243FA] SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
     ├ option 3:
-        [000245B3] Hero: Shit. The guy we're looking for. We can't catch a break.
+        [000245B3] Ryder: Shit. The guy we're looking for. We can't catch a break.
         [000245B0] SAM: We're still more fortunate than him.
         ↩ (goto) [000243FA] SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
     ├ option 4:
-        [000245B4] Hero: Well, without their captain here to explain, we need a new plan.
+        [000245B4] Ryder: Well, without their captain here to explain, we need a new plan.
         [00031D3E] SAM: This may be a false lead.
         ↩ (goto) [000243FA] SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
     └─ merge ─┘

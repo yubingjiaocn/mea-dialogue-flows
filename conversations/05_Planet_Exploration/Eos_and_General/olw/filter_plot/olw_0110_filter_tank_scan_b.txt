@@ -1,29 +1,29 @@
 # game/conversations/unc/olw/filter_plot/olw_0110_filter_tank_scan_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/olw/filter_plot/olw_0110_filter_tank_scan_b.xml
 ==================================================
 [000267F1] SAM: Someone has tampered with the filter.
 [000267F5] SAM: The angara ingested only enough sulfuric acid to be lethal over time.
-[000267F2] Hero: But not enough that they'd notice right away.
+[000267F2] Ryder: But not enough that they'd notice right away.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [000267FA] Hero: Skylaar's log mentioned trouble with exiles. Let's check out this "Charybdis Point."
+    [000267FA] Ryder: Skylaar's log mentioned trouble with exiles. Let's check out this "Charybdis Point."
 ├ option 2:
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [000267F4] global_squad_angara ⟨cond⟩: Who would do this?
-        [000267FC] Hero: We should keep looking around. See if we can find more about who's responsible.
+        [000267F4] Squadmate (Angara / Jaal) ⟨cond⟩: Who would do this?
+        [000267FC] Ryder: We should keep looking around. See if we can find more about who's responsible.
     ├ option 2:
-        [000267F6] global_squad_krogan ⟨cond⟩: Sounds like good old fashioned murder.
-        ↩ (goto) [000267FC] Hero: We should keep looking around. See if we can find more about who's responsible.
+        [000267F6] Squadmate (Krogan / Drack) ⟨cond⟩: Sounds like good old fashioned murder.
+        ↩ (goto) [000267FC] Ryder: We should keep looking around. See if we can find more about who's responsible.
     ├ option 3:
-        [000267F9] global_squad_male_human ⟨cond⟩: They were poisoned deliberately then? But why?
-        ↩ (goto) [000267FC] Hero: We should keep looking around. See if we can find more about who's responsible.
+        [000267F9] Squadmate (Human ♂) ⟨cond⟩: They were poisoned deliberately then? But why?
+        ↩ (goto) [000267FC] Ryder: We should keep looking around. See if we can find more about who's responsible.
     ├ option 4:
-        [000267FB] global_squad_female_human ⟨cond⟩: Premeditated murder.
-        ↩ (goto) [000267FC] Hero: We should keep looking around. See if we can find more about who's responsible.
+        [000267FB] Squadmate (Human ♀) ⟨cond⟩: Premeditated murder.
+        ↩ (goto) [000267FC] Ryder: We should keep looking around. See if we can find more about who's responsible.
     ├ option 5:
-        [000267F7] global_squad_asari ⟨cond⟩: Someone obviously put some thought into this.
-        ↩ (goto) [000267FC] Hero: We should keep looking around. See if we can find more about who's responsible.
+        [000267F7] Squadmate (Asari / Peebee) ⟨cond⟩: Someone obviously put some thought into this.
+        ↩ (goto) [000267FC] Ryder: We should keep looking around. See if we can find more about who's responsible.
     └─ merge ─┘
 └─ merge ─┘

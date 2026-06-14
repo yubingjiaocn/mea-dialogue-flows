@@ -1,35 +1,35 @@
 # game/conversations/crit/crit_epi/mer_epi_0270_long_range_d
-# Primary speaker: mer_hub_staff_long_range
+# Primary speaker: Hub Staff Long Range
 # Source: game/conversations/crit/crit_epi/mer_epi_0270_long_range_d.xml
 ==================================================
-[00033DCA] mer_hub_staff_long_range: So glad you're up and around. I have important news for you.
-[00033DCD] Hero: There always is.
-[00033DCE] mer_hub_staff_long_range: Yes, discoveries every day. But this is something we've been waiting for. Listen!
-[00033DD0] mer_hub_staff_q_ark_signal: {i}(Static.){/i}
+[00033DCA] Hub Staff Long Range: So glad you're up and around. I have important news for you.
+[00033DCD] Ryder: There always is.
+[00033DCE] Hub Staff Long Range: Yes, discoveries every day. But this is something we've been waiting for. Listen!
+[00033DD0] Hub Staff Q Ark Signal: {i}(Static.){/i}
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00033DD4] Hero: What should I be hearing?
-    [00033DCC] mer_hub_staff_long_range: Sorry. SAM? Active filtering, Initiative protocol Alpha-Alpha, to the screen.
-    [00033DD2] Hero: Protocol what?
+    [00033DD4] Ryder: What should I be hearing?
+    [00033DCC] Hub Staff Long Range: Sorry. SAM? Active filtering, Initiative protocol Alpha-Alpha, to the screen.
+    [00033DD2] Ryder: Protocol what?
     [00033DD1] SAM: Processing.
-    [00033DC9] mer_hub_staff_q_ark_signal: Repeating: This is the Ark Keelah Si'yah. The situation is {i}not{/i} under control. Note and avoid until further updates. Repeating...
-    [00033DF9] Hero: Is that...?
-    [00033DF3] mer_hub_staff_long_range: The quarian ark. And elcor, drell, volus. Hanar, I think? That's some delicate business, putting hanar in stasis.
-    [00033DF6] mer_hub_staff_long_range: Point is, they're still out there! The Keelah Si'yah wasn't destroyed.
+    [00033DC9] Hub Staff Q Ark Signal: Repeating: This is the Ark Keelah Si'yah. The situation is {i}not{/i} under control. Note and avoid until further updates. Repeating...
+    [00033DF9] Ryder: Is that...?
+    [00033DF3] Hub Staff Long Range: The quarian ark. And elcor, drell, volus. Hanar, I think? That's some delicate business, putting hanar in stasis.
+    [00033DF6] Hub Staff Long Range: Point is, they're still out there! The Keelah Si'yah wasn't destroyed.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00033DFB] Hero: It's patchy. And there's no traceable vector, I assume?
-        [00033DF7] mer_hub_staff_long_range: It bounced through the Scourge. I've doubled long-range probes, but...
-        [00033DFC] Hero: That's not a distress call. It's a warning to keep away from... wherever they are.
-        [00033E03] mer_hub_staff_long_range: Whatever's happening, they don't want to be found yet. We have to trust {i}their{/i} pathfinder.
-        [00033E02] Hero: All we can do is wait.
+        [00033DFB] Ryder: It's patchy. And there's no traceable vector, I assume?
+        [00033DF7] Hub Staff Long Range: It bounced through the Scourge. I've doubled long-range probes, but...
+        [00033DFC] Ryder: That's not a distress call. It's a warning to keep away from... wherever they are.
+        [00033E03] Hub Staff Long Range: Whatever's happening, they don't want to be found yet. We have to trust {i}their{/i} pathfinder.
+        [00033E02] Ryder: All we can do is wait.
     ├ option 2:
-        [00033DFA] Hero: That's fantastic news! We need to report this right away.
-        [00033DF8] mer_hub_staff_long_range: It's good news, but it bounced too many times to trace. And...
-        ↩ (goto) [00033DFC] Hero: That's not a distress call. It's a warning to keep away from... wherever they are.
+        [00033DFA] Ryder: That's fantastic news! We need to report this right away.
+        [00033DF8] Hub Staff Long Range: It's good news, but it bounced too many times to trace. And...
+        ↩ (goto) [00033DFC] Ryder: That's not a distress call. It's a warning to keep away from... wherever they are.
     └─ merge ─┘
 ├ option 2:
-    [00033DCB] Hero: So, white noise...?
-    ↩ (goto) [00033DCC] mer_hub_staff_long_range: Sorry. SAM? Active filtering, Initiative protocol Alpha-Alpha, to the screen.
+    [00033DCB] Ryder: So, white noise...?
+    ↩ (goto) [00033DCC] Hub Staff Long Range: Sorry. SAM? Active filtering, Initiative protocol Alpha-Alpha, to the screen.
 └─ merge ─┘
-[00033E01] mer_hub_staff_long_range: Nothing new, Pathfinder. But the quarian ark is out there. There's hope.
+[00033E01] Hub Staff Long Range: Nothing new, Pathfinder. But the quarian ark is out there. There's hope.

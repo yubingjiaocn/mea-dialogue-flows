@@ -1,118 +1,118 @@
 # game/conversations/hubs/hub_nexus/docks/nex_ark_return_d
-# Primary speaker: global_nexus_PI_director
+# Primary speaker: Jarun Tann (Director)
 # Source: game/conversations/hubs/hub_nexus/docks/nex_ark_return_d.xml
 ==================================================
 ┌─ BRANCH (3) ─┐
 ├ option 1:
     [0001DCDD] Narration ⟨cond⟩: Ryder enters the Nexus to see a crowd of newly arrived salarians gathered in the immigration area.
     [0001DCE6] Narration: Director Tann is addressing them:
-    [0001DCE1] global_nexus_PI_director: I'd like to welcome our salarian pilgrims to the Nexus!
-    [0001DCE3] global_nexus_PI_director: You've had a long journey, but we're thrilled that Ark Paarchero has finally arrived. We ask for patience as we find homes for everyone.
-    [0001DCE8] global_nexus_PI_director ⟨cond⟩: To those who doubted the future, the proof stands before you: the salarians live—and so does the dream!
+    [0001DCE1] Jarun Tann (Director): I'd like to welcome our salarian pilgrims to the Nexus!
+    [0001DCE3] Jarun Tann (Director): You've had a long journey, but we're thrilled that Ark Paarchero has finally arrived. We ask for patience as we find homes for everyone.
+    [0001DCE8] Jarun Tann (Director) ⟨cond⟩: To those who doubted the future, the proof stands before you: the salarians live—and so does the dream!
     [0001DCEA] Narration: Applause. Tann now notices Ryder in the crowd.
-    [0001E2CF] global_nexus_PI_director: Ah—there's the hero who made it possible, Pathfinder Ryder. Do you have any words for us?
+    [0001E2CF] Jarun Tann (Director): Ah—there's the hero who made it possible, Pathfinder Ryder. Do you have any words for us?
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001DCF5] Hero: Like Director Tann said, the dream lives. If we all pull together, this can work.
-        [0001DF1C] global_nexus_PI_director: Exactly what I would have said. In fact, I think I did.
-        [0001E2D0] global_nexus_PI_director: We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
+        [0001DCF5] Ryder: Like Director Tann said, the dream lives. If we all pull together, this can work.
+        [0001DF1C] Jarun Tann (Director): Exactly what I would have said. In fact, I think I did.
+        [0001E2D0] Jarun Tann (Director): We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
         [0001E2CE] Narration: Tann waves and leaves the area.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
             [0001DF21] Narration ⟨cond⟩: A nearby salarian bystander approaches Ryder.
-            [0001DF23] nex_salar_bystander: Excuse me…
-            [0001DF24] nex_salar_bystander: You're the one who saved us?
-            [0001DF2B] Hero: I am.
+            [0001DF23] Salar Bystander: Excuse me…
+            [0001DF24] Salar Bystander: You're the one who saved us?
+            [0001DF2B] Ryder: I am.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 [0001DF73] Narration ⟨cond⟩: The salarian holds their hand out, shaking Ryder's.
-                [0001DF6B] nex_salar_bystander: Thank you. I don't know what else to say. I... I'd be dead if it weren't for you.
+                [0001DF6B] Salar Bystander: Thank you. I don't know what else to say. I... I'd be dead if it weren't for you.
                 [0001DF6D] Narration: Three or four more salarian bystanders are noticing.
-                [0001DF6F] nex_salar_bystander2: We all would. Now we have a future.
+                [0001DF6F] Salar Bystander2: We all would. Now we have a future.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [0001DF67] Hero: A bright future. You've been through a tough time, but it gets better. There's plenty of good in Heleus.
+                    [0001DF67] Ryder: A bright future. You've been through a tough time, but it gets better. There's plenty of good in Heleus.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0001E2E1] nex_salar_bystander2 ⟨cond⟩: I can't wait to find it.
+                        [0001E2E1] Salar Bystander2 ⟨cond⟩: I can't wait to find it.
                         [0001DF99] Narration: The bystanders nod and then turn back to the immigration line.
                     ├ option 2:
-                        [0001E2E3] nex_asari_bystander2: I can't wait to find it.
+                        [0001E2E3] Asari Bystander2: I can't wait to find it.
                         ↩ (goto) [0001DF99] Narration: The bystanders nod and then turn back to the immigration line.
                     └─ merge ─┘
                 ├ option 2:
-                    [0001DF71] Hero: Just don't let your guard down. We're in the wilderness here. We can tame it, but it will fight back.
+                    [0001DF71] Ryder: Just don't let your guard down. We're in the wilderness here. We can tame it, but it will fight back.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0001E2E2] nex_salar_bystander ⟨cond⟩: So will we.
+                        [0001E2E2] Salar Bystander ⟨cond⟩: So will we.
                         ↩ (goto) [0001DF99] Narration: The bystanders nod and then turn back to the immigration line.
                     ├ option 2:
-                        [0001E2E4] nex_asari_bystander: Wait'll it meets the asari.
+                        [0001E2E4] Asari Bystander: Wait'll it meets the asari.
                         ↩ (goto) [0001DF99] Narration: The bystanders nod and then turn back to the immigration line.
                     └─ merge ─┘
                 └─ merge ─┘
             ├ option 2:
                 [0001E2E5] Narration: The asari holds their hand out, shaking Ryder's.
-                [0001DF66] nex_asari_bystander: I owe you everything. If it hadn't been for you... I'd be dead.
+                [0001DF66] Asari Bystander: I owe you everything. If it hadn't been for you... I'd be dead.
                 [0001DF69] Narration: Three or four more salarian bystanders are noticing.
-                [0001DF70] nex_asari_bystander2: We all would. Now we have a future.
+                [0001DF70] Asari Bystander2: We all would. Now we have a future.
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    ↩ (goto) [0001DF67] Hero: A bright future. You've been through a tough time, but it gets better. There's plenty of good in Heleus.
+                    ↩ (goto) [0001DF67] Ryder: A bright future. You've been through a tough time, but it gets better. There's plenty of good in Heleus.
                 ├ option 2:
-                    ↩ (goto) [0001DF71] Hero: Just don't let your guard down. We're in the wilderness here. We can tame it, but it will fight back.
+                    ↩ (goto) [0001DF71] Ryder: Just don't let your guard down. We're in the wilderness here. We can tame it, but it will fight back.
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
             [0001DF20] Narration ⟨cond⟩: A nearby asari bystander approaches Ryder.
-            [0001DF72] nex_asari_bystander: Excuse me…
-            [0001DF6E] nex_asari_bystander: You're the one who saved us?
-            ↩ (goto) [0001DF2B] Hero: I am.
+            [0001DF72] Asari Bystander: Excuse me…
+            [0001DF6E] Asari Bystander: You're the one who saved us?
+            ↩ (goto) [0001DF2B] Ryder: I am.
         └─ merge ─┘
     ├ option 2:
-        [0001DCF4] Hero: It didn't go as cleanly as I'd hoped. But I guess nothing comes easy.
-        [0001DF1A] global_nexus_PI_director: Indeed, which only highlights the value of perseverance! A quality I champion myself.
-        ↩ (goto) [0001E2D0] global_nexus_PI_director: We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
+        [0001DCF4] Ryder: It didn't go as cleanly as I'd hoped. But I guess nothing comes easy.
+        [0001DF1A] Jarun Tann (Director): Indeed, which only highlights the value of perseverance! A quality I champion myself.
+        ↩ (goto) [0001E2D0] Jarun Tann (Director): We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
     ├ option 3:
-        [0001DCF0] Hero: I'd like to think my team and I are hitting our stride. We're getting pretty good at this.
+        [0001DCF0] Ryder: I'd like to think my team and I are hitting our stride. We're getting pretty good at this.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001DF1B] global_nexus_PI_director: {i}(Laughs.){/i} A confident Pathfinder. Exactly what we need. We chose well with this one.
-            ↩ (goto) [0001E2D0] global_nexus_PI_director: We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
+            [0001DF1B] Jarun Tann (Director): {i}(Laughs.){/i} A confident Pathfinder. Exactly what we need. We chose well with this one.
+            ↩ (goto) [0001E2D0] Jarun Tann (Director): We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
         ├ option 2:
-            [0002177C] global_nexus_PI_director: {i}(Laughs.){/i} A confident Pathfinder. Exactly what we need. We chose well with this one.
-            ↩ (goto) [0001E2D0] global_nexus_PI_director: We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
+            [0002177C] Jarun Tann (Director): {i}(Laughs.){/i} A confident Pathfinder. Exactly what we need. We chose well with this one.
+            ↩ (goto) [0001E2D0] Jarun Tann (Director): We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
         └─ merge ─┘
     ├ option 4:
-        [0001DCF2] Hero: I'm just doing what needs to be done.
+        [0001DCF2] Ryder: I'm just doing what needs to be done.
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [0001DF1D] global_nexus_PI_director: A humble servant, champion of the people.
-            ↩ (goto) [0001E2D0] global_nexus_PI_director: We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
+            [0001DF1D] Jarun Tann (Director): A humble servant, champion of the people.
+            ↩ (goto) [0001E2D0] Jarun Tann (Director): We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
         ├ option 2:
-            [0002188B] global_nexus_PI_director: A humble servant, champion of the people.
-            ↩ (goto) [0001E2D0] global_nexus_PI_director: We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
+            [0002188B] Jarun Tann (Director): A humble servant, champion of the people.
+            ↩ (goto) [0001E2D0] Jarun Tann (Director): We all owe Ryder a debt of gratitude. In the meantime, please enjoy whatever comforts the Nexus can offer a weary traveler.
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
     [0001DF22] Narration ⟨cond⟩: Ryder enters the Nexus to see a crowd of newly arrived asari gathered in the immigration area.
     [0001E0F5] Narration: Director Tann is addressing them:
-    [0001DCE2] global_nexus_PI_director: I'd like to welcome our asari pilgrims to the Nexus!
-    [0001DCDE] global_nexus_PI_director: You've had a long journey, but we're thrilled that Ark Leusinia has finally arrived. We ask for patience as we find homes for everyone.
-    [0001DCEC] global_nexus_PI_director ⟨cond⟩: To those who doubted the future, the proof stands before you: the asari live—and so does the dream!
+    [0001DCE2] Jarun Tann (Director): I'd like to welcome our asari pilgrims to the Nexus!
+    [0001DCDE] Jarun Tann (Director): You've had a long journey, but we're thrilled that Ark Leusinia has finally arrived. We ask for patience as we find homes for everyone.
+    [0001DCEC] Jarun Tann (Director) ⟨cond⟩: To those who doubted the future, the proof stands before you: the asari live—and so does the dream!
     ↩ (goto) [0001DCEA] Narration: Applause. Tann now notices Ryder in the crowd.
 ├ option 3:
     [0001E0F7] Narration: Ryder enters the Nexus to see a crowd of newly arrived salarians AND asari gathered in the immigration area.
     [0001E0F2] Narration: Director Tann is addressing them:
-    [0001E0F3] global_nexus_PI_director: I'd like to welcome our salarian and asari pilgrims to the Nexus!
-    [0001E0F8] global_nexus_PI_director: You've had a long journey, but we're thrilled that your arks have finally arrived. We ask for patience as we find homes for everyone.
+    [0001E0F3] Jarun Tann (Director): I'd like to welcome our salarian and asari pilgrims to the Nexus!
+    [0001E0F8] Jarun Tann (Director): You've had a long journey, but we're thrilled that your arks have finally arrived. We ask for patience as we find homes for everyone.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        ↩ (goto) [0001DCE8] global_nexus_PI_director ⟨cond⟩: To those who doubted the future, the proof stands before you: the salarians live—and so does the dream!
+        ↩ (goto) [0001DCE8] Jarun Tann (Director) ⟨cond⟩: To those who doubted the future, the proof stands before you: the salarians live—and so does the dream!
     ├ option 2:
-        ↩ (goto) [0001DCEC] global_nexus_PI_director ⟨cond⟩: To those who doubted the future, the proof stands before you: the asari live—and so does the dream!
+        ↩ (goto) [0001DCEC] Jarun Tann (Director) ⟨cond⟩: To those who doubted the future, the proof stands before you: the asari live—and so does the dream!
     ├ option 3:
-        [0001E0F4] global_nexus_PI_director ⟨cond⟩: To those who doubted the future, the proof stands before you: the asari and salarians live—and so does the dream!
+        [0001E0F4] Jarun Tann (Director) ⟨cond⟩: To those who doubted the future, the proof stands before you: the asari and salarians live—and so does the dream!
         ↩ (goto) [0001DCEA] Narration: Applause. Tann now notices Ryder in the crowd.
     └─ merge ─┘
 └─ merge ─┘

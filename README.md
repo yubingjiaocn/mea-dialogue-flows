@@ -9,7 +9,7 @@ MEA's in-game `Conversation` resources (dialogue trees) parsed into **human-read
 
 - **Ordered** — lines follow the actual conversation-node traversal order (not the flat string table)
 - **Branching** — player choices / conditional branches shown as an indented tree, with merge points
-- **Speakers** — each line is tagged with its speaking character
+- **Speakers** — each line is tagged with its speaking character, mapped to readable names (e.g. `Ryder`, `SAM`, `Squadmate (Krogan / Drack)`, `The Charlatan`) instead of raw internal codenames
 - **Text IDs** — each line is prefixed with its 8-digit hex TextId (the game's localized-string key), for cross-referencing
 - **English text** — original English from the game's localized strings
 

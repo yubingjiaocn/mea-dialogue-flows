@@ -1,40 +1,40 @@
 # game/conversations/crit/crit_ex/crit_ex_0300_new_room_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Ex/crit_ex_0300_new_room_b.xml
 ==================================================
-[000130AA] Hero: Communications room?
+[000130AA] Ryder: Communications room?
 [000166AD] SAM: If you can access a terminal, I will download the log for that holo.
 ┌─ BRANCH (5) ─┐
 ├ option 1:
-    [00017ACD] global_squad_female_human ⟨cond⟩: Quite the ego you've got, Archon.
-    [00017ACE] global_squad_angara: It's revolting.
+    [00017ACD] Squadmate (Human ♀) ⟨cond⟩: Quite the ego you've got, Archon.
+    [00017ACE] Squadmate (Angara / Jaal): It's revolting.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00017AC4] global_squad_female_human ⟨cond⟩: It shows what he values. Image.
+        [00017AC4] Squadmate (Human ♀) ⟨cond⟩: It shows what he values. Image.
         [00017ACF] SAM: Download complete. Analysis may take some time.
     ├ option 2:
-        [00017AC8] global_squad_male_human ⟨cond⟩: Healthy, too.
+        [00017AC8] Squadmate (Human ♂) ⟨cond⟩: Healthy, too.
         ↩ (goto) [00017ACF] SAM: Download complete. Analysis may take some time.
     ├ option 3:
-        [00017AC7] global_squad_asari ⟨cond⟩: Clearly compensating for something.
+        [00017AC7] Squadmate (Asari / Peebee) ⟨cond⟩: Clearly compensating for something.
         ↩ (goto) [00017ACF] SAM: Download complete. Analysis may take some time.
     ├ option 4:
-        [00017ACC] global_squad_turian ⟨cond⟩: Clearly compensating for something.
+        [00017ACC] Squadmate (Turian / Vetra) ⟨cond⟩: Clearly compensating for something.
         ↩ (goto) [00017ACF] SAM: Download complete. Analysis may take some time.
     ├ option 5:
-        [00017AC5] global_squad_krogan ⟨cond⟩: No argument here.
+        [00017AC5] Squadmate (Krogan / Drack) ⟨cond⟩: No argument here.
         ↩ (goto) [00017ACF] SAM: Download complete. Analysis may take some time.
     └─ merge ─┘
 ├ option 2:
-    [00017AC6] global_squad_male_human ⟨cond⟩: This "Archon" sure needs to be seen.
-    ↩ (goto) [00017ACE] global_squad_angara: It's revolting.
+    [00017AC6] Squadmate (Human ♂) ⟨cond⟩: This "Archon" sure needs to be seen.
+    ↩ (goto) [00017ACE] Squadmate (Angara / Jaal): It's revolting.
 ├ option 3:
-    [00017AC9] global_squad_asari ⟨cond⟩: This Archon sure thinks he's something else.
-    ↩ (goto) [00017ACE] global_squad_angara: It's revolting.
+    [00017AC9] Squadmate (Asari / Peebee) ⟨cond⟩: This Archon sure thinks he's something else.
+    ↩ (goto) [00017ACE] Squadmate (Angara / Jaal): It's revolting.
 ├ option 4:
-    [00017ACB] global_squad_turian ⟨cond⟩: That's some ego.
-    ↩ (goto) [00017ACE] global_squad_angara: It's revolting.
+    [00017ACB] Squadmate (Turian / Vetra) ⟨cond⟩: That's some ego.
+    ↩ (goto) [00017ACE] Squadmate (Angara / Jaal): It's revolting.
 ├ option 5:
-    [00017ACA] global_squad_krogan ⟨cond⟩: That Archon sure is full of himself.
-    ↩ (goto) [00017ACE] global_squad_angara: It's revolting.
+    [00017ACA] Squadmate (Krogan / Drack) ⟨cond⟩: That Archon sure is full of himself.
+    ↩ (goto) [00017ACE] Squadmate (Angara / Jaal): It's revolting.
 └─ merge ─┘

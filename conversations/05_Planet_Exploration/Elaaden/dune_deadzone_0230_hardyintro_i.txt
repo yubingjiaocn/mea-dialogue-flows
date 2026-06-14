@@ -1,39 +1,39 @@
 # game/conversations/unc_dunes/dune_deadzone_0230_hardyintro_i
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc_dunes/dune_deadzone_0230_hardyintro_i.xml
 ==================================================
-[0001E864] dune_deadzone_mechanic: [Comm] Vehicle trouble, huh? Gotta be careful in these parts.
+[0001E864] Deadzone Mechanic: [Comm] Vehicle trouble, huh? Gotta be careful in these parts.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001E867] Hero: We're armed and ready for any trouble we might come across.
-    [0001E882] dune_deadzone_mechanic: [Comm] Oh, don't worry. So am I.
-    [0001E866] dune_deadzone_mechanic: [Comm] I've seen this before. Pretty common out here, what with all the scavengers.
-    [0001E865] dune_deadzone_mechanic: [Comm] I may have just the part you need to get you up and running.
-    [0001E868] dune_deadzone_mechanic: [Comm] I'll give you a navpoint to my camp. It's just around the bend.
+    [0001E867] Ryder: We're armed and ready for any trouble we might come across.
+    [0001E882] Deadzone Mechanic: [Comm] Oh, don't worry. So am I.
+    [0001E866] Deadzone Mechanic: [Comm] I've seen this before. Pretty common out here, what with all the scavengers.
+    [0001E865] Deadzone Mechanic: [Comm] I may have just the part you need to get you up and running.
+    [0001E868] Deadzone Mechanic: [Comm] I'll give you a navpoint to my camp. It's just around the bend.
     ┌─ BRANCH (3) ─┐
     ├ option 1:
-        [0001E887] Hero: Thanks for this. I guess we owe you one.
-        [0001E894] dune_deadzone_mechanic: [Comm] Don't worry about it. Happy to help a fellow human.
+        [0001E887] Ryder: Thanks for this. I guess we owe you one.
+        [0001E894] Deadzone Mechanic: [Comm] Don't worry about it. Happy to help a fellow human.
         ┌─ BRANCH (4) ─┐
         ├ option 1:
-            [0001E89B] global_squad_asari ⟨cond⟩: Hmph.
+            [0001E89B] Squadmate (Asari / Peebee) ⟨cond⟩: Hmph.
         ├ option 2:
-            [0001E89E] global_squad_krogan ⟨cond⟩: Hmph.
+            [0001E89E] Squadmate (Krogan / Drack) ⟨cond⟩: Hmph.
         ├ option 3:
-            [0001E89D] global_squad_turian ⟨cond⟩: Hmph.
+            [0001E89D] Squadmate (Turian / Vetra) ⟨cond⟩: Hmph.
         ├ option 4:
-            [0001E89C] global_squad_angara ⟨cond⟩: Hmph.
+            [0001E89C] Squadmate (Angara / Jaal) ⟨cond⟩: Hmph.
         └─ merge ─┘
     ├ option 2:
-        [0001E886] Hero: I think we'd better stay with our vehicle.
-        [0001E88F] dune_deadzone_mechanic: [Comm] Suit yourself. But you won't last long out here without wheels.
-        [0001E890] dune_deadzone_mechanic: [Comm] I'll be by my ride if you change your mind.
+        [0001E886] Ryder: I think we'd better stay with our vehicle.
+        [0001E88F] Deadzone Mechanic: [Comm] Suit yourself. But you won't last long out here without wheels.
+        [0001E890] Deadzone Mechanic: [Comm] I'll be by my ride if you change your mind.
     ├ option 3:
-        [0001E88A] Hero [OncePerGame]: We're in the middle of nowhere. How did you just happen to see us?
-        [0001E88B] dune_deadzone_mechanic: [Comm] There'll be plenty of time for questions at my camp.
-        ↩ (goto) [0001E8A3] Hero: [empty]
+        [0001E88A] Ryder [OncePerGame]: We're in the middle of nowhere. How did you just happen to see us?
+        [0001E88B] Deadzone Mechanic: [Comm] There'll be plenty of time for questions at my camp.
+        ↩ (goto) [0001E8A3] Ryder: [empty]
     └─ merge ─┘
 ├ option 2:
-    [0001E869] Hero: One minute we were driving, the next we were dead in the sand.
-    ↩ (goto) [0001E866] dune_deadzone_mechanic: [Comm] I've seen this before. Pretty common out here, what with all the scavengers.
+    [0001E869] Ryder: One minute we were driving, the next we were dead in the sand.
+    ↩ (goto) [0001E866] Deadzone Mechanic: [Comm] I've seen this before. Pretty common out here, what with all the scavengers.
 └─ merge ─┘

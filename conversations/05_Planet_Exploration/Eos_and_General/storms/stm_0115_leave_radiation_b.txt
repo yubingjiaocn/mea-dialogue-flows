@@ -1,16 +1,16 @@
 # game/conversations/unc/storms/stm_0115_leave_radiation_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_0115_leave_radiation_b.xml
 ==================================================
-[000246E2] Hero [OncePerGame]: No good! It's too much past the perimeter!
+[000246E2] Ryder [OncePerGame]: No good! It's too much past the perimeter!
 [000246DF] SAM: Eos's atmosphere is contaminated by Scourge fallout. Travel is not advised.
 ┌─ BRANCH (3) ─┐
 ├ option 1:
-    [000246E0] global_squad_female_human ⟨cond⟩: On foot, anyway.
+    [000246E0] Squadmate (Human ♀) ⟨cond⟩: On foot, anyway.
 ├ option 2:
-    [000246E3] global_squad_male_human ⟨cond⟩: If we try to walk, anyway.
+    [000246E3] Squadmate (Human ♂) ⟨cond⟩: If we try to walk, anyway.
 ├ option 3:
-    [000246E5] global_squad_turian ⟨cond⟩: On foot, anyway.
+    [000246E5] Squadmate (Turian / Vetra) ⟨cond⟩: On foot, anyway.
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
@@ -18,11 +18,11 @@
 ├ option 2:
     [000246F0] SAM ⟨cond⟩: Radiation and debris hazards are critical.
 └─ merge ─┘
-[00024965] Hero ⟨cond⟩: If we're careful, the new shields should handle these conditions fine.
-[000246E1] Hero [OncePerGame]: These shield masts are protecting against the radiation, but they're wearing out fast.
+[00024965] Ryder ⟨cond⟩: If we're careful, the new shields should handle these conditions fine.
+[000246E1] Ryder [OncePerGame]: These shield masts are protecting against the radiation, but they're wearing out fast.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00024765] global_squad_male_human ⟨cond⟩: Look at the batch numbers. The outpost burned through a bunch of them.
+    [00024765] Squadmate (Human ♂) ⟨cond⟩: Look at the batch numbers. The outpost burned through a bunch of them.
 ├ option 2:
-    [00024764] global_squad_turian ⟨cond⟩: Standard issue. The outpost was going through them like gizzard picks.
+    [00024764] Squadmate (Turian / Vetra) ⟨cond⟩: Standard issue. The outpost was going through them like gizzard picks.
 └─ merge ─┘

@@ -1,62 +1,62 @@
 # game/conversations/unc_dunes/dune_shaman_0100_start_d
-# Primary speaker: dune_colony_shaman
+# Primary speaker: Colony Shaman
 # Source: game/conversations/unc_dunes/dune_shaman_0100_start_d.xml
 ==================================================
-[0001CDC6] dune_colony_shaman: What do you want me to do?
-[0001CCCB] dune_colony_varka: Handle it, Kortik. Or I will.
-[0001CD6E] dune_colony_shaman: Half the time, I feel like I'm the only one holding this colony together.
-[0001CD6B] Hero: Trouble?
-[0001CD6C] dune_colony_shaman: Varka and Gren fought together back home—side by side, but always in competition. Made them stronger.
-[0001CD6A] dune_colony_shaman: Now they have no enemies to fight, so they're fighting each other.
-[0001CDC4] dune_colony_shaman: I can see the tension building. Colonists taking sides. This is how clan wars start.
+[0001CDC6] Colony Shaman: What do you want me to do?
+[0001CCCB] Colony Varka: Handle it, Kortik. Or I will.
+[0001CD6E] Colony Shaman: Half the time, I feel like I'm the only one holding this colony together.
+[0001CD6B] Ryder: Trouble?
+[0001CD6C] Colony Shaman: Varka and Gren fought together back home—side by side, but always in competition. Made them stronger.
+[0001CD6A] Colony Shaman: Now they have no enemies to fight, so they're fighting each other.
+[0001CDC4] Colony Shaman: I can see the tension building. Colonists taking sides. This is how clan wars start.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0001CD88] Hero: Sounds like all they need is something to shoot.
-    [0001CD83] dune_colony_shaman: That's exactly what they need.
-    [0001CD7F] dune_colony_shaman: Best way to stop this feud is to perform a Rite of Union.
-    [0001CE06] Hero: Which is?
-    [0001CE05] dune_colony_shaman: Shove them into a ring with a beast. Make them fight as a team.
-    [0001CD85] dune_colony_shaman: Defeating a common foe creates a powerful bond. Krogan don't take that lightly.
-    [0001CE28] dune_colony_shaman: Help me perform the rite, and we can hold this colony together.
+    [0001CD88] Ryder: Sounds like all they need is something to shoot.
+    [0001CD83] Colony Shaman: That's exactly what they need.
+    [0001CD7F] Colony Shaman: Best way to stop this feud is to perform a Rite of Union.
+    [0001CE06] Ryder: Which is?
+    [0001CE05] Colony Shaman: Shove them into a ring with a beast. Make them fight as a team.
+    [0001CD85] Colony Shaman: Defeating a common foe creates a powerful bond. Krogan don't take that lightly.
+    [0001CE28] Colony Shaman: Help me perform the rite, and we can hold this colony together.
     ┌─ BRANCH (4) ─┐
     ├ option 1:
-        [0001DA56] Hero [OncePerGame]: How am I supposed to help with the rite?
-        [0001DA6F] dune_colony_shaman: For one, they need something to fight.
-        [0001DA72] Hero: I hope you don't mean me.
-        [0001DA6E] dune_colony_shaman: Ha. No. But I do need you to help me drive a beast into the arena.
-        [0001DA71] dune_colony_shaman: Shamans make a special lure for this. Should help subdue it.
+        [0001DA56] Ryder [OncePerGame]: How am I supposed to help with the rite?
+        [0001DA6F] Colony Shaman: For one, they need something to fight.
+        [0001DA72] Ryder: I hope you don't mean me.
+        [0001DA6E] Colony Shaman: Ha. No. But I do need you to help me drive a beast into the arena.
+        [0001DA71] Colony Shaman: Shamans make a special lure for this. Should help subdue it.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0001DA70] Hero [OncePerGame]: You really think Varka and Gren could cause a war?
-            [0001DA73] dune_colony_shaman: Big problems can start out small. Not taking any chances.
+            [0001DA70] Ryder [OncePerGame]: You really think Varka and Gren could cause a war?
+            [0001DA73] Colony Shaman: Big problems can start out small. Not taking any chances.
             ┌─ BRANCH (3) ─┐
             ├ option 1:
-                ↩ (goto) [0001DA56] Hero [OncePerGame]: How am I supposed to help with the rite?
+                ↩ (goto) [0001DA56] Ryder [OncePerGame]: How am I supposed to help with the rite?
             ├ option 2:
-                [0001CD84] Hero: I'll do whatever I can to help.
-                [0001CD8E] dune_colony_shaman: Good.
-                [0001CD8F] dune_colony_shaman: Set this lure out in the wilds to attract a fiend.
-                [0001DB2F] dune_colony_shaman: The beast might be feisty at first, so stay on your toes.
-                [0001CE29] dune_colony_shaman: I'll keep Varka and Gren from each other's throats 'til you get back. Good luck.
+                [0001CD84] Ryder: I'll do whatever I can to help.
+                [0001CD8E] Colony Shaman: Good.
+                [0001CD8F] Colony Shaman: Set this lure out in the wilds to attract a fiend.
+                [0001DB2F] Colony Shaman: The beast might be feisty at first, so stay on your toes.
+                [0001CE29] Colony Shaman: I'll keep Varka and Gren from each other's throats 'til you get back. Good luck.
             ├ option 3:
-                [0001CD86] Hero: I'll see what I can do.
-                [0001CD8C] dune_colony_shaman: Guess I'll have to settle for that.
-                ↩ (goto) [0001CD8F] dune_colony_shaman: Set this lure out in the wilds to attract a fiend.
+                [0001CD86] Ryder: I'll see what I can do.
+                [0001CD8C] Colony Shaman: Guess I'll have to settle for that.
+                ↩ (goto) [0001CD8F] Colony Shaman: Set this lure out in the wilds to attract a fiend.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [0001CD84] Hero: I'll do whatever I can to help.
+            ↩ (goto) [0001CD84] Ryder: I'll do whatever I can to help.
         ├ option 3:
-            ↩ (goto) [0001CD86] Hero: I'll see what I can do.
+            ↩ (goto) [0001CD86] Ryder: I'll see what I can do.
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [0001DA70] Hero [OncePerGame]: You really think Varka and Gren could cause a war?
+        ↩ (goto) [0001DA70] Ryder [OncePerGame]: You really think Varka and Gren could cause a war?
     ├ option 3:
-        ↩ (goto) [0001CD84] Hero: I'll do whatever I can to help.
+        ↩ (goto) [0001CD84] Ryder: I'll do whatever I can to help.
     ├ option 4:
-        ↩ (goto) [0001CD86] Hero: I'll see what I can do.
+        ↩ (goto) [0001CD86] Ryder: I'll see what I can do.
     └─ merge ─┘
 ├ option 2:
-    [0001CD82] Hero: A divided colony will never survive out here.
-    [0001CD87] dune_colony_shaman: Which is why we need to act fast.
-    ↩ (goto) [0001CD7F] dune_colony_shaman: Best way to stop this feud is to perform a Rite of Union.
+    [0001CD82] Ryder: A divided colony will never survive out here.
+    [0001CD87] Colony Shaman: Which is why we need to act fast.
+    ↩ (goto) [0001CD7F] Colony Shaman: Best way to stop this feud is to perform a Rite of Union.
 └─ merge ─┘

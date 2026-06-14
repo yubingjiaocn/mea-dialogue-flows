@@ -1,224 +1,224 @@
 # game/conversations/crit/crit_mer/crit_fin_760_combat_bridge_squad_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/Crit_Mer/crit_fin_760_combat_bridge_squad_b.xml
 ==================================================
-[00026319] global_nexus_militia_leader: [Comm] Deploying everyone available, Pathfinder!
-[0002645F] nex_rp_sci_sci02: [Comm] Not strictly true.
-[0002645E] nex_rp_sci_sci03: [Comm] Save the pedantry for the victory party.
-[00026323] global_nexus_militia_leader: [Comm] Kett are on a rally! Call out! Can we hold them?
+[00026319] Tiran Kandros (Militia Leader): [Comm] Deploying everyone available, Pathfinder!
+[0002645F] Rp Sci Sci02: [Comm] Not strictly true.
+[0002645E] Rp Sci Sci03: [Comm] Save the pedantry for the victory party.
+[00026323] Tiran Kandros (Militia Leader): [Comm] Kett are on a rally! Call out! Can we hold them?
 ┌─ BRANCH (7) ─┐
 ├ option 1:
-    [0002634A] crit_fin_pro_security: [Comm] Prodromos security deploying.
+    [0002634A] Fin Pro Security: [Comm] Prodromos security deploying.
     ┌─ BRANCH (7) ─┐
     ├ option 1:
-        [00026369] global_nexus_militia_leader: [Comm] More than enough. It's not a roll call.
-        [0002636A] global_nexus_militia_leader: [Comm] Keep pushing, Pathfinder. We're with you.
+        [00026369] Tiran Kandros (Militia Leader): [Comm] More than enough. It's not a roll call.
+        [0002636A] Tiran Kandros (Militia Leader): [Comm] Keep pushing, Pathfinder. We're with you.
     ├ option 2:
-        [00026336] crit_ex_res_fighter_3_multi: [Comm] The Resistance is with you.
+        [00026336] Ex Res Fighter: [Comm] The Resistance is with you.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            ↩ (goto) [0002635F] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+            ↩ (goto) [0002635F] Ex Res Fighter ⟨cond⟩: [empty]
         ├ option 2:
-            [00026348] loyalty_hmm_shuttle_engineer_02_multi: [Comm] You ready?
-            [0002633B] loyalty_hmm_shuttle_engineer_03_multi: [Comm] You know it.
+            [00026348] Hmm Shuttle Engineer: [Comm] You ready?
+            [0002633B] Hmm Shuttle Engineer: [Comm] You know it.
             ┌─ BRANCH (5) ─┐
             ├ option 1:
-                ↩ (goto) [0002635F] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                ↩ (goto) [0002635F] Ex Res Fighter ⟨cond⟩: [empty]
             ├ option 2:
-                [00026338] loy_ang_jaal_cuz1: [Comm] Here to fight by our cousin!
-                [00026332] loy_ang_jaal_cuz3: [Comm] Together!
+                [00026338] Ang Jaal Cuz1: [Comm] Here to fight by our cousin!
+                [00026332] Ang Jaal Cuz3: [Comm] Together!
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    ↩ (goto) [0002635F] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                    ↩ (goto) [0002635F] Ex Res Fighter ⟨cond⟩: [empty]
                 ├ option 2:
-                    [0002634C] global_salarian_major: [Comm] Support is on site. For now.
+                    [0002634C] Global Salarian Major: [Comm] Support is on site. For now.
                     ┌─ BRANCH (3) ─┐
                     ├ option 1:
-                        ↩ (goto) [0002635F] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                        ↩ (goto) [0002635F] Ex Res Fighter ⟨cond⟩: [empty]
                     ├ option 2:
-                        [0002633F] global_krogan_botanist: [Comm] Let them breathe through this!
+                        [0002633F] Global Krogan Botanist: [Comm] Let them breathe through this!
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            ↩ (goto) [0002635F] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                            ↩ (goto) [0002635F] Ex Res Fighter ⟨cond⟩: [empty]
                         ├ option 2:
-                            [0002635D] global_nexus_militia_leader: [Comm] Too lean for this, Pathfinder. We risk being more distraction than help!
-                            [00026361] Hero: Understood!
+                            [0002635D] Tiran Kandros (Militia Leader): [Comm] Too lean for this, Pathfinder. We risk being more distraction than help!
+                            [00026361] Ryder: Understood!
                         └─ merge ─┘
                     ├ option 3:
-                        ↩ (goto) [0002635E] crit_ex_res_fighter_3_multi: [empty]
+                        ↩ (goto) [0002635E] Ex Res Fighter: [empty]
                     └─ merge ─┘
                 ├ option 3:
-                    ↩ (goto) [00026351] Hero ⟨cond⟩: [empty]
+                    ↩ (goto) [00026351] Ryder ⟨cond⟩: [empty]
                 ├ option 4:
-                    ↩ (goto) [0002635E] crit_ex_res_fighter_3_multi: [empty]
+                    ↩ (goto) [0002635E] Ex Res Fighter: [empty]
                 └─ merge ─┘
             ├ option 3:
-                ↩ (goto) [0002632E] Hero ⟨cond⟩: [empty]
+                ↩ (goto) [0002632E] Ryder ⟨cond⟩: [empty]
             ├ option 4:
-                ↩ (goto) [00026351] Hero ⟨cond⟩: [empty]
+                ↩ (goto) [00026351] Ryder ⟨cond⟩: [empty]
             ├ option 5:
-                ↩ (goto) [0002635E] crit_ex_res_fighter_3_multi: [empty]
+                ↩ (goto) [0002635E] Ex Res Fighter: [empty]
             └─ merge ─┘
         ├ option 3:
-            ↩ (goto) [00026346] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [00026346] Ryder ⟨cond⟩: [empty]
         ├ option 4:
-            ↩ (goto) [0002632E] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [0002632E] Ryder ⟨cond⟩: [empty]
         ├ option 5:
-            ↩ (goto) [00026351] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [00026351] Ryder ⟨cond⟩: [empty]
         ├ option 6:
-            ↩ (goto) [0002635E] crit_ex_res_fighter_3_multi: [empty]
+            ↩ (goto) [0002635E] Ex Res Fighter: [empty]
         └─ merge ─┘
     ├ option 3:
-        ↩ (goto) [0002633E] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [0002633E] Ryder ⟨cond⟩: [empty]
     ├ option 4:
-        ↩ (goto) [00026346] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026346] Ryder ⟨cond⟩: [empty]
     ├ option 5:
-        ↩ (goto) [0002632E] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [0002632E] Ryder ⟨cond⟩: [empty]
     ├ option 6:
-        ↩ (goto) [00026351] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026351] Ryder ⟨cond⟩: [empty]
     ├ option 7:
-        ↩ (goto) [0002635E] crit_ex_res_fighter_3_multi: [empty]
+        ↩ (goto) [0002635E] Ex Res Fighter: [empty]
     └─ merge ─┘
 ├ option 2:
-    ↩ (goto) [00026345] Hero ⟨cond⟩: [empty]
+    ↩ (goto) [00026345] Ryder ⟨cond⟩: [empty]
 ├ option 3:
-    ↩ (goto) [0002633E] Hero ⟨cond⟩: [empty]
+    ↩ (goto) [0002633E] Ryder ⟨cond⟩: [empty]
 ├ option 4:
-    ↩ (goto) [00026346] Hero ⟨cond⟩: [empty]
+    ↩ (goto) [00026346] Ryder ⟨cond⟩: [empty]
 ├ option 5:
-    ↩ (goto) [0002632E] Hero ⟨cond⟩: [empty]
+    ↩ (goto) [0002632E] Ryder ⟨cond⟩: [empty]
 ├ option 6:
-    ↩ (goto) [00026351] Hero ⟨cond⟩: [empty]
+    ↩ (goto) [00026351] Ryder ⟨cond⟩: [empty]
 ├ option 7:
-    [0002637C] nex_rp_sci_sci01: [Comm] Coordinating.
-    [0002637D] nex_rp_sci_sci02: [Comm] I don't like the totals.
-    [0002637B] nex_rp_sci_sci03: [Comm] Especially with this topography.
+    [0002637C] Rp Sci Sci01: [Comm] Coordinating.
+    [0002637D] Rp Sci Sci02: [Comm] I don't like the totals.
+    [0002637B] Rp Sci Sci03: [Comm] Especially with this topography.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00026380] nex_rp_ai_leader_son ⟨cond⟩: [Comm] Too little to work with.
-        [0002637F] global_nexus_militia_leader: [Comm] "No" would have sufficed.
-        ↩ (goto) [0002637A] angararesleader_multi: [empty]
+        [00026380] Rp Ai Leader Son ⟨cond⟩: [Comm] Too little to work with.
+        [0002637F] Tiran Kandros (Militia Leader): [Comm] "No" would have sufficed.
+        ↩ (goto) [0002637A] Evfra de Tershaav (Resistance Leader): [empty]
     ├ option 2:
-        ↩ (goto) [0002637F] global_nexus_militia_leader: [Comm] "No" would have sufficed.
+        ↩ (goto) [0002637F] Tiran Kandros (Militia Leader): [Comm] "No" would have sufficed.
     └─ merge ─┘
 └─ merge ─┘
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00026460] kad_charlatan ⟨cond⟩: [Comm] Dropships inbound!
-    [00026358] angararesleader_multi: [Comm] So are we! Do we have the ability to assist?
+    [00026460] The Charlatan ⟨cond⟩: [Comm] Dropships inbound!
+    [00026358] Evfra de Tershaav (Resistance Leader): [Comm] So are we! Do we have the ability to assist?
     ┌─ BRANCH (8) ─┐
     ├ option 1:
-        [0002633A] dune_colony_rebel: [Comm] I'll show kett who's worth killing!
+        [0002633A] Colony Rebel: [Comm] I'll show kett who's worth killing!
         ┌─ BRANCH (8) ─┐
         ├ option 1:
-            [00026371] angararesleader_multi: [Comm] Numbers say fire! Target the dropship!
+            [00026371] Evfra de Tershaav (Resistance Leader): [Comm] Numbers say fire! Target the dropship!
         ├ option 2:
-            [00026352] global_kalinda: [Comm] We live through this, all debts are paid!
+            [00026352] Kalinda: [Comm] We live through this, all debts are paid!
             ┌─ BRANCH (7) ─┐
             ├ option 1:
-                ↩ (goto) [0002636E] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                ↩ (goto) [0002636E] Ex Res Fighter ⟨cond⟩: [empty]
             ├ option 2:
-                [00026337] ice_anjikdoxeel: [Comm] Concentrate fire where the Mind of Voeld calculates!
+                [00026337] Anjikdoxeel: [Comm] Concentrate fire where the Mind of Voeld calculates!
                 ┌─ BRANCH (6) ─┐
                 ├ option 1:
-                    ↩ (goto) [0002636E] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                    ↩ (goto) [0002636E] Ex Res Fighter ⟨cond⟩: [empty]
                 ├ option 2:
-                    [00026331] nex_rp_cross_kaare_multi: [Comm] I have isolated the key targets!
+                    [00026331] Rp Cross Kaare: [Comm] I have isolated the key targets!
                     ┌─ BRANCH (5) ─┐
                     ├ option 1:
-                        ↩ (goto) [0002636E] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                        ↩ (goto) [0002636E] Ex Res Fighter ⟨cond⟩: [empty]
                     ├ option 2:
-                        [00026347] bio_outpost_staff_science_multi: [Comm] I've run this simulation. Target as directed.
+                        [00026347] Outpost Staff Science: [Comm] I've run this simulation. Target as directed.
                         ┌─ BRANCH (4) ─┐
                         ├ option 1:
-                            ↩ (goto) [0002636E] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                            ↩ (goto) [0002636E] Ex Res Fighter ⟨cond⟩: [empty]
                         ├ option 2:
-                            [00026349] dune_mwsleader: [Comm] New Tuchanka representing! Let's go!
+                            [00026349] Mwsleader: [Comm] New Tuchanka representing! Let's go!
                             ┌─ BRANCH (3) ─┐
                             ├ option 1:
-                                ↩ (goto) [0002636E] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                                ↩ (goto) [0002636E] Ex Res Fighter ⟨cond⟩: [empty]
                             ├ option 2:
-                                [0002634B] dune_main_scav_trader_multi: [Comm] Don't say I never helped a business partner!
+                                [0002634B] Main Scav Trader: [Comm] Don't say I never helped a business partner!
                                 ┌─ BRANCH (2) ─┐
                                 ├ option 1:
-                                    ↩ (goto) [0002636E] crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                                    ↩ (goto) [0002636E] Ex Res Fighter ⟨cond⟩: [empty]
                                 ├ option 2:
-                                    [00026381] angararesleader_multi: [Comm] We're not in a position to take on dropships, Pathfinder!
-                                    [00026382] Hero: On it! Stay safe!
+                                    [00026381] Evfra de Tershaav (Resistance Leader): [Comm] We're not in a position to take on dropships, Pathfinder!
+                                    [00026382] Ryder: On it! Stay safe!
                                 └─ merge ─┘
                             ├ option 3:
-                                ↩ (goto) [00026373] crit_ex_res_fighter_3_multi: [empty]
+                                ↩ (goto) [00026373] Ex Res Fighter: [empty]
                             └─ merge ─┘
                         ├ option 3:
-                            ↩ (goto) [00026335] Hero ⟨cond⟩: [empty]
+                            ↩ (goto) [00026335] Ryder ⟨cond⟩: [empty]
                         ├ option 4:
-                            ↩ (goto) [00026373] crit_ex_res_fighter_3_multi: [empty]
+                            ↩ (goto) [00026373] Ex Res Fighter: [empty]
                         └─ merge ─┘
                     ├ option 3:
-                        ↩ (goto) [00026350] Hero ⟨cond⟩: [empty]
+                        ↩ (goto) [00026350] Ryder ⟨cond⟩: [empty]
                     ├ option 4:
-                        ↩ (goto) [00026335] Hero ⟨cond⟩: [empty]
+                        ↩ (goto) [00026335] Ryder ⟨cond⟩: [empty]
                     ├ option 5:
-                        ↩ (goto) [00026373] crit_ex_res_fighter_3_multi: [empty]
+                        ↩ (goto) [00026373] Ex Res Fighter: [empty]
                     └─ merge ─┘
                 ├ option 3:
-                    ↩ (goto) [0002632F] Hero ⟨cond⟩: [empty]
+                    ↩ (goto) [0002632F] Ryder ⟨cond⟩: [empty]
                 ├ option 4:
-                    ↩ (goto) [00026350] Hero ⟨cond⟩: [empty]
+                    ↩ (goto) [00026350] Ryder ⟨cond⟩: [empty]
                 ├ option 5:
-                    ↩ (goto) [00026335] Hero ⟨cond⟩: [empty]
+                    ↩ (goto) [00026335] Ryder ⟨cond⟩: [empty]
                 ├ option 6:
-                    ↩ (goto) [00026373] crit_ex_res_fighter_3_multi: [empty]
+                    ↩ (goto) [00026373] Ex Res Fighter: [empty]
                 └─ merge ─┘
             ├ option 3:
-                ↩ (goto) [00026353] Hero ⟨cond⟩: [empty]
+                ↩ (goto) [00026353] Ryder ⟨cond⟩: [empty]
             ├ option 4:
-                ↩ (goto) [0002632F] Hero ⟨cond⟩: [empty]
+                ↩ (goto) [0002632F] Ryder ⟨cond⟩: [empty]
             ├ option 5:
-                ↩ (goto) [00026350] Hero ⟨cond⟩: [empty]
+                ↩ (goto) [00026350] Ryder ⟨cond⟩: [empty]
             ├ option 6:
-                ↩ (goto) [00026335] Hero ⟨cond⟩: [empty]
+                ↩ (goto) [00026335] Ryder ⟨cond⟩: [empty]
             ├ option 7:
-                ↩ (goto) [00026373] crit_ex_res_fighter_3_multi: [empty]
+                ↩ (goto) [00026373] Ex Res Fighter: [empty]
             └─ merge ─┘
         ├ option 3:
-            ↩ (goto) [00026340] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [00026340] Ryder ⟨cond⟩: [empty]
         ├ option 4:
-            ↩ (goto) [00026353] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [00026353] Ryder ⟨cond⟩: [empty]
         ├ option 5:
-            ↩ (goto) [0002632F] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [0002632F] Ryder ⟨cond⟩: [empty]
         ├ option 6:
-            ↩ (goto) [00026350] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [00026350] Ryder ⟨cond⟩: [empty]
         ├ option 7:
-            ↩ (goto) [00026335] Hero ⟨cond⟩: [empty]
+            ↩ (goto) [00026335] Ryder ⟨cond⟩: [empty]
         ├ option 8:
-            ↩ (goto) [00026373] crit_ex_res_fighter_3_multi: [empty]
+            ↩ (goto) [00026373] Ex Res Fighter: [empty]
         └─ merge ─┘
     ├ option 2:
-        ↩ (goto) [00026333] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026333] Ryder ⟨cond⟩: [empty]
     ├ option 3:
-        ↩ (goto) [00026340] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026340] Ryder ⟨cond⟩: [empty]
     ├ option 4:
-        ↩ (goto) [00026353] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026353] Ryder ⟨cond⟩: [empty]
     ├ option 5:
-        ↩ (goto) [0002632F] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [0002632F] Ryder ⟨cond⟩: [empty]
     ├ option 6:
-        ↩ (goto) [00026350] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026350] Ryder ⟨cond⟩: [empty]
     ├ option 7:
-        ↩ (goto) [00026335] Hero ⟨cond⟩: [empty]
+        ↩ (goto) [00026335] Ryder ⟨cond⟩: [empty]
     ├ option 8:
         ┌─ BRANCH (2) ─┐
         ├ option 1:
-            [00026365] kad_charlatan ⟨cond⟩: [Comm] It's all numbers, big guy!
-            ↩ (goto) [00026328] Hero: [empty]
+            [00026365] The Charlatan ⟨cond⟩: [Comm] It's all numbers, big guy!
+            ↩ (goto) [00026328] Ryder: [empty]
         ├ option 2:
-            [00026366] kad_queen: [Comm] Count for yourself!
-            ↩ (goto) [00026328] Hero: [empty]
+            [00026366] Krogan Overlord (Nakmor Morda): [Comm] Count for yourself!
+            ↩ (goto) [00026328] Ryder: [empty]
         └─ merge ─┘
     └─ merge ─┘
 ├ option 2:
-    [00026461] kad_queen: [Comm] Dropships inbound!
-    ↩ (goto) [00026358] angararesleader_multi: [Comm] So are we! Do we have the ability to assist?
+    [00026461] Krogan Overlord (Nakmor Morda): [Comm] Dropships inbound!
+    ↩ (goto) [00026358] Evfra de Tershaav (Resistance Leader): [Comm] So are we! Do we have the ability to assist?
 └─ merge ─┘
-[00026384] global_nexus_militia_leader: [Comm] We're clear, but we need to regroup.
-[00026385] angararesleader_multi: [Comm] Keep going, Pathfinder. We'll shore up the rear.
+[00026384] Tiran Kandros (Militia Leader): [Comm] We're clear, but we need to regroup.
+[00026385] Evfra de Tershaav (Resistance Leader): [Comm] Keep going, Pathfinder. We'll shore up the rear.

@@ -1,148 +1,148 @@
 # Game/Conversations/Crit/Crit_Mer/crit_fin_830_boss_encounter_mid_m
-# Primary speaker: global_main_villain
+# Primary speaker: The Archon
 # Source: game/conversations/crit/Crit_Mer/crit_fin_830_boss_encounter_mid_m.xml
 ==================================================
 [0000E096] Narration: The Pathfinder reaches a pinch point and defeats a kett blocker. The Archon sees this. He's pissed.
-[0000E09A] global_main_villain: Insects!
+[0000E09A] The Archon: Insects!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [0000E098] global_sibling_male ⟨cond⟩: Oh no, no, no! He's... shit, he has access!
+    [0000E098] Scott Ryder (Sibling) ⟨cond⟩: Oh no, no, no! He's... shit, he has access!
     [0000E18D] Narration: The Archon slumps for a moment and is quiet, then snaps his head up. His electrical shiz is going crazy.
-    [0000E097] global_main_villain: I can see the network. They were architects of life. You commanded nothing!
+    [0000E097] The Archon: I can see the network. They were architects of life. You commanded nothing!
     ┌─ BRANCH (2) ─┐
     ├ option 1:
         [0000E194] Narration: A shot ricochets off the Archon's shield. The Archon looks absolutely incensed at the interruption.
         [0000E18B] Narration: Cut to the Pathfinder, her weapon smoking. The squad looks at her for a second.
-        [0000E193] Hero: Did someone call a time out? Shoot him!
+        [0000E193] Ryder: Did someone call a time out? Shoot him!
         [0000E233] Narration: The Archon flexes energy and the floor shifts. The Pathfinder and squad fall down a level as the arm of a Goliath/Terraformer emerges through a wall.
         [0000F74E] Narration: There's actually a moment to talk, because everyone is like "yep, that's a big thing" as it emerges.
         ┌─ BRANCH (6) ─┐
         ├ option 1:
-            [00012221] global_squad_female_human ⟨cond⟩: He's got serious backup! Now what?
+            [00012221] Squadmate (Human ♀) ⟨cond⟩: He's got serious backup! Now what?
             [0001221F] Narration: The Sibling yells from a remaining platform.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00012BC7] global_sibling_male ⟨cond⟩: Sara, the Archon's pulling too much power!
-                    [00012BD3] Hero: Little busy!
-                    [00012BD2] global_sibling_male: It's all going straight through {i}him{/i}! Shut down the interfaces! He'll have nothing to draw!
-                    [00012BCB] global_sibling_male: You'll take Meridian out from under him!
+                    [00012BC7] Scott Ryder (Sibling) ⟨cond⟩: Sara, the Archon's pulling too much power!
+                    [00012BD3] Ryder: Little busy!
+                    [00012BD2] Scott Ryder (Sibling): It's all going straight through {i}him{/i}! Shut down the interfaces! He'll have nothing to draw!
+                    [00012BCB] Scott Ryder (Sibling): You'll take Meridian out from under him!
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [00012BCD] Hero: We play this smart! I know it hurts, but you have to call out where to interface! Get me targets!
+                        [00012BCD] Ryder: We play this smart! I know it hurts, but you have to call out where to interface! Get me targets!
                         [00012BC9] Narration: Sibling gives a thumbs up and ducks back down.
-                        [00012BD6] Hero: Everyone get that? We're shutting the Archon down!
+                        [00012BD6] Ryder: Everyone get that? We're shutting the Archon down!
                         ┌─ BRANCH (6) ─┐
                         ├ option 1:
-                            [00012BBA] global_squad_asari ⟨cond⟩: On it!
+                            [00012BBA] Squadmate (Asari / Peebee) ⟨cond⟩: On it!
                         ├ option 2:
-                            [00012BB6] global_squad_female_human ⟨cond⟩: Targeting now!
+                            [00012BB6] Squadmate (Human ♀) ⟨cond⟩: Targeting now!
                         ├ option 3:
-                            [00012BB5] global_squad_angara ⟨cond⟩: Right behind you!
+                            [00012BB5] Squadmate (Angara / Jaal) ⟨cond⟩: Right behind you!
                         ├ option 4:
-                            [00012BB9] global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                            [00012BB9] Squadmate (Human ♂) ⟨cond⟩: Roger-goddamn-dodger!
                         ├ option 5:
-                            [00012BB8] global_squad_turian ⟨cond⟩: Let's do this!
+                            [00012BB8] Squadmate (Turian / Vetra) ⟨cond⟩: Let's do this!
                         ├ option 6:
-                            [00012BB7] global_squad_krogan ⟨cond⟩: You got it!
+                            [00012BB7] Squadmate (Krogan / Drack) ⟨cond⟩: You got it!
                         └─ merge ─┘
                     ├ option 2:
-                        [00012BCF] Hero: I'm game for anything at this point! Keep fighting, and tell me where to interface!
+                        [00012BCF] Ryder: I'm game for anything at this point! Keep fighting, and tell me where to interface!
                         [00012BD0] Narration: Sibling throws up their hands and ducks back down. It's a reckless call, but they'll go with it.
-                        [00012BCA] Hero: Game on, people! I have to shut him out!
+                        [00012BCA] Ryder: Game on, people! I have to shut him out!
                         ┌─ BRANCH (6) ─┐
                         ├ option 1:
-                            ↩ (goto) [00012BBA] global_squad_asari ⟨cond⟩: On it!
+                            ↩ (goto) [00012BBA] Squadmate (Asari / Peebee) ⟨cond⟩: On it!
                         ├ option 2:
-                            ↩ (goto) [00012BB6] global_squad_female_human ⟨cond⟩: Targeting now!
+                            ↩ (goto) [00012BB6] Squadmate (Human ♀) ⟨cond⟩: Targeting now!
                         ├ option 3:
-                            ↩ (goto) [00012BB5] global_squad_angara ⟨cond⟩: Right behind you!
+                            ↩ (goto) [00012BB5] Squadmate (Angara / Jaal) ⟨cond⟩: Right behind you!
                         ├ option 4:
-                            ↩ (goto) [00012BB9] global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                            ↩ (goto) [00012BB9] Squadmate (Human ♂) ⟨cond⟩: Roger-goddamn-dodger!
                         ├ option 5:
-                            ↩ (goto) [00012BB8] global_squad_turian ⟨cond⟩: Let's do this!
+                            ↩ (goto) [00012BB8] Squadmate (Turian / Vetra) ⟨cond⟩: Let's do this!
                         ├ option 6:
-                            ↩ (goto) [00012BB7] global_squad_krogan ⟨cond⟩: You got it!
+                            ↩ (goto) [00012BB7] Squadmate (Krogan / Drack) ⟨cond⟩: You got it!
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 2:
-                    [00012BD7] global_sibling_male: Wait! The Archon's pulling too much power!
-                    ↩ (goto) [00012BD3] Hero: Little busy!
+                    [00012BD7] Scott Ryder (Sibling): Wait! The Archon's pulling too much power!
+                    ↩ (goto) [00012BD3] Ryder: Little busy!
                 └─ merge ─┘
             ├ option 2:
                 ┌─ BRANCH (2) ─┐
                 ├ option 1:
-                    [00012BAB] global_sibling_female ⟨cond⟩: Scott, the Archon's pulling too much power!
-                    [00012BAA] Hero: Little busy!
-                    [00012BAC] global_sibling_female: It's all going straight through {i}him{/i}! Shut down the interfaces! He'll have nothing to draw!
-                    [00012BAE] global_sibling_female: You'll take Meridian out from under him!
+                    [00012BAB] Sara Ryder (Sibling) ⟨cond⟩: Scott, the Archon's pulling too much power!
+                    [00012BAA] Ryder: Little busy!
+                    [00012BAC] Sara Ryder (Sibling): It's all going straight through {i}him{/i}! Shut down the interfaces! He'll have nothing to draw!
+                    [00012BAE] Sara Ryder (Sibling): You'll take Meridian out from under him!
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [00012BAF] Hero: We play this smart! I know it hurts, but you have to call out where to interface! Get me targets!
+                        [00012BAF] Ryder: We play this smart! I know it hurts, but you have to call out where to interface! Get me targets!
                         [00012BB4] Narration: Sara gives a thumbs up and ducks back down.
-                        [00012BB0] Hero: Everyone get that? We're shutting the Archon down!
+                        [00012BB0] Ryder: Everyone get that? We're shutting the Archon down!
                         ┌─ BRANCH (6) ─┐
                         ├ option 1:
-                            ↩ (goto) [00012BBA] global_squad_asari ⟨cond⟩: On it!
+                            ↩ (goto) [00012BBA] Squadmate (Asari / Peebee) ⟨cond⟩: On it!
                         ├ option 2:
-                            ↩ (goto) [00012BB6] global_squad_female_human ⟨cond⟩: Targeting now!
+                            ↩ (goto) [00012BB6] Squadmate (Human ♀) ⟨cond⟩: Targeting now!
                         ├ option 3:
-                            ↩ (goto) [00012BB5] global_squad_angara ⟨cond⟩: Right behind you!
+                            ↩ (goto) [00012BB5] Squadmate (Angara / Jaal) ⟨cond⟩: Right behind you!
                         ├ option 4:
-                            ↩ (goto) [00012BB9] global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                            ↩ (goto) [00012BB9] Squadmate (Human ♂) ⟨cond⟩: Roger-goddamn-dodger!
                         ├ option 5:
-                            ↩ (goto) [00012BB8] global_squad_turian ⟨cond⟩: Let's do this!
+                            ↩ (goto) [00012BB8] Squadmate (Turian / Vetra) ⟨cond⟩: Let's do this!
                         ├ option 6:
-                            ↩ (goto) [00012BB7] global_squad_krogan ⟨cond⟩: You got it!
+                            ↩ (goto) [00012BB7] Squadmate (Krogan / Drack) ⟨cond⟩: You got it!
                         └─ merge ─┘
                     ├ option 2:
-                        [00012BAD] Hero: I'm game for anything at this point! Keep fighting, and tell me where to interface!
+                        [00012BAD] Ryder: I'm game for anything at this point! Keep fighting, and tell me where to interface!
                         [00012BC4] Narration: Sibling throws up their hands and ducks back down. It's a reckless call, but they'll go with it.
-                        [00012BB3] Hero: Game on, people! I have to shut him out!
+                        [00012BB3] Ryder: Game on, people! I have to shut him out!
                         ┌─ BRANCH (6) ─┐
                         ├ option 1:
-                            ↩ (goto) [00012BBA] global_squad_asari ⟨cond⟩: On it!
+                            ↩ (goto) [00012BBA] Squadmate (Asari / Peebee) ⟨cond⟩: On it!
                         ├ option 2:
-                            ↩ (goto) [00012BB6] global_squad_female_human ⟨cond⟩: Targeting now!
+                            ↩ (goto) [00012BB6] Squadmate (Human ♀) ⟨cond⟩: Targeting now!
                         ├ option 3:
-                            ↩ (goto) [00012BB5] global_squad_angara ⟨cond⟩: Right behind you!
+                            ↩ (goto) [00012BB5] Squadmate (Angara / Jaal) ⟨cond⟩: Right behind you!
                         ├ option 4:
-                            ↩ (goto) [00012BB9] global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                            ↩ (goto) [00012BB9] Squadmate (Human ♂) ⟨cond⟩: Roger-goddamn-dodger!
                         ├ option 5:
-                            ↩ (goto) [00012BB8] global_squad_turian ⟨cond⟩: Let's do this!
+                            ↩ (goto) [00012BB8] Squadmate (Turian / Vetra) ⟨cond⟩: Let's do this!
                         ├ option 6:
-                            ↩ (goto) [00012BB7] global_squad_krogan ⟨cond⟩: You got it!
+                            ↩ (goto) [00012BB7] Squadmate (Krogan / Drack) ⟨cond⟩: You got it!
                         └─ merge ─┘
                     └─ merge ─┘
                 ├ option 2:
-                    [00012BDA] global_sibling_female: Wait! The Archon's pulling too much power!
-                    ↩ (goto) [00012BAA] Hero: Little busy!
+                    [00012BDA] Sara Ryder (Sibling): Wait! The Archon's pulling too much power!
+                    ↩ (goto) [00012BAA] Ryder: Little busy!
                 └─ merge ─┘
             └─ merge ─┘
         ├ option 2:
-            [0001221E] global_squad_asari ⟨cond⟩: Here come the big guns! What now?
+            [0001221E] Squadmate (Asari / Peebee) ⟨cond⟩: Here come the big guns! What now?
             ↩ (goto) [0001221F] Narration: The Sibling yells from a remaining platform.
         ├ option 3:
-            [00012220] global_squad_angara ⟨cond⟩: He's escalated! Ideas?
+            [00012220] Squadmate (Angara / Jaal) ⟨cond⟩: He's escalated! Ideas?
             ↩ (goto) [0001221F] Narration: The Sibling yells from a remaining platform.
         ├ option 4:
-            [0001221B] global_squad_male_human ⟨cond⟩: He's overclocked! What now?
+            [0001221B] Squadmate (Human ♂) ⟨cond⟩: He's overclocked! What now?
             ↩ (goto) [0001221F] Narration: The Sibling yells from a remaining platform.
         ├ option 5:
-            [0001221A] global_squad_turian ⟨cond⟩: Not good, not good, not good!
+            [0001221A] Squadmate (Turian / Vetra) ⟨cond⟩: Not good, not good, not good!
             ↩ (goto) [0001221F] Narration: The Sibling yells from a remaining platform.
         ├ option 6:
-            [0001221C] global_squad_krogan ⟨cond⟩: This is gonna hurt!
+            [0001221C] Squadmate (Krogan / Drack) ⟨cond⟩: This is gonna hurt!
             ↩ (goto) [0001221F] Narration: The Sibling yells from a remaining platform.
         └─ merge ─┘
     ├ option 2:
-        [0000E232] Hero: I made the cluster livable for thousands!
-        [0000E237] global_main_villain: No. You have lead your people to their deaths.
+        [0000E232] Ryder: I made the cluster livable for thousands!
+        [0000E237] The Archon: No. You have lead your people to their deaths.
         ↩ (goto) [0000E233] Narration: The Archon flexes energy and the floor shifts. The Pathfinder and squad fall down a level as the arm of a Goliath/Terraformer emerges through a wall.
     └─ merge ─┘
 ├ option 2:
-    [0000E18E] global_sibling_female: Oh no, no, no! He's... shit, he has access!
+    [0000E18E] Sara Ryder (Sibling): Oh no, no, no! He's... shit, he has access!
     ↩ (goto) [0000E18D] Narration: The Archon slumps for a moment and is quiet, then snaps his head up. His electrical shiz is going crazy.
 └─ merge ─┘
-[000355EA] Hero: [Exertion 3]
+[000355EA] Ryder: [Exertion 3]

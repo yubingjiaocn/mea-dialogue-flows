@@ -1,83 +1,83 @@
 # game/conversations/unc/storms/stm_6100_atk_site_2_battle_b
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/unc/storms/stm_6100_atk_site_2_battle_b.xml
 ==================================================
 [00020E28] SAM: Starting Roekaar signal upload.
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020E27] global_squad_angara ⟨cond⟩: Are they heading toward us?
+    [00020E27] Squadmate (Angara / Jaal) ⟨cond⟩: Are they heading toward us?
     [00020E68] SAM: The Roekaar have altered course.
-    [00020E69] Hero: Now might be a good time to take cover.
+    [00020E69] Ryder: Now might be a good time to take cover.
 ├ option 2:
-    [00020E5E] global_squad_angara: [Comm] They are headed directly for you.
-    ↩ (goto) [00020E69] Hero: Now might be a good time to take cover.
+    [00020E5E] Squadmate (Angara / Jaal): [Comm] They are headed directly for you.
+    ↩ (goto) [00020E69] Ryder: Now might be a good time to take cover.
 └─ merge ─┘
-[00020E59] global_extremist_leader: [Comm] Human. I told you, you'd know soon enough. The beacon is live. You couldn't stop our scouts!
-[00020E5B] Hero: They've bought it. Hold until they're on the ground.
+[00020E59] Global Extremist Leader: [Comm] Human. I told you, you'd know soon enough. The beacon is live. You couldn't stop our scouts!
+[00020E5B] Ryder: They've bought it. Hold until they're on the ground.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [00020E5F] global_squad_female_human ⟨cond⟩: Holding.
+    [00020E5F] Squadmate (Human ♀) ⟨cond⟩: Holding.
 ├ option 2:
-    [00020E5C] global_squad_asari ⟨cond⟩: Ready and waiting.
+    [00020E5C] Squadmate (Asari / Peebee) ⟨cond⟩: Ready and waiting.
 ├ option 3:
-    [00020E58] global_squad_turian ⟨cond⟩: I can wait for this.
+    [00020E58] Squadmate (Turian / Vetra) ⟨cond⟩: I can wait for this.
 ├ option 4:
-    [00020E5D] global_squad_male_human ⟨cond⟩: Whites of their eyes. Got it.
+    [00020E5D] Squadmate (Human ♂) ⟨cond⟩: Whites of their eyes. Got it.
 ├ option 5:
-    [00020E57] global_squad_krogan ⟨cond⟩: Ready to cut loose.
+    [00020E57] Squadmate (Krogan / Drack) ⟨cond⟩: Ready to cut loose.
 ├ option 6:
-    [00020E6A] global_squad_angara ⟨cond⟩: Understood.
+    [00020E6A] Squadmate (Angara / Jaal) ⟨cond⟩: Understood.
 └─ merge ─┘
-[000208F4] Hero: Now! Attack now!
+[000208F4] Ryder: Now! Attack now!
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [00020E6D] global_squad_angara ⟨cond⟩ [OncePerGame]: Moving!
-    ↩ (goto) [00020E6C] global_squad_krogan: [empty]
+    [00020E6D] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Moving!
+    ↩ (goto) [00020E6C] Squadmate (Krogan / Drack): [empty]
 ├ option 2:
-    [00020E6F] global_squad_female_human ⟨cond⟩ [OncePerGame]: Affirmative!
-    ↩ (goto) [00020E6C] global_squad_krogan: [empty]
+    [00020E6F] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Affirmative!
+    ↩ (goto) [00020E6C] Squadmate (Krogan / Drack): [empty]
 ├ option 3:
-    [00020E6B] global_squad_asari ⟨cond⟩ [OncePerGame]: Let's go!
-    ↩ (goto) [00020E6C] global_squad_krogan: [empty]
+    [00020E6B] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: Let's go!
+    ↩ (goto) [00020E6C] Squadmate (Krogan / Drack): [empty]
 ├ option 4:
-    [00020E70] global_squad_turian ⟨cond⟩ [OncePerGame]: Right!
-    ↩ (goto) [00020E6C] global_squad_krogan: [empty]
+    [00020E70] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Right!
+    ↩ (goto) [00020E6C] Squadmate (Krogan / Drack): [empty]
 ├ option 5:
-    [00020E71] global_squad_male_human ⟨cond⟩ [OncePerGame]: You got it!
-    ↩ (goto) [00020E6C] global_squad_krogan: [empty]
+    [00020E71] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: You got it!
+    ↩ (goto) [00020E6C] Squadmate (Krogan / Drack): [empty]
 ├ option 6:
-    [00020E6E] global_squad_krogan ⟨cond⟩ [OncePerGame]: {i}(Laughs.){/i}
+    [00020E6E] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: {i}(Laughs.){/i}
 └─ merge ─┘
-[00020E74] global_extremist_leader: [Comm] Heleus belongs to the angara!
-[00020E72] global_extremist_leader: [Comm] You are {i}nothing{/i} but invaders!
-[00020E73] Hero: Keep on them! Contain them here!
+[00020E74] Global Extremist Leader: [Comm] Heleus belongs to the angara!
+[00020E72] Global Extremist Leader: [Comm] You are {i}nothing{/i} but invaders!
+[00020E73] Ryder: Keep on them! Contain them here!
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00020E7A] global_squad_angara ⟨cond⟩: They're breaking!
+    [00020E7A] Squadmate (Angara / Jaal) ⟨cond⟩: They're breaking!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [00020E77] global_squad_female_human ⟨cond⟩: Keep up the pressure!
+        [00020E77] Squadmate (Human ♀) ⟨cond⟩: Keep up the pressure!
     ├ option 2:
-        [00020E78] global_squad_asari ⟨cond⟩: Don't let up!
+        [00020E78] Squadmate (Asari / Peebee) ⟨cond⟩: Don't let up!
     ├ option 3:
-        [00020E75] global_squad_turian ⟨cond⟩: Don't stop!
+        [00020E75] Squadmate (Turian / Vetra) ⟨cond⟩: Don't stop!
     ├ option 4:
-        [00020E76] global_squad_male_human ⟨cond⟩: Keep on them!
+        [00020E76] Squadmate (Human ♂) ⟨cond⟩: Keep on them!
     ├ option 5:
-        [00020E79] global_squad_krogan ⟨cond⟩: Crush them!
+        [00020E79] Squadmate (Krogan / Drack) ⟨cond⟩: Crush them!
     └─ merge ─┘
 ├ option 2:
-    [00020E7B] global_squad_angara: [Comm] They're breaking at your position!
+    [00020E7B] Squadmate (Angara / Jaal): [Comm] They're breaking at your position!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [00020E77] global_squad_female_human ⟨cond⟩: Keep up the pressure!
+        ↩ (goto) [00020E77] Squadmate (Human ♀) ⟨cond⟩: Keep up the pressure!
     ├ option 2:
-        ↩ (goto) [00020E78] global_squad_asari ⟨cond⟩: Don't let up!
+        ↩ (goto) [00020E78] Squadmate (Asari / Peebee) ⟨cond⟩: Don't let up!
     ├ option 3:
-        ↩ (goto) [00020E75] global_squad_turian ⟨cond⟩: Don't stop!
+        ↩ (goto) [00020E75] Squadmate (Turian / Vetra) ⟨cond⟩: Don't stop!
     ├ option 4:
-        ↩ (goto) [00020E76] global_squad_male_human ⟨cond⟩: Keep on them!
+        ↩ (goto) [00020E76] Squadmate (Human ♂) ⟨cond⟩: Keep on them!
     ├ option 5:
-        ↩ (goto) [00020E79] global_squad_krogan ⟨cond⟩: Crush them!
+        ↩ (goto) [00020E79] Squadmate (Krogan / Drack) ⟨cond⟩: Crush them!
     └─ merge ─┘
 └─ merge ─┘

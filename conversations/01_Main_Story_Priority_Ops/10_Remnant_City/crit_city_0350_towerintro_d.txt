@@ -1,102 +1,102 @@
 # game/conversations/crit/crit_city/crit_city_0350_towerintro_d
-# Primary speaker: Hero
+# Primary speaker: Ryder
 # Source: game/conversations/crit/crit_city/crit_city_0350_towerintro_d.xml
 ==================================================
 [000157D8] SAM: Pathfinder, we are looking at the central command hub I detected earlier.
 [000157DB] SAM: As with the monoliths and vaults, the hub is connected to the two neighboring towers.
-[000157F6] Hero: So activating the towers will also activate the command hub.
+[000157F6] Ryder: So activating the towers will also activate the command hub.
 ┌─ BRANCH (6) ─┐
 ├ option 1:
-    [000157F3] global_squad_turian ⟨cond⟩ [OncePerGame]: Screw recon. Let's just activate Meridian.
+    [000157F3] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Screw recon. Let's just activate Meridian.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        [0001580D] global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't forget the kett.
+        [0001580D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Don't forget the kett.
         [00015820] SAM: Activating a vault has previously activated a purification field. Perhaps Meridian is similar.
-        [00015823] Hero: Let's head to those towers and see what we can find.
+        [00015823] Ryder: Let's head to those towers and see what we can find.
     ├ option 2:
-        [0001580A] global_squad_angara ⟨cond⟩ [OncePerGame]: What about the kett?
+        [0001580A] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: What about the kett?
         ↩ (goto) [00015820] SAM: Activating a vault has previously activated a purification field. Perhaps Meridian is similar.
     ├ option 3:
-        [0001580E] global_squad_asari ⟨cond⟩ [OncePerGame]: What about the kett?
+        [0001580E] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: What about the kett?
         ↩ (goto) [00015820] SAM: Activating a vault has previously activated a purification field. Perhaps Meridian is similar.
     ├ option 4:
-        [00015808] global_squad_female_human ⟨cond⟩ [OncePerGame]: And the kett?
+        [00015808] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: And the kett?
         ↩ (goto) [00015820] SAM: Activating a vault has previously activated a purification field. Perhaps Meridian is similar.
     ├ option 5:
-        [0001580C] global_squad_krogan ⟨cond⟩ [OncePerGame]: Kett won't like that.
+        [0001580C] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Kett won't like that.
         ↩ (goto) [00015820] SAM: Activating a vault has previously activated a purification field. Perhaps Meridian is similar.
     └─ merge ─┘
 ├ option 2:
-    [000157F4] global_squad_asari ⟨cond⟩ [OncePerGame]: So we could bring Meridian online right now? Forget scouting, let's do that!
+    [000157F4] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: So we could bring Meridian online right now? Forget scouting, let's do that!
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [0001580D] global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't forget the kett.
+        ↩ (goto) [0001580D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Don't forget the kett.
     ├ option 2:
-        ↩ (goto) [0001580A] global_squad_angara ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580A] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 3:
-        [00015809] global_squad_turian ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
+        [00015809] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
         ↩ (goto) [00015820] SAM: Activating a vault has previously activated a purification field. Perhaps Meridian is similar.
     ├ option 4:
-        ↩ (goto) [00015808] global_squad_female_human ⟨cond⟩ [OncePerGame]: And the kett?
+        ↩ (goto) [00015808] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: And the kett?
     ├ option 5:
-        ↩ (goto) [0001580C] global_squad_krogan ⟨cond⟩ [OncePerGame]: Kett won't like that.
+        ↩ (goto) [0001580C] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Kett won't like that.
     └─ merge ─┘
 ├ option 3:
-    [000157F2] global_squad_krogan ⟨cond⟩ [OncePerGame]: Update the mission specs, and just activate Meridian now?
+    [000157F2] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Update the mission specs, and just activate Meridian now?
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [0001580D] global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't forget the kett.
+        ↩ (goto) [0001580D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Don't forget the kett.
     ├ option 2:
-        ↩ (goto) [0001580A] global_squad_angara ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580A] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 3:
-        ↩ (goto) [0001580E] global_squad_asari ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580E] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 4:
-        ↩ (goto) [00015809] global_squad_turian ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
+        ↩ (goto) [00015809] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
     ├ option 5:
-        ↩ (goto) [00015808] global_squad_female_human ⟨cond⟩ [OncePerGame]: And the kett?
+        ↩ (goto) [00015808] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: And the kett?
     └─ merge ─┘
 ├ option 4:
-    [000157F9] global_squad_female_human ⟨cond⟩ [OncePerGame]: Guess recon's over—we could activate Meridian right now.
+    [000157F9] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: Guess recon's over—we could activate Meridian right now.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [0001580D] global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't forget the kett.
+        ↩ (goto) [0001580D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Don't forget the kett.
     ├ option 2:
-        ↩ (goto) [0001580A] global_squad_angara ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580A] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 3:
-        ↩ (goto) [0001580E] global_squad_asari ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580E] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 4:
-        ↩ (goto) [00015809] global_squad_turian ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
+        ↩ (goto) [00015809] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
     ├ option 5:
-        ↩ (goto) [0001580C] global_squad_krogan ⟨cond⟩ [OncePerGame]: Kett won't like that.
+        ↩ (goto) [0001580C] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Kett won't like that.
     └─ merge ─┘
 ├ option 5:
-    [000157F7] global_squad_angara ⟨cond⟩ [OncePerGame]: Change in plan? I say we activate Meridian—now.
+    [000157F7] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: Change in plan? I say we activate Meridian—now.
     ┌─ BRANCH (5) ─┐
     ├ option 1:
-        ↩ (goto) [0001580D] global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't forget the kett.
+        ↩ (goto) [0001580D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Don't forget the kett.
     ├ option 2:
-        ↩ (goto) [0001580E] global_squad_asari ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580E] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 3:
-        ↩ (goto) [00015809] global_squad_turian ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
+        ↩ (goto) [00015809] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
     ├ option 4:
-        ↩ (goto) [00015808] global_squad_female_human ⟨cond⟩ [OncePerGame]: And the kett?
+        ↩ (goto) [00015808] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: And the kett?
     ├ option 5:
-        ↩ (goto) [0001580C] global_squad_krogan ⟨cond⟩ [OncePerGame]: Kett won't like that.
+        ↩ (goto) [0001580C] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Kett won't like that.
     └─ merge ─┘
 ├ option 6:
-    [000157FA] global_squad_male_human ⟨cond⟩ [OncePerGame]: Then we can just do it? Plug it in and get Meridian?
+    [000157FA] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Then we can just do it? Plug it in and get Meridian?
     ┌─ BRANCH (6) ─┐
     ├ option 1:
-        ↩ (goto) [0001580A] global_squad_angara ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580A] Squadmate (Angara / Jaal) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 2:
-        ↩ (goto) [0001580E] global_squad_asari ⟨cond⟩ [OncePerGame]: What about the kett?
+        ↩ (goto) [0001580E] Squadmate (Asari / Peebee) ⟨cond⟩ [OncePerGame]: What about the kett?
     ├ option 3:
-        ↩ (goto) [00015809] global_squad_turian ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
+        ↩ (goto) [00015809] Squadmate (Turian / Vetra) ⟨cond⟩ [OncePerGame]: Forgetting about the kett?
     ├ option 4:
-        ↩ (goto) [00015808] global_squad_female_human ⟨cond⟩ [OncePerGame]: And the kett?
+        ↩ (goto) [00015808] Squadmate (Human ♀) ⟨cond⟩ [OncePerGame]: And the kett?
     ├ option 5:
-        ↩ (goto) [0001580C] global_squad_krogan ⟨cond⟩ [OncePerGame]: Kett won't like that.
+        ↩ (goto) [0001580C] Squadmate (Krogan / Drack) ⟨cond⟩ [OncePerGame]: Kett won't like that.
     ├ option 6:
-        ↩ (goto) [0001580D] global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't forget the kett.
+        ↩ (goto) [0001580D] Squadmate (Human ♂) ⟨cond⟩ [OncePerGame]: Don't forget the kett.
     └─ merge ─┘
 └─ merge ─┘

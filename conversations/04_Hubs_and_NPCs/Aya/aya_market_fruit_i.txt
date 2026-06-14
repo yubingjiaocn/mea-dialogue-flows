@@ -1,81 +1,81 @@
 # game/conversations/hubs/hub_aya/market/aya_market_fruit_i
-# Primary speaker: aya_merchant_fruit_multi
+# Primary speaker: Merchant Fruit
 # Source: game/conversations/hubs/hub_aya/market/aya_market_fruit_i.xml
 ==================================================
 ┌─ BRANCH (2) ─┐
 ├ option 1:
-    [00024817] aya_merchant_fruit_multi [OncePerGame]: Vesoan. I was there when you landed. Watched you get escorted through the city.
+    [00024817] Merchant Fruit [OncePerGame]: Vesoan. I was there when you landed. Watched you get escorted through the city.
     ┌─ BRANCH (2) ─┐
     ├ option 1:
-        [00024813] Hero: I get why everyone was on edge. I didn't mean to worry them.
-        [00024812] aya_merchant_fruit_multi: We've been through worse than the arrival of one human.
+        [00024813] Ryder: I get why everyone was on edge. I didn't mean to worry them.
+        [00024812] Merchant Fruit: We've been through worse than the arrival of one human.
         ┌─ BRANCH (3) ─┐
         ├ option 1:
-            [0002417B] Hero: I've never seen fruit like this before. What are these?
-            [00024808] aya_merchant_fruit_multi: Paripo. Sweet, with a little bite. Sometimes, if I'm lucky, I have a few quilloa or elmohk.
-            [0002480A] Hero: Is fruit scarce here?
-            [00024809] aya_merchant_fruit_multi: In this form, yes. Very expensive. If you buy a paripo from me, it means you have something to celebrate.
-            [00024807] aya_merchant_fruit_multi: It's a luxury, meant to be shared with friends and family.
+            [0002417B] Ryder: I've never seen fruit like this before. What are these?
+            [00024808] Merchant Fruit: Paripo. Sweet, with a little bite. Sometimes, if I'm lucky, I have a few quilloa or elmohk.
+            [0002480A] Ryder: Is fruit scarce here?
+            [00024809] Merchant Fruit: In this form, yes. Very expensive. If you buy a paripo from me, it means you have something to celebrate.
+            [00024807] Merchant Fruit: It's a luxury, meant to be shared with friends and family.
             ┌─ BRANCH (2) ─┐
             ├ option 1:
-                [0002417C] Hero ⟨cond⟩ [OncePerConversation]: Can I get a few of those fruits for the Tempest?
-                [0002418B] aya_merchant_fruit_multi: More than one? You Pathfinders are richer than I thought.
-                [00024198] Hero: What do you mean?
-                [0002419F] aya_merchant_fruit_multi: You really are new to Heleus. Look at it this way:
-                [00024188] aya_merchant_fruit_multi: This paripo feeds one. Or we can break it down into nutrient paste and feed twenty.
-                [0002419A] aya_merchant_fruit_multi: Raw fruit is rare because it's excessive. A luxury. Better to make the most out of it, right?
+                [0002417C] Ryder ⟨cond⟩ [OncePerConversation]: Can I get a few of those fruits for the Tempest?
+                [0002418B] Merchant Fruit: More than one? You Pathfinders are richer than I thought.
+                [00024198] Ryder: What do you mean?
+                [0002419F] Merchant Fruit: You really are new to Heleus. Look at it this way:
+                [00024188] Merchant Fruit: This paripo feeds one. Or we can break it down into nutrient paste and feed twenty.
+                [0002419A] Merchant Fruit: Raw fruit is rare because it's excessive. A luxury. Better to make the most out of it, right?
                 ┌─ BRANCH (4) ─┐
                 ├ option 1:
-                    [0002419C] Hero [OncePerGame]: Is that what you guys eat?
-                    [00024194] aya_merchant_fruit_multi: Of course. It gives us the nutrition we need without wasting resources.
-                    [0002419E] aya_merchant_fruit_multi: The food we grow is precious. We have to make the most of it.
-                    [0002419B] aya_merchant_fruit_multi: And once in a while, we treat ourselves.
+                    [0002419C] Ryder [OncePerGame]: Is that what you guys eat?
+                    [00024194] Merchant Fruit: Of course. It gives us the nutrition we need without wasting resources.
+                    [0002419E] Merchant Fruit: The food we grow is precious. We have to make the most of it.
+                    [0002419B] Merchant Fruit: And once in a while, we treat ourselves.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        [0002418A] Hero ⟨cond⟩: Huh. Maybe we should look into this stuff.
-                        [00024195] aya_merchant_fruit_multi: A responsible choice. Roaan will be happy to give you a sample from the tavetaan.
-                        [00024199] aya_merchant_fruit_multi: I'll send a few fruits to your ship in the meantime. A gift.
+                        [0002418A] Ryder ⟨cond⟩: Huh. Maybe we should look into this stuff.
+                        [00024195] Merchant Fruit: A responsible choice. Roaan will be happy to give you a sample from the tavetaan.
+                        [00024199] Merchant Fruit: I'll send a few fruits to your ship in the meantime. A gift.
                         ┌─ BRANCH (2) ─┐
                         ├ option 1:
-                            ↩ (goto) [0002417B] Hero: I've never seen fruit like this before. What are these?
+                            ↩ (goto) [0002417B] Ryder: I've never seen fruit like this before. What are these?
                         ├ option 2:
-                            [0002481A] Hero: I'll get moving.
+                            [0002481A] Ryder: I'll get moving.
                         └─ merge ─┘
                     ├ option 2:
-                        [0002418D] Hero: As appetizing as paste sounds, I'll stick to fresh fruit.
-                        [00024196] aya_merchant_fruit_multi: At least pay a visit to the tavetaan and try it out.
-                        ↩ (goto) [00024199] aya_merchant_fruit_multi: I'll send a few fruits to your ship in the meantime. A gift.
+                        [0002418D] Ryder: As appetizing as paste sounds, I'll stick to fresh fruit.
+                        [00024196] Merchant Fruit: At least pay a visit to the tavetaan and try it out.
+                        ↩ (goto) [00024199] Merchant Fruit: I'll send a few fruits to your ship in the meantime. A gift.
                     └─ merge ─┘
                 ├ option 2:
-                    [000241E5] Hero ⟨cond⟩: I have samples from Roaan. We're weighing options.
-                    [000241E7] aya_merchant_fruit_multi: Oh?
-                    [000241E8] Hero: See? I'm learning.
-                    [000241E9] aya_merchant_fruit_multi: In that case, I'll send a few fruits to your ship. A gift.
+                    [000241E5] Ryder ⟨cond⟩: I have samples from Roaan. We're weighing options.
+                    [000241E7] Merchant Fruit: Oh?
+                    [000241E8] Ryder: See? I'm learning.
+                    [000241E9] Merchant Fruit: In that case, I'll send a few fruits to your ship. A gift.
                     ┌─ BRANCH (2) ─┐
                     ├ option 1:
-                        ↩ (goto) [0002417B] Hero: I've never seen fruit like this before. What are these?
+                        ↩ (goto) [0002417B] Ryder: I've never seen fruit like this before. What are these?
                     ├ option 2:
-                        ↩ (goto) [0002481A] Hero: I'll get moving.
+                        ↩ (goto) [0002481A] Ryder: I'll get moving.
                     └─ merge ─┘
                 ├ option 3:
-                    ↩ (goto) [0002418A] Hero ⟨cond⟩: Huh. Maybe we should look into this stuff.
+                    ↩ (goto) [0002418A] Ryder ⟨cond⟩: Huh. Maybe we should look into this stuff.
                 ├ option 4:
-                    ↩ (goto) [0002418D] Hero: As appetizing as paste sounds, I'll stick to fresh fruit.
+                    ↩ (goto) [0002418D] Ryder: As appetizing as paste sounds, I'll stick to fresh fruit.
                 └─ merge ─┘
             ├ option 2:
-                ↩ (goto) [0002481A] Hero: I'll get moving.
+                ↩ (goto) [0002481A] Ryder: I'll get moving.
             └─ merge ─┘
         ├ option 2:
-            ↩ (goto) [0002417C] Hero ⟨cond⟩ [OncePerConversation]: Can I get a few of those fruits for the Tempest?
+            ↩ (goto) [0002417C] Ryder ⟨cond⟩ [OncePerConversation]: Can I get a few of those fruits for the Tempest?
         ├ option 3:
-            ↩ (goto) [0002481A] Hero: I'll get moving.
+            ↩ (goto) [0002481A] Ryder: I'll get moving.
         └─ merge ─┘
     ├ option 2:
-        [00024814] Hero: Bet that was a sight.
-        [00024816] aya_merchant_fruit_multi: You were an unexpected outsider. Not really a laughing matter.
-        ↩ (goto) [00029D6A] Hero: [empty]
+        [00024814] Ryder: Bet that was a sight.
+        [00024816] Merchant Fruit: You were an unexpected outsider. Not really a laughing matter.
+        ↩ (goto) [00029D6A] Ryder: [empty]
     └─ merge ─┘
 ├ option 2:
-    [00024181] aya_merchant_fruit_multi: Something I can do for you?
-    ↩ (goto) [00029D6A] Hero: [empty]
+    [00024181] Merchant Fruit: Something I can do for you?
+    ↩ (goto) [00029D6A] Ryder: [empty]
 └─ merge ─┘
