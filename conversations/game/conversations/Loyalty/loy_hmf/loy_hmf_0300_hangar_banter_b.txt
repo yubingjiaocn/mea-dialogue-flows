@@ -1,0 +1,62 @@
+# Game/Conversations/Loyalty/Loy_HMF/loy_hmf_0300_hangar_banter_b
+# Primary speaker: SAM
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0300_hangar_banter_b.xml
+==================================================
+loy_hmf_vederia_multi: Kett!
+global_squad_female_human: We've got this! Cover the console while SAM works—nice, steady fire!
+loy_hmf_vederia_multi: Yes ma'am!
+SAM: Starting hangar door closure sequence.
+SAM: Hangar door closure at 21 percent.
+SAM: Hangar door closure at 53 percent.
+SAM: Hangar door closure at 77 percent.
+SAM: Hangar doors are closed and locked. Kett access is cut off.
+SAM: Enemy override attempt in progress.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It's trying to hack the console! Focus fire on that one!
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Target the hacker!
+    ├ option 2:
+        Hero: Defend the console—hit that hacker!
+    ├ option 3:
+        Hero: Get the hacker, quick!
+    └─ merge ─┘
+└─ merge ─┘
+SAM: Enemy override countermanded.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Hacker's down, nice work!
+├ option 2:
+    Hero: Got the hacker! Keep going!
+├ option 3:
+    Hero: Yes! The hacker's down!
+└─ merge ─┘
+SAM: Connection severed. Secondary doors cannot be closed.
+Hero: Keep watching the console, there might be more kett!
+Hero: Closed! Don't relax, keep pushing them back!
+Hero: Okay, that... should've done it.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: So where's our damn power for FTL?
+    global_squad_female_human: Vederia? Let's ask her.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: So why isn't the power back on?
+    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+├ option 3:
+    global_squad_angara ⟨cond⟩: But no lights. Is there still no power?
+    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Seems pretty dark for having the power back on.
+    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Except there's no power.
+    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+├ option 6:
+    ↩ (goto) global_squad_female_human: Vederia? Let's ask her.
+└─ merge ─┘
+global_squad_female_human: Vederia's down by that maintenance panel.
+Hero: What was that?
+SAM: I estimate that several of the ark's electrical junctions just overloaded.
+global_squad_female_human: Shit. Vederia?

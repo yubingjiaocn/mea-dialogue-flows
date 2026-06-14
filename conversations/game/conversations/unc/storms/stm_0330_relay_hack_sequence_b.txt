@@ -1,0 +1,61 @@
+# game/conversations/unc/storms/stm_0330_relay_hack_sequence_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0330_relay_hack_sequence_b.xml
+==================================================
+Hero: Expect trouble when we start the generators.
+SAM: There's an error in the start-up sequence. Manual input required.
+Hero: Damn it.
+SAM: Please scan one of the pylons to determine a hackable input location.
+SAM: Generator interface possible. Location marked.
+Hero: We've got company!
+Hero: Generator is active.
+global_crew_science_officer: [Comm] Ryder, we've got activity on the sensors. Can't pinpoint it just yet...
+Hero: Got it. We'll stay alert.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Taking fire!
+├ option 2:
+    global_squad_asari ⟨cond⟩: They're shooting at me!
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Getting hit over here!
+├ option 4:
+    global_squad_turian ⟨cond⟩: I'm being shot at!
+└─ merge ─┘
+Hero: That should let us restore power at the relay building.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Up and running!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Up and running!
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Up and running!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Up and running!
+└─ merge ─┘
+SAM: Pathfinder, there must be a scannable interface on the power pylon.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: I got it! Moving to the next generator!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: I got it! Moving to the next generator!
+├ option 3:
+    global_squad_turian ⟨cond⟩: I got it! Moving to the next generator!
+├ option 4:
+    global_squad_asari ⟨cond⟩: I got it! Moving to the next generator!
+├ option 5:
+    SAM ⟨cond⟩: Manual input is still required.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Cora, hold while we take the kett!
+        global_squad_female_human: Holding position!
+    ├ option 2:
+        Hero ⟨cond⟩: Liam, hold while we take the kett!
+        global_squad_male_human: On it!
+    ├ option 3:
+        Hero ⟨cond⟩: Vetra, hold while we take the kett!
+        global_squad_turian: Right!
+    ├ option 4:
+        Hero ⟨cond⟩: Peebee, hold while we take the kett!
+        global_squad_asari: Uh, sure!
+    └─ merge ─┘
+└─ merge ─┘

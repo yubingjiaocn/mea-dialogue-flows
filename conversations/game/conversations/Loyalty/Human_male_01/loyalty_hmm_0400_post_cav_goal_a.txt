@@ -1,0 +1,27 @@
+# Game/Conversations/Loyalty/Human_male_01/loyalty_hmm_0400_post_cav_goal_a
+# Primary speaker: loyalty_hmm_pirate_leader
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0400_post_cav_goal_a.xml
+==================================================
+Hero: We're here. But things have gone a little sideways.
+loyalty_hmm_pirate_leader: [Loudspeaker] Get to engineering and fix the gravs! —Then I'll do it myself! {i}(Sounds of shooting.){/i}
+ustl_settle_01_admin_multi: [Comm] Sounds like we made your man angry.
+ustl_settle_01_admin_multi: [Comm] You take care of the fighting, Liam. Find Verand. We'll keep this barge stable!
+global_squad_male_human: Oh hell, yeah!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: We've lost the map. SAM?
+    SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
+    global_squad_male_human: I feel you.
+├ option 2:
+    global_squad_angara ⟨cond⟩: We've lost the map. SAM?
+    ↩ (goto) SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: We've lost the map. SAM?
+    ↩ (goto) SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
+├ option 4:
+    global_squad_asari ⟨cond⟩: We've lost the map. SAM?
+    ↩ (goto) SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
+├ option 5:
+    global_squad_turian ⟨cond⟩: We've lost the map. SAM?
+    ↩ (goto) SAM: I'm having difficulty analyzing predictive meshes. Walls are not floors.
+└─ merge ─┘

@@ -1,0 +1,69 @@
+# game/conversations/hubs/hub_kad/ambients/queenhq/kad_queenhq_phase03_sloane_a
+# Primary speaker: kad_outcast_pir_09
+# Source: game/conversations/hubs/hub_kad/ambients/queenhq/kad_queenhq_phase03_sloane_a.xml
+==================================================
+┌─ BRANCH (8) ─┐
+├ option 1:
+    kad_outcast_pir_09: Pathfinder.
+├ option 2:
+    kad_outcast_pir_09: Heard what you did for Sloane. You made the right choice.
+├ option 3:
+    kad_outcast_pir_19: Sloane says you're welcome.
+├ option 4:
+    kad_outcast_pir_19: Fuck the Collective.
+├ option 5:
+    kad_outcast_pir_11: You're all right, Pathfinder.
+├ option 6:
+    kad_outcast_pir_11: Anyone good in Sloane's book is good in mine.
+├ option 7:
+    kad_outcast_pir_12: Break time's over.
+├ option 8:
+    kad_outcast_pir_12: What's that saying? No rest for the wicked?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_19: Fucking coward. Bringing a sniper to a duel.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_outcast_pir_09 ⟨cond⟩: It's dirty. Would've worked if the Pathfinder hadn't been there.
+    ├ option 2:
+        kad_outcast_pir_09: It's dirty. Would've worked if the Pathfinder hadn't been there.
+    └─ merge ─┘
+├ option 2:
+    kad_outcast_pir_12: Reyes fucking Vidal. If I'd known...
+    kad_outcast_pir_11: You'd what? Punch him in the face?
+    kad_outcast_pir_12: Exactly!
+    kad_outcast_pir_11: {i}(Chuckles.){/i} I've seen you punch. Wouldn't do any good.
+    kad_outcast_pir_12: Har har. Fuck you.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_09: Thought we could relax with the Collective gone.
+    kad_outcast_pir_19: Sloane won't let anyone rest until she has the Charlatan's head.
+    kad_outcast_pir_09: Vidal's not coming back here. He's too smart for that.
+    kad_outcast_pir_19: Hiding in plain sight worked before. Who's to say he won't try again?
+├ option 2:
+    kad_outcast_pir_12: Kaetus isn't even here and he's still busting my balls.
+    kad_outcast_pir_11: Bed rest doesn't suit him.
+    kad_outcast_pir_12: Credits are rolling in, but I'm fucking exhausted. Double shifts. Multiple patrols.
+    kad_outcast_pir_11: Things will calm down once we find the Charlatan.
+    kad_outcast_pir_12: {i}(Scoffs.){/i} We'll never find him. That bastard's long gone.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_09: Hope Sloane was right about allowing an outpost on Kadara.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_outcast_pir_19 ⟨cond⟩: Didn't have much choice. The Pathfinder saved her life.
+        kad_outcast_pir_19: That debt had to be paid.
+        kad_outcast_pir_09: Just seems a steep price for honor.
+    ├ option 2:
+        kad_outcast_pir_19: Didn't have much choice. The Pathfinder saved her life.
+        ↩ (goto) kad_outcast_pir_19: That debt had to be paid.
+    └─ merge ─┘
+├ option 2:
+    kad_outcast_pir_12: An outpost on Kadara. Under our protection? I don't like it.
+    kad_outcast_pir_11: Trade's up. Credits are up. What's the big deal?
+    kad_outcast_pir_12: {i}(Scoffs.){/i} It's the fucking principle.
+    kad_outcast_pir_12: Tann wanted us to die out here. And now we're playing neighbor.
+└─ merge ─┘

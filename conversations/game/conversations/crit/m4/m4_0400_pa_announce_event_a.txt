@@ -1,0 +1,14 @@
+# game/conversations/crit/m4/m4_0400_pa_announce_event_a
+# Primary speaker: global_salarian_pathfinder_multi
+# Source: game/conversations/crit/m4/m4_0400_pa_announce_event_a.xml
+==================================================
+crit_kett_PA_announcer: [Loudspeaker] Gor leto mah! Lutod—
+global_salarian_pathfinder_multi: [Loudspeaker] Step away from there!
+crit_kett_PA_announcer: [Loudspeaker] Gosad!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_salarian_pathfinder_multi ⟨cond⟩: [Loudspeaker] Archon, do you hear me? Now you have {i}two{/i} Pathfinders to deal with! And we're not impressed with your security! {i}(Gunshots.){/i}
+├ option 2:
+    global_salarian_pathfinder_multi: [Loudspeaker] Archon, do you hear me? Now you have {i}two{/i} Pathfinders to deal with! And we're not impressed with your security! {i}(Gunshots.){/i}
+└─ merge ─┘
+crit_kett_PA_announcer: [Loudspeaker] {i}(Screams.){/i}

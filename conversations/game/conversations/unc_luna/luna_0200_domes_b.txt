@@ -1,0 +1,46 @@
+# game/conversations/unc_luna/luna_0200_domes_b
+# Primary speaker: SAM
+# Source: game/conversations/unc_luna/luna_0200_domes_b.xml
+==================================================
+Hero: SAM, what is that?
+SAM: A mining dome, Pathfinder. You should be able to exit the Nomad once inside.
+Hero: What about the crazy space radiation?
+SAM: The dome's structure prevents cosmic rays from entering.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM [OncePerGame]: You can drive into the airlock, Pathfinder.
+├ option 2:
+    Hero [OncePerGame]: Looks like we can just drive in here.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: There's the gravity well.
+├ option 2:
+    Hero: Look. Is that a gravity well?
+└─ merge ─┘
+Hero: Kallo was right. Exiles everywhere. What would they want with this place?
+SAM ⟨cond⟩: Pathfinder, I detect a datapad nearby. It may provide answers.
+Hero: Exiles! Heads up!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Ryder, no!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Ryder!
+├ option 3:
+    global_squad_asari ⟨cond⟩: No, no!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Shit!
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Ryder, look out!
+├ option 6:
+    global_squad_turian ⟨cond⟩: Shit, shit, shit!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Whoa... that's unsettling.
+├ option 2:
+    Hero [OncePerGame]: Don't look down, guys.
+└─ merge ─┘
+Hero: Look. You can see the turian ark from here.
+Hero: This place should've been theirs. Now it's... this.
+Hero: There's exiles everywhere. What would they want with this place?

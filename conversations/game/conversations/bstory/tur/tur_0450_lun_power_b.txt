@@ -1,0 +1,45 @@
+# game/conversations/bstory/tur/tur_0450_lun_power_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/tur/tur_0450_lun_power_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: Hey! This door's still got power.
+    SAM: I wouldn't open that, Pathfinder—it leads to space. Perhaps you could divert the power to a different door?
+├ option 2:
+    Hero [OncePerGame]: Locked. Needs power to open.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_turian_pathfinder_multi ⟨cond⟩: What about that other door?
+    ├ option 2:
+        global_turian_pathfinder_multi: Something's gotta still be online in this wreck.
+    └─ merge ─┘
+├ option 3:
+    SAM: Power has been diverted, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: Well, we're not going that way.
+├ option 2:
+    Hero [OncePerGame]: {i}(Sighs.){/i} This one also needs power.
+    global_turian_pathfinder_multi: Maybe we can use the same trick as last time? Divert power from something else?
+├ option 3:
+    SAM: The door should now be operational, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_turian_pathfinder_multi: That door leads to the SAM Node. We've got to get in there.
+├ option 2:
+    Hero [OncePerGame]: Surprise. It's locked.
+├ option 3:
+    SAM: The SAM Node should now be accessible.
+└─ merge ─┘
+Hero [OncePerGame]: We're lucky this part of the ark survived.
+SAM: Looks can be deceiving, Pathfinder. The hull is barely holding together.
+Hero: Thanks, SAM. Always a ray of sunshine.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: This one's still got juice.
+├ option 2:
+    Hero: Avitus, over here!
+└─ merge ─┘

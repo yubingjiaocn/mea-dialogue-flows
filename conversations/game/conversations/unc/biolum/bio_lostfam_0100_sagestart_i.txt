@@ -1,0 +1,84 @@
+# game/conversations/unc/biolum/bio_lostfam_0100_sagestart_i
+# Primary speaker: bio_sage_lostfamsage
+# Source: game/conversations/unc/biolum/bio_lostfam_0100_sagestart_i.xml
+==================================================
+bio_sage_lostfamsage: As death nears, it's harder to face the possibility that I might never see Amara again.
+Hero: Sorry to interrupt, but what's happened?
+bio_sage_lostfam_amb: Amurd is ill. He hasn't got much time left.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    bio_sage_lostfam_amb ⟨cond⟩: Amurd, perhaps this stranger can help. If they've been to Pelaav, maybe they've seen something...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I came from Pelaav, actually. The little research station?
+        bio_sage_lostfamsage: Research station? It used to be a large settlement. A daar. Amara moved there when she left Mithrava.
+        bio_sage_lostfam_amb: Pelaav was overtaken by the jungle, remember? A few cycles ago. Everyone left.
+        bio_sage_lostfamsage: Oh yes. I remember now... but that means Amara's gone.
+        Hero: There might still be a way to track her down.
+        bio_sage_lostfam_amb: All daara keep records, don't they? If there was an organized evacuation, they would've documented the process.
+        bio_sage_lostfamsage: And the records would state where she went. Pallah, that's genius.
+        Hero: Where would they keep those records?
+        bio_sage_lostfamsage: Likely some kind of administrative building. If it still stands, and the machines still work. It's a slim hope.
+        bio_sage_lostfamsage: I don't want to impose, stranger, but I would welcome any news of my sister.
+    ├ option 2:
+        Hero: Well, I've seen lots of things. You'll need to be more specific.
+        bio_sage_lostfamsage: My sister, Amara. She grew disillusioned with life here and left for Pelaav. She must live there now.
+        ↩ (goto) bio_sage_lostfam_amb: Pelaav was overtaken by the jungle, remember? A few cycles ago. Everyone left.
+    └─ merge ─┘
+├ option 2:
+    bio_sage_lostfam_amb: Amurd, perhaps this stranger can help. If they've been to Pelaav, maybe they've seen something...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: I came from Pelaav, actually. The little research station?
+    ├ option 2:
+        ↩ (goto) Hero: Well, I've seen lots of things. You'll need to be more specific.
+    └─ merge ─┘
+└─ merge ─┘
+bio_sage_lostfamsage: I pray you find something about Amara.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Tell me more about your sister, Amara.
+    bio_sage_lostfamsage: We were born here, but she grew up and disagreed with Mithrava's principles. Argued against our seclusion.
+    bio_sage_lostfamsage: When she could not sway the others, she left, choosing to join angara society. It's been over 30 years now.
+    bio_sage_lostfamsage: There were others in our litter, but it was different with Amara and I. We were vaasa-nari. A shared soul.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: I have a twin. It's not exactly the same thing, but I think I know what you mean.
+        bio_sage_lostfamsage: Family, but closer than most. Perhaps you understand a little.
+        ↩ (goto) bio_sage_lostfamsage: [empty]
+    ├ option 2:
+        ↩ (goto) bio_sage_lostfamsage: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Pallah said you were ill?
+    bio_sage_lostfamsage: Yes. An incurable condition that occurs frequently in Mithrava's population. We lose the ability to effectively absorb sunlight.
+    bio_sage_lostfamsage: The angara rely on sunlight for bio-energy. Without it, we weaken.
+    bio_sage_lostfamsage: Eventually, my body will be unable to sustain brain function. I'll fall into a coma, and die.
+    ↩ (goto) bio_sage_lostfamsage: [empty]
+├ option 3:
+    Hero: I'll leave you now.
+    bio_sage_lostfamsage ⟨cond⟩: I hope you find news of Amara. I would be so grateful.
+└─ merge ─┘
+bio_sage_lostfamsage: Did you find anything about my sister?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Pallah was right. They documented everything.
+    Hero: Your sister was moved across Havarl. This data drive should have the specifics.
+    bio_sage_lostfamsage: Thank you. With this information, I could see Amara again. But the thought of leaving frightens me.
+    bio_sage_lostfamsage: This is my home. If I leave, I abandon my duties. What if I never get to come home again?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I can't say if leaving is right for you.
+        bio_sage_lostfamsage: I don't want to die in an unfriendly place. If I leave, that's something that could happen.
+        bio_sage_lostfamsage: Perhaps a message... a letter. Perhaps that will be enough.
+    ├ option 2:
+        Hero: Everyone gets scared. It passes. Amara's your sister.
+        bio_sage_lostfamsage: And home is often a person, and not a place. I will swallow my fear.
+        bio_sage_lostfamsage: Thank you for this, for helping an old man.
+        ↩ (goto) bio_sage_lostfamsage: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: Your sister was moved across Havarl. This data drive should have the specifics.
+└─ merge ─┘
+bio_sage_lostfamsage: Thank you, Ryder.
+↩ (goto) bio_sage_lostfamsage: [empty]

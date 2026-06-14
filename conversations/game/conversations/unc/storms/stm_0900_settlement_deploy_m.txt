@@ -1,0 +1,111 @@
+# game/conversations/unc/storms/stm_0900_settlement_deploy_m
+# Primary speaker: global_nexus_colonial_director_multi
+# Source: game/conversations/unc/storms/stm_0900_settlement_deploy_m.xml
+==================================================
+Narration: Four parts: Section 1 Space deployment. Section 2, Bradley intro. Section 3, personal. Section 4, high-level policy.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Andromeda Initiative, this is Ryder. Pathfinder.
+    Hero: [Comm] Eos is ready for deployment.
+    Narration: There are sounds of "science" as the camera pans up to the sky. A male voice answers over comm.
+    ustl_settle_01_admin_multi: [Comm] Copy that.
+    Narration: A shot of ships in space, in high orbit. The Nexus far in the background (if at all)
+    ustl_settle_01_admin_multi: Outpost Block inbound.
+    Narration: Shot of interior of shuttle/transport, to put a face to the voice. A middle-aged man, smiling (August Bradley).
+    ustl_settle_01_admin_multi: And ready as hell.
+    Narration: Long shot of multiple ships going through high altitude entry. Expanded interior shot shows Bradley, and next to him, Colonial Director Addison.
+    Narration: Bradley is calm, a vet. Addison is tight-lipped. Not scared, but not enjoying it. Settlers in the background high-fiving?
+    Narration: A shot from the ground, from the Pathfinder's perspective looking up.
+    Narration: Multiple booms of light as ships break atmosphere, streaking in. Excited shared look with the squad.
+    Narration: Shot of a ship landing left, then right. Then the "main" one lands in the foreground to control the view.
+    Narration: As it settles, the side opens. People come into frame from the sides presumably from the other ships. Activity is quickly everywhere.
+    Narration: Bradley and the Director appear in the opening. Bradley is "Eastwooding," confidently squinting into the new sun. Addison less so, but still tough.
+    Narration: Bradley is panning left, but on seeing the Pathfinder, strides straight forward. He extends his hand for a firm handshake.
+    ustl_settle_01_admin_multi: August Bradley. Operational head for this block. "Mayor" now, I suppose.
+    ustl_settle_01_admin_multi: We're ready to make the most of what you delivered.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It took a lot of people to get us this far. That's the work you'll continue.
+        ustl_settle_01_admin_multi: I hear that.
+        Narration: Bradley takes an introspective look to the side as he gets ready to step away.
+        ustl_settle_01_admin_multi: Prodromos. That's what we're calling her.
+        Narration: Bradley walks off. The Pathfinder looks where he was, and Addison was watching.
+        global_nexus_colonial_director_multi: They're eager. I haven't seen "eager" for months.
+        Narration: She nods for Ryder to follow. They walk and talk amid landing ships and background workers positioning equipment.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi ⟨cond⟩: Eos is far from golden. But now it's a producer. A real and reasonable first step.
+            Narration: Addison draws Ryder's attention to some workers as she walks. The workers see the Pathfinder, and clearly react with respect and gratitude.
+            global_nexus_colonial_director_multi: They think you did the impossible.
+            global_nexus_colonial_director_multi: The Nexus—{i}I{/i} warned them. Hoping was... irresponsible.
+            Narration: Addison stops to look back at the activity. She looks the Pathfinder square. Extends a hand.
+            global_nexus_colonial_director_multi: You proved me wrong. Pathfinder.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: What are you playing at? Seems like being my friend is suddenly valuable.
+                Narration: The skeptical Pathfinder does not accept the handshake.
+                global_nexus_colonial_director_multi: Fair assumption.
+                Narration: Addison walks up a slope. The scene changes to a different vista, with Addison and the Pathfinder walking to a spot that overlooks Prodromos.
+                Narration: Topic changes from people to policy as the setting literally takes a high level view. Addison continues.
+                global_nexus_colonial_director_multi: The reality, Ryder: You bought us time. But one outpost on a longshot planet won't stop us from starving.
+                global_nexus_colonial_director_multi: You already have a lead on... something else?
+                Narration: She knows they have, but it's a strange source. She's wary. Ryder nods.
+                Hero: The navpoint from the "vault."
+                Narration: Addison nods. Then frowns.
+                global_nexus_colonial_director_multi: {i}Now{/i} it gets complicated.
+                Narration: Ryder looks quizzical.
+                global_nexus_colonial_director_multi: The others are ready to officially sanction your efforts. To be a part of your success.
+                global_nexus_colonial_director_multi: We all want the Initiative to succeed. But after failing for so long, no one agrees on how to do it.
+                global_nexus_colonial_director_multi: Be aware. That's all.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    Hero: I don't care why anyone helps, so long as they do.
+                    global_nexus_colonial_director_multi: I've heard that before.
+                    Narration: Addison lets the moment sit for a beat, let's the Pathfinder read the silence with the outpost below. She turns to go.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        global_nexus_colonial_director_multi ⟨cond⟩: Talk to Bradley. Know that Prodromos is in good hands. And when you're ready...
+                        global_nexus_colonial_director_multi: Tann's waiting on the Nexus.
+                        Narration: END
+                    ├ option 2:
+                        global_nexus_colonial_director_multi ⟨cond⟩: Talk to Bradley. Later, we'll go over the {i}extended{/i} job of Pathfinder. Until then...
+                        ↩ (goto) global_nexus_colonial_director_multi: Tann's waiting on the Nexus.
+                    ├ option 3:
+                        global_nexus_colonial_director_multi: Talk to Bradley. Later, we'll go over the {i}extended{/i} job of Pathfinder. Until then...
+                        ↩ (goto) global_nexus_colonial_director_multi: Tann's waiting on the Nexus.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Watch out for everyone. But not you, right? You're genuine?
+                    global_nexus_colonial_director_multi: I know what I came here to be.
+                    ↩ (goto) Narration: Addison lets the moment sit for a beat, let's the Pathfinder read the silence with the outpost below. She turns to go.
+                ├ option 3:
+                    Hero: We didn't come to a new galaxy to argue about who's right.
+                    global_nexus_colonial_director_multi: It got us this far.
+                    ↩ (goto) Narration: Addison lets the moment sit for a beat, let's the Pathfinder read the silence with the outpost below. She turns to go.
+                ├ option 4:
+                    Hero ⟨cond⟩: Don't worry. I majored in "glad-handing" during Pathfinder training.
+                    global_nexus_colonial_director_multi: We're led by the best.
+                    ↩ (goto) Narration: Addison lets the moment sit for a beat, let's the Pathfinder read the silence with the outpost below. She turns to go.
+                ├ option 5:
+                    Hero ⟨cond⟩: Don't worry. I majored in "glad-handing" during Pathfinder training.
+                    ↩ (goto) global_nexus_colonial_director_multi: We're led by the best.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I appreciate your candor. We're all on the same side.
+                Narration: The warming Pathfinder accepts the handshake.
+                global_nexus_colonial_director_multi: I wouldn't go that far.
+                ↩ (goto) Narration: Addison walks up a slope. The scene changes to a different vista, with Addison and the Pathfinder walking to a spot that overlooks Prodromos.
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: Eos is far from golden, but now it's defensible. Arguing that choice will come later.
+            ↩ (goto) Narration: Addison draws Ryder's attention to some workers as she walks. The workers see the Pathfinder, and clearly react with respect and gratitude.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I feel like I should toss you the keys. Be nice. It's been through a lot.
+        ustl_settle_01_admin_multi: Understood.
+        ↩ (goto) Narration: Bradley takes an introspective look to the side as he gets ready to step away.
+    └─ merge ─┘
+├ option 2:
+    Hero: Andromeda Initiative, this is Ryder. Pathfinder.
+    ↩ (goto) Hero: [Comm] Eos is ready for deployment.
+└─ merge ─┘

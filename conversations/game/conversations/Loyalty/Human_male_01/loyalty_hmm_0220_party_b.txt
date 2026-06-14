@@ -1,0 +1,24 @@
+# Game/Conversations/Loyalty/Human_male_01/loyalty_hmm_0220_party_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0220_party_b.xml
+==================================================
+global_squad_male_human: Definitely not kett running this thing!
+Hero: Shut them down!
+Hero: More coming in!
+global_squad_male_human: Just as surprised as we are!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Yeah, that'll last.
+├ option 2:
+    global_squad_angara ⟨cond⟩: Unlikely!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_female_human ⟨cond⟩: The next wave won't be!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: Let's hope that lasts!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_turian ⟨cond⟩: They'll catch on soon enough!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘

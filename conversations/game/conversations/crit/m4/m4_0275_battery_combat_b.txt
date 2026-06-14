@@ -1,0 +1,204 @@
+# game/conversations/crit/m4/m4_0275_battery_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0275_battery_combat_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: I see them—it's an ambush!
+    Hero: Those tricky bastards! Get ready!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Shit, I see them! It's an ambush!
+    ↩ (goto) Hero: Those tricky bastards! Get ready!
+├ option 3:
+    global_squad_turian ⟨cond⟩: There they are—it's an ambush!
+    ↩ (goto) Hero: Those tricky bastards! Get ready!
+├ option 4:
+    global_squad_asari ⟨cond⟩: I see them—it's an ambush!
+    ↩ (goto) Hero: Those tricky bastards! Get ready!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Ambush! They're over there!
+    ↩ (goto) Hero: Those tricky bastards! Get ready!
+├ option 6:
+    global_squad_angara ⟨cond⟩: More kett—it's an ambush!
+    ↩ (goto) Hero: Those tricky bastards! Get ready!
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We're locked in here!
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Only way out is a fight!
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: It's a gun fight in the gun battery, then!
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: We fight our way out, then!
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: Then we give them a fight!
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩: Then we fight our way out!
+        ├ option 6:
+            global_squad_angara ⟨cond⟩: Then we fight our way out!
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: They locked us in!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: We're locked in!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: They locked us in!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: We're locked in here.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: They locked us in!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 7:
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: It's a big room! Don't let them get the drop on you!
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: They're everywhere!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Damn things are everywhere!
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: They're everywhere!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Assholes everywhere!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Hostiles everywhere!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: They're everywhere!
+    └─ merge ─┘
+├ option 4:
+    Hero: SAM, anything you can do?
+    SAM: Provide encouragement. I'm afraid the only option is brute force.
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: This is looking ugly! We're in trouble here!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We won't last much longer!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Can't hold out much longer!
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Can't hold out much longer!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Can't hold out much longer!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Not going to last much longer!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Not going to last much longer!
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: This is looking ugly! We're in trouble here!
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: This is looking ugly! We're in trouble here!
+    ↩ (goto) global_squad_angara: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: This is looking ugly! We're in trouble here!
+    ↩ (goto) global_squad_angara: [empty]
+├ option 5:
+    global_squad_krogan ⟨cond⟩: This looks ugly! We're not gonna last much longer!
+    ↩ (goto) global_squad_angara: [empty]
+├ option 6:
+    global_squad_angara ⟨cond⟩: This is looking ugly! We're in trouble here!
+    ↩ (goto) global_squad_angara: [empty]
+├ option 7:
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: It's over!
+    Hero: That was close. If Raeka's team hadn't come by...
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We owe them.
+        ┌─ BRANCH (7) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Yeah. Now how do we get out of here?
+            SAM: I have located a new path to the Archon's chamber.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Yeah. Now how do we get out of this room?
+            ↩ (goto) SAM: I have located a new path to the Archon's chamber.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Yeah. Now what we do about getting out of here?
+            ↩ (goto) SAM: I have located a new path to the Archon's chamber.
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: Yeah. Now where's the way out?
+            ↩ (goto) SAM: I have located a new path to the Archon's chamber.
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩: Yeah. Now where's the way out?
+            ↩ (goto) SAM: I have located a new path to the Archon's chamber.
+        ├ option 6:
+            global_squad_angara ⟨cond⟩: Now how do we get out of here?
+            ↩ (goto) SAM: I have located a new path to the Archon's chamber.
+        ├ option 7:
+            ↩ (goto) SAM: I have located a new path to the Archon's chamber.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: I suppose we owe 'em one.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Pulled us out of the fire. We owe them one.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Tough bunch. We owe them one.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: That took balls. We owe them one.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: They're a tough bunch. We owe them one.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 7:
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Got 'em! Last man down. Or kett. Or... you know what I mean.
+    ↩ (goto) Hero: That was close. If Raeka's team hadn't come by...
+├ option 3:
+    global_squad_turian ⟨cond⟩: There! That was the last one!
+    ↩ (goto) Hero: That was close. If Raeka's team hadn't come by...
+├ option 4:
+    global_squad_asari ⟨cond⟩: Clear!
+    ↩ (goto) Hero: That was close. If Raeka's team hadn't come by...
+├ option 5:
+    global_squad_krogan ⟨cond⟩: That did it! We're clear!
+    ↩ (goto) Hero: That was close. If Raeka's team hadn't come by...
+├ option 6:
+    global_squad_angara ⟨cond⟩: It's over!
+    ↩ (goto) Hero: That was close. If Raeka's team hadn't come by...
+├ option 7:
+    ↩ (goto) Hero: That was close. If Raeka's team hadn't come by...
+└─ merge ─┘
+Hero: That was a close one. They're making us earn it.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: And keeping us locked in this room. How do we get out?
+    SAM: If you locate a terminal, I may be able to help.
+    Hero: Right. Let's look around.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: And keeping us locked in this room. What's the way out?
+    ↩ (goto) SAM: If you locate a terminal, I may be able to help.
+├ option 3:
+    global_squad_asari ⟨cond⟩: And keeping us locked in this room. We have to get out!
+    ↩ (goto) SAM: If you locate a terminal, I may be able to help.
+├ option 4:
+    global_squad_turian ⟨cond⟩: And keeping us locked in this room. How do we get out?
+    ↩ (goto) SAM: If you locate a terminal, I may be able to help.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: And keeping us locked in this room. How do we get out?
+    ↩ (goto) SAM: If you locate a terminal, I may be able to help.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: And keeping us locked in this room. How do we get out?
+    ↩ (goto) SAM: If you locate a terminal, I may be able to help.
+└─ merge ─┘

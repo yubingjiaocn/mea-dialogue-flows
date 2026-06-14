@@ -1,0 +1,67 @@
+# game/conversations/hubs/hub_mer/mer_staff_reconstruction_i
+# Primary speaker: mer_hub_staff_construction_multi
+# Source: game/conversations/hubs/hub_mer/mer_staff_reconstruction_i.xml
+==================================================
+mer_hub_staff_construction_multi: Pathfinder. Work continues. It's like shoving an Asari 3-prong through a K-port, but it continues.
+mer_hub_staff_construction_multi: Honestly, all this multi-species tech is a real bear to get together.
+Hero: You can't do it?
+mer_hub_staff_construction_multi: Hell, yes, I can do it. Just making sure the boss knows I'm working hard.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: What do you think Meridian needs from me?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        mer_hub_staff_construction_multi [OncePerGame]: Not Meridian. All of us. I know about the sprog, Pathfinder. Find that kid. That's the future.
+        ↩ (goto) mer_hub_staff_construction_multi: [empty]
+    ├ option 2:
+        mer_hub_staff_construction_multi: Well, I may not know {i}how{/i} Meridian controls vaults, but I do know those vaults need... whatever it is you do.
+        mer_hub_staff_construction_multi: The way the system's pinging, at least one's still out there. Active, but not connected.
+        mer_hub_staff_construction_multi: You take care of that, the whole system is more efficient. That means more stability here.
+        ↩ (goto) mer_hub_staff_construction_multi: [empty]
+    ├ option 3:
+        mer_hub_staff_construction_multi: I think you've gone above and beyond. Here and every world we know about. The future will be... interesting.
+        ↩ (goto) mer_hub_staff_construction_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: What have you learned about this world?
+    mer_hub_staff_construction_multi: I've learned how much I don't know? Plugging into these systems is crazy. If your SAM wasn't parked here, I don't know what we'd do.
+    SAM: I'm providing everything I can to facilitate integration into the Meridian power structure.
+    mer_hub_staff_construction_multi: Ugh. No word makes a tech pucker like "integration."
+    ↩ (goto) mer_hub_staff_construction_multi: [empty]
+├ option 3:
+    Hero: What's your story, Hunter Kerry?
+    mer_hub_staff_construction_multi: Really, Pathfinder? That's the "nice weather we're having" of Andromeda. But I'm game.
+    mer_hub_staff_construction_multi: I was in the family business until grandpa died. After that, all anyone cared about was how to split it up.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        mer_hub_staff_construction_multi [OncePerGame]: I can skip uncomfortable Thanksgivings from anywhere. So I came here. Family, right?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sometimes a fresh start is best for everyone.
+            mer_hub_staff_construction_multi: Best for me. And the people I wasn't supposed to hate.
+            mer_hub_staff_construction_multi: I'm here to build something. We all are. Thanks to you.
+            ↩ (goto) mer_hub_staff_construction_multi: [empty]
+        ├ option 2:
+            Hero: That must have been hard on everyone.
+            mer_hub_staff_construction_multi: That's no excuse—everything's hard. It's all in how you deal.
+            ↩ (goto) mer_hub_staff_construction_multi: I'm here to build something. We all are. Thanks to you.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) mer_hub_staff_construction_multi: I'm here to build something. We all are. Thanks to you.
+    └─ merge ─┘
+├ option 4:
+    Hero: Another time.
+    mer_hub_staff_construction_multi: Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    mer_hub_staff_construction_multi: What mess can I fix for you, Pathfinder?
+    ↩ (goto) mer_hub_staff_construction_multi: [empty]
+├ option 2:
+    mer_hub_staff_construction_multi: Pathfinder.
+    ↩ (goto) mer_hub_staff_construction_multi: [empty]
+├ option 3:
+    mer_hub_staff_construction_multi: Pathfinder Ryder.
+    ↩ (goto) mer_hub_staff_construction_multi: [empty]
+└─ merge ─┘
+↩ (goto) mer_hub_staff_construction_multi: [empty]

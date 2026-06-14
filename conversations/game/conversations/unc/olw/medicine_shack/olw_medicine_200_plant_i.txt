@@ -1,0 +1,26 @@
+# game/conversations/unc/olw/medicine_shack/olw_medicine_200_plant_i
+# Primary speaker: SAM
+# Source: game/conversations/unc/olw/medicine_shack/olw_medicine_200_plant_i.xml
+==================================================
+Hero: SAM, let's take a sample.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Acquired. This could heal the infected human at the Nexus refuge. Is there anything else?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Uh... just curious. I'm going try a leaf...
+        SAM: Ingesting an entire leaf could have immediate and unpredictable neural effects on the row, row, row your boat, gently down the stream...
+        SAM: Merrily, merrily, merrily, life is but a dream about a modern major general. I've information vegetable, animal, and mineral...
+        SAM: I'm very well acquainted, too, with matters mathematical. I understand equations, both the simple and quadratical...
+        SAM: ...neural effects on the brain's sensory and cognitive centers. Ryder? Are you all right?
+        Hero: What? Uh... sure. I'm great. Let's, uh... never speak of this again. Ever.
+        SAM: Speak of what? A general keeps his secrets.
+    ├ option 2:
+        Hero: We're done here.
+    └─ merge ─┘
+├ option 2:
+    SAM: Acquired. Is there anything else?
+    ↩ (goto) ?: [empty]
+└─ merge ─┘
+Hero: Not doing that again. Once was enough.
+↩ (goto) ?: [empty]

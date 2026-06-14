@@ -1,0 +1,63 @@
+# Game/Conversations/Crit/Pro_Shp/Pro_Shp_0400_shuttles_m
+# Primary speaker: global_dad
+# Source: game/conversations/crit/Pro_Shp/Pro_Shp_0400_shuttles_m.xml
+==================================================
+global_squad_female_human: Doctor Carlyle, with everything going on, I'd think the ark needs you more than we do?
+global_crew_doctor_multi: Pathfinder wants a medic on hand.
+global_crew_doctor_multi: And if that is home down there, I'm happy to knock on the door.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Yeah, we're just not sure what's on the other side of the door.
+    global_crew_doctor_multi: No problem. If it has teeth, I brought the pliers. Yank 'em out myself.
+    global_dad: All right, team, button it up. We leave in five.
+    global_squad_female_human: Sir. We broke out the weapons as requested. Anything we should know about?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_dad ⟨cond⟩: Seemed prudent, given the situation. We'll be down a man with Scott out.
+        global_dad: I heard what happened. Your brother's strong. He'll make it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: He better. Six-hundred-year nap, and he oversleeps?
+            global_dad: You know him. Never was an early riser.
+            global_dad: Just don't let it get to you. I need you sharp.
+            Hero: Yes, sir.
+            global_dad: Your mom would've been proud. Of both of you.
+            global_dad: Okay team, listen up.
+            global_dad: Things are a little tougher than we thought they'd be.
+            global_dad: This is more than a scouting mission now. Think of it as a rescue mission—the lives of everyone on this ark depend on us.
+            global_dad: But I know you're up to the challenge.
+            global_dad: I chose each of you for the Pathfinder team, not just because you're talented and passionate. But because you're dreamers, like me.
+            global_dad: We dream of exploring the unknown, of finding the edge of the map—and then discovering what lies beyond.
+            global_dad: When people look back on this—and they will—they'll remember we didn't give up. We kept dreaming.
+            global_dad: That our first, few faltering steps in Andromeda were the beginning of everything they know.
+            global_dad: We only get one chance to be first. So let's go make history.
+            global_squad_male_human: Been waiting 600 years for this.
+        ├ option 2:
+            Hero: Scott wouldn't want us to worry because of him.
+            global_dad: You're right. The mission comes first.
+            global_dad: Though I doubt your mother would've seen it that way. I promised her I'd get you two here safely.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_dad: Seemed prudent, given the situation. We'll be shorthanded with Sara out.
+        global_dad: I heard what happened. Your sister's strong. She'll make it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We bet on whose boots would hit the ground first. This isn't how I wanted to win.
+            global_dad: Well, knowing Sara, she'll want to go double or nothing on who climbs the tallest mountain.
+            global_dad: Don't let it get you down. I need you sharp.
+            Hero: I understand.
+            ↩ (goto) Narration: [empty]
+        ├ option 2:
+            Hero: Sara wouldn't want us to worry because of her.
+            ↩ (goto) global_dad: You're right. The mission comes first.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: If it's what we hope it is, it'll be one for the history books. You got a quote ready? "One small step..."?
+    global_crew_doctor_multi: I'm pretty sure your dad will handle that honor.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+global_dad: [Comm] Ark Hyperion, this is Shuttle One, switching to manual guidance.
+Pro_Lnd_Shuttle_Pilot: [Comm] Shuttle Two, taking your lead.
+global_humanark_captain_multi: [Comm] Good luck, Pathfinder team.

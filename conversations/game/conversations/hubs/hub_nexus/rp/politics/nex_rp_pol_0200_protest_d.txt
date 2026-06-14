@@ -1,0 +1,66 @@
+# game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0200_protest_d
+# Primary speaker: nex_rp_pol_asari
+# Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0200_protest_d.xml
+==================================================
+Hero: Hey, what's going on?
+nex_rp_pol_krogan: That's your "new galaxy"! Making speeches about some fresh start while your kids stay frozen!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_rp_pol_asari ⟨cond⟩: And it's all thanks to your Pathfinder!
+    Hero: Excuse me?
+    nex_rp_pol_asari: We've waited months for our families to come out of stasis. They should have gone to your outpost.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_pol_asari ⟨cond⟩: But because you wanted military personnel, people tagged as "scientific support" have to wait. Again!
+        nex_rp_pol_turian: All the reassignments mean they're in ten different colony blocks now!
+        nex_rp_pol_youth: And my mother just got caught in the middle.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We only had resources for one outpost, so I focused on the skills we needed most.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_rp_pol_asari ⟨cond⟩: Well, your pick has my grandchildren trapped in that pod.
+                nex_rp_pol_youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
+                nex_rp_pol_turian: You do stasis revivals. You can tell our leaders you're opening those pods. Today.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero [OncePerGame]: I authorize whole colony blocks or a few emergency revivals. I can't wake dozens of random people.
+                    nex_rp_pol_turian: We don't care whose finger pushes the button. If you can't, our "leaders" can. And if you tell them, they will.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Okay. I'll talk to the leadership about what we can do.
+                        nex_rp_pol_krogan: Fourteen months of promises. It's time for some results.
+                        nex_rp_pol_turian: We tried petitioning Addison. She ignored us. Screw her.
+                        nex_rp_pol_asari: Start with Kandros. He sent those tin soldiers over there. Maybe he'll take us seriously.
+                    ├ option 2:
+                        Hero: This is a big issue, bigger than just my say-so.
+                        nex_rp_pol_krogan: Bullshit! You're their hero right now—they'll do anything you say.
+                        ↩ (goto) nex_rp_pol_turian: We tried petitioning Addison. She ignored us. Screw her.
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) Hero: Okay. I'll talk to the leadership about what we can do.
+                ├ option 3:
+                    ↩ (goto) Hero: This is a big issue, bigger than just my say-so.
+                └─ merge ─┘
+            ├ option 2:
+                nex_rp_pol_krogan ⟨cond⟩: And what {i}we{/i} need is our families back!
+                ↩ (goto) nex_rp_pol_youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I founded the outpost—I didn't decide who would stay in stasis.
+            nex_rp_pol_asari: You don't care that you've torn families apart?
+            Hero: That's not what I said.
+            ↩ (goto) nex_rp_pol_youth: Maybe you could still make this right. I just want Mom out of stasis. That's all anyone here wants.
+        └─ merge ─┘
+    ├ option 2:
+        nex_rp_pol_krogan ⟨cond⟩: But since you think research is so important, military personnel got bumped down the list. Like my clan brothers.
+        ↩ (goto) nex_rp_pol_turian: All the reassignments mean they're in ten different colony blocks now!
+    └─ merge ─┘
+├ option 2:
+    nex_rp_pol_asari: And it's all thanks to your Pathfinder!
+    ↩ (goto) Hero: Excuse me?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+├ option 2:
+└─ merge ─┘

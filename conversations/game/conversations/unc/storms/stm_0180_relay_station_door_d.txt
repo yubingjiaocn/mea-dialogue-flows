@@ -1,0 +1,44 @@
+# game/conversations/unc/storms/stm_0180_relay_station_door_d
+# Primary speaker: stm_relay_scav_leader_01_multi
+# Source: game/conversations/unc/storms/stm_0180_relay_station_door_d.xml
+==================================================
+stm_relay_scav_leader_01_multi: [Comm] Huh. Guess that ship wasn't kett, then. They don't knock.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: So there are people here.
+    stm_relay_scav_leader_01_multi: [Comm] And we're trying to keep a low profile.
+    stm_relay_scav_leader_01_multi: [Comm] Now shove off. Find your own salvage. This spot's taken.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm not a salvager, I'm a Pathfinder. We've come to fix all this.
+        stm_relay_scav_leader_01_multi: [Comm] Call me Clancy. Pathfinder, huh? Like that changes much.
+        stm_relay_scav_leader_01_multi: [Comm] The Nexus just can't let Eos go, can it? However much it fails down here.
+        Hero: I'm tracking a signal that will help Eos. I only need power for the antenna.
+        stm_relay_scav_leader_01_multi: [Comm] Look, I cut the power for a reason. The kett are patrolling today.
+        stm_relay_scav_leader_01_multi: [Comm] You turn the power relay back on, they'll know there's a juicy target alive down here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Is it smarter to hide and hope, or take a chance that might save this whole planet?
+            stm_relay_scav_leader_01_multi: [Comm] I remember when people used to talk like that.
+            stm_relay_scav_leader_01_multi: [Comm] Okay, I'll enable the generators out there. You want to poke the tiger, it's on you.
+        ├ option 2:
+            Hero: Help me with the power relay, and I'll take care of the kett.
+            stm_relay_scav_leader_01_multi: [Comm] You're crazy. Though maybe it's a good crazy.
+            ↩ (goto) stm_relay_scav_leader_01_multi: [Comm] Okay, I'll enable the generators out there. You want to poke the tiger, it's on you.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: So you're a salvager. Got a name? I'm Ryder.
+        stm_relay_scav_leader_01_multi: [Comm] Clancy. Making an honest living by—Wait, Ryder? As in Pathfinder?
+        ↩ (goto) stm_relay_scav_leader_01_multi: [Comm] The Nexus just can't let Eos go, can it? However much it fails down here.
+    └─ merge ─┘
+├ option 2:
+    Hero: There are people here? We thought everyone left was gone.
+    stm_relay_scav_leader_01_multi: [Comm] 'Course you did.
+    ↩ (goto) stm_relay_scav_leader_01_multi: [Comm] Now shove off. Find your own salvage. This spot's taken.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_relay_scav_leader_01_multi ⟨cond⟩: [Comm] Go ahead and start the generators. It'll bring the kett, and that's on you.
+├ option 2:
+    stm_relay_scav_leader_01_multi: [Comm] Turn on the generators. If you took their base, we're good!
+└─ merge ─┘

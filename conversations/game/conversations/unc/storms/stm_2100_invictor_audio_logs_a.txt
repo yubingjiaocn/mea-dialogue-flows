@@ -1,0 +1,133 @@
+# game/conversations/unc/storms/stm_2100_invictor_audio_logs_a
+# Primary speaker: stm_kett_base_boss
+# Source: game/conversations/unc/storms/stm_2100_invictor_audio_logs_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_kett_base_boss ⟨cond⟩: [Audio Log] I am Invictor. What are you?
+    stm_kett_victim_human: [Audio Log] Darin Anton, Andromeda Initiative. L-14-Augusta.
+    stm_kett_base_boss: [Audio Log] Rhetorical. Begin dissection.
+    stm_kett_victim_human: [Audio Log] {i}(Muffled scream cut off.){/i}
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: A field log, Pathfinder. Issued to patrolling kett.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I don't need a translation to know when I'm hearing a monster.
+            SAM: Adding to language database.
+        ├ option 2:
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩: Is that the kett leader here? That's what they follow?
+                ├ option 2:
+                    global_squad_asari ⟨cond⟩: That's who they follow? No wonder.
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: That's who leads here? Now it makes sense.
+                ├ option 4:
+                    global_squad_male_human ⟨cond⟩: Is he the leader here? Shit.
+                └─ merge ─┘
+            ├ option 2:
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩: The more we learn, the worse he is.
+                ├ option 2:
+                    global_squad_asari ⟨cond⟩: Usually getting to know someone helps you like them.
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: The more I hear, the more I hate him.
+                ├ option 4:
+                    global_squad_male_human ⟨cond⟩: This guy just gets worse and worse.
+                └─ merge ─┘
+            ├ option 3:
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩: This needs an answer. We can't let this stand.
+                ├ option 2:
+                    global_squad_asari ⟨cond⟩: Thought I hated him before.
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: Right. We're killing him.
+                ├ option 4:
+                    global_squad_male_human ⟨cond⟩: We need to get him for this. I mean, come on.
+                └─ merge ─┘
+            ├ option 4:
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩: I'd heard enough from him hours ago.
+                ├ option 2:
+                    global_squad_asari ⟨cond⟩: I don't want to hear him talk anymore.
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: Dead. He's dead. It's that simple.
+                ├ option 4:
+                    global_squad_male_human ⟨cond⟩: Really had enough of this guy!
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 3:
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: Not feeling bad about killing that guy.
+            ├ option 2:
+                Hero [OncePerGame]: Sure we can't find a way to kill him again?
+            ├ option 3:
+                Hero [OncePerGame]: Glad he's gone.
+            ├ option 4:
+                Hero [OncePerGame]: Hope the rest of the kett aren't like him.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) stm_kett_base_boss ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) stm_kett_base_boss: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    stm_kett_base_boss: [Audio Log] Hakad nerho? Hmph. Nislekad.
+    ↩ (goto) stm_kett_victim_human: [Audio Log] {i}(Muffled scream cut off.){/i}
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_kett_base_boss ⟨cond⟩: [Audio Log] I am Invictor. This one is different. Exoskeleton. Dextro-protein-based.
+    stm_kett_victim_turian: [Audio Log] You haven't asked any questions.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_kett_base_boss ⟨cond⟩: [Audio Log] Nyzah tonin? Ha. Son tonired: duheth.
+        ↩ (goto) stm_kett_base_boss: [empty]
+    ├ option 2:
+        stm_kett_base_boss: [Audio Log] Do you know the exact force required to detach your dermal plates?
+        stm_kett_base_boss: [Audio Log] I thought not.
+        ↩ (goto) stm_kett_base_boss: [empty]
+    └─ merge ─┘
+├ option 2:
+    stm_kett_base_boss: [Audio Log] Nyzah nehz sil.
+    ↩ (goto) stm_kett_victim_turian: [Audio Log] You haven't asked any questions.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_kett_base_boss ⟨cond⟩: [Audio Log] I am Invictor. Another variant. "Salarian." Reflexes were impressive.
+    stm_kett_victim_salarian: [Audio Log] Dierahnee, R-11-Olor. In need... of assistance.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_kett_base_boss ⟨cond⟩: [Audio Log] Lutod nyro: thogad.
+        ↩ (goto) stm_kett_base_boss: [empty]
+    ├ option 2:
+        stm_kett_base_boss: [Audio Log] No longer unaware of where it is. Dispose of it.
+        ↩ (goto) stm_kett_base_boss: [empty]
+    └─ merge ─┘
+├ option 2:
+    stm_kett_base_boss: [Audio Log] Lothen nykheron. 'Salarian.'
+    ↩ (goto) stm_kett_victim_salarian: [Audio Log] Dierahnee, R-11-Olor. In need... of assistance.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_kett_base_boss ⟨cond⟩: [Audio Log] I am Invictor. Follow my order.
+    stm_kett_misc_minion_01: [Audio Log] Their fortifications will not last long.
+    stm_kett_base_boss: [Audio Log] We have tested everything else. Release the Fiend in this "Site 2."
+    stm_kett_misc_minion_01: [Audio Log] By your order, Invictor.
+    ↩ (goto) stm_kett_base_boss: [empty]
+├ option 2:
+    stm_kett_base_boss: [Audio Log] Nykheron: ganzaid!
+    stm_kett_base_boss: [Audio Log] Khengoret, kal ferothad. Nalad ef "Site 2."
+    ↩ (goto) stm_kett_base_boss: [empty]
+└─ merge ─┘

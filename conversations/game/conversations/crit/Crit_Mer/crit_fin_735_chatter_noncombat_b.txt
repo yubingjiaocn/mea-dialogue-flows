@@ -1,0 +1,151 @@
+# game/conversations/crit/crit_mer/crit_fin_735_chatter_noncombat_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_735_chatter_noncombat_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_charlatan ⟨cond⟩: [Comm] Getting crowded up here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            crit_ex_res_fighter_3_multi ⟨cond⟩: [Comm] With me! I owe your Pathfinder and pay my debts.
+            nex_rp_sci_sci02: [Comm] Assembling mathematical profiles.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                dune_colony_varka ⟨cond⟩: [Comm] I'll strike first!
+                dune_colony_gren: [Comm] Like spit you will!
+                dune_colony_varka: [Comm] Together then!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_militia_leader ⟨cond⟩: [Comm] Keep it tight, people. We need to let Ryder work.
+                ├ option 2:
+                    global_nexus_militia_leader: [Comm] Keep it tight, people. We need to let Ryder work.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) global_nexus_militia_leader ⟨cond⟩: [Comm] Keep it tight, people. We need to let Ryder work.
+            ├ option 3:
+                ↩ (goto) global_nexus_militia_leader: [Comm] Keep it tight, people. We need to let Ryder work.
+            └─ merge ─┘
+        ├ option 2:
+            crit_ex_res_fighter_3_multi ⟨cond⟩: [Comm] With me! I owe your Pathfinder and pay my debts.
+            ↩ (goto) nex_rp_sci_sci02: [Comm] Assembling mathematical profiles.
+        └─ merge ─┘
+    ├ option 2:
+        kad_queen: [Comm] I need room to breathe.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [Comm] With me! I owe your Pathfinder and pay my debts.
+        ├ option 2:
+            ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [Comm] With me! I owe your Pathfinder and pay my debts.
+        ├ option 3:
+            ↩ (goto) nex_rp_sci_sci02: [Comm] Assembling mathematical profiles.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    crit_fin_drack_scout_gen: [Comm] Diving run! These kett are rooted deep!
+    crit_fin_drack_scout_gen: [Comm] Tell Drack we went out defending the future. That's the way he wanted us looking.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        bio_outpost_staff_supply_multi ⟨cond⟩: [Comm] Not on my watch! Lone Star representing!
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_salarian_major ⟨cond⟩: [Comm] Assistance is incoming.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_rp_cross_kaare_multi ⟨cond⟩: [Comm] Watchlight is on scene—for the time being.
+                crit_fin_drack_scout_gen: [Comm] Precision! That's how we fight and win!
+            ├ option 2:
+                ↩ (goto) crit_fin_drack_scout_gen: [Comm] Precision! That's how we fight and win!
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) nex_rp_cross_kaare_multi ⟨cond⟩: [Comm] Watchlight is on scene—for the time being.
+        ├ option 3:
+            ↩ (goto) crit_fin_drack_scout_gen: [Comm] Precision! That's how we fight and win!
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_salarian_major ⟨cond⟩: [Comm] Assistance is incoming.
+    ├ option 3:
+        ↩ (goto) nex_rp_cross_kaare_multi ⟨cond⟩: [Comm] Watchlight is on scene—for the time being.
+    ├ option 4:
+        crit_fin_drack_scout_gen: [Comm] Come on, you kett runts! Look at my eyes and catch! {i}(Static.){/i}
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Too many, Ryder. Let's end this.
+        ├ option 2:
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    global_humanark_captain_multi: [Comm] Getting some heat up here!
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_vetra_sister_multi ⟨cond⟩: [Comm] Spamming remote jammers!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_angara_hmm_contact_multi ⟨cond⟩: [Comm] Allied Prodromos is running interference.
+            pro_lnd_shuttle_crew1_multi: [Comm] That's helping! Keep it up and we'll get through!
+        ├ option 2:
+            ↩ (goto) pro_lnd_shuttle_crew1_multi: [Comm] That's helping! Keep it up and we'll get through!
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_angara_hmm_contact_multi ⟨cond⟩: [Comm] Allied Prodromos is running interference.
+    ├ option 3:
+        pro_lnd_shuttle_crew1_multi: [Comm] Head on! Keep on target! Keep on— {i}(Static.){/i}
+    └─ merge ─┘
+├ option 4:
+    global_nexus_militia_leader: [Comm] Taking fire. Watch the active perimeter!
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_kalinda ⟨cond⟩: [Comm] On it, and you better be grateful I'm doing this!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_krogan_botanist ⟨cond⟩: [Comm] Dusting them with tranq! My specialty!
+            pro_lnd_shuttle_pilot2_multi: [Comm] We're clearing a path. Keep it up!
+        ├ option 2:
+            ↩ (goto) pro_lnd_shuttle_pilot2_multi: [Comm] We're clearing a path. Keep it up!
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_krogan_botanist ⟨cond⟩: [Comm] Dusting them with tranq! My specialty!
+    ├ option 3:
+        pro_lnd_shuttle_pilot2_multi: [Comm] They're too close! I can't find a way through! It's— {i}(Static.){/i}
+    └─ merge ─┘
+├ option 5:
+    Nexus_interluderequisitions: [Comm] They're flanking!
+    global_nexus_militia_leader: [Comm] Weak, that side. Can you assist?
+    Nexus_interluderequisitions: [Comm] I'm an assistant! I don't... I got their attention! Oh shit!
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ice_anjikdoxeel ⟨cond⟩: [Comm] Coordinating the Mind of Voeld. Vectoring established.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            dune_mwsleader ⟨cond⟩: [Comm] On it. We've an opening to assist.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                loy_ang_jaal_cuz2 ⟨cond⟩: [Comm] I'll fight for you too! I owe you for my cousin!
+                Nexus_interluderequisitions: [Comm] I'm alive! Holy hell, we'll do this yet! {i}(Laughs.){/i}
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: Heh, you tell 'em, Ben.
+                ├ option 2:
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Nexus_interluderequisitions: [Comm] I'm alive! Holy hell, we'll do this yet! {i}(Laughs.){/i}
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) loy_ang_jaal_cuz2 ⟨cond⟩: [Comm] I'll fight for you too! I owe you for my cousin!
+        ├ option 3:
+            ↩ (goto) Nexus_interluderequisitions: [Comm] I'm alive! Holy hell, we'll do this yet! {i}(Laughs.){/i}
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) dune_mwsleader ⟨cond⟩: [Comm] On it. We've an opening to assist.
+    ├ option 3:
+        ↩ (goto) loy_ang_jaal_cuz2 ⟨cond⟩: [Comm] I'll fight for you too! I owe you for my cousin!
+    ├ option 4:
+        Nexus_interluderequisitions: [Comm] They're following! That buys you some—Oh no! Oh sh— {i}(Static.){/i}
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: Damn it, Ben.
+        ├ option 2:
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

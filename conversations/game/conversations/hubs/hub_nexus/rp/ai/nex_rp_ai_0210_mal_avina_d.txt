@@ -1,0 +1,40 @@
+# game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0210_mal_avina_d
+# Primary speaker: Nexus_VI_Kiosk
+# Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0210_mal_avina_d.xml
+==================================================
+Nexus_VI_Kiosk [OncePerGame]: Detecting Pathfinder, Ryder.
+nex_rp_ai_hacker_02: Hi there. Excuse the educational stuff—I hacked Avina as a sock puppet.
+nex_rp_ai_hacker_02: So our virus set you free. Hope you're doing better without that AI jammed into your head.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Who am I talking to right now?
+    nex_rp_ai_hacker_02: A friend. Our movement sent the virus to save you.
+    SAM: [Private] Pathfinder, it's possible they don't realize their virus failed. Pretending that it worked might win their trust.
+    nex_rp_ai_hacker_02: Hello? Ryder?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Yes, I—I can't believe I'm free! Thank you!
+        nex_rp_ai_hacker_02: This is what our movement is for: helping people like you.
+        nex_rp_ai_hacker_02: Knight says human-AI merging is a threat to all life. And she'd know, trust me.
+        nex_rp_ai_hacker_02: Oh, Knight's our founder. The virus wouldn't exist without her.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I should thank Knight in person.
+            nex_rp_ai_hacker_02: I'll ask her. She might even give you a tour of our sanctuary.
+            Hero: Great. Thanks.
+            nex_rp_ai_hacker_02: Can't promise anything, but watch your email. Bye!
+        ├ option 2:
+            Hero: Where are you running this puppet show from?
+            nex_rp_ai_hacker_02: Our sanctuary. I'll ask Knight if you can come visit.
+            ↩ (goto) Hero: Great. Thanks.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: The disconnect was... very sudden. I'm grateful, just woozy.
+        nex_rp_ai_hacker_02: It'll pass. See, this is what our movement's all about stopping.
+        ↩ (goto) nex_rp_ai_hacker_02: Knight says human-AI merging is a threat to all life. And she'd know, trust me.
+    └─ merge ─┘
+├ option 2:
+    Hero: You sent that virus to... free me? From SAM?
+    nex_rp_ai_hacker_02: Not just me. Our movement. We couldn't let you suffer with that thing in your brain.
+    ↩ (goto) SAM: [Private] Pathfinder, it's possible they don't realize their virus failed. Pretending that it worked might win their trust.
+└─ merge ─┘

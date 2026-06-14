@@ -1,0 +1,53 @@
+# game/conversations/crit/crit_epi/mer_epi_0230_crew_pilot_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_epi/mer_epi_0230_crew_pilot_d.xml
+==================================================
+global_crew_co-pilot: Ryder! Enjoying the fruits of your labor? You deserve it.
+Hero: Thanks, Kallo.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_co-pilot ⟨cond⟩: The Tempest is getting some much-needed service. I thought I'd leave them to it.
+    global_crew_co-pilot: But I wouldn't miss the big day. Meridian looks so different out of the cockpit. I think I understand better why you do what you do.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Finding Meridian crystallized a lot of things about being a Pathfinder.
+        global_crew_co-pilot: I expect many around here are thinking about their own potential.
+        global_crew_co-pilot: I don't pretend to understand everything, but Meridian must have opened a lot of doors. Not all of them safe.
+        global_crew_co-pilot: I want you to know that it'll be my privilege to keep flying you to them.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I can't do this without a good pilot—or a great pilot.
+            global_crew_co-pilot: How about a pilot determined to help his friends?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot ⟨cond⟩: I've learned a lot from you, Ryder. And Gil... though, please don't tell him that.
+                global_crew_co-pilot: Things will change now, but that's all right. Nothing's ever really lost.
+            ├ option 2:
+                global_crew_co-pilot: The Tempest will be pristine by the time you're ready to go. Just point the way, Pathfinder.
+                ↩ (goto) global_crew_co-pilot: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: It means a lot that you want to stick with us, Kallo.
+            global_crew_co-pilot: Of course! And keeping my ship is a plus.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_crew_co-pilot ⟨cond⟩: I've learned a lot from you, Ryder. And Gil... though, please don't tell him that.
+            ├ option 2:
+                ↩ (goto) global_crew_co-pilot: The Tempest will be pristine by the time you're ready to go. Just point the way, Pathfinder.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Thinking of trading in your pilot's chair for some muddy boots?
+        global_crew_co-pilot: Not even slightly. I know what I'm good for.
+        ↩ (goto) global_crew_co-pilot: I don't pretend to understand everything, but Meridian must have opened a lot of doors. Not all of them safe.
+    └─ merge ─┘
+├ option 2:
+    global_crew_co-pilot: The Tempest is getting some much-needed service. I was "underfoot," apparently.
+    ↩ (goto) global_crew_co-pilot: But I wouldn't miss the big day. Meridian looks so different out of the cockpit. I think I understand better why you do what you do.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_co-pilot: All's well, it seems?
+├ option 2:
+    global_crew_co-pilot: I'll be ready when you are!
+└─ merge ─┘

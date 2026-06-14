@@ -1,0 +1,53 @@
+# game/conversations/unc/storms/stm_8050_newbie_rescues_i
+# Primary speaker: stm_outpost_staff_field_02
+# Source: game/conversations/unc/storms/stm_8050_newbie_rescues_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Danny, was it? You're safe now.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        stm_outpost_staff_field_02: Is that what first contact is like? This is awful!
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            stm_outpost_staff_field_02: I'm done with that, but Eos won't beat me. I'm going into first contact. The kett can't be worse!
+            stm_outpost_staff_field_02: This time I'm set for sure!
+        ├ option 2:
+            stm_outpost_staff_field_02: I can't handle this anymore, but Eos won't beat me. I'm going into Remnant study. Machines, right?
+            ↩ (goto) stm_outpost_staff_field_02: This time I'm set for sure!
+        ├ option 3:
+            stm_outpost_staff_field_02: I'm not giving up on this planet, Pathfinder. But I'm doing something safe. Fauna. That's it.
+            ↩ (goto) stm_outpost_staff_field_02: This time I'm set for sure!
+        ├ option 4:
+            stm_outpost_staff_field_02: I'm done with Eos. Time to go somewhere safe. Like Kadara.
+            stm_outpost_staff_field_02: Thanks but no thanks, Pathfinder.
+            Hero: That will not end well.
+        └─ merge ─┘
+    ├ option 2:
+        stm_outpost_staff_field_02: They were going to shoot me! I wasn't even awake when they were exiled!
+        ↩ (goto) stm_outpost_staff_field_02: [empty]
+    ├ option 3:
+        stm_outpost_staff_field_02: Remnant are horrible! I don't know how anyone gets anything done here!
+        ↩ (goto) stm_outpost_staff_field_02: [empty]
+    ├ option 4:
+        stm_outpost_staff_field_02: Sure, you say that, but are there bugs in Andromeda that aren't four feet long?
+        ↩ (goto) stm_outpost_staff_field_02: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Easy, Danny. You're safe. Again.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) stm_outpost_staff_field_02 ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 2:
+        ↩ (goto) stm_outpost_staff_field_02 ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 3:
+        ↩ (goto) stm_outpost_staff_field_02 ⟨cond⟩ [OncePerGame]: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) stm_outpost_staff_field_02 ⟨cond⟩ [OncePerGame]: [empty]
+├ option 2:
+    stm_outpost_staff_field_02: No more. But I'm not done here. I'm going into recovery! Sticking with our own people.
+    ↩ (goto) stm_outpost_staff_field_02: This time I'm set for sure!
+└─ merge ─┘

@@ -1,0 +1,37 @@
+# game/conversations/unc_ice/ice_2700_frzn_city_free_pows_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_2700_frzn_city_free_pows_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Shit. There are angara slaves here.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We must free them! They could help us!
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: We have to free them.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Let's get them out!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: We need to get them out.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Get them out!
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: We need to free them.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: The kett have angara slaves!
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Enslaved angara!
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: There's kidnapped angara here!
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Those are enslaved angara!
+    ↩ (goto) Hero: [empty]
+├ option 6:
+    global_squad_angara ⟨cond⟩: They have enslaved people here.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

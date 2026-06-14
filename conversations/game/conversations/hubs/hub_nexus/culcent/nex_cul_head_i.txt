@@ -1,0 +1,62 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_head_i
+# Primary speaker: nex_culcent_head
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_head_i.xml
+==================================================
+nex_culcent_head [OncePerGame]: Pathfinder, I'm glad you could stop by.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_culcent_head ⟨cond⟩: Pardon the dust while we set everything up.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: What goes on here?
+        nex_culcent_head: The Cultural Center is a place where new races we've met can visit and exchange ideas.
+        nex_culcent_head: They can learn more about the Milky Way species, while we foster an air of cooperation and understanding.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            nex_culcent_head ⟨cond⟩: You've already brought us our first visitors by making contact with the angara.
+            ↩ (goto) nex_culcent_head: [empty]
+        ├ option 2:
+            nex_culcent_head: We're just getting everything ready. Hopefully it won't be long before we have our first visitors.
+            ↩ (goto) nex_culcent_head: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: How did you get this job?
+        nex_culcent_head: I was a sociologist in the Milky Way. While there were plenty of cultures to study, the books on them had all been written.
+        nex_culcent_head: There was nothing new I could add. So when I heard about the Initiative, I signed up right away.
+        nex_culcent_head: The idea of meeting new people—seeing how they've evolved, adapted to life's challenges. I couldn't resist.
+        ↩ (goto) nex_culcent_head: [empty]
+    ├ option 3:
+        Hero: Have you heard anything about the kett?
+        nex_culcent_head: Unfortunately, yes. Now that's a species we won't be inviting here anytime soon.
+        nex_culcent_head: I'd hoped our encounters would be peaceful, but I suppose that was too much to ask.
+        ↩ (goto) nex_culcent_head: [empty]
+    ├ option 4:
+        Hero ⟨cond⟩: What do you think of the angara?
+        nex_culcent_head: I'm thrilled to meet a new culture.
+        nex_culcent_head: They're cautious, but I understand why. If someone showed up on our doorstep in the Milky Way, we'd be skeptical too.
+        nex_culcent_head: I hope we can win them over, cement a friendship. I suppose that's on you, Pathfinder.
+        ↩ (goto) nex_culcent_head: [empty]
+    ├ option 5:
+        Hero: Thanks.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            nex_culcent_head ⟨cond⟩: Of course.
+        ├ option 2:
+            nex_culcent_head ⟨cond⟩: Of course. Our hope is that you'll make friends in the cluster and send them our way.
+            nex_culcent_head: And when you have a second, check back with me on a favor I'd like to ask.
+        ├ option 3:
+            nex_culcent_head: Of course.
+            nex_culcent_head: In the meantime, have a look around.
+            ↩ (goto) nex_culcent_head: And when you have a second, check back with me on a favor I'd like to ask.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) nex_culcent_head: [empty]
+└─ merge ─┘
+nex_culcent_head [OncePerGame]: Pathfinder, do you have a moment? We... need to explain you.
+Hero: Explain me?
+nex_culcent_head: Our new VI over there is meant to describe the role of our Pathfinders, but it just lost all its settings in a crash.
+nex_culcent_head: If you could fix them, that would really help us out. Just talk to the VI, and it'll do the rest.
+↩ (goto) nex_culcent_head: [empty]
+nex_culcent_head: Hello again.
+↩ (goto) nex_culcent_head: [empty]

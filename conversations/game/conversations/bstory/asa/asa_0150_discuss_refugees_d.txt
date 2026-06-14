@@ -1,0 +1,61 @@
+# game/conversations/bstory/asa/asa_0150_discuss_refugees_d
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/bstory/asa/asa_0150_discuss_refugees_d.xml
+==================================================
+global_squad_female_human: Did you hear the news from Eos? Asari refugees showed up at the outpost.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Sounds like some of the folks we found managed to join them.
+    global_squad_female_human: Bradley says there's an officer in charge, Hydaria. She could know where the ark is.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We'll head to Eos and see what she knows.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Good. Rumor says Sarissa Theris was on the asari ark. Exactly who we need.
+            Hero: Who's she?
+            global_squad_female_human: Probably the best commando strategist alive. Her biotic shields saved hundreds at the Battle of Kerkis.
+            global_squad_female_human: Apparently Sarissa's acting as bodyguard to the asari Pathfinder. She's probably got a plan out of this mess already.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: Well, someone's a fan.
+                global_squad_female_human: No, I'm... I just like... Look, we need someone with her experience. That's all.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I'll take someone with that much experience. Another reason to find the ark.
+                    global_squad_female_human: When you're ready to look, we can catch Hydaria at Prodromos. Wouldn't mind tagging along.
+                ├ option 2:
+                    Hero: Is military strategy really what we need out here?
+                    global_squad_female_human: Someone has to protect the Nexus. Can't afford to turn away allies.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: Hydaria should be at Prodromos for a while. If you change your mind, I'd like to tag along.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    ├ option 2:
+                        ↩ (goto) global_squad_female_human: When you're ready to look, we can catch Hydaria at Prodromos. Wouldn't mind tagging along.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: I'll take someone with that much experience. Another reason to find the ark.
+            ├ option 3:
+                ↩ (goto) Hero: Is military strategy really what we need out here?
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human: Hydaria's going to be at Prodromos for a while. Let me know when we're headed there. I'd like to tag along.
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: If they're at the outpost, they're safe. We've got bigger problems.
+        global_squad_female_human: But no solid leads.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: And word is that Sarissa Theris was on the asari ark. We could use that help.
+            ↩ (goto) Hero: Who's she?
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Hydaria should be at Prodromos for a while. If you change your mind, I'd like to tag along.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: Only a few, but that's better than none.
+    ↩ (goto) global_squad_female_human: Bradley says there's an officer in charge, Hydaria. She could know where the ark is.
+└─ merge ─┘

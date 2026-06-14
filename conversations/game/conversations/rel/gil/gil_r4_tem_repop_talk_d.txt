@@ -1,0 +1,90 @@
+# game/conversations/rel/gil/gil_r4_tem_repop_talk_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/gil/gil_r4_tem_repop_talk_d.xml
+==================================================
+global_crew_tech_officer: Hey there.
+Hero: Hey yourself.
+global_crew_tech_officer: Question for you.
+Hero: Shoot.
+global_crew_tech_officer: When all this craziness is over, think you'll have kids?
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Why's that on your mind?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_crew_tech_officer ⟨cond⟩: Jill—the best friend I mentioned while you and SAM were cheating at poker...
+        global_crew_tech_officer: She's starting the Initiative's first repopulation effort at Prodromos. It's all she can talk about.
+        global_crew_tech_officer: Got me thinking. At the end of the day, this whole thing, the Andromeda Initiative... we're basically here to spawn.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Those of us lucky enough to live through this.
+            global_crew_tech_officer: Exactly. And there aren't that many to start. We're a disaster or two away from not having enough numbers to survive.
+            global_crew_tech_officer: Jill's right. At some point soon, we better get busy making babies.
+            Hero: True enough.
+            global_crew_tech_officer: Who knew this whole thing was just a glorified dating service.
+            global_crew_tech_officer: {i}(Sighs.){/i} The biological imperative is kind of a bummer.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: There are other ways to reproduce. It doesn't have to come from a romantic relationship.
+                global_crew_tech_officer: I guess I could donate DNA, or however it works.
+                global_crew_tech_officer: You know me. Whatever my gut says in the moment, I do—and I don't look back.
+                global_crew_tech_officer: My mom says that's how my dad was. I wouldn't know. His gut moved on before I was born.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: In a way, that sounds like my dad.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_crew_tech_officer ⟨cond⟩: That's not fair. He kept you close. Made sure you and your brother came here with him. And he died for you.
+                        Hero: Yes, but the other decisions he made kept him at a distance. That can be just as bad.
+                        global_crew_tech_officer: I see that. Still, without our fathers, we wouldn't be here.
+                        global_crew_tech_officer: They brought us into this world. Maybe that's enough.
+                        global_crew_tech_officer: Thanks for talking, Ryder.
+                    ├ option 2:
+                        global_crew_tech_officer: That's not fair. He kept you close. Made sure you and your sister came here with him. And he died for you.
+                        ↩ (goto) Hero: Yes, but the other decisions he made kept him at a distance. That can be just as bad.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I had no idea. It must've been hard.
+                    global_crew_tech_officer: Hey, I turned out all right. He did his part. Brought me into the world. Maybe that's enough.
+                    ↩ (goto) global_crew_tech_officer: Thanks for talking, Ryder.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: So, you want to have a child of your own.
+                global_crew_tech_officer: I... I don't know. That's never been a thing for me.
+                ↩ (goto) global_crew_tech_officer: You know me. Whatever my gut says in the moment, I do—and I don't look back.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: It took you this long to figure that out?
+            global_crew_tech_officer: I told you, I didn't really think this thing through. But nothing we do here really matters unless we survive.
+            ↩ (goto) global_crew_tech_officer: Jill's right. At some point soon, we better get busy making babies.
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_tech_officer ⟨cond⟩: Jill—the best friend I mentioned while you were killing me at poker...
+        ↩ (goto) global_crew_tech_officer: She's starting the Initiative's first repopulation effort at Prodromos. It's all she can talk about.
+    ├ option 3:
+        global_crew_tech_officer: Jill—the best friend I mentioned while I was thrashing you at poker...
+        ↩ (goto) global_crew_tech_officer: She's starting the Initiative's first repopulation effort at Prodromos. It's all she can talk about.
+    └─ merge ─┘
+├ option 2:
+    Hero: Where the heck's that coming from?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) global_crew_tech_officer ⟨cond⟩: Jill—the best friend I mentioned while you and SAM were cheating at poker...
+    ├ option 2:
+        ↩ (goto) global_crew_tech_officer ⟨cond⟩: Jill—the best friend I mentioned while you were killing me at poker...
+    ├ option 3:
+        ↩ (goto) global_crew_tech_officer: Jill—the best friend I mentioned while I was thrashing you at poker...
+    └─ merge ─┘
+├ option 3:
+    Hero ⟨cond⟩: Whoa, whoa, whoa. I'm into you, Gil. But I'm not sure we're there yet.
+    global_crew_tech_officer: You're into me, huh? Good, but that's not what I'm talking about.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) global_crew_tech_officer ⟨cond⟩: Jill—the best friend I mentioned while you and SAM were cheating at poker...
+    ├ option 2:
+        ↩ (goto) global_crew_tech_officer ⟨cond⟩: Jill—the best friend I mentioned while you were killing me at poker...
+    ├ option 3:
+        ↩ (goto) global_crew_tech_officer: Jill—the best friend I mentioned while I was thrashing you at poker...
+    └─ merge ─┘
+└─ merge ─┘
+Hero: In case you hadn't noticed, it might be hard for me to get pregnant.

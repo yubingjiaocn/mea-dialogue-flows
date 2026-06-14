@@ -1,0 +1,43 @@
+# game/conversations/unc/storms/stm_0170_find_nomad_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0170_find_nomad_i.xml
+==================================================
+Hero: "Special requisition: all-terrain scout rover."
+global_crew_tech_officer: [Comm] A Nomad! Six wheel drive. Jump-jets. Just what you need.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: So shiny.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: This must be what Clancy meant.
+        SAM: The crate requires an access code from a forward station.
+        SAM: Forward stations act as emergency resupply checkpoints. Several are currently in orbit.
+        Hero: I can call one down. Let's find a good spot.
+    ├ option 2:
+        Hero ⟨cond⟩: This might be our ticket through the radiation.
+        ↩ (goto) SAM: The crate requires an access code from a forward station.
+    ├ option 3:
+        Hero: And now it's ours.
+        ↩ (goto) SAM: The crate requires an access code from a forward station.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: I might be drooling a little bit.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: This must be what Clancy meant.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: This might be our ticket through the radiation.
+    ├ option 3:
+        ↩ (goto) Hero: And now it's ours.
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human ⟨cond⟩: The Initiative only built a few.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: This must be what Clancy meant.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: This might be our ticket through the radiation.
+    ├ option 3:
+        ↩ (goto) Hero: And now it's ours.
+    └─ merge ─┘
+└─ merge ─┘

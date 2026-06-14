@@ -1,0 +1,23 @@
+# game/conversations/crit/crit_ex/crit_ex_0340_remind_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0340_remind_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Lot of pods. What if your Moshae isn't in there?
+    global_squad_angara: Then we search every crate. She's here somewhere.
+    Hero: You're that sure of your intel?
+    global_squad_angara: I am. At least, I thought so. Anyway, it's all we have.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: What if the Moshae isn't in one of those pods?
+    ↩ (goto) global_squad_angara: Then we search every crate. She's here somewhere.
+├ option 3:
+    global_squad_turian ⟨cond⟩: What if we don't find the Moshae in any of these pods?
+    ↩ (goto) global_squad_angara: Then we search every crate. She's here somewhere.
+├ option 4:
+    global_squad_asari ⟨cond⟩: This feels a little haphazard. The Moshae might not be in a pod.
+    ↩ (goto) global_squad_angara: Then we search every crate. She's here somewhere.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: What if the Moshae isn't in a pod?
+    ↩ (goto) global_squad_angara: Then we search every crate. She's here somewhere.
+└─ merge ─┘

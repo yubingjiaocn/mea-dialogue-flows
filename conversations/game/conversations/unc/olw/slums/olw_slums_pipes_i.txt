@@ -1,0 +1,68 @@
+# game/conversations/unc/olw/slums/olw_slums_pipes_i
+# Primary speaker: olw_ang_engineer_01
+# Source: game/conversations/unc/olw/slums/olw_slums_pipes_i.xml
+==================================================
+olw_ang_engineer_01: Keep back, vesaan! Pipes are being finicky.
+olw_ang_engineer_01: Wouldn’t want them to bust and ruin that pretty armor.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Thanks, but this armor can handle a busted pipe.
+    olw_ang_engineer_01: You're obviously new here.
+    olw_ang_engineer_01: Kadara's water contains a high concentration of sulfuric acid.
+    olw_ang_engineer_01: It’s extremely toxic.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: That's why it smells like rotten eggs!
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            Hero: Are these pipes some sort of filtration system?
+            olw_ang_engineer_01: Built by the first angara who came here.
+            olw_ang_engineer_01: Makes the water potable, then sends it up the mountain to the port.
+            olw_ang_engineer_01: There are smaller systems out in the badlands, but none are as effective and complex as this beauty.
+            ↩ (goto) olw_ang_engineer_01: [empty]
+        ├ option 2:
+            Hero: Is all the water on Kadara toxic?
+            olw_ang_engineer_01: Every last drop, so be careful what you drink.
+            olw_ang_engineer_01: Everything in the port is safe. Tartarus too.
+            olw_ang_engineer_01: But outside the mountain... it’s a gamble.
+            ↩ (goto) olw_ang_engineer_01: [empty]
+        ├ option 3:
+            Hero: You called me "vesaan." What does that mean?
+            olw_ang_engineer_01: "Outsider," which is what you are.
+            ↩ (goto) olw_ang_engineer_01: [empty]
+        ├ option 4:
+            Hero: Sulfuric acid is strong stuff.
+            Hero: How do you keep the water from eating through the pipes?
+            olw_ang_engineer_01: We oil them down and switch them out regularly.
+            Hero: Sounds dangerous.
+            olw_ang_engineer_01: You ever try living without water?
+            ↩ (goto) olw_ang_engineer_01: [empty]
+        ├ option 5:
+            Hero: None of the exiles give you trouble?
+            olw_ang_engineer_01: They know better.
+            olw_ang_engineer_01: Outcast. Collective. Everyone's got to drink.
+            olw_ang_engineer_01: Messing with the filtration system is just stupid.
+            ↩ (goto) olw_ang_engineer_01: [empty]
+        ├ option 6:
+            Hero: I’ll let you get back to work.
+            olw_ang_engineer_01: Stay clear of the water.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Explains the smell.
+        ↩ (goto) olw_ang_engineer_01: [empty]
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: That's why it smells so bad.
+        ↩ (goto) olw_ang_engineer_01: [empty]
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Must be why it smells like crap.
+        ↩ (goto) olw_ang_engineer_01: [empty]
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Sulfur, huh? Explains the smell.
+        ↩ (goto) olw_ang_engineer_01: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Thanks for the warning.
+    ↩ (goto) olw_ang_engineer_01: Kadara's water contains a high concentration of sulfuric acid.
+└─ merge ─┘
+olw_ang_engineer_01: Yes?
+↩ (goto) olw_ang_engineer_01: [empty]

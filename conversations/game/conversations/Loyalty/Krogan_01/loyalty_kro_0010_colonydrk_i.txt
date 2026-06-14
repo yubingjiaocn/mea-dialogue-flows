@@ -1,0 +1,114 @@
+# game/conversations/loyalty/krogan_01/loyalty_kro_0010_colonydrk_i
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0010_colonydrk_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_krogan: Ryder. This is Grot, an old friend. Practically built this whole place.
+    global_squad_krogan: Don't let the fact that he's Urdnot bother you. He can't help it.
+    dune_colony_drackfriend: What do ya think of the colony? Pretty great, huh?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: It's... rustic.
+        dune_colony_drackfriend: That's what we were going for. Rustic.
+        global_squad_krogan: I'm guessing you have questions.
+        ┌─ BRANCH (7) ─┐
+        ├ option 1:
+            Hero: How long has the colony been here?
+            dune_colony_drackfriend: Since we left the Nexus. After the mutiny.
+            Hero: Just like that? Leave the Nexus, start a colony?
+            global_squad_krogan: We're krogan, kid. We can live anywhere.
+            dune_colony_drackfriend: Could've parked our tails on a volcano and handled it just fine.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+            Hero: There's a lot of prefab materials here, and shuttles...
+            dune_colony_drackfriend: Some of it was gear we had stored away on the Nexus.
+            global_squad_krogan: The rest we sorta stole when we left. Not like anyone was going to stop us.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 3:
+            Hero ⟨cond⟩: The plants here. Where'd they come from?
+            global_squad_krogan: Ever since the clan got here, Vorn and his assistant have been working hard on the greenhouse.
+            dune_colony_drackfriend: We built him and Hark some pretty fancy digs. Lights and everything.
+            global_squad_krogan: New Tuchanka's plants grow way better than the ones back home. Way less radiation.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 4:
+            Hero ⟨cond⟩: What'll you do with the seed vault, now that it's back with the colony?
+            global_squad_krogan: Vorn's split up the seeds so they aren't all in once place anymore.
+            global_squad_krogan: Other than that, I dunno. Make more plants? We leave the science stuff to runts like him.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 5:
+            Hero: You seem at home here, Drack.
+            dune_colony_drackfriend: And you're not getting any younger. Ever think of retiring?
+            global_squad_krogan: The day you dig my grave, old timer.
+            dune_colony_drackfriend: Sad honor that'll be.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 6:
+            Hero: How do you know Drack?
+            dune_colony_drackfriend: We mined together back when our quads had barely dropped.
+            global_squad_krogan: Now I just can't seem to get rid of him.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 7:
+            Hero: I'll talk to you later.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: Don't forget to talk to Hark. He's in Vorn's greenhouse.
+            ├ option 2:
+                global_squad_krogan: Make sure you talk to Morda before you leave.
+            ├ option 3:
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_krogan ⟨cond⟩: We'll be here, catching up.
+                ├ option 2:
+                    global_squad_krogan ⟨cond⟩: Later, kid.
+                ├ option 3:
+                    global_squad_krogan ⟨cond⟩: {i}(Friendly grunt.){/i}
+                ├ option 4:
+                    global_squad_krogan ⟨cond⟩: Stay out of trouble.
+                ├ option 5:
+                    dune_colony_drackfriend: Have fun.
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It's something else, all right.
+        dune_colony_drackfriend: Isn't it, though? Tricky to set up out here, but worth it.
+        ↩ (goto) global_squad_krogan: I'm guessing you have questions.
+    ├ option 3:
+        Hero [OncePerGame]: When you said "colony," I didn't think you meant this. Why didn't you tell me, Drack?
+        global_squad_krogan: Wasn't sure about you at first.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Had to take some precautions...
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Now that I know I can trust you...
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            global_squad_krogan: And then it seemed simpler to just show you when we got here.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: What's on your mind, Ryder?
+        ↩ (goto) global_squad_krogan: [empty]
+    ├ option 2:
+        dune_colony_drackfriend: Happy to talk, Pathfinder.
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 3:
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan: Isn't it, though? Tricky to set up out here, but worth it.
+├ option 2:
+    global_squad_krogan: Some of it was gear we had stored away on the Nexus.
+├ option 3:
+    global_squad_krogan: Could've parked our tails on a volcano and handled it just fine.
+├ option 4:
+    global_squad_krogan: Nice place, huh? We did good.
+├ option 5:
+    global_squad_krogan: Since we left the Nexus. After the mutiny.
+└─ merge ─┘

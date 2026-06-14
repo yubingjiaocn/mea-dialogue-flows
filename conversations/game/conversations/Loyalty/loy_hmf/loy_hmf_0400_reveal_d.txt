@@ -1,0 +1,76 @@
+# Game/Conversations/Loyalty/Loy_HMF/loy_hmf_0400_reveal_d
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0400_reveal_d.xml
+==================================================
+Narration: The Player finally shuts the generator off. Vederia, Cora, (and Peebee / Jaal if present) relax.
+global_squad_female_human: That {i}noise{/i}... it's gone.
+Narration: Outside the deck, we see the piece of hull plating detach and float away.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: If anyone asks, it was like that when we got here.
+    loy_hmf_cpt_atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'll take a breather once we're at the Nexus.
+        loy_hmf_cpt_atandra: [Comm] That's smart. At least sensors are clear, for now.
+        loy_hmf_cmdr_sarissa_multi: [Comm] Sarissa here. Superb work, all of you. We're almost home.
+        loy_hmf_vederia_multi: It's really over. I should go and help—there might be something I can do.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We'll keep an eye on that hull breach, just in case.
+            global_squad_female_human: Sarissa should be proud, Vederia. You'll be one hell of a commando.
+            loy_hmf_vederia_multi: You'd know, Lieutenant. Thank you, for everything. Goddess guide you.
+            Narration: Vederia leaves. She doesn't hear what comes next.
+            SAM: Pathfinder, restoring power has freed up a data cache. It includes the succession log from Matriarch Ishara.
+            Hero: Can you access it?
+            Narration: There's static as an audio log is triggered.
+            Narration: We hear gunfire and the sounds of the kett.
+            loy_hmf_mat_ishara: Forget the data! I need you—the barrier's collapsing!
+            loy_hmf_cmdr_sarissa_multi: [Comm] Ishara, they'll tear the ark apart. I... that data is the only thing that might buy us time.
+            loy_hmf_SAM_asari: Kett reinforcements approaching, Pathfinder Ishara.
+            loy_hmf_mat_ishara: Sarissa! My SAM can't—Tiamna, {i}please!{/i}
+            loy_hmf_cmdr_sarissa_multi: [Comm] I have to save them! Even if I can't save—
+            Narration: There's the sound of kett gunfire.
+            loy_hmf_cmdr_sarissa_multi: [Comm] Forgive me.
+            Narration: The audio log ends. Cora looks stunned.
+            global_squad_female_human: "Tiamna" used to mean "guardian of temples." A champion who stayed faithful even when all was lost.
+            global_squad_female_human: Sarissa left her to die.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: What good is a guardian who doesn't defend her Pathfinder when it matters?
+                global_squad_female_human: After everything she wrote on duty, sacrifice...
+                global_squad_female_human: Damn it all, Ryder. What do I do?
+                Hero: First, we—
+                Narration: As Ryder starts to speak, alarms blare and the comm comes to life.
+                Narration: Outside the window, kett ships approach the vacuum deck.
+                loy_hmf_cpt_atandra: [Comm] Atandra here! The kett hunters blindsided us. They have a dropship headed for the breach on Deck Twelve!
+                Hero: How long until we have FTL?
+                loy_hmf_cpt_atandra: [Comm] Too long! Sarissa's coming to help. Push them back!
+                Hero: Helmets on, people!
+            ├ option 2:
+                Hero: Sarissa was forced to choose between her Pathfinder and her ark. She made the right call.
+                global_squad_female_human: Look around. Does this look like a right call? I...
+                ↩ (goto) global_squad_female_human: Damn it all, Ryder. What do I do?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You helped save this whole ark. Not bad for your first big mission.
+            ↩ (goto) global_squad_female_human: Sarissa should be proud, Vederia. You'll be one hell of a commando.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Can we still go to FTL if there's, say, a big hull breach down here?
+        loy_hmf_cpt_atandra: [Comm] Uh... the maneuver I've planned {i}should{/i} hold us together. If the FTL burn doesn't—we'll have to cope.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [Comm] Sarissa here. Superb work, all of you. We're almost home.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: Uh, that's what we wanted, right?
+    ↩ (goto) loy_hmf_cpt_atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Crappy asari hulls. One bombardment and there they go.
+    ↩ (goto) loy_hmf_cpt_atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Well, I guess it's just dead weight...
+    ↩ (goto) loy_hmf_cpt_atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
+├ option 5:
+    Hero: Uh. We've got spare parts at the Nexus, right?
+    ↩ (goto) loy_hmf_cpt_atandra: [Comm] It's Captain Atandra. Ryder, the drive core's coming online. You did it! A few minutes and we're out of here.
+└─ merge ─┘

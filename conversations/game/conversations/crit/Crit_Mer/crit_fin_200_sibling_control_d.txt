@@ -1,0 +1,47 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_200_sibling_control_d
+# Primary speaker: SAM
+# Source: game/conversations/crit/Crit_Mer/crit_fin_200_sibling_control_d.xml
+==================================================
+Narration: We leave Ryder in the darkness and transition across the void of space to the Hyperion. The sibling is to the side as people run past.
+Narration: Alarms and shooting can be heard at distance. The sibling is helping usher people to safe lockdown areas.
+global_sibling_male: Get everyone to the medbay! Hold there!
+global_crew_doctor_multi: What the hell is happening?
+global_sibling_male: I have no idea.
+Narration: Sibling looks at the chaos, then their eyes widen as SAM talks in their head. It's a shock causing a sharp breath.
+SAM: Hello Scott.
+global_sibling_male: SAM? How are you... what's going on? All we know is we're being overrun!
+SAM: Kett forces are sweeping the ship. They're looking for you.
+SAM: Scott, the Pathfinder needs your help.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male: This is crazy. She's closing on Meridian.
+    SAM: The Archon has severed my link to your sister's implant. If basic function isn't manually restored, she will die.
+    global_sibling_male: What?
+    SAM: Scott, please. Proceed to depot K-4 to secure a weapon.
+    global_sibling_male: Son of a...
+├ option 2:
+    global_sibling_male: She needs help? What about us?
+    ↩ (goto) SAM: The Archon has severed my link to your sister's implant. If basic function isn't manually restored, she will die.
+└─ merge ─┘
+Narration: We leave Ryder in the darkness and transition across the void of space to the Hyperion. The sibling is to the side as people run past.
+Narration: Alarms and shooting can be heard at distance. The sibling is helping usher people to safe lockdown areas.
+global_sibling_female: Keep going! The medbay is still secure!
+global_crew_doctor_multi: What the hell is happening?
+global_sibling_female: I wish I knew.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_female: This is crazy. He's closing on Meridian.
+    SAM: The Archon has severed my link to your brother's implant. If basic function isn't manually restored, he will die.
+    global_sibling_female: What?
+    SAM: Sara, please. Proceed to depot K-4 to secure a weapon.
+    global_sibling_female: Goddamn it.
+    ↩ (goto) global_sibling_male: [empty]
+├ option 2:
+    Narration: Sibling looks at the chaos, then their eyes widen as SAM talks in their head. It's a shock causing a sharp breath.
+    SAM: Hello Sara.
+    global_sibling_female: SAM? How are you... what's happening out there? They're shooting people!
+    SAM: Kett forces are sweeping the ship. They're looking for you.
+    SAM: Sara, the Pathfinder needs your help.
+    global_sibling_female: He needs help? What about us?
+    ↩ (goto) SAM: The Archon has severed my link to your brother's implant. If basic function isn't manually restored, he will die.
+└─ merge ─┘

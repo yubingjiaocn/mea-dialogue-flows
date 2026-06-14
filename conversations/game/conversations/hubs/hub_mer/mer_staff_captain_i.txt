@@ -1,0 +1,25 @@
+# game/conversations/hubs/hub_mer/mer_staff_captain_i
+# Primary speaker: global_humanark_captain_multi
+# Source: game/conversations/hubs/hub_mer/mer_staff_captain_i.xml
+==================================================
+Hero: Captain Dunn. Still here?
+global_humanark_captain_multi: I'll be the last one "off," Pathfinder. They can call it a building now, but it's still my ship until everyone is clear.
+global_humanark_captain_multi: A good ride. I'm sorry to see it end.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Everyone owes you their lives. It was an honor to help bring it all home.
+    global_humanark_captain_multi: We both know how many people were involved.
+    global_humanark_captain_multi: I'm not completely walking away, but it'll be nice to have a place. I've got a friend working on it.
+    global_humanark_captain_multi: A nice little homestead. "With fences, so you know what's yours."
+├ option 2:
+    Hero: Plenty of places left to fly, captain. I doubt you'll be hurting for work.
+    global_humanark_captain_multi: True enough. But it'll be nice to have a place to range out of. Something stable.
+    global_humanark_captain_multi: Got a friend working on that. We'll see where it goes, but I like the sound of it.
+    ↩ (goto) global_humanark_captain_multi: A nice little homestead. "With fences, so you know what's yours."
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_humanark_captain_multi: Pathfinder.
+├ option 2:
+    global_humanark_captain_multi: Ryder.
+└─ merge ─┘

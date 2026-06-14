@@ -1,0 +1,61 @@
+# game/conversations/bstory/ket/ketbs_0100_scipost_start_i
+# Primary speaker: ket_scipost_start
+# Source: game/conversations/bstory/ket/ketbs_0100_scipost_start_i.xml
+==================================================
+Hero: Raelis?
+ket_scipost_start: That's me! Yes! I'm Raelis!
+ket_scipost_start: Wow, you really showed up!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You said you had intel. I can't ignore that.
+    ket_scipost_start: I just didn't think you would come yourself!
+    ket_scipost_start: Anyway, I should get to the point...
+    ket_scipost_start: Your raid on the exaltation facility sent the kett scrambling. They're trying to get their operations in order.
+    ket_scipost_start: Our scouts report increased kett movement through certain areas of Voeld.
+    ket_scipost_start: Not military, though. Science and research vessels.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: So, something that could involve exaltation. Or the creation of a new exaltation lab?
+        ket_scipost_start: That's what I thought! Either way, kett organizing means trouble.
+        ket_scipost_start: We don't have the tech to break into their bases, but someone has to stop them.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'll investigate this if I can.
+            ket_scipost_start: That's all I can ask. Thank you, Ryder.
+            ket_scipost_start: I'll send the navpoint immediately.
+        ├ option 2:
+            Hero: You're talking to the right person. We always help our friends and allies.
+            ket_scipost_start: I knew you'd help.
+            ↩ (goto) ket_scipost_start: I'll send the navpoint immediately.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Doesn't matter if they're science kett, warrior kett... janitorial kett. They're all bad news.
+        ket_scipost_start: Some of us were concerned they might be planning more exaltation.
+        ket_scipost_start: Or putting more of our people through torturous study.
+        ↩ (goto) ket_scipost_start: We don't have the tech to break into their bases, but someone has to stop them.
+    └─ merge ─┘
+├ option 2:
+    Hero: You seem thrilled. Honestly, it's nothing special.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ket_scipost_start: Nothing special? You defeated the Archon! The kett are panicking.
+        ket_scipost_start: Kett are moving around, reorganizing. And we've found one of their science facilities.
+        ket_scipost_start: I'm sure they're preparing for more exaltation, but we don't have the tech to break into their bases.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'll investigate this if I can.
+        ├ option 2:
+            ↩ (goto) Hero: You're talking to the right person. We always help our friends and allies.
+        └─ merge ─┘
+    ├ option 2:
+        ket_scipost_start: Nothing special? You saved the Moshae from the kett!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ket_scipost_start: And you destroyed that awful, awful place!
+            ↩ (goto) ket_scipost_start: Anyway, I should get to the point...
+        ├ option 2:
+            ket_scipost_start: And not just the Moshae! So many people owe you their lives!
+            ↩ (goto) ket_scipost_start: Anyway, I should get to the point...
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

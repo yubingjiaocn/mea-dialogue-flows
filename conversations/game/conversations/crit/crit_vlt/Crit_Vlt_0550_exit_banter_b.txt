@@ -1,0 +1,46 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0550_exit_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0550_exit_banter_b.xml
+==================================================
+Hero: Now for our new outpost.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: You have already logged an ideal site. Navpoint noted. Updating Tempest.
+    global_crew_science_officer: [Comm] The Nexus is on pins and needles, Ryder. Pods are inbound and ready!
+    Hero: Let's go make it happen.
+├ option 2:
+    SAM: Collating data for likely deployment. Navpoint marked for search area.
+    global_crew_science_officer: [Comm] Roger that. The Nexus is scrambling to wake up new hopefuls.
+    global_crew_science_officer: [Comm] Ryder, everyone is watching.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Let's keep up the winning streak.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: They've been waiting so long. Let's hurry.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: We're one giant step closer. Let's keep going.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Let's do this.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: I can do this.
+├ option 2:
+├ option 3:
+    SAM: You've placed a comm buoy in orbit, the kett threat is negated, and the vault is calming the storms.
+    Hero: Then we're ready. We can call down an outpost.
+├ option 4:
+    SAM ⟨cond⟩: The kett still represent an imminent threat, and Eos still requires an orbital comm buoy for observation.
+    SAM: Updating the Tempest.
+    global_crew_science_officer: [Comm] You have no idea the stir you've caused, Ryder. The Nexus thought anything "Eos" was impossible.
+    Hero: I've... we've got a long way to go.
+├ option 5:
+    SAM ⟨cond⟩: Even with the comm buoy providing system data, the kett still represent an imminent threat.
+    SAM: Updating the Tempest.
+├ option 6:
+    SAM ⟨cond⟩: Without kett interference, it will be easier to build the comm buoy—pending research and assembly.
+    ↩ (goto) SAM: Updating the Tempest.
+├ option 7:
+    ↩ (goto) global_crew_science_officer: [Comm] The Nexus is on pins and needles, Ryder. Pods are inbound and ready!
+└─ merge ─┘

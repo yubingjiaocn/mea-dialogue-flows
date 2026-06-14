@@ -1,0 +1,27 @@
+# game/conversations/hubs/hub_nexus/merch/nex_merch_vehicle_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/merch/nex_merch_vehicle_i.xml
+==================================================
+nex_merch_vehicles: Hello. Just use the console to see what's available.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Ouch. Why am I paying for these?
+    nex_merch_vehicles: I'm trading with outside sources and nothing's free out there.
+    nex_merch_vehicles: Doing my best to keep costs to a minimum, but I need to buy things too.
+├ option 2:
+    Hero: You got it. Shop 'til you drop—here I come.
+    nex_merch_vehicles: I'm not going to complain.
+    ↩ (goto) nex_merch_vehicles: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    nex_merch_vehicles: Hello.
+├ option 2:
+    nex_merch_vehicles: Need anything?
+├ option 3:
+    nex_merch_vehicles: That's all I've got.
+├ option 4:
+    nex_merch_vehicles: I might get more later.
+├ option 5:
+    nex_merch_vehicles: Greetings, Pathfinder. Hmm, too formal?
+└─ merge ─┘

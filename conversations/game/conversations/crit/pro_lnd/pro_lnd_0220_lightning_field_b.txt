@@ -1,0 +1,46 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0220_lightning_field_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0220_lightning_field_b.xml
+==================================================
+global_squad_male_human: Uh, what the hell is this?
+Hero: Come on—we gotta get through it!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: This is crazy!
+    Hero: Welcome to Habitat 7!
+├ option 2:
+    Hero [OncePerGame]: Keep moving!
+├ option 3:
+    global_squad_male_human [OncePerGame]: Ahh!
+├ option 4:
+    Hero [OncePerGame]: Damn it!
+├ option 5:
+    global_squad_male_human [OncePerGame]: Shit, that hurt!
+├ option 6:
+    Hero [OncePerGame]: Watch it!
+└─ merge ─┘
+global_squad_male_human: Don't stop!
+Hero: Looks safer under there!
+global_squad_male_human: Is this for real?
+global_squad_male_human: What the hell's going on with this place?
+Hero: Planet's trying to murder us.
+global_squad_male_human ⟨cond⟩: It can try.
+┌─ BRANCH (2) ─┐
+├ option 1:
+├ option 2:
+    global_squad_male_human: How's your gun? Might want to see if it's working.
+    global_squad_male_human: Take a shot at that fuel cell. It's busted, anyway.
+└─ merge ─┘
+global_squad_male_human: Careful.
+Hero: I'd say it's working.
+global_squad_male_human: Don't know about your aim, but it's working.
+global_squad_male_human: Not what I had in mind...
+↩ (goto) Hero: I'd say it's working.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: It's working. On broken crates, anyway.
+├ option 2:
+    global_squad_male_human: It can try.
+├ option 3:
+    global_squad_male_human: Take a shot at that debris.
+└─ merge ─┘

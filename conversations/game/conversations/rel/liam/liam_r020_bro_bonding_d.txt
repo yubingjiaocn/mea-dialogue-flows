@@ -1,0 +1,89 @@
+# game/conversations/rel/liam/liam_r020_bro_bonding_d
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/rel/liam/liam_r020_bro_bonding_d.xml
+==================================================
+Hero: Liam? I signed off on that project.
+global_squad_male_human: That's great, Pathfinder. Jaal Ama Darav! We got our gear.
+global_squad_angara: Kosta. Ryder.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: We don't technically have uniforms, but this is a little casual.
+    global_squad_male_human: Heh, just convenience. Swapping armor.
+    global_squad_male_human: You ready to go?
+    global_squad_angara: Go.
+    global_squad_male_human: Right. The pattern on your pauldron?
+    global_squad_angara: Family honorific.
+    global_squad_male_human: Can I wear the poncho?
+    global_squad_angara: It's a Rofjinn, and no.
+    global_squad_male_human: Why? Is it religious?
+    Hero: Wait, what?
+    global_squad_angara: It's personal. You're not allowed.
+    global_squad_male_human: Because of status—or species?
+    global_squad_angara: Maybe it's both.
+    global_squad_male_human: Do all humans look alike?
+    global_squad_angara: Some of you {i}sound{/i} alike.
+    Hero: Whoa, whoa, whoa.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I thought this was about armor—are you deliberately trying to offend Jaal?
+        global_squad_angara: Of course he is?
+        global_squad_male_human: That's the point? Asking stuff the diplomats leave out? Armor for answers.
+        global_squad_angara: My turn was earlier. Nexus info packets leave a {i}lot{/i} out.
+        global_squad_angara: I am sorry—was this not sanctioned?
+        global_squad_male_human: You weaseling adhi.
+        global_squad_angara: Nevertheless. Ryder.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: Jaal's technically an emissary. There's no way this kind of questioning would fly with his superiors.
+            global_squad_male_human: He won't tattle, if that's what you're worried about. This was between us.
+            global_squad_male_human: We were joking around, and realized we didn't know how to insult each other. Or how {i}not{/i} to.
+            global_squad_male_human: Some things are so ingrained, they're invisible. We didn't even know the warning signs. So we got it over with.
+            global_squad_male_human: Now we won't do it accidentally. Like when we're trying to negotiate an outpost.
+            global_squad_male_human: Enough of his people want to shoot us {i}now{/i}.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Okay, I kind of get the intent. No harm, no foul?
+                global_squad_male_human: If Jaal was offended, I'd be on the floor. I'll take that kind of honest any day.
+                global_squad_male_human: We have a lot to learn. That's part of what our team is for.
+                global_squad_male_human: Better now than when people's lives are on the line.
+            ├ option 2:
+                Hero: Let's just back away from this. Leave it to the professionals.
+                global_squad_male_human: If you like. Jaal doesn't care, but he wouldn't want his bosses getting tight about it either.
+                global_squad_male_human: But you know our team will get hit by this stuff one way or another.
+                global_squad_male_human: If you ask me? Better over beers than guns.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I hope you know what you're doing. I don't need the Nexus breathing down my neck.
+            global_squad_male_human: Relax. Jaal won't complain to HR or whatever Tann thinks we report to.
+            ↩ (goto) global_squad_male_human: We were joking around, and realized we didn't know how to insult each other. Or how {i}not{/i} to.
+        ├ option 3:
+            Hero ⟨cond⟩: You better have a good reason for this.
+            global_squad_male_human: I do—and we were clear. Jaal was in from the start.
+            Hero: Did I {i}say{/i} put the shirt on?
+            global_squad_male_human: {i}(Chuckles.){/i} We were shit-talking. Except we couldn't. We didn't know enough about each other to dig in.
+            global_squad_male_human: If we don't know what's insulting or awful, we might accidentally trip on it. Makes talking dangerous.
+            global_squad_male_human: So now we know. And maybe that's enough for a couple hotheads not to make a mess out there. Unless we want to.
+            global_squad_male_human: Good enough reason?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: Okay, I kind of get the intent. No harm, no foul?
+            ├ option 2:
+                ↩ (goto) Hero: Let's just back away from this. Leave it to the professionals.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I know how this goes. Someone's getting offended. And someone else punched.
+        global_squad_angara: That's why we're doing it here?
+        global_squad_male_human: It's an armor swap for answers. Stuff the diplomats don't ask.
+        ↩ (goto) global_squad_angara: My turn was earlier. Nexus info packets leave a {i}lot{/i} out.
+    └─ merge ─┘
+├ option 2:
+    Hero: I'll bite. What's with the gun show?
+    global_squad_angara: We're swapping armor, not weapons.
+    global_squad_male_human: Don't let him tease you. I explained the reference.
+    ↩ (goto) global_squad_male_human: You ready to go?
+├ option 3:
+    Hero ⟨cond⟩: Is this show for my benefit? Because I'm benefiting.
+    ↩ (goto) global_squad_male_human: Heh, just convenience. Swapping armor.
+└─ merge ─┘

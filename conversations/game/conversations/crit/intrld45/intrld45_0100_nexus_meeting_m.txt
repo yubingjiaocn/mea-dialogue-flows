@@ -1,0 +1,193 @@
+# game/conversations/crit/intrld45/intrld45_0100_nexus_meeting_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld45/intrld45_0100_nexus_meeting_m.xml
+==================================================
+Hero: Hello again.
+Nexus_Aide: They're waiting for you. Careful...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_arkcon_superintendent: Of course you approve—Ryder saved your people!
+    global_nexus_PI_director: Ryder saved {i}our{/i} people. It doesn't matter if they were salarians—they were citizens of the Initiative.
+    global_arkcon_superintendent: But it doesn't hurt if there's a few less krogan around, does it?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_nexus_colonial_director_multi: {i}(Clears throat.){/i} The Pathfinder.
+        global_arkcon_superintendent: Ryder. We were discussing how things ended with the Archon.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Kesh, it's true I had to leave some krogan behind. I'm sorry about that.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_arkcon_superintendent ⟨cond⟩: You've already done your part for us. That's more than I can say for others.
+                global_nexus_militia_leader: Yet I have to question what we've gained, provoking the Archon like this?
+                Hero: He had a map showing the location of Meridian.
+                Hero: Now we have it. And a short window to get there. It's the control center for the terraforming network.
+                Hero: If we get that working, all our problems are solved.
+                global_nexus_PI_director: Based on what data? This is all alien science.
+                Hero: The vault on Aya suggests that Meridian is the key.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_militia_leader: While I appreciate what you've done for our strike teams, we're not equipped for a war with the kett.
+                    global_nexus_militia_leader: They'll be defending Meridian with everything they've got.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: This is how we beat them: the Archon doesn't know how to bring Meridian online. He can't control the technology. {i}I{/i} can.
+                        global_nexus_colonial_director_multi: Vaults, maybe. We don't know if Meridian works the same way.
+                        global_nexus_colonial_director_multi: And attacking the kett only to find out you're wrong...
+                        global_arkcon_superintendent: Then there's this SAM of yours. We took a chance letting AI get involved.
+                        global_arkcon_superintendent: Frankly, I'm uncomfortable with just {i}how{/i} involved it's become.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            global_arkcon_superintendent ⟨cond⟩: I like you, Ryder. I really do. But I can't support your plan.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_salarian_pathfinder_multi: Then I will.
+                                ┌─ BRANCH (3) ─┐
+                                ├ option 1:
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        loy_hmf_vederia_multi ⟨cond⟩: And so will I.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            global_turian_pathfinder_multi: I agree.
+                                            ┌─ BRANCH (4) ─┐
+                                            ├ option 1:
+                                                global_salarian_pathfinder_multi ⟨cond⟩: Ryder deserves a chance to try.
+                                                global_nexus_PI_director: I applaud the gesture. But you answer to {i}me{/i}. I hope you understand.
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    Hero: What's the matter, Tann? Don't want anyone else overshadowing you?
+                                                    global_nexus_PI_director: It's not called the "{i}Pathfinder{/i} Initiative." The chain of command has to be respected.
+                                                    global_nexus_PI_director: That is all.
+                                                    Hero: Why am I surprised. I don't exactly have a Plan B.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        global_salarian_pathfinder_multi ⟨cond⟩: There may be a way.
+                                                        ┌─ BRANCH (2) ─┐
+                                                        ├ option 1:
+                                                            Nexus_Aide ⟨cond⟩: Pathfinder, apologies. There was an urgent message for you—they said your brother is awake.
+                                                            Hero: What?
+                                                            ┌─ BRANCH (2) ─┐
+                                                            ├ option 1:
+                                                                global_salarian_pathfinder_multi ⟨cond⟩: Go. We'll talk later. In the Tech Lab.
+                                                            ├ option 2:
+                                                                crit_kett_salarian_captain_multi: Go. We'll talk later. In the Tech Lab.
+                                                                ↩ (goto) Narration: [empty]
+                                                            └─ merge ─┘
+                                                        ├ option 2:
+                                                            Nexus_Aide: Pathfinder, apologies. There was an urgent message for you—they said your sister is awake.
+                                                            ↩ (goto) Narration: [empty]
+                                                        └─ merge ─┘
+                                                    ├ option 2:
+                                                        crit_kett_salarian_captain_multi: There may be a way.
+                                                        ↩ (goto) Narration: [empty]
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    Hero: We hear you loud and clear.
+                                                    global_nexus_PI_director: Good. That will be all.
+                                                    ↩ (goto) Narration: [empty]
+                                                └─ merge ─┘
+                                            ├ option 2:
+                                                crit_kett_salarian_captain_multi: Ryder deserves a chance to try.
+                                                ↩ (goto) Narration: [empty]
+                                            ├ option 3:
+                                                global_salarian_pathfinder_multi: Ryder deserves a chance to try.
+                                                ↩ (goto) Narration: [empty]
+                                            ├ option 4:
+                                                crit_kett_salarian_captain_multi: Ryder deserves a chance to try.
+                                                ↩ (goto) Narration: [empty]
+                                            └─ merge ─┘
+                                        ├ option 2:
+                                            ↩ (goto) Narration: [empty]
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        loy_hmf_cmdr_sarissa_multi: And so will I.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: [empty]
+                                        ├ option 2:
+                                            ↩ (goto) Narration: [empty]
+                                        └─ merge ─┘
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: [empty]
+                                ├ option 3:
+                                    ↩ (goto) Narration: [empty]
+                                └─ merge ─┘
+                            ├ option 2:
+                                crit_kett_salarian_captain_multi: Then I will.
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_arkcon_superintendent ⟨cond⟩: I'm grateful, Ryder, but I can't support your plan.
+                            ↩ (goto) Narration: [empty]
+                        ├ option 3:
+                            global_arkcon_superintendent: I can't support your plan, Ryder.
+                            ↩ (goto) Narration: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: If we do nothing, I guarantee there's a fight coming. The Archon's already studying how to exalt us.
+                        Hero: It's not pretty.
+                        global_nexus_colonial_director_multi: Still, it's better to focus on the outposts. If the kett attack, at least our people won't be in one place.
+                        ↩ (goto) global_arkcon_superintendent: Then there's this SAM of yours. We took a chance letting AI get involved.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_militia_leader: In the meantime, the kett will be defending Meridian with everything they've got. Going after it risks an all-out war—one we can't win.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: This is how we beat them: the Archon doesn't know how to bring Meridian online. He can't control the technology. {i}I{/i} can.
+                    ├ option 2:
+                        ↩ (goto) Hero: If we do nothing, I guarantee there's a fight coming. The Archon's already studying how to exalt us.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_arkcon_superintendent: In this galaxy, I would hope every life matters. Even if it's just a few krogan.
+                ↩ (goto) global_nexus_militia_leader: Yet I have to question what we've gained, provoking the Archon like this?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: There was no time to save both. I had to make a decision.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_arkcon_superintendent ⟨cond⟩: You've already done your part for us. That's more than I can say for others.
+                ↩ (goto) Narration: [empty]
+            ├ option 2:
+                global_arkcon_superintendent: There have been other "decisions" in the past which ended in my people dying.
+                global_arkcon_superintendent: Maybe someday, someone will show a little sympathy. Even for just a few krogan.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_nexus_colonial_director_multi: {i}(Clears throat.){/i} The Pathfinder.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_nexus_PI_director ⟨cond⟩: Ryder made a sentimental choice, saving those krogan. She looked at them and thought of you.
+        global_arkcon_superintendent: Ryder's her own person. Just admit you don't like krogan.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi: {i}(Clears throat.){/i} The Pathfinder.
+            global_nexus_PI_director: Ryder. We were just discussing your encounter with the Archon.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: It's true I had to leave some salarians behind, Director Tann. I'm sorry about that.
+                global_nexus_PI_director: Noted.
+                global_nexus_PI_director: Though it's good to see Ark Paarchero reunited with the Nexus.
+                ↩ (goto) global_nexus_militia_leader: Yet I have to question what we've gained, provoking the Archon like this?
+            ├ option 2:
+                Hero: There was no time to save both. I had to make a decision.
+                global_nexus_PI_director: Such is the burden of leadership.
+                global_nexus_PI_director: Nevertheless, it's good to see Ark Paarchero reunited with the Nexus.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: {i}(Clears throat.){/i} The Pathfinder.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_nexus_PI_director: Ryder made a sentimental choice, saving those krogan. He looked at them and thought of you.
+        global_arkcon_superintendent: Ryder's his own person. Just admit you don't like krogan.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,60 @@
+# game/conversations/unc/olw/collective/olw_0100_collective_intro_i
+# Primary speaker: olw_char_rep_01
+# Source: game/conversations/unc/olw/collective/olw_0100_collective_intro_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_collective_pir_01: Someone's approaching!
+    olw_char_rep_01: Stand down. They're allies.
+    olw_char_rep_01: Welcome, Pathfinder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Still not used to you people not shooting at me.
+        olw_char_rep_01: Well, get used to it. The Charlatan's orders were clear.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_char_rep_01 ⟨cond⟩: If I didn't know any better, I'd say the boss had a soft spot for you.
+            olw_char_rep_01: But that's none of my business. Crux is in charge here. If you need something, speak with her.
+        ├ option 2:
+            olw_char_rep_01: You must have done quite the favor for the boss.
+            ↩ (goto) olw_char_rep_01: But that's none of my business. Crux is in charge here. If you need something, speak with her.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Wasn't sure if my understanding with the Charlatan had filtered through the ranks.
+        olw_char_rep_01: Even our lowest operative knows to leave you alone.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) olw_char_rep_01 ⟨cond⟩: If I didn't know any better, I'd say the boss had a soft spot for you.
+        ├ option 2:
+            ↩ (goto) olw_char_rep_01: You must have done quite the favor for the boss.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    olw_collective_pir_01: Intruders!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_char_rep_01: Stand down! The Charlatan wants this one alive.
+        olw_char_rep_01: Out for a walk, Pathfinder?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: More of a jaunt. It's good to stretch the legs.
+            olw_char_rep_01: A sense of humor. In Kadara, that'll either get you far or dead.
+            olw_char_rep_01: But my orders are clear: you're not to be harmed.
+            olw_char_rep_01: Crux is in charge here. If you've got questions, talk to her.
+        ├ option 2:
+            Hero: No one else in the Collective hesitated to shoot me.
+            olw_char_rep_01: We're a big organization. Low level operatives might not have gotten the word.
+            ↩ (goto) olw_char_rep_01: But my orders are clear: you're not to be harmed.
+        └─ merge ─┘
+    ├ option 2:
+        olw_char_rep_01: Stand down! The Charlatan wants this one alive.
+        ↩ (goto) olw_char_rep_01: Out for a walk, Pathfinder?
+    └─ merge ─┘
+└─ merge ─┘
+olw_collective_pir_01: Intruders!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_char_rep_01 ⟨cond⟩: It's the Pathfinder—kill her!
+├ option 2:
+    olw_char_rep_01: It's the Pathfinder—kill him!
+└─ merge ─┘

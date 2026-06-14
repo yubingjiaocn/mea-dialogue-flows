@@ -1,0 +1,84 @@
+# game/conversations/rel/cora/cora_r5_tem_noreturn_d
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/rel/cora/cora_r5_tem_noreturn_d.xml
+==================================================
+Narration: Cora's clearly alert and restless.
+global_squad_female_human: A straight shot at Meridian. You know the Archon won't make this easy.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: But neither will we. Let's see what he's got, and punch right through.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Keep it flexible then hit where it hurts—works for me.
+        global_squad_female_human: We have everything we need. I think we always did.
+        Narration: A beat.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Once we get to Meridian, we'll need to figure out what's next.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: So much might change...
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: We adapt, and we survive. That's what humans do. We endure.
+                    global_squad_female_human: You've almost got me believing.
+                    global_squad_female_human: I can't forget that someone built the Scourge weapon and chose to use it. Those forces are at work here.
+                    global_squad_female_human: But Meridian first. Everything else will fall as it may.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Narration ⟨cond⟩: Cora gives the Player a kiss on the cheek.
+                        global_squad_female_human: For luck. When you're ready, I'm there.
+                    ├ option 2:
+                        global_squad_female_human: We'll show them how it's done, Pathfinder. Always do.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Some things won't change. Like you and me.
+                    ↩ (goto) global_squad_female_human: You've almost got me believing.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_female_human: Whatever's there has to be big. I hope I'm ready enough.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: No one can be ready for something like this.
+                    global_squad_female_human: Well... better than fretting alone.
+                    ↩ (goto) global_squad_female_human: I can't forget that someone built the Scourge weapon and chose to use it. Those forces are at work here.
+                ├ option 2:
+                    Hero: I don't know what we'll find. But I trust you to meet it with everything you've got.
+                    global_squad_female_human: Right. Okay.
+                    ↩ (goto) global_squad_female_human: I can't forget that someone built the Scourge weapon and chose to use it. Those forces are at work here.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human: You'll get us to Meridian. But then what?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: So much might change...
+            ├ option 2:
+                ↩ (goto) global_squad_female_human: Whatever's there has to be big. I hope I'm ready enough.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Oh, I hope there's literal punching involved.
+        ↩ (goto) global_squad_female_human: We have everything we need. I think we always did.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: Still wish we had the asari take on it.
+    global_squad_female_human: But we can bring this home. It's all arranged: full gear and armor check, coordination with the Nexus science team—
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I should have known you'd be on top of things.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Aren't I always? So to speak.
+            ↩ (goto) Narration: A beat.
+        ├ option 2:
+            global_squad_female_human: I like a clear target.
+            ↩ (goto) Narration: A beat.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: How's our stock of paper bags? You might need one.
+        global_squad_female_human: Ha, ha. Let's see {i}you{/i} do the paperwork for an op like this.
+        ↩ (goto) Narration: A beat.
+    └─ merge ─┘
+└─ merge ─┘

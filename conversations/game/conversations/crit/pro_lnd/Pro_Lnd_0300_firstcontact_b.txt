@@ -1,0 +1,148 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0300_firstcontact_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0300_firstcontact_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Nice and easy—we only go hot if we have to.
+        global_squad_male_human: Don't think they've spotted us yet.
+    ├ option 2:
+        global_squad_male_human: Just say the word, and I go hot.
+        Hero: They haven't spotted us yet.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human: Shit—they see Fisher!
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human [OncePerGame]: Well, what's the play?
+    ├ option 2:
+        global_squad_male_human [OncePerGame]: Ryder, we need to get down there.
+    ├ option 3:
+        global_squad_male_human [OncePerGame]: Come on, let's {i}move{/i}.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Pro_Lnd_kett2: Niad shurid!
+    global_squad_male_human: He sees us!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We can't understand you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Give us our man, or this gets ugly!
+            Pro_Lnd_kett1: Gosad!
+        ├ option 2:
+            Hero: We're not here to fight! That man's with us!
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Pro_Lnd_kett2: Niad shurid!
+                global_squad_male_human: Doesn't sound friendly...
+            ├ option 2:
+                ↩ (goto) Pro_Lnd_kett1: Gosad!
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human: Ryder...
+    └─ merge ─┘
+├ option 2:
+    Pro_Lnd_kett1: Niad shurid!
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero ⟨cond⟩: I mean it! We'll shoot!
+    global_squad_male_human: I don't like this...
+├ option 2:
+    Hero: We're not a threat. We just want to talk.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_male_human: I don't like this...
+    ├ option 2:
+        global_squad_male_human: I don't know about this. Starting to look twitchy.
+    └─ merge ─┘
+├ option 3:
+    Hero ⟨cond⟩: You better not hurt him!
+├ option 4:
+    Hero ⟨cond⟩: Give us our man, or this gets ugly! ⏎
+├ option 5:
+    Hero ⟨cond⟩: Easy! Look—no weapons!
+└─ merge ─┘
+global_squad_male_human: What's the other guy doing?
+global_squad_male_human: Shit, they're beating him!
+global_squad_male_human: Ryder, they'll kill him!
+global_squad_male_human: Screw it, I'm going hot!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Just give the word.
+├ option 2:
+    Hero: First sign of trouble we go hot. But we didn't come this far to start a war.
+    global_squad_male_human: Maybe they already have.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+        ├ option 2:
+        ├ option 3:
+        └─ merge ─┘
+    ├ option 3:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+        ├ option 2:
+        ├ option 3:
+        ├ option 4:
+        ├ option 5:
+        └─ merge ─┘
+    ├ option 4:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+        ├ option 2:
+        ├ option 3:
+        ├ option 4:
+        ├ option 5:
+        └─ merge ─┘
+    ├ option 5:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 6:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+        ├ option 2:
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (11) ─┐
+    ├ option 1:
+    ├ option 2:
+    ├ option 3:
+    ├ option 4:
+    ├ option 5:
+    ├ option 6:
+    ├ option 7:
+    ├ option 8:
+    ├ option 9:
+    ├ option 10:
+    ├ option 11:
+    └─ merge ─┘
+├ option 3:
+├ option 4:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+    ├ option 2:
+    ├ option 3:
+    ├ option 4:
+    ├ option 5:
+    └─ merge ─┘
+└─ merge ─┘

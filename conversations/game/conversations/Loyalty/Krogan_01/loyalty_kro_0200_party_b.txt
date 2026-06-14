@@ -1,0 +1,114 @@
+# Game/Conversations/Loyalty/Krogan_01/loyalty_kro_0200_party_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0200_party_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: This place is a dump.
+    global_squad_krogan: Told you so.
+├ option 2:
+    global_squad_asari ⟨cond⟩: This place is a dump.
+    ↩ (goto) global_squad_krogan: Told you so.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Initial recon confirmed. Totally a dump.
+    ↩ (goto) global_squad_krogan: Told you so.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Pirate hideouts. They're a dump no matter what galaxy you're in.
+    ↩ (goto) global_squad_krogan: Told you so.
+├ option 5:
+    global_squad_angara ⟨cond⟩: This place is pathetic.
+    ↩ (goto) global_squad_krogan: Told you so.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_krogan: These guys are barely worth the ammo.
+├ option 2:
+    global_squad_krogan: You shouldn't have jacked our transport.
+├ option 3:
+    global_squad_krogan: You have no idea what you're in for.
+└─ merge ─┘
+global_squad_krogan: I've had better fights in my sleep.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They're probably just warming up.
+    global_squad_krogan: Yeah, but will they get it together before I die of boredom?
+├ option 2:
+    global_squad_asari ⟨cond⟩: They're not even trying to make this fun.
+    global_squad_krogan: Maybe they're trying to bore us to death.
+├ option 3:
+    global_squad_turian ⟨cond⟩: I'm sure things will pick up. They always pick up.
+    global_squad_krogan: Now would be nice.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: You looking for more scars, old man?
+    global_squad_krogan: Feels like I'll die of boredom first, kid!
+├ option 5:
+    global_squad_angara ⟨cond⟩: Drack, your passion for combat is admirable!
+    global_squad_krogan: {i}(Laughs.){/i} Not much about me that isn't.
+    global_squad_angara: If you say so.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    loyalty_unknown_comm: {i}(Comm static.){/i}
+├ option 2:
+    loyalty_unknown_comm: {i}(More static.){/i}
+    Hero: Lot of interference down here.
+└─ merge ─┘
+loyalty_unknown_comm: {i}(Comm static.){/i}
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Someone's on the emergency comms.
+    Hero: Let's worry about it when we're not being shot at.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: That isn't static. Someone's trying our comms.
+    ↩ (goto) Hero: Let's worry about it when we're not being shot at.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Someone's trying the emergency channel.
+    ↩ (goto) Hero: Let's worry about it when we're not being shot at.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Is that the emergency channel?
+    ↩ (goto) Hero: Let's worry about it when we're not being shot at.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Is that the emergency channel?
+    ↩ (goto) Hero: Let's worry about it when we're not being shot at.
+├ option 6:
+    global_squad_krogan ⟨cond⟩: Someone's trying to call in.
+    ↩ (goto) Hero: Let's worry about it when we're not being shot at.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan: This is just sad!
+├ option 2:
+    global_squad_krogan: You can do better than that!
+├ option 3:
+    global_squad_krogan: Find your quads yet?
+├ option 4:
+    global_squad_krogan: How about you learn to aim first!
+├ option 5:
+    global_squad_krogan: Stop hiding and fight, you quadless bastards!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: They're getting better at this.
+    global_squad_krogan: Says you.
+├ option 2:
+    global_squad_krogan: Okay, this bunch knows what they're doing at least. Sorta.
+├ option 3:
+    global_squad_krogan: Hey, nice turret placement there.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_krogan: Now it's getting good!
+├ option 2:
+    global_squad_krogan: About time they got organized.
+    Hero: You get way too happy when people shoot at you.
+    global_squad_krogan: {i}(Chuckles.){/i}
+├ option 3:
+    global_squad_krogan: They don't have a clue what they've gotten themselves into.
+└─ merge ─┘
+Hero: Looks like someone's holding a grudge.
+global_squad_krogan: I'll teach him a thing or two about how to hold it.
+Hero: You know they're going to be waiting for us up there.
+global_squad_krogan: Yep. It'll be great.
+Hero: Over there.
+Hero: I see a path on the other side.
+Hero: Maybe if we move this, we can get through.

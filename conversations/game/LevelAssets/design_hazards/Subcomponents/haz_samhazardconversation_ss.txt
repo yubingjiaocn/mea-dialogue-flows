@@ -1,0 +1,132 @@
+# game/levelassets/design_hazards/subcomponents/haz_samhazardconversation_ss
+# Primary speaker: SAM
+# Source: game/LevelAssets/design_hazards/Subcomponents/haz_samhazardconversation_ss.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM: Life support systems are in peril.
+├ option 2:
+    SAM: Life support levels critical. Please seek safety.
+├ option 3:
+    SAM: Life support failure is imminent, Pathfinder.
+├ option 4:
+    SAM: Life support levels are critically low.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM: Life support restored.
+├ option 2:
+    SAM: Life support at 100%.
+├ option 3:
+    SAM: Life support is back online.
+├ option 4:
+    SAM: Life support is stable.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM: Life support is failing.
+├ option 2:
+    SAM: Life support systems offline.
+├ option 3:
+    SAM: Systems are failing, Pathfinder.
+├ option 4:
+    SAM: Life support failing. Seek safety immediately.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM: The ambient temperature is normal.
+├ option 2:
+    SAM: I'm reading a normal temperature range, Pathfinder.
+├ option 3:
+    SAM: Environment check: Temperatures are within acceptable parameters.
+├ option 4:
+    SAM: Environmental temperatures are within acceptable limits.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: The temperature is falling, Pathfinder.
+├ option 2:
+    SAM: I'm detecting below-normal temperatures.
+├ option 3:
+    SAM: I'm reading a temperature decrease.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Temperatures are below freezing and continuing to fall.
+├ option 2:
+    SAM: Extreme cold is detected, Pathfinder.
+├ option 3:
+    SAM: I'm reading a severe temperature drop.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Cold temperatures have reached critical levels. Regulatory system failure.
+├ option 2:
+    SAM: Critical temperatures detected. Seek safety immediately.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ↩ (goto) SAM: The ambient temperature is normal.
+├ option 2:
+    ↩ (goto) SAM: I'm reading a normal temperature range, Pathfinder.
+├ option 3:
+    ↩ (goto) SAM: Environment check: Temperatures are within acceptable parameters.
+├ option 4:
+    ↩ (goto) SAM: Environmental temperatures are within acceptable limits.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Temperature levels are climbing, Pathfinder.
+├ option 2:
+    SAM: Heat levels increasing.
+├ option 3:
+    SAM: I detect above-normal temperatures.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Caution: Outside temperatures are above normal range and continuing to rise.
+├ option 2:
+    SAM: I detect extreme heat, Pathfinder.
+├ option 3:
+    SAM: Reading high temperature levels.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Temperatures exceed the limits of environment suits.
+├ option 2:
+    SAM: High temperature alert. Do not proceed.
+├ option 3:
+    ↩ (goto) SAM: Critical temperatures detected. Seek safety immediately.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Radiation levels normal.
+├ option 2:
+    SAM: Radiation levels within acceptable limits.
+├ option 3:
+    SAM: Radiation within safe levels.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Radiation levels increasing.
+├ option 2:
+    SAM: Detecting above-normal radiation levels.
+├ option 3:
+    SAM ⟨cond⟩: Radiation levels have spiked, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: I detect extremely high radiation levels, Pathfinder.
+├ option 2:
+    SAM: Severe radiation present. Caution is advised.
+├ option 3:
+    SAM: Environmental radiation is approaching dangerous levels.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Severe radiation alert, Pathfinder.
+├ option 2:
+    SAM: Experiencing radiation damage.
+├ option 3:
+    SAM: Radiation levels are severe. Seek safety immediately.
+└─ merge ─┘

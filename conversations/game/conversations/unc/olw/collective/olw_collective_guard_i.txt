@@ -1,0 +1,66 @@
+# game/conversations/unc/olw/collective/olw_collective_guard_i
+# Primary speaker: olw_collective_guard_02
+# Source: game/conversations/unc/olw/collective/olw_collective_guard_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    olw_collective_guard_02 ⟨cond⟩ [OncePerGame]: Shouldn't be in here, Pathfinder.
+    Hero: Didn't think torture was the Charlatan's style.
+    olw_collective_guard_02: First off, what the boss doesn't know won't hurt 'em.
+    olw_collective_guard_02: And second, I'd hardly call this torture. Just persuasion.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Whatever you say.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_collective_guard_02 ⟨cond⟩: I was afraid you were going to argue semantics.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: Why are these people locked up?
+                olw_collective_guard_02: Because they deserve it.
+                olw_collective_guard_02: That guy set off a bomb near the slums—then tried to blame it on us.
+                olw_collective_guard_02: They're filth, Pathfinder. Every last one.
+                ↩ (goto) olw_collective_guard_02: [empty]
+            ├ option 2:
+                Hero: The Collective do this a lot? Lock people up? Beat them?
+                olw_collective_guard_02: We ask nicely first. It only goes badly for the stubborn ones.
+                ↩ (goto) olw_collective_guard_02: [empty]
+            ├ option 3:
+                Hero: That's all.
+                olw_collective_guard_02: Good. I've got to get back to work.
+            └─ merge ─┘
+        ├ option 2:
+            olw_collective_guard_02: So. Who are you?
+            Hero: Just a visitor.
+            olw_collective_guard_02: Visitor? You're the Pathfinder, then. Crux said we should be on our best behavior around you.
+            Hero: Why?
+            olw_collective_guard_02: Don't know. But I'm not about to argue.
+            ↩ (goto) olw_collective_guard_02: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It's torture. And it stops now.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_collective_guard_02 ⟨cond⟩: Fine. Why the boss allied with such a prig is beyond me.
+            olw_collective_guard_02: That's enough, Saarya. Let the asshole rest.
+            olw_collective_guard_03: What?
+            olw_collective_guard_02: Just do it!
+            ↩ (goto) olw_collective_guard_02: [empty]
+        ├ option 2:
+            olw_collective_guard_02: {i}(Laughs.){/i} Seriously. Who the hell are you?
+            Hero: The human Pathfinder.
+            olw_collective_guard_02: Ah shit. Crux said we're supposed to be on our best behavior around you.
+            Hero: Why?
+            olw_collective_guard_02: Answer's above my pay grade. Not about to argue.
+            ↩ (goto) olw_collective_guard_02: That's enough, Saarya. Let the asshole rest.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    olw_collective_guard_02 ⟨cond⟩ [OncePerGame]: Who the hell are you?
+    Hero: Does the Collective make a habit of torture?
+    olw_collective_guard_02: First off, that doesn't answer my question.
+    ↩ (goto) olw_collective_guard_02: And second, I'd hardly call this torture. Just persuasion.
+├ option 3:
+    olw_collective_guard_02: Yeah?
+    ↩ (goto) olw_collective_guard_02: [empty]
+└─ merge ─┘

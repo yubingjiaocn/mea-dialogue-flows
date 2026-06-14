@@ -1,0 +1,63 @@
+# game/conversations/unc/olw/outpost_loop/olw_0050_kad_obj_update_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/outpost_loop/olw_0050_kad_obj_update_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_crew_co-pilot ⟨cond⟩ [OncePerGame]: [Comm] Pathfinder. We just received a notification that there's been a murder in Kadara Port.
+        Hero: Murder, huh? Might be something to look into.
+        global_crew_co-pilot: [Comm] Yes. Lovely planet. Hope we never leave.
+    ├ option 2:
+        SAM ⟨cond⟩ [OncePerGame]: Now that that's done, perhaps you could speak to Reyes about the murders in Kadara Port?
+    ├ option 3:
+        SAM ⟨cond⟩ [OncePerGame]: Pathfinder. Reyes still needs your help investigating the murders in Kadara Port.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: All right. What now?
+        SAM: Perhaps Reyes has another job for you?
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: Okay, that's done. Still need to track down Reyes's cargo, though.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_humanark_asari_dr ⟨cond⟩ [OncePerGame]: [Comm] Pathfinder. I've received word there's a doctor in the slums who could use your help.
+        Hero: I'll check it out.
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: Okay. That's finished. Back to the Oblivion formula?
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: All right. What's next?
+        SAM: Perhaps we should check in with Kaetus? Can't hurt to try being friendly with the Outcasts.
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: Still need to take care of Kaetus's kett stragglers.
+    └─ merge ─┘
+└─ merge ─┘
+global_crew_science_officer: [Comm] Pathfinder. You've got missed calls on the Tempest. Check back when you've got a minute.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: One down. Two to go.
+├ option 2:
+    Hero [OncePerGame]: All right. One more and the vault should be open.
+├ option 3:
+    Hero [OncePerGame]: Okay. Let's get to the vault and fix Kadara's water.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Pathfinder, Kadara is now a viable option for an outpost.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: The badlands still aren't exactly safe, but with Sloane's protection, we should be okay.
+    ├ option 2:
+        Hero [OncePerGame]: The badlands still aren't exactly safe, but with the Collective's protection, we should be okay.
+    └─ merge ─┘
+├ option 2:
+    SAM: Before we can place a viable outpost, we still need to address Kadara's water toxicity.
+    Hero: Turning on the vault should fix that.
+└─ merge ─┘

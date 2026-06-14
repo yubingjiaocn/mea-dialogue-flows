@@ -1,0 +1,74 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0400_pstbrdg_comb_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0400_pstbrdg_comb_b.xml
+==================================================
+Hero: We've got company! Sharpshooters!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Keep your heads down!
+    global_squad_angara: Akksul must've sent reinforcements!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Watch yourselves!
+    ↩ (goto) global_squad_angara: Akksul must've sent reinforcements!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Here we go again!
+    ↩ (goto) global_squad_angara: Akksul must've sent reinforcements!
+├ option 4:
+    global_squad_asari ⟨cond⟩: Damn it! I wanted to look around!
+    ↩ (goto) global_squad_angara: Akksul must've sent reinforcements!
+├ option 5:
+    global_squad_female_human ⟨cond⟩: We need to get to higher ground!
+    ↩ (goto) global_squad_angara: Akksul must've sent reinforcements!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Watch your head!
+        global_squad_angara: Push to higher ground!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: They're shooting us like pyjaks!
+        ↩ (goto) global_squad_angara: Push to higher ground!
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: We're sitting ducks out here!
+        ↩ (goto) global_squad_angara: Push to higher ground!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Heads down!
+        ↩ (goto) global_squad_angara: Push to higher ground!
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: They've got the advantage!
+        ↩ (goto) global_squad_angara: Push to higher ground!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Heads up! More assholes!
+        global_squad_angara: Don't let them flank you!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Bring it!
+        ↩ (goto) global_squad_angara: Don't let them flank you!
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: More of them!
+        ↩ (goto) global_squad_angara: Don't let them flank you!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Reinforcements!
+        ↩ (goto) global_squad_angara: Don't let them flank you!
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: More Roekaar ahead!
+        ↩ (goto) global_squad_angara: Don't let them flank you!
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: {i}(Grunts in pain.){/i} Damn.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Stubborn bastards!
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Just keep shooting!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Don't give up!
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Stay focused!
+        global_squad_angara: We're almost through!
+    └─ merge ─┘
+└─ merge ─┘

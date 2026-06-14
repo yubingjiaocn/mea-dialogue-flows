@@ -1,0 +1,136 @@
+# game/conversations/unc_dunes/dune_0400_flphse_events_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0400_flphse_events_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: This is the flophouse. Where all the scum gather.
+        Hero: Elaaden will never be a safe place to settle unless they're gone.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: Then let's get them.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: Sounds like a plan.
+        ├ option 3:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: Time to clean house!
+        ├ option 4:
+            global_squad_turian ⟨cond⟩ [OncePerGame]: So let's get them gone.
+        ├ option 5:
+            global_squad_angara ⟨cond⟩ [OncePerGame]: Right. Let's get them out of here.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: If the directions are correct, Elaaden's nastiest are hiding right through here.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: So this is where the worst of the worst gather.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: This is the flophouse. We'll find Elaaden's most violent scum in here.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Yep. This has to be the scavenger flophouse. Nothing smells as bad as scavengers.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Careful. I bet we're coming up on a scavenger hideout.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: This place looks dangerous. I bet this is where all the scavengers gather.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: I bet this is where all the scavengers gather.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Scavengers gather someplace on Elaaden. I have a feeling this is it.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Area's well-fortified. I have a feeling it's infested with scavengers.
+        ↩ (goto) Hero: Elaaden will never be a safe place to settle unless they're gone.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Locked. They must have barricaded themselves in. What now?
+SAM: If we can find a security terminal, I may be able to attempt to bypass the locks remotely.
+SAM: I can bypass the command center's doors from here, Pathfinder.
+SAM: Please try to remain within range of the console until the process is complete.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Get ready, kid! They know we're here!
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Crap! I think they're on to us!
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: They've found us!
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: They know we're here!
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Got company!
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: There's more of them!
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Reinforcements!
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: More on the way!
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Watch out! There's more of them!
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: We got reinforcements inbound!
+└─ merge ─┘
+SAM: Pathfinder, I have bypassed security. You can now enter the command center.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Ha! This should be fun!
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: He doesn't look happy!
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I don't think he's going to let us near his stuff!
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: I think we've got a fight on our hands!
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Oh shit, trouble!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I think this console opens the bunker in the cave.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Ha! Let's go back and see what's in there!
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: The one we couldn't get into before? Wonder what we'll find there.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Ooh! I bet there's loads of goodies in there. We should go back!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Let's get back there, then. I wanna see what they were hiding.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Open it, and let's head back to see what they were hiding.
+    └─ merge ─┘
+├ option 2:
+    Hero: I think this console opens a door to a nearby bunker.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: What are we waiting for? Let's go find it.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Looks like it's time to explore.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: So let's go find it.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Well, I'm up for exploring.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Then let's go find it.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: It's locked.
+SAM: Security must be disabled to open this door, Pathfinder.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: That's one.
+├ option 2:
+    SAM: Almost there, Pathfinder. Just one more console to disable the door.
+├ option 3:
+    Hero: There. Security disabled. Anything else, SAM?
+    SAM: No, Pathfinder. You should have access to the storage closet now.
+└─ merge ─┘

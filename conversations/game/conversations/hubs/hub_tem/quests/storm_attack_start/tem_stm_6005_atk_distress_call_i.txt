@@ -1,0 +1,40 @@
+# game/conversations/hubs/hub_tem/quests/storm_attack_start/tem_stm_6005_atk_distress_call_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_tem/quests/storm_attack_start/tem_stm_6005_atk_distress_call_i.xml
+==================================================
+Hero: Suvi, play the full distress call from Prodromos.
+global_crew_science_officer: [Comm] Right away.
+ustl_settle_01_admin_multi: [Comm] {i}(Static.){/i} This is the Initiative outpost Prodromos on Eos. We're in need of assistance.
+ustl_settle_01_admin_multi: [Comm] Tempest, this one is for you. We've got hostiles inbound.
+ustl_settle_01_admin_multi: [Comm] No ground activity, but there soon will be. Pathfinder, we need you.
+ustl_settle_01_admin_multi: [Comm] Going dark until it's resolved. We are not giving up Eos again. Out.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: That's the last we heard? Nothing else?
+    global_crew_science_officer: [Comm] No, Ryder. But also no alarms. The orbital buoy isn't showing any major traffic.
+    global_crew_science_officer: [Comm] Bradley's military. All about the prep. I bet it's a brown-out to present less of a target.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: That's the last we heard? Nothing else?
+    ├ option 2:
+        Hero [OncePerGame]: Could use more information than just "hostiles" and the worry of escalation.
+        global_crew_science_officer: [Comm] Could be he's worried it's not a simple attack?
+        global_crew_science_officer: [Comm] If someone's willing to risk attacking Prodromos, your first outpost...
+        Hero: They're trying to make a point.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: That's the last we heard? Nothing else?
+        ├ option 2:
+            ↩ (goto) Hero [OncePerGame]: Could use more information than just "hostiles" and the worry of escalation.
+        ├ option 3:
+            Hero: Keep the nav fresh, I'll be on the bridge soon.
+            global_crew_science_officer: [Comm] Understood.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero: Keep the nav fresh, I'll be on the bridge soon.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero [OncePerGame]: Could use more information than just "hostiles" and the worry of escalation.
+├ option 3:
+    ↩ (goto) Hero: Keep the nav fresh, I'll be on the bridge soon.
+└─ merge ─┘

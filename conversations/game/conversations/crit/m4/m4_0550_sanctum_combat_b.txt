@@ -1,0 +1,245 @@
+# game/conversations/crit/m4/m4_0550_sanctum_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0550_sanctum_combat_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Drack, anything you can do?
+        global_squad_krogan: Krogan! Stand down!
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: I don't think he understands!
+            global_squad_krogan: Krogan! Listen to me!
+            Hero: Forget it! It's not working!
+            global_squad_krogan: Damn them!
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: I don't think he understands!
+            ↩ (goto) global_squad_krogan: Krogan! Listen to me!
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: I don't think he understands!
+            ↩ (goto) global_squad_krogan: Krogan! Listen to me!
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: I don't think he understands!
+            ↩ (goto) global_squad_krogan: Krogan! Listen to me!
+        ├ option 5:
+            global_squad_female_human ⟨cond⟩: I don't think he understands!
+            ↩ (goto) global_squad_krogan: Krogan! Listen to me!
+        ├ option 6:
+            ↩ (goto) global_squad_krogan: Krogan! Listen to me!
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: It's a good thing Drack isn't seeing this!
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: I don't know, we could use his temper right about now!
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: We could use his temper right about now!
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: We sure could use his temper!
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: We could use his temper right about now!
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: Though we could use his anger!
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: I'm glad Drack isn't here to see this!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Glad Drack isn't here to see this!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: I'm glad Drack isn't here to see this!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: It's a good thing Drack isn't here to see this!
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 7:
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: This guy's going to be trouble!
+        Hero: Stay out of the way and give him everything you've got!
+        global_squad_krogan ⟨cond⟩: These are my people they're messing with!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: This guy's going to be trouble!
+        ↩ (goto) Hero: Stay out of the way and give him everything you've got!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: This guy's going to be trouble!
+        ↩ (goto) Hero: Stay out of the way and give him everything you've got!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: This guy's going to be trouble!
+        ↩ (goto) Hero: Stay out of the way and give him everything you've got!
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: This krogan is going to be trouble!
+        ↩ (goto) Hero: Stay out of the way and give him everything you've got!
+    ├ option 6:
+        ↩ (goto) Hero: Stay out of the way and give him everything you've got!
+    └─ merge ─┘
+├ option 3:
+    crit_kett_salarian_captain_multi: [Comm] Ryder, this is Captain Hayjer. We detonated the EMP!
+    Hero: Yeah, we know!
+    crit_kett_salarian_captain_multi: [Comm] Raeka is still trying to free the captives.
+    Hero: I wish her luck, but I can't talk right now!
+    crit_kett_salarian_captain_multi: [Comm] You sound busy—I'll let you go!
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: I don't know about this!
+        Hero: Just keep your distance!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Shit, this is getting dicey!
+        ↩ (goto) Hero: Just keep your distance!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: I don't like how this is going!
+        ↩ (goto) Hero: Just keep your distance!
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: This is looking ugly!
+        ↩ (goto) Hero: Just keep your distance!
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: This is looking ugly!
+        ↩ (goto) Hero: Just keep your distance!
+    ├ option 6:
+        ↩ (goto) Hero: Just keep your distance!
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Watch out for the kett!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Watch out for the kett!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Watch out for the kett!
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Watch out for the kett!
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Watch out for the kett!
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We've come too far for it to end here!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: We came all this way—it can't end here!
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: We've come too far for it to end like this!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: We've come too far for it to end here!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: We've come too far for it to end here!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: We've come too far for it to end here!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: There! The krogan's down!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Sorry about that, Drack.
+            global_squad_krogan: {i}(Grumbles.){/i} Let's hope the Void will have him.
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: Sorry, Drack.
+            ↩ (goto) global_squad_krogan: {i}(Grumbles.){/i} Let's hope the Void will have him.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Sorry, Drack. Had to do it.
+            ↩ (goto) global_squad_krogan: {i}(Grumbles.){/i} Let's hope the Void will have him.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: Sorry, Drack. Didn't have a choice.
+            ↩ (goto) global_squad_krogan: {i}(Grumbles.){/i} Let's hope the Void will have him.
+        ├ option 5:
+            global_squad_female_human ⟨cond⟩: Sorry, Drack.
+            ↩ (goto) global_squad_krogan: {i}(Grumbles.){/i} Let's hope the Void will have him.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Drack's not gonna like that.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Got him! The krogan's down!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ? ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: Drack's not gonna like that.
+    └─ merge ─┘
+├ option 3:
+    global_squad_turian ⟨cond⟩: We got him! The krogan's down!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ? ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: Drack's not gonna like that.
+    └─ merge ─┘
+├ option 4:
+    global_squad_asari ⟨cond⟩: Got him! The krogan's down!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ? ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: Drack's not gonna like that.
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩: There! The krogan's down!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ? ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: Drack's not gonna like that.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Clear!
+    Hero: Finally.
+    Hero: All right, we've got the map—let's get the hell out of here.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And before those guns come back online.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Yeah, before they get those guns back online.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Before those guns come back online.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Don't want to be here when those guns come online.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Yeah, before they get those guns back online.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: And before those guns come back online.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: That was the last one!
+    ↩ (goto) Hero: Finally.
+├ option 3:
+    global_squad_asari ⟨cond⟩: I think we got them all!
+    ↩ (goto) Hero: Finally.
+├ option 4:
+    global_squad_turian ⟨cond⟩: That was the last one!
+    ↩ (goto) Hero: Finally.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Okay, I think that did it!
+    ↩ (goto) Hero: Finally.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Clear!
+    ↩ (goto) Hero: Finally.
+├ option 7:
+    ↩ (goto) Hero: Finally.
+└─ merge ─┘
+SAM: Pathfinder, there is little time to waste. You need to leave this ship.
+Hero: The ark still looks okay.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Watch out for the kett!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Watch out for the kett!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Watch out for the kett!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Watch out for the kett!
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Watch out for the kett!
+└─ merge ─┘

@@ -1,0 +1,30 @@
+# game/conversations/bstory/kro/hub_nex_0300_vidspen_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/hub_nex_0300_vidspen_d.xml
+==================================================
+Hero: Huh. This file won't play. SAM, can you boost the quality?
+SAM: Processing. Playback initiated.
+Hero: Wait, is he handing something over to one of the mutineers?
+global_nexus_colonial_assdir: Take this... {i}(Static.){/i} It'll help... {i}(Static.){/i} the armory. Don't... {i}(Static.){/i}
+SAM: I am sorry, Pathfinder. This backup file is corrupted. The audio tracks are heavily degraded.
+SAM: Someone may have deleted the original, and this version was restored during a system-wide reset.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Sounds like a cover-up to me.
+    SAM: I concur.
+    SAM: While I cannot restore any more audio, the location appears to be "Kadara."
+    Hero: How do you figure?
+    SAM: In common parlance, lip reading.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Good job. We're bound to find something there.
+    ├ option 2:
+        SAM: I do not recognize the location from any current data. It appears mountainous... and populated.
+        SAM: We will need to find the planet before I can confirm. I will contact you via my node.
+    └─ merge ─┘
+├ option 2:
+    Hero: Can we prove this, or is it just a theory?
+    SAM: A theory.
+    ↩ (goto) SAM: While I cannot restore any more audio, the location appears to be "Kadara."
+└─ merge ─┘
+Hero: Okay. Keep working on it, and let me know if you find something useful.

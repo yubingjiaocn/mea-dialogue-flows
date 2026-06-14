@@ -1,0 +1,29 @@
+# game/conversations/unc/olw/homesteads/olw_homestead_interrogation_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/homesteads/olw_homestead_interrogation_i.xml
+==================================================
+SAM: Most of the data has been wiped.
+Hero: Can you recover anything?
+SAM: The audio from the final log. Shall I play it?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I want to look around some more.
+├ option 2:
+    Hero: Do it.
+    olw_interrogator: [Audio Log] If you're thinking, "This can't get worse." I assure you, it can.
+    olw_outcast_victim: [Audio Log] Ah! {i}(Painful deep breaths.){/i} Fuck you.
+    olw_interrogator: [Audio Log] Operative Lacerta. Where is he?
+    olw_outcast_victim: [Audio Log] Unlike you bastards, Sloane doesn't play with her food.
+    olw_interrogator: [Audio Log] So he's dead. That's unfortun—
+    olw_collective_guard_01: [Audio Log] Caelum! Outcast patrol inbound.
+    olw_collective_guard_01: [Audio Log] Kill the bastard and wipe the logs.
+    olw_interrogator: [Audio Log] I'll report Lacerta's death to the Charlatan.
+    olw_interrogator: [Audio Log] Meet you at the base in Draullir.
+└─ merge ─┘
+SAM: Shall I play the log?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) Hero: I want to look around some more.
+├ option 2:
+    ↩ (goto) Hero: Do it.
+└─ merge ─┘

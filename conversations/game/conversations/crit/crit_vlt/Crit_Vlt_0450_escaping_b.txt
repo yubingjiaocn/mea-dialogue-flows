@@ -1,0 +1,75 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0450_escaping_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0450_escaping_b.xml
+==================================================
+┌─ BRANCH (10) ─┐
+├ option 1:
+    Hero: Peebee! Get back to the entrance, now!
+    global_squad_asari: [Comm] I saw it! What is that thing?
+    Hero: Don't risk it! Just go!
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Too far to jump! Got another bridge?
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Hope you can pull another bridge out of your ass, Ryder!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Need bridge now!
+    └─ merge ─┘
+├ option 3:
+    Hero: More Remnant! Push through!
+├ option 4:
+    Hero: Watch out! Vents!
+├ option 5:
+    Hero: It's still coming!
+    global_squad_asari: [Comm] It's sweeping the whole vault! Kills anything in its way!
+    Hero: Yeah, like us!
+├ option 6:
+    Hero: Another gravity well!
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: We don't know where it goes!
+        Hero: It goes away from here! We're taking it!
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: It could go anywhere!
+        ↩ (goto) Hero: It goes away from here! We're taking it!
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Yeah, but where does it go?
+        ↩ (goto) Hero: It goes away from here! We're taking it!
+    └─ merge ─┘
+├ option 7:
+    Hero: That's the door to the entrance! Almost there!
+├ option 8:
+    Hero: The barrier's gone!
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Get that thing if you want, but it's going to be close!
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: You want that thing, grab it quick!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: If that thing's worth it, grab it, but keep moving!
+    └─ merge ─┘
+├ option 9:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        SAM [OncePerGame]: It would be wise to escape, Ryder.
+        Hero: I know, SAM!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: It's not letting up!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Keep running!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Faster! Don't let it catch us.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I looked back! Why did I look back?
+    └─ merge ─┘
+├ option 10:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Hurry up! We gotta go!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: We're dead if we don't move!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Don't shoot! Run!
+    └─ merge ─┘
+└─ merge ─┘

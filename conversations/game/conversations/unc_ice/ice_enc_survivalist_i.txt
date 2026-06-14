@@ -1,0 +1,41 @@
+# game/conversations/unc_ice/ice_enc_survivalist_i
+# Primary speaker: ICE_Pasi
+# Source: game/conversations/unc_ice/ice_enc_survivalist_i.xml
+==================================================
+ICE_Pasi [OncePerGame]: This isn't Havarl. You spend too long out there in the dark, you'll get weak, sick... or worse.
+ICE_Reima: It's bad. I get it. How do I stay alive?
+ICE_Pasi: The moment you see sunlight, break cover. Soak up all the rays you can.
+ICE_Reima: I'll be a target.
+ICE_Pasi: Not for long. You'll get a lot from just five minutes of exposure. After that, get back under cover.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ICE_Reima ⟨cond⟩: The human is listening to us.
+    ICE_Pasi: You here to learn survival tips from old Pasi?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: You sound like an expert, and I'd like to survive.
+        ICE_Pasi: What I can teach wouldn't help. Different biology.
+        ICE_Reima: Your body can't store a charge.
+        ↩ (goto) ICE_Pasi: [empty]
+    ├ option 2:
+        Hero: Why does your kind need the sun?
+        ICE_Pasi: We draw nourishment from solar radiation. Keeps us sharp. Even heals minor injuries.
+        ICE_Reima: But we have to keep out of sight or the kett will spot us.
+        ↩ (goto) ICE_Pasi: [empty]
+    ├ option 3:
+        Hero: If you go too long without sunlight, do you get sick?
+        ICE_Pasi: Lack of regular exposure puts our bodies under stress. Too much of that, and we're no use to anyone.
+        ICE_Reima: Have to keep my strength up for the Resistance.
+        ↩ (goto) ICE_Pasi: [empty]
+    ├ option 4:
+        Hero: Good luck out there.
+        ICE_Reima: I'm ready to go, Pasi.
+        ICE_Pasi: Not so fast. You still don't know how to read a weather pattern...
+    └─ merge ─┘
+├ option 2:
+    ICE_Reima: The human is listening to us.
+    ↩ (goto) ICE_Pasi: You here to learn survival tips from old Pasi?
+└─ merge ─┘
+ICE_Reima: There's a lot to learn.
+↩ (goto) ICE_Pasi: [empty]
+ICE_Pasi: Later. I'm not done with him.

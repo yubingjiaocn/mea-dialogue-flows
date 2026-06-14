@@ -1,0 +1,27 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0400_elder_direct_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0400_elder_direct_b.xml
+==================================================
+Hero: Okay, kett terminal—let's see what you've got hiding in here. SAM?
+SAM: Searching. The Chosen are logged by genetic information.
+global_squad_angara: Hurry. Please.
+SAM: I am working at top velocity with an alien language, in an alien technology, checking against angaran databases.
+SAM: The Moshae was here, but her pod was pulled out of line moments ago.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Pulled out to where?
+    SAM: Pods travel from here to rooms that encircle this core.
+    Hero: Right then, let's go.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: To where?
+    ↩ (goto) SAM: Pods travel from here to rooms that encircle this core.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Just our luck.
+    ↩ (goto) SAM: Pods travel from here to rooms that encircle this core.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Uh-oh. Where to?
+    ↩ (goto) SAM: Pods travel from here to rooms that encircle this core.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Get to the "where," SAM.
+    ↩ (goto) SAM: Pods travel from here to rooms that encircle this core.
+└─ merge ─┘

@@ -1,0 +1,27 @@
+# game/conversations/hubs/hub_mer/mer_squad_jaal_approach_a
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_mer/mer_squad_jaal_approach_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Hello, my darling one.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Hey, Scott.
+    ├ option 3:
+        global_squad_angara: Stay clear, Ryder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_angara: Perhaps we could exchange tech hacks sometime.
+        mer_hub_staff_construction_multi: With you, the one who modded that kett rifle? Yeah, I think we've got stuff to talk about.
+    ├ option 2:
+        mer_hub_staff_construction_multi: Hmm, I can't say. I haven't been out of stasis very long.
+        global_squad_angara: How strange to not immediately awaken a man of your obvious expertise.
+        mer_hub_staff_construction_multi: Thanks, son. I like you, too.
+    ├ option 3:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘

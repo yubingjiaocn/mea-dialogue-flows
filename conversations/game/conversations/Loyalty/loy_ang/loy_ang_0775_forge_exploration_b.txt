@@ -1,0 +1,45 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0775_forge_exploration_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0775_forge_exploration_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: These stones are massive.
+    global_squad_angara: They were shaped from the very bedrock of Havarl using extreme heat.
+    global_squad_angara: That's why we call it "the Forge."
+    Hero: Do you still use that technique?
+    global_squad_angara: No, it's lost to us.
+├ option 2:
+    Hero: What was this place before the Scourge?
+    global_squad_angara: Everyone's got a theory.
+    global_squad_angara: The Moshae believes it was a monument.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Maybe it has something to do with the Jardaan?
+        global_squad_angara: They are our creators. Maybe our ancestors knew...
+        global_squad_angara: Another piece of history lost.
+    ├ option 2:
+        Hero: And you?
+        global_squad_angara: I like to think of it as a market.
+        global_squad_angara: A gathering place of some kind.
+    └─ merge ─┘
+├ option 3:
+    Hero: Do these markings mean something?
+    global_squad_angara: Some think it is an ancient version of Shelesh, our trade language.
+    global_squad_angara: But no one's been able to decipher it.
+    Hero: SAM, can you make anything of it?
+    SAM: The markings appear to share more similarities with Remnant glyphs than with Shelesh.
+    SAM: But they do not match any known syntax in my records, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: I could stay here for hours.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Look at this place.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: This place is something else.
+├ option 4:
+    global_squad_turian ⟨cond⟩: This is impressive.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: It's beautiful.
+└─ merge ─┘

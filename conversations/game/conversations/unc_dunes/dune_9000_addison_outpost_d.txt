@@ -1,0 +1,100 @@
+# game/conversations/unc_dunes/dune_9000_addison_outpost_d
+# Primary speaker: global_nexus_colonial_director_multi
+# Source: game/conversations/unc_dunes/dune_9000_addison_outpost_d.xml
+==================================================
+global_nexus_colonial_director_multi: You really did it. Almost a civil war, and you brought them back.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Director Addison? No personal appearance? Placing an outpost is a big deal.
+    global_nexus_colonial_director_multi: Thank you, but no. I prefer climate control to... these extremes.
+    global_nexus_colonial_director_multi: Thankfully, my ledgers don't care how they get filled. If I can retroactively call the krogan colony an outpost, that's a win.
+    global_nexus_colonial_director_multi: But that practicality is not universal. Tann will hate this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm not interested in opinions that don't see the value here.
+        global_nexus_colonial_director_multi: Good. Because there will be a lot of them. But not from me.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_nexus_colonial_director_multi: And... it will undoubtedly draw one of Dr. Kennedy's trackers. Search the Zaubray system. She and her child are still a priority.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                    Hero: Is this really the time?
+                    global_nexus_colonial_director_multi: "Pathfinder" was always a symbol. Like outpost flags hanging in the commons, the people need a connection to reality on the ground.
+                    global_nexus_colonial_director_multi: Address them, Pathfinder. What did this mean?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: The first thing we did when we arrived in Andromeda was splinter. But the Initiative spirit kept going.
+                            Hero: Not only are the krogan back in the fold, they've shown how we can build. New Tuchanka. Harsh, but a home.
+                            global_nexus_colonial_director_multi: One for the records, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: There's a reason the krogan came with the Initiative. Why the Initiative needs them. It's obvious on Elaaden.
+                            Hero: They bring out a part of ourselves that we need. Welcome to New Tuchanka. We're all a little krogan here.
+                            ↩ (goto) global_nexus_colonial_director_multi: One for the records, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Thanks to the krogan doing what krogan do—surviving despite and in spite of everything—we have another home.
+                            Hero: It's not tame, it's not safe, but it's bringing the dream back. New Tuchanka.
+                            ↩ (goto) global_nexus_colonial_director_multi: One for the records, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: You may have heard some crazy things about Elaaden and New Tuchanka.
+                            Hero: All true. Every word. And if I know some of you, that's more of a draw than anything I could say now.
+                            ↩ (goto) global_nexus_colonial_director_multi: One for the records, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_colonial_director_multi: But for now, I need your voice. To remind them what this meant. Get the flags waving.
+                    Hero: This seems more important than that.
+                    global_nexus_colonial_director_multi: It's about setting a tone, not telling the whole story.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_nexus_colonial_director_multi: And it'll bring thieves. Check the Zaubray system for Dr. Kennedy's trackers. I need to know her status.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: But for now, I need your voice. To remind them what this meant. Get the flags waving.
+                └─ merge ─┘
+            ├ option 3:
+                global_nexus_colonial_director_multi: We can't rest for long, of course. There will always be a need.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: But for now, I need your voice. To remind them what this meant. Get the flags waving.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: This won't be our last outpost to find, but New Tuchanka helps immeasurably.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 3:
+                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You know, it's hard to calculate how few fucks I give about Tann's opinion.
+        global_nexus_colonial_director_multi: I of course can't comment.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+        ├ option 2:
+            ↩ (goto) global_nexus_colonial_director_multi: This won't be our last outpost to find, but New Tuchanka helps immeasurably.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: But it's all about the resources. No poetry, right?
+    global_nexus_colonial_director_multi: I considered the krogan a permanent loss. Too many egos involved.
+    ↩ (goto) global_nexus_colonial_director_multi: Thankfully, my ledgers don't care how they get filled. If I can retroactively call the krogan colony an outpost, that's a win.
+└─ merge ─┘

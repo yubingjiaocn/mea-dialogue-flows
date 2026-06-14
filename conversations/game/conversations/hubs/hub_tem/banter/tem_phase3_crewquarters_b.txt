@@ -1,0 +1,61 @@
+# game/conversations/hubs/hub_tem/banter/tem_phase3_crewquarters_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/hub_tem/banter/tem_phase3_crewquarters_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human: [Comm] Just off the cargo bay if you need me.
+    ├ option 2:
+        global_squad_angara: [Comm] I'm in the tech lab, Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human: How're you feeling, Moshae Sjefa?
+        global_angaran_elder_multi: Weak, but I'll bounce back. I always have.
+        global_angaran_elder_multi: I've broken each limb, twice. You have to do more than wipe my immune system to take me down.
+        global_squad_male_human: You and my mum would love each other.
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_angaran_elder_multi: Are you happy here?
+            global_squad_angara ⟨cond⟩: Yes. The Pathfinder lets me tinker. I took apart something called a "blow dryer."
+            global_squad_angara: It's more valuable tech than it seems.
+            global_squad_male_human: We're going to have words when she's gone.
+        ├ option 2:
+            global_squad_angara: Yes. The Pathfinder lets me tinker. I took apart something called a "blow dryer."
+            ↩ (goto) global_squad_angara: It's more valuable tech than it seems.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human: There much to say about that facility on Voeld?
+        global_squad_angara: There will be. But maybe not right now.
+        global_squad_male_human: I get you, pal. Inane chatter about nothing, coming up.
+    ├ option 2:
+        global_squad_male_human: Caught you napping. Do all angara snore? Or just you?
+        global_squad_angara: Do all humans whimper in their sleep? Or just you?
+    ├ option 3:
+        global_squad_angara: So that looks good to you?
+        global_squad_male_human: As if any of your meals pass the bucket test.
+        global_squad_angara: You lost me.
+        global_squad_male_human: Picture your favorite food. Now picture it in a bucket beside a barn. Would you still eat it?
+        global_squad_angara: Do all humans try to ruin everything, or just you?
+    ├ option 4:
+        global_squad_male_human: Your Moshae is tough. Reminds me of my mum.
+        global_squad_angara: Is she the heart of your community, as well?
+        global_squad_male_human: She never had to stand her ground against a phalanx of kett. But she put up with me.
+        global_squad_angara: Heroic efforts all around.
+        global_squad_male_human: {i}(Chuckles){/i} You dick.
+    ├ option 5:
+        global_squad_angara: Are the buildings at Prodromos typical houses for humans?
+        global_squad_male_human: There's a lot of variance, even within our species. Not sure I can call anything "typical."
+        global_squad_angara: Yours, then—what did your family home look like?
+        global_squad_male_human: I might start crying.
+        global_squad_angara: Is that shameful? We cry together. Laugh together. Sometimes fight like adhi.
+        global_squad_male_human: {i}(Chuckles.){/i} Now that sounds like home.
+    └─ merge ─┘
+└─ merge ─┘

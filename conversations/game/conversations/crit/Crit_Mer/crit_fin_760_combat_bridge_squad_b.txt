@@ -1,0 +1,224 @@
+# game/conversations/crit/crit_mer/crit_fin_760_combat_bridge_squad_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_760_combat_bridge_squad_b.xml
+==================================================
+global_nexus_militia_leader: [Comm] Deploying everyone available, Pathfinder!
+nex_rp_sci_sci02: [Comm] Not strictly true.
+nex_rp_sci_sci03: [Comm] Save the pedantry for the victory party.
+global_nexus_militia_leader: [Comm] Kett are on a rally! Call out! Can we hold them?
+┌─ BRANCH (7) ─┐
+├ option 1:
+    crit_fin_pro_security: [Comm] Prodromos security deploying.
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_nexus_militia_leader: [Comm] More than enough. It's not a roll call.
+        global_nexus_militia_leader: [Comm] Keep pushing, Pathfinder. We're with you.
+    ├ option 2:
+        crit_ex_res_fighter_3_multi: [Comm] The Resistance is with you.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+        ├ option 2:
+            loyalty_hmm_shuttle_engineer_02_multi: [Comm] You ready?
+            loyalty_hmm_shuttle_engineer_03_multi: [Comm] You know it.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                loy_ang_jaal_cuz1: [Comm] Here to fight by our cousin!
+                loy_ang_jaal_cuz3: [Comm] Together!
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                ├ option 2:
+                    global_salarian_major: [Comm] Support is on site. For now.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                    ├ option 2:
+                        global_krogan_botanist: [Comm] Let them breathe through this!
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                        ├ option 2:
+                            global_nexus_militia_leader: [Comm] Too lean for this, Pathfinder. We risk being more distraction than help!
+                            Hero: Understood!
+                        └─ merge ─┘
+                    ├ option 3:
+                        ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+                    └─ merge ─┘
+                ├ option 3:
+                    ↩ (goto) Hero ⟨cond⟩: [empty]
+                ├ option 4:
+                    ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 4:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 5:
+                ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+            └─ merge ─┘
+        ├ option 3:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 4:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 5:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 6:
+            ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 4:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 5:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 6:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 7:
+        ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 3:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 4:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 5:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 6:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 7:
+    nex_rp_sci_sci01: [Comm] Coordinating.
+    nex_rp_sci_sci02: [Comm] I don't like the totals.
+    nex_rp_sci_sci03: [Comm] Especially with this topography.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_ai_leader_son ⟨cond⟩: [Comm] Too little to work with.
+        global_nexus_militia_leader: [Comm] "No" would have sufficed.
+        ↩ (goto) angararesleader_multi: [empty]
+    ├ option 2:
+        ↩ (goto) global_nexus_militia_leader: [Comm] "No" would have sufficed.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_charlatan ⟨cond⟩: [Comm] Dropships inbound!
+    angararesleader_multi: [Comm] So are we! Do we have the ability to assist?
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        dune_colony_rebel: [Comm] I'll show kett who's worth killing!
+        ┌─ BRANCH (8) ─┐
+        ├ option 1:
+            angararesleader_multi: [Comm] Numbers say fire! Target the dropship!
+        ├ option 2:
+            global_kalinda: [Comm] We live through this, all debts are paid!
+            ┌─ BRANCH (7) ─┐
+            ├ option 1:
+                ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                ice_anjikdoxeel: [Comm] Concentrate fire where the Mind of Voeld calculates!
+                ┌─ BRANCH (6) ─┐
+                ├ option 1:
+                    ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                ├ option 2:
+                    nex_rp_cross_kaare_multi: [Comm] I have isolated the key targets!
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                    ├ option 2:
+                        bio_outpost_staff_science_multi: [Comm] I've run this simulation. Target as directed.
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                        ├ option 2:
+                            dune_mwsleader: [Comm] New Tuchanka representing! Let's go!
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                            ├ option 2:
+                                dune_main_scav_trader_multi: [Comm] Don't say I never helped a business partner!
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) crit_ex_res_fighter_3_multi ⟨cond⟩: [empty]
+                                ├ option 2:
+                                    angararesleader_multi: [Comm] We're not in a position to take on dropships, Pathfinder!
+                                    Hero: On it! Stay safe!
+                                └─ merge ─┘
+                            ├ option 3:
+                                ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+                            └─ merge ─┘
+                        ├ option 3:
+                            ↩ (goto) Hero ⟨cond⟩: [empty]
+                        ├ option 4:
+                            ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+                        └─ merge ─┘
+                    ├ option 3:
+                        ↩ (goto) Hero ⟨cond⟩: [empty]
+                    ├ option 4:
+                        ↩ (goto) Hero ⟨cond⟩: [empty]
+                    ├ option 5:
+                        ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+                    └─ merge ─┘
+                ├ option 3:
+                    ↩ (goto) Hero ⟨cond⟩: [empty]
+                ├ option 4:
+                    ↩ (goto) Hero ⟨cond⟩: [empty]
+                ├ option 5:
+                    ↩ (goto) Hero ⟨cond⟩: [empty]
+                ├ option 6:
+                    ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 4:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 5:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 6:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 7:
+                ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+            └─ merge ─┘
+        ├ option 3:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 4:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 5:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 6:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 7:
+            ↩ (goto) Hero ⟨cond⟩: [empty]
+        ├ option 8:
+            ↩ (goto) crit_ex_res_fighter_3_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 3:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 4:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 5:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 6:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 7:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 8:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            kad_charlatan ⟨cond⟩: [Comm] It's all numbers, big guy!
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            kad_queen: [Comm] Count for yourself!
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    kad_queen: [Comm] Dropships inbound!
+    ↩ (goto) angararesleader_multi: [Comm] So are we! Do we have the ability to assist?
+└─ merge ─┘
+global_nexus_militia_leader: [Comm] We're clear, but we need to regroup.
+angararesleader_multi: [Comm] Keep going, Pathfinder. We'll shore up the rear.

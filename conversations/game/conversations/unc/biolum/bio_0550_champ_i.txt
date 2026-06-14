@@ -1,0 +1,74 @@
+# game/conversations/unc/biolum/bio_0550_champ_i
+# Primary speaker: bio_ang_champ
+# Source: game/conversations/unc/biolum/bio_0550_champ_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    bio_ang_champ: I said I would meet you soon.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Esmus said you have the soul of someone they call "Zorai." Who's that?
+        bio_ang_champ: The sages believe Zorai had rare knowledge of Remnant, and was alive when the Scourge came.
+        bio_ang_champ: When I was young, they came from Mithrava to speak with my mother. They tried to convince her that I possessed Zorai's spirit.
+        bio_ang_champ: They intended to take me with them. Mother ran them off. They never tried again.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            bio_ang_champ [OncePerGame]: Now my mind is filled with images and impressions that aren't mine. Maybe the sages were right.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Maybe they were. I suppose it's possible. After all we've seen in Heleus already.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: We know the angara were created, Maybe this was part of your design.
+                    bio_ang_champ: Yes, I heard what was found at Khi Tasira.
+                    bio_ang_champ: Maybe, in time, we'll figure out why and how it happens—though I doubt it'll help sort out my own feelings.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    bio_ang_champ: Knowing why it happens won't help me sort through the feelings in my head.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: There has to be another explanation. Even if we don't know what it is yet.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We know the angara were created, Maybe this was part of your design.
+                ├ option 2:
+                    ↩ (goto) bio_ang_champ: Knowing why it happens won't help me sort through the feelings in my head.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Why do you, and the rest of the Roekaar, hate aliens so much?
+        bio_ang_champ: With everything the kett have done, how can we not?
+        bio_ang_champ: If the Roekaar discover I helped you, they will see me as a traitor.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I'm the only one, as far as I know, who can reset the monolith and the vault.
+                Hero: This isn't for me. This is for Havarl.
+                bio_ang_champ: Requiring an alien to rescue our homeworld. Don't you see what a disgrace that is?
+                bio_ang_champ: Driven to work with you, and yet, detesting you. My head's a mess.
+            ├ option 2:
+                Hero: I'm sorry for everything the kett have done.
+                bio_ang_champ: I don't need your apologies or your sympathy.
+                bio_ang_champ: I don't know how or why, but I need to help you find the monolith.
+                ↩ (goto) bio_ang_champ: Driven to work with you, and yet, detesting you. My head's a mess.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        Hero: I'll see you at the location you gave me.
+        bio_ang_champ: All right.
+    └─ merge ─┘
+├ option 2:
+    bio_ang_champ: Yes?
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    bio_ang_champ: My head feels split in two.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+↩ (goto) Hero: [empty]

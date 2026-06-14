@@ -1,0 +1,34 @@
+# game/conversations/unc/storms/stm_0450_peebee_post_combat_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0450_peebee_post_combat_d.xml
+==================================================
+global_squad_asari: Not bad. My first tangle with the Remnant was a lot messier.
+Hero: "The Remnant"?
+global_squad_asari: These monoliths, the Observer and Assembler bots—they're all the remnants of something much bigger.
+global_squad_asari: But that's too long. I hate long. So, "the Remnant." Like my name's better as "Peebee."
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Ryder. You've been studying this... Remnant technology? What have you learned?
+    global_squad_asari: Plenty. Not nearly enough. It's old, it uses glyphs, and it's well-protected.
+    Hero: I saw this tech clear the skies on Habitat 7. We're hoping it could do the same for Eos.
+    global_squad_asari: Huh. Atmosphere manipulation? Maybe. Fits the model...
+    global_squad_asari: All Remnant tech is connected. You interfaced with this monolith somehow—and now it's pinging the others.
+    global_squad_asari: If you wake them up too, they must lead to whatever master switch might fix the radiation.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Interface with the monoliths, follow the connection to the source. Easy enough.
+        global_squad_asari: Sure! Just don't piss off too many Observers.
+        Narration: Peebee turns to the Remnant console, getting distracted.
+        global_squad_asari: Here, take my navpoints. I'll be—I've got to figure this interfacing out. Just be careful. This planet's all kinds of strange.
+    ├ option 2:
+        Hero: You're sure it'll help Eos? Or am I just a handy way to get those monoliths online?
+        global_squad_asari: I'm a little offended by that, Ryder.
+        Hero: Uh huh.
+        global_squad_asari: Okay, maybe, but we both get what we want. Just try. It's not like we can make this planet worse.
+        ↩ (goto) Narration: Peebee turns to the Remnant console, getting distracted.
+    └─ merge ─┘
+├ option 2:
+    Hero: Thanks for helping with those things. I'm Ryder.
+    global_squad_asari: You're a mystery. I've been studying those glyphs for months, then you arrive and—pffft! Solved.
+    ↩ (goto) Hero: I saw this tech clear the skies on Habitat 7. We're hoping it could do the same for Eos.
+└─ merge ─┘

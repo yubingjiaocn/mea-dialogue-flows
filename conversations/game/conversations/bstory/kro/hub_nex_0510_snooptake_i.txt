@@ -1,0 +1,46 @@
+# game/conversations/bstory/kro/hub_nex_0510_snooptake_i
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/hub_nex_0510_snooptake_i.xml
+==================================================
+Hero: Wait. Is that what I think it is?
+SAM: That model ship was declared missing from inventory six months ago.
+Hero: Hmm.
+SAM: Pathfinder, are you putting the box back?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Finder's keepers.
+├ option 2:
+    Hero: Yes. Yes, I am.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Accessing audio logs.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: Play the first one.
+        global_nexus_colonial_assdir: [Audio Log] Tann is starting to get along with Vetra's replacement a little too well.
+        global_nexus_colonial_assdir: [Audio Log] Better do something about it.
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        Hero: Play the second one.
+        global_nexus_colonial_assdir: [Audio Log] Remind Addison that the krogan all left. Keep her unhappy.
+        ↩ (goto) SAM: [empty]
+    ├ option 3:
+        Hero: Play the third one.
+        global_nexus_colonial_assdir: [Audio Log] Stay away from what's-his-face in charge of the first colony.
+        global_nexus_colonial_assdir: [Audio Log] If he thought I was messing with Addison, he could be serious trouble.
+        ↩ (goto) SAM: [empty]
+    ├ option 4:
+        Hero: Thanks, SAM.
+    └─ merge ─┘
+├ option 2:
+    SAM: The datapad is password locked. Shall I run a decryption?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Seems worth the risk. Do it.
+        ↩ (goto) SAM ⟨cond⟩: Accessing audio logs.
+    ├ option 2:
+        Hero: Not sure violation of privacy is warranted here.
+        SAM: Very well.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,76 @@
+# game/conversations/crit/intrld25/intrld25_0400_trust_quest_d
+# Primary speaker: Narration
+# Source: game/conversations/crit/Intrld25/intrld25_0400_trust_quest_d.xml
+==================================================
+global_squad_female_human: I'm just saying, as far as first contact goes, at least that went better than the last one.
+global_squad_male_human: Only slightly.
+global_squad_asari: Yeah—what happened? I wanted to look around.
+global_squad_krogan: And now we have another mouth to feed. Whatever he eats...
+global_squad_turian: Do the translators not work?
+global_squad_angara: They work.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I know we're improvising as we go, but let's remember that there {i}is{/i} Pathfinder team protocol.
+    global_squad_asari: Don't think I got that handbook.
+    global_squad_female_human: Ryder, we followed our best lead here, and now we don't even have that.
+    Hero: Jaal has offered to do what he can to help us access the vault on Aya.
+    global_squad_turian: How do we do that when we're leaving the planet it's on?
+    Hero: That's... a fair point. Jaal?
+    global_squad_female_human: Seriously?
+    global_squad_male_human: Settle down! Ryder's right. There's an angara right here. Let's hear from the new guy.
+    global_squad_angara: One day, about eighty years ago, the Archon and the kett arrived in Heleus, and the horror began.
+    global_squad_turian: They declared war?
+    global_squad_angara: Nothing so easy to define or fight.
+    Hero: The kett kidnap angara—their people disappear without a trace. What if they were us?
+    global_squad_krogan: Sure, I'll fight kett all day long—but that's no plan.
+    global_squad_asari: I agree. We need to get into that vault, Ryder.
+    global_squad_female_human: Surprisingly, I'm with Peebee. Our own mission has to take priority.
+    Hero: We have a plan. Kind of. Pretty solid. Jaal?
+    global_squad_angara: The Resistance is stretched thin. I was tasked with traveling to two of our worlds at our briefing this morning—and you'll accompany me. ⏎
+    global_squad_male_human: Because...?
+    global_squad_angara: Because then Evfra will see you as trustworthy. You want that.
+    Hero: Jaal's told me about these two worlds: Havarl and Voeld.
+    global_squad_angara: Before the Scourge disaster, Voeld was a thriving planet of billions, a shining center of technology and life.
+    global_squad_turian: And now?
+    global_squad_angara: It's the center of our ground war against the kett. Our Resistance base is fighting Kett Command for control of the planet.
+    global_squad_female_human: What about the other?
+    global_squad_angara: Havarl is the birthplace of the angara. It's started to degrade, to become wild and dangerous. We suspect Remnant.
+    global_squad_asari: Now we're talking.
+    global_squad_angara: We've recently lost contact with our scientists.
+    global_squad_krogan: Still don't get how any of this helps us.
+    global_squad_female_human: I do. Help us—or rather, help {i}me{/i}—and I'll vouch for you, right? Because Jaal wants inside Aya's vault, too.
+    global_squad_krogan: Pathfinder? It's your call.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: Let me weigh the options. I'll let you know.
+        global_squad_male_human: We'll be ready, whatever you decide.
+        Hero: Jaal, give Kallo the navpoints for both planets. Let's... do this.
+    ├ option 2:
+        Hero: Okay. Yes. I appreciate the vote of confidence.
+        global_squad_female_human: Maybe more like "optimism." Confidence? You'll get there.
+        ↩ (goto) Hero: Jaal, give Kallo the navpoints for both planets. Let's... do this.
+    ├ option 3:
+        Hero: Don't know yet—just be ready to go at a moment's notice. Got it?
+        global_squad_turian: You bet.
+        ↩ (goto) Hero: Jaal, give Kallo the navpoints for both planets. Let's... do this.
+    ├ option 4:
+        Hero: Wait, what? Kidding. {i}(Sighs.){/i} Just... be ready.
+        global_squad_asari: What have you gotten yourself into?
+        ↩ (goto) Hero: Jaal, give Kallo the navpoints for both planets. Let's... do this.
+    └─ merge ─┘
+├ option 2:
+    Hero: Come on, everyone. Can we just all please try to... Just listen up.
+    global_squad_krogan: Begging. Interesting strategy.
+    ↩ (goto) global_squad_female_human: Ryder, we followed our best lead here, and now we don't even have that.
+└─ merge ─┘
+global_squad_asari: Aw, Cora. That's a first.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_turian: [Improv walla]
+├ option 2:
+    global_squad_krogan: [Improv walla]
+├ option 3:
+    global_squad_female_human: [Improv walla]
+├ option 4:
+    global_squad_asari: [Improv walla]
+└─ merge ─┘

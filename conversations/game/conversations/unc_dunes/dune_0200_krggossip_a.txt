@@ -1,0 +1,73 @@
+# game/conversations/unc_dunes/dune_0200_krggossip_a
+# Primary speaker: dune_colony_gossip01
+# Source: game/conversations/unc_dunes/dune_0200_krggossip_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_gossip01 ⟨cond⟩: Pathfinder must think she's pretty tough to just stroll in here.
+    dune_colony_gossip02: Wonder how long she'd last in a real fight.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Subtle, guys. Real subtle.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: You realize we can hear you.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: They're testing you. Seeing if you'll take the bait.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Charming.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: We're making friends already.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Not the friendliest of places.
+    └─ merge ─┘
+├ option 2:
+    dune_colony_gossip01: Pathfinder must think he's pretty tough to just stroll in here.
+    dune_colony_gossip02: Wonder how long he'd last in a real fight.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Subtle, guys. Real subtle.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: You realize we can hear you.
+    ├ option 3:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: They're testing you. Seeing if you'll take the bait.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Charming.
+    ├ option 5:
+        ↩ (goto) global_squad_asari ⟨cond⟩: We're making friends already.
+    ├ option 6:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Not the friendliest of places.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_gossip02 ⟨cond⟩: Heard the Pathfinder was in that Rite of Union.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        dune_colony_gossip01 ⟨cond⟩: Three fiends? Maybe she's more krogan than I thought.
+    ├ option 2:
+        dune_colony_gossip01: Three fiends? Maybe he's more krogan than I thought.
+    └─ merge ─┘
+├ option 2:
+    dune_colony_gossip02: Heard the Pathfinder was in that Rite of Union.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) dune_colony_gossip01 ⟨cond⟩: Three fiends? Maybe she's more krogan than I thought.
+    ├ option 2:
+        ↩ (goto) dune_colony_gossip01: Three fiends? Maybe he's more krogan than I thought.
+    └─ merge ─┘
+└─ merge ─┘
+dune_colony_gossip01: A human settlement. I should've known.
+dune_colony_gossip02: You let one in, and they take over.
+dune_colony_gossip02: Feels good to finally have a little freedom. Think I’ll settle down here.
+dune_colony_gossip01: I know you. Pretty soon you'll get bored and jet off to Kadara.
+dune_colony_gossip02: Heh. Maybe.
+dune_colony_gossip01: Can't believe Morda had a change of heart.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_gossip02 ⟨cond⟩: That Pathfinder must be pretty damn persuasive.
+├ option 2:
+    dune_colony_gossip02: That Pathfinder must be pretty damn persuasive.
+└─ merge ─┘
+dune_colony_gossip01: You see Vorn's back?
+dune_colony_gossip02: Where was he this time?
+dune_colony_gossip01: Wouldn't say. Probably out picking weeds again.

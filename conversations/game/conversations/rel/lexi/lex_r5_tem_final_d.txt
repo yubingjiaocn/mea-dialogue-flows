@@ -1,0 +1,57 @@
+# game/conversations/rel/lexi/lex_r5_tem_final_d
+# Primary speaker: global_humanark_asari_dr
+# Source: game/conversations/rel/lexi/lex_r5_tem_final_d.xml
+==================================================
+global_humanark_asari_dr: Ready for more tests?
+Hero: Not again. Lexi, I'm fine.
+global_humanark_asari_dr: Sit now, and I'll skip the bloodwork.
+Narration: Ryder sighs and sits on the bed.
+global_humanark_asari_dr: Have you experienced any muscle spasms, nosebleeds... memory loss?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: No, but I feel a headache coming on...
+    global_humanark_asari_dr: Har-har.
+    Hero: Comments like that used to get a rise out of you.
+    global_humanark_asari_dr: I know you too well now.
+    global_humanark_asari_dr: Inhale.
+    Hero: {i}(Inhales.){/i}
+    Narration: Lexi waits a second, then continues with her examination.
+    global_humanark_asari_dr: Exhale.
+    Hero: {i}(Exhales.){/i}
+    global_humanark_asari_dr: You should know... Professor Herik approached me about a transfer to the Nexus.
+    global_humanark_asari_dr: Apparently my research on kett anatomy has been useful to the militia.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Guess I'll be telling my {i}next{/i} doctor about my abandonment issues.
+        global_humanark_asari_dr: I declined.
+        Hero: Really?
+        global_humanark_asari_dr: Didn't have a choice. No other doctor in the Initiative would take you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm lucky to have you here.
+            global_humanark_asari_dr: Yes, you are.
+            global_humanark_asari_dr: But... I'm pretty lucky, too.
+        ├ option 2:
+            Hero: You've kept me alive so far.
+            global_humanark_asari_dr: We'll just ignore the fact you died on me. Twice.
+            Hero: Three times.
+            global_humanark_asari_dr: No, no—the first time's on Harry.
+            Hero: I guess that's fair.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You could continue your studies in a low-risk environment.
+        global_humanark_asari_dr: I turned him down.
+        global_humanark_asari_dr: Truth is, I've discovered I do my best work in the field.
+        global_humanark_asari_dr: And someone has to keep an eye on you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'm lucky to have you here.
+        ├ option 2:
+            ↩ (goto) Hero: You've kept me alive so far.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: I feel like my normal self.
+    global_humanark_asari_dr: You haven't been normal since Habitat 7.
+    ↩ (goto) global_humanark_asari_dr: Inhale.
+└─ merge ─┘

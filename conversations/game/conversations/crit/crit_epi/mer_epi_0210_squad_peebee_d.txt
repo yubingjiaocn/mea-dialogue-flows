@@ -1,0 +1,89 @@
+# game/conversations/crit/crit_epi/mer_epi_0210_squad_peebee_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_epi/mer_epi_0210_squad_peebee_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: Well, hello.
+    Hero: Hello yourself.
+    global_squad_asari: Eyes front, try not to swoon... I want you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: This isn't really the time or place now, is it?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: That's the problem with you, Sara: no sense of adventure.
+            global_squad_asari: Let's get this show on the road. Meridian looks great, but—you know—been there, done that.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: We'll be here a lot. This place is the key to everything.
+                global_squad_asari: You're right. I love keys. They open all sorts of new things.
+                global_squad_asari: Heleus is changing, and will be for a long time. I'm just antsy. Don't want to miss a thing.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari: Oh! I almost forgot...
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_asari ⟨cond⟩: The device we got out of the volcano—Gil thinks it might some day allow me to program real personality into Poc and Zap.
+                        Hero: That's all I need: a robot cracking wise while I'm in a firefight.
+                        global_squad_asari: Oh, you're always so serious. Enjoy the moment. We're here to celebrate, remember?
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            Hero: I'm trying to do just that.
+                            global_squad_asari: I went too far? I did, right? Yeah, okay...
+                            global_squad_asari: {i}(Sighs.){/i} For now, you're right. The galaxy isn't going anywhere. Let's have some fun.
+                        ├ option 2:
+                            Hero: Look who's talking, Miss B'Sayle.
+                            global_squad_asari: Just keeping you on your toes.
+                            ↩ (goto) global_squad_asari: {i}(Sighs.){/i} For now, you're right. The galaxy isn't going anywhere. Let's have some fun.
+                        ├ option 3:
+                            Hero ⟨cond⟩: What am I going to do with you, Peebee?
+                            global_squad_asari: I'll send you a list.
+                            ↩ (goto) global_squad_asari: {i}(Sighs.){/i} For now, you're right. The galaxy isn't going anywhere. Let's have some fun.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_asari: Kalinda sent a congratulatory message. She was angling for an invitation, I think. De-nied!
+                        Hero: Hope you didn't turn her back into an enemy.
+                        ↩ (goto) global_squad_asari: Oh, you're always so serious. Enjoy the moment. We're here to celebrate, remember?
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_asari: There's so much more out there to learn and do.
+                    Hero: I know. We've only just scratched the surface.
+                    global_squad_asari: Hey, get your head out of the sky, Ryder. Enjoy the moment—we're here to celebrate, remember?
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: I'm trying to do just that.
+                    ├ option 2:
+                        ↩ (goto) Hero: Look who's talking, Miss B'Sayle.
+                    ├ option 3:
+                        ↩ (goto) Hero ⟨cond⟩: What am I going to do with you, Peebee?
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Hey, this was a big accomplishment. It's important to enjoy it.
+                global_squad_asari: Don't get me wrong: I'm proud of us.
+                ↩ (goto) global_squad_asari: Heleus is changing, and will be for a long time. I'm just antsy. Don't want to miss a thing.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: That's the problem with you, Scott: no sense of adventure.
+            ↩ (goto) global_squad_asari: Let's get this show on the road. Meridian looks great, but—you know—been there, done that.
+        ├ option 3:
+            global_squad_asari: That's the problem with you, Ryder: no sense of adventure.
+            ↩ (goto) global_squad_asari: Let's get this show on the road. Meridian looks great, but—you know—been there, done that.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I want you more.
+        global_squad_asari: I need proof. Soon.
+        ↩ (goto) global_squad_asari: Let's get this show on the road. Meridian looks great, but—you know—been there, done that.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: Oh, good, you're here. Maybe the festivities can finally begin.
+    global_squad_asari: Don't like sitting on my ass. Places to see, people to go. You know what I mean.
+    ↩ (goto) global_squad_asari: Let's get this show on the road. Meridian looks great, but—you know—been there, done that.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: I want you to enjoy this. It's a big deal. I'm so proud to be with you.
+├ option 2:
+    global_squad_asari: I'll be ready whenever you're done with the party.
+└─ merge ─┘

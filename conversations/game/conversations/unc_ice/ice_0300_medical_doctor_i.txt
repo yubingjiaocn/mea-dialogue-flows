@@ -1,0 +1,143 @@
+# game/conversations/unc_ice/ice_0300_medical_doctor_i
+# Primary speaker: ICE_base_doctor
+# Source: game/conversations/unc_ice/ice_0300_medical_doctor_i.xml
+==================================================
+ICE_base_doctor: Yes? What is it? You're that alien they've been talking about on comms, aren't you? Why are you standing here?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ICE_base_doctor: Don't you have more important places to be?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm Pathfinder Ryder, with the Andromeda Initiative, from—
+        ICE_base_doctor: Wonderful. You're from far away. Do they have magical healing where you're from?
+        Hero: Nothing more advanced than what you have.
+        ICE_base_doctor: Then where you're from is useless to me right now. Stand over there.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ice_base_medic ⟨cond⟩: Dr. Harihn, maybe Ryder could help us with the emergency caches.
+                Hero: Emergency caches?
+                ICE_base_doctor: This is a war zone. Kett attacks are always a risk.
+                ICE_base_doctor: Wounded? There's probably a cache of emergency medical supplies nearby.
+                ICE_base_doctor: No substitute for real medical attention, but you'll survive long enough to reach it.
+                ice_base_medic: Problem is, the caches are empty right now. We're strained and no one's been out there to replenish supplies.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: There's no time to waste. I'll help with whatever you need.
+                    ICE_base_doctor: Supply crates are stacked by the wall over there. Directions to the caches are with them. You have a vehicle?
+                    Hero: Of course.
+                    ICE_base_doctor: Good. Get going.
+                ├ option 2:
+                    Hero: A great system, and no one spared the time to make it work?
+                    ICE_base_doctor: You have no idea what you're talking about, or how many of ours have been killed or captured.
+                    ICE_base_doctor: I still have patients to see and I can't waste energy on this.
+                    ICE_base_doctor: If you want to help rather than judge, the supplies are by the wall, along with the directions to the caches.
+                    ↩ (goto) ICE_base_doctor: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ice_base_medic: Dr. Harihn, maybe Ryder could help us with the emergency caches.
+                ↩ (goto) Hero: Emergency caches?
+            └─ merge ─┘
+        ├ option 2:
+            ice_base_medic ⟨cond⟩: The commander said the alien wanted to help. And we need it. The emergency caches, maybe?
+            ↩ (goto) Hero: Emergency caches?
+        ├ option 3:
+            ice_base_medic: The commander said the alien wanted to help. And we need it. The emergency caches, maybe?
+            ↩ (goto) Hero: Emergency caches?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'm not sure which question I should answer first.
+        ICE_base_doctor: How about none of them? I simply wanted to express my surprise that someone was in my way.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) ICE_base_doctor ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) ice_base_medic ⟨cond⟩: The commander said the alien wanted to help. And we need it. The emergency caches, maybe?
+        ├ option 3:
+            ↩ (goto) ice_base_medic: The commander said the alien wanted to help. And we need it. The emergency caches, maybe?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ICE_base_doctor: Shouldn't you be talking to the commander?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: I'm Pathfinder Ryder, with the Andromeda Initiative, from—
+    ├ option 2:
+        ↩ (goto) Hero: I'm not sure which question I should answer first.
+    └─ merge ─┘
+└─ merge ─┘
+ICE_base_doctor: Good to see you back. You saved lives today. We don't know who or how many, but you did.
+ICE_base_doctor: I set something aside for you, from our latest shipment. For your help.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: A reward wasn't necessary.
+    ICE_base_doctor: It is. Trust me.
+    ICE_base_doctor: It's dangerous out there. Everyone relies on their gear to get them home. Applies to you too.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ICE_base_doctor ⟨cond⟩: Oh, and Yeda, the fighter you found, managed to make her way back. She's stable and recuperating, thanks to you...
+    ├ option 2:
+        ↩ (goto) ICE_base_doctor: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Hey, thanks. That's real nice of you.
+    ↩ (goto) ICE_base_doctor: It's dangerous out there. Everyone relies on their gear to get them home. Applies to you too.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ICE_base_doctor: What can I do for you, Ryder?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: The infirmary's full. What happened?
+            ICE_base_doctor: The kett attacked a civilian transport not far from here. These fighters were dispatched to defend them.
+            ICE_base_doctor: We won, but it was close, as you can see.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Why are the kett attacking civilian ships?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ICE_base_doctor: For exaltation, I suppose. I used to think they just used us as slaves. The truth is much worse.
+                    ↩ (goto) ICE_base_doctor: [empty]
+                ├ option 2:
+                    ICE_base_doctor: They capture angara for slave labor. We've seen their detention camps.
+                    ICE_base_doctor: Some are transported elsewhere, and we never see them again. I can't imagine the horrors they're subjected to.
+                    ↩ (goto) ICE_base_doctor: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ICE_base_doctor: The kett think they'll break us. They're wrong.
+                ↩ (goto) ICE_base_doctor: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Are you the doctor in charge here?
+            ICE_base_doctor: For the moment. My colleague Selaa and I usually take turns, but she's been on a break.
+            ICE_base_doctor: There were too many battles. Too many she couldn't save. It hurt her deeply.
+            ICE_base_doctor: Working here can be exhausting. And I don't mean just physically.
+            ↩ (goto) ICE_base_doctor: [empty]
+        ├ option 3:
+            Hero: I'll let you get back to work.
+            ICE_base_doctor: That would be best.
+        └─ merge ─┘
+    ├ option 2:
+        ICE_base_doctor: Good to see you again.
+        ↩ (goto) ICE_base_doctor: [empty]
+    ├ option 3:
+        ICE_base_doctor: Keeping warm, I hope?
+        ↩ (goto) ICE_base_doctor: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ICE_base_doctor: What do you want?
+        ↩ (goto) ICE_base_doctor: [empty]
+    ├ option 2:
+        ICE_base_doctor: Still busy, obviously.
+        ↩ (goto) ICE_base_doctor: [empty]
+    ├ option 3:
+        ICE_base_doctor: What?
+        ↩ (goto) ICE_base_doctor: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) ICE_base_doctor: [empty]

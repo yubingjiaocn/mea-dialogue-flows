@@ -1,0 +1,78 @@
+# game/conversations/loyalty/krogan_01/loyalty_kro_0600_ambs_02_b
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0600_ambs_02_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan: When I get my hands on the krogan idiot who let these other idiots steal our transport...
+    Hero: Thought you said they had the codes.
+    global_squad_krogan: So what? They never should've made it to the transport in the first place.
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Transport looks okay from here.
+        global_squad_krogan: We can replace the transport if we need to.
+        global_squad_krogan: The seed vault inside is the real prize.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: The transport seems intact at least.
+        ↩ (goto) global_squad_krogan: We can replace the transport if we need to.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Transport looks fine from here.
+        ↩ (goto) global_squad_krogan: We can replace the transport if we need to.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Transport looks good from here.
+        ↩ (goto) global_squad_krogan: We can replace the transport if we need to.
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Transport looks okay from here.
+        ↩ (goto) global_squad_krogan: We can replace the transport if we need to.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Aroane really seems to have it in for you and your clan.
+global_squad_krogan: He was part of the mutiny. I thought he was dead.
+global_squad_krogan: Morda hurt him pretty bad during that last fight on the station.
+Hero: That would explain the grudge.
+Hero: You never mentioned Vorn before.
+global_squad_krogan: Eh. Clan botanist. Kid's real good at making things grow.
+global_squad_krogan: But he has no survival instincts. At all. Miracle he made it to adulthood.
+global_squad_krogan: Figures. Place is falling apart and the skies start pissing on us.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Tactical advantage?
+    global_squad_krogan: Acid rain would be an advantage. This is just a waste of water.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Tactical advantage?
+    ↩ (goto) global_squad_krogan: Acid rain would be an advantage. This is just a waste of water.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Tactical advantage?
+    ↩ (goto) global_squad_krogan: Acid rain would be an advantage. This is just a waste of water.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Tactical advantage?
+    ↩ (goto) global_squad_krogan: Acid rain would be an advantage. This is just a waste of water.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Tactical advantage?
+    ↩ (goto) global_squad_krogan: Acid rain would be an advantage. This is just a waste of water.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: This place really is falling apart.
+    global_squad_krogan: So long as it doesn't fall apart while we're in it.
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Hey, Drack... why didn't you stay with the krogan colony?
+        global_squad_krogan: Kept tripping over the young ones asking for more war stories.
+        global_squad_krogan: Morda had things in hand. Didn't need a relic like me around. So I set out to hunt kett.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Hey, Drack... why didn't you stay with the krogan colony?
+        ↩ (goto) global_squad_krogan: Kept tripping over the young ones asking for more war stories.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Hey, Drack... why didn't you stay with the krogan colony?
+        ↩ (goto) global_squad_krogan: Kept tripping over the young ones asking for more war stories.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: Hey, Drack... why didn't you stay with the krogan colony?
+        ↩ (goto) global_squad_krogan: Kept tripping over the young ones asking for more war stories.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Hey, Drack... why didn't you stay with the krogan colony?
+        ↩ (goto) global_squad_krogan: Kept tripping over the young ones asking for more war stories.
+    └─ merge ─┘
+└─ merge ─┘

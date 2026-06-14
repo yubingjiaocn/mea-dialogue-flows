@@ -1,0 +1,40 @@
+# Game/Conversations/Hubs/Hub_Nexus/docks/nex_dck_immig_salarians_a
+# Primary speaker: nex_dck_immig_rep
+# Source: game/conversations/hubs/hub_nexus/docks/nex_dck_immig_salarians_a.xml
+==================================================
+nex_dck_immig_rep: Welcome. Name and medical scan, please?
+nex_dck_sal_colonist1: Tern Sarik. Is there a news terminal somewhere?
+nex_dck_sal_colonist1: There's a thousand rumors... and I went to sleep in a stasis compartment of fifty people, and woke up with ten.
+nex_dck_immig_rep: You'll be debriefed in the waiting room, sir. Your medical scan's all fine.
+nex_dck_sal_colonist1: Can't you just—?
+nex_dck_immig_rep: I'm sorry, sir. A whole ark is waiting. Next!
+nex_dck_immig_rep: Welcome to the Nexus. Name?
+nex_dck_sal_colonist2: Vek Hevren.
+nex_dck_immig_rep: Let me see... your medical scan's all clear. The waiting room is that way.
+nex_dck_sal_colonist2: Thank you. Very efficient. Our first circle's going to love it here.
+nex_dck_immig_rep: You came with the whole first circle of your clan?
+nex_dck_sal_colonist2: Not {i}everyone{/i}. Only seventy or so—they're somewhere in the line. I haven't seen my cousins, though...
+nex_dck_immig_rep: {i}(Sighs.){/i} I'm sure they'll find enough chairs. Next!
+nex_dck_immig_rep: Name?
+nex_dck_sal_colonist3: Inoste Sef.
+nex_dck_immig_rep: Medical scan, please?
+nex_dck_sal_colonist3: Here. They said I looked great. Not a scratch on me. Not like...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_dck_sal_colonist3 ⟨cond⟩: Does anyone know if our Pathfinder is still alive?
+    nex_dck_immig_rep: I couldn't say, sir. You're clear to go.
+    nex_dck_sal_colonist3: Ha. Go where?
+    nex_dck_immig_rep: Next!
+├ option 2:
+    nex_dck_sal_colonist3: Do we even know how many people we lost?
+    ↩ (goto) nex_dck_immig_rep: I couldn't say, sir. You're clear to go.
+└─ merge ─┘
+nex_dck_immig_rep: Welcome to—don't I know you?
+nex_dck_sal_colonist4: Yes, Resh Faray? I came through before?
+nex_dck_immig_rep: Did the doctors check out that stomach trouble?
+nex_dck_sal_colonist4: They did. I'm all better now. Here's my new scan.
+nex_dck_immig_rep: Hmm. They're requesting another week for observation. I'm afraid I can't clear you.
+nex_dck_sal_colonist4: But I've already spent all that time in quarantine! Don't you know what we went through to get here?
+nex_dck_immig_rep: I'm sorry, sir. It's for everyone's protection.
+nex_dck_sal_colonist4: I can't leave. I can't go on the Nexus—
+nex_dck_immig_rep: Next!

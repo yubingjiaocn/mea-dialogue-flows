@@ -1,0 +1,36 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_krog_kiosk_i
+# Primary speaker: nex_culcent_krog
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_krog_kiosk_i.xml
+==================================================
+nex_culcent_krog: Hi there. Thanks for stopping by. I'm a krogan. Are you interested in hearing more about my people?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Okay.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_culcent_krog: Of course you are. We may look scary, but don't let that worry you.
+        nex_culcent_krog: It comes from living on a harsh world. We're a species that knows how to thrive even under the worst conditions.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: Where do you come from?
+            nex_culcent_krog: An ugly rock called Tuchanka. No sense lying—it's not a planet most people want to visit. We had predators, nasty weather, and not much else.
+            nex_culcent_krog: But it gave us our identity. Forced us to adapt and evolve—everything about us is built for survival.
+            nex_culcent_krog: How many species do you know that have a pair of spare lungs, just in case?
+            nex_culcent_krog: Or four testicles?
+            ↩ (goto) nex_culcent_krog: [empty]
+        ├ option 2:
+            Hero: What's krogan history like?
+            nex_culcent_krog: Colorful, you might say. Growing up in our neighborhood, only the toughest survived. That usually meant a lot of fighting.
+            nex_culcent_krog: You'll hear stories, so no sense covering it up: we once had a great society, but I'm ashamed to say we squandered it.
+            nex_culcent_krog: It's why a lot of krogan are here in Andromeda now. They're the smart ones, the ones looking for peace and a fresh start.
+            ↩ (goto) nex_culcent_krog: [empty]
+        ├ option 3:
+            nex_culcent_krog: Thanks for chatting—we're all looking forward to meeting our new neighbors.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) nex_culcent_krog: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Maybe later.
+    nex_culcent_krog: Okay, but don't worry: I won't bite.
+└─ merge ─┘

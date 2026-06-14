@@ -1,0 +1,40 @@
+# game/conversations/unc/olw/cerberus/olw_cerb_0100_npc2_a
+# Primary speaker: olw_cerb_villager2
+# Source: game/conversations/unc/olw/cerberus/olw_cerb_0100_npc2_a.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        olw_cerb_villager2: Counterforce targeting is a strategic approach to destroying the enemy's command structure and military forces.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_cerb_villager2: More information is required.
+        ├ option 2:
+            olw_cerb_villager2: Deeper extrapolation on the matter is ongoing.
+        └─ merge ─┘
+    ├ option 2:
+        olw_cerb_villager2: Preemptive war is a conflict initiated with the intent of disrupting an enemy attack that is imminent or inevitable.
+        ↩ (goto) olw_cerb_villager3: [empty]
+    ├ option 3:
+        olw_cerb_villager2: Acceptable losses describe a level whereby civilian and military casualties fall within a threshold deemed tolerable for overall victory.
+        ↩ (goto) olw_cerb_villager3: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) ?: [empty]
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_cerb_villager2: The voice... It's gone. {i}(Moans.){/i} Lost. So lost. All of us lost. Never find our way. No light. {i}(Moans.){/i} No guiding light.
+    ├ option 2:
+        olw_cerb_villager2: Who has the voice? {i}(Moans.){/i} Where did it go? {i}(Moans.){/i} So lost... Where is the light?
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_cerb_villager2: It's so pretty here, isn't? The light... the sky... Life is good...
+    ├ option 2:
+        olw_cerb_villager2: Such a nice feeling. The freedom. No worries. No cares. All of us together.
+    └─ merge ─┘
+└─ merge ─┘
+olw_cerb_villager2: Greetings. Error. That interaction is not understood. Report logged.

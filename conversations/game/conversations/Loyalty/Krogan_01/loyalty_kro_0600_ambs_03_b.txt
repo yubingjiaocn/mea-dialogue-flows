@@ -1,0 +1,74 @@
+# game/conversations/loyalty/krogan_01/loyalty_kro_0600_ambs_03_b
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0600_ambs_03_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Whatever this place is, it's been abandoned for a long time.
+    global_squad_krogan: We may be in another galaxy, but I'll be damned if this ain't a mining operation.
+├ option 2:
+    global_squad_krogan: Yeah, this place was a major operation back in the day.
+    global_squad_krogan: Looks like it's been out of commission a long time now.
+├ option 3:
+    global_squad_krogan: Ore refinery. Been centuries since I've seen anything like this.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: I've {i}never{/i} seen a refinery like this.
+        global_squad_krogan: Sometimes I forget how young you all are. This place is just old.
+        global_squad_krogan: Bigger, creakier. Not as safe as the ones back home. The legal ones anyway.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Centuries, huh.
+        ↩ (goto) global_squad_krogan: Sometimes I forget how young you all are. This place is just old.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Hell of a memory you've got, old man.
+        ↩ (goto) global_squad_krogan: Sometimes I forget how young you all are. This place is just old.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: It's different but... sort of looks like stuff we had back in the Milky Way? I guess?
+        global_squad_krogan: Yeah, kinda. Definitely a similar setup.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: That's right. Abandoned for a long time, I'd say. Your refineries are similar to ours then?
+        ↩ (goto) global_squad_krogan: Yeah, kinda. Definitely a similar setup.
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan: Careful. Steam systems like this like to let loose now and then.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Be careful. These pipes have release valves for steam overflow.
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan: Like I was saying.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: There's the overflow.
+    └─ merge ─┘
+├ option 6:
+    global_squad_krogan: Conveyer belt. Looks like the sorting mechanism is jammed. Scanner works fine though.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: How do you know all this stuff?
+        global_squad_krogan: Did this kind of work before.
+        global_squad_krogan: ExoGeni Corporation mining outpost. Working conditions were shit.
+        global_squad_krogan: So I quit and went back to being a pirate. It was somehow safer.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Worked in the mines, huh?
+        global_squad_krogan: Something like that.
+        ↩ (goto) global_squad_krogan: ExoGeni Corporation mining outpost. Working conditions were shit.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Let me guess. You worked in a mining operation once.
+        global_squad_krogan: Tried to, once.
+        ↩ (goto) global_squad_krogan: ExoGeni Corporation mining outpost. Working conditions were shit.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: I could probably use the parts for something interesting.
+        global_squad_krogan: I've seen a lot of good mechanics in my day, but you're something else.
+        global_squad_angara: I learned out of necessity.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: How do you know all this stuff?
+        ↩ (goto) global_squad_krogan: Did this kind of work before.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Look at that.
+global_squad_krogan: Elaaden.
+global_squad_krogan: Home.
+global_squad_krogan: Cliff collapsed, looks like.

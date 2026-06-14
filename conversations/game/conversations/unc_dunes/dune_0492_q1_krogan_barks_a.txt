@@ -1,0 +1,21 @@
+# game/conversations/unc_dunes/dune_0492_q1_krogan_barks_a
+# Primary speaker: dune_hern_posse_01
+# Source: game/conversations/unc_dunes/dune_0492_q1_krogan_barks_a.xml
+==================================================
+dune_hern_posse_01 [OncePerGame]: We've got company! How'd they get in?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_hern_posse_02 ⟨cond⟩: It's that Pathfinder from the Paradise!
+    dune_hern_posse_02: Protect the drive core!
+├ option 2:
+    dune_hern_posse_02: It's that Pathfinder from the Paradise!
+    ↩ (goto) dune_hern_posse_02: Protect the drive core!
+└─ merge ─┘
+dune_hern_posse_01 [OncePerGame]: Should we call Strux?
+dune_hern_posse_02: No! He'll hang me by my quads!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_hern_posse_02: Protect that drive core with your life!
+├ option 2:
+    dune_hern_posse_01: Don't let them get the drive core!
+└─ merge ─┘

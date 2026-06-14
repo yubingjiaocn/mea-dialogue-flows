@@ -1,0 +1,67 @@
+# game/conversations/loyalty/human_male_01/loyalty_hmm_0605_cargo_bay_3_a
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0605_cargo_bay_3_a.xml
+==================================================
+Hero: It's the cargo bay.
+global_squad_male_human: Again!
+loyalty_hmm_pirate_leader: [Loudspeaker] What do you mean you can't see them? Well, get ready everywhere!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: He makes me feel punchy.
+    global_squad_male_human: Pathfinder. That door up there. It was blocked before.
+    Hero: How about it, Bradley?
+    ustl_settle_01_admin_multi: [Comm] Negative. You'll have to scan for something manual.
+├ option 2:
+    global_squad_angara ⟨cond⟩: I'm looking forward to meeting him.
+    ↩ (goto) global_squad_male_human: Pathfinder. That door up there. It was blocked before.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Real eager to meet that person.
+    ↩ (goto) global_squad_male_human: Pathfinder. That door up there. It was blocked before.
+├ option 4:
+    global_squad_asari ⟨cond⟩: There is nothing about this guy I like.
+    ↩ (goto) global_squad_male_human: Pathfinder. That door up there. It was blocked before.
+├ option 5:
+    global_squad_turian ⟨cond⟩: We're shooting him, right?
+    ↩ (goto) global_squad_male_human: Pathfinder. That door up there. It was blocked before.
+└─ merge ─┘
+Hero: We move this, maybe we can reach the door.
+global_squad_male_human: Let's find the controls.
+Hero: There's where we need to go.
+global_squad_male_human: Move the crane, pop the door. Perfect.
+loyalty_hmm_shuttle_engineer_02_multi: [Comm] Still on their cameras. Calot has filled the hall past that door.
+global_squad_male_human: And the captives?
+loyalty_hmm_shuttle_engineer_02_multi: [Comm] Past them.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: No, no. Through them.
+├ option 2:
+    global_squad_angara ⟨cond⟩: Ready when you are.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Whatever it takes.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Let's do it.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Let's get it done.
+└─ merge ─┘
+Hero: Door and crane. Here they come!
+Hero: The crane is taking its time!
+global_squad_male_human: Upside-down! Probably grinding its bearings!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Crane is blocked!
+    Hero: The debris! Hit it!
+├ option 2:
+    global_squad_angara ⟨cond⟩: Crane is blocked!
+    ↩ (goto) Hero: The debris! Hit it!
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Crane is blocked!
+    ↩ (goto) Hero: The debris! Hit it!
+├ option 4:
+    global_squad_asari ⟨cond⟩: Crane is blocked!
+    ↩ (goto) Hero: The debris! Hit it!
+├ option 5:
+    global_squad_turian ⟨cond⟩: Crane is blocked!
+    ↩ (goto) Hero: The debris! Hit it!
+└─ merge ─┘
+global_squad_male_human: It's in position! Let's get up there!
+Hero: Go! Move!

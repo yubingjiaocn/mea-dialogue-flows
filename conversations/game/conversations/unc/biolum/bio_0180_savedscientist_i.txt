@@ -1,0 +1,84 @@
+# game/conversations/unc/biolum/bio_0180_savedscientist_i
+# Primary speaker: bio_sci_frozen_researcher
+# Source: game/conversations/unc/biolum/bio_0180_savedscientist_i.xml
+==================================================
+bio_sci_frozen_researcher: Kiiran wants to talk more about Havarl's decline. We should discuss it when you have time.
+Hero ⟨cond⟩: You said you saw turians in the jungle?
+bio_sci_frozen_researcher: Is that what they're called? We didn't know. We just kept out of sight.
+bio_sci_frozen_researcher: They crashed here, I think.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The turian ark? Was it a large ship?
+        bio_sci_frozen_researcher: I saw some debris, but not an entire ship.
+        bio_sci_frozen_researcher: I'll give you the navpoint and you can go see for yourself.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Before you got caught in that stasis field, Kiiran says you were studying the monolith. What did you learn?
+            bio_sci_frozen_researcher: There's a vault here. When the Scourge hit, it took down some functionality.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                bio_sci_frozen_researcher: But now that all monoliths are active and the vault reset, Havarl's problems should come to an end.
+                ↩ (goto) bio_sci_frozen_researcher: [empty]
+            ├ option 2:
+                bio_sci_frozen_researcher: It's still working to some extent, but with only two out of three monoliths, the system is... off balance.
+                Hero: And you can't reset it without the third one.
+                bio_sci_frozen_researcher: Exactly. We hoped that with enough understanding of the monoliths, we could attach our own tech to it. Correct it somehow.
+                bio_sci_frozen_researcher: But progress is slow. Too slow.
+                ↩ (goto) bio_sci_frozen_researcher: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: Mithrava and the sages. Tell me more about that.
+            bio_sci_frozen_researcher: We don't know much. They limit their interactions with everyone else. Even when they need to trade, they say very little.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                bio_sci_frozen_researcher ⟨cond⟩ [OncePerGame]: Kiiran's probably ashamed I even brought them up. It's just that I once heard...
+                bio_sci_frozen_researcher: Stars. You'll mock me.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Most stories start from a grain of truth.
+                    bio_sci_frozen_researcher: When I was small, I overheard a story the sages tell, of a man who lived through the Scourge.
+                    bio_sci_frozen_researcher: The Scourge shut down the monoliths on all planets. The vaults stopped working.
+                    bio_sci_frozen_researcher: But this man understood Remnant, they don't know how, and he... did something.
+                    bio_sci_frozen_researcher: He's the reason the vault and the two monoliths worked for as long as they did. And if the tale's true...
+                    Hero: Maybe they know the location of the third monolith.
+                    bio_sci_frozen_researcher: Yes.
+                    ↩ (goto) bio_sci_frozen_researcher: [empty]
+                ├ option 2:
+                    Hero: I won't mock or tease, you have my word. Please go on.
+                    ↩ (goto) bio_sci_frozen_researcher: When I was small, I overheard a story the sages tell, of a man who lived through the Scourge.
+                └─ merge ─┘
+            ├ option 2:
+                bio_sci_frozen_researcher: They think that by keeping apart from us, they'll preserve the integrity of their legends.
+                ↩ (goto) bio_sci_frozen_researcher: [empty]
+            └─ merge ─┘
+        ├ option 3:
+            ↩ (goto) Hero ⟨cond⟩: You said you saw turians in the jungle?
+        ├ option 4:
+            Hero: We can speak more later.
+            bio_sci_frozen_researcher: I'll be here.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Were they all right? Are they still alive?
+        bio_sci_frozen_researcher: Still alive? I don't know. We were stuck in that stasis field for a while.
+        bio_sci_frozen_researcher: I guess they could still be out there. Unless they tried to eat something—or the Roekaar got them...
+        ↩ (goto) bio_sci_frozen_researcher: I'll give you the navpoint and you can go see for yourself.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) bio_sci_frozen_researcher: [empty]
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    bio_sci_frozen_researcher: Good to see you again, Pathfinder.
+    ↩ (goto) bio_sci_frozen_researcher: [empty]
+├ option 2:
+    bio_sci_frozen_researcher: What can I help with?
+    ↩ (goto) bio_sci_frozen_researcher: [empty]
+├ option 3:
+    bio_sci_frozen_researcher: I'm here if you need something.
+    ↩ (goto) bio_sci_frozen_researcher: [empty]
+└─ merge ─┘
+↩ (goto) bio_sci_frozen_researcher: [empty]
+bio_sci_frozen_researcher: I hope those turians are still out there. See if you can find them before something awful happens.
+↩ (goto) bio_sci_frozen_researcher: [empty]

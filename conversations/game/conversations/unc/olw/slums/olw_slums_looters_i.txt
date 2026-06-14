@@ -1,0 +1,26 @@
+# game/conversations/unc/olw/slums/olw_slums_looters_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/slums/olw_slums_looters_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_looter_01 [OncePerGame]: Fuck off. This one's ours.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Yep. My mistake. Enjoy.
+        olw_looter_02: {i}(Scoffs.){/i} Asshole.
+    ├ option 2:
+        Hero: Looting is wrong.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_looter_02 ⟨cond⟩: {i}(Laughs.){/i} She for real?
+            olw_looter_01: {i}(Laughs){/i} "Looting is wrong." What a little bitch.
+            SAM: Let's not antagonize them further, Pathfinder.
+        ├ option 2:
+            olw_looter_02: {i}(Laughs.){/i} This guy for real?
+            ↩ (goto) olw_looter_01: {i}(Laughs){/i} "Looting is wrong." What a little bitch.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    olw_looter_01: I said fuck off!
+└─ merge ─┘

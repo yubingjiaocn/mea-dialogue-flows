@@ -1,0 +1,27 @@
+# game/conversations/storyteller/anchors/sty_finale_dune_outdest_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_finale_dune_outdest_b.xml
+==================================================
+Hero: That was... kinda fun.
+SAM: I no longer detect a signal, Pathfinder. I believe we have eliminated the source.
+Hero: Good. We're done here.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They're stockpiling explosives...
+    Hero: We can't let them get a chance to use this. We need to take it out.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Enough explosives to destroy New Tuchanka...
+    ↩ (goto) Hero: We can't let them get a chance to use this. We need to take it out.
+├ option 3:
+    global_squad_turian ⟨cond⟩: The scavs are stockpiling explosives...
+    ↩ (goto) Hero: We can't let them get a chance to use this. We need to take it out.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Well... we found their stockpile.
+    ↩ (goto) Hero: We can't let them get a chance to use this. We need to take it out.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Whoa. That's a lot of explosives...
+    ↩ (goto) Hero: We can't let them get a chance to use this. We need to take it out.
+├ option 6:
+    global_squad_angara ⟨cond⟩: The scavengers have stockpiled explosives...
+    ↩ (goto) Hero: We can't let them get a chance to use this. We need to take it out.
+└─ merge ─┘

@@ -1,0 +1,72 @@
+# game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0200_prisoner_d
+# Primary speaker: nex_rp_mur_murderer_multi
+# Source: game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0200_prisoner_d.xml
+==================================================
+nex_mil_jailer: Help you?
+Hero: Pathfinder Ryder. Here to see Nilken Rensus.
+nex_mil_jailer: Ah, our murderer. Wife's here all the time. Guess she told you her sob story.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_mil_jailer: Nilken, you're moving up in the world. There's a Pathfinder wanting to chat with you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_mur_murderer_multi: A Pathfinder, huh? They called in the big guns to exile Andromeda's First Murderer.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm not here to exile you. Told your wife I'd look into things.
+            nex_rp_mur_murderer_multi: At this point, it's too late. They found me guilty.
+            Hero: Why don't you tell me what happened?
+            nex_rp_mur_murderer_multi: I was part of the futile effort to set up a colony on Eos. We were on our last legs, overrun by hostiles, our leader dead.
+            nex_rp_mur_murderer_multi: The security chief, Reynolds—my friend—he refused to call for evacuation. I argued with him. Everyone saw.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: So when he was killed, people assumed you did it?
+                nex_rp_mur_murderer_multi: For good reason.
+                nex_rp_mur_murderer_multi: He ordered us to regroup and counter attack. We were moving through a sandstorm.
+                nex_rp_mur_murderer_multi: I saw movement, thought it was the kett, and I—I guess I panicked and fired...
+                nex_rp_mur_murderer_multi: A witness saw the Chief's chest explode.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Sounds like an accident.
+                    nex_rp_mur_murderer_multi: That's what I told them.
+                    nex_rp_mur_murderer_multi: But I was enraged when we argued. There's a recording. It's ugly.
+                    nex_rp_mur_murderer_multi: Everyone's certain I did it on purpose so we could evacuate. Only my word otherwise.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: I'll check out the evidence. Maybe something doesn't add up.
+                        nex_rp_mur_murderer_multi: It would be nice to have someone with an open mind looking at it.
+                        nex_rp_mur_murderer_multi: You're a Pathfinder—I'm sure Kandros would give you access.
+                        nex_rp_mur_murderer_multi: Maybe there's still hope.
+                    ├ option 2:
+                        Hero: Don't throw in the towel yet. I'll review the evidence. Maybe I can find something that'll help.
+                        nex_rp_mur_murderer_multi: That would be great.
+                        ↩ (goto) nex_rp_mur_murderer_multi: You're a Pathfinder—I'm sure Kandros would give you access.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I'm so sorry. That's awful.
+                    nex_rp_mur_murderer_multi: We were close. He was a stubborn son of a... I admired that about him.
+                    ↩ (goto) nex_rp_mur_murderer_multi: But I was enraged when we argued. There's a recording. It's ugly.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Last I checked, getting into a spat wasn't against the law.
+                nex_rp_mur_murderer_multi: There's more.
+                ↩ (goto) nex_rp_mur_murderer_multi: He ordered us to regroup and counter attack. We were moving through a sandstorm.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Your wife's all broken up over this. She says you didn't do it. And that she loves you.
+            nex_rp_mur_murderer_multi: {i}(Sighs.){/i} She's a wonderful person.
+            ↩ (goto) nex_rp_mur_murderer_multi: At this point, it's too late. They found me guilty.
+        └─ merge ─┘
+    ├ option 2:
+        nex_rp_mur_murderer_multi: A Pathfinder, huh? They called in the big guns to exile Andromeda's First Murderer.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'm not here to exile you. Told your wife I'd look into things.
+        ├ option 2:
+            ↩ (goto) Hero: Your wife's all broken up over this. She says you didn't do it. And that she loves you.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    nex_mil_jailer: Nilken, you're moving up in the world. There's a Pathfinder wanting to chat with you.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

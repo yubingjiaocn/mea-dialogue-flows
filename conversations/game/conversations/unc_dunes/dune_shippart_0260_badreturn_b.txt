@@ -1,0 +1,23 @@
+# game/conversations/unc_dunes/dune_shippart_0260_badreturn_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_shippart_0260_badreturn_b.xml
+==================================================
+Hero: Where's Nora?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Really? After you sold her only way off the planet, you're surprised?
+    SAM: I detect no life signs, Pathfinder.
+    Hero: Shit.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: You're surprised? After what you pulled?
+    ↩ (goto) SAM: I detect no life signs, Pathfinder.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Don't act so surprised. You screwed her over.
+    ↩ (goto) SAM: I detect no life signs, Pathfinder.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: You really screwed her over, Ryder.
+    ↩ (goto) SAM: I detect no life signs, Pathfinder.
+├ option 5:
+    global_squad_asari ⟨cond⟩: I can't believe you. It's your fault.
+    ↩ (goto) SAM: I detect no life signs, Pathfinder.
+└─ merge ─┘

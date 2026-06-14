@@ -1,0 +1,96 @@
+# game/conversations/loyalty/human_male_01/loyalty_hmm_0550_random_topics_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0550_random_topics_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: {i}(Whistling.){/i}
+    Hero: No whistling.
+    global_squad_male_human: Aww.
+├ option 2:
+    global_squad_male_human [OncePerGame]: Knock knock.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: What?
+        global_squad_male_human: Just say "who's there?"
+        global_squad_angara: But it's you.
+        global_squad_male_human: Never mind.
+        global_squad_angara: Got you.
+        global_squad_male_human: {i}(Snickers.){/i} Nice.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Too polite. Krogan go with explosives.
+        global_squad_male_human: No, it's a joke.
+        global_squad_krogan: Yeah, I know. Explosives are hilarious.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: No.
+        global_squad_male_human: Fair enough.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: {i}(Sighs.){/i} Who's there?
+        global_squad_male_human: Oh, uh, I didn't expect you to actually do it. No one likes these.
+        global_squad_female_human: You're not wrong.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: "Interrupting cow" is the only good knock knock. Is it "Interrupting cow"?
+        global_squad_male_human: Uh. No.
+        global_squad_asari: Hmph. Too bad.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human [OncePerGame]: How'd Calot manage to hold this ship together?
+    Hero: We'll ask him. On the way out.
+├ option 4:
+    global_squad_male_human [OncePerGame]: Poke around. It's not like Calot earned a damned thing in here.
+├ option 5:
+    global_squad_male_human [OncePerGame]: Feeling pretty good about our friends on the hull.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: They barely arrived in time.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: And if they hadn't showed?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: That wasn't guaranteed.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: You didn't know they'd come.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: That was the luckiest part.
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human [OncePerGame]: Hard to believe they could hide a ship this big.
+    Hero: It's all the radiation and debris. Keeps smart people from stumbling onto it.
+    global_squad_male_human: Uh huh.
+├ option 7:
+    global_squad_male_human [OncePerGame]: Still good, Augie? Slowing the pace for a moment.
+    ustl_settle_01_admin_multi: [Comm] Just hacking multiple systems while parked on a ship careening through a debris field.
+    global_squad_male_human: That means he's good.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: Got to be a straggler around here somewhere!
+├ option 2:
+    global_squad_male_human [OncePerGame]: Where are they hiding?
+├ option 3:
+    global_squad_male_human [OncePerGame]: At least one more somewhere!
+├ option 4:
+    global_squad_male_human [OncePerGame]: Got to be one left in here!
+├ option 5:
+    global_squad_male_human [OncePerGame]: Eyes open—we're not clear!
+└─ merge ─┘
+Hero: An ID of some kind. Doesn't look like these "Talons."
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Resistance. Likely out of Voeld. I would report that.
+    Hero: We'll hang on to it.
+├ option 2:
+    global_squad_male_human: More like Jaal's Resistance. Maybe out of Voeld?
+    ↩ (goto) Hero: We'll hang on to it.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: Nice!
+├ option 2:
+    global_squad_male_human [OncePerGame]: What have we here?
+├ option 3:
+    global_squad_male_human [OncePerGame]: We'll have that.
+├ option 4:
+    global_squad_male_human [OncePerGame]: Hidden treasure.
+├ option 5:
+    global_squad_male_human [OncePerGame]: Good find.
+└─ merge ─┘

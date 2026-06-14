@@ -1,0 +1,55 @@
+# game/conversations/crit/crit_epi/mer_epi_0210_squad_jaal_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_epi/mer_epi_0210_squad_jaal_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara: My darling one.
+    Hero: Jaal. Your affections are so loud, sometimes.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Yours can be, too. Right? I think you're blushing... Ha.
+        global_squad_angara: You accomplished the inconceivable. I'm grateful to be part of it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Couldn't have done it without you and the Resistance—but mostly you.
+            global_squad_angara: That's kind. I'm glad I rose to meet your expectations.
+            global_squad_angara: To think that, when we met, the angara and your Initiative struggled to find trust.
+            Hero: The way we arrived on Aya was over the top. You know, uninvited and on fire.
+            global_squad_angara: Agreed.
+            Hero: Guess it worked out okay.
+            global_squad_angara: Ryder, the angara will never forget how you saved the Moshae.
+            global_squad_angara: But more than that, we'll never forget how you fought the kett beside us—how we destroyed the Archon.
+            global_squad_angara: Meridian is a new beginning for your people and mine. Together.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero: New beginnings. That's what I came to Heleus for.
+                global_squad_angara: And what I dreamed of. Yes, new beginnings.
+                global_squad_angara: So let's get to it.
+            ├ option 2:
+                Hero: It's like a fairy tale. Do you have those? Where everyone walks off into the sunset, holding hands?
+                global_squad_angara: At a time like this, I think it's strange that you can't resist making a joke.
+                Hero: I can so... {i}(Light cough.){/i} Jaal, our people... Actually, no I can't.
+                global_squad_angara: Actually, I kind of like it.
+            ├ option 3:
+                Hero ⟨cond⟩: Jaal, I care the most about our new beginning. You and I together.
+                global_squad_angara: Darling. One day we'll have a place of our own and I'll hold you close, looking out over a beautiful world—one we created.
+            ├ option 4:
+                Hero ⟨cond⟩: What I care about most, though, is our new beginning.
+                global_squad_angara: One day, my love, we'll have a place of our own. And I'll hold you close, looking out over a beautiful world that we created.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: No, {i}I'm{/i} grateful. I couldn't have asked for a better team. We created this together.
+            global_squad_angara: And exactly what it is, what it may become, I can't even imagine.
+            ↩ (goto) global_squad_angara: To think that, when we met, the angara and your Initiative struggled to find trust.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_squad_angara: You accomplished the inconceivable. I'm grateful to be part of it.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: So this is how you all party? Pretty tame, but don't tell the host I said that.
+    global_squad_angara: Meridian is amazing, though.
+    ↩ (goto) global_squad_angara: You accomplished the inconceivable. I'm grateful to be part of it.
+└─ merge ─┘
+global_squad_angara: Are we staying? Heading out? Whatever you need.

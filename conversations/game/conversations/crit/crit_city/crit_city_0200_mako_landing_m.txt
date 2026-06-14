@@ -1,0 +1,81 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0200_mako_landing_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0200_mako_landing_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Initiating Ghost Storm, on my mark. Three, two... go!
+    crit_city_archonssword_multi: [Comm] Enemy signature detected. Commence pursuit.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_science_officer ⟨cond⟩: Raeka, it's working!
+        global_salarian_pathfinder_multi: [Comm] Reading a bunch of kett headed our way. Pulling back. It's all you now, Tempest.
+        global_crew_science_officer: We should get them as close as possible to here.
+        global_crew_science_officer: Intense readings. Could be some kind of control center.
+        global_crew_co-pilot: No decent landing sites. This could get messy.
+        global_crew_science_officer: How messy?
+        global_crew_co-pilot: [Comm] Ryder, looks like a flyby is our only option.
+        global_crew_co-pilot: [Comm] I'll get as low as possible, but you'll have to eject over the target area.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: This is our one shot. We have to take the risk.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human: Another hot drop? We got this.
+                Hero: We don't exactly have a history of soft landings.
+                global_squad_male_human: Wouldn't want it any other way.
+                global_crew_tech_officer: All right, you know the drill. Watch your rate of descent.
+                global_crew_tech_officer: Shields should take care of the rest.
+                global_crew_science_officer: [Comm] So far so good. The kett haven't detected us.
+                global_crew_co-pilot: [Comm] But once we go in, we'll be clear as day to any troops on the ground.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: The Tempest can take some shots if it has to.
+                    global_crew_co-pilot: [Comm] Some. Not many.
+                    global_crew_science_officer: We're too close! The kett will see us!
+                    global_crew_co-pilot: Then you better find me a drop zone!
+                    global_crew_science_officer: Okay... okay, I think I see one. There!
+                    global_crew_co-pilot: Got it.
+                    global_crew_co-pilot: Five seconds to drop!
+                    Hero: {i}(Grunts.){/i}
+                ├ option 2:
+                    Hero: Don't worry about us. Just make sure you and the Tempest get out safe.
+                    global_crew_co-pilot: [Comm] Loud and clear.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_tech_officer: You've fallen out of things before, right? Just don't scream too loud on the way down.
+                global_crew_tech_officer: It's embarrassing.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I've fallen out of so many things now I should be a pro.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_male_human: She's right, you know. Ever since our date on that first planet.
+                    Hero: Habitat 7. Not a date.
+                    global_squad_male_human: Every time, I'm like, are you a repeating angel? Because you keep falling from... {i}(Snickers.){/i}
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    global_squad_male_human: Ever since day one on Habitat 7. Good times.
+                    global_squad_male_human: Except the shuttle exploding. Let's not do that again.
+                    global_crew_tech_officer: What he said. I've got this "shuttle" streamlined. Plus I'm gonna be on it.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_tech_officer: Heard about your freefall to Habitat 7. Liam said he could hear you screaming the whole way down.
+                global_crew_tech_officer: Keep it buttoned this go-round, huh? It's embarrassing.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_science_officer: Hayjer, it's working!
+        crit_kett_salarian_captain_multi: [Comm] Reading a bunch of kett headed our way. Pulling back. It's all you now, Tempest.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    crit_kett_salarian_captain_multi: [Comm] Initiating Ghost Storm, on my mark. Three, two... go!
+    ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+└─ merge ─┘

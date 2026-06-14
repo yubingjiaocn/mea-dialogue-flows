@@ -1,0 +1,77 @@
+# Game/Conversations/Loyalty/Loy_HMF/loy_hmf_0200_bridge_d
+# Primary speaker: loy_hmf_cmdr_sarissa_multi
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0200_bridge_d.xml
+==================================================
+Narration: The Player enters the bridge where Captain Atandra and Sarissa are mid-argument
+loy_hmf_cmdr_sarissa_multi: But you'd vent a Pathfinder team into space?
+loy_hmf_cpt_atandra: Respectfully, yes. We can't take any more chances!
+Hero: {i}(Coughs pointedly.){/i}
+loy_hmf_cmdr_sarissa_multi: Sarissa Theris, Pathfinder. Don't mind the captain. Scolding me eases her blood pressure.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Ryder. I hadn't heard you were the asari Pathfinder.
+    global_squad_female_human: The last we knew, ma'am, Matriarch Ishara was Pathfinder, with you acting as her tiamna.
+    Narration: Sarissa looks impressed and surprised (the word "tiamna" has painful overtones for her which she wants to hide)
+    global_squad_female_human: I served with asari commandos, ma'am. Memorized all your battle manuals.
+    Narration: Captain Atandra is visibly losing patience.
+    loy_hmf_cpt_atandra: Matriarch Ishara is dead. Sarissa was next in line. Her battle manuals haven't kept the kett off my ark.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What happened? Why are the kett after you?
+        Narration: Sarissa stands near the front windows of the bridge. The Scourge is visible outside.
+        loy_hmf_cmdr_sarissa_multi: Matriarch Ishara died trying to negotiate with those kett bastards. So I took something precious from them, too.
+        loy_hmf_cmdr_sarissa_multi: I stole a module containing tactical data. All their secret routes through this phenomenon.
+        global_squad_female_human: We call it the Scourge, ma'am. If we could out-maneuver the kett through it...
+        Hero: We'd stand a better chance against them.
+        loy_hmf_cpt_atandra: Their Archon had the same thought. He sent his elite agent, the Valiant, and his Decimation hunters after us.
+        loy_hmf_cpt_atandra: We take more damage each time we escape the Valiant. The last assault? He sent forces to board us. Sarissa's theft has made things... problematic.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: How many boarders are we talking about?
+            loy_hmf_cpt_atandra: We're not sure, but for now, they're contained down there.
+            loy_hmf_cpt_atandra: We couldn't do more. We spent our resources evacuating civilians. The Valiant wants Sarissa to pay.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You pissed off the kett and endangered your ark for a map? Nice.
+                global_squad_female_human: Ryder!
+                loy_hmf_cmdr_sarissa_multi: Well, I've only been running military ops since your ancestors were children.
+                Hero: But here we are.
+                Hero: What would it take to get the ark out of here before this Valiant catches up again?
+                loy_hmf_cpt_atandra: An FTL burn long enough to lose him. But since the evacuation we've been stuck at minimal power. The drive core's dead.
+                loy_hmf_cmdr_sarissa_multi: My people are investigating, but those systems are below decks. With the kett boarders.
+                Hero: Another Pathfinder team could back them up.
+                loy_hmf_cmdr_sarissa_multi: Get power for the drive core, and my SAM and I will finish deciphering the kett data. We'll turn the Valiant's escape routes against him.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    global_squad_asari ⟨cond⟩: Pfft. First rule: always know your escape plan.
+                    loy_hmf_cpt_atandra: The last commando report came from Hangar Control. I'll give you access. Please be careful.
+                ├ option 2:
+                    global_squad_krogan ⟨cond⟩: Shoot the kett, slap a patch on the holes, you'll be good to go.
+                    ↩ (goto) loy_hmf_cpt_atandra: The last commando report came from Hangar Control. I'll give you access. Please be careful.
+                ├ option 3:
+                    global_squad_angara ⟨cond⟩: The kett will suffer. I promise.
+                    ↩ (goto) loy_hmf_cpt_atandra: The last commando report came from Hangar Control. I'll give you access. Please be careful.
+                ├ option 4:
+                    global_squad_female_human: Consider it done, ma'am.
+                    ↩ (goto) loy_hmf_cpt_atandra: The last commando report came from Hangar Control. I'll give you access. Please be careful.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Pathfinders have to take risks, Captain. I've taken my share.
+                loy_hmf_cpt_atandra: Goddess preserve me.
+                ↩ (goto) Hero: What would it take to get the ark out of here before this Valiant catches up again?
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: You pissed off the kett and endangered your ark for a map? Nice.
+        ├ option 3:
+            ↩ (goto) Hero: Pathfinders have to take risks, Captain. I've taken my share.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That ends today. We'll see your ark safely back to the Nexus.
+        loy_hmf_cpt_atandra: I hope so. We've tried everything else.
+        ↩ (goto) Narration: Sarissa stands near the front windows of the bridge. The Scourge is visible outside.
+    └─ merge ─┘
+├ option 2:
+    Hero: Cora here thought the famous Sarissa would have everything in hand.
+    global_squad_female_human: I thought Matriarch Ishara was Pathfinder, ma'am, and you were her bodyguard—like her tiamna?
+    ↩ (goto) Narration: Sarissa looks impressed and surprised (the word "tiamna" has painful overtones for her which she wants to hide)
+└─ merge ─┘

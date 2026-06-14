@@ -1,0 +1,39 @@
+# game/conversations/crit/crit_ex/crit_ex_0304_pst_cerem_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0304_pst_cerem_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Did I hear that right? "The chosen"?
+    Hero: Chosen for what, exactly?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Jaal, they happy to be here?
+        global_squad_angara: No, of course not! I don't know what's going on either.
+        Hero: Whatever it is, we need to get the Moshae out of it.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Could they have come here because they wanted to?
+        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Jaal... they can't have chosen to be here, can they?
+        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: They can't want... whatever is happening. Can they?
+        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Jaal... could they actually want this?
+        ↩ (goto) global_squad_angara: No, of course not! I don't know what's going on either.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: Did she just call them "the chosen"?
+    ↩ (goto) Hero: Chosen for what, exactly?
+├ option 3:
+    global_squad_asari ⟨cond⟩: That can't be right. She called them "the chosen."
+    ↩ (goto) Hero: Chosen for what, exactly?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Really not liking the sound of "the chosen."
+    ↩ (goto) Hero: Chosen for what, exactly?
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Did she call them "the chosen"?
+    ↩ (goto) Hero: Chosen for what, exactly?
+└─ merge ─┘

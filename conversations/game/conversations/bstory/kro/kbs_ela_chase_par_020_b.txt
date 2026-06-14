@@ -1,0 +1,27 @@
+# Game/Conversations/Bstory/kro/kbs_ela_chase_par_020_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/kbs_ela_chase_par_020_b.xml
+==================================================
+Hero: So Spender's been sneaking goods from the Nexus to these exiles? Why?
+SAM: This "Aroane" seems concerned about something hidden in Spender's apartment on the Nexus.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Aroane! I've tangled with that crook before. What's he doing with Spender?
+    SAM: The datapad mentions a scrambler, which would explain the state of the file in the security archives.
+    SAM: I highly recommend finding it.
+    Hero: So, find the scrambler, nail Spender. Check.
+├ option 2:
+    ↩ (goto) SAM: The datapad mentions a scrambler, which would explain the state of the file in the security archives.
+└─ merge ─┘
+Hero: Huh. What's this?
+Hero: This must a rendezvous point for these exiles. Remote enough.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Great spot for Spender to do some dirty work. Well outta Tann's jurisdiction.
+├ option 2:
+    SAM: Spender appears to know it well.
+└─ merge ─┘
+global_squad_krogan: Spender's keeping these exiles pretty happy. No wonder my people are having so much trouble.
+loyalty_krogan_pirateleader_multi: [Comm] Come in? Come in? Did you all really die?
+loyalty_krogan_pirateleader_multi: [Comm] Alert Spender. I think the Nexus—
+Hero: Let's go confront Spender.

@@ -1,0 +1,44 @@
+# game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0220_militia_a
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0220_militia_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_rp_pol_militia_02 [OncePerGame]: Hey, Pathfinder.
+        Hero: You're with the militia, right? What's going on in there?
+        nex_rp_pol_militia_02: A crowd of people in Hydroponics and they won't leave.
+        nex_rp_pol_militia_01: They're disrupting operations. Might get nasty. Can you talk to them?
+    ├ option 2:
+        nex_rp_pol_militia_01 ⟨cond⟩: Look who it is.
+        Hero: Is this because I agreed with the stasis protestors?
+        nex_rp_pol_militia_02: At least everyone walked away in one piece.
+        nex_rp_pol_militia_01: And spit is good for armor. Right, Ryder?
+    ├ option 3:
+        nex_rp_pol_militia_02 [OncePerGame]: Thanks for calling in reinforcements, Pathfinder.
+        Hero: Are you okay?
+        nex_rp_pol_militia_01: Yeah, we're good. We thought they could be trusted to keep it to slogans. Lesson learned.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_rp_pol_militia_02 ⟨cond⟩ [OncePerGame]: This morning was so normal, then suddenly I'm poking someone in the back with a gun barrel...
+        nex_rp_pol_militia_02: I need a shower.
+    ├ option 2:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            nex_rp_pol_militia_02 [OncePerGame]: Seems quiet, for now. Look, Jonesy—
+            nex_rp_pol_militia_01: I know. This isn't what I signed up for, either.
+        ├ option 2:
+            nex_rp_pol_militia_02 [OncePerGame]: Any word?
+            nex_rp_pol_militia_01: Nope, no new orders. Keep the safeties on, I guess.
+        ├ option 3:
+            nex_rp_pol_militia_01 [OncePerGame]: Won't they get hungry?
+            nex_rp_pol_militia_02: They're in {i}Hydroponics{/i}.
+            nex_rp_pol_militia_01: So? Baby lettuce ain't exactly filling.
+        └─ merge ─┘
+    ├ option 3:
+        nex_rp_pol_militia_01: Pathfinder.
+    └─ merge ─┘
+└─ merge ─┘

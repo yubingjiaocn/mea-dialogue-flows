@@ -1,0 +1,84 @@
+# game/conversations/crit/intrld35/intrld35_kad_0700_ven_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld35/intrld35_kad_0700_ven_d.xml
+==================================================
+Narration: Behind bars, VEHN TEREV sits in his cell, staring at the ground. Bruises mark his skin--he's obviously been knocked around.
+kadara_spy: What do you want?
+Hero: The Archon's ship. Where is it?
+kadara_spy: This a new interrogation tactic? Sloane’s getting lazy.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: I don't answer to Sloane. I'm a Pathfinder with the Initiative.
+    kadara_spy: The one who rescued the Moshae.
+    Narration: Ryder looks a little surprised.
+    kadara_spy: I know who you are. And what happened on Voeld.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You're well-informed for someone behind bars.
+        kadara_spy: The rumors hit before I was captured. That's why the mob wants me dead.
+        kadara_spy: {i}(Scoffs.){/i} Even deserters hate me.
+        Hero: The Archon's ship. Where is it?
+        kadara_spy: I never saw it. Got my orders from a kett transponder.
+        kadara_spy: But you could use its frequency to triangulate the Archon's location.
+        Hero: Do you still have it?
+        kadara_spy: I buried it before I was arrested. Should still be outside the city.
+        Narration: Ryder hands Vehn the device from Reyes.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: This is your way out of here. A Resistance contact will be waiting.
+            Narration: Vehn nods. Ryder begins to leave.
+            kadara_spy: Don't you want to know why I did it? Why I betrayed the Moshae?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Not really. It's done. She's safe now.
+                Narration: Vehn watches Ryder leave. Badass walk away.
+            ├ option 2:
+                Hero: Enlighten me.
+                kadara_spy: We’re losing the war against the kett.
+                kadara_spy: And still, Evfra puts my brothers and sisters in danger to protect a useless old woman.
+                Hero: So you took things into your own hands.
+                kadara_spy: I made the call he wouldn’t.
+                kadara_spy: The Archon only wanted the Moshae. I thought if I gave her up...
+                kadara_spy: I didn't know what the kett were doing to my people.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: You resent Evfra, so the Archon used that against you.
+                    kadara_spy: If Evfra was a better leader... It doesn't matter.
+                    kadara_spy: And I'll accept the consequences.
+                    Narration: Ryder spares him one last look before leaving the holding cells.
+                ├ option 2:
+                    Hero: Evfra still entrusted the Moshae to you. And you betrayed them both.
+                    kadara_spy: I did what I thought was right.
+                    ↩ (goto) kadara_spy: And I'll accept the consequences.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Thanks for the intel.
+            Narration: Beat. Ryder's gotten the information she needs.
+            ↩ (goto) Narration: Vehn nods. Ryder begins to leave.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You can still make this right, Vehn. Tell me what I need to know.
+        kadara_spy: {i}(Scoffs.){/i} Making it right won't save my life.
+        Hero: But it could save others.
+        ↩ (goto) Hero: The Archon's ship. Where is it?
+    └─ merge ─┘
+├ option 2:
+    Hero: I'm not with Sloane. Evfra sent me. Answer my questions, and I can get you back to the Resistance.
+    Narration: This gets Vehn's attention. He sizes Ryder up.
+    kadara_spy: {i}(Scoffs.){/i} So I'm trading one cell for another.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Vehn. You betrayed the Moshae. You’re lucky Evfra wants you at all.
+        Narration: Vehn thinks for a moment. He doesn't want to die, but he really doesn't want to return to the Resistance.
+        kadara_spy: For all his faults, the old man's not an executioner.
+        ↩ (goto) Hero: The Archon's ship. Where is it?
+    ├ option 2:
+        Hero: This is what happens when you make deals with the bad guy.
+        Narration: Vehn thinks for a moment. He doesn't want to die, but he really doesn't want to return to the Resistance.
+        Hero: Or stay here. Sloane's sharpening up a spike just for your head.
+        kadara_spy: I'd rather be miserable than kaerkyn food.
+        Hero: Which brings us back to the Archon's ship. Where is it?
+        ↩ (goto) kadara_spy: I never saw it. Got my orders from a kett transponder.
+    └─ merge ─┘
+└─ merge ─┘

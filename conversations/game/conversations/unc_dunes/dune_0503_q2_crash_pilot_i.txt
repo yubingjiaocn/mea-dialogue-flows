@@ -1,0 +1,25 @@
+# game/conversations/unc_dunes/dune_0503_q2_crash_pilot_i
+# Primary speaker: dune_Q2_crash_pilot
+# Source: game/conversations/unc_dunes/dune_0503_q2_crash_pilot_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_Q2_crash_pilot [OncePerGame]: Your timing is impeccable, Pathfinder.
+    dune_Q2_crash_pilot: Another minute and those scavengers might have been wearing our skins.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Nasty crash. Are you guys okay?
+        dune_Q2_crash_pilot: Minor injuries. As long as we get a shuttle out, we'll be fine.
+        dune_Q2_crash_pilot: I don't suppose you could call for help?
+        Hero: Of course. SAM, relay this location to the Tempest and get them to send a shuttle.
+        SAM: Done, Pathfinder. Help is on the way.
+        dune_Q2_crash_pilot: We'll just wait here 'til our ride comes. I don't expect we'll run into any more trouble.
+        dune_Q2_crash_pilot: Thank you again.
+    ├ option 2:
+        Hero: You're not serious, right?
+        dune_Q2_crash_pilot: Who knows? We've heard stories. The desolation makes people a little... unbalanced.
+        ↩ (goto) dune_Q2_crash_pilot: I don't suppose you could call for help?
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) dune_Q2_crash_pilot: Thank you again.
+└─ merge ─┘

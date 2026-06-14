@@ -1,0 +1,128 @@
+# game/conversations/loyalty/human_male_01/loyalty_hmm_0430_lockdown_a
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0430_lockdown_a.xml
+==================================================
+loyalty_hmm_pirate_leader: [Loudspeaker] There! See how it's done? Sealed them in!
+loyalty_hmm_pirate_leader: [Loudspeaker] Shoot them—no more excuses!
+global_squad_male_human: Shit!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ustl_settle_01_admin_multi ⟨cond⟩: [Comm] Pathfinder? Tanner's working on the lockdown.
+    loyalty_hmm_shuttle_engineer_01_multi: [Comm] Everything's a mess. I can get you out, but I need data.
+    loyalty_hmm_shuttle_engineer_01_multi: [Comm] There should be a control hub in that room? Get a scan and have your SAM push it to me.
+├ option 2:
+    ustl_settle_01_admin_multi: [Comm] Pathfinder? Grace is working on the lockdown.
+    stm_legacy_chief_engineer_multi: [Comm] Thank you for the chance. Let's get eyes on some data.
+    stm_legacy_chief_engineer_multi: [Comm] Can you spot a control hub or console? In the room? Have your SAM push a scan of it to me.
+    ↩ (goto) loyalty_hmm_shuttle_engineer_01_multi: [empty]
+└─ merge ─┘
+SAM: Forwarding scan result.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    loyalty_hmm_shuttle_engineer_01_multi ⟨cond⟩: [Comm] Aha! This Calot ran a simple power reroute. Amateur.
+    loyalty_hmm_shuttle_engineer_01_multi: [Comm] Hit these access points, Pathfinder. I'll sync with your effort.
+    Hero: Well. Go team.
+├ option 2:
+    stm_legacy_chief_engineer_multi: [Comm] Thought so. Calot did a power reroute. Easy fix.
+    stm_legacy_chief_engineer_multi: [Comm] Here's two access points to hit. I'll sync when you activate.
+    ↩ (goto) Hero: Well. Go team.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        loyalty_hmm_shuttle_engineer_01_multi [OncePerGame]: [Comm] That's the stuff. Keep it up.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+            global_squad_male_human: He found a way to retrofit a derelict, and he's wasting it on raiding?
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: Sometimes you just want to see shit burn.
+            ├ option 2:
+                global_squad_angara ⟨cond⟩: Some people get beat down and don't get back up.
+            ├ option 3:
+                global_squad_female_human ⟨cond⟩: Not everyone wants to fix themselves.
+            ├ option 4:
+                global_squad_asari ⟨cond⟩: Some people waste their chances on stupid things.
+            ├ option 5:
+                global_squad_turian ⟨cond⟩: That's someone who gave up. Seen it before.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+            Hero: Big chip on his shoulder. This ship definitely made him dangerous.
+            global_squad_male_human: Seen his kind before. Small man, big gun.
+        └─ merge ─┘
+    ├ option 2:
+        loyalty_hmm_shuttle_engineer_01_multi: [Comm] That's all I need. Give me a minute.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_legacy_chief_engineer_multi [OncePerGame]: [Comm] Progress made. Next one.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+        └─ merge ─┘
+    ├ option 2:
+        stm_legacy_chief_engineer_multi: [Comm] Looks good. Hold for unlock.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        ustl_settle_01_admin_multi ⟨cond⟩: [Comm] Pathfinder? Tanner's working on the lockdown.
+        loyalty_hmm_shuttle_engineer_01_multi: [Comm] Everything's a mess. I can get you out, but I need data.
+        loyalty_hmm_shuttle_engineer_01_multi: [Comm] There should be a control hub in that room? Get a scan and have your SAM push it to me.
+    ├ option 2:
+        ustl_settle_01_admin_multi: [Comm] Pathfinder? Grace is working on the lockdown.
+        stm_legacy_chief_engineer_multi: [Comm] Thank you for the chance. Let's get eyes on some data.
+        stm_legacy_chief_engineer_multi: [Comm] Can you spot a control hub or console? In the room? Have your SAM push a scan of it to me.
+        ↩ (goto) loyalty_hmm_shuttle_engineer_01_multi: [empty]
+    ├ option 3:
+        loyalty_hmm_shuttle_engineer_01_multi ⟨cond⟩: [Comm] Aha! This Calot ran a simple power reroute. Amateur.
+        loyalty_hmm_shuttle_engineer_01_multi: [Comm] Hit these access points, Pathfinder. I'll sync with your effort.
+        Hero: Well. Go team.
+    ├ option 4:
+        stm_legacy_chief_engineer_multi: [Comm] Thought so. Calot did a power reroute. Easy fix.
+        stm_legacy_chief_engineer_multi: [Comm] Here's two access points to hit. I'll sync when you activate.
+        ↩ (goto) Hero: Well. Go team.
+    ├ option 5:
+        loyalty_hmm_shuttle_engineer_01_multi [OncePerGame]: [Comm] That's the stuff. Keep it up.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+        └─ merge ─┘
+    ├ option 6:
+        loyalty_hmm_shuttle_engineer_01_multi: [Comm] That's all I need. Give me a minute.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+        └─ merge ─┘
+    ├ option 7:
+        stm_legacy_chief_engineer_multi [OncePerGame]: [Comm] Progress made. Next one.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: And there's how they salvaged the ship.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human [OncePerGame]: And we know a little about this Calot.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

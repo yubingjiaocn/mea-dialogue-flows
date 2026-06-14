@@ -1,0 +1,36 @@
+# game/conversations/playerobjectives/conv_obj_defuse
+# Primary speaker: SAM
+# Source: game/conversations/playerobjectives/conv_obj_defuse.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: You'll need to locate the devices and shut them down, Pathfinder.
+├ option 2:
+    SAM: All devices must be found and deactivated, Pathfinder.
+├ option 3:
+    SAM: Pathfinder, you must locate and power down all devices.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Device down, Pathfinder.
+├ option 2:
+    SAM: Powered down, Pathfinder.
+├ option 3:
+    SAM: Deactivated, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Pathfinder, devices are still active.
+├ option 2:
+    SAM: You need to shut down the devices.
+├ option 3:
+    SAM: Tech is still active, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: All devices shut down, Pathfinder.
+├ option 2:
+    SAM: Tech is now offline, Pathfinder.
+├ option 3:
+    SAM: All devices have been deactivated.
+└─ merge ─┘

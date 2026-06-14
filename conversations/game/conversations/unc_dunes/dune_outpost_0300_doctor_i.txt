@@ -1,0 +1,48 @@
+# game/conversations/unc_dunes/dune_outpost_0300_doctor_i
+# Primary speaker: dune_outpost_doctor
+# Source: game/conversations/unc_dunes/dune_outpost_0300_doctor_i.xml
+==================================================
+dune_outpost_doctor: Oh. I thought you'd be my patient from the colony. She's twenty minutes late.
+Hero: The colony? Do the krogan really need a doctor?
+dune_outpost_doctor: Not for injuries. I'm a fertility specialist. Dr. Mesha Lannok.
+dune_outpost_doctor: I'm working with the krogan to maximize their new, more lenient birth restrictions.
+dune_outpost_doctor: But I can't do anything if they don't show up for their appointments.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: I'm surprised you're working to help krogan fertility.
+    dune_outpost_doctor: Why? Because I'm salarian?
+    dune_outpost_doctor: I want the krogan to thrive here just as much as they do.
+    dune_outpost_doctor: The Initiative may not agree with me, but I'm doing whatever I can to lessen the genophage.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Don't worry. I want the krogan to make a life here just as much as you.
+        Hero: I didn't mean any offense.
+        dune_outpost_doctor: Sorry. I'm so used to defending my stance. But I'm glad you agree.
+        dune_outpost_doctor: The krogan have a real shot in Heleus. Better than they had back home.
+        dune_outpost_doctor: It's up to the Initiative to help them along.
+        ↩ (goto) dune_outpost_doctor: [empty]
+    ├ option 2:
+        Hero: The krogan are limited for a reason. We don't want them taking over Heleus.
+        dune_outpost_doctor: That's the same narrow-mindedness that led to the krogan's decline.
+        dune_outpost_doctor: New galaxy, new rules. If we want the krogan to survive, we need to trust them.
+        ↩ (goto) dune_outpost_doctor: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Have you had any births in the colony yet?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        dune_outpost_doctor ⟨cond⟩: Not here. But I hear Kesh is to be quietly congratulated.
+        dune_outpost_doctor: It makes sense for her to be the first, living on a relatively stable place like the Nexus.
+        dune_outpost_doctor: Believe it or not, there's a deeply ingrained psychological pattern to colonization.
+        dune_outpost_doctor: Births won't happen 'til the krogan feel secure. It's a biological reflex.
+        ↩ (goto) dune_outpost_doctor: [empty]
+    ├ option 2:
+        dune_outpost_doctor: No luck so far. But it's early.
+        ↩ (goto) dune_outpost_doctor: Believe it or not, there's a deeply ingrained psychological pattern to colonization.
+    └─ merge ─┘
+├ option 3:
+    Hero: I'll leave you to your work.
+    dune_outpost_doctor: Always so much to do.
+└─ merge ─┘
+dune_outpost_doctor: Yes?
+↩ (goto) dune_outpost_doctor: [empty]

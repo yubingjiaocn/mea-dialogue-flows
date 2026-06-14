@@ -1,0 +1,22 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0590_kett_patrol_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0590_kett_patrol_b.xml
+==================================================
+Hero: Oh, great... That can't be good.
+global_squad_male_human: It's not—company!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: Looks like a whole patrol!
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Don't want them to drag us off like Greer!
+    ├ option 2:
+        global_squad_male_human: Probably the assholes who took Greer!
+    └─ merge ─┘
+├ option 3:
+    Hero [OncePerGame]: Push them back!
+└─ merge ─┘
+global_squad_male_human: Got 'em!
+Hero: No way in here.
+global_squad_male_human: Just as well. We're not equipped for a big fight.

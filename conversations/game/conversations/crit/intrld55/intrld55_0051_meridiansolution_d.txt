@@ -1,0 +1,69 @@
+# game/conversations/crit/intrld55/intrld55_0051_meridiansolution_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld55/intrld55_0051_meridiansolution_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer: There you are! It feels like I've been waiting forever.
+    Narration: Suvi moves up to the holographic display, and starts manipulating it to illustrate her ideas. We see the planetoid that is the main body of Meridian.
+    global_crew_science_officer: Meridian. Set on a path by its creators... disrupted by the Scourge... now lost.
+    global_crew_science_officer: An unmanned ship is at the mercy of ocean currents. Now, think of Meridian as the ship, and the Scourge as the ocean...
+    global_crew_science_officer: If we can somehow predict the currents and track them, we could figure out where the ocean's taken the ship.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: At best, that just narrows down the range of possible locations.
+        global_crew_science_officer: It's better than nothing.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM: The more we know about the Scourge, the better we can predict how it affects the things it comes in contact with.
+            global_squad_female_human: The Initiative made charts of Heleus from the Milky Way, 600 years back. Perfect baseline.
+            global_crew_science_officer: I can compare that to Heleus at present. It'll give us numbers, but one set won't be enough.
+            Hero: SAM, what exactly do we need right now?
+            SAM: Readings from within the Scourge itself, collected by probes planted at key points.
+            SAM: Once enough data is collected, we'll need Initiative resources for mining and analysis.
+            SAM: Once that is done, I can build a predictive model that will re-calculate Meridian's path.
+            Narration: Ryder looks at holo in the center of the room. His/her face is determined.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: We have a plan—now let's make it work.
+                Hero: Everyone's counting on us. Let's bring them home.
+                Narration: Everyone looks determined. The crew leaves the room, ready to do whatever it takes.
+            ├ option 2:
+                Hero: Well, it sounds like a fine plan. I guess we won't know for sure unless we give it a shot.
+                ↩ (goto) Hero: Everyone's counting on us. Let's bring them home.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Their tech, our data.
+            Narration: Peebee nods and smooshes her hands together to demonstrate a melding of technology that will allow them to find what they want.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's genius! The Scourge is the sea, moving objects around...
+        global_crew_science_officer: It's not a precise analogy, of course, but it illustrates the point.
+        SAM: Dr. Anwar's suggestion may indeed be our best chance at finding Meridian.
+        ↩ (goto) SAM: The more we know about the Scourge, the better we can predict how it affects the things it comes in contact with.
+    └─ merge ─┘
+├ option 2:
+    global_crew_science_officer: Pathfinder! Just the person I wanted to see.
+    ↩ (goto) Narration: Suvi moves up to the holographic display, and starts manipulating it to illustrate her ideas. We see the planetoid that is the main body of Meridian.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    SAM: The Initiative should already have the resources and capability to analyze the volume of data.
+    ↩ (goto) SAM: Once that is done, I can build a predictive model that will re-calculate Meridian's path.
+├ option 2:
+    Hero: Way to use your combined expertise, team—good work!
+├ option 3:
+    Hero: Tann will get us those.
+├ option 4:
+    global_crew_science_officer: We'll need better data: probes for the Scourge, angaran star charts...
+├ option 5:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: I made Poc—my observer—respond to my commands. Same principle! I even have a working relic box that can do it.
+        ↩ (goto) Hero: Their tech, our data.
+    ├ option 2:
+        global_squad_asari: Hey, I've been studying how to train Remnant tech—the pet project I was talking about.
+        global_squad_asari: And the relic box we found might be able to deliver commands for us.
+        ↩ (goto) Hero: Their tech, our data.
+    └─ merge ─┘
+└─ merge ─┘

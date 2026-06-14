@@ -1,0 +1,142 @@
+# game/conversations/unc_dunes/dune_0135_salv_run_i
+# Primary speaker: dune_kad_salvage
+# Source: game/conversations/unc_dunes/dune_0135_salv_run_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_kad_salvage [OncePerGame]: Well, well. Look at you. I'm good at reading people—want me to guess who you are?
+    Hero: Shoot.
+    dune_kad_salvage: A Pathfinder.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Color me impressed.
+        Hero: How'd you know?
+        dune_kad_salvage: I cheated. I run salvage to Kadara. Word travels fast there. Should hear what the Collective is saying about you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I take it you're a member.
+            dune_kad_salvage: I don't take sides. That way, when a fight breaks out, I always win.
+            ┌─ BRANCH (7) ─┐
+            ├ option 1:
+                Hero: You said you run salvage to Kadara. How does that work?
+                dune_kad_salvage: The scavengers come from Hell's Promise to sell me their scraps. I pay them next to nothing.
+                Hero: Charming. Then what?
+                dune_kad_salvage: I haul my loot to Kadara and sell to the merchants.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    dune_kad_salvage ⟨cond⟩: The Charlatan takes a portion of my haul, of course. I'm still sitting pretty.
+                    dune_kad_salvage: Sometimes I even buy water from Annea and sell it at a premium in the flophouse. It's a solid life.
+                    Hero: If you say so.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                ├ option 2:
+                    dune_kad_salvage: Sloane takes her cut, naturally. But mostly, I make a killing.
+                    ↩ (goto) dune_kad_salvage: Sometimes I even buy water from Annea and sell it at a premium in the flophouse. It's a solid life.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: What's your take on Elaaden?
+                dune_kad_salvage: If the Worm or the gang leaders don't kill you, the heat in Ataraxia will. I don't know how anyone can live here.
+                Hero: Somehow they make it work.
+                dune_kad_salvage: Barely. At least once a trip, an escaped slave or ex-cultist tries to bribe me for a ride out of here.
+                dune_kad_salvage: Except the krogan. I've seen New Tuchanka. We'd all be lucky to have a setup like theirs.
+                ↩ (goto) dune_kad_salvage: [empty]
+            ├ option 3:
+                Hero: You must deal with the scavengers a lot.
+                dune_kad_salvage: No more than I have to. Slavery, cannibalism, gang leader worship... it's enough to make my skin crawl.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I plan to keep my distance.
+                    dune_kad_salvage: Smart. But it's not just the gang leaders. The ones in the Paradise are dangerous, too.
+                    dune_kad_salvage: This is supposed to be a neutral zone, but I don't trust the scavengers to follow the rules.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                ├ option 2:
+                    Hero: Strong words from one of their customers.
+                    dune_kad_salvage: I buy from them. Doesn't mean I have to like them.
+                    dune_kad_salvage: Might be safe here. But out there, if a gang leader wants you dead, you're dead. I don't plan to let my guard down.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                └─ merge ─┘
+            ├ option 4:
+                Hero ⟨cond⟩ [OncePerGame]: Got info on someone named Isabel Halsey?
+                dune_kad_salvage: What am I, your personal database?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: You have info. I want it. Talk.
+                    dune_kad_salvage: I don't know anything. I only heard her name mentioned.
+                    dune_kad_salvage: A group came through here to sell me that day's salvage.
+                    dune_kad_salvage: They said something like "Isabel's time is limited."
+                    Hero: Is that it?
+                    dune_kad_salvage: I don't get caught up in scavenger business. Bad for longevity.
+                    dune_kad_salvage: But if you want to find these guys, I have their navpoint. Here.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                ├ option 2:
+                    Hero: Come on. You're the only one here who doesn't want to kill me. Just help me out.
+                    dune_kad_salvage: Fine, fine. I've never met her. But I heard a few scavengers talking.
+                    dune_kad_salvage: Mentioned a cave out on the dunes. Something about Isabel's time being limited.
+                    dune_kad_salvage: This is the navpoint. Just watch out—that's a bad area.
+                    Hero: All of Elaaden is a bad area.
+                    dune_kad_salvage: Good point.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                └─ merge ─┘
+            ├ option 5:
+                Hero ⟨cond⟩: Ever work with a guy named Reyes?
+                dune_kad_salvage: Reyes? He's one of my buyers, actually. You know him?
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Used to. Know where he is?
+                    dune_kad_salvage: Haven't heard from him in a while, actually. No one has. For all I know, he's living it up on the Nexus.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                ├ option 2:
+                    Hero ⟨cond⟩: Do I ever.
+                    dune_kad_salvage: I'll pretend I didn't get the hint behind that one.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                ├ option 3:
+                    Hero: We've met.
+                    dune_kad_salvage: I'm not surprised. Reyes knows everyone. Some a little too well.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                └─ merge ─┘
+            ├ option 6:
+                Hero ⟨cond⟩: What happened to the other salvage runner? Ljeta?
+                dune_kad_salvage: The angara? Who's asking?
+                Hero: I am.
+                dune_kad_salvage: Ljeta's dealt with enough. She doesn't need a Pathfinder poking around.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Sounds like she ran into trouble.
+                    dune_kad_salvage: It's a tough job. Sometimes you get unlucky. Ljeta got really unlucky.
+                    Hero: Just tell me where she is.
+                    dune_kad_salvage: I don't know. Her ship was gone, so I flew her to Kadara. I didn't ask questions.
+                    dune_kad_salvage: Talk to Colt Dalton if you want to know more. He's the docks manager on Kadara.
+                    dune_kad_salvage: She had to go through him to get anywhere.
+                    ↩ (goto) dune_kad_salvage: [empty]
+                ├ option 2:
+                    Hero: She has a friend here. He wants to make sure she's okay.
+                    dune_kad_salvage: Yeah? Where was he when Ljeta was in trouble?
+                    ↩ (goto) Hero: Just tell me where she is.
+                └─ merge ─┘
+            ├ option 7:
+                Hero: Take it easy.
+                dune_kad_salvage: Always do.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Well, now I'm curious.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                dune_kad_salvage ⟨cond⟩: Don't worry. All good things.
+                ↩ (goto) dune_kad_salvage: [empty]
+            ├ option 2:
+                dune_kad_salvage: I won't repeat it, for your sake.
+                ↩ (goto) dune_kad_salvage: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: How did she know?
+        ↩ (goto) Hero: How'd you know?
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Impressive.
+        ↩ (goto) Hero: How'd you know?
+    ├ option 4:
+        ↩ (goto) Hero: How'd you know?
+    └─ merge ─┘
+├ option 2:
+    dune_kad_salvage: You've survived the gang leaders and the Worm so far. I'm impressed.
+    ↩ (goto) dune_kad_salvage: [empty]
+└─ merge ─┘

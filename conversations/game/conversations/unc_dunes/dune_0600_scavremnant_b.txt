@@ -1,0 +1,89 @@
+# game/conversations/unc_dunes/dune_0600_scavremnant_b
+# Primary speaker: global_squad_asari
+# Source: game/conversations/unc_dunes/dune_0600_scavremnant_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Ryder, the scavengers are dismantling the Remnant tech.
+    Hero: Is that a problem?
+    global_squad_asari: Normally, no. But if they get their hands on a Remnant core, it could become unstable and attract the Scourge.
+    Hero: How do we stop it?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: I have no idea.
+        SAM: Pathfinder, I could modify your omni-tool to disable the cores and prevent them from reacting.
+        Hero: Do it. Let's go fix this.
+    ├ option 2:
+        global_squad_asari: [Comm] Beats me.
+        ↩ (goto) SAM: Pathfinder, I could modify your omni-tool to disable the cores and prevent them from reacting.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: [Comm] Ryder, are those scavengers... dismantling the Remnant tech?
+    Hero: That a problem?
+    global_squad_asari: [Comm] It is if they get their hands on a Remnant core. It could become unstable and attract the Scourge.
+    ↩ (goto) Hero: How do we stop it?
+└─ merge ─┘
+SAM: Pathfinder, there is still a risk of the scavengers damaging Remnant cores.
+SAM: I suggest using your omni-tool to disable the cores.
+SAM: The Scourge is making this area highly unstable. I advise retreat.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: There. That should do it.
+    SAM: Pathfinder, I detect scavenger interference at additional Remnant sites.
+    Hero: They never make it easy for me. Let's go to those other sites.
+├ option 2:
+    global_squad_asari: [Comm] Good. That should do it.
+    ↩ (goto) SAM: Pathfinder, I detect scavenger interference at additional Remnant sites.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: You know the drill. Let's get those cores.
+├ option 2:
+    global_squad_asari: [Comm] You know the drill. Go find those cores.
+└─ merge ─┘
+Hero: There. That's it.
+SAM: Pathfinder, I am picking up unusual readings at the final site. Energy levels are higher than normal.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: The cores. They're already unstable. We need to hurry.
+├ option 2:
+    global_squad_asari: [Comm] The cores are already unstable. You need to hurry, Ryder.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Okay. Let's get—uh oh.
+├ option 2:
+    global_squad_asari: [Comm] Okay. Now just—uh oh.
+└─ merge ─┘
+dune_scav_lead: [Comm] So you're the ones messing with our salvage.
+dune_scav_lead: [Comm] Let's get 'em, boys.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Ryder, if we don't get those cores, we'll become a Scourge feast.
+├ option 2:
+    global_squad_asari: [Comm] Ryder, get those cores or you're getting a nasty visit from the Scourge.
+└─ merge ─┘
+Hero: We did it. The cores are safe.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: We dodged a big one, Ryder. Thank you.
+├ option 2:
+    global_squad_asari: [Comm] You dodged a big one, Ryder. Thank you.
+└─ merge ─┘
+Hero: Holy—
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Damn it! We need to get out of here.
+├ option 2:
+    global_squad_asari: [Comm] Damn it! Ryder, get out of there.
+└─ merge ─┘
+SAM: Pathfinder, the Scourge has permanently altered the Remnant site.
+Hero: I'm sorry, Peebee.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: It's okay. We tried.
+├ option 2:
+    global_squad_asari: [Comm] It's okay. You tried.
+└─ merge ─┘
+Hero: The Scourge... we need to get out of here.
+↩ (goto) SAM: Pathfinder, I am picking up unusual readings at the final site. Energy levels are higher than normal.

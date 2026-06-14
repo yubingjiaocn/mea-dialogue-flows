@@ -1,0 +1,136 @@
+# game/conversations/bstory/remrel/rrb_0500_poc_found_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/remrel/rrb_0500_poc_found_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: Ryder, he's got Poc. She's broken, though.
+    Hero: Guess Kalinda didn't take very good care of her.
+    rem_rel_scavenger: Hey, I don't want any trouble. I found this site abandoned. By scavenger law, it's all mine.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We're not here to fight you for it.
+        rem_rel_scavenger: That's a relief... I mean, good thing!
+        rem_rel_scavenger: Well, I'm a businessman, you see, so I'm willing to sell if you see anything you like.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: How much for that broken Observer?
+            rem_rel_scavenger: What, this thing? Yeah, it may look trashed, but I assure you it's easy to fix right up.
+            rem_rel_scavenger: In fact, I could do it myself and make a killing, so, uh, no discounts.
+            global_squad_asari: Right, this guy's going to put her back together.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: How much for that broken Observer?
+            ├ option 2:
+                Hero [OncePerGame]: Did you see where the crew that used this site went?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    rem_rel_scavenger: You're treading dangerously close to mentioning that someone I asked you not to name. {i}(Clears throat.){/i}
+                    rem_rel_scavenger: No idea where they went.
+                    rem_rel_scavenger: They've been picking Remnant sites clean all over. Never leave anything worthwhile behind.
+                    rem_rel_scavenger: But, uh, they screwed up and left some choice items here, though.
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero [OncePerGame]: How much for that broken Observer?
+                    ├ option 2:
+                        ↩ (goto) Hero [OncePerGame]: Did you see where the crew that used this site went?
+                    ├ option 3:
+                        Hero [OncePerGame]: You ever hear of an asari named Kalinda T'Reve?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            rem_rel_scavenger: That's the, uh... pain-in-the-ass asari I stupidly mentioned.
+                            rem_rel_scavenger: {i}(Sighs.){/i} Please don't tell her I called her that, or next time I see her it's {i}my{/i} ass.
+                            global_squad_asari: Yeah, so you better do right by us.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero [OncePerGame]: How much for that broken Observer?
+                            ├ option 2:
+                                ↩ (goto) Hero [OncePerGame]: Did you see where the crew that used this site went?
+                            ├ option 3:
+                                ↩ (goto) Hero [OncePerGame]: You ever hear of an asari named Kalinda T'Reve?
+                            ├ option 4:
+                                Hero: Let's get down to business.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    rem_rel_scavenger: Okay, look, what do you think is fair for the Observer?
+                                    global_squad_asari: Take this, and consider yourself lucky.
+                                    rem_rel_scavenger: Yup, that'll do. Pleasure doing business with you.
+                                    global_squad_asari: I'll get her to the Tempest and put her together. Thank you, Ryder. Maybe this Kalinda nightmare is over.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        Hero: That would be nice.
+                                        global_squad_asari: {i}(Sighs.){/i} Yeah.
+                                        global_squad_asari: Regardless, I can upgrade my Remnant scanner now.
+                                        global_squad_asari: Come see me back at the ship.
+                                    ├ option 2:
+                                        Hero: Don't start going naive on me, Peebee.
+                                        ↩ (goto) global_squad_asari: {i}(Sighs.){/i} Yeah.
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    Hero: We want the broken Observer.
+                                    rem_rel_scavenger: You do? Uh, well of course you do. It's a choice hunk of—
+                                    ↩ (goto) global_squad_asari: Take this, and consider yourself lucky.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        ├ option 2:
+                            rem_rel_scavenger: Kalinda T...? Nope, can't say I have. You, uh, looking for her? Or... working for her?
+                            global_squad_asari: You know her.
+                            Hero: We're not with her, so you can relax.
+                            rem_rel_scavenger: That's my story, and I'm sticking to it. That name was never mentioned. And please don't mention it again.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero [OncePerGame]: How much for that broken Observer?
+                            ├ option 2:
+                                ↩ (goto) Hero [OncePerGame]: Did you see where the crew that used this site went?
+                            ├ option 3:
+                                ↩ (goto) Hero [OncePerGame]: You ever hear of an asari named Kalinda T'Reve?
+                            ├ option 4:
+                                ↩ (goto) Hero: Let's get down to business.
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 4:
+                        ↩ (goto) Hero: Let's get down to business.
+                    └─ merge ─┘
+                ├ option 2:
+                    rem_rel_scavenger: Nope. They were trouble, though. Led by a pain-in-the-ass asari with a mean-as-spit krogan toadie.
+                    ↩ (goto) rem_rel_scavenger: They've been picking Remnant sites clean all over. Never leave anything worthwhile behind.
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) Hero [OncePerGame]: You ever hear of an asari named Kalinda T'Reve?
+            ├ option 4:
+                ↩ (goto) Hero: Let's get down to business.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero [OncePerGame]: Did you see where the crew that used this site went?
+        ├ option 3:
+            ↩ (goto) Hero [OncePerGame]: You ever hear of an asari named Kalinda T'Reve?
+        ├ option 4:
+            ↩ (goto) Hero: Let's get down to business.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Yeah, right. You made that up.
+        rem_rel_scavenger: Um, scavenger law—scavengers get to make up the laws? No, then you could just make up new ones. {i}(Clears throat.){/i}
+        ↩ (goto) rem_rel_scavenger: Well, I'm a businessman, you see, so I'm willing to sell if you see anything you like.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: That broken Observer looks like Poc.
+        Hero: Let's make sure. Peebee, come to my location, please.
+        global_squad_asari: Yup, he's got Poc. She's broken, though.
+        ↩ (goto) Hero: Guess Kalinda didn't take very good care of her.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: That broken Observer looks like Poc.
+        ↩ (goto) Hero: Let's make sure. Peebee, come to my location, please.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: That broken Observer looks like Poc.
+        ↩ (goto) Hero: Let's make sure. Peebee, come to my location, please.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: That broken Observer looks like Poc.
+        ↩ (goto) Hero: Let's make sure. Peebee, come to my location, please.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: That broken Observer looks like Poc.
+        ↩ (goto) Hero: Let's make sure. Peebee, come to my location, please.
+    └─ merge ─┘
+└─ merge ─┘
+global_squad_asari: See you back at the ship.

@@ -1,0 +1,46 @@
+# game/conversations/storyteller/sty_anchor_kett_tech_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/sty_anchor_kett_tech_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    SAM: My sensors are detecting kett technology, Pathfinder.
+├ option 2:
+    Hero: That looks like kett tech.
+├ option 3:
+    SAM: Kett signals detected ahead, Pathfinder.
+├ option 4:
+    Hero: Heads up. Looks like a kett construct.
+├ option 5:
+    Hero: I think that's kett tech. Stay alert.
+├ option 6:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: That's kett technology, Ryder.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Probably kett crawling all over that tech.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Ryder. Kett constructs ahead.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Kett machinery. Watch out.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Looks like kett machinery.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Kett machines up ahead.
+    └─ merge ─┘
+├ option 7:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Kett machinery, Ryder. We should be careful.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Maybe we should check out that kett tech.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: I don't like the look of those kett machines.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Tech ahead. Bound to have kett.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Should we clear out that kett tech?
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: We should take a look at those kett machines.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,99 @@
+# game/conversations/unc_ice/ice_1400_ang_town2_intro_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_1400_ang_town2_intro_i.xml
+==================================================
+ice_eskayeveth: What you found at Ja Niihk was amazing, Pathfinder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_eskayeveth: I can't wait to see what we learn from that intelligence. We could regain everything we've lost.
+    ice_eskayeveth: These recent victories against the kett have opened so many possibilities. Rebuilding, even expansion.
+    ice_eskayeveth: There is a place for your people in this, if you desire. I'd like to extend a formal welcome, as Steward of Techiix.
+    Hero: I appreciate your generosity.
+    ice_eskayeveth: I am being practical. Many feel our peoples are stronger together than apart.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_eskayeveth: With the vault reactivated, the conditions on Voeld will improve, with time. At least, that is the hope.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_eskayeveth ⟨cond⟩: I will leave you to it then, Ryder. Welcome home.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: You called yourself steward? What's that?
+                ice_eskayeveth: I have guardianship of Techiix. I ensure it functions, and that it's people are safe.
+                ice_eskayeveth: Commander Do Xeel and the Resistance fight the kett with their weapons, with their fists.
+                ice_eskayeveth: Myself and others here, we fight by refusing to give in. By living, in spite of them.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: Tell me more about Techiix.
+                ice_eskayeveth: It is the largest town on Voeld. Home to hundreds of my people.
+                ice_eskayeveth: We manufacture, we trade, and we try to live good lives, even with the kett presence.
+                ice_eskayeveth: I have lived here all my life, and there's no place I'd rather live.
+                Hero: What about Aya?
+                ice_eskayeveth: {i}(Dismissive noise.){/i} Sulfurous air. Not for me.
+                ↩ (goto) Hero: [empty]
+            ├ option 3:
+                Hero: I won't disturb you further.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ice_eskayeveth: Good.
+                ├ option 2:
+                    ice_eskayeveth: It is no disturbance at all. May your luck build, Ryder.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            ice_eskayeveth: I would suggest investigating it before you make plans to build a permanent outpost here.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ice_eskayeveth: You have had success with Remnant vaults. There is one on Voeld.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) ice_eskayeveth ⟨cond⟩: I will leave you to it then, Ryder. Welcome home.
+        ├ option 2:
+            ↩ (goto) ice_eskayeveth: I would suggest investigating it before you make plans to build a permanent outpost here.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ice_eskayeveth: We'll be able to excavate the city, reclaim our lost history.
+    ↩ (goto) ice_eskayeveth: These recent victories against the kett have opened so many possibilities. Rebuilding, even expansion.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ice_eskayeveth: Eska Yeveth. Steward of Techiix. Make sure you behave yourself while in my town.
+    ice_eskayeveth: The guards haven't had any kett to kill for a while. They're getting twitchy.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    ice_eskayeveth: Buxil says you rescued her brother. I don't have words to express my gratitude.
+    ice_eskayeveth: I am Eska Yeveth, Steward of Techiix. I hope to make your stay here a pleasant one. It's the least I can do.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I am honored to meet you, Steward Eska. I am Pathfinder Ryder, with the Andromeda Initiative.
+        ice_eskayeveth: Wonderful. As we say here, there are no strangers, only unmet friends.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: I'm Ryder with the... damn, it's cold out here.
+        ice_eskayeveth: {i}(Chuckles.){/i} Ah, yes. The low temperatures do not bother us, but your physiology must be quite different.
+        ice_eskayeveth: There are sun lamps all over Techiix. I hope they help.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    ice_eskayeveth: I heard there were visitors from far away. I didn't think you'd show up here.
+    ice_eskayeveth: Welcome to Techiix. I am Steward Eska Yeveth.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: I am honored to meet you, Steward Eska. I am Pathfinder Ryder, with the Andromeda Initiative.
+    ├ option 2:
+        ↩ (goto) Hero: I'm Ryder with the... damn, it's cold out here.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_eskayeveth: What do you need?
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    ice_eskayeveth: Yes?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+↩ (goto) Hero: [empty]
+Hero: So you've decided to let us live here?
+ice_eskayeveth: Perhaps I wasn't clear. We want you here. We are stronger together than apart.

@@ -1,0 +1,66 @@
+# game/conversations/bstory/life/col_090_battle_sequence_b
+# Primary speaker: SAM
+# Source: game/conversations/bstory/life/col_090_battle_sequence_b.xml
+==================================================
+col_rogue_out_lieut: [Comm] Mayday! Mayday! Any Initiative personnel, we need help!
+Hero: This is the Pathfinder. There may be Roekaar and kett closing on you!
+col_rogue_out_lieut: [Comm] No, no, no, not now!
+Hero: This does not sound good.
+Hero: Can you make a run for it?
+col_rogue_out_leader: [Comm] Running is unlikely, Pathfinder. {i}(Pained efforts.){/i}
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Is she sick?
+    Hero: Tempest, Dr. Kennedy will need an escape vector ASAP!
+    global_crew_co-pilot: [Comm] Understood!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Now? She's doing it now?
+    ↩ (goto) Hero: Tempest, Dr. Kennedy will need an escape vector ASAP!
+├ option 3:
+    global_squad_angara ⟨cond⟩: Is that typical?
+    ↩ (goto) Hero: Tempest, Dr. Kennedy will need an escape vector ASAP!
+├ option 4:
+    global_squad_turian ⟨cond⟩: This is not the ideal time.
+    ↩ (goto) Hero: Tempest, Dr. Kennedy will need an escape vector ASAP!
+├ option 5:
+    global_squad_asari ⟨cond⟩: Ohhh, this is getting messy.
+    ↩ (goto) Hero: Tempest, Dr. Kennedy will need an escape vector ASAP!
+└─ merge ─┘
+col_rogue_out_leader: [Comm] {i}(Pained efforts and breathing.){/i} Tell them to hurry!
+Hero: We hear you, doctor! Hold on!
+col_rogue_out_leader: [Comm] I'm on someone else's schedule. {i}(Pained efforts.){/i}
+col_rogue_out_leader: [Comm] Give me a gun! {i}(Pained efforts.){/i}
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Impressive, but she still needs help!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Okay, she's badass!
+├ option 3:
+    global_squad_angara ⟨cond⟩: Always give the mother the gun.
+├ option 4:
+    global_squad_turian ⟨cond⟩: My kind of girl. Let's go!
+├ option 5:
+    global_squad_asari ⟨cond⟩: She's not... not really?
+└─ merge ─┘
+Hero: Take them out! Kennedy's shuttle needs a path!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: On it!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: They'll have it!
+├ option 3:
+    global_squad_angara ⟨cond⟩: I'm with you!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Let's do it!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: You got it!
+└─ merge ─┘
+col_rogue_out_lieut: [Comm] They're too close! I'm taking off!
+Hero: Wait until you're clear!
+col_rogue_out_lieut: [Comm] There's no time!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    col_rogue_out_lieut: [Comm] Taking fire! Kett maybe?
+├ option 2:
+    col_rogue_out_lieut: [Comm] They're closing on us!
+└─ merge ─┘

@@ -1,0 +1,40 @@
+# game/conversations/crit/m4/m4_0305_progress2_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0305_progress2_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Hate to bring this up, but if we don't rescue the ark, how many salarians would be left?
+    Hero: Not enough. The whole species is at risk.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: They'd know what the genophage felt like.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: I wouldn't want to be the one to break the news to your pilot, Kallo.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: I don't think I could look Kallo in the eye.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Just think how Kallo would feel.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Imagine how Kallo would feel.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Kallo would never forgive us.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Anyone done the math on what happens if we don't rescue the ark? How many salarians are left in Andromeda?
+    ↩ (goto) Hero: Not enough. The whole species is at risk.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Not saying we're going to screw up, but if we don't get the ark out of here, how many salarians are left in Andromeda?
+    ↩ (goto) Hero: Not enough. The whole species is at risk.
+├ option 4:
+    global_squad_asari ⟨cond⟩: So just wondering...but, if we blow it and don't get the ark out of here, how many salarians are left? Like in the whole galaxy?
+    ↩ (goto) Hero: Not enough. The whole species is at risk.
+├ option 5:
+    global_squad_angara ⟨cond⟩: If we fail to rescue the ark, how many salarians will be left in Heleus?
+    ↩ (goto) Hero: Not enough. The whole species is at risk.
+├ option 6:
+    global_squad_krogan ⟨cond⟩: If we don't get the ark out of here, how many spare salarians are left in Andromeda?
+    ↩ (goto) Hero: Not enough. The whole species is at risk.
+├ option 7:
+    ↩ (goto) Hero: Not enough. The whole species is at risk.
+└─ merge ─┘

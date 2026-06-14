@@ -1,0 +1,72 @@
+# game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0300_hideoutscan_b
+# Primary speaker: 
+# Source: game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0300_hideoutscan_b.xml
+==================================================
+Hero: Grenades, rifle mods, body armor. They're well-stocked.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: This is top-end gear. We don't trade with this stuff, and it wasn't stolen in the uprising.
+    global_squad_turian: Someone on the Nexus gave this to them.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: That's military-grade equipment. They didn't just come by this.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Whoa. That's some high-end stuff. Not usual outlaw gear.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: That's some good stuff right there.
+├ option 5:
+    global_squad_asari ⟨cond⟩: That's a lot of weapons.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Nexus supplies. Probably stolen on those raids.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Colonization supplies. Stolen.
+├ option 3:
+    global_squad_asari ⟨cond⟩: That's quite a stock of stolen supplies.
+├ option 4:
+    global_squad_turian ⟨cond⟩: This is where all that stuff got to. I'd heard about meds being stolen.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Yep. This stuff's ours for sure.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: So they got rid of their former leader.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Sounds like there was a change of leadership.
+├ option 3:
+    global_squad_turian ⟨cond⟩: So they kicked out their own leader.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: A mutinous crew, it seems.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Typical. Turning on their own.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Rofjinn. They've taken our rofjinn as trophies. How could they?
+├ option 2:
+    global_squad_krogan ⟨cond⟩: These are angara things. Trophies.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Wait, these are angara things. Did they take them as trophies?
+├ option 4:
+    global_squad_turian ⟨cond⟩: Angaran stuff. Probably trophies.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Those things are angaran. The Sabers took those as trophies.
+└─ merge ─┘
+Hero: This former leader, Yale... he's on Eos. He was their tie to the Nexus.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: We'll have to talk to him to get to the root of this.
+    Hero: I'm saving everything we found as proof. It'll come in handy.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: What're we waiting for? Let's find him.
+    ↩ (goto) Hero: I'm saving everything we found as proof. It'll come in handy.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Think he has more info?
+    ↩ (goto) Hero: I'm saving everything we found as proof. It'll come in handy.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Bet he'll have more to say about this.
+    ↩ (goto) Hero: I'm saving everything we found as proof. It'll come in handy.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Time to pay someone a visit.
+    ↩ (goto) Hero: I'm saving everything we found as proof. It'll come in handy.
+└─ merge ─┘

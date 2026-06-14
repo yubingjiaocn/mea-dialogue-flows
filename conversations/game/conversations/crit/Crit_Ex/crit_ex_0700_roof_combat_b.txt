@@ -1,0 +1,60 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0700_roof_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0700_roof_combat_b.xml
+==================================================
+Hero: Whoa. Heads up!
+Hero: Oh crap! He's closing in! Come on! Guys! Seriously!
+global_squad_angara: I hear you, Ryder! On it!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They must transform these guys, too. There's more going on here.
+    Hero: Not sure I want to bust into that factory.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: What else do these kett transform?
+    ↩ (goto) Hero: Not sure I want to bust into that factory.
+├ option 3:
+    global_squad_turian ⟨cond⟩: They transform these guys, too? It's all making sense now.
+    ↩ (goto) Hero: Not sure I want to bust into that factory.
+├ option 4:
+    global_squad_asari ⟨cond⟩: They transform these guys, too? Must be. What the hell?
+    ↩ (goto) Hero: Not sure I want to bust into that factory.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: They transform these guys, too? The kett have quite the operation going.
+    ↩ (goto) Hero: Not sure I want to bust into that factory.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Head for that platform!
+    global_squad_angara: Yeah! Good idea! Better position!
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Head for that platform!
+    ↩ (goto) global_squad_angara: Yeah! Good idea! Better position!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Head for that platform!
+    ↩ (goto) global_squad_angara: Yeah! Good idea! Better position!
+├ option 4:
+    global_squad_asari ⟨cond⟩: Head for that platform!
+    ↩ (goto) global_squad_angara: Yeah! Good idea! Better position!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Head for that platform!
+    ↩ (goto) global_squad_angara: Yeah! Good idea! Better position!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Okay, here we go. Here we go!
+├ option 2:
+    Hero: Come on, big boy. Come on!
+└─ merge ─┘
+Hero: Back off! You're going to be sorry, you hard-headed freak of nature!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Shit! Get him off us!
+├ option 2:
+    global_squad_turian ⟨cond⟩: Look out! Close quarters!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: He's asking for it! Krogan have short arms for a reason!
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Close quarters! Too close!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: He's on top of us! Bad move on his part! Right? I hope?
+└─ merge ─┘

@@ -1,0 +1,67 @@
+# game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_turian_pf_i
+# Primary speaker: global_turian_pathfinder_multi
+# Source: game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_turian_pf_i.xml
+==================================================
+Hero: So it's official? You're part of our little club.
+global_turian_pathfinder_multi: I know I was... reluctant. But it was the right call. Thanks for the push.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Anytime. I love pushing people around.
+    global_turian_pathfinder_multi: {i}(Chuckles.){/i} So I hear.
+    Hero: From who?
+    global_turian_pathfinder_multi: Everyone.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        Hero: How's life on the Nexus treating you?
+        global_turian_pathfinder_multi: Running water and rations? It's a beautiful thing.
+        global_turian_pathfinder_multi: I can tell people are still shook up from the uprising, but compared to Havarl, things almost feel normal.
+        ↩ (goto) global_turian_pathfinder_multi: [empty]
+    ├ option 2:
+        Hero: Any luck finding other survivors from Natanus?
+        global_turian_pathfinder_multi: Brought in another batch yesterday. Still too many unaccounted for, but we're getting there.
+        Hero: I'll keep an eye out.
+        global_turian_pathfinder_multi: Thanks, Ryder. Appreciate it.
+        ↩ (goto) global_turian_pathfinder_multi: [empty]
+    ├ option 3:
+        Hero: So, how are you finding the new post?
+        global_turian_pathfinder_multi: Not used to having people question my actions, but I like the challenge. More than I thought I would.
+        Hero: Any regrets?
+        global_turian_pathfinder_multi: My only regret is that Macen isn't here to see me play diplomat with Tann. Back in the Milky Way, I would've punched sense into that worm.
+        global_turian_pathfinder_multi: Now, I use my words. I'm a changed man.
+        ↩ (goto) global_turian_pathfinder_multi: [empty]
+    ├ option 4:
+        Hero [OncePerGame]: How have you been since H-047c?
+        global_turian_pathfinder_multi: Fine. I'm fine.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: If you ever want to talk about Macen, you know where to find me.
+            global_turian_pathfinder_multi: Thanks, Ryder. Really. I'm just... not ready.
+            ↩ (goto) global_turian_pathfinder_multi: [empty]
+        ├ option 2:
+            Hero: Keep internalizing your feelings and you're bound to explode. Doesn't have to be me, but you should talk to someone.
+            global_turian_pathfinder_multi: I talk to SAM.
+            Hero: That's a start.
+            ↩ (goto) global_turian_pathfinder_multi: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        Hero: Pathfinder versus Spectre. How does it compare?
+        global_turian_pathfinder_multi: They're completely different beasts.
+        global_turian_pathfinder_multi: As a Spectre, I worked in the shadows. Intel was on a need-to-know basis.
+        global_turian_pathfinder_multi: Here, everyone's looking at me. Looking {i}to{/i} me. It's all out in the open.
+        Hero: Which do you prefer?
+        global_turian_pathfinder_multi: Being a Spectre was easier. But being a Pathfinder's more rewarding.
+        ↩ (goto) global_turian_pathfinder_multi: [empty]
+    ├ option 6:
+        Hero: Good seeing you, Avitus.
+        global_turian_pathfinder_multi: Stay safe out there.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: I know you'll make Macen proud.
+    global_turian_pathfinder_multi: I... I'm trying.
+    ↩ (goto) global_turian_pathfinder_multi: [empty]
+├ option 3:
+    Hero ⟨cond⟩: I'm not worried. You're good for it.
+    ↩ (goto) global_turian_pathfinder_multi: I... I'm trying.
+└─ merge ─┘
+global_turian_pathfinder_multi ⟨cond⟩: Hey Ryder.
+↩ (goto) global_turian_pathfinder_multi: [empty]

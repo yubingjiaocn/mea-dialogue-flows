@@ -1,0 +1,27 @@
+# game/conversations/unc/storms/stm_6150_atk_site_to_site_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6150_atk_site_to_site_b.xml
+==================================================
+global_extremist_leader: [Comm] This site is a decoy! Rally at these coordinates!
+Hero: They're on to us! Where are they going?
+ustl_settle_01_admin_multi: [Comm] I'll tell you. Site 1! We overcharged the power relay to draw them in!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Akksul's {i}not{/i} going to be happy about that.
+    Hero: Promise, here we come!
+├ option 2:
+    global_squad_angara: [Comm] Akksul's {i}not{/i} going to be happy about that.
+    ↩ (goto) Hero: Promise, here we come!
+└─ merge ─┘
+stm_6000_atk_roekaar_enemy: [Comm] Akksul! There's nothing here!
+global_extremist_leader: [Comm] There must be. It's their first outpost. I'll come down from orbit.
+stm_6000_atk_roekaar_enemy: [Comm] Not until we've secured the area!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_6000_atk_roekaar_enemy ⟨cond⟩: [Comm] Akksul! The Pathfinder is coming!
+    stm_6000_atk_roekaar_enemy: [Comm] Motherless! Everyone prepare to defend!
+    Hero: Sounds like they're losing their support.
+├ option 2:
+    stm_6000_atk_roekaar_enemy: [Comm] Akksul! The Pathfinder is coming!
+    ↩ (goto) stm_6000_atk_roekaar_enemy: [Comm] Motherless! Everyone prepare to defend!
+└─ merge ─┘

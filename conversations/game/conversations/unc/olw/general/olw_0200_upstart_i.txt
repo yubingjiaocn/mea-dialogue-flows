@@ -1,0 +1,47 @@
+# game/conversations/unc/olw/general/olw_0200_upstart_i
+# Primary speaker: olw_upstart_crony
+# Source: game/conversations/unc/olw/general/olw_0200_upstart_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_upstart [OncePerGame]: Back off. I don't deal with Nexus scum.
+    olw_upstart_crony: That's a good way to get shot, Elora.
+    olw_upstart: Did I ask for your opinion?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I don't want to start anything.
+        olw_upstart: Yeah? Then why'd you come to Kadara? Here to take this place from us, too?
+        olw_upstart: Sloane should've taken the Nexus out when she had the chance. She's weak.
+        Hero: I take it you're not an Outcast, then.
+        olw_upstart: Got my own faction. When we take over, we'll do all the things the Outcasts and Collective didn't have the balls for.
+        Hero: Well. Good luck with that.
+        olw_upstart: Yeah. Better watch your back, Nexus.
+    ├ option 2:
+        Hero: Yeah. I'd listen to that guy.
+        olw_upstart: You're all the same, aren't you? Sloane, the Charlatan, the Nexus—all looking for a power trip.
+        ↩ (goto) olw_upstart: Sloane should've taken the Nexus out when she had the chance. She's weak.
+    └─ merge ─┘
+├ option 2:
+    olw_upstart: Fuck off.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Got a few words for Elora. Where is she?
+    olw_upstart_crony: You didn't hear?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_upstart_crony ⟨cond⟩: Charlatan got wind of what she was up to. Sent her off to Elaaden for an extended vacation.
+        olw_upstart_crony: Doubt she'll last long there. Good riddance.
+    ├ option 2:
+        olw_upstart_crony: Word of her plans got around. Sloane caught wind and made her... disappear.
+        olw_upstart_crony: Always told Elora she was too ambitious.
+    └─ merge ─┘
+├ option 2:
+    olw_upstart_crony: Looking for Elora?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) olw_upstart_crony ⟨cond⟩: Charlatan got wind of what she was up to. Sent her off to Elaaden for an extended vacation.
+    ├ option 2:
+        ↩ (goto) olw_upstart_crony: Word of her plans got around. Sloane caught wind and made her... disappear.
+    └─ merge ─┘
+└─ merge ─┘

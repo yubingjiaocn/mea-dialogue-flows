@@ -1,0 +1,75 @@
+# game/conversations/unc_ice/ice_history_0100_start_i
+# Primary speaker: ice_arivesjek
+# Source: game/conversations/unc_ice/ice_history_0100_start_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ice_arivesjek: Unfortunately, any information stored at the kett base was probably destroyed along with it.
+    ice_arivesjek: Perhaps I'll be able to find what I need elsewhere.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Why don't the angara have records of first contact with the kett?
+        ice_arivesjek: Those who were there cannot tell their tales.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_arivesjek: Dead, enslaved, or exalted.
+            ice_arivesjek: There are stories. Rumors. No one knows for sure what happened.
+            ↩ (goto) ice_arivesjek: [empty]
+        ├ option 2:
+            ice_arivesjek: Dead or disappeared.
+            ↩ (goto) ice_arivesjek: There are stories. Rumors. No one knows for sure what happened.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'll leave you to your work.
+        ice_arivesjek: Of course. I hope to speak to you in less frantic times. I would love to hear about your people.
+    └─ merge ─┘
+├ option 2:
+    ice_arivesjek: Pathfinder Ryder, it is wonderful to finally meet you in person.
+    ice_arivesjek: I am Ari Vesjek, scholar and chronicler. I have followed your activity with great interest.
+    Hero: Chronicler? Like a historian?
+    ice_arivesjek: Quite so. Denied memory of the past or hope for the future, we become dust in a void.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The past can tell us an awful lot about the present.
+        ice_arivesjek: Exactly. Our struggles are difficult, but we have survived much greater, and can do so again.
+        ice_arivesjek: It is my life's work to document the events that shape our world.
+        ice_arivesjek: The arrival of visitors from beyond the galaxy is a significant development, of course.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: If there is anything we can do to help your work?
+            ice_arivesjek: I have always been curious about how the kett invasion began.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) ice_arivesjek ⟨cond⟩: [empty]
+            ├ option 2:
+                ice_arivesjek: They must have records of first contact, and we have none of our own.
+                Hero: Where would you get that information?
+                ice_arivesjek: The kett are a military people. They must have logs. Perhaps they can be accessed from their base on Voeld.
+                ice_arivesjek: Approaching it would be foolhardy. Still, if you find yourself there, please see what you can find.
+                ↩ (goto) ice_arivesjek: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm just hoping we don't turn out to be a significantly {i}bad{/i} development.
+            ice_arivesjek: Nothing you've done approaches the damage caused by the kett.
+            ice_arivesjek: And speaking of kett, I wish we knew more about how their invasion started.
+            ↩ (goto) ice_arivesjek: They must have records of first contact, and we have none of our own.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's a wonderful sentiment.
+        ice_arivesjek: My grandmother's words. She set me on this path.
+        ↩ (goto) ice_arivesjek: It is my life's work to document the events that shape our world.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ice_arivesjek: Yes, Pathfinder?
+        ↩ (goto) ice_arivesjek: [empty]
+    ├ option 2:
+        ice_arivesjek: Greetings again.
+        ↩ (goto) ice_arivesjek: [empty]
+    ├ option 3:
+        ice_arivesjek ⟨cond⟩: I hope you find what we need at that base.
+        ↩ (goto) ice_arivesjek: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) ice_arivesjek: [empty]

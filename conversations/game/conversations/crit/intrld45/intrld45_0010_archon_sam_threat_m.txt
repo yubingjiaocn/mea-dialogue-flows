@@ -1,0 +1,44 @@
+# game/conversations/crit/intrld45/intrld45_0010_archon_sam_threat_m
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/intrld45/intrld45_0010_archon_sam_threat_m.xml
+==================================================
+global_main_villain_lieutenant: With reverence, Archon, this fascination with Meridian cannot continue.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_main_villain: It's the key to our future, Primus. The human knows nothing of its true power.
+    global_main_villain_lieutenant: Even {i}we{/i} don't fully understand it.
+    global_main_villain_lieutenant: Our orders are to exalt this cluster, not study the Remnant.
+    global_main_villain_lieutenant: Questions are being asked about your judgment...
+    global_main_villain_lieutenant: Questions that come from the highest levels.
+    global_main_villain: The answers will be clear soon enough.
+    global_main_villain: With Meridian, we can transform every world in this cluster to a wasteland.
+    global_main_villain: Either the subjects submit to exaltation, or we will use it to annihilate them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_main_villain: This "Pathfinder" has opened the door.
+        global_main_villain: Now {i}we{/i} must be the first to cross the threshold.
+        global_main_villain: {i}We{/i} must seize Meridian before it does.
+        global_main_villain: Like all lesser creatures, it mistakes a battle for the war. It doesn't know its weakness.
+        global_main_villain: Or its potential.
+        Hero: The Archon saw my memory flashes? He got that from my implant?
+        global_crew_science_officer: His device went deep. Our connections were wide open when SAM... killed you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We hit him once—we focus on doing it again. We have to rally the Nexus and move on Meridian.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+            ├ option 2:
+                ↩ (goto) global_main_villain_lieutenant: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: He'll know how much we need Meridian. We have to warn the Nexus. We have to move.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_main_villain: This "Pathfinder" has opened the door.
+        ↩ (goto) global_main_villain: Now {i}we{/i} must be the first to cross the threshold.
+    └─ merge ─┘
+├ option 2:
+    global_main_villain: It's the key to our future, Primus. The human knows nothing of its true power.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

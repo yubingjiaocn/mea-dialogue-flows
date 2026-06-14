@@ -1,0 +1,22 @@
+# game/conversations/storyteller/anchors/sty_finale_ice_kettbody2_i
+# Primary speaker: ICE_sty_ang_prisoner
+# Source: game/conversations/storyteller/anchors/sty_finale_ice_kettbody2_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ICE_sty_ang_prisoner [OncePerGame]: I thought I would die here. Thanks for the rescue, if that's what this is.
+    ICE_sty_ang_prisoner: I've never seen your kind before. For all I know, you're simply taking me to a new prison.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm with the Initiative. We're on the same side.
+        ICE_sty_ang_prisoner: I wonder what that side means to you.
+        ICE_sty_ang_prisoner: I'll head back to Havarl. Cut this tracking chip out of my neck.
+        ICE_sty_ang_prisoner: If we ever meet again, I owe you a drink. Thank you.
+    ├ option 2:
+        Hero: Come on. Do I look like a kett soldier?
+        ICE_sty_ang_prisoner: Just because you aren't kett doesn't mean you're friendly. But I'll assume you're letting me go.
+        ↩ (goto) ICE_sty_ang_prisoner: I'll head back to Havarl. Cut this tracking chip out of my neck.
+    └─ merge ─┘
+├ option 2:
+    ICE_sty_ang_prisoner: I'll head back to Havarl. Thank you.
+└─ merge ─┘

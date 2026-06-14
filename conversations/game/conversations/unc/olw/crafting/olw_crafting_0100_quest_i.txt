@@ -1,0 +1,28 @@
+# game/conversations/unc/olw/crafting/olw_crafting_0100_quest_i
+# Primary speaker: 
+# Source: game/conversations/unc/olw/crafting/olw_crafting_0100_quest_i.xml
+==================================================
+olw_disgruntled_outlaw: You're that Initiative big shot, aren't you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Some might say that.
+    olw_disgruntled_outlaw: Don't fret. I'm not gonna hit you up for anything. Nothing specific, at least.
+    olw_disgruntled_outlaw: You could say I'm disillusioned with the exiles. People here can't be trusted, sooner stab you in the back than work together.
+    olw_disgruntled_outlaw: So, I got no love for any of them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Get to the point.
+        olw_disgruntled_outlaw: Shit. Fine.
+        olw_disgruntled_outlaw: Outlaws got innovative ways of putting stuff together. I bet a smart one like you could learn a lot from scrutinizing our, uh, stuff.
+        olw_disgruntled_outlaw: You should check out outlaw tech and materials. Might learn a few things.
+        olw_disgruntled_outlaw: You remember who gave you the skinny on that.
+    ├ option 2:
+        Hero: They don't deserve you.
+        olw_disgruntled_outlaw: Damn straight.
+        ↩ (goto) olw_disgruntled_outlaw: Outlaws got innovative ways of putting stuff together. I bet a smart one like you could learn a lot from scrutinizing our, uh, stuff.
+    └─ merge ─┘
+├ option 2:
+    Hero: Maybe. Maybe not. Do I owe you credits?
+    olw_disgruntled_outlaw: Oh, you're a playful one. I like that.
+    ↩ (goto) olw_disgruntled_outlaw: You could say I'm disillusioned with the exiles. People here can't be trusted, sooner stab you in the back than work together.
+└─ merge ─┘

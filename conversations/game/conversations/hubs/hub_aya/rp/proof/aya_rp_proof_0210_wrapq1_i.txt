@@ -1,0 +1,127 @@
+# game/conversations/hubs/hub_aya/rp/proof/aya_rp_proof_0210_wrapq1_i
+# Primary speaker: oasis_vill_merchant
+# Source: game/conversations/hubs/hub_aya/rp/proof/aya_rp_proof_0210_wrapq1_i.xml
+==================================================
+oasis_vill_merchant: You came back.
+Hero: I have bad news. Your supplier, Keldo—the kett got him.
+oasis_vill_merchant: Thank you for confirming how he died. You have his supplies?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Keldo ran weapons for the Resistance. You were his contact.
+    oasis_vill_merchant: Good, good—continue.
+    Hero: Evfra asked you to test me. See how I'd handle myself.
+    oasis_vill_merchant: I told him you were smart.
+    Hero: The kett had your weapons. I got them back.
+    oasis_vill_merchant: Yes, all of them. And Keldo's killers, dead. This is good.
+    oasis_vill_merchant: You're honest, Pathfinder. Reliable. I'll tell Evfra you did well.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I appreciate it. I do want our people to get along. Help each other.
+        oasis_vill_merchant: You proved it. This time, at least.
+        oasis_vill_merchant: Need to get the weapons where they belong, but... Keldo would want me to help you.
+        oasis_vill_merchant: I have things you can use... and I want to see your "credits" for myself. Trade?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Resources are scarce for us. If you'll take credits, I'll trade.
+            oasis_vill_merchant: It's a start.
+            oasis_vill_merchant: My inventory's open to you. Anything you need.
+        ├ option 2:
+            Hero: Think I'm getting the better deal. All you walk away with is a number.
+            oasis_vill_merchant: True, but who knows what that number will be worth someday?
+            ↩ (goto) oasis_vill_merchant: My inventory's open to you. Anything you need.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: How many more of these tests do I have to pass?
+        oasis_vill_merchant: We don't trust outsiders—but maybe we can work with you.
+        ↩ (goto) oasis_vill_merchant: Need to get the weapons where they belong, but... Keldo would want me to help you.
+    └─ merge ─┘
+├ option 2:
+    Hero: Supplies? Your friend is dead. Don't you care?
+    oasis_vill_merchant: I grieved for Keldo before I sent you to find his body.
+    oasis_vill_merchant: He fought for the Resistance. Died for it. We still need what he promised.
+    ↩ (goto) Hero: The kett had your weapons. I got them back.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    oasis_vill_merchant ⟨cond⟩: The alien returns! And look at that.
+    oasis_vill_merchant: You found the supplies.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You needed help, so we helped.
+        oasis_vill_merchant: You make it sound so simple.
+        oasis_vill_merchant: Thank you. I appreciate this.
+        oasis_vill_merchant: So, what happened exactly?
+        Hero: The kett were there. Set an ambush for whoever came looking.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            oasis_vill_merchant ⟨cond⟩: Kett? Stars above. I don't understand. We were careful...
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Well, they knew about your guns.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    oasis_vill_merchant ⟨cond⟩: My guns? Jaal, did you...
+                    global_squad_angara: No. I didn't need to, Sohkaa. They're not stupid.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: You said your supplier wasn't checking in. You didn't say anything about weapons.
+                        oasis_vill_merchant: Well, the supplies weren't the issue. It was Keldo I was worried about.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            oasis_vill_merchant ⟨cond⟩: Wait... Jaal, what is your friend not telling me?
+                            global_squad_angara: Keldo is dead, Sohkaa. I'm sorry.
+                            oasis_vill_merchant: Oh. I—oh no...
+                            oasis_vill_merchant: Thank you for your help, Pathfinder. I'll let his family know.
+                        ├ option 2:
+                            oasis_vill_merchant ⟨cond⟩: Wait... Jaal, what is your friend not telling me?
+                            ↩ (goto) global_squad_angara: Keldo is dead, Sohkaa. I'm sorry.
+                        ├ option 3:
+                            oasis_vill_merchant: Wait. You're not telling me something. What happened to my supplier?
+                            Hero: We found his body. The kett... killed him. I'm sorry.
+                            ↩ (goto) oasis_vill_merchant: Oh. I—oh no...
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: As you said, you didn't have reason to trust us.
+                        oasis_vill_merchant: You're being very understanding about this.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            ↩ (goto) oasis_vill_merchant ⟨cond⟩: Wait... Jaal, what is your friend not telling me?
+                        ├ option 2:
+                            ↩ (goto) oasis_vill_merchant ⟨cond⟩: Wait... Jaal, what is your friend not telling me?
+                        ├ option 3:
+                            ↩ (goto) oasis_vill_merchant: Wait. You're not telling me something. What happened to my supplier?
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    oasis_vill_merchant: How did you... right.
+                    ↩ (goto) oasis_vill_merchant: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                oasis_vill_merchant: I wonder why the kett would be so interested in my supplies.
+                Hero: You tell me.
+                oasis_vill_merchant: All right, all right. So they might have been supplies for the Resistance. Weapons.
+                ↩ (goto) oasis_vill_merchant: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            oasis_vill_merchant ⟨cond⟩: What? Stars, I honestly didn't know there'd be kett.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero ⟨cond⟩: Well, they knew about your guns.
+            ├ option 2:
+                ↩ (goto) oasis_vill_merchant: I wonder why the kett would be so interested in my supplies.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We weren't supposed to?
+        oasis_vill_merchant: I just I didn't think you'd make the time. There didn't seem to be any benefit.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            oasis_vill_merchant ⟨cond⟩: And yet, you helped the Moshae {i}and{/i} me.
+            ↩ (goto) oasis_vill_merchant: My inventory's open to you. Anything you need.
+        ├ option 2:
+            ↩ (goto) oasis_vill_merchant: Thank you. I appreciate this.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) oasis_vill_merchant: You found the supplies.
+└─ merge ─┘

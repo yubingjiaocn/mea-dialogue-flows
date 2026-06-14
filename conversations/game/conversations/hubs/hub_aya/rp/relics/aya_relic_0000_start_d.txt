@@ -1,0 +1,91 @@
+# game/conversations/hubs/hub_aya/rp/relics/aya_relic_0000_start_d
+# Primary speaker: aya_curator_avela_multi
+# Source: game/conversations/hubs/hub_aya/rp/relics/aya_relic_0000_start_d.xml
+==================================================
+aya_curator_avela_multi: Stars above, it's you... I was hoping to get a chance to speak with you.
+aya_curator_avela_multi: You left your home to cross dark space... is it true you can never go back?
+Hero: Yeah. This is home now.
+aya_curator_avela_multi: To take such a risk and give up your old life... why did you do it?
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: For the chance to meet someone like you. Looks like it already paid off.
+    aya_curator_avela_multi: Are all humans this quick with words?
+    Hero: You'll have to find out.
+    aya_curator_avela_multi: I suppose I will.
+    Hero: My turn for a question. Do I get to know your name?
+    aya_curator_avela_multi: Oh—of course. I'm Avela Kjar, curator for the Repository of History.
+    aya_curator_avela_multi: We study relics of our past. Try to piece together what we lost in the Scourge.
+    aya_curator_avela_multi: And... the truth is, there was something I wanted to talk to you about.
+    aya_curator_avela_multi: Pathfinder, how much do you know about our history?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The kett hit your people pretty hard, right?
+        aya_curator_avela_multi: They did. But long before that, the Scourge destroyed our technology, first targeting our ships.
+        aya_curator_avela_multi: Many of those ships went down over Havarl. The wilds of that planet are filled with history.
+        aya_curator_avela_multi: A scientist on Havarl just contacted me with the navpoint of an intact crash site. A huge opportunity.
+        aya_curator_avela_multi: But with Remnant patrolling the area, we can't get close enough. Not like you can.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: How do you know about me and the Remnant?
+            aya_curator_avela_multi: I have friends in the Resistance. They heard your conversation with Evfra.
+            aya_curator_avela_multi: I know it's a lot to ask. But you have a ship—and the means to get past the Remnant.
+            aya_curator_avela_multi: Without your help... I'm stuck.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: You're trusting your history with an outsider?
+                aya_curator_avela_multi: I know what people say about you, but I don't agree. I think you're here to help.
+                Hero: I am.
+                aya_curator_avela_multi: Now's your chance to prove it. You want to earn Aya's respect, right?
+                aya_curator_avela_multi: Recovering our past will go a long way.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero [OncePerGame]: I don't think Evfra would be too happy with this arrangement.
+                    aya_curator_avela_multi: Evfra doesn't have to know. And if he finds out, he can direct his anger at me.
+                    Hero: It takes guts to stand up to him.
+                    aya_curator_avela_multi: I'd face worse to get a piece of our history back.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero [OncePerGame]: You're trusting your history with an outsider?
+                    ├ option 2:
+                        Hero: I've always wanted to give archaeology a try.
+                        aya_curator_avela_multi: I was hoping you'd say that.
+                        aya_curator_avela_multi: If you find anything, I'll be here. Thank you, Pathfinder.
+                    ├ option 3:
+                        Hero: Seems like a lot of trouble for a few relics.
+                        aya_curator_avela_multi: I know it seems that way. But the Scourge erased everything we had.
+                        aya_curator_avela_multi: Our records were destroyed. History, culture, technology... it's all gone.
+                        aya_curator_avela_multi: All we have left are these relics. Fleeting chances to learn more.
+                        Hero: When you put it that way, it's hard to say no.
+                        aya_curator_avela_multi: All I ask is that you keep an eye out. Nothing more.
+                        ↩ (goto) aya_curator_avela_multi: If you find anything, I'll be here. Thank you, Pathfinder.
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) Hero: I've always wanted to give archaeology a try.
+                ├ option 3:
+                    ↩ (goto) Hero: Seems like a lot of trouble for a few relics.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero [OncePerGame]: I don't think Evfra would be too happy with this arrangement.
+            ├ option 3:
+                ↩ (goto) Hero: I've always wanted to give archaeology a try.
+            ├ option 4:
+                ↩ (goto) Hero: Seems like a lot of trouble for a few relics.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: So you want me to go.
+            ↩ (goto) aya_curator_avela_multi: I know it's a lot to ask. But you have a ship—and the means to get past the Remnant.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I still have a lot to learn.
+        aya_curator_avela_multi: Centuries ago, the Scourge targeted my people. Our ships were the first to go dark.
+        ↩ (goto) aya_curator_avela_multi: Many of those ships went down over Havarl. The wilds of that planet are filled with history.
+    └─ merge ─┘
+├ option 2:
+    Hero: I believed in what the Initiative stood for. I still do.
+    aya_curator_avela_multi: That's noble of you. I'm not sure I could make the same choice.
+    ↩ (goto) Hero: My turn for a question. Do I get to know your name?
+├ option 3:
+    Hero: I couldn't resist the adventure of a lifetime.
+    aya_curator_avela_multi: I know the feeling. There's a rush in taking a chance and hoping for the best.
+    ↩ (goto) Hero: My turn for a question. Do I get to know your name?
+└─ merge ─┘

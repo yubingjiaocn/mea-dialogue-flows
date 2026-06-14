@@ -1,0 +1,57 @@
+# Game/Conversations/Crit/Intrld/Intrld_0360_First_Greeting_m
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/crit/intrld/Intrld_0360_First_Greeting_m.xml
+==================================================
+Hero: Hi, there.
+Hero: We're from Ark Hyperion. And wondering where everybody went...?
+global_squad_male_human: Did he hear you?
+Nexus_Worker1: Did you say an "ark"?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: This is the Nexus, right? Pretty sure we parked in the right place.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And for what it's worth, your VI over there could use an update.
+        Nexus_Worker1: Of course, I'm sorry. It's just... we thought you were all dead!
+        global_squad_female_human: What?
+        Nexus_Worker1: Or captured. Or lost in dark space, or...
+        Nexus_Worker1: But you're here. You have no idea how much this means.
+        global_nexus_militia_leader: I don't believe it...
+        global_nexus_militia_leader: I'm Tiran Kandros. I lead our militia on the Nexus.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I'm Scott Ryder. This is Cora Harper and Liam Kosta, part of the Pathfinder team.
+            global_nexus_militia_leader: I'm sorry for the confusion. Our sensors told us an ark had arrived, but Heleus is notorious for scrambling equipment.
+            global_nexus_militia_leader: We thought you were just another malfunction.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Well, I've got a shipload of people that says we're here.
+                global_nexus_militia_leader: Of course, it's just...
+                global_nexus_militia_leader: You're the first ark we've seen. After a year of waiting and no sign of the others, we shuttered this area and stopped looking.
+                global_squad_male_human: You've been stranded for a whole {i}year{/i}?
+                global_nexus_militia_leader: Longer. I'll fill you in on the way to Ops Center.
+            ├ option 2:
+                Hero: But aren't you expecting us?
+                ↩ (goto) global_nexus_militia_leader: You're the first ark we've seen. After a year of waiting and no sign of the others, we shuttered this area and stopped looking.
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: I'm Sara Ryder. This is Cora Harper and Liam Kosta, part of the Pathfinder team.
+            ↩ (goto) global_nexus_militia_leader: I'm sorry for the confusion. Our sensors told us an ark had arrived, but Heleus is notorious for scrambling equipment.
+        ├ option 3:
+            Hero: I'm Ryder. This is Cora Harper and Liam Kosta, part of the Pathfinder team.
+            ↩ (goto) global_nexus_militia_leader: I'm sorry for the confusion. Our sensors told us an ark had arrived, but Heleus is notorious for scrambling equipment.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Nexus_Worker1: Of course, I'm sorry. It's just... we thought you were all dead!
+    └─ merge ─┘
+├ option 2:
+    Hero: Yeah, we just got in.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And for what it's worth, your VI over there could use an update.
+        Nexus_Worker1: But... we thought you were all dead!
+        ↩ (goto) global_squad_female_human: What?
+    ├ option 2:
+        ↩ (goto) Nexus_Worker1: But... we thought you were all dead!
+    └─ merge ─┘
+└─ merge ─┘

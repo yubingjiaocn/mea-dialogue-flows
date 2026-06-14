@@ -1,0 +1,73 @@
+# game/conversations/crit/m4/m4_0360_post_labs_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0360_post_labs_b.xml
+==================================================
+Hero: Someone's going to pay for this.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Take your anger out on them!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Let 'em have it!
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Take it out on them!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Take it out on them!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Take it out on them!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Take it out on them!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: You bastards, we're not lab animals!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Hey assholes, we're not lab animals!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: You bastards, we're not lab animals!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: You assholes, we're not lab animals!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: You bastards, we're not lab animals!
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Monsters! We're not lab animals!
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Die already!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Die already!
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Die already!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Die already!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Die already!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Die already!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: That felt good.
+    Hero: SAM, how's it looking?
+    SAM: The Archon's chamber will require a new path through the unlocked door.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Hope they got the message.
+    ↩ (goto) Hero: SAM, how's it looking?
+├ option 3:
+    global_squad_asari ⟨cond⟩: That felt good.
+    ↩ (goto) Hero: SAM, how's it looking?
+├ option 4:
+    global_squad_turian ⟨cond⟩: That felt good.
+    ↩ (goto) Hero: SAM, how's it looking?
+├ option 5:
+    global_squad_male_human ⟨cond⟩: That felt good.
+    ↩ (goto) Hero: SAM, how's it looking?
+├ option 6:
+    global_squad_female_human ⟨cond⟩: That felt good.
+    ↩ (goto) Hero: SAM, how's it looking?
+└─ merge ─┘

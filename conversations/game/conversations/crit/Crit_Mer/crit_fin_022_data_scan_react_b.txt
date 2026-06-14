@@ -1,0 +1,43 @@
+# game/conversations/crit/crit_mer/crit_fin_022_data_scan_react_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_022_data_scan_react_b.xml
+==================================================
+Hero: Getting a failure on Meridian's energy capacity.
+SAM: Measurement tolerances are surpassing our established predictive models.
+Hero: The "tolerances"? It has so much power, we can't guess the {i}margin of error{/i}?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They toy with worlds.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: It's a mistake, right?
+├ option 3:
+    global_squad_turian ⟨cond⟩: Damn.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: That's... good, right?
+├ option 5:
+    global_squad_female_human ⟨cond⟩: That's a lot to handle.
+├ option 6:
+    global_squad_asari ⟨cond⟩: I want to go there {i}now{/i}.
+└─ merge ─┘
+SAM: This station is malfunctioning, but it is reporting that override controls are functioning elsewhere.
+Hero: We've made it. We're gonna do it.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Thanks to you, Pathfinder.
+├ option 2:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: You bet we are.
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: It's finally sounding real.
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: All because of {i}this{/i} team.
+├ option 5:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: We've earned it.
+├ option 6:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Been a long time coming.
+└─ merge ─┘
+Hero: What does this mean, SAM?
+SAM: The language is imprecise, or perhaps too precise, but the potential capacity of Meridian is clear.
+global_squad_asari: Unlimited.
+Hero: Even these Jardaan were surprised at what they created.
+SAM: It is not uncommon for a creator to be surpassed by their creation.
+global_squad_krogan: Couldn't {i}anyone{/i} else have said that?

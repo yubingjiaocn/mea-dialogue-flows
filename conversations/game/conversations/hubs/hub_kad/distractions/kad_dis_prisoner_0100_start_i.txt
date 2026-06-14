@@ -1,0 +1,69 @@
+# game/conversations/hubs/hub_kad/distractions/kad_dis_prisoner_0100_start_i
+# Primary speaker: kad_prisoner
+# Source: game/conversations/hubs/hub_kad/distractions/kad_dis_prisoner_0100_start_i.xml
+==================================================
+kad_prisoner: Did you find Cele? Was she worried?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: No, because she's not your girlfriend.
+    kad_prisoner: Shit. I hoped she had changed her mind.
+    Hero: Focus on yourself, Jim. Cele's happy where she is.
+    kad_prisoner: {i}(Sighs.){/i} Damn it.
+├ option 2:
+    Hero: I delivered your message, but Cele's happy at Tartarus.
+    kad_prisoner: Oh. So, she wasn't worried?
+    Hero: Focus on getting out, Jim.
+    kad_prisoner: Yeah, okay.
+└─ merge ─┘
+kad_prisoner: Change your mind?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Yeah, all right. Give me the message.
+    kad_prisoner: My girlfriend, Cele, works at Tartarus. Most beautiful asari you’ve ever seen.
+    kad_prisoner: Skin like the ocean. Eyes like—
+    Hero: Jim. The message.
+    kad_prisoner: Right. Tell Cele I've run into a... complication. But I'll have the credits to pay Sloane's protection fees soon.
+    kad_prisoner: Ask her to wait for me. Oh! And leave out the part where I’m in jail. Thanks.
+├ option 2:
+    Hero: Still don't have time.
+    kad_prisoner: Then go somewhere else.
+└─ merge ─┘
+kad_prisoner: Thank god. Didn’t think anyone would stop.
+kad_prisoner: I need you to deliver a message. Please.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: First, tell me why they've got you locked up.
+    kad_prisoner: {i}(Sighs).{/i} I may have had too much to drink—and urinated on one of the guards.
+    kad_queen_guard_06: No "may have" about it. My boots still smell of piss!
+    kad_prisoner: I've always been a bad drunk.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: First, tell me why they've got you locked up.
+    ├ option 2:
+        Hero [OncePerGame]: What kind of message?
+        kad_prisoner: Nothing illegal! Just need to get word to my girlfriend.
+        kad_prisoner: She’s probably worried sick.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: What kind of message?
+        ├ option 2:
+            ↩ (goto) Hero [OncePerGame]: First, tell me why they've got you locked up.
+        ├ option 3:
+            Hero: All right. What’s the message?
+            ↩ (goto) kad_prisoner: My girlfriend, Cele, works at Tartarus. Most beautiful asari you’ve ever seen.
+        ├ option 4:
+            Hero: Sorry, too busy.
+            kad_prisoner: Oh. Right. Of course.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero: All right. What’s the message?
+    ├ option 4:
+        ↩ (goto) Hero: Sorry, too busy.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero [OncePerGame]: What kind of message?
+├ option 3:
+    ↩ (goto) Hero: All right. What’s the message?
+├ option 4:
+    ↩ (goto) Hero: Sorry, too busy.
+└─ merge ─┘

@@ -1,0 +1,150 @@
+# game/conversations/unc_ice/ice_priestess_0100_i
+# Primary speaker: crit_rrescue_priestess
+# Source: game/conversations/unc_ice/ice_priestess_0100_i.xml
+==================================================
+crit_rrescue_priestess: Welcome. You are the Pathfinder, yes? I am Roshwar Linn.
+Hero: What are these symbols on the wall?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: My people worship here in private.
+    crit_rrescue_priestess: And I give the blessings. Would you like one?
+    Hero: I'm a bit of a stranger to your faith.
+    crit_rrescue_priestess: A stranger in all things, perhaps. The blessing is offered with simple goodwill.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Why don't you practice religion in public?
+        crit_rrescue_priestess: Those who are slaves to the kett are forbidden to express their spiritual beliefs.
+        crit_rrescue_priestess: We honor their isolation by practicing privately. Faith is also strongest when no one sees it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: It would be an honor.
+            crit_rrescue_priestess: I give you strength and courage—yet be clear your heart.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You seem troubled.
+                crit_rrescue_priestess: Oh. Pathfinder Ryder. I was just speaking a blessing for two of our young soldiers, murdered by the kett.
+                crit_rrescue_priestess: So many dead or disappeared, but these two cuts are the deepest yet.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Did you know them well?
+                    crit_rrescue_priestess: They would be alive if they hadn't welcomed this death.
+                    Hero: I'm not sure I understand.
+                    crit_rrescue_priestess: These children were swayed by a new belief that's taken hold.
+                    crit_rrescue_priestess: A soul finds enlightenment through reincarnation—but some now think they can force this.
+                    crit_rrescue_priestess: They fling themselves at death, thinking they will be reborn stronger. "Gloryseekers," we call them.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: I have heard of this. No one I know, but I can't be certain.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Reincarnation is a nice thought, but to die for it...
+                            crit_rrescue_priestess: This has consequences.
+                            crit_rrescue_priestess: If you meet some of these Gloryseekers, do what you can to save them from death.
+                            crit_rrescue_priestess: That's all any of us can do.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                Hero: What do you believe?
+                                crit_rrescue_priestess: In the never-ending growth of a soul that is reincarnated within a family.
+                                crit_rrescue_priestess: A righteous action in this life begets enlightenment in the next.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    global_squad_angara ⟨cond⟩: And, with that, a stronger dynasty.
+                                    Hero ⟨cond⟩: What happens to the souls of exalted angara?
+                                    crit_rrescue_priestess: This is our great heartache.
+                                    crit_rrescue_priestess: They are kept from the family dynasty. Lost to us in all ways.
+                                    ┌─ BRANCH (4) ─┐
+                                    ├ option 1:
+                                        Hero: How do you become a priestess?
+                                        crit_rrescue_priestess: With great hardship. Only those who know darkness can lead others to light.
+                                        crit_rrescue_priestess: I speak weekly words for those who seek them.
+                                        crit_rrescue_priestess: They take my words to their families, so that they all find the strength I once longed for.
+                                        ┌─ BRANCH (4) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) Hero: What do you believe?
+                                        ├ option 2:
+                                            ↩ (goto) Hero: How do you become a priestess?
+                                        ├ option 3:
+                                            Hero ⟨cond⟩: What does your religion say about your creation?
+                                            crit_rrescue_priestess: I have heard what you found at Khi Tasira.
+                                            crit_rrescue_priestess: It matters not why we breathe, but what we do with that breath.
+                                            ┌─ BRANCH (4) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) Hero ⟨cond⟩: What does your religion say about your creation?
+                                            ├ option 2:
+                                                ↩ (goto) Hero: What do you believe?
+                                            ├ option 3:
+                                                ↩ (goto) Hero: How do you become a priestess?
+                                            ├ option 4:
+                                                Hero: Thank you.
+                                            └─ merge ─┘
+                                        ├ option 4:
+                                            ↩ (goto) Hero: Thank you.
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        ↩ (goto) Hero: What do you believe?
+                                    ├ option 3:
+                                        ↩ (goto) Hero ⟨cond⟩: What does your religion say about your creation?
+                                    ├ option 4:
+                                        ↩ (goto) Hero: Thank you.
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    crit_rrescue_priestess: And, with that, a stronger dynasty.
+                                    ↩ (goto) Hero ⟨cond⟩: What happens to the souls of exalted angara?
+                                └─ merge ─┘
+                            ├ option 2:
+                                ↩ (goto) Hero: How do you become a priestess?
+                            ├ option 3:
+                                ↩ (goto) Hero ⟨cond⟩: What does your religion say about your creation?
+                            ├ option 4:
+                                ↩ (goto) Hero: Thank you.
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: How can they possibly know what they believe is true?
+                            crit_rrescue_priestess: {i}(Sighs.){/i} That is the great question of faith.
+                            crit_rrescue_priestess: I tried to speak to some of these misguided ones, but they didn't listen. And now...
+                            ↩ (goto) crit_rrescue_priestess: If you meet some of these Gloryseekers, do what you can to save them from death.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Do you need space? I can go.
+                    crit_rrescue_priestess: It's all right. Speaking grief lessens it.
+                    ↩ (goto) crit_rrescue_priestess: These children were swayed by a new belief that's taken hold.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) crit_rrescue_priestess: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I think I'll pass. No offense.
+            crit_rrescue_priestess: Naturally. Not all are believers.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) crit_rrescue_priestess ⟨cond⟩ [OncePerGame]: [empty]
+            ├ option 2:
+                ↩ (goto) crit_rrescue_priestess: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: It would be an honor.
+    ├ option 3:
+        ↩ (goto) Hero: I think I'll pass. No offense.
+    └─ merge ─┘
+├ option 2:
+    crit_rrescue_priestess: Our people worship in private here.
+    ↩ (goto) crit_rrescue_priestess: And I give the blessings. Would you like one?
+└─ merge ─┘
+↩ (goto) crit_rrescue_priestess ⟨cond⟩ [OncePerGame]: [empty]
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_rrescue_priestess: Ah, Pathfinder Ryder. Tej came to speak to me. So much conflict in one so young.
+    Hero: What about his friends?
+    crit_rrescue_priestess: They have agreed to come and let me... talk at them, shall we say?
+    crit_rrescue_priestess: Thank you, Pathfinder. You've given me a chance to reach them.
+    ↩ (goto) crit_rrescue_priestess: [empty]
+├ option 2:
+    crit_rrescue_priestess: Greetings again, Ryder.
+    ↩ (goto) crit_rrescue_priestess: [empty]
+└─ merge ─┘
+↩ (goto) crit_rrescue_priestess: [empty]
+crit_rrescue_priestess: Very little.

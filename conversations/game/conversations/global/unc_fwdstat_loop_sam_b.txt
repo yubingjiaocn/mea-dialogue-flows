@@ -1,0 +1,56 @@
+# game/conversations/global/unc_fwdstat_loop_sam_b
+# Primary speaker: SAM
+# Source: game/conversations/global/unc_fwdstat_loop_sam_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: I've identified a potential forward station site, Pathfinder.
+├ option 2:
+    SAM: A potential forward station site is available.
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    SAM: Pathfinder, there is a potential forward station site in this area.
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Acknowledged. Deploying forward station.
+├ option 2:
+    SAM: Deployment confirmed.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Activating automated forward station deployment.
+├ option 2:
+    SAM: Automated protocols activated. Deploying forward station.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Mining zones have been added to your nav system, Pathfinder.
+├ option 2:
+    SAM: Mining zones in this region are available, Pathfinder. I've added them to your nav system.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Pathfinder, this area can be mined for resources.
+    SAM: You can extract minerals via your mining interface.
+├ option 2:
+    SAM: You've entered a mining zone, Pathfinder.
+    ↩ (goto) SAM: You can extract minerals via your mining interface.
+└─ merge ─┘
+SAM: A forward station site is nearby, but it is currently unsafe to deploy.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: There is a planetary sample in the immediate area, Pathfinder.
+├ option 2:
+    SAM: Planetary charting and neuro-sympatic analysis complete.
+    SAM: Initiating adaptive matrix. Bio-neurological response is now at planetary ideal, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: The mining zone has been depleted.
+├ option 2:
+    SAM: Minerals have been depleted in this location.
+├ option 3:
+    SAM: Resources in this area are limited.
+└─ merge ─┘

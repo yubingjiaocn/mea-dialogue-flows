@@ -1,0 +1,20 @@
+# game/conversations/storyteller/anchors/sty_anchor_questmarker_kettbody1_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_anchor_questmarker_kettbody1_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: I'm receiving an unusual reading from that angara.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: I recommend scanning the body.
+    ├ option 2:
+        SAM: Scanning the body may provide more information.
+    └─ merge ─┘
+├ option 2:
+    SAM: I detect unusual signals from that angara, Pathfinder.
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    SAM: Picking up abnormal readings from that angara.
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘

@@ -1,0 +1,34 @@
+# game/conversations/unc/storms/stm_0000_harding_d
+# Primary speaker: SAM
+# Source: game/conversations/unc/storms/stm_0000_harding_d.xml
+==================================================
+Hero: Back where we really started. What's new on our first home?
+SAM: The kett still maintain a presence. Skirmishes are frequent and travel requires caution.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: They never learn. What else?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: The atmosphere continues to clear, but radioactive hazards pool in some areas. Study is ongoing.
+        SAM: And Remnant remain active on the surface, but also as detected by seismic readings.
+        Hero: Point of contact for all this?
+        SAM: Your people, Pathfinder. Prodromos is expanding, with all the trials and discovery that building an outpost represents.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Grounded in research.
+            SAM: All data about newly accessible Eos is from their work.
+            Hero: Well. Let's make sure it gets the attention it deserves.
+        ├ option 2:
+            Hero ⟨cond⟩: Armed them well enough.
+            ↩ (goto) Narration: [empty]
+        ├ option 3:
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        SAM: As the atmosphere clears, ease of travel means other threats may emerge. Roekaar among them.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: I've got a cure for that. Next?
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

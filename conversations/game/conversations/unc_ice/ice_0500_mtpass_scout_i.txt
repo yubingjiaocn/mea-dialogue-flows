@@ -1,0 +1,28 @@
+# game/conversations/unc_ice/ice_0500_mtpass_scout_i
+# Primary speaker: 
+# Source: game/conversations/unc_ice/ice_0500_mtpass_scout_i.xml
+==================================================
+ice_resistance_scout: Skkut! They almost got past me!
+Hero: Easy. Are you all right?
+ice_resistance_scout: Better now that those kett are dead. Ah! I thought I could lead them the other way.
+ice_resistance_scout: If you hadn't come along, they'd be halfway to our camp by now.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Have the kett tracked down the Resistance here?
+    ice_resistance_scout: No, no. These scum caught a signal flash and were too stubborn to ignore it.
+    ice_resistance_scout: You didn't give them time to report in. All their superiors will know is that they went missing in the blizzard.
+    ↩ (goto) ice_resistance_scout: [empty]
+├ option 2:
+    Hero: How bad are you hurt? Can you make it back?
+    ice_resistance_scout: It'll be comical, but I can walk. And I know a secret route to the camp, just wide enough for one.
+    ice_resistance_scout: I can get back faster than your rover.
+    ↩ (goto) ice_resistance_scout: [empty]
+├ option 3:
+    Hero: What are you doing out here?
+    ice_resistance_scout: I'm just a scout. I'm supposed to make sure the kett get lost out here, and stay lost.
+    ice_resistance_scout: But they were more prepared than I thought. I got careless.
+    ↩ (goto) ice_resistance_scout: [empty]
+├ option 4:
+    Hero: We have to keep going.
+    ice_resistance_scout: Go, go. I'll roll the kett bodies off the cliff before I head back.
+└─ merge ─┘

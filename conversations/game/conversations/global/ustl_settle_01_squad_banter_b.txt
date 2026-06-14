@@ -1,0 +1,29 @@
+# game/conversations/global/ustl_settle_01_squad_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/global/ustl_settle_01_squad_banter_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+├ option 2:
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+    ├ option 2:
+    └─ merge ─┘
+├ option 2:
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+    ├ option 2:
+        ↩ (goto) global_squad_angara [OncePerConversation]: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+SAM: Pathfinder, this location could support an outpost, but there are multiple complications to resolve.
+SAM: Pathfinder, this location is ideal for outpost placement. You can call an outpost via the beacon.
+SAM: Pathfinder, this location could support an outpost, but the planet is not yet viable.
+SAM: Confirmed. Calling outpost.

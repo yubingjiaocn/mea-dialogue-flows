@@ -1,0 +1,60 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0400_ask01_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0400_ask01_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Hey, Lator right? I'm Ryder. Dutch said you'd been talking to Ruth Bekker earlier?
+    nexus_rp_ctn_wit1: Yeah.
+    nexus_rp_ctn_wit1: You're looking for Ruthie? She was here earlier. Helped me sort out some paperwork.
+    nexus_rp_ctn_wit1: Don't know what I would've done without her.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Any idea where she might be?
+        nexus_rp_ctn_wit1: She mentioned checking in on a friend in Ops. Teron, I think.
+        nexus_rp_ctn_wit1: Is everything okay? Charlie's fine, right? It would destroy her if anything happened to him.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Everything's fine. I just need to talk to her.
+            nexus_rp_ctn_wit1: All right then.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nexus_rp_ctn_wit1 ⟨cond⟩: Well, say hi to Ruthie for me when you see her. Have a good day.
+                Hero: Thank you.
+            ├ option 2:
+                nexus_rp_ctn_wit1 ⟨cond⟩: Oh, good. I was worried for a moment. She should be in Ops somewhere.
+                nexus_rp_ctn_wit1: Wanted to check in on someone. Teron, I think.
+                ↩ (goto) Hero: Thank you.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I need to find her as soon as possible.
+            nexus_rp_ctn_wit1: Oh. That doesn't sound good.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nexus_rp_ctn_wit1 ⟨cond⟩: I hope you find her quickly, then.
+                ↩ (goto) Hero: Thank you.
+            ├ option 2:
+                nexus_rp_ctn_wit1 ⟨cond⟩: I hope she's all right. She went to Ops.
+                ↩ (goto) nexus_rp_ctn_wit1: Wanted to check in on someone. Teron, I think.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: How is she settling in? Did she seem okay?
+        nexus_rp_ctn_wit1: She looked fine. Happy to be here.
+        ↩ (goto) nexus_rp_ctn_wit1: Is everything okay? Charlie's fine, right? It would destroy her if anything happened to him.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Hi. My name's Ryder.
+        Hero: Did you see or talk to Ruth Bekker, by any chance?
+        nexus_rp_ctn_wit1: Lator Valon.
+        ↩ (goto) nexus_rp_ctn_wit1: You're looking for Ruthie? She was here earlier. Helped me sort out some paperwork.
+    ├ option 2:
+        Hero ⟨cond⟩: Hi. My name's Sara Ryder.
+        ↩ (goto) Hero: Did you see or talk to Ruth Bekker, by any chance?
+    ├ option 3:
+        Hero: Hi. I'm Scott Ryder.
+        ↩ (goto) Hero: Did you see or talk to Ruth Bekker, by any chance?
+    └─ merge ─┘
+└─ merge ─┘

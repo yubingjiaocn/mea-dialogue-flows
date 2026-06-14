@@ -1,0 +1,61 @@
+# Game/Conversations/HUBS/Hub_Tem/Acquisition/Hub_Tem_Acquisition_Bridge_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_tem/Acquisition/Hub_Tem_Acquisition_Bridge_d.xml
+==================================================
+global_crew_co-pilot: Departure trajectory locked, Nexus Control.
+global_crew_co-pilot: Ah, time for introductions!
+global_crew_co-pilot: You must be Ryder. Kallo Jath. A pleasure to be here—and to meet you, of course.
+global_crew_co-pilot: I'll be piloting the Tempest at your word. Quite the ship! But it'll take a Pathfinder's guidance to see us through Heleus.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Plenty of dangers out there, but I'll do my best to avoid them.
+    global_crew_co-pilot: That's reassuring. Wouldn't want to lose my finest work to that angry cloud.
+    global_crew_co-pilot: I was test pilot for the Tempest's early prototypes. I admit, I'm itching to see how she performs out here.
+    Hero: So how do I...?
+    global_crew_co-pilot: The console syncs with your implant. Just swipe, touch a destination here, and the nav system calculates everything. Very efficient.
+    global_squad_female_human: It was optimized for a Pathfinder.
+    global_squad_turian: Everything's secure. If you're ready...
+    global_squad_male_human: Is anyone ready for something this big?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We signed on for the big stuff when we came to Andromeda.
+        Narration: The crew looks at one another—stands a little straighter. They head to their stations. Nervous excitement and busy-ness.
+        global_crew_co-pilot: Alright...
+        global_crew_co-pilot: Excuse me... excuse me...
+        global_squad_female_human: Command access is transferring successfully.
+        global_crew_science_officer: Um... science and monitoring stations look fine. Lexi is reporting in...
+        global_crew_co-pilot: Helm is green. Gil reports the drive core is online.
+        global_squad_female_human: This is it, Ryder. The Tempest is yours. Unless you've got something to say, for the log?
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: I never planned to be Pathfinder. I don't know what's out there.
+            Hero: But we're the Milky Way's best and brightest. We can do this.
+            Narration: The Player steps up to the central console. The controls light up at their approach like every space explorer's dream.
+            Narration: Ryder wavers for a moment—this is big—then touches a command. The Tempest shifts, or the other consoles light up. The ship is fully alive.
+            global_crew_co-pilot: Nexus Control, this is the Tempest—ident two-five, two-seven, prepping to depart.
+            global_nexus_control_tower: [Comm] Departure vector verified, Tempest. Godspeed, Pathfinder.
+            Narration: An exterior shot shows the Tempest rising from its cradle.
+            Narration: On the exterior of the Nexus: we see the Tempest leave the docking bay.
+            Narration: Nexus Ops: people stand by a window, clapping and excitedly pointing to the bright spot that is the departing Tempest, leaving to find them a home.
+            Narration: On the Tempest: as it heads out into the vast unknown of the Heleus Cluster.
+        ├ option 2:
+            Hero: We were all expecting a golden world. Now there's just a long road ahead.
+            Hero: But hold on to that dream. It might see us through.
+            ↩ (goto) Narration: The Player steps up to the central console. The controls light up at their approach like every space explorer's dream.
+        ├ option 3:
+            Hero: No time for speeches. Let's see what we can find.
+            ↩ (goto) Narration: The Player steps up to the central console. The controls light up at their approach like every space explorer's dream.
+        ├ option 4:
+            Hero: Things seem bad, but we've already beaten the odds—and we'll beat them again.
+            Hero: You know it, I know it. So let's show them what we've got.
+            ↩ (goto) Narration: The Player steps up to the central console. The controls light up at their approach like every space explorer's dream.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I guess we have to be.
+        ↩ (goto) Narration: The crew looks at one another—stands a little straighter. They head to their stations. Nervous excitement and busy-ness.
+    └─ merge ─┘
+├ option 2:
+    Hero: I'm new to this. Being a Pathfinder, running a ship...
+    global_crew_co-pilot: You'll be fine. As for the ship, I can help: I knew the Tempest when she was a blueprint.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

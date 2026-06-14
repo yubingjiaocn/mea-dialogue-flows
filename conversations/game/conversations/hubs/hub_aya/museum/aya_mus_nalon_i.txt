@@ -1,0 +1,29 @@
+# game/conversations/hubs/hub_aya/museum/aya_mus_nalon_i
+# Primary speaker: aya_muse_student_02_multi
+# Source: game/conversations/hubs/hub_aya/museum/aya_mus_nalon_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    aya_muse_student_02_multi [OncePerGame]: Oh, it's you. I watched you land.
+    Hero: Hope you're not calling me 'it' anymore.
+    aya_muse_student_02_multi: You heard that... I apologize. I was ignorant.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What's your job around here?
+        aya_muse_student_02_multi: Elihn and I help Avela with her studies. I specialize in restoration.
+        Hero: So you make relics look new.
+        aya_muse_student_02_multi: New as I can. I'm not a miracle worker, no matter what Avela says.
+        aya_muse_student_02_multi: She'll praise Elihn and I to anyone who will listen. Never had a supervisor like that before.
+        Hero: I'll leave you to it.
+    ├ option 2:
+        ↩ (goto) Hero: I'll leave you to it.
+    └─ merge ─┘
+├ option 2:
+    aya_muse_student_02_multi: Pathfinder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: What's your job around here?
+    ├ option 2:
+        ↩ (goto) Hero: I'll leave you to it.
+    └─ merge ─┘
+└─ merge ─┘

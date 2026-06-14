@@ -1,0 +1,54 @@
+# game/conversations/unc/storms/stm_6050_atk_scout_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6050_atk_scout_combat_b.xml
+==================================================
+Hero: Bradley was right, Roekaar on-site!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Watch for reserves after the first assault!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Understood!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Thanks for the tip!
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Good to know!
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Noted!
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Thanks kid!
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: [Comm] Monitoring! They'll hold some in reserve!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Understood!
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Thanks for the tip!
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Good to know!
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Noted!
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Thanks kid!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: More than a standard camp! Definitely something hidden here!
+    Hero: Eyes open!
+├ option 2:
+    global_squad_angara: [Comm] That camp is too big! They're concealing something!
+    ↩ (goto) Hero: Eyes open!
+└─ merge ─┘
+Hero: I think we're nearly through them!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Don't let your guard down with Roekaar! Ever!
+├ option 2:
+    global_squad_angara: [Comm] Be careful, Roekaar can fool you!
+└─ merge ─┘

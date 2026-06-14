@@ -1,0 +1,78 @@
+# game/conversations/unc_ice/ice_8910_behmth_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_8910_behmth_combat_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: It's an Architect! This is what attacked the settlers!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: There's our culprit! An Architect!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Whoa, look out! Architect!
+├ option 4:
+    global_squad_angara ⟨cond⟩: An Architect!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Architect!
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: It's retreating!
+    Hero: Keep on it! Don't let it get away!
+├ option 2:
+    global_squad_asari ⟨cond⟩: It's running away!
+    ↩ (goto) Hero: Keep on it! Don't let it get away!
+├ option 3:
+    global_squad_female_human ⟨cond⟩: It's on the move!
+    ↩ (goto) Hero: Keep on it! Don't let it get away!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: It's moving!
+    ↩ (goto) Hero: Keep on it! Don't let it get away!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: We have it on the run!
+    ↩ (goto) Hero: Keep on it! Don't let it get away!
+├ option 6:
+    global_squad_turian ⟨cond⟩: It's moving back!
+    ↩ (goto) Hero: Keep on it! Don't let it get away!
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Wow... this thing caused a lot of trouble.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: We should tell Priya what happened here.
+    ├ option 2:
+        SAM: Pathfinder, you may want to inform your outpost leader what happened here.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: Well, that takes care of that.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: We should tell Priya what happened here.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, you may want to inform your outpost leader what happened here.
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human ⟨cond⟩: That's it. It's over.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: We should tell Priya what happened here.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, you may want to inform your outpost leader what happened here.
+    └─ merge ─┘
+├ option 4:
+    global_squad_angara ⟨cond⟩: It's over.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: We should tell Priya what happened here.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, you may want to inform your outpost leader what happened here.
+    └─ merge ─┘
+├ option 5:
+    global_squad_male_human ⟨cond⟩: We did it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: We should tell Priya what happened here.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, you may want to inform your outpost leader what happened here.
+    └─ merge ─┘
+└─ merge ─┘

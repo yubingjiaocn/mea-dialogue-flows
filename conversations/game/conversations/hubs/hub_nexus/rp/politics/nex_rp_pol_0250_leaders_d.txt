@@ -1,0 +1,55 @@
+# game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0250_leaders_d
+# Primary speaker: global_nexus_PI_director
+# Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0250_leaders_d.xml
+==================================================
+global_nexus_PI_director: Protestors have seized Hydroponics?
+Hero: They want their families out of stasis. The outpost on Eos disrupted the schedule.
+Hero: They're scattered across colony blocks—dozens of people. The protestors want this fixed today.
+global_nexus_PI_director: The realities of our position are—
+global_arkcon_superintendent: We can't wake those families. We don't have the resources, and there's nowhere to put them.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: We only just got on our feet. Plus it messes up the schedule again.
+    Hero: What do you suggest?
+    global_nexus_PI_director: Leave the families in stasis where it's safe, and get those protestors out of Hydroponics.
+    global_nexus_PI_director: They seem sympathetic, but so did the exiles. We can't risk another revolt. Survival is more important than family reunions.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Do you think these protests could turn violent?
+        global_nexus_militia_leader: We're all pioneers. Even civilians are tough enough to start something.
+        global_arkcon_superintendent: And interfering in Hydroponics threatens our oxygen supply. They know that.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero [OncePerGame]: What would you do with the protestors?
+        global_nexus_militia_leader: I'd send in a squad and march them out. At gunpoint, if we must.
+        global_nexus_militia_leader: If they resist, a few might land in medbay. But it's better than losing hydroponics—or the Nexus.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        Hero: We have to look at the bigger picture. Get them out of there.
+        global_nexus_PI_director: Kandros?
+        global_nexus_militia_leader: I'll send in a team, but... it might go smoother if Ryder's there.
+        global_nexus_PI_director: A good idea. Sometimes we have to give bad news. That's a Pathfinder's duty too.
+    ├ option 4:
+        Hero: These people aren't the enemy. We didn't come all this way to rip families apart.
+        Hero: We'll manage the resource squeeze somehow.
+        global_nexus_PI_director: Your compassion is... admirable, but...
+        global_nexus_militia_leader: Guess we're all tightening our belts.
+        global_nexus_colonial_director_multi: You can run a stasis override command from Operations. I hope the rest will be that easy.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Then what's the point of all those outposts I've founded?
+    global_nexus_colonial_director_multi: People need more than space, Ryder. They need work they're trained for. And we don't have placements for those families.
+    global_nexus_colonial_director_multi: If I just toss them to any outpost with a spare bunk, they become a burden we can't afford.
+    ↩ (goto) Hero: What do you suggest?
+├ option 3:
+    Hero ⟨cond⟩: We settled Eos! There's no space down there for a few extra?
+    global_nexus_colonial_director_multi: It's not that simple, Ryder. Everything Eos produces right now is accounted for.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_arkcon_superintendent ⟨cond⟩: And what would those scientists do at a military outpost?
+        ↩ (goto) Hero: What do you suggest?
+    ├ option 2:
+        global_nexus_militia_leader ⟨cond⟩: And if we send soldiers to a research outpost, there'll be trouble.
+        ↩ (goto) Hero: What do you suggest?
+    └─ merge ─┘
+└─ merge ─┘

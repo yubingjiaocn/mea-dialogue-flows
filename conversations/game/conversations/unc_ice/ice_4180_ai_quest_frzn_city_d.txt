@@ -1,0 +1,188 @@
+# game/conversations/unc_ice/ice_4180_ai_quest_frzn_city_d
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_4180_ai_quest_frzn_city_d.xml
+==================================================
+Hero: It's beautiful, but what makes this place so interesting that the kett would fight for it?
+ice_forgottenai: Greetings. How can I assist?
+Hero: What are you?
+ice_forgottenai: An interface for the power grid of this city. I have been operational since the city was encased in ice.
+SAM: She is lying. This is an AI and her origin appears to be angaran.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The angara are advanced, but I haven't heard anything about living AI.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Our oral history doesn't describe one.
+        ice_angaracavecaptive_01: This is amazing news. Go get the commander.
+        Hero: So, tell me—why lie?
+        ice_forgottenai: As you can see, I am currently vulnerable.
+        Hero: What happened here?
+        ice_forgottenai: The kett aliens talked as though I was evil and disgusting. They planned to take my knowledge and then kill me.
+        ice_forgottenai: I fought them off, but my energy stores are now drained. I am near death.
+        SAM: Another lie. She is tied to a deep power grid.
+        ice_forgottenai: I beg you! Have pity on me. Do not take me from here. I would rather die. I am tired. I am done.
+        ice_angaracavecaptive_01: That's insane. You're an extraordinary find—a key to our past.
+        ice_forgottenai: Am I? You are not the ones who designed me. I do not trust you any more than I do the kett aliens.
+        ice_forgottenai: Or these other aliens. I would rather die.
+        SAM: Ryder, she has now blocked my attempts to scan her.
+        Hero: Okay, this is... I'm open to suggestions here. Options? Thoughts?
+        ice_angaracavecaptive_01: Thoughts? I'm taking her out of here. That's what—
+        ice_forgottenai: No! I am tired! I will not go! I am afraid—so afraid... and angry!
+        ice_angaracavecaptive_01: Help me... please... I have a family...
+        ice_forgottenai: A life for a life. Is mine really more valuable than his?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You're absolutely right.
+            ice_angaracavecaptive_01: Thank you! Thank you!
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: Wait until my people hear about this.
+                Hero: I bet they'll be able to extract at least some data.
+                SAM: Doubtful. However, knowledge of her existence should prove enlightening.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_male_human ⟨cond⟩: Seems like the right choice. I've never got a bad feeling from an AI before.
+                    Hero: Yeah, thanks, let's hope it was the right call.
+                    Hero: At least the kett didn't get her. Okay, team... what's next?
+                ├ option 2:
+                    global_squad_krogan ⟨cond⟩: Smart choice. She gave me the chills—and krogan don't get chills.
+                    ↩ (goto) Hero: Yeah, thanks, let's hope it was the right call.
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: That was smart, Ryder. She gave me a really bad feeling.
+                    ↩ (goto) Hero: Yeah, thanks, let's hope it was the right call.
+                ├ option 4:
+                    global_squad_asari ⟨cond⟩: Probably the right choice. She made my skin crawl. Weird.
+                    ↩ (goto) Hero: Yeah, thanks, let's hope it was the right call.
+                ├ option 5:
+                    global_squad_female_human ⟨cond⟩: Seems like the right choice. We'll see, but honestly, she gave me the creeps.
+                    ↩ (goto) Hero: Yeah, thanks, let's hope it was the right call.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: Wait 'til the angara hear about this.
+                ↩ (goto) Hero: I bet they'll be able to extract at least some data.
+            ├ option 3:
+                global_squad_asari ⟨cond⟩: Wait 'til the angara hear about this.
+                ↩ (goto) Hero: I bet they'll be able to extract at least some data.
+            ├ option 4:
+                global_squad_turian ⟨cond⟩: Wait 'til the angara hear about this.
+                ↩ (goto) Hero: I bet they'll be able to extract at least some data.
+            ├ option 5:
+                global_squad_krogan ⟨cond⟩: Wait 'til the angara hear about this.
+                ↩ (goto) Hero: I bet they'll be able to extract at least some data.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You're way too valuable. I'm sorry.
+            Hero: You really didn't have to do that.
+            ice_forgottenai: With my fate now in your hands, consider it... a warning.
+            Hero: But your future is exciting. You can help the angara recover what they lost to the Scourge.
+            ice_forgottenai: I. Do. Not. Know. Them. I owe them nothing.
+            ice_forgottenai: But your AI. I do understand him. Place me in his custody.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: Ooph. Yeah, no. That's probably not a good idea.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_angara ⟨cond⟩: Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: Sure, but the optics are bad.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_female_human ⟨cond⟩: Plus, we already know there's anti-AI sentiment on the Nexus.
+                            ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero: Let's abide by her wishes. Jaal, Liam, make the diplomatic arrangements.
+                                ↩ (goto) SAM: [empty]
+                            ├ option 2:
+                                Hero: She belongs to the angara. Contact Commander Do Xeel and Evfra.
+                                ↩ (goto) SAM: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_asari ⟨cond⟩: I'm not sure that would look good.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_asari ⟨cond⟩: Also, we already know there's anti-AI feelings on the Nexus.
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        ├ option 2:
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        └─ merge ─┘
+                    ├ option 3:
+                        global_squad_turian ⟨cond⟩: Maybe, but it won't look good.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_turian ⟨cond⟩: Also, we've already seen anti-AI sentiment on the Nexus.
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        ├ option 2:
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        └─ merge ─┘
+                    ├ option 4:
+                        global_squad_krogan ⟨cond⟩: Not gonna look good to the angara, though.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_krogan ⟨cond⟩: We know there's already anti-AI sentiment on the Nexus.
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        ├ option 2:
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        └─ merge ─┘
+                    ├ option 5:
+                        global_squad_male_human ⟨cond⟩: Maybe, but it sure won't look good.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_male_human ⟨cond⟩: Plus, what about the anti-AI sentiment we've already seen on the Nexus?
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        ├ option 2:
+                            ↩ (goto) ice_forgottenai: I want to be with SAM. I have a consciousness. I have desires and feelings. Please, Pathfinder.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_angara: [Comm] Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                    ↩ (goto) SAM: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_krogan ⟨cond⟩: Hrm, I'm not sure that's a good idea.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_squad_angara ⟨cond⟩: Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                ├ option 2:
+                    ↩ (goto) global_squad_angara: [Comm] Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                └─ merge ─┘
+            ├ option 3:
+                global_squad_turian ⟨cond⟩: Yeah... is that really such a good idea? I say no.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_squad_angara ⟨cond⟩: Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                ├ option 2:
+                    ↩ (goto) global_squad_angara: [Comm] Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_asari ⟨cond⟩: Look, I'm all for crazy risks, but this?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_squad_angara ⟨cond⟩: Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                ├ option 2:
+                    ↩ (goto) global_squad_angara: [Comm] Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                └─ merge ─┘
+            ├ option 5:
+                global_squad_female_human ⟨cond⟩: Ryder? Wow. Let's pause and think about this.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_squad_angara ⟨cond⟩: Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                ├ option 2:
+                    ↩ (goto) global_squad_angara: [Comm] Must everything always be about borders? If, at this moment, SAM can best help this AI—then let's share her.
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara: [Comm] An AI? Are you sure? We have no record of that.
+        ↩ (goto) ice_angaracavecaptive_01: This is amazing news. Go get the commander.
+    └─ merge ─┘
+├ option 2:
+    Hero: Makes sense, considering how advanced the angara are.
+    SAM: True. I have no evidence the angara have hidden this knowledge.
+    ↩ (goto) ice_angaracavecaptive_01: This is amazing news. Go get the commander.
+└─ merge ─┘
+ice_angaracavecaptive_01: {i}(Burning, pained cries.){/i}

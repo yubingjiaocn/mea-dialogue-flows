@@ -1,0 +1,38 @@
+# Game/Conversations/Crit/Pro_Shp/Pro_Shp_0110_PA_announce_a
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/Pro_Shp_0110_PA_announce_a.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Pro_Shp_Engineer [OncePerGame]: [Loudspeaker] Gravity systems have been restored.
+    Pro_Shp_Engineer: [Loudspeaker] Please report any further variances to engineering.
+├ option 2:
+    global_humanark_captain_multi [OncePerGame]: [Loudspeaker] This is the captain. I need damage assessment updates on the double.
+├ option 3:
+    Pro_Shp_Engineer [OncePerGame]: [Loudspeaker] Be advised, hull integrity on Deck Four is within safety threshold.
+├ option 4:
+    global_humanark_bridgecrew_multi [OncePerGame]: [Loudspeaker] Damage control team to Propulsion, on the double.
+├ option 5:
+    global_dad [OncePerGame]: [Loudspeaker] Shuttle pilots, report to the hangar.
+├ option 6:
+    global_humanark_bridgecrew_multi [OncePerGame]: [Loudspeaker] Damage control teams to Deck Three.
+├ option 7:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_humanark_captain_multi: [Loudspeaker] This is the Captain. I still need an update on our sensor array. Please report in as soon as possible.
+    ├ option 2:
+        Pro_Shp_Engineer ⟨cond⟩: [Loudspeaker] We're getting reports that water flow control is offline. Awaiting further updates.
+    ├ option 3:
+        Pro_Shp_Engineer ⟨cond⟩: [Loudspeaker] Intermittent power outages are being reported ship-wide.
+        Pro_Shp_Engineer: [Loudspeaker] Repair crews are investigating.
+    ├ option 4:
+        global_humanark_bridgecrew_multi ⟨cond⟩: [Loudspeaker] Engineering, be advised the sensor array has gone dark.
+    ├ option 5:
+        global_dad ⟨cond⟩: [Loudspeaker] Cora Harper, report to the bridge.
+    ├ option 6:
+        global_dad ⟨cond⟩: [Loudspeaker] Shuttle teams, prep for departure in five.
+    ├ option 7:
+        global_dad ⟨cond⟩: [Loudspeaker] Harper and Ryder to the hangar.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

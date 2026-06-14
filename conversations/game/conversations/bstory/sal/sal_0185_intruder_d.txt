@@ -1,0 +1,56 @@
+# game/conversations/bstory/sal/sal_0185_intruder_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0185_intruder_d.xml
+==================================================
+Narration: As Ryder is leaving Rand Lon's apartment, they bump into Rand Lon who's entering. Lon isn't pleased.
+salbs_official: What are you doing in my apartment?
+Hero: You must be Rand Lon.
+salbs_official: And—yes, you're the one who saved our ark. What are you doing here?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I'm conducting an investigation about the salarian ark. I wanted to check a few things.
+    salbs_official: Ah, I did hear about this. I was too busy to assist.
+    salbs_official: I suppose I'll have to make the time. What do you need?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: First, explain why your console's been scrubbed and why there's traces of a neurodepressant in here.
+        salbs_official: Probably because I visited the labs and I suffered a power surge. Shall I also explain my heart medication? My clan ornaments?
+        salbs_official: You sound just like—oh, wait. Did you get roped into another of Saelen Varn's crusades?
+        Hero: What do you mean?
+        salbs_official: No, I won't spread rumors. You can go, but I wouldn't break into any more homes on Saelen's advice.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: There's obviously been some misunderstanding. Goodbye.
+            salbs_official: Please don't touch anything else on your way out.
+        ├ option 2:
+            Hero: If I've been misled, I should hear these rumors.
+            salbs_official: The Major is brilliant, but... he's just been in STG too long.
+            salbs_official: He's been bothering us with "conspiracies" since he woke up. It's common in retired agents. They can't navigate a world without espionage.
+            Hero: I see.
+            salbs_official: Look, let's forget this happened—for the Major's sake. Goodbye, Pathfinder.
+            ↩ (goto) salbs_official: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'd like to ask Dr. Aden a few questions. Do you know him, or where he is?
+        salbs_official: Oh yes, Aden's some sort of biologist. We were among the first to wake up. Difficult times.
+        salbs_official: I haven't seen him since the ark was rescued. Why Aden?
+        Hero: Saelen Varn mentioned—
+        salbs_official: Saelen? Oh, I see. If the Major's at it again, this makes more sense.
+        ↩ (goto) Hero: What do you mean?
+    └─ merge ─┘
+├ option 2:
+    Hero: My fault. I'm visiting a friend and these doors all look alike.
+    salbs_official: You're quite obviously not here by accident.
+    salbs_official: Now please explain why you broke in or I'll have to report this to the militia.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: First, explain why your console's been scrubbed and why there's traces of a neurodepressant in here.
+    ├ option 2:
+        Hero: I'm working with Major Saelen Varn—he has the paperwork.
+        ↩ (goto) salbs_official: Saelen? Oh, I see. If the Major's at it again, this makes more sense.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: I'm trying to understand how the ark's systems could've been hacked.
+salbs_official: Not easily. There's all kinds of fail-safes. You'd need security clearances that even I don't have.
+salbs_official: You think that's what happened? Why?
+↩ (goto) Hero: Saelen Varn mentioned—

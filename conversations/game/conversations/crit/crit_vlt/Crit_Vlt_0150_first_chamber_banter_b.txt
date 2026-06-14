@@ -1,0 +1,125 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0150_first_chamber_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0150_first_chamber_banter_b.xml
+==================================================
+┌─ BRANCH (17) ─┐
+├ option 1:
+    global_squad_asari: Anything could be important. Let's be thorough.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Not what we're looking for, but worth getting a record.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: Watch your fingers. There might be traps.
+            Hero: I'm not detecting any.
+            global_squad_turian: I've made that mistake before.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: You go ahead. I've got your back.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: Tann's going to lose his mind when he hears about this place.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Got anything?
+        global_squad_asari: There's element zero threaded through all this tech. Imagine the engineering that would take.
+    └─ merge ─┘
+├ option 3:
+    Hero: Look there. Do you see that?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Whatever it is looks broken.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Looks like a broken information display.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Might be data—or bits of it.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: It looks like data but—broken? Incomplete?
+    └─ merge ─┘
+├ option 4:
+    Hero: I'm getting something from that data pattern, but the glyphs make no sense.
+    global_squad_asari: Damn it.
+    SAM: Data corruption detected. What survives is highly technical.
+    SAM: From the context, this could be instructions or a warning.
+├ option 5:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Only minimal power. I don't think it triggered the atmosphere processor, but...
+        SAM: Pathfinder, a conduit beneath the floor just activated. Fluid is running through it.
+        SAM: It could be generating emergency power. Your scanner will have more details.
+    ├ option 2:
+        Hero: I see the conduit, SAM. Whatever it is, it leads out of the room.
+    └─ merge ─┘
+├ option 6:
+    SAM: No interface connectivity detected. The barrier cannot be removed manually.
+    Hero: Too bad.
+├ option 7:
+    Hero: Locked.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: She seems good at taking care of herself.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: At least she won't be underfoot.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Let's hope her expertise finds her a way back.
+    └─ merge ─┘
+├ option 8:
+    Hero [OncePerGame]: Looks like a blast shield. That might be handy.
+├ option 9:
+    Hero: No way through, no interface points... hmm. SAM, note it down for later.
+├ option 10:
+    Hero: This door should be working.
+    global_squad_asari: It's got power, right? Do we... need a password?
+├ option 11:
+    global_squad_asari: What about these holographic patterns? Can you scan one?
+├ option 12:
+    Hero: Open. We read it, we get access.
+├ option 13:
+    SAM: Phrase recovered. "Must read to access." This console links to surface facilities.
+    Hero: Then it must control the atmosphere processor.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: No glyphs. It looks dead—or locked down, like most of this place.
+        SAM: The fluid conduit leads to this console and farther into the vault.
+        Hero: So if we follow that conduit, it might lead to the system lockdown.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: No glyphs. It looks dead—or locked down, like most of this place.
+    └─ merge ─┘
+├ option 14:
+    global_squad_asari: These data pattern things are incredible. If I'm right, each one can hold hundreds of zettabytes.
+    global_squad_asari: There are whole species who get by with less.
+├ option 15:
+    SAM: Minor corruption detected. The pattern suggests significant data present, but it cannot be accessed.
+├ option 16:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari: I think that gravity well works in reverse, too.
+        Hero: Then we have a way out.
+        global_squad_asari: You're not leaving already, are you?
+        Hero: Not until we find those processor controls.
+    ├ option 2:
+        Hero: No signs of any kett. Maybe they can't get into the vault?
+        global_squad_asari: But you can. That'll get their attention.
+        Hero: Lucky me.
+    ├ option 3:
+        ┌─ BRANCH (7) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: Shouldn't it be warmer this deep underground?
+        ├ option 2:
+            global_squad_asari [OncePerGame]: Now that's interesting.
+        ├ option 3:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: You think any other Remnant structures run this deep?
+        ├ option 4:
+            global_squad_asari [OncePerGame]: Aha, what have we here?
+        ├ option 5:
+            global_squad_turian ⟨cond⟩ [OncePerGame]: We're so far down. I can't even see the top of the well.
+        ├ option 6:
+            global_squad_asari [OncePerGame]: Wow. I really was just scratching the surface.
+        ├ option 7:
+            global_squad_male_human ⟨cond⟩ [OncePerGame]: Here's the rock you kicked down here, safe and sound.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 17:
+    SAM: It appears to reconfigure panels that rise from the floor.
+    Hero: That could come in handy.
+└─ merge ─┘
+Hero: There. It might be controls for the atmosphere processor.

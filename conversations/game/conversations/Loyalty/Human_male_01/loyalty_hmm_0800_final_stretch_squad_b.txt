@@ -1,0 +1,21 @@
+# Game/Conversations/Loyalty/Human_male_01/loyalty_hmm_0800_final_stretch_squad_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0800_final_stretch_squad_b.xml
+==================================================
+global_squad_male_human: {i}(Laughs.){/i} Yes!
+ustl_settle_01_admin_multi: [Comm] Ladies and gentlemen, your exit vehicle will be at the nearest airlock.
+global_squad_male_human: You old ham.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ustl_settle_01_admin_multi ⟨cond⟩: [Comm] Tanner will evac. But we can't have Calot chasing us.
+    Hero: Where is he?
+    loyalty_hmm_shuttle_engineer_02_multi: [Comm] Engine control. Past where they held the captives.
+├ option 2:
+    ustl_settle_01_admin_multi: [Comm] Grace will evac. But we can't have Calot chasing us.
+    ↩ (goto) Hero: Where is he?
+└─ merge ─┘
+loyalty_hmm_pirate_leader: [Loudspeaker] Fine, take them! I'll chase you down and burn you where you live.
+loyalty_hmm_pirate_leader: [Loudspeaker] My Talon Wing will never let you sleep!
+ustl_settle_01_admin_multi: [Comm] What's he complaining about? Put him right-side up, didn't we?
+global_squad_male_human: Right. Final stretch to put a stop to Calot. After all this, I just have one thing to say.
+global_squad_male_human: Proud of all our people, Pathfinder. Let's do this.

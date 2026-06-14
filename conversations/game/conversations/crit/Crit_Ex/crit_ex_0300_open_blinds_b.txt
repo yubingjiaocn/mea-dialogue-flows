@@ -1,0 +1,22 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0300_open_blinds_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0300_open_blinds_b.xml
+==================================================
+global_squad_angara: The Moshae isn't here. We need to keep moving.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Which way?
+    global_squad_angara: Check that console.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Which way's out?
+    ↩ (goto) global_squad_angara: Check that console.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Which way's out?
+    ↩ (goto) global_squad_angara: Check that console.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Which way out of here?
+    ↩ (goto) global_squad_angara: Check that console.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Right. Where are we going?
+    ↩ (goto) global_squad_angara: Check that console.
+└─ merge ─┘

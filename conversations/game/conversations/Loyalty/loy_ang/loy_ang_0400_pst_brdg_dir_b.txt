@@ -1,0 +1,47 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0400_pst_brdg_dir_b
+# Primary speaker: global_squad_angara
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0400_pst_brdg_dir_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: This stuff looks older than me.
+    global_squad_angara: {i}(Chuckles.){/i} Just wait 'til we get inside.
+    Hero: Inside?
+    global_squad_angara: There's a cave ahead. That's where the Forge is.
+    global_squad_angara: And hopefully where my family is.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: That's old. Stuff-on-Mars old.
+    ↩ (goto) global_squad_angara: {i}(Chuckles.){/i} Just wait 'til we get inside.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Impressive.
+    ↩ (goto) global_squad_angara: {i}(Chuckles.){/i} Just wait 'til we get inside.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Wow! Look at these!
+    ↩ (goto) global_squad_angara: {i}(Chuckles.){/i} Just wait 'til we get inside.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Beautiful. The angara who built it knew their stuff.
+    ↩ (goto) global_squad_angara: {i}(Chuckles.){/i} Just wait 'til we get inside.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: I can see why this place is so important to the angara.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: It's pretty here, I'll give you that.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Hell of an atmosphere. Even with the bad guys.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Can see why Akksul wants this place for himself. It's gorgeous.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: It feels so different than anywhere else we've been.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: How long have you studied the Forge?
+    global_squad_angara: Since it was rediscovered centuries ago.
+    Hero: Rediscovered?
+    global_squad_angara: After the Scourge, much of our history was lost.
+    global_squad_angara: We're still finding it, piece by piece.
+├ option 2:
+    Hero: I've never seen some of these minerals before.
+    global_squad_angara: These stones hold many secrets.
+└─ merge ─┘

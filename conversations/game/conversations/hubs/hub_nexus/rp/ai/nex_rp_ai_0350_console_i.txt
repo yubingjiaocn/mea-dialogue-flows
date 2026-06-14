@@ -1,0 +1,22 @@
+# game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0350_console_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0350_console_i.xml
+==================================================
+SAM: [Private] Security protocols breached.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Bring up anything tagged "Mercury."
+    SAM: [Private] Files found: "Mercury." A strike to prevent any future AI by destroying all quantum computers on the Nexus.
+    Hero: Damn it. You could use those computers to create AI, but right now they run half the station.
+    Hero: A lot of people could die. We need to stop Knight. Now.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: [Private] Pathfinder, the AI detector has been triggered. Hostiles approaching.
+    ├ option 2:
+    ├ option 3:
+        Hero: But—quietly. Okay?
+    └─ merge ─┘
+├ option 2:
+    Hero: Cross-reference for blue boxes or quantum computers, EMP, and the Nexus.
+    ↩ (goto) SAM: [Private] Files found: "Mercury." A strike to prevent any future AI by destroying all quantum computers on the Nexus.
+└─ merge ─┘

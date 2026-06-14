@@ -1,0 +1,53 @@
+# game/conversations/unc/storms/stm_2010_rem_generic_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_2010_rem_generic_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: More Remnant bots. These ones don't seem hostile.
+    global_squad_asari ⟨cond⟩: [Comm] Maybe, but get too close or mess with their tech, and zap!
+├ option 2:
+    Hero: Hey, over there. Those look like... bots?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Same ones we saw on Habitat 7.
+        Hero: They don't seem aggressive.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: What if they're like the kett?
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Not yet.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: How do we tell?
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: They don't seem aggressive.
+    └─ merge ─┘
+└─ merge ─┘
+Hero [OncePerGame]: Guess we made them angry!
+┌─ BRANCH (12) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Just parts left.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: All Remnant down.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: I've stopped keeping count.
+├ option 4:
+    Hero: No more Remnant nearby.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: They're scrap. Done.
+├ option 6:
+    global_squad_turian ⟨cond⟩: Nothing but salvage.
+├ option 7:
+    global_squad_asari ⟨cond⟩: They're all deactivated.
+├ option 8:
+    global_squad_krogan ⟨cond⟩: Junked 'em.
+├ option 9:
+    global_squad_male_human ⟨cond⟩: We took them apart.
+├ option 10:
+    Hero: They're down.
+├ option 11:
+    global_squad_female_human ⟨cond⟩: Remnant deactivated.
+├ option 12:
+    global_squad_turian ⟨cond⟩: All taken care of.
+└─ merge ─┘

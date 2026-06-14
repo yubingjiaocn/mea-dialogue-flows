@@ -1,0 +1,97 @@
+# Game/Conversations/Crit/M4/m4_0550_sanctum_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0550_sanctum_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Well, here we are.
+    Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+    crit_kett_salarian_captain_multi: [Comm] Give the word and we'll set off the EMP. Should disable the guns.
+    Hero: Got it.
+    Hero: Alright guys, we're looking for a Remnant relic. Map of Meridian.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Well, here we are.
+    ↩ (goto) Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Well, here we are.
+    ↩ (goto) Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Well, here we are.
+    ↩ (goto) Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: We made it.
+    ↩ (goto) Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+├ option 6:
+    global_squad_angara ⟨cond⟩: We made it.
+    ↩ (goto) Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+├ option 7:
+    ↩ (goto) Hero: Captain Hayjer, this is Ryder. We've reached the Archon's sanctum.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Why does he care so much about the Remnant? It's an obsession.
+    Hero: That's the question, isn't it? And we need to beat him to the answer.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Why do you suppose he cares so much about the Remnant anyway?
+    ↩ (goto) Hero: That's the question, isn't it? And we need to beat him to the answer.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Why does he care so much about the Remnant anyway? It's an obsession.
+    ↩ (goto) Hero: That's the question, isn't it? And we need to beat him to the answer.
+├ option 4:
+    global_squad_asari ⟨cond⟩: And I thought I was obsessed with the Remnant... why does he care so much?
+    ↩ (goto) Hero: That's the question, isn't it? And we need to beat him to the answer.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Why does this Archon care so much about the Remnant?
+    ↩ (goto) Hero: That's the question, isn't it? And we need to beat him to the answer.
+├ option 6:
+    global_squad_angara ⟨cond⟩: I've never understood why he cares so much about the Remnant.
+    ↩ (goto) Hero: That's the question, isn't it? And we need to beat him to the answer.
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: The Archon's anger will only get worse if we pull this off.
+    Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: The Archon’s going to be pissed if we pull this off.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 3:
+    global_squad_asari ⟨cond⟩: The Archon’s going to be pissed if we pull this off.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 4:
+    global_squad_turian ⟨cond⟩: The Archon will be pissed if we pull this off.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: The Archon’s going to be pissed if we pull this off.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: The Archon will be pissed if we pull this off.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 7:
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+└─ merge ─┘
+SAM: Remnant origin confirmed. Though it's not the relic we're searching for.
+SAM: The Archon has done extensive testing to this artifact, damaging it in the process. It is no longer useful.
+SAM: This object serves no useful purpose. It is the Remnant equivalent of junk.
+Hero: The Archon is whistling in the dark on this stuff.
+Hero: There's the salarian ark.
+Hero: This is going to be one hell of a getaway.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: This must be where the Archon tortured the Moshae.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: This is where the Archon tortured the Moshae.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 3:
+    global_squad_asari ⟨cond⟩: I wonder if this is where the Archon tortured the Moshae?
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 4:
+    global_squad_turian ⟨cond⟩: This has to be where the Archon tortured the Moshae.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: This is where the Archon tortured the Moshae, isn't it?
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: I think this is where the Archon tortured the Moshae.
+    ↩ (goto) Hero: He needs to be stopped. What we've seen on this ship—it would be genocide for the whole cluster.
+└─ merge ─┘

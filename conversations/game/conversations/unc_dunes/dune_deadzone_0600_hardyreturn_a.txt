@@ -1,0 +1,28 @@
+# game/conversations/unc_dunes/dune_deadzone_0600_hardyreturn_a
+# Primary speaker: dune_deadzone_mechanic
+# Source: game/conversations/unc_dunes/dune_deadzone_0600_hardyreturn_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        dune_deadzone_mechanic: Funny seeing you here.
+        dune_deadzone_mechanic: Wanna make another deal?
+    ├ option 2:
+        ↩ (goto) dune_deadzone_mechanic: Wanna make another deal?
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        dune_deadzone_mechanic [OncePerGame]: You probably want to turn around and head back to civilization.
+        dune_deadzone_mechanic: If you can call a krogan colony civilization...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: {i}(Grumbles.){/i} I really wish you'd killed him.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) dune_deadzone_mechanic: Wanna make another deal?
+    └─ merge ─┘
+└─ merge ─┘

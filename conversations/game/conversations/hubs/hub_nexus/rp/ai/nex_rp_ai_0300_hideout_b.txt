@@ -1,0 +1,94 @@
+# game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0300_hideout_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0300_hideout_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    SAM: [Private] Pathfinder, it's unlikely an AI detector could discern our private channel. However, this may not be true for your scanner.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Knight's planning something big. That's not good.
+        Hero: She's dangerous. Let's find out what's up—discreetly.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Whatever Knight's planning can't be good.
+        ↩ (goto) Hero: She's dangerous. Let's find out what's up—discreetly.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Knight's planning something big. That's not good.
+        ↩ (goto) Hero: She's dangerous. Let's find out what's up—discreetly.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: So Knight has big plans. Can't be good.
+        ↩ (goto) Hero: She's dangerous. Let's find out what's up—discreetly.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: This Knight's plans can't be good.
+        ↩ (goto) Hero: She's dangerous. Let's find out what's up—discreetly.
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: Whatever Knight's planning can't be good.
+        ↩ (goto) Hero: She's dangerous. Let's find out what's up—discreetly.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Ah! My scanner tripped the AI detector.
+        SAM: [Private] I can mask this as an error, but future pings might draw attention.
+        Hero: Maybe there's another way to find out what Knight's planning. If she gives us enough time.
+    ├ option 2:
+        Hero [OncePerGame]: The AI detector picked up the scan.
+        Hero: That'll be hard to explain away.
+    ├ option 3:
+        Hero [OncePerGame]: Damn it.
+    ├ option 4:
+        Hero [OncePerGame]: They must know something's up by now. Be ready.
+    └─ merge ─┘
+├ option 3:
+    SAM: [Private] Pathfinder, I believe we can fix Alain's implants. I have schematics for an appropriate device.
+    SAM: [Private] It will require time and resources.
+    Hero: Or I could start scanning. But that's risky.
+├ option 4:
+    Hero ⟨cond⟩: {i}(Sighs.){/i} This must be tough to hear, SAM.
+    SAM: [Private] Those AI are the product of a different civilization. Ours will be founded on organic-synthetic partnership.
+    SAM: [Private] I bridge the hard-earned lessons of the past and the promise of the future.
+├ option 5:
+    Hero: "Mercury." Sounds like a code name for whatever Knight's doing.
+    SAM: [Private] This will enable me to find any relevant data quickly.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Let's search Knight's console and see what she's up to.
+    ├ option 2:
+        Hero: We just need somewhere to access Knight's files.
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Looks like Knight's personal console. SAM, can you get into it?
+        SAM: [Private] Yes, but my access will trigger the AI detector. You'll only have one chance.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: We know what to look for. Let's do this.
+        ├ option 2:
+            Hero: Okay. Let's wait until we know what we're looking for.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: We need to be certain what to look for first.
+    └─ merge ─┘
+├ option 7:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: Junk.
+    ├ option 2:
+        SAM: [Private] A military-grade EMP device, normally used to damage electrical equipment.
+    ├ option 3:
+        Hero: Blueprints for the computer network on the Nexus.
+        Hero: So we don't know what she's planning, but we know where.
+    ├ option 4:
+        Hero: It's a schematic for a... blue box?
+        SAM: [Private] A quantum computer. They serve several purposes, including creating AI.
+    ├ option 5:
+        Hero: This should be enough to go on.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Let's search Knight's console and see what she's up to.
+        ├ option 2:
+            ↩ (goto) Hero: We just need somewhere to access Knight's files.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

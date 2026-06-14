@@ -1,0 +1,42 @@
+# game/conversations/unc/olw/windfarm/olw_windfarm_tech_i
+# Primary speaker: olw_windfarmer
+# Source: game/conversations/unc/olw/windfarm/olw_windfarm_tech_i.xml
+==================================================
+olw_windfarmer: How did you get in here?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I used my legs.
+    olw_windfarmer: Well use them to walk back out. I’m busy.
+    Hero: I just want to ask a few questions.
+    olw_windfarmer: Fine, but be quick about it.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: What do you do here?
+        olw_windfarmer: I keep the turbines spinning.
+        olw_windfarmer: A small miracle considering all the scavengers trying to steal parts.
+        ↩ (goto) olw_windfarmer: [empty]
+    ├ option 2:
+        Hero: Does the wind farm power Kadara Port?
+        olw_windfarmer: And everything else around here.
+        olw_windfarmer: Not that anyone sends their gratitude.
+        olw_windfarmer: They only contact us when something's broken.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: The Charlatan doesn't give you a kickback?
+            olw_windfarmer: Not enough. This is a dangerous job. I deserve hazard pay.
+            ↩ (goto) olw_windfarmer: [empty]
+        ├ option 2:
+            Hero: Sloane doesn't give you a kickback?
+            ↩ (goto) olw_windfarmer: Not enough. This is a dangerous job. I deserve hazard pay.
+        └─ merge ─┘
+    ├ option 3:
+        Hero: Thanks for your time.
+        olw_windfarmer: Yeah, yeah. Let me get back to work.
+    └─ merge ─┘
+├ option 2:
+    Hero: I didn't realize this was a restricted area.
+    olw_windfarmer: Technically, it's not. But most of our "visitors" are scavengers.
+    ↩ (goto) Hero: I just want to ask a few questions.
+└─ merge ─┘
+olw_windfarmer: What?
+↩ (goto) olw_windfarmer: [empty]

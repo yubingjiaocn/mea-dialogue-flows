@@ -1,0 +1,91 @@
+# game/conversations/unc_luna/luna_0300_olwmine_quest_b
+# Primary speaker: SAM
+# Source: game/conversations/unc_luna/luna_0300_olwmine_quest_b.xml
+==================================================
+Hero: They're mining... helium-3?
+SAM: The main component in shuttle fuel, Pathfinder. It can also be used to make highly effective explosives.
+Hero: Just what we need—exiles with explosives. Let's get into that base.
+SAM: The attached passcode is only a fragment. Data here indicates other mining domes.
+SAM: I've added the locations to your map.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩ [OncePerGame]: Another datapad nearby, Pathfinder.
+├ option 2:
+    SAM ⟨cond⟩ [OncePerGame]: Datapad detected, Pathfinder.
+└─ merge ─┘
+Hero: This Krex must be in charge of mining Helium-3. He's the one we need to stop.
+SAM: The passcode is still incomplete, Pathfinder. I require one more fragment.
+Hero: SAM, you get that fragment?
+SAM: I've completed the passcode, Pathfinder. Marking the exile base in your system.
+Hero: Good. Let's put an end to whatever Krex is doing.
+SAM: You can use the passcode on the door to the second dome, Pathfinder.
+SAM: The second dome requires a passcode, Pathfinder.
+Hero: That did it.
+Hero: That takes care of Krex and his people. But what were they up to?
+SAM: I detect an audio log nearby, Pathfinder. It may give you the information you need.
+Hero: That must be the base the exiles mentioned.
+Hero: Looks like the exiles made themselves at home.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: Kallo said there'd be exiles here. Let's stay on our toes.
+├ option 2:
+    Hero: That datapad we found mentioned a guy named Krex. Any idea who that is?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Doesn't ring a bell. If he's out here, he might be dangerous.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Your guess is as good as mine. Whoever he is, sounds like he's up to something.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Name sounds krogan, but I've never heard of him.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Beats me. He doesn't come up in any records.
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Does it matter? He's up to something. That's all we need to know.
+    └─ merge ─┘
+├ option 3:
+    Hero: Crazy to think this dust is packed with valuable resources.
+    SAM: An effect of solar radiation. The radiation is also partly what makes this planet dangerous.
+├ option 4:
+    Hero: SAM, I need info on the exile base. What do you have for me?
+    SAM: The base is comprised of two mining domes. The second can only be accessed with a passcode.
+    SAM: I also detect multiple frequencies originating from the area. They have communication with Kadara.
+├ option 5:
+    Hero: If Elora had mined enough Helium-3 to bomb the colonies...
+    SAM: I advise against hypotheticals, Pathfinder. I've alerted the Nexus to the situation.
+    SAM: Patrols will be stationed around this planet to ensure the Helium-3 remains in your control.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Still, when I see Elora again, we're having a chat.
+    ├ option 2:
+        Hero: Still, if I ever meet this Elora, we're having a chat.
+    └─ merge ─┘
+├ option 6:
+    Hero: Doesn't seem different up here. You sure we activated the tiller?
+    SAM: The mechanisms are deep underground, so the effects are not visible.
+    SAM: Within months, you'll begin to see a dramatic increase in Helium-3 production.
+    Hero: Not bad for a planet we wrote off.
+├ option 7:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Despite everything that went wrong here... that's quite a view.
+    ├ option 2:
+        Hero [OncePerGame]: It's so quiet here. Like the ghost of a planet.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: The angara held this world once. It must have been so different then.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: It's nothing like the stills I saw. Strange to think that was hundreds of years ago.
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: Don't! You're giving me chills.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: Gives me the creeps, to be honest.
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: Not even a vault could fix this.
+        └─ merge ─┘
+    ├ option 3:
+        SAM [OncePerGame]: Suvi Anwar is correct—cosmic radiation is unusually high on this planet. Likely an effect of the Scourge.
+        Hero: Let's say I just walked out into it. What would happen?
+        SAM: Cosmic rays would penetrate the molecules of your DNA. Terminal cancer is highly likely.
+        Hero: Suddenly I'm thankful for the Nomad.
+    └─ merge ─┘
+└─ merge ─┘

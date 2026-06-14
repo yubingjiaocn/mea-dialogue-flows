@@ -1,0 +1,73 @@
+# game/conversations/unc_dunes/dune_0120_recruit_engin_i
+# Primary speaker: dune_water_engineer
+# Source: game/conversations/unc_dunes/dune_0120_recruit_engin_i.xml
+==================================================
+dune_water_engineer: Careful out there.
+dune_water_engineer [OncePerGame]: New armor, well-maintained weapons... I take it you're not one of the locals.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You've been trained to spot this.
+    dune_water_engineer: One of the reasons Annea hired me. I know whose good side to get on.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: So you work for the water merchant?
+        dune_water_engineer: I designed the filtration systems. Now I keep them from breaking down in the heat.
+        Hero: You're an engineer?
+        dune_water_engineer: Of sorts. On Kadara, I designed defense systems for the settlements.
+        dune_water_engineer: Specialized in hidden traps to use in the dark. {i}(Chuckles.){/i} I can't continue that work here.
+        Hero: Why?
+        dune_water_engineer: The sun never goes down on Elaaden. No nighttime. Just constant, blazing daylight.
+        dune_water_engineer: It's why the Paradise does so well. Water isn't the only commodity. We have shade.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: How'd you end up here?
+            dune_water_engineer: Same as anyone. I was desperate. Ran up a debt on Kadara and needed to escape.
+            dune_water_engineer: I have to say, life isn't bad here. I move between the Paradise and New Tuchanka, keeping the water tanks running.
+            dune_water_engineer: Sometimes I even go to the flophouse to buy extra parts from the scavengers. They respect me there.
+            dune_water_engineer: Still, I miss the exciting stuff. Felt like I was making a difference when I built defense systems.
+            ↩ (goto) dune_water_engineer: [empty]
+        ├ option 2:
+            Hero ⟨cond⟩: What's your boss like?
+            dune_water_engineer: She gave me a job and a place to live. I'm grateful to her for that.
+            Hero: But?
+            dune_water_engineer: She's not easy on... your kind. I've seen her deny them water based on nothing but her mood.
+            dune_water_engineer: She didn't live on Kadara like I did. All she's seen is the exiles on Elaaden.
+            dune_water_engineer: It's enough to turn anyone against outsiders. But I don't like seeing people suffer. Even exiles.
+            ↩ (goto) dune_water_engineer: [empty]
+        ├ option 3:
+            Hero ⟨cond⟩: If you want to make a difference again, the Resistance needs recruits on Voeld.
+            dune_water_engineer: The Resistance? It's a nice thought, but I doubt they'd take a lowlife like me.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: With your skills, Evfra will welcome you. We don't turn away those who want to fight.
+                dune_water_engineer: You're a member?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Jaal's right. Voeld needs an engineer who can work in harsh conditions.
+                    dune_water_engineer: {i}(Chuckles.){/i} Harsh conditions. That's me.
+                    dune_water_engineer: Voeld, huh? Guess it'd be a change from all this sand.
+                    dune_water_engineer: All right, fine. I'll check out the camp. See what I can do.
+                ├ option 2:
+                    Hero: You're looking at one of the best fighters in the Resistance.
+                    dune_water_engineer: Is that so...
+                    ↩ (goto) dune_water_engineer: Voeld, huh? Guess it'd be a change from all this sand.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) dune_water_engineer: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: What's your boss like?
+    ├ option 3:
+        ↩ (goto) Hero ⟨cond⟩: If you want to make a difference again, the Resistance needs recruits on Voeld.
+    ├ option 4:
+        Hero: I should get going.
+        ↩ (goto) dune_water_engineer: Careful out there.
+    └─ merge ─┘
+├ option 2:
+    Hero: Think I'll stick out?
+    dune_water_engineer: Like water in the desert. My boss Annea picked up on you from the second you landed.
+    ↩ (goto) dune_water_engineer: [empty]
+└─ merge ─┘
+dune_water_engineer: Pathfinder.
+↩ (goto) dune_water_engineer: [empty]

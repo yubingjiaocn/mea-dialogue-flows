@@ -1,0 +1,30 @@
+# game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0100_wife_i
+# Primary speaker: nex_rp_mur_murderers_wife
+# Source: game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0100_wife_i.xml
+==================================================
+nex_rp_mur_murderers_wife: It's not right. It's not fair.
+Hero: What's wrong?
+nex_rp_mur_murderers_wife: Oh my, you're... so it's true, a Pathfinder has found us. There's hope at last.
+nex_rp_mur_murderers_wife: Maybe you could help—you're impartial. This whole thing has gotten so political.
+nex_rp_mur_murderers_wife: My husband... he's locked up and slated for exile—for a crime he didn't commit.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: What exactly was he convicted of?
+    nex_rp_mur_murderers_wife: They don't exile you for petty theft. Well, maybe this bunch would.
+    nex_rp_mur_murderers_wife: They say it's murder. They're calling him the first murderer in Andromeda. But the dead man was his friend—he wouldn't have...
+    nex_rp_mur_murderers_wife: There are witnesses and evidence, but it's all circumstantial. At worst, it was an accident.
+    nex_rp_mur_murderers_wife: His name is Nilken Rensus. He could give you the details, if you were willing to speak with him—please?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'd be happy to.
+        nex_rp_mur_murderers_wife: Oh, thank you. I'm sure the jailer will allow you a visit.
+        nex_rp_mur_murderers_wife: Please—tell Nilken I love him.
+    ├ option 2:
+        Hero: At some point, maybe. There are tens of thousands of people in my care.
+        nex_rp_mur_murderers_wife: {i}(Starts to cry.){/i} ...I hope... I hope you'll find the time. Before it's too late. If you do decide to help...
+        ↩ (goto) nex_rp_mur_murderers_wife: Please—tell Nilken I love him.
+    └─ merge ─┘
+├ option 2:
+    Hero: Exile, huh? Guess it wasn't for having a hand in the cookie jar.
+    ↩ (goto) nex_rp_mur_murderers_wife: They say it's murder. They're calling him the first murderer in Andromeda. But the dead man was his friend—he wouldn't have...
+└─ merge ─┘

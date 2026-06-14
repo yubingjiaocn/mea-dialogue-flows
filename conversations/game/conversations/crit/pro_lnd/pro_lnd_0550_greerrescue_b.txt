@@ -1,0 +1,39 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0550_greerrescue_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0550_greerrescue_b.xml
+==================================================
+global_squad_male_human: It's Greer—they've got him!
+Narration: TEMP: ANDREW LI, PLS UNHOOK THIS.
+pro_lnd_shuttle_crew2_multi: {i}Help!{/i}
+Hero: Hang on, Greer! We've got you!
+global_squad_male_human: Keep your head down!
+Pro_Lnd_kett5: Nefet surhanad!
+Hero: Box them in, Liam!
+global_squad_male_human: Setting a kill zone!
+global_squad_male_human: They're not getting out of this!
+global_squad_male_human: We're clear!
+pro_lnd_shuttle_crew2_multi: Thank god. I was tapping my mic, hoping someone would notice.
+Hero: You okay?
+pro_lnd_shuttle_crew2_multi: Yeah. Where are the others?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: They killed Kirkland. But Fisher's alive back at the crash site.
+    global_squad_male_human: He's got a broken leg; needs help.
+    pro_lnd_shuttle_crew2_multi: I'll check around for supplies, then head back.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: We'll be in touch. Liam and I need to go help Cora.
+        pro_lnd_shuttle_crew2_multi: Good luck. Can't wait to get off this rock.
+    ├ option 2:
+        Hero: Stay put when you get there. We'll look for my dad's shuttle.
+        ↩ (goto) pro_lnd_shuttle_crew2_multi: Good luck. Can't wait to get off this rock.
+    └─ merge ─┘
+├ option 2:
+    Hero: Fisher's back at the crash site.
+    ↩ (goto) global_squad_male_human: He's got a broken leg; needs help.
+└─ merge ─┘
+Narration: TEMP: ANDREW LI, PLS UNHOOK THIS.
+global_squad_male_human: You hear that?
+Hero: Yeah. Radio static. But like a pattern.
+Hero: That static's getting louder.
+global_squad_male_human: Whatever's causing that, it's a lot closer.

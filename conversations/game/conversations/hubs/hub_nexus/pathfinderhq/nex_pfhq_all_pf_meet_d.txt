@@ -1,0 +1,235 @@
+# game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_all_pf_meet_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_all_pf_meet_d.xml
+==================================================
+Narration: All the Pathfinders (Hayjer / Raeka, Sarissa / Vederia, and Avitus Rix / no one) are sitting on the couches in the PF HQ.
+Narration: There's a bottle and glasses on the table. Everyone's relaxed and convivial. It's a meeting of elite equals, mid-conversation.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_turian_pathfinder_multi ⟨cond⟩: Ah, Ryder. Grab a seat.
+    Narration: Ryder sits, at ease as one of them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_salarian_pathfinder_multi ⟨cond⟩: So afterwards, the kett got twitchy. Took me a while to get back.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            loy_hmf_vederia_multi ⟨cond⟩: They must be afraid you're close to figuring out exaltation.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_salarian_pathfinder_multi ⟨cond⟩: Oh, I hope so.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: So you're finding out the kett's dirty exaltation secrets?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_salarian_pathfinder_multi ⟨cond⟩: That's the plan.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_salarian_pathfinder_multi ⟨cond⟩: Your star maps were helpful, by the way.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                loy_hmf_vederia_multi ⟨cond⟩: Oh, of course. I'll be charting the Scourge for a while, though Ryder's data from the vaults is helping.
+                                Hero: I'll send you our latest.
+                                ┌─ BRANCH (3) ─┐
+                                ├ option 1:
+                                    global_turian_pathfinder_multi ⟨cond⟩: I'll take a copy as well. Anything to expand the search grid.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        loy_hmf_vederia_multi ⟨cond⟩: You're still looking for stasis pods?
+                                        global_turian_pathfinder_multi ⟨cond⟩: And finding them. Having a partner AI makes one hell of a difference.
+                                        global_turian_pathfinder_multi: Guess I need to train a successor, and figure out how to prepare them.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            loy_hmf_vederia_multi ⟨cond⟩: I don't think this is a job you can prepare for. You live it—and do your best.
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                Hero: There's only one way to find out what kind of Pathfinder you are.
+                                                ┌─ BRANCH (3) ─┐
+                                                ├ option 1:
+                                                    global_turian_pathfinder_multi ⟨cond⟩: Ha. Guess so.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        global_salarian_pathfinder_multi ⟨cond⟩: In the meantime, we've a serious matter to deal with: the first vintage bottled in Andromeda, sent as a gift.
+                                                        ┌─ BRANCH (2) ─┐
+                                                        ├ option 1:
+                                                            global_turian_pathfinder_multi ⟨cond⟩: Good thing I brought my flask... damn, that smells good.
+                                                            ┌─ BRANCH (2) ─┐
+                                                            ├ option 1:
+                                                                global_salarian_pathfinder_multi ⟨cond⟩: Since we've got a moment to ourselves, shall we toast?
+                                                                ┌─ BRANCH (2) ─┐
+                                                                ├ option 1:
+                                                                    Hero: To the great adventure and all the mysteries waiting for us.
+                                                                    Narration: Everyone toasts.
+                                                                    Narration: Fade out on the Pathfinders talking and being companionable.
+                                                                ├ option 2:
+                                                                    Hero: To our crews, our SAMs, and each other. May we always find our path home.
+                                                                    ↩ (goto) Narration: Everyone toasts.
+                                                                └─ merge ─┘
+                                                            ├ option 2:
+                                                                crit_kett_salarian_captain_multi: Seemed worthy of our first proper meeting together. If we have a toast?
+                                                                ┌─ BRANCH (2) ─┐
+                                                                ├ option 1:
+                                                                    ↩ (goto) Hero: To the great adventure and all the mysteries waiting for us.
+                                                                ├ option 2:
+                                                                    ↩ (goto) Hero: To our crews, our SAMs, and each other. May we always find our path home.
+                                                                └─ merge ─┘
+                                                            └─ merge ─┘
+                                                        ├ option 2:
+                                                            ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: Since we've got a moment to ourselves, shall we toast?
+                                                        └─ merge ─┘
+                                                    ├ option 2:
+                                                        crit_kett_salarian_captain_multi: For now, friends, I need your help: the first wine bottled in Andromeda, sent back to the Nexus.
+                                                        ┌─ BRANCH (2) ─┐
+                                                        ├ option 1:
+                                                            ↩ (goto) global_turian_pathfinder_multi ⟨cond⟩: Good thing I brought my flask... damn, that smells good.
+                                                        ├ option 2:
+                                                            ↩ (goto) crit_kett_salarian_captain_multi: Seemed worthy of our first proper meeting together. If we have a toast?
+                                                        └─ merge ─┘
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: In the meantime, we've a serious matter to deal with: the first vintage bottled in Andromeda, sent as a gift.
+                                                ├ option 3:
+                                                    ↩ (goto) crit_kett_salarian_captain_multi: For now, friends, I need your help: the first wine bottled in Andromeda, sent back to the Nexus.
+                                                └─ merge ─┘
+                                            ├ option 2:
+                                                Hero: More groundwork would have helped in the early days.
+                                                ┌─ BRANCH (3) ─┐
+                                                ├ option 1:
+                                                    global_turian_pathfinder_multi ⟨cond⟩: Huh. That's worth knowing.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: In the meantime, we've a serious matter to deal with: the first vintage bottled in Andromeda, sent as a gift.
+                                                    ├ option 2:
+                                                        ↩ (goto) crit_kett_salarian_captain_multi: For now, friends, I need your help: the first wine bottled in Andromeda, sent back to the Nexus.
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: In the meantime, we've a serious matter to deal with: the first vintage bottled in Andromeda, sent as a gift.
+                                                ├ option 3:
+                                                    ↩ (goto) crit_kett_salarian_captain_multi: For now, friends, I need your help: the first wine bottled in Andromeda, sent back to the Nexus.
+                                                └─ merge ─┘
+                                            └─ merge ─┘
+                                        ├ option 2:
+                                            loy_hmf_cmdr_sarissa_multi: Better to find your wings as you fly. Worked for us, didn't it?
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) Hero: There's only one way to find out what kind of Pathfinder you are.
+                                            ├ option 2:
+                                                ↩ (goto) Hero: More groundwork would have helped in the early days.
+                                            └─ merge ─┘
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        loy_hmf_cmdr_sarissa_multi: Still hunting down the stasis pods?
+                                        ↩ (goto) global_turian_pathfinder_multi ⟨cond⟩: And finding them. Having a partner AI makes one hell of a difference.
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    global_salarian_pathfinder_multi ⟨cond⟩: I'd forward one to the turians, too. Their new Pathfinder will need it.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        loy_hmf_vederia_multi ⟨cond⟩: Do they have someone? It'll be nice not to feel so junior...
+                                        Hero: They must have plenty of good candidates.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            global_salarian_pathfinder_multi ⟨cond⟩: And they'll have our experience to prepare them.
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: I don't think this is a job you can prepare for. You live it—and do your best.
+                                            ├ option 2:
+                                                ↩ (goto) loy_hmf_cmdr_sarissa_multi: Better to find your wings as you fly. Worked for us, didn't it?
+                                            └─ merge ─┘
+                                        ├ option 2:
+                                            crit_kett_salarian_captain_multi: I hope they're prepared.
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: I don't think this is a job you can prepare for. You live it—and do your best.
+                                            ├ option 2:
+                                                ↩ (goto) loy_hmf_cmdr_sarissa_multi: Better to find your wings as you fly. Worked for us, didn't it?
+                                            └─ merge ─┘
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        loy_hmf_cmdr_sarissa_multi: A rookie. Any names yet?
+                                        ↩ (goto) Hero: They must have plenty of good candidates.
+                                    └─ merge ─┘
+                                ├ option 3:
+                                    crit_kett_salarian_captain_multi: I can send a copy to the turians as well, for their new Pathfinder.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: Do they have someone? It'll be nice not to feel so junior...
+                                    ├ option 2:
+                                        ↩ (goto) loy_hmf_cmdr_sarissa_multi: A rookie. Any names yet?
+                                    └─ merge ─┘
+                                └─ merge ─┘
+                            ├ option 2:
+                                loy_hmf_vederia_multi ⟨cond⟩: Oh, of course. I'll be charting the Scourge for a while, though Ryder's data from the vaults is helping.
+                                ↩ (goto) Hero: I'll send you our latest.
+                            ├ option 3:
+                                loy_hmf_cmdr_sarissa_multi ⟨cond⟩: You're welcome. Between us charting the Scourge and Ryder's vault data, the kett will run out of boltholes.
+                                ↩ (goto) Hero: I'll send you our latest.
+                            ├ option 4:
+                                loy_hmf_cmdr_sarissa_multi: You're welcome. Between us charting the Scourge and Ryder's vault data, the kett will run out of boltholes.
+                                ↩ (goto) Hero: I'll send you our latest.
+                            └─ merge ─┘
+                        ├ option 2:
+                            crit_kett_salarian_captain_multi: I meant to thank you for the star maps.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: Oh, of course. I'll be charting the Scourge for a while, though Ryder's data from the vaults is helping.
+                            ├ option 2:
+                                ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: Oh, of course. I'll be charting the Scourge for a while, though Ryder's data from the vaults is helping.
+                            ├ option 3:
+                                ↩ (goto) loy_hmf_cmdr_sarissa_multi ⟨cond⟩: You're welcome. Between us charting the Scourge and Ryder's vault data, the kett will run out of boltholes.
+                            ├ option 4:
+                                ↩ (goto) loy_hmf_cmdr_sarissa_multi: You're welcome. Between us charting the Scourge and Ryder's vault data, the kett will run out of boltholes.
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 2:
+                        crit_kett_salarian_captain_multi: And if we're lucky, a way to stop it.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: Your star maps were helpful, by the way.
+                        ├ option 2:
+                            ↩ (goto) crit_kett_salarian_captain_multi: I meant to thank you for the star maps.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: It's satisfying to wipe that smug look off kett faces.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: Your star maps were helpful, by the way.
+                    ├ option 2:
+                        ↩ (goto) crit_kett_salarian_captain_multi: I meant to thank you for the star maps.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                crit_kett_salarian_captain_multi: A comforting thought.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: So you're finding out the kett's dirty exaltation secrets?
+                ├ option 2:
+                    ↩ (goto) Hero: It's satisfying to wipe that smug look off kett faces.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            loy_hmf_cmdr_sarissa_multi: The idea of salarians figuring out exaltation must keep them up at night.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: Oh, I hope so.
+            ├ option 2:
+                ↩ (goto) crit_kett_salarian_captain_multi: A comforting thought.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        crit_kett_salarian_captain_multi: So yes, after that the kett tightened security. I've only just got back.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) loy_hmf_vederia_multi ⟨cond⟩: They must be afraid you're close to figuring out exaltation.
+        ├ option 2:
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: The idea of salarians figuring out exaltation must keep them up at night.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    loy_hmf_vederia_multi ⟨cond⟩: Oh, Ryder's here.
+    ↩ (goto) Narration: Ryder sits, at ease as one of them.
+├ option 3:
+    loy_hmf_cmdr_sarissa_multi: Ryder. Glad you could make it.
+    ↩ (goto) Narration: Ryder sits, at ease as one of them.
+└─ merge ─┘

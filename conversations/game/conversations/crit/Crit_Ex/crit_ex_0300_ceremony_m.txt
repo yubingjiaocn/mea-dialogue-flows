@@ -1,0 +1,131 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0300_ceremony_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0300_ceremony_m.xml
+==================================================
+┌─ BRANCH (12) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara: What? What is this?
+        crit_ex_grand_kett: Fortunate welcome! Step forward.
+        crit_ex_grand_kett: I am humbled before you, you who are the Chosen. Chosen by the Archon.
+        crit_ex_grand_kett: Chosen to be exalted!
+        hmm_cinematic_proxy_01: Chosen to be exalted!
+        global_squad_angara: What...? Why aren't they resisting?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Looks like some sort of ritual—the angara seem entranced.
+            global_squad_angara: I know the Moshae. She's not down there.
+            global_squad_angara: But maybe in one of those pods.
+            Hero: It’s as good a lead as any.
+            crit_ex_res_fighter_1_multi: [Comm] You wanted a distraction? We just set our plan on fire.
+            Hero: Thanks. Good luck.
+            crit_ex_grand_kett: Impossible.
+            crit_ex_grand_kett: Archon.
+            global_main_villain: Explain!
+            crit_ex_grand_kett: We've been breached! I will defend the temple—
+            global_main_villain: Wait. Is the Moshae among these?
+            crit_ex_grand_kett: No. It awaits final exaltation.
+            global_main_villain: Then proceed immediately and bring it to me.
+            global_squad_angara: Final exaltation? What's final? What are they doing? We have to save all the angara!
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: We're here. Let's do everything we can.
+                global_squad_angara: Thank you.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_krogan ⟨cond⟩: That wasn't the plan.
+                    Hero: Plans change.
+                    Hero: Come on. Let's see where those pods go.
+                ├ option 2:
+                    global_squad_turian ⟨cond⟩: That wasn't the plan.
+                    ↩ (goto) Hero: Plans change.
+                ├ option 3:
+                    global_squad_female_human ⟨cond⟩: That wasn't the plan.
+                    ↩ (goto) Hero: Plans change.
+                ├ option 4:
+                    global_squad_male_human ⟨cond⟩: That wasn't the plan.
+                    ↩ (goto) Hero: Plans change.
+                ├ option 5:
+                    global_squad_asari ⟨cond⟩: That wasn't the plan.
+                    ↩ (goto) Hero: Plans change.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: We came here for the Moshae. She's our first priority.
+                global_squad_angara: Your priority.
+                Hero: My ship. My team. My priorities.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: That's some crazy cult shit down there. Those angara look like they're in some sort of trance.
+            ↩ (goto) global_squad_angara: I know the Moshae. She's not down there.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human: Ho—ly crap.
+    ├ option 3:
+        global_squad_turian: Oh, wow...
+    ├ option 4:
+        global_squad_krogan: I don't like this.
+    ├ option 5:
+        global_squad_female_human: What the—?
+    ├ option 6:
+        global_squad_asari: Oh, wow...
+    └─ merge ─┘
+├ option 2:
+    Narration: ANIMATIC of Cardinal speaking to Holo Archon and exciting.
+├ option 3:
+├ option 4:
+├ option 5:
+├ option 6:
+├ option 7:
+├ option 8:
+├ option 9:
+├ option 10:
+├ option 11:
+├ option 12:
+└─ merge ─┘
+┌─ BRANCH (12) ─┐
+├ option 1:
+    Hero: How do we get in there?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari: SAM doesn't have anything.
+    ├ option 2:
+        global_squad_male_human: SAM's not getting her.
+    ├ option 3:
+        global_squad_turian: SAM doesn't have anything.
+    ├ option 4:
+        global_squad_krogan: Sam's got nothing.
+    ├ option 5:
+        global_squad_female_human: Scan's done. No sign of her.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: She's alive. There's still hope.
+├ option 3:
+    global_squad_turian: She's alive. That's a start.
+├ option 4:
+    global_squad_krogan: She's still alive, sounds like.
+├ option 5:
+    global_squad_male_human: Well, she's alive. Now what?
+├ option 6:
+    global_squad_asari: At least we know she's alive.
+├ option 7:
+    global_squad_asari: Scanning for the Moshae.
+├ option 8:
+    global_squad_female_human: I'll scan for the Moshae.
+├ option 9:
+    global_squad_krogan: Where is she?
+├ option 10:
+    global_squad_turian: Scanning for the Moshae.
+├ option 11:
+    global_squad_male_human: Scanning for the Moshae.
+├ option 12:
+    ↩ (goto) global_squad_asari: Scanning for the Moshae.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    kett_acolyte: Chosen to be Exalted.
+├ option 2:
+    kett_elder: Chosen to be Exalted.
+├ option 3:
+    kett_machinegunner: Chosen to be Exalted.
+└─ merge ─┘

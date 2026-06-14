@@ -1,0 +1,26 @@
+# game/conversations/storyteller/anchors/sty_finale_olw_outtrick_b
+# Primary speaker: Hero
+# Source: game/conversations/storyteller/anchors/sty_finale_olw_outtrick_b.xml
+==================================================
+SAM: We're nearing the exchange point specified in the outlaw's datapad.
+Hero: Shit. Guess it turned out exactly like the outlaw said it would.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Not quite. I'm guessing that's him by the loot.
+    SAM: Pathfinder, there's an additional datapad here.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Except he didn't make it either.
+    ↩ (goto) SAM: Pathfinder, there's an additional datapad here.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Not exactly. I think that's our guy by the loot.
+    ↩ (goto) SAM: Pathfinder, there's an additional datapad here.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Except he got the business end of a rifle. Look.
+    ↩ (goto) SAM: Pathfinder, there's an additional datapad here.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Judging by the body near the loot, I guess he didn't make it out.
+    ↩ (goto) SAM: Pathfinder, there's an additional datapad here.
+└─ merge ─┘
+Hero: So his plan didn't work out after all.
+SAM: These caches contain valuable resources, Pathfinder. I suggest repurposing them for the Initiative.
+Hero: At least some good will come from this.

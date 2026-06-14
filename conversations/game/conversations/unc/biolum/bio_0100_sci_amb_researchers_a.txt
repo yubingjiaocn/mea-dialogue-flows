@@ -1,0 +1,57 @@
+# game/conversations/unc/biolum/bio_0100_sci_amb_researchers_a
+# Primary speaker: bio_amb_researcher_1
+# Source: game/conversations/unc/biolum/bio_0100_sci_amb_researchers_a.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    bio_amb_researcher_2 ⟨cond⟩ [OncePerGame]: I know Pathfinder Ryder helped us and all, but I'm still not used to how their people look.
+    bio_amb_researcher_2: Their heads are just so... small.
+    bio_amb_researcher_1: Stars! Did you mean to say that out loud? They can hear you!
+├ option 2:
+    bio_amb_researcher_2 [OncePerGame]: I know Pathfinder Ryder helped us and all, but I'm still not used to how their people look.
+    ↩ (goto) bio_amb_researcher_2: Their heads are just so... small.
+├ option 3:
+    bio_amb_researcher_1 [OncePerGame]: I hope people start moving back to Daar Pelaav.
+    bio_amb_researcher_1: My mother's family was from here. My grandfather told great stories about this place.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    bio_amb_researcher_2 [OncePerGame]: I didn't think I'd see the others alive again.
+    bio_amb_researcher_1: Technically they weren't ever dead.
+    bio_amb_researcher_2: You know what I mean.
+├ option 2:
+    bio_amb_researcher_2 [OncePerGame]: Torvar wants to go back to the monolith.
+    bio_amb_researcher_1: He's fearless. For a scientist.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    bio_amb_researcher_1 [OncePerGame]: No news?
+    bio_amb_researcher_2: My mother has given up hope we'll ever get them back.
+    bio_amb_researcher_1: Maybe the Resistance...
+    bio_amb_researcher_2: The Resistance already has its hands full.
+    bio_amb_researcher_1: Damn those kett.
+├ option 2:
+    bio_amb_researcher_2 [OncePerGame]: Sometimes I think it would've been better if the kett just killed them.
+    bio_amb_researcher_1: Why would you say such a thing? My sister and brother—
+    bio_amb_researcher_2: You saw the bodies, and you were able to put them to rest. I wish I had that.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_amb_researcher_2 ⟨cond⟩: I don't know if my father and brothers are alive, dead or...
+        bio_amb_researcher_2: And if they were exalted, their souls are lost forever.
+    ├ option 2:
+        bio_amb_researcher_2: Not knowing is worse.
+    └─ merge ─┘
+├ option 3:
+    bio_amb_researcher_1 [OncePerGame]: Maybe you should ask if you can return to Aya. It's hard to work and worry about your family at the same time.
+    bio_amb_researcher_2: My work is all I have.
+    bio_amb_researcher_2: If I could fight, I'd be on Voeld, killing kett.
+    bio_amb_researcher_2: But my work here still helps us survive, so that's what I'm going to do.
+├ option 4:
+    bio_amb_researcher_2 ⟨cond⟩: Did you hear about the aliens someone spotted in the jungle? Sort of grey and spiky.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_amb_researcher_1 ⟨cond⟩: Maybe the Pathfinder knows them.
+    ├ option 2:
+        bio_amb_researcher_1: Maybe the Pathfinder knows them.
+    └─ merge ─┘
+└─ merge ─┘

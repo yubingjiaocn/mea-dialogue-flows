@@ -1,0 +1,34 @@
+# game/conversations/bstory/ryderfam/ryd_sibling_alert_a
+# Primary speaker: Hero
+# Source: game/conversations/bstory/ryderfam/ryd_sibling_alert_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Scott, it's me.
+    global_sibling_male: [Comm] How's it going?
+    Hero: In the med-bay, there's a stasis pod for "Elizabeth Reilly." Find it, and I'll meet you there.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩: [Comm] Something wrong?
+        Hero: No—just the opposite.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_sibling_male ⟨cond⟩: [Comm] So mysterious. Don't keep me waiting.
+        ├ option 2:
+            global_sibling_female: [Comm] Well, don't leave me hanging. Hurry up.
+        └─ merge ─┘
+    ├ option 2:
+        global_sibling_female: [Comm] Something wrong?
+        ↩ (goto) Hero: No—just the opposite.
+    └─ merge ─┘
+├ option 2:
+    Hero: Sara, it's me.
+    global_sibling_female: [Comm] How are you?
+    ↩ (goto) Hero: In the med-bay, there's a stasis pod for "Elizabeth Reilly." Find it, and I'll meet you there.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: There you are. What's all this about?
+├ option 2:
+    global_sibling_female: There you are. What's going on?
+└─ merge ─┘

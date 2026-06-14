@@ -1,0 +1,50 @@
+# game/conversations/unc/biolum/bio_1100_mws_xeno_d
+# Primary speaker: bio_outpost_staff_science_multi
+# Source: game/conversations/unc/biolum/bio_1100_mws_xeno_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    bio_outpost_staff_science_multi [OncePerGame]: You'll be the Pathfinder, then. Dr. MacIntyre, from the Nexus.
+    Hero: Ryder. Welcome to Havarl.
+    bio_outpost_staff_science_multi: She'll be more welcoming now that you've put the vault back on track.
+    bio_outpost_staff_science_multi: The angara invited us to monitor plant growth—and study ruins out in the jungle. It's the chance of a lifetime.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: What does your team do here?
+        bio_outpost_staff_science_multi: Zerra is our botanist. She'll be minding the plants and designing an artificial habitat for them.
+        bio_outpost_staff_science_multi: She also happens to be an engineer. Asari: one profession's never enough.
+        bio_outpost_staff_science_multi: Then there's young Farley. He's here for the insects.
+        Hero: And you?
+        bio_outpost_staff_science_multi: I'm the xenoanthropologist. A fancy word for talking to the angara about those ruins—and listening.
+        ↩ (goto) bio_outpost_staff_science_multi: [empty]
+    ├ option 2:
+        Hero: Be careful around those monoliths. There might be more stasis fields. We think they only affect angara, but who knows.
+        bio_outpost_staff_science_multi: Oh, we know, make no mistake. I have a check in system ready.
+        bio_outpost_staff_science_multi: Whether young Farley remembers it when he's chasing butterflies is another matter.
+        ↩ (goto) bio_outpost_staff_science_multi: [empty]
+    ├ option 3:
+        Hero: I imagine you've spoken to Kiiran Dals already.
+        bio_outpost_staff_science_multi: She's the one who invited us, aye. Fussed over us something terrible.
+        bio_outpost_staff_science_multi: But she's a fine lady, and hopefully a good colleague down the road. I plan to listen to her.
+        ↩ (goto) bio_outpost_staff_science_multi: [empty]
+    ├ option 4:
+        Hero: You know how Taavos found the monolith, right? Reincarnated memories?
+        bio_outpost_staff_science_multi: Aye, I heard. One for the textbooks.
+        Hero: You believe him? But you're a scientist.
+        bio_outpost_staff_science_multi: Asari share thoughts and memories. Prothean tech speaks in visions. Those are scientific facts.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            bio_outpost_staff_science_multi ⟨cond⟩: There's more to people than what can go under a microscope, lass.
+            ↩ (goto) bio_outpost_staff_science_multi: [empty]
+        ├ option 2:
+            bio_outpost_staff_science_multi: There's more to people than what can go under a microscope, lad.
+            ↩ (goto) bio_outpost_staff_science_multi: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        Hero: Good luck, MacIntyre.
+        bio_outpost_staff_science_multi: Safe journeys, Ryder.
+    └─ merge ─┘
+├ option 2:
+    bio_outpost_staff_science_multi: Good to see you again.
+    ↩ (goto) bio_outpost_staff_science_multi: [empty]
+└─ merge ─┘

@@ -1,0 +1,43 @@
+# game/conversations/unc/biolum/bio_0200_stasis_problem_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/biolum/bio_0200_stasis_problem_b.xml
+==================================================
+SAM: Pathfinder, whatever affected the angara appears to be tuned to their physiology.
+Hero: It only affected angara?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: So we're safe.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: At least we're safe.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: But why?
+    SAM: I can only speculate.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Why would they do that?
+    ↩ (goto) SAM: I can only speculate.
+├ option 5:
+    global_squad_turian ⟨cond⟩: So it was like some kind of angara trap?
+    ↩ (goto) SAM: I can only speculate.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Hmm. Interesting.
+└─ merge ─┘
+global_squad_angara: This SAM of yours, in your head. How is it allowing you to interface with Remnant?
+Hero: SAM helps with analysis and translation, among other things. It's... complicated.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Yes!
+├ option 2:
+    Hero: Got it!
+├ option 3:
+    Hero: Simple!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Shit!
+├ option 2:
+    Hero: Damn it!
+├ option 3:
+    Hero: {i}(Frustrated groan.){/i}
+└─ merge ─┘
+Hero: Angara. What's wrong with them? They're not moving. It's like they're in some kind of... trance.
+Hero: Found them. The researchers caught in the stasis field. Exactly where Kiiran said they would be.

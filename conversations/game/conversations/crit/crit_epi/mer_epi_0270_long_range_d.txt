@@ -1,0 +1,35 @@
+# game/conversations/crit/crit_epi/mer_epi_0270_long_range_d
+# Primary speaker: mer_hub_staff_long_range
+# Source: game/conversations/crit/crit_epi/mer_epi_0270_long_range_d.xml
+==================================================
+mer_hub_staff_long_range: So glad you're up and around. I have important news for you.
+Hero: There always is.
+mer_hub_staff_long_range: Yes, discoveries every day. But this is something we've been waiting for. Listen!
+mer_hub_staff_q_ark_signal: {i}(Static.){/i}
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: What should I be hearing?
+    mer_hub_staff_long_range: Sorry. SAM? Active filtering, Initiative protocol Alpha-Alpha, to the screen.
+    Hero: Protocol what?
+    SAM: Processing.
+    mer_hub_staff_q_ark_signal: Repeating: This is the Ark Keelah Si'yah. The situation is {i}not{/i} under control. Note and avoid until further updates. Repeating...
+    Hero: Is that...?
+    mer_hub_staff_long_range: The quarian ark. And elcor, drell, volus. Hanar, I think? That's some delicate business, putting hanar in stasis.
+    mer_hub_staff_long_range: Point is, they're still out there! The Keelah Si'yah wasn't destroyed.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's patchy. And there's no traceable vector, I assume?
+        mer_hub_staff_long_range: It bounced through the Scourge. I've doubled long-range probes, but...
+        Hero: That's not a distress call. It's a warning to keep away from... wherever they are.
+        mer_hub_staff_long_range: Whatever's happening, they don't want to be found yet. We have to trust {i}their{/i} pathfinder.
+        Hero: All we can do is wait.
+    ├ option 2:
+        Hero: That's fantastic news! We need to report this right away.
+        mer_hub_staff_long_range: It's good news, but it bounced too many times to trace. And...
+        ↩ (goto) Hero: That's not a distress call. It's a warning to keep away from... wherever they are.
+    └─ merge ─┘
+├ option 2:
+    Hero: So, white noise...?
+    ↩ (goto) mer_hub_staff_long_range: Sorry. SAM? Active filtering, Initiative protocol Alpha-Alpha, to the screen.
+└─ merge ─┘
+mer_hub_staff_long_range: Nothing new, Pathfinder. But the quarian ark is out there. There's hope.

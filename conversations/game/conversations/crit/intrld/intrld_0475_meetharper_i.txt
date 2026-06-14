@@ -1,0 +1,69 @@
+# game/conversations/crit/intrld/intrld_0475_meetharper_i
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/crit/intrld/intrld_0475_meetharper_i.xml
+==================================================
+Hero [OncePerGame]: Hey, there.
+global_squad_female_human: You okay? Those guys really grilled you.
+global_squad_female_human: And Addison. First Pathfinder they've seen in over a year, all she can do is question your competence?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: She understands the stakes. If I fail, we—
+    global_squad_female_human: You won't.
+    Hero: Let's hope not.
+    global_squad_female_human: You won't. That's the end of it.
+    global_squad_female_human: I worked out logistics with Director Tann. They're giving us a ship and crew. He said their best is taking care of it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: When you're ready, just head out to the docking bay.
+    ├ option 2:
+        Hero: I still need to head back to the ark and check in with SAM.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Sounds good. While you're there, maybe see how your brother is doing.
+        ├ option 2:
+            global_squad_female_human: Sounds good. While you're there, maybe see how your sister is doing.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Yeah, meeting Addison was... interesting.
+    global_squad_female_human: She doesn't know you. I do, and you're doing fine.
+    Hero: I appreciate it.
+    ↩ (goto) global_squad_female_human: I worked out logistics with Director Tann. They're giving us a ship and crew. He said their best is taking care of it.
+├ option 3:
+    Hero: I expected something like that. I can handle the pressure.
+    global_squad_female_human: Good to hear.
+    ↩ (goto) global_squad_female_human: I worked out logistics with Director Tann. They're giving us a ship and crew. He said their best is taking care of it.
+├ option 4:
+    Hero: Which one was Addison, again? All politicians look the same to me.
+    global_squad_female_human: Same here. Next time we'll ask for a seating chart.
+    ↩ (goto) global_squad_female_human: I worked out logistics with Director Tann. They're giving us a ship and crew. He said their best is taking care of it.
+└─ merge ─┘
+global_squad_female_human: If you're done here, we could take it out for a shakedown. Unless you want to head back to the ark, check in with SAM.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Maybe see how your brother is doing?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: I'm done here. Let's go check out the ship.
+        global_squad_female_human: After you.
+    ├ option 2:
+        Hero: Actually, I've got to check on some things here.
+        global_squad_female_human: I'll be here. Can't leave without the Pathfinder.
+    ├ option 3:
+        Hero: I'll head back to the Hyperion first.
+    ├ option 4:
+        Hero: I should check in on Scott, see how he's doing.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: Maybe see how your sister is doing?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: I'm done here. Let's go check out the ship.
+    ├ option 2:
+        ↩ (goto) Hero: Actually, I've got to check on some things here.
+    ├ option 3:
+        ↩ (goto) Hero: I'll head back to the Hyperion first.
+    ├ option 4:
+        Hero: I should check in on Sara, see how she's doing.
+    └─ merge ─┘
+└─ merge ─┘

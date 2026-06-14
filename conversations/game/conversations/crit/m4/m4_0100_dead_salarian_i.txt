@@ -1,0 +1,30 @@
+# game/conversations/crit/m4/m4_0100_dead_salarian_i
+# Primary speaker: SAM
+# Source: game/conversations/crit/m4/m4_0100_dead_salarian_i.xml
+==================================================
+Hero: What do their records say about the salarian, SAM?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: The patient is deceased.
+    SAM: He is identified as Pathfinder Zevin Raeka.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: {i}(Sighs.){/i} Another Pathfinder down. We can't keep losing good people.
+        SAM: Agreed.
+        SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
+    ├ option 2:
+        Hero: What's the cause of death?
+        SAM: A brain embolism while in stasis.
+        ↩ (goto) SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
+    ├ option 3:
+        Hero: Shit. The guy we're looking for. We can't catch a break.
+        SAM: We're still more fortunate than him.
+        ↩ (goto) SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
+    ├ option 4:
+        Hero: Well, without their captain here to explain, we need a new plan.
+        SAM: This may be a false lead.
+        ↩ (goto) SAM: However, Initiative records indicate Pathfinder Raeka is {i}female{/i}. This patient is male.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) SAM: He is identified as Pathfinder Zevin Raeka.
+└─ merge ─┘

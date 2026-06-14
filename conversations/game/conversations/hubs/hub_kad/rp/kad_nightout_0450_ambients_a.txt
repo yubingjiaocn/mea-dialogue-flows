@@ -1,0 +1,47 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0450_ambients_a
+# Primary speaker: kad_ang_local_05
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0450_ambients_a.xml
+==================================================
+kad_outcast_pir_05: Don't see the point of it.
+kad_outcast_pir_06: Sloane wants to keep things nice between us and the locals.
+kad_outcast_pir_06: But why do they get to drink our beer?
+kad_ang_local_03: She's afraid.
+kad_ang_local_04: Sloane? She's faced kett. What could scare her?
+kad_ang_local_03: The Charlatan.
+kad_ang_local_04: Keep your voice down. They'll kick us out.
+kad_ang_local_05: I think you've had enough.
+kad_ang_local_06: Another!
+kad_ang_local_05: Don't eat that!
+kad_ang_local_06: Why?
+kad_ang_local_05: That food's for the ones with the pointy faces. The turians. You'll get sick.
+kad_exile_05: Put the bread in your bag.
+kad_exile_06: What?
+kad_exile_05: We're not gonna have another meal like this anytime soon. Take the bread.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_gambler_02: Shit, shit, shit.
+    kad_gambler_01: Come on! It's easy. Evens or odds.
+    kad_gambler_02: I'm thinking. Give me a minute!
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_gambler_02 ⟨cond⟩: Thanks again. I owe you one.
+    ├ option 2:
+        kad_gambler_02 ⟨cond⟩: Leave me alone. You've done enough.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_07: Good job, Velus. You really impressed her.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_outcast_pir_07 ⟨cond⟩: Nola, About before... I was nervous—wanted to make you jealous.
+        kad_ang_local_07: When my people care about someone, we don't make them feel bad. We tell them our true feelings.
+        kad_outcast_pir_07: Okay. The truth is, I like you. A lot.
+        kad_ang_local_07: And I like you. So stop worrying.
+        kad_outcast_pir_07: Right. Shit. I mean... Sorry. Yes.
+    ├ option 2:
+        kad_outcast_pir_07 ⟨cond⟩: Gonna drink 'til I can't remember her name.
+    └─ merge ─┘
+└─ merge ─┘

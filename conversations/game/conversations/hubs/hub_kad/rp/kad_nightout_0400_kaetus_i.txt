@@ -1,0 +1,30 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0400_kaetus_i
+# Primary speaker: kad_queen_guard_01
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0400_kaetus_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_queen_guard_01 ⟨cond⟩: Crashing parties now, Ryder?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Free food and beer are just so hard to come by in Heleus.
+        kad_queen_guard_01: Uh-huh.
+        kad_queen_guard_01: Just keep a low profile. Sloane's already gonna give me hell.
+    ├ option 2:
+        Hero: I'm here with a friend.
+        kad_queen_guard_01: A mysteriously absent friend.
+        ↩ (goto) kad_queen_guard_01: Just keep a low profile. Sloane's already gonna give me hell.
+    └─ merge ─┘
+├ option 2:
+    kad_queen_guard_01: One wrong move, and you're out.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Message received. Loud and clear.
+        ↩ (goto) kad_queen_guard_01: Just keep a low profile. Sloane's already gonna give me hell.
+    ├ option 2:
+        Hero: Have a beer, Kaetus. It'll be good for your health.
+        kad_queen_guard_01: I don't drink on the job.
+        Hero: So clock out. Live a little.
+        ↩ (goto) kad_queen_guard_01: Just keep a low profile. Sloane's already gonna give me hell.
+    └─ merge ─┘
+└─ merge ─┘

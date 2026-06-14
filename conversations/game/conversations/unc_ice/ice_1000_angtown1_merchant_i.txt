@@ -1,0 +1,34 @@
+# game/conversations/unc_ice/ice_1000_angtown1_merchant_i
+# Primary speaker: ice_merchant
+# Source: game/conversations/unc_ice/ice_1000_angtown1_merchant_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_merchant [OncePerGame]: Well, I haven't seen many of your kind around here—but I've heard lots about the Pathfinder from my friends on Aya.
+    Hero: All good things, I hope.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_merchant ⟨cond⟩: They say you saved the Moshae. That's good enough for me.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: Do you get much business out here?
+            ice_merchant: I do all right. The trick is to not stay in one place too long. I travel between here and Techiix.
+            ice_merchant: Sometimes I even make it up to the Resistance camp.
+            Hero: Isn't that dangerous with the kett all around?
+            ice_merchant: I've had a few close calls, but they haven't caught me yet. The stars are on my side.
+            ↩ (goto) ice_merchant: [empty]
+        ├ option 2:
+            Hero: I'll take a look at your stock.
+            ice_merchant: Got plenty of supplies.
+        ├ option 3:
+            Hero: I'm good for now.
+            ice_merchant: Come back if you need anything.
+        └─ merge ─┘
+    ├ option 2:
+        ice_merchant: So far.
+        ↩ (goto) ice_merchant: [empty]
+    └─ merge ─┘
+├ option 2:
+    ice_merchant: Looking to buy?
+    ↩ (goto) ice_merchant: [empty]
+└─ merge ─┘

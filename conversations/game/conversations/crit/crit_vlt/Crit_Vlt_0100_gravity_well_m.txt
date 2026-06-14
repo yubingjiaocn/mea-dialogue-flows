@@ -1,0 +1,60 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0100_gravity_well_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0100_gravity_well_m.xml
+==================================================
+Narration: The Player interfaces with the vault door. A moment later it grinds open, slowly...
+Narration: ...Revealing an empty room beyond with some stones and sand littering the floor.
+Narration: Everyone wanders inside, looking around.
+global_squad_asari: No. No, this can't be right. All that fanfare for an empty room?
+global_squad_asari: There's some secret here. There must be. Do your Pathfinder thing.
+Narration: Something trembles. Everyone backs up as a beam of light emerges from the ceiling and strikes the floor...
+Narration: ...which reconfigures, revealing a huge, deep shaft leading far underground.
+global_squad_asari: Oh, you're {i}good.{/i}
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I didn't do a thing.
+    Narration: Everyone peers into the hole.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: That's a long way down. Can't tell how far.
+        Narration: Or tries to... The stone is seized by some sort of force and begins falling gently.
+        Narration: Peebee is immediately fascinated.
+        global_squad_asari: That can't be air pressure. Electrostatic? Ah, gravitation.
+        global_squad_asari: Oh, you idiot, Peebee. That wasn't the front door. This is!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'll let you know!
+            Narration: The Player leaps into the hole.
+            global_squad_asari: Hey!
+            Narration: She leaps after the Player. The remaining squadmates exchange a look, then grit their teeth and jump after them.
+            Narration: Falling dialogue plays in a separate file. As they fall, we cut to...
+            Narration: The bottom of the shaft. The entrance to the gravity well is the only clearly lit part of this chamber.
+            Narration: The Player, their squad, and Peebee finally come to earth—gently—at the bottom of the shaft of light.
+            Narration: Slowly, they make their way into the dark chamber. Their lights snap on.
+            global_squad_asari: Now this is more like it.
+            Narration: The Player's POV. We can see we're in a massive, dark, underground structure. It's quiet and creepy.
+            Hero: Looks like a bunker. Or a vault?
+            global_squad_asari: Whatever you call it, the controls for that atmosphere processor might be down here somewhere.
+            Hero: Let's find out.
+        ├ option 2:
+            Hero: What do you—?
+            Narration: Peebee leaps into the hole.
+            Hero: Hey!
+            global_squad_asari: Come on, Pathfinder!
+            Narration: The Player looks at their squadmates, shrugs, then grits their teeth and leaps into the hole after Peebee. The squadmates follow.
+            ↩ (goto) Narration: Falling dialogue plays in a separate file. As they fall, we cut to...
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Pretty deep. Someone didn't know when to stop digging.
+        ↩ (goto) Narration: [empty]
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: How far down do you think it goes?
+        ↩ (goto) Narration: [empty]
+    ├ option 4:
+        global_squad_asari: Quite the drop. How deep, do you think?
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: And I make it look so easy.
+    ↩ (goto) Narration: Everyone peers into the hole.
+└─ merge ─┘

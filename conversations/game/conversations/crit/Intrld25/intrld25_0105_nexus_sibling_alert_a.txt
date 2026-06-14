@@ -1,0 +1,14 @@
+# game/conversations/crit/intrld25/intrld25_0105_nexus_sibling_alert_a
+# Primary speaker: Hero
+# Source: game/conversations/crit/Intrld25/intrld25_0105_nexus_sibling_alert_a.xml
+==================================================
+global_crew_doctor_multi: [Comm] Ryder, this is Harry, back on the ark.
+Hero: Go ahead.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_doctor_multi ⟨cond⟩: [Comm] We may have found a way to talk to your brother. Sort of. Drop by when you can. Hyperion med-bay.
+    Hero: Will do.
+├ option 2:
+    global_crew_doctor_multi: [Comm] We may have found a way to talk to your sister. Sort of. Drop by when you can. Hyperion med-bay.
+    ↩ (goto) Hero: Will do.
+└─ merge ─┘

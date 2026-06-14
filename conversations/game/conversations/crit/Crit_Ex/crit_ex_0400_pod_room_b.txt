@@ -1,0 +1,44 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0400_pod_room_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0400_pod_room_b.xml
+==================================================
+global_squad_angara: How many... pods?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Well... shit.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Oh no... Jaal...
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: This is... damn.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩: {i}(Sighs.){/i} No matter where we go...
+    ↩ (goto) global_squad_angara: [empty]
+├ option 5:
+    global_squad_female_human ⟨cond⟩: All this time. All those prisoners.
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘
+global_squad_angara: We can try scanning.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: And fast.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Who are they all?
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: This is going to take forever.
+    ↩ (goto) SAM: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Do it. Fast.
+    ↩ (goto) SAM: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Right. On it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        SAM: Ryder, if you find a console, I will try to access it.
+    └─ merge ─┘
+└─ merge ─┘
+global_squad_angara: So far up, you can't even see where it ends.

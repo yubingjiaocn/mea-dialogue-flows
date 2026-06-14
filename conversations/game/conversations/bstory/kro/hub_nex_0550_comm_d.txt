@@ -1,0 +1,45 @@
+# game/conversations/bstory/kro/hub_nex_0550_comm_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/hub_nex_0550_comm_d.xml
+==================================================
+global_nexus_control_tower: Pathfinder! What can I do for you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Pathfinder business. Stay calm—and trust me when I say this is serious.
+    global_nexus_control_tower: Calm and serious. Check.
+    Hero: I found this thing... somewhere on station. I need to know what it does, exactly.
+    global_nexus_control_tower: Sure, I can—Wait, this is a scrambler unit! These things are illegal!
+    global_nexus_control_tower: Where did you get this?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I've been investigating Spender. Found it in his quarters.
+        global_nexus_control_tower: I knew something was up with him. Such an asshole. I hope you fry him.
+        Hero: Help me do it?
+        global_nexus_control_tower: You bet. You could hack through every security wall we have with this thing.
+        global_nexus_control_tower: There's a reason they're illegal.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_control_tower ⟨cond⟩: Sorry. Calm and serious. Deep breaths.
+            Hero: Let me know when you're done.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_nexus_control_tower ⟨cond⟩: Yes ma'am.
+            ├ option 2:
+                global_nexus_control_tower: Yessir.
+                ↩ (goto) global_nexus_control_tower: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_control_tower ⟨cond⟩: Sorry! Smiling. Casual...
+            ↩ (goto) Hero: Let me know when you're done.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Keeping it quiet for now. You'll find out when the time is right.
+        global_nexus_control_tower: Or when I hack this scrambler for you, eh?
+        Hero: Can you prove who's been using it? Solid proof.
+        ↩ (goto) global_nexus_control_tower: You bet. You could hack through every security wall we have with this thing.
+    └─ merge ─┘
+├ option 2:
+    Hero: I'm about to ask something, and I need you to just smile and look casual.
+    global_nexus_control_tower: Smiling and looking casual. Check.
+    ↩ (goto) Hero: I found this thing... somewhere on station. I need to know what it does, exactly.
+└─ merge ─┘

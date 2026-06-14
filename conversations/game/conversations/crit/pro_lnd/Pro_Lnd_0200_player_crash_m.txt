@@ -1,0 +1,30 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0200_player_crash_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0200_player_crash_m.xml
+==================================================
+Hero: Ah, shit...
+Hero: {i}(Breathes hard.){/i}
+Hero: This is Ryder. Come in.
+Hero: Hyperion? SAM? Anyone there?
+global_squad_male_human: Save your breath, Ryder. SAM's offline. Comm link's trashed.
+global_squad_male_human: I'm surprised we aren't, too.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Did we really do that, or are we dead and don't know it?
+    global_squad_male_human: Well, we found hell. I can tell you that much.
+    Hero: Yeah. No way this is home.
+    global_squad_male_human: Looks like we gotta find some high ground. See if anyone else is alive. Come on.
+├ option 2:
+    Hero: Did the others make it?
+    global_squad_male_human: I don't know. It was all a blur. Shuttle split in two... this is like some nightmare.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Play Animatic
+├ option 2:
+    Hero: Play Dialog
+├ option 3:
+└─ merge ─┘
+Hero: {i}(Breathes hard.){/i}
+Hero: {i}(Breathes hard.){/i}

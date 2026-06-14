@@ -1,0 +1,66 @@
+# game/conversations/rel/suvi/suvi_r6_nex_culmination_m
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/rel/suvi/suvi_r6_nex_culmination_m.xml
+==================================================
+Narration: Ryder sees Suvi in the corner of the lab, hunched over her instruments, poking at a sample on a slide. She's completely engrossed.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer: {i}(Gasps.){/i}
+    Hero: {i}(Laughs.){/i}
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_science_officer ⟨cond⟩: Sara!
+        global_crew_science_officer: Oh, you gave me a fright!
+        global_crew_science_officer: I wasn't expecting you... I must've lost track of time.
+        global_crew_science_officer: I was just scanning Jardaan prototypes for an interactive model I'm building for the team.
+        global_crew_science_officer: Wait. Stand here and I'll show you.
+        global_crew_science_officer: It's not complete yet but...
+        Hero: Wow.
+        global_crew_science_officer: You're looking at the building blocks of life in Heleus.
+        global_crew_science_officer: This... this is what I came here to find. And I've only just started.
+        Hero: It's beautiful.
+        global_crew_science_officer: Sorry, did you say something?
+        Hero: I said, "It's beautiful."
+        global_crew_science_officer: You mean the display, right?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: The way your brain works. Your ability to make sense of the most complex concepts.
+            Hero: Your love of science. To be honest, I'm a little jealous.
+            global_crew_science_officer: You don't have to be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_science_officer ⟨cond⟩: I love that we can argue about things and still be okay.
+                global_crew_science_officer: Science is my calling and my passion, but you—you're my home.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_crew_science_officer: Locked the door. I know I said we should go out, but I want to stay here forever.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Forever's a long time. Nothing can do anything forever. This lab will be gone. We'll be gone.
+                        global_crew_science_officer: We won't be completely gone. There'll be my dust and your dust. Together.
+                    ├ option 2:
+                        Hero: I'd love nothing more than to stay here forever with you.
+                        global_crew_science_officer: I wish. The team might have something to say about that when they try to get in here.
+                        global_crew_science_officer: But I'll take this moment for as long as it lasts, because it's perfect.
+                        ↩ (goto) Narration: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Thank you.
+                    ↩ (goto) global_crew_science_officer: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_science_officer: We just click. On so many things. It feels right, and comfortable, and safe.
+                ↩ (goto) global_crew_science_officer: Science is my calling and my passion, but you—you're my home.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Your insatiable curiosity about the universe. Your faith.
+            ↩ (goto) Hero: Your love of science. To be honest, I'm a little jealous.
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_science_officer: It's you!
+        ↩ (goto) global_crew_science_officer: Oh, you gave me a fright!
+    └─ merge ─┘
+├ option 2:
+    Hero: What are you working on, Dr. Anwar?
+    ↩ (goto) global_crew_science_officer: I was just scanning Jardaan prototypes for an interactive model I'm building for the team.
+└─ merge ─┘

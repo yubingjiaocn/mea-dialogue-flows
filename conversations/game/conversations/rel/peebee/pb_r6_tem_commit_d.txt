@@ -1,0 +1,89 @@
+# game/conversations/rel/peebee/pb_r6_tem_commit_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/peebee/pb_r6_tem_commit_d.xml
+==================================================
+Hero: Hey, Peebee—
+global_squad_asari: Hold that thought.
+global_squad_asari: Sit tight. Uh, I'll be right back.
+global_squad_asari: [Audio Log] Hello—don't worry, I'm not springing anything terrible on you. Actually, you be the judge.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: [Audio Log] I'm just going to come out with it... I want you, Ryder. More than friends, more than lovers. I want strings. {i}All{/i} the strings.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: [Audio Log] You said you wanted that—before, I mean—but things can change.
+        global_squad_asari: [Audio Log] So, at the beep, just let me know: Do you want to be {i}with{/i} me, for real? Either way, join me in the meeting room, huh?
+        global_squad_asari: [Audio Log] Um... beeeeeeeeeeep.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari: So, uh, the reason I wanted to talk to you all—
+                global_squad_angara: Uh-oh, did you mutiny and jettison Ryder?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: Ah, no such luck. She just showed up.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Never thought I'd see Peebee having trouble getting a word in.
+                        global_squad_asari: Maybe I'm rubbing off on them.
+                        global_squad_asari: I just want to say: Whether you all know it or not, I've had one foot out the door since I got here. And, well, that's gonna stop.
+                        global_squad_asari: I'm proud and happy to be part of this team. This... family. That... that's really it.
+                        global_squad_female_human: Uh, okay.
+                        global_squad_krogan: About time you caught up, kid.
+                        global_squad_turian: Yeah, you're one of us, whether you like it or not.
+                        global_squad_asari: Well... great. So, uh, my place is an utter mess—who wants to help me clean it up?
+                        global_squad_krogan: Think I left the stove on.
+                        global_squad_male_human: I'm making ice.
+                        global_squad_angara: It's an angaran holiday.
+                        global_squad_female_human: Reports don't file themselves.
+                        global_squad_turian: Helping Liam make ice.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_asari ⟨cond⟩: But, but...
+                            Hero: Peebee, I want to be with you. Only you.
+                        ├ option 2:
+                            global_squad_asari: But, but...
+                            ↩ (goto) global_squad_asari: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: She did ambush me, but I survived.
+                        global_squad_asari: No harm, no foul? Heh.
+                        ↩ (goto) global_squad_asari: I just want to say: Whether you all know it or not, I've had one foot out the door since I got here. And, well, that's gonna stop.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_turian: Ah, no such luck. He just showed up.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: Never thought I'd see Peebee having trouble getting a word in.
+                    ├ option 2:
+                        ↩ (goto) Hero: She did ambush me, but I survived.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Peebee, let's... let's just be friends, okay?
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Welcome to the team, Peebee. Glad you've decided to stay.
+                ↩ (goto) Narration: [empty]
+            ├ option 2:
+                Hero: Fungus works both ways, Peebee. So, yeah, you're right—"ugh" pretty much sums it up.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari: [Audio Log] If you don't want the same thing, I know how uncomfortable it would be to say it to my face.
+        ↩ (goto) global_squad_asari: [Audio Log] So, at the beep, just let me know: Do you want to be {i}with{/i} me, for real? Either way, join me in the meeting room, huh?
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: [Audio Log] So, you and your team are like a fungus, you know? You look and smell funny, and you grow in the weirdest places.
+    global_squad_asari: [Audio Log] And somehow, you've found root in my—oh, it's so corny to say... in my heart. Ugh. {i}(Sighs.){/i}
+    global_squad_asari: [Audio Log] I'm recording this so when I get antsy—and believe me, I will—just sit my ass down and play it. A "shut-Peebee-up-free" card.
+    global_squad_asari: [Audio Log] Now, if there's anything you'd like to preserve for posterity, say it at the beep. Oh, and then join me in the meeting room?
+    ↩ (goto) global_squad_asari: [Audio Log] Um... beeeeeeeeeeep.
+└─ merge ─┘
+Hero ⟨cond⟩: Don't worry. She only hijacked my heart.
+global_squad_asari: Right, so... there's that.

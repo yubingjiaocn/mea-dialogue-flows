@@ -1,0 +1,51 @@
+# game/conversations/crit/intrld/intrld_0375_tram_ops_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld/intrld_0375_tram_ops_b.xml
+==================================================
+global_nexus_militia_leader: The tram can take us in now.
+global_nexus_militia_leader: Everything that could go wrong with our plan, has.
+global_nexus_militia_leader: We arrived fourteen months ago. Right away we hit a band of dark energy that knocked us off course.
+Hero: We're familiar with it.
+global_nexus_militia_leader: Then you'll know why we call it the "Scourge." We lost whole sections of the station. A lot of people died.
+global_nexus_militia_leader: No power, no food... the chaos went on for months.
+global_nexus_militia_leader: It finally led to armed rebellion. When order was restored, the insurgents were banished. "Exiles," we call them.
+global_squad_female_human: Are things back to normal?
+global_nexus_militia_leader: Not even close. But you're here now, so maybe the worst is over.
+global_squad_female_human: No word from the other Pathfinders?
+global_nexus_militia_leader: No word from anyone, period.
+global_squad_male_human: Any threats from the locals?
+global_nexus_militia_leader: So far, we've stayed hidden. We're in no shape to deal with an attack.
+Hero: We had a first contact situation on Habitat 7. Whole thing went south. They tried to kill us.
+global_nexus_militia_leader: That wasn't first contact—we know about them. Those aliens are going to be a real problem.
+global_squad_female_human: This day just keeps getting better.
+Hero: {i}(Sighs.){/i} Still looking for rock bottom.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_nexus_militia_leader [OncePerGame]: Ryder, we should get to the tram. A lot of people will want to see you.
+├ option 2:
+    global_squad_female_human [OncePerGame]: Let's go. We can't keep everyone waiting.
+└─ merge ─┘
+global_nexus_militia_leader: We're here.
+↩ (goto) global_nexus_militia_leader: We arrived fourteen months ago. Right away we hit a band of dark energy that knocked us off course.
+↩ (goto) Hero: We're familiar with it.
+↩ (goto) global_nexus_militia_leader: Then you'll know why we call it the "Scourge." We lost whole sections of the station. A lot of people died.
+↩ (goto) global_nexus_militia_leader: No power, no food... the chaos went on for months.
+↩ (goto) global_nexus_militia_leader: It finally led to armed rebellion. When order was restored, the insurgents were banished. "Exiles," we call them.
+↩ (goto) global_squad_female_human: Are things back to normal?
+↩ (goto) global_nexus_militia_leader: Not even close. But you're here now, so maybe the worst is over.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_nexus_militia_leader ⟨cond⟩: Not even close. But we have a Pathfinder now, so maybe the worst is over.
+├ option 2:
+    global_nexus_militia_leader: Not even close. But we have a Pathfinder now, so maybe the worst is over.
+    ↩ (goto) global_nexus_militia_leader: [empty]
+├ option 3:
+    global_squad_male_human: You guys go ahead. I'll check out the security situation.
+├ option 4:
+    Hero: Who is it?
+    global_nexus_militia_leader: You.
+├ option 5:
+    Hero: So you were saying?
+├ option 6:
+    global_nexus_militia_leader: We're survivors. We improvised. And now we have a Pathfinder. So maybe the worst is over.
+└─ merge ─┘

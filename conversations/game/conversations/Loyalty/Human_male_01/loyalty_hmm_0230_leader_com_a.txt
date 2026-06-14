@@ -1,0 +1,19 @@
+# Game/Conversations/Loyalty/Human_male_01/loyalty_hmm_0230_leader_com_a
+# Primary speaker: loyalty_hmm_pirate_leader
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0230_leader_com_a.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    loyalty_hmm_pirate_leader: [Comm] Hello?
+    loyalty_hmm_pirate_leader [OncePerGame]: [Comm] What's going on down there!
+    global_squad_male_human: Sounds like we could get some answers?
+├ option 2:
+    loyalty_hmm_pirate_leader: [Comm] Report!
+    ↩ (goto) loyalty_hmm_pirate_leader [OncePerGame]: [Comm] What's going on down there!
+├ option 3:
+    loyalty_hmm_pirate_leader: [Comm] Cargo bay?
+    ↩ (goto) loyalty_hmm_pirate_leader [OncePerGame]: [Comm] What's going on down there!
+├ option 4:
+    loyalty_hmm_pirate_leader: [Comm] Report!
+    ↩ (goto) loyalty_hmm_pirate_leader [OncePerGame]: [Comm] What's going on down there!
+└─ merge ─┘

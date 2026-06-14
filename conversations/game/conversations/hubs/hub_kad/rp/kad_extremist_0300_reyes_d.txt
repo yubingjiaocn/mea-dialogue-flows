@@ -1,0 +1,90 @@
+# game/conversations/hubs/hub_kad/rp/kad_extremist_0300_reyes_d
+# Primary speaker: kad_charlatan
+# Source: game/conversations/hubs/hub_kad/rp/kad_extremist_0300_reyes_d.xml
+==================================================
+kad_charlatan: Ryder—glad you're here. I'm sure you've heard about the murders.
+Hero: There's a fresh body outside Kralla's. Some of the locals say it's the Charlatan's handiwork.
+kad_charlatan: I don't buy it. The Charlatan is discreet, careful. Whoever did this wanted the bodies found.
+Hero: Making a statement.
+kad_charlatan: But to who?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The killer could be unhappy with how Sloane's running things.
+    kad_charlatan: Less than a third of the victims are Outcasts.
+    kad_charlatan: No, if I was a betting man—and I am—I'd say it was the Roekaar.
+    Hero: Why would Roekaar be in Kadara Port?
+    kad_charlatan: It's angaran-built and, before Sloane, angaran-run.
+    kad_charlatan: I think the Roekaar came here looking for new recruits, and things got out of hand.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: Akksul is gone. The Roekaar are no longer a threat.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            kad_charlatan ⟨cond⟩: His hate didn't die with him.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: And the angara victims? How do they fit into your theory?
+                kad_charlatan: I did some digging. All of the deceased angara were public Milky Way sympathizers.
+                Hero: So the victims either were from the Milky Way—
+                kad_charlatan: Or supported us. It's the only pattern I could find.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: Akksul is gone. The Roekaar are no longer a threat.
+                ├ option 2:
+                    Hero: An angaran port run by aliens would be a prime target for their cause.
+                    kad_charlatan: Problem is, I've got no proof, and the Resistance doesn't want to antagonize the Roekaar.
+                    Hero: Guessing that's where I come in.
+                    kad_charlatan: I need that fancy AI of yours to scan for evidence that could implicate the Roekaar.
+                    kad_charlatan: People are scared, Ryder. This is your opportunity to win friends in Kadara Port.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero: I sound pretty integral to this plan.
+                        kad_charlatan: SAM is integral. You're a bonus.
+                        Hero: Hey, I haven't agreed to help you yet.
+                        kad_charlatan: I feel good about my chances.
+                        kad_charlatan: One of the crime scenes isn't far. Give me a call when you get there.
+                    ├ option 2:
+                        Hero: Looks like I'm adding detective to my growing list of titles.
+                        kad_charlatan: Detectives find things. And you're—
+                        Hero: A Pathfinder. Yeah, I got it.
+                        ↩ (goto) kad_charlatan: One of the crime scenes isn't far. Give me a call when you get there.
+                    ├ option 3:
+                        Hero: I have enough problems without adding a Roekaar murder plot to the mix.
+                        kad_charlatan: You're the only person I trust to help me on this.
+                        kad_charlatan: Show the exiles there's at least one dependable person in the Initiative.
+                        Hero: I'll see what I can find out. No promises.
+                        ↩ (goto) kad_charlatan: One of the crime scenes isn't far. Give me a call when you get there.
+                    └─ merge ─┘
+                ├ option 3:
+                    Hero: Feels like a stretch.
+                    kad_charlatan: {i}(Sigh.){/i} The Resistance said the same. If only I had the proper equipment to get the proof I need...
+                    ↩ (goto) Hero: Guessing that's where I come in.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: An angaran port run by aliens would be a prime target for their cause.
+            ├ option 3:
+                ↩ (goto) Hero: An angaran port run by aliens would be a prime target for their cause.
+            └─ merge ─┘
+        ├ option 2:
+            kad_charlatan: There are still plenty of angara who hate outsiders.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: And the angara victims? How do they fit into your theory?
+            ├ option 2:
+                ↩ (goto) Hero: An angaran port run by aliens would be a prime target for their cause.
+            ├ option 3:
+                ↩ (goto) Hero: Feels like a stretch.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero [OncePerGame]: And the angara victims? How do they fit into your theory?
+    ├ option 3:
+        ↩ (goto) Hero: An angaran port run by aliens would be a prime target for their cause.
+    ├ option 4:
+        ↩ (goto) Hero: Feels like a stretch.
+    └─ merge ─┘
+├ option 2:
+    Hero: These deaths could just be a result of living in a pirate-run town.
+    kad_charlatan: The killings are too systematic.
+    ↩ (goto) kad_charlatan: No, if I was a betting man—and I am—I'd say it was the Roekaar.
+└─ merge ─┘

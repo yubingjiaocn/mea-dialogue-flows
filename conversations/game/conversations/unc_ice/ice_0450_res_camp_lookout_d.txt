@@ -1,0 +1,186 @@
+# game/conversations/unc_ice/ice_0450_res_camp_lookout_d
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_0450_res_camp_lookout_d.xml
+==================================================
+Narration [OncePerGame]: You click on the Lookouts and they turn and draw their guns on you.
+Hero: Whoa! Didn't mean to sneak up on you.
+Narration: Tseek and Beniska lower their weapons.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_beniska ⟨cond⟩: Squinting stars! It's the Pathfinder! We heard about how you punched the kett.
+        ice_beniska: Punched them right in the exaltations! So. Amazing.
+        ice_tseek: Shut up, Beniska. You're embarrassing.
+        ice_beniska: You shut up. I'm being charming. Right?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: The angara have been wonderful to us. Including yourself. So thank you.
+            ice_beniska: See? We're building bonds here, Tseek.
+            Hero: So, what's out there? Any tips?
+            ice_tseek: As a start, you could join our fight in Hjara, where those red lights are. I hear someone's looking for help.
+            ice_beniska: Or you could just go there and kill some kett. They're everywhere.
+            ice_tseek: Anything else you need to know? We've been stationed here forever, so we're experts.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero: What's that alien facility on that mountain over there?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ice_tseek [OncePerGame]: That's the kett command center. We have constant eyes on it.
+                    Hero: What's its purpose?
+                    ice_tseek: It controls kett operations on the entire planet. There's always ships coming and going.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ice_beniska [OncePerGame]: I came face-to-face with the Prefect there. Meanest, motherless vesaan I ever saw.
+                        ice_tseek: Even the kett seemed afraid. We don't have much intel on her, though.
+                        ↩ (goto) Hero: [empty]
+                    ├ option 2:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) ice_tseek: It controls kett operations on the entire planet. There's always ships coming and going.
+                └─ merge ─┘
+            ├ option 2:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Those red lights. You said that's Hjara?
+                    ice_tseek: Yes. Hjara Station, one of the daara in the valley. It's a small community, mostly scientists.
+                    ice_tseek: There's people there that might need help, if you haven't checked it out already.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ┌─ BRANCH (5) ─┐
+                        ├ option 1:
+                            global_squad_female_human ⟨cond⟩: How do they live out there?
+                            ice_tseek: Why so surprised? We've adapted to this weather.
+                            Hero: Those lights are conspicuous. Don't the kett attack?
+                            ice_beniska: We've adapted to that, too.
+                            ice_beniska: The kett want to take us alive, so we fight to the death. It seems to deter them.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                Hero: I'll let you get back to your work.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ice_beniska: Take care. Stay safe.
+                                    ice_tseek ⟨cond⟩ [OncePerGame]: You be safe too, Jaal Ama Darav. Has your sister recovered from her mission? She was brave.
+                                    ice_beniska: So brave.
+                                    global_squad_angara: She is. Both recovered and brave. Thank you for asking.
+                                ├ option 2:
+                                    ice_tseek: Yeah. You behave. We're watching you.
+                                └─ merge ─┘
+                            ├ option 2:
+                                Hero: Do you know of any Remnant sites or ruins?
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ice_tseek [OncePerGame]: Uh, I think so? Actually, I don't know.
+                                    ice_beniska: Tseek, do you ever read the dailies?
+                                    ice_tseek: No, you'll tell me if I need to know something.
+                                    Hero: So, where is it?
+                                    ice_beniska: Tall lights. Over on your right somewhere.
+                                    ↩ (goto) Hero: [empty]
+                                ├ option 2:
+                                    ice_beniska: Like we said, tall lights. Over on your right.
+                                    ↩ (goto) Hero: [empty]
+                                └─ merge ─┘
+                            ├ option 3:
+                                ↩ (goto) Hero: [empty]
+                            ├ option 4:
+                                ↩ (goto) Hero: What's that alien facility on that mountain over there?
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_squad_asari ⟨cond⟩: How do people manage to live down there?
+                            ↩ (goto) ice_tseek: Why so surprised? We've adapted to this weather.
+                        ├ option 3:
+                            global_squad_turian ⟨cond⟩: Is it difficult to live out here?
+                            ↩ (goto) ice_tseek: Why so surprised? We've adapted to this weather.
+                        ├ option 4:
+                            global_squad_male_human ⟨cond⟩: Why does anyone live out here?
+                            ↩ (goto) ice_tseek: Why so surprised? We've adapted to this weather.
+                        ├ option 5:
+                            Hero: How does anyone live out here?
+                            ↩ (goto) ice_tseek: Why so surprised? We've adapted to this weather.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: What are those red lights down there?
+                    ice_tseek: That's Hjara, just one of the daara in the valley.
+                    ↩ (goto) ice_tseek: There's people there that might need help, if you haven't checked it out already.
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) Hero: Do you know of any Remnant sites or ruins?
+            ├ option 4:
+                ↩ (goto) Hero: I'll let you get back to your work.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'll wait over here while you two sort this out.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ice_tseek ⟨cond⟩: You see, Beniska? The Pathfinder agrees with me.
+                ice_beniska: Yes, yes. Sure.
+                ↩ (goto) Hero: So, what's out there? Any tips?
+            ├ option 2:
+                ice_tseek: You see, Beniska? The Pathfinder agrees with me.
+                ↩ (goto) ice_beniska: Yes, yes. Sure.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ice_beniska: Squinting stars! It's the Pathfinder! We heard about how you punched the kett.
+        ↩ (goto) ice_beniska: Punched them right in the exaltations! So. Amazing.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_beniska ⟨cond⟩: It's the alien! The one that helped out on Havarl.
+        ice_beniska: Didn't expect an alien to help. They've mostly tried to kill and enslave us. So that's amazing. You're amazing.
+        ↩ (goto) ice_tseek: Shut up, Beniska. You're embarrassing.
+    ├ option 2:
+        ice_beniska: It's the alien! The one that helped out on Havarl.
+        ice_beniska: Didn't expect an alien to help. They've mostly tried to kill and enslave us. So that's amazing. You're amazing.
+        ↩ (goto) ice_tseek: Shut up, Beniska. You're embarrassing.
+    └─ merge ─┘
+├ option 3:
+    Hero: Your commander said you could show us the valley.
+    ice_beniska: Tseek, I don't want to talk to it. You talk to it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara: Ryder has a name.
+        ice_beniska: You named it? How do you even tell them apart?
+        ice_tseek: Stars, Beniska. Just stop talking.
+        ice_tseek: Yeah, we can show you the valley. What are you looking for?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I want to prove I'm here as an ally. That means fighting kett.
+            ice_tseek: Head in any direction and you'll hit kett, eventually. They're all over Voeld.
+            ice_beniska: Like qurts. But with guns.
+            ice_tseek: We've heard reports about captured angara in a kett labor camp down in the valley.
+            ice_tseek: If you're here to help—like the commander says—you could start there.
+            ice_tseek: Anything else?
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: I'm here to help your people. Know anyone who needs it?
+            ice_tseek: We've got reports from Hjara about someone trying to rescue a kidnapped family. See those red lights? That's it.
+            ↩ (goto) ice_tseek: If you're here to help—like the commander says—you could start there.
+        └─ merge ─┘
+    ├ option 2:
+        ice_tseek: Stop it, Beniska. The commander sent word. We knew they were coming.
+        ↩ (goto) ice_tseek: Yeah, we can show you the valley. What are you looking for?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_beniska ⟨cond⟩: Look, Ryder's back!
+        ice_beniska: What do you need?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        ice_beniska: Look, Ryder's back!
+        ↩ (goto) ice_beniska: What do you need?
+    └─ merge ─┘
+├ option 2:
+    ice_tseek: Yes? Need more information?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+↩ (goto) Hero: [empty]
+ice_tseek: It is. Be careful if you head that way.

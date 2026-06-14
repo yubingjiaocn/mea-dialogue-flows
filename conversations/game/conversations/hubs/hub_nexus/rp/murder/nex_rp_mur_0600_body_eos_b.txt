@@ -1,0 +1,60 @@
+# game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0600_body_eos_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0600_body_eos_b.xml
+==================================================
+Hero: This is where Chief Reynolds died.
+SAM: Sandstorms would have buried the body long ago. I suggest scanning.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Kaerkyns.
+    SAM: Pathfinder, there is an armor piece buried deep—a leg bracer. Scan indicates tissue and bone fragments clinging to it.
+    SAM: DNA identified as Chief Reynolds. Indications suggest his body was torn to pieces.
+    Hero: So the Chief became kaerkyn food.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We all feed the world eventually.
+        SAM: The remaining armor will be scattered, or perhaps brought to a nest. The chest piece and his omni-tool may explain his death.
+        Hero: Then we keep searching and scanning.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Kaerkyns gotta eat.
+        ↩ (goto) SAM: The remaining armor will be scattered, or perhaps brought to a nest. The chest piece and his omni-tool may explain his death.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Circle of life can be gruesome.
+        ↩ (goto) SAM: The remaining armor will be scattered, or perhaps brought to a nest. The chest piece and his omni-tool may explain his death.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Circle of life can be gruesome.
+        ↩ (goto) SAM: The remaining armor will be scattered, or perhaps brought to a nest. The chest piece and his omni-tool may explain his death.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Oh man.
+        ↩ (goto) SAM: The remaining armor will be scattered, or perhaps brought to a nest. The chest piece and his omni-tool may explain his death.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Pretty gruesome.
+        ↩ (goto) SAM: The remaining armor will be scattered, or perhaps brought to a nest. The chest piece and his omni-tool may explain his death.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Yuck. Hate those things.
+    ↩ (goto) SAM: Pathfinder, there is an armor piece buried deep—a leg bracer. Scan indicates tissue and bone fragments clinging to it.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Creepy crawlers.
+    ↩ (goto) SAM: Pathfinder, there is an armor piece buried deep—a leg bracer. Scan indicates tissue and bone fragments clinging to it.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Foul creatures.
+    ↩ (goto) SAM: Pathfinder, there is an armor piece buried deep—a leg bracer. Scan indicates tissue and bone fragments clinging to it.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Well, hello bugs.
+    ↩ (goto) SAM: Pathfinder, there is an armor piece buried deep—a leg bracer. Scan indicates tissue and bone fragments clinging to it.
+├ option 6:
+    global_squad_krogan ⟨cond⟩: You roused some bugs.
+    ↩ (goto) SAM: Pathfinder, there is an armor piece buried deep—a leg bracer. Scan indicates tissue and bone fragments clinging to it.
+└─ merge ─┘
+SAM: Another armor piece. Chief Reynolds' helmet.
+Hero: The search continues.
+SAM: Pathfinder, the scan has picked up Chief Reynolds' chest piece.
+SAM: Confirming single shot. Unable to determine weapon type, but entry point was at the back. Exit blast through the chest.
+Hero: By all accounts, Nilken was in front of the Chief when he fired. So it wasn't his shot that killed him.
+SAM: The Chief's omni-tool might shed some light.
+SAM: Picking up additional armor scraps. I believe it's a trail leading to a cave nearby.
+Hero: Could be where the nest is located.
+Hero: It's a kaerkyn nest, all right. Fan out.
+SAM: Confirming Initiative equipment, including omni-tool assigned to Security Chief Hiram Reynolds.
+SAM: If you power it up, I can exhume its data.

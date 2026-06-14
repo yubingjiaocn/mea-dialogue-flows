@@ -1,0 +1,155 @@
+# game/conversations/crit/m4/m4_0275_battery_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0275_battery_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Look at that...
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Are those guns out there?
+        SAM: Confirmed. The offensive armaments of a highly capable warship.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: All pointed at the salarian ark.
+            Hero: That's going to be a problem.
+            SAM: Your route continues on the far side of the room.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: And they're all pointed at the salarian ark.
+            ↩ (goto) Hero: That's going to be a problem.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: All of them pointed at the salarian ark.
+            ↩ (goto) Hero: That's going to be a problem.
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: And they're all pointed at the salarian ark.
+            ↩ (goto) Hero: That's going to be a problem.
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩: All pointed at the salarian ark.
+            ↩ (goto) Hero: That's going to be a problem.
+        ├ option 6:
+            global_squad_angara ⟨cond⟩: And they're all pointed at the salarian ark.
+            ↩ (goto) Hero: That's going to be a problem.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Those look like guns out there.
+        ↩ (goto) SAM: Confirmed. The offensive armaments of a highly capable warship.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Are those guns out there?
+        ↩ (goto) SAM: Confirmed. The offensive armaments of a highly capable warship.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Are those guns out there?
+        ↩ (goto) SAM: Confirmed. The offensive armaments of a highly capable warship.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Are those guns out there?
+        ↩ (goto) SAM: Confirmed. The offensive armaments of a highly capable warship.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Those are guns out there.
+        ↩ (goto) SAM: Confirmed. The offensive armaments of a highly capable warship.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Will you look at that...
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Look at that...
+    ↩ (goto) global_squad_angara: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: Take a look at that...
+    ↩ (goto) global_squad_angara: [empty]
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Look at that...
+    ↩ (goto) global_squad_angara: [empty]
+├ option 6:
+    global_squad_angara ⟨cond⟩: Look at that...
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: If those guns go off, this whole mission is in a world of hurt. The relic will be the least of our worries.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: The second those guns off, this whole mission is a zero. The relic won't matter.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Well, those guns won't miss. Then you can scratch us, the mission, the relic... everything.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: One shot from those guns and everything goes up in smoke. The relic, this mission, and a lot of salarians.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: If those guns go off, you can forget about finding your relic. You can forget about everything.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: The Archon is merciless. He'll fire those guns just to deny us our escape. The relic will be lost.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: At least it's quiet.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: At least it's quiet here.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: At least it's quiet here.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: At least it's quiet here.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: At least it's quiet here.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: At least it's quiet here.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: It's hard to see how we could find common ground with the kett. They either exalt you or kill you. Nothing in between.
+        Hero: Well, this room looks like it's all about the killing.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: The moment I saw the kett, I knew they were trouble. Nothing has changed. They either kill you or enslave you.
+        ↩ (goto) Hero: Well, this room looks like it's all about the killing.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: This ship's about one thing. Making everyone else's life miserable. The kett either enslave you or kill you. Nothing else.
+        ↩ (goto) Hero: Well, this room looks like it's all about the killing.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: We come so far and all these guys care about is killing us or exalting us. I want to file a complaint.
+        ↩ (goto) Hero: Well, this room looks like it's all about the killing.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: The kett sure don't mess around. They're out to get everyone. And if you can't stop 'em, you die or wind up exalted.
+        Hero: Well, this room looks like it handles the dying part.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: This ship is exactly as I imagined: a vessel whose sole purpose is death.
+        Hero: I'm sure exaltation figures in.
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We should leave before they find us.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: We should get a move on before they find us.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: I say we get out of the creepy giant gun room before they find us.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Let's get out of here before our luck dries up.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Ryder, we should get moving before they find us.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Won't be long before they track us down in here.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Shit... the door just locked.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: I doubt that's an accident.
+    Hero: Look sharp.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: No way that's an accident.
+    ↩ (goto) Hero: Look sharp.
+├ option 3:
+    global_squad_asari ⟨cond⟩: That can't be an accident.
+    ↩ (goto) Hero: Look sharp.
+├ option 4:
+    global_squad_turian ⟨cond⟩: I doubt that's an accident.
+    ↩ (goto) Hero: Look sharp.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: That can't be an accident.
+    ↩ (goto) Hero: Look sharp.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: That can't be an accident.
+    ↩ (goto) Hero: Look sharp.
+└─ merge ─┘
+SAM: TEMP: UNHOOK THIS JOS.
+global_squad_male_human ⟨cond⟩: The moment we saw the kett on Habitat 7 I knew they were trouble. Nothing has changed since. They either murder you or enslave you.

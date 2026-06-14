@@ -1,0 +1,126 @@
+# Game/Conversations/Loyalty/Loy_Tur/loy_tur_0230_settler_i
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0230_settler_i.xml
+==================================================
+loy_tur_settlerleader [OncePerGame]: Vetra seems really agitated. It's making me doubt what really happened.
+loy_tur_settlerleader: I hope this all gets sorted out soon.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Tell me more about Meriweather.
+    loy_tur_settlerleader: She used to be some kind of military surveyor. Now she's a gang leader and smuggler.
+    loy_tur_settlerleader: Working for her was all right at first. Then she started doing things we didn't agree with.
+    loy_tur_settlerleader: But you don't just quit working for Meriweather. We needed someone to help hide us.
+    loy_tur_settlerleader: Now Meriweather's convinced we're scheming against her, or something.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Tell me more about Meriweather.
+    ├ option 2:
+        Hero: There was some mention of you being a Nexus exile?
+        loy_tur_settlerleader: Yeah. I'm not proud of it. When we first got here, things were bad. Real bad.
+        loy_tur_settlerleader: It was all too easy to start scapegoating the Initiative. When the revolt happened, I joined.
+        loy_tur_settlerleader: But things aren't better on Kadara—or out there on your own.
+        loy_tur_settlerleader: Thanks to Vetra, I got a second chance to do things right.
+        global_squad_turian: I wish I knew what he was talking about.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Tell me more about Meriweather.
+        ├ option 2:
+            ↩ (goto) Hero: There was some mention of you being a Nexus exile?
+        ├ option 3:
+            Hero: You said Vetra helped you. How exactly?
+            loy_tur_settlerleader: Some of us were trying to get off Kadara. She must've heard about it through contacts.
+            loy_tur_settlerleader: She reached out to us. Made up assignments at the outposts. That got us free.
+            loy_tur_settlerleader: We didn't meet her in person. Only over comms. Maybe it was never really her?
+            global_squad_turian: You think?
+            loy_tur_settlerleader: Anyway, we thought Meriweather would let us go. We were wrong.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: Tell me more about Meriweather.
+            ├ option 2:
+                ↩ (goto) Hero: There was some mention of you being a Nexus exile?
+            ├ option 3:
+                ↩ (goto) Hero: You said Vetra helped you. How exactly?
+            ├ option 4:
+                Hero: Do you know what Meriweather plans to do with us?
+                loy_tur_settlerleader: We were always bait for Vetra. Now that Vetra's here, Meriweather has no use for us.
+                loy_tur_settlerleader: And for Vetra? Most likely revenge. Meriweather doesn't care for people who meddle in her business.
+                loy_tur_settlerleader: Nothing good in store for anyone, I'm certain.
+                ┌─ BRANCH (6) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: Tell me more about Meriweather.
+                ├ option 2:
+                    ↩ (goto) Hero: There was some mention of you being a Nexus exile?
+                ├ option 3:
+                    ↩ (goto) Hero: You said Vetra helped you. How exactly?
+                ├ option 4:
+                    ↩ (goto) Hero: Do you know what Meriweather plans to do with us?
+                ├ option 5:
+                    Hero: How did Meriweather get a base on this planet?
+                    loy_tur_settlerleader: She made friends on Kadara. Some angarans who told her about this place.
+                    loy_tur_settlerleader: It was a mine or something. Got damaged and abandoned.
+                    loy_tur_settlerleader: It was perfect for Meriweather. She wanted to strike out on her own, away from Sloane.
+                    loy_tur_settlerleader: We put a lot of work into this place. Carved out a niche doing things even Sloane won't touch.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: Tell me more about Meriweather.
+                    ├ option 2:
+                        ↩ (goto) Hero: There was some mention of you being a Nexus exile?
+                    ├ option 3:
+                        ↩ (goto) Hero: You said Vetra helped you. How exactly?
+                    ├ option 4:
+                        ↩ (goto) Hero: Do you know what Meriweather plans to do with us?
+                    ├ option 5:
+                        ↩ (goto) Hero: How did Meriweather get a base on this planet?
+                    ├ option 6:
+                        Hero: There'll be time to talk later.
+                    └─ merge ─┘
+                ├ option 6:
+                    ↩ (goto) Hero: There'll be time to talk later.
+                └─ merge ─┘
+            ├ option 5:
+                ↩ (goto) Hero: How did Meriweather get a base on this planet?
+            ├ option 6:
+                ↩ (goto) Hero: There'll be time to talk later.
+            └─ merge ─┘
+        ├ option 4:
+            ↩ (goto) Hero: Do you know what Meriweather plans to do with us?
+        ├ option 5:
+            ↩ (goto) Hero: How did Meriweather get a base on this planet?
+        ├ option 6:
+            ↩ (goto) Hero: There'll be time to talk later.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero: You said Vetra helped you. How exactly?
+    ├ option 4:
+        ↩ (goto) Hero: Do you know what Meriweather plans to do with us?
+    ├ option 5:
+        ↩ (goto) Hero: How did Meriweather get a base on this planet?
+    ├ option 6:
+        ↩ (goto) Hero: There'll be time to talk later.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: There was some mention of you being a Nexus exile?
+├ option 3:
+    ↩ (goto) Hero: You said Vetra helped you. How exactly?
+├ option 4:
+    ↩ (goto) Hero: Do you know what Meriweather plans to do with us?
+├ option 5:
+    ↩ (goto) Hero: How did Meriweather get a base on this planet?
+├ option 6:
+    ↩ (goto) Hero: There'll be time to talk later.
+└─ merge ─┘
+loy_tur_settlerleader: Yes?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    ↩ (goto) Hero: Tell me more about Meriweather.
+├ option 2:
+    ↩ (goto) Hero: There was some mention of you being a Nexus exile?
+├ option 3:
+    ↩ (goto) Hero: You said Vetra helped you. How exactly?
+├ option 4:
+    ↩ (goto) Hero: Do you know what Meriweather plans to do with us?
+├ option 5:
+    ↩ (goto) Hero: How did Meriweather get a base on this planet?
+├ option 6:
+    ↩ (goto) Hero: There'll be time to talk later.
+└─ merge ─┘

@@ -1,0 +1,75 @@
+# game/conversations/unc/olw/res_recruit/olw_resrecruit_saboteur_i
+# Primary speaker: olw_ang_saboteur
+# Source: game/conversations/unc/olw/res_recruit/olw_resrecruit_saboteur_i.xml
+==================================================
+olw_ang_saboteur [OncePerGame]: Well, you definitely don't look like an outlaw. Good thing I disarmed the traps.
+olw_ang_saboteur: Sorry about that. I'm used to your kind giving me trouble.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: What's my kind doing?
+    olw_ang_saboteur: The usual. Trying to rob me. Messing with the Remnant. Shooting at my people.
+    olw_ang_saboteur: Not all of them, of course. But enough to make me shoot first.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: What are you doing out here?
+        olw_ang_saboteur: Keeping my people safe. Between the kett and the outlaws, we've been pushed out of our homes.
+        olw_ang_saboteur: Some decided to dig their heels in and weather the attacks.
+        olw_ang_saboteur: I'm making sure they survive.
+        ↩ (goto) olw_ang_saboteur: [empty]
+    ├ option 2:
+        Hero: You said you had traps around here?
+        olw_ang_saboteur: Corrosive traps. Made them with the gas from the vents.
+        Hero: That's smart.
+        olw_ang_saboteur: You have to get creative out here. I learned sabotage when shooting stopped working.
+        olw_ang_saboteur: I can disable vehicles, take down shields—anything that gives us an edge over attackers.
+        ↩ (goto) olw_ang_saboteur: [empty]
+    ├ option 3:
+        Hero ⟨cond⟩: The Resistance could use someone with skills like yours.
+        olw_ang_saboteur: We have enough to deal with here. I'm not leaving my people.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: If we don't take the fight to the kett, your people will never be safe.
+            olw_ang_saboteur: And what would you know about it?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: The Pathfinder and I have seen what the kett can do. In time, they'll come for Kadara. For you.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: If you join, you can make a better world for your people.
+                    global_squad_angara: Not just on Kadara. Everywhere.
+                    olw_ang_saboteur: When you put it that way... I guess I don't have much of a choice.
+                    Hero: At least go to Voeld and talk to them.
+                    olw_ang_saboteur: Fine. I'll go check it out. No promises.
+                    ↩ (goto) olw_ang_saboteur: [empty]
+                ├ option 2:
+                    Hero: Aren't you sick of playing defense? This is your shot at throwing the first punch.
+                    olw_ang_saboteur: Suppose that's an idea I can get behind.
+                    ↩ (goto) Hero: At least go to Voeld and talk to them.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_angara: The Pathfinder and I have seen what the kett can do. In time, they'll come for Kadara. For you.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: If you join, you can make a better world for your people.
+                ├ option 2:
+                    ↩ (goto) Hero: Aren't you sick of playing defense? This is your shot at throwing the first punch.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            olw_ang_saboteur ⟨cond⟩: Besides, what does a human know about the Resistance?
+            ↩ (goto) olw_ang_saboteur: [empty]
+        ├ option 3:
+            olw_ang_saboteur: Besides, what does a human know about the Resistance?
+            ↩ (goto) olw_ang_saboteur: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        Hero: Stay safe out here.
+        olw_ang_saboteur: No problem there.
+    └─ merge ─┘
+├ option 2:
+    Hero: You've only seen the worst of us. We have some good ones.
+    olw_ang_saboteur: Well, you haven't shot at me yet. That's a start.
+    ↩ (goto) olw_ang_saboteur: [empty]
+└─ merge ─┘
+olw_ang_saboteur: Yeah?
+↩ (goto) olw_ang_saboteur: [empty]

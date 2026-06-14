@@ -1,0 +1,90 @@
+# game/conversations/unc_dunes/dune_0231_krg_vorn_i
+# Primary speaker: global_krogan_botanist
+# Source: game/conversations/unc_dunes/dune_0231_krg_vorn_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_krogan_botanist [OncePerGame]: I don't think I properly thanked you for the rescue back there.
+    global_krogan_botanist: So... thank you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Have you used those gas pods yet?
+        global_krogan_botanist: Running more tests as we speak. I think I can repurpose a small amount as a defensive measure against scavengers.
+        global_krogan_botanist: Although I think that might upset some of the locals. They like a fight once in a while.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            Hero: What are you working on in here?
+            global_krogan_botanist: Mostly developing hardier strains of Milky Way plants, so they can survive here.
+            global_krogan_botanist: Mixed results so far. Fruit-bearing plants seem to do the worst, unfortunately.
+            global_krogan_botanist: At least with the vault online, my job is a little easier.
+            ↩ (goto) global_krogan_botanist: [empty]
+        ├ option 2:
+            Hero: So... you and Kesh...
+            global_krogan_botanist: Yeah... We actually knew each other before we came to Heleus.
+            global_krogan_botanist: But it wasn't 'til we worked together on the Nexus that we really got close.
+            global_krogan_botanist: She's... I really care about her, Ryder. Drack doesn't hate me, does he?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: I'm right here. And no, I don't.
+                global_krogan_botanist: Actually... I have a favor to ask you, Ryder.
+                ↩ (goto) global_krogan_botanist: [empty]
+            ├ option 2:
+                Hero: He's fine. Can't ask for a better match for his granddaughter.
+                global_krogan_botanist: You think so? {i}(Laughs.){/i} Put in a good word for me, will you?
+                ↩ (goto) global_krogan_botanist: Actually... I have a favor to ask you, Ryder.
+            └─ merge ─┘
+        ├ option 3:
+            Hero ⟨cond⟩: I hear congratulations are in order. You're going to be a dad.
+            global_krogan_botanist: {i}(Nervous laugh.){/i} I don't know what you're talking about!
+            Hero: You don't need to pretend with me. Drack showed me the eggs.
+            global_krogan_botanist: Don't tell people. We're keeping it quiet for now. But... thanks.
+            global_krogan_botanist: I hope I'll be a good father. What if I screw them up? {i}(Sighs.){/i} I'm going to screw them up.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: You'll do great. All you do is love 'em.
+                global_krogan_botanist: No problem there.
+                ↩ (goto) global_krogan_botanist: [empty]
+            ├ option 2:
+                ↩ (goto) global_krogan_botanist: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            Hero ⟨cond⟩: What kind of favor?
+            global_krogan_botanist: Well, I, ah... developed a certain kind of... flowering plant. And I might've named it after Kesh.
+            global_krogan_botanist: I was thinking... the next time you're on the Nexus, maybe you could give it to her, from me.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_krogan: {i}(Sighs.){/i} Seriously?
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: You're adorable, Vorn. Hand it over.
+                    global_krogan_botanist: And... tell her this flower couldn't grow on Tuchanka, but has a new life here. Just like us.
+                    ↩ (goto) global_krogan_botanist: [empty]
+                ├ option 2:
+                    Hero: Consider me your wingman.
+                    ↩ (goto) global_krogan_botanist: And... tell her this flower couldn't grow on Tuchanka, but has a new life here. Just like us.
+                ├ option 3:
+                    Hero: I don't know much about krogan, but I don't think she'd be charmed by a flower.
+                    global_krogan_botanist: Yeah... maybe you're right. Dumb idea.
+                    ↩ (goto) global_krogan_botanist: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) global_krogan_botanist: [empty]
+            └─ merge ─┘
+        ├ option 5:
+            Hero: See you around, Vorn.
+            global_krogan_botanist: Come back soon.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Helping out the colony was good enough for me.
+        global_krogan_botanist: Drack threw his lot in with the right person, then.
+        ↩ (goto) global_krogan_botanist: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_krogan_botanist ⟨cond⟩ [OncePerGame]: You gave Kesh the flower? Did she like it?
+    Hero: Well... she said "flowers are a waste of resources and unnecessary for krogan survival."
+    global_krogan_botanist: {i}(Laughs.){/i} She liked it.
+    ↩ (goto) global_krogan_botanist: [empty]
+├ option 3:
+    global_krogan_botanist: Need something, Ryder?
+    ↩ (goto) global_krogan_botanist: [empty]
+└─ merge ─┘

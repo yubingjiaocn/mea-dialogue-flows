@@ -1,0 +1,106 @@
+# Game/Conversations/Crit/M4/m4_0600_rescue_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0600_rescue_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_salarian_pathfinder_multi: Pathfinder, you came!
+    Hero: Raeka... we couldn't just leave you here.
+    global_salarian_pathfinder_multi: Thank you. My people are at the end of the tunnel. It's kett the whole way.
+    Hero: Then we push ahead and don't stop for anything.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Including krogan?
+        Hero: Drack...
+        global_squad_krogan: Don't worry. I'll shoot whatever needs shooting.
+        Hero: Let's go.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: No argument here. I'd say we've worn out our welcome.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: Run and gun. Works for me.
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: Sooner we get out of here, the better.
+        ├ option 5:
+            global_squad_asari ⟨cond⟩: I'm in.
+        ├ option 6:
+            global_squad_angara ⟨cond⟩: The faster, the better.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: Let's go.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        crit_kett_krogan_scout: Drack?
+        global_squad_krogan: Birtak, what are you doing here?
+        crit_kett_krogan_scout: I got loose when the power went out. Our scouts are at the end of the corridor. With a lot of kett in the way.
+        Hero: Then we push ahead and don't stop for anything. Let's go.
+        ┌─ BRANCH (7) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_angara: [empty]
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Got your back. Let's do it!
+        ├ option 3:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: No argument here. I'd say we've worn out our welcome.
+        ├ option 4:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Run and gun. Works for me.
+        ├ option 5:
+            ↩ (goto) global_squad_turian ⟨cond⟩: Sooner we get out of here, the better.
+        ├ option 6:
+            ↩ (goto) global_squad_asari ⟨cond⟩: I'm in.
+        ├ option 7:
+            ↩ (goto) global_squad_angara ⟨cond⟩: The faster, the better.
+        └─ merge ─┘
+    ├ option 2:
+        crit_kett_krogan_scout: Who are you?
+        Hero: Pathfinder Ryder. We're here to rescue the prisoners. Who are you?
+        crit_kett_krogan_scout: Birtak. A scout for Nakmor Drack. I got loose when the power went out, but I can't do this alone.
+        crit_kett_krogan_scout: My people are being held at the end of the corridor. With a lot of kett in the way.
+        ↩ (goto) Hero: Then we push ahead and don't stop for anything. Let's go.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Let's get them out of there.
+        crit_kett_krogan_scout ⟨cond⟩: The terminal next to the door.
+    ├ option 2:
+        Hero: Let's get them out of there.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) crit_kett_krogan_scout ⟨cond⟩: The terminal next to the door.
+        ├ option 2:
+            global_salarian_pathfinder_multi: There's a terminal near the door.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Let's get them out of there.
+    ├ option 2:
+        ↩ (goto) crit_kett_krogan_scout ⟨cond⟩: The terminal next to the door.
+    ├ option 3:
+        ↩ (goto) global_salarian_pathfinder_multi: There's a terminal near the door.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Look at them—treated like animals.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Look at them—treated like animals.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Look at them—treated like animals.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Look at them—treated like animals.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Look at them—treated like animals.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_kett_krogan_scout ⟨cond⟩: What are you waiting for? Let's get on with it!
+├ option 2:
+    global_salarian_pathfinder_multi: Ryder, hurry! We don't have much time!
+└─ merge ─┘

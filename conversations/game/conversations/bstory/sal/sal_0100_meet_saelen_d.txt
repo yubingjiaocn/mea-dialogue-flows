@@ -1,0 +1,76 @@
+# game/conversations/bstory/sal/sal_0100_meet_saelen_d
+# Primary speaker: global_salarian_major
+# Source: game/conversations/bstory/sal/sal_0100_meet_saelen_d.xml
+==================================================
+Hero: From their gear, they were hoping to capture someone...
+global_salarian_major: Probably me. Sorry about that.
+Narration: Saelen Varn makes his entrance.
+global_salarian_major: Though, if you'd broken a sweat, I'd be sorrier.
+Hero: You sent us the message about the salarian ark?
+global_salarian_major: Yes. Major Saelen Varn, STG. Retired, of course.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: What's STG?
+    global_salarian_major: Special Tasks Group. Back home, we were field agents who gathered intelligence and handled... inconveniences.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Just say "assassinated people."
+        global_salarian_major: If you prefer. As I said, these days I stick with "retiree."
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: A lot of people came to Andromeda for a fresh start.
+            global_salarian_major: I'm sure I'll enjoy mine when I find it.
+            global_salarian_major: Let's be frank. There are too many inconsistencies aboard our ark. They only make sense if someone betrayed us to the kett.
+            global_salarian_major: My best suspect is a biologist. Dr. Aden. But the evidence is thin.
+            global_salarian_major: I need a Pathfinder to verify what I've found, or I risk arresting an innocent man.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Couldn't Raeka help you solve this?
+                global_salarian_major: I trust Raeka implicitly, but I can't say the same for her team.
+                global_salarian_major: You're obviously trustworthy. If you were involved, you wouldn't have saved our ark in the first place.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero ⟨cond⟩: Couldn't Hayjer help you with this?
+                global_salarian_major: Hayjer's too green to be corrupt, but his team's another story.
+                ↩ (goto) global_salarian_major: You're obviously trustworthy. If you were involved, you wouldn't have saved our ark in the first place.
+            ├ option 3:
+                Hero: Who's Aden? Why would he betray his ark?
+                global_salarian_major: An ex-military biologist from the early wake-up team on our ark. He claims to be studying the kett.
+                global_salarian_major: As for why... I intend to ask him.
+                ↩ (goto) Hero: [empty]
+            ├ option 4:
+                Hero: All right, I'm in. How do we catch your traitor?
+                global_salarian_major: I only have two leads left: Dr. Aden's equipment and a kett who might be his handler. I need you and your SAM to analyze them.
+                global_salarian_major: If we show Dr. Aden's in regular contact with the kett, that would prove he's the one.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: What if the evidence doesn't implicate Aden?
+                    global_salarian_major: If I'm really that rusty? I suppose I'd have to start over from scratch.
+                    global_salarian_major: Remember: Dr. Aden's equipment and his kett contact. This has to be watertight. Good luck.
+                    Narration: Saelen leaves.
+                ├ option 2:
+                    Hero: What's the standard punishment for kett collaborators?
+                    global_salarian_major: Most people would settle for an angry mob, but I like to think justice made the trip out here.
+                    ↩ (goto) global_salarian_major: Remember: Dr. Aden's equipment and his kett contact. This has to be watertight. Good luck.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Espionage is a job that follows you home—or across galaxies.
+            global_salarian_major: Until there's nothing for it but to grow a conscience.
+            ↩ (goto) global_salarian_major: Let's be frank. There are too many inconsistencies aboard our ark. They only make sense if someone betrayed us to the kett.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: The Salarian Union's "fixers."
+        ↩ (goto) global_salarian_major: If you prefer. As I said, these days I stick with "retiree."
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: By any means necessary. Even assassination.
+        ↩ (goto) global_salarian_major: If you prefer. As I said, these days I stick with "retiree."
+    ├ option 4:
+        Hero: Spies? Assassins?
+        ↩ (goto) global_salarian_major: If you prefer. As I said, these days I stick with "retiree."
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: A lot of people came to Andromeda for a fresh start.
+├ option 3:
+    ↩ (goto) Hero: Espionage is a job that follows you home—or across galaxies.
+└─ merge ─┘

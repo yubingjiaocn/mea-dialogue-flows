@@ -1,0 +1,148 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_830_boss_encounter_mid_m
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/Crit_Mer/crit_fin_830_boss_encounter_mid_m.xml
+==================================================
+Narration: The Pathfinder reaches a pinch point and defeats a kett blocker. The Archon sees this. He's pissed.
+global_main_villain: Insects!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: Oh no, no, no! He's... shit, he has access!
+    Narration: The Archon slumps for a moment and is quiet, then snaps his head up. His electrical shiz is going crazy.
+    global_main_villain: I can see the network. They were architects of life. You commanded nothing!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Narration: A shot ricochets off the Archon's shield. The Archon looks absolutely incensed at the interruption.
+        Narration: Cut to the Pathfinder, her weapon smoking. The squad looks at her for a second.
+        Hero: Did someone call a time out? Shoot him!
+        Narration: The Archon flexes energy and the floor shifts. The Pathfinder and squad fall down a level as the arm of a Goliath/Terraformer emerges through a wall.
+        Narration: There's actually a moment to talk, because everyone is like "yep, that's a big thing" as it emerges.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: He's got serious backup! Now what?
+            Narration: The Sibling yells from a remaining platform.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_sibling_male ⟨cond⟩: Sara, the Archon's pulling too much power!
+                    Hero: Little busy!
+                    global_sibling_male: It's all going straight through {i}him{/i}! Shut down the interfaces! He'll have nothing to draw!
+                    global_sibling_male: You'll take Meridian out from under him!
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: We play this smart! I know it hurts, but you have to call out where to interface! Get me targets!
+                        Narration: Sibling gives a thumbs up and ducks back down.
+                        Hero: Everyone get that? We're shutting the Archon down!
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            global_squad_asari ⟨cond⟩: On it!
+                        ├ option 2:
+                            global_squad_female_human ⟨cond⟩: Targeting now!
+                        ├ option 3:
+                            global_squad_angara ⟨cond⟩: Right behind you!
+                        ├ option 4:
+                            global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                        ├ option 5:
+                            global_squad_turian ⟨cond⟩: Let's do this!
+                        ├ option 6:
+                            global_squad_krogan ⟨cond⟩: You got it!
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: I'm game for anything at this point! Keep fighting, and tell me where to interface!
+                        Narration: Sibling throws up their hands and ducks back down. It's a reckless call, but they'll go with it.
+                        Hero: Game on, people! I have to shut him out!
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: On it!
+                        ├ option 2:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: Targeting now!
+                        ├ option 3:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: Right behind you!
+                        ├ option 4:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                        ├ option 5:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: Let's do this!
+                        ├ option 6:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You got it!
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_sibling_male: Wait! The Archon's pulling too much power!
+                    ↩ (goto) Hero: Little busy!
+                └─ merge ─┘
+            ├ option 2:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_sibling_female ⟨cond⟩: Scott, the Archon's pulling too much power!
+                    Hero: Little busy!
+                    global_sibling_female: It's all going straight through {i}him{/i}! Shut down the interfaces! He'll have nothing to draw!
+                    global_sibling_female: You'll take Meridian out from under him!
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: We play this smart! I know it hurts, but you have to call out where to interface! Get me targets!
+                        Narration: Sara gives a thumbs up and ducks back down.
+                        Hero: Everyone get that? We're shutting the Archon down!
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: On it!
+                        ├ option 2:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: Targeting now!
+                        ├ option 3:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: Right behind you!
+                        ├ option 4:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                        ├ option 5:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: Let's do this!
+                        ├ option 6:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You got it!
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: I'm game for anything at this point! Keep fighting, and tell me where to interface!
+                        Narration: Sibling throws up their hands and ducks back down. It's a reckless call, but they'll go with it.
+                        Hero: Game on, people! I have to shut him out!
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: On it!
+                        ├ option 2:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: Targeting now!
+                        ├ option 3:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: Right behind you!
+                        ├ option 4:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: Roger-goddamn-dodger!
+                        ├ option 5:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: Let's do this!
+                        ├ option 6:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You got it!
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_sibling_female: Wait! The Archon's pulling too much power!
+                    ↩ (goto) Hero: Little busy!
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: Here come the big guns! What now?
+            ↩ (goto) Narration: The Sibling yells from a remaining platform.
+        ├ option 3:
+            global_squad_angara ⟨cond⟩: He's escalated! Ideas?
+            ↩ (goto) Narration: The Sibling yells from a remaining platform.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: He's overclocked! What now?
+            ↩ (goto) Narration: The Sibling yells from a remaining platform.
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: Not good, not good, not good!
+            ↩ (goto) Narration: The Sibling yells from a remaining platform.
+        ├ option 6:
+            global_squad_krogan ⟨cond⟩: This is gonna hurt!
+            ↩ (goto) Narration: The Sibling yells from a remaining platform.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I made the cluster livable for thousands!
+        global_main_villain: No. You have lead your people to their deaths.
+        ↩ (goto) Narration: The Archon flexes energy and the floor shifts. The Pathfinder and squad fall down a level as the arm of a Goliath/Terraformer emerges through a wall.
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: Oh no, no, no! He's... shit, he has access!
+    ↩ (goto) Narration: The Archon slumps for a moment and is quiet, then snaps his head up. His electrical shiz is going crazy.
+└─ merge ─┘
+Hero: [Exertion 3]

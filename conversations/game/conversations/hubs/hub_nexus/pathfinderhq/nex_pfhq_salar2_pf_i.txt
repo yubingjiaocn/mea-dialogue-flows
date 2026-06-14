@@ -1,0 +1,96 @@
+# game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_salar2_pf_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_salar2_pf_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        crit_kett_salarian_captain_multi: Ryder, I... don't know what to say. The vote of confidence you've shown appointing me interim ambassador to Heleus... I'm in your debt.
+        Hero: You're welcome.
+        crit_kett_salarian_captain_multi: I'm working closely with Director Tann. He's being most helpful. I hope I serve well.
+        crit_kett_salarian_captain_multi: With Meridian found and the Archon no more, the vision of the Initiative is taking root, thanks to you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: The work isn't finished. We still have a lot to do.
+            crit_kett_salarian_captain_multi: {i}(Sighs.){/i} Yes. I understand—no time to rest.
+            crit_kett_salarian_captain_multi: Raeka would be happy. Not satisfied, but happy.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                Hero: How are your people adjusting to life here?
+                crit_kett_salarian_captain_multi: My people are waking up and going into mourning. For the thousands lost and, of course, for Raeka. She was beloved.
+                crit_kett_salarian_captain_multi: They said goodbye to everyone back home, went to sleep for 600 years—only to face this.
+                crit_kett_salarian_captain_multi: But we are not the first, just among the many.
+                ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+            ├ option 2:
+                Hero: How has it been, learning the ways of the Pathfinders?
+                crit_kett_salarian_captain_multi: Heh. You make it sound like a mystical order.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    crit_kett_salarian_captain_multi: Now that my SAM has been realized, it's like being hit by a tidal wave.
+                    crit_kett_salarian_captain_multi: But it's all starting to make sense. It's actually comforting, like I have a partner helping me face it all.
+                    ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+                ├ option 2:
+                    crit_kett_salarian_captain_multi: I imagine everything will go into overdrive once my SAM is online. Until then, it's all just book learning.
+                    crit_kett_salarian_captain_multi: But I already feel as though I'm barely keeping my head above water, gasping for breath.
+                    ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+                └─ merge ─┘
+            ├ option 3:
+                Hero: I know Raeka was well loved. Have your people embraced you?
+                crit_kett_salarian_captain_multi: They know I share their reverence for her. They know I mourn with them.
+                crit_kett_salarian_captain_multi: But the sense of security she inspired... that will take time to find again.
+                crit_kett_salarian_captain_multi: Restoring that is what drives me. Only then will I have honored her.
+                ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+            ├ option 4:
+                Hero: What are you working on now?
+                crit_kett_salarian_captain_multi: After what we went through, the salarian path is clear.
+                crit_kett_salarian_captain_multi: We came so close to suffering as the angara suffered. It's our mandate to figure out exaltation.
+                crit_kett_salarian_captain_multi: I already have a task force studying the kett to that end.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Understanding exaltation is paramount to survival here.
+                    crit_kett_salarian_captain_multi: In and of itself, it is the greatest threat we face.
+                    crit_kett_salarian_captain_multi: I will share all our findings.
+                    ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+                ├ option 2:
+                    Hero: Please be careful—and keep your distance.
+                    crit_kett_salarian_captain_multi: I promise, we'll be methodical and take no unnecessary risks.
+                    ↩ (goto) crit_kett_salarian_captain_multi: I will share all our findings.
+                └─ merge ─┘
+            ├ option 5:
+                Hero: Nice talking with you, Hayjer.
+                crit_kett_salarian_captain_multi: And with you, Ryder.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: It was a team effort. And you're a part of that, Hayjer.
+            crit_kett_salarian_captain_multi: I did my small bit, I suppose.
+            ↩ (goto) crit_kett_salarian_captain_multi: Raeka would be happy. Not satisfied, but happy.
+        └─ merge ─┘
+    ├ option 2:
+        crit_kett_salarian_captain_multi: Ryder, I... I am in awe. Meridian found and the Archon no more. The vision of the Initiative is taking root, thanks to you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: The work isn't finished. We still have a lot to do.
+        ├ option 2:
+            ↩ (goto) Hero: It was a team effort. And you're a part of that, Hayjer.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    crit_kett_salarian_captain_multi: Ryder.
+    Hero: Captain Hayjer. Or is it Pathfinder Hayjer now?
+    crit_kett_salarian_captain_multi: Well, I have the title, but I've only begun the training. There's so much to learn.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We stagnate when we stop learning.
+        crit_kett_salarian_captain_multi: Heh. There's no risk of that.
+        crit_kett_salarian_captain_multi: What can I do for you?
+        ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+    ├ option 2:
+        Hero: You can say that again. I'm still figuring it out.
+        crit_kett_salarian_captain_multi: So I shouldn't expect to see the light at the end of the tunnel anytime soon, then.
+        ↩ (goto) crit_kett_salarian_captain_multi: What can I do for you?
+    └─ merge ─┘
+├ option 3:
+    crit_kett_salarian_captain_multi: Good to see you again, Ryder. What's on your mind?
+    ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+└─ merge ─┘

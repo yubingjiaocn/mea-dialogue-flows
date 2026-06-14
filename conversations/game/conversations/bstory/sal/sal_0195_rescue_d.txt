@@ -1,0 +1,71 @@
+# game/conversations/bstory/sal/sal_0195_rescue_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0195_rescue_d.xml
+==================================================
+Hero: Saelen? What happened to you?
+global_salarian_major: Saelen? Ha. Very familiar for our first real meeting.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Not funny, salarian.
+    global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+    global_salarian_major: I imagine I was supposed to vanish out here while he used my cloak device. Any "Saelen" you met was Dr. Aden in disguise.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Wait, you—he asked me to analyze leads that could implicate him.
+        global_salarian_major: Let me guess: Aden asked you to scan those leads? I suspected the traitor was hiding messages on optical encoders.
+        global_salarian_major: Those messages were the real proof I needed. But a powerful scanner like yours would wipe them.
+        global_salarian_major: Aden used you, and—uh!—my investigation, to cover his tracks. Canny bastard.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I examined an apartment belonging to a salarian officer, Rand Lon. The clues there led me to you.
+            global_salarian_major: Interesting. That confirms my suspicions.
+            global_salarian_major: Everything comes back to our ark. Aden didn't have the clearance to alter logs or affect the nav computer, yet he's obviously guilty.
+            global_salarian_major: I suspect Aden is the front man for a conspiracy involving the kett. He's the key to blowing it open.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Right. Except Aden got rid of anything we had on him and I'll bet Rand Lon has disappeared.
+                global_salarian_major: Aden—uh!—he forgot the dart he poisoned me with. Still in there with the ballistics intact.
+                global_salarian_major: Contact Aden. Feign ignorance, and ask for a meeting. I'll be there to arrest him.
+                Narration: Saelen leaves.
+                Hero: We'd need somewhere to meet Aden. Somewhere neutral.
+                SAM: There are caves on Kadara that might be suitable.
+                Hero: Send the word.
+            ├ option 2:
+                Hero: Enough conspiracies. I'm not going to be used again.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_salarian_major ⟨cond⟩: Aden tried to murder me. What might he do to, say, your brother?
+                    global_salarian_major: He overlooked the last piece of evidence: the dart used to poison me. Still—uh!—inside with the ballistics intact.
+                    global_salarian_major: We could prove Aden's guilt—he'd agree to meet you. My people could finally have justice. But it's your decision.
+                    ↩ (goto) Narration: Saelen leaves.
+                ├ option 2:
+                    global_salarian_major: Aden tried to murder me. What might he do to, say, your sister?
+                    ↩ (goto) global_salarian_major: He overlooked the last piece of evidence: the dart used to poison me. Still—uh!—inside with the ballistics intact.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I feel like you and Dr. Aden are taking turns yanking my strings.
+            global_salarian_major: Then who is Aden's puppeteer?
+            ↩ (goto) global_salarian_major: Everything comes back to our ark. Aden didn't have the clearance to alter logs or affect the nav computer, yet he's obviously guilty.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: How did Aden get the drop on a seasoned STG agent?
+        global_salarian_major: He shot me in the chest with a neurodepressant. If I didn't regularly dose myself with poisons, he might have actually killed me.
+        ↩ (goto) global_salarian_major: Aden used you, and—uh!—my investigation, to cover his tracks. Canny bastard.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: You're sure he's okay?
+    ↩ (goto) global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+├ option 3:
+    global_squad_angara ⟨cond⟩: He's confused.
+    ↩ (goto) global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+├ option 4:
+    global_squad_turian ⟨cond⟩: You don't remember us?
+    ↩ (goto) global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Cracked your head, huh?
+    ↩ (goto) global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Uh, second meeting.
+    ↩ (goto) global_salarian_major: I contacted you hoping one of my suspects would do something reckless. Unfortunately—uh!—he did.
+└─ merge ─┘

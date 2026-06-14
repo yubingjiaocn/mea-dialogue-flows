@@ -1,0 +1,46 @@
+# game/conversations/crit/crit_mer/crit_fin_700_interface_prompt_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_700_interface_prompt_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero: Have to use the interface to open this.
+├ option 2:
+    Hero: Sealed unless I can use the interface.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 3:
+    Hero: I have to open this with an interface.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 4:
+    Hero: Locked by an interface. I'll have to use it.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 5:
+    Hero: I'll need to use the interface that controls this.
+    ↩ (goto) global_squad_krogan: [empty]
+└─ merge ─┘
+┌─ BRANCH (12) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Be careful how many times you do that.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Be careful. It hurts you every time.
+├ option 3:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Only if we have to. It hurts you.
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: You can do it, but I know it hurts.
+├ option 5:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: It's not good, doing that without SAM.
+├ option 6:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Right. Gut through how much it hurts.
+├ option 7:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Again? Just be careful.
+├ option 8:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: If we must. Just be cautious.
+├ option 9:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Only if it's necessary, please.
+├ option 10:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't hurt yourself. More.
+├ option 11:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I don't like that using them hurts you.
+├ option 12:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Sure, but save something for the Archon.
+└─ merge ─┘

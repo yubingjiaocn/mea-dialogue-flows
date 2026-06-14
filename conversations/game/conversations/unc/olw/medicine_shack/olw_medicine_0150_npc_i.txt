@@ -1,0 +1,40 @@
+# game/conversations/unc/olw/medicine_shack/olw_medicine_0150_npc_i
+# Primary speaker: olw_medicine_npc1
+# Source: game/conversations/unc/olw/medicine_shack/olw_medicine_0150_npc_i.xml
+==================================================
+Hero: We got your SOS. What's the emergency?
+olw_medicine_npc1: Oh... uh... well, it's not like life or death or anything, it's just... our plant over there is dying.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Are you kidding me?! We thought it was important! Like someone {i}dying!{/i}
+    olw_medicine_NPC2: Hold on, now. So, yeah, maybe we oversold it, but it's important to {i}us{/i}.
+    olw_medicine_NPC2: It's how we make a living out here. Our plant, uh... well, has "medicinal properties."
+    olw_medicine_npc1: Heh heh. "Medicinal." That sounds good.
+    olw_medicine_NPC2: And we sell it to, you know, customers who need, uh... medicinal assistance.
+    olw_medicine_npc1: But our heat lamp UV thing broke and it's gonna die. And you look like the clever type. Maybe you could find one?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: {i}Sure{/i} this is all about medicine.
+        olw_medicine_npc1: It totally is! Antibiotic whatchamacallit. And maybe it has... other benefits, but in the badlands you can't be picky.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I've got a light for your plant.
+            olw_medicine_npc1: Seriously? Wow. In the middle of nowhere. Awesome. This'll do it!
+            olw_medicine_NPC2: And hey, feel free to take a sample with you. You know, if you ever need to fight off an infection. Or...
+            olw_medicine_npc1: Be quiet, man.
+        ├ option 2:
+            Hero: I'll have to get back to you on that. Or not.
+            olw_medicine_npc1: The first thing you just said. We'll take that option. Remember, a UV lamp thing.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 3:
+        ↩ (goto) Hero: I'll have to get back to you on that. Or not.
+    └─ merge ─┘
+├ option 2:
+    Hero: What the hell makes a plant so important?
+    ↩ (goto) olw_medicine_NPC2: It's how we make a living out here. Our plant, uh... well, has "medicinal properties."
+└─ merge ─┘
+↩ (goto) Hero: I've got a light for your plant.
+olw_medicine_npc1: Yo. Did you get the lights?
+Hero: Not yet.

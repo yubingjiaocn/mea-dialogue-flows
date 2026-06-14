@@ -1,0 +1,70 @@
+# game/conversations/hubs/hub_kad/rp/kad_extremist_0400_crimescene_a
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_kad/rp/kad_extremist_0400_crimescene_a.xml
+==================================================
+Hero: Angaran blood. Matches your Roekaar theory, Reyes.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: This DNA along with the inscription and footprints supports the theory proposed by Mr. Vidal, Pathfinder.
+    kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+    Hero: You know where they are?
+    kad_charlatan: [Comm] I wasn't sitting on my ass this whole time. I'm looking at the place right now.
+    Hero: Send me the coordinates. These murders stop today.
+├ option 2:
+    SAM: DNA cannot identify political affiliations.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_charlatan [OncePerGame]: [Comm] It's a start.
+    ├ option 2:
+        kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+    └─ merge ─┘
+└─ merge ─┘
+SAM: These footprints are distinctly angaran.
+Hero: I count at least three attackers. The tracks make it look like an ambush.
+kad_charlatan: [Comm] Fits the Roekaar profile.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM ⟨cond⟩: These footprints along with the inscription and DNA support the theory proposed by Mr. Vidal, Pathfinder.
+    ↩ (goto) kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+├ option 2:
+    ↩ (goto) kad_charlatan [OncePerGame]: [Comm] It's a start.
+├ option 3:
+    ↩ (goto) kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+└─ merge ─┘
+Hero: The angaran footprints lead this way.
+kad_charlatan: [Comm] See where they go.
+Hero: A knife. Killer must've dropped it during the getaway. Something's carved into the blade.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: "A home filled with strangers becomes a prison." Akksul's words.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: We do not know if the wielder was angaran. An exile could have stolen the blade.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) kad_charlatan [OncePerGame]: [Comm] It's a start.
+        ├ option 2:
+            ↩ (goto) kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+        └─ merge ─┘
+    ├ option 2:
+        SAM ⟨cond⟩: This inscription along with the DNA and footprints supports the theory proposed by Mr. Vidal, Pathfinder.
+        ↩ (goto) kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+    └─ merge ─┘
+├ option 2:
+    SAM: It's Shelesh, the angaran trade language. "A home filled with strangers becomes a prison."
+    Hero: Sounds pretty Roekaar.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩: This inscription along with the DNA and footprints supports the theory proposed by Mr. Vidal, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: We do not know if the wielder was angaran. An exile could have stolen the blade.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ↩ (goto) kad_charlatan [OncePerGame]: [Comm] It's a start.
+├ option 2:
+    ↩ (goto) kad_charlatan [OncePerGame]: [Comm] Keep scanning. We need hard evidence.
+├ option 3:
+    ↩ (goto) kad_charlatan: [Comm] Let's pay our local Roekaar a visit.
+└─ merge ─┘

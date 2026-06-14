@@ -1,0 +1,50 @@
+# game/conversations/hubs/hub_aya/rp/squad/aya_squad_cora_a
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_aya/rp/squad/aya_squad_cora_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human: Scott.
+    ├ option 2:
+        global_squad_female_human: Hey, you.
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human: Good to see you.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 2:
+        global_squad_female_human: Ryder.
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+global_squad_female_human: Evfra's letting me record a few of these training sessions.
+global_squad_female_human: Just a few. But the angara have some smart tactics. Now I get how they've held out against the kett.
+global_squad_female_human: Wish I could join in down there. I could use a workout.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human: Still amazes me that those Jardaan made the angara, and maybe everything on Aya.
+    global_squad_female_human: Why? Or did they just care about "can we"?
+├ option 2:
+    global_squad_female_human: I saw a few angara crying on my way here. Wonder if they heard about exaltation.
+    global_squad_female_human: I wanted to stop and say... something, but what can you say?
+├ option 3:
+    global_squad_female_human: Lots more of our people around lately. They'd better behave themselves.
+├ option 4:
+    global_squad_female_human: Starting to wish I'd brought a chair.
+├ option 5:
+    global_squad_female_human: Spectacular, isn't it? Aya's the kind of world we dreamed of.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: No wonder the angara are being careful.
+    ├ option 2:
+        global_squad_female_human: We're lucky the angara are welcoming us.
+    └─ merge ─┘
+├ option 6:
+    ↩ (goto) ? ⟨cond⟩: [empty]
+├ option 7:
+    ↩ (goto) ?: [empty]
+└─ merge ─┘

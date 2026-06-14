@@ -1,0 +1,43 @@
+# game/conversations/loyalty/loy_tur/loy_tur_0410_finalfight_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0410_finalfight_b.xml
+==================================================
+global_squad_turian [OncePerGame]: Sid! Get down, stay down!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: I won't let anyone get to her, don't you worry!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: I'll cover her if I can!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Don't worry, Sid! Everything's gonna be okay!
+├ option 4:
+    global_squad_angara ⟨cond⟩: Leave the fighting to us!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: And stay calm! Everything's gonna be all right! Promise!
+└─ merge ─┘
+Hero [OncePerGame]: More of Meriweather's thugs taking up position!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: I see 'em!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Acknowledged!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Got 'em in my sights!
+├ option 4:
+    global_squad_angara ⟨cond⟩: They're hardly a match!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Not for long!
+└─ merge ─┘
+global_squad_turian [OncePerGame]: Eat dust, asshole! That's what you get for threatening a kid!
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: Please tell me you're going to talk to your sister about all of this?
+    global_squad_turian: Oh, you have no idea!
+├ option 2:
+    Hero [OncePerGame]: The ventilation in this place is awful! Everything smells like spitbug!
+    global_squad_turian: Don't worry about it! Just try not to get killed!
+├ option 3:
+    global_squad_turian [OncePerGame]: Ryder, watch out! I think they're trying to get clever!
+├ option 4:
+    Hero [OncePerGame]: The security here's intense! What on earth is Meriweather paying them?
+└─ merge ─┘

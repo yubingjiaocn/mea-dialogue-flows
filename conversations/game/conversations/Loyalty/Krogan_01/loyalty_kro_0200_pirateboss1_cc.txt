@@ -1,0 +1,25 @@
+# Game/Conversations/Loyalty/Krogan_01/loyalty_kro_0200_pirateboss1_cc
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0200_pirateboss1_cc.xml
+==================================================
+loyalty_krogan_pirate_07: Aroane! We've got a problem!
+loyalty_krogan_pirateleader_multi: Get it together! Stop them!
+global_squad_krogan: Wait, did I hear Aroane?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Yeah. You think Spender's involved?
+    global_squad_krogan: It'd explain how they got the codes to the transport.
+    global_squad_krogan: Aroane! We're gonna have a friendly little chat, you and I!
+├ option 2:
+    global_squad_angara ⟨cond⟩: Does that mean Spender is involved?
+    ↩ (goto) global_squad_krogan: It'd explain how they got the codes to the transport.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Yeah. Think Spender is involved?
+    ↩ (goto) global_squad_krogan: It'd explain how they got the codes to the transport.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Yeah. Think Spender is involved?
+    ↩ (goto) global_squad_krogan: It'd explain how they got the codes to the transport.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Yeah. Think Spender's involved?
+    ↩ (goto) global_squad_krogan: It'd explain how they got the codes to the transport.
+└─ merge ─┘

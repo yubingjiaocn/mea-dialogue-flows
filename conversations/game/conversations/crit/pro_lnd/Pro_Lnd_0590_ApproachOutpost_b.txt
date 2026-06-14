@@ -1,0 +1,20 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0590_ApproachOutpost_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0590_ApproachOutpost_b.xml
+==================================================
+Hero: What is this?
+global_squad_male_human: Pretty serious-looking operation.
+Hero: What do you think is going on over there?
+global_squad_male_human: Don't know, but no way we're getting past that fence. We should back off.
+Hero: Our people are missing.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: What if they were captured like Greer?
+    global_squad_male_human: Can't do anything about it from here. Come on, before someone sees us.
+├ option 2:
+    Hero: What if they're in there?
+    ↩ (goto) global_squad_male_human: Can't do anything about it from here. Come on, before someone sees us.
+└─ merge ─┘
+Hero: Looks like a way out.
+global_squad_male_human: Let's make it quick. Hope nobody notices.
+global_squad_male_human: Seriously, we're not equipped for this, Ryder. Let's go.

@@ -1,0 +1,48 @@
+# game/conversations/storyteller/anchors/sty_anchor_questmarker_outbody1_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_anchor_questmarker_outbody1_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: This one's been dead a while.
+        SAM: Scanning may yield results, Pathfinder.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Look at that one. Died a while ago.
+        ↩ (goto) SAM: Scanning may yield results, Pathfinder.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: This one didn't die by our hand.
+        ↩ (goto) SAM: Scanning may yield results, Pathfinder.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Looks like that one's been dead a while.
+        ↩ (goto) SAM: Scanning may yield results, Pathfinder.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: We got a body here. An old one.
+        ↩ (goto) SAM: Scanning may yield results, Pathfinder.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: This body has been here a while.
+        ↩ (goto) SAM: Scanning may yield results, Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Ryder. This one's been dead for a while.
+        SAM: Pathfinder, you may wish to scan the body for information.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: That body isn't new.
+        ↩ (goto) SAM: Pathfinder, you may wish to scan the body for information.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: This one died before we arrived.
+        ↩ (goto) SAM: Pathfinder, you may wish to scan the body for information.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: This body isn't... fresh.
+        ↩ (goto) SAM: Pathfinder, you may wish to scan the body for information.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Look. That one's been here a while.
+        ↩ (goto) SAM: Pathfinder, you may wish to scan the body for information.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: I don't think this one died recently.
+        ↩ (goto) SAM: Pathfinder, you may wish to scan the body for information.
+    └─ merge ─┘
+└─ merge ─┘

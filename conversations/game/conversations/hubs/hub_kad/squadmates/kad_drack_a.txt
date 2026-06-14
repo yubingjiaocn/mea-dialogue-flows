@@ -1,0 +1,65 @@
+# game/conversations/hubs/hub_kad/squadmates/kad_drack_a
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/hubs/hub_kad/squadmates/kad_drack_a.xml
+==================================================
+global_squad_krogan: Can't believe how quickly you cleaned up after that fight.
+kad_bar_01: It happens a lot.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    kad_drunksalarian [OncePerGame]: We're drinking with a real live krogan!
+    kad_drunkersalarian: He could totally kill us!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} I sure could.
+        kad_drunksalarian: But you won't?
+        kad_drunkersalarian: But he could!
+    ├ option 2:
+        global_squad_krogan: And I will if you don't shut it.
+        kad_drunksalarian: C'mon! Our Pathfinder's safe! We're celebrating!
+        global_squad_krogan: {i}(Grumbles.){/i}
+    └─ merge ─┘
+├ option 2:
+    kad_drunksalarian [OncePerGame]: Buy the krogan a drink!
+    kad_drunkersalarian: Buy him twelve!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Can't stand salarians sober, but they sure are fun drunk.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Do these salarians ever stop?
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    kad_bar_01: That was the strongest drink I could think up. You really feel nothing?
+    global_squad_krogan: Nope. Honestly, I just need ryncol.
+    kad_bar_01: That's boring. Let me get creative. Bet I can mix something you'll like even better.
+├ option 2:
+    kad_bar_01: So that one was 190-proof. A triple, with ether...
+    global_squad_krogan: Yeah, not much stronger than the last one.
+    kad_bar_01: Hold on. I can do this.
+├ option 3:
+    global_squad_krogan: That drink... actually worked.
+    kad_bar_01: I got frustrated and mixed in some tranquilizers.
+    global_squad_krogan: Yeah, that'd do it.
+├ option 4:
+    global_squad_krogan: That one hit me hard, Umi. What do you call it?
+    kad_bar_01: Combat juice.
+    global_squad_krogan: Ha! What's in it?
+    kad_bar_01: Everything.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan: Pour me another.
+    ├ option 2:
+        global_squad_krogan: Fly to Andromeda, get drunk just the same.
+    ├ option 3:
+        global_squad_krogan: These are my people.
+    ├ option 4:
+        global_squad_krogan: Ryder.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan: Way better drinks here than on the Nexus.
+    global_squad_krogan: Guess it helps that they can't water them down.
+├ option 3:
+    global_squad_krogan: See that krogan over there? I literally drank him under the table.
+└─ merge ─┘

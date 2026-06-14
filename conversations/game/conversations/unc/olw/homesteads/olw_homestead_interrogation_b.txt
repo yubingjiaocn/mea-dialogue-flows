@@ -1,0 +1,24 @@
+# game/conversations/unc/olw/homesteads/olw_homestead_interrogation_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/homesteads/olw_homestead_interrogation_b.xml
+==================================================
+Hero: Doesn't look like anyone's home.
+global_squad_krogan ⟨cond⟩: Famous last words.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: That's Outcast armor. This the Collective's handiwork?
+    Hero: Let's look around.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Outcast armor. Did the Collective do this?
+    ↩ (goto) Hero: Let's look around.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Ugh. This planet is the worst.
+    Hero: Victim's wearing Outcast armor. The Collective could be behind this.
+    ↩ (goto) Hero: Let's look around.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Outcast colors. This is the Collective's mess.
+    ↩ (goto) Hero: Let's look around.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Outcast armor. Bet the Collective's behind this.
+    ↩ (goto) Hero: Let's look around.
+└─ merge ─┘

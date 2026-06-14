@@ -1,0 +1,122 @@
+# game/conversations/hubs/hub_nexus/rp/news/nex_rp_news_talkandquest_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/news/nex_rp_news_talkandquest_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Nex_rp_news_human: A Pathfinder! Wow! I'm Davis Qar. Heleus News Service. Maybe you've heard my voice over the vids...
+    Nex_rp_news_human: I'm trying to file a story right now, but hey.
+    Hero: HNS, huh. Where are the rest of you?
+    Nex_rp_news_human: I had an editor. But it's... crazy out here.
+    Nex_rp_news_human: Now, beyond a freelancer or two, I'm it. All that stands between freedom and tyranny... or something. I haven't had much sleep.
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You seem passionate about your work.
+        Nex_rp_news_human: Look around. These are hard times. People need to know what's going on.
+        Nex_rp_news_human: As long as I'm able to tell them, maybe we're doing okay?
+        Nex_rp_news_human: {i}(Sighs.){/i} I dunno. Every person I talk to's going through some kind of crisis.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Hero ⟨cond⟩: I've heard your reports. You're getting good intel.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human ⟨cond⟩: Things are getting better. I even have some hacks in the field now, thanks to you.
+            Nex_rp_news_human: Coffee's wearing off though.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            Nex_rp_news_human: It's still like pulling teeth to confirm anything out here—but I'm getting by, thanks.
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        Hero: Who pays for you to do this?
+        Nex_rp_news_human: Technically, HNS is an arm of the Initiative—but we serve the public, not them.
+        Nex_rp_news_human: Sometimes the higher-ups try to tell us what to broadcast, Tann especially, but we decide what to run and how to run it.
+        Nex_rp_news_human: It causes friction, but at least I can live with myself.
+        ↩ (goto) ?: [empty]
+    ├ option 4:
+        Hero: Were you a journalist back in the Milky Way?
+        Nex_rp_news_human: I was. Sort of. Only had a couple internships under my belt. Good places, though. The New Star Chronicle even sent me to Mars for a week.
+        Nex_rp_news_human: The plan was to just work as a reporter out here. Then the uprising happened. We got a little too close. My editor was killed.
+        Nex_rp_news_human: Tann blamed our broadcasts for "stirring unrest." It was bullshit. Now all I want to do is keep going.
+        ↩ (goto) ?: [empty]
+    ├ option 5:
+        Hero: It must be difficult to set up a broadcast from scratch.
+        Nex_rp_news_human: Oh, it's easy, beyond the lack of staff, resistant authorities, and constant technical glitches.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human: Still, I'm getting there. May have an honest to goodness source in Nexus security... if she ever calls me back.
+            Hero: Who's your source?
+            Nex_rp_news_human: No journalist worth their salt will ever give that up.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        Hero ⟨cond⟩: I met another journalist. Keri T'Vessa?
+        Nex_rp_news_human: Yeah. We're running Keri's series. Path of a Hero. Good stuff.
+        Nex_rp_news_human: I'm mostly on my own, so pretty much anyone who brings me news is welcome.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Nex_rp_news_human ⟨cond⟩: I just can't believe Tann would lock Keri up. This is why freedom of the press is so important. Especially out here.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            Nex_rp_news_human ⟨cond⟩: Come to think of it, I haven't received any updates from Keri recently. Hope she's all right.
+            ↩ (goto) ?: [empty]
+        ├ option 3:
+            Nex_rp_news_human: Content is king. And her content is really touching a nerve.
+            ↩ (goto) ?: [empty]
+        ├ option 4:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 7:
+        Hero: Talk to you later, Davis.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Nex_rp_news_human: Hey. Ryder? Before you go, I hate to ask, but...
+            Nex_rp_news_human: It seems like your job takes you all over, to places we can't broadcast yet.
+            Nex_rp_news_human: If I send receivers to your ship, would you mind placing them on some planets?
+            Nex_rp_news_human: It'll help get news out to even the most far-flung colonists.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: Okay, Davis. I'll help you get set up.
+                Nex_rp_news_human: Great! Just place a receiver near an outpost and they'll get our reports.
+            ├ option 2:
+                Hero: I'll have to give it more thought.
+                Nex_rp_news_human: Well, lemme know. There aren't many people with the ship and clearance you have.
+                ↩ (goto) Nex_rp_news_human [OncePerGame]: [empty]
+            ├ option 3:
+                Hero [OncePerGame]: What do you need from me, exactly?
+                Nex_rp_news_human: I'm digging up good stories here—but not a lot of people beyond the Nexus can hear them.
+                Nex_rp_news_human: Our long distance transmitter sends packaged data between ships—and even planetside, provided there's a receiver on the other end.
+                Nex_rp_news_human: I need someone to place receivers and boost our signal. We only have a few, so they need to go on planets with people.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: Okay, Davis. I'll help you get set up.
+                ├ option 2:
+                    ↩ (goto) Hero: I'll have to give it more thought.
+                ├ option 3:
+                    ↩ (goto) Hero [OncePerGame]: What do you need from me, exactly?
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Nex_rp_news_human: Have you given any more thought to helping me out?
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            Nex_rp_news_human: I'll be here.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Nex_rp_news_human ⟨cond⟩ [OncePerGame]: Thanks for your help with those receivers. Our signal's strong and our message is clear.
+    ↩ (goto) ?: [empty]
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Nex_rp_news_human ⟨cond⟩ [OncePerGame]: Thanks for your help with those receivers. Our signal's strong and our message is clear.
+    ├ option 2:
+        Nex_rp_news_human: Pathfinder.
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        Nex_rp_news_human: What's up?
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+└─ merge ─┘

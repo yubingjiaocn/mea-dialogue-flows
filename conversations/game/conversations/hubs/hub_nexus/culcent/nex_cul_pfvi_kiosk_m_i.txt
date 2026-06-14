@@ -1,0 +1,73 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_pfvi_kiosk_m_i
+# Primary speaker: nex_culcen_pfvi_male
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_pfvi_kiosk_m_i.xml
+==================================================
+nex_culcen_pfvi_male ⟨cond⟩: Hello. This display describes our Pathfinders, the Initiative's elite explorers.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Tell me about Pathfinders.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_culcen_pfvi_male ⟨cond⟩: Pathfinders survey distant worlds and discover promising new outpost sites for the Initiative.
+        nex_culcen_pfvi_male: Our colonization efforts wouldn't be possible without them.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: Tough job. Do Pathfinders have help?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_culcen_pfvi_male ⟨cond⟩: Each Pathfinder has a team of talented specialists drawn from multiple backgrounds and species.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                nex_culcen_pfvi_male ⟨cond⟩: Each Pathfinder is linked to a partner AI that allows them to study new worlds in hours instead of months.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: How does someone usually become a Pathfinder?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_culcen_pfvi_male ⟨cond⟩: The minimal requirements are: survival training, AI compatibility testing, and military or scientific experience.
+                nex_culcen_pfvi_male: If you're interested, submit your candidacy to the Pathfinder Headquarters.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                nex_culcen_pfvi_male ⟨cond⟩: Our Pathfinders are selected from promising candidates of every species. Former Pathfinders include:
+                nex_culcen_pfvi_male: Alec Ryder, N7 operative.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    nex_culcen_pfvi_male ⟨cond⟩: Zevin Raeka, savior of Erinle.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        nex_culcen_pfvi_male ⟨cond⟩: Matriarch Ishara, of the Kormoth Peace Accords.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            nex_culcen_pfvi_male ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
+                            nex_culcen_pfvi_male: We honor them.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 2:
+                            ↩ (goto) nex_culcen_pfvi_male: We honor them.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) nex_culcen_pfvi_male ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
+                    ├ option 3:
+                        ↩ (goto) nex_culcen_pfvi_male: We honor them.
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) nex_culcen_pfvi_male ⟨cond⟩: Matriarch Ishara, of the Kormoth Peace Accords.
+                ├ option 3:
+                    ↩ (goto) nex_culcen_pfvi_male ⟨cond⟩: Macen Barro, decorated Blackwatch engineer.
+                ├ option 4:
+                    nex_culcen_pfvi_male: We honor him.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 3:
+            nex_culcen_pfvi_male: If you see a Pathfinder on your travels, be sure to say hello.
+        └─ merge ─┘
+    ├ option 2:
+        nex_culcen_pfvi_male ⟨cond⟩: Pathfinders are often the first to encounter new species, making them first contact ambassadors as well as explorers.
+        nex_culcen_pfvi_male: They work hard to ensure everyone knows the Initiative is peaceful.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Maybe later.
+    nex_culcen_pfvi_male: Enjoy your day.
+└─ merge ─┘

@@ -1,0 +1,20 @@
+# game/conversations/unc/storms/stm_9350_amb_07_i
+# Primary speaker: stm_outpost_amb_13
+# Source: game/conversations/unc/storms/stm_9350_amb_07_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_outpost_amb_13 [OncePerGame]: You're Ryder. Hrm. Hear you saved my people from that Archon.
+    stm_outpost_amb_13: More of a hunter than a Pathfinder, myself. Might hunt some big predators around your outpost. Just to balance things.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Hunt some kett, and you'd set that balance sheet square.
+        stm_outpost_amb_13: Heh. Don't taste so good, but... see what I can do.
+        stm_outpost_amb_13: Going to be more little ones around in the future, because of you. Got to set an example.
+    ├ option 2:
+        Hero: I hear you. Appreciate it.
+        ↩ (goto) stm_outpost_amb_13: Going to be more little ones around in the future, because of you. Got to set an example.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) stm_outpost_amb_13: Going to be more little ones around in the future, because of you. Got to set an example.
+└─ merge ─┘

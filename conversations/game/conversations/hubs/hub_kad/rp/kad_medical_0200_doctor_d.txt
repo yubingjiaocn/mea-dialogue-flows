@@ -1,0 +1,63 @@
+# game/conversations/hubs/hub_kad/rp/kad_medical_0200_doctor_d
+# Primary speaker: kad_doctor
+# Source: game/conversations/hubs/hub_kad/rp/kad_medical_0200_doctor_d.xml
+==================================================
+kad_doctor: You look well enough. My patients are usually leaking from {i}somewhere{/i}.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: No leaking here. Just seeing all Kadara has to offer.
+    kad_doctor: A tourist, huh?
+    Hero: Pathfinder, actually.
+    kad_doctor: One survived? Could've used you when we got to Heleus.
+    kad_doctor: Dr. Ryota Nakamoto. I used to work as the Outcasts' physician.
+    kad_doctor: Quit after Sloane turned what should've been a medical breakthrough into a drug.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I thought she was supposed to be a woman of the people.
+        kad_doctor: She's whatever she needs to be to stay in power.
+        kad_doctor: When we arrived on Kadara, I found a local string of bacteria that shares properties with penicillin.
+        Hero: Quite the find.
+        kad_doctor: It was—until I discovered the drug is addictive and induces hallucinations in large doses.
+        kad_doctor: I took my concerns to Sloane.
+        kad_doctor: All she saw was an opportunity to make a profit. Called the drug "Oblivion."
+        kad_doctor: But beyond stealing back my formula, there's no way to stop her.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: So let's steal the formula.
+            kad_doctor: Are you crazy? It's heavily guarded. I'm a doctor. I don't know how to fight.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: {i}(Chuckles.){/i} We do.
+                kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: You don't have to. We'll handle this.
+                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+            ├ option 3:
+                global_squad_asari ⟨cond⟩: Don't worry. We got this.
+                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+            ├ option 4:
+                global_squad_male_human ⟨cond⟩: You keep doctoring. We'll do the fighting.
+                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+            ├ option 5:
+                global_squad_angara ⟨cond⟩: Leave the fighting to us.
+                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+            ├ option 6:
+                global_squad_turian ⟨cond⟩: We'll handle it.
+                ↩ (goto) kad_doctor: The formula's in my old lab. Please don't get killed trying to fix my mistake.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: All that would do is piss off Sloane.
+            kad_doctor: I don't give a damn how she feels. People are dying and it's because of my work.
+            kad_doctor: I hate to ask you this, but... the formula's in my old lab. Maybe you could get it back?
+            kad_doctor: I can't fight, otherwise I'd do it myself.
+            Hero: No promises, but I'll see what I can do.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: She's a criminal. What did you expect?
+        kad_doctor: She wasn't always like this. Life since the Nexus... it's changed all of us.
+        ↩ (goto) kad_doctor: When we arrived on Kadara, I found a local string of bacteria that shares properties with penicillin.
+    └─ merge ─┘
+├ option 2:
+    Hero: I actually have my own doctor. Name's Ryder. I'm a Pathfinder.
+    ↩ (goto) kad_doctor: One survived? Could've used you when we got to Heleus.
+└─ merge ─┘

@@ -1,0 +1,98 @@
+# game/conversations/rel/vetra/vet_r1_tem_postrecruit_d
+# Primary speaker: global_squad_turian
+# Source: game/conversations/rel/vetra/vet_r1_tem_postrecruit_d.xml
+==================================================
+global_squad_turian: Oh, hey, Pathfinder.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_vetra_sister_multi: [Comm] Is Ryder there? Hey, Ryder!
+    global_squad_turian: You know each other?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We met on the Nexus.
+        global_squad_turian: Oh really? Did you embarrass me, Sid?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            nex_vetra_sister_multi ⟨cond⟩: [Comm] No, I definitely didn't tell the Pathfinder all your disgusting habits.
+        ├ option 2:
+            nex_vetra_sister_multi: [Comm] No, I definitely didn't tell the Pathfinder all your disgusting habits.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_turian: Ha. Funny.
+                global_squad_turian: Look, kiddo, gotta go.
+                nex_vetra_sister_multi: [Comm] Wait! Ryder, I just wanted to know if—
+                global_squad_turian: See you soon, Sid.
+                global_squad_turian: So, I know it feels like I just jumped aboard your ship without explanation...
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Now's as a good time as any.
+                    global_squad_turian: I think... no, I know that I can be of use here.
+                    global_squad_turian: Damn. X-248 actuators. They must've run out of 250s.
+                    global_squad_turian: I came to Andromeda aboard the Nexus. I've been here since day one, making connections.
+                    global_squad_turian: I know everyone on the crew. Even the actuators Gil prefers for the ship.
+                    global_squad_turian: Better, I know how to get my hands on them. With me around, your crew's going to be at their best.
+                    global_squad_turian: We've been failing for months, Ryder. Now that we have you, we have a chance out here.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: Wow, that's some laser focus.
+                        global_squad_turian: Yeah? Was it too much? Some people get intimidated.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: I'm not just "some people." I really like the intensity.
+                            global_squad_turian: That's good. It's nice to feel... appreciated.
+                            global_squad_turian: I should track down a lead for Gil's actuators. Back channels, you know?
+                            global_squad_turian: We'll chat later?
+                        ├ option 2:
+                            Hero: We need that sort of drive. I just hope I can keep up.
+                            global_squad_turian: You'll keep up. And I promise I won't tell if you don't.
+                            ↩ (goto) global_squad_turian: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: We need people with skills, and it sounds like you've got many. Welcome aboard.
+                        global_squad_turian: Yep, making deals to get the things you want, shooting at the things you don't. That's me.
+                        global_squad_turian: We all have a personal stake in this. If it keeps going the way it's been, we're all dead.
+                        ↩ (goto) global_squad_turian: [empty]
+                    ├ option 3:
+                        Hero: Ability to haggle with the locals? Great! But please tell me you're also good in a fight.
+                        global_squad_turian: Like I said before: wrangler, provisioner, gunner, and everything in-between. I do what I have to.
+                        ↩ (goto) global_squad_turian: We all have a personal stake in this. If it keeps going the way it's been, we're all dead.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I would've done the same just to get off the Nexus.
+                    global_squad_turian: That's not why I came. Sure, I want to explore the galaxy, but I'm really here to work.
+                    ↩ (goto) global_squad_turian: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) global_squad_turian: Ha. Funny.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Please, Vetra. I'm the Pathfinder. It's my job to know the people. Listen to their concerns...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            nex_vetra_sister_multi ⟨cond⟩: [Comm] {i}(Laughs.){/i} Best Pathfinder ever!
+            global_squad_turian: All right. Calm down.
+            ↩ (goto) global_squad_turian: Look, kiddo, gotta go.
+        ├ option 2:
+            nex_vetra_sister_multi: [Comm] {i}(Laughs.){/i} Best Pathfinder ever!
+            ↩ (goto) global_squad_turian: All right. Calm down.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    nex_vetra_sister_multi ⟨cond⟩: [Comm] {i}(Gasps.){/i} The Pathfinder's there? Let me say hi!
+    global_squad_turian: Fine, but don't embarrass me.
+    global_squad_turian: Ryder, this is Sid, my sister. Sid, Ryder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Hope I'm not interrupting something important.
+        global_squad_turian: Not at all. We were just finishing up.
+        ↩ (goto) nex_vetra_sister_multi: [Comm] Wait! Ryder, I just wanted to know if—
+    ├ option 2:
+        Hero: Let me guess. Little sister?
+        nex_vetra_sister_multi: [Comm] Who you calling little?
+        ↩ (goto) global_squad_turian: Look, kiddo, gotta go.
+    └─ merge ─┘
+├ option 3:
+    nex_vetra_sister_multi: [Comm] {i}(Gasps.){/i} The Pathfinder's there? Let me say hi!
+    ↩ (goto) global_squad_turian: Fine, but don't embarrass me.
+└─ merge ─┘

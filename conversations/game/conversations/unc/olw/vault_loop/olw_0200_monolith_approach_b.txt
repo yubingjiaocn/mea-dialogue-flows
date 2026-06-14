@@ -1,0 +1,42 @@
+# game/conversations/unc/olw/vault_loop/olw_0200_monolith_approach_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/vault_loop/olw_0200_monolith_approach_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Looks like it goes underground.
+        Hero: Hopefully there's a way down... or we're gonna need a really big drill.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Hmm. Underground, maybe?
+        ↩ (goto) Hero: Hopefully there's a way down... or we're gonna need a really big drill.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Goes underground.
+        ↩ (goto) Hero: Hopefully there's a way down... or we're gonna need a really big drill.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Hmm. Goes underground.
+        ↩ (goto) Hero: Hopefully there's a way down... or we're gonna need a really big drill.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Should we start digging?
+        ↩ (goto) Hero: Hopefully there's a way down... or we're gonna need a really big drill.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Goes into the dirt.
+        ↩ (goto) Hero: Hopefully there's a way down... or we're gonna need a really big drill.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Hurry! Help them!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: You have to help them!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: We should help the angara!
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Not looking good for the angara.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Hey—we should help!
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: The angara need help!
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,53 @@
+# game/conversations/rel/liam/liam_r070_culmination_m
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/rel/liam/liam_r070_culmination_m.xml
+==================================================
+Hero: All right, Liam. This is the nav you sent me.
+Hero: Not exactly the sunset I was expecting.
+global_squad_male_human: No, no, it's exactly right.
+global_squad_male_human: It's the first home you gave us. Perfect for talking and a special bit of one-time tuning.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You're tinkering back there. Liam, why do you want me to jump off a cliff?
+    global_squad_male_human: Heh. Not just jump.
+    global_squad_male_human: The day we met—"Andromeda-met"—we fell from the sky, and bad things happened.
+    global_squad_male_human: But when we're old and people ask us how we got together, I want you to smile.
+    global_squad_male_human: So I set up a jump—and something extra.
+    global_squad_male_human: Look, I know, but it'll be fine. We've done way more dangerous things for worse reasons.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You talk too much!
+        global_squad_male_human: SAM, sequence Liam-one-alpha!
+        Hero: {i}(Laughing.){/i}
+        global_squad_male_human: {i}(Groans.){/i}
+        Hero: {i}(Groans.){/i}
+        global_squad_male_human: {i}(Chuckles.){/i}
+        Hero: What?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Hello again, Liam Kosta.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: You too, Sara Ryder.
+                Narration: They both smile, half laugh, and stare into each other's eyes.
+            ├ option 2:
+                global_squad_male_human: Hello again to you too.
+                ↩ (goto) Narration: They both smile, half laugh, and stare into each other's eyes.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: That's what this was for? Are you out of your mind?
+            global_squad_male_human: Yeah. For you.
+            Narration: Ryder shakes her head at how cocky he is. Punches his shoulder. They both half laugh, and stare into each other's eyes.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Liam. You don't need to explain.
+        global_squad_male_human: Hold that thought. And hold on.
+        global_squad_male_human: SAM, sequence Liam-one-alpha.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You planning a leap to freedom? This better not be a breakup. I don't drive for breakups.
+    global_squad_male_human: What? No! I'm not an idiot!
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

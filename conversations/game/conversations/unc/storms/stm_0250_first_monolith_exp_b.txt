@@ -1,0 +1,105 @@
+# game/conversations/unc/storms/stm_0250_first_monolith_exp_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0250_first_monolith_exp_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero [OncePerGame]: I'm picking up Initiative tech nearby, from... above us?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: I see it. Up on that piece with the scaffolding.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: There, look. Up near that scaffolding.
+    └─ merge ─┘
+├ option 2:
+    Hero: It's working, but I'm just getting random symbols—glyphs.
+    SAM: With more glyphs to expand my database from Habitat 7, I could interface fully with the console.
+    Hero: And hopefully start up whatever helps the atmosphere.
+├ option 3:
+    Hero: It's slippery, but there's a great view!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Who'd be crazy enough to carry heavy equipment up there?
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Worth carrying heavy gear up there? Guess someone thought so.
+    └─ merge ─┘
+├ option 4:
+    Hero [OncePerGame]: Too sophisticated for a salvager. Who else is studying this place?
+├ option 5:
+    SAM: Expanding language database.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: That should do it. Let's try the console again.
+    ├ option 2:
+        Hero: More alien glyphs. We just need somewhere to use them.
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: Hey, Peebee. You came in this shuttle?
+        global_squad_asari: Not many other ways to get here from the Nexus. Careful, I've got some... interesting finds in there.
+    ├ option 2:
+        Hero [OncePerGame]: Someone's shuttle. Pretty banged up, but spaceworthy.
+    └─ merge ─┘
+├ option 7:
+    Hero: I've got a bunch of glyphs, organized in a grid.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: Completing it may enable me to fully interface with the console.
+    ├ option 2:
+        SAM: Completing it should enable my interface.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's be careful here—remember Habitat 7.
+├ option 2:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: What I wouldn't give to try rappelling down that big spire.
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Is this built from metal? Or stone? It feels like both.
+├ option 4:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: How's it repelling the storm? I don't feel anything different.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: How long has this been out here?
+├ option 6:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: It's like a monument. But to what?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: I know these things! From Habitat 7!
+        global_squad_asari: Later! Just take them out!
+    ├ option 2:
+        Hero: What are they?
+        ↩ (goto) global_squad_asari: Later! Just take them out!
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari [OncePerGame]: Keep targeting that one! They make little bots!
+└─ merge ─┘
+Hero: Don't see any shield masts. Why's the radiation lower in this area?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Maybe something to do with these structures?
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Maybe something to do with these structures?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Guess we found Clancy's "Crazy Blue."
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: I can't believe she jumped on you.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Definitely not your typical asari. I like her.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: A bot-crazed asari. Wasn't expecting that.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Remind me to talk to Kandros about upping Nexus security.
+        global_squad_female_human: Too many people are taking joy rides to Eos.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: {i}(Chuckles.){/i} Neither was Ryder.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,267 @@
+# game/conversations/unc/storms/stm_0500_remnant_track_a
+# Primary speaker: SAM
+# Source: game/conversations/unc/storms/stm_0500_remnant_track_a.xml
+==================================================
+Hero: Wait, this area's clear. No storm damage, no radiation...
+Hero: The clear zone's centered on that structure. Like it's blocking out the weather.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Wow. So we're on the right track?
+├ option 2:
+    global_squad_turian ⟨cond⟩: That's a good sign, right?
+├ option 3:
+    global_squad_male_human ⟨cond⟩: That's... wow. Maybe this tech really can help Eos.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: Similar tech to Habitat 7. Like the orbital scans said.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: And thanks to the vault, it changed the world.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: But can it really help Eos?
+            Hero: {i}We{/i} can. We have to.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: But can it truly help Eos?
+            ↩ (goto) Hero: {i}We{/i} can. We have to.
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: Eos isn't 7. Maybe this tech isn't gonna help.
+            ↩ (goto) Hero: {i}We{/i} can. We have to.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: Intact, but doesn't appear active. Like the rest.
+    ├ option 3:
+        SAM: Inactive, Pathfinder—similar to the rest.
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: More Remnant. The tech is everywhere.
+    ├ option 2:
+        Hero [OncePerGame]: Here's hoping that glyph business lets us use this eventually.
+    ├ option 3:
+        Hero [OncePerGame]: A Remnant of unknown purpose. Getting used to that.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Someone else is poking this tech.
+├ option 2:
+    Hero ⟨cond⟩: Whoever is monitoring this tech may have info we can use.
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    Hero: Peebee's tech, looks like.
+    global_squad_asari ⟨cond⟩: Ugh, my early work was embarrassing. So literally yesterday.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) Hero: [empty]
+├ option 3:
+└─ merge ─┘
+Hero: If this stuff can change worlds, we don't want the kett to have it.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: We can't afford another Habitat 7
+├ option 2:
+    global_squad_male_human ⟨cond⟩: I'm not putting anyone through a Habitat 7
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Yeah. Let's not make another Habitat 7.
+    ↩ (goto) SAM: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Heard about Habitat 7. Don't want that here.
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+Hero: Got it. Signal's coming from that structure up ahead.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Done! The monoliths are online and connected, to... something in the lake?
+    Hero: This could be the master switch we're looking for.
+    global_squad_asari: [Comm] I'll meet you there. Don't do anything without me!
+├ option 2:
+    global_squad_asari [OncePerGame]: [Comm] That did... whatever that did. I see pathways lighting up all over.
+    global_squad_asari: [Comm] The monoliths are resonating. QEC contact?
+    Hero: Well, whatever's happening, they're definitely connecting.
+    global_squad_asari: [Comm] You did good. Keep doing more.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) SAM ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: [Comm] The Site 1 folks were interested in the monoliths, too.
+    Hero: Did they learn anything?
+    global_squad_asari: [Comm] Mostly what you learn the hard way. But hey—now you're here.
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: It's gigantic, but just as inactive as the rest.
+        SAM: The signal originates at a different location, Pathfinder.
+    ├ option 2:
+        Hero: These structures are huge, but they don't do anything yet.
+        ↩ (goto) SAM: The signal originates at a different location, Pathfinder.
+    ├ option 3:
+        Hero: We need to track where these structures are linked.
+        ↩ (goto) SAM: The signal originates at a different location, Pathfinder.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: The kett made themselves at home.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: [Comm] Hmph.
+    Hero: All this research. I wonder what they learned.
+├ option 2:
+    ↩ (goto) Hero: All this research. I wonder what they learned.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) SAM ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Look there—coming out of the lake!
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: The tech's underground, too? Let's see.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Oh, wow. What did we do?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Let's get a closer look!
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+Hero: Whoa, it's... forming a bridge.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Looks solid. If not, prepare to swim.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Let's find out how solid it is.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Like an invitation. Hope it's safe.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Hope it can take everyone's weight.
+└─ merge ─┘
+Hero: It's opening up.
+global_squad_asari: [Comm] I see a door! Come on!
+┌─ BRANCH (10) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: [Comm] See the Remnant tower? Kett were fighting Assemblers there, so watch out.
+        global_squad_asari: [Comm] I call the stocky Remnant "Assemblers," by the way.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_asari [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: [Comm] I couldn't get them to react. But you can, Mister Glyph.
+            ├ option 2:
+                global_squad_asari: [Comm] I couldn't get them to react. But you can, Miss Glyph.
+                ↩ (goto) global_squad_asari: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
+            global_squad_asari: [Comm] You glyph all of them, and you'll have your processors. And who knows what else!
+        ├ option 3:
+            global_squad_asari [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
+            global_squad_asari: [Comm] Obvious coordination between the three of them. Can't wait to see what you trigger.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: Keep going. It's a long way to the really {i}big{/i} things.
+    Hero: Any details, Peebee?
+    global_squad_asari: We knew there were structures above and below ground, but they never did anything. Until you.
+    global_squad_asari: I bet you can glyph them. So I'm sending you to something... monolithic.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Well, at least it's a direction.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Mad geniuses are my least favorite kind of genius.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: What is she chattering about?
+    └─ merge ─┘
+├ option 3:
+    Hero: Kett ahead. They're looking at the alien tech, too.
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: [Comm] See that big Remnant structure? Outpost guys named the whole region after that.
+        global_squad_asari: [Comm] Never liked "spire."
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_asari [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
+        ├ option 2:
+            ↩ (goto) global_squad_asari [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
+        ├ option 3:
+            ↩ (goto) global_squad_asari [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_asari: [Comm] See that Remnant structure up the Sheartop? I don't go there. You'll see why.
+    global_squad_asari: [Comm] Watch out for the flying wigglies. I call them "Observers." They stare.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_asari [OncePerGame]: [Comm] There's three towers, and they go deep. Activating them might lead us to the processors you need.
+    ├ option 2:
+        ↩ (goto) global_squad_asari [OncePerGame]: [Comm] Like the other towers, this one is linked to much more underground.
+    ├ option 3:
+        ↩ (goto) global_squad_asari [OncePerGame]: [Comm] The last of the "monolithic" Remnant towers. Practically humming with potential.
+    └─ merge ─┘
+├ option 6:
+    global_squad_asari: [Comm] Pathfinder, the scope of this activation is... global. You are literally seismic right now.
+    SAM: That doesn't seem accurate.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: [Comm] Can it, SM. I'm talking to the World-Changer. One more tower to go!
+        Hero: One step closer to an outpost.
+    ├ option 2:
+        global_squad_asari: [Comm] Can it, SM. I'm talking to the World-Changer. One more tower to go!
+        ↩ (goto) Hero: One step closer to an outpost.
+    └─ merge ─┘
+├ option 7:
+    Hero: Will it change the atmosphere like Habitat 7?
+    global_squad_asari: [Comm] The output of these things, they could do everything but planetary volleyball.
+    global_squad_asari: [Comm] You keep this up, you'll get your processors. Or shear the planet in half. Imagine either!
+├ option 8:
+    global_squad_asari: [Comm] You did it! All three monoliths! Could you tell I was going to call them that? They stand alone... in threes...
+    SAM: Updating databases for terminology streamlining.
+    Hero: SAM, that's not how we do it!
+    global_squad_asari: [Comm] SAM? That's better than "SM." There, you named something, too!
+    global_squad_asari: [Comm] Now, the {i}monoliths{/i} have opened something central! Race you there!
+├ option 9:
+    Hero: Peebee, there's a central structure that wasn't accessible before.
+    Hero: Peebee?
+    global_squad_asari: [Comm] The potential of this discovery is so beautiful, your entire team is more attractive for revealing it.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: {i}More{/i} attractive?
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Stay focused, please.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Well, that was backhanded.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Ugh. Really?
+    └─ merge ─┘
+├ option 10:
+    global_squad_asari: Nice shooting. The Remnant didn't stand a... wow!
+    Hero: "Remnant" what, and "wow" how?
+    global_squad_asari: The tech is a "remnant" of someone. So... big R "Remnant." And "wow" because of what you did!
+    global_squad_asari: You have a... what is it, Simulated Matrix? I'm sending your "SM" some navpoints.
+    global_squad_asari: You want control centers and processors? Follow that—I think they're out there, too.
+    global_squad_asari: Go, Pathfinder. Time to change the world.
+└─ merge ─┘

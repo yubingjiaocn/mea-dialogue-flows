@@ -1,0 +1,98 @@
+# game/conversations/unc_ice/ice_lostscout_0350_foundscout_d
+# Primary speaker: ice_mashal
+# Source: game/conversations/unc_ice/ice_lostscout_0350_foundscout_d.xml
+==================================================
+ice_mashal: Who are you? Are you here to find me? Did Haana send you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_mashal: Foolish girl. She never knows when to give up.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Haana was sure you survived the blast, but how?
+        ice_mashal: Couldn't outrun the explosion, so I found a reinforced wall and put up a field at the moment of impact.
+        ice_mashal: Almost flashed out, but it was that or die.
+        ice_mainedkett: End... this.
+        ice_mainedkett: Hurt. End... this.
+        ice_mashal: That's all it says. That's all it ever says! I've burned, I've peeled, I've gouged. It won't tell me where they are...
+        Hero: You tortured this person?
+        ice_mashal: It's not a person! It's kett! They took my family!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We need to leave this place. You're not thinking straight.
+            ice_mashal: I can't leave. This is my only chance to talk to these things. To find my family.
+            ice_mashal: If... if I leave here, I leave them. I... can't.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: All right. Let's go guys.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_krogan ⟨cond⟩: What? We're leaving?
+                    Hero: There's nothing we can do.
+                ├ option 2:
+                    global_squad_female_human ⟨cond⟩: After everything? We're leaving her?
+                    ↩ (goto) Hero: There's nothing we can do.
+                ├ option 3:
+                    global_squad_asari ⟨cond⟩: We can't just leave her!
+                    ↩ (goto) Hero: There's nothing we can do.
+                ├ option 4:
+                    global_squad_angara ⟨cond⟩: Ryder, no. We can't leave her.
+                    ↩ (goto) Hero: There's nothing we can do.
+                ├ option 5:
+                    global_squad_male_human ⟨cond⟩: You're not serious! We came all this way!
+                    ↩ (goto) Hero: There's nothing we can do.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I'm sorry, but they're gone.
+                ice_mashal: No!
+                Hero: You have friends waiting for you. People who still care. You'll die here.
+                ice_mashal: How could you? It could've told me. I could've found them again...
+                Hero: Go home, Mashal.
+                ice_mashal: Fine. I'll signal the base, and inform the Resistance of my position.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I don't care what he is. Torture isn't right! Maybe he doesn't know!
+            ice_mashal: It must know. It must. This is my only chance.
+            ice_mashal: If it doesn't know, then I've lost them. I can't lose them.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: All right. Let's go guys.
+            ├ option 2:
+                ↩ (goto) Hero: I'm sorry, but they're gone.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Whoa. Haana was right and no one believed her.
+        ice_mashal: I shouldn't have survived. Didn't think I would.
+        ↩ (goto) ice_mainedkett: End... this.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) ice_mashal: I shouldn't have survived. Didn't think I would.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: The door's still open. She'll find her way when she's ready.
+├ option 2:
+    ice_mashal: I know you. I... I've seen you with Moshae Sjefa.
+    global_squad_angara: Jaal.
+    ice_mashal: That's it. Yes. Jaal. Did Haana send you?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ice_mashal ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) ice_mashal: [empty]
+    └─ merge ─┘
+├ option 3:
+    ice_mashal: You don't deserve death, filth.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Wounds. Looks... like... oh, crap.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: What's his story?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Um... that kett...
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: What's going on here?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: What's with the kett?
+    └─ merge ─┘
+└─ merge ─┘

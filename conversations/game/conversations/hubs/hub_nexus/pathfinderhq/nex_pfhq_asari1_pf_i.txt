@@ -1,0 +1,104 @@
+# game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_asari1_pf_i
+# Primary speaker: loy_hmf_cmdr_sarissa_multi
+# Source: game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_asari1_pf_i.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    loy_hmf_cmdr_sarissa_multi ⟨cond⟩ [OncePerGame]: Meridian is a signature victory. Your victory. Superbly done, Ryder.
+    Hero: Those asari huntresses helped us out. Thank you.
+    loy_hmf_cmdr_sarissa_multi: Any time. Though I doubt we'll see another spectacle like that for a while.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: Now that the asari ark is safe, what's next for you?
+        loy_hmf_cmdr_sarissa_multi: I'll be tracking the kett through their secret routes in the Scourge, and burning them out.
+        loy_hmf_cmdr_sarissa_multi: Charting the Scourge will help everyone. Some incidental revenge is a bonus.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    ├ option 2:
+        Hero: Cora really idolized you. Have you spoken since...?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            loy_hmf_cmdr_sarissa_multi ⟨cond⟩: Awkwardly. She's angry, but trying to understand.
+            loy_hmf_cmdr_sarissa_multi: But we do speak, and more importantly, listen. Reminds me of the days when I had students.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+        ├ option 2:
+            loy_hmf_cmdr_sarissa_multi: A little. It's difficult to talk to someone who's {i}that{/i} disappointed in you.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: But we do speak, and more importantly, listen. Reminds me of the days when I had students.
+        └─ merge ─┘
+    ├ option 3:
+        Hero: I never knew Matriarch Ishara—the last asari Pathfinder. What was she like?
+        loy_hmf_cmdr_sarissa_multi: The best my people have to offer. Powerful, just, diplomatic. I was a dowdy soldier by comparison.
+        loy_hmf_cmdr_sarissa_multi: I tell myself she'd understand why I... but she didn't think that way. Diplomacy allows compromise. War doesn't.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    ├ option 4:
+        Hero: Cora said you've fought plenty of battles. That you were the Hero of Kerkis.
+        loy_hmf_cmdr_sarissa_multi: Ha. I {i}survived{/i} Kerkis, anyway.
+        Hero: What happened?
+        loy_hmf_cmdr_sarissa_multi: The enemy fired artillery at civilian targets. I used my biotics to shield part of a city—I can make a good shield, as you've seen.
+        loy_hmf_cmdr_sarissa_multi: I lost... dear friends in that battle. But we saved a lot of people. If that makes me a hero, I'll take it.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    ├ option 5:
+        Hero: Good luck, Sarissa.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            loy_hmf_cmdr_sarissa_multi ⟨cond⟩: Thank you. I'll need it.
+        ├ option 2:
+            loy_hmf_cmdr_sarissa_multi: On to glory, Ryder.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    loy_hmf_cmdr_sarissa_multi ⟨cond⟩ [OncePerGame]: It sounds like our experience was a picnic compared to what the salarians went through.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        loy_hmf_cmdr_sarissa_multi ⟨cond⟩: Raeka's determined to put an end to exaltation, and she'll have every bullet I can lend her.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    ├ option 2:
+        loy_hmf_cmdr_sarissa_multi: Hayjer's inexperienced but the potential's there. A little time and he might blossom as you did.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    └─ merge ─┘
+├ option 3:
+    loy_hmf_cmdr_sarissa_multi ⟨cond⟩ [OncePerGame]: Another ark lost. But the turians are safe, thanks to you. Well done.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        loy_hmf_cmdr_sarissa_multi ⟨cond⟩: I spoke with Avitus. He's sharp—he'll make a good Pathfinder. He... asked how I became one.
+        Hero: What did you tell him?
+        loy_hmf_cmdr_sarissa_multi: The truth. I don't repeat my mistakes.
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    ├ option 2:
+        ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+    └─ merge ─┘
+├ option 4:
+    loy_hmf_cmdr_sarissa_multi [OncePerGame]: Ah, a friendly face. Hello, Ryder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        loy_hmf_cmdr_sarissa_multi ⟨cond⟩: I'm a little short on friends since... everyone heard what happened to Ishara.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You're still their Pathfinder. Stay focused on duty, not regrets.
+            loy_hmf_cmdr_sarissa_multi: I have a few centuries' worth already. This one will leave a mark.
+            loy_hmf_cmdr_sarissa_multi: But there's work to do and I've been sitting idle too long. Hated or not, I belong on a front line.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+        ├ option 2:
+            Hero: You can earn those friends back. Be the hero they want you to be.
+            loy_hmf_cmdr_sarissa_multi: It's a lot to ask. Ishara was beloved—rightly so.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: But there's work to do and I've been sitting idle too long. Hated or not, I belong on a front line.
+        └─ merge ─┘
+    ├ option 2:
+        loy_hmf_cmdr_sarissa_multi: Thank you again for saving my ark. And your discretion about... my command decision.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You need to learn from losing Ishara. That can't happen again.
+            loy_hmf_cmdr_sarissa_multi: I've been a commando for centuries, Ryder. I've learned that sometimes, this has to happen.
+            loy_hmf_cmdr_sarissa_multi: {i}(Sighs.){/i} It cuts a notch in your soul every time.
+            loy_hmf_cmdr_sarissa_multi: It'll be good to return to duty. Too much brooding. Time to work.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+        ├ option 2:
+            Hero: If you've got any more bombshells hidden away, now's the time.
+            loy_hmf_cmdr_sarissa_multi: Every huntress has secrets. I imagine your lieutenant has a few.
+            loy_hmf_cmdr_sarissa_multi: Ishara... deserved better, but sometimes you don't get that chance.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: It'll be good to return to duty. Too much brooding. Time to work.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 5:
+    loy_hmf_cmdr_sarissa_multi: Ryder. Welcome home.
+    ↩ (goto) loy_hmf_cmdr_sarissa_multi: [empty]
+└─ merge ─┘

@@ -1,0 +1,26 @@
+# game/conversations/unc/olw/surveyor_plot/olw_0200_survey_body_scan_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/surveyor_plot/olw_0200_survey_body_scan_b.xml
+==================================================
+Hero: {i}(Sighs.){/i} The surveyor.
+Hero: Who did it? Outcasts? Collective? Random exiles?
+SAM: Gravity.
+Hero: What?
+SAM: He broke his neck. Probably from trying to obtain baryte samples.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: I'll be damned.
+    Hero: SAM, download his data. We can at least deliver that.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Seriously?
+    ↩ (goto) Hero: SAM, download his data. We can at least deliver that.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Wow. That's... kind of embarrassing.
+    ↩ (goto) Hero: SAM, download his data. We can at least deliver that.
+├ option 4:
+    global_squad_angara ⟨cond⟩: That's... an unfortunate death.
+    ↩ (goto) Hero: SAM, download his data. We can at least deliver that.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Better than being murdered.
+    ↩ (goto) Hero: SAM, download his data. We can at least deliver that.
+└─ merge ─┘

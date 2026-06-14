@@ -1,0 +1,79 @@
+# game/conversations/unc/oasis/rp/testsubj/oasis_testsubj_0100_d
+# Primary speaker: oasis_geneticist
+# Source: game/conversations/unc/oasis/rp/testsubj/oasis_testsubj_0100_d.xml
+==================================================
+Hero: Hello there...
+oasis_geneticist: I’m working.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You scanned me pretty hard. That {i}wasn't{/i} your way of saying "welcome, stranger"?
+    oasis_geneticist: I wanted to be discreet.
+    Hero: Noted. What’s your interest in me?
+    oasis_geneticist: You’re an alien on my homeworld. Why wouldn’t I be interested?
+    Hero: You could've asked.
+    oasis_geneticist: Fine. Will you submit to a full-spectrum analysis of your biology?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: You haven't even told me your name.
+        oasis_geneticist: Daanfre. Biological researcher. This is my home.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Are you looking for something specific?
+            oasis_geneticist: We share many external similarities. I want to learn if that holds true internally.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: You haven't even told me your name.
+            ├ option 2:
+                Hero: I can't fault you for being curious. Scan away. ⏎
+                oasis_geneticist: I didn’t think you’d comply.
+                Hero: I’m full of surprises.
+                oasis_geneticist: That, you are.
+                oasis_geneticist: When we face extinction, family is our final comfort. Do you understand that?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I came to this galaxy with my family. I lost my father on the day I arrived.
+                    oasis_geneticist: But you still carry on his legacy. He knew that, in the end.
+                    oasis_geneticist: Family is everything. Not only the one we have now, but the ones that follow us.
+                    oasis_geneticist: What will your family look like in five generations? Ten? How many of you will there be?
+                    Hero: You're worried there'll be more of us than you.
+                    oasis_geneticist: I have 23 grandchildren. I want to know what {i}their{/i} grandchildren will inherit.
+                    oasis_geneticist: Goodbye, Pathfinder.
+                ├ option 2:
+                    Hero: I've spent long enough around your people to understand what family means to you.
+                    oasis_geneticist: You only see the surface.
+                    ↩ (goto) oasis_geneticist: Family is everything. Not only the one we have now, but the ones that follow us.
+                └─ merge ─┘
+            ├ option 3:
+                Hero: I have a scanner, too. Seems only fair you let me go first.
+                oasis_geneticist: That’s ridiculous.
+                Hero: It’s my final offer.
+                oasis_geneticist: You’re bold, Pathfinder. All right. Scan me.
+                SAM: [Private] Angaran skeletal structure, muscular formation, and organs are optimal for thriving in harsh environments.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    SAM: [Private] As previously discovered, they can also generate and discharge bioelectrical energy.
+                    Hero: All done. You're interesting.
+                    oasis_geneticist: So are you.
+                    ↩ (goto) oasis_geneticist: When we face extinction, family is our final comfort. Do you understand that?
+                ├ option 2:
+                    SAM: [Private] They can also generate and discharge bioelectrical energy.
+                    ↩ (goto) Hero: All done. You're interesting.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: I can't fault you for being curious. Scan away. ⏎
+        ├ option 3:
+            ↩ (goto) Hero: I have a scanner, too. Seems only fair you let me go first.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero [OncePerGame]: Are you looking for something specific?
+    ├ option 3:
+        ↩ (goto) Hero: I can't fault you for being curious. Scan away. ⏎
+    ├ option 4:
+        ↩ (goto) Hero: I have a scanner, too. Seems only fair you let me go first.
+    └─ merge ─┘
+├ option 2:
+    Hero: You scan Aya's first alien visitor without permission, then blow me off? Come on.
+    oasis_geneticist: Curiosity doesn't imply a desire to interact.
+    ↩ (goto) Hero: Noted. What’s your interest in me?
+└─ merge ─┘

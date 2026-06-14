@@ -1,0 +1,51 @@
+# game/conversations/hubs/hub_tem/banter/tem_phase6_researchroom_b
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_tem/banter/tem_phase6_researchroom_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_angara: [Comm] I'm in the Tech Lab, if you need me.
+    ├ option 2:
+        global_humanark_asari_dr: [Comm] Ryder. I need you in the medbay.
+    ├ option 3:
+        global_squad_female_human: [Comm] I'm in the bio lab if you want to come by.
+    ├ option 4:
+        global_squad_male_human: [Comm] In the storage area if you need me.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Lexi, I hear Scott's back on his feet.
+            global_humanark_asari_dr: He's hobbling around. Nowhere near ready for the field.
+            global_squad_male_human: Think how much we'll get done with two Ryders.
+            global_squad_angara: I can't wait to see Evfra's face when he learns there's another one.
+        ├ option 2:
+            global_squad_female_human: Lexi, I hear Sara's doing well.
+            global_humanark_asari_dr: She's healing. Not as fast as she'd like, of course.
+            ↩ (goto) global_squad_male_human: Think how much we'll get done with two Ryders.
+        └─ merge ─┘
+    ├ option 2:
+        global_humanark_asari_dr: You're all booked for physicals. No excuses.
+        global_squad_male_human: Are you sure? I have some good ones.
+        global_squad_female_human: I'll make sure he goes, Lexi.
+        global_humanark_asari_dr: Thank you, Cora. You're up first, by the way.
+        global_squad_female_human: Shit.
+    ├ option 3:
+        global_squad_female_human: What will the angara do now? And the Resistance?
+        global_squad_angara: The fight goes on. We have to secure Khi Tasira, and other territories. There are still questions.
+        global_humanark_asari_dr: The Jardaan may be the only ones with the answers.
+        global_squad_angara: Not the answers we determine for ourselves.
+        global_squad_male_human: Hell, yeah.
+    ├ option 4:
+        global_squad_male_human: But if you think about it, we're free to do almost anything now.
+        global_squad_female_human: Relax on a sunny beach?
+        global_squad_male_human: Why not? We must have made some.
+        global_squad_angara: And we'd be willing to share.
+        global_squad_male_human: Beach volleyball. I'd say it was the right time.
+        global_humanark_asari_dr: Sans jump-jet, I hope?
+    └─ merge ─┘
+└─ merge ─┘

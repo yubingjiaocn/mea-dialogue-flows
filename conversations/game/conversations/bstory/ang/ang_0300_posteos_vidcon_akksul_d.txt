@@ -1,0 +1,50 @@
+# game/conversations/bstory/ang/ang_0300_posteos_vidcon_akksul_d
+# Primary speaker: global_squad_angara
+# Source: game/conversations/bstory/ang/ang_0300_posteos_vidcon_akksul_d.xml
+==================================================
+Hero: Jaal, I'm in the meeting room.
+Narration: Jaal enters the meeting room.
+global_squad_angara: Right behind you, Ryder. Pulling up the message.
+global_extremist_leader: [Comm] Jaal Ama Darav. You always were a shortsighted fool.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_extremist_leader ⟨cond⟩: [Comm] Helping an outsider instead of your own people.
+    global_extremist_leader: [Comm] You're unfit to bear your family's name.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Okay, this guy is really starting to piss me off.
+        global_squad_angara: He always was a vehshaanan.
+        Hero: Veh-sha-what?
+        global_squad_angara: Someone pleased with his own shit.
+        Hero: {i}(Laughs.){/i}
+        global_squad_angara: We've never gotten along.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: He's just jealous.
+            global_squad_angara: Of what?
+            Hero: You're the better man.
+            global_squad_angara: Well... {i}(Chuckles.){/i} I am better-looking.
+            global_squad_angara: Akksul wants us to do something reckless.
+            global_squad_angara: Let's not give him the satisfaction.
+            Narration: Jaal exits, leaving Ryder in the meeting room.
+        ├ option 2:
+            Hero: I'm still learning about angara.
+            Hero: But that sounded more personal than a childhood rivalry.
+            global_squad_angara: He's too smart to attack me directly.
+            ↩ (goto) global_squad_angara: Akksul wants us to do something reckless.
+        ├ option 3:
+            Hero: I thought I could reason with him.
+            Hero: But after Prodromos and this...
+            global_squad_angara: You did everything you could, Ryder.
+            ↩ (goto) global_squad_angara: Akksul wants us to do something reckless.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I didn't mean to make my enemies yours.
+        global_squad_angara: He's said similar things before.
+        global_squad_angara: When we were students, the Moshae paired us together.
+        ↩ (goto) global_squad_angara: We've never gotten along.
+    └─ merge ─┘
+├ option 2:
+    global_extremist_leader: [Comm] Helping an outsider instead of your own people.
+    ↩ (goto) global_extremist_leader: [Comm] You're unfit to bear your family's name.
+└─ merge ─┘

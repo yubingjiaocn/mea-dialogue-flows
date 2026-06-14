@@ -1,0 +1,374 @@
+# game/conversations/hubs/hub_aya/rp/relics/aya_relic_0200_return_i
+# Primary speaker: aya_curator_avela_multi
+# Source: game/conversations/hubs/hub_aya/rp/relics/aya_relic_0200_return_i.xml
+==================================================
+aya_curator_avela_multi: Paavoa! I'm glad they finally let you into the city. You deserve it.
+aya_curator_avela_multi: This is Aya's cultural museum and history archive. It's small, but you've already made it brighter.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    aya_curator_avela_multi: Pathfinder. I've been studying the helmet you found, and it's got me thinking...
+    aya_curator_avela_multi: If it wasn't for you, we wouldn't even know that helmet existed. What if that's not all we're missing?
+    aya_curator_avela_multi: There could be a wealth of history just out of our reach. So... I'm requesting your help again.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: For you, anything.
+        aya_curator_avela_multi: I'd be lying if I said I didn't like the sound of that.
+        aya_curator_avela_multi: I've led digs on every angaran homeworld. But there are places I've missed. Areas only a Pathfinder could go.
+        aya_curator_avela_multi: There could be relics sitting untouched for centuries because no one could reach them.
+        aya_curator_avela_multi: What I ask is this: if you ever find yourself in an area like that, you keep an eye out for artifacts.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I already found one. Take a look at this.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                aya_curator_avela_multi: How in the skies did you find an angaran star map? One that still works, even.
+                aya_curator_avela_multi: It must be pre-Scourge. If we analyze it, we can learn where our people traveled before the dark age.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Aren't star maps usually bigger?
+                    aya_curator_avela_multi: An angaran star map isn't used for navigation. It acts as a log of where its owner traveled.
+                    aya_curator_avela_multi: This one's data is locked, but Elihn can decrypt it for me.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        aya_curator_avela_multi ⟨cond⟩: You've given me more to study than I ever expected. I've got a lot of work ahead.
+                        aya_curator_avela_multi: Thank you for your help, Pathfinder. I'll let you know if I discover anything.
+                    ├ option 2:
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: I picked this up. Any idea what it might be?
+                            ↩ (goto) aya_curator_avela_multi: How in the skies did you find an angaran star map? One that still works, even.
+                        ├ option 2:
+                            Hero ⟨cond⟩: Is this angaran? I found it on one of your homeworlds.
+                            aya_curator_avela_multi: Sun above... it's an ancient rivaan. A musical instrument. It uses an angara's body energy to produce music.
+                            aya_curator_avela_multi: We have them now, but nothing this beautiful. The songs it played were probably lost long ago.
+                            aya_curator_avela_multi: How much culture have we forgotten? Art, music, stories... it's all gone.
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                Hero ⟨cond⟩: Because of you, it won't disappear completely.
+                                aya_curator_avela_multi: Yes, I can be determined.
+                                Hero: I admire it.
+                                aya_curator_avela_multi: You say that now.
+                                ↩ (goto) aya_curator_avela_multi: [empty]
+                            ├ option 2:
+                                Hero: You're already rebuilding. Look at Aya.
+                                aya_curator_avela_multi: We have a long way to go.
+                                aya_curator_avela_multi: In any case, relics like this help us.
+                                ↩ (goto) aya_curator_avela_multi: [empty]
+                            ├ option 3:
+                                Hero: I can't imagine losing everything that way.
+                                aya_curator_avela_multi: You left your culture behind. This isn't much different.
+                                ↩ (goto) aya_curator_avela_multi: In any case, relics like this help us.
+                            └─ merge ─┘
+                        ├ option 3:
+                            Hero ⟨cond⟩: I picked up this figure earlier. It might be angaran.
+                            aya_curator_avela_multi: This... this is unfamiliar to me. It does resemble an angara, but... it looks so strange.
+                            aya_curator_avela_multi: It's clearly centuries old. Is it an artistic interpretation, or is this what we really looked like?
+                            aya_curator_avela_multi: The implications... Pathfinder, you may have discovered our earliest artifact yet.
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                Hero ⟨cond⟩: Does that win me any points?
+                                aya_curator_avela_multi: I'd say you're getting there.
+                                ↩ (goto) aya_curator_avela_multi: [empty]
+                            ├ option 2:
+                                Hero: Could it be a relic from another culture?
+                                aya_curator_avela_multi: The technique and material matches other angaran relics. And you found it on one of our worlds.
+                                aya_curator_avela_multi: But perhaps the depiction isn't an angara. It could be a deity of some sort.
+                                ↩ (goto) aya_curator_avela_multi: [empty]
+                            ├ option 3:
+                                Hero: If I'd known what a big deal it was, I would've let it ride shotgun.
+                                aya_curator_avela_multi: No harm done. It's seen centuries of wear—one bumpy ride won't change much.
+                                ↩ (goto) aya_curator_avela_multi: [empty]
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 3:
+                        ┌─ BRANCH (8) ─┐
+                        ├ option 1:
+                            Hero: Is it normal for someone as young as you to be in charge?
+                            aya_curator_avela_multi: I'm no younger than you—and you're a Pathfinder.
+                            Hero: I kinda inherited the job.
+                            aya_curator_avela_multi: So did I. I was apprentice to the former curator. It was my job to bring him artifacts from other worlds.
+                            aya_curator_avela_multi: When he retired, I sort of... fell into his position.
+                            Hero: Do you miss relic hunting?
+                            aya_curator_avela_multi: Some days. But mostly I'm happy to spend more time with each piece.
+                            ┌─ BRANCH (8) ─┐
+                            ├ option 1:
+                                Hero: Have you always been into history?
+                                aya_curator_avela_multi: Oh yes. When I was young, I would dig up shells and pretend they were ancient armor pieces.
+                                aya_curator_avela_multi: I've always had a big imagination. With only fourteen siblings, I got lonely sometimes.
+                                Hero: Fourteen? That's insane.
+                                aya_curator_avela_multi: Why, how many do you have?
+                                Hero: Just the one.
+                                aya_curator_avela_multi: Oh... that's terrible. I'm sorry.
+                                ↩ (goto) aya_curator_avela_multi: [empty]
+                            ├ option 2:
+                                Hero: Any insight you can give me on the Remnant tech?
+                                aya_curator_avela_multi: We don't know much. To our understanding, it's always been here.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    aya_curator_avela_multi: Stars, I would love to be the one to solve that mystery.
+                                    ┌─ BRANCH (8) ─┐
+                                    ├ option 1:
+                                        Hero ⟨cond⟩: This is quite a place.
+                                        aya_curator_avela_multi: It feels like home to me. Sometimes I think I should move in here.
+                                        aya_curator_avela_multi: But it's got a long way to go. Someday we'll fill it with relics of the past, each one telling a story.
+                                        aya_curator_avela_multi: And my people will come here to learn—and to remember.
+                                        Hero: You'll get there.
+                                        aya_curator_avela_multi: With enough hard work, yes.
+                                        ┌─ BRANCH (7) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) Hero: Any insight you can give me on the Remnant tech?
+                                        ├ option 2:
+                                            ↩ (goto) Hero: Is it normal for someone as young as you to be in charge?
+                                        ├ option 3:
+                                            Hero ⟨cond⟩: You said the helmet was touched by the Scourge. What does that mean?
+                                            aya_curator_avela_multi: I forget your people weren't around for... that.
+                                            aya_curator_avela_multi: When the Scourge appeared, it targeted Remnant ships. Broke down their technology.
+                                            aya_curator_avela_multi: With the drive cores disabled...
+                                            Hero: The ships crashed.
+                                            aya_curator_avela_multi: But that may not be all. The Scourge leaves a mark on whatever it touches.
+                                            aya_curator_avela_multi: If it touched this helmet, perhaps the pilot was the target. There may be Remnant tech inside the helmet.
+                                            Hero: Or in the pilot.
+                                            aya_curator_avela_multi: Storms... I hadn't even thought of that...
+                                            ┌─ BRANCH (7) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) Hero: Is it normal for someone as young as you to be in charge?
+                                            ├ option 2:
+                                                ↩ (goto) Hero: Any insight you can give me on the Remnant tech?
+                                            ├ option 3:
+                                                ↩ (goto) Hero ⟨cond⟩: This is quite a place.
+                                            ├ option 4:
+                                                Hero ⟨cond⟩: You work too hard. Take a break at the tavetaan with me.
+                                                aya_curator_avela_multi: I can't just step away from these artifacts. There's so much to be done.
+                                                Hero: One of these times you'll say yes.
+                                                aya_curator_avela_multi: Perhaps. You should keep trying.
+                                                ┌─ BRANCH (6) ─┐
+                                                ├ option 1:
+                                                    ↩ (goto) Hero: Is it normal for someone as young as you to be in charge?
+                                                ├ option 2:
+                                                    ↩ (goto) Hero: Any insight you can give me on the Remnant tech?
+                                                ├ option 3:
+                                                    ↩ (goto) Hero ⟨cond⟩: This is quite a place.
+                                                ├ option 4:
+                                                    ↩ (goto) Hero ⟨cond⟩: You said the helmet was touched by the Scourge. What does that mean?
+                                                ├ option 5:
+                                                    Hero ⟨cond⟩: I'll come back when I have something.
+                                                    aya_curator_avela_multi: Stars guide your travels.
+                                                ├ option 6:
+                                                    Hero ⟨cond⟩: I should get moving.
+                                                    aya_curator_avela_multi: Come back soon.
+                                                └─ merge ─┘
+                                            ├ option 5:
+                                                Hero ⟨cond⟩: You know, as an Aya resident, it's your duty to show the new guy around.
+                                                aya_curator_avela_multi: I see... is that a human custom?
+                                                Hero: Oh, yeah. A very important one.
+                                                aya_curator_avela_multi: Then I'm sure Paaran will be happy to give you a tour.
+                                                ┌─ BRANCH (6) ─┐
+                                                ├ option 1:
+                                                    ↩ (goto) Hero: Is it normal for someone as young as you to be in charge?
+                                                ├ option 2:
+                                                    ↩ (goto) Hero: Any insight you can give me on the Remnant tech?
+                                                ├ option 3:
+                                                    ↩ (goto) Hero ⟨cond⟩: This is quite a place.
+                                                ├ option 4:
+                                                    ↩ (goto) Hero ⟨cond⟩: You said the helmet was touched by the Scourge. What does that mean?
+                                                ├ option 5:
+                                                    ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                                                ├ option 6:
+                                                    ↩ (goto) Hero ⟨cond⟩: I should get moving.
+                                                └─ merge ─┘
+                                            ├ option 6:
+                                                ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                                            ├ option 7:
+                                                ↩ (goto) Hero ⟨cond⟩: I should get moving.
+                                            └─ merge ─┘
+                                        ├ option 4:
+                                            ↩ (goto) Hero ⟨cond⟩: You know, as an Aya resident, it's your duty to show the new guy around.
+                                        ├ option 5:
+                                            ↩ (goto) Hero ⟨cond⟩: You work too hard. Take a break at the tavetaan with me.
+                                        ├ option 6:
+                                            ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                                        ├ option 7:
+                                            ↩ (goto) Hero ⟨cond⟩: I should get moving.
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        ↩ (goto) Hero: Is it normal for someone as young as you to be in charge?
+                                    ├ option 3:
+                                        ↩ (goto) Hero ⟨cond⟩: You said the helmet was touched by the Scourge. What does that mean?
+                                    ├ option 4:
+                                        ↩ (goto) Hero ⟨cond⟩: You know, as an Aya resident, it's your duty to show the new guy around.
+                                    ├ option 5:
+                                        ↩ (goto) Hero ⟨cond⟩: You work too hard. Take a break at the tavetaan with me.
+                                    ├ option 6:
+                                        ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                                    ├ option 7:
+                                        ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                                    ├ option 8:
+                                        ↩ (goto) Hero ⟨cond⟩: I should get moving.
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    aya_curator_avela_multi: It's clearly not angaran, since only you can access it.
+                                └─ merge ─┘
+                            ├ option 3:
+                                ↩ (goto) Hero ⟨cond⟩: This is quite a place.
+                            ├ option 4:
+                                ↩ (goto) Hero ⟨cond⟩: You said the helmet was touched by the Scourge. What does that mean?
+                            ├ option 5:
+                                ↩ (goto) Hero ⟨cond⟩: You know, as an Aya resident, it's your duty to show the new guy around.
+                            ├ option 6:
+                                ↩ (goto) Hero ⟨cond⟩: You work too hard. Take a break at the tavetaan with me.
+                            ├ option 7:
+                                ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                            ├ option 8:
+                                ↩ (goto) Hero ⟨cond⟩: I should get moving.
+                            └─ merge ─┘
+                        ├ option 2:
+                            ↩ (goto) Hero: Any insight you can give me on the Remnant tech?
+                        ├ option 3:
+                            ↩ (goto) Hero ⟨cond⟩: This is quite a place.
+                        ├ option 4:
+                            ↩ (goto) Hero ⟨cond⟩: You said the helmet was touched by the Scourge. What does that mean?
+                        ├ option 5:
+                            ↩ (goto) Hero ⟨cond⟩: You know, as an Aya resident, it's your duty to show the new guy around.
+                        ├ option 6:
+                            ↩ (goto) Hero ⟨cond⟩: You work too hard. Take a break at the tavetaan with me.
+                        ├ option 7:
+                            ↩ (goto) Hero ⟨cond⟩: I'll come back when I have something.
+                        ├ option 8:
+                            ↩ (goto) Hero ⟨cond⟩: I should get moving.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Do you know much about where your ancestors traveled?
+                    aya_curator_avela_multi: No, not at all. The Scourge wiped out nearly everything. We're only just beginning to travel again.
+                    Hero: Could they have made it to another galaxy, like us?
+                    aya_curator_avela_multi: It's possible. For all we know, there are entire angaran worlds beyond our reach.
+                    ↩ (goto) aya_curator_avela_multi: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) aya_curator_avela_multi: Sun above... it's an ancient rivaan. A musical instrument. It uses an angara's body energy to produce music.
+            ├ option 3:
+                ↩ (goto) aya_curator_avela_multi: This... this is unfamiliar to me. It does resemble an angara, but... it looks so strange.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: That's it?
+            aya_curator_avela_multi: That's it. Keep me in mind as you explore, and bring me anything of interest.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: It'd help if I knew where to look.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    aya_curator_avela_multi ⟨cond⟩: The worlds we've inhabited are Voeld, Kadara, and Elaaden.
+                    aya_curator_avela_multi: I've searched them all, but each had obstacles preventing me from looking everywhere.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero [OncePerGame]: You're the expert. Can't you just come with me?
+                        aya_curator_avela_multi: I'd like to. More than anything. But I'm needed here.
+                        aya_curator_avela_multi: My predecessor trusted me to stay and carry on his work. To find answers.
+                        aya_curator_avela_multi: No matter how much I miss the adventure, I have a responsibility here.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero [OncePerGame]: It'd help if I knew where to look.
+                        ├ option 2:
+                            Hero: A few hidden relics, coming up.
+                            aya_curator_avela_multi: I don't know what I'd do without you.
+                            aya_curator_avela_multi: I'll be here if you find anything. Good luck.
+                            ↩ (goto) aya_curator_avela_multi: [empty]
+                        ├ option 3:
+                            Hero: If I spot anything, I'll see what I can do.
+                            aya_curator_avela_multi: That's all I ask. Thank you.
+                            ↩ (goto) aya_curator_avela_multi: I'll be here if you find anything. Good luck.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) Hero: A few hidden relics, coming up.
+                    ├ option 3:
+                        ↩ (goto) Hero: If I spot anything, I'll see what I can do.
+                    └─ merge ─┘
+                ├ option 2:
+                    aya_curator_avela_multi: Any planet could contain something of potential value. My people traveled far.
+                    aya_curator_avela_multi: I know that doesn't answer your question, but... just keep your eyes open for me?
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero [OncePerGame]: You're the expert. Can't you just come with me?
+                    ├ option 2:
+                        ↩ (goto) Hero: A few hidden relics, coming up.
+                    ├ option 3:
+                        ↩ (goto) Hero: If I spot anything, I'll see what I can do.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero [OncePerGame]: You're the expert. Can't you just come with me?
+            ├ option 3:
+                ↩ (goto) Hero: A few hidden relics, coming up.
+            ├ option 4:
+                ↩ (goto) Hero: If I spot anything, I'll see what I can do.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I can't agree without knowing what you want from me.
+        aya_curator_avela_multi: Of course. That's only fair.
+        ↩ (goto) aya_curator_avela_multi: I've led digs on every angaran homeworld. But there are places I've missed. Areas only a Pathfinder could go.
+    ├ option 3:
+        Hero: Just tell me what I need to do.
+        ↩ (goto) aya_curator_avela_multi: I've led digs on every angaran homeworld. But there are places I've missed. Areas only a Pathfinder could go.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) aya_curator_avela_multi: [empty]
+└─ merge ─┘
+aya_curator_avela_multi: Pathfinder, did you make it to Havarl?
+Hero: I found this angaran helmet. Does it mean anything to you?
+aya_curator_avela_multi: This is a pre-dark age design. Do you see the black marks? The Scourge targeted this pilot's ship.
+aya_curator_avela_multi: Stars, it's perfectly preserved. I can almost imagine the pilot. He must have been so afraid.
+aya_curator_avela_multi: I've never seen one of these intact. Do you know how rare this is? I can't even begin to repay you.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: If it makes you that happy, I'll gladly dig up a few more.
+    aya_curator_avela_multi: Do you offer priceless relics to every angara you meet?
+    Hero: Only the special ones.
+    aya_curator_avela_multi: I... I'll keep that in mind.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        aya_curator_avela_multi ⟨cond⟩: You know, Pathfinder... this gets me thinking.
+        ↩ (goto) aya_curator_avela_multi: If it wasn't for you, we wouldn't even know that helmet existed. What if that's not all we're missing?
+    ├ option 2:
+        aya_curator_avela_multi: I need to study this further to fully understand it. I'll let you know if I discover anything.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Gives me an excuse to talk to you.
+            aya_curator_avela_multi: Then I hope I have something soon.
+            ↩ (goto) aya_curator_avela_multi: [empty]
+        ├ option 2:
+            Hero: You got it.
+            aya_curator_avela_multi: Thank you, Pathfinder.
+            ↩ (goto) aya_curator_avela_multi: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Why would the Scourge target that ship?
+    aya_curator_avela_multi: It must have been a Remnant vessel. Or maybe there's Remnant tech in the helmet itself.
+    aya_curator_avela_multi: Can you imagine? Our ancestors using the Remnant...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) aya_curator_avela_multi ⟨cond⟩: You know, Pathfinder... this gets me thinking.
+    ├ option 2:
+        ↩ (goto) aya_curator_avela_multi: I need to study this further to fully understand it. I'll let you know if I discover anything.
+    └─ merge ─┘
+├ option 3:
+    Hero: If it helps you piece your history together, that's all I need.
+    aya_curator_avela_multi: It does help. You have no idea how much.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) aya_curator_avela_multi ⟨cond⟩: You know, Pathfinder... this gets me thinking.
+    ├ option 2:
+        ↩ (goto) aya_curator_avela_multi: I need to study this further to fully understand it. I'll let you know if I discover anything.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) aya_curator_avela_multi ⟨cond⟩: [empty]
+aya_curator_avela_multi: Hello, Pathfinder. Any good news for me?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) aya_curator_avela_multi ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) aya_curator_avela_multi: [empty]
+└─ merge ─┘
+aya_curator_avela_multi: Good to see you again.
+↩ (goto) aya_curator_avela_multi: [empty]

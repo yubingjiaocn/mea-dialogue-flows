@@ -1,0 +1,47 @@
+# game/conversations/crit/intrld35/intrld35_kad_0600_reyes_d
+# Primary speaker: kad_charlatan
+# Source: game/conversations/crit/intrld35/intrld35_kad_0600_reyes_d.xml
+==================================================
+kad_charlatan: Have a nice chat?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: She almost shot me!
+    kad_charlatan: {i}(Chuckles.){/i} Don't worry. I found a workaround.
+    Hero: Let me guess—it comes with strings attached.
+    kad_charlatan: Not any new ones.
+    kad_charlatan: Remember—Evfra wants Vehn alive, so when you get inside, give him this.
+    Narration: Reyes hands Ryder a small device.
+    kad_charlatan: That'll eat through whatever Sloane's holding him in, and it can't be traced back to us.
+    kad_charlatan: A Resistance agent will be waiting to pick Vehn up.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Vehn's intel better be worth it.
+        kad_charlatan: You'll be the judge of that. Not me.
+        kad_charlatan: There's a maintenance shaft around the corner. Sending the access code to your omni-tool.
+        kad_charlatan: That'll get you inside. You should be able to handle the rest.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: There's still the matter of the bill you left me with.
+            kad_charlatan: I'm usually the model gentleman.
+            Hero: I don't believe you.
+            kad_charlatan: Because I'm lying.
+            kad_charlatan: When you're done, come to Tartarus. First round's on me. I promise.
+            Narration: Reyes leaves.
+        ├ option 2:
+            Hero: Thanks—you're a lifesaver.
+            kad_charlatan: Literally, in Vehn's case.
+            ↩ (goto) kad_charlatan: When you're done, come to Tartarus. First round's on me. I promise.
+        ├ option 3:
+            Hero: Working with you has been... enlightening.
+            kad_charlatan: For us both.
+            ↩ (goto) kad_charlatan: When you're done, come to Tartarus. First round's on me. I promise.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: What if he makes a run for it?
+        kad_charlatan: It's covered. You just focus on... whatever it is you need from Vehn.
+        ↩ (goto) kad_charlatan: There's a maintenance shaft around the corner. Sending the access code to your omni-tool.
+    └─ merge ─┘
+├ option 2:
+    Hero: I think she likes me.
+    ↩ (goto) kad_charlatan: {i}(Chuckles.){/i} Don't worry. I found a workaround.
+└─ merge ─┘

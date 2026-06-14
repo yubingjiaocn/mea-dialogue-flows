@@ -1,0 +1,150 @@
+# game/conversations/unc/storms/stm_0311_naming_dead_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0311_naming_dead_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: A colonist from Site 1. Radiation got her.
+    global_crew_co-pilot: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+    global_humanark_asari_dr: [Comm] Wonder how many are out there.
+    Hero: Too many. Lexi, update Nexus records on "Avante, Tegan C." and get a recovery shuttle out here.
+    global_humanark_asari_dr: [Comm] Good idea. If she's got family, they deserve closure.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: With Prodromos settled, at least her death meant something.
+    ├ option 2:
+        Hero: We'll give them more than closure—we'll finish what she started.
+    └─ merge ─┘
+├ option 2:
+    SAM [OncePerGame]: Pathfinder. Another deceased colonist.
+    global_humanark_asari_dr: [Comm] If you get me their name, I'll update the records and tag the body for recovery.
+├ option 3:
+    Hero: "Avante, Tegan C." Radiation got to her.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Colonist from Site 1. No one came for her body?
+    global_crew_co-pilot: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+    global_humanark_asari_dr: [Comm] Wonder how many are out there.
+    Hero: Too many. Lexi, update Nexus records on "Pavlov, Amira S." and get a recovery shuttle out here.
+    ↩ (goto) global_humanark_asari_dr: [Comm] Good idea. If she's got family, they deserve closure.
+├ option 2:
+    Hero: Lexi. Found another colonist.
+    global_humanark_asari_dr [OncePerGame]: [Comm] So many. All right. Send me their information.
+├ option 3:
+    Hero: “Pavlov, Amira S.”
+    global_humanark_asari_dr: [Comm] Got it. Thanks, Ryder.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Nexus not send a retrieval team for the bodies?
+        global_crew_co-pilot: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+        global_humanark_asari_dr: [Comm] Wonder how many are out there.
+        Hero: Too many. Lexi, update Nexus records on "Trenitus, Gordanus" and get a recovery shuttle out here.
+        global_humanark_asari_dr: [Comm] Good idea. If he's got family, they deserve closure.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: With Prodromos settled, at least his death meant something.
+        ├ option 2:
+            Hero: We'll give them more than closure—we'll finish what he started.
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩ [OncePerGame]: He died protecting this outpost. And we left him.
+            Hero: We'll make it right, Liam.
+        ├ option 2:
+            global_squad_turian ⟨cond⟩ [OncePerGame]: Fought 'til the end. Very turian.
+        ├ option 3:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: Least he died an honorable death.
+        ├ option 4:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: More dead. {i}(Sighs.){/i}
+        ├ option 5:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: Poor guy. Should've run, instead of putting up a fight.
+        └─ merge ─┘
+    ├ option 3:
+        Hero: Lexi. Update records for “Trenitus, Gordanus.”
+        global_humanark_asari_dr: [Comm] Consider it done, Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Nexus not send a retrieval team for the bodies?
+        global_crew_co-pilot: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+        global_humanark_asari_dr: [Comm] Wonder how many are out there.
+        Hero: Too many. Lexi, update Nexus records on "Ylar, Thysa" and get a recovery shuttle out here.
+        ↩ (goto) global_humanark_asari_dr: [Comm] Good idea. If she's got family, they deserve closure.
+    ├ option 2:
+        Hero [OncePerGame]: Lexi. I've got another one.
+        global_humanark_asari_dr: [Comm] Standing by. Waiting for your scan.
+    ├ option 3:
+        Hero: "Ylar, Thysa."
+        global_humanark_asari_dr: [Comm] Records updated, Pathfinder.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Nexus not send a retrieval team for the bodies?
+        global_crew_co-pilot: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+        global_humanark_asari_dr: [Comm] Wonder how many are out there.
+        Hero: Too many. Lexi, update Nexus records on "West, Porter M." and get a recovery shuttle out here.
+        global_humanark_asari_dr: [Comm] Good idea. If he's got family, they deserve closure.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: With Prodromos settled, at least his death meant something.
+        ├ option 2:
+            Hero: We'll give them more than closure—we'll finish what he started.
+        └─ merge ─┘
+    ├ option 2:
+        SAM [OncePerGame]: Pathfinder. Detecting remains of a colonist.
+    ├ option 3:
+        Hero: "West, Porter M." Get that, Lexi?
+        global_humanark_asari_dr: [Comm] Yes, Pathfinder. Records updated.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: He was tortured. Nexus didn't mention anything about this.
+    global_crew_co-pilot: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+    global_humanark_asari_dr: [Comm] Wonder how many are out there.
+    Hero: Too many. Lexi, update Nexus records on "Anton, Darin T." and get a recovery shuttle out here.
+    global_humanark_asari_dr: [Comm] Good idea. If he's got family, they deserve closure.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: With Prodromos settled, at least his death meant something.
+    ├ option 2:
+        Hero: We'll give them more than closure—we'll finish what he started.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: What did the kett do to him?
+    ├ option 2:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Well, that's not pretty.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Kett bastards.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: The kett tortured him.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: In case you were wondering if the kett were sadistic assholes...
+    └─ merge ─┘
+├ option 3:
+    Hero: "Anton, Darin T." Can't undo what happened. But we can make sure he's remembered.
+    global_humanark_asari_dr: [Comm] That we can, Pathfinder.
+└─ merge ─┘
+global_humanark_asari_dr: [Comm] Between the uprising and the loss of Sites 1 and 2, Nexus accounts on colonist whereabouts are a mess.
+global_humanark_asari_dr: [Comm] But I think that was the last one marked MIA. All records have been sent to Tann and Addison.
+global_humanark_asari_dr: [Comm] Good work, Ryder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Lexi. Got another one.
+    global_humanark_asari_dr: [Comm] Huh. That one was actually mentioned in the records. Transport it back—I'll update.
+├ option 2:
+    Hero: Found another body.
+    global_humanark_asari_dr: [Comm] Already tagged for recovery. Thanks, Ryder.
+└─ merge ─┘
+Hero: Lexi. We've got more bodies out here.
+global_humanark_asari_dr: [Comm] Ugh. Nexus records really are a mess. Just keep sending information my way, and I'll pass it along.
+global_humanark_asari_dr: [Comm] No one's getting left behind.

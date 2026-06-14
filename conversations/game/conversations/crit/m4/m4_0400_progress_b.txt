@@ -1,0 +1,99 @@
+# Game/Conversations/Crit/M4/m4_0400_progress_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0400_progress_b.xml
+==================================================
+SAM: There is a maintenance corridor connecting to this room.
+Hero: Okay. Must be a way to access it. I'll look for it.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Could be useful intel here. We should check this area out while we can.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: While we're at it, maybe check around for intel. Could be useful.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Could be useful intel here. Might want to poke around while we can.
+├ option 4:
+    global_squad_asari ⟨cond⟩: And while we've got the chance, may as well snoop around. Might be useful intel.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Might also want to poke around here while we can. Could be useful intel.
+├ option 6:
+    global_squad_angara ⟨cond⟩: I advise we also search for any useful intelligence. This is a rare opportunity.
+└─ merge ─┘
+Hero: Raeka, come in! What's going on?
+global_salarian_pathfinder_multi: [Comm] A little diversion! Captain Hayjer and Venro need time to set the EMP! I'll be in touch!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: That is one brave salarian.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Are we sure she isn't part krogan?
+├ option 3:
+    global_squad_asari ⟨cond⟩: That is one kick-ass salarian.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Sure glad she's on our side.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Remind me never to mess with her.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: I'm glad she's on our side.
+└─ merge ─┘
+Hero: TEMP: JOS UNHOOK THIS (TrapReaction)
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: So, does SAM have the same access to all of our physiology?
+    Hero: Don't worry—just mine.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: So, uh, does SAM have the same access to all of our physiology?
+    ↩ (goto) Hero: Don't worry—just mine.
+├ option 3:
+    global_squad_turian ⟨cond⟩: So, does SAM have the same access to all of our physiology?
+    ↩ (goto) Hero: Don't worry—just mine.
+├ option 4:
+    global_squad_asari ⟨cond⟩: So, uh, can SAM just stop my heart whenever it wants?
+    ↩ (goto) Hero: Don't worry—just mine.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Ryder, does SAM have the same access to all of our physiology?
+    ↩ (goto) Hero: Don't worry—just mine.
+├ option 6:
+    global_squad_krogan ⟨cond⟩: Please tell me SAM can't just close its eyes and stop my heart.
+    ↩ (goto) Hero: Don't worry—just mine.
+└─ merge ─┘
+Hero: Here we go. This way.
+Hero: TEMP: JOS UNHOOK THIS
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: There. Maybe that opened the hatchway.
+├ option 2:
+    Hero: Well, that did something. Let's look around.
+├ option 3:
+    SAM: A hatchway has been opened to the maintenance corridor.
+└─ merge ─┘
+SAM: That appears to be a hatchway. It may lead to the maintenance corridor.
+Hero: Just have to get it open.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Won't the Archon notice we're gone?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: I've neutralized the transmitter injected into the Pathfinder.
+        SAM: I'm cloning its signal so the Archon believes you're still his captive.
+        Hero: Nice. Turn it against him.
+    ├ option 2:
+        SAM: I've neutralized the transmitter injected into the Pathfinder.
+        ↩ (goto) SAM: I'm cloning its signal so the Archon believes you're still his captive.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: What happens when the Archon notices we're gone?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Don't you think the Archon will notice we're gone?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: What if the Archon notices we're gone?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 5:
+    global_squad_krogan ⟨cond⟩: And when the Archon finds us gone?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 6:
+    global_squad_angara ⟨cond⟩: The Archon will notice we're not here.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 7:
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘

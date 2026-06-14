@@ -1,0 +1,152 @@
+# game/conversations/unc_ice/ice_4210_pow_quest_pt1_town_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_4210_pow_quest_pt1_town_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_skeot: Stars. It's you. You're the one who saved the Moshae. We've all heard.
+    ice_skeot: Hitting the kett where it counts has really helped our morale.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I can't claim all the credit. Couldn't have done it without the Resistance.
+        ice_skeot: We are united by our struggle against the kett. My grandmother used to say that the mingling of shed blood makes family as surely as birth.
+        ice_skeot: Want to kill more kett? I need someone to rescue my uncle, Niilj. I'm not a fighter yet, or I'd go myself.
+        ice_skeot: If the kett move him from the labor camp, we'll lose him forever.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: What's a kett labor camp for?
+            ice_skeot: Different things. They put people in cages there. Sometimes they make them work.
+            ice_skeot: Sometimes they collect angara, and once they have enough, they move them.
+            ice_skeot: And sometimes they just kill them. My father died that way.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: Damn, kid. I'm sorry.
+                ice_skeot: Don't be sorry! Make sure I don't lose more family!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I'll get your uncle.
+                    ice_skeot: Here's the navpoint of the labor camp. Please hurry. Niilj may not have much time.
+                ├ option 2:
+                    Hero: I have to give this more thought.
+                    ice_skeot: But I thought you... they said you...
+                    ice_skeot: Can you at least consider it on the way to the camp? Here's the navpoint.
+                    ice_skeot: You don't owe me anything, but if it was your people, wouldn't you want the angara to help?
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: I'm so sorry.
+                ↩ (goto) ice_skeot: Don't be sorry! Make sure I don't lose more family!
+            ├ option 3:
+                global_squad_asari ⟨cond⟩: That's awful. I'm sorry.
+                ↩ (goto) ice_skeot: Don't be sorry! Make sure I don't lose more family!
+            ├ option 4:
+                global_squad_turian ⟨cond⟩: I'm so sorry.
+                ↩ (goto) ice_skeot: Don't be sorry! Make sure I don't lose more family!
+            ├ option 5:
+                global_squad_male_human ⟨cond⟩: That's rough. I'm sorry.
+                ↩ (goto) ice_skeot: Don't be sorry! Make sure I don't lose more family!
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: I'll get your uncle.
+        ├ option 3:
+            ↩ (goto) Hero: I have to give this more thought.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Finding allies in the angara has been a great boost for us.
+        ↩ (goto) ice_skeot: We are united by our struggle against the kett. My grandmother used to say that the mingling of shed blood makes family as surely as birth.
+    └─ merge ─┘
+├ option 2:
+    ice_skeot: You're that alien people have been talking about.
+    ice_skeot: Some say we can't trust you, but if you're here to fight kett, that's good enough for me.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You made a quick decision about me.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_skeot ⟨cond⟩: You got me. I hoped that if I flattered you, you'd help me rescue my uncle, Niilj.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: You don't need to manipulate Ryder.
+                ice_skeot: I had to try something. If the kett move Niilj from the labor camp, we'll never find him again.
+                ice_skeot: Will you do it? Will you help me?
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero [OncePerGame]: What's a kett labor camp for?
+                ├ option 2:
+                    ↩ (goto) Hero: I'll get your uncle.
+                ├ option 3:
+                    ↩ (goto) Hero: I have to give this more thought.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_angara ⟨cond⟩: You don't need to manipulate Ryder.
+                ↩ (goto) ice_skeot: I had to try something. If the kett move Niilj from the labor camp, we'll never find him again.
+            ├ option 3:
+                ↩ (goto) ice_skeot: I had to try something. If the kett move Niilj from the labor camp, we'll never find him again.
+            └─ merge ─┘
+        ├ option 2:
+            ice_skeot: Kett kill people. They take our families and we never see them again. Anyone who fights against that has to be better than them.
+            ice_skeot ⟨cond⟩: So, will you fight them? I know the location of the labor camp where they took my uncle.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: What's a kett labor camp for?
+            ├ option 2:
+                ↩ (goto) Hero: I'll get your uncle.
+            ├ option 3:
+                ↩ (goto) Hero: I have to give this more thought.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I appreciate the vote of confidence.
+        ↩ (goto) ice_skeot: Kett kill people. They take our families and we never see them again. Anyone who fights against that has to be better than them.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ice_skeot: Niilj dropped by on his way to Resistance headquarters! He said you freed him and the others.
+    ice_skeot: We've become so used to people never coming back. You've changed everything.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Why did the kett capture your uncle?
+        ice_skeot: I'm not sure. He and his crew were on a Resistance mission and I guess things just went wrong.
+        ice_skeot: Anjik, up at the base, won't tell me anything else.
+        ice_skeot: I never though Niilj would be captured. He's the most experienced fighter I know.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Why did the kett capture your uncle?
+        ├ option 2:
+            Hero: What else do you know about the labor camp?
+            ice_skeot: Not much. There isn't much reconnaissance on it.
+            ice_skeot: If it's like the other camps I've heard about, then the kett probably keep the angara penned.
+            ice_skeot: Security is probably really tight. Lots of guards.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: Why did the kett capture your uncle?
+            ├ option 2:
+                ↩ (goto) Hero: What else do you know about the labor camp?
+            ├ option 3:
+                Hero: I'm going to go now.
+            └─ merge ─┘
+        ├ option 3:
+            ↩ (goto) Hero: I'm going to go now.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: What else do you know about the labor camp?
+    ├ option 3:
+        ↩ (goto) Hero: I'm going to go now.
+    └─ merge ─┘
+├ option 2:
+    ice_skeot ⟨cond⟩: I hope Niilj is still alive.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ice_skeot: Hello again. Can I help with something?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        ice_skeot: I'm here.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        ice_skeot: All right?
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

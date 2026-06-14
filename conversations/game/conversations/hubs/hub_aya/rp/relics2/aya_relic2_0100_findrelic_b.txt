@@ -1,0 +1,58 @@
+# game/conversations/hubs/hub_aya/rp/relics2/aya_relic2_0100_findrelic_b
+# Primary speaker: SAM
+# Source: game/conversations/hubs/hub_aya/rp/relics2/aya_relic2_0100_findrelic_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: I've seen this before. It may be angaran.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Avela will want to see this.
+    ├ option 2:
+        Hero: We should keep this. Could be useful.
+    └─ merge ─┘
+├ option 2:
+    SAM: No data is available, but this may be angaran.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Avela will want to see this.
+    ├ option 2:
+        ↩ (goto) Hero: We should keep this. Could be useful.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: A rivaan? I haven't seen one like this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Let's show it to Avela.
+    ├ option 2:
+        Hero: Maybe we should hold onto it.
+    └─ merge ─┘
+├ option 2:
+    SAM: This may be an angaran musical instrument.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Let's show it to Avela.
+    ├ option 2:
+        ↩ (goto) Hero: Maybe we should hold onto it.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Is this... angaran? It looks strange.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Maybe Avela will know more about it. Put it in cargo.
+    ├ option 2:
+        Hero: Something tells me we should hang onto this. Put it in cargo.
+    └─ merge ─┘
+├ option 2:
+    SAM: This seems to be angaran, but I can't find any data on it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Maybe Avela will know more about it. Put it in cargo.
+    ├ option 2:
+        ↩ (goto) Hero: Something tells me we should hang onto this. Put it in cargo.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,37 @@
+# game/conversations/unc_ice/ice_4100_ai_quest_pt1_camp_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_4100_ai_quest_pt1_camp_i.xml
+==================================================
+ice_buxil: We tried to take down this place for months, and you made it look so easy.
+ice_buxil: Destroying their command structure and systems leaves the rest of the kett vulnerable.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_buxil: Remember Ja Niihk? The shield around it's come down.
+    Hero: The frozen city?
+    ice_buxil: That's the one.
+    ice_buxil: This is the perfect opportunity for a final push, while they're still dealing with the chaos.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Tell me about this ancient city.
+        ice_buxil: They say it was abandoned when the Scourge hit. The cold came, and it was trapped in ice.
+        ice_buxil: The kett learned we were investigating, and took it. They think they can plunder it for Remnant secrets.
+        ice_buxil: Let's hope they haven't completely destroyed everything.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'll deal with it.
+            ice_buxil: In the meantime, I'll see if there's anything I can find here. Be careful, Ryder.
+        ├ option 2:
+            Hero: I need to get back to Techiix first.
+            ice_buxil: Resupplying? I suppose that's wise. We can take my shuttle. Let's go.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: I'll deal with it.
+    ├ option 3:
+        ↩ (goto) Hero: I need to get back to Techiix first.
+    └─ merge ─┘
+├ option 2:
+    ice_buxil: I've got reports that the shields around Ja Niihk are down.
+    Hero: What's that?
+    ice_buxil: An ancient city buried in ice. It may hold clues to our past, which is probably why the kett took it.
+    ↩ (goto) ice_buxil: This is the perfect opportunity for a final push, while they're still dealing with the chaos.
+└─ merge ─┘

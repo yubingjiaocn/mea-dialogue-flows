@@ -1,0 +1,60 @@
+# game/conversations/unc/storms/stm_8500_bait_mystery_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_8500_bait_mystery_b.xml
+==================================================
+SAM [OncePerGame]: Navpoints of lost supplies noted, Pathfinder.
+Hero: Not busting our tails on viability to let resources go so easy.
+Hero: Let's check it out.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: Looks like we have some scavenger animals on our lost supply crates.
+├ option 2:
+    Hero [OncePerGame]: More animals on our lost supply crates.
+├ option 3:
+    Hero [OncePerGame]: Animals on our missing crates again. Same as before.
+├ option 4:
+    Hero [OncePerGame]: Last site. More animals on our missing crates.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: Quick mess to clean up. Not getting any of the supplies back this way, though.
+├ option 2:
+    Hero [OncePerGame]: Cleared it. Betting there's nothing left.
+├ option 3:
+    Hero [OncePerGame]: Cleared. Picked clean, like the others?
+├ option 4:
+    Hero [OncePerGame]: Cleared the critters, but looks like it'll be as clean as the other lost crates.
+└─ merge ─┘
+Hero [OncePerGame]: SAM, are you sure about this?
+SAM: Yes, Pathfinder. The crates were opened using standard protocols. It's unlikely the local fauna could have accomplished this.
+Hero: They're bugs, SAM. They didn't do it.
+SAM: More data is required to be definitive, Pathfinder.
+Hero: You're a real machine sometimes, SAM.
+Hero [OncePerGame]: This confirms it: the crates were opened first, then bait placed? By who?
+SAM: By whom. And more data is required to be certain.
+Hero [OncePerGame]: SAM, the scan says the drops were scheduled so no one would be around?
+SAM: Delivery data was corrupted intentionally, possibly to avoid confrontation during the theft.
+Hero: Thieves with hearts of gold?
+SAM: Circulatory determinations will require more data, Pathfinder.
+SAM [OncePerGame]: Pathfinder, after examination of the supply drops, I've identified a possible source for the delivery corruption.
+Hero: Right. Nav for a hiding spot. Let's go see who was so careful with their theft.
+SAM: Locations marked, Pathfinder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_outpost_bait_exile: [Comm] Far enough, Pathfinder! Come any closer, we open fire!
+    Hero: Identify yourselves! This is a Nexus outpost world!
+    stm_outpost_bait_exile: [Comm] No dice, no trust, Pathfinder! You come closer, you force us to shoot!
+├ option 2:
+    stm_outpost_bait_exile: [Comm] Don't come any closer, Pathfinder! We'll shoot!
+    Hero: If you're the ones who hid those supply crate thefts, I don't think you want a fight!
+    Hero: Disarm and we'll talk!
+    stm_outpost_bait_exile: [Comm] Goddamn it. We're waiting.
+└─ merge ─┘
+stm_outpost_bait_exile: [Comm] Warned you, Pathfinder! You forced this!
+Hero: Heads up! No choice with this lot!
+Hero: Damn it. More of our own dead.
+Hero: {i}(Sighs.){/i} Let's go report on the "missing" supplies.
+Hero: Reported as a loss. Supplies eaten by scavenger bugs. Let's be more careful next time.
+SAM: Recommendations noted, Pathfinder.
+Hero: Supplies lost to outlaws. Minor recovery, but a bad scene all around. We'll have to be careful.
+↩ (goto) SAM: Recommendations noted, Pathfinder.

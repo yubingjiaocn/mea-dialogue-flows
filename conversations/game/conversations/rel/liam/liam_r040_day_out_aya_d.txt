@@ -1,0 +1,75 @@
+# game/conversations/rel/liam/liam_r040_day_out_aya_d
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/rel/liam/liam_r040_day_out_aya_d.xml
+==================================================
+global_squad_male_human: Pathfinder! You're good here. We'll worry about the data another time.
+Hero: Liam, what's going on?
+global_squad_male_human: I, uh, figured we should end up somewhere nice and open. You were being cased.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Are you getting me in trouble? What was this about?
+    global_squad_male_human: We're not in trouble, exactly. But I don't blame them for being angry.
+    global_squad_male_human: I wanted to get data that would help yields at our outposts. Verand told me what to scan. But I called it off.
+    global_squad_male_human: I still owe her, but it's better than pissing off some gouging hard-liner.
+    global_squad_male_human: Sorry I didn't clue you in. It's a security thing. Food is security.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Was this an attempt to copy their methods? Steal secrets?
+        global_squad_male_human: We're not competing companies. It's about learning to live here.
+        global_squad_male_human: Remember my Tempest freak-out? I tried proper channels. Got blocked by the angara {i}and{/i} the Nexus.
+        global_squad_male_human: There's only so much Jaal can tell us, so I did what we'd do back in crisis response.
+        global_squad_male_human: Bend the rules.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Liam, I deserve better than having this sprung on me mid-market.
+            global_squad_male_human: You're right. Of course you're right. And the angara are right too.
+            global_squad_male_human: The last people who showed up out of the blue were the kett. The ultimate users.
+            global_squad_male_human: I don't want us to get lumped in with them. And I really, really don't want to ruin the market.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: I like coming here. Just... enjoying time with you.
+                global_squad_male_human: Feels normal. About time something did.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Let's focus on the good. I like being with you too.
+                    global_squad_male_human: Another day saved with a few words. You remain amazing.
+                    global_squad_male_human: But, let's just see a vid next time. I've a hanar romance I've been saving. Sheen of the Dawn.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: The uncut version is banned, but it's just six minutes of iridescence.
+                        global_squad_male_human: Oh, you haven't seen the subtitled bootleg. But I can't show you that until...
+                        Hero: Until?
+                        global_squad_male_human: Third date?
+                        Hero: Does this count?
+                        global_squad_male_human: Yes. Yes, it does.
+                    ├ option 2:
+                        Hero: Not my thing. You're lucky you're pretty, Kosta.
+                        global_squad_male_human: {i}(Chuckles.){/i} Technically that makes us both lucky.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: We may have to stick to ourselves for a while, if that's what both sides seem to want.
+                    global_squad_male_human: It isn't. Saw it all the time during crisis deployments. "Us versus them" turns into "food versus no food."
+                    global_squad_male_human: We have to figure this shit out, or both sides will hurt.
+                ├ option 3:
+                    Hero: Let's not push our luck. We'll save the market for another day.
+                    global_squad_male_human: Good idea, Pathfinder. We've enough trouble, and probably more coming.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_male_human: Street food and shooting the shit with you?
+                ↩ (goto) global_squad_male_human: Feels normal. About time something did.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You do what you have to, but let's not make a habit of it.
+            global_squad_male_human: I don't want to. Like I said, I don't blame them for getting cross.
+            ↩ (goto) global_squad_male_human: The last people who showed up out of the blue were the kett. The ultimate users.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: Liam, I deserve better than having this sprung on me mid-market.
+    ├ option 3:
+        ↩ (goto) Hero: You do what you have to, but let's not make a habit of it.
+    └─ merge ─┘
+├ option 2:
+    Hero: If someone wants trouble, I'm not afraid to give it to them.
+    global_squad_male_human: Brawling in the market won't help. I don't blame them for being angry.
+    ↩ (goto) global_squad_male_human: I wanted to get data that would help yields at our outposts. Verand told me what to scan. But I called it off.
+└─ merge ─┘

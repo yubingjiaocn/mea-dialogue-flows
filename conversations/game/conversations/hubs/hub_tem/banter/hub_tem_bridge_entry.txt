@@ -1,0 +1,115 @@
+# game/conversations/hubs/hub_tem/banter/hub_tem_bridge_entry
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/hubs/hub_tem/banter/hub_tem_bridge_entry.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        global_crew_co-pilot: SAM's ready to give you analysis of the data when you're ready, Pathfinder.
+    ├ option 2:
+        global_crew_co-pilot: The crew is ready to discuss how to approach the Remnant city, Pathfinder.
+    ├ option 3:
+        global_crew_science_officer: We're going to need to research the Ghost Storm tech for the other Pathfinders, as soon as we can.
+    ├ option 4:
+        global_crew_co-pilot: Gil's ready to talk to you about that kett transmitter.
+    ├ option 5:
+        global_crew_co-pilot: Jaal says Evfra is waiting for your call, Pathfinder.
+    ├ option 6:
+        global_crew_science_officer: Pathfinder, are we going to Voeld or Havarl?
+    ├ option 7:
+        ┌─ BRANCH (10) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot: Ryder, Liam's looking for you.
+            ├ option 2:
+                global_crew_science_officer: Liam asked if you could come by.
+            └─ merge ─┘
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot: Cora wanted to check in with you.
+            ├ option 2:
+                global_crew_science_officer: Cora's looking for you.
+            └─ merge ─┘
+        ├ option 3:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_science_officer: Peebee said she wanted to talk to you.
+            ├ option 2:
+                global_crew_co-pilot: Peebee's been looking for you.
+            └─ merge ─┘
+        ├ option 4:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_science_officer: Ryder, Vetra wanted you to check in when you can.
+            ├ option 2:
+                global_crew_co-pilot: Vetra was looking for you.
+            └─ merge ─┘
+        ├ option 5:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot: Jaal's been asking to talk to you.
+            ├ option 2:
+                global_crew_science_officer: Jaal said he wanted to see you.
+            └─ merge ─┘
+        ├ option 6:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot: Drack said he wants to talk to you.
+            ├ option 2:
+                global_crew_science_officer: Pathfinder, Drack wants to see you.
+            └─ merge ─┘
+        ├ option 7:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_science_officer: Can we talk when you're free?
+            ├ option 2:
+                global_crew_science_officer: Pathfinder, got a minute?
+            └─ merge ─┘
+        ├ option 8:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot: Ryder, could we talk a moment?
+            ├ option 2:
+                global_crew_co-pilot: Ryder. Could we chat?
+            └─ merge ─┘
+        ├ option 9:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_science_officer: Oh, Gil wanted you to check in.
+            ├ option 2:
+                global_crew_co-pilot: Gil's been asking if you can come by.
+            └─ merge ─┘
+        ├ option 10:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_co-pilot: Ryder, Lexi was looking for you.
+            ├ option 2:
+                global_crew_science_officer: I think Lexi wanted to speak to you.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 8:
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_crew_science_officer: Welcome back.
+        ├ option 2:
+            global_crew_co-pilot: All systems green.
+        ├ option 3:
+            global_crew_science_officer: Hello.
+        ├ option 4:
+            global_crew_co-pilot: Ryder.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) ? ⟨cond⟩: [empty]
+├ option 3:
+    ↩ (goto) ?: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer: Ryder, you still need to build the research project.
+├ option 2:
+    global_crew_science_officer: We've got our numbers. Now we just have to put them together. We'll get started on your word, Ryder.
+└─ merge ─┘

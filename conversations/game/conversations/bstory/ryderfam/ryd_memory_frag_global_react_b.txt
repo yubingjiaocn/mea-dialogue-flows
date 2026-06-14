@@ -1,0 +1,49 @@
+# game/conversations/bstory/ryderfam/ryd_memory_frag_global_react_b
+# Primary speaker: SAM
+# Source: game/conversations/bstory/ryderfam/ryd_memory_frag_global_react_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: SAM? What was that?
+    SAM: An eidetic trigger, related to your father and the portions of my memory array he locked.
+    Hero: What triggered it?
+    SAM: Alec tied it to your progression as Pathfinder, not to a location.
+    SAM: Puzzling as it may be, my programming is clear: Locating more of these triggers will unlock the memories.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: One of your father's memories is now accessible. Return to SAM Node on the Hyperion to investigate further.
+    ├ option 2:
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: SAM, another memory trigger?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) SAM: One of your father's memories is now accessible. Return to SAM Node on the Hyperion to investigate further.
+        ├ option 2:
+            SAM: Yes, though my memory array remains locked. Additional triggers are required.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Another "eidetic trigger," SAM?
+        ↩ (goto) SAM: [empty]
+    ├ option 3:
+        Hero: SAM, another memory prompt?
+        ↩ (goto) SAM: [empty]
+    ├ option 4:
+        Hero: Another memory trigger?
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 3:
+    Hero: Looks like that was another memory gate, SAM.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: And the last. The final memory is unlocked.
+        SAM: Please return to SAM Node.
+    ├ option 2:
+        SAM: And the last. However, a deeper level of encryption is in place. Unfortunately, the conditions to unlock it haven't yet been satisfied.
+        Hero: Well, let me know when that changes. No telling what Dad was up to.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) SAM: [empty]
+SAM: Yes, multiple memories have been unlocked.

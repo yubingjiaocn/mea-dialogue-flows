@@ -1,0 +1,162 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_670_control_center_b
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/crit/Crit_Mer/crit_fin_670_control_center_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: The Archon must be inside already!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+        Hero: We can't let that happen.
+    ├ option 2:
+        Hero: He'll use Sara to make Meridian a weapon.
+        ↩ (goto) Hero: We can't let that happen.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: The Archon must be inside already!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+    ├ option 2:
+        ↩ (goto) Hero: He'll use Sara to make Meridian a weapon.
+    └─ merge ─┘
+├ option 3:
+    global_squad_angara ⟨cond⟩: The Archon must be inside already!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+    ├ option 2:
+        ↩ (goto) Hero: He'll use Sara to make Meridian a weapon.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human ⟨cond⟩: The Archon must be inside already!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+    ├ option 2:
+        ↩ (goto) Hero: He'll use Sara to make Meridian a weapon.
+    └─ merge ─┘
+├ option 5:
+    global_squad_turian ⟨cond⟩: The Archon must be inside already!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He'll use Scott to make Meridian a weapon.
+    ├ option 2:
+        ↩ (goto) Hero: He'll use Sara to make Meridian a weapon.
+    └─ merge ─┘
+└─ merge ─┘
+global_crew_science_officer: [Comm] Multiple groups joining the fight!
+Hero: It's all or nothing!
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: [Comm] Right!
+    ↩ (goto) Narration: [empty]
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: [Comm] Ready as anything!
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: [Comm] We're with you!
+    ↩ (goto) Narration: [empty]
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: [Comm] Go team!
+    ↩ (goto) Narration: [empty]
+├ option 5:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: [Comm] I hear that!
+    ↩ (goto) Narration: [empty]
+├ option 6:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: [Comm] {i}(Laughs.){/i}
+├ option 7:
+    ↩ (goto) global_crew_science_officer: [empty]
+└─ merge ─┘
+global_crew_science_officer: [Comm] Watch out, Pathfinder. The big kett ship is coming back around!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Keep moving! We can't let them stop us!
+    Hero: I think it's veering off!
+├ option 2:
+    global_squad_krogan ⟨cond⟩: We gotta keep moving!
+    ↩ (goto) Hero: I think it's veering off!
+├ option 3:
+    global_squad_angara ⟨cond⟩: Stay on course! There's nothing we can do down here.
+    ↩ (goto) Hero: I think it's veering off!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Drive faster! Moving targets are harder to hit!
+    ↩ (goto) Hero: I think it's veering off!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Can't hit it from down here! Keep going in!
+    ↩ (goto) Hero: I think it's veering off!
+└─ merge ─┘
+global_crew_science_officer: [Comm] Wait, that kett ship has lost data shielding. Pathfinder, it's the Primus! The Archon's second!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    Hero: Flying low and slow. What's she doing?
+    global_crew_science_officer: [Comm] The kill code she gave you! Access their ground equipment and I'll upload it like SAM!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Do we really know it's a kill code? What if it's not?
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Pretty risky! What if it's not a kill code?
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Not sure I want a deal with that devil.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: That's a risky deal!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: You sure you want to make that kind of deal?
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    ↩ (goto) Hero: Flying low and slow. What's she doing?
+├ option 3:
+    global_squad_angara ⟨cond⟩: She is shooting a lot for someone who offered to bargain!
+    ↩ (goto) Hero: Flying low and slow. What's she doing?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    ↩ (goto) Hero: Flying low and slow. What's she doing?
+├ option 5:
+    global_squad_asari ⟨cond⟩: She's shooting a lot for someone who offered to bargain!
+    ↩ (goto) Hero: Flying low and slow. What's she doing?
+└─ merge ─┘
+global_crew_science_officer: [Comm] Kill code deployed! Main thrusters on the Primus's ship are failing!
+Hero: She gets to look like she was sabotaged, and we get an easier run.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Before shooting us in the back.
+├ option 2:
+    global_squad_turian ⟨cond⟩: This better not come back to bite us.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Hope this doesn't bite us in the ass.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Hope this doesn't bite us in the tail.
+├ option 5:
+    global_squad_angara ⟨cond⟩: I hope we don't regret this.
+└─ merge ─┘
+global_crew_science_officer: [Comm] The Primus is pulling away! Reinforcements incoming!
+Hero: She holds a grudge, but we're not taking her deal.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Not complaining.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Not complaining.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Not complaining.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Not complaining.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Not complaining.
+└─ merge ─┘
+Hero: Kett dropship! Head's up!
+global_nexus_militia_leader: [Comm] Your own reinforcements on-site, Pathfinder!
+angararesleader_multi: [Comm] The Resistance is with you!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_charlatan ⟨cond⟩: [Comm] Always up for the adventure. Or whatever this is!
+├ option 2:
+    kad_queen: [Comm] Kadara's here too. Remember that.
+└─ merge ─┘
+global_nexus_militia_leader: [Comm] Holding here, Pathfinder. We'll follow once topside is secure.
+angararesleader_multi: [Comm] Don't know how many kett got in, but there won't be more.
+Hero: More kett deploying! Get ready!
+global_crew_science_officer: [Comm] The Primus is holding position!
+Hero: She's waiting for an answer on the deal.

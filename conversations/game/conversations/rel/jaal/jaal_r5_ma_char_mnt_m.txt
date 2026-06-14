@@ -1,0 +1,145 @@
+# game/conversations/rel/jaal/jaal_r5_ma_char_mnt_m
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r5_ma_char_mnt_m.xml
+==================================================
+global_jaal_mom: Jaal! Jaal!
+global_jaal_mom: Wait. Is there bad news?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: No. No. The Pathfinder is interested in where I grew up.
+    global_squad_angara: Ryder, this is my true mother, Sahuna Ama Darav.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Nice to meet you.
+        Hero: I know angara like the hugging.
+        global_jaal_mom: Ha! And I like you.
+        global_jaal_mom: Jaal's told me how much he admires you.
+        Hero: Really?
+        global_jaal_mom: He's my favorite. Smart. Loyal. Kind. A great shot. Writes poetry... sews.
+        global_squad_angara: Mother...
+        global_jaal_mom: I'm late for a Resistance meeting. Stay clear.
+        Hero: Your mother's in the Resistance?
+        global_squad_angara: Yes. And every child is her favorite.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Everyone, this is Sara.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Hi.
+                global_squad_angara: This is where I spent most of days growing up. Me. My sister, Koana, our cousin, Etta, and brother, Finn. Then Bavsil, Rollu...
+                Hero: Wow. Cozy.
+                global_squad_angara: We like to live like this.
+                global_squad_angara: And here's my room. My tiny sanctuary.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: We have a saying that I like: "Home is where the heart is."
+                    global_squad_angara: I like that.
+                    global_squad_angara: Oh, no. Who put this here?
+                    Hero: Schematics? Of...
+                    global_squad_angara: When I was seven my aunt stole a kett weapon for me. So I took it apart. To learn.
+                    Hero: And that is—was—a kaerkyn.
+                    global_squad_angara: Pet kaerkyn—Alfit. He died. So I also took him apart.
+                    Hero: To... learn?
+                    global_squad_angara: Why not?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara: I don't show people these things.
+                        global_squad_angara: You make my heart sing.
+                        global_squad_angara: I want us to be together.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Yeah, I'd like that.
+                            global_squad_angara: {i}(Laughs happily.){/i} Yes!
+                            global_squad_angara: I adore you.
+                            Hero: {i}(Laughs.){/i}
+                            global_squad_angara: Let me show you one more thing you might like. Lie down.
+                            Hero: Okay, sure.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero ⟨cond⟩: Beautiful. You made that?
+                                global_squad_angara: Long ago. It's not accurate. More of a dream, really.
+                                global_squad_angara: Just one more thing I want to take apart and figure out.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: Me too, Jaal. Me too.
+                                ├ option 2:
+                                    Hero ⟨cond⟩: Ah, Jaal.
+                                    global_squad_angara: And now I have someone to do it with.
+                                    Hero: {i}(Sighs.){/i}
+                                    global_squad_angara: My mother is going to love you.
+                                    global_squad_angara: I'm sorry.
+                                └─ merge ─┘
+                            ├ option 2:
+                                Hero: Nice. You made that?
+                                ↩ (goto) global_squad_angara: Long ago. It's not accurate. More of a dream, really.
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: Oh... right. Can we...? I'd rather just stay friends.
+                            global_squad_angara: I misunderstood something...
+                            Hero: Maybe...? Or... um...
+                            global_squad_angara: Okay. Well... here. Let me show you one more thing.
+                            global_squad_angara: Sit there.
+                            ↩ (goto) Narration: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_angara: I never show people these things. But I feel like we're... family.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: It's been good getting to know you.
+                            global_squad_angara: Hey—there's one more thing you might like.
+                            global_squad_angara: Sit there.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero ⟨cond⟩: Been interesting so far...
+                                ↩ (goto) Narration: [empty]
+                            ├ option 2:
+                                Hero: I don't know... better than Alfit the Kaerkyn?
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: I'm glad Evfra threw you on my ship.
+                            ↩ (goto) global_squad_angara: Hey—there's one more thing you might like.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: You must dream of a big place of your own.
+                    global_squad_angara: Sometimes... Maybe? Doesn't matter—this'll always be my home.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                loy_ang_jaal_nana: So wonderful to have you back!
+                loy_ang_jaal_cuz2: Hey, Jaal! Hey, human!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    loy_ang_jaal_cuz3 ⟨cond⟩: Gonna give your friend some real food?
+                    loy_ang_jaal_gramps: Welcome back! ⏎
+                    loy_ang_jaal_cuz1: Good to see you!
+                    loy_ang_jaal_auntie: Jaal! You bringing someone special to meet us?
+                    loy_ang_jaal_uncle: Look who the kaerkyn dragged in!
+                    global_squad_angara: Hi!
+                ├ option 2:
+                    loy_ang_jaal_cuz3: Gonna give your friend some real food?
+                    ↩ (goto) loy_ang_jaal_gramps: Welcome back! ⏎
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara ⟨cond⟩: Everyone, this is Scott.
+            ↩ (goto) Narration: [empty]
+        ├ option 3:
+            global_squad_angara: Everyone, this is Ryder.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Hello.
+        ↩ (goto) global_jaal_mom: Jaal's told me how much he admires you.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: No. The Pathfinder is interested in where I grew up.
+    ↩ (goto) global_squad_angara: Ryder, this is my true mother, Sahuna Ama Darav.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) loy_ang_jaal_cuz3 ⟨cond⟩: Gonna give your friend some real food?
+├ option 2:
+    ↩ (goto) loy_ang_jaal_cuz3: Gonna give your friend some real food?
+└─ merge ─┘

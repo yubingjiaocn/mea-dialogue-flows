@@ -1,0 +1,41 @@
+# game/conversations/unc_dunes/dune_outpost_0200_engineer_i
+# Primary speaker: dune_outpost_engineer
+# Source: game/conversations/unc_dunes/dune_outpost_0200_engineer_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_outpost_engineer [OncePerGame]: Whoa, hold it! Don't move.
+    Hero: Okay.
+    dune_outpost_engineer: Got an irrigation system installed under your feet. It's still testy—likes to give a nasty shock sometimes.
+    dune_outpost_engineer: Just... make sure your footsteps around here are light.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: I assume you're studying agriculture.
+        dune_outpost_engineer: Sort of. I design agricultural machinery that performs best in arid landscapes. Really arid, in this case.
+        dune_outpost_engineer: Mostly I work with the botanists in the krogan colony to give them what they need.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I know Vorn. He's a good guy.
+            dune_outpost_engineer: Brilliant scientist. Way ahead of his time. I'm just doing my best to keep up.
+            ↩ (goto) dune_outpost_engineer: [empty]
+        ├ option 2:
+            Hero: You think they'll be able to grow crops here someday?
+            dune_outpost_engineer: With me on their side, definitely.
+            ↩ (goto) dune_outpost_engineer: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Any other landmines I should be looking out for?
+        dune_outpost_engineer: From me, no. But I'd be careful about buying from Boomerang.
+        dune_outpost_engineer: He's a good guy, but... a few screws short of the full ship, if you know what I mean.
+        dune_outpost_engineer: And we usually don't ask where he gets his wares.
+        Hero: Noted.
+        dune_outpost_engineer: He once came back with a salarian thumb. Said he thought it might be useful.
+        ↩ (goto) dune_outpost_engineer: [empty]
+    ├ option 3:
+        Hero: See you around.
+        dune_outpost_engineer: Remember. Light footsteps.
+    └─ merge ─┘
+├ option 2:
+    dune_outpost_engineer: Hey there.
+    ↩ (goto) dune_outpost_engineer: [empty]
+└─ merge ─┘

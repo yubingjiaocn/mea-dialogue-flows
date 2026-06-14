@@ -1,0 +1,33 @@
+# Game/Conversations/Unc/Des/Unc_Des_01_0030_settle_arrive_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/Des/Unc_Des_01_0030_settle_arrive_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Ah, this is not good. Tempest, we have a lot of damage at the outpost.
+    global_crew_science_officer: [Comm] Standing by for evac.
+    Hero: I don't think that will help. This looks days old.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: I expected a fight. Not this. Where do we start?
+        Hero: Everywhere. We check everywhere.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: You scanning, or do we start marking trajectories with thread?
+        ↩ (goto) Hero: Everywhere. We check everywhere.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: We put up a fight. Or started one. Can your scans tell who instigated?
+        ↩ (goto) Hero: Everywhere. We check everywhere.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Maybe scans can make some sense of this?
+        ↩ (goto) Hero: Everywhere. We check everywhere.
+    ├ option 5:
+        global_salarian_major ⟨cond⟩: Perhaps scans will shed some light on this firefight?
+        ↩ (goto) Hero: Everywhere. We check everywhere.
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩: {i}(Sniffs.){/i} Firefight. Real shindig. Good luck piecing this together.
+        ↩ (goto) Hero: Everywhere. We check everywhere.
+    └─ merge ─┘
+├ option 2:
+    Hero: Ah, this is not good. Tempest, we have bodies at the outpost.
+    ↩ (goto) global_crew_science_officer: [Comm] Standing by for evac.
+└─ merge ─┘

@@ -1,0 +1,25 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0500_exalt_ceremony_c
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0500_exalt_ceremony_c.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Decontamination proto—
+    Hero: Get down!
+    Hero: SAM? Can you do anything about this yet?
+    SAM: Working on it.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Decontamination proto—
+    ↩ (goto) Hero: Get down!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Decontamination proto—
+    ↩ (goto) Hero: Get down!
+├ option 4:
+    global_squad_asari ⟨cond⟩: Decontamination proto—
+    ↩ (goto) Hero: Get down!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Decontamination proto—
+    ↩ (goto) Hero: Get down!
+└─ merge ─┘
+crit_ex_angara_getting_exalted: [Exertion 1]
+crit_ex_angara_getting_exalted: [Exertion 2]

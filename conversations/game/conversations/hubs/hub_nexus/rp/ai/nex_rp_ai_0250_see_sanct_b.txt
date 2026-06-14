@@ -1,0 +1,26 @@
+# game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0250_see_sanct_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0250_see_sanct_b.xml
+==================================================
+Hero [OncePerGame]: This must be the hideout of those hackers who attacked SAM.
+Hero: Everyone, remember: these people think their virus worked. SAM's gone, and I'm on their side.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Hmph. If only.
+    Hero: Problem, Drack?
+    global_squad_krogan: You know I don't like that widget in your head. You'd be better off without it.
+    global_squad_krogan: But that's not my decision. Or the hackers'. They don't get to win.
+    Hero: Private channel only once we're in, SAM.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Got to love some good subterfuge.
+    ↩ (goto) Hero: Private channel only once we're in, SAM.
+├ option 3:
+    global_squad_asari ⟨cond⟩: This'll be good.
+    ↩ (goto) Hero: Private channel only once we're in, SAM.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Clever indeed.
+    ↩ (goto) Hero: Private channel only once we're in, SAM.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Understood.
+    ↩ (goto) Hero: Private channel only once we're in, SAM.
+└─ merge ─┘

@@ -1,0 +1,86 @@
+# game/conversations/unc/storms/stm_0115_site01_gen_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0115_site01_gen_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Look at this place. It's a wasteland.
+    SAM: The radiation in Eos's atmosphere makes it difficult to cultivate life.
+    Hero: Radiation? Our suits protect against that, right?
+    SAM: Site 1 contains shield masts to dampen the brunt of contamination.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: But if we went outside Site 1's perimeter?
+        SAM: That would not be advised.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: But if we go outside Site 1's perimeter?
+        ↩ (goto) SAM: That would not be advised.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: SAM, what did our scans say about Eos? Back in the Milky Way, I mean.
+        SAM: Mild climate. Lush flora and fauna. Resource heavy.
+        Hero: The perfect entry point to Heleus. And now it's... this.
+        SAM: The devastation is consistent with high-altitude detonations. Most likely impact with the Scourge phenomenon.
+    ├ option 2:
+        Hero [OncePerGame]: Surprised Site 1 got off the ground at all. Even with the dampeners, the radiation is crazy.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: My teeth aren't gonna fall out, right? I like my teeth.
+            global_humanark_asari_dr: [Comm] Relax, Liam. SAM's monitoring your vitals. And I'm prepping a detox bath just in case.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Wouldn't want to see the colonists' medical charts.
+            global_humanark_asari_dr: [Comm] I can tell you, they aren't pretty.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+SAM: Be advised: the water is highly irradiated and not safe for consumption.
+Hero: No surprise there.
+Hero: Got footprints over here. They're not human.
+SAM: The shape and size are consistent with the kett.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: We know they attacked Site 1. But these look fresh.
+    Hero: Okay, eyes open, everyone. Could be nothing, but...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Better than getting caught with our pants down.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Better safe than sorry.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Gotta be relatively fresh. Tracks wouldn't last long in this weather.
+    ↩ (goto) Hero: Okay, eyes open, everyone. Could be nothing, but...
+└─ merge ─┘
+Hero [OncePerGame]: SAM. Our friend, Clancy—was he part of the outpost team here?
+SAM: No, Pathfinder. According to Nexus records, he's stationed in the hanger bay.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: So he's what? Playing hooky?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Or he's a part-time salvager.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Salvage will buy him more than rations.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: So he used his clearance to sneak off the station. Make some credits on the side.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Ballsy.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Don't sound so impressed.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Things must be bad on the Nexus, if people are sneaking down here for supplies.
+global_squad_turian ⟨cond⟩: Tann's been rationing us pretty hard. And after the uprising, there's not much respect for authority.
+Hero: Helmets. Commemorating the dead.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: We're supposed to be building homes, not digging graves.
+    Hero: We'll make sure they didn't die in vain.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: A lot of people lost their lives trying to make this outpost work.
+    ↩ (goto) Hero: We'll make sure they didn't die in vain.
+└─ merge ─┘

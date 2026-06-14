@@ -1,0 +1,74 @@
+# game/conversations/hubs/hub_kad/ambients/docks/kad_docks_general_a
+# Primary speaker: kad_docks_worker_1
+# Source: game/conversations/hubs/hub_kad/ambients/docks/kad_docks_general_a.xml
+==================================================
+┌─ BRANCH (12) ─┐
+├ option 1:
+    kad_docks_guard_1: Don't cause any trouble.
+├ option 2:
+    kad_docks_guard_1: I'm watching you.
+├ option 3:
+    kad_docks_guard_1: Initiative scum.
+├ option 4:
+    kad_docks_guard_2: Look at you.
+├ option 5:
+    kad_docks_guard_2: Nice armor.
+├ option 6:
+    kad_docks_guard_2: New to Kadara?
+├ option 7:
+    kad_docks_worker_1: We're busy.
+├ option 8:
+    kad_docks_worker_1: Go away, let us work.
+├ option 9:
+    kad_docks_worker_1: Don't have time for your shit.
+├ option 10:
+    kad_docks_worker_2: I'm tired.
+├ option 11:
+    kad_docks_worker_2: I hate this job.
+├ option 12:
+    kad_docks_worker_1: Watch it!
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    kad_docks_worker_1: Just keep your head down and do your work.
+    kad_docks_worker_2: I'll be fine. I have protection.
+    kad_docks_worker_1: What? You know the rules: no weapons unless you're one of Sloane's guards.
+├ option 2:
+    kad_docks_worker_1: Hide that. Right now. No one can see you carrying that gun.
+    kad_docks_worker_2: But it's dangerous here. What else was I supposed to do?
+    kad_docks_worker_1: Not bring a weapon. Those are the rules. You get killed if you don't follow the rules.
+├ option 3:
+    kad_docks_worker_1: Okay, look. Here's what you're going to do.
+    kad_docks_worker_1: When you have a second, go up to the guard. The human, not the turian.
+    kad_docks_worker_1: The turian may look and play nice, but he loves to get people in trouble.
+    kad_docks_worker_1: You go see the human, and you give her the gun. You tell her you found it between two crates.
+    kad_docks_worker_1: She'll take it. Won't ask you questions.
+    kad_docks_worker_2: Okay. I'll do that.
+├ option 4:
+    kad_docks_worker_2: She took the gun and didn't say anything. Just like you said.
+    kad_docks_worker_1: Good. Now get back to work.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    kad_docks_guard_2 [OncePerGame]: Wow, look at that. Beaut of a ship.
+    kad_docks_guard_1: Too bad Sloane said it was hands-off.
+├ option 2:
+    kad_docks_guard_2 [OncePerGame]: Wonder if they'd give us a tour.
+    kad_docks_guard_1: And leave our post? Kaetus would kick our ass.
+    kad_docks_guard_2: You're no fun.
+├ option 3:
+    kad_docks_worker_2 [OncePerGame]: I got up close. It looks really nice!
+    kad_docks_worker_1: What does?
+    kad_docks_worker_2: That Nomad thing!
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    kad_docks_visit_1: Remember. Let me do the talking, and we'll get out of here in one piece.
+├ option 2:
+    kad_docks_visit_2: You left everything on board, right? Even your spare knife?
+    kad_docks_visit_3: Just like you said. I'm following the rules.
+├ option 3:
+    kad_docks_visit_4: Hopefully we can get things done without getting shot at this time.
+├ option 4:
+    kad_docks_visit_5: Finally made it. About time, too. This cargo won't last forever.
+└─ merge ─┘

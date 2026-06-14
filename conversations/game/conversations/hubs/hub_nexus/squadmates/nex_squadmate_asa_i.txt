@@ -1,0 +1,62 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_asa_i
+# Primary speaker: global_squad_asari
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_asa_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Hey, Ryder. Taking a stroll?
+    Hero: Something like that.
+    global_squad_asari: I just wandered over from the Nexus, myself. That place bores me.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's not the same. There's hope now.
+        global_squad_asari: Hope is good.
+        global_squad_asari: I spent over a year stuck there—well, when I wasn't exploring Eos. And I know things are getting better, more lively.
+        global_squad_asari: But there are too many bad associations. I probably won't hang out there much.
+    ├ option 2:
+        Hero: Been there, done that?
+        global_squad_asari: You get me.
+        ↩ (goto) global_squad_asari: I spent over a year stuck there—well, when I wasn't exploring Eos. And I know things are getting better, more lively.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩ [OncePerGame]: Still not spending time on the Nexus, huh?
+    global_squad_asari: No, I made the rounds. Tons more people milling about.
+    global_squad_asari: My old apartment's been appropriated. Guess they need the space.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Nothing stays the same. That's a good thing.
+        global_squad_asari: That's for sure. The Nexus was stagnating.
+        global_squad_asari: Guess I just realized how nice it was to have a quiet place where I could disappear.
+        global_squad_asari: Now, everywhere you go—boom—people.
+    ├ option 2:
+        Hero: You seem sad about that.
+        global_squad_asari: Not sad, exactly.
+        ↩ (goto) global_squad_asari: Guess I just realized how nice it was to have a quiet place where I could disappear.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: All right, I have to admit: the Nexus is a whole different place.
+    global_squad_asari: There's energy in the air. People of all walks. Angara teaching what they know. It's kinda great.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Our work has changed things for the better.
+        global_squad_asari: That's for sure.
+        global_squad_asari: I wouldn't have been caught dead here not long ago.
+    ├ option 2:
+        Hero: It's nice to see you smiling.
+        global_squad_asari: We've come a long way.
+        ↩ (goto) global_squad_asari: I wouldn't have been caught dead here not long ago.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: Don't worry. I'm not getting in the way, Ryder.
+    global_squad_asari: The brains and I are comparing Remnant notes and filling in the blanks.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Don't let me interrupt.
+    ├ option 2:
+        Hero: Look out, Heleus, Peebee's sharing the knowledge.
+        global_squad_asari: {i}(Embarrassed chuckle.){/i} Nincompoop.
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+└─ merge ─┘

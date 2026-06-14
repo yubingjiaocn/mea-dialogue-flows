@@ -1,0 +1,71 @@
+# game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0625_omni_eos_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0625_omni_eos_i.xml
+==================================================
+SAM: Accessing data. The Chief was scanning at time of death. The scan picked up two shots...
+SAM: One: a standard Initiative rifle report, which missed. The other from behind... a kett pulse weapon.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: This proves Nilken is innocent. He didn't shoot Reynolds.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Seems clear to me. Good work.
+        SAM: Pathfinder, there is also an audio recording.
+        Hero: Go ahead and play it.
+        nex_rp_mur_murder_victim: [Audio Log] No!
+        nex_rp_mur_witness: [Audio Log] Where's Nilken?
+        nex_rp_mur_murderer_multi: [Audio Log] Sorry, old friend—had to do it. I'm not dying on this rock.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: That sounds like...
+            SAM: Confirming: voice identified as suspect Nilken. So he did not kill the Chief...
+            Hero: But he {i}meant{/i} to. Need another chat with the man.
+        ├ option 2:
+            Hero: Son of a bitch...
+            ↩ (goto) SAM: Confirming: voice identified as suspect Nilken. So he did not kill the Chief...
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's a relief. Good work.
+        ↩ (goto) SAM: Pathfinder, there is also an audio recording.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: So Nilken {i}didn't{/i} shoot Reynolds. He's innocent.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Seems clear to me. Good work.
+    ├ option 2:
+        ↩ (goto) Hero: That's a relief. Good work.
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human ⟨cond⟩: This proves Nilken is innocent. He didn't shoot Reynolds.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Seems clear to me. Good work.
+    ├ option 2:
+        ↩ (goto) Hero: That's a relief. Good work.
+    └─ merge ─┘
+├ option 4:
+    global_squad_krogan ⟨cond⟩: That's it. Nilken didn't shoot Reynolds.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Seems clear to me. Good work.
+    ├ option 2:
+        ↩ (goto) Hero: That's a relief. Good work.
+    └─ merge ─┘
+├ option 5:
+    global_squad_male_human ⟨cond⟩: This proves Nilken is innocent. He didn't shoot Reynolds.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Seems clear to me. Good work.
+    ├ option 2:
+        ↩ (goto) Hero: That's a relief. Good work.
+    └─ merge ─┘
+├ option 6:
+    global_squad_turian ⟨cond⟩: This proves Nilken is innocent. He didn't shoot Reynolds.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Seems clear to me. Good work.
+    ├ option 2:
+        ↩ (goto) Hero: That's a relief. Good work.
+    └─ merge ─┘
+└─ merge ─┘

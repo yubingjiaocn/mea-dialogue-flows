@@ -1,0 +1,29 @@
+# game/conversations/unc/olw/collective/olw_collective_recruit_i
+# Primary speaker: olw_collective_recruit_03
+# Source: game/conversations/unc/olw/collective/olw_collective_recruit_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_collective_recruit_03 [OncePerGame]: Are you a new recruit, too?
+    Hero: No... just happened to stumble on this place.
+    olw_collective_recruit_03: Oh! You're the Pathfinder. Crux said we're to be nice to you. I'm new here. Still trying to take everything in.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Why join the Collective?
+        olw_collective_recruit_03: I lived in port my whole life. Then Sloane shows up and demands a protection fee.
+        olw_collective_recruit_03: My family was still reeling from encounters with kett. We couldn't pay, so the Outcasts banished us to the badlands.
+        olw_collective_recruit_03: The Collective promised us protection and a chance to get back at Sloane. So I took it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_collective_recruit_03 ⟨cond⟩: It's worked out well, I think.
+            ↩ (goto) olw_collective_recruit_03: [empty]
+        ├ option 2:
+            ↩ (goto) olw_collective_recruit_03: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: See you around.
+    └─ merge ─┘
+├ option 2:
+    olw_collective_recruit_03: Hello!
+    ↩ (goto) olw_collective_recruit_03: [empty]
+└─ merge ─┘

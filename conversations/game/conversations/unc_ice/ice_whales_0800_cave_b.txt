@@ -1,0 +1,18 @@
+# game/conversations/unc_ice/ice_whales_0800_cave_b
+# Primary speaker: global_squad_angara
+# Source: game/conversations/unc_ice/ice_whales_0800_cave_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: This must be the poachers' camp.
+    Hero: Something tells me they won't let us stroll in and chat.
+├ option 2:
+    global_squad_angara: [Comm] Ryder, I think you've entered the poachers' camp.
+    ↩ (goto) Hero: Something tells me they won't let us stroll in and chat.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: I couldn't have made that call on my own, Ryder. Thank you.
+├ option 2:
+    global_squad_angara: [Comm] I couldn't have made a call like that, Ryder. Thank you for being there.
+└─ merge ─┘

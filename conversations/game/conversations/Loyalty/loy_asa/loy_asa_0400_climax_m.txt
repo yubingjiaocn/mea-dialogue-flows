@@ -1,0 +1,121 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0400_climax_m
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0400_climax_m.xml
+==================================================
+Hero: Are you kidding me?!
+Hero: How many guys does she have?!
+global_squad_asari: Kalinda's about to get the device!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: And there she goes.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Let's draw their fire, then. Keep them off her.
+        global_squad_asari: You won't make it, Kalinda!
+        global_kalinda: Too late, gal. It's mine!
+        global_kalinda: Damn it!
+        Hero: Shit!
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Go! I'm good!
+            global_kalinda: Peebee, help! I'll give you everything I've got—all the relics, everything worth anything...
+            Hero: Peebee, hurry. I won't be able to hold this!
+            global_kalinda: Please, I... don't want to die...
+            global_squad_asari: Aw, crap.
+            Hero: Aw crap, what?
+            global_squad_asari: I don't want her to die, Ryder!
+            Hero: But the device...!
+            global_squad_asari: It's not worth her life!
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: No!
+                Hero: Get the device!
+                Hero: Come on! The bridge is failing!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari: Whoa...
+                    global_squad_asari: Wow. Close one.
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        global_squad_angara: We need to get out of here.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_asari: Ryder, why did you do that? I could have saved her.
+                            Hero: We'll talk once we're safe.
+                        ├ option 2:
+                            global_kalinda: Peebee, thank you. Listen, no hard—
+                            global_kalinda: Ow! Fuck!
+                            global_squad_asari: Finally beat you to the punch.
+                            global_kalinda: I've got two shuttles waiting. Follow me.
+                            ↩ (goto) Narration: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_female_human: Okay, time to go.
+                        ↩ (goto) global_squad_asari: [empty]
+                    ├ option 3:
+                        global_squad_krogan: Let's get out of here.
+                        ↩ (goto) global_squad_asari: [empty]
+                    ├ option 4:
+                        global_squad_male_human: Time to go, huh?
+                        ↩ (goto) global_squad_asari: [empty]
+                    ├ option 5:
+                        global_squad_turian: We need to get out of here.
+                        ↩ (goto) global_squad_asari: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_asari: Wow, that was close.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara ⟨cond⟩: Go—I got this!
+            ↩ (goto) Narration: [empty]
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: I'm good! Get her!
+            ↩ (goto) Narration: [empty]
+        ├ option 4:
+            global_squad_krogan ⟨cond⟩: I got this. Go!
+            ↩ (goto) Narration: [empty]
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: Go—I got this!
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Hope she kicks Kalinda's ass.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: There goes Peebee.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Let's draw their fire, then. Keep them off her.
+    ├ option 2:
+        ↩ (goto) Hero: Hope she kicks Kalinda's ass.
+    └─ merge ─┘
+├ option 3:
+    global_squad_angara ⟨cond⟩: There goes Peebee.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Let's draw their fire, then. Keep them off her.
+    ├ option 2:
+        ↩ (goto) Hero: Hope she kicks Kalinda's ass.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human ⟨cond⟩: And she's off.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Let's draw their fire, then. Keep them off her.
+    ├ option 2:
+        ↩ (goto) Hero: Hope she kicks Kalinda's ass.
+    └─ merge ─┘
+├ option 5:
+    global_squad_female_human ⟨cond⟩: She's so reckless.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Let's draw their fire, then. Keep them off her.
+    ├ option 2:
+        ↩ (goto) Hero: Hope she kicks Kalinda's ass.
+    └─ merge ─┘
+└─ merge ─┘

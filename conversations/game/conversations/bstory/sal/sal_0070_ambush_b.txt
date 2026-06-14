@@ -1,0 +1,111 @@
+# game/conversations/bstory/sal/sal_0070_ambush_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0070_ambush_b.xml
+==================================================
+Hero: Those are the coordinates we were sent.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: In that message about the salarian ark?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Let's stay sharp.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: So are we checking it out?
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: If there's truth to it, we should know.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Someone will be waiting. One way or another.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: They won't mind an extra krogan.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: That thing about the salarian ark?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Let's stay sharp.
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: So are we checking it out?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: If there's truth to it, we should know.
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Someone will be waiting. One way or another.
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: They won't mind an extra krogan.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human ⟨cond⟩: From that tip about the salarian ark. If it was true.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Let's stay sharp.
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: So are we checking it out?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: If there's truth to it, we should know.
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Someone will be waiting. One way or another.
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: They won't mind an extra krogan.
+    └─ merge ─┘
+├ option 4:
+    global_squad_angara ⟨cond⟩: In the message about the salarians?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Let's stay sharp.
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: So are we checking it out?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: If there's truth to it, we should know.
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Someone will be waiting. One way or another.
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: They won't mind an extra krogan.
+    └─ merge ─┘
+├ option 5:
+    global_squad_asari ⟨cond⟩: You mean that tip-off about the salarian ark?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Let's stay sharp.
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: So are we checking it out?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: If there's truth to it, we should know.
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Someone will be waiting. One way or another.
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: They won't mind an extra krogan.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Hostiles!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Damn it! Bad guys!
+├ option 3:
+    global_squad_asari ⟨cond⟩: There's kett all over!
+├ option 4:
+    global_squad_angara ⟨cond⟩: Kett!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Ambush!
+├ option 6:
+    global_squad_turian ⟨cond⟩: We've got kett!
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Damn. We walked right into it.
+    Hero: Let's look around. They might have left something.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: So much for a meeting.
+    ↩ (goto) Hero: Let's look around. They might have left something.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Okay. No more following anonymous tip-offs.
+    ↩ (goto) Hero: Let's look around. They might have left something.
+├ option 4:
+    global_squad_angara ⟨cond⟩: A betrayal, yes. For us.
+    ↩ (goto) Hero: Let's look around. They might have left something.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Surprise. It was a setup.
+    ↩ (goto) Hero: Let's look around. They might have left something.
+├ option 6:
+    global_squad_turian ⟨cond⟩: Guess this was all a ruse.
+    ↩ (goto) Hero: Let's look around. They might have left something.
+└─ merge ─┘

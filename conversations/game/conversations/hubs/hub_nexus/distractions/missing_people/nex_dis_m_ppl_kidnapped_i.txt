@@ -1,0 +1,30 @@
+# game/conversations/hubs/hub_nexus/distractions/missing_people/nex_dis_m_ppl_kidnapped_i
+# Primary speaker: nex_dis_kidnap_friend
+# Source: game/conversations/hubs/hub_nexus/distractions/missing_people/nex_dis_m_ppl_kidnapped_i.xml
+==================================================
+nex_dis_kidnap_friend: Excuse me, Pathfinder. I don't know where else to turn. My best friend's been missing since the revolts.
+Hero: Tell me.
+nex_dis_kidnap_friend: He was involved with a woman who was exiled. She obsessed over him, and I'm sure she kidnapped him.
+nex_dis_kidnap_friend: The powers that be don't buy it and don't care. They say most likely he went willingly.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: That is a distinct possibility.
+    nex_dis_kidnap_friend: He was like a brother to me. He would have told me.
+    nex_dis_kidnap_friend: The Initiative has branded him a traitor. I don't want that to be his legacy.
+    nex_dis_kidnap_friend: I want to clear his name—Sanjiv Clement. The woman was Delaney Roos. She must have taken him to Kadara.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: [Private] Pathfinder, those names match a log we found. Clement tried to escape—and Roos killed him.
+        Hero: We've already heard tell of him. I'm sorry, your friend didn't make it.
+        nex_dis_kidnap_friend: {i}(Cries softly.){/i} I knew it. Poor Sanjiv.
+        Hero: It's small consolation, but I relayed the record to Director Tann. Sanjiv's name will be cleared.
+        nex_dis_kidnap_friend: That matters. I'd already made peace with the idea that I'd never see him again. I'm so grateful.
+    ├ option 2:
+        Hero: I'll see what I can do.
+        nex_dis_kidnap_friend: I'm in your debt.
+    └─ merge ─┘
+├ option 2:
+    Hero: Love {i}can{/i} make us do strange things.
+    nex_dis_kidnap_friend: He didn't love her. She was just a fling.
+    ↩ (goto) nex_dis_kidnap_friend: The Initiative has branded him a traitor. I don't want that to be his legacy.
+└─ merge ─┘

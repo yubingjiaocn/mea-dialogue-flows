@@ -1,0 +1,27 @@
+# game/conversations/loyalty/human_male_01/loyalty_hmm_0120_container_d
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0120_container_d.xml
+==================================================
+Hero: Not loving this plan, Liam.
+global_squad_male_human: Come on. Hiding in derelict cargo to get scavenged?
+global_squad_male_human: Sure, we don't know what we're up against. Neither do they. Trojan horse simple.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: What's a horse and how do we know there's air out there?
+    global_squad_male_human: There's air.
+    global_squad_male_human: Whoa. This isn't right.
+    Hero: Liam, you said to expect pirates. This is a kett ship. A big one.
+    global_squad_male_human: Change... change of plan?
+├ option 2:
+    global_squad_asari ⟨cond⟩: The Trojans didn't risk suffocating in space.
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    global_squad_female_human ⟨cond⟩: The Greeks didn't need to worry if Troy had air.
+    ↩ (goto) Narration: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Horses don't last long without air.
+    ↩ (goto) Narration: [empty]
+├ option 5:
+    global_squad_turian ⟨cond⟩: Bad plan {i}and{/i} metaphor. What if there's no air?
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

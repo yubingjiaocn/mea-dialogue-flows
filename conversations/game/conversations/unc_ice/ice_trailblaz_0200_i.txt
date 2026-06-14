@@ -1,0 +1,39 @@
+# game/conversations/unc_ice/ice_trailblaz_0200_i
+# Primary speaker: ICE_Helmoj
+# Source: game/conversations/unc_ice/ice_trailblaz_0200_i.xml
+==================================================
+ICE_Helmoj: [Audio Log] Whoever hears this message, please... find our daughter, Ibyl. She was headed for Techiix.
+ICE_Helmoj: [Audio Log] The kett are hunting us. They stole our sons and daughters. Ibyl is all my wife and I have left.
+ICE_Helmoj: [Audio Log] We heard Techiix was safe, but it's too far. Too dark out here.
+ICE_Helmoj: [Audio Log] We sent Ibyl on without us. To save her.
+ICE_Helmoj: [Audio Log] The kett followed us. I hear them outside. They'll find me and Eira. Only a matter of time.
+ICE_Helmoj: [Audio Log] Ibyl, if you ever hear this, we love you. Never forget that. Be strong.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The kett got her parents, too. What did those things want with a whole family?
+    SAM: I possess insufficient data to draw a reliable conclusion.
+    Hero: SAM, transmit the family's audio logs to the Resistance. We've done all we can.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: The kett left a trap!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: We've got a problem!
+        ↩ (goto) global_squad_turian: [empty]
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Heads-up—we're surrounded!
+        ↩ (goto) global_squad_turian: [empty]
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: It's not over yet!
+        ↩ (goto) global_squad_turian: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Something followed {i}us{/i}!
+        ↩ (goto) global_squad_turian: [empty]
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Hostiles! All over us!
+        ↩ (goto) global_squad_turian: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: The daughter's out there alone. If the kett catch up to her...
+    SAM: A search of the region from here to Techiix should reveal her status.
+    ↩ (goto) ICE_Helmoj: [empty]
+└─ merge ─┘

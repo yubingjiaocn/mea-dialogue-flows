@@ -1,0 +1,150 @@
+# game/conversations/hubs/hub_nexus/rp/scientists/nex_rp_sci_0100_scientists_a
+# Primary speaker: nex_rp_sci_sci01
+# Source: game/conversations/hubs/hub_nexus/rp/scientists/nex_rp_sci_0100_scientists_a.xml
+==================================================
+┌─ BRANCH (19) ─┐
+├ option 1:
+    nex_rp_sci_sci01 [OncePerGame]: But the planet was toxic. What if they store oxygen in porous tissue, like Quero's rockfish?
+    nex_rp_sci_sci03: I still reckon they had breather gear stowed in that armor.
+    nex_rp_sci_sci02: Perhaps both. Life is infinitely adaptable, as our expedition proves.
+├ option 2:
+    nex_rp_sci_sci02: But distillation brings clarity—a complicated form assuming its truest essence.
+    nex_rp_sci_sci03: "Complicated form" meaning body, personality? The whole point of the exercise?
+    nex_rp_sci_sci01: Oh, you two! We're getting beer to celebrate and that's an end to it!
+    nex_rp_ai_leader_son ⟨cond⟩: I can't remember the last time I felt well enough for beer. Count me in.
+├ option 3:
+    nex_rp_sci_sci02: All interlaced with element zero. The very circuitry of Remnant technology is built from it.
+    nex_rp_sci_sci01: Wouldn't the radioactivity make that impractical, to say the least?
+    SAM: Much of their technology is built from an unknown alloy with twice the density of lead.
+    nex_rp_sci_sci03: And their bots have frictionless joints. Nice work—low maintenance.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_ai_leader_son ⟨cond⟩: Their programming's fairly basic, too. Nothing to corrupt.
+        nex_rp_sci_sci02: Their creators built grandly, for the ages. We are studying the leavings of giants.
+    ├ option 2:
+        ↩ (goto) nex_rp_sci_sci02: Their creators built grandly, for the ages. We are studying the leavings of giants.
+    └─ merge ─┘
+├ option 4:
+    nex_rp_sci_sci01: But the plants have adapted to the Scourge's presence. Some even feed on its radiant energy.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_sci_sci01 ⟨cond⟩: See this older specimen? The growth rings show the Scourge's beginnings—the Pathfinder's scanner captured it perfectly!
+        nex_rp_sci_sci02: Herik, a yes or no would suffice.
+        nex_rp_sci_sci01: Hmm? Oh, yes. Properly steamed or roasted, naturally. We won't starve yet.
+    ├ option 2:
+        nex_rp_sci_sci01: See this older specimen? The growth rings show the Scourge's beginnings—the Pathfinder's scanner captured it perfectly!
+        ↩ (goto) nex_rp_sci_sci02: Herik, a yes or no would suffice.
+    └─ merge ─┘
+├ option 5:
+    global_crew_science_officer: [Comm] Of course, there are probably more systems to find. The Scourge doesn't help.
+    nex_rp_sci_sci02: But our mapping of Heleus is complete for now. We can see how the Scourge perturbs orbital patterns, compresses space...
+    global_crew_co-pilot: [Comm] And makes pilots crazy trying to navigate it.
+    global_crew_science_officer: [Comm] But now we've got its number. With these, every Initiative pilot can learn to explore it safely.
+    nex_rp_sci_sci02: With acceptable nav upgrades, of course. Pardon me, Miss Anwar, I have some programming to do.
+├ option 6:
+    SAM: Largely because kett technology appears mimetic, taking designs from different sources to improve their own.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: It is a familiar pattern: observe, conquer, incorporate.
+        nex_rp_sci_sci01: How many have they "incorporated"? How much of Andromeda's life has been suffocated or lost?
+        SAM: I cannot speculate, Professor.
+        SAM: We should anticipate the kett learning from—and incorporating—Initiative technology as well.
+    ├ option 2:
+        nex_rp_sci_sci01: Perhaps from other species they've encountered?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM ⟨cond⟩: Most likely. The scanner has identified unmistakably angaran designs.
+            ↩ (goto) SAM: We should anticipate the kett learning from—and incorporating—Initiative technology as well.
+        ├ option 2:
+            ↩ (goto) SAM: We should anticipate the kett learning from—and incorporating—Initiative technology as well.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 7:
+    nex_rp_sci_sci02: The angara were designed by the Remnant creators?
+    nex_rp_sci_sci01: Specifically for this cluster, it seems.
+    nex_rp_sci_sci03: Then the Scourge hits. Lucky them.
+    nex_rp_sci_sci01: The Protheans uplifted several species. But why create one? Are the angara children to them, or... some great experiment?
+    nex_rp_ai_leader_son ⟨cond⟩: Both, maybe. Parents sometimes make mistakes.
+├ option 8:
+    nex_rp_sci_sci03: Hang on. The Scourge goes across the whole cluster. How could it have come from one planet?
+    nex_rp_sci_sci02: The weapon that created it must have warped space-time—akin to disruptor torpedoes, but on an interstellar scale.
+    nex_rp_sci_sci02: Imagine the space-time of Heleus as a sheet of paper, crumpled together for an instant, then smoothing out again.
+    nex_rp_sci_sci02: The Scourge was birthed in dark energy, and malice, and incomprehensible destruction.
+├ option 9:
+    nex_rp_sci_sci01: Aha, I knew it! Horizontal gene transfer! The kett incorporate new DNA seamlessly into their own genome!
+    nex_rp_sci_sci03: Meaning all living beings are just a big buffet to steal from.
+    nex_rp_sci_sci02: Many species do the same. Only the most primitive do it by force.
+├ option 10:
+    nex_rp_sci_sci02: I wonder how these angara have adapted in such a harsh cluster. How is their metabolism?
+    global_crew_science_officer: [Comm] They can create an EMP charge through their skin...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_ai_leader_son ⟨cond⟩: Sheesh. Better invest in some circuit breakers.
+        nex_rp_sci_sci01: Fascinating! Could you get us a measurement? Even a handshake would do.
+    ├ option 2:
+        ↩ (goto) nex_rp_sci_sci01: Fascinating! Could you get us a measurement? Even a handshake would do.
+    └─ merge ─┘
+├ option 11:
+    global_crew_science_officer: [Comm] Wouldn't it be more practical to build these vaults on the surface?
+    nex_rp_sci_sci03: Nah. Rachni engineers mastered underground construction a millennium ago. These Remnant fellows probably had the same idea.
+    nex_rp_sci_sci03: Wouldn't mind a seismometer reading, though. SAM? Any chance?
+├ option 12:
+    nex_rp_sci_sci01: We can start building a bank of vaccines, once we get more biomaterial.
+    nex_rp_sci_sci03: It's that Scourge I'm wondering about. Standard colony radiation shields should handle it. But I hate "should."
+├ option 13:
+    nex_rp_sci_sci01: This is kett DNA? Are you sure the scan isn't contaminated?
+    SAM: I'm certain, Professor.
+    nex_rp_sci_sci01: But then... SAM, we need more data on life in the cluster. Whatever you can find.
+├ option 14:
+    nex_rp_sci_sci02: This "Scourge." We know it is neither nebula nor H II region. So what is its nature?
+    nex_rp_sci_sci02: It's rife with dark energy, troubling the fabric of space-time. It is monstrously dangerous to anything it touches.
+    nex_rp_sci_sci02: And it appears to be artificially created.
+    nex_rp_sci_sci02: Is it the death throes of some unknown stellar body? Or the birth pangs of something new to our physics?
+├ option 15:
+    nex_rp_ai_leader_son: I could just tell it to calculate pi.
+    nex_rp_sci_sci02: Interesting. I calculate pi as a meditation.
+├ option 16:
+    nex_rp_sci_sci01: And its gas bladder can expand three hundred per cent! Amazing!
+    nex_rp_sci_sci03: Hey, Herik. How about you not dissect things over lunch? It's weird.
+├ option 17:
+    nex_rp_sci_sci02: Byzantine. Crystalline. All the nodules intertwine.
+├ option 18:
+    nex_rp_sci_sci03: Can I borrow your telescope? The light wavelength off the planet might help me.
+    nex_rp_sci_sci02: Of course. I hope you find the methane you seek.
+    nex_rp_sci_sci03: Well, I could just... nah. Too easy.
+├ option 19:
+    ┌─ BRANCH (10) ─┐
+    ├ option 1:
+        nex_rp_sci_sci01: I'll look at the growth patterns.
+    ├ option 2:
+        nex_rp_sci_sci01: The DNA sequencer's free now.
+    ├ option 3:
+        nex_rp_sci_sci03: Anyone seen my acid solution?
+    ├ option 4:
+        nex_rp_sci_sci03: Rock tumbler's on the fritz again.
+    ├ option 5:
+        nex_rp_sci_sci02: Truly a mystery.
+    ├ option 6:
+        nex_rp_sci_sci02: Perhaps SAM could compile it for you.
+    ├ option 7:
+        nex_rp_ai_leader_son ⟨cond⟩: Maybe once the build's back up.
+    ├ option 8:
+        nex_rp_ai_leader_son ⟨cond⟩: Just bug fixes this week.
+    ├ option 9:
+        SAM: Uploading new analyses.
+    ├ option 10:
+        SAM: Downloading new scanner data.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ↩ (goto) nex_rp_sci_sci01 ⟨cond⟩ [OncePerGame]: [empty]
+├ option 2:
+    ↩ (goto) nex_rp_sci_sci01 [OncePerGame]: [empty]
+├ option 3:
+    ↩ (goto) nex_rp_sci_sci01 [OncePerGame]: [empty]
+├ option 4:
+    ↩ (goto) nex_rp_sci_sci01 [OncePerGame]: [empty]
+├ option 5:
+    ↩ (goto) nex_rp_sci_sci01: [empty]
+└─ merge ─┘

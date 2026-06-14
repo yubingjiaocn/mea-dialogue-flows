@@ -1,0 +1,107 @@
+# game/conversations/rel/suvi/suvi_r4_tem_regret_d
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/rel/suvi/suvi_r4_tem_regret_d.xml
+==================================================
+global_crew_science_officer: I need a break. Do you need a break? Let's go for a break!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer ⟨cond⟩: Tea, Sara?
+    Hero: I'd love a cup.
+    global_crew_science_officer: It's a cultivar originating in Sumatra. My own personal stash. Once I run out...
+    global_crew_science_officer: That'll be it for Earth tea.
+    global_crew_science_officer: {i}(Sighs.){/i} I keep having these thoughts. "I'm never going to taste this again. I'm never going to see that again."
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I don't want to seem harsh, but there's really no take-backsies with this one.
+        global_crew_science_officer: I know. I can't {i}do{/i} anything about it. Which is why I wish my brain would behave itself.
+        global_crew_science_officer: The universe is like a giant tapestry. I love following its threads, but it distracts me from the whole picture.
+        global_crew_science_officer: My family was right there, but I was too occupied by the abstract to appreciate them.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You're a pioneer in a new galaxy. Your family understood that, and they were proud of you.
+            Hero: Your work as a scientist will help thousands of people. That's real.
+            global_crew_science_officer: It was a dream for all of us. They always encouraged me.
+            global_crew_science_officer: I will do all I can to make sure my work honors them.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: And Suvi, the threads you followed led you here to me. How could that have been a mistake?
+                global_crew_science_officer: Of everything I've encountered in Heleus, you are by far my favorite.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_crew_science_officer ⟨cond⟩: Sara, don't do this to me. Not unless you really mean it.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: I know, and I'm serious. Serious about us.
+                        ├ option 2:
+                            Hero: Actually, I don't think I'm ready for anything serious.
+                            global_crew_science_officer: Yeah, I get the idea.
+                            global_crew_science_officer: I should get back to work. Lots to do.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_crew_science_officer: Don't do this to me, not unless you really mean it.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: I know, and I'm serious. Serious about us.
+                        ├ option 2:
+                            ↩ (goto) Hero: Actually, I don't think I'm ready for anything serious.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_crew_science_officer ⟨cond⟩: Sara, is this really happening? Are we doing this?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Yes, this is happening.
+                            ↩ (goto) global_crew_science_officer: [empty]
+                        ├ option 2:
+                            Hero: I actually meant the thread of close friendship and mutual support. That thread.
+                            ↩ (goto) global_crew_science_officer: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_crew_science_officer: Is this really happening? This us, I mean.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: Yes, this is happening.
+                        ├ option 2:
+                            ↩ (goto) Hero: I actually meant the thread of close friendship and mutual support. That thread.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_science_officer: Thank you, Ryder.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: From everything you've told me, you're here {i}because{/i} of your family.
+            Hero: Your love of science, doesn't that come from them? Aren't you with them every time you chase down a new discovery?
+            global_crew_science_officer: Ryder, that's beautiful.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: My mother made the implant in my head and my father created the AI that uses it.
+                Hero: I haven't lost them either.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_crew_science_officer ⟨cond⟩: [empty]
+                ├ option 2:
+                    ↩ (goto) global_crew_science_officer: Thank you, Ryder.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: My father was an explorer, and my mother a researcher. Everything I do here reminds me of them.
+                ↩ (goto) Hero: I haven't lost them either.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You're not the only one, Suvi. I have those senseless thoughts all the damn time.
+        global_crew_science_officer: And? Do they bother you?
+        Hero: It's natural. You'd have to be made of stone not to miss home sometimes.
+        ↩ (goto) global_crew_science_officer: The universe is like a giant tapestry. I love following its threads, but it distracts me from the whole picture.
+    └─ merge ─┘
+├ option 2:
+    global_crew_science_officer: Care for some tea, Ryder?
+    ↩ (goto) Hero: I'd love a cup.
+└─ merge ─┘
+Hero: Hot plant water. I'll pass.
+global_crew_science_officer: You're a terrible person and you should feel bad about your choices.
+global_crew_science_officer: But it's more for me, so I don't mind. I mean, once I run out of my stash, that'll be it for Earth tea.

@@ -1,0 +1,33 @@
+# game/conversations/unc_ice/ice_trap_0100_start_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_trap_0100_start_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: That's a signal beacon, used by angaran civilians. It's a distress call.
+    Hero: Got it. We should see if we can lend a hand.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: That's a flare. Flares are bad news.
+    ↩ (goto) Hero: Got it. We should see if we can lend a hand.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Ryder, that's a flare. Someone could be in trouble.
+    ↩ (goto) Hero: Got it. We should see if we can lend a hand.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Flare! Think someone's in trouble?
+    ↩ (goto) Hero: Got it. We should see if we can lend a hand.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Flare! Someone needs assistance!
+    ↩ (goto) Hero: Got it. We should see if we can lend a hand.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Kett. I recognize their fire.
+├ option 2:
+    Hero: It's the kett. They must be going after the angara.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_ayran: You're Jaal! Join the fight, brother!
+├ option 2:
+    ice_ayran: Who are you? You don't look like kett. Join the fight, or stay out of the way!
+└─ merge ─┘

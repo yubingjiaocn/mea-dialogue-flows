@@ -1,0 +1,54 @@
+# game/conversations/unc/biolum/bio_0500_roekaarcell_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/biolum/bio_0500_roekaarcell_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: We just want to talk!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: The Roekaar don't talk to aliens!
+    ├ option 2:
+        Hero: They don't seem to be the talking type!
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: We only want to talk!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: The Roekaar don't talk to aliens!
+    ├ option 2:
+        ↩ (goto) Hero: They don't seem to be the talking type!
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩: We just want to talk!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: The Roekaar don't talk to aliens!
+    ├ option 2:
+        ↩ (goto) Hero: They don't seem to be the talking type!
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩: We just want to talk!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: The Roekaar don't talk to aliens!
+    ├ option 2:
+        ↩ (goto) Hero: They don't seem to be the talking type!
+    └─ merge ─┘
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Stop shooting! We just want to talk!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: The Roekaar don't talk to aliens!
+    ├ option 2:
+        ↩ (goto) Hero: They don't seem to be the talking type!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    bio_ang_champ: [Comm] We're under attack! I repeat, under attack!
+    Hero: He's in here. I can hear him. You guys ready?
+├ option 2:
+    bio_ang_champ: [Comm] Akksul! Come in, Akksul! Anyone! We're under attack!
+    ↩ (goto) Hero: He's in here. I can hear him. You guys ready?
+└─ merge ─┘

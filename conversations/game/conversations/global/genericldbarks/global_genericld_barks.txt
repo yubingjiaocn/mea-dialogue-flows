@@ -1,0 +1,250 @@
+# game/conversations/global/genericldbarks/global_genericld_barks
+# Primary speaker: Hero
+# Source: game/conversations/global/genericldbarks/global_genericld_barks.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: Looks like it needs power.
+├ option 2:
+    Hero: We'll have to cut the power.
+├ option 3:
+    Hero: I think it's stuck.
+├ option 4:
+    Hero: Must be missing something.
+├ option 5:
+    Hero: We can't get through the shield.
+├ option 6:
+    Hero: Locked.
+├ option 7:
+    Hero: Blocked.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    SAM: There may be a generator nearby.
+├ option 2:
+    SAM: There could be a console nearby.
+├ option 3:
+    SAM: I recommend searching the area.
+├ option 4:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        SAM: I suggest interfacing, Pathfinder.
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I have to open this with an interface.
+        ├ option 2:
+            Hero: Have to use the interface to open this.
+        └─ merge ─┘
+    ├ option 3:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Locked by an interface.
+        ├ option 2:
+            Hero: Sealed unless I can use the interface.
+        └─ merge ─┘
+    ├ option 4:
+        Hero: I'll need to use the interface that controls this.
+    └─ merge ─┘
+├ option 5:
+    SAM: I may be able to hack this, Pathfinder.
+├ option 6:
+    Hero: Might be able to blast through it.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        Hero: Well, can't go this way.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Can't go that way.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Can't go that way.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Can't go that way.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: Can't go that way.
+    ├ option 6:
+        global_squad_asari ⟨cond⟩: Can't go that way.
+    ├ option 7:
+        global_squad_turian ⟨cond⟩: Can't go that way.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Looks like we need to find another way.
+    ├ option 2:
+        Hero: Need to find another way!
+    └─ merge ─┘
+├ option 3:
+    Hero: Guess we'll try again later.
+├ option 4:
+    Hero: Doesn't look like there's a way inside.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Ryder, turret!
+├ option 2:
+    global_squad_angara ⟨cond⟩: Turret!
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Turret ahead!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Turret!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: We got a turret!
+├ option 6:
+    global_squad_turian ⟨cond⟩: Turret!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Let's do this.
+    ├ option 2:
+        Hero: Come on. Let's get 'em.
+    └─ merge ─┘
+├ option 2:
+    Hero: Here they come.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: That's the last of them.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Should be all of them.
+├ option 3:
+    global_squad_asari ⟨cond⟩: I think we got 'em all.
+├ option 4:
+    global_squad_turian ⟨cond⟩: We're all clear.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Area cleared.
+├ option 6:
+    global_squad_krogan ⟨cond⟩: That's the last of 'em.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: More hostiles!
+├ option 2:
+    global_squad_angara ⟨cond⟩: Reinforcements!
+├ option 3:
+    global_squad_male_human ⟨cond⟩: More incoming!
+├ option 4:
+    global_squad_turian ⟨cond⟩: The party just got bigger!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Reinforcements!
+├ option 6:
+    global_squad_asari ⟨cond⟩: More baddies incoming!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I don't think we're done here.
+├ option 2:
+    Hero: Stay alert. There'll be more.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM: Pathfinder, landmine nearby.
+├ option 2:
+    SAM: Detecting elevated levels of radiation, Pathfinder.
+├ option 3:
+    SAM: Heat index is climbing rapidly. Your body won't stand this for long.
+├ option 4:
+    SAM: Sensors indicate extreme cold. I advise caution.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: That's one down. Let's get the rest.
+├ option 2:
+    Hero: Okay, on to the next one.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Wonder if I'd get anything on the scanner.
+├ option 2:
+    SAM: I could provide analysis via the scanner, Pathfinder.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Down there. What's that?
+├ option 2:
+    Hero: I think something's up there.
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Above us!
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Above us!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Above!
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Look up!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Above us!
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Above!
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Behind you!
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Behind you!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Behind!
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Behind!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Behind you!
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Behind!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: We need to hurry!
+├ option 2:
+    Hero: We're running out of time!
+├ option 3:
+    Hero: Faster!
+├ option 4:
+    Hero: Keep moving!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Hostile shuttle incoming.
+├ option 2:
+    SAM: Ally reinforcements inbound.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Looks like we'll have to jump.
+├ option 2:
+    Hero: Bet we can get up there.
+├ option 3:
+    Hero: I think we can get over there.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Whoa!
+├ option 2:
+    Hero: Whoa. Heads up!
+├ option 3:
+    Hero: Look out!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Look at that.
+├ option 2:
+    Hero: Whoa.
+├ option 3:
+    Hero: Don't see that every day...
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Better hang onto this.
+├ option 2:
+    Hero: Wonder what this does...
+├ option 3:
+    Hero: Well, look at this.
+├ option 4:
+    Hero: What do we have here?
+└─ merge ─┘

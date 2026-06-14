@@ -1,0 +1,64 @@
+# game/conversations/unc/olw/collective/olw_collective_crux_i
+# Primary speaker: olw_char_rep_02
+# Source: game/conversations/unc/olw/collective/olw_collective_crux_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_char_rep_02 ⟨cond⟩: Pathfinder. Need something?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: What's it like working for the Collective?
+        olw_char_rep_02: Enjoyable for the most part. Pay's good and being a representative gets me respect.
+        olw_char_rep_02: Sure, I live in a cave, but every job has its downside, right?
+        Hero: You've no regrets about leaving the Nexus then?
+        olw_char_rep_02: No way. Those idiots have no idea what they're doing. At least the Charlatan has their shit figured out.
+        ↩ (goto) olw_char_rep_02: [empty]
+    ├ option 2:
+        Hero: What is a Charlatan representative, exactly?
+        olw_char_rep_02: Most members of the Collective have no direct contact with the Charlatan. The boss delivers their orders through us.
+        olw_char_rep_02: Even as a representative, I only get messages. I've never met the Charlatan in person.
+        Hero: You're okay with that?
+        olw_char_rep_02: I don't like being micromanaged. As long as I carry out the Charlatan's orders, I have the freedom to do as I want.
+        ↩ (goto) olw_char_rep_02: [empty]
+    ├ option 3:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Why did you choose to work for the Charlatan instead of Sloane?
+            olw_char_rep_02: Doesn't matter now. The bitch is dead.
+            Hero: Humor me.
+            olw_char_rep_02: Sloane had a habit of promoting her friends—not the qualified.
+            olw_char_rep_02: The Charlatan doesn't care who you are—just how you perform.
+            ↩ (goto) olw_char_rep_02: [empty]
+        ├ option 2:
+            Hero: Why work for the Charlatan instead of Sloane?
+            olw_char_rep_02: Because moving up in the Outcasts is a popularity contest. Sloane promotes her friends over the qualified.
+            ↩ (goto) olw_char_rep_02: The Charlatan doesn't care who you are—just how you perform.
+        └─ merge ─┘
+    ├ option 4:
+        Hero ⟨cond⟩: You find out who's impersonating the Charlatan?
+        olw_char_rep_02: No—still working it out. Why?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: No reason—just curious.
+            ↩ (goto) olw_char_rep_02: [empty]
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: I could poke around. My alliance with the Collective is new. Getting to know its members shouldn't raise suspicion.
+                olw_char_rep_02: You've got a point. All right, here's what we know...
+                olw_char_rep_02: The drop point was in the sulfur springs, so the imposter should have high levels of sulfur in their clothes.
+                Hero: SAM's sensors should be able to detect for that. Anything else I need to know?
+                olw_char_rep_02: We found footprints that could be human or asari, but too smudged to get an exact size. That's all my intel.
+                ↩ (goto) olw_char_rep_02: [empty]
+            ├ option 2:
+                Hero: The imposter wouldn't worry as much about an outsider poking around.
+                ↩ (goto) olw_char_rep_02: You've got a point. All right, here's what we know...
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 5:
+        Hero: Thanks for the chat.
+    └─ merge ─┘
+├ option 2:
+    olw_char_rep_02: Pathfinder. Still here?
+    ↩ (goto) olw_char_rep_02: [empty]
+└─ merge ─┘

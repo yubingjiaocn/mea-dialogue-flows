@@ -1,0 +1,109 @@
+# game/conversations/unc_dunes/dune_0511_q3_thecrew_fort_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0511_q3_thecrew_fort_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: This is the place Barrett wants to move to.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Here's the base Barrett wants.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Here we are! Barrett wants this place.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Looks like the base Barrett's got his eye on.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: This is the base Barrett wanted us to clear out.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: This is the base Barrett wanted us to help with.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Place is swarming. Explains why Barrett wasn't willing to take the risk himself.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: There's a lot of them! I can see why Barrett didn't want to risk his group.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: There's a lot of them! I understand why Barrett needed us!
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: This place is crawling! I can see why Barrett left this to someone else!
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: So many! Would've been hard for Barrett to take this place under-equipped.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Hostiles everywhere! Barrett's group would never have been able to take them out.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Well-located, good view of surrounding area. I can see why they want it.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: This is certainly a good location. You can see for miles around. Great for defending.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I can see why Barrett wants to move his guys here. It's so much better!
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: This fort's well-located. I can see why Barrett wants it so bad.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Well-located, good view of surrounding area. I understand the appeal.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: This is prime real estate. Can see why Barrett wants it.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Lots of guns, equipment.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Looks like someone's been stockpiling.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Check this out. They've been building an armory.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Huh, these scavengers were well-prepared.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: That's a lot of equipment. They've been stocking up.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Lots of gear. These guys have been busy.
+└─ merge ─┘
+SAM: Detecting elevated levels of radiation, Pathfinder.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Elevated and rising!
+    Hero: Coming from the generators! They're set to overload! Must be some kind of security measure!
+    SAM: If the overload is not stopped, I predict a release of deadly levels of radiation in this area.
+├ option 2:
+    global_squad_asari ⟨cond⟩: And they're going up!
+    ↩ (goto) Hero: Coming from the generators! They're set to overload! Must be some kind of security measure!
+├ option 3:
+    global_squad_turian ⟨cond⟩: And they're rising!
+    ↩ (goto) Hero: Coming from the generators! They're set to overload! Must be some kind of security measure!
+├ option 4:
+    global_squad_angara ⟨cond⟩: Readings say they're rising!
+    ↩ (goto) Hero: Coming from the generators! They're set to overload! Must be some kind of security measure!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Elevated and rising!
+    ↩ (goto) Hero: Coming from the generators! They're set to overload! Must be some kind of security measure!
+└─ merge ─┘
+Hero: No one's home. That's weird.
+Hero: Is that all of them? That was way too easy.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Shuttle spotted! Incoming!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Reinforcements!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Reinforcements incoming!
+├ option 4:
+    global_squad_angara ⟨cond⟩: That's a shuttle! More incoming!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: They've sent reinforcements!
+└─ merge ─┘
+Hero: Security's pretty sophisticated. I wonder what they're trying to protect back here.
+SAM: Detecting dangerous levels of radiation, Pathfinder. I would suggest a retreat.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Smart. He was plotting something.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: We should've heard him out.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Whoa, Ryder! Why'd you do that?
+├ option 4:
+    global_squad_turian ⟨cond⟩: They didn't seem to be a threat.
+├ option 5:
+    global_squad_angara ⟨cond⟩: You should've allowed him to speak, Ryder.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: That was pretty low.
+└─ merge ─┘

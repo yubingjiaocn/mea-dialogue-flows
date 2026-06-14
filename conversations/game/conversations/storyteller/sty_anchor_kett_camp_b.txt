@@ -1,0 +1,46 @@
+# game/conversations/storyteller/sty_anchor_kett_camp_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/sty_anchor_kett_camp_b.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: Look. The kett set up camp.
+├ option 2:
+    SAM: Pathfinder, I detect a kett camp ahead.
+├ option 3:
+    SAM: The camp ahead contains kett lifeforms, Pathfinder.
+├ option 4:
+    Hero: Looks like kett ahead. We should be careful.
+├ option 5:
+    SAM: Kett ahead, Pathfinder. I recommend caution.
+├ option 6:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Kett. Stay on guard.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: We got kett up ahead.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Kett camp spotted.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Kett camp. Look out.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Spotted a kett camp.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Got a kett camp over there.
+    └─ merge ─┘
+├ option 7:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: The kett have made camp. Be careful, Ryder.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Kett set up camp over there. Let's check it out.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: We should take out that kett camp.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Kett camp. Should we handle it?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: That kett camp needs a little spring cleaning.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Should we clean up that kett camp?
+    └─ merge ─┘
+└─ merge ─┘

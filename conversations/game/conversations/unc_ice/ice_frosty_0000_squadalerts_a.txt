@@ -1,0 +1,39 @@
+# game/conversations/unc_ice/ice_frosty_0000_squadalerts_a
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_frosty_0000_squadalerts_a.xml
+==================================================
+SAM: Pathfinder, I detect heavy-weapons fire nearby.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Resistance fighting kett. Let's go!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Looks like the Resistance needs help!
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Let's give the Resistance a hand with those kett.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: All right, a fight! Let's do this!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Those guys need help. C'mon!
+├ option 6:
+    global_squad_turian ⟨cond⟩: Let's go pop some kett.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: And we're done here. Nice shooting.
+    Hero: Let's make sure these Resistance fighters are okay.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Think we got them all.
+    ↩ (goto) Hero: Let's make sure these Resistance fighters are okay.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Hah! They sure didn't last.
+    ↩ (goto) Hero: Let's make sure these Resistance fighters are okay.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: That's it for the kett.
+    ↩ (goto) Hero: Let's make sure these Resistance fighters are okay.
+├ option 5:
+    global_squad_asari ⟨cond⟩: That's the last of 'em!
+    ↩ (goto) Hero: Let's make sure these Resistance fighters are okay.
+├ option 6:
+    global_squad_angara ⟨cond⟩: All targets down. It's over.
+    ↩ (goto) Hero: Let's make sure these Resistance fighters are okay.
+└─ merge ─┘

@@ -1,0 +1,30 @@
+# game/conversations/crit/pro_shp/pro_shp_0380_prep_kirk_greer_i
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/pro_shp_0380_prep_kirk_greer_i.xml
+==================================================
+Pro_Lnd_Shuttle_Pilot: Hey, Ryder.
+Hero: It's Kirkland, right?
+Pro_Lnd_Shuttle_Pilot: Yeah, I think we met just before the Hyperion left Earth. Not sure if you know Greer.
+pro_lnd_shuttle_crew2_multi: Hi, there. Your dad say anything about what's going on?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Looks like we're already home.
+    Pro_Lnd_Shuttle_Pilot: That's a relief. With everything that's been happening, I wasn't sure. Guess I can unpack my luggage.
+    pro_lnd_shuttle_crew2_multi: I get dibs on any islands we find.
+    Hero: See you guys on the ride down.
+├ option 2:
+    Hero: Tough to say. Sensors can't get a read on the planet.
+    Pro_Lnd_Shuttle_Pilot: Well, at least it keeps things interesting.
+    pro_lnd_shuttle_crew2_multi: Yeah, be a shame to go through all this training and not put it to good use.
+    ↩ (goto) Hero: See you guys on the ride down.
+├ option 3:
+    Hero: Judging by all the people running around the bridge with their hair on fire, I'd say "buckle up."
+    pro_lnd_shuttle_crew2_multi: Uh...
+    Pro_Lnd_Shuttle_Pilot: {i}(Sighs.){/i} Damn. I knew this was too good to be true.
+    pro_lnd_shuttle_crew2_multi: But we don't know for sure, right? Might be a cakewalk.
+    Hero: We'll find out.
+├ option 4:
+    Hero: He was all business. Told us to prep and be ready to go.
+    pro_lnd_shuttle_crew2_multi: Short and sweet, huh? Will do.
+    ↩ (goto) Hero: See you guys on the ride down.
+└─ merge ─┘

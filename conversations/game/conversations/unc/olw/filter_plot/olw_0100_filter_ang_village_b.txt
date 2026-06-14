@@ -1,0 +1,39 @@
+# game/conversations/unc/olw/filter_plot/olw_0100_filter_ang_village_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/filter_plot/olw_0100_filter_ang_village_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Town over there. Want to stock up on supplies?
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Those shacks look sturdier than the other holes around here.
+    global_squad_krogan: Good chance to restock supplies.
+├ option 3:
+    global_squad_angara ⟨cond⟩: That daar looks nicer than the others we've come across.
+    global_squad_angara: Could have decent supplies.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Signs of civilization. I wouldn't mind a break.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Hey, look—a town of some sort. Think they've got food? I'm starving.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They're all dead. How did this happen?
+    Hero: I don't see signs of an attack.
+    SAM: Scanning the bodies could provide a clue.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Dead. For awhile, judging by the smell.
+    ↩ (goto) Hero: I don't see signs of an attack.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: What the hell happened here?
+    ↩ (goto) Hero: I don't see signs of an attack.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Ugh. They're... very dead.
+    ↩ (goto) Hero: I don't see signs of an attack.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Yikes. That's a lot of dead people.
+    ↩ (goto) Hero: I don't see signs of an attack.
+└─ merge ─┘
+Hero: A filtration center... If they had this, why were they drinking poisoned water?
+SAM: I could provide an analysis via the scanner, Pathfinder.
+Hero: Quite the menu.

@@ -1,0 +1,48 @@
+# game/conversations/unc_dunes/dune_0122_scav_one_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0122_scav_one_i.xml
+==================================================
+dune_scavenger_01: What are you looking at?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: To be honest, I'm curious about what's going on here.
+        dune_scavenger_01: What's going on is none of your damn business. Keep walking or I'm gonna shoot out your knees.
+        Hero: I thought the rule was no guns.
+        dune_scavenger_01: That won't protect you outside the gates. If you see me there, you better run.
+        SAM: Pathfinder, is it necessary to engage with this individual? I don't see how it helps our cause.
+        Hero: Right. Let's just back away slowly, guys.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: About time.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: Not a moment too soon.
+        ├ option 3:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: Don't have to ask me twice.
+        ├ option 4:
+            global_squad_turian ⟨cond⟩ [OncePerGame]: Wow, the stories about Elaaden are true.
+        ├ option 5:
+            global_squad_angara ⟨cond⟩ [OncePerGame]: But you were having such a stimulating conversation!
+        ├ option 6:
+            global_squad_male_human ⟨cond⟩ [OncePerGame]: He had no idea who he was talking to, did he?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Um... what? Nothing.
+        dune_scavenger_01: Really? Because it looks like you're looking at me. I don't like it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'll look where I want.
+            dune_scavenger_01: Yeah? Maybe I'll shoot whoever I want.
+            ↩ (goto) Hero: I thought the rule was no guns.
+        ├ option 2:
+            Hero: I'm just another customer. Not looking for trouble.
+            dune_scavenger_01: Yeah? Then you shouldn't have come here. Because on Elaaden, you can bet trouble's looking for you.
+            dune_scavenger_01: Can't handle that? Shouldn't have set down here. Idiot.
+            Hero: Watch who you're calling an idiot.
+            dune_scavenger_01: What are you gonna do about it, idiot?
+            ↩ (goto) SAM: Pathfinder, is it necessary to engage with this individual? I don't see how it helps our cause.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+└─ merge ─┘

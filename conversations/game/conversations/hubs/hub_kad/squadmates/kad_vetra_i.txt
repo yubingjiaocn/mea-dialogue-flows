@@ -1,0 +1,103 @@
+# game/conversations/hubs/hub_kad/squadmates/kad_vetra_i
+# Primary speaker: global_squad_turian
+# Source: game/conversations/hubs/hub_kad/squadmates/kad_vetra_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_turian [OncePerGame]: Apparently half the people I knew who left in the uprising ended up here.
+        global_squad_turian: Good for them, good for me, and good for the Nexus. You didn't hear me say that.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What illicit activity are you involved in now?
+            global_squad_turian: Trading. Bartering for goods, favors, services. Doesn't have to be illicit, but it is.
+            global_squad_turian: We've got problems, and we need help, but no. The brass has to make a point by cutting off the exiles.
+            global_squad_turian: I've got a couple calls to make, so I'll let you go.
+        ├ option 2:
+            Hero: Lips. Sealed.
+            global_squad_turian: Thanks. I'm trying to protect you too. If leadership finds out you know about me trading here...
+            global_squad_turian: You have enough to deal with. I don't want to give them reasons to meddle.
+            Hero: Appreciate it.
+            ↩ (goto) global_squad_turian: I've got a couple calls to make, so I'll let you go.
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: Scott.
+        ├ option 2:
+            global_squad_turian ⟨cond⟩: Sara.
+        ├ option 3:
+            global_squad_turian: Hey, Ryder.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: So if Reyes is in charge, does that make you Queen of Kadara?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Reyes and me being a thing doesn't mean I've changed—or Kadara's changed.
+            global_squad_turian: Just wait 'til word gets around the Nexus. That's gonna put an itch in some suits for sure.
+            global_squad_turian: But honestly, be careful. Reyes lied to you. Lying's not something you try once and quit.
+        ├ option 2:
+            Hero: I don't know. I'm probably more like a consort or... something.
+            global_squad_turian: Consort? You deserve a better title. Demand to be a baroness at least.
+            Hero: I don't think that's a thing in Heleus.
+            global_squad_turian: Hey, you're a Pathfinder-Baroness. Make up your own rules.
+            ↩ (goto) global_squad_turian: But honestly, be careful. Reyes lied to you. Lying's not something you try once and quit.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_turian [OncePerGame]: Be careful, Ryder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: I know you think you've got an ally in the Charlatan. But he's already lied to you once.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Oh, I'm definitely keeping an eye on Kadara politics.
+                Hero: I'm not going to be used—or blindsided.
+                global_squad_turian: Good to hear. Anything you need, just holler.
+            ├ option 2:
+                Hero: I'm okay, Mom. Promise. Thanks for looking out for me though.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: Please don't call me Mom. That's just creepy.
+                ├ option 2:
+                    global_squad_turian: I don't do it for just anyone. Only friends.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_turian: You helped Sloane keep her grip on Kadara. But that doesn't mean she owes you anything.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: Oh, I'm definitely keeping an eye on Kadara politics.
+            ├ option 2:
+                ↩ (goto) Hero: I'm okay, Mom. Promise. Thanks for looking out for me though.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_turian [OncePerGame]: Watch out for those crates. Fragile stuff.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What sort of fragile stuff?
+            global_squad_turian: Electronic components. Vials of medicine. Things like that.
+            Hero: For the Nexus?
+            global_squad_turian: Absolutely. This will go a long way.
+        ├ option 2:
+            Hero: I swear I didn't bump into anything!
+            global_squad_turian: Oh, I know. Just in case you wanted to take a seat or something.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: I'm not that rude, am I?
+                global_squad_turian: Oh, I don't know. You tell me, Ryder.
+            ├ option 2:
+                Hero: You think I'd break stuff if I sat down? What are you saying about my weight?
+                ↩ (goto) global_squad_turian: Oh, I don't know. You tell me, Ryder.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 4:
+        ↩ (goto) global_squad_turian: [empty]
+    └─ merge ─┘
+├ option 3:
+    ↩ (goto) global_squad_turian: [empty]
+└─ merge ─┘

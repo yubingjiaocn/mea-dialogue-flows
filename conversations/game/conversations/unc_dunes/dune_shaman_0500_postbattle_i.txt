@@ -1,0 +1,28 @@
+# game/conversations/unc_dunes/dune_shaman_0500_postbattle_i
+# Primary speaker: dune_colony_varka
+# Source: game/conversations/unc_dunes/dune_shaman_0500_postbattle_i.xml
+==================================================
+dune_colony_varka: Three fiends. They'll be talking about this for years.
+dune_colony_gren: You're a tough one, Varka. Couple of those bites should've killed you.
+dune_colony_varka: Almost did. Your quick shooting saved my hide.
+dune_colony_gren: Yeah, well.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You're both strong, but together you're unstoppable.
+    dune_colony_varka: Yeah, yeah. I get it.
+    dune_colony_gren: You're pretty impressive yourself, Pathfinder.
+    dune_colony_varka: Too bad you're not krogan. You'd make a good warlord.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Warlord Ryder does have a nice ring to it.
+        dune_colony_gren: Ha. Spoken like a krogan.
+    ├ option 2:
+        Hero: Are you nuts? I'd never keep up with you two.
+        dune_colony_gren: Ha. No one can.
+        dune_colony_varka: Thanks for the fight, Pathfinder. Let's do it again sometime.
+    └─ merge ─┘
+├ option 2:
+    Hero: Was that a compliment I heard?
+    dune_colony_varka: Don't look so smug.
+    ↩ (goto) dune_colony_gren: You're pretty impressive yourself, Pathfinder.
+└─ merge ─┘

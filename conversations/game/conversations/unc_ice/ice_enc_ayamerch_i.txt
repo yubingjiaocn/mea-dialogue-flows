@@ -1,0 +1,47 @@
+# game/conversations/unc_ice/ice_enc_ayamerch_i
+# Primary speaker: ICE_Svanha
+# Source: game/conversations/unc_ice/ice_enc_ayamerch_i.xml
+==================================================
+ICE_Svanha [OncePerGame]: You're the human who came from Aya. Is it still beautiful there?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The most beautiful world I've seen in the cluster, by a long shot.
+    ICE_Svanha: I miss it terribly.
+    ICE_Svanha: I was born there. Spent my childhood in warm air and sunlight. I'll never forget how that felt.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Why don't you go back?
+        ICE_Svanha: My life, family, livelihood... they're all here.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: What do you sell?
+        ICE_Svanha: I trade with those who have things they don't need anymore, but who need things I have.
+        ICE_Svanha: Small comforts. Nothing of value to you.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: What do you mean, people with things they don't need?
+            ICE_Svanha: Refugees carrying whatever they grabbed as they fled. The lighter their load, the easier their journey. I pay well.
+            ↩ (goto) ICE_Svanha: [empty]
+        ├ option 2:
+            Hero: What's a "small comfort" on Voeld?
+            ICE_Svanha: Clothing, tools, art, toys... anything to remind them of happier times. Things they can hold in the dark.
+            ↩ (goto) ICE_Svanha: [empty]
+        ├ option 3:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        Hero: Thanks for talking with me.
+        ICE_Svanha: Thank you for reminding me of Aya.
+    └─ merge ─┘
+├ option 2:
+    Hero: I wasn't allowed to see much. The docks, mostly.
+    ICE_Svanha: What a shame.
+    ↩ (goto) ICE_Svanha: I was born there. Spent my childhood in warm air and sunlight. I'll never forget how that felt.
+└─ merge ─┘
+ICE_Svanha: Paavoa. How may I help you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) Hero: What do you sell?
+├ option 2:
+    ↩ (goto) Hero: Thanks for talking with me.
+└─ merge ─┘

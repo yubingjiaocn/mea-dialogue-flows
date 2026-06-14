@@ -1,0 +1,87 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_020_tower_progress_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_020_tower_progress_b.xml
+==================================================
+SAM: 145 meters to projected override controls.
+Hero: Through the door. Eyes open.
+Hero: Remnant! And they don't look friendly!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Understatement!
+├ option 2:
+    global_squad_asari ⟨cond⟩: By design!
+├ option 3:
+    global_squad_female_human ⟨cond⟩: On it!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Finally!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: So, back to normal?
+├ option 6:
+    global_squad_turian: Do they ever?
+└─ merge ─┘
+SAM: Caution, power draw is increasing.
+Hero: They're defending like it's important! We're on the right track!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Win first, then celebrate!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Oh good, I was worried things were terrible!
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Less chatter!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Don't let up!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Good news! If we live!
+├ option 6:
+    global_squad_turian: Don't celebrate yet!
+└─ merge ─┘
+Hero: More incoming! They do {i}not{/i} want to give up this space!
+Hero: They're breaking! Keep it up!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: That was tough. Worse than some vaults.
+    Hero: We must be close to the controls we need. Let's move.
+├ option 2:
+    global_squad_asari ⟨cond⟩: That was peak Remnant. Best I've seen.
+    ↩ (goto) Hero: We must be close to the controls we need. Let's move.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: That... was tougher than usual.
+    ↩ (goto) Hero: We must be close to the controls we need. Let's move.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: For bots, that was pretty good.
+    ↩ (goto) Hero: We must be close to the controls we need. Let's move.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Man! That was.. wow!
+    ↩ (goto) Hero: We must be close to the controls we need. Let's move.
+├ option 6:
+    global_squad_turian: That was a hard one. Right?
+    ↩ (goto) Hero: We must be close to the controls we need. Let's move.
+└─ merge ─┘
+Hero: One last Remnant door.
+SAM: Controls are ahead. Projections suggest multiple launch bays, and possible links to Meridian deployment.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: We are so close. After so much fighting.
+├ option 2:
+    global_squad_asari ⟨cond⟩: I cannot wait to see what this thing does.
+    ↩ (goto) global_squad_turian: [empty]
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Don't waste any time.
+    ↩ (goto) global_squad_turian: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩: About time, if you ask me.
+    ↩ (goto) global_squad_turian: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: So this is it. We win?
+    ↩ (goto) global_squad_turian: [empty]
+├ option 6:
+    global_squad_turian: Then... we're here? We can find it.
+    ↩ (goto) global_squad_turian: [empty]
+└─ merge ─┘
+Hero: It's right there. We just need to apply the override, and the Remnant will show the way.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer: [Comm] Minor Remnant presence, Pathfinder. Nothing you haven't seen before.
+├ option 2:
+    global_crew_science_officer: [Comm] We're reading an energy fluctuation. SAM, is that on your end?
+└─ merge ─┘

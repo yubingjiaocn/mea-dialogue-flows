@@ -1,0 +1,52 @@
+# game/conversations/unc/storms/stm_0570_monolith_kett_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0570_monolith_kett_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: That looks like a kett facility of some kind?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: [Comm] Those assholes took over my best research site.
+        global_squad_asari: [Comm] They won't let you near the monolith without a fight.
+    ├ option 2:
+        Hero: We saw them researching this tech back on Habitat 7. Doubt that's a coincidence.
+        Hero: But if we want to look, the only way is through.
+    └─ merge ─┘
+├ option 2:
+    Hero: Kett incoming!
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Why send reinforcements? Do they know we're here?
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Did those kett seem... shaken up?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Were those kett sent for us?
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Wow. It's trashed.
+        Hero: Something steamrolled through this place.
+        Hero ⟨cond⟩: And I don't think it was Remnant.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Okay, when {i}I{/i} notice it's messy, it's {i}messy{/i}
+        ↩ (goto) Hero: Something steamrolled through this place.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Huh. We missed a real party.
+        ↩ (goto) Hero: Something steamrolled through this place.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Look at all this equipment.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Their interest in the Remnant must be serious.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: They're really into this Remnant stuff.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: They're really into this tech.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: All for those structures outside?
+└─ merge ─┘
+Hero [OncePerGame]: They've got the monolith well-protected. We'll need to cut that shield's power supply.

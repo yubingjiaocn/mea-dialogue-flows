@@ -1,0 +1,62 @@
+# game/conversations/unc/biolum/bio_0250_stasis_end_d
+# Primary speaker: bio_sci_frozen_researcher
+# Source: game/conversations/unc/biolum/bio_0250_stasis_end_d.xml
+==================================================
+bio_sci_frozen_researcher: Reading off the monitors and—
+bio_sci_frozen_researcher: Skkut! Skkutting stars! What? Who are... How did...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Pathfinder Ryder, with the Andromeda Initiative. I'm... from another galaxy.
+    Hero: Take a moment. Find your bearings.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_frozen_researcher: More aliens? Out of nowhere... and Jaal?
+        global_squad_angara: Do none of you remember getting frozen?
+        bio_sci_frozen_researcher: Frozen? I don't understand. We were just working on the monolith, and then.. and then you appeared...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: You should return to Pelaav. Kiiran will want to speak to you.
+            bio_sci_frozen_researcher: Maybe you're right. I feel a head splitter coming on.
+            global_squad_angara: We should make sure they return to the station. Who knows what lingering effects they might suffer from.
+        ├ option 2:
+            bio_sci_frozen_researcher: I think we'll head back to Daar Pelaav. My mind feels a little clouded.
+            ↩ (goto) global_squad_angara: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        bio_sci_frozen_researcher: More aliens appearing out of nowhere. What's going on?
+        Hero: The Remnant tech around here had you frozen in some kind of stasis.
+        bio_sci_frozen_researcher: I don't know who you are. Just stay back.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: I don't think he remembers being frozen.
+            bio_sci_frozen_researcher: Pack your equipment. We're leaving. Alert Pelaav that there's an alien presence by the monolith.
+            Hero: That went well.
+            global_squad_angara: [Comm] What's your status, Ryder? Did you figure out what happened to the research team?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: We deactivated the stasis field. They're safe and making their way back.
+                global_squad_angara: [Comm] That's good news. You should come too. Kiiran looks like she wants to talk to you.
+            ├ option 2:
+                Hero: Now that they've woken up, I'm not sure they like me. But they're on their way back to Daar Pelaav.
+                ↩ (goto) global_squad_angara: [Comm] That's good news. You should come too. Kiiran looks like she wants to talk to you.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: I don't think he remembers being frozen.
+            ↩ (goto) bio_sci_frozen_researcher: Pack your equipment. We're leaving. Alert Pelaav that there's an alien presence by the monolith.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: I don't think he remembers being frozen.
+            ↩ (goto) bio_sci_frozen_researcher: Pack your equipment. We're leaving. Alert Pelaav that there's an alien presence by the monolith.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: I don't think he remembers being frozen.
+            ↩ (goto) bio_sci_frozen_researcher: Pack your equipment. We're leaving. Alert Pelaav that there's an alien presence by the monolith.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Thanks isn't necessary. Just doing my job.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) bio_sci_frozen_researcher ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) bio_sci_frozen_researcher: More aliens appearing out of nowhere. What's going on?
+    └─ merge ─┘
+└─ merge ─┘

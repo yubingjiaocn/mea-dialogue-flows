@@ -1,0 +1,52 @@
+# game/conversations/unc_dunes/dune_outpost_0400_merchant_i
+# Primary speaker: dune_outpost_merchant
+# Source: game/conversations/unc_dunes/dune_outpost_0400_merchant_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    dune_outpost_merchant [OncePerGame]: Looking for that something special? Boomerang's got what you need.
+    dune_outpost_merchant: Best loot on the dunes, here for your perusal.
+    Hero: You're a scavenger?
+    dune_outpost_merchant: Not anymore I'm not. Fine folks of the Initiative gave me a second shot.
+    dune_outpost_merchant: I'm on something called a "probationary period." Got a fancy metal bracelet on my ankle and everything.
+    dune_outpost_merchant: They're too good to old Boomerang.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm keeping my eye on you. The second you put a toe out of line...
+        dune_outpost_merchant: On my best behavior, Pathfinder. Honest.
+        dune_outpost_merchant: I'm a Nexus man now. If I scrap and scavenge, I do it for the good of the Initiative.
+        Hero: Reassuring.
+        dune_outpost_merchant: Enough about me. You're here for the good stuff. Look what Boomerang's got for you.
+    ├ option 2:
+        Hero: Okay. I have to know the story behind that name.
+        dune_outpost_merchant: I ran with Axius and his boys. He's the one who started calling me Boomerang.
+        dune_outpost_merchant: Kept beating me senseless and leaving me for dead out on the dunes. But I always came back.
+        ↩ (goto) dune_outpost_merchant: Enough about me. You're here for the good stuff. Look what Boomerang's got for you.
+    └─ merge ─┘
+├ option 2:
+    dune_outpost_merchant [OncePerGame]: You're in luck, Pathfinder. Pulled a few goodies off a dead gang leader before the bugs got to him.
+    dune_outpost_merchant: Saved the best stuff just for you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm not paying for a dead man's things.
+        dune_outpost_merchant: But you'll pick it off his body if you're the one who killed him.
+        dune_outpost_merchant: It's survival out here, friend. Scrap or be scrapped.
+        ↩ (goto) dune_outpost_merchant: [empty]
+    ├ option 2:
+        Hero: I'm sure it's the thought that counts.
+        dune_outpost_merchant: Take a look, friend. See how Boomerang took care of you.
+        ↩ (goto) dune_outpost_merchant: [empty]
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        dune_outpost_merchant: Got some goodies for you. Don't mind the smell.
+        ↩ (goto) dune_outpost_merchant: [empty]
+    ├ option 2:
+        dune_outpost_merchant: Wanna scrap a few baddies? Boomerang's got you covered.
+        ↩ (goto) dune_outpost_merchant: [empty]
+    ├ option 3:
+        dune_outpost_merchant: Need an extra kick? Let old Boomerang take care of you.
+        ↩ (goto) dune_outpost_merchant: [empty]
+    └─ merge ─┘
+└─ merge ─┘

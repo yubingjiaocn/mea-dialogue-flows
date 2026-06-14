@@ -1,0 +1,45 @@
+# game/conversations/loyalty/krogan_01/mcm_drack_acquir2_m
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Krogan_01/mcm_drack_acquir2_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan: {i}(Heavy breathing.){/i} That fight was... fun.
+    Hero: {i}(Catching breath.){/i} You're telling me.
+    global_squad_krogan: You can really handle yourself, kid—and I hear you're the one to thank for clearing up the sky?
+    global_squad_krogan: Had your number all wrong.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: So, the clouds parted. And these kett look pretty keeled over. Maybe us humans can pull our weight after all.
+        global_squad_krogan: Well, {i}you{/i} can. Clearly. But there's a lot to do before I'd be that smug about it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: That almost sounds like a compliment. What do you say? Wanna help us do some good?
+            global_squad_krogan: You know what? I'm gonna ignore my gut and join up. This fight was good, and we can do it again.
+            global_squad_krogan: And before you go saying you don't need a krogan—believe me, you do.
+            global_squad_male_human ⟨cond⟩: That's what I said.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: You know what? I'm gonna ignore my gut and join up. This fight was good, and we can do it again.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You're not so bad yourself, old man. Maybe we should work together after all?
+        global_squad_krogan: This fight was pretty good. But you're still Nexus... and green as a drell.
+        global_squad_krogan: Still, something tells me you've got potential. Be a shame to waste that.
+        global_squad_krogan: I'm in. Just point me to your ship, and try to keep up.
+        global_squad_male_human ⟨cond⟩: This is gonna be great.
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Welcome aboard, Drack.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: {i}(Sighs.){/i} I'll have the crew make some room.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: {i}(Sighs.){/i} I'll have the crew make some room.
+    └─ merge ─┘
+└─ merge ─┘

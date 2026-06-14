@@ -1,0 +1,182 @@
+# game/conversations/unc/biolum/bio_0100_sci_leader_d
+# Primary speaker: bio_sci_leader
+# Source: game/conversations/unc/biolum/bio_0100_sci_leader_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_leader: Jaal! We heard about the Moshae's rescue. I'm so relieved. We were all worried for her.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            bio_sci_leader ⟨cond⟩: This must be the Pathfinder Ryder. I am honored.
+            global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+            bio_sci_leader: You haven't heard? While the team was exploring the monolith, something went terribly wrong.
+            bio_sci_leader: They were caught in some kind of Remnant stasis field. Frozen in place. Unresponsive.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Are they still alive?
+                bio_sci_leader: Vitals remain steady, and neural patterns resemble those exhibited in deep sleep.
+                bio_sci_leader: We subjected them to various stimuli. Injections of kichari. Nothing worked.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_angara: Ryder can help. I'm sure of it.
+                    bio_sci_leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
+                ├ option 2:
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: Let Ryder try. She's worked the Remnant tech inside a vault. Or so she says.
+                        bio_sci_leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
+                        ↩ (goto) bio_sci_leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
+                    ├ option 2:
+                        global_squad_angara: Let Ryder try. He's worked the Remnant tech inside a vault. Or so he says.
+                        ↩ (goto) bio_sci_leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I know how to work Remnant tech. I can help you.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    bio_sci_leader: We've tried everything we can think of. I suppose it's worth trying this.
+                    ↩ (goto) bio_sci_leader: The monolith is not far from here. See what you can do. But be careful. We don't know what triggered the stasis, and it may happen again.
+                ├ option 2:
+                    global_squad_angara: Ryder has seen a vault and apparently reset it. Somehow.
+                    ↩ (goto) bio_sci_leader: Ocean of fish, one will have gems in its mouth. But if you think the alien can help, I'll set skepticism aside.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            bio_sci_leader: This must be the Pathfinder Ryder. I am honored.
+            ↩ (goto) global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+        └─ merge ─┘
+    ├ option 2:
+        bio_sci_leader: Jaal has been telling me all about your rescue of the Moshae. I am honored to meet you, Pathfinder Ryder.
+        ↩ (goto) global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_leader: Jaal? What are you doing here? In the company of these... people?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Kiiran, this is Pathfinder Ryder, from a long way away.
+            global_squad_angara: Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I am honored to meet you, as a representative of the Andromeda Initiative.
+                bio_sci_leader: Are all their people this formal?
+                global_squad_angara: I don't think so.
+                ↩ (goto) global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+            ├ option 2:
+                Hero: I just have to say, Havarl is beautiful!
+                bio_sci_leader: The planet's beauty is the least of my current concerns.
+                ↩ (goto) global_squad_angara: Where's the rest of the team? Ryder has experience with Remnant. We might be able to help their investigations.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara: Kiiran, this is Pathfinder Ryder, from a long way away.
+            ↩ (goto) global_squad_angara: Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
+        └─ merge ─┘
+    ├ option 2:
+        bio_sci_leader: This is them? The ones from the other galaxy?
+        global_squad_angara: Yes.
+        ↩ (goto) global_squad_angara: Ryder, Kiiran Dals, lead scientist at Daar Pelaav.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    bio_sci_leader: What do you mean "grey, spiky aliens?" Kett?
+    bio_sci_frozen_researcher: No, these were different. We were doing a survey of the area and saw them. Before the freeze.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_frozen_researcher: They look liked that one, with Ryder!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Turians. Yes, we found them.
+            bio_sci_leader: Before you say any more, Pathfinder Ryder, I want to thank you for saving my team.
+            bio_sci_frozen_researcher: You weren't lying. Kiiran told us everything. She even had pictures.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                bio_sci_leader: I apologize for the indifferent welcome you received from me earlier.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Don't worry about it. You had no reason to trust me. The last aliens you met were kett.
+                    global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                    global_squad_angara: We should speak to him as soon as we can. Perhaps on the Tempest?
+                    bio_sci_frozen_researcher: Kiiran, I've been thinking. If Ryder can use Remnant, couldn't we fix the monoliths? Stop Havarl's decline?
+                    Hero: Havarl's decline?
+                    bio_sci_leader: This will take time to explain. We can discuss it further, when you have time.
+                    bio_sci_leader ⟨cond⟩: And don't forget to talk to Torvar about those, what did you call them... turians?
+                ├ option 2:
+                    Hero: After everything you've faced, I wouldn't have blamed you if you shot at me.
+                    bio_sci_frozen_researcher: We're all glad that didn't happen.
+                    ↩ (goto) global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                └─ merge ─┘
+            ├ option 2:
+                bio_sci_leader: We tried everything to free the team—and failed. Thank the stars you came along.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: The Andromeda Initiative wants to reassure the angara that we're not enemies.
+                    bio_sci_leader: Then you should know that I am reassured.
+                    ↩ (goto) global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                ├ option 2:
+                    Hero: Hey, not a problem. Just doing my bit as your friendly neighborhood alien Pathfinder.
+                    ↩ (goto) global_squad_angara: Ryder, what you've done here, your Remnant understanding and your SAM, should convince Evfra you're an asset.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_turian: Turians?
+            bio_sci_leader: Why don't you and Torvar talk about that later. Right now, I want to thank you for saving my team.
+            ↩ (goto) bio_sci_frozen_researcher: You weren't lying. Kiiran told us everything. She even had pictures.
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_turian ⟨cond⟩: [empty]
+        ├ option 2:
+            Hero: You mean Turians? You saw Turians?
+            ↩ (goto) bio_sci_leader: Why don't you and Torvar talk about that later. Right now, I want to thank you for saving my team.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) bio_sci_frozen_researcher: You weren't lying. Kiiran told us everything. She even had pictures.
+└─ merge ─┘
+Hero: You were saying something about the planet being in decline?
+bio_sci_leader: It doesn't look like it, but Havarl is sick.
+bio_sci_leader: It started here, uncontrolled mutations in organic life—killing some, turning others into poison.
+bio_sci_leader: We're starting to see the same elsewhere. The planet's ecosystem is crumbling, slowly but surely.
+bio_sci_frozen_researcher: It's the monoliths. There are only two of them when there should be three.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: There's so much life here. Your vault must be working.
+    bio_sci_frozen_researcher: In some fashion, most likely. But the monoliths are responsible for propagating the vault's instructions across the planet.
+    bio_sci_frozen_researcher: With only two out of three monoliths working, the instructions are imbalanced. So life is imbalanced.
+    bio_sci_frozen_researcher: We've never tried asking the sages. There could be something in their oral history.
+    bio_sci_leader: Stars. Those superstitious hermits don't care about modern angara. You know that.
+    bio_sci_frozen_researcher: You saw the projections for the planet's survival. What do we have to lose?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Sages? Oral histories?
+        bio_sci_leader: On Mithrava. That old Remnant edifice over there. They trace their families back to a time just after the Scourge.
+        bio_sci_leader: They believe isolation will maintain the purity of the histories. By preventing contamination by modern thought. Basic sense.
+        bio_sci_leader: They probably don't even understand or care that Havarl's dying.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: If asking your sages doesn't work, we'll be back here. So what's the harm in it?
+            bio_sci_leader: The trek up Mithrava's teeming with Remnant. Most of us don't attempt it. But maybe you could do it.
+            bio_sci_leader: Follow the Remnant river—and keep your head. I'd hate to hear something terrible happened in pursuit of some ancient legend.
+        ├ option 2:
+            Hero: Is there no other option? Couldn't we trace the location of the third monolith from the two we know about?
+            bio_sci_frozen_researcher: We've tried that. But the connections between monoliths have deteriorated.
+            ↩ (goto) bio_sci_leader: The trek up Mithrava's teeming with Remnant. Most of us don't attempt it. But maybe you could do it.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: If asking your sages doesn't work, we'll be back here. So what's the harm in it?
+    ├ option 3:
+        ↩ (goto) Hero: Is there no other option? Couldn't we trace the location of the third monolith from the two we know about?
+    └─ merge ─┘
+├ option 2:
+    Hero: So, I go to the third monolith, turn it on, reset the vault, and voila!
+    bio_sci_leader: That is just the thing, Pathfinder Ryder. There {i}is{/i} no third monolith. It's lost.
+    Hero: How do you lose an entire monolith?
+    bio_sci_leader: It could be destroyed, for all we know.
+    ↩ (goto) bio_sci_frozen_researcher: We've never tried asking the sages. There could be something in their oral history.
+└─ merge ─┘

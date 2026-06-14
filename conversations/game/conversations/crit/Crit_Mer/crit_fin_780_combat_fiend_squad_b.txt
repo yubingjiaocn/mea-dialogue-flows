@@ -1,0 +1,72 @@
+# game/conversations/crit/crit_mer/crit_fin_780_combat_fiend_squad_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_780_combat_fiend_squad_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] Do these kett know how committed we are? Can they understand their misfortune?
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Keep control, no mistakes!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Do not need to tell me twice!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: They've earned it!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Break them!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Make it hurt!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 6:
+        global_squad_asari ⟨cond⟩: Looking forward to this one!
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 2:
+    crit_kett_krogan_scout: [Comm] First kett after the Hyperion? Make. Them. Pay!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Keep control, no mistakes!
+    ├ option 2:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Do not need to tell me twice!
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: They've earned it!
+    ├ option 4:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Break them!
+    ├ option 5:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Make it hurt!
+    ├ option 6:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Looking forward to this one!
+    └─ merge ─┘
+└─ merge ─┘
+Hero: They have a pet!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] That's not all! Destroyer!
+    Hero: Let's try to not get between them!
+├ option 2:
+    crit_kett_krogan_scout: [Comm] Destroyer, too! Watch out!
+    ↩ (goto) Hero: Let's try to not get between them!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_charlatan ⟨cond⟩: [Comm] Shoring up defenses, Ryder. You okay up there?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] We are secure for the moment.
+        Hero: Secure like we're staying. Next stop, the Archon.
+    ├ option 2:
+        crit_kett_krogan_scout: [Comm] Kicked their teeth in. If they have them.
+        ↩ (goto) Hero: Secure like we're staying. Next stop, the Archon.
+    └─ merge ─┘
+├ option 2:
+    kad_queen: [Comm] We're anchored here, Pathfinder. You better not be dead.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] We are secure for the moment.
+    ├ option 2:
+        ↩ (goto) crit_kett_krogan_scout: [Comm] Kicked their teeth in. If they have them.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,96 @@
+# game/conversations/unc_ice/ice_0300_res_camp_jaal_i
+# Primary speaker: global_squad_angara
+# Source: game/conversations/unc_ice/ice_0300_res_camp_jaal_i.xml
+==================================================
+global_squad_angara: I should be going out there with you.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara: My presence will make other angara less suspicious of you.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Can't argue with that.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'll consider my options and get back to you if I change my mind.
+            global_squad_angara: All right then.
+            global_squad_angara: I'll keep my comms open so I can keep up with what you're doing.
+            Hero: Sounds good.
+            global_squad_angara: In the meantime, is there anything I can help with?
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: The Resistance seems pretty busy here. There must be lots of kett.
+                global_squad_angara: Yes. The Resistance has fought the kett on Voeld for a very long time.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_angara: We used to wonder why there always seemed to be more kett, no matter how many we killed.
+                    global_squad_angara: Now we know. Our loss is their gain.
+                    ↩ (goto) global_squad_angara: [empty]
+                ├ option 2:
+                    global_squad_angara: Our fighters are frustrated. No matter how many we kill, there always seem to be more.
+                    ↩ (goto) global_squad_angara: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Tell me more about Voeld.
+                global_squad_angara: Voeld is an important planet for my people. Our capital, Estraaja, is here.
+                global_squad_angara: We only recently won it back from the kett, and the city is still rebuilding.
+                global_squad_angara: For some reason, the kett now focus their attentions on this part of Voeld. That's why the Resistance is set up here.
+                ↩ (goto) global_squad_angara: [empty]
+            ├ option 3:
+                Hero: I have to get going. We'll catch up later.
+                global_squad_angara: Stay clear, Pathfinder.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I think you guys should chill out a little bit. Chill out. Get it?
+            global_squad_angara: I don't.
+            Hero: Seriously, I know what I'm doing. Trust me.
+            ↩ (goto) global_squad_angara: I'll keep my comms open so I can keep up with what you're doing.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: The angara are on edge here. Do we really want to risk upsetting them?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'll consider my options and get back to you if I change my mind.
+        ├ option 2:
+            ↩ (goto) Hero: I think you guys should chill out a little bit. Chill out. Get it?
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Having Jaal around will help smooth things over.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'll consider my options and get back to you if I change my mind.
+        ├ option 2:
+            ↩ (goto) Hero: I think you guys should chill out a little bit. Chill out. Get it?
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: It's true. They'll be more likely to trust one of their own.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'll consider my options and get back to you if I change my mind.
+        ├ option 2:
+            ↩ (goto) Hero: I think you guys should chill out a little bit. Chill out. Get it?
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: He knows what he's talking about. I think you should listen.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I'll consider my options and get back to you if I change my mind.
+        ├ option 2:
+            ↩ (goto) Hero: I think you guys should chill out a little bit. Chill out. Get it?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: Waiting around makes me unhappy.
+    ↩ (goto) global_squad_angara: I'll keep my comms open so I can keep up with what you're doing.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_angara: Ryder.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 2:
+    global_squad_angara: What can I do?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_angara: Need something?
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘
+↩ (goto) global_squad_angara: [empty]

@@ -1,0 +1,22 @@
+# game/conversations/loyalty/human_male_01/loyalty_hmm_0423_collapse_react_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0423_collapse_react_b.xml
+==================================================
+Hero: It collapsed behind us.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Sounds like we're committed to moving forward.
+    global_squad_male_human: Bright side: no one's sneaking up on us from behind.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: No going back now.
+    ↩ (goto) global_squad_male_human: Bright side: no one's sneaking up on us from behind.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Well, we're committed now.
+    ↩ (goto) global_squad_male_human: Bright side: no one's sneaking up on us from behind.
+├ option 4:
+    global_squad_asari ⟨cond⟩: That was the exit. Now there's no exit.
+    ↩ (goto) global_squad_male_human: Bright side: no one's sneaking up on us from behind.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Great. That was our way back.
+    ↩ (goto) global_squad_male_human: Bright side: no one's sneaking up on us from behind.
+└─ merge ─┘

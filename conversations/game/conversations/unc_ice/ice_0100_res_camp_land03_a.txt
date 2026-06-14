@@ -1,0 +1,31 @@
+# game/conversations/unc_ice/ice_0100_res_camp_land03_a
+# Primary speaker: ice_disgruntledfighter_1
+# Source: game/conversations/unc_ice/ice_0100_res_camp_land03_a.xml
+==================================================
+ice_disgruntledfighter_2: So that awful place really is gone...
+ice_disgruntledfighter_1: Wish I was there when it happened.
+ice_disgruntledfighter_2: Would've been nice to watch it burn to the ground.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_disgruntledfighter_1 ⟨cond⟩: You didn't hear about the human? Landed right in the middle of Aya.
+    ice_disgruntledfighter_2: No... I hope they dealt with it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: That human is a Pathfinder fighting for us. Have some respect.
+            ice_disgruntledfighter_2: Jaal! And... the Pathfinder.
+            Hero: Don't worry. They dealt with me.
+        ├ option 2:
+            global_squad_angara: That human is a Pathfinder fighting for us. Have some respect.
+            ice_disgruntledfighter_2: Jaal! And... the Pathfinder.
+            ↩ (goto) Hero: Don't worry. They dealt with me.
+        └─ merge ─┘
+    ├ option 2:
+        ice_disgruntledfighter_2: Stars above. You're the...
+        ↩ (goto) Hero: Don't worry. They dealt with me.
+    └─ merge ─┘
+├ option 2:
+    ice_disgruntledfighter_1: You didn't hear about the human? Landed right in the middle of Aya.
+    ↩ (goto) ice_disgruntledfighter_2: No... I hope they dealt with it.
+└─ merge ─┘

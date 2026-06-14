@@ -1,0 +1,66 @@
+# game/conversations/unc_ice/ice_supplies_0000_datapads_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_supplies_0000_datapads_b.xml
+==================================================
+Hero [OncePerGame]: Looks like supplies aren't getting through to the Resistance.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Olisk is in charge of requisitions. We should speak with him.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Maybe we should talk to the requisitions officer.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Should we talk to the requisitions officer?
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Bet they have an officer we can talk to.
+├ option 5:
+    global_squad_turian ⟨cond⟩: We could talk to whoever's in charge of requisitions.
+└─ merge ─┘
+Hero [OncePerGame]: They all say the same thing. The Resistance is missing supplies.
+SAM [OncePerGame]: Decryption successful, Pathfinder. Updating your nav system with the supply drop point.
+SAM [OncePerGame]: Pathfinder, the drop point for Resistance supplies is nearby.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The Roekaar are here?
+    SAM: Pathfinder, I detect a datapad nearby.
+├ option 2:
+    Hero: Why were angara attacking us?
+    ↩ (goto) SAM: Pathfinder, I detect a datapad nearby.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Akksul was stockpiling supplies...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: They must be old orders. I should let Evfra know.
+        SAM: Pathfinder, I have informed Olisk the drop point is secure.
+        Hero: Good. The Resistance should get their supplies now.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, I have informed Olisk the drop point is secure.
+    └─ merge ─┘
+├ option 2:
+    Hero: Akksul is stockpiling supplies... why?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: It's troubling. Evfra should hear of this.
+        ↩ (goto) SAM: Pathfinder, I have informed Olisk the drop point is secure.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, I have informed Olisk the drop point is secure.
+    └─ merge ─┘
+├ option 3:
+    Hero: Akksul? Should I know about him?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: That's a conversation for another time.
+        ↩ (goto) SAM: Pathfinder, I have informed Olisk the drop point is secure.
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, I have informed Olisk the drop point is secure.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: I detect additional datapads throughout the Resistance base, Pathfinder.
+├ option 2:
+    global_squad_angara ⟨cond⟩: We should look into this.
+    ↩ (goto) SAM: I detect additional datapads throughout the Resistance base, Pathfinder.
+└─ merge ─┘
+Hero: Ambush! Look out!

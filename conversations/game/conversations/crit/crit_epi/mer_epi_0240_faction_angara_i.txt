@@ -1,0 +1,50 @@
+# game/conversations/crit/crit_epi/mer_epi_0240_faction_angara_i
+# Primary speaker: global_angaran_elder_multi
+# Source: game/conversations/crit/crit_epi/mer_epi_0240_faction_angara_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_angaran_elder_multi: Pathfinder. I'm told I'm about to get exceptionally busy.
+        angararesleader_multi: Which, given your health, is unwise.
+        global_angaran_elder_multi: We all gave of ourselves, Evfra. It was time. And as this "ambassador," I will continue to do so.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: No other choice made sense.
+            global_angaran_elder_multi: That isn't true. There were choices that made sense {i}for others{/i}.
+            global_angaran_elder_multi: Also, don't assume my name brings universal approval. You know how varied our opinions can be.
+            global_angaran_elder_multi: I can't speak for everyone. But I will gladly help create the system that does.
+            global_angaran_elder_multi: Ansala venjyuri, Pathfinder. There is much yet to learn.
+        ├ option 2:
+            Hero: I couldn't impose a voice on the angara, temporary or not.
+            global_angaran_elder_multi: We've always had a voice. This just means your leaders have decided to listen.
+            ↩ (goto) global_angaran_elder_multi: Also, don't assume my name brings universal approval. You know how varied our opinions can be.
+        └─ merge ─┘
+    ├ option 2:
+        global_angaran_elder_multi: Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_angaran_elder_multi: Pathfinder. I'm told there will soon be a new voice representing Heleus.
+        angararesleader_multi: Another of your "leaders" claiming to know what we need.
+        global_angaran_elder_multi: It was an impossible choice, Evfra. There's no name that would represent everyone.
+        global_angaran_elder_multi: Though the one chosen definitely represents {i}someone{/i}. Don't they, Pathfinder?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: No one's pretending this is ideal. But it's a start.
+            global_angaran_elder_multi: That's irrelevant. Things "started" long before any of you arrived.
+            global_angaran_elder_multi: The only important question is "what will continue?"
+            global_angaran_elder_multi: Hyravji exiis, Pathfinder. To better tomorrows.
+        ├ option 2:
+            Hero: The whole point was that I'd get blamed no matter what. So I went with my gut.
+            global_angaran_elder_multi: We'll see what comes of it. The glow from defeating the Archon can only last so long.
+            ↩ (goto) global_angaran_elder_multi: Hyravji exiis, Pathfinder. To better tomorrows.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_angaran_elder_multi: [empty]
+    └─ merge ─┘
+├ option 3:
+    ↩ (goto) global_angaran_elder_multi: [empty]
+└─ merge ─┘

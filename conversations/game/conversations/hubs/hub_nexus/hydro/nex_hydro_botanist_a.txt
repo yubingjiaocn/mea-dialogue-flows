@@ -1,0 +1,104 @@
+# game/conversations/hubs/hub_nexus/hydro/nex_hydro_botanist_a
+# Primary speaker: nex_hydro_botanist
+# Source: game/conversations/hubs/hub_nexus/hydro/nex_hydro_botanist_a.xml
+==================================================
+┌─ BRANCH (7) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_krogan_botanist [OncePerGame]: But the plants on Tuchanka are carnivorous. Most humans would get eaten alive.
+        nex_hydro_botanist: Oh, I was. More than once.
+    ├ option 2:
+        nex_hydro_botanist [OncePerGame]: But you can't crossbreed—
+        global_krogan_botanist: Already did.
+        nex_hydro_botanist: But the oxygen output would be—
+        global_krogan_botanist: And then some.
+        nex_hydro_botanist: Vorn, you magnificent bastard.
+    ├ option 3:
+        nex_hydro_botanist [OncePerGame]: It's a tuber, so...
+        global_krogan_botanist: {i}Funus tuberosum{/i}?
+        nex_hydro_botanist: You can't call a new species "the murder potato"!
+        global_krogan_botanist: Even if we're the only people in this galaxy who'd know what it meant?
+    └─ merge ─┘
+├ option 2:
+    nex_hydro_botanist: Thank you for your contribution.
+├ option 3:
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        nex_hydro_botanist ⟨cond⟩ [OncePerGame]: Take a memo for Director Addison: I have twenty racks of seedlings prepped and ready.
+        nex_hydro_botanist: I look forward to the fruits of our labor bearing actual fruit.
+    ├ option 2:
+        nex_hydro_botanist [OncePerGame]: Record memo. Dear Director Tann: Stop asking for a daily report on how much everything's grown.
+    ├ option 3:
+        nex_hydro_botanist [OncePerGame]: Record memo for Kandros: Thank you, we don't need an armed guard.
+        nex_hydro_botanist: However, someone should watch the strawberry plants. That harvest will be tempting.
+    ├ option 4:
+        nex_hydro_botanist [OncePerGame]: Memo for our friend at the bar: The hops are coming along splendidly. I have similar hopes for your still.
+    ├ option 5:
+        nex_hydro_botanist [OncePerGame]: Record memo for whichever cretin sent us three crates of potting soil:
+        nex_hydro_botanist: Return with the dictionary definition of "hydroponics" written on them. Perhaps he'll learn something.
+    ├ option 6:
+        nex_hydro_botanist [OncePerGame]: Take a memo for Superintendent Kesh re: her recent inquiries:
+        nex_hydro_botanist: In order: twenty nine per cent, additional nitrates, and "probably celery."
+    ├ option 7:
+        nex_hydro_botanist [OncePerGame]: Record memo: Remember that it would have been Madeline's birthday next week.
+        nex_hydro_botanist: There has to be a place to light a candle somewhere on this rickety barge.
+    ├ option 8:
+        nex_hydro_botanist [OncePerGame]: Memo for Professor Herik: Please clean your petri dishes. I don't want everything crossbred with fire moss.
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        nex_hydro_botanist: More nutrients, I think.
+    ├ option 2:
+        nex_hydro_botanist: "Like a tree planted by the rivers of water"...
+    ├ option 3:
+        nex_hydro_botanist: Better check the temperature.
+    ├ option 4:
+        nex_hydro_botanist: Hungry, Pathfinder?
+    ├ option 5:
+        nex_hydro_botanist: {i}(Deep breath.){/i} Ahh.
+    ├ option 6:
+        nex_hydro_botanist: Coming along nicely.
+    └─ merge ─┘
+├ option 5:
+    nex_hydro_botanist: Pathfinder.
+├ option 6:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) nex_hydro_botanist ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 2:
+        ↩ (goto) nex_hydro_botanist: [empty]
+    └─ merge ─┘
+├ option 7:
+    ┌─ BRANCH (10) ─┐
+    ├ option 1:
+        ↩ (goto) nex_hydro_botanist ⟨cond⟩ [OncePerGame]: Take a memo for Director Addison: I have twenty racks of seedlings prepped and ready.
+    ├ option 2:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Record memo. Dear Director Tann: Stop asking for a daily report on how much everything's grown.
+    ├ option 3:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Record memo for Kandros: Thank you, we don't need an armed guard.
+    ├ option 4:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Memo for our friend at the bar: The hops are coming along splendidly. I have similar hopes for your still.
+    ├ option 5:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Record memo for whichever cretin sent us three crates of potting soil:
+    ├ option 6:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Take a memo for Superintendent Kesh re: her recent inquiries:
+    ├ option 7:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Record memo: Remember that it would have been Madeline's birthday next week.
+    ├ option 8:
+        ↩ (goto) nex_hydro_botanist [OncePerGame]: Memo for Professor Herik: Please clean your petri dishes. I don't want everything crossbred with fire moss.
+    ├ option 9:
+        ↩ (goto) nex_hydro_botanist ⟨cond⟩: [empty]
+    ├ option 10:
+        ↩ (goto) nex_hydro_botanist: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_hydro_botanist [OncePerGame]: A new specimen, roots intact. Perfect!
+├ option 2:
+    nex_hydro_botanist [OncePerGame]: The new plant's under observation. Good work!
+├ option 3:
+    nex_hydro_botanist [OncePerGame]: Fascinating little shoot you found.
+└─ merge ─┘

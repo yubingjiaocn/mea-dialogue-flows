@@ -1,0 +1,36 @@
+# game/conversations/unc/biolum/bio_overgrown_0300_roekomp_i
+# Primary speaker: SAM
+# Source: game/conversations/unc/biolum/bio_overgrown_0300_roekomp_i.xml
+==================================================
+Hero: SAM, what do you get from this?
+SAM: Analyzing. The Roekaar took special interest in mutations that would poison a natural environment.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They wouldn't use that on {i}our{/i} worlds...
+    SAM: What are your instructions for this data, Pathfinder?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Download a copy, then erase the Roekaar computer.
+        SAM: Acknowledged. Copying complete. Erasure of Roekaar files complete.
+        Hero: Let's wrap things up and get back to our researchers.
+    ├ option 2:
+        Hero: Erase the whole computer, SAM. No one needs that knowledge.
+        SAM: Acknowledged. Data elimination complete.
+        ↩ (goto) Hero: Let's wrap things up and get back to our researchers.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Can't imagine why violent xenophobes would want that...
+    ↩ (goto) SAM: What are your instructions for this data, Pathfinder?
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Could they really make Eos unlivable?
+    ↩ (goto) SAM: What are your instructions for this data, Pathfinder?
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Three guesses who'd they use it on. First two don't count.
+    ↩ (goto) SAM: What are your instructions for this data, Pathfinder?
+├ option 5:
+    global_squad_male_human ⟨cond⟩: They want to make our colonies unlivable.
+    ↩ (goto) SAM: What are your instructions for this data, Pathfinder?
+├ option 6:
+    global_squad_turian ⟨cond⟩: Turn life into death for anyone living there. Like us.
+    ↩ (goto) SAM: What are your instructions for this data, Pathfinder?
+└─ merge ─┘

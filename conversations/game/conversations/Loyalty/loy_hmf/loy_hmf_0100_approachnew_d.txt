@@ -1,0 +1,42 @@
+# game/conversations/loyalty/loy_hmf/loy_hmf_0100_approachnew_d
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0100_approachnew_d.xml
+==================================================
+Narration: The Tempest is navigating its way through a dense patch of the Scourge.
+Narration: Ryder is at her station, looking alert.
+global_crew_co-pilot: We're approaching the navpoints Cora found.
+global_crew_co-pilot: {i}Something's{/i} there. It might be an ark, but the damn Scourge isn't helping.
+Hero: SAM, help out with sensors.
+Narration: Cora Harper enters, suited up, and peers outside.
+global_squad_female_human: Hard to believe the Leusinia could survive in all this.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Why would the asari ark be here?
+    global_squad_female_human: Might be lost, or looking for something.
+    global_squad_female_human: Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
+    Hero: The commando you mentioned. You still believe she'll save the day?
+    global_squad_female_human: Sarissa was a legend even before she was the Pathfinder's bodyguard. She'll have a plan.
+    global_crew_co-pilot: Aha! Detecting an Initiative vessel.
+    Narration: The asari ark becomes visible through the Scourge.
+    Narration: Cora goes to a console.
+    global_squad_female_human: Reading life signs. And minimal power, multiple hull breaches... she's a wreck.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Either the kett or the Scourge really left a mark.
+        Hero: Kallo, take us in.
+        global_crew_co-pilot: I'll try. Must be one docking bay still holding together...
+        Narration: The Tempest approaches the asari ark.
+        Narration: The ship lands. Ryder, Cora, and team exit carefully into the damaged ark.
+    ├ option 2:
+        Hero: If she's spaceworthy and her crew's alive, that's all we need.
+        ↩ (goto) Hero: Kallo, take us in.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: It's going to be all right.
+    global_squad_female_human: I... it will. Thanks.
+    ↩ (goto) global_squad_female_human: Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
+├ option 3:
+    Hero ⟨cond⟩: Focus on how we can help them.
+    global_squad_female_human: Good call. Help asari, piss off the kett—very cathartic.
+    ↩ (goto) global_squad_female_human: Sarissa will have plans for those Decimation hunters. Wrote the manual on crisis situations.
+└─ merge ─┘

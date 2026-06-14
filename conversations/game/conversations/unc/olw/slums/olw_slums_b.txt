@@ -1,0 +1,32 @@
+# game/conversations/unc/olw/slums/olw_slums_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/slums/olw_slums_b.xml
+==================================================
+Hero: A city under a city.
+SAM: At the center is Tartarus, a night club.
+Hero ⟨cond⟩: That's where Reyes said he'd be.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Doesn't have Kralla's view, but I like it.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Not a bad little dive.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: I give it ten minutes before we get knifed.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Music, dancing, booze. Hell yes.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Even exiles gotta let off steam.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: {i}(Sighs.){/i} They should've stayed on the Nexus.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: They're living in shipping containers?
+├ option 3:
+    global_squad_asari ⟨cond⟩: Well, this is depressing.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: There will always be places like this.
+    global_squad_krogan: Doesn't matter what galaxy you're in.
+├ option 5:
+    global_squad_angara ⟨cond⟩: This is horrible.
+└─ merge ─┘

@@ -1,0 +1,137 @@
+# game/conversations/hubs/hub_nexus/ops/nex_vidwall_i
+# Primary speaker: pro_shp_orientationnarrator_multi
+# Source: game/conversations/hubs/hub_nexus/ops/nex_vidwall_i.xml
+==================================================
+Pro_Shp_Init_Founder: Hello. I'm Jien Garson, founder of the Initiative. It's through your hard work that the vision of the Nexus has come to life.
+Pro_Shp_Init_Founder: You—and all your colleagues—bind our proud new colonies together.
+Pro_Shp_Init_Founder: Look around at your achievements. And if you have any questions, my door is always open.
+pro_shp_orientationnarrator_multi: Founder Garson's office is located at: workspace not allocated.
+pro_shp_orientationnarrator_multi: Please select a topic.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    pro_shp_orientationnarrator_multi: For Initiative strategy and Pathfinder coordination, please see Director Jarun Tann.
+    pro_shp_orientationnarrator_multi: For Colonial Affairs or outpost status, please see Director Foster Addison.
+    pro_shp_orientationnarrator_multi: For station maintenance, please contact Superintendent Nakmor Kesh.
+    pro_shp_orientationnarrator_multi: For militia operations or APEX deployment, please see Tiran Kandros.
+    ↩ (goto) ?: [empty]
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: You are: Scott Ryder, salary code 19-B, active Pathfinder. Your supervisor is: Director Tann.
+        pro_shp_orientationnarrator_multi: Based on current staffing needs, you will be eligible for paid vacation time in: 587 days.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Seriously?
+            pro_shp_orientationnarrator_multi: Why not plan on which beautiful colony you'll vacation on while you wait?
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: You are: Sara Ryder, salary code 19-B, active Pathfinder. Your supervisor is: Director Tann.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Based on current staffing needs, you will be eligible for paid vacation time in: 587 days.
+    ├ option 3:
+        pro_shp_orientationnarrator_multi: You are: employee Ryder, salary code 19-B, active Pathfinder. Your supervisor is: Director Tann.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Based on current staffing needs, you will be eligible for paid vacation time in: 587 days.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: Repairs from kett incursion are at seventy-two per cent. Vane Dorsus, forward section, now open for habitation.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: Additional work crews on Vane Kord, aft section. Food storage is expanded to deck twenty-five to meet increased demand.
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: Resource allocation from Ark Leusinia now supports construction efforts on Vane Dorsus, decks nine to thirteen.
+        ↩ (goto) ?: [empty]
+    ├ option 4:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: Resource allocation from Ark Paarchero is complete. Secondary Hydroponics and transfer stations twelve to twenty-two are now accessible.
+        ↩ (goto) ?: [empty]
+    ├ option 5:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: Anchorage Wheel construction is now resumed. Water treatment systems are undergoing overhaul with new resources.
+        ↩ (goto) ?: [empty]
+    ├ option 6:
+        pro_shp_orientationnarrator_multi: Integration from the Hyperion is ongoing. Personnel are still restricted to Operations.
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi [OncePerGame]: Viable planets, capable of supporting life, are key to our survival in Andromeda.
+        pro_shp_orientationnarrator_multi: The viability of a world is affected by several factors, including temperature, resources, threat levels, political stability, and so on.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: The planet Elaaden has been officially classified as "viable for habitation."
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: The planet Voeld has been officially classified as "viable for habitation."
+            ↩ (goto) ?: [empty]
+        ├ option 3:
+            pro_shp_orientationnarrator_multi ⟨cond⟩: We have hard-working staff on multiple viable planets, matching initial projections for the Andromeda Initiative.
+            ↩ (goto) ?: [empty]
+        ├ option 4:
+            pro_shp_orientationnarrator_multi ⟨cond⟩: With additional viable planets, resource allocation is now trending upwards.
+            ↩ (goto) ?: [empty]
+        ├ option 5:
+            pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: With a major outpost founded, the planet Eos is now re-classified as "viable for habitation."
+            ↩ (goto) ?: [empty]
+        ├ option 6:
+            pro_shp_orientationnarrator_multi: We have few viable planets currently within range. Resource levels are considered at-risk.
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: The planet Elaaden has been officially classified as "viable for habitation."
+    ├ option 3:
+        ↩ (goto) pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: The planet Voeld has been officially classified as "viable for habitation."
+    ├ option 4:
+        ↩ (goto) pro_shp_orientationnarrator_multi ⟨cond⟩: We have hard-working staff on multiple viable planets, matching initial projections for the Andromeda Initiative.
+    ├ option 5:
+        ↩ (goto) pro_shp_orientationnarrator_multi ⟨cond⟩: With additional viable planets, resource allocation is now trending upwards.
+    ├ option 6:
+        ↩ (goto) pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: With a major outpost founded, the planet Eos is now re-classified as "viable for habitation."
+    ├ option 7:
+        ↩ (goto) pro_shp_orientationnarrator_multi: We have few viable planets currently within range. Resource levels are considered at-risk.
+    └─ merge ─┘
+├ option 5:
+    pro_shp_orientationnarrator_multi: The selection process saw the Andromeda Initiative evaluate thousands of potential habitable planets within the galaxy.
+    pro_shp_orientationnarrator_multi: After discovering an unusually high ratio of potential candidates, or "golden worlds," the Heleus Cluster was selected as our destination.
+    pro_shp_orientationnarrator_multi: Even at a distance, studying the light from stars can reveal much about their planets' composition and atmosphere.
+    pro_shp_orientationnarrator_multi: Seven worlds, nicknamed "habitats," have the life-supporting environments and resources we need to start our new lives in Andromeda.
+    ↩ (goto) ?: [empty]
+├ option 6:
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    pro_shp_orientationnarrator_multi ⟨cond⟩: Welcome back, Scott Ryder.
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: Staff notice: a security situation is being resolved. Remain calm.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    ├ option 2:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: With sorrow and pride, we honor the loss of Ark Natanus, and continue welcoming her survivors.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    ├ option 3:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: Please welcome and congratulate your new asari colleagues. Ark Leusinia has returned to the Nexus!
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    ├ option 4:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: Ark Paarchero is now docked with the Nexus! Be sure to make your new salarian colleagues welcome.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    ├ option 5:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: You have visited: multiple uncharted worlds. Remember that decontamination keeps everyone safe.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    ├ option 6:
+        pro_shp_orientationnarrator_multi ⟨cond⟩ [OncePerGame]: As personnel transfer to Eos, be sure every colonist has their survival kit and appropriate medical data.
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    ├ option 7:
+        ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+    └─ merge ─┘
+├ option 2:
+    pro_shp_orientationnarrator_multi ⟨cond⟩: Welcome back, Sara Ryder.
+    ↩ (goto) pro_shp_orientationnarrator_multi: [empty]
+├ option 3:
+    pro_shp_orientationnarrator_multi: Welcome back, Pathfinder.
+    ↩ (goto) pro_shp_orientationnarrator_multi: [empty]
+└─ merge ─┘
+↩ (goto) pro_shp_orientationnarrator_multi: [empty]
+↩ (goto) ?: [empty]

@@ -1,0 +1,26 @@
+# game/conversations/bstory/ket/ketbs_0220_scipost_log_02_b
+# Primary speaker: ket_scipost_kettscholar
+# Source: game/conversations/bstory/ket/ketbs_0220_scipost_log_02_b.xml
+==================================================
+SAM: Another audio log detected.
+Hero: Let's hear it.
+ket_scipost_kettscholar: [Audio Log] Transmissions unacknowledged by homeworld.
+ket_scipost_kettscholar: [Audio Log] Possible breakdown in connection and information mishandled.
+ket_scipost_kettscholar: [Audio Log] Investigation ongoing. Logs to be updated shortly.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Heh. Things getting lost in the post. A universal problem.
+    Hero: I wonder if we can find the follow-up logs.
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: That's good, right? If they're having problems sending angara info back home?
+    ↩ (goto) Hero: I wonder if we can find the follow-up logs.
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: So the kett aren't the well-oiled machine they seem to be.
+    ↩ (goto) Hero: I wonder if we can find the follow-up logs.
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Anything that delays or stops the kett is a blessing.
+    ↩ (goto) Hero: I wonder if we can find the follow-up logs.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: If the kett aren't talking to their homeworld, that's a good thing.
+    ↩ (goto) Hero: I wonder if we can find the follow-up logs.
+└─ merge ─┘

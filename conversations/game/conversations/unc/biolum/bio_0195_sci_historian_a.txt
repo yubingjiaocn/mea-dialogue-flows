@@ -1,0 +1,34 @@
+# game/conversations/unc/biolum/bio_0195_sci_historian_a
+# Primary speaker: bio_outpost_historian
+# Source: game/conversations/unc/biolum/bio_0195_sci_historian_a.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    bio_outpost_historian [OncePerGame]: No transports available? Emergency support for kett attacks—all of them?
+    global_squad_angara: Old Man Luj? What's he doing here?
+├ option 2:
+    bio_outpost_historian [OncePerGame]: But I {i}am{/i} in danger. A plant tore through my personal shuttle! I could've been inside.
+    ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+├ option 3:
+    bio_outpost_historian [OncePerGame]: I swear the jungle is watching me. I woke up with vines crawling across my face!
+    ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+├ option 4:
+    bio_outpost_historian [OncePerGame]: Do you know how damp it is here? And it's been days since I've eaten something that didn't come in a bag!
+    ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+├ option 5:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        bio_outpost_historian: Do not transfer me again, I—skkut.
+        ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 2:
+        bio_outpost_historian: Hello? Is anyone there? Hello?
+        ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 3:
+        bio_outpost_historian: This is unbearable.
+        ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 4:
+        bio_outpost_historian: Do your job and get me out of here!
+        ↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) bio_outpost_historian ⟨cond⟩ [OncePerGame]: [empty]

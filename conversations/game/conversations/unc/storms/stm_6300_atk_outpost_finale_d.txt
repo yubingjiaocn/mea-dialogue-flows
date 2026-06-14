@@ -1,0 +1,94 @@
+# game/conversations/unc/storms/stm_6300_atk_outpost_finale_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6300_atk_outpost_finale_d.xml
+==================================================
+ustl_settle_01_admin_multi: Pathfinder?
+Hero: The Roekaar attack is over.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ustl_settle_01_admin_multi ⟨cond⟩: Our military personnel were chafing at the bit. Better to get them patrolling so this never happens again.
+    ustl_settle_01_admin_multi: Special thanks to our friend, Jaal. It helps to show we're not all on opposite sides.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We can't assume anyone could be an enemy. That's no way to live.
+        ustl_settle_01_admin_multi: We're not planning on it.
+        Hero: How's the team holding up?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ustl_settle_01_admin_multi ⟨cond⟩: They know the drill, but it's different when it's home.
+            Hero: Maybe I should say something?
+            ustl_settle_01_admin_multi: If you like.
+            Narration: Bradley shrugs, making way for the Pathfinder to address people via their omni-tool.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero: I want you to know people will hear about this.
+                Narration: The Pathfinder pauses, expecting people to be proud.
+                Hero: Your bravery this day, and every day, will not go unrecorded.
+                Hero: I'll make sure there's a commendation in every record. You all deserve it.
+                Narration: Uncomfortable radio silence. What's their response?
+                stm_outpost_staff_science: [Comm] So... when do we get back to work?
+                Narration: Bradley shrugs and smiles. He and Ryder share a nice dad/son or daughter moment. Both are proud of the outpost team and what they've accomplished.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    ustl_settle_01_admin_multi ⟨cond⟩: No awards asked or expected.
+                    ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                    ustl_settle_01_admin_multi: This wasn't a good day, but it was {i}another{/i} day. You gave them that.
+                    Narration: Bradley smiles spreading his arms as he leaves, gesturing at everything.
+                    ustl_settle_01_admin_multi: Your people, Ryder.
+                    Narration: Reaction shot of Ryder, proud.
+                ├ option 2:
+                    ustl_settle_01_admin_multi ⟨cond⟩: No approval asked or expected.
+                    ↩ (goto) ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                ├ option 3:
+                    ustl_settle_01_admin_multi ⟨cond⟩: No apology asked or expected.
+                    ↩ (goto) ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                ├ option 4:
+                    ustl_settle_01_admin_multi ⟨cond⟩: No vacation asked or expected.
+                    ↩ (goto) ustl_settle_01_admin_multi: We lose sometimes, but if they have the choice to keep going? They'll take it.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Time and time again, you've shown yourselves competent, and this was no exception.
+                Narration: The Pathfinder pauses, expecting people to be proud.
+                Hero: The infrastructure you've built, the skills you've developed...
+                Hero: Despite adversity, you remain a model for the cluster.
+                ↩ (goto) Narration: Uncomfortable radio silence. What's their response?
+            ├ option 3:
+                Hero: I just want to say... I'm sorry.
+                Narration: The Pathfinder pauses, saddened by what happened.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: We ask you to defend us, but this is meant to be your safe place.
+                    Hero: This shouldn't have happened, and I'm sorry it got this far.
+                    Hero: I'm sorry.
+                    ↩ (goto) Narration: Uncomfortable radio silence. What's their response?
+                ├ option 2:
+                    Hero ⟨cond⟩: You're colonists. Explorers. We came here to live, not fight.
+                    ↩ (goto) Hero: This shouldn't have happened, and I'm sorry it got this far.
+                └─ merge ─┘
+            ├ option 4:
+                Hero: This was a hell of a day, and you all deserve whatever break you want.
+                Narration: The Pathfinder pauses, expecting people to be relieved.
+                Hero: You've built a fine home. The Initiative still exists because of your efforts here.
+                Hero: Reward yourself, Prodromos. You've earned it.
+                ↩ (goto) Narration: Uncomfortable radio silence. What's their response?
+            └─ merge ─┘
+        ├ option 2:
+            ustl_settle_01_admin_multi ⟨cond⟩: A little shell-shocked. Can't blame them.
+            ↩ (goto) Hero: Maybe I should say something?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Jaal would agree there's a line that shouldn't be crossed. There'll always be people like Akksul.
+        ustl_settle_01_admin_multi: Not here. We'll see to that.
+        ↩ (goto) Hero: How's the team holding up?
+    └─ merge ─┘
+├ option 2:
+    ustl_settle_01_admin_multi ⟨cond⟩: We'll know what to watch for in the future. It can't just be this old man and his hunches.
+    ↩ (goto) ustl_settle_01_admin_multi: Special thanks to our friend, Jaal. It helps to show we're not all on opposite sides.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Narration: The people of Prodromos are looking on, stopping to regard the Pathfinder.
+├ option 2:
+    ustl_settle_01_admin_multi: You're all thinking it. I want this place shining by nightfall. You hear me, Prodromos? Because everyone heard {i}you{/i}.
+    Narration: General hell yeah resolve (nodding, not yelled). Bradley turns to the Pathfinder as the rest leave.
+└─ merge ─┘

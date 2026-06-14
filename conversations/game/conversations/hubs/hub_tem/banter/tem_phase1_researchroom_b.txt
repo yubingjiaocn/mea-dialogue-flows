@@ -1,0 +1,72 @@
+# game/conversations/hubs/hub_tem/banter/tem_phase1_researchroom_b
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_tem/banter/tem_phase1_researchroom_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human: [Comm] Hey—can you drop by the bio lab?
+    ├ option 2:
+        global_humanark_asari_dr: [Comm] Ryder. When you've got a minute, stop by the medbay.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: [Comm] I'm in the galley when you're free.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: Tied things up for the old ground team before I left. Early for so many goodbyes.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: At least Liam's still here. And one Ryder.
+    ├ option 2:
+        global_squad_female_human: At least Liam's still here. And one Ryder.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: So this is what you and Ryder do for fun? Explore weird vaults that try to kill you?
+            global_squad_female_human: We fly into space clouds that try to kill us, too.
+            global_humanark_asari_dr: {i}(Sighs.){/i} I deserve a raise.
+        ├ option 2:
+            global_squad_krogan: So this is what you and Ryder do for fun? Explore weird vaults that try to kill you?
+            ↩ (goto) global_squad_female_human: We fly into space clouds that try to kill us, too.
+        └─ merge ─┘
+    ├ option 2:
+        global_humanark_asari_dr: A secure outpost. Finally.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Prodromos better be worth all that time Ryder put into it.
+            global_humanark_asari_dr: If they fail, the Nexus starves. No pressure, right?
+            global_squad_female_human: So everything we do now relies on civilians planting vegetables.
+        ├ option 2:
+            global_squad_krogan: Prodromos better be worth all that time Ryder put into it.
+            ↩ (goto) global_humanark_asari_dr: If they fail, the Nexus starves. No pressure, right?
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Everything around here's so damn shiny.
+        global_squad_female_human: The ship's brand-new. Be nice to keep her that way a little longer.
+        global_humanark_asari_dr: Fewer germs, too.
+    ├ option 4:
+        global_squad_female_human: I'm planning evacuation drills, too. Need to start running those.
+        global_humanark_asari_dr: Good idea. I know I'll need a refresher.
+        global_squad_krogan: Just a tip: If you need to evac in deep space, you're probably not coming back.
+        global_squad_female_human: Only if you don't know the drill.
+    ├ option 5:
+        global_squad_female_human: Just how long were you on Eos, Drack?
+        global_squad_krogan: Long enough to get sand in cracks I didn't even know I had.
+        global_humanark_asari_dr: And neglect your prosthetics.
+        global_squad_krogan: Neglect adds character.
+    ├ option 6:
+        global_humanark_asari_dr: Drack, I'm working with Vetra to track down prosthetic gel and those other items we discussed.
+        global_squad_krogan: You're too good to me, Doc.
+        global_squad_female_human: Nothing for me? Playing favorites, Lexi?
+        global_humanark_asari_dr: What? No.
+        global_squad_krogan: {i}(Chuckles.){/i}
+    ├ option 7:
+        global_humanark_asari_dr: Mutiny's like cancer—left untreated, it spreads.
+        global_squad_female_human: Keep exiling people, and you'll just run out of people.
+        global_humanark_asari_dr: Cut out malignant cells to give the healthy ones a chance.
+        global_squad_krogan: Nothing's that simple, Doc. And you know it.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,170 @@
+# game/conversations/rel/jaal/jaal_r1_tem_settled_in_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r1_tem_settled_in_d.xml
+==================================================
+Narration: Jaal is unpacking things in the tech lab on the Tempest. He looks up when Ryder enters.
+Hero: So... Jaal.
+global_squad_angara: So.
+Hero: We haven't had a chance to talk alone. You comfortable in here?
+global_squad_angara: I took it. It feels strange to stay with the others. They're—you're—aliens.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: And you're alien to us. So, there, we have something in common.
+    global_squad_angara: We can look at it as a place to start.
+    Hero: Got it.
+    global_squad_angara: Perhaps then, if we're all aliens it's about what kind of alien we are.
+    Hero: You had no idea about us... but you signed up to help us anyway.
+    global_squad_angara: Perhaps it had nothing to do with you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: That all you've got? Now that I've proven you can trust me, I was hoping you'd feel more able to open up.
+        global_squad_angara: I have certain dissatisfactions that I'd like to leave behind. They're quite personal.
+        Narration: There is a second of awkward silence.
+        Hero: How do you know Moshae Sjefa?
+        global_squad_angara: She's our greatest mind on the Remnant. I was her student.
+        Hero: You studied the Remnant, too?
+        global_squad_angara: A little. I was terrible. I quit. Or she threw me out. One of those.
+        global_squad_angara: We're still very close.
+        Narration: Jaal is feeling a little uncomfortable. He turns back to his unpacking
+        Hero: So... is that your rifle?
+        global_squad_angara: It is now. It's kett. With my own modifications.
+        global_squad_angara: I like to tinker—to get my hands on something and take it apart.
+        Hero: That's a skill I know we can use.
+        Hero: But I have one request.
+        Hero: Please don't take apart my ship.
+        global_squad_angara: You're right. I signed up—volunteered—for this. It's... exciting.
+        global_squad_angara: There's something unique about you—uneasy, raw—but somehow profound.
+        Hero: Face value, that sounds like a compliment. A nice one.
+        global_squad_angara: It is. Angara feel deeply. We have more trouble hiding our emotions than showing them.
+        global_squad_angara: I should get back to my work.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: As if I didn't have enough on my plate, add deciphering alien psychology.
+            global_squad_angara: What plate?
+            Hero: Exactly. See you later.
+        ├ option 2:
+            Hero: This was good. Let me know if you need anything.
+            global_squad_angara: Thank you. Let's talk more later.
+        ├ option 3:
+            Hero: When we have down time, I'd love to watch you work.
+            global_squad_angara: Sure. I could show everyone.
+            Hero: Um, no. Just us. So we can get to know each other better, or just share a hobby.
+            global_squad_angara: Oh? Of course.
+            Hero: Good! Good.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Care to elaborate?
+        global_squad_angara: I do not.
+        ↩ (goto) Narration: There is a second of awkward silence.
+    └─ merge ─┘
+├ option 2:
+    Hero: No one on my ship thinks that way. We're a team.
+    global_squad_angara: I was talking about my discomfort with your living arrangements, not about any prejudice I harbor.
+    global_squad_angara: I'm an alien—we're all strangers—I...
+    ↩ (goto) global_squad_angara: Perhaps then, if we're all aliens it's about what kind of alien we are.
+└─ merge ─┘
+┌─ BRANCH (9) ─┐
+├ option 1:
+    global_squad_angara: {i}(Laughs.){/i}
+    Narration: Jaal stops what he's doing and looks sincerely at Ryder.
+    global_squad_angara: Pathfinder. I want you to know that I take this mission seriously. I laugh because my life is serious.
+    global_squad_angara: I hope you can help us rescue the Moshae. Because... I've given up hope.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'll give it all I've got, Jaal.
+        global_squad_angara: Thank you. Let's talk more later.
+    ├ option 2:
+        Hero: I'm in, Jaal—I'm all in.
+        ↩ (goto) global_squad_angara: Thank you. Let's talk more later.
+    └─ merge ─┘
+├ option 2:
+    Hero: You mod kett stuff? I may never let you leave.
+    Hero: But seriously...
+├ option 3:
+    Hero: This was good. Let me know if you need anything.
+    global_squad_angara: Thank you. Let's talk more later.
+├ option 4:
+    ↩ (goto) Hero: Please don't take apart my ship.
+├ option 5:
+    ┌─ BRANCH (9) ─┐
+    ├ option 1:
+        global_squad_angara: {i}(Laughs.){/i}
+        Narration: Jaal stops what he's doing and looks sincerely at Ryder.
+    ├ option 2:
+        global_squad_angara: {i}(Laughs.){/i}
+    ├ option 3:
+        Narration: On the last line he gets close to Ryder, searching out eye contact. He smiles.
+        Narration: Jaal laughs, touches Ryder's shoulder in a friendly motion, and goes back to what he's doing.
+        Narration: There is a second of awkward silence.
+    ├ option 4:
+        global_squad_angara: But I have a feeling this will work out better.
+        Narration: On the last line, Jaal smiles and leans into Ryder's personal space.
+        Narration: Jaal laughs, touches Ryder's shoulder in a friendly motion, and goes back to what he's doing.
+        ↩ (goto) Narration: There is a second of awkward silence.
+    ├ option 5:
+        Hero: Please don't take apart my ship.
+    ├ option 6:
+        Hero: You mod kett stuff? I may never let you leave.
+        Hero: But seriously...
+    ├ option 7:
+        global_squad_angara: But I have a feeling this will work out better.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara: {i}(Laughs.){/i}
+        ├ option 2:
+            Narration: On the last line, Jaal smiles and leans into Ryder's personal space.
+            Narration: Jaal laughs, touches Ryder's shoulder in a friendly motion, and goes back to what he's doing.
+            ↩ (goto) Narration: There is a second of awkward silence.
+        └─ merge ─┘
+    ├ option 8:
+        Hero: You know?
+        Narration: Sara steps in close to Jaal with a knowing smile. Jaal smiles broadly.
+        global_squad_angara: Oh... I do!
+    ├ option 9:
+        Hero ⟨cond⟩: When we have down time, I'd love to watch you work.
+        global_squad_angara: Sure. I could show everyone.
+        Hero: Um, no. Just us. So we can get to know each other better, or just share a hobby.
+        global_squad_angara: Oh? Of course.
+        Hero: Good! Good.
+    └─ merge ─┘
+├ option 6:
+    Hero: As if I didn't have enough on my plate, add deciphering alien psychology.
+├ option 7:
+    ↩ (goto) global_squad_angara: Thank you. Let's talk more later.
+├ option 8:
+├ option 9:
+    Narration: Jaal is working on something in the tech lab on the Tempest. He looks up when Ryder enters.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara: You're right. I signed up—volunteered—for this. It's... exciting.
+        global_squad_angara: There's something unique about you—uneasy, raw—but somehow profound.
+    ├ option 2:
+        Hero: So... Jaal.
+        global_squad_angara: So.
+        Hero: We haven't had a chance to talk alone. You comfortable in here?
+        global_squad_angara: I chose it. It felt strange to stay with the others. They're—you're—aliens.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: And you're alien to us. So, there, we have something in common.
+            global_squad_angara: We can look at it as a place to start.
+            Hero: Got it.
+        ├ option 2:
+            Hero: No one on my ship thinks that way. We're a team.
+            global_squad_angara: I was talking about my discomfort with your living arrangements, not about any prejudice I harbor.
+            global_squad_angara: I'm an alien—we're all strangers—I...
+            global_squad_angara: Perhaps then, if we're all aliens it's about what kind of alien we are.
+            Hero: How do you know Moshae Sjefa?
+            global_squad_angara: She's our greatest mind on the Remnant. I was her student.
+            Hero: You studied the Remnant, too?
+            global_squad_angara: A little. I was terrible. I quit. Or she threw me out. One of those.
+            global_squad_angara: We're still very close.
+            Narration: Jaal is feeling a little emotional. He turns back to his unpacking
+            Hero: So... is that your rifle?
+            global_squad_angara: It is now. It's kett. With my own modifications.
+            global_squad_angara: I like to tinker—to get my hands on something and take it apart.
+            Hero: That's a skill I know we can use.
+            Hero: But I have one request.
+            ↩ (goto) Hero: Please don't take apart my ship.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

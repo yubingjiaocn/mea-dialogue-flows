@@ -1,0 +1,75 @@
+# game/conversations/rel/gil/gil_r1_tem_intro_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/gil/gil_r1_tem_intro_d.xml
+==================================================
+global_crew_tech_officer: Pathfinder making the rounds.
+global_crew_tech_officer: Slumming it, huh? Want to see how the riffraff are making out?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Hey, this is the most important part of the ship.
+    global_crew_tech_officer: Whoa, don't tell me they put someone smart in charge for a change.
+    global_crew_tech_officer: I am at your command.
+    Hero: Just want to see how things are going with the ship.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_crew_tech_officer: Got this baby humming. No restraints. She'll take you anywhere the Scourge will allow.
+        global_crew_tech_officer: It just feels good to be stretching our wings, you know? Locked in idle too long, you start to drift. People same as ships.
+        global_crew_tech_officer: Stuck on the Nexus, gotta say I was regretting joining the Initiative.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I doubt you were the only one.
+            global_crew_tech_officer: Yes, but it's a new thing for me, regret.
+            global_crew_tech_officer: I tend to live the way I work: kinda "feel it, do it." Not a lot of close ties, no real sense of purpose.
+            global_crew_tech_officer: Figured maybe I'd find my true calling in Andromeda. Then I got here and, oops, I just made a decision there's no turning back from.
+            global_crew_tech_officer: I was going nuts on that station. You can't know how jazzed I was when you showed up.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Happy to be of service. I think you'll see that showing up is only {i}one{/i} of my many talents.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_crew_tech_officer ⟨cond⟩: Oh yeah? Uh, you're not hitting on me, are you?
+                    Hero: Thought I was. Is it {i}not{/i} one of my many talents?
+                    global_crew_tech_officer: I'm just not susceptible, if you know what I mean. Liam's more my speed—well, if he wasn't such a tool.
+                    Hero: Got it. Sorry.
+                    global_crew_tech_officer: No sweat at all.
+                    global_crew_tech_officer: You just keep pointing this ship wherever you want her to go, and I'll make sure she can get there. Deal?
+                    Hero: Deal.
+                ├ option 2:
+                    global_crew_tech_officer: Is that right? Well, I'll be sure not to blink. I want to see them all.
+                    Hero: Let me know if I go too fast for you.
+                    global_crew_tech_officer: There's no such thing.
+                    ↩ (goto) global_crew_tech_officer: You just keep pointing this ship wherever you want her to go, and I'll make sure she can get there. Deal?
+                └─ merge ─┘
+            ├ option 2:
+                Hero: You mean, how jazzed you were that a {i}Pathfinder{/i} showed up.
+                global_crew_tech_officer: Tomato potato.
+                ↩ (goto) global_crew_tech_officer: You just keep pointing this ship wherever you want her to go, and I'll make sure she can get there. Deal?
+            ├ option 3:
+                Hero: We're exploring this cluster. Eventually the galaxy. If your purpose is here, we'll find it.
+                global_crew_tech_officer: Then the question will be, what will I do with it? {i}(Chuckles.){/i} In the meantime...
+                ↩ (goto) global_crew_tech_officer: You just keep pointing this ship wherever you want her to go, and I'll make sure she can get there. Deal?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Seems like life back there was pretty bleak.
+            global_crew_tech_officer: Not gonna lie, it sucked.
+            ↩ (goto) global_crew_tech_officer: I tend to live the way I work: kinda "feel it, do it." Not a lot of close ties, no real sense of purpose.
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_tech_officer: That little stunt into the Scourge tested a few of my improvements. Happy to say they held up.
+        ↩ (goto) global_crew_tech_officer: It just feels good to be stretching our wings, you know? Locked in idle too long, you start to drift. People same as ships.
+    ├ option 3:
+        global_crew_tech_officer: I can coax more out of this baby than some might think, but we shouldn't go too far or push too hard between Nexus stops. For now.
+        ↩ (goto) global_crew_tech_officer: It just feels good to be stretching our wings, you know? Locked in idle too long, you start to drift. People same as ships.
+    └─ merge ─┘
+├ option 2:
+    Hero: Hey, it's a dirty job... Are you the riffraff spokesman?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_tech_officer ⟨cond⟩: King, actually. You might want to bow. Otherwise, no telling what might fall off the Nomad when you're out there.
+        Hero: I'll take my chances.
+        ↩ (goto) Hero: Just want to see how things are going with the ship.
+    ├ option 2:
+        global_crew_tech_officer: King, actually. You might want to bow. Otherwise, things might start falling off the Tempest at the most inopportune times.
+        ↩ (goto) Hero: I'll take my chances.
+    └─ merge ─┘
+└─ merge ─┘

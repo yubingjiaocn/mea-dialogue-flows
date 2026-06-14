@@ -1,0 +1,36 @@
+# game/conversations/unc/storms/stm_0120_main_site_scan_a
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0120_main_site_scan_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: I got a partial log but I can't turn on the antenna. Something's blocking the power.
+    SAM: A remote lock is active. The interference originates from a nearby power relay tower.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: So we're not the only ones interested in what happened here.
+        Hero: Let's check out this relay tower.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: So we're not the only ones interested in what happened here.
+        ↩ (goto) Hero: Let's check out this relay tower.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Shoot tower, kill lock, problem solved. Right?
+        ↩ (goto) Hero: Let's check out this relay tower.
+    └─ merge ─┘
+├ option 2:
+    SAM: The power has been restored, but these records cannot be fully recovered.
+    Hero: At least we've got the antenna.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: The kett were tracking the power. Not surprised it's shut off.
+    ↩ (goto) Hero: Let's check out this relay tower.
+├ option 2:
+    global_squad_asari ⟨cond⟩: That'll be Clancy. Probably trying to keep out the kett. Fraidy.
+    ↩ (goto) Hero: Let's check out this relay tower.
+├ option 3:
+    Hero ⟨cond⟩: But we know how some of the engineers ended up. Hard world, Eos.
+    Hero: We'll fix that.
+├ option 4:
+    Hero: What was going on with the engineering personnel? And where's the buoy?
+└─ merge ─┘

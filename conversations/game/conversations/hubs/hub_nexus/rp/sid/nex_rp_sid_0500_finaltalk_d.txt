@@ -1,0 +1,50 @@
+# game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0500_finaltalk_d
+# Primary speaker: global_nexus_colonial_director_multi
+# Source: game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0500_finaltalk_d.xml
+==================================================
+global_nexus_colonial_director_multi: I know why you're here. Yale told me to expect a visit.
+global_nexus_colonial_director_multi: I hoped this blunder wouldn't come to light, but Heleus has a habit of dashing our hopes.
+global_nexus_colonial_director_multi: Have the Three Sabers been eliminated, Pathfinder?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I dealt with them.
+    global_nexus_colonial_director_multi: Then the problem's solved.
+    global_nexus_colonial_director_multi: As far as everyone's concerned, the Three Sabers acted on their own.
+    nex_vetra_sister_multi: But they didn't, did they?
+    nex_vetra_sister_multi: Hey, Ryder.
+    global_nexus_colonial_director_multi: Who the hell's this?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: This investigation started with Sid's instincts.
+        global_nexus_colonial_director_multi: I applaud good instincts. But not in this case.
+        nex_vetra_sister_multi: So I was right, wasn't I? Someone on the Nexus {i}was{/i} helping the Three Sabers.
+        global_nexus_colonial_director_multi: Yes, it was a mistake. We authorized a course of action that cost lives. But, like I said, it's over.
+        nex_vetra_sister_multi: You have to tell people. If we made a mistake, we have to own it, right?
+        global_nexus_colonial_director_multi: Who does that serve? It could damage relations with the angara, spark another uprising.
+        nex_vetra_sister_multi: It would be lying! Ryder, if you hide this, what else will you let them hide?
+        global_nexus_colonial_director_multi: We're not taking tips on diplomacy from a teenager.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sid, Addison's right. We can't risk the consequences of this info becoming public.
+            global_nexus_colonial_director_multi: Then we'll make sure all the evidence you collected is destroyed.
+            Hero: Sid, you too.
+            nex_vetra_sister_multi: Wow. Seriously? Whatever.
+            global_nexus_colonial_director_multi: Thank you for helping the Nexus stay strong. I swear to you both, this will not happen again.
+        ├ option 2:
+            Hero: With all due respect, director, Sid's right. Transparency is important for building trust.
+            Hero: People need to know they can trust us, even when we screw up.
+            nex_vetra_sister_multi: I'll make sure people hear about this.
+            global_nexus_colonial_director_multi: Pathfinder, you're making a mistake.
+            Hero: Maybe, but at least I'm willing to acknowledge it.
+            ↩ (goto) global_nexus_colonial_director_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Uh, this is Vetra's sister, Sid.
+        global_nexus_colonial_director_multi: Oh. You. I noticed you tried to get someone to look into the Three Sabers.
+        ↩ (goto) nex_vetra_sister_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Their deaths don't make this okay.
+    global_nexus_colonial_director_multi: I realize that, Ryder. A poor decision was made. People paid for it. But it's over.
+    ↩ (goto) global_nexus_colonial_director_multi: As far as everyone's concerned, the Three Sabers acted on their own.
+└─ merge ─┘

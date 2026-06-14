@@ -1,0 +1,76 @@
+# game/conversations/bstory/life/col_110_aftermath_choice_i
+# Primary speaker: SAM
+# Source: game/conversations/bstory/life/col_110_aftermath_choice_i.xml
+==================================================
+global_nexus_colonial_director_multi: Pathfinder. I have Dr. Kennedy on the channel.
+global_nexus_colonial_director_multi: She is... very tired. But alive.
+Hero: And the baby?
+col_rogue_out_leader: Lungs like a banshee, and safe.
+global_nexus_colonial_director_multi: And now that you're back in the fold, it's the Initiative's job to keep you safe.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: This all started with tech that could steal Initiative resources.
+    global_nexus_colonial_director_multi: Dr. Kennedy has graciously offered to return her research, and any resources gained along the way.
+    col_rogue_out_leader: I could always just purge all data.
+    global_nexus_colonial_director_multi: No, thank you. We'll keep things simple: you and your trackers all safely accounted for.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We fought off kett and Roekaar. Those threats won't just go away.
+        col_rogue_out_leader: That's the Nexus way. Shut the doors and hope.
+        col_rogue_out_leader: Don't get me wrong, I'm grateful as hell, but it won't be long before none of this matters.
+        col_rogue_out_leader: There's others out there. I was just furthest along.
+        col_rogue_out_leader: If you want us safe, make it all safe.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: It's best if you're on the Nexus.
+            global_nexus_colonial_director_multi: Where I can keep an eye on you. And we can talk.
+            col_rogue_out_leader: I haven't changed, Foster.
+            global_nexus_colonial_director_multi: That's what I hoped you'd say.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Good luck out there, Dr. Kennedy.
+                col_rogue_out_leader: You as well, Ryder. Best as you can.
+            ├ option 2:
+                Hero: You never said what name you chose. Maybe Pathfinder?
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Sara's good too.
+                    col_rogue_out_leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
+                    col_rogue_out_leader: Goodbye, Ryder. And thank you.
+                ├ option 2:
+                    Hero ⟨cond⟩: Scott's good too.
+                    ↩ (goto) col_rogue_out_leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
+                ├ option 3:
+                    Hero: It's not Ryder, is it?
+                    ↩ (goto) col_rogue_out_leader: {i}(Laughs.){/i} No. It's David. David Edward. For an old friend.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Prodromos has started reversing the procreation blockers. You'll fit right in.
+                global_nexus_colonial_director_multi: It's not too far. If you ever want to talk.
+                ↩ (goto) col_rogue_out_leader: I haven't changed, Foster.
+            ├ option 2:
+                Hero: Prodromos is where we started our new lives. They'd love to welcome this one.
+                ↩ (goto) global_nexus_colonial_director_multi: It's not too far. If you ever want to talk.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Locking people up isn't the solution. We can't watch everyone all the time.
+        global_nexus_colonial_director_multi: You had to comb the cluster and run a gauntlet to save them.
+        col_rogue_out_leader: From what I've heard, they've done the same for every outpost.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            col_rogue_out_leader ⟨cond⟩: Your Pathfinder knows you can't keep this bottled.
+            ↩ (goto) col_rogue_out_leader: If you want us safe, make it all safe.
+        ├ option 2:
+            col_rogue_out_leader: Your Pathfinder knows you can't keep this bottled.
+            ↩ (goto) col_rogue_out_leader: If you want us safe, make it all safe.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: We fought off kett and Roekaar. Those threats won't just go away.
+├ option 3:
+    ↩ (goto) Hero: Locking people up isn't the solution. We can't watch everyone all the time.
+└─ merge ─┘

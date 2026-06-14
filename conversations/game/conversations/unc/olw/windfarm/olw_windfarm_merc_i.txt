@@ -1,0 +1,32 @@
+# game/conversations/unc/olw/windfarm/olw_windfarm_merc_i
+# Primary speaker: olw_windfarm_merc
+# Source: game/conversations/unc/olw/windfarm/olw_windfarm_merc_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: You running security here?
+    olw_windfarm_merc: {i}(Snorts.){/i} Trying. Krogan or not, I'm only one merc.
+    olw_windfarm_merc: This lot's crazy thinking they can run a wind farm in the badlands.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Any advice for staying alive in the badlands?
+        olw_windfarm_merc: Get out of the badlands.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Hero: Why do you think there have been so many attacks?
+        olw_windfarm_merc: All these fancy gizmos out in the open. They're begging to be stolen.
+        olw_windfarm_merc: Will say, though, it's damn suspicious those scavs keep hitting the place while I'm off shift.
+        olw_windfarm_merc: Like someone's telling them when to strike.
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        Hero: See you around.
+        olw_windfarm_merc: Whatever.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩ [OncePerGame]: Hey. That asari—Niath—she's been selling your patrol schedules to the scavengers.
+    olw_windfarm_merc: I knew it! Fucking junkie. {i}(Sighs.){/i} Thanks for the heads up.
+    ↩ (goto) ?: [empty]
+├ option 3:
+    olw_windfarm_merc: Yeah?
+    ↩ (goto) ?: [empty]
+└─ merge ─┘

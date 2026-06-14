@@ -1,0 +1,66 @@
+# game/conversations/loyalty/loy_tur/loy_tur_0220_vetra_qs_i
+# Primary speaker: global_squad_turian
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0220_vetra_qs_i.xml
+==================================================
+Hero: We need to talk.
+global_squad_turian: Yeah, I know.
+global_squad_turian: These people here think I helped them, and somehow Meriweather feels screwed over by it.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: How well do you know Meriweather?
+    global_squad_turian: I've heard of her. A smuggler. Not affiliated with either the Outcasts or Collective.
+    global_squad_turian: Never did business with her myself. Kind of a loose cannon, from what I've heard.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: How well do you know Meriweather?
+    ├ option 2:
+        Hero: You sure you don't know anything about what happened here?
+        global_squad_turian: Ryder, I swear on my sister's life.
+        global_squad_turian: I don't know what I did to put myself in Meriweather's crosshairs.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: How well do you know Meriweather?
+        ├ option 2:
+            ↩ (goto) Hero: You sure you don't know anything about what happened here?
+        ├ option 3:
+            Hero: What do you think Meriweather's planning?
+            global_squad_turian: Looks like she was gunning for me. Used the people she thinks I helped as bait.
+            global_squad_turian: If you ask me, she's planning to kill me—after a thorough interrogation, of course.
+            global_squad_turian: Sounds like she wasn't expecting you. Might try to get something out of the Nexus in exchange.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: How well do you know Meriweather?
+            ├ option 2:
+                ↩ (goto) Hero: You sure you don't know anything about what happened here?
+            ├ option 3:
+                ↩ (goto) Hero: What do you think Meriweather's planning?
+            ├ option 4:
+                Hero: We'll talk later. Focus on getting out of here.
+                global_squad_turian: What I like to hear.
+            └─ merge ─┘
+        ├ option 4:
+            ↩ (goto) Hero: We'll talk later. Focus on getting out of here.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero: What do you think Meriweather's planning?
+    ├ option 4:
+        ↩ (goto) Hero: We'll talk later. Focus on getting out of here.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: You sure you don't know anything about what happened here?
+├ option 3:
+    ↩ (goto) Hero: What do you think Meriweather's planning?
+├ option 4:
+    ↩ (goto) Hero: We'll talk later. Focus on getting out of here.
+└─ merge ─┘
+global_squad_turian: More talk? Shouldn't we be trying to escape?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ↩ (goto) Hero: How well do you know Meriweather?
+├ option 2:
+    ↩ (goto) Hero: You sure you don't know anything about what happened here?
+├ option 3:
+    ↩ (goto) Hero: What do you think Meriweather's planning?
+├ option 4:
+    ↩ (goto) Hero: We'll talk later. Focus on getting out of here.
+└─ merge ─┘

@@ -1,0 +1,61 @@
+# game/conversations/unc_ice/ice_1100_ang_town1_intro_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_1100_ang_town1_intro_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_knoeth ⟨cond⟩: Heard there was an alien lurking about the place.
+        ice_knoeth: Don't try to start something. We're all combat-trained by the Resistance and prepared to die.
+        ice_knoeth: And try not to disturb our data probes. Our research is valuable, though it may not mean much to you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What's your focus out here?
+            ice_knoeth: Glacial movement, seismology, climate—anything Aya needs from us.
+            ice_knoeth: Resources are tight, so our scientists know a bit of everything.
+            ice_knoeth: That way, we're prepared for anything.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: How long has this station been around?
+                ice_knoeth: Only a few years. This used to be kett territory before the Resistance pushed them out.
+                ice_knoeth: We've discovered a wealth of resources the kett protected out here.
+                ice_knoeth: Metals, minerals—even a new species of edible cold-weather fungus.
+                Hero: All that was hidden under the ice?
+                ice_knoeth: And more. We've only scratched the surface.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: Are you in charge here?
+                ice_knoeth: Lead researcher. Worked as a seismologist on Aya before I volunteered for Hjara.
+                Hero: You volunteered?
+                ice_knoeth: We all did. Aya is fine, but all that green gets boring.
+                ice_knoeth: I can't speak for the rest, but I came here for the adventure.
+                ice_knoeth: So far, Voeld has lived up to my expectations. Always a new mountain to scale.
+                ↩ (goto) Hero: [empty]
+            ├ option 3:
+                Hero: I'll come back if I need anything.
+                ice_knoeth: I'll be here.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Takes guts to be stationed out here alone.
+            ice_knoeth: They only send scientists who can handle themselves in a fight.
+            ice_knoeth: Since the Resistance can't always protect us, we protect ourselves.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ice_knoeth: Heard there was an alien lurking about the place.
+        ↩ (goto) ice_knoeth: Don't try to start something. We're all combat-trained by the Resistance and prepared to die.
+    └─ merge ─┘
+├ option 2:
+    ice_knoeth: They told me you might be coming through. Watch your step—we buried data probes in the snow.
+    Hero: What is this place?
+    ice_knoeth: Hjara Station, the only research base on Voeld. Educated on Aya, trained by the Resistance.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: What's your focus out here?
+    ├ option 2:
+        ↩ (goto) Hero: Takes guts to be stationed out here alone.
+    └─ merge ─┘
+└─ merge ─┘
+ice_knoeth: Pathfinder.
+↩ (goto) Hero: [empty]

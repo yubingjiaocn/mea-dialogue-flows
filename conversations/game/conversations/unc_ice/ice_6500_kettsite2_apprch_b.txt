@@ -1,0 +1,34 @@
+# game/conversations/unc_ice/ice_6500_kettsite2_apprch_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_6500_kettsite2_apprch_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: That's the path to the kett command center!
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Entrance to kett command center, straight ahead.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Getting close to the kett command center.
+├ option 4:
+    global_squad_asari ⟨cond⟩: This is the way to the kett command center.
+├ option 5:
+    global_squad_angara ⟨cond⟩: This is how we get into the kett command center.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Not much to see here anymore.
+    global_squad_angara ⟨cond⟩: The people here will make good use of this space.
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Are we ready to crash kett command now?
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: We going to attack the command center now, or what?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: We going in? Command center's waiting.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: We shouldn't delay in dealing with kett command.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: We should attack the kett command center as soon as possible.
+    └─ merge ─┘
+└─ merge ─┘

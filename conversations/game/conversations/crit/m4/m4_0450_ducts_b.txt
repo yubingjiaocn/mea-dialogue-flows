@@ -1,0 +1,101 @@
+# game/conversations/crit/m4/m4_0450_ducts_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0450_ducts_b.xml
+==================================================
+global_salarian_pathfinder_multi: [Comm] This is Raeka. Some of our people are still alive. I'm headed there now. Captain Hayjer, what's your status?
+crit_kett_salarian_captain_multi: [Comm] The EMP is primed and ready.
+Hero: We're almost to the Archon's chamber. Stand by.
+Hero: This'll be fun...
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: You hear that?
+    Hero: Yeah.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: You guys hear that?
+    ↩ (goto) Hero: Yeah.
+├ option 3:
+    global_squad_turian ⟨cond⟩: You guys hear that?
+    ↩ (goto) Hero: Yeah.
+├ option 4:
+    global_squad_asari ⟨cond⟩: You guys hear that?
+    ↩ (goto) Hero: Yeah.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: You hear that?
+    ↩ (goto) Hero: Yeah.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Do you hear that?
+    ↩ (goto) Hero: Yeah.
+└─ merge ─┘
+Hero: What happened to him?
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: A dead salarian. He must have escaped into the ducts. And then...
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: They sent that animal in here to find him. Poor guy.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: They sent that animal in here to hunt him down. What a shame.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: They sent that animal in here to find him. Poor guy.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: They set that animal loose to kill him. Poor guy.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: They sent that animal in here to hunt him.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: They set that creature loose to hunt him.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Dead salarian. Must've escaped into these ducts. And then...
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Dead salarian. He must have escaped into these ducts, and then...
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Dead salarian. Must've escaped into these ducts. And then...
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Dead salarian. Must've escaped into these ducts. And then...
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 6:
+    global_squad_female_human ⟨cond⟩: A dead salarian. He must have escaped into these ducts. And then...
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 7:
+    ↩ (goto) global_squad_female_human: [empty]
+└─ merge ─┘
+Hero: Here's the way out.
+crit_kett_krogan1: {i}(Screams.){/i}
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Part of me was hoping this kind of evil only existed in the Milky Way. Guess I was naive.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: It gives us a chance to prove our own courage. Our determination to stop it.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: One thing I know for sure. Evil bleeds. Let's make sure it hurts too.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: And now I guess it's up to us to stop it.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: What matters most is that people are willing to fight to stop it.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: As long we don't let it win. That's what matters most.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: It was probably too much to hope that evil like this was only in the Milky Way.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Is this kind of evil universal? First the Milky Way, now here?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: Does every galaxy have monsters like the Archon ruining everything? Is evil everywhere?
+    ↩ (goto) global_squad_angara: [empty]
+├ option 5:
+    global_squad_krogan ⟨cond⟩: We come all this way to find out the monsters in Andromeda are just as evil as the ones back home.
+├ option 6:
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_kett_salarian2: {i}(Screams.){/i}
+├ option 2:
+    crit_kett_salarian1: {i}(Screams.){/i}
+└─ merge ─┘

@@ -1,0 +1,613 @@
+# game/conversations/rel/peebee/pb_r0_tem_investigates_d
+# Primary speaker: global_squad_asari
+# Source: game/conversations/rel/peebee/pb_r0_tem_investigates_d.xml
+==================================================
+┌─ BRANCH (15) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: You again. Wanna hear more about my childhood log cabin?
+    ┌─ BRANCH (10) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What was it like for you on the Nexus?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: Well, I wasn't supposed to be woken up yet. That ex-friend I mentioned—my accomplice—she finagled my early thaw.
+                global_squad_asari: So I kinda lived off the grid. Snuck around, bullshitted my way onto excursions off-station.
+                global_squad_asari: After I found my first Remnant ruin, I started, uh, borrowing shuttles.
+                global_squad_asari: After that, I didn't spend much time on the Nexus. I even missed most of the revolt!
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                global_squad_asari: Well, I wasn't supposed to be woken up yet. A resourceful accomplice finagled my early thaw.
+                ↩ (goto) global_squad_asari: So I kinda lived off the grid. Snuck around, bullshitted my way onto excursions off-station.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: How come I don't see you on the Nexus when we're docked?
+            global_squad_asari: I know every nook and cranny there. Sometimes I wedge myself into a cranny.
+            global_squad_asari: I'm not avoiding you, I promise.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (7) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩ [OncePerGame]: What does someone have to do to get you to flirt with them?
+            global_squad_asari: Not much at all.
+            global_squad_asari: But I get a little extra jolt when I'm matched wink for wink.
+            global_squad_asari: So, just be yourself and the flirts will flow.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: Have to admit, when you invited me to your apartment, I thought you might be luring me there for... something else.
+            global_squad_asari: You thought or you hoped?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I might have been hoping.
+                global_squad_asari: That hope had crossed my mind as well.
+                global_squad_asari: If Kalinda hadn't intruded, who knows what might have happened.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: I said what I meant.
+                global_squad_asari: I tend to as well. So if I'd had that in mind, believe me, you would have known.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 3:
+            Hero: You're cute when you're tipsy, you know?
+            global_squad_asari: Back on Aya? Some of that was embellished, so I could hit on you with impunity.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I'm not buying it.
+                global_squad_asari: You calling me a liar? That won't earn you any flirt points.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: You have carte blanche to hit on me whenever you like.
+                global_squad_asari: Well, there are times I wouldn't want to distract you. Like when you're going toe-to-toe with a bad guy.
+                Hero: At those moments, you have carte blanche to hit on the bad guy.
+                global_squad_asari: {i}(Laughs.){/i} Will do.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            Hero: I've been having zero-G daydreams.
+            global_squad_asari: Me too. Wanna find a discreet place and make the dream a reality?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Absolutely.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari [OncePerGame]: {i}(Sighs deeply.){/i} How much fun are we, huh?
+                    global_squad_asari: Back to business, Pathfinder.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    global_squad_asari: {i}(Giggles.){/i}
+                    ↩ (goto) global_squad_asari: Back to business, Pathfinder.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: {i}(Laughs.){/i} You're impossible.
+                global_squad_asari: I was going for impetuous. Another time, then.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 5:
+            Hero: Aren't you a sight for sore eyes.
+            global_squad_asari: Don't make me blush. At least... not in public.
+            Hero: This is a new side of you.
+            global_squad_asari: I want to show you all my sides.
+            ↩ (goto) Hero: [empty]
+        ├ option 6:
+            Hero: Are we getting together later?
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_asari [OncePerGame]: Sure hope so.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                global_squad_asari [OncePerGame]: If I have anything to say about it.
+                ↩ (goto) Hero: [empty]
+            ├ option 3:
+                global_squad_asari: The answer is always yes.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 7:
+            Hero: I like it when you flirt. I wouldn't want you to stop.
+            global_squad_asari: Have I flirted with you? {i}(Coy giggle.){/i}
+            global_squad_asari: Don't worry, Ryder, I'm relentless. It relaxes me.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: You really won't tell me what you're working on?
+            global_squad_asari: That's right. Next question?
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero ⟨cond⟩: How's your current project looking?
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari: The device we retrieved from the volcano is amazing. It allowed us to make another fusion mod.
+                    global_squad_asari: Gil and I think we could use it to soup up the Tempest. And we're just scratching the surface.
+                    global_squad_asari: I'll be in research and testing mode for the foreseeable future.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    global_squad_asari: We didn't get the device, but the scan data could help us use rem-tech to augment more of our systems.
+                    global_squad_asari: Who knows? Maybe someday we'll have Remnant-infused ships, or even learn how to travel space in new ways.
+                    global_squad_asari: For the foreseeable future though, I'll just be in research and study mode.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_asari: I've hit a ceiling until we check out that unprecedented signal my scanner picked up.
+                global_squad_asari: It's a true mystery, waiting to be discovered. And {i}waiting{/i}, if you catch my drift.
+                ↩ (goto) Hero: [empty]
+            ├ option 3:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari: With Poc back, my scanner's fully augmented. It's scouring the cluster as we speak.
+                    global_squad_asari: If there are any crazy amazing Remnant signals out there, it's only a matter of time before I find them.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    global_squad_asari: My scanner's still incomplete, as you know.
+                    global_squad_asari: It's prepped for augmentation, but for now, it's only strong and smart enough to locate certain signals.
+                    global_squad_asari: Once you get me the rem-tech I need, it'll be a bona fide mystery detector.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_asari: Both Observers are functioning as designed.
+                global_squad_asari: Mine will never have offensive capabilities like yours. She's just a plaything. Keeps me company.
+                global_squad_asari: The kind of company I can shut down whenever I want, without hurting its feelings.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 4:
+        Hero: You mentioned you came to Andromeda with someone?
+        global_squad_asari: Nothing gets by you. Guess that's why you're the Pathfinder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: Just a friend—the one who woke me up early—but now she's not even that.
+            global_squad_asari: It's better to venture into the unknown without restraints or entanglements, don't you think?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: A certain independence might be helpful, yeah.
+                global_squad_asari: Exactly. I don't want anything holding me back.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: I don't know. Don't friends and loved ones make all the effort worthwhile?
+                global_squad_asari: I've always been self-motivated. Don't need much more than curiosity to drive me forward.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari: Just a friend. Now she's not even that.
+            ↩ (goto) global_squad_asari: It's better to venture into the unknown without restraints or entanglements, don't you think?
+        └─ merge ─┘
+    ├ option 5:
+        Hero: Is there more about Kalinda you want to share?
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari: She keeps sending us rem-tech, no strings attached. It's hard to believe she's turned over a leaf.
+                global_squad_asari: When we were close, there were periods when she was sugar-sweet. They never lasted.
+                global_squad_asari: So I'm not counting any chickens—I'm just mixing metaphors.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    Hero: What happened to end the relationship?
+                    global_squad_asari: {i}(Chuckles.){/i} Which time? She'd thrown me aside so many times, I felt like a yo-yo. Each more cruel than the last.
+                    global_squad_asari: She'd come back with sweet talk, apologize profusely, tell me her feelings were so intense, she got scared, yada yada.
+                    global_squad_asari: Until she disappeared, right around when I found my first Remnant ruin. So I threw myself into that.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: Come on—you two were intimate, right?
+                        global_squad_asari: Take a wild guess. Why are people so hung up on sex? It's a natural expression of attraction.
+                        global_squad_asari: We were doing exciting, daring, irreverent things. It stirs stuff up. Like shaking a bottle of champagne, you know?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_asari: You {i}should{/i} know, better than anyone...
+                            global_squad_asari: I'm not the type to "save myself."
+                            ↩ (goto) Hero: [empty]
+                        ├ option 2:
+                            ↩ (goto) global_squad_asari: I'm not the type to "save myself."
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: Were you two intimate?
+                        ↩ (goto) global_squad_asari: Take a wild guess. Why are people so hung up on sex? It's a natural expression of attraction.
+                    └─ merge ─┘
+                ├ option 3:
+                    Hero: Tell me more about the two of you.
+                    global_squad_asari: After she woke me from stasis, I was living off-grid, right? She set me up, got me ID cards, access to resources.
+                    global_squad_asari: I thought we were a team. She was the society lady—proper, established, powerful, living vicariously through me.
+                    global_squad_asari: She introduced me to her circle. Showed me off—called me her little rogue. I felt special.
+                    ↩ (goto) Hero: [empty]
+                ├ option 4:
+                    Hero: Did you know she was working with the exiles?
+                    global_squad_asari: Had no idea. Blows my mind she was leading a double life.
+                    global_squad_asari: Nexus aristocrat by day, thrill-seeking outlaw boss by night.
+                    global_squad_asari: I realize now how little I knew about her. Makes me question everything.
+                    ↩ (goto) Hero: [empty]
+                ├ option 5:
+                    Hero: Let's talk about something else.
+                    global_squad_asari: Yes, please.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_asari: Not really. It's sad, in some ways. She was important to me once.
+                global_squad_asari: But the edge she lived on was too sharp. It made her exciting, but also excruciating to be around.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari: I'm just hoping she leaves us alone. But you never know with her. Thought she was done with me, then all this happened.
+            global_squad_asari: Doubtless she loves the idea that we're walking around wondering when or if she'll do something.
+            global_squad_asari: Being with her was kind of like that.
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            global_squad_asari: Just that I'm pissed my prior association with her has become a problem, again. For me, and now for you—well, us.
+            global_squad_asari: She's like a... {i}wart{/i} that you freeze off, but—damn it—there it is again, popping to the surface.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Warts only go skin deep. Don't let her get to you.
+                global_squad_asari: It's so unlike me. She... she's just a special brand of annoying.
+                global_squad_asari: I can't believe I ever thought I was close to her.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: I'll rid you of that nasty wart.
+                global_squad_asari: Please do, because, it's unsightly and... stupid, and... warty.
+                ↩ (goto) global_squad_asari: I can't believe I ever thought I was close to her.
+            └─ merge ─┘
+        ├ option 4:
+            global_squad_asari: Back home, she was upper crust: an ambassador, respected, living the high life. But miserable. Not built for royalty, she said.
+            global_squad_asari: With her position, the Initiative sought her out as a first contact specialist. First wave out of stasis.
+            global_squad_asari: Kalinda was the one who got me thawed out early. I'm still grateful for that.
+            global_squad_asari: But things went south soon. She hurt me—pretty badly.
+            Hero: What happened?
+            global_squad_asari: Oh, let's not drum up that sob story. It's all water under the bridge.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: So, how do you like the team?
+            global_squad_asari: Interesting bunch. I get a good feeling from Vetra. Not your typical military-minded turian.
+            global_squad_asari: Liam seems a lively one. I expect he'll surprise me. Drack is... well, old. Wonder if he can still learn new tricks.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: And Jaal... that book hasn't even been written yet, has it? Exciting.
+                Hero: What about—
+                global_squad_asari: Gil smacks of complication—might take some unraveling. Kallo and Suvi seem—busy. I hope they aren't all work-work-work.
+                global_squad_asari: {i}(Breathy sigh.){/i} Who's left?
+                Hero: Well, there's—
+                global_squad_asari: Oh right, Cora. What's her deal? Is she as prim and proper as she comes across?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: She's exactly what she should be. Capable, reliable. She's a valuable part of my team.
+                    global_squad_asari: Sure, sure. That comes across too.
+                    Hero: There's also Lexi, our doctor. She's an asari.
+                    global_squad_asari: Oh, I'll get around to her. All in all, seems like a decent bunch.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    Hero: —oh, is it my turn to talk?
+                    global_squad_asari: Ha. Sorry, yeah. I should work on my motor.
+                    Hero: You might find that people reveal themselves more freely if you give them a chance. Cora included.
+                    global_squad_asari: Really good advice.
+                    ↩ (goto) Hero: There's also Lexi, our doctor. She's an asari.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: What about—
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: How are you getting along with the team?
+            global_squad_asari: I'm keeping it light and pleasant. Even Lexi isn't exactly what I'd expected.
+            global_squad_asari: And Jaal... I'm learning what makes him tick. We're lucky to have an angara with us.
+            global_squad_asari: Asari can mate with all Milky Way species. I find myself wondering if that transcends galactic boundaries.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                global_squad_asari: Don't worry. I know you have a thing with him. And I'm not looking to reproduce any time soon.
+                global_squad_asari: That said: are you two serious?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: That's really none of your business.
+                    global_squad_asari: Guess so, then. Heh-heh.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    Hero: Just keep your sights off Jaal, please.
+                    global_squad_asari: Ooooh, possessive. Sure thing.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_asari: From a purely academic perspective, of course.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I get it.
+                    global_squad_asari: Can't stop being curious, scientifically speaking. But the rest of me is one hundred per cent set on you.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    Hero: Maybe let another asari explore that one, huh? You don't have to be the first to boldly go everywhere.
+                    global_squad_asari: No reason to worry.
+                    ↩ (goto) global_squad_asari: Can't stop being curious, scientifically speaking. But the rest of me is one hundred per cent set on you.
+                └─ merge ─┘
+            ├ option 3:
+                global_squad_asari: But don't worry, you're my go-to for stress relief.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: That's what I want to hear.
+                    global_squad_asari: Glad we got that established.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    Hero: Don't disregard Jaal on my account.
+                    global_squad_asari: Yeah? That's very open-minded. Truth is, I'm not the type to dance with multiple partners.
+                    global_squad_asari: But a little harmless flirting never hurt anyone.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_asari: I'm certainly not looking to reproduce any time soon, but he seems like a good guy. What do you think?
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero: You'll have to figure that out for yourself, Peebee.
+                    global_squad_asari: Gee, thanks for lighting the way, Pathfinder.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    Hero: You should trust your instincts.
+                    global_squad_asari: Thanks, Ryder.
+                    ↩ (goto) Hero: [empty]
+                ├ option 3:
+                    Hero ⟨cond⟩: Are you trying to make me jealous?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_asari ⟨cond⟩: Maybe.
+                        ↩ (goto) Hero: [empty]
+                    ├ option 2:
+                        global_squad_asari: I didn't know you were interested. Try flirting some time.
+                        Hero: I just did.
+                        global_squad_asari: Good. Keep it up.
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 3:
+            Hero ⟨cond⟩: Now that you've decided to stick around, you getting closer to the team?
+            global_squad_asari: Yeah, yeah. It's a good team. I've signed on the dotted line. You win. Don't rub it in.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 7:
+        Hero: What drew you to the Remnant?
+        global_squad_asari: Are you kidding? It's evidence of a sophisticated species no one knows anything about. It doesn't get more intriguing than that.
+        global_squad_asari: There's so much to discover. I want to be the first to figure them out.
+        global_squad_asari: And the tech! It's on a different scale. If we can appropriate it, who knows what advances we'll make.
+        ↩ (goto) Hero: [empty]
+    ├ option 8:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: What do you make of Meridian?
+            global_squad_asari: Are you kidding? It's the single most amazing find ever. And I mean by anyone.
+            global_squad_asari: The ability not just to terraform planets on a cluster scale, but to create and seed sentient life.
+            global_squad_asari: The Jardaan are the closest thing to gods we've ever touched. It's awe-inspiring—and terrifying.
+            Hero: Terrifying how?
+            global_squad_asari: They were attacked, Ryder, and driven off. The gods have an enemy, and it will {i}also{/i} be unlike anything we've seen.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: So, what's your take—is this "Meridian" what we think it is?
+            global_squad_asari: Everything we've seen—each Remnant system we've uncovered—is connected to everything else. The bots, the monoliths, the vaults.
+            global_squad_asari: It stands to reason that activating Meridian will connect the entire network and rekindle terraforming across the cluster.
+            Hero: So you think we're doing the right thing.
+            global_squad_asari: Well, yeah.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 9:
+        Hero [OncePerGame]: You're off the hook, Peebee. Good luck with your project.
+        global_squad_asari: Thanks. Don't be a stranger.
+    ├ option 10:
+        Hero: Thanks for chatting. We'll talk again later.
+        global_squad_asari: You know it.
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Meridian was... mind-blowing, right?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: But I was so worried I would lose you. Guess that comes with the territory when you kinda sorta love someone, huh?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Takes more than that to get rid of me.
+            global_squad_asari: I'm never getting rid of you.
+            global_squad_asari: Now Heleus will really take shape. And we have VIP tickets.
+            global_squad_asari: In some ways, I feel like our adventure is just beginning.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: Guess that makes me feel kinda sorta good.
+            global_squad_asari: You know what I mean.
+            ↩ (goto) global_squad_asari: Now Heleus will really take shape. And we have VIP tickets.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: You were amazing. No safety net, no SAM—didn't bat an eyelash.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Didn't have time to think about it.
+            global_squad_asari: Then you're good on your toes.
+            ↩ (goto) global_squad_asari: Now Heleus will really take shape. And we have VIP tickets.
+        ├ option 2:
+            Hero: Eyelashes were the only thing I {i}wasn't{/i} batting.
+            global_squad_asari: Batted the Archon right out of the park.
+            ↩ (goto) global_squad_asari: Now Heleus will really take shape. And we have VIP tickets.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_asari: I mean, someone didn't bring me where the {i}real{/i} action was, but I heard you were amazing. No safety net, no SAM—didn't bat an eyelash.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Didn't have time to think about it.
+        ├ option 2:
+            ↩ (goto) Hero: Eyelashes were the only thing I {i}wasn't{/i} batting.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I'm still trying to make sense of everything we learned at the Remnant city.
+    global_squad_asari: I can't believe the angara are... designed. What are the implications?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Far too many to sift through at once. It's mostly for the angara to figure out.
+        global_squad_asari: I can't imagine what this will mean to them.
+        global_squad_asari: Heleus is more and more interesting, every minute.
+        global_squad_asari: Anything you want to talk about before we head back into it?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: That there's so much we don't know. It's humbling.
+        global_squad_asari: Well, I came here for mysteries, right?
+        ↩ (goto) global_squad_asari: Heleus is more and more interesting, every minute.
+    └─ merge ─┘
+├ option 4:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Hey, are you okay? I shudder to think what the Archon meant to do with you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: And I hated watching you... die like that. I think of myself as daring and death-defying, but you...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I did what I had to, to get us out of there.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: You're made of strong stuff, Sara.
+                global_squad_asari: Just don't get yourself exalted, okay? That asshole means to kettify us all.
+                Hero: Can't let that happen.
+                global_squad_asari: But he's close. He's almost figured out krogan. It's the scariest thing.
+                global_squad_asari: Ugh. Let's talk about something else, okay?
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                global_squad_asari ⟨cond⟩: You're made of strong stuff, Scott.
+                ↩ (goto) global_squad_asari: Just don't get yourself exalted, okay? That asshole means to kettify us all.
+            ├ option 3:
+                global_squad_asari: You're made of strong stuff, Ryder.
+                ↩ (goto) global_squad_asari: Just don't get yourself exalted, okay? That asshole means to kettify us all.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You {i}are{/i} daring. I had to up my game.
+            global_squad_asari: Well, you win. {i}(Chuckles.){/i} Jackass.
+            ↩ (goto) global_squad_asari: Just don't get yourself exalted, okay? That asshole means to kettify us all.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari: I heard you had to die to get out of a trap? I think of myself as daring and death-defying, but you...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I did what I had to, to get us out of there.
+        ├ option 2:
+            ↩ (goto) Hero: You {i}are{/i} daring. I had to up my game.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 5:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Kadara Port's pretty grisly, huh? Probably get into all sorts of trouble there.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: And now we're going after the Archon's ship? Sure that's a good idea?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: In the absence of any others, it's an excellent one.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: Good point. It's settled: I'm down. Anything else to go over?
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                global_squad_asari: Guess I can't argue with that. Anything else to go over?
+                ↩ (goto) global_squad_asari: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Of all the ideas so far, it's the one most likely to blow up in our face.
+            global_squad_asari: Thanks for the inspiration. Any other bubbles you want to burst?
+            ↩ (goto) global_squad_asari: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari: The good kind and the bad kind.
+        Hero: Good kind of trouble?
+        global_squad_asari: Next time we're there, hang out with me a little.
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 6:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: We were right about the vault on Aya, huh? What a find!
+    Hero: And this Meridian might jump start all the others.
+    global_squad_asari: I knew hitching my wagon to yours would pay off.
+    ↩ (goto) Hero: [empty]
+├ option 7:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Ryder, exaltation? I never imagined we were fighting angara.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: They're no longer angara. The kett change them into something else. {i}That's{/i} the atrocity.
+        global_squad_asari: We have to stop the Archon, whatever he's up to.
+        global_squad_asari: The more we learn, the more I realize how much bigger than me this all is. It's humbling.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: It kills me to think about it.
+        ↩ (goto) global_squad_asari: We have to stop the Archon, whatever he's up to.
+    └─ merge ─┘
+├ option 8:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Aya is a wonder, Ryder, and the angara are so interesting.
+    global_squad_asari: I hope we make it back—I want to delve and explore and who knows what else.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We'll be back. We need the Moshae if we're to get into their vault.
+        global_squad_asari: I'm definitely sticking around long enough for that.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Just don't hurt diplomatic relations, okay?
+        global_squad_asari: Please, give me a little credit.
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 9:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I did not like the look of that Archon. Maybe the angara will let me pitch a tent on Aya for the duration.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Didn't think you were the type to run from trouble.
+        global_squad_asari: Well, when you put it that way...
+        global_squad_asari: {i}(Sighs.){/i} All right. Next time, keep him on the line—I might have something to say.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: You'd let a bone-faced blowhard like that deprive you of my scintillating company?
+        global_squad_asari: That blowhard hates you now. If you're not careful, {i}he{/i} might deprive me of your company.
+        ↩ (goto) global_squad_asari: {i}(Sighs.){/i} All right. Next time, keep him on the line—I might have something to say.
+    └─ merge ─┘
+├ option 10:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Hey, you.
+    Hero: Hey, yourself.
+    global_squad_asari: Whatever you want, I'm inclined to give. Go ahead—ask me anything.
+    ↩ (goto) Hero: [empty]
+├ option 11:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Ryder, hey. I'm so glad we got Poc back. It's weird, but I missed her.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Why would you miss Poc? She's not much of a conversationalist.
+        global_squad_asari: Yeah, but she's a presence.
+        global_squad_asari: So what's up?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: You built her. There's investment in that. I can see why you'd miss her.
+        global_squad_asari: Hmm. Not my typical M.O., but... maybe that's it.
+        ↩ (goto) global_squad_asari: So what's up?
+    └─ merge ─┘
+├ option 12:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Ryder, hey. Kallo was right. Nothing missing except Poc.
+    global_squad_asari: Hate imagining Kalinda tiptoeing around here, with nosey eyes and sticky fingers. {i}(Sighs.){/i}
+    global_squad_asari: Is there anything you need?
+    ↩ (goto) Hero: [empty]
+├ option 13:
+    Hero ⟨cond⟩ [OncePerGame]: I take it you moved your stuff over from the Nexus.
+    global_squad_asari: Yeah, my squatter's paradise is all the more cluttered.
+    global_squad_asari: What's up?
+    ↩ (goto) Hero: [empty]
+├ option 14:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari: Yes. Whatever it is.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        global_squad_asari: Before you say anything—no PDAs. What's up?
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        global_squad_asari: Looking good, Pathfinder. What can I do for you?
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 15:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari: Heya. What's shaking?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Hi there. Just checking in.
+        ↩ (goto) global_squad_asari: What's up?
+    ├ option 3:
+        Hero: Hey there, got a sec?
+        global_squad_asari: Sure.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

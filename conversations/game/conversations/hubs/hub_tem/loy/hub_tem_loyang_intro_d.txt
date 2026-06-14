@@ -1,0 +1,51 @@
+# game/conversations/hubs/hub_tem/loy/hub_tem_loyang_intro_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_tem/loy/hub_tem_loyang_intro_d.xml
+==================================================
+Narration: RYDER enters JAAL's room to find him on a vid-call with two ANGARA MOTHERS.
+loy_ang_jaal_mom_01: You, more than anyone, know how dangerous Akksul is.
+global_squad_angara: Why were they allowed to speak with him?
+loy_ang_jaal_mom_02: They aren't children anymore. We can't control their every move.
+loy_ang_jaal_mom_02: You remember how you were.
+loy_ang_jaal_mom_01: Please, Jaal.
+Narration: Jaal thinks for a moment, then takes a deep breath.
+global_squad_angara: I'll bring them home.
+Narration: Jaal turns off the vid-con, then slams his fists against a wall (or table, or whatever we have near).
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Are you okay?
+    Narration: Ryder enters the room and tentatively meets Jaal, touching him on the shoulder.
+    global_squad_angara: Three of my brothers and sisters have joined the Roekaar.
+    global_squad_angara: Akksul has poisoned them with his hatred of aliens.
+    Hero: And your mothers want you to bring them back.
+    Narration: Jaal begins to pace as he forms a plan of attack.
+    global_squad_angara: The Roekaar have made camp at the Forge.
+    global_squad_angara: Many consider it the birthplace of our civilization.
+    global_squad_angara: Akksul likely believes this bold move will create more fanatics for his cause.
+    Narration: A beat. Jaal knows his siblings are in danger of becoming fanatics.
+    global_squad_angara: Ryder. He has my family, but I don't think I can do this alone.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You don't have to. Just tell me the time and place.
+        Narration: Relief floods Jaal's face.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: No hesitation. That is what I love about you.
+            Narration: Ryder's eyes widen at the word "love," but Jaal doesn't catch out—he just smiles at her.
+            global_squad_angara: I have a contact who's been monitoring the Roekaar. I'll set up a rendezvous with her.
+        ├ option 2:
+            global_squad_angara: No hesitation. You are a good friend.
+            ↩ (goto) global_squad_angara: I have a contact who's been monitoring the Roekaar. I'll set up a rendezvous with her.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'm not angara—won't that make things worse?
+        global_squad_angara: The only humans my siblings have met are exiles. Outlaws and pirates.
+        global_squad_angara: They don't know how wonderful your people can be. But you can show them.
+        ↩ (goto) global_squad_angara: I have a contact who's been monitoring the Roekaar. I'll set up a rendezvous with her.
+    └─ merge ─┘
+├ option 2:
+    Hero: This is obviously a bad time...
+    global_squad_angara: No—please stay. My being alone won't help anything.
+    Narration: Jaal straightens as Ryder enters the room.
+    ↩ (goto) global_squad_angara: Three of my brothers and sisters have joined the Roekaar.
+└─ merge ─┘

@@ -1,0 +1,26 @@
+# game/conversations/crit/crit_ex/crit_ex_0310_hall_radio_a
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0310_hall_radio_a.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: The Resistance couldn't wait to get started.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Looks like someone is happy to be in on the action.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Looks like the Resistance is getting in some good shots.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Heh, the Resistance is enjoying the action.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: The Resistance are going for it.
+└─ merge ─┘
+crit_ex_res_fighter_3_multi: [Comm] Come in, Pathfinder.
+Hero: Go ahead.
+crit_ex_res_fighter_3_multi: [Comm] We contacted Commander Do Xeel. More fighters are on their way.
+global_squad_angara: Send scientists, too. And technicians. Let's gather all the intel we can.
+crit_ex_res_fighter_3_multi: [Comm] Will do.
+Hero: Jaal, our objective is still the Moshae.
+global_squad_angara: Of course. But we can't waste this opportunity.
+Hero ⟨cond⟩: Great work down there. We saw it all.
+crit_ex_res_fighter_1_multi: Thanks.
+↩ (goto) crit_ex_res_fighter_3_multi: [Comm] We contacted Commander Do Xeel. More fighters are on their way.

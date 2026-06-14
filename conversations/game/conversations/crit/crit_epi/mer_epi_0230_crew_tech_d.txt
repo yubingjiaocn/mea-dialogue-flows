@@ -1,0 +1,121 @@
+# game/conversations/crit/crit_epi/mer_epi_0230_crew_tech_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_epi/mer_epi_0230_crew_tech_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_tech_officer ⟨cond⟩: Hey Scott...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_tech_officer: Heard from Jill. The procedure took. We're gonna be dads!
+                Hero: That's great!
+                global_crew_tech_officer: So what do you think of Meri for a girl or Dian for a boy?
+                Hero: Meri... Dian, huh? Meridian? Is that your idea or Jill's?
+                global_crew_tech_officer: Mine, of course. Pretty cool, right?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Pretty cool.
+                    global_crew_tech_officer: Knew you'd like it.
+                    global_crew_tech_officer: So, this is supposed to be a celebration, right? You getting used to any of this yet? Meridian? The dream becoming a reality?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: We're not done by a long shot.
+                        global_crew_tech_officer: Come on, try to ease up a little. Enjoy the win.
+                        global_crew_tech_officer: But so you know, I've got the Tempest topped out and ready. You want to blow this hot dog stand, just say the word.
+                        global_crew_tech_officer: Kallo's out here somewhere, tying one on. If we're really sneaky, he won't even notice we're gone.
+                        Hero: Who's flying, then? You?
+                        global_crew_tech_officer: Why the hell not? I'm a quick study, how hard can it be?
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            Hero: Hard.
+                            global_crew_tech_officer: Then how about the Nomad? Just once around the planet.
+                            Hero: No.
+                            global_crew_tech_officer: {i}(Sighs.){/i} Guess I'll just have fun down here.
+                        ├ option 2:
+                            Hero ⟨cond⟩: You better get this nonsense out of your system in the next nine months, you know.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_crew_tech_officer ⟨cond⟩: Psh-shaw. Little Meri's gonna have at least {i}one{/i} fun dad.
+                                ↩ (goto) global_crew_tech_officer: [empty]
+                            ├ option 2:
+                                global_crew_tech_officer: Psh-shaw. Little Meri's gonna have a fun dad.
+                                ↩ (goto) global_crew_tech_officer: [empty]
+                            └─ merge ─┘
+                        ├ option 3:
+                            Hero ⟨cond⟩: Mess with somebody else's ship.
+                            ↩ (goto) global_crew_tech_officer: Then how about the Nomad? Just once around the planet.
+                        ├ option 4:
+                            Hero ⟨cond⟩: Gil, do me a favor.
+                            global_crew_tech_officer: Anything.
+                            Hero: Don't ever change.
+                            global_crew_tech_officer: You like this outfit, huh? All right, I'll wear it forever.
+                            ↩ (goto) global_crew_tech_officer: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: It's a lot to take in. I'm still in the pinching myself phase.
+                        global_crew_tech_officer: Well, I'm sure everyone here would be happy to line up and give you a pinch.
+                        ↩ (goto) global_crew_tech_officer: But so you know, I've got the Tempest topped out and ready. You want to blow this hot dog stand, just say the word.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero ⟨cond⟩: Not exactly.
+                    global_crew_tech_officer: Well, we got nine months to figure it out.
+                    ↩ (goto) global_crew_tech_officer: So, this is supposed to be a celebration, right? You getting used to any of this yet? Meridian? The dream becoming a reality?
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_tech_officer: Jill is walking the walk. The procedure took. We're gonna be uncles!
+                Hero: That's exciting.
+                ↩ (goto) global_crew_tech_officer: So what do you think of Meri for a girl or Dian for a boy?
+            └─ merge ─┘
+        ├ option 2:
+            global_crew_tech_officer: Have to say, victory looks good on you.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: What happens when I lose? You going to still find me attractive?
+                global_crew_tech_officer: Take. A. Compliment. Will ya?
+                ↩ (goto) global_crew_tech_officer: So, this is supposed to be a celebration, right? You getting used to any of this yet? Meridian? The dream becoming a reality?
+            ├ option 2:
+                Hero: Even so, I wasn't smiling until you showed up.
+                global_crew_tech_officer: I have that effect on incredibly talented and dynamic people.
+                ↩ (goto) global_crew_tech_officer: So, this is supposed to be a celebration, right? You getting used to any of this yet? Meridian? The dream becoming a reality?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_tech_officer: Hey Ryder...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_crew_tech_officer ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_crew_tech_officer: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_crew_tech_officer: Hey Ryder...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_tech_officer: Jill is walking the walk. The procedure took. I'm gonna be a dad!
+        Hero: Congratulations.
+        global_crew_tech_officer: I'm thinking Meri if it's a girl, Dian if it's a boy. Meri. Dian. Meridian! Pretty cool, right?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Pretty cool.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: Not exactly.
+        ├ option 3:
+            Hero ⟨cond⟩: Jill might have something to say about that.
+            global_crew_tech_officer: Oh, right. Note to self: "Bounce names off Jill."
+            ↩ (goto) global_crew_tech_officer: So, this is supposed to be a celebration, right? You getting used to any of this yet? Meridian? The dream becoming a reality?
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_crew_tech_officer: So, this is supposed to be a celebration, right? You getting used to any of this yet? Meridian? The dream becoming a reality?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_tech_officer: So great to see you happy. Enjoy it as long as you like. You've earned this.
+├ option 2:
+    global_crew_tech_officer: The Tempest is calling. She wants to get going. I told her to sit tight. You're partying.
+└─ merge ─┘

@@ -1,0 +1,37 @@
+# game/conversations/hubs/hub_nexus/commons_other/nex_common_pa_announce_a
+# Primary speaker: nex_PA_announcer
+# Source: game/conversations/hubs/hub_nexus/commons_other/nex_common_pa_announce_a.xml
+==================================================
+┌─ BRANCH (11) ─┐
+├ option 1:
+    nex_PA_announcer: [Loudspeaker] The use of firearms on the Nexus is against Initiative regulations.
+├ option 2:
+    nex_PA_announcer: [Loudspeaker] We invite you to visit our merchants in the Nexus commons area.
+├ option 3:
+    global_nexus_PI_director ⟨cond⟩: [Loudspeaker] Hello, this is Director Jarun Tann. I'd like to extend a warm welcome to all our new salarian colonists.
+    global_nexus_PI_director: [Loudspeaker] Please help make their stay a comfortable one. And let's all celebrate yet another sign of our continuing progress.
+├ option 4:
+    global_nexus_PI_director ⟨cond⟩: [Loudspeaker] Hello, this is Director Jarun Tann. I'd like to extend a warm welcome to all our new turian colonists.
+    ↩ (goto) global_nexus_PI_director: [Loudspeaker] Please help make their stay a comfortable one. And let's all celebrate yet another sign of our continuing progress.
+├ option 5:
+    global_nexus_PI_director ⟨cond⟩: [Loudspeaker] Hello, this is Director Jarun Tann. I'd like to extend a warm welcome to all our new asari colonists.
+    ↩ (goto) global_nexus_PI_director: [Loudspeaker] Please help make their stay a comfortable one. And let's all celebrate yet another sign of our continuing progress.
+├ option 6:
+    nex_PA_announcer: [Loudspeaker] Please report any suspicious activity to the nearest security representative.
+├ option 7:
+    nex_PA_announcer: [Loudspeaker] The Nexus invites you to visit the newly opened Vortex.
+    nex_PA_announcer: [Loudspeaker] The Vortex—let life take you for a spin.
+├ option 8:
+    nex_PA_announcer ⟨cond⟩: [Loudspeaker] Please be mindful of guests visiting the Cultural Exchange Center.
+    nex_PA_announcer: [Loudspeaker] We ask that you extend your courtesy and cooperation to our new neighbors.
+├ option 9:
+    nex_PA_announcer: [Loudspeaker] A reminder that alcoholic beverages must be consumed within private quarters or at the Vortex.
+    nex_PA_announcer: [Loudspeaker] Consumption of alcohol in public spaces is strictly prohibited.
+├ option 10:
+    Pro_Shp_Init_Founder: [Loudspeaker] Hi, this is Jien Garson, founder of the Initiative.
+    Pro_Shp_Init_Founder: [Loudspeaker] We're constantly striving to make life on the Nexus more enjoyable for all our citizens.
+    Pro_Shp_Init_Founder: [Loudspeaker] But we know there's always room for improvement. If you have any suggestions, don't hesitate to share them.
+├ option 11:
+    nex_PA_announcer: [Loudspeaker] We ask that you refrain from picking foliage in the Nexus commons area.
+    nex_PA_announcer: [Loudspeaker] The consumption or sale of any plant specimens is strictly prohibited by hydroponic regulations.
+└─ merge ─┘

@@ -1,0 +1,111 @@
+# game/conversations/rel/liam/liam_r010_that_beer_d
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/rel/liam/liam_r010_that_beer_d.xml
+==================================================
+global_squad_male_human: Pathfinder! Help me with something?
+global_squad_male_human: I know, not exactly standard. Got to make the space comfortable.
+global_squad_male_human: Plus, the fabric diffuses the charge from an overclocked omni-blade. Not giving up a six per cent boost, right?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Someone brought this to Andromeda?
+    global_squad_male_human: It was new when we left. Been a hard year.
+    global_squad_male_human: So! Finally time for that beer?
+    global_squad_male_human: Aaand after two years and a dozen suspensions, I took a "lateral promotion" out of the force.
+    global_squad_male_human: Being a cop just didn't fit. But crisis response? Digging people out of trouble? That worked.
+    global_squad_male_human: I bet HUSTL followed you into a few peace actions. Think about your Alliance days much?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Tell me about your group.
+        global_squad_male_human: Heavy Urban Search-Terrain 1. Earth's contribution to a multi-species disaster response unit.
+        global_squad_male_human: HUS-T1, but "HUSTL" looks better on a patch.
+        global_squad_male_human: All civilians. Retired vets—or shits like me. I was fiercely bearded.
+        global_squad_male_human: Tastes better just thinking about those days.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I wanted exploration, to chase the cutting edge of Prothean research. I thought I'd found my calling.
+            Hero: Seems like a long time ago.
+            global_squad_male_human: Six hundred years. Give or take.
+            global_squad_male_human: So, Pathfinder. Why Andromeda?
+            Hero: That blunt, huh?
+            global_squad_male_human: That blunt.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: I'm looking for moments like this with people like you?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_male_human ⟨cond⟩: {i}(Chuckling.){/i} You don't know me yet.
+                    global_squad_male_human: Still an answer, though. Something far from home. I get it.
+                    Hero: Back at you, Kosta. Why'd you come?
+                    global_squad_male_human: I {i}want{/i} to say, "I'm running from my past, but really running from myself." That'd be a great story.
+                    global_squad_male_human: But it's bullshit. I had family, friends, a good enough job. Nothing was wrong.
+                    global_squad_male_human: I just heard about the Initiative and... I believed in it. I believed in a new beginning.
+                    global_squad_male_human: Still do. I have to. We're in it.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: If it all goes wrong, it could feel like we left for no reason.
+                        global_squad_male_human: I know why I'm here. A bad start can't change that. I won't let it.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_male_human ⟨cond⟩: In crisis response, I'd focus on essentials. That's you and this team. Pathfinder leads to planets leads to people.
+                            global_squad_male_human: You have your part covered. You got this.
+                            global_squad_male_human: I'll do my damnedest to help with the rest.
+                        ├ option 2:
+                            global_squad_male_human: In crisis response, I'd focus on essentials. That's you and this team. Pathfinder leads to planets leads to people.
+                            ↩ (goto) Narration: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: We can't go back, but we're not trapped by decisions a galaxy behind us.
+                        global_squad_male_human: I don't feel trapped. We came from a good place, for good reasons.
+                        global_squad_male_human: We keep that in mind, it'll steer us right. Just like back in crisis response. Remember the essentials.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_male_human ⟨cond⟩: A new start, guided by the Pathfinder—and team.
+                            global_squad_male_human: I'll bust my tail to make that a good story.
+                            ↩ (goto) Narration: [empty]
+                        ├ option 2:
+                            global_squad_male_human: A new start, guided by the Pathfinder—and team.
+                            ↩ (goto) global_squad_male_human: I'll bust my tail to make that a good story.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_male_human: {i}(Chuckling.){/i} Sorry, guys aren't my thing. But good to know I'm universal.
+                    ↩ (goto) global_squad_male_human: Still an answer, though. Something far from home. I get it.
+                └─ merge ─┘
+            ├ option 2:
+                Hero ⟨cond⟩: I started in the Alliance, but it was the science that kept me going. And when that ended...
+                Hero: Well, if I wanted to be a part of the next big discovery, it had to be here.
+                global_squad_male_human: Don't hear "idealist" a lot. Everyone's cynical.
+                ↩ (goto) Narration: [empty]
+            ├ option 3:
+                Hero ⟨cond⟩: When I started with the Alliance, it was about adventure. But with my dad's troubles, staying wasn't going to work.
+                Hero: I needed something new, but if I wanted to get away, it had to be... this far.
+                global_squad_male_human: Gotcha. "Clean slate." Classic.
+                ↩ (goto) Narration: [empty]
+            ├ option 4:
+                Hero ⟨cond⟩: I was on a good path in the Alliance, then everything fell apart. There's wasn't much left for me.
+                Hero: Andromeda was so far away. I figured... well, I figured if you're going to start over, start way over.
+                ↩ (goto) global_squad_male_human: Gotcha. "Clean slate." Classic.
+            ├ option 5:
+                Hero ⟨cond⟩: I'd hoped my Alliance career would lead to adventure. Exploring, hunting dangers in the dark.
+                Hero: Didn't happen. Couldn't. But here, everything's new. And I want to see it all.
+                ↩ (goto) global_squad_male_human: Don't hear "idealist" a lot. Everyone's cynical.
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: I wanted adventure and mystery at the edge of known space. There was so much to see.
+            ↩ (goto) Hero: Seems like a long time ago.
+        ├ option 3:
+            Hero: I put it behind me after Dad's work went sour. It was... a long time ago.
+            ↩ (goto) global_squad_male_human: Six hundred years. Give or take.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: I wanted exploration, to chase the cutting edge of Prothean research. I thought I'd found my calling.
+    ├ option 3:
+        ↩ (goto) Hero ⟨cond⟩: I wanted adventure and mystery at the edge of known space. There was so much to see.
+    ├ option 4:
+        ↩ (goto) Hero: I put it behind me after Dad's work went sour. It was... a long time ago.
+    └─ merge ─┘
+├ option 2:
+    Hero: Right, right... what?
+    global_squad_male_human: Never mind. B.S. for the requisition.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

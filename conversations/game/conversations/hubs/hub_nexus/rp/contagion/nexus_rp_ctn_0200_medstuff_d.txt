@@ -1,0 +1,49 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0200_medstuff_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0200_medstuff_d.xml
+==================================================
+global_crew_doctor_multi: Good, you're here. Dunn briefed you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: High level only. Said to speak with you for the full brief.
+    global_crew_doctor_multi: Great. Well then, here we go.
+    global_crew_doctor_multi: Before we left, my medtech Charlie helped his aunt sign on to the Initiative program.
+    Hero: He cheated the screening process?
+    global_crew_doctor_multi: Yeah. She has TH-314. Deadly, highly contagious in the latter stages, and jumps across species.
+    global_crew_doctor_multi: It was dormant, but flared up when Charlie woke her. He just assumed it was stasis sickness.
+    global_crew_doctor_multi: There's no cure. No vaccine. It's deadly in its final stage and she's off-grid. She's a problem.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: What should I know about this TH-314?
+        global_crew_doctor_multi: Stage 1 symptoms are similar to stasis sickness, which is what fooled Charlie.
+        global_crew_doctor_multi: Stage 2 is marked by extreme bouts of paranoia. It becomes virulently contagious at Stage 3. Airborne, the works.
+        Hero: Is anyone else infected?
+        global_crew_doctor_multi: No one, so far. According to the test results I received after Charlie left, she's still in Stage 1.
+        global_crew_doctor_multi: If she progresses to stage 3... Ryder, it'll be bad. It's a rare disease, but the kind that starts pandemics.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero [OncePerGame]: Any idea where he's gone?
+        global_crew_doctor_multi: Not long ago, he was assigned to an APEX unit for a mission. Incommunicado at the moment.
+        global_crew_doctor_multi: Charlie had no idea the virus would flare up after stasis. Virology isn't his specialty.
+        global_crew_doctor_multi: She's his only relative. Even so, he should've known better.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        Hero: We need to make sure she's brought in and no one else is infected.
+        global_crew_doctor_multi: I want to put her well-being above all else, but we have to consider the implications.
+        global_crew_doctor_multi: Making sure TH-314 doesn't spread is the top priority. No matter what.
+        global_crew_doctor_multi: This one isn't going to be easy.
+        Hero: Anything else I need to know?
+        global_crew_doctor_multi: Be quick, but discreet. We can't panic the entire station over this.
+        Hero: I only have a whole space station to search. Discreetly. Check.
+        global_crew_doctor_multi: Could be worse. She could be off-station and potentially infecting the angara.
+        global_crew_doctor_multi: Try customs first. Even with fake medical clearance, she had to go through there like anyone else.
+    ├ option 4:
+        Hero: We need to help her, you mean.
+        global_crew_doctor_multi: Every instinct I have, both medical and human, is screaming at me to help her.
+        ↩ (goto) global_crew_doctor_multi: Making sure TH-314 doesn't spread is the top priority. No matter what.
+    └─ merge ─┘
+├ option 2:
+    Hero: "Sick person loose on the station" is bad enough.
+    global_crew_doctor_multi: I wish that's all there was to it.
+    ↩ (goto) global_crew_doctor_multi: Before we left, my medtech Charlie helped his aunt sign on to the Initiative program.
+└─ merge ─┘

@@ -1,0 +1,47 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_return_i
+# Primary speaker: nex_culcen_n7ang
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_return_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_culcen_n7ang: Safely home, thanks to you and your skills. I've learned a great deal.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Anything in particular the Heskaarl can use?
+        nex_culcen_n7ang: Team structure. Battle coordination. Your maneuver with the jump-jets—and I want one of those.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            nex_culcen_n7ang ⟨cond⟩: I admit... the tales of N7 fighters may have inflated my expectations.
+            nex_culcen_n7ang: But you are courageous, Ryder. I hope this brought you closer to the potential I see.
+        ├ option 2:
+            nex_culcen_n7ang ⟨cond⟩: Thank you, Ryder. Even with the challenges you suffered, you triumphed.
+            nex_culcen_n7ang: Perhaps another day, we'll fight shoulder to shoulder.
+            ↩ (goto) nex_culcen_n7ang: [empty]
+        ├ option 3:
+            nex_culcen_n7ang: Your performance was exemplary, Ryder. I see clearly why your N7 would be the best of the best.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_culcen_n7ang ⟨cond⟩: If you tire of being a Pathfinder, I'd be honored to call you a sister Heskaarl.
+                ↩ (goto) nex_culcen_n7ang: [empty]
+            ├ option 2:
+                nex_culcen_n7ang: If you tire of being a Pathfinder, I'd be honored to call you a brother Heskaarl.
+                ↩ (goto) nex_culcen_n7ang: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It was fun to really test myself out there.
+        nex_culcen_n7ang: Ha! Spoken like a soldier.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) nex_culcen_n7ang ⟨cond⟩: I admit... the tales of N7 fighters may have inflated my expectations.
+        ├ option 2:
+            ↩ (goto) nex_culcen_n7ang ⟨cond⟩: Thank you, Ryder. Even with the challenges you suffered, you triumphed.
+        ├ option 3:
+            ↩ (goto) nex_culcen_n7ang: Your performance was exemplary, Ryder. I see clearly why your N7 would be the best of the best.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    nex_culcen_n7ang: Ah, you return! I'm glad our war games saved some real lives.
+    Hero: The Resistance team is okay?
+    ↩ (goto) nex_culcen_n7ang: Safely home, thanks to you and your skills. I've learned a great deal.
+└─ merge ─┘

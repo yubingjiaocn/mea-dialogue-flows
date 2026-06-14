@@ -1,0 +1,63 @@
+# game/conversations/bstory/life/col_040_shuttle_reveal_d
+# Primary speaker: SAM
+# Source: game/conversations/bstory/life/col_040_shuttle_reveal_d.xml
+==================================================
+SAM: Pathfinder, this is the exact navpoint indicated by the ZK Trackers.
+Hero: Right, Addison's request. Let's see if this helps us find her missing scientist.
+global_crew_science_officer: Damn it, the shuttle's just a relay. But I think we can get in their feed. Hold on.
+col_rogue_out_lieut: Signal's through. Ready for coordinate transfer and... Who the fuck?
+col_rogue_out_lieut: We've been found, dead-head the comms!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: You took Initiative equipment. Director Addison wants it back.
+    col_rogue_out_lieut: Addison? What did she tell you?
+    col_rogue_out_leader: Harlan, stop talking.
+    Hero: Is that Dr. Kennedy? Are you okay? Director Addison is concerned about you and your tech.
+    global_crew_science_officer: Keep them talking, Ryder! Tracing.
+    Hero: All I want is to stop the stealing. I have outposts of people trying to start their lives.
+    col_rogue_out_lieut: Outposts starting lives, huh?
+    col_rogue_out_leader: Let them see, Harlan.
+    global_crew_science_officer: They just forwarded Dr. Kennedy's medical profile? Ryder!
+    Hero: She's pregnant. That woman is pregnant!
+    col_rogue_out_leader: "That woman" knows full well the state she's in.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Chemical blockers were standard for cryo. We were supposed to wait until we were stable.
+        col_rogue_out_leader: And when was that going to be? Everything was going wrong. The Nexus had no plan.
+        col_rogue_out_leader: You're with Addison? Well, she fell in line with Tann. Said we couldn't "add new mouths" until we were stable.
+        col_rogue_out_leader: But this wasn't about waiting until we could afford a house. We were dying.
+        col_rogue_out_leader: So I left. With enough meds for Harlan and I to get off the blockers.
+        Hero: How far along? Dr. Kennedy, how long?
+        col_rogue_out_lieut: Eight months. Give or take.
+        col_rogue_out_leader: We're not going back, you're not getting my tech, we'll be fine without you.
+        col_rogue_out_leader: Tell Addison...
+        col_rogue_out_leader: Fuck it, don't tell her anything. Kill it.
+        global_crew_science_officer: They flashed the core. Couldn't get a trace.
+        Hero: Addison will want to hear about this.
+        Hero: And I've got questions for her.
+    ├ option 2:
+        Hero: You are... really pregnant. What happened?
+        col_rogue_out_leader: When a mommy and daddy love each other very much, they don't let humanity die out.
+        ↩ (goto) col_rogue_out_leader: You're with Addison? Well, she fell in line with Tann. Said we couldn't "add new mouths" until we were stable.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Here we go again. I'm the Pathfinder!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        col_rogue_out_lieut ⟨cond⟩: The Pathfinder. From that Meridian event?
+        ↩ (goto) col_rogue_out_leader: Harlan, stop talking.
+    ├ option 2:
+        col_rogue_out_lieut: A Pathfinder? One finally showed?
+        ↩ (goto) col_rogue_out_leader: Harlan, stop talking.
+    └─ merge ─┘
+├ option 3:
+    Hero ⟨cond⟩: Here we go again. I'm the Pathfinder!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        col_rogue_out_lieut ⟨cond⟩: The Pathfinder. From that Meridian event?
+        ↩ (goto) col_rogue_out_leader: Harlan, stop talking.
+    ├ option 2:
+        col_rogue_out_lieut: A Pathfinder? One finally showed?
+        ↩ (goto) col_rogue_out_leader: Harlan, stop talking.
+    └─ merge ─┘
+└─ merge ─┘

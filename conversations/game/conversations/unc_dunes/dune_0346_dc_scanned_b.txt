@@ -1,0 +1,103 @@
+# game/conversations/unc_dunes/dune_0346_dc_scanned_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0346_dc_scanned_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: You can be honest. It's possible, right? Could even be genetic.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: You need to talk to Lexi about that one.
+        Hero: Think I'd rather not.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: That's something you should talk to Lexi about.
+        ↩ (goto) Hero: Think I'd rather not.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Maybe talk to Lexi about that.
+        ↩ (goto) Hero: Think I'd rather not.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: That's a question for Lexi.
+        ↩ (goto) Hero: Think I'd rather not.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: You should really talk to Lexi about that.
+        ↩ (goto) Hero: Think I'd rather not.
+    └─ merge ─┘
+├ option 2:
+    Hero: What? No. I'm driving. Let's get back on the trail.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Ryder, what if Morda has the drive core? Took it from the scavengers?
+        Hero: Suvi? Scan the planet. Is the drive core at the krogan colony?
+        global_crew_science_officer: [Comm] Doesn't look like it. However, I've identified a new area to check out.
+        Hero: Thanks. Keep an eye out for any other anomalies with that signature.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Ryder, what if Morda has the drive core? Took it from the scavengers?
+        ↩ (goto) Hero: Suvi? Scan the planet. Is the drive core at the krogan colony?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Ryder, what if Morda has the drive core? Took it from the scavengers?
+        ↩ (goto) Hero: Suvi? Scan the planet. Is the drive core at the krogan colony?
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Ryder, what if Morda has the drive core? Took it from the scavengers?
+        ↩ (goto) Hero: Suvi? Scan the planet. Is the drive core at the krogan colony?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Ryder, what if Morda has the drive core? Took it from the scavengers?
+        ↩ (goto) Hero: Suvi? Scan the planet. Is the drive core at the krogan colony?
+    └─ merge ─┘
+└─ merge ─┘
+Hero: The drive core must be powerful to be worth killing and dying for.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Guess the winner of this fight took off with it.
+    Hero: Seems to track.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We should look for another clue to where they were headed.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: We should look for another clue to where they were headed.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: We should look for another clue to where they were headed.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: We should look for another clue to where they were headed.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: We should look for another clue to where they were headed.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: And the winner here took off with it.
+    ↩ (goto) Hero: Seems to track.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Guess the winner of this fight took off with it.
+    ↩ (goto) Hero: Seems to track.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Guess the winner of this fight took off with it.
+    ↩ (goto) Hero: Seems to track.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: And the winner here took off with it.
+    ↩ (goto) Hero: Seems to track.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Password. Bingo. Exactly why you should never write down your password.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Password. Why would you ever write down your password?
+├ option 3:
+    global_squad_turian ⟨cond⟩: Password. Why would you ever write down your password?
+├ option 4:
+    global_squad_asari ⟨cond⟩: Password. Why would you ever write down your password?
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Password. Bingo. Exactly why you should never write down your password.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: So, we may not be dealing with the best and brightest.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: So, these may not be the brightest of folks.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: So, we may not be dealing with the best and brightest.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: So, we may not be dealing with the best and brightest.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: So... not so smart then.
+        Hero: They're smart enough to keep the drive core under lock and key.
+        global_crew_science_officer: [Comm] My new orbital scan for the signature places the navpoint near the scavengers' flophouse.
+        Hero: That makes total sense.
+    └─ merge ─┘
+└─ merge ─┘

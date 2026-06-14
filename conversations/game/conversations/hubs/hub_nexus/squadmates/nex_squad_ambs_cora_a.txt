@@ -1,0 +1,128 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squad_ambs_cora_a
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squad_ambs_cora_a.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human [OncePerGame]: I know Sarissa's been dropping in at the Pathfinder HQ. It's just... I'm not good with everything yet.
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        crit_kett_salarian_captain_multi [OncePerGame]: It's hard to know where to start.
+        global_squad_female_human: Ryder's a good example. If you tone things down a little.
+        crit_kett_salarian_captain_multi: I'll do whatever I must to help my people.
+        global_squad_female_human: You've got the Pathfinder mindset, at least.
+    ├ option 2:
+        crit_kett_salarian_captain_multi [OncePerGame]: I used to be afraid of them.
+        crit_kett_salarian_captain_multi: But now I've seen the worst the kett can do, I don't get scared. Just angry.
+        global_squad_female_human: It's another weapon. If you have it, I'd use it.
+    ├ option 3:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human [OncePerGame]: Regardless—it's good to have you back, ma'am.
+            global_salarian_pathfinder_multi: I know about Alec, but what about the other original Pathfinders? Where are they?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Unfortunately, they're gone too.
+                global_salarian_pathfinder_multi: {i}(Sighs){/i} I see. But they left great things behind.
+            ├ option 2:
+                global_squad_female_human: We can't say for sure.
+                global_salarian_pathfinder_multi: I'll keep watch while I'm out there. Perhaps I'll find some clue.
+            └─ merge ─┘
+        ├ option 2:
+            global_salarian_pathfinder_multi [OncePerGame]: It reminds me of home after it was restored. I should spend more time there.
+            global_squad_female_human: I'm sure the angara would welcome you, ma'am.
+            global_salarian_pathfinder_multi: Hopefully. There's so much more to learn from them, and Aya.
+        ├ option 3:
+            global_salarian_pathfinder_multi [OncePerGame]: I'll look into it when I return to that system.
+            global_squad_female_human: Definitely an interesting lead, ma'am.
+            global_salarian_pathfinder_multi: Yes, though the kett love to set tempting bait. I'll be careful.
+        ├ option 4:
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_turian_pathfinder_multi [OncePerGame]: So you trained for this too, huh? We merry few.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩: Yes, but I do more good where I am.
+                    global_turian_pathfinder_multi: Lucky you. No back-breaking responsibilities.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: Except keeping Ryder in one piece. That's more than enough.
+                    ├ option 2:
+                        global_squad_female_human: Except keeping Ryder in one piece. That's more than enough.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_female_human: Yes, but... things didn't work out that way.
+                    ↩ (goto) global_turian_pathfinder_multi: Lucky you. No back-breaking responsibilities.
+                └─ merge ─┘
+            ├ option 2:
+                global_turian_pathfinder_multi [OncePerGame]: I wonder what the normal length of service is for a Pathfinder.
+                global_squad_female_human: We haven't really had the chance to find out.
+                global_turian_pathfinder_multi: Well, it'll be a while before I'm too old and crusty to go exploring. I hope.
+                global_squad_female_human: Then we'll have to ask "What's the length of service for a SAM?"
+            ├ option 3:
+                ┌─ BRANCH (8) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩ [OncePerGame]: Must be great to see all your hard work on display.
+                ├ option 2:
+                    global_squad_female_human ⟨cond⟩ [OncePerGame]: Guess this is your place now. Everything we achieve will be seen here.
+                ├ option 3:
+                    global_squad_female_human ⟨cond⟩ [OncePerGame]: You're a hero to APEX, you know. I won't disillusion them. Much.
+                ├ option 4:
+                    global_squad_female_human ⟨cond⟩ [OncePerGame]: I wonder... what my place here would look like. But it's better this way.
+                ├ option 5:
+                    global_squad_female_human [OncePerGame]: Well, old man—we're getting there. Put in a good word for us.
+                ├ option 6:
+                    global_squad_female_human [OncePerGame]: Tann likes to think he's keeping an eye on us. Works both ways.
+                ├ option 7:
+                    global_squad_female_human ⟨cond⟩ [OncePerGame]: This is how all those worlds look from the Nexus. We forget how beautiful they are.
+                ├ option 8:
+                    global_squad_female_human: Hi, Ryder.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 5:
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+    ├ option 5:
+        ↩ (goto) ? ⟨cond⟩: [empty]
+    ├ option 6:
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 3:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+├ option 4:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+├ option 5:
+    ↩ (goto) global_squad_female_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    global_squad_female_human [OncePerGame]: Give it a try. You've got great evasion—an ultralight mod would put that to work.
+    loy_hmf_vederia_multi: Maybe I should... Yes! APEX would have those mods. I could borrow one.
+    global_squad_female_human: You're a Pathfinder. You can requisition anything you need.
+    loy_hmf_vederia_multi: Ah. Of course.
+├ option 2:
+    loy_hmf_vederia_multi [OncePerGame]: I'm still not used to the second voice yet.
+    global_squad_female_human: Takes some getting used to. But your SAM's just there to help.
+    loy_hmf_vederia_multi: Goddess willing, I'll adjust soon.
+├ option 3:
+    loy_hmf_vederia_multi [OncePerGame]: I miss her guidance. Sarissa was still a hero, even if...
+    global_squad_female_human: A lot of us thought so.
+├ option 4:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+├ option 5:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+├ option 6:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+├ option 7:
+    ↩ (goto) ? ⟨cond⟩: [empty]
+├ option 8:
+    ↩ (goto) global_squad_female_human: [empty]
+└─ merge ─┘
+↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+↩ (goto) global_squad_female_human: [empty]
+global_squad_female_human [OncePerGame]: If I hadn't been in your father's team, I might have been serving here full-time.

@@ -1,0 +1,324 @@
+# game/conversations/hubs/hub_nexus/rp/news/nex_rp_news_bulletins_a
+# Primary speaker: Nex_rp_news_human
+# Source: game/conversations/hubs/hub_nexus/rp/news/nex_rp_news_bulletins_a.xml
+==================================================
+┌─ BRANCH (35) ─┐
+├ option 1:
+    Nex_rp_news_human: The human Pathfinder has died.
+    Nex_rp_news_human: Alec Ryder was killed after touching down on Habitat 7 in the Eriksson System.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human ⟨cond⟩: Ryder's daughter has reportedly replaced him as Pathfinder, taking command of the Tempest in the ongoing search for a home in Andromeda.
+        Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Ryder's son has reportedly replaced him as Pathfinder, taking command of the Tempest in the ongoing search for a home in Andromeda.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 2:
+    Nex_rp_news_human: An expedition to Eos in the Pytheas System has discovered a mysterious facility that authorities are calling a "vault."
+    Nex_rp_news_human: Though not much is yet known about the underground structure, it is believed to be Remnant in origin.
+    Nex_rp_news_human: Noted asari scientist Pelessaria B'Sayle:
+    global_squad_asari: What we activated in the vault drastically improved the atmosphere on Eos.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 3:
+    Nex_rp_news_human: History is made after the Initiative establishes Prodromos: its first outpost in Heleus.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Nex_rp_news_human ⟨cond⟩: The new human Pathfinder was quick to clarify official reports that the outpost's creation went "smoothly."
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I hope the kett see a military presence—and know we're not taking their attacks lying down.
+            Nex_rp_news_human: The establishment of the Eos outpost follows two disastrous attempts that claimed numerous lives.
+            Nex_rp_news_human: Even so, authorities say they're overwhelmed by applicants now hoping to settle the planet.
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        ├ option 2:
+            Hero ⟨cond⟩: Every step we've taken in Andromeda has been dangerous. The Initiative needs to defend itself.
+            ↩ (goto) Nex_rp_news_human: The establishment of the Eos outpost follows two disastrous attempts that claimed numerous lives.
+        ├ option 3:
+            Hero ⟨cond⟩: I gave Prodromos the best start a Pathfinder could. But we can't predict everything. We just do our best.
+            ↩ (goto) Nex_rp_news_human: The establishment of the Eos outpost follows two disastrous attempts that claimed numerous lives.
+        ├ option 4:
+            Hero ⟨cond⟩: My team and I surveyed Eos thoroughly and even stopped the storms.
+            Hero: The rest is up to the outpost, but the old threats are gone.
+            ↩ (goto) Nex_rp_news_human: The establishment of the Eos outpost follows two disastrous attempts that claimed numerous lives.
+        └─ merge ─┘
+    ├ option 2:
+        Nex_rp_news_human ⟨cond⟩: The new human Pathfinder was quick to clarify official reports that the outpost's creation went "smoothly."
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: I hope the kett see a military presence—and know we're not taking their attacks lying down.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: Every step we've taken in Andromeda has been dangerous. The Initiative needs to defend itself.
+        ├ option 3:
+            ↩ (goto) Hero ⟨cond⟩: I gave Prodromos the best start a Pathfinder could. But we can't predict everything. We just do our best.
+        ├ option 4:
+            ↩ (goto) Hero ⟨cond⟩: My team and I surveyed Eos thoroughly and even stopped the storms.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Nex_rp_news_human: The establishment of the Eos outpost follows two disastrous attempts that claimed numerous lives.
+    └─ merge ─┘
+├ option 4:
+    Nex_rp_news_human: An angaran delegation arrives on the Nexus.
+    Nex_rp_news_human: Initiative brass are now working to broker an alliance with the species native to Andromeda.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: The angara are survivors, and they're willing to help. They'll be great allies.
+        Nex_rp_news_human: While tensions persist, the angaran ambassador was reportedly impressed with the Nexus and its resources.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Hero ⟨cond⟩: The angara have their own problems, and we're newcomers in their cluster. We need to work at this.
+        ↩ (goto) Nex_rp_news_human: While tensions persist, the angaran ambassador was reportedly impressed with the Nexus and its resources.
+    ├ option 3:
+        ↩ (goto) Nex_rp_news_human: While tensions persist, the angaran ambassador was reportedly impressed with the Nexus and its resources.
+    └─ merge ─┘
+├ option 5:
+    Nex_rp_news_human: The Initiative has found the salarian ark.
+    Nex_rp_news_human: Reports suggest Paarchero was intercepted by kett forces in the Tafeno System.
+    Nex_rp_news_human: Reached for comment, officials refused to provide any details on the status of the ark or its inhabitants.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human ⟨cond⟩: But they do confirm the salarian Pathfinder survived.
+        Nex_rp_news_human: Amid confusion and questions, the Nexus now braces for a potential influx of salarian settlers.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: But they do confirm the salarian Pathfinder has died.
+        ↩ (goto) Nex_rp_news_human: Amid confusion and questions, the Nexus now braces for a potential influx of salarian settlers.
+    └─ merge ─┘
+├ option 6:
+    Nex_rp_news_human: An entire Remnant city has been discovered on a space station in the Civki System.
+    Nex_rp_news_human: The station was thought to be "Meridian"—a widely speculated "key" to sustaining life in the galaxy.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human ⟨cond⟩: Leaked footage shows Initiative forces encountered heavy resistance from kett on the station.
+        Nex_rp_news_human: Nexus sources tell HNS the city was not in fact Meridian and that their search continues.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Authorities provided little comment, releasing only brief footage of an apparent victory over kett forces in the city.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 7:
+    Nex_rp_news_human: The kett defeated. Meridian found.
+    Nex_rp_news_human: In a dramatic battle that killed the Archon, the mysterious Remnant technology known as Meridian was activated.
+    Nex_rp_news_human: While the limits of its power are still unknown, the effects are widespread, making any world with a vault not only livable, but sustainable.
+    Nex_rp_news_human: The Hyperion was nearly lost in battle with the Archon.
+    Nex_rp_news_human: But thanks to the bravery of the ark's pilot, Captain Dunn, its estimated 20,000 passengers in stasis survived a crash landing.
+    Nex_rp_news_human: Species across the galaxy are heralding the decisive victory over the kett as a major step toward galactic unity.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 8:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human: Specialist Sara Ryder is reportedly in stable condition after helping stop the Archon and secure Meridian.
+        Nex_rp_news_human: Doctors expect the human Pathfinder's sister to make a full recovery.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Specialist Scott Ryder is reportedly in stable condition after helping stop the Archon and secure Meridian.
+        Nex_rp_news_human: Doctors expect the human Pathfinder's brother to make a full recovery.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 9:
+    Nex_rp_news_human: The turian ark has been found.
+    Nex_rp_news_human: But the turian Pathfinder, Macen Barro, was reportedly killed shepherding the ark planetside.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human: Former spectre Avitus Rix is now expected to assume the role of Pathfinder.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Former spectre Avitus Rix was widely speculated to replace Barro as Pathfinder—but has not been seen since the Natanus was recovered.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 10:
+    Nex_rp_news_human: William Spender, assistant director of Colonial Affairs, has been fired after he was caught stealing supplies from the Nexus.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human: Spender chose to leave the Nexus rather than face sanctions. His whereabouts are currently unknown.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Spender is currently in custody awaiting disciplinary action.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 11:
+    Nex_rp_news_human: The asari ark has been recovered in deep space after nearly being destroyed during a kett assault.
+    Nex_rp_news_human: The Leusinia was mostly evacuated by the time Initiative forces intercepted the ark in the Valay system.
+    Nex_rp_news_human: This, after the asari Pathfinder, Matriarch Ishara, was killed while attempting negotiations with the kett.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human: A decision by replacement Pathfinder Sarissa Theris to prioritize kett data over Ishara's life was condemned by asari leadership.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human: Theris has since been stripped of her title and replaced by her second-in-command, Vederia Damali.
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Nex_rp_news_human ⟨cond⟩: However, Theris remains Pathfinder after vocal support from her human counterpart.
+                ↩ (goto) Nex_rp_news_human: This is HNS.
+            ├ option 2:
+                Nex_rp_news_human: However, Theris remains Pathfinder after vocal support from her human counterpart.
+                ↩ (goto) Nex_rp_news_human: This is HNS.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human ⟨cond⟩: New Pathfinder Sarissa Theris credited her human counterpart for the ark's rescue.
+            loy_hmf_cmdr_sarissa_multi: Somehow, we had enough power to keep the FTL burning. If it wasn't for Ryder, we wouldn't be here right now.
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        ├ option 2:
+            Nex_rp_news_human: New Pathfinder Sarissa Theris credited her human counterpart for the ark's rescue.
+            ↩ (goto) loy_hmf_cmdr_sarissa_multi: Somehow, we had enough power to keep the FTL burning. If it wasn't for Ryder, we wouldn't be here right now.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 12:
+    Nex_rp_news_human: Fireworks in Sephesa as outpost colonists out-engineer an angaran outlaw and destroy his ship in a daring rescue.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 13:
+    Nex_rp_news_human: A major scandal surfaces, implicating Nexus brass.
+    Nex_rp_news_human: HNS has learned Nexus leaders quietly armed a group of outlaws calling themselves the Three Sabers.
+    Nex_rp_news_human: The group was contracted to fight for the Initiative, but went rogue and turned their weapons on supply vessels and even angara.
+    Nex_rp_news_human: Initiative Director Jarun Tann has denied all requests for comment.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 14:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human ⟨cond⟩: Convicted murderer Nilken Rensus pardoned after an investigation by the human Pathfinder proved his innocence.
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        ├ option 2:
+            Nex_rp_news_human: Convicted murderer Nilken Rensus pardoned after an investigation by the human Pathfinder proved his innocence.
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        └─ merge ─┘
+    ├ option 2:
+        Nex_rp_news_human: Convicted murderer Nilken Rensus exiled for his role in the killing of Security Chief Hiram Reynolds.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 15:
+    Nex_rp_news_human: A standoff in the Nexus Commons has ended with the death of notorious hacker Katherine Nigh, better known as "Knight."
+    Nex_rp_news_human: Avina consoles across the station are now back online. Nexus security reminds residents that tampering with the consoles is a serious offense.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 16:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human ⟨cond⟩: A hostage crisis in Hydroponics ended peacefully after the human Pathfinder negotiated an agreement between protestors and Nexus officials.
+            Nex_rp_news_human: Tensions reached a boiling point after protestors complained their families were being kept in stasis in favor of sleepers with political connections.
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        ├ option 2:
+            Nex_rp_news_human: A hostage crisis in Hydroponics ended peacefully after the human Pathfinder negotiated an agreement between protestors and Nexus officials.
+            ↩ (goto) Nex_rp_news_human: Tensions reached a boiling point after protestors complained their families were being kept in stasis in favor of sleepers with political connections.
+        └─ merge ─┘
+    ├ option 2:
+        Nex_rp_news_human: A hostage crisis in Hydroponics ended after Nexus security forcibly removed protestors, resulting in numerous injuries.
+        ↩ (goto) Nex_rp_news_human: Tensions reached a boiling point after protestors complained their families were being kept in stasis in favor of sleepers with political connections.
+    └─ merge ─┘
+├ option 17:
+    Nex_rp_news_human: Nexus exiles find a home as former security are implicated in the mutiny.
+    Nex_rp_news_human: An investigation revealed Nexus security head Sloane Kelly played a role in the uprising that killed dozens.
+    Nex_rp_news_human: Initiative authorities tracked the exiles, including Kelly, to Kadara—a desert planet in the Govorkam System.
+    Nex_rp_news_human: Initiative Director Jarun Tann did not mince words when news of the exile port was made public.
+    global_nexus_PI_director: Kadara is dangerous. The exiles are dangerous. Stay away from Kadara. I cannot stress this enough.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 18:
+    Nex_rp_news_human: Showdown on Kadara. Rivals vie for power on the exile port.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human: After a bitter fight with their rival Outcasts, the Collective has now claimed control of Kadara.
+        Nex_rp_news_human: Outcast leader Sloane Kelly was killed by sniper fire when the Collective seized power.
+        Nex_rp_news_human: Following the victory, Collective spokesperson Keema Dohrgun vowed to loosen restrictions, a step many fear will make Kadara more dangerous.
+        kad_ang_rep: Kadara is a port for the people. We survived the kett. Endured the Outcasts. Now, we have a home for the most ambitious among us.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: After a bitter fight with their Collective rivals, the Outcasts have now claimed control of Kadara.
+        Nex_rp_news_human: The Collective leader known as the Charlatan has now been identified as Reyes Vidal, a notorious smuggler.
+        Nex_rp_news_human: Vidal is on the run as Kadara security tightens under Outcast leader Sloane Kelly.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 19:
+    Nex_rp_news_human: An embassy has been established on Aya, marking a major diplomatic success for the Initiative.
+    Nex_rp_news_human: Nexus representatives are now working directly with the angarans to learn more about both the cluster and the kett.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 20:
+    Nex_rp_news_human: Nakmor Morda triumphs after a challenge for her title as Krogan Overlord.
+    Nex_rp_news_human: Following their exile from the Nexus, Jorgal Strux claimed he was the rightful krogan leader in Heleus.
+    Nex_rp_news_human: But Morda retained her title, defeating Strux in open combat in front of a roaring crowd on Elaaden.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 21:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human: After a high-profile exile, krogan are returning to the Nexus.
+        Nex_rp_news_human: The krogan have been welcomed back into the Initiative after officials accepted their push for equal status.
+        Nex_rp_news_human: Clan leader Nakmor Morda welcomed the support and resources New Tuchanka will now receive.
+        lav_01_kro_warlord: It's about time.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Initiative officials struck a deal with krogan leadership that recognizes the krogan right to sovereignty in Andromeda.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nex_rp_news_human ⟨cond⟩: Clan elder Nakmor Drack was reached for comment while traveling with the human Pathfinder aboard the Tempest.
+            global_squad_krogan: Quads, it's about time!
+            ↩ (goto) Nex_rp_news_human: This is HNS.
+        ├ option 2:
+            Nex_rp_news_human: Clan elder Nakmor Drack was reached for comment while traveling with the human Pathfinder aboard the Tempest.
+            ↩ (goto) global_squad_krogan: Quads, it's about time!
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 22:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nex_rp_news_human ⟨cond⟩: Prodromos attacked by Roekaar. The Initiative outpost was saved with help from the human Pathfinder and crew—a major victory against Eos hardliners.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    ├ option 2:
+        Nex_rp_news_human: Prodromos attacked by Roekaar. The Initiative outpost was saved with help from the human Pathfinder and crew—a major victory against Eos hardliners.
+        ↩ (goto) Nex_rp_news_human: This is HNS.
+    └─ merge ─┘
+├ option 23:
+    Nex_rp_news_human: The first child born to a Milky Way species in Heleus.
+    Nex_rp_news_human: The healthy human baby, born on a shuttle in space, is a welcome bit of good news after so many lives lost out here.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 24:
+    Nex_rp_news_human: You're listening to HNS, your source for news in Heleus. An independent arm of the Andromeda Initiative.
+├ option 25:
+    Nex_rp_news_human: Authorities continue work to establish contact with our Milky Way descendants. As of now, beacons confirming arrival in Heleus remain unanswered.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 26:
+    Nex_rp_news_human: Top scientists have few answers as the dark energy anomaly known as the Scourge limits travel and communication in the cluster.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 27:
+    Nex_rp_news_human: Construction and repairs continue on various parts of the Nexus. Authorities have no word on completion and remind visitors to avoid affected areas.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 28:
+    Nex_rp_news_human: As sleepers wake from stasis, the Initiative urgently requires blood, tissue, and DNA donations. See a medic if you think you may be eligible.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 29:
+    Nex_rp_news_human: A violent illness related to cherry-like fruit brought back from Habitat 7 has authorities baffled. Multiple passengers are still in quarantine.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 30:
+    Nex_rp_news_human: A worker was lost to space during repairs on the Nexus hull. The victim's name has been withheld until next of kin in the Milky Way is notified.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 31:
+    Nex_rp_news_human: A ray of hope for sleep-starved residents. Maintenance begins on malfunctioning sun lamps causing unending daylight in some Nexus quarters.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 32:
+    Nex_rp_news_human: Species are at odds as talks break down over a unified curriculum for Initiative kids. The asari say they'll wait it out until demands are met.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 33:
+    Nex_rp_news_human: A bar opens on the Nexus. Visitors herald the Vortex as a sign of civility—and the opposite of civility—as more sleepers wake in need of a drink.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 34:
+    Nex_rp_news_human: Fallout from the recent uprising as security tightens across all sectors on the Nexus. Director Tann stresses that it's, quote, "for your safety."
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+├ option 35:
+    Nex_rp_news_human: Residents are still mourning the loss of Jien Garson. The Initiative founder was killed when the Nexus hit the Scourge.
+    Nex_rp_news_human: An official tribute is planned, though director Jarun Tann has provided few details so far.
+    global_nexus_PI_director: Without Jien, we wouldn't be here. But now that we {i}are{/i} here, we need to focus on surviving before we can celebrate.
+    ↩ (goto) Nex_rp_news_human: This is HNS.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Our training paid off. People shouldn't worry about going out to see Heleus for themselves.
+    ↩ (goto) Nex_rp_news_human: The establishment of the Eos outpost follows two disastrous attempts that claimed numerous lives.
+├ option 2:
+    Hero: Actually, we ran into kett, massive storms, weird abandoned vaults...
+    Hero: The cluster is amazing, but there is so much danger out there.
+└─ merge ─┘

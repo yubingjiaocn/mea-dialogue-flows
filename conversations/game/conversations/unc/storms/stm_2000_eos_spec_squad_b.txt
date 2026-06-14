@@ -1,0 +1,404 @@
+# game/conversations/unc/storms/stm_2000_eos_spec_squad_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_2000_eos_spec_squad_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: When they sent the first colonists down here, everyone was so excited.
+        global_squad_turian: After all the shit the Nexus had been through, we finally had something to believe in. Then the reports came back.
+        Hero: This time will be different.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: Yeah. I'm more than ready to believe again.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Right. This is our element.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: Third time lucky.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Imagine leaving all the craziness on the Nexus to be the first settlers here.
+        global_squad_male_human: So much riding on you. And then...
+        ↩ (goto) Hero: This time will be different.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Remember the lotteries for "first boots on the ground"? Everyone wanted to be part of the first outpost.
+        global_squad_female_human: We never pictured this.
+        ↩ (goto) Hero: This time will be different.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Remember the early data on Eos, back home?
+        Hero: When everywhere was labeled "H with a bunch of numbers"?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Ha. Your dad put those readings up in his office. Knew them all by heart.
+            global_squad_female_human: Wonder what those worlds really looked like then. And now.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: It looked dry, sure, but not "kill you dead."
+            global_squad_male_human: Between this and Habitat 7, I'm hoping the others are just a little bit golden.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Yeah, they were so certain we'd be set as soon as we got here.
+            global_squad_turian: It's hard to imagine how it all went so wrong.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Remember when they got the first data on Eos, back home?
+        ↩ (goto) Hero: When everywhere was labeled "H with a bunch of numbers"?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Still have a bit of data-shock. Eos is nothing like the scans from back home.
+        ↩ (goto) Hero: When everywhere was labeled "H with a bunch of numbers"?
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: So this technology on Habitat 7 was messing with the planet?
+        Hero: We don't have all the answers yet.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: Don't expect any from the Nexus. They got a few reports, then the kett showed up. No time to study weird tech.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Probably best to focus on the people shooting at you.
+            ├ option 2:
+                global_squad_male_human ⟨cond⟩: Tried to the last, looks like.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: You're not the only one who's looking. But it's been difficult.
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Probably best to focus on the people shooting at you.
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: We have a place to start looking. That's something.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: So whatever tech we found on Habitat 7, it's the same as what's here?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: That fits with what Peebee says.
+            global_squad_male_human: Two planets now. What does that mean?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: You know what it means.
+                global_squad_male_human: Suit up and find out. Got it.
+            ├ option 2:
+                global_squad_asari ⟨cond⟩: It means I've a lot more to study. Somewhere.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: That's what the scans suggest.
+            ↩ (goto) global_squad_male_human: Two planets now. What does that mean?
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: It can't be coincidence that this planet and Habitat 7 have similar tech.
+        ↩ (goto) Hero: We don't have all the answers yet.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: So Habitat 7 had the same Remnant stuff?
+        Hero: Similar, but also somehow worse.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: I was camping here alone. It's hard to picture worse.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Worse. Heh, I thought Eos set the bar.
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: So you found the same junk messing up Habitat 7?
+        ↩ (goto) Hero: Similar, but also somehow worse.
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: It's weird to think that if we pull this off, everything we're looking at could change.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Eos might finally match the "golden world" brochures.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_turian ⟨cond⟩: I kept a few of those. It was hard to look at them after Site 2 failed.
+                global_squad_male_human ⟨cond⟩: We'll get there. A Pathfinder is enough to tip the balance.
+            ├ option 2:
+                Hero: Fewer death storms would be nice.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) global_squad_male_human ⟨cond⟩: We'll get there. A Pathfinder is enough to tip the balance.
+                ├ option 2:
+                    global_squad_asari ⟨cond⟩: Buck up—it's already better.
+                ├ option 3:
+                    global_squad_krogan ⟨cond⟩: You've already done more than the Nexus could.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: I liked those pre-trip vision paintings of "future Eos." Green fields, rivers, forests.
+            global_squad_female_human: Wonder what it'll really be like down the line.
+            ↩ (goto) Hero: Fewer death storms would be nice.
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: Who knows what Remnant tech can really do. Not just here.
+            Hero: One step at a time.
+            global_squad_asari: Why? Jumping is good.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: I liked those pre-trip vision paintings of "future Eos." Green fields, rivers, forests.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Mad to think that if we succeed, this place might actually work out.
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Eos might finally match the "golden world" brochures.
+    ├ option 4:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Who knows what Remnant tech can really do. Not just here.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: So it's really possible you can change this place, huh?
+        ↩ (goto) Hero: Fewer death storms would be nice.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: I'm trying to look at the potential. In 50 years, this could be a beach vacation.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Eos will have holidays. Once we figure out the seasons.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: I've seen enough wastelands. Where's the celebration for managing to live here?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Eos will have holidays. Once we figure out the seasons.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: I hope your colonists don't just work. These worlds need "normal life."
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Eos will have holidays. Once we figure out the seasons.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Not exactly a Christmas-type planet.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Eos will have holidays. Once we figure out the seasons.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Eos feels more like a home. But it's still mostly hard work.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Eos will have holidays. Once we figure out the seasons.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: New worlds need to mark wars, battles. You know, once you're sure they're over.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Eos will have holidays. Once we figure out the seasons.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Your first outpost. It must mean something to you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Hopefully Prodromos sets a high bar.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Nice world. You know, with a little help from massive tech.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hopefully Prodromos sets a high bar.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Aya is watching what happens on Eos very closely.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hopefully Prodromos sets a high bar.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Can't wait to see what the Initiative makes of this planet.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hopefully Prodromos sets a high bar.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: I hear resource shipments are up. A good sign for people trying to live here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hopefully Prodromos sets a high bar.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Colonists change things. Not always for the better.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hopefully Prodromos sets a high bar.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: People want to come here. Just like they wanted to come to Andromeda. Except now they know what they'll find.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: A hard world, but you can get used to anything if you try.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: I kind of like Eos. Could be Stockholm syndrome.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: A hard world, but you can get used to anything if you try.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: We lost a lot of worlds to the Scourge. Seeing one more or less reclaimed is... strange.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: A hard world, but you can get used to anything if you try.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I heard someone request Eos deployment. Made me smile.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: A hard world, but you can get used to anything if you try.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Tough to get used to life on this rock. Too long staring at it from the Nexus and knowing we'd failed.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: A hard world, but you can get used to anything if you try.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Simple way to know you did good: more people walking than buried.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: A hard world, but you can get used to anything if you try.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Gil has tuned the Nomad perfectly for Eos.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: We're outfitted best we can be.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Bumpy ride getting this far. I doubt any of our vehicles were tested this hard.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We're outfitted best we can be.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: We purpose-build, world by world. That's the way to keep things going.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We're outfitted best we can be.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I like busting dunes, getting all six wheels off the ground.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We're outfitted best we can be.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: This place is a strain on our gear, but so is everywhere else.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We're outfitted best we can be.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Planet after planet wears tech down in different ways. I usually end up walking.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We're outfitted best we can be.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: The sky is beautiful in its own way.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Our people came a long way. Nothing here will stop them.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Had my nose down in Remnant for so long, I never noticed the colors.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Our people came a long way. Nothing here will stop them.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: You're welcome to this world. Few of us would come, even without the kett.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Our people came a long way. Nothing here will stop them.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Seems less harsh than when we first landed. Maybe I'm just getting used to it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Our people came a long way. Nothing here will stop them.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Not where I'd want to stake a claim, but some will be all too eager.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Our people came a long way. Nothing here will stop them.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Strange how bleeding for a place makes it feel worthwhile.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Our people came a long way. Nothing here will stop them.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

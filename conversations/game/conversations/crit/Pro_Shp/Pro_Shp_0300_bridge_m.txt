@@ -1,0 +1,86 @@
+# Game/Conversations/Crit/Pro_Shp/Pro_Shp_0300_bridge_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/Pro_Shp_0300_bridge_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Pro_Shp_BridgeCrew1: We're drifting!
+    Pro_Shp_BridgeCrew2: Flight controls aren't responding!
+    global_humanark_captain_multi: First priority is stopping these outages!
+    Pro_Shp_BridgeCrew1: Mainline power's been knocked out! We're on reserves, Captain! They won't last!
+    global_dad: What's our position?
+    global_humanark_bridgecrew_multi: Unknown—we lost telemetry!
+    global_dad: SAM, we need eyes out there.
+    SAM: Attempting to adjust sensor array.
+    global_humanark_captain_multi: Alec, please... you may be Pathfinder, but this is my ship.
+    global_dad: Captain, the protocol's clear: in the absence of communication with the Nexus or the other arks, we proceed to our appointed golden world. {i}Solid ground.{/i}
+    global_humanark_captain_multi: If it's even out there. Nobody said anything about running into an energy cloud—and that's just a wild guess what we hit.
+    global_humanark_captain_multi: Alec, I need to assess the damage. Stop the bleeding. We've got 20,000 people asleep on this ship...
+    global_humanark_captain_multi: Let's give them a chance to wake up.
+    global_squad_female_human: Can you blame her?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: She {i}is{/i} the captain. I'd think she gets the final word.
+        global_squad_female_human: Well, he might—
+        global_dad: This isn't about having the final word.
+        global_squad_female_human: Yes, sir.
+        global_humanark_bridgecrew_multi: We're coming through!
+        global_humanark_captain_multi: My god...
+        global_humanark_captain_multi: Is that our golden world?
+        global_dad: That's Habitat 7. "New Earth," if we're lucky.
+        global_dad: All of our long-range scans told us it was in the green zone. Perfect for human settlement.
+        global_squad_female_human: It doesn't even look the same.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We don't know how bad it is yet. Still seems like it's our best shot.
+            global_humanark_captain_multi: Maybe. There's just a lot on the line.
+            global_dad: SAM?
+            SAM: The energy from the phenomenon is damping our sensors. Planetary conditions are unknown.
+            global_dad: We're marooned. Twenty thousand souls adrift at sea. And when the power runs out and stays out...
+            global_dad: We need to know if that's safe harbor.
+            global_humanark_captain_multi: And if it’s not?
+            global_dad: As Pathfinder, it will be my job to find an alternative. It's what we trained for. But if this goes well...
+            global_dad: ...we're already home.
+            global_humanark_captain_multi: All right. Just make it quick.
+            global_dad: Harper, the rest of the team should be awake by now. Have them spin up two shuttles. Planetfall in thirty.
+            global_squad_female_human: Yes, sir.
+            global_humanark_captain_multi: A stubborn one, isn't he?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Stubborn runs in the family. I guess I rubbed off on him.
+                    global_humanark_captain_multi: Just as long as he knows what he's doing. It's not like the cavalry's coming to save the day.
+                ├ option 2:
+                    Hero ⟨cond⟩: No one ever said dad was a diplomat. People skills were never his strong suit.
+                    ↩ (goto) global_humanark_captain_multi: Just as long as he knows what he's doing. It's not like the cavalry's coming to save the day.
+                └─ merge ─┘
+            ├ option 2:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: He cares, in his own way. Enough to give him a chance.
+                    global_humanark_captain_multi: I suppose you're right. He is our Pathfinder. If this doesn't work out, we'll need him more than ever.
+                    ↩ (goto) global_humanark_captain_multi: [empty]
+                ├ option 2:
+                    Hero: Your guess is as good as mine. We may be related, but I still haven't figured him out.
+                    ↩ (goto) global_humanark_captain_multi: Just as long as he knows what he's doing. It's not like the cavalry's coming to save the day.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: She's right. It looks pretty dicey from here. Are we sure about those scans?
+            global_humanark_captain_multi: It's a good question.
+            global_dad: Things can change. It's been 600 years. SAM?
+            ↩ (goto) SAM: The energy from the phenomenon is damping our sensors. Planetary conditions are unknown.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: My father's got a point, though. Solid ground's sounding pretty good right now.
+        global_squad_female_human: Yeah, but—
+        global_dad: "Pretty good" isn't good enough.
+        Hero: Yes, sir.
+        ↩ (goto) global_dad: [empty]
+    └─ merge ─┘
+├ option 2:
+└─ merge ─┘
+Pro_Shp_BridgeCrew3: Helm control, report!
+global_humanark_captain_multi: I need an ETA on our sensor repairs. We're blind out here.
+global_humanark_bridgecrew_multi: Yes, ma'am. Engineering has a crew working on the forward arrays.

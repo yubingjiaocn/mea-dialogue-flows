@@ -1,0 +1,51 @@
+# Game/Conversations/Crit/Pro_Shp/Pro_Shp_0200_runtotram_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/Pro_Shp_0200_runtotram_b.xml
+==================================================
+global_squad_female_human: You ready?
+global_squad_female_human: Ryder, I'll wait for you at the door whenever you're ready to go.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: That was close. Barely in Andromeda, and we're already scrambling.
+    Hero: The adventure begins.
+    global_squad_female_human: Not sure your dad will see it that way.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Lexi said your brother's having some trouble. They're inducing a coma.
+        Hero: Will he live?
+        global_squad_female_human: Prognosis is good. I wouldn't worry.
+    ├ option 2:
+        global_squad_female_human: Lexi said your sister's having some trouble. They're inducing a coma.
+        Hero: Will she live?
+        ↩ (goto) global_squad_female_human: Prognosis is good. I wouldn't worry.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: That was close. Barely in Andromeda, and we're already scrambling.
+├ option 2:
+    ↩ (goto) global_squad_female_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human: Prognosis is good. The doctors onboard are first-rate, so I wouldn't worry.
+├ option 2:
+    global_squad_female_human: Let's go.
+├ option 3:
+    global_squad_female_human: We'll head over to the tram now.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Sorry about your brother.
+        Hero: Thanks.
+        global_squad_female_human: We've got some first-rate doctors onboard, so I wouldn't worry too much.
+        Hero: It's tough—our mom passed away years ago, so I guess worry is what we do.
+    ├ option 2:
+        global_squad_female_human: Sorry about your sister.
+        ↩ (goto) Hero: Thanks.
+    └─ merge ─┘
+├ option 4:
+    ↩ (goto) Hero: It's tough—our mom passed away years ago, so I guess worry is what we do.
+├ option 5:
+    global_squad_female_human: We'll head over to the tram now.
+└─ merge ─┘

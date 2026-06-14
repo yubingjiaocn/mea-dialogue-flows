@@ -1,0 +1,94 @@
+# Game/Conversations/HUBS/Hub_Tem/Crit/hub_tem_M3_debrief_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_tem/Crit/hub_tem_M3_debrief_d.xml
+==================================================
+global_squad_angara: I'm sorry we fought. What we saw will set our cause on fire.
+global_angaran_elder_multi: Yes. My broken heart can't even process it.
+Hero: Lexi, can you give us a minute?
+global_humanark_asari_dr: Sure thing. But go gentle—she's in a fragile state.
+global_angaran_elder_multi: Did she just call me frail?
+Hero: Fragile.
+global_angaran_elder_multi: Ha! Jaal says you're a "Pathfinder" from the Milky Way.
+Hero: Do you feel up for a talk?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_angaran_elder_multi ⟨cond⟩: Of course. You earned my trust with your brave decision back there.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Hard decisions come with the territory.
+        global_angaran_elder_multi: Well, then.
+        Hero: So, the facility, what's the purpose of all that?
+        global_angaran_elder_multi: They call it exaltation. They believe that those they exalt are given a great gift.
+        global_squad_angara: Gift? They snatch us. Defile and shatter us! ...or the ones we love. I... I can't...
+        Narration: Jaal can't even find the words. He takes the Moshae's hand and holds it . He goes silent.
+        global_angaran_elder_multi: It's a complex genetic construct—an interchange of traits that the kett use to advance their species.
+        Hero: So, they steal genes. But why?
+        global_angaran_elder_multi: Reproduction.
+        global_squad_angara: Domination. Tyranny. Annihilation.
+        global_angaran_elder_multi: Yes. And yet... the Archon didn't take me to his ship to transform me.
+        global_angaran_elder_multi: I hung immobile, tormented, never sleeping, brought to him on a whim. He showed me Remnant tech, and beat me when I wouldn't speak.
+        Hero: Oh, no... Remnant, of course.
+        global_angaran_elder_multi: He's obsessed—like you are. Yes, Jaal told me. You rescued me, hoping to get into Aya's vault.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: My people have traveled so far. We'll die without a place to settle. These Remnant vaults may be the key.
+            Hero: A key to help both our species prosper.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_angaran_elder_multi ⟨cond⟩: I hear your plea, like you heard mine.
+                global_angaran_elder_multi: But—emotion must never get in the way of science.
+                global_angaran_elder_multi: I'll take you.
+                Hero: Thank you.
+                global_squad_angara: Yes. Thank you, Moshae Sjefa.
+                global_angaran_elder_multi: I'm happy to answer any other questions for you, Pathfinder. Anytime.
+            ├ option 2:
+                global_angaran_elder_multi: I feel for your people—in a way that you clearly do not for mine.
+                ↩ (goto) global_angaran_elder_multi: But—emotion must never get in the way of science.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: We've seen the evil the Archon is capable of and we know the power of the Remnant.
+            Hero: I need to know what he's up to.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_angaran_elder_multi ⟨cond⟩: I agree. He worries me, too.
+                ↩ (goto) global_angaran_elder_multi: I'll take you.
+            ├ option 2:
+                global_angaran_elder_multi: You have a lot to learn and yet, you don't listen. I don't trust you.
+                ↩ (goto) global_angaran_elder_multi: But—emotion must never get in the way of science.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I didn't risk anything. No one won back there.
+        global_angaran_elder_multi: To make such a difficult choice—that is brave.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_angaran_elder_multi: Ah. So now you value what I have to say?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I did what I thought was right. I'm good with that.
+        global_angaran_elder_multi: You'll understand then, when it's time for me to do what I think is right.
+        ↩ (goto) Hero: So, the facility, what's the purpose of all that?
+    ├ option 2:
+        Hero: I feel for you, but I don't regret my decision.
+        global_angaran_elder_multi: Then your sympathy is empty.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_angaran_elder_multi: Your decision to let that facility stand was abhorrent.
+├ option 2:
+    global_angaran_elder_multi: Now let me sleep and regain my strength.
+├ option 3:
+    Hero: I ask humbly for your assistance. We need you.
+├ option 4:
+    Hero: Please, call me Ryder.
+    global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
+├ option 5:
+    Hero ⟨cond⟩: Yeah. I'm Sara.
+    ↩ (goto) global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
+├ option 6:
+    Hero ⟨cond⟩: Call me Scott.
+    ↩ (goto) global_angaran_elder_multi: You must know who I am. You went through hell to rescue me.
+└─ merge ─┘

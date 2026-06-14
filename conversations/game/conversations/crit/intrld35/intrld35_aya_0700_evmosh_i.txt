@@ -1,0 +1,50 @@
+# game/conversations/crit/intrld35/intrld35_aya_0700_evmosh_i
+# Primary speaker: angararesleader_multi
+# Source: game/conversations/crit/intrld35/intrld35_aya_0700_evmosh_i.xml
+==================================================
+angararesleader_multi: The sooner you reach Kadara Port, the faster you'll find Vehn Terev. What do you need?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Kadara's full of bad people, but would they shelter a kett sympathizer? Can't we just ask for help?
+    angararesleader_multi: I did—and got it. But my contacts don't run things. The people who do... are stubborn.
+    global_angaran_elder_multi: One's own medicine is always the most bitter.
+    angararesleader_multi: Even if I could cut a deal, Vehn's made himself hard to find.
+    ↩ (goto) angararesleader_multi: [empty]
+├ option 2:
+    Hero: Anything to help me understand how your traitor thinks would be useful.
+    angararesleader_multi: He’s stubborn. Always questioned orders. I thought it was a strength. Now I know better.
+    global_angaran_elder_multi: He must have had some reason to betray me. What could turn him?
+    angararesleader_multi: Does it matter?
+    global_angaran_elder_multi: Of course it does.
+    ↩ (goto) angararesleader_multi: [empty]
+├ option 3:
+    Hero: Moshae, do you remember anything of the Archon that might be a clue to his motives?
+    global_angaran_elder_multi: He spoke to me like I was a child. No, worse—a pet. But it was clear he has plans for Meridian.
+    angararesleader_multi: He thought you could help him.
+    Hero: Now he thinks {i}I'm{/i} the key.
+    global_angaran_elder_multi: He's right. You may be the only person in Heleus who {i}can{/i} help him.
+    ↩ (goto) angararesleader_multi: [empty]
+├ option 4:
+    Hero: Have you found any other references to Meridian in the Remnant tech?
+    angararesleader_multi: You're the one who walks into vaults. You tell us.
+    Hero: I didn't notice anything. Doesn't mean it wasn't staring me in the face.
+    global_angaran_elder_multi: I studied so many relics over the decades. Nothing hinted at the existence of such a place.
+    angararesleader_multi: Maybe we’re not meant to find it.
+    ↩ (goto) angararesleader_multi: [empty]
+├ option 5:
+    Hero: What’ll happen when Aya’s people learn someone in the Resistance betrayed their Moshae?
+    angararesleader_multi: This treason is unprecedented. It {i}will{/i} undermine faith in the Resistance.
+    global_angaran_elder_multi: Not if we show everyone Vehn acted alone.
+    angararesleader_multi: That may not be enough.
+    global_angaran_elder_multi: I haven't lost faith in you, Evfra. Neither will they.
+    ↩ (goto) angararesleader_multi: [empty]
+├ option 6:
+    Hero: I’d better get moving.
+    angararesleader_multi: I’ll keep in touch.
+    global_angaran_elder_multi: Stars and skies above you, Pathfinder. Watch your back.
+└─ merge ─┘
+Hero [OncePerGame]: You said I was trustworthy in Paaran's office. What changed?
+angararesleader_multi: Diplomatic ties aren't the same as internal security.
+global_angaran_elder_multi: Don't take it personally. Evfra didn't even trust me.
+angararesleader_multi: I meant no offense to either of you.
+↩ (goto) angararesleader_multi: [empty]

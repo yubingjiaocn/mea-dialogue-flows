@@ -1,0 +1,64 @@
+# game/conversations/crit/intrld35/intrld35_tem_0900_squadmeet_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld35/intrld35_tem_0900_squadmeet_d.xml
+==================================================
+global_squad_female_human: What's up Ryder? Why an emergency meeting? ⏎
+Hero: I didn't call it.
+global_squad_krogan: I did. Got some disturbing news while we were on Kadara.
+global_squad_krogan: There's some tension at the Krogan Colony on Elaaden. It's bad.
+global_squad_asari: Tension among krogan? You don't say.
+global_squad_krogan: I wouldn't waste your time with this if it wasn't important. We need to go.
+global_squad_turian: I agree. Nakmor Morda made herself Overlord of the colony. It's weird.
+global_squad_angara: No. Our priority is the Archon. We have to remain focused on his next move.
+global_squad_female_human: Jaal's right.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: We won't make any rash decisions. Drack's just brought a problem to the team.
+    Hero: Let's dial down the emotion so we can be clear-headed.
+    global_squad_asari: Well, as long as we're pitching stuff—I overheard outlaws on Kadara talking about activity in the Remav System.
+    global_squad_turian: No! That's the system where the turian golden world was supposed to be.
+    global_squad_angara: Remav? There aren't any viable planets there—only an asteroid field with mining ventures run by criminals.
+    global_squad_male_human: I hear Elaaden's pretty rough, too. Roving scavengers with nothing to lose.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Perfect. Cause if there's one thing I do know about, it's fighting pirates.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩ [OncePerConversation]: But now that we have the transponder, we're so close to finding the location of Archon's ship.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I'm with you. I can't wait to find the Archon's ship... and then hopefully—Meridian.
+                Hero: Anyway. Get Kallo the navpoints for both Elaaden and that potential turian golden world. We want all our options ready to go.
+                Hero: Hey.
+                Hero: I didn't say "dismissed" or "meeting adjourned" or anything.
+                Hero: Meeting adjourned. As you were.
+            ├ option 2:
+                Hero: Our goal is to create our home here—you never know how something might fit in.
+                ↩ (goto) Hero: Anyway. Get Kallo the navpoints for both Elaaden and that potential turian golden world. We want all our options ready to go.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩ [OncePerConversation]: We still have to find the kett transponder that'll lead us to the Archon's ship.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I'm with you. I can't wait to find the Archon's ship... and then hopefully—Meridian.
+            ├ option 2:
+                ↩ (goto) Hero: Our goal is to create our home here—you never know how something might fit in.
+            └─ merge ─┘
+        ├ option 3:
+            global_squad_female_human: We still have to find Vehn Terev.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I'm with you. I can't wait to find the Archon's ship... and then hopefully—Meridian.
+            ├ option 2:
+                ↩ (goto) Hero: Our goal is to create our home here—you never know how something might fit in.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Crap. No one fights harder than people with nothing to lose.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: I know dealing with so many unknowns is frustrating.
+    Hero: But we need to hear each other out.
+    ↩ (goto) global_squad_asari: Well, as long as we're pitching stuff—I overheard outlaws on Kadara talking about activity in the Remav System.
+└─ merge ─┘

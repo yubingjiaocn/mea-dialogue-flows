@@ -1,0 +1,27 @@
+# game/conversations/unc/storms/stm_6010_atk_return_a
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6010_atk_return_a.xml
+==================================================
+Hero: Looks quiet.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: More like deserted.
+    ustl_settle_01_admin_multi: [Comm] Pathfinder. Good to see you back.
+    Hero: Bradley, you're expecting an attack?
+    ustl_settle_01_admin_multi: [Comm] Let's talk in person. Sending a navpoint for the lookout.
+├ option 2:
+    global_squad_asari ⟨cond⟩: That's an understatement.
+    ↩ (goto) ustl_settle_01_admin_multi: [Comm] Pathfinder. Good to see you back.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Looks empty, and I don't like it.
+    ↩ (goto) ustl_settle_01_admin_multi: [Comm] Pathfinder. Good to see you back.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Don't say "too quiet."
+    ↩ (goto) ustl_settle_01_admin_multi: [Comm] Pathfinder. Good to see you back.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Too quiet.
+    ↩ (goto) ustl_settle_01_admin_multi: [Comm] Pathfinder. Good to see you back.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Where is everyone?
+    ↩ (goto) ustl_settle_01_admin_multi: [Comm] Pathfinder. Good to see you back.
+└─ merge ─┘

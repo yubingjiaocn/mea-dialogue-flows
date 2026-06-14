@@ -1,0 +1,147 @@
+# Game/Conversations/Loyalty/Human_male_01/loyalty_hmm_0300_cargo_confront_m
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0300_cargo_confront_m.xml
+==================================================
+global_squad_male_human: Come on, we have to find Verand!
+Hero: We don't even know if this is the way!
+global_squad_male_human: Well, something has to go right!
+global_squad_male_human: You take a risk for the right reason, it's supposed to work!
+global_squad_male_human: {i}(Pained frustration noise.){/i}
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Not helping, Liam.
+    global_squad_male_human: I know! It's stupid! It's everything!
+    Hero: Save it! I need you to stop hoping things will work, and stay on task!
+    loyalty_hmm_pirate_leader: {i}(Laughs.){/i} You turn on each other so fast.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We have a bad plan to rescue people, and we're doing it!
+        Hero: Any questions?
+        global_squad_male_human: Nope.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: None at all.
+            Hero: Good!
+            Hero: I shot the console. Think he'll be mad?
+            global_squad_male_human: What more could he do?
+            global_squad_male_human: Ah! Shit!
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I really hate this plan, Liam!
+                global_squad_male_human: Right now? Me too!
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_asari ⟨cond⟩: Thirded!
+                    ustl_settle_01_admin_multi: Get on the junctions! Go!
+                    ustl_settle_01_admin_multi: [Comm] You folks need a hand?
+                    global_squad_male_human: Augie? You have timing!
+                    ustl_settle_01_admin_multi: We would have come in sooner but we didn't know how we could help. Settlers aren't soldiers.
+                    ustl_settle_01_admin_multi: But a wreck of a ship with bad shielding?
+                    ustl_settle_01_admin_multi: We've {i}got{/i} engineers, son!
+                    ustl_settle_01_admin_multi: Oh! Power surge! This beast does {i}not{/i} like being prodded!
+                    global_squad_male_human: Shit, shit, shit!
+                    Hero: It's the artificial gravity! Everything's shifting!
+                    ustl_settle_01_admin_multi: Liam! Pathfinder, are you okay?
+                    Hero: We're here. But things have gone a little sideways.
+                ├ option 2:
+                    global_squad_female_human ⟨cond⟩: Thirded!
+                    ↩ (goto) Narration: [empty]
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: Thirded!
+                    ↩ (goto) Narration: [empty]
+                ├ option 4:
+                    global_squad_krogan ⟨cond⟩: Thirded!
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Narration: [empty]
+                    ├ option 2:
+                        ↩ (goto) Narration: [empty]
+                    └─ merge ─┘
+                ├ option 5:
+                    global_squad_angara ⟨cond⟩: Thirded!
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Liam! Hold me!
+                global_squad_male_human: {i}(Laughs.){/i}
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_asari ⟨cond⟩: Get a room! With a floor!
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    global_squad_female_human ⟨cond⟩: Not the time!
+                    ↩ (goto) Narration: [empty]
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: I'm sad I can't punch both of you!
+                    ↩ (goto) Narration: [empty]
+                ├ option 4:
+                    global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i}
+                    ↩ (goto) Narration: [empty]
+                ├ option 5:
+                    global_squad_angara ⟨cond⟩: Unimpressed!
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: Uhh, no. None.
+            ↩ (goto) Hero: Good!
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: Ah... no.
+            ↩ (goto) Hero: Good!
+        ├ option 4:
+            global_squad_krogan ⟨cond⟩: Shit, no.
+            ↩ (goto) Hero: Good!
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: Shit, no.
+            ↩ (goto) Hero: Good!
+        └─ merge ─┘
+    ├ option 2:
+        Hero: What do you want?
+        loyalty_hmm_pirate_leader: Nothing. You'd be worth a lot. But I'm not stupid. You're dangerous.
+        loyalty_hmm_pirate_leader: Get off my ship.
+        global_squad_male_human: He's not really asking.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You dent your locker, the principal will be pissed.
+    global_squad_male_human: It isn't a joke!
+    global_squad_male_human: I jumped us here blind—we don't know where anyone is or how anything works!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: And now we're fighting some asshole who wants everyone chained. It's like chasing Meridian all over again!
+        loyalty_hmm_pirate_leader: I've sealed the bay. There's—
+        Hero: Don't make this about the whole Initiative. We're here to help and... why am I the one defending your plan?
+        global_squad_male_human: I don't know!
+        loyalty_hmm_pirate_leader: I will not be ignored anymore!
+        global_squad_male_human: See? Total asshole.
+        loyalty_hmm_pirate_leader: That's it! Space them!
+        loyalty_hmm_pirate_grunt_02: But Calot, we...
+        loyalty_hmm_pirate_leader: Rah. I will not be ignored.
+        global_squad_male_human: Such an asshole.
+        ↩ (goto) Narration: [empty]
+    ├ option 2:
+        global_squad_male_human: And now we're fighting some asshole who wants everyone chained. It's like hitting Andromeda all over again!
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+Hero: [Ryder Exertion 1]
+Hero: [Ryder Exertion 2]
+Hero: [Ryder Exertion A]
+Hero: [Ryder Exertion B]
+global_squad_male_human: [Liam Exertion 1]
+global_squad_male_human: [Liam Exertion 2]
+global_squad_male_human: [Liam Exertion 3]
+global_squad_angara: [Exertion 1]
+global_squad_angara: [Exertion 2]
+global_squad_female_human: [Exertion 1]
+global_squad_female_human: [Exertion 2]
+global_squad_krogan: [Exertion 1]
+global_squad_krogan: [Exertion 2]
+Hero: [Exertion 1]
+Hero: [Exertion 2]
+global_squad_male_human: [Exertion 1]
+global_squad_male_human: [Exertion 2]
+global_squad_asari: [Exertion 1]
+global_squad_asari: [Exertion 2]
+global_squad_turian: [Exertion 1]
+global_squad_turian: [Exertion 2]

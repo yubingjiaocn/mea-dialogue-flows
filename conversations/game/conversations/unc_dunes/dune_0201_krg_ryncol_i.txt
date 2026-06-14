@@ -1,0 +1,56 @@
+# game/conversations/unc_dunes/dune_0201_krg_ryncol_i
+# Primary speaker: dune_colony_ryncoldist
+# Source: game/conversations/unc_dunes/dune_0201_krg_ryncol_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_ryncoldist [OncePerGame]: I don't sell ryncol to humans. Matter of principle.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        Hero: What's ryncol?
+        dune_colony_ryncoldist: Krogan alcohol. Like drinking a live grenade. I distill it myself—strongest in the galaxy.
+        Hero: That's impressive.
+        dune_colony_ryncoldist: Not really. I'm the only distiller in the galaxy.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Remind me to stock up.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: What's it like living out here?
+        dune_colony_ryncoldist: It's no paradise, but it's easier than Tuchanka.
+        dune_colony_ryncoldist: Back home, stepping outside during a nuclear wind could tear the plate from your skull.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        Hero: What made you pick up and come to Heleus?
+        dune_colony_ryncoldist: I was sick of living on a dead planet, watching my people tear each other apart.
+        dune_colony_ryncoldist: Hitching a ride on the Nexus was a chance to start over.
+        Hero: But you left the Nexus.
+        dune_colony_ryncoldist: And built this. Best decision the krogan ever made. Just wish it was on better terms.
+        dune_colony_ryncoldist: Not wise to burn bridges out here.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        Hero: What was it like traveling on the Nexus?
+        dune_colony_ryncoldist: Don't know. I remember salarians packing us into cryo. Some of us needed a double hit to fall asleep.
+        dune_colony_ryncoldist: Then... nothing. Suddenly, we were here.
+        dune_colony_ryncoldist: You want to know more, ask Barruk. Says he woke up mid-journey and lived fifty years alone on the Nexus.
+        Hero: He has to be lying.
+        dune_colony_ryncoldist: Probably. Good story, though.
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        Hero: What do you have against selling ryncol to humans?
+        dune_colony_ryncoldist: Spent too much time babysitting humans who think they can stomach it.
+        dune_colony_ryncoldist: Fact is, you can't. Maybe it won't kill you, but it'll leave me a mess to clean up.
+        Hero: I bet I could handle it.
+        dune_colony_ryncoldist: Typical.
+        ↩ (goto) Hero: [empty]
+    ├ option 6:
+        Hero: That's all for now.
+        dune_colony_ryncoldist: Back to it.
+    └─ merge ─┘
+├ option 2:
+    dune_colony_ryncoldist: Still not selling you ryncol. Nice try, though.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

@@ -1,0 +1,57 @@
+# game/conversations/storyteller/anchors/sty_anchor_outlaw_tech_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_anchor_outlaw_tech_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    SAM: Pathfinder, I detect scavenger constructs ahead.
+├ option 2:
+    Hero: Look ahead. The scavengers dug into the sand.
+├ option 3:
+    SAM: Pathfinder, this technology was built by the scavengers.
+├ option 4:
+    Hero: Scavenger tech ahead. They'll be looking for scrap here.
+├ option 5:
+    SAM: Pathfinder, I detect broken scavenger machinery ahead.
+├ option 6:
+    ┌─ BRANCH (12) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: The outlaws have a construct ahead.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Outlaws have some kind of tech ahead.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: The outlaws have tech set up over there.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Outlaw tech. Keep your eyes peeled.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Outlaws got something rigged up over there.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: The outlaws built some kind of tech. They'll be looking to defend it.
+    ├ option 7:
+        global_squad_angara ⟨cond⟩: Outlaw construct. They'll fight for it.
+    ├ option 8:
+        global_squad_asari ⟨cond⟩: Let's go mess with the outlaw's tech.
+    ├ option 9:
+        global_squad_female_human ⟨cond⟩: The outlaws set up tech. We should clear them out.
+    ├ option 10:
+        global_squad_krogan ⟨cond⟩: Rig ahead. We should shake the outlaws loose.
+    ├ option 11:
+        global_squad_male_human ⟨cond⟩: I don't like the look of that tech. Might be outlaws.
+    ├ option 12:
+        global_squad_turian ⟨cond⟩: We can't leave the outlaws to claim this tech.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    SAM [OncePerGame]: That construct was reported stolen by both the Outcasts and the Collective. Hostility likely.
+├ option 2:
+    Hero [OncePerGame]: The exiles have quite a setup over there. Won't be happy to see us.
+├ option 3:
+    SAM [OncePerGame]: This technology is not registered to either of Kadara's factions, Pathfinder.
+├ option 4:
+    Hero [OncePerGame]: Looks like those exiles stole tech from the port. We should be careful.
+├ option 5:
+    SAM [OncePerGame]: This technology is unaffiliated with Kadara's factions, Pathfinder. Its owners are likely criminal-class.
+├ option 6:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘

@@ -1,0 +1,41 @@
+# game/conversations/unc/storms/stm_0398_kett_bain_approach_a
+# Primary speaker: stm_kett_hunter_multi
+# Source: game/conversations/unc/storms/stm_0398_kett_bain_approach_a.xml
+==================================================
+stm_kett_hunter_multi: [Comm] You’re a long way from the flock, little duck.
+Hero: Little duck? Who is this?
+stm_kett_hunter_multi: [Comm] Someone who's got work for you. Come to my navpoint, if you think you're up for it.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Don't want to keep him waiting, {i}little duck{/i}.
+    Hero: That is {i}not{/i} becoming a thing.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Shall we, {i}little duck{/i}?
+    ↩ (goto) Hero: That is {i}not{/i} becoming a thing.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Wanna check it out, {i}little duck{/i}?
+    ↩ (goto) Hero: That is {i}not{/i} becoming a thing.
+├ option 4:
+    global_squad_asari ⟨cond⟩: What do you say, {i}little duck{/i}?
+    ↩ (goto) Hero: That is {i}not{/i} becoming a thing.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Wanna look into it, {i}little duck{/i}?
+    ↩ (goto) Hero: That is {i}not{/i} becoming a thing.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker?
+    Hero: We don't know he's a friend.
+├ option 2:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Huh.
+    ↩ (goto) Hero: We don't know he's a friend.
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker?
+    ↩ (goto) Hero: We don't know he's a friend.
+├ option 4:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Weird.
+    ↩ (goto) Hero: We don't know he's a friend.
+├ option 5:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Our friend was calling from a kett bunker? Hm.
+    ↩ (goto) Hero: We don't know he's a friend.
+└─ merge ─┘

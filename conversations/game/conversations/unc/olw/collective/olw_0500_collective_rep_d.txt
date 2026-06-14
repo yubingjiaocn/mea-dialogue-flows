@@ -1,0 +1,39 @@
+# game/conversations/unc/olw/collective/olw_0500_collective_rep_d
+# Primary speaker: olw_char_rep_02
+# Source: game/conversations/unc/olw/collective/olw_0500_collective_rep_d.xml
+==================================================
+olw_char_rep_02: Pathfinder. Any luck finding the impostor?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Dorado's clothes showed high levels of sulfur.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: When I questioned her loyalty to the Charlatan, she became... frantic.
+        olw_char_rep_02: You asked her outright? I said to be discreet!
+        Narration: Crux uses her omni-tool to call Aquila.
+        olw_char_rep_02: Aquila. Detain Dorado.
+        olw_char_rep_04: [Comm] Dorado? She's gone. Said it was on the Charlatan's orders.
+        olw_char_rep_02: Damn it!
+        Narration: Crux turns off her omni-tool and looks at Ryder.
+        olw_char_rep_02: If the Charlatan finds out I let her get away...
+        Hero: I'll take care of it. She can't have gone far.
+    ├ option 2:
+        Hero: When I asked about her last job, she was evasive.
+        olw_char_rep_02: Her mission was at the port. She should've been nowhere near the springs.
+        Narration: Crux uses her omni-tool to call Aquila.
+        olw_char_rep_02: Aquila. Detain Dorado. {i}Quietly.{/i}
+        olw_char_rep_04: [Comm] On it.
+        Narration: Crux turns off her omni-tool and looks at Ryder.
+        olw_char_rep_02: Good work, Pathfinder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_char_rep_02 ⟨cond⟩: I can see why the Charlatan likes you.
+        ├ option 2:
+            olw_char_rep_02: I'll make sure the Charlatan knows you helped us settle the matter.
+            ↩ (goto) olw_char_rep_02: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Not ready to accuse anyone just yet.
+    olw_char_rep_02: Damn. All right.
+└─ merge ─┘

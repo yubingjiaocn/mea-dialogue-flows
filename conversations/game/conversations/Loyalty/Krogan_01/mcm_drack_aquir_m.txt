@@ -1,0 +1,132 @@
+# game/conversations/loyalty/krogan_01/mcm_drack_aquir_m
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Krogan_01/mcm_drack_aquir_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Nearly at the monolith and no kett?
+    Hero: Let's get to it before there's any more kett.
+    global_squad_krogan: {i}(Shouts.){/i}
+    global_squad_krogan: {i}(Growls.){/i}
+    global_squad_krogan: Who are you?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Andromeda Initiative. We're not here to cause trouble.
+        global_squad_krogan: So you say.
+        global_squad_krogan: Still haven't told me who {i}you{/i} are.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_turian: Oh, come on, Drack. Stop that.
+            global_squad_krogan: Vetra? What are you doing here?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_turian ⟨cond⟩: I'm with the Pathfinder. {i}That{/i} Pathfinder.
+                global_squad_krogan: A friend of Vetra's a friend of mine.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: My name's Scott Ryder.
+                    global_squad_krogan: I'm Drack. Clan Nakmor.
+                    global_squad_krogan: You'll forgive me if I didn't just trust a stranger from the Nexus. They haven't exactly treated us krogan well.
+                    global_squad_krogan: What are you doing out here?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Checking out these monoliths. The kett seem pretty interested in this one.
+                        Hero: Looks like you cleared it out for us though.
+                        global_squad_krogan: You sad I didn't save any for you?
+                        global_squad_krogan: Nexus knows shit about the kett. They think they're safe, but they're just waiting to die out there in space.
+                        global_squad_krogan: I've been quads deep on a couple planets for a while now. Taking out kett bases. Fighting ground troops.
+                        global_squad_krogan: I know what they can do.
+                        Hero: It's not pretty.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_turian ⟨cond⟩: You know, Drack, we could use someone with your... skills.
+                            global_squad_krogan: Tempting as that is, Vetra, I'm a little old to be carrying humans through a fight.
+                            global_squad_krogan: Besides, the day I help the Nexus again's the day the clouds part and the kett keel over. No offense.
+                            Hero: None taken.
+                            global_squad_krogan: Good, 'cause I'm getting bored and the kett are getting stronger. Seem particularly interested in this alien tech.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero ⟨cond⟩: Remnant?
+                                global_squad_krogan: Yeah. That.
+                            ├ option 2:
+                                global_squad_krogan: I'm gonna go find more to shoot. Try to keep your head out there.
+                                ↩ (goto) global_squad_turian: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_squad_male_human ⟨cond⟩: Y'know... we could use a krogan like you, Drack.
+                            global_squad_krogan: I'm flattered, but do you have any idea how many humans I've watched die? You're meat. You spoil.
+                            ↩ (goto) global_squad_krogan: Besides, the day I help the Nexus again's the day the clouds part and the kett keel over. No offense.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: You're not the only one hunting kett.
+                        global_squad_krogan: Yeah. Bet you're mowing down an army with that gear.
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero ⟨cond⟩: My name's Sara Ryder.
+                    ↩ (goto) global_squad_krogan: I'm Drack. Clan Nakmor.
+                ├ option 3:
+                    Hero: You can call me Ryder.
+                    ↩ (goto) global_squad_krogan: I'm Drack. Clan Nakmor.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_turian: I'm with the Pathfinder. {i}That{/i} Pathfinder.
+                ↩ (goto) global_squad_turian: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm the Pathfinder.
+            global_squad_krogan: Are you now?
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That was pretty cool!
+        global_squad_krogan: Huh. Well, yeah. Guess it was.
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: You'd think there'd be kett this close to the monolith.
+    ↩ (goto) Hero: Let's get to it before there's any more kett.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Almost at the monolith. No kett anywhere?
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Scott Ryder. I'm a Pathfinder. Happy now?
+        ↩ (goto) global_squad_krogan: I'm Drack. Clan Nakmor.
+    ├ option 2:
+        Hero ⟨cond⟩: Sara Ryder. I'm a Pathfinder. Happy now?
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        Hero: My name's Ryder. I'm a Pathfinder. Happy now?
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_krogan: Yeah, you could. Which way's your ship?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Wait, what?
+        global_squad_krogan: I'm coming along. You clearly need the help.
+        global_squad_krogan: Pretty much done here anyway.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Did you just invite him on board?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_turian ⟨cond⟩: We want him. Trust me.
+                global_squad_krogan: Stop sweating. It'll be fun.
+                ↩ (goto) global_squad_turian: [empty]
+            ├ option 2:
+                global_squad_male_human ⟨cond⟩: I guess I did. You wanna tell him no?
+                ↩ (goto) global_squad_krogan: Stop sweating. It'll be fun.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm sure I won't regret this.
+            global_squad_krogan: What's life without a little regret?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Wait, what?
+        ↩ (goto) global_squad_krogan: I'm coming along. You clearly need the help.
+    └─ merge ─┘
+└─ merge ─┘

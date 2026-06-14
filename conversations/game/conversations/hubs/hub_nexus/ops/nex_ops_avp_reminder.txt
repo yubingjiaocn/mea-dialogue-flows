@@ -1,0 +1,22 @@
+# game/conversations/hubs/hub_nexus/ops/nex_ops_avp_reminder
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/ops/nex_ops_avp_reminder.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Pathfinder, we are to contact Director Addison as soon as possible.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Right. Something about Andromeda viability and perks. Could be useful.
+    ├ option 2:
+        Hero: Right. She had something that could help with our job.
+    └─ merge ─┘
+├ option 2:
+    SAM ⟨cond⟩: A reminder: you have AVP outstanding.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Right. Have to talk to Addison's assistant about viability Perks. Sounds useful.
+    ├ option 2:
+        Hero: Brecka unlocked the AVP system. Just have to make the first spend to get started.
+    └─ merge ─┘
+└─ merge ─┘

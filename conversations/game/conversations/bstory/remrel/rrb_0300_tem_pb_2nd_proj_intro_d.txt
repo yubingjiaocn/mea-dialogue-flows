@@ -1,0 +1,43 @@
+# game/conversations/bstory/remrel/rrb_0300_tem_pb_2nd_proj_intro_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/remrel/rrb_0300_tem_pb_2nd_proj_intro_d.xml
+==================================================
+global_squad_asari: Poc, Poc, Poc, you're gonna be the gateway to so many great things, my friend.
+Hero: Hey there. You named her "Poc"?
+global_squad_asari: Yep. Proof of Concept. To distinguish her from Zap, your souped-up nasty combat version.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Zap. I like it.
+    global_squad_asari: Yeah, it's edgy.
+    global_squad_asari: The storage box from the vault on Eos was the key to everything—including integrating that piece of rem-tech you got me.
+    global_squad_asari: But our new Observer friends are just the beginning. I'm working on something even bigger.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm all ears.
+        global_squad_asari: So get this: we can only scan for Remnant signatures we've already encountered. My scanner's doing that around the clock.
+        global_squad_asari: But if I integrate the right rem-tech, we could scour the cluster for {i}any{/i} Remnant signature. Even ones we don't have.
+        global_squad_asari: My scanner would literally become a Remnant mystery detector!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What would we be looking for?
+            global_squad_asari: That's the point—we don't know what all is out there, so we don't even know {i}what{/i} to look for.
+            global_squad_asari: I came to Andromeda to touch the unknown. To find the never-before-found.
+            global_squad_asari: Once I perfect this scanner, it'll do exactly that. All I need is three specific pieces of rem-tech.
+            Hero: We can do that.
+            global_squad_asari: You. Rock. Poc and Zap think so too.
+            global_squad_asari: So far, I've located the first piece—it's back on Eos. I'll upload the coordinates.
+        ├ option 2:
+            Hero: Your enthusiasm is infectious.
+            global_squad_asari: Don't tell Lexi. She'll look for a cure.
+            ↩ (goto) global_squad_asari: I came to Andromeda to touch the unknown. To find the never-before-found.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Sure, why stop and smell the roses? Getting Remnant technology to work is so passé.
+        global_squad_asari: I'm not one to rest on my laurels.
+        ↩ (goto) global_squad_asari: So get this: we can only scan for Remnant signatures we've already encountered. My scanner's doing that around the clock.
+    └─ merge ─┘
+├ option 2:
+    Hero: Zap? That the best you can come up with?
+    global_squad_asari: I call myself Peebee, Ryder—what do you want from me?
+    ↩ (goto) global_squad_asari: The storage box from the vault on Eos was the key to everything—including integrating that piece of rem-tech you got me.
+└─ merge ─┘

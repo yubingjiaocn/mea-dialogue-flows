@@ -1,0 +1,43 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0200_shuttle_debrief_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0200_shuttle_debrief_d.xml
+==================================================
+Hero: So—no one has ever seen the inside of one of these places? Really?
+global_squad_angara: None who lived to tell. Prisoners who go in are never seen again. They're "the disappeared."
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: That's grim. No one's escaped?
+    crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+    crit_ex_res_fighter_3_multi: We lost so many fighters trying. The price was too high.
+    crit_ex_res_fighter_1_multi: I like to believe that the kett take important angara from here to their home cluster.
+    global_squad_angara: What? As slaves?
+    crit_ex_res_fighter_1_multi: I guess...
+    global_squad_angara: Death is better.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Life without freedom is... just... pointless.
+        Hero: What you guys are going through is a nightmare.
+        crit_ex_res_fighter_3_multi: It's why we're excited to be part of this mission.
+        crit_ex_res_pilot_multi: We're here. And let's be quick—this storm's getting worse.
+        Hero: Once we're through the shield, you take point. We'll look for Moshae Sjefa. Let's just try to stay safe. Okay?
+        crit_ex_res_fighter_1_multi: Okay.
+        crit_ex_res_fighter_2_multi: But Pathfinder, no one joins the Resistance to stay safe.
+        crit_ex_res_pilot_multi: [Comm] Good luck. Radio me when you're ready to go.
+    ├ option 2:
+        Hero: Jaal, we can't just give in to blanket despair. We gotta have hope.
+        Hero: It's why they fight. It's why we're here.
+        ↩ (goto) crit_ex_res_fighter_3_multi: It's why we're excited to be part of this mission.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: But haven't you staged rescues before?
+    ↩ (goto) crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Ooh, mysterious. No one's escaped?
+    ↩ (goto) crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+├ option 4:
+    global_squad_turian ⟨cond⟩: And the angara slaves? What about them?
+    ↩ (goto) crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Figures. What about the slaves you've freed?
+    ↩ (goto) crit_ex_res_fighter_3_multi: Sure, we've liberated kett work camps, but never these facilities.
+└─ merge ─┘

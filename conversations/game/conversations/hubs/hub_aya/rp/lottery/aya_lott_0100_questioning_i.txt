@@ -1,0 +1,39 @@
+# game/conversations/hubs/hub_aya/rp/lottery/aya_lott_0100_questioning_i
+# Primary speaker: oasis_sal_scientist_multi
+# Source: game/conversations/hubs/hub_aya/rp/lottery/aya_lott_0100_questioning_i.xml
+==================================================
+oasis_sal_scientist_multi: I can't work under these conditions! What does it take to be left alone?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Ambassador Rialla sent me to check on you.
+    Hero: You reported that someone in the Resistance threatened you. Tell me exactly what happened.
+    oasis_sal_scientist_multi: I didn't know Rialla was sending the Pathfinder. I deserve no less, of course.
+    oasis_sal_scientist_multi: I was measuring the photonic dispersal from the canopies when some random brute interrupted me.
+    oasis_sal_scientist_multi: I asked him to move, and he got nasty. Said it was my fault his friend was dead. Ridiculous!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Do you know what he meant by that?
+        oasis_sal_scientist_multi: He ranted nonsense about a vessel and "selling slots to outsiders."
+        oasis_sal_scientist_multi: He got right up in my face and compared me to a kett. He wanted to kill me. I could see it in his eyes.
+        oasis_sal_scientist_multi: The whole conversation made no sense. I think he was inebriated.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sounds like there's more to this. Don't suppose you caught his name?
+            oasis_sal_scientist_multi: Didn't ask it, didn't want it, didn't need it.
+            oasis_sal_scientist_multi: When he left, I tagged him with infrared dye from my sample kit. Invisible to the naked eye, but not to a scanner.
+            Hero: I'll scan people around the Resistance headquarters. See if I find him.
+            oasis_sal_scientist_multi: You're supposed to represent our interests on Aya. Go—represent. I have work to do.
+        ├ option 2:
+            Hero: I'm not saying you're wrong, but dial it down. We're guests here.
+            oasis_sal_scientist_multi: Exactly. We shouldn't have to put up with this.
+            ↩ (goto) oasis_sal_scientist_multi: When he left, I tagged him with infrared dye from my sample kit. Invisible to the naked eye, but not to a scanner.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's a weird thing to say. How'd he threaten you?
+        oasis_sal_scientist_multi: Oh, I don't know... maybe it was the big gun he was carrying?
+        ↩ (goto) oasis_sal_scientist_multi: He got right up in my face and compared me to a kett. He wanted to kill me. I could see it in his eyes.
+    └─ merge ─┘
+├ option 2:
+    Hero: Ease off! I'm here to help.
+    ↩ (goto) Hero: You reported that someone in the Resistance threatened you. Tell me exactly what happened.
+└─ merge ─┘

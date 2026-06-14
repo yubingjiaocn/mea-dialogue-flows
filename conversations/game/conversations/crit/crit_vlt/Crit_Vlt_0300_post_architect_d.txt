@@ -1,0 +1,50 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0300_post_architect_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0300_post_architect_d.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: The Remnant are just full of surprises.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: They get mad when we get close—or interface with their tech. Interesting...
+        global_squad_asari: [Comm] And is it programming or some sort of instinct?
+        global_squad_asari: [Comm] All these mysteries. Something big is happening in Andromeda, Ryder. Something magnificent.
+        Hero: Let's find that system lockdown.
+    ├ option 2:
+        Hero: They're our only glimpse into another civilization. Too bad we have to keep destroying them.
+        global_squad_asari: [Comm] They must be fighting for a reason.
+        ↩ (goto) global_squad_asari: [Comm] All these mysteries. Something big is happening in Andromeda, Ryder. Something magnificent.
+    ├ option 3:
+        Hero: We have a lockdown to find.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        Hero: They're cheap guard dogs, that's all. Some fabricator probably turns them out by the dozen.
+        global_squad_asari: [Comm] With a bite like that, imagine what they're guarding.
+        ↩ (goto) global_squad_asari: [Comm] All these mysteries. Something big is happening in Andromeda, Ryder. Something magnificent.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: These Remnant get better and better.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: They get mad when we get close—or interface with their tech. Interesting...
+    ├ option 2:
+        ↩ (goto) Hero: They're our only glimpse into another civilization. Too bad we have to keep destroying them.
+    ├ option 3:
+        ↩ (goto) Hero: We have a lockdown to find.
+    ├ option 4:
+        ↩ (goto) Hero: They're cheap guard dogs, that's all. Some fabricator probably turns them out by the dozen.
+    └─ merge ─┘
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Fighting bots makes my skin crawl.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: They get mad when we get close—or interface with their tech. Interesting...
+    ├ option 2:
+        ↩ (goto) Hero: They're our only glimpse into another civilization. Too bad we have to keep destroying them.
+    ├ option 3:
+        ↩ (goto) Hero: They're cheap guard dogs, that's all. Some fabricator probably turns them out by the dozen.
+    ├ option 4:
+        ↩ (goto) Hero: We have a lockdown to find.
+    └─ merge ─┘
+└─ merge ─┘

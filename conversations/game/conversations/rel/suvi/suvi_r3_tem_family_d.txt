@@ -1,0 +1,66 @@
+# game/conversations/rel/suvi/suvi_r3_tem_family_d
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/rel/suvi/suvi_r3_tem_family_d.xml
+==================================================
+global_crew_science_officer: The swelling has gone down significantly, and I seem to be able to talk normally again.
+global_humanark_asari_dr: [Comm] Good. Keep me updated. And remember, cool food and liquid only. Nothing spicy.
+global_crew_science_officer: Thank you, Lexi.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Is there something wrong? Did you hurt yourself?
+    global_crew_science_officer: Oh, it's nothing. I'm just getting over some inflammation of the soft tissues of the mouth.
+    global_crew_science_officer: It was dramatic, but ultimately non-threatening.
+    Hero: I... what?
+    global_crew_science_officer: Have you ever heard of the lick test?
+    global_crew_science_officer: Back before scanners were portable, earth scientists would employ this test in the field.
+    global_crew_science_officer: They used it to tell rocks from fossils, and get a basic idea of their mineral composition.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Sounds stupid. And kind of dangerous.
+        global_crew_science_officer: A quick dab with the tongue. It was considered generally safe.
+        Hero: On Earth.
+        global_crew_science_officer: {i}(Sighs.){/i} I was distracted, and forgot it was a Heleus rock. I do it unconsciously.
+        global_crew_science_officer: When I was little, my father and I would go on "expeditions." The lick test was a huge part of it.
+        global_crew_science_officer: He made science fun for me. Your mother was something of a scientist, wasn't she?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: She specialized in biotics research. Got her start in medicine.
+            global_crew_science_officer: I read all about her research. And your father's. AI and implants. They achieved so much in so little time.
+            global_crew_science_officer: SAM is an astounding achievement.
+            global_crew_science_officer: I left my parents back home. They told me they were proud of me, and then lived out their lives while I slept.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: We all knew that would happen. That we'd wake up and everything we knew would be gone.
+                global_crew_science_officer: I knew it. Living through it is different.
+                global_crew_science_officer: Thank you for the chat, Ryder. I appreciate it.
+                Hero: Anytime.
+            ├ option 2:
+                Hero: If I were them, I'd be proud too. You came here for the sake of science.
+                Hero: That takes courage. Some crazy, but mostly courage. I'm sure they knew that.
+                global_crew_science_officer: {i}(Chuckles.){/i}
+                global_crew_science_officer: Thank you, Ryder. I needed that.
+                ↩ (goto) Hero: Anytime.
+            ├ option 3:
+                Hero ⟨cond⟩: If you think that means you're alone, you're wrong.
+                global_crew_science_officer: Thank you. You saying that means the world to me.
+                global_crew_science_officer: I'll take comfort in the people I've met here. And if you ever need me, I'm here for you too.
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: She was—and so much more. She could do anything. When they said she was dying, it just didn't make sense.
+            global_crew_science_officer: I'm sorry. I hope it helps to know that what she and your father achieved with SAM is truly astounding.
+            Hero: Thank you.
+            ↩ (goto) global_crew_science_officer: [empty]
+        ├ option 3:
+            Hero ⟨cond⟩: She was. It's still difficult to talk about her. We all took her passing hard.
+            ↩ (goto) global_crew_science_officer: I'm sorry. I hope it helps to know that what she and your father achieved with SAM is truly astounding.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Heh. You licked a rock, didn't you?
+        ↩ (goto) global_crew_science_officer: {i}(Sighs.){/i} I was distracted, and forgot it was a Heleus rock. I do it unconsciously.
+    └─ merge ─┘
+├ option 2:
+    Hero: Lexi and her rules, huh?
+    global_crew_science_officer: Hey, I respect Lexi and her rules! She takes care of us.
+    global_crew_science_officer: Without her, I might still be wheezing and trying not to choke on my fat tongue.
+    ↩ (goto) Hero: I... what?
+└─ merge ─┘

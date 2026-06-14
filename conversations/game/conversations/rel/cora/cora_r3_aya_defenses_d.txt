@@ -1,0 +1,108 @@
+# game/conversations/rel/cora/cora_r3_aya_defenses_d
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/rel/cora/cora_r3_aya_defenses_d.xml
+==================================================
+Narration: Cora is restless.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Keep thinking about the kett. What they do.
+    global_squad_female_human: What's worse than slavery? Being exalted into killing your own people—and not caring.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's too late for the exalted. We can't let feelings get in the way.
+        global_squad_female_human: That's what gets me. The exalted aren't converts. They're kett.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: This is really getting to you.
+            global_squad_female_human: Kandros wants strategies for handling the kett.
+            global_squad_female_human: I talked with Drack, putting ideas together. Expand our guerrilla tactics, get angaran military advisors. Research exaltation...
+            global_squad_female_human: Just... I don't know. {i}(Sighs.){/i} Wish your dad could give me his take.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: We've got this. We're back-to-back, shoulder-to-shoulder... or wherever you like.
+                global_squad_female_human: Nothing fazes you, does it? You always bounce back. Smiling that smile.
+                global_squad_female_human: Like you know it's just what I need.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: I'm pretty smart. Maybe I figured out something that made you happy.
+                    global_squad_female_human: And sweet, too. What's a girl to do?
+                    global_squad_female_human: {i}(Sighs.){/i} I wish this could fix everything.
+                    global_squad_female_human: Nisira, your father... they always had a plan I could follow. Without one, it's too easy for people to get hurt.
+                    global_squad_female_human: Like now. The Initiative's plans are shot, and people die because of it.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: We're flying blind. It'll take years to put all the pieces back together.
+                        global_squad_female_human: Our biggest headache is the kett. Work goes on, I guess.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_female_human ⟨cond⟩: Sarissa will have a strategy. Just need to find her and the other asari.
+                            global_squad_female_human: It'll be good to have certainty again.
+                        ├ option 2:
+                            global_squad_female_human: The asari will have answers. Once we find their ark.
+                            ↩ (goto) global_squad_female_human: It'll be good to have certainty again.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: We're facing challenges we could never have prepared for.
+                        global_squad_female_human: At least now we can prepare to fight the kett.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: Sarissa will have a strategy. Just need to find her and the other asari.
+                        ├ option 2:
+                            ↩ (goto) global_squad_female_human: The asari will have answers. Once we find their ark.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: You're important to me. Is that so strange?
+                    ↩ (goto) global_squad_female_human: And sweet, too. What's a girl to do?
+                ├ option 3:
+                    Hero: You keep me grounded and focused. That's what {i}I{/i} need. We match.
+                    global_squad_female_human: Us against Heleus? Good odds.
+                    ↩ (goto) global_squad_female_human: {i}(Sighs.){/i} I wish this could fix everything.
+                ├ option 4:
+                    Hero: It's just so fun to see all that professionalism crack.
+                    global_squad_female_human: Keep pushing, handsome. We'll see who cracks first.
+                    ↩ (goto) global_squad_female_human: {i}(Sighs.){/i} I wish this could fix everything.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: If his experience fell through, he always had smarts to fall back on.
+                global_squad_female_human: And now...
+                ↩ (goto) global_squad_female_human: Nisira, your father... they always had a plan I could follow. Without one, it's too easy for people to get hurt.
+            ├ option 3:
+                Hero: Why? This all looks fine to me.
+                ↩ (goto) global_squad_female_human: Nisira, your father... they always had a plan I could follow. Without one, it's too easy for people to get hurt.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You're pretty worked up about this.
+            ↩ (goto) global_squad_female_human: Kandros wants strategies for handling the kett.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's what Jaal faces every day, now that we know the truth.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: I don't know how he handles it. Or if I could.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero ⟨cond⟩: This is really getting to you.
+            ├ option 2:
+                ↩ (goto) Hero: You're pretty worked up about this.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human: Friends. Neighbors. All changed. And they're {i}loyal{/i} to what changed them.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero ⟨cond⟩: This is really getting to you.
+            ├ option 2:
+                ↩ (goto) Hero: You're pretty worked up about this.
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: They aren't just conquerors. Or slavers. The kett turn everything you are to their advantage.
+    global_squad_female_human: Worst kind of enemy—the one that makes you fight your own people.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: It's too late for the exalted. We can't let feelings get in the way.
+    ├ option 2:
+        ↩ (goto) Hero: That's what Jaal faces every day, now that we know the truth.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,62 @@
+# game/conversations/unc_ice/ice_bridges_0100_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_bridges_0100_banter_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Kett! By the bridge!
+    Hero: Where there's kett, there's trouble. We have to deal with this.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Look! Kett!
+    ↩ (goto) Hero: Where there's kett, there's trouble. We have to deal with this.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Kett on the bridge!
+    ↩ (goto) Hero: Where there's kett, there's trouble. We have to deal with this.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Kett on the bridge!
+    ↩ (goto) Hero: Where there's kett, there's trouble. We have to deal with this.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Kett on the bridge!
+    ↩ (goto) Hero: Where there's kett, there's trouble. We have to deal with this.
+└─ merge ─┘
+Hero: They were carrying explosives. And this looks like... some kind of kett detonator? What were they doing?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: I don't like the sound of that. I want to search the area.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Maybe we should look around.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: We should investigate.
+├ option 4:
+    global_squad_turian ⟨cond⟩: I say we search the area.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Doesn't sound good. We should investigate.
+└─ merge ─┘
+Hero: I think there's something here.
+Hero: Those kett definitely planned to destroy the bridge.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They were probably waiting to hit Resistance. Or traveling civilians.
+    SAM: There could be more explosives, Pathfinder. Might I suggest finding and disarming them all?
+├ option 2:
+    ↩ (goto) SAM: There could be more explosives, Pathfinder. Might I suggest finding and disarming them all?
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero: Got one.
+├ option 2:
+    Hero: That's taken care of.
+├ option 3:
+    Hero: One more down.
+├ option 4:
+    Hero: Easy.
+├ option 5:
+    Hero: Steady hands.
+└─ merge ─┘
+Hero: I think that's all of them.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Thank you, Ryder. That will make travel through this area much safer.
+├ option 2:
+    Hero: That should make things much safer for the angara.
+└─ merge ─┘

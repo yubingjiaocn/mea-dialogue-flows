@@ -1,0 +1,122 @@
+# Game/Conversations/Loyalty/Loy_Ang/loy_ang_0500_reunion_m
+# Primary speaker: Narration
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0500_reunion_m.xml
+==================================================
+Narration: As Ryder and team come around a corner, they are jumped by gunfire from a nest above.
+Narration: They duck into cover.
+loy_ang_jaal_cuz3: Intruders have reached the nest.
+loy_ang_jaal_cuz2: I count three.
+global_squad_angara: Wait.
+global_squad_angara: I know those voices.
+loy_ang_jaal_cuz3: Lathoul, go for backup.
+global_squad_angara: Lathoul! Wait! Stop! ⏎
+loy_ang_jaal_cuz2: It's Jaal! Jaal, is that you?
+Narration: Jaal rises from behind cover and walks towards his cousins.
+Narration: They jump down from their perches.
+Narration: Berransh leaps down and runs toward Jaal, arms open.
+Narration: Jaal pulls back and punches him.
+Narration: He punches him again.
+Narration: As Baranjj pulls back to punch Jaal, Jaal embraces him.
+global_squad_angara: {i}(Chuckles.){/i}
+global_squad_angara: {i}(Chuckles.){/i}
+Narration: They separate. All have come to this same spot now.
+global_squad_angara: Baranjj. Our mothers sent me.
+loy_ang_jaal_cuz2: All of them?
+Narration: The three take this in.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    loy_ang_jaal_cuz3 ⟨cond⟩: Did our mothers send this human, too?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm Ryder. Pathfinder with the Initiative.
+        loy_ang_jaal_cuz3: I should kill you right now.
+        global_squad_angara: Teviint... please.
+        Narration: Teviint turns to Lathoul and shoves him hard in the chest as she walks by. Standing down.
+        loy_ang_jaal_cuz2: Why'd they send you?
+        global_squad_angara: Because we've lost enough to the kett. They're afraid to lose you to this insane cause.
+        Narration: Taviit and Baraash begin to shout objections. Jaal interrupts.
+        loy_ang_jaal_cuz2: But Jaal!
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: I want you to meet my friend, Sara. So you can see that Akksul is wrong.
+            Narration: Jaal moves to Ryder and roughly embraces him/her or slaps on back or something.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Trust me, we have as much to give you as you have to give us. We all win.
+                loy_ang_jaal_cuz2: Who cares?
+                loy_ang_jaal_cuz3: The angara don't want anything you have.
+                loy_ang_jaal_cuz2: We don't need you.
+                loy_ang_jaal_cuz3: Jaal, our mothers want us to live truthfully.
+                loy_ang_jaal_cuz2: It's because I love my mother that I will die for this cause.
+                Narration: Lathoul springs into action, unable to remain silent.
+                loy_ang_jaal_cuz1: Akksul is going to blow this place up.
+                loy_ang_jaal_cuz3: Lathoul!
+                loy_ang_jaal_cuz1: That's why he sent the researchers away!
+                loy_ang_jaal_cuz1: He has bombs.
+                loy_ang_jaal_cuz3: Stop. Talking.
+                loy_ang_jaal_cuz1: Stolen from your people.
+                Hero: Those bombs go off, it'll look like the Initiative did it.
+                global_squad_angara: We have to disarm them.
+                loy_ang_jaal_cuz1: I'll take you—{i}(Pained shout.){/i}
+                Narration: Shot rings out. Lathoul slumps, shot by Teviint. Horrified by what she's done in the heat of the moment, Teviint and Baranjj run off.
+                Narration: Jaal cries out and lunges in Teviint's direction. Lathoul stops him.
+                global_squad_angara: Teviint!
+                loy_ang_jaal_cuz1: No, no, no—the bombs. In the Forge. I'm okay, Jaal. I'll be fine.
+                Narration: Lathoul looks to Ryder.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: If he pins this explosion on the Initiative, this gets bad. Really, really bad.
+                    Narration: Lathoul looks up at Ryder, worried.
+                    loy_ang_jaal_cuz1: I hate Akksul—don't let him win.
+                    Hero: You got it.
+                    global_squad_angara: I'm glad you're here.
+                ├ option 2:
+                    Hero: You gonna make it?
+                    Narration: He nods, injured.
+                    ↩ (goto) loy_ang_jaal_cuz1: I hate Akksul—don't let him win.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: We need to work together against the kett. We're here to stay. I want to get along.
+                Narration: This next section goes very quickly. They are almost talking over each other building to a breaking point for Lathoul.
+                ↩ (goto) loy_ang_jaal_cuz2: Who cares?
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara ⟨cond⟩: I want you to meet my friend, Scott. So you can see that Akksul is wrong.
+            ↩ (goto) Narration: Jaal moves to Ryder and roughly embraces him/her or slaps on back or something.
+        ├ option 3:
+            global_squad_angara: I want you to meet my friend. So you can see that Akksul is wrong.
+            ↩ (goto) Narration: Jaal moves to Ryder and roughly embraces him/her or slaps on back or something.
+        ├ option 4:
+            global_squad_angara: I want you to meet my friend. So you can see that Akksul is wrong.
+            ↩ (goto) Narration: Jaal moves to Ryder and roughly embraces him/her or slaps on back or something.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Jaal, you didn't tell me your sister was such a badass.
+        loy_ang_jaal_cuz3: Your people are a joke.
+        Narration: She squints, sizing Ryder up. Scoffs and walks away.
+        ↩ (goto) loy_ang_jaal_cuz2: Why'd they send you?
+    └─ merge ─┘
+├ option 2:
+    loy_ang_jaal_cuz3: Did our mothers send this human, too?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: I'm Ryder. Pathfinder with the Initiative.
+    ├ option 2:
+        ↩ (goto) Hero: Jaal, you didn't tell me your sister was such a badass.
+    └─ merge ─┘
+└─ merge ─┘
+Narration: Play Animatic?
+┌─ BRANCH (2) ─┐
+├ option 1:
+├ option 2:
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_angara: DNR-- Exertion -- StringId 217777
+├ option 2:
+    global_squad_angara: DNR-- Exertion -- StringId 217776
+├ option 3:
+    global_squad_angara: DNR-- Exertion -- StringId 217774
+├ option 4:
+    global_squad_angara: DNR-- Exertion -- StringId 217778
+└─ merge ─┘

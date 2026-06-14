@@ -1,0 +1,88 @@
+# game/conversations/unc_dunes/dune_0199_krg_guards_i
+# Primary speaker: dune_colony_guard01
+# Source: game/conversations/unc_dunes/dune_0199_krg_guards_i.xml
+==================================================
+dune_colony_guard02: Move along. No outsiders.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: She's with me. Human Pathfinder.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        dune_colony_guard01 ⟨cond⟩: Drack. It's been a while.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
+            dune_colony_guard02: So now Strux is friends with the Nexus. Traitor.
+            global_squad_krogan: Think I'm a traitor too?
+            dune_colony_guard01: Shut it, Brek.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Don't make me headbutt you. I absolutely will.
+                dune_colony_guard02: Hmph. Tougher than you look. All right. Go ahead.
+                dune_colony_guard01: I'll spread the word so Morda knows you're here.
+                global_squad_krogan: Good.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_krogan ⟨cond⟩: I'll see you inside, Ryder. Gonna have a few more words with this pair first.
+                ├ option 2:
+                    ↩ (goto) dune_colony_guard01: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I'm not here to step on any toes. I can help you guys out.
+                dune_colony_guard01: You assume we need help.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_krogan ⟨cond⟩: Hey. You guys did your job. Now stand down and let them in.
+                    dune_colony_guard02: But Drack...
+                    dune_colony_guard01: Didn't I tell you to shut up?
+                    ↩ (goto) dune_colony_guard01: I'll spread the word so Morda knows you're here.
+                ├ option 2:
+                    global_squad_krogan: Hey. You guys did your job. Now stand down and let them in.
+                    ↩ (goto) dune_colony_guard02: But Drack...
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Name's Ryder. Drack's been running with us since we met on Eos.
+            dune_colony_guard02: Nexus send you begging us to come back?
+            ↩ (goto) dune_colony_guard01: Shut it, Brek.
+        └─ merge ─┘
+    ├ option 2:
+        dune_colony_guard02 ⟨cond⟩: The one you were telling us about?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
+        ├ option 2:
+            ↩ (goto) Hero: Name's Ryder. Drack's been running with us since we met on Eos.
+        └─ merge ─┘
+    ├ option 3:
+        dune_colony_guard02: The one you were telling us about?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Jorgal Strux sent me. I'm supposed to talk with Morda.
+        ├ option 2:
+            ↩ (goto) Hero: Name's Ryder. Drack's been running with us since we met on Eos.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan: He's with me. Human Pathfinder.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) dune_colony_guard01 ⟨cond⟩: Drack. It's been a while.
+    ├ option 2:
+        ↩ (goto) dune_colony_guard02 ⟨cond⟩: The one you were telling us about?
+    ├ option 3:
+        ↩ (goto) dune_colony_guard02: The one you were telling us about?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    dune_colony_guard02: Hmph. Tougher than you look. All right. Go ahead.
+├ option 2:
+    dune_colony_guard01: You have a reason to be here?
+├ option 3:
+    dune_colony_guard01: But I can't think of a reason to stop you, so you're free to go in.
+    dune_colony_guard02: Big mistake.
+    dune_colony_guard01: Piss anyone off, you're on your own.
+├ option 4:
+    Hero: I'm a Pathfinder. Just visiting.
+└─ merge ─┘

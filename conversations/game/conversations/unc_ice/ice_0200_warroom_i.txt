@@ -1,0 +1,74 @@
+# game/conversations/unc_ice/ice_0200_warroom_i
+# Primary speaker: ice_intelofficerkaas
+# Source: game/conversations/unc_ice/ice_0200_warroom_i.xml
+==================================================
+ice_intelofficerkaas [OncePerGame]: Pathfinder. I was told to expect you. Davja Kaas, Chief Intelligence Officer.
+ice_intelofficerkaas: I'm to brief you on Voeld. Any questions about the planet? Ask away.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: Is that a map of Voeld?
+    ice_intelofficerkaas: A living map, yes. Every region on the planet is represented.
+    ice_intelofficerkaas: Updated in real time as we get information from scouts and contacts.
+    ice_intelofficerkaas: You can see the nearest daara. Hjara, Techiix. And Ja Niihk, the archaeological dig the kett have occupied.
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        Hero: The bright spots on the map—are those cities?
+        ice_intelofficerkaas: Cities under siege by the kett, yes. The largest, Estraaja, was our capital.
+        Hero: Was?
+        ice_intelofficerkaas: It's hard to think of a city as a capital when it's just a maze of empty streets and burned-out buildings.
+        ice_intelofficerkaas: But buildings can be rebuilt. We are more than our cities.
+        ↩ (goto) ice_intelofficerkaas: [empty]
+    ├ option 2:
+        Hero: How does the Resistance plan to win this war?
+        ice_intelofficerkaas: We don't have the forces to fight a planetwide war. Our only hope is a strategic strike.
+        ice_intelofficerkaas: The center of all kett operations on Voeld is across the valley. If we take down their command structure, it will weaken them.
+        ice_intelofficerkaas: At least, that is our hope.
+        ↩ (goto) ice_intelofficerkaas: [empty]
+    ├ option 3:
+        Hero ⟨cond⟩: Tell me more about Estraaja.
+        ice_intelofficerkaas: It's the recent focus of kett attacks. They think they can break our spirit by tearing down our walls.
+        ice_intelofficerkaas: The kett learned that we fight to the death, and they would rather we submit.
+        ice_intelofficerkaas: So they destroy our daara, our homes. They drive us into the cold and expect us to give in.
+        ice_intelofficerkaas: They underestimate the angara.
+        ↩ (goto) ice_intelofficerkaas: [empty]
+    ├ option 4:
+        Hero ⟨cond⟩: You mentioned the word 'daar.' What does it mean?
+        ice_intelofficerkaas: Translated directly, it means "rock foundation." A daar is smaller than a city, but larger than a settlement.
+        ice_intelofficerkaas: There are several out here. Angara who live in daara are combat-trained, ready for anything.
+        Hero: I guess they'd need to be.
+        ice_intelofficerkaas: They take pride in defending themselves, but the kett are bolder lately.
+        ice_intelofficerkaas: The daara are their new target. We've had to change our tactics to protect them.
+        ice_intelofficerkaas: More patrols for the daara means fewer raids on kett camps. The kett know this, and use it against us.
+        ↩ (goto) ice_intelofficerkaas: [empty]
+    ├ option 5:
+        Hero ⟨cond⟩ [OncePerGame]: A few... treasure hunters found this map of ancient Voeld. They wanted you to have it.
+        ice_intelofficerkaas: We thought we'd lost this when the daar burned. Look at that detail...
+        ice_intelofficerkaas: With this map, we could plan attacks through old trade routes. Ones even the kett don't know about.
+        ice_intelofficerkaas: Whoever gave this to you deserves our thanks. As do you.
+        ↩ (goto) ice_intelofficerkaas: [empty]
+    ├ option 6:
+        Hero ⟨cond⟩: We found Talvor out in the field. He didn't make it.
+        ice_intelofficerkaas: I see... that would explain why my comms didn't reach him. And why our data mines went dark.
+        Hero: Here. His datapad was intact. It should have everything you need.
+        ice_intelofficerkaas: That's Talvor. Always thinking ahead, even at his end. He was a good man.
+        ice_intelofficerkaas: Thank you, Pathfinder.
+        ↩ (goto) ice_intelofficerkaas: [empty]
+    ├ option 7:
+        Hero: I think I have enough info.
+        ice_intelofficerkaas: If you need anything else, I'll be here.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: How does the Resistance plan to win this war?
+├ option 3:
+    ↩ (goto) Hero ⟨cond⟩: Tell me more about Estraaja.
+├ option 4:
+    ↩ (goto) Hero ⟨cond⟩: You mentioned the word 'daar.' What does it mean?
+├ option 5:
+    ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: A few... treasure hunters found this map of ancient Voeld. They wanted you to have it.
+├ option 6:
+    ↩ (goto) Hero ⟨cond⟩: We found Talvor out in the field. He didn't make it.
+├ option 7:
+    ↩ (goto) Hero: I think I have enough info.
+└─ merge ─┘
+ice_intelofficerkaas: You have questions?
+↩ (goto) ice_intelofficerkaas: [empty]

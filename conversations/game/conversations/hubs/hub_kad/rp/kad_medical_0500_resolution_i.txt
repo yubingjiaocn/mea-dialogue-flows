@@ -1,0 +1,44 @@
+# game/conversations/hubs/hub_kad/rp/kad_medical_0500_resolution_i
+# Primary speaker: kad_doctor
+# Source: game/conversations/hubs/hub_kad/rp/kad_medical_0500_resolution_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: You lied to me, doctor.
+    kad_doctor: What?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Had an interesting chat with your old coworker, Dr. Farenth.
+        kad_doctor: Arenna's not a doctor—she's one of Sloane's dealers. What did she tell you?
+        Hero: That you created Oblivion together. That it was always meant to be a drug.
+        kad_doctor: And you took her word over mine.
+        Hero: She was very convincing.
+        kad_doctor: More than I was, apparently. By now, Arenna's taken the formula underground. We'll never find it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm sorry for doubting you, Dr. Nakamoto.
+            kad_doctor: It's done now.
+            kad_doctor: I never should've let you get involved. Please, just go.
+        ├ option 2:
+            Hero: Sloane would have killed her if I took the formula. I couldn't risk it.
+            kad_doctor: Sloane doesn't murder her own people! She has {i}some{/i} standards.
+            ↩ (goto) kad_doctor: I never should've let you get involved. Please, just go.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Drop the act. Dr. Farenth told me everything.
+        ↩ (goto) kad_doctor: Arenna's not a doctor—she's one of Sloane's dealers. What did she tell you?
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Good news, doctor! Got your formula.
+    kad_doctor: You have no idea what this means to me.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It was nothing.
+        kad_doctor: I couldn't sleep, knowing I was responsible... but it's safe now. Thank you, Pathfinder.
+    ├ option 2:
+        Hero: One of your old coworkers—Dr. Farenth—claimed she helped you create Oblivion. That it was always meant to be a drug.
+        kad_doctor: That's a lie! Arenna's not even a doctor.
+        Hero: Figured as much. You've only shown yourself to be a decent man.
+        kad_doctor: Thank you, Pathfinder. I won't forget this.
+    └─ merge ─┘
+└─ merge ─┘

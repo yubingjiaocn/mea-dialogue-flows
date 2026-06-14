@@ -1,0 +1,101 @@
+# game/conversations/unc_dunes/dune_0213_q1_morda_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0213_q1_morda_banter_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Morda's a hard-ass, but that surprised even me. Not good.
+    Hero: Yeah. Maybe...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: She plainly said the Nexus will pay.
+            Hero: Let's talk to Brenk before we freak out.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: "The Initiative will pay." She said that, right? I didn't imagine it.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: She was super clear about us paying—she said we'd pay.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: She said "the Initiative will pay." That's us. That's scary.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: She said we'd pay. I'm not gonna lie, I'm worried.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: She didn't contradict your mention of action against the Nexus.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: She didn't even flinch when you mentioned action against the Nexus.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: You called out action against the Nexus and she said nothing.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: You mentioned action against the Nexus and she didn't say no.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: She didn't even blink when you called out action against the Nexus.
+            ↩ (goto) Hero: Let's talk to Brenk before we freak out.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: She's charming—plus she just confirmed our worst fears.
+    ↩ (goto) Hero: Yeah. Maybe...
+├ option 3:
+    global_squad_turian ⟨cond⟩: Morda certainly lives up to her reputation. The Nexus is in danger.
+    ↩ (goto) Hero: Yeah. Maybe...
+├ option 4:
+    global_squad_asari ⟨cond⟩: Yikes. That confirmed our worst fears.
+    ↩ (goto) Hero: Yeah. Maybe...
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Krogan diplomacy is an oxymoron. This is serious.
+    ↩ (goto) Hero: Yeah. Maybe...
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Did that krogan just call me rude? Seriously? A krogan?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: He did. Was that more important than the thing about the bomb?
+        Hero: No, I know. Let's go see about that drive core.
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Is that what you got from that conversation?
+        ↩ (goto) Hero: No, I know. Let's go see about that drive core.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Is that your take-away from that conversation?
+        ↩ (goto) Hero: No, I know. Let's go see about that drive core.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Is that your take-away from that conversation?
+        ↩ (goto) Hero: No, I know. Let's go see about that drive core.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: I think a rude krogan is the least of our worries.
+        ↩ (goto) Hero: No, I know. Let's go see about that drive core.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Well, shit. A bomb?
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: A bomb against her own people? Not good.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: A bomb. I hate bombs. Shit!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: A bomb? He did say bomb, right?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: A bomb? A frickin' bomb?
+    ├ option 6:
+        Hero: Seems like Morda has the clans stacked against her.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Morda's one of the good ones, I swear.
+        ├ option 2:
+            Hero: Better go see about that drive core.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

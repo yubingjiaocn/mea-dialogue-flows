@@ -1,0 +1,267 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0350_plants_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0350_plants_b.xml
+==================================================
+┌─ BRANCH (30) ─┐
+├ option 1:
+    Hero: Will you look at that.
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Nowhere to go but down.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: How do we get across?
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: No ramps in here. Maybe it's "Observers only."
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: That did it.
+        Hero: Watch your step. It's still a long drop.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Looks like they didn't want anyone getting through here easy.
+        ↩ (goto) Hero: Watch your step. It's still a long drop.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Not like those Observers need a solid floor...
+        ↩ (goto) Hero: Watch your step. It's still a long drop.
+    └─ merge ─┘
+├ option 4:
+    Hero: It made a new path.
+    Hero: I think that's the right way. We could reach it if we backtrack.
+├ option 5:
+    global_squad_asari: [Comm] Ryder, I think I got it! This relic is some kind of data storage device.
+    Hero: What's on it?
+    global_squad_asari: [Comm] Give me a chance. I'll need my notes back on the surface to really crack it.
+    global_squad_asari: [Comm] But just imagine if it has one of those data patterns {i}intact{/i}. Think what mysteries we could solve.
+├ option 6:
+    Hero: Wait. Plants? All the way down here?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: You see them too? Thought all the gravity fun had messed up my eyes.
+        Hero: No sunlight. No water. They should all be dead.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: The planet's a wasteland, but maybe they're just hardy?
+            SAM: The source of the system lockdown may yield more information. We appear to be close.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Depends. Tuchanka spur-vines sprout anywhere.
+            ↩ (goto) SAM: The source of the system lockdown may yield more information. We appear to be close.
+        ├ option 3:
+            ↩ (goto) SAM: The source of the system lockdown may yield more information. We appear to be close.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: That's... strange.
+        ↩ (goto) Hero: No sunlight. No water. They should all be dead.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Maybe someone thought the place needed decorating.
+        ↩ (goto) Hero: No sunlight. No water. They should all be dead.
+    └─ merge ─┘
+├ option 7:
+    Hero: It {i}looks{/i} stable... Everyone watch your landing.
+├ option 8:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: You know how to show us a good time, Ryder.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Glad I didn't eat a big breakfast.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: If this doesn't test-fly the jump-jets, nothing will.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: I'm starting to get the hang of this.
+        └─ merge ─┘
+    ├ option 2:
+        SAM: Armor hydraulics compensating.
+    ├ option 3:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Oops. That bit's slippery.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Uh! No, I'm okay.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Ah, almost lost my footing.
+        └─ merge ─┘
+    ├ option 4:
+        Hero: We're two gravity wells down already, and this place goes even deeper.
+        Hero: What's at the bottom?
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Let's not find out the hard way.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Angry bots. Just a guess.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: If there is a bottom. Who says it doesn't go down to the core?
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: We've got to leave something for the next trip.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 9:
+    Hero: Too far, even for jump-jets.
+├ option 10:
+    Hero: Now where does that go?
+├ option 11:
+    Hero: Look at all those data patterns. It's practically a library.
+    global_squad_asari: [Comm] You're kidding.
+    Hero: I'm looking at it right now.
+    global_squad_asari: [Comm] And I went the other way. Crap. I'd kill to be standing where you are.
+├ option 12:
+    SAM: Severe data corruption detected.
+    Hero: Is there anything left?
+    SAM: A possible reference to Eos, and a term that could translate to "craft," "discovery," or "edifice."
+├ option 13:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        SAM [OncePerGame]: Severe data corruption. Unable to recover information.
+    ├ option 2:
+        SAM [OncePerGame]: Data recovered. A phrase that seems analogous to "atmospheric conditions."
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Atmosphere again.
+            Hero: We're on the right track.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: "Atmospheric." As in, processor.
+            ↩ (goto) Hero: We're on the right track.
+        ├ option 3:
+            global_squad_krogan ⟨cond⟩: Atmosphere. Just what we're after.
+            ↩ (goto) Hero: We're on the right track.
+        └─ merge ─┘
+    ├ option 3:
+        SAM [OncePerGame]: Data recovered. These fragments appear to be from system reports generated by the vault.
+        SAM: However, I do not recognize most of the systems described.
+    ├ option 4:
+        SAM [OncePerGame]: Data corruption. Unable to translate.
+    ├ option 5:
+        SAM [OncePerGame]: Data corruption. Approximating a translation of surviving terms.
+        Hero: "Protocol." "Disengage." "Verdurous..." Verdurous?
+        global_squad_asari: [Comm] {i}(Sighs.){/i} So many answers, right there, and no way to reach them.
+    └─ merge ─┘
+├ option 14:
+    Hero: Interesting, but I think we're missing something.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Let's look around.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Let's look around.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Let's look around.
+    └─ merge ─┘
+├ option 15:
+    SAM: Glyph recovered.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I don't see anywhere to use it.
+    ├ option 2:
+        Hero: It would work in that grid, but we're still one short.
+    └─ merge ─┘
+├ option 16:
+    Hero: Another glyph with nowhere to go.
+├ option 17:
+    Hero: Another glyph. Let's look at that grid again.
+├ option 18:
+    Hero: Got it!
+├ option 19:
+    Hero: Looks like a side room. Still, could be anything in here.
+├ option 20:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Oh, great.
+        Hero: It'll be fine.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Oh. Ha. Nope.
+        ↩ (goto) Hero: It'll be fine.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Uh. Could we not?
+        ↩ (goto) Hero: It'll be fine.
+    └─ merge ─┘
+├ option 21:
+    Hero: We're all good.
+├ option 22:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Hate this. Hate it.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: They're—no. Just the light.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Damn it, Ryder.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Not moving... it's just your eyes...
+    └─ merge ─┘
+├ option 23:
+    Hero: See? Absolutely fine.
+├ option 24:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Ah! Damn it!
+        Hero: It's okay. It's fine.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Knew it. Phew. Come on.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: I hate this place.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Stop saying fine! Let's just get out of here.
+        ├ option 4:
+            global_squad_female_human ⟨cond⟩: Yeah. Sure. Great.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Oh crap!
+        ↩ (goto) Hero: It's okay. It's fine.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Gah!
+        ↩ (goto) Hero: It's okay. It's fine.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Shit!
+        ↩ (goto) Hero: It's okay. It's fine.
+    └─ merge ─┘
+├ option 25:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Now that is cool!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Well, this is a first. Even for me...
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Come to Andromeda. Walk on air.
+    └─ merge ─┘
+├ option 26:
+    Hero: Sealed off. I don't think we can burn through that.
+├ option 27:
+    SAM: All conduits converge here, Pathfinder.
+    Hero: That must be the lockdown console.
+├ option 28:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: We're right in the heart of this place.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: {i}(Shivers.){/i} The back of my neck's doing that thing.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Like a giant machine, with us in the gears.
+    └─ merge ─┘
+├ option 29:
+    Hero: Feel that? This whole platform's resonating with... something.
+    Hero: We must be close.
+├ option 30:
+    Hero: No question. This is the heart of the vault.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: I've never seen anything like it.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: I've never seen anything like it.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: I've never seen anything like it.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: {i}(Grunts.){/i} A dozen old leg breaks are coming back to haunt me.
+    Hero: War wounds?
+    global_squad_krogan: Heh. Raising kids.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Nice, a houseplant even I can't kill.
+    ↩ (goto) SAM: The source of the system lockdown may yield more information. We appear to be close.
+├ option 3:
+    SAM: The conduit appears to end at that console.
+├ option 4:
+    SAM: I'm detecting massive amounts of energy behind the door.
+└─ merge ─┘

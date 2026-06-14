@@ -1,0 +1,39 @@
+# game/conversations/unc_dunes/dune_0201_krg_guards01_a
+# Primary speaker: dune_colony_guard01
+# Source: game/conversations/unc_dunes/dune_0201_krg_guards01_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_guard02 [OncePerGame]: Where do you think you're going?
+├ option 2:
+    dune_colony_guard02: Turn around, human.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_guard01 [OncePerGame]: Welcome back, Drack.
+    global_squad_krogan: Keep up the good work, kid.
+├ option 2:
+    dune_colony_guard01: Drack.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    dune_colony_guard01: Just keeping an eye out.
+├ option 2:
+    dune_colony_guard01: Don't look for trouble, and there won't be no trouble.
+├ option 3:
+    dune_colony_guard01: Pathfinder.
+├ option 4:
+    dune_colony_guard01 [OncePerGame]: Make sure your people watch themselves, Pathfinder.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Absolutely.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Best behavior! Promise!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Hey, not looking to piss anyone off.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Of course.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Me? Misbehave? Never.
+    └─ merge ─┘
+└─ merge ─┘

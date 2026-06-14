@@ -1,0 +1,50 @@
+# game/conversations/bstory/tur/tur_0600_lun_log_02_d
+# Primary speaker: global_turian_pathfinder_multi
+# Source: game/conversations/bstory/tur/tur_0600_lun_log_02_d.xml
+==================================================
+global_turian_pathfinder_multi: There's still life in this one.
+Narration: Ryder interacts with the console. We hear a turian's voice amid static.
+tur_orig_pathfinder: [Audio Log] SA... SAM. How—
+global_turian_pathfinder_multi: Macen!
+Narration: It cuts out.
+global_turian_pathfinder_multi: Bring it back!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: SAM, help me out.
+    SAM: Like the previous log, the video data is corrupt.
+    global_turian_pathfinder_multi: What about audio?
+    SAM: Repairing now. One moment, please.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We're going to find him, Avitus.
+        global_turian_pathfinder_multi: Macen. He's... more than the Pathfinder to me.
+        SAM: Playing audio now.
+        tur_orig_pathfinder: [Audio Log] SAM. How far to Avi's pod?
+        tur_SAM: [Audio Log] 300 meters.
+        tur_orig_pathfinder: [Audio Log] An easy stroll, then.
+        Narration: We hear a thump—a blast knocked Macen to the ground.
+        tur_orig_pathfinder: [Audio Log] Damn it. Maybe not so easy.
+        Narration: We hear static then the log goes dead.
+        global_turian_pathfinder_multi: Where's the rest of it?
+        SAM: That is all I could recover.
+        global_turian_pathfinder_multi: Damn it!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We know he survived the initial impact.
+            global_turian_pathfinder_multi: He didn't sound good.
+            Hero: Don't give up on him yet.
+        ├ option 2:
+            Hero: He was looking for your pod. Do you remember anything before waking up on Havarl?
+            global_turian_pathfinder_multi: I told you. My first memory was clawing out of my stasis pod.
+            Hero: Then we keep looking.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We need to remain objective.
+        global_turian_pathfinder_multi: I've never been objective when it comes to Macen.
+        Hero: Try. For his sake.
+        ↩ (goto) SAM: Playing audio now.
+    └─ merge ─┘
+├ option 2:
+    Hero: The video's corrupt on this one, too.
+    ↩ (goto) global_turian_pathfinder_multi: What about audio?
+└─ merge ─┘

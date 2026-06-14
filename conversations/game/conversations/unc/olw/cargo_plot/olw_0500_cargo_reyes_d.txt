@@ -1,0 +1,53 @@
+# game/conversations/unc/olw/cargo_plot/olw_0500_cargo_reyes_d
+# Primary speaker: kad_charlatan
+# Source: game/conversations/unc/olw/cargo_plot/olw_0500_cargo_reyes_d.xml
+==================================================
+kad_charlatan: It's... empty.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Guess Zia's buyer already came and went.
+    kad_charlatan: Or there was never any cargo to begin with.
+    olw_char_rival: Bravo. I knew you'd figure it out eventually.
+    Narration: Ryder and Reyes turn to see Zia.
+    kad_charlatan: Zia.
+    olw_char_rival: You never could resist a big payout.
+    kad_charlatan: What can I say? I'm a greedy man.
+    olw_char_rival: That's why you don't have any friends. You're selfish.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Reyes is a better man than you think.
+        olw_char_rival: Oh, honey. You've no idea how wrong you are. But you will.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            kad_charlatan ⟨cond⟩: Leave her out of this.
+            olw_char_rival: {i}(Chuckles.){/i} You must really like this one, Reyes.
+            kad_charlatan: Cut the shit. What's this all about?
+            olw_char_rival: You've been taking all the good jobs in Kadara.
+            olw_char_rival: It's gotten more than {i}my{/i} attention.
+            kad_charlatan: So what? The local smuggling union got together and decided to take me down?
+            olw_char_rival: Something like that.
+            Narration: Zia smirks and pulls her gun on Reyes.
+            kad_charlatan: {i}(Sighs.){/i} Shit.
+            olw_char_rival: Move in!
+        ├ option 2:
+            kad_charlatan: Leave him out of this.
+            ↩ (goto) olw_char_rival: {i}(Chuckles.){/i} You must really like this one, Reyes.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: She has you there.
+        kad_charlatan: Ouch.
+        olw_char_rival: You must be losing your touch, Reyes.
+        olw_char_rival: I remember you being such a smooth talker... right up until you dumped me.
+        kad_charlatan: Don't tell me that's what this is all about?
+        olw_char_rival: Of course not. You've been taking all the good jobs in Kadara.
+        ↩ (goto) olw_char_rival: It's gotten more than {i}my{/i} attention.
+    ├ option 3:
+        Hero: Skip the small talk. Why'd you lure Reyes here?
+        olw_char_rival: He's been taking all the good jobs in Kadara.
+        ↩ (goto) olw_char_rival: It's gotten more than {i}my{/i} attention.
+    └─ merge ─┘
+├ option 2:
+    Hero: What if this was all just some elaborate trick to get you here?
+    kad_charlatan: You mean... there was never any cargo?
+    ↩ (goto) olw_char_rival: Bravo. I knew you'd figure it out eventually.
+└─ merge ─┘

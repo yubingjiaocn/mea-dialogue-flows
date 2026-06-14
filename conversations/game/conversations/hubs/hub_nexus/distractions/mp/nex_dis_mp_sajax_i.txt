@@ -1,0 +1,34 @@
+# game/conversations/hubs/hub_nexus/distractions/mp/nex_dis_mp_sajax_i
+# Primary speaker: nex_mil_officer_01
+# Source: game/conversations/hubs/hub_nexus/distractions/mp/nex_dis_mp_sajax_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_mil_officer_01: Hey, Ryder, I'd like a moment.
+    Hero: Yes? Lieutenant Sajax, right?
+    nex_mil_officer_01: That's me. I'm putting together APEX strike teams to protect the people and assets you're setting up out there.
+    nex_mil_officer_01: We don't have a good sense of what we're up against, and could benefit from your experience.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'll have SAM upload our insights on the kett, Remnant, and outlaw forces we've encountered.
+        nex_mil_officer_01: Thanks.
+        nex_mil_officer_01: You'll see. APEX will make a difference.
+    ├ option 2:
+        Hero: There's no replacement for first-hand experience.
+        nex_mil_officer_01: I agree. But your insights on the assholes out there would really help.
+        ↩ (goto) nex_mil_officer_01: You'll see. APEX will make a difference.
+    └─ merge ─┘
+├ option 2:
+    nex_mil_officer_01: Ryder, APEX is up and running. Few casualties and some big victories.
+    nex_mil_officer_01: The teams are definitely benefiting from your intel.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Glad to hear it.
+        nex_mil_officer_01: So you know, it's not just the Pathfinder kicking ass.
+        nex_mil_officer_01: You can keep track of APEX missions at this console, anytime you like.
+    ├ option 2:
+        Hero: Tell them to be safe out there.
+        nex_mil_officer_01: Will do.
+        ↩ (goto) nex_mil_officer_01: So you know, it's not just the Pathfinder kicking ass.
+    └─ merge ─┘
+└─ merge ─┘

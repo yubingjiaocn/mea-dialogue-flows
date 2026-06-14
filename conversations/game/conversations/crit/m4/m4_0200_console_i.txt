@@ -1,0 +1,33 @@
+# game/conversations/crit/m4/m4_0200_console_i
+# Primary speaker: SAM
+# Source: game/conversations/crit/m4/m4_0200_console_i.xml
+==================================================
+SAM: Accessing the ship's systems now...
+SAM: I have located the Archon's private chamber.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Is the Archon in his quarters?
+    SAM: That information is not accessible. Only the room's location.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Is the Archon in his quarters?
+    ├ option 2:
+        Hero: What's their security situation look like?
+        SAM: An alert was issued, but I have countermanded it. The delay is only temporary.
+        Hero: Right. We need to hurry.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Is the Archon in his quarters?
+        ├ option 2:
+            ↩ (goto) Hero: What's their security situation look like?
+        ├ option 3:
+            Hero: The Moshae said the relic would be in his chamber. Let's get there.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero: The Moshae said the relic would be in his chamber. Let's get there.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: What's their security situation look like?
+├ option 3:
+    ↩ (goto) Hero: The Moshae said the relic would be in his chamber. Let's get there.
+└─ merge ─┘

@@ -1,0 +1,95 @@
+# game/conversations/unc_ice/ice_2710_frzn_city_bomb_info_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_2710_frzn_city_bomb_info_i.xml
+==================================================
+ice_angaracavecaptive_01: That's all the kett. And we... we're really free.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Can you make your way from here?
+    ice_angaracavecaptive_01: Yes. With the kett gone, I can lead the others safely back to Techiix.
+    ice_angaracavecaptive_01: I don't know how to thank you. I can tell you what I know about this place, if that would help.
+    Hero: That would help a lot.
+    ice_angaracavecaptive_01: The kett are trying to get into a room behind that wall.
+    ice_angaracavecaptive_01: Some time ago, they detected something and focused their attention on getting to it.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: That's a wall of solid ice.
+        ice_angaracavecaptive_01: The kett made us carry explosives here. They were preparing to blast through. You could do the same.
+        ice_angaracavecaptive_01: Is there anything more I can tell you? If not, I ache to see the sky again.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: What exactly is behind that wall?
+            ice_angaracavecaptive_01: I don't know. Something old. Something that excited the kett.
+            ice_angaracavecaptive_01: I thought I heard one of them ask if it was still "functional." Perhaps some sort of machine?
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: What exactly is behind that wall?
+            ├ option 2:
+                Hero: Why were you captured?
+                ice_angaracavecaptive_01: We were taken during a raid on our village. They took us to a camp, put us in groups.
+                ice_angaracavecaptive_01: And then there was... some kind of process. Blood-taking, examinations... I can't even remember all the tests.
+                ice_angaracavecaptive_01: Eventually, they split us into groups. They said my group was "flawed," or... maybe it was "unworthy."
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: Unworthy of exaltation, I assume.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: What exactly is behind that wall?
+                        ├ option 2:
+                            ↩ (goto) Hero: Why were you captured?
+                        ├ option 3:
+                            Hero: There's nothing else I need from you. Good luck.
+                            ice_angaracavecaptive_01: I hope you find what you're looking for. Be careful.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: The others must have been chosen for exaltation.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: What exactly is behind that wall?
+                        ├ option 2:
+                            ↩ (goto) Hero: Why were you captured?
+                        ├ option 3:
+                            ↩ (goto) Hero: There's nothing else I need from you. Good luck.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    ice_angaracavecaptive_01: We never saw the other group again.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: What exactly is behind that wall?
+                    ├ option 2:
+                        ↩ (goto) Hero: Why were you captured?
+                    ├ option 3:
+                        ↩ (goto) Hero: There's nothing else I need from you. Good luck.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) Hero: There's nothing else I need from you. Good luck.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: Why were you captured?
+        ├ option 3:
+            ↩ (goto) Hero: There's nothing else I need from you. Good luck.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: That's frozen solid.
+        ↩ (goto) ice_angaracavecaptive_01: The kett made us carry explosives here. They were preparing to blast through. You could do the same.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Who wants to punch through the ice?
+        ↩ (goto) ice_angaracavecaptive_01: The kett made us carry explosives here. They were preparing to blast through. You could do the same.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Well, that'll be easy to get to.
+        ↩ (goto) ice_angaracavecaptive_01: The kett made us carry explosives here. They were preparing to blast through. You could do the same.
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: That ice wall looks meters thick!
+        ↩ (goto) ice_angaracavecaptive_01: The kett made us carry explosives here. They were preparing to blast through. You could do the same.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: How? It looks like solid ice.
+        ↩ (goto) ice_angaracavecaptive_01: The kett made us carry explosives here. They were preparing to blast through. You could do the same.
+    └─ merge ─┘
+├ option 2:
+    Hero: Yep, get out of here.
+    ↩ (goto) ice_angaracavecaptive_01: I don't know how to thank you. I can tell you what I know about this place, if that would help.
+└─ merge ─┘

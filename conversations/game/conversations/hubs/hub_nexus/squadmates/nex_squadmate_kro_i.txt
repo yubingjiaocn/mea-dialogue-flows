@@ -1,0 +1,62 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_kro_i
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_kro_i.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_krogan: Ryder. Can you believe this place?
+    Hero: One space station, slightly dented?
+    global_squad_krogan: You should have seen it a year ago. It was more than just dented. Anyway, thanks for bringing me on.
+    global_squad_krogan: Tann can't kick me off the station now, and it's been nice, seeing my granddaughter again.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You really did miss her while you were gone, huh.
+        global_squad_krogan: I really did.
+        global_squad_krogan: Kesh can handle herself just fine, but it's still good to be nearby. Just in case.
+    ├ option 2:
+        Hero: The two of you seem close.
+        global_squad_krogan: It's been Kesh and me against the galaxy the moment I got her.
+        global_squad_krogan: Well, maybe not as much now, but it sure was early on.
+    └─ merge ─┘
+├ option 2:
+    Hero: You sure look thoughtful.
+    global_squad_krogan: Just thinking about the first time Kesh got her hands on a toolkit...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Care to share? I have a feeling this one will be interesting.
+        global_squad_krogan: You don't have to ask me twice.
+        global_squad_krogan: Let's see, the first time... yeah. It was our power generator. She took it apart. {i}(Laughs.){/i} With the blunt side.
+        Hero: Wouldn't that cause shorts or something?
+        global_squad_krogan: She liked the fireworks.
+        global_squad_krogan: You can imagine what it was like when she figured out that cracking open bigger things made even bigger sparks.
+    ├ option 2:
+        Hero: Master engineer from the day she was born?
+        global_squad_krogan: Quads, no! She worked hard at it.
+        ↩ (goto) global_squad_krogan: Let's see, the first time... yeah. It was our power generator. She took it apart. {i}(Laughs.){/i} With the blunt side.
+    └─ merge ─┘
+├ option 3:
+    global_squad_krogan: Hey there, Ryder. Let's keep it quiet. With all the areas of the station online now, Kesh is pretty busy.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Not too sore from that fight, I hope.
+        global_squad_krogan: {i}(Laughs.){/i} Not half as sore as those pyjaks, I'm sure.
+        global_squad_krogan: Look at her working. Isn't my granddaughter something?
+        global_squad_krogan: Without her, this station would have fallen apart before you ever got here.
+    ├ option 2:
+        Hero: I dunno, the creaking of your old bones is pretty loud. I'd be distracted.
+        global_squad_krogan: {i}(Laughs.){/i} That's why I'm not moving much. Brat.
+        ↩ (goto) global_squad_krogan: Look at her working. Isn't my granddaughter something?
+    └─ merge ─┘
+├ option 4:
+└─ merge ─┘
+global_squad_krogan: Good game. Didn't expect the thresher maw explosion you pulled. Quite a gambit.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I was a bit fuzzy on the rules, but I figured setting things on fire would work.
+    global_squad_krogan: That's the thing with this game. You make up the best rules as you go.
+    global_squad_krogan: It's what keeps things interesting.
+├ option 2:
+    Hero: The more fire, the more fun, right?
+    global_squad_krogan: {i}(Laughs.){/i} That about sums up a lot of things, kid.
+    ↩ (goto) global_squad_krogan: It's what keeps things interesting.
+└─ merge ─┘

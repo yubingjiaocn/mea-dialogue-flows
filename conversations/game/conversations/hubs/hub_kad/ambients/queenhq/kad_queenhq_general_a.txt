@@ -1,0 +1,64 @@
+# game/conversations/hubs/hub_kad/ambients/queenhq/kad_queenhq_general_a
+# Primary speaker: kad_outcast_pir_12
+# Source: game/conversations/hubs/hub_kad/ambients/queenhq/kad_queenhq_general_a.xml
+==================================================
+┌─ BRANCH (12) ─┐
+├ option 1:
+    kad_outcast_pir_09: Don't push your luck, Pathfinder.
+├ option 2:
+    kad_outcast_pir_09 ⟨cond⟩: You mess with Sloane, you mess with all of us.
+├ option 3:
+    kad_outcast_pir_09: Watch your back.
+├ option 4:
+    kad_outcast_pir_10: Try me.
+├ option 5:
+    kad_outcast_pir_10: It's good to be on top.
+├ option 6:
+    kad_outcast_pir_19: Move along, little human.
+├ option 7:
+    kad_outcast_pir_11: {i}(Whistles tune.){/i}
+├ option 8:
+    kad_outcast_pir_11: Another long night.
+├ option 9:
+    kad_outcast_pir_11: Not supposed to talk to you.
+├ option 10:
+    kad_outcast_pir_12: Ugh. My head.
+├ option 11:
+    kad_outcast_pir_12: Don't you have better things to do?
+├ option 12:
+    kad_outcast_pir_12: The supply run's tonight? Shit.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_09: Two more went missing. Kria and Bronson.
+    kad_outcast_pir_10: They're dead. And we both know who's responsible.
+    kad_outcast_pir_09: The Collective is gonna pay.
+├ option 2:
+    kad_outcast_pir_11: We shouldn't allow Collective in the port. It's a slap in the face.
+    kad_outcast_pir_12: Sloane says it's fine. Are you questioning her leadership?
+    kad_outcast_pir_11: Of course not. I just—never mind.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_09: Kaetus said we'd be compensated, but wow.
+    kad_outcast_pir_10: Sloane rewards good work. And loyalty.
+├ option 2:
+    kad_outcast_pir_11: You think Kaetus and Sloane—
+    kad_outcast_pir_12: Don't know. Don't care.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_outcast_pir_09: The krogan kicked us out. Why'd you join the Outcasts?
+    kad_outcast_pir_10: Clan Nakmor kicked you out. Not me. Sloane showed guts standing up to them.
+    kad_outcast_pir_09: So, you joined because of Sloane.
+    kad_outcast_pir_10: Didn't we all?
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_outcast_pir_11 ⟨cond⟩: A Pathfinder's here. The Nexus must know about Kadara Port. And us.
+        kad_outcast_pir_12: Good. They thought we'd die out here. I hope they see how well we've done.
+    ├ option 2:
+        kad_outcast_pir_11: A Pathfinder's here. The Nexus must know about Kadara Port. And us.
+        ↩ (goto) kad_outcast_pir_12: Good. They thought we'd die out here. I hope they see how well we've done.
+    └─ merge ─┘
+└─ merge ─┘

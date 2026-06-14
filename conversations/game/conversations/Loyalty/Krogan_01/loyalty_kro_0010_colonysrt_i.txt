@@ -1,0 +1,65 @@
+# game/conversations/loyalty/krogan_01/loyalty_kro_0010_colonysrt_i
+# Primary speaker: dune_colony_loystart
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0010_colonysrt_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    dune_colony_loystart ⟨cond⟩ [OncePerGame]: Drack! Sir! You're here!
+    global_squad_krogan: Settle down a second, Hark.
+    dune_colony_loystart: Sorry. This is just more excitement than I'm used to.
+    dune_colony_loystart: I tracked the stolen transport to one of Elaaden's moons. You need to take your ship. Nothing we've got has stealth.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Let's go.
+        dune_colony_loystart: My coordinates should drop you just close enough to sneak in.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: What are we walking into?
+            dune_colony_loystart: A group of Nexus exiles. They're hiding out in an old complex up there.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Nexus exiles. Friends of yours, Drack?
+                global_squad_krogan: We made a lot of "friends" during the mutiny.
+                global_squad_krogan: Guess we'll find out.
+            ├ option 2:
+                Hero: Nexus exiles? Drack will love that.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: What are we walking into?
+            ↩ (goto) dune_colony_loystart: A group of Nexus exiles. They're hiding out in an old complex up there.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We'll be back soon.
+        dune_colony_loystart: I'll be here.
+    ├ option 3:
+        Hero [OncePerGame]: How did they steal the transport?
+        dune_colony_loystart: I... had the security system off while I was transferring a new sample, and well...
+        dune_colony_loystart: They snuck in from the far side.
+        dune_colony_loystart: Morda thinks Vorn took the transport for a sample run. I didn't tell her otherwise.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: If she finds out what really happened, she'll fry your quads over a low fire.
+            dune_colony_loystart: I know. {i}(Shudders.){/i} Thank you so much for helping me.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: If she ever finds out...
+            ↩ (goto) dune_colony_loystart: I know. {i}(Shudders.){/i} Thank you so much for helping me.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    dune_colony_loystart: Drack told me you'd be heading over.
+    ↩ (goto) dune_colony_loystart: I tracked the stolen transport to one of Elaaden's moons. You need to take your ship. Nothing we've got has stealth.
+├ option 3:
+    dune_colony_loystart ⟨cond⟩: Ready to go?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_colony_loystart: You must be the Pathfinder?
+    Hero: That's me.
+├ option 2:
+    Hero [OncePerGame]: What do you do at the colony?
+    dune_colony_loystart: Botany... sort of. I'm Vorn's apprentice. He's the real genius with plants.
+    dune_colony_loystart: Come to think of it, I haven't seen Vorn since the transport was stolen. Wonder where he is...
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

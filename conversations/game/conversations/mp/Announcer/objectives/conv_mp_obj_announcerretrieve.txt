@@ -1,0 +1,36 @@
+# game/conversations/mp/announcer/objectives/conv_mp_obj_announcerretrieve
+# Primary speaker: global_nexus_militia_leader
+# Source: game/conversations/mp/Announcer/objectives/conv_mp_obj_announcerretrieve.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Objects of interest detected in the mission area. Find and return to drop point.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Find artifacts and return to the drop point. Marking first location on your HUD.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Recovery requested. Locate and recover objects of interest.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Artifact recovered.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Got the drop.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Artifact is secure.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Find and secure those artifacts!
+├ option 2:
+    global_nexus_militia_leader: [Comm] This is a priority, team Locate and recover!
+├ option 3:
+    global_nexus_militia_leader: [Comm] Find those objects and get them to the drop point!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] All objects accounted for. Objective complete.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Last drop received. All artifacts secured.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Artifact recovery is complete. Nice job.
+└─ merge ─┘

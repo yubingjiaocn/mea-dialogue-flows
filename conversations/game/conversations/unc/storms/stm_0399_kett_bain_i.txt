@@ -1,0 +1,142 @@
+# game/conversations/unc/storms/stm_0399_kett_bain_i
+# Primary speaker: stm_kett_hunter_multi
+# Source: game/conversations/unc/storms/stm_0399_kett_bain_i.xml
+==================================================
+stm_kett_hunter_multi: Damn good work out there, Pathfinder.
+stm_kett_hunter_multi: Wanted to extend my thanks in person. You did a hell of a thing, taking out all those kett.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I always make time to kick some kett ass.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_kett_hunter_multi ⟨cond⟩: A woman after my own heart.
+        stm_kett_hunter_multi: But you didn't drive all this way for me to kiss your ass. Here. Your reward.
+        stm_kett_hunter_multi: Glad someone from the Nexus is competent.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: You didn't come to Eos with Bradley's team.
+            stm_kett_hunter_multi: No, I'm one of Tann's {i}scary exiles{/i}. Left the Nexus after the uprising.
+            stm_kett_hunter_multi: Been planet-hopping ever since. Hunting kett.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: Why did you join the uprising?
+                stm_kett_hunter_multi: Didn't like how they played god—deciding who woke up when.
+                stm_kett_hunter_multi: So I played mutineer. When things didn't pan out, I went my own way.
+                Hero: You didn't want to stay with the other exiles?
+                stm_kett_hunter_multi: Honestly, most exiles are assholes. And not the lovable kind.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Not sure anyone likes the kett. But you really seem to hate them.
+                    stm_kett_hunter_multi: What can I say? They're ugly. And I'm a man about aesthetics.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: Why did you join the uprising?
+                    ├ option 2:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: Not sure anyone likes the kett. But you really seem to hate them.
+            ├ option 3:
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You obviously weren't a kett hunter back in the Milky Way.
+            stm_kett_hunter_multi: No, I worked in the private security sector. Pay was good, but the job bored me.
+            stm_kett_hunter_multi: Buddy of mine told me about the Initiative. Thought it'd be a hell of an adventure.
+            Hero: Bring any family with you?
+            stm_kett_hunter_multi: {i}(Chuckles.){/i} Hell no. My mom died when I was a kid. Never met my father.
+            stm_kett_hunter_multi: Heard he was a big-time merc. All I know is he gave me his name and nothing else.
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            Hero: Why do you think the kett are drawn to Eos?
+            stm_kett_hunter_multi: In my experience, they go wherever those weird-ass structures are. No idea why.
+            stm_kett_hunter_multi: I gave up questioning the damn things. Better to just put a bullet in their head.
+            ↩ (goto) Hero: [empty]
+        ├ option 4:
+            Hero: Stay safe, Massani.
+            stm_kett_hunter_multi: That's the goal.
+        └─ merge ─┘
+    ├ option 2:
+        stm_kett_hunter_multi: A man after my own heart.
+        ↩ (goto) stm_kett_hunter_multi: But you didn't drive all this way for me to kiss your ass. Here. Your reward.
+    └─ merge ─┘
+├ option 2:
+    Hero: You showed me where to hit.
+    stm_kett_hunter_multi: Eh. You would've been fine without me.
+    ↩ (goto) stm_kett_hunter_multi: But you didn't drive all this way for me to kiss your ass. Here. Your reward.
+└─ merge ─┘
+stm_kett_hunter_multi: Well, well. Glad you decided to show.
+Hero: This your handiwork?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_kett_hunter_multi ⟨cond⟩: Eh. It's not as impressive as taking out a base, but yeah. It's mine.
+    stm_kett_hunter_multi: Name’s Bain Massani. Kett hunting’s a hobby of mine.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: We should start a club.
+        stm_kett_hunter_multi: {i}(Chuckles.){/i} Eos is the perfect spot for it.
+        stm_kett_hunter_multi: Planet's a kett-magnet. I've been tracking them down, marking locations to target.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            stm_kett_hunter_multi: You took out the crown jewel, but the bastards still have a presence here.
+            stm_kett_hunter_multi: You want to protect that shiny new outpost, you better wipe them out.
+            Hero: I'll do whatever I can to keep Prodromos safe.
+            stm_kett_hunter_multi: Glad to hear it. Sending navpoints to your omni-tool.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                stm_kett_hunter_multi: Eventually we'll want to hit the crown jewel—their main base. But I don't think you're ready for that yet.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I'll cut my teeth on the smaller targets.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        stm_kett_hunter_multi ⟨cond⟩: Smart woman.
+                        stm_kett_hunter_multi: Happy hunting, Pathfinder.
+                        ↩ (goto) Hero: [empty]
+                    ├ option 2:
+                        stm_kett_hunter_multi: Smart man.
+                        ↩ (goto) stm_kett_hunter_multi: Happy hunting, Pathfinder.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: {i}(Snorts.){/i} I'm ready.
+                    stm_kett_hunter_multi: It's your funeral. I can't stop you from being stupid.
+                    ↩ (goto) stm_kett_hunter_multi: Happy hunting, Pathfinder.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) stm_kett_hunter_multi: Happy hunting, Pathfinder.
+            └─ merge ─┘
+        ├ option 2:
+            stm_kett_hunter_multi: You've already hit a few of them.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                stm_kett_hunter_multi: But there's still the crown jewel. Their main base.
+                stm_kett_hunter_multi: You'll have to take it out if you want to protect that shiny new outpost of yours.
+                ↩ (goto) Hero: I'll do whatever I can to keep Prodromos safe.
+            ├ option 2:
+                stm_kett_hunter_multi: Thought you'd be willing to help with the rest to protect that shiny new outpost of yours.
+                ↩ (goto) Hero: I'll do whatever I can to keep Prodromos safe.
+            └─ merge ─┘
+        ├ option 3:
+            stm_kett_hunter_multi: Barracks, power generator, comm tower.
+            stm_kett_hunter_multi: Thought you'd lend a hand to protect that shiny new outpost of yours.
+            ↩ (goto) Hero: I'll do whatever I can to keep Prodromos safe.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: What? Does knitting not do it for you?
+        stm_kett_hunter_multi: Eh. I've got clumsy fingers. Pulling a trigger's easier than making a scarf.
+        Hero: Guess your hobby is what brought you to Eos?
+        ↩ (goto) stm_kett_hunter_multi: Planet's a kett-magnet. I've been tracking them down, marking locations to target.
+    ├ option 3:
+        Hero: Killing kett isn't a pastime.
+        stm_kett_hunter_multi: Really? Because that's all I've done on Eos.
+        ↩ (goto) stm_kett_hunter_multi: Planet's a kett-magnet. I've been tracking them down, marking locations to target.
+    └─ merge ─┘
+├ option 2:
+    stm_kett_hunter_multi: Abso-fucking-lutely.
+    ↩ (goto) stm_kett_hunter_multi: Name’s Bain Massani. Kett hunting’s a hobby of mine.
+└─ merge ─┘
+stm_kett_hunter_multi: Hell of a day, huh?
+↩ (goto) Hero: [empty]

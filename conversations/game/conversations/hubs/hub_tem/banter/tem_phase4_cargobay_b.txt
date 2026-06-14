@@ -1,0 +1,62 @@
+# game/conversations/hubs/hub_tem/banter/tem_phase4_cargobay_b
+# Primary speaker: global_squad_asari
+# Source: game/conversations/hubs/hub_tem/banter/tem_phase4_cargobay_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_crew_tech_officer: [Comm] Ryder. Engineering. I mean, if you've got a second.
+    ├ option 2:
+        global_squad_angara: [Comm] Come to the tech lab if you need me.
+    ├ option 3:
+        global_squad_asari: [Comm] Ryder, where are you? I'm in my room.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_crew_tech_officer: Holy shit, you're shitting me.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_asari: I am not.
+            global_crew_tech_officer: SAM, you killed Ryder?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                SAM ⟨cond⟩: And then resuscitated her.
+                global_crew_tech_officer: Whoa. Shit's real.
+                global_squad_angara: I see this word "shit" is very multifaceted.
+                global_squad_asari: Especially in the hands of a master like Gil.
+                global_crew_tech_officer: Uh, ew.
+            ├ option 2:
+                SAM: And then resuscitated him.
+                ↩ (goto) global_crew_tech_officer: Whoa. Shit's real.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara: I am not... shitting you.
+            ↩ (goto) global_crew_tech_officer: SAM, you killed Ryder?
+        ├ option 3:
+            global_squad_asari: According to the away team, that's what happened.
+            ↩ (goto) global_crew_tech_officer: SAM, you killed Ryder?
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari: No, a flush beats a straight.
+        global_squad_angara: And a flush is all the same color.
+        global_crew_tech_officer: Same {i}suit{/i}.
+        global_squad_angara: So, not the same color.
+        global_squad_asari: Cards with the same suit {i}are{/i} the same color.
+        global_squad_angara: Ahhh!
+        global_squad_asari: He still doesn't get it.
+        global_crew_tech_officer: Nope.
+    ├ option 3:
+        global_crew_tech_officer: It checks out. Thanks, Peebee.
+        global_squad_asari: A little extra giddy-up for the Nomad.
+        global_squad_angara: Have you fixed the shock absorbers yet?
+        global_crew_tech_officer: I'm not doing it, Jaal. The rest of the team likes the smooth ride.
+        global_squad_angara: But I keep falling asleep.
+        global_squad_asari: Do what I do. Never stop talking.
+    ├ option 4:
+        global_squad_asari: Think we'll find Meridian?
+        global_squad_angara: If the Archon already knows its location, the question is, "What be there when we do?"
+        global_crew_tech_officer: Another opportunity to kick his ass?
+    └─ merge ─┘
+└─ merge ─┘

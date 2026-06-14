@@ -1,0 +1,110 @@
+# game/conversations/rel/kallo/kallo_r4_redesigns_d
+# Primary speaker: global_crew_co-pilot
+# Source: game/conversations/rel/kallo/kallo_r4_redesigns_d.xml
+==================================================
+Narration: Kallo and Ryder enter the research room from the bridge side.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_co-pilot ⟨cond⟩: I mostly need your authorization—to add to the database.
+    Narration: Kallo triggers a holo of the Tempest's drive core (existing asset with holo shader).
+    Hero: Is that our drive core?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_co-pilot ⟨cond⟩: The full blueprint. Only a few are in the system. I had them all by memory.
+        global_crew_co-pilot: So I drew them out. Every line, all the specs. Gil will be needing them. I... won't.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: He'll put them to good use. And it never hurts to have backups.
+            global_crew_co-pilot: They were going to scrap the Tempest project. Did I tell you that?
+            global_crew_co-pilot: Some "engineering consultant" kept insisting the ship would never fly right. He used a lot of Gil's arguments.
+            global_crew_co-pilot: I think that's why this hurts. The others died thinking we won, that their legacy was safe, and... I failed them.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: The original Tempest is preserved forever now, thanks to you. It's safer than ever.
+                Narration: Kallo looks around the research room at all their tech. If possible switch to a full Tempest holo?
+                global_crew_co-pilot: We forget all our technology didn't just appear. Someone invented it. Someone {i}cared{/i}.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_crew_co-pilot ⟨cond⟩: And in the end, someone new always takes up the banner, and pushes forward.
+                    global_crew_co-pilot: I, um, I need the tech officer's sign-off on these schematics. Any thoughts on how to do this?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: A little honesty and humility will go a long way.
+                        Narration: Kallo speaks into his omni-tool.
+                        global_crew_co-pilot: Gil? May I... get a moment of your time?
+                        Narration: Kallo waits rather awkwardly. Gil enters from the cargo bay side and addresses Kallo:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_crew_tech_officer ⟨cond⟩: I thought we settled this. What's going on?
+                            global_crew_co-pilot: I saved the Tempest schematics for you. It'll be easier with them on hand.
+                            Narration: Gil looks at Kallo, then the holo in the center. He realizes this is an olive branch.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_crew_tech_officer ⟨cond⟩: Seeing her drawn out down to the basics... She's kind of beautiful.
+                                global_crew_co-pilot: Oh. Right. You never saw...
+                                global_crew_tech_officer: Yeah. Look at the arc here. That's artistry. And there...
+                                Narration: Ryder quietly leaves while they're pointing at the holo.
+                            ├ option 2:
+                                global_crew_tech_officer: Sticking to the old school?
+                                global_crew_co-pilot: I... don't have to.
+                                global_crew_tech_officer: No sense reinventing the wheel. Though you'd need better secondaries in place. Here...
+                                ↩ (goto) Narration: Ryder quietly leaves while they're pointing at the holo.
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_crew_tech_officer: What now? Your precious ship is running just like you wanted.
+                            global_crew_co-pilot: I'm researching new systems. To handle the Scourge. I... could use your... expert opinion. Please.
+                            ↩ (goto) Narration: Gil looks at Kallo, then the holo in the center. He realizes this is an olive branch.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Narration: Ryder speaks into his / her omni-tool.
+                        Hero: Gil, got a minute? I need you in the research room.
+                        global_crew_tech_officer: [Comm] Be right there.
+                        ↩ (goto) Narration: Kallo waits rather awkwardly. Gil enters from the cargo bay side and addresses Kallo:
+                    └─ merge ─┘
+                ├ option 2:
+                    global_crew_co-pilot: That matters. But so does inventing new things to care about. New memories.
+                    global_crew_co-pilot: Gil, then. Ha. Any advice on how to ask him?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: A little honesty and humility will go a long way.
+                    ├ option 2:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: You showed us the Tempest through your eyes. Why she matters. Even Gil sees it now.
+                ↩ (goto) Narration: Kallo looks around the research room at all their tech. If possible switch to a full Tempest holo?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You're still not comfortable with Gil being in charge of "your" Tempest, are you?
+            global_crew_co-pilot: Call it more memories—of the time they were going to scrap the whole project.
+            ↩ (goto) global_crew_co-pilot: Some "engineering consultant" kept insisting the ship would never fly right. He used a lot of Gil's arguments.
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_co-pilot: I want to research new systems—sensors, shields, EMP defenses—to help {i}any{/i} ship tackle the Scourge.
+        global_crew_co-pilot: I'm using Lucille's old blueprints as a baseline. I can "read" them from memory. But if you and SAM can help, I'd really appreciate it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Hacking or interfacing with the Remnant? I'm there. But this sounds like a job for a specialist.
+            Hero: The man you really need is—
+            global_crew_co-pilot: Gil... I know.
+            global_crew_co-pilot: We barely speak these days. I thought it was best.
+            global_crew_co-pilot: And yet, Gil's redesigns are what got me thinking. Funny. Most salarians leap at innovation.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: If he's got ideas and you know the specs, that's a powerful combination. Run with it.
+                ↩ (goto) Narration: Kallo looks around the research room at all their tech. If possible switch to a full Tempest holo?
+            ├ option 2:
+                Hero: Who knows? A pushy mammal who forgets stuff might be the perspective you need.
+                ↩ (goto) Narration: Kallo looks around the research room at all their tech. If possible switch to a full Tempest holo?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm no starship expert, but SAM and I can pitch in, sure.
+            Hero: Though if you want someone who really knows ships, there's always—
+            ↩ (goto) global_crew_co-pilot: Gil... I know.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_crew_co-pilot: It's preliminary, but all that data we've gathered on the Scourge should be good for something.
+    ↩ (goto) Narration: Kallo triggers a holo of the Tempest's drive core (existing asset with holo shader).
+└─ merge ─┘

@@ -1,0 +1,48 @@
+# game/conversations/crit/crit_epi/mer_epi_0230_crew_science_d
+# Primary speaker: crit_rrescue_priestess
+# Source: game/conversations/crit/crit_epi/mer_epi_0230_crew_science_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I thought you were planning to stay in bed today.
+    global_crew_science_officer: A girl can change her mind, can't she? Besides, I remembered I had things to do.
+    global_crew_science_officer: Did I tell you? The team's working with the angara to set up a joint research body.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We still need you on the ship.
+        global_crew_science_officer: I'm not giving up the Tempest, Ryder. I just also hope to be involved with the angaran scientists.
+        global_crew_science_officer: Us helping them. Them helping us. Can you imagine what we could accomplish?
+        global_crew_science_officer: I'm getting all misty just thinking about it.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: This was always what was intended. Nice to be here finally.
+            global_crew_science_officer: We always knew what we wanted, but for a while, we couldn't see it.
+            global_crew_science_officer: Now it's here, it's happening, and it's beautiful.
+        ├ option 2:
+            Hero: Joint research body, cooperation with the angara... you're planning a party, right?
+            global_crew_science_officer: Of course! Nothing builds a team like a good whiskey and a laugh.
+            global_crew_science_officer: You'd better show up, Ryder... we wouldn't be here if not for you.
+            Hero: {i}(Chuckles.){/i} I wouldn't miss it for the world.
+        ├ option 3:
+            Hero ⟨cond⟩: Aww, do you need a hug?
+            global_crew_science_officer: There's people around. A tad embarrassing, no?
+            global_crew_science_officer: I'm fine. Just happy. With you, Meridian, everything.
+            global_crew_science_officer: I know things won't be perfect, but right now, I almost believe they could.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That sounds exciting!
+        global_crew_science_officer: I know. I can't wait.
+        ↩ (goto) global_crew_science_officer: Us helping them. Them helping us. Can you imagine what we could accomplish?
+    └─ merge ─┘
+├ option 2:
+    global_crew_science_officer: Meridian, huh? I see it every day and I'm still amazed.
+    global_crew_science_officer: We're really starting to put down roots. It's wonderful.
+    ↩ (goto) global_crew_science_officer: Did I tell you? The team's working with the angara to set up a joint research body.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer [OncePerGame]: This place is incredible! I really want to delve into its inner workings, but we haven't got clearance yet.
+    global_crew_science_officer: I think they're afraid us mucking around might cause Meridian to drop out of the sky or something.
+├ option 2:
+    global_crew_science_officer: Ryder, I'm ready to go when you are.
+└─ merge ─┘

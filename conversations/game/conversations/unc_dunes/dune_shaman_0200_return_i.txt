@@ -1,0 +1,20 @@
+# game/conversations/unc_dunes/dune_shaman_0200_return_i
+# Primary speaker: dune_colony_shaman
+# Source: game/conversations/unc_dunes/dune_shaman_0200_return_i.xml
+==================================================
+dune_colony_shaman: Pathfinder. You're back.
+Hero: I set the lure. We should be in business.
+dune_colony_shaman: Good. I already filled Varka in.
+dune_colony_varka: I don't like it, but I won't back down from a challenge.
+dune_colony_shaman: Gren's another story. He refuses to fight with Varka.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I'll talk to Gren. He'll come around.
+    dune_colony_varka: Ha! Good luck. Coward's afraid my fighting'll make him look bad.
+    dune_colony_shaman: I don't think he'll listen to an outsider, but it's worth a shot.
+├ option 2:
+    Hero: A krogan wouldn't run away from a fight. There has to be more to this.
+    dune_colony_varka: He's a coward. Knows I'm the better warrior. Doesn't want to look bad.
+    dune_colony_shaman: You want to try reasoning with him?
+    ↩ (goto) dune_colony_shaman: I don't think he'll listen to an outsider, but it's worth a shot.
+└─ merge ─┘

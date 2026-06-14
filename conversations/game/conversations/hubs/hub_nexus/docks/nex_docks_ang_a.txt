@@ -1,0 +1,39 @@
+# Game/Conversations/Hubs/Hub_Nexus/docks/nex_docks_ang_a
+# Primary speaker: nex_docks_ang_01
+# Source: game/conversations/hubs/hub_nexus/docks/nex_docks_ang_a.xml
+==================================================
+nex_docks_ang_01: I would have thought they'd have more security.
+nex_docks_ang_02: They're on an exploration mission. Isa was very clear that this wasn't a military operation.
+nex_docks_ang_01: I can see that. It's... I mean, if the kett decide to focus on them, I worry about them, but...
+nex_docks_ang_02: It makes them feel safer, doesn't it?
+nex_docks_ang_01: Just a bit.
+nex_docks_ang_02: Is everything all right?
+nex_docks_ang_03: I just... look at this. Such a sight. I won't ever tire of this.
+nex_docks_ang_02: Well... it's space. Vacuum, stars, radiation, agonizing death if you go out without a suit...
+nex_docks_ang_03: You have no poetry in your soul, young man.
+nex_docks_ang_02: I have plenty of poetry. For things that keep me safe and alive.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_docks_ang_03 ⟨cond⟩: Did you hear what the Pathfinder did about their people who were exiled to Kadara?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_docks_ang_01: It was harsh to leave them there. I can understand the concern, but...
+        nex_docks_ang_01: I would do anything to bring my family back together.
+    ├ option 2:
+        nex_docks_ang_01: I applaud the move to reunite families.
+        nex_docks_ang_01: Even with possible security risks—it's worth it.
+    ├ option 3:
+        nex_docks_ang_01: It's a risky thing, accepting strangers within our safehold.
+        nex_docks_ang_03: Risky but right. I'm proud of our people today.
+    └─ merge ─┘
+├ option 2:
+    nex_docks_ang_03: Did you hear what the Pathfinder did about their people who were exiled to Kadara?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) nex_docks_ang_01: It was harsh to leave them there. I can understand the concern, but...
+    ├ option 2:
+        ↩ (goto) nex_docks_ang_01: I applaud the move to reunite families.
+    ├ option 3:
+        ↩ (goto) nex_docks_ang_01: It's a risky thing, accepting strangers within our safehold.
+    └─ merge ─┘
+└─ merge ─┘

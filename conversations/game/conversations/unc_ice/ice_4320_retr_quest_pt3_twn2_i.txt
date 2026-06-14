@@ -1,0 +1,28 @@
+# game/conversations/unc_ice/ice_4320_retr_quest_pt3_twn2_i
+# Primary speaker: ice_rjoek
+# Source: game/conversations/unc_ice/ice_4320_retr_quest_pt3_twn2_i.xml
+==================================================
+ice_rjoek: There you are. Where are my colleagues? You have the map?
+Hero: You mean the one you wanted to sell on Kadara?
+ice_rjoek: How did... Astra. She grew a conscience again, didn't she? Girl's not cut out for this work.
+ice_rjoek: For what it's worth, I've been talking to these people. They have it rougher than I thought.
+ice_rjoek: To be honest, I don't know if I would've gone through with it.
+ice_rjoek: Well, go ahead. Do what you need to do.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: He tried to steal from your people, Jaal. You decide.
+    global_squad_angara: Report to the Resistance. If you want to scavenge, you'll do it for your people.
+    Hero: Really?
+    global_squad_angara: What he did is terrible. But he snuck his ship past the kett, and that takes skill. Time to put it to use.
+    ice_rjoek: I don't suppose I have a say in this? Fine. I'll play it your way.
+    ice_rjoek: Stars, do I regret asking you for help.
+├ option 2:
+    Hero: I don't have the authority to punish you, but the governor of Techiix does. She'll deal with you.
+    SAM: Pathfinder, I've sent a message to the governor telling her what to expect.
+    ice_rjoek: Is this really— Oh, fine. I don't really have a choice.
+    ↩ (goto) ice_rjoek: Stars, do I regret asking you for help.
+├ option 3:
+    Hero: Don't let me catch you here again.
+    ice_rjoek: I'm already gone.
+    ↩ (goto) ice_rjoek: Stars, do I regret asking you for help.
+└─ merge ─┘

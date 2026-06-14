@@ -1,0 +1,44 @@
+# game/conversations/hubs/hub_kad/npcs/kad_nfa_recruiter_i
+# Primary speaker: kad_nfa_recruiter
+# Source: game/conversations/hubs/hub_kad/npcs/kad_nfa_recruiter_i.xml
+==================================================
+kad_nfa_recruiter: Pathfinder! Interested in the Collective's services?
+Hero: How do you know who I am?
+kad_nfa_recruiter: The Collective makes a point of knowing everything—and everyone—worth knowing in Heleus.
+Hero: You sound more like information brokers than pirates.
+kad_nfa_recruiter: The two aren't mutually exclusive.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero: I'm having trouble nailing down what the Collective is, exactly.
+    kad_nfa_recruiter: Understandable. We aren't one thing. Think of us as a service provider—we cater to our clients needs.
+    Hero: Even if that means killing and stealing from people.
+    kad_nfa_recruiter: Survival is an ugly business, Pathfinder. But, unlike the Outcasts, we aren't governed by hate.
+    kad_nfa_recruiter: If the Initiative proved reasonable, I'm sure the Charlatan would be willing to work with the Nexus.
+    ↩ (goto) ?: [empty]
+├ option 2:
+    Hero: Who is the Charlatan? No one seems to have a straight answer.
+    kad_nfa_recruiter: The Charlatan is our leader and a private individual. Even I haven't seen them in person.
+    Hero: You take orders from a stranger?
+    kad_nfa_recruiter: I've met representatives. People who speak for the Charlatan and carry out their will.
+    kad_nfa_recruiter: Whoever the Charlatan is—man or woman—they provide. Information, care, resources. It's ours.
+    kad_nfa_recruiter: That's enough for me.
+    ↩ (goto) ?: [empty]
+├ option 3:
+    Hero: Let's say I was interested in joining your little gang. How would I do that?
+    kad_nfa_recruiter: You're more high-profile than our usual members, but it's up to the Charlatan who joins.
+    kad_nfa_recruiter: If you have potential, our leader will reach out to you. Usually through a representative.
+    Hero: And then what?
+    kad_nfa_recruiter: For some, that's it. Others may have to pass a test. It's different for every recruit.
+    ↩ (goto) ?: [empty]
+├ option 4:
+    Hero: What's going on between the Collective and the Outcasts?
+    kad_nfa_recruiter: Officially, nothing.
+    Hero: Unofficially?
+    kad_nfa_recruiter: Lines are being drawn, Pathfinder. That's all I can say.
+    ↩ (goto) ?: [empty]
+├ option 5:
+    Hero: Thanks for your time.
+    kad_nfa_recruiter: Of course, Pathfinder. Of course.
+└─ merge ─┘
+kad_nfa_recruiter ⟨cond⟩: Pathfinder. You have questions about the Collective?
+↩ (goto) ?: [empty]

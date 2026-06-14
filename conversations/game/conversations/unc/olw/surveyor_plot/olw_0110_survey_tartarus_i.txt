@@ -1,0 +1,40 @@
+# game/conversations/unc/olw/surveyor_plot/olw_0110_survey_tartarus_i
+# Primary speaker: olw_salarian
+# Source: game/conversations/unc/olw/surveyor_plot/olw_0110_survey_tartarus_i.xml
+==================================================
+Hero: Found your surveyor. He broke his neck getting baryte samples.
+olw_salarian: {i}(Sighs.){/i} Good surveyors are hard to find. Hope you retrieved the samples.
+Hero: Here you go.
+olw_salarian: Wonderful. Here are your credits. You earned them.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_salarian [OncePerGame]: Want to make some easy credits?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Always.
+        olw_salarian: I like your conviction.
+        olw_salarian: As you may know, Kadara’s most valuable trade is scrap and resources stolen from the Nexus.
+        olw_salarian: But that well's running dry.
+        Hero: I'm not stealing for you.
+        olw_salarian: Not my goal. My focus is resources native to Andromeda.
+        olw_salarian: I have it on good authority there's a large baryte deposit in Draullir.
+        olw_salarian: Baryte’s going to be big.
+        Hero: You don’t say.
+        olw_salarian: I sent a surveyor to check it out, but he hasn’t returned. All I need from you is peace of mind.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Send me his last navpoint. I'll check on him.
+            olw_salarian: Much appreciated.
+        ├ option 2:
+            Hero: If I'm in the area, I'll take a look.
+            olw_salarian: You'll be paid for the trouble.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Only if it's legal.
+        olw_salarian: {i}(Chuckles.){/i} Of course.
+        ↩ (goto) olw_salarian: As you may know, Kadara’s most valuable trade is scrap and resources stolen from the Nexus.
+    └─ merge ─┘
+├ option 2:
+    olw_salarian: Find my surveyor?
+    Hero: Not yet.
+└─ merge ─┘

@@ -1,0 +1,265 @@
+# game/conversations/hubs/hub_aya/paroff/aya_20_parroff_main_i
+# Primary speaker: hub_aya_gov_leader_multi
+# Source: game/conversations/hubs/hub_aya/paroff/aya_20_parroff_main_i.xml
+==================================================
+┌─ BRANCH (9) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        hub_aya_gov_leader_multi: The Moshae will be waiting for you at the vault.
+        Hero: While I'm here, maybe we can talk?
+        hub_aya_gov_leader_multi: Of course. I owe you that.
+        hub_aya_gov_leader_multi: When I first escorted you through our city, I wasn't sure it was the right thing.
+        hub_aya_gov_leader_multi: But you proved I was wrong to doubt. No, more than that.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            hub_aya_gov_leader_multi ⟨cond⟩: What was done to my people... you made sure no more will suffer exaltation.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: None of us will be safe until we stop the kett for good.
+                hub_aya_gov_leader_multi: I've learned to enjoy small victories when they come.
+                hub_aya_gov_leader_multi: What can I do for you?
+                ┌─ BRANCH (6) ─┐
+                ├ option 1:
+                    Hero: I have a few questions about your culture.
+                    hub_aya_gov_leader_multi: I'm happy to answer them.
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        Hero: I've noticed that you, Evfra, and Jaal all speak with different accents.
+                        hub_aya_gov_leader_multi: When the Scourge first struck, there were many angaran worlds. They were separated for centuries.
+                        hub_aya_gov_leader_multi: We developed divergent cultures—and dialects.
+                        hub_aya_gov_leader_multi: Evfra was born on Voeld, and Jaal is from Havarl.
+                        Hero: What about you?
+                        hub_aya_gov_leader_multi: The kett left my homeworld in ruins. Those who survived were forced to flee.
+                        hub_aya_gov_leader_multi: We found a refuge on Aya. My family helped settle this world.
+                        ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                    ├ option 2:
+                        Hero: Don't take this the wrong way, but this isn't your only city, right?
+                        hub_aya_gov_leader_multi: Not at all. Voeld and Havarl both have several large population centers.
+                        hub_aya_gov_leader_multi: Aya has numerous residential areas similar to this.
+                        Hero: Are these places open for visitors?
+                        hub_aya_gov_leader_multi: In time, perhaps.
+                        ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                    ├ option 3:
+                        Hero: Aya seems important to the angara.
+                        hub_aya_gov_leader_multi: Aya is paradise. This world is a gift.
+                        hub_aya_gov_leader_multi: We created the Vesaal so everyone could enjoy this place, if only for a short time.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: I heard about that. For a new person to live on Aya, someone here has to leave.
+                            Hero: Will you have to leave?
+                            hub_aya_gov_leader_multi: Someday. For now, Aya needs me.
+                            ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                        ├ option 2:
+                            Hero: The Vesaal?
+                            hub_aya_gov_leader_multi: "The time of change." Aya's resources are too limited for our entire population to live here.
+                            hub_aya_gov_leader_multi: We each earn the privilege of spending a few years on Aya.
+                            hub_aya_gov_leader_multi: When our time is up, we leave to make room for someone new. The cycle repeats throughout our lives.
+                            ↩ (goto) Hero: Will you have to leave?
+                        └─ merge ─┘
+                    ├ option 4:
+                        ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I'm hoping you can help me get on Evfra's good side.
+                    hub_aya_gov_leader_multi: If I knew how to do that, my job would be much simpler.
+                    Hero: Sometimes it seems like you two don't get along at all, and other times...
+                    hub_aya_gov_leader_multi: He's a brilliant tactician and inspiring leader. We just disagree on what's best for our people.
+                    hub_aya_gov_leader_multi: He believes secrecy and isolation keep us safe.
+                    Hero: What do you believe?
+                    hub_aya_gov_leader_multi: We can't defeat the kett alone—and neither can your Initiative.
+                    ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                ├ option 3:
+                    Hero: Your people revere the Moshae. What did she do to earn that?
+                    hub_aya_gov_leader_multi: After the Scourge, our civilization was in ruins. Those who led the rebuilding were thinkers. Experts and inventors.
+                    hub_aya_gov_leader_multi: The Moshae is the greatest scientific mind of our generation. She led us to a new age of technological innovation.
+                    hub_aya_gov_leader_multi: When the kett attacked, she studied their technology. Learned their tactics.
+                    Hero: You owe your survival to her.
+                    hub_aya_gov_leader_multi: We owe her {i}everything{/i}—and we'll do anything to protect her.
+                    ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                ├ option 4:
+                    Hero: So, what do you do for fun around here?
+                    hub_aya_gov_leader_multi: The tavetaan is a popular spot for recreational activity.
+                    Hero: Right, but what do {i}you{/i} do? Can't work all the time.
+                    hub_aya_gov_leader_multi: Productivity is the best form of relaxation.
+                    Hero: It's also a great way to get stressed out.
+                    hub_aya_gov_leader_multi: You sound like my brothers. All ten of them.
+                    Hero: {i}Ten{/i}?
+                    hub_aya_gov_leader_multi: And eight sisters. They're not allowed to bother me at work.
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        Hero: Ten brothers and eight sisters. You have a big family.
+                        hub_aya_gov_leader_multi: I've always thought of it as average. How many siblings do you have?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Just one. My sister, Sara.
+                            hub_aya_gov_leader_multi: What happened to the others?
+                            Hero: Our parents only had two children. Underachievers.
+                            hub_aya_gov_leader_multi: That sounds... relaxing. {i}(Laughs.){/i}
+                            hub_aya_gov_leader_multi: When my family gets together, the noise is like standing next to our largest waterfall.
+                            hub_aya_gov_leader_multi: My mother says I became governor so people would {i}have{/i} to listen to me.
+                            Hero: Is she right?
+                            hub_aya_gov_leader_multi: Always.
+                            ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                        ├ option 2:
+                            Hero: A brother. Scott.
+                            ↩ (goto) hub_aya_gov_leader_multi: What happened to the others?
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: What's it like being responsible for a whole planet?
+                        hub_aya_gov_leader_multi: I suspect it's like being the Pathfinder.
+                        hub_aya_gov_leader_multi: Some days, it's a burden. Most of the time, I know I'm where I should be.
+                        Hero: How did you become governor? Do your people elect leaders by popular vote?
+                        hub_aya_gov_leader_multi: If by vote, you mean argue loudly until one candidate remains, then yes.
+                        hub_aya_gov_leader_multi: I got here because I was willing to endure—and fight for—the obligations that come with my office.
+                        ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                    ├ option 3:
+                        Hero: I sense tension between your government and the Resistance. Who's actually in charge?
+                        hub_aya_gov_leader_multi: Evfra likes giving orders—right until the actual work of running a city starts.
+                        hub_aya_gov_leader_multi: The Resistance is good at protecting us from the kett, but our people need more.
+                        hub_aya_gov_leader_multi: I've learned to indulge Evfra's need for control just often enough to maintain my own.
+                        ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                    ├ option 4:
+                        Hero [OncePerGame]: Is there time in your busy schedule to meet someone special?
+                        hub_aya_gov_leader_multi: Everyone is special to me, in their own way.
+                        Hero: Not what I meant.
+                        hub_aya_gov_leader_multi: Oh... no, that isn't a priority right now. Someday, maybe.
+                        ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                    ├ option 5:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 5:
+                    Hero ⟨cond⟩: Why didn't you tell me about Kadara Port when I first arrived?
+                    hub_aya_gov_leader_multi: I assumed you already knew.
+                    hub_aya_gov_leader_multi: We didn't realize there was a difference between your exiles and the Initiative.
+                    Hero: Fair enough.
+                    hub_aya_gov_leader_multi: As for Vehn Terev... Evfra hid his betrayal from everyone. He'll answer for that.
+                    ↩ (goto) hub_aya_gov_leader_multi: [empty]
+                ├ option 6:
+                    Hero: Thanks for your time.
+                    hub_aya_gov_leader_multi: Isharay, Pathfinder.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: We're in this together. The Initiative wants to help.
+                hub_aya_gov_leader_multi: I want to believe it. You're so different from the kett.
+                ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+            └─ merge ─┘
+        ├ option 2:
+            hub_aya_gov_leader_multi: You didn't have to save the captives from exaltation. I wonder if you realize what that meant to us.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: None of us will be safe until we stop the kett for good.
+            ├ option 2:
+                ↩ (goto) Hero: We're in this together. The Initiative wants to help.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) hub_aya_gov_leader_multi: When I first escorted you through our city, I wasn't sure it was the right thing.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        hub_aya_gov_leader_multi: I received a briefing on the Roekaar leader's death.
+        hub_aya_gov_leader_multi: Your decision to kill Akksul will complicate relations with our people.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Saving the birthplace of your civilization doesn't win me any points?
+            hub_aya_gov_leader_multi: Of course—but Akksul's faction was founded on the belief that your people are aggressive.
+            hub_aya_gov_leader_multi: The Roekaar have a martyr. Akksul is dead, but his name lives on.
+            hub_aya_gov_leader_multi: I will protect our alliance. I only ask that you not make it any harder for me.
+            ↩ (goto) hub_aya_gov_leader_multi: [empty]
+        ├ option 2:
+            Hero: Your people will listen to you. Tell them Akksul gave me no choice.
+            hub_aya_gov_leader_multi: But you {i}did{/i} have a choice... and you killed him, just like he said you would. Like he {i}wanted{/i} you to.
+            ↩ (goto) hub_aya_gov_leader_multi: The Roekaar have a martyr. Akksul is dead, but his name lives on.
+        └─ merge ─┘
+    ├ option 2:
+        hub_aya_gov_leader_multi: I received a briefing on your confrontation with the Roekaar leader.
+        hub_aya_gov_leader_multi: Your handling of Akksul was flawless. Better than I could've hoped.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I couldn't let him destroy the birthplace of your civilization.
+            hub_aya_gov_leader_multi: That was a symbolic victory. Important, yes—but the Forge is only a place.
+            hub_aya_gov_leader_multi: In a very real sense, you crushed the Roekaar movement by {i}not{/i} firing a shot.
+            hub_aya_gov_leader_multi: I can point to this example if anyone questions our alliance again. Thank you, Pathfinder.
+            ↩ (goto) hub_aya_gov_leader_multi: [empty]
+        ├ option 2:
+            Hero: "Flawless" might be too strong a word. Just ask Jaal.
+            hub_aya_gov_leader_multi: He's alive, he'll heal, and I have it on good authority he's proud of you.
+            ↩ (goto) hub_aya_gov_leader_multi: In a very real sense, you crushed the Roekaar movement by {i}not{/i} firing a shot.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    hub_aya_gov_leader_multi: Evfra informed me of the unprovoked attack on your colony.
+    hub_aya_gov_leader_multi: I'm relieved your people weren't hurt. Please know, the Roekaar do not represent the angara.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The last thing any of us wants is violence.
+        hub_aya_gov_leader_multi: Akksul claims those who died in the attack are martyrs to the cause.
+        hub_aya_gov_leader_multi: That kind of thinking can spiral out of control. We must de-escalate tensions.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: The problem won't go away by ignoring it.
+            hub_aya_gov_leader_multi: I'm doing all I can to foster positive relations. You should do the same.
+            hub_aya_gov_leader_multi: Did you have anything else to discuss?
+            ↩ (goto) hub_aya_gov_leader_multi: [empty]
+        ├ option 2:
+            Hero: If the Roekaar attack my people again, it {i}will{/i} get ugly.
+            hub_aya_gov_leader_multi: I can't condone any action that leads to more violence. Work with me, Pathfinder.
+            ↩ (goto) hub_aya_gov_leader_multi: Did you have anything else to discuss?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It'll be better coming from you, or—a joint statement? Make it official?
+        hub_aya_gov_leader_multi: That would only make things worse. Akksul wants attention. We can't give it to him.
+        hub_aya_gov_leader_multi: If we minimize the Roekaar's influence—treat them as a fringe group—this could be an isolated incident.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: The problem won't go away by ignoring it.
+        ├ option 2:
+            ↩ (goto) Hero: If the Roekaar attack my people again, it {i}will{/i} get ugly.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    hub_aya_gov_leader_multi: Enroh tells me you've participated in our little citizens' forum near the market.
+    hub_aya_gov_leader_multi: Take care with that group's leader. She competed with me for this office. Defeat made her bitter.
+    ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+├ option 5:
+    hub_aya_gov_leader_multi: Evfra says you eliminated the human who seized control of Kadara Port.
+    hub_aya_gov_leader_multi: With one of our own in power, it might be possible to strengthen ties there.
+    hub_aya_gov_leader_multi: I'll look into contacting this Keema Dohrgun.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Kadara's a complicated place. Give things time to settle.
+        hub_aya_gov_leader_multi: I trust your counsel, of course.
+        ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+    ├ option 2:
+        Hero: From what I've seen, they need all the help they can get.
+        hub_aya_gov_leader_multi: I'm happy to offer whatever aid they'll accept.
+        ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+    └─ merge ─┘
+├ option 6:
+    hub_aya_gov_leader_multi: I met your Nexus ambassador. I find her practical and respectful. She'll fit in well.
+    ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+├ option 7:
+    hub_aya_gov_leader_multi: Pathfinder. You accomplished all you said you would, and more.
+    hub_aya_gov_leader_multi: We were right to place our faith in you. It's been my honor to work together.
+    ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+├ option 8:
+    hub_aya_gov_leader_multi: This new discovery about us... Pathfinder, I would like your help keeping hope among my people.
+    hub_aya_gov_leader_multi: This could turn their world upside down. Together, we can make it right.
+    Hero: How do I help?
+    hub_aya_gov_leader_multi: Answer their questions truthfully, but reassure them that we still control our fates.
+    hub_aya_gov_leader_multi: Just because we were... designed... doesn't mean our lives aren't our own.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: A few words from me won't undo a shock this enormous.
+        hub_aya_gov_leader_multi: No, but it's a start.
+        ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+    ├ option 2:
+        Hero: I saw how Jaal reacted. Feel like I stumbled onto something nobody needed to know.
+        hub_aya_gov_leader_multi: In time, we'll find a good use for this knowledge. For now, we give our people strength.
+        ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+    └─ merge ─┘
+├ option 9:
+    ↩ (goto) hub_aya_gov_leader_multi: What can I do for you?
+└─ merge ─┘

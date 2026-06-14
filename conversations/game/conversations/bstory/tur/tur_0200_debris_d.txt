@@ -1,0 +1,142 @@
+# game/conversations/bstory/tur/tur_0200_debris_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/tur/tur_0200_debris_d.xml
+==================================================
+Hero: Help me get it open.
+Narration: Ryder interacts with the stasis pod.
+SAM: Pathfinder, the body has no vitals.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Damn it.
+    SAM: The stasis pod still functions. I can access its data history.
+    SAM: According to the final log, this stasis pod was jettisoned from Ark Natanus.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Maybe when it hit the Scourge?
+        SAM: The timeline doesn't match. This pod was ejected long after Natanus was reported missing.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We assumed the ark was destroyed, but maybe it's intact. The crew could still be alive.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                global_squad_turian ⟨cond⟩: And dumping colonists in stasis? That's worse!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_male_human ⟨cond⟩: If they are, why are they dumping their people?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 3:
+                global_squad_krogan ⟨cond⟩: And dropping deadweight.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_female_human ⟨cond⟩: So why dump colonists?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 5:
+                global_squad_asari ⟨cond⟩: Minus this poor guy.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 6:
+                global_squad_angara ⟨cond⟩: It still seems unlikely.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: These stasis pods were dumped for a reason.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                global_squad_turian ⟨cond⟩: Pick one. Andromeda's nothing but dangerous.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_male_human ⟨cond⟩: If it wasn't the Scourge, then why? It doesn't make sense.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 3:
+                global_squad_krogan ⟨cond⟩: Could've been dead already.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_female_human ⟨cond⟩: Willingly or not.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 5:
+                global_squad_asari ⟨cond⟩: Pretty cold-blooded.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            ├ option 6:
+                global_squad_angara ⟨cond⟩: Maybe they didn't have a choice?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: We should update Avitus. He'll want to know what we found.
+                ├ option 2:
+                    ↩ (goto) Hero: We should finish checking the pods for Macen, then report back to Avitus.
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: When they hit the Scourge?
+        ↩ (goto) SAM: The timeline doesn't match. This pod was ejected long after Natanus was reported missing.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Because of the Scourge?
+        ↩ (goto) SAM: The timeline doesn't match. This pod was ejected long after Natanus was reported missing.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: Maybe they hit the Scourge and panicked.
+        ↩ (goto) SAM: The timeline doesn't match. This pod was ejected long after Natanus was reported missing.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Another Scourge casualty?
+        ↩ (goto) SAM: The timeline doesn't match. This pod was ejected long after Natanus was reported missing.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: An attempt to escape the Scourge?
+        ↩ (goto) SAM: The timeline doesn't match. This pod was ejected long after Natanus was reported missing.
+    └─ merge ─┘
+├ option 2:
+    Hero: SAM, check the pod's history.
+    ↩ (goto) SAM: According to the final log, this stasis pod was jettisoned from Ark Natanus.
+└─ merge ─┘

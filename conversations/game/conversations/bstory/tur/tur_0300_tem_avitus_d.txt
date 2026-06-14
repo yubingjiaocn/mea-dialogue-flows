@@ -1,0 +1,30 @@
+# game/conversations/bstory/tur/tur_0300_tem_avitus_d
+# Primary speaker: global_turian_pathfinder_multi
+# Source: game/conversations/bstory/tur/tur_0300_tem_avitus_d.xml
+==================================================
+global_turian_pathfinder_multi: [Comm] Ryder. I was just about to call you.
+Hero: Everything all right?
+global_turian_pathfinder_multi: [Comm] I've got numbers—coordinates—flashing in my head. I think it's an SOS... from Macen.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: That's quite the leap.
+    global_turian_pathfinder_multi: [Comm] Just hear me out... What if Macen's using my SAM implant to send me his location?
+    Hero: We did find evidence that Natanus may be intact.
+    global_turian_pathfinder_multi: [Comm] What evidence?
+    Hero: A bunch of stasis pods were jettisoned from the ark. No survivors.
+    Hero: But the logs show it happened long after Natanus hit the Scourge.
+    global_turian_pathfinder_multi: [Comm] Someone's still flying the damn thing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Or keeping it afloat, at least.
+        global_turian_pathfinder_multi: [Comm] Here are the coordinates from my implant. Meet me there. We'll find answers.
+    ├ option 2:
+        Hero: Scourge or not, colonists were ejected from the ark.
+        global_turian_pathfinder_multi: [Comm] There must be an explanation.
+        ↩ (goto) global_turian_pathfinder_multi: [Comm] Here are the coordinates from my implant. Meet me there. We'll find answers.
+    └─ merge ─┘
+├ option 2:
+    Hero: It could be coming from your SAM implant.
+    global_turian_pathfinder_multi: [Comm] He's sending me his location.
+    ↩ (goto) Hero: We did find evidence that Natanus may be intact.
+└─ merge ─┘

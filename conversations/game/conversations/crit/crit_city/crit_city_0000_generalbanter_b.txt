@@ -1,0 +1,442 @@
+# game/conversations/crit/crit_city/crit_city_0000_generalbanter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0000_generalbanter_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: You think activating this thing might help the kett somehow?
+    Hero: The Archon's forces have been here for years, and they're nowhere close to being able to understand Remnant tech.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: That must really burn his tail.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: No wonder the Archon hates you.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: That must really frustrate the Archon.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: I can see why the Archon's so frustrated. You, playing with all the toys he wants.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Ha! And that must make him furious.
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Bet he loves that.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: What's in it for the kett if we activate Meridian?
+    ↩ (goto) Hero: The Archon's forces have been here for years, and they're nowhere close to being able to understand Remnant tech.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Will activating Meridian benefit the kett in some way?
+    ↩ (goto) Hero: The Archon's forces have been here for years, and they're nowhere close to being able to understand Remnant tech.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Will the kett be able to use Meridian once it's activated?
+    ↩ (goto) Hero: The Archon's forces have been here for years, and they're nowhere close to being able to understand Remnant tech.
+├ option 5:
+    global_squad_angara ⟨cond⟩: What if activating Meridian ends up being good for the kett?
+    ↩ (goto) Hero: The Archon's forces have been here for years, and they're nowhere close to being able to understand Remnant tech.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: 'S all good, right? I mean, we need Meridian, but not if it helps the kett.
+    ↩ (goto) Hero: The Archon's forces have been here for years, and they're nowhere close to being able to understand Remnant tech.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: The kett really want something from this.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Maybe the Archon's cracking the whip.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: It all seems desperate to me.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Us too, but it looks desperate on them.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: The kett are obsessed with figuring out this tech.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It all seems desperate to me.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Us too, but it looks desperate on them.
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩: I hate that the kett are as into Remnant tech as I am.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Maybe the Archon's cracking the whip.
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It all seems desperate to me.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Us too, but it looks desperate on them.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩: The kett are really going all out to collect this tech, aren't they?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Maybe the Archon's cracking the whip.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It all seems desperate to me.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Us too, but it looks desperate on them.
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩: The kett have spent a lot of effort here.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Maybe the Archon's cracking the whip.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Us too, but it looks desperate on them.
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Kett are all over the Remnant tech.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Maybe the Archon's cracking the whip.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: They must be desperate to figure this stuff out.
+    ├ option 5:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It all seems desperate to me.
+    ├ option 6:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Us too, but it looks desperate on them.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: The Archon knows about the angara. That's gotta be why the kett are here.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: The Archon must know about the angara. Why else would he hold this place?
+├ option 3:
+    global_squad_asari ⟨cond⟩: I bet the Archon knows about the angara. That's why he's so obsessed with figuring out how the builders made them.
+├ option 4:
+    global_squad_turian ⟨cond⟩: The Archon must have learned about the angara. Maybe that's why his forces are so entrenched here.
+├ option 5:
+    global_squad_angara ⟨cond⟩: The Archon must know what we know—about our creation. That's why he's here.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Bet you the Archon knows about the angara. Explains why the kett are here so deep.
+└─ merge ─┘
+Hero: Great. Should've got the Tempest to drop us over there. {i}(Sighs.){/i}
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Look at that.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Incredible.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Look at this place! It's amazing!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Wow. I feel really small right now.
+├ option 5:
+    global_squad_angara ⟨cond⟩: This... this is Meridian? Unbelievable.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: This place? Stunning. No words.
+└─ merge ─┘
+crit_city_archonssword_multi: [Comm] Alert! The detected signal was a decoy. Khi Tasira has been infiltrated.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_city_archonssword_multi ⟨cond⟩: [Comm] All units are to focus on the incapacitation and capture of the "Pathfinder."
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Not a chance they're getting you, kid.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's teach them a lesson.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: At least we got a little bit of a head start.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Want Ryder? Gotta go through us, asshole.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Want Ryder? Gotta go through us, asshole.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Better be ready. Sounds like trouble up ahead.
+    ├ option 7:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: "Capture" is kett for "shoot until they fall down."
+    └─ merge ─┘
+├ option 2:
+    crit_city_archonssword_multi: [Comm] All units are to focus on the incapacitation and capture of the "Pathfinder."
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Here we go!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Targets sighted!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Here we go!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Eat this!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: Here we go!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: We're in it!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Look out! Reinforcements!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Incoming reinforcements!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Look out! Reinforcements!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Ah, crap! Incoming!
+├ option 5:
+    global_squad_angara ⟨cond⟩: Look out! Reinforcements!
+├ option 6:
+    global_squad_male_human ⟨cond⟩: More coming in!
+└─ merge ─┘
+Hero: Right, so Command Hub. Probably need to check out those other two towers first.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Which way?
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Which way?
+├ option 3:
+    global_squad_asari ⟨cond⟩: Which way should we head?
+├ option 4:
+    global_squad_turian ⟨cond⟩: So, Pathfinder, left or right?
+├ option 5:
+    global_squad_angara ⟨cond⟩: Which way, Ryder?
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Flip a coin for direction?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: That just fried my circuits!
+    SAM: Of course. It would be like running into the Scourge itself. Try not to do that, Pathfinder.
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: Ow! Damn it!
+    ├ option 2:
+        Hero: Shit!
+    ├ option 3:
+        Hero: Crap!
+    ├ option 4:
+        Hero: Argh!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: What do you think we're going to find?
+    Hero: No idea, but that looks like a gravity well.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: What have we got?
+    ↩ (goto) Hero: No idea, but that looks like a gravity well.
+├ option 3:
+    global_squad_asari ⟨cond⟩: What do you think we're going to find?
+    ↩ (goto) Hero: No idea, but that looks like a gravity well.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Any idea what we're going to find here, Pathfinder?
+    ↩ (goto) Hero: No idea, but that looks like a gravity well.
+├ option 5:
+    global_squad_angara ⟨cond⟩: How many secrets does this place hold?
+    ↩ (goto) Hero: No idea, but that looks like a gravity well.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Best guess on what's here?
+    ↩ (goto) Hero: No idea, but that looks like a gravity well.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: This is it. The command hub.
+    Hero: Finally.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: This is it. The heart of Meridian.
+    ↩ (goto) Hero: Finally.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Meridian's central command! It's amazing!
+    ↩ (goto) Hero: Finally.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Damn. Look at this place. I'm afraid to touch anything.
+    ↩ (goto) Hero: Finally.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Wow. We made it. Looks like Meridian control.
+    ↩ (goto) Hero: Finally.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: This is it, right? Meridian control?
+    ↩ (goto) Hero: Finally.
+└─ merge ─┘
+Hero: SAM, can you translate what it says?
+SAM: "To avoid contamination, please cleanse appendages after handling specimens."
+Hero: No. Really? "Employees must wash their hands"?
+SAM: A close approximation.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: One more tower to go before the hub powers up.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: One tower done. We'll need the other one to access the command hub.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: That's one tower powered-up. Still need one more before the command hub's accessible.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: One tower up and running. One more to get the hub going.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: One tower online and one more to go.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: One up. One more to get at the hub, right?
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: One tower left.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: One tower left.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Still one more tower to go.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: That's the hub, but we need to get the other tower first.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: Okay, just need to bring one more tower online.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: One more tower and we're golden.
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: There! That's the entrance!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Tower access, over there!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: There! That's how we get inside that tower!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Look! The entrance to one of the towers! Almost there!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: I see the tower entrance! Keep focused! Almost there!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: There's our way inside the tower!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: The lights around here. Kinda weak.
+    Hero: Station in low power mode, maybe?
+    SAM: Correct. If Meridian is largely deactivated, power would be reserved for essential functions only.
+├ option 2:
+    global_squad_asari ⟨cond⟩: There's something off about everything here, like it's not working right.
+    ↩ (goto) Hero: Station in low power mode, maybe?
+├ option 3:
+    global_squad_turian ⟨cond⟩: Those lights are really... glitchy.
+    ↩ (goto) Hero: Station in low power mode, maybe?
+├ option 4:
+    global_squad_angara ⟨cond⟩: Seems like those lights are malfunctioning.
+    ↩ (goto) Hero: Station in low power mode, maybe?
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Doesn't seem like the lights are getting enough power.
+    ↩ (goto) Hero: Station in low power mode, maybe?
+└─ merge ─┘
+Hero: It's raining? How is it raining?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: I like it. Keeps things cool.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Are you sure it's rain? Is it even water?
+├ option 3:
+    global_squad_asari ⟨cond⟩: There's probably an atmosphere processor on this station somewhere.
+├ option 4:
+    global_squad_turian ⟨cond⟩: There's an atmosphere here, isn't there? It makes some sort of sense.
+├ option 5:
+    global_squad_angara ⟨cond⟩: I've learned not to question the Remnant. It keeps me sane.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Remnant shit is weird. Just go with it.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Bridge is out!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Watch out! Bridge is down!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: We're gonna have to jump this!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Gonna need to jump!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: We're gonna have to jump this!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+Hero: {i}(Laughs.){/i} Forgot about the Remnant, didn't you? Assholes!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Looks like fun! Let's join in!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Or we could be smart and wait.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: How about no?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Or we could wait 'til they're done?
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: You go. Elders first. I'll stand back here.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: How about we don't join in?
+    ├ option 6:
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Let them fight it out. We'll clean up after.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: My money's on the Remnant!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_angara ⟨cond⟩: Let's hope the Remnant tear through the kett.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Anyone bring popcorn? Anyone? No? Damn.
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: What's that? Something that big has to be important.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Is that some kind of communication tower? It's huge!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Whoa! I think we saw that from space. Wonder what's in there.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: A structure that big must have some kind of purpose.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: What is that structure? We saw it from space.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Holy crow! Didn't we see that giant spike-thing from space?
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘

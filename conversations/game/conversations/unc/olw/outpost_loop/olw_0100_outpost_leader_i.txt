@@ -1,0 +1,115 @@
+# game/conversations/unc/olw/outpost_loop/olw_0100_outpost_leader_i
+# Primary speaker: olw_outpost_leader
+# Source: game/conversations/unc/olw/outpost_loop/olw_0100_outpost_leader_i.xml
+==================================================
+olw_outpost_leader: Well, if it isn't the Pathfinder. Welcome to Outpost Ditaeon.
+olw_outpost_leader: Christmas Tate of Mining Company 07, at your service.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Christmas—that a nickname?
+    olw_outpost_leader: Afraid not. My old lady—Holiday Tate—had a sense of humor.
+    Hero: It's certainly a conversation starter. Things going well?
+    olw_outpost_leader: No one's been shot in the back, which is more than I expected.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You don't think Sloane will hold up her end of the deal?
+        olw_outpost_leader: She wasn't exactly reliable as head of Nexus security, was she?
+        olw_outpost_leader: {i}(Sighs.){/i} But I can't complain.
+        olw_outpost_leader: Her people's kept the outpost safe and trade is booming.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: As long as credits are flowing, people are happy.
+            olw_outpost_leader: For all our complexity, we're simple creatures.
+            Hero: Anything else to report?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                olw_outpost_leader ⟨cond⟩ [OncePerGame]: Well, there's this cult...
+                Hero: A cult? Seriously?
+                olw_outpost_leader: They're harmless, but the thing they worship... that's what worries me.
+                olw_outpost_leader: Some kind of massive machine. They call it "Old Skinner."
+                olw_outpost_leader: Could be nothing, but their leader, Bishop, went to pay tribute and hasn't come back.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I'll check it out. Better safe than sorry.
+                    olw_outpost_leader: Appreciate it.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        Hero: "Ditaeon." Interesting name. Does it mean something?
+                        olw_outpost_leader: {i}(Laughs.){/i} It's an inside joke among the company.
+                        olw_outpost_leader: "Ditaeon" is a temp name we pitched for our outpost block.
+                        olw_outpost_leader: It's actually an acronym. Stands for "Deploy in the ass end of nowhere."
+                        ↩ (goto) olw_outpost_leader: [empty]
+                    ├ option 2:
+                        Hero: You look like you've been around the block.
+                        olw_outpost_leader: That's one way of saying I'm old.
+                        Hero: That wasn't—
+                        olw_outpost_leader: Hey, at 61, I've come to terms with my age.
+                        olw_outpost_leader: I'm the oldest of the outpost leaders, but I'm also the toughest.
+                        olw_outpost_leader: I didn't come to Andromeda to die. The opposite actually.
+                        ↩ (goto) olw_outpost_leader: [empty]
+                    ├ option 3:
+                        Hero: Exiles giving you any trouble?
+                        olw_outpost_leader: We've actually taken a few on—of the non-Outcast and Collective variety.
+                        olw_outpost_leader: The uprising was ugly business. A lot of normal people got caught up in it.
+                        olw_outpost_leader: Glad we can provide a second chance.
+                        ↩ (goto) olw_outpost_leader: [empty]
+                    ├ option 4:
+                        Hero: You said you're with Mining Company 07?
+                        olw_outpost_leader: Best damn eezo miners on Mars, until the ground dried up.
+                        Hero: Putting your skills to use on Kadara?
+                        olw_outpost_leader: You made the water potable, but there's still plenty of sulfur in the bedrock.
+                        olw_outpost_leader: The director wants to use the stuff to make fertilizer.
+                        olw_outpost_leader: Cartar can tell you more. Just, uh, don't sneak up on her.
+                        ↩ (goto) olw_outpost_leader: [empty]
+                    ├ option 5:
+                        Hero ⟨cond⟩ [OncePerGame]: Old Skinner is no more.
+                        olw_outpost_leader: I heard. Shame about Bishop. He was crazy, but a good worker.
+                        ↩ (goto) olw_outpost_leader: [empty]
+                    ├ option 6:
+                        Hero: Thanks for the update, Christmas.
+                        olw_outpost_leader: Anytime.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I don't have time to run around chasing fairytales.
+                    olw_outpost_leader: If the rumors are true, this fairytale will chase you.
+                    ↩ (goto) olw_outpost_leader: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                olw_outpost_leader: Not that I can think of.
+                ↩ (goto) olw_outpost_leader: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: The Outcasts are playing nice now.
+            Hero: But we should be ready if Sloane has a change of heart.
+            olw_outpost_leader: Consider my shotgun loaded.
+            ↩ (goto) Hero: Anything else to report?
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: You have doubts about the Collective?
+        olw_outpost_leader: I don't like making deals with people flightier than ghosts.
+        olw_outpost_leader: I'm an honest man, who likes working with honest people.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Then you came to the wrong place.
+            olw_outpost_leader: On the contrary, I think a bit of honesty will do Kadara some good.
+            Hero: Guess it can't hurt to try.
+            ↩ (goto) Hero: Anything else to report?
+        ├ option 2:
+            Hero: That's the kind of influence Kadara needs.
+            olw_outpost_leader: Glad to hear you think so, Pathfinder.
+            ↩ (goto) Hero: Anything else to report?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: How're things going?
+    ↩ (goto) olw_outpost_leader: No one's been shot in the back, which is more than I expected.
+└─ merge ─┘
+olw_outpost_leader ⟨cond⟩ [OncePerGame]: I hear you took down Old Skinner.
+Hero: Who?
+olw_outpost_leader: That Architect thing. It had quite the cult following.
+Hero: Explains the body I found.
+olw_outpost_leader: Body? Damn. Must've been Bishop. He went to pay tribute, but never came back.
+olw_outpost_leader: I'll have someone pick him up. Crazy bastard deserves a proper burial.
+↩ (goto) olw_outpost_leader: [empty]
+olw_outpost_leader: Pathfinder. How's it going?
+↩ (goto) olw_outpost_leader: [empty]

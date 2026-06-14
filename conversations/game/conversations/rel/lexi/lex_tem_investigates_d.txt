@@ -1,0 +1,399 @@
+# game/conversations/rel/lexi/lex_tem_investigates_d
+# Primary speaker: global_humanark_asari_dr
+# Source: game/conversations/rel/lexi/lex_tem_investigates_d.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_humanark_asari_dr: I hear Liam's planning to show some vids.
+    Hero: If our duties ever give us time.
+    global_humanark_asari_dr: Explains why Drack and Peebee are distilling something unsavory.
+    global_humanark_asari_dr: Screw up the measurements and bathtub hooch can leave you blind. Or worse. We can do better.
+    Hero: Better how?
+    global_humanark_asari_dr: An asari liquor called Akantha. They used to run these wonderful black-and-white ads... There might be a bottle on the Nexus.
+    global_humanark_asari_dr: It wouldn't be too expensive, I'm sure. Let me know if you find it.
+    ┌─ BRANCH (9) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: I need to talk to you. About something private.
+        global_humanark_asari_dr: Of course. That's what I'm here for.
+        Hero: When Dad died, he blocked off parts of SAM's memory. Things he didn't want me to see.
+        global_humanark_asari_dr: Or he thought you weren't ready for.
+        Hero: Maybe. I found this... trigger.
+        Hero: It unlocked a... memory fragment of Dad on the Citadel.
+        Hero: From when the Alliance rejected his ideas about AI. And he found out mom's illness was terminal.
+        global_humanark_asari_dr: Why do you think your father chose this specific memory?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: It was where his journey to Andromeda really began.
+            global_humanark_asari_dr: Those events started your family down a new path.
+            Hero: Yeah. Thanks, Lexi. Feels good to talk about this.
+            ↩ (goto) global_humanark_asari_dr: [empty]
+        ├ option 2:
+            Hero: Who knows? Dad's always been one for secrets.
+            global_humanark_asari_dr: But he's sharing them with you now. That's something.
+            ↩ (goto) global_humanark_asari_dr: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: I ran across another memory fragment.
+        Hero: Dad made SAM for mom. To cure her.
+        Hero: I knew that was part of it, but...
+        global_humanark_asari_dr: You didn't know it was the driving force.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Dad was always so aloof. I never saw this side of him.
+            global_humanark_asari_dr: Maybe that's why he kept this memory—so you'd know.
+            ↩ (goto) global_humanark_asari_dr: [empty]
+        ├ option 2:
+            Hero: He gave up everything trying to save her.
+            global_humanark_asari_dr: You didn't realize how important his family was to him?
+            Hero: I guess not.
+            global_humanark_asari_dr: Maybe that's what he wanted you to see.
+            ↩ (goto) global_humanark_asari_dr: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        Hero ⟨cond⟩ [OncePerGame]: I saw another of Dad's memories.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I was in this one. Scott, too.
+            Hero: We were home visiting. Dad told us about going through the Charon Relay.
+            global_humanark_asari_dr: So, you got your sense of exploration from your father.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: We joked it was in our DNA.
+                global_humanark_asari_dr: Then that part of him lives on.
+                ↩ (goto) global_humanark_asari_dr: [empty]
+            ├ option 2:
+                Hero: Dad gave me a push, but I'm not here because of him.
+                global_humanark_asari_dr: Maybe not actively. But he had some influence.
+                ↩ (goto) global_humanark_asari_dr: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I was in this one. Sara, too.
+            ↩ (goto) Hero: We were home visiting. Dad told us about going through the Charon Relay.
+        └─ merge ─┘
+    ├ option 4:
+        Hero ⟨cond⟩ [OncePerGame]: I saw another memory that Dad locked away.
+        Hero: The day my mom died.
+        global_humanark_asari_dr: I'm sorry, Ryder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Even in her last moments, Dad couldn't accept Mom's death.
+            global_humanark_asari_dr: It's hard to let go of the ones we love.
+            Hero: If you can't run from it, use it... Guess that's what he did.
+            ↩ (goto) global_humanark_asari_dr: [empty]
+        ├ option 2:
+            Hero: We each have our reasons for coming here.
+            Hero: Mom was his. Her death fueled him.
+            global_humanark_asari_dr: Grief can be a powerful motivator.
+            ↩ (goto) Hero: If you can't run from it, use it... Guess that's what he did.
+        └─ merge ─┘
+    ├ option 5:
+        Hero ⟨cond⟩: How do you think the crew is holding up?
+        global_humanark_asari_dr: I'm happy to share what I can without violating patient confidentiality.
+        global_humanark_asari_dr: Anyone in particular? I sort them in their files—and my brain—by species.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: Why do you sort them that way?
+            global_humanark_asari_dr: Just easier for me to see patterns in behavior.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: How you think the human crew members are handling things?
+                global_humanark_asari_dr: There's a lot of them.
+                ┌─ BRANCH (6) ─┐
+                ├ option 1:
+                    Hero: Suvi okay?
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        global_humanark_asari_dr ⟨cond⟩: {i}(Chuckles.){/i} More than okay.
+                        global_humanark_asari_dr: I probably shouldn't tell you this, but... you make her really happy, Ryder.
+                        Hero: She makes me happy too.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 2:
+                        global_humanark_asari_dr ⟨cond⟩: Suvi's strong sense of faith keeps her grounded.
+                        global_humanark_asari_dr: I'm not spiritual, but there's a beauty in how her mind rationalizes religion and science.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 3:
+                        global_humanark_asari_dr: She's remarkably adaptive. I'm kind of jealous.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Gil?
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        global_humanark_asari_dr ⟨cond⟩: He's... very excited about being a father. And sharing this experience with you.
+                        Hero: You have reservations?
+                        global_humanark_asari_dr: No, I think it will be good for him.
+                        global_humanark_asari_dr: But I doubt he'll be this chipper when he's changing a diaper.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 2:
+                        global_humanark_asari_dr ⟨cond⟩: I think it surprised him, how ready he was to be a father.
+                        Hero: It surprised me, too.
+                        global_humanark_asari_dr: I'm glad you stood your ground, Ryder. A child is a huge responsibility.
+                        global_humanark_asari_dr: Not something you rush into. Gil understands that.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 3:
+                        global_humanark_asari_dr: Gil likes to use humor as defensive technique.
+                        global_humanark_asari_dr: He'd rather bury himself in the Nomad than tackle emotions head-on.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    └─ merge ─┘
+                ├ option 3:
+                    Hero: How's Liam?
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        global_humanark_asari_dr ⟨cond⟩: Increasingly reckless. Even for Liam.
+                        global_humanark_asari_dr: Almost like he's trying to impress someone.
+                        Hero: Who? Me?
+                        global_humanark_asari_dr: Be careful there. Liam looks up to you.
+                        global_humanark_asari_dr: It'd be easy for him to put you on a pedestal.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 2:
+                        global_humanark_asari_dr ⟨cond⟩: Confused. In his mind, Verand's rescue was a win. But you don't see it that way.
+                        global_humanark_asari_dr: And you didn't react like he thought you would—like he {i}hoped{/i} you would.
+                        global_humanark_asari_dr: It's a good lesson. He'll bounce back. Just give him time.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 3:
+                        global_humanark_asari_dr ⟨cond⟩: All smiles. Verand's safe and you two got to play hero.
+                        global_humanark_asari_dr: At least, he recognizes that he messed up. That's progress.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 4:
+                        global_humanark_asari_dr: A handful. Every time I patch him up, he breaks something new.
+                        global_humanark_asari_dr: Liam's "we can't lose" attitude is commendable, but I worry how he'll react when something {i}does{/i} go wrong.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    └─ merge ─┘
+                ├ option 4:
+                    Hero: How's Cora doing?
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        global_humanark_asari_dr ⟨cond⟩: You would know better than I.
+                        Hero: It's that obvious, huh?
+                        global_humanark_asari_dr: Wouldn't say it's "obvious," but I can tell you're happy.
+                        global_humanark_asari_dr: You two make a good match. I think your father would approve.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 2:
+                        global_humanark_asari_dr ⟨cond⟩: The thing with Sarissa hit her hard.
+                        global_humanark_asari_dr: But she'll be better for it in the long run.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 3:
+                        global_humanark_asari_dr ⟨cond⟩: Cora's commando training makes her think asari have all the answers.
+                        global_humanark_asari_dr: Just because we live longer doesn't mean we can't screw up.
+                        global_humanark_asari_dr: Just means we have more time to make mistakes.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    ├ option 4:
+                        global_humanark_asari_dr: She's processing. Your father was her mentor.
+                        global_humanark_asari_dr: She expected to follow in his footsteps. But he gave the role of Pathfinder to you.
+                        global_humanark_asari_dr: Just because she trusts his judgment, doesn't mean she's not confused. Or hurt.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    └─ merge ─┘
+                ├ option 5:
+                    Hero: I'd like to check in on the non-human crew.
+                    global_humanark_asari_dr: Ask away.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        Hero: How's our salarian?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_humanark_asari_dr ⟨cond⟩: Kallo's photographic memory makes it hard for him to accept that his old team is gone.
+                            global_humanark_asari_dr: He's transferring those feelings to the ship itself.
+                            global_humanark_asari_dr: Gil, who's very much a man of the present, doesn't understand that.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 2:
+                            global_humanark_asari_dr: He's quite the gossip.
+                            global_humanark_asari_dr: Tight-lipped about himself, though.
+                            ↩ (goto) Hero: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: Tell me about Vetra.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            global_humanark_asari_dr ⟨cond⟩: Are you asking for relationship advice?
+                            Hero: Maybe...
+                            global_humanark_asari_dr: Vetra's used to being the caretaker.
+                            global_humanark_asari_dr: Show her it's okay to relax and take care of herself now and then.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 2:
+                            global_humanark_asari_dr ⟨cond⟩: Vetra's top priority has always been her sister's safety.
+                            global_humanark_asari_dr: Now that Sid's growing up, their relationship is changing.
+                            global_humanark_asari_dr: It's not going to happen overnight. But they'll find a new rhythm.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 3:
+                            global_humanark_asari_dr: Vetra's used to having someone depend on her.
+                            global_humanark_asari_dr: I think that's why she's so resourceful and likes providing for other people.
+                            global_humanark_asari_dr: That being said, I think she could use a little "me-time."
+                            ↩ (goto) Hero: [empty]
+                        └─ merge ─┘
+                    ├ option 3:
+                        Hero ⟨cond⟩: Is Drack good?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_humanark_asari_dr ⟨cond⟩: He's seemed conflicted since Elaaden.
+                            global_humanark_asari_dr: Drack likes to think of himself as a fossil: something from the past to look at and learn from.
+                            global_humanark_asari_dr: But you've shown him he has a lot left to live for.
+                            global_humanark_asari_dr: Thanks, Ryder.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 2:
+                            global_humanark_asari_dr: That old bastard's always "good."
+                            global_humanark_asari_dr: I've never met anyone who can be so stubborn and so appreciative.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_humanark_asari_dr [OncePerGame]: Could you... look out for him, Ryder?
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: Don't worry, Lexi. I'll keep an eye on him.
+                                    global_humanark_asari_dr: Thank you. And... maybe, don't mention I asked.
+                                    ↩ (goto) Hero: [empty]
+                                ├ option 2:
+                                    Hero: Drack can take care of himself.
+                                    global_humanark_asari_dr: You'd think so...
+                                    ↩ (goto) Hero: [empty]
+                                └─ merge ─┘
+                            ├ option 2:
+                                ↩ (goto) Hero: [empty]
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 4:
+                        Hero ⟨cond⟩: Is Peebee all right?
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            global_humanark_asari_dr ⟨cond⟩: I tried to talk to her about Kalinda...
+                            global_humanark_asari_dr: {i}(Sighs.){/i} It didn't go well.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 2:
+                            global_humanark_asari_dr ⟨cond⟩: She actually stopped by—voluntarily!
+                            Hero: She talk to you about Kalinda?
+                            global_humanark_asari_dr: No, she didn't really talk... just made a face, then ran from the room.
+                            global_humanark_asari_dr: But for her, that's a big step!
+                            ↩ (goto) Hero: [empty]
+                        ├ option 3:
+                            global_humanark_asari_dr ⟨cond⟩: Still can't get two words out of her. But she seems... less tense after that stunt with the escape pod.
+                            global_humanark_asari_dr: I blame you.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 4:
+                            global_humanark_asari_dr: She's avoiding me. Probably thinks I'll poke her with a needle if she gets too close.
+                            Hero: To be fair, you're always giving me shots.
+                            global_humanark_asari_dr: Not in the hallway!
+                            ↩ (goto) Hero: [empty]
+                        └─ merge ─┘
+                    ├ option 5:
+                        Hero ⟨cond⟩: Is Jaal doing okay?
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            global_humanark_asari_dr ⟨cond⟩ [OncePerGame]: He told me about you. And him.
+                            global_humanark_asari_dr: This might be crossing a line, but could you give me... {i}details{/i}. You know, for science.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero: Well... sure, if Jaal's okay with it. I think he will be since it's for {i}science{/i}.
+                                global_humanark_asari_dr: Of course! Purely clinical.
+                                Hero: We'll have SAM send you the details.
+                                global_humanark_asari_dr: This could have {i}amazing{/i} settlement implications...
+                                ↩ (goto) Hero: [empty]
+                            ├ option 2:
+                                Hero: No, Lexi.
+                                global_humanark_asari_dr: But...
+                                Hero: Just no.
+                                ↩ (goto) Hero: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_humanark_asari_dr ⟨cond⟩: Akksul's death weighs on him.
+                            Hero: I'm the one who pulled the trigger.
+                            global_humanark_asari_dr: But Jaal put you in that situation.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 3:
+                            global_humanark_asari_dr ⟨cond⟩: Exposing Akksul has lifted a great weight from his shoulders.
+                            global_humanark_asari_dr: I can tell he was deeply touched by the trust you put in him.
+                            ↩ (goto) Hero: [empty]
+                        ├ option 4:
+                            global_humanark_asari_dr: He's adjusting. The rest of us have at least {i}some{/i} understanding of each other's cultures.
+                            global_humanark_asari_dr: But to Jaal, we're all outsiders. It's a lot to take in. I'd say he's doing pretty well.
+                            ↩ (goto) Hero: [empty]
+                        └─ merge ─┘
+                    ├ option 6:
+                        Hero: Thanks for the insight.
+                        ↩ (goto) global_humanark_asari_dr: [empty]
+                    └─ merge ─┘
+                ├ option 6:
+                    Hero: Thanks for the insight.
+                    ↩ (goto) global_humanark_asari_dr: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: How you think the human crew members are handling things?
+        ├ option 3:
+            ↩ (goto) Hero: [empty]
+        ├ option 4:
+            Hero: Actually, never mind.
+            ↩ (goto) global_humanark_asari_dr: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        Hero: How long have you and Harry been friends?
+        global_humanark_asari_dr: I remember when he didn't complain about arthritis.
+        global_humanark_asari_dr: We met at a medical convention on the Citadel. He was moderating a panel on neurosurgery in low-gravity environments.
+        global_humanark_asari_dr: His name card was crooked, but he was so damn confident. I knew we'd be friends.
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 7:
+        Hero ⟨cond⟩: How did you get into medicine?
+        global_humanark_asari_dr: My mom was a dancer on Omega. Dad was a bouncer.
+        global_humanark_asari_dr: I'd patch him up after busy nights. Discovered I had steady hands.
+        global_humanark_asari_dr: They put every credit they earned into my education.
+        Hero: Are they here, in Heleus?
+        global_humanark_asari_dr: No, both died in a turf war. Made leaving the Milky Way behind easier.
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 8:
+        Hero: So how'd an asari doctor end up on the human ark?
+        global_humanark_asari_dr: Specialist in alien anatomy, remember? That includes humans.
+        global_humanark_asari_dr: Also, Harry insisted. Maybe he always intended to switch jobs...
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 9:
+        Hero: I'll let you get back to it.
+        global_humanark_asari_dr: I'll be here if you need me.
+    └─ merge ─┘
+├ option 2:
+    Hero: One bottle of Akantha, barely opened.
+    global_humanark_asari_dr: It's medicinal, you understand. Cuts down hangovers, which will save Peebee and Drack some grief.
+    Hero: Of course.
+    global_humanark_asari_dr: Thank you, Ryder. Would you ask Liam when we're doing this? I've got a couple of things to finish up.
+    ↩ (goto) global_humanark_asari_dr: [empty]
+├ option 3:
+    Hero: Everything all right?
+    global_humanark_asari_dr: Oh. Yes. Peebee and I were just... having a debate.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You mean argument.
+        global_humanark_asari_dr: No, that would be unprofessional.
+        Hero: If you say so.
+        global_humanark_asari_dr: Ryder... do you think I’m uptight?
+        Hero: I—
+        global_humanark_asari_dr: No—never mind. Don't answer that. Let's just... talk about something else.
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 2:
+        Hero: Better than her avoiding you, right?
+        global_humanark_asari_dr: I guess.
+        ↩ (goto) global_humanark_asari_dr: Ryder... do you think I’m uptight?
+    └─ merge ─┘
+├ option 4:
+    global_humanark_asari_dr ⟨cond⟩ [OncePerGame]: Going through the readouts from the kett facility.
+    global_humanark_asari_dr: I've never seen such advanced genetic technology.
+    global_humanark_asari_dr: Frankly, it's light years ahead of our capabilities.
+    ↩ (goto) global_humanark_asari_dr: [empty]
+├ option 5:
+    global_humanark_asari_dr ⟨cond⟩ [OncePerGame]: Saw we have a stowaway.
+    Hero: You mean Peebee?
+    global_humanark_asari_dr: She's decided to set up in one of the escape pods.
+    global_humanark_asari_dr: You don't need a psychologist to tell you that one's got commitment issues.
+    ↩ (goto) global_humanark_asari_dr: [empty]
+├ option 6:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_humanark_asari_dr: Ryder.
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 2:
+        global_humanark_asari_dr: Yes?
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 3:
+        global_humanark_asari_dr: Feeling okay?
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    ├ option 4:
+        global_humanark_asari_dr: Need something?
+        ↩ (goto) global_humanark_asari_dr: [empty]
+    └─ merge ─┘
+└─ merge ─┘

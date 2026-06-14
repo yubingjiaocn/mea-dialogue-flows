@@ -1,0 +1,753 @@
+# game/conversations/unc/storms/stm_0800_eos_poi_topics_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0800_eos_poi_topics_b.xml
+==================================================
+┌─ BRANCH (15) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩ [OncePerGame]: This is resonating now. Probably with the vault.
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: More of Peebee's Remnant technology.
+        global_squad_asari ⟨cond⟩: Still not as interesting as the monoliths.
+    ├ option 3:
+        Hero: This alien tech comes in all shapes and sizes, but what's it {i}for{/i}?
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩ [OncePerGame]: I wonder what all these bits of Remnant tech used to be.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And I'm wondering what broke them up.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Something even the observers couldn't piece back together.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Might be why the vault was having trouble connecting.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Fallen monolith? Those would land with a bang.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Things crumble. No sense wasting time on it.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: You can see all of Prodromos from up here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Won't be long before we build cities.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Couldn't stand up here before the vault. Would've irradiated your face.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Won't be long before we build cities.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Rare to see a real beginning. Inspiring.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Won't be long before we build cities.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Picking out my penthouse. On the big rock. That's uptown.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Won't be long before we build cities.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: The view we wanted for months after arrival. Just a simple outpost.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Won't be long before we build cities.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Ah, I suppose you guys build good things now and then.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Won't be long before we build cities.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Earth had formations like this. Made a lot of kids think of alien worlds.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Water and weather. Nothing tougher in the long run.
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Yeah, yeah, erosion and whatever. Let's find some tech.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Water and weather. Nothing tougher in the long run.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: We had a legend that formations like this were from the weight of the sky. Long before the Scourge.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Water and weather. Nothing tougher in the long run.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Hoodoo? Who don't?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Water and weather. Nothing tougher in the long run.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: I'm not real romantic about road hazards. {i}Interesting{/i} rocks are just as bad for the Nomad.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Water and weather. Nothing tougher in the long run.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: I like hoodoos. Play it right, you could trick a thresher right into one. Squish.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Water and weather. Nothing tougher in the long run.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: As high as we climb, it feels like there's so much more out there.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: The Blackrock feels old. Good to remember we're the new ones.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Looking up at rocks, looking down on rocks. Not. Interested. In. Rocks.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The Blackrock feels old. Good to remember we're the new ones.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: The Remnant change worlds, but places like this feel solid.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The Blackrock feels old. Good to remember we're the new ones.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: "Tande" means teeth. Why do we keep going to teeth?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The Blackrock feels old. Good to remember we're the new ones.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: I miss climbing for fun. Everything's life or death now.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The Blackrock feels old. Good to remember we're the new ones.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: I like this. It stands tall. Has cracks. Uh, good for dropping shit.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The Blackrock feels old. Good to remember we're the new ones.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Prodromos reports their defenses are online.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: The kett don't pull their punches. With colonists on the line, neither can we.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Hope those rookie soldiers don't poke the Remnant.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The kett don't pull their punches. With colonists on the line, neither can we.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: A pity your first outpost had to be military. But I see why.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The kett don't pull their punches. With colonists on the line, neither can we.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Tried chatting with some soldiers at Prodromos. They're a straight-faced bunch.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The kett don't pull their punches. With colonists on the line, neither can we.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Might divert some militia equipment to Prodromos.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The kett don't pull their punches. With colonists on the line, neither can we.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Gonna be a lot safer around here with those soldiers.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: The kett don't pull their punches. With colonists on the line, neither can we.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 7:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Really hope all those scientists will be safe out here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: We came to explore and learn. That's who we are.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Took a peek at the plans for the Prodromos research labs. Shiny.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We came to explore and learn. That's who we are.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: I'll be interested to see what your scientists learn of Eos.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We came to explore and learn. That's who we are.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I keep wondering what our scientists will cook up for Eos.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We came to explore and learn. That's who we are.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Already getting requests from the Prodromos labs.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We came to explore and learn. That's who we are.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Still think you'd be better off with soldiers at your outpost.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We came to explore and learn. That's who we are.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 8:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Always wondered what holds up those arch formations.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: It's hard to believe these are carved by sand.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Architecture back home is nothing but arches. I like these better.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: It's hard to believe these are carved by sand.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: This would be a grand site to ambush kett. They rarely bother looking up.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: It's hard to believe these are carved by sand.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Nice archway. Imagine the view from up top.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: It's hard to believe these are carved by sand.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: That arch frames Eos pretty well.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: It's hard to believe these are carved by sand.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Lousy archway things always look like they'll drop on you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: It's hard to believe these are carved by sand.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 9:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Too bad there's no time for a swim.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Wonder what it's like on Eos when it rains. We do our job, someone will see it.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Ah, the Big Lake. Bet you can't guess how I thought of that name.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Wonder what it's like on Eos when it rains. We do our job, someone will see it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Now this is familiar. A world isn't home without water.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Wonder what it's like on Eos when it rains. We do our job, someone will see it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I bet that water's nice and cool.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Wonder what it's like on Eos when it rains. We do our job, someone will see it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Makes you want to sail across, doesn't it?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Wonder what it's like on Eos when it rains. We do our job, someone will see it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Imagine cannonballing right into that water.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Wonder what it's like on Eos when it rains. We do our job, someone will see it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 10:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Watching the corners.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: These caves could be a good shelter, if people need it.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Never liked the caves. Too many kaerkyns in your sleeping bag.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: These caves could be a good shelter, if people need it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Signs of kett still linger. There's no getting rid of them.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: These caves could be a good shelter, if people need it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: At least it's cooler in here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: These caves could be a good shelter, if people need it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Wonder if there's anything hidden away back here...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: These caves could be a good shelter, if people need it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Gets us away from the sun for a while.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: These caves could be a good shelter, if people need it.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 11:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Were these shards of something bigger?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Can't interface with it. Guess we'll never know.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Always wondered if this was related to the monoliths.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Can't interface with it. Guess we'll never know.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Embedded in solid rock. Impressive engineering.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Can't interface with it. Guess we'll never know.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: This tech just gets weirder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Can't interface with it. Guess we'll never know.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Which came first, the rock or the tech coming out of it?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Can't interface with it. Guess we'll never know.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Huh. More weird tech being weird.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Can't interface with it. Guess we'll never know.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 12:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Recovery is a long term process.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Hard lessons we can't forget.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Really don't like coming back here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hard lessons we can't forget.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: A difficult start. It's admirable you kept trying.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hard lessons we can't forget.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Should be a memorial, or monument. When there's time.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hard lessons we can't forget.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: We knew Promise would die. All we could do is watch it happen.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hard lessons we can't forget.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: First steps mark the brave and dead. Old krogan saying.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Hard lessons we can't forget.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 13:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Look out for anything big and hungry.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Resilience is more than a name—it's our duty now.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Used to watch the lights from Site 2. One night—nothing.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Resilience is more than a name—it's our duty now.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: The kett left their mark, but the buildings stand. That's a lesson.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Resilience is more than a name—it's our duty now.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Lot of smart people here once. We're their successors.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Resilience is more than a name—it's our duty now.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Think they'll ever try moving back in here?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Resilience is more than a name—it's our duty now.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Civilians lived here, engineers, but they fought. This was theirs, for a while.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Resilience is more than a name—it's our duty now.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 14:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: The kett just have to make their mark.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: We'll clear the kett off Eos for good.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Always wanted to toss a rock in these kett turbine things.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We'll clear the kett off Eos for good.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Whatever the kett build, we can break.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We'll clear the kett off Eos for good.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Reminds me of that poem. "Lone and level sands."
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We'll clear the kett off Eos for good.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Really looking forward to seeing these turbines wrecked.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We'll clear the kett off Eos for good.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: These things would be fun to knock over.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: We'll clear the kett off Eos for good.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 15:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: So peaceful around here with the Invictor dead.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Stay sharp, just in case.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Finally, peace and quiet around here. Kinda.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Stay sharp, just in case.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: This base is just a shell now. As it should be.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Stay sharp, just in case.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: At least there's no Invictor to yell at us.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Stay sharp, just in case.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Probably smart to keep an eye on this place.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Stay sharp, just in case.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Ah, nothing like a victory lap.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Stay sharp, just in case.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM [OncePerGame]: The first colonists sent audio logs about these regions back to the Nexus.
+    Hero: And?
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] The Golden Wastes. What was promised, and what we found.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Understandable.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Downer.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Of course.
+        └─ merge ─┘
+    ├ option 2:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Presson Dunes. The mayor's idea. "Because we have to press on."
+        Hero: Politicians. Always helpful.
+    ├ option 3:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] The Sheartop. Because it is.
+        Hero: I guess you run out of names eventually.
+    ├ option 4:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Blackrock Tande. Eos has teeth, all right.
+    ├ option 5:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] The Outland Spire. You can see it from almost anywhere.
+    ├ option 6:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Fairwinds Basin. Lowest radiation count in the area. A little bit of hope.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: It's a good spot. You can feel it.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Maybe more than a little.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: It is calmer. Notice that?
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: We can work with that.
+        └─ merge ─┘
+    ├ option 7:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Sawtooth Plateau. All those broken pieces like a dragon's jaw.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] The Golden Wastes. What was promised, and what we found.
+    ├ option 2:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Presson Dunes. The mayor's idea. "Because we have to press on."
+    ├ option 3:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] The Sheartop. Because it is.
+    ├ option 4:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Blackrock Tande. Eos has teeth, all right.
+    ├ option 5:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] The Outland Spire. You can see it from almost anywhere.
+    ├ option 6:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Fairwinds Basin. Lowest radiation count in the area. A little bit of hope.
+    ├ option 7:
+        stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Howling Canyons. General no-go. Unstable.
+        Hero: After everything else, she calls {i}this{/i} "unstable"?
+    ├ option 8:
+        ↩ (goto) stm_legacy_chief_engineer_multi ⟨cond⟩ [OncePerGame]: [Audio Log] Sawtooth Plateau. All those broken pieces like a dragon's jaw.
+    └─ merge ─┘
+└─ merge ─┘

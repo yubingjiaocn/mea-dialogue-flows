@@ -1,0 +1,25 @@
+# game/conversations/unc/biolum/bio_crafting_0100_quest_i
+# Primary speaker: 
+# Source: game/conversations/unc/biolum/bio_crafting_0100_quest_i.xml
+==================================================
+bio_remnant_archivist: Pathfinder, I'm sorry we were previously suspicious of you. Kiiran Dals explained everything that transpired.
+bio_remnant_archivist: We are fortunate you are deciphering the Remnant technology.
+bio_remnant_archivist: Are you here for further research?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I'm always exploring and trying to learn more.
+    bio_remnant_archivist: I respect that.
+    bio_remnant_archivist: There's so much of it across this world, and others. When you scan it, there's no telling what you could unlock.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_remnant_archivist ⟨cond⟩: Perhaps one day, you'll discover all its secrets.
+    ├ option 2:
+        bio_remnant_archivist: Perhaps one day, you'll save all of Heleus.
+        ↩ (goto) bio_remnant_archivist: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Wanted to make sure everything's okay here. See how I can help.
+    bio_remnant_archivist: You've already helped us immeasurably. If not for you, I'd still be asleep.
+    bio_remnant_archivist: The Remnant technology is so... inscrutable. We were at its mercy.
+    ↩ (goto) bio_remnant_archivist: There's so much of it across this world, and others. When you scan it, there's no telling what you could unlock.
+└─ merge ─┘

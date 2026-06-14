@@ -1,0 +1,106 @@
+# game/conversations/unc/olw/death_caves/olw_deathcaves_gen_exploration_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/death_caves/olw_deathcaves_gen_exploration_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Cave over there. Maybe something's inside?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Cave ahead. Worth checking?
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Cave that way. Might be worth a look.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Look, caves. Might be something worth seeing.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Look, a cave! Wanna explore?
+├ option 6:
+    global_squad_angara ⟨cond⟩: Cave that way. Want to look around?
+└─ merge ─┘
+Hero: This place is massive.
+SAM: Detecting high levels of toxic gas. Proceed with caution, Pathfinder.
+Hero: Hey—I'm always cautious.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Look at those... stalagmites... tites? I can never get that right.
+    Hero: {i}(Chuckles.){/i} Stalactites. Think of it like they're holding {i}tightly{/i} to the ceiling.
+├ option 2:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Smells even worse in here than it does out there.
+    Hero: Close quarters.
+├ option 3:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Look at the size of those stalactites.
+    Hero: It’d take hundreds of years to get that big.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: This would be the perfect place to lie low.
+    Hero: Yeah, except for those scorpion things.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Careful. It’d be easy to get lost in here.
+    Hero: Me? Lost? Never.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Is that... a generator? What’s it doing all the way out here?
+    SAM: It appears to be powering the flood lights.
+    Hero: Well, yeah, but who put it here?
+    Hero ⟨cond⟩: The surveyor?
+    SAM: That would be a lot of equipment for one man to carry.
+├ option 2:
+    SAM: Another generator.
+    Hero: And more lights. They lead to something?
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Let there be light!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Wow.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Pretty!
+├ option 4:
+    global_squad_angara ⟨cond⟩: Fresh air.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Huh. We're not completely closed in.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Wow, this place is big.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Tunnels deep as anything. We better find something.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Oh, look. More cave.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: It's huge. Wonder what's back here.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Better find something cooler than a dead end.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Goes farther than I thought.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Dead end. Huh. Try the other path?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Out of options, this way.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Dead end. Damn.
+    Hero: Must have missed something.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Dead end. Let's backtrack.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Dead end. Boring.
+    Hero: Maybe there's another way?
+├ option 6:
+    global_squad_angara ⟨cond⟩: Dead end. Maybe try the other way?
+└─ merge ─┘
+Hero: You hear that?
+Hero: Now that's interesting.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Should we knock?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Please tell me we're going in there!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Want to see if anybody's home?
+├ option 4:
+    global_squad_female_human ⟨cond⟩: What the hell is a door doing in the middle of a cave?
+├ option 5:
+    global_squad_asari ⟨cond⟩: And behind door number one!
+└─ merge ─┘
+Hero: Watch your toes. Pretty dark back here.

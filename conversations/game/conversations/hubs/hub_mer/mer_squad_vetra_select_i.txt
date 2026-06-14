@@ -1,0 +1,61 @@
+# game/conversations/hubs/hub_mer/mer_squad_vetra_select_i
+# Primary speaker: global_squad_turian
+# Source: game/conversations/hubs/hub_mer/mer_squad_vetra_select_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_turian: I just realized. We haven't decided where we're going to live.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What's wrong with the Tempest?
+            global_squad_turian: There's nothing wrong with the Tempest. It's just not... a home. Isn't that what we want? Eventually?
+            Hero: There's still work to be done. We can put down roots later.
+            global_squad_turian: All right, I get that you don't want to decide yet.
+            global_squad_turian: But I do want one, you know. A home. Hopefully with you.
+            Hero: I know. And it's not far away.
+        ├ option 2:
+            Hero: You're right! How are we even supposed to pick?
+            Hero: And what are the options? Where are we allowed to settle?
+            global_squad_turian: You're Ryder. I'm sure someone would build you a floating castle somewhere, if you really wanted one.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Floating castles. Overdone. A Pathfinder's home has to be cutting edge. Original.
+                global_squad_turian: Guess I'll have to think harder then.
+                global_squad_turian: Because that's what I want in the end. That's what all of this was for.
+                global_squad_turian: So we could build a home. Together.
+                ↩ (goto) Hero: I know. And it's not far away.
+            ├ option 2:
+                Hero: Floating castle? Wait, wait, wait. I can fulfill my dream of being a space princess?
+                global_squad_turian: Sure, anything you want.
+                ↩ (goto) global_squad_turian: Because that's what I want in the end. That's what all of this was for.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You and Sid?
+        global_squad_turian: Yeah, that was the whole point, wasn't it? A home. Putting down roots. New beginnings.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: There are loads of possibilities. You could even stay here, if you wanted.
+            global_squad_turian: Meridian? I mean, it's nice, but Meridian's going to be a big deal.
+            global_squad_turian: I'm thinking... somewhere quiet.
+            Hero: Could you handle quiet?
+            global_squad_turian: I think so. Somewhere on a hill, where I can watch a fiery sunset? Yeah. I'd be happy.
+        ├ option 2:
+            Hero: Sid will probably have some opinions.
+            global_squad_turian: Heh. Too many. But you're right. She'll probably want to stay here, if I know her. Where all the action is.
+            ↩ (goto) global_squad_turian: I'm thinking... somewhere quiet.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian: Pathfinder.
+    ├ option 2:
+        global_squad_turian: Hey, Ryder.
+    ├ option 3:
+        global_squad_turian: How's it going?
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

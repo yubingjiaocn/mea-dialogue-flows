@@ -1,0 +1,38 @@
+# game/conversations/crit/crit_ex/crit_ex_0250_exit_dcntam_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0250_exit_dcntam_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Decontamination? Is that weird to anyone else?
+    Hero: Good question.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Probably with a creepy answer.
+        Hero: Germophobes?
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Maybe the kett think they're sick.
+        ↩ (goto) Hero: Germophobes?
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Medical? Or survival, maybe?
+        ↩ (goto) Hero: Germophobes?
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Needs a damn good answer.
+        ↩ (goto) Hero: Germophobes?
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Not sure I want to know.
+        ↩ (goto) Hero: Germophobes?
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: Why would they need decontamination?
+    ↩ (goto) Hero: Good question.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Decontamination? What for?
+    ↩ (goto) Hero: Good question.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Why decontamination?
+    ↩ (goto) Hero: Good question.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Decontamination? For what?
+    ↩ (goto) Hero: Good question.
+└─ merge ─┘

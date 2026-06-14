@@ -1,0 +1,37 @@
+# game/conversations/unc/biolum/bio_0360_sanc_engineer_i
+# Primary speaker: bio_sage_engineer
+# Source: game/conversations/unc/biolum/bio_0360_sanc_engineer_i.xml
+==================================================
+bio_sage_engineer: Oh, good. I've wanted to talk with you. How are you able to use the Remnant?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: With an artificial intelligence that helps with analysis and translation.
+    bio_sage_engineer: So that's the trick? I wouldn't have guessed.
+    bio_sage_engineer: Angara who live close to Remnant technology sometimes learn how to use specific tech.
+    bio_sage_engineer: It requires intense concentration. And even if we can make it work, we've never understood how it works.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: So some of you can use Remnant tech, but you don't know how it works?
+        bio_sage_engineer: Not all Remnant tech, no. Like I said, specific pieces.
+        bio_sage_engineer: Take Mithrava for example. Some of us can operate the security that protects the sanctuary.
+        bio_sage_engineer: The knowledge was passed down through generations. In my case, it took a year to learn how to open a simple door.
+        bio_sage_engineer: The difference between knowing you can eat a tree's fruit, and understanding why that tree bears fruit.
+        ↩ (goto) bio_sage_engineer: [empty]
+    ├ option 2:
+        Hero: I should be going.
+        bio_sage_engineer: Suit yourself.
+    └─ merge ─┘
+├ option 2:
+    Hero: Uh, just lucky, I guess.
+    bio_sage_engineer: All right. Don't reveal your secrets.
+    ↩ (goto) bio_sage_engineer: Angara who live close to Remnant technology sometimes learn how to use specific tech.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    bio_sage_engineer: Hello again.
+    ↩ (goto) bio_sage_engineer: [empty]
+├ option 2:
+    bio_sage_engineer: What can I do for you?
+    ↩ (goto) bio_sage_engineer: [empty]
+└─ merge ─┘
+↩ (goto) bio_sage_engineer: [empty]

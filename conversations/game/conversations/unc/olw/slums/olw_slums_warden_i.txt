@@ -1,0 +1,42 @@
+# game/conversations/unc/olw/slums/olw_slums_warden_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/slums/olw_slums_warden_i.xml
+==================================================
+Hero: What do you know about the situation out there?
+olw_slums_warden: You might say I'm the warden of the badlands. It's not a place for tourists. Tough beyond these walls.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I can handle it.
+    olw_slums_warden: A lot of people say that. Then we never see them again.
+    olw_slums_warden: Badlands are Kadara's dumping ground. Like a giant prison. When you're too nasty for even this place, we kick you out there.
+    Hero: You mean... exiles who get exiled?
+    olw_slums_warden: Yep. Worst of the worst. And some of them {i}want{/i} to be there. Got secrets to hide, I guess.
+    olw_slums_warden: The water's toxic. Sulfur springs are everywhere. Have a nasty habit of catching fire.
+    olw_slums_warden: {i}(Grim chuckle.){/i}. So have at it. Knock yourself out.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+    ├ option 2:
+        Hero: I'm looking for a "Remi Tamayo." Any idea where I might find her?
+        olw_slums_warden: Hmm. Tamayo. Tamayo... Ooh yeah. She's the one who kept insisting she's innocent.
+        Hero: She is innocent. The Outcast collecting the fees made a mistake. Remi paid up.
+        olw_slums_warden: Well, shit. That's never happened before.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: As far as you know.
+            olw_slums_warden: Don’t get smart, Pathfinder.
+            olw_slums_warden: Last time I saw your girl, she was talking with Johan and his crew. Nasty bunch.
+            olw_slums_warden: I’ll send you the navpoint to their last known location. Prepare for a fight.
+        ├ option 2:
+            Hero: Not here to point fingers. I just want to find her.
+            olw_slums_warden: {i}(Chuckles.){/i} Look at you, playing the hero.
+            ↩ (goto) olw_slums_warden: Last time I saw your girl, she was talking with Johan and his crew. Nasty bunch.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: What does tough look like?
+    olw_slums_warden: A graveyard of people who are either dead or soon will be.
+    ↩ (goto) olw_slums_warden: Badlands are Kadara's dumping ground. Like a giant prison. When you're too nasty for even this place, we kick you out there.
+└─ merge ─┘
+↩ (goto) Hero: I'm looking for a "Remi Tamayo." Any idea where I might find her?
+olw_slums_warden: Now you went and did it. Made life all nice and cozy for the crazies. Where am I supposed to put them now?
+olw_slums_warden: Move along.

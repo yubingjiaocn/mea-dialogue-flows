@@ -1,0 +1,104 @@
+# game/conversations/unc/olw/windfarm/olw_0100_turbine_start_i
+# Primary speaker: olw_windfarmer_02
+# Source: game/conversations/unc/olw/windfarm/olw_0100_turbine_start_i.xml
+==================================================
+olw_windfarmer_02: {i}(Sighs.){/i} Assholes took everything but the rotor hub.
+Hero: Trouble with scavengers?
+olw_windfarmer_02: Always. Who are you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Someone who can help.
+    olw_windfarmer_02: {i}(Scoffs.){/i} Seriously doubt that. You’re Initiative, right? Too clean to be an exile.
+    Hero: I’m a Pathfinder.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        olw_windfarmer_02 ⟨cond⟩: The one who saved Sloane from the Charlatan!
+        Hero: You said you had a scavenger problem.
+        olw_windfarmer_02: Right. Yeah. Bastards come at night. Pick the turbines clean of parts.
+        olw_windfarmer_02: Expensive. And annoying.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: The Collective doesn't provide security?
+            olw_windfarmer_02: Too busy chasing down the last of the Outcasts.
+            olw_windfarmer_02: I’m not asking for guards. I just want our parts back.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Any idea where I could find these scavengers?
+                olw_windfarmer_02: I started putting trackers on the more valuable parts.
+                olw_windfarmer_02: Yaw drive. Generator. They've all been taken to the same navpoint.
+                Hero: I'll check it out.
+                olw_windfarmer_02: If the parasites put up a fight, don't feel bad about offing them.
+            ├ option 2:
+                Hero: Sorry, but I don't have time to chase down scavengers.
+                olw_windfarmer_02: Fine. Wasn't asking you anyways.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Sloane doesn't provide security?
+            olw_windfarmer_02: Too busy with the Collective.
+            ↩ (goto) olw_windfarmer_02: I’m not asking for guards. I just want our parts back.
+        └─ merge ─┘
+    ├ option 2:
+        olw_windfarmer_02 ⟨cond⟩: The one who helped take down Sloane!
+        ↩ (goto) Hero: You said you had a scavenger problem.
+    ├ option 3:
+        olw_windfarmer_02: A Pathfinder? On Kadara? Holy shit.
+        ↩ (goto) Hero: You said you had a scavenger problem.
+    └─ merge ─┘
+├ option 2:
+    Hero: A Pathfinder with the Initiative.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) olw_windfarmer_02 ⟨cond⟩: The one who saved Sloane from the Charlatan!
+    ├ option 2:
+        ↩ (goto) olw_windfarmer_02 ⟨cond⟩: The one who helped take down Sloane!
+    ├ option 3:
+        ↩ (goto) olw_windfarmer_02: A Pathfinder? On Kadara? Holy shit.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Found your scavengers... dead. A fiend got them.
+olw_windfarmer_02: And the turbine parts?
+Hero: Destroyed. Nothing left but scrap.
+olw_windfarmer_02: I'll take satisfaction knowing my yaw drive isn't being used by a bloody scav.
+olw_windfarmer_02: Thanks, Pathfinder.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Who runs the wind farm?
+    olw_windfarmer_02: It's a communal effort. Everyone helps maintain the turbines.
+    olw_windfarmer_02: But me and the salarian are the only trained technicians.
+    olw_windfarmer_02: So, naturally, that puts us in charge.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Does "the salarian" have a name?
+        olw_windfarmer_02: Yeah. And if he was ever nice, I'd use it.
+        olw_windfarmer_02: Until then, he's just "the salarian."
+        ↩ (goto) olw_windfarmer_02: [empty]
+    ├ option 2:
+        ↩ (goto) olw_windfarmer_02: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: What do you think about Kadara?
+    olw_windfarmer_02: Smells like week-old eggs and curdled milk.
+    Hero: So you regret leaving the Nexus?
+    olw_windfarmer_02: Pathfinder, I regret leaving the Milky Way.
+    olw_windfarmer_02: But if Kadara's taught me one thing, it's that there's no time for regrets.
+    olw_windfarmer_02: Live in the present or die thinking about the past.
+    ↩ (goto) olw_windfarmer_02: [empty]
+├ option 3:
+    Hero ⟨cond⟩: You said scavengers stole some turbine parts?
+    olw_windfarmer_02: Thought you didn't have time to "chase down scavengers."
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm making time. Any idea where the scavengers are?
+        olw_windfarmer_02: I put trackers on the more valuable parts.
+        ↩ (goto) olw_windfarmer_02: Yaw drive. Generator. They've all been taken to the same navpoint.
+    ├ option 2:
+        Hero: You're right. I don't.
+        olw_windfarmer_02: Then don't ask!
+        ↩ (goto) olw_windfarmer_02: [empty]
+    └─ merge ─┘
+├ option 4:
+    Hero: Stay safe.
+    olw_windfarmer_02: Yeah, sure.
+└─ merge ─┘
+olw_windfarmer_02: Yeah?
+↩ (goto) olw_windfarmer_02: [empty]

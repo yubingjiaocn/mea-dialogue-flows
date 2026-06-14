@@ -1,0 +1,51 @@
+# game/conversations/unc/storms/stm_8500_bait_mystery_talk_i
+# Primary speaker: stm_outpost_bait_exile
+# Source: game/conversations/unc/storms/stm_8500_bait_mystery_talk_i.xml
+==================================================
+Hero: Wise decision, standing down. Who are you?
+stm_outpost_bait_exile: Chase Gagnon. Used to be maintenance. Look, we weren't trying to hurt anyone, just like you said.
+stm_outpost_bait_exile: It's why we came back here. We didn't want to be outlaws. We have family on the Nexus.
+stm_outpost_bait_exile: But we didn't think we'd be welcome. Tann hasn't been forgiving. Not that we deserve it.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: How did you end up like this?
+    stm_outpost_bait_exile: What, as exiles? There was no hope. You have to understand: we thought we were all going to die.
+    stm_outpost_bait_exile: And when they exiled us, we saw it could be worse. People preying on their own. We couldn't.
+    stm_outpost_bait_exile: So we hid out here. And thought maybe... I don't know. I don't know, Pathfinder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You admit you were criminals.
+        stm_outpost_bait_exile: What choice did we have? Exiled means they kill you if you come back.
+        stm_outpost_bait_exile: But... we couldn't keep doing it. We're not pirates. We came here to build.
+        stm_outpost_bait_exile: All we could do was watch. Watch you build. At least it was something.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: How did you end up like this?
+        ├ option 2:
+            Hero: I can't let this continue. You know that.
+            stm_outpost_bait_exile: Pathfinder, we're not asking to continue. Just... we tried, all right? We tried and fucked it all up.
+            Hero: Not exactly a nuanced defense.
+            stm_outpost_bait_exile: There isn't one. We got scared, we did bad things, we regret it.
+            stm_outpost_bait_exile: Maybe we're idiots. Maybe we should never have come here. But we want to believe there's a way back.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You want a chance, a way back? Tann may not like it, but he's not here.
+                stm_outpost_bait_exile: They'll accept that? Let us try?
+                Hero: Prodromos isn't in the business of refusing honest help.
+                stm_outpost_bait_exile: I'm numb, Pathfinder. I don't know if there are words.
+                Hero: Then get to work.
+            ├ option 2:
+                Hero: I'll look the other way long enough for you to leave. That's your one chance from me.
+                stm_outpost_bait_exile: You know we'll be forced to survive. To take from somewhere else.
+                Hero: As long as it doesn't happen here, that's on you.
+                stm_outpost_bait_exile: I hope... fuck that, I don't hope. I know we won't meet again.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: I can't let this continue. You know that.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: You admit you were criminals.
+├ option 3:
+    ↩ (goto) Hero: I can't let this continue. You know that.
+└─ merge ─┘

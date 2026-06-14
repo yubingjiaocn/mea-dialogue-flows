@@ -1,0 +1,104 @@
+# game/conversations/hubs/hub_hyp/npcs/hyp_captain_main_i
+# Primary speaker: global_humanark_captain_multi
+# Source: game/conversations/hubs/hub_hyp/NPCs/hyp_captain_main_i.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_humanark_captain_multi [OncePerGame]: Ryder.
+    Hero: You're not on the bridge, Captain?
+    global_humanark_captain_multi: We powered it down. Can't afford to waste energy.
+    global_humanark_captain_multi: Though cryo bay and SAM Node are exempt. And I told them to keep their hands off Alec's quarters. You have access now.
+    Hero: Thanks.
+    global_humanark_captain_multi: Hey—sorry about your father. He was really good at what he did. Just not so good at working with people.
+    global_humanark_captain_multi: He was right about going planetside, though.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: No need to sugarcoat it. He could be a pain in the ass.
+        global_humanark_captain_multi: He and I had our disagreements, that's for sure.
+        global_humanark_captain_multi: Anyway. Here's hoping you and I get along better.
+        global_humanark_captain_multi: If there's anything else I can help with, let me know.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            Hero: If someone had told you that you'd be in the Andromeda cluster, even five years ago...
+            global_humanark_captain_multi: Are you kidding me? I'd have laughed them out of the quadrant.
+            global_humanark_captain_multi: Although the way things are now isn't exactly what I was hoping for, either.
+            global_humanark_captain_multi: We all knew there was a possibility on arrival of less than ideal circumstances.
+            global_humanark_captain_multi: When you sign up, you hope for the best and plan for the worst.
+            ↩ (goto) global_humanark_captain_multi: [empty]
+        ├ option 2:
+            Hero ⟨cond⟩: Now that the Hyperion is docked, what will you do?
+            global_humanark_captain_multi: Normally I'd supervise thawing out the colonists, but that's been put on hold.
+            global_humanark_captain_multi: I hear you're the one helping resolve the issue. Good luck with that.
+            ↩ (goto) global_humanark_captain_multi: [empty]
+        ├ option 3:
+            Hero ⟨cond⟩: Will you be bringing Hyperion folks out of stasis?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_humanark_captain_multi ⟨cond⟩: That's my job. We're keeping it to specific personnel for now: those who can help the Nexus get back on its feet.
+                global_humanark_captain_multi: But with outpost settlement starting, we'll soon be able to wake up more.
+                ↩ (goto) global_humanark_captain_multi: [empty]
+            ├ option 2:
+                global_humanark_captain_multi ⟨cond⟩: Whoever is most needed for the outposts gets priority.
+                global_humanark_captain_multi: You know... the big win will be when we're able to wake up entire families at once.
+                global_humanark_captain_multi: That's when I'll know things have taken a turn for the better.
+                ↩ (goto) global_humanark_captain_multi: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            Hero: Why did you join the Initiative? We're a long way from home...
+            global_humanark_captain_multi: How could I not? I love my job. Coming here, all this... it was just a logical extension of what I already do.
+            global_humanark_captain_multi: Sailing through new stars, discovering new worlds... what self-respecting explorer could pass that up?
+            ↩ (goto) global_humanark_captain_multi: [empty]
+        ├ option 5:
+            Hero: Thanks for the talk.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_humanark_captain_multi [OncePerGame]: All right. I have requests to submit, administrators to harass, and people to wake up. I'd better get to it.
+                global_humanark_captain_multi: Good luck out there.
+            ├ option 2:
+                global_humanark_captain_multi: Sure thing.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: As long as they did their jobs, he didn't care what people thought of him.
+        global_humanark_captain_multi: I noticed that.
+        ↩ (goto) global_humanark_captain_multi: If there's anything else I can help with, let me know.
+    ├ option 3:
+        Hero: I wish he were still here. There's so much he could have taught me.
+        global_humanark_captain_multi: You'll do fine. You're off to a good start.
+        ↩ (goto) global_humanark_captain_multi: If there's anything else I can help with, let me know.
+    ├ option 4:
+        Hero: He was a stranger to me, really.
+        global_humanark_captain_multi: Not like any of us knew him. He kept people at bay.
+        ↩ (goto) global_humanark_captain_multi: If there's anything else I can help with, let me know.
+    └─ merge ─┘
+├ option 2:
+    global_humanark_captain_multi [OncePerGame]: Ryder. This new station leadership I'm hearing about finally let you out of their sight?
+    Hero: Looks like.
+    global_humanark_captain_multi: Took 'em long enough.
+    ↩ (goto) global_humanark_captain_multi: [empty]
+├ option 3:
+    global_humanark_captain_multi: Good job with the Prodromos outpost, Pathfinder.
+    global_humanark_captain_multi: Ready to wake up a batch of colonists and send them down there.
+    global_humanark_captain_multi: It'll be nice to see their excitement when they realize this is really happening.
+    ↩ (goto) global_humanark_captain_multi: [empty]
+├ option 4:
+    global_humanark_captain_multi: Ryder. One of the angaran delegates was here for a tour. A first contact already—who'd have thought?
+    global_humanark_captain_multi: They seemed nice. Of course, that's how diplomats are supposed to seem.
+    ↩ (goto) global_humanark_captain_multi: [empty]
+├ option 5:
+    global_humanark_captain_multi: Pathfinder. I've been hearing more about the kett. We're lucky they haven't found the station, after all this time.
+    global_humanark_captain_multi: I can't imagine what it would've been like, to get here without the Nexus waiting...
+    ↩ (goto) global_humanark_captain_multi: [empty]
+├ option 6:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_humanark_captain_multi [OncePerGame]: Welcome back, Ryder.
+        global_humanark_captain_multi: Need anything?
+        ↩ (goto) global_humanark_captain_multi: [empty]
+    ├ option 2:
+        global_humanark_captain_multi: Pathfinder.
+        ↩ (goto) global_humanark_captain_multi: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) global_humanark_captain_multi: [empty]
+global_humanark_captain_multi: Both your father's quarters and the SAM node areas have been cleared for access.

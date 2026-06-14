@@ -1,0 +1,107 @@
+# game/conversations/hubs/hub_aya/rp/proof/aya_rp_proof_0200_quest1_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_aya/rp/proof/aya_rp_proof_0200_quest1_b.xml
+==================================================
+SAM: We are nearing the navpoint provided by Sohkaa Esof on Aya.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Something went down here.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Some kind of fight happened here.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Fight happened here. No bodies though.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Yeah, someone mixed it up here.
+├ option 5:
+    global_squad_angara ⟨cond⟩: This does not look good.
+├ option 6:
+    global_squad_turian ⟨cond⟩: Someone lost a fight. Question is, who won?
+└─ merge ─┘
+SAM: I detect traces of weapons fire consistent with kett technology.
+Hero: Kett. Great.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: {i}(Sighs.){/i} I recognize him. That's Keldo. One of Sohkaa's suppliers.
+├ option 2:
+    Hero: Looks like Sohkaa's supplier is dead.
+└─ merge ─┘
+Hero: Found them.
+SAM: Scans reveal these crates contain angaran weapons.
+Hero: Oh, really now.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i} Sneaky bastard. That merchant is Resistance.
+    global_squad_angara ⟨cond⟩: Oh. Did Sohkaa not mention he helps us out, sometimes?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Now you remember to tell us that?
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i}
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: He never did specify what the supplier sold him...
+    ↩ (goto) global_squad_angara ⟨cond⟩: Oh. Did Sohkaa not mention he helps us out, sometimes?
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Of course.
+    ↩ (goto) global_squad_angara ⟨cond⟩: Oh. Did Sohkaa not mention he helps us out, sometimes?
+├ option 4:
+    global_squad_turian ⟨cond⟩: Now this, I should have seen coming.
+    ↩ (goto) global_squad_angara ⟨cond⟩: Oh. Did Sohkaa not mention he helps us out, sometimes?
+├ option 5:
+    global_squad_asari ⟨cond⟩: That sneak!
+    ↩ (goto) global_squad_angara ⟨cond⟩: Oh. Did Sohkaa not mention he helps us out, sometimes?
+├ option 6:
+    ↩ (goto) global_squad_angara ⟨cond⟩: Oh. Did Sohkaa not mention he helps us out, sometimes?
+└─ merge ─┘
+Hero: And, here's the ambush.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM: Scans indicate an area ahead well-suited for an ambush. Several kett life signs detected.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human: We can walk into it, or we can take them by surprise.
+    ├ option 2:
+        global_squad_krogan: Not much of an ambush if we're ready for them.
+    ├ option 3:
+        global_squad_male_human: They'll never know what hit 'em.
+    ├ option 4:
+        global_squad_turian: We got this.
+    ├ option 5:
+        global_squad_angara: Walk into it, or sneak up on them?
+    ├ option 6:
+        global_squad_asari: They're in for a surprise.
+    └─ merge ─┘
+├ option 2:
+    SAM: I detect an angaran supply beacon nearby.
+├ option 3:
+    Hero: These tracks feel just a little too convenient.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: No shit.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Spelling out "ambush" with footprints.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Doubt it could be any more obvious.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Yeah, this'll end with an ambush.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Always nice when the ambush isn't a surprise.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: The kett don't usually use subtle tactics.
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Looks like they went that way.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Tracks over here.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: There's some tracks.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Tracks here.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Tracks. We could follow them.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: They left tracks behind.
+    └─ merge ─┘
+└─ merge ─┘

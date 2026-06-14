@@ -1,0 +1,26 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0250_decontam_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0250_decontam_b.xml
+==================================================
+Hero: Whoa. SAM, what is this?
+SAM: A decontamination protocol.
+SAM: The chamber is sealed until the cycle runs its course.
+Hero: So. We're trapped. I hate that.
+SAM: Noted.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Break the window?
+    SAM: No. The seal is invulnerable.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Windows break.
+    ↩ (goto) SAM: No. The seal is invulnerable.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Break the window?
+    ↩ (goto) SAM: No. The seal is invulnerable.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Window! Shoot it?
+    ↩ (goto) SAM: No. The seal is invulnerable.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Break the window?
+    ↩ (goto) SAM: No. The seal is invulnerable.
+└─ merge ─┘

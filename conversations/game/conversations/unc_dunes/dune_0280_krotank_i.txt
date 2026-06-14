@@ -1,0 +1,38 @@
+# game/conversations/unc_dunes/dune_0280_krotank_i
+# Primary speaker: dune_okeer_student
+# Source: game/conversations/unc_dunes/dune_0280_krotank_i.xml
+==================================================
+dune_okeer_student ⟨cond⟩: Hello. I noticed you were listening. Is it because you're a fan of the krogan genius, Dr. Okeer?
+dune_okeer_student: I'm frantic because a terminal with all his research was accidentally sold to a junker.
+Hero: Um, no. Maybe... what was on it?
+dune_okeer_student: His work regarding krogan physiology and the genophage was advanced. I was his protege. Or, I was acquainted with his protege...
+dune_okeer_lackey: Anyway, it's encrypted, but it would be bad if it fell into the wrong hands.
+dune_okeer_lackey: I can give you a navpoint, and the name of the scavenger I accidentally sold it to.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: You talk about Dr. Okeer like I should know who that is.
+    dune_okeer_student: Dr. Okeer was on the leading edge of krogan genetics and possibly curing the genophage.
+    dune_okeer_lackey: And not using the slow genetic mutation approach the Initiative has invested in.
+    dune_okeer_student: I have... I had a collection of his research. I hope to cure the genophage in the colony.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Send me the navpoint and the terminal identification.
+        dune_okeer_lackey: Done. I hope it's still on the planet. The junker was aggressive.
+    ├ option 2:
+        ↩ (goto) Hero: Send me the navpoint and the terminal identification.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: Send me the navpoint and the terminal identification.
+├ option 3:
+    Hero: Pretty sketchy... Shouldn't you be working with the Initiative or Morda's people.
+    Hero: We don't want anyone inventing some rogue cure for the genophage.
+    dune_okeer_student: As you wish.
+└─ merge ─┘
+dune_okeer_student ⟨cond⟩ [OncePerGame]: Thank you for bringing me the data. Now I can continue the work of Dr. Okeer.
+dune_okeer_student: The krogan will be great again.
+Hero: Okay. Let me know how that goes.
+dune_okeer_student ⟨cond⟩ [OncePerGame]: I can't believe the terminal has gone missing.
+dune_okeer_student: Dr. Okeer's important work can't be lost.
+dune_okeer_lackey [OncePerGame]: It was an accident. The terminal with Dr. Okeer's data was right next to the scrubbed ones.
+dune_okeer_lackey: Don't worry, Dr. Ganar. I'll track it down.
+↩ (goto) dune_okeer_lackey: I can give you a navpoint, and the name of the scavenger I accidentally sold it to.

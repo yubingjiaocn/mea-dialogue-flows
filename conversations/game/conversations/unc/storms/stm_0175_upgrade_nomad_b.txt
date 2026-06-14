@@ -1,0 +1,60 @@
+# game/conversations/unc/storms/stm_0175_upgrade_nomad_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0175_upgrade_nomad_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: This might be what we need.
+├ option 2:
+    Hero: This is interesting...
+└─ merge ─┘
+SAM: A standard-issue vehicle shield module.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: The research center can give us better than "standard issue."
+├ option 2:
+    Hero ⟨cond⟩: The right tools and we could do better than "standard issue." Let's look around.
+├ option 3:
+    Hero: Huh. Looks valuable.
+└─ merge ─┘
+Hero: One upgraded shield module, ready to take on any conditions.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Let's take a test drive and find that signal.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: I get front seat!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Damn, too slow.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Ah, damn it.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Shotgun!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Ah, damn it.
+        ├ option 2:
+            global_squad_turian ⟨cond⟩: Hmph. Getting slow.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Shotgun!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_turian ⟨cond⟩: Hmph. Getting slow.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Damn, too slow.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Once we power up the antenna, we'll know where we're driving.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_turian ⟨cond⟩: I get front seat!
+    ├ option 2:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Shotgun!
+    ├ option 3:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Shotgun!
+    └─ merge ─┘
+└─ merge ─┘

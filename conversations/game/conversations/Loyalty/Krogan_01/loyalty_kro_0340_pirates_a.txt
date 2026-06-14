@@ -1,0 +1,25 @@
+# Game/Conversations/Loyalty/Krogan_01/loyalty_kro_0340_pirates_a
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0340_pirates_a.xml
+==================================================
+loyalty_krogan_pirate_04: Stop them!
+loyalty_krogan_pirate_03: How?
+loyalty_krogan_pirate_01: Hold them here just a bit longer!
+┌─ BRANCH (4) ─┐
+├ option 1:
+    loyalty_krogan_pirateleader_multi: [Loudspeaker] 10,000 credits for the krogan, dead or alive!
+    loyalty_krogan_pirateleader_multi: [Loudspeaker] I don't care what you have to do, stop them!
+├ option 2:
+    loyalty_krogan_pirateleader_multi: [Loudspeaker] 15,000 credits!
+├ option 3:
+    loyalty_krogan_pirateleader_multi: [Loudspeaker] 20,000 credits! Stop them!
+├ option 4:
+    loyalty_krogan_pirateleader_multi: [Loudspeaker] You're all useless! 25,000 credits!
+└─ merge ─┘
+loyalty_krogan_pirate_05: They're here!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan: More credits means more fun!
+├ option 2:
+    global_squad_krogan: Oh good. They're getting desperate.
+└─ merge ─┘

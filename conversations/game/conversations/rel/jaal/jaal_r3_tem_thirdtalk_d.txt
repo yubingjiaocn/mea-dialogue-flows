@@ -1,0 +1,77 @@
+# game/conversations/rel/jaal/jaal_r3_tem_thirdtalk_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r3_tem_thirdtalk_d.xml
+==================================================
+Hero: Hey, Jaal?
+Hero: Didn't mean to scare you.
+global_squad_angara: What? I'm not scared. One second.
+Hero: What's going on in here? You look busy.
+global_squad_angara: If I'm busy, my mind is occupied with whatever I'm working on rather than worrying.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Whatever gets you through.
+    global_squad_angara: I'd like your advice on something.
+    global_squad_angara: I'm making gifts for everyone. I have a list.
+    Hero: Gifts?
+    global_squad_angara: Do turians like poetry? For Vetra, I'm writing a poem and engraving it on... I'm not sure yet.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Who doesn't like a personalized poem?
+        global_squad_angara: Great. Maybe I could just recite it for her.
+        Hero: Make sure I'm there for that.
+        global_squad_angara: Liam seems to like my Rofjinn. I might sew him one.
+        Hero: He does?
+        global_squad_angara: Do krogan like knives? I could craft a ceremonial angaran dagger for Drack.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Who wouldn't want that?
+            global_squad_angara: It's mainly decorative.
+            global_squad_angara: Would you like one?
+            Hero: Jaal. This is a lot of work. What's really going on?
+            global_squad_angara: I'm sure that I seem confident and skilled to you.
+            global_squad_angara: But I'm not. Or. I don't feel like I am.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Well, I think you're great.
+                global_squad_angara: That's so...
+                Hero: It's true.
+                global_squad_angara: You're making me blush.
+                Hero: I can't tell.
+                global_squad_angara: My family is well-known. Our lineage is respected, and many of my kin have achieved great things.
+                global_squad_angara: I've never been one of them.
+                global_squad_angara: So many older siblings and cousins who succeeded at everything—I stopped trying to keep up.
+                Hero: Right.
+                global_squad_angara: Thanks for listening.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: You're one of us now, Jaal.
+                ├ option 2:
+                    Hero: You're not in anyone's shadow here. I believe in you.
+                    ↩ (goto) global_squad_angara: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I think most people feel like that.
+                global_squad_angara: I want to fit in. I want to make a difference.
+                Hero: And most people probably think the same thing...
+                ↩ (goto) global_squad_angara: My family is well-known. Our lineage is respected, and many of my kin have achieved great things.
+            ├ option 3:
+                Hero: I feel like that a lot.
+                global_squad_angara: Good to know. Thanks for sharing that.
+                Hero: Just be yourself.
+                ↩ (goto) global_squad_angara: My family is well-known. Our lineage is respected, and many of my kin have achieved great things.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm trying to keep his dagger count down. He can be a little stab-happy.
+            global_squad_angara: Right, I've noticed.
+            global_squad_angara: Hm... who else could I give a dagger to, then?
+            ↩ (goto) Hero: Jaal. This is a lot of work. What's really going on?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: She's a turian. She might like something a little more... hands on.
+        global_squad_angara: Good to know. I'll think about that.
+        ↩ (goto) global_squad_angara: Liam seems to like my Rofjinn. I might sew him one.
+    └─ merge ─┘
+├ option 2:
+    Hero: I can see how that'd help.
+    ↩ (goto) global_squad_angara: I'd like your advice on something.
+└─ merge ─┘

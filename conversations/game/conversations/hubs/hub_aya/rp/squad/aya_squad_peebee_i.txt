@@ -1,0 +1,60 @@
+# game/conversations/hubs/hub_aya/rp/squad/aya_squad_peebee_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_aya/rp/squad/aya_squad_peebee_i.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_asari: Ryder, knowing the angara were created... it blows my mind.
+    global_squad_asari: The Jardaan {i}did{/i} this: developed a new species and evolved them to sentience.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's an astounding feat.
+        global_squad_asari: Makes me wonder what happens if the Jardaan come back, you know?
+        global_squad_asari: We're not the big kids on this block.
+    ├ option 2:
+        Hero: Not so loud, Peebee. I doubt the angara are as excited by the idea.
+        global_squad_asari: Honestly, it's more that I'm in awe. Like heart-choking, uh-oh, awe.
+        ↩ (goto) global_squad_asari: We're not the big kids on this block.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: I love seeing our Milky Way peeps mingling with the angara.
+    global_squad_asari: It's early in our interspecies relationship, but I hope we can build on the momentum.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We have an amazing opportunity. And a great responsibility.
+        global_squad_asari: Whoa, that's your inspiring voice. You really can't turn off diplomat mode once it's on, can you?
+        global_squad_asari: {i}(Chuckles.){/i} Just riding you, Ryder.
+        global_squad_asari: Keep up the good work.
+    ├ option 2:
+        Hero: Any one of a million things could happen, and—whoops—the neighbors hate us.
+        global_squad_asari: So don't go joyriding with the Nomad, huh? Obey the street signs.
+        global_squad_asari: {i}(Chuckles.){/i} You're doing a great job, really.
+        ↩ (goto) global_squad_asari: Keep up the good work.
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari: You know, the more I interact with the angara, the more I feel for them.
+    global_squad_asari: Especially with what we know about exaltation. I can't imagine.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The angara are resilient. Learning what the kett are doing will give them new purpose.
+        global_squad_asari: Well, I'm determined to help them.
+        global_squad_asari: We need to make things right.
+    ├ option 2:
+        Hero: Believe me, I'm pissed off on their behalf.
+        global_squad_asari: You nailed it. That's exactly how I feel.
+        ↩ (goto) global_squad_asari: We need to make things right.
+    └─ merge ─┘
+├ option 4:
+    global_squad_asari: Ryder, I get the distinct feeling we're not welcome here.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Their experiences with visiting aliens haven't been pleasant.
+        global_squad_asari: Yeah, the kett as an opening act doesn't set the stage for a favorable audience.
+        global_squad_asari: I just want to sit down and talk to them. There's so much to learn.
+        global_squad_asari: {i}(Sighs.){/i} But I'll be patient. Oh, who am I kidding: I'll complain and complain.
+    ├ option 2:
+        Hero: Imagine waking up one day to weird-looking strangers camped out on your lawn.
+        global_squad_asari: Never had—and don't plan on having—a lawn. But I catch your drift: we're the weirdos.
+        ↩ (goto) global_squad_asari: I just want to sit down and talk to them. There's so much to learn.
+    └─ merge ─┘
+└─ merge ─┘

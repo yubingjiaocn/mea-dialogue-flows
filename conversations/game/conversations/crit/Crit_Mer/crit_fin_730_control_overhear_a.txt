@@ -1,0 +1,88 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_730_control_overhear_a
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/Crit_Mer/crit_fin_730_control_overhear_a.xml
+==================================================
+global_main_villain: Do it! Secure the adaptation matrix!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: The Archon? Does he know he's broadcasting?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: He's in Sara's head. We're... connected.
+    ├ option 2:
+        Hero: He's in Scott's head. We're... connected.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Doesn't sound like a taunt. Why's he broadcasting?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He's in Sara's head. We're... connected.
+    ├ option 2:
+        ↩ (goto) Hero: He's in Scott's head. We're... connected.
+    └─ merge ─┘
+├ option 3:
+    global_squad_angara ⟨cond⟩: The Archon? Does he know he's broadcasting?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He's in Sara's head. We're... connected.
+    ├ option 2:
+        ↩ (goto) Hero: He's in Scott's head. We're... connected.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human ⟨cond⟩: The Archon? How's he still on our channel?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He's in Sara's head. We're... connected.
+    ├ option 2:
+        ↩ (goto) Hero: He's in Scott's head. We're... connected.
+    └─ merge ─┘
+├ option 5:
+    global_squad_turian ⟨cond⟩: The Archon? Does he know he's broadcasting?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He's in Sara's head. We're... connected.
+    ├ option 2:
+        ↩ (goto) Hero: He's in Scott's head. We're... connected.
+    └─ merge ─┘
+├ option 6:
+    global_squad_krogan ⟨cond⟩: The Archon? Does he know he's broadcasting?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: He's in Sara's head. We're... connected.
+    ├ option 2:
+        ↩ (goto) Hero: He's in Scott's head. We're... connected.
+    └─ merge ─┘
+└─ merge ─┘
+global_main_villain: Prepare to repeat the cortical stimulus.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: Get out of my head!
+    global_main_villain: {i}You{/i} are irrelevant. I will use your connection.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩: {i}(Scream through gritted teeth.){/i}
+        Hero: Goddamn it!
+    ├ option 2:
+        global_sibling_female: {i}(Scream through gritted teeth.){/i}
+        ↩ (goto) Hero: Goddamn it!
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: Get out of my head!
+    ↩ (goto) global_main_villain: {i}You{/i} are irrelevant. I will use your connection.
+└─ merge ─┘
+global_main_villain: The connection is ready. I can feel it.
+global_main_villain: There... Meridian, the network... so close!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: We need to move! Come on!
+├ option 2:
+    global_squad_asari ⟨cond⟩: We need to move! Come on!
+├ option 3:
+    global_squad_angara ⟨cond⟩: We need to move! Come on!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Running out of time, let's go!
+├ option 5:
+    global_squad_turian ⟨cond⟩: We need to move! Come on!
+├ option 6:
+    global_squad_krogan ⟨cond⟩: We gotta stop that! Go!
+└─ merge ─┘

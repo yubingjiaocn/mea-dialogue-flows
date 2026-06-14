@@ -1,0 +1,53 @@
+# game/conversations/unc/storms/stm_4040_thump_behemoth_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_4040_thump_behemoth_d.xml
+==================================================
+Narration: A shot of the landscape. There's a slight tremor, all is still...
+Narration: ...and then a Remnant Architect BURSTS from the ground. It's big, scary, and awesome. From offscreen:
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Here it comes!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Come on, then!
+        Narration: The Architect readies itself to attack...
+        Narration: ...and we see the squad is ready. Combat!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: I'm so ready for this!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Bring it on!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Let it! I'm ready!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Let's bring it down!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: It can't last against us!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    └─ merge ─┘
+├ option 2:
+    Hero: What is {i}that{/i}?
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: One hell of a good time!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Magnificent!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: It's bigger than the Tempest!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: Big. Really, {i}really{/i} big!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: It's... amazing!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: Coming this way!
+        ↩ (goto) Narration: The Architect readies itself to attack...
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,124 @@
+# game/conversations/unc_luna/luna_0100_genbanter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_luna/luna_0100_genbanter_b.xml
+==================================================
+global_crew_science_officer: [Comm] Gravity's lower than we're used to, Pathfinder.
+global_crew_science_officer: [Comm] Gil says you shouldn't worry about accidentally hitting escape velocity.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: That sounds like a challenge!
+    global_crew_science_officer: [Comm] What does that mean? Ryder? Tell me you're not... But Gil—
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: So cute when she's flustered.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: So cute when she's worried.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara ⟨cond⟩: If we do, I'm sure Kallo will catch us.
+    ↩ (goto) global_crew_science_officer: [Comm] What does that mean? Ryder? Tell me you're not... But Gil—
+├ option 3:
+    global_squad_male_human ⟨cond⟩: But we can do it on purpose!
+    ↩ (goto) global_crew_science_officer: [Comm] What does that mean? Ryder? Tell me you're not... But Gil—
+├ option 4:
+    global_squad_krogan ⟨cond⟩: With me sitting in this? Won't happen.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Good to hear.
+├ option 6:
+    global_squad_turian ⟨cond⟩: Nomad should compensate for the lower gravity. To a degree.
+└─ merge ─┘
+global_crew_science_officer: [Comm] Reading some kind of underground structure near your location.
+global_crew_science_officer: [Comm] Could be a natural cave system. Hard to say from here.
+Hero: Got it.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan: {i}(Laughs.){/i}
+    ├ option 2:
+        global_squad_krogan: {i}(Whooping.){/i}
+    ├ option 3:
+        global_squad_krogan: Yes!
+    ├ option 4:
+        global_squad_krogan: Good one, kid!
+    ├ option 5:
+        global_squad_krogan: Ryder, you've got quads!
+    ├ option 6:
+        global_squad_krogan: Whoa!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human: {i}(Laughs.){/i}
+    ├ option 2:
+        global_squad_female_human: {i}(Whooping.){/i}
+    ├ option 3:
+        global_squad_female_human: Yeah!
+    ├ option 4:
+        global_squad_female_human: Nice, Ryder!
+    ├ option 5:
+        global_squad_female_human: That was crazy!
+    ├ option 6:
+        global_squad_female_human: Oh, hell!
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari: {i}(Laughs.){/i}
+    ├ option 2:
+        global_squad_asari: {i}(Whooping.){/i}
+    ├ option 3:
+        global_squad_asari: Yeah!
+    ├ option 4:
+        global_squad_asari: Awesome driving, Pathfinder!
+    ├ option 5:
+        global_squad_asari: Come on, we can go higher than that!
+    ├ option 6:
+        global_squad_asari: Oh, shit!
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_turian: {i}(Laughs.){/i}
+    ├ option 2:
+        global_squad_turian: {i}(Whooping.){/i}
+    ├ option 3:
+        global_squad_turian: Yeah!
+    ├ option 4:
+        global_squad_turian: Good one, Pathfinder!
+    ├ option 5:
+        global_squad_turian: Gil's gonna kill you!
+    ├ option 6:
+        global_squad_turian: Damn!
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara: {i}(Laughs.){/i}
+    ├ option 2:
+        global_squad_angara: {i}(Whooping.){/i}
+    ├ option 3:
+        global_squad_angara: Yes!
+    ├ option 4:
+        global_squad_angara: Nice jump, Ryder!
+    ├ option 5:
+        global_squad_angara: One more time!
+    ├ option 6:
+        global_squad_angara: Skkut!
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_male_human: {i}(Laughs.){/i}
+    ├ option 2:
+        global_squad_male_human: {i}(Whooping.){/i}
+    ├ option 3:
+        global_squad_male_human: Yeah!
+    ├ option 4:
+        global_squad_male_human: You're good at this!
+    ├ option 5:
+        global_squad_male_human: Oh, yeah, flies like a dream!
+    ├ option 6:
+        global_squad_male_human: Oh shit!
+    └─ merge ─┘
+└─ merge ─┘

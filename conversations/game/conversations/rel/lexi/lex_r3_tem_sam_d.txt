@@ -1,0 +1,74 @@
+# game/conversations/rel/lexi/lex_r3_tem_sam_d
+# Primary speaker: global_humanark_asari_dr
+# Source: game/conversations/rel/lexi/lex_r3_tem_sam_d.xml
+==================================================
+global_humanark_asari_dr: We need to talk. About SAM.
+SAM: Dr. T'Perro does not approve of how we escaped the kett containment field on the Archon's flagship.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_humanark_asari_dr ⟨cond⟩: By stopping the Pathfinder's heart—no, I do not approve.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Relax, doc. It turned out okay.
+        global_humanark_asari_dr: Dying—even temporarily—is never "okay."
+        Narration: Lexi rubs her temples and takes a moment to calm down.
+        global_humanark_asari_dr: Ryder. SAM {i}killed{/i} you. Yes, he brought you back, but what if he didn't?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM ⟨cond⟩: I cannot learn without the Pathfinder. That would be akin to killing a part of myself.
+            global_humanark_asari_dr: You're lines of code. You can't die.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: SAM would never hurt me.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    SAM ⟨cond⟩: Thank you, Sara.
+                    global_humanark_asari_dr: Look. I'm not against SAM.
+                    Narration: Lexi looks up towards the ceiling and speaks a little more loudly to address SAM.
+                    Narration: Obviously, this isn't necessary, but Lexi is a bit flustered and frustrated.
+                    global_humanark_asari_dr: I'm not against you, SAM.
+                    global_humanark_asari_dr: But my job's hard enough without an AI stopping your heart.
+                    global_humanark_asari_dr: Even to save your life.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: All right. I'll find a new party trick.
+                        global_humanark_asari_dr: Have Gil teach you Three-Card Monte or something.
+                        SAM: Lexi. I apologize for any distress I have caused you.
+                        global_humanark_asari_dr: {i}(Sighs.){/i} And I'm sorry for calling you "lines of code."
+                        global_humanark_asari_dr: You're more than that. Even if you don't have cells to prove it.
+                    ├ option 2:
+                        Hero: Your concern is noted, doctor.
+                        global_humanark_asari_dr: Of course it has.
+                        ↩ (goto) SAM: Lexi. I apologize for any distress I have caused you.
+                    └─ merge ─┘
+                ├ option 2:
+                    SAM ⟨cond⟩: Thank you, Scott.
+                    ↩ (goto) global_humanark_asari_dr: Look. I'm not against SAM.
+                ├ option 3:
+                    SAM: Thank you, Ryder.
+                    ↩ (goto) global_humanark_asari_dr: Look. I'm not against SAM.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Hurting me goes against SAM's design.
+                global_humanark_asari_dr: Because AI have never acted against their designs before.
+                ↩ (goto) global_humanark_asari_dr: Look. I'm not against SAM.
+            └─ merge ─┘
+        ├ option 2:
+            SAM: I cannot learn without the Pathfinder. That would be akin to killing a part of myself.
+            ↩ (goto) global_humanark_asari_dr: You're lines of code. You can't die.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We didn't have a choice.
+        Hero: If there had been another option, I would've taken it.
+        global_humanark_asari_dr: How can you be so calm about this?
+        ↩ (goto) Narration: Lexi rubs her temples and takes a moment to calm down.
+    └─ merge ─┘
+├ option 2:
+    global_humanark_asari_dr: By stopping the Pathfinder's heart—no, I do not approve.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: Relax, doc. It turned out okay.
+    ├ option 2:
+        ↩ (goto) Hero: We didn't have a choice.
+    └─ merge ─┘
+└─ merge ─┘

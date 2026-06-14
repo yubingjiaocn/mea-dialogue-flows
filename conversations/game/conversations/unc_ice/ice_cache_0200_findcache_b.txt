@@ -1,0 +1,24 @@
+# game/conversations/unc_ice/ice_cache_0200_findcache_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_cache_0200_findcache_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Approaching a Resistance emergency medical cache, Pathfinder.
+    Hero: Got it. Let's check it out.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: Resistance medical cache up ahead, Pathfinder.
+    ├ option 2:
+        SAM: There is a Resistance emergency cache nearby, Pathfinder.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: One down, two to go.
+├ option 2:
+    Hero [OncePerGame]: That's two of them.
+├ option 3:
+    Hero: Cache restocked.
+└─ merge ─┘

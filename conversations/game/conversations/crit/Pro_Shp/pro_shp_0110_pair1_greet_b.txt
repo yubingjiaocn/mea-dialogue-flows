@@ -1,0 +1,19 @@
+# game/conversations/crit/pro_shp/pro_shp_0110_pair1_greet_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/pro_shp_0110_pair1_greet_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: Hey, there! Hell of a wake up call, huh? Didn't expect {i}that{/i} first thing out of stasis.
+    Hero: Makes two of us. Hang in there.
+├ option 2:
+    global_squad_male_human [OncePerGame]: Catch you later.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_doctor_multi [OncePerGame]: Enjoy your nap, Ryder? Don't think I'll need sleep for the rest of my life.
+    Hero: Maybe another decade or two wouldn't have hurt.
+    global_crew_doctor_multi: {i}(Chuckles.){/i} Right. Talk to you later.
+├ option 2:
+    global_crew_doctor_multi [OncePerGame]: See you around.
+└─ merge ─┘

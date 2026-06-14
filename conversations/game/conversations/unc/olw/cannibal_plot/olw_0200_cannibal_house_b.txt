@@ -1,0 +1,66 @@
+# game/conversations/unc/olw/cannibal_plot/olw_0200_cannibal_house_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/cannibal_plot/olw_0200_cannibal_house_b.xml
+==================================================
+Hero [OncePerGame]: There it is. Last known location of this Johan guy. Hopefully Remi's inside. And alive.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Expect the worst. Then be surprised. That's my motto.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Either way, Warden said to prep for a fight.
+├ option 3:
+    global_squad_asari ⟨cond⟩: And hasn't become one of the crazies out here.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Warden said Johan ran a nasty crew. Don't expect a warm welcome.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Maybe they're not as bad as the Warden made them out to be?
+    Hero: Not holding my breath.
+└─ merge ─┘
+Hero [OncePerGame]: Don't think they're gonna invite us in for coffee!
+Hero [OncePerGame]: All right. Let's find Remi.
+Hero [OncePerGame]: Holy shit.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: It's like a scene from Silence of the Face Eaters.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Could at least clean up some.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: That's a lot of blood.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Ew. Blood, much?
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: These people are monsters.
+└─ merge ─┘
+SAM: It's human, Pathfinder.
+SAM: Detecting traces of human flesh and blood.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: SAM, are you saying they were... eating people?
+    SAM: Yes, Pathfinder.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Hopefully they killed them first.
+        Hero: Come on, Drack.
+        global_squad_krogan: What? Just saying.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: {i}(Disgusted noise.){/i} I'm gonna be sick.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: What. The. Fuck.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: That's messed up.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Fucking hell.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) global_squad_krogan ⟨cond⟩: Hopefully they killed them first.
+├ option 3:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: {i}(Disgusted noise.){/i} I'm gonna be sick.
+├ option 4:
+    ↩ (goto) global_squad_asari ⟨cond⟩: What. The. Fuck.
+├ option 5:
+    ↩ (goto) global_squad_turian ⟨cond⟩: That's messed up.
+├ option 6:
+    ↩ (goto) global_squad_male_human ⟨cond⟩: Fucking hell.
+└─ merge ─┘
+SAM: Some of the victim's organs are missing.
+Hero: Ugh.

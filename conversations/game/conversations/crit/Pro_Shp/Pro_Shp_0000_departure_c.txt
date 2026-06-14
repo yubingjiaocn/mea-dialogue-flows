@@ -1,0 +1,21 @@
+# Game/Conversations/Crit/Pro_Shp/Pro_Shp_0000_departure_c
+# Primary speaker: global_dad
+# Source: game/conversations/crit/Pro_Shp/Pro_Shp_0000_departure_c.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_dad ⟨cond⟩: Every great moment in our history began with a dream.
+    global_dad: Each bold leap forward was achieved by those willing to do anything to attain it.
+    global_dad: We are all of us leaving behind families, homes—the very birthplace of our species.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_dad: But today, whatever our reasons...
+        global_dad: We take the first steps toward a new future for humanity.
+        global_dad: Today, we begin to make our dream reality.
+    ├ option 2:
+        global_dad: Some for discovery, to see the unknown—others for a new start...
+        ↩ (goto) global_dad: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) global_dad: [empty]
+└─ merge ─┘

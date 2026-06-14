@@ -1,0 +1,29 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0400_velus_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0400_velus_i.xml
+==================================================
+Hero: Rough night?
+kad_outcast_pir_07: Said something I shouldn't have. To a woman. Nola. She's angaran.
+kad_outcast_pir_07: Been planning tonight for weeks. Filed my talons. Buffed my fringe.
+kad_outcast_pir_07: Only to screw up not two seconds after walking through the door.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Whatever you did, I'm sure you can fix it.
+    kad_outcast_pir_07: You don't know what I said.
+    kad_outcast_pir_07: Nola has a sister. I may have compared the two of them. I thought if I made Nola jealous... {i}(Groans.){/i} Stupid.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I think it's safe to say she's done with you. And I can't blame her.
+        kad_outcast_pir_07: Damn it.
+    ├ option 2:
+        Hero: Okay, that's bad. Really bad. But I still think you can recover.
+        Hero: Explain that you only said what you did because you're an idiot and you like her.
+        kad_outcast_pir_07: You think that'll work?
+        Hero: Better than wallowing in self-pity.
+        kad_outcast_pir_07: All right. Wish me luck.
+    └─ merge ─┘
+├ option 2:
+    Hero: Sorry things didn't work out like you hoped.
+    kad_outcast_pir_07: I was bad with women in the Milky Way. Not sure why I thought it'd be different here.
+    ↩ (goto) kad_outcast_pir_07: Nola has a sister. I may have compared the two of them. I thought if I made Nola jealous... {i}(Groans.){/i} Stupid.
+└─ merge ─┘

@@ -1,0 +1,107 @@
+# game/conversations/unc/olw/outpost_loop/olw_0200_outpost_doctor_i
+# Primary speaker: kad_doctor
+# Source: game/conversations/unc/olw/outpost_loop/olw_0200_outpost_doctor_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_outpost_doctor [OncePerGame]: Pathfinder. Thank goodness you're here.
+        olw_outpost_doctor: I would like to discuss my transfer.
+        Hero: Transfer?
+        olw_outpost_doctor: To a different outpost, of course. I can't stay here. It's barbaric.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Kadara's not so bad. Nice climate. Good views.
+            olw_outpost_doctor: It {i}smells{/i}. Even without the toxic water, there's sulfur everywhere.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: Tell me about yourself, Dr. Saanvi.
+                olw_outpost_doctor: I was first in my class at Harvard.
+                olw_outpost_doctor: And completed my residency at Johns Hopkins, before setting up a private practice on Illium.
+                olw_outpost_doctor: I think that about sums it up.
+                Hero: It's an impressive resume. But it doesn't mean much in Heleus.
+                olw_outpost_doctor: Yes, well. I made enemies with the wrong people.
+                olw_outpost_doctor: My options were Andromeda or hiding out on Omega.
+                olw_outpost_doctor: I'm not sure I made the right decision.
+                ↩ (goto) olw_outpost_doctor: [empty]
+            ├ option 2:
+                Hero: How are your patients?
+                olw_outpost_doctor: Fine, of course. They're in my care.
+                Hero: Any serious injuries?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    olw_outpost_doctor ⟨cond⟩: From the stories about Kadara, I expected more.
+                    olw_outpost_doctor: But the Outcasts have kept us safe.
+                    Hero: And you still want to leave?
+                    olw_outpost_doctor: They can't protect my nose, can they?
+                    ↩ (goto) olw_outpost_doctor: [empty]
+                ├ option 2:
+                    olw_outpost_doctor: Blunt force trauma. All kinds of wounds. Those Outcasts are brutes.
+                    olw_outpost_doctor: They attack anyone and everyone affiliated with the Initiative.
+                    Hero: The Collective's supposed to provide protection.
+                    olw_outpost_doctor: They do. But they can't protect everyone. Hence wanting a transfer.
+                    ↩ (goto) olw_outpost_doctor: [empty]
+                └─ merge ─┘
+            ├ option 3:
+                Hero: Stay out of trouble, Dr. Saanvi.
+                olw_outpost_doctor: I don't know the meaning of the word.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You'll have to take it up with Addison.
+            olw_outpost_doctor: I have. She refused.
+            Hero: Guess you're out of luck, then.
+            olw_outpost_doctor: Ugh. I'll have to see if Dru can get me some scented candles.
+            olw_outpost_doctor: Anything to mask the smell.
+            ↩ (goto) olw_outpost_doctor: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        olw_outpost_doctor: Yes?
+        ↩ (goto) olw_outpost_doctor: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Dr. Nakamoto! What are you doing here?
+        kad_doctor: When I heard the outpost needed a physician, I offered my services.
+        kad_doctor: Least I could do after you retrieved my formula.
+        kad_doctor: And the setup's a sight better than a shipping container.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I don't know... the Free Clinic was charming in its own way.
+            kad_doctor: {i}(Scoffs.){/i} Rust isn't charming. It's tetanus.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: What about your old clinic?
+                kad_doctor: I moved my patients here—with Christmas's permission, of course.
+                kad_doctor: And spread the word that my door is still open. Just in a different location.
+                kad_doctor: A small gesture, but it's done wonders for the Initiative's reputation.
+                ↩ (goto) kad_doctor: [empty]
+            ├ option 2:
+                Hero: How are your patients doing? Any serious injuries?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    kad_doctor ⟨cond⟩: Much as I hate to say it, Sloane's done a good job of protecting this place.
+                    kad_doctor: Only minor injuries from people being clumsy.
+                    kad_doctor: And, of course, a lot of aspirin for hangovers. ⏎
+                    ↩ (goto) kad_doctor: [empty]
+                ├ option 2:
+                    kad_doctor: The Collective is doing its best to protect everyone.
+                    kad_doctor: But when it comes to brute strength, the Outcasts have the upper hand.
+                    kad_doctor: Sloane may be dead, but we still have bloody days ahead of us.
+                    ↩ (goto) kad_doctor: [empty]
+                └─ merge ─┘
+            ├ option 3:
+                Hero: Keep up the good work.
+                kad_doctor: Thank you, Pathfinder.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Good to have you here doctor.
+            kad_doctor: I won't let you down, Pathfinder.
+            ↩ (goto) kad_doctor: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        kad_doctor: Pathfinder. Good to see you.
+        ↩ (goto) kad_doctor: [empty]
+    └─ merge ─┘
+└─ merge ─┘

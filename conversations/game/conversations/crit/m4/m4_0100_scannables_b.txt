@@ -1,0 +1,24 @@
+# game/conversations/crit/m4/m4_0100_scannables_b
+# Primary speaker: SAM
+# Source: game/conversations/crit/m4/m4_0100_scannables_b.xml
+==================================================
+SAM: Many of these pods were from the command team.
+SAM: It seems the kett targeted the salarian leadership.
+Hero: Leave them confused, I guess.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: DNA signature obtained. If you locate a sequencer, I can confirm his identity.
+├ option 2:
+    SAM: This colonist is deceased.
+    SAM: The medical terminal may provide more information.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM [OncePerGame]: This isn't Jeks Arlan's pod.
+├ option 2:
+    SAM [OncePerGame]: This isn't the pod we're looking for.
+└─ merge ─┘
+SAM: This is the deceased salarian's pod, yet I detect a female salarian inside.
+Hero: I think we found their Pathfinder. Let's get her out.
+SAM: You need to access stasis controls to revive her.
+SAM: This salarian shows no vital signs.

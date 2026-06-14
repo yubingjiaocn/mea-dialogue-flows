@@ -1,0 +1,48 @@
+# game/conversations/unc/olw/cannibal_plot/olw_0250_cannibal_remi_i
+# Primary speaker: olw_remi
+# Source: game/conversations/unc/olw/cannibal_plot/olw_0250_cannibal_remi_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Are you all right?
+    olw_remi: They were going to {i}eat{/i} me!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I know.
+        olw_remi: They... brought a group of us here. From the slums. Said we'd be safe.
+        olw_remi: I'm the only one left.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You're safe now. It's over.
+            olw_remi: No, it's not. I'm still stuck in the badlands. Even though I paid my protection fee.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: The Outcasts are gone. Kadara's a free port. You can go back. No fees required.
+                olw_remi: What? But if Sloane's not in charge, who is?
+                Hero: It's... complicated. I'll arrange for a shuttle to pick you up. Suvi. Can you contact the Collective?
+                global_crew_science_officer: [Comm] You mean Re—oh. Right. On it, Pathfinder.
+                olw_remi: Thank you, so much. Thank you.
+            ├ option 2:
+                Hero: I know. The Outcast who wrongly kicked you out of Kadara Port... he sent me.
+                olw_remi: Are they going to let me back in?
+                Hero: At the very least. Grayson. I found Remi. We need a pick up.
+                olw_outcast_recruit: [Comm] Thank god. I'll send a shuttle right away.
+                ↩ (goto) olw_remi: Thank you, so much. Thank you.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You survived. That's what matters.
+            olw_remi: I'm not even supposed to be out here. I paid my protection fee.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero ⟨cond⟩: The Outcasts are gone. Kadara's a free port. You can go back. No fees required.
+            ├ option 2:
+                ↩ (goto) Hero: I know. The Outcast who wrongly kicked you out of Kadara Port... he sent me.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: What?
+        ↩ (goto) olw_remi: They... brought a group of us here. From the slums. Said we'd be safe.
+    └─ merge ─┘
+├ option 2:
+    olw_remi: I thought I was going to die here.
+└─ merge ─┘

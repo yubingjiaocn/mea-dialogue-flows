@@ -1,0 +1,77 @@
+# game/conversations/rel/lexi/lex_r2_tem_autopsy_d
+# Primary speaker: global_humanark_asari_dr
+# Source: game/conversations/rel/lexi/lex_r2_tem_autopsy_d.xml
+==================================================
+Narration: The scene opens with Lexi examining a kett corpse. She looks up at Ryder
+global_humanark_asari_dr: Ah, Ryder—sorry for the mess.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Who's your friend?
+    global_humanark_asari_dr: An exalted kett. I called Jaal to show him—oh, there he is.
+    Narration: Lexi gestures for Jaal to come over as he enters the room.
+    global_humanark_asari_dr: Jaal. Look at this.
+    Narration: Lexi takes Jaal's hand and leads it to the cadaver's chest.
+    global_humanark_asari_dr: There’s nothing angara inside.
+    global_squad_angara: The physical can be deceiving.
+    global_humanark_asari_dr: I've run hundreds of tests. Only traces of the angara genome remain. The exalted {i}are{/i} kett.
+    global_squad_angara: There must be a way to fix them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Anything's possible. We just have to keep trying.
+        Narration: Jaal and Lexi turn to Ryder. Jaal looks surprised, then smiles, while Lexi crosses her arms.
+        global_squad_angara: Even from mistakes, we can learn. Thank you, Ryder.
+        Narration: Jaal smiles and pats Ryder on the shoulder before leaving the room.
+        Narration: After a moment, Lexi turns to Ryder—she looks unhappy.
+        Hero: What?
+        global_humanark_asari_dr: Jaal needs to accept that exaltation is permanent. You're making his grief worse.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I didn't think about it like that...
+            global_humanark_asari_dr: Because you see him as a friend—not a patient.
+            global_humanark_asari_dr: That's why I'm here: to observe and treat.
+            global_humanark_asari_dr: Jaal is part of this crew. His welfare is my responsibility.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I know this job was a surprise.
+                Hero: But you've really stepped up. And look, you got your kett sample!
+                global_humanark_asari_dr: Their bodies are unlike anything I've seen. Centuries of gene-stealing, crafted evolution.
+                global_humanark_asari_dr: It's horrible, of course, but also fascinating.
+                Hero: Glad you're settling in.
+                global_humanark_asari_dr: Sink or swim, right?
+                Narration: Lexi flashes Ryder a grateful smile, then turns towards the cadaver.
+                global_humanark_asari_dr: I should probably clean this up before it starts to smell.
+            ├ option 2:
+                Hero: And you're taking good care of him. Just remember why you came here, too.
+                Hero: There {i}is{/i} a new alien species on your table!
+                global_humanark_asari_dr: My hands actually shook when I made the first incision.
+                global_humanark_asari_dr: See this bone-like armor? It feels as strong as krogan's frontal plate!
+                Hero: I'll take your word for it.
+                ↩ (goto) Narration: Lexi flashes Ryder a grateful smile, then turns towards the cadaver.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: We've barely scratched the surface of what kett are capable of.
+            global_humanark_asari_dr: The exalted are new beings. It's more than a transformation—it's a birth. There's no going back.
+            Narration: Ryder considers Lexi's words.
+            ↩ (goto) global_humanark_asari_dr: Jaal is part of this crew. His welfare is my responsibility.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We need to be prepared that there might not be.
+        Narration: Jaal and Lexi turn to Ryder. Jaal looks surprised, then becomes visibly frustrated. Lexi's face softens.
+        global_humanark_asari_dr: Jaal. Remember what we talked about?
+        global_squad_angara: That we should examine the problem objectively.
+        global_squad_angara: {i}(Sighs.){/i} Excuse me.
+        Narration: Jaal leaves the room, deflated.
+        global_humanark_asari_dr: Grief is never easy, but Jaal needs to accept that exaltation is permanent.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: I didn't think about it like that...
+        ├ option 2:
+            Hero: Hope is good, but false hope is unhealthy.
+            global_humanark_asari_dr: I appreciate your support.
+            ↩ (goto) global_humanark_asari_dr: Jaal is part of this crew. His welfare is my responsibility.
+        ├ option 3:
+            ↩ (goto) Hero: We've barely scratched the surface of what kett are capable of.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+└─ merge ─┘

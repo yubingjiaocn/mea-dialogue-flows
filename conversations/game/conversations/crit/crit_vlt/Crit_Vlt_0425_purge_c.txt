@@ -1,0 +1,43 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0425_purge_c
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0425_purge_c.xml
+==================================================
+Narration: Play animatic now?
+Narration: The Player interfaces with the console, and waits with bated breath.
+Narration: The console gradually comes alive. Light, or sound, indicates that the system lockdown is lifting.
+Narration: NEW: AN OBJECT (part of the Remnant Triforce) emerges from the top of the console.
+Narration: NEW: The Player picks it up.
+Hero: Huh. Any thoughts, SAM?
+SAM: Unknown, though it appears related to the lockdown. An in-depth study may reveal its purpose.
+Narration: The effect begins spreading to the rest of the vault. Everyone looks around, awestruck.
+SAM: The system lockdown is disabled. The vault, and the atmosphere processor, should return to full operation.
+global_squad_asari: [Comm] Ryder? You fixed the lockdown, didn't you.
+Narration: We cut away to Peebee, who is standing in a corridor gazing in awe as it lights up.
+Narration: She raises her omni-tool, trying to scan everything at once.
+global_squad_asari: The whole place is lighting up. Power readings are off the chart.
+Narration: Tone shift as she looks at her readings and realization dawns--uh oh.
+global_squad_asari: Really, really off the chart...
+Narration: NEW: A PULSE goes through the vault, passing over Peebee.
+Narration: Back to the Player.
+Hero: But if it's back online, we should be good... to...
+Narration: NEW: The PULSE passes through the chamber, over the Player and their team. Harmless, but...
+Narration: NEW: The lighting changes after it passes over them, becoming more sinister. The vault’s detected something that doesn’t belong.
+┌─ BRANCH (2) ─┐
+├ option 1:
+├ option 2:
+    Narration: They sense something and look around.
+    Narration: A terrifying-looking purification field is approaching their position.
+    Narration: As it touches the plants around the console, they dissolve into ashes.
+    Narration: The console has sunk into the floor of the chamber. There's nothing the Player can interact with to stop it.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Do something!
+        Hero: Go!
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Ryder...
+        ↩ (goto) Hero: Go!
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Should we...
+        ↩ (goto) Hero: Go!
+    └─ merge ─┘
+└─ merge ─┘

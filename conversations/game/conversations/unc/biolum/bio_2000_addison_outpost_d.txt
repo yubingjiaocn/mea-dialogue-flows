@@ -1,0 +1,90 @@
+# game/conversations/unc/biolum/bio_2000_addison_outpost_d
+# Primary speaker: global_nexus_colonial_director_multi
+# Source: game/conversations/unc/biolum/bio_2000_addison_outpost_d.xml
+==================================================
+global_nexus_colonial_director_multi: The reports didn't do this world justice. It's... ethereal.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Director Addison? No personal appearance? It might have been an outpost.
+    global_nexus_colonial_director_multi: Thank you, but no. I prefer climate control to... these extremes.
+    global_nexus_colonial_director_multi: Given the planet's significance to the angara, it's appropriate that we assist, but {i}not{/i} place an outpost.
+    global_nexus_colonial_director_multi: And the stability you brought... I received a {i}thank you{/i} from Aya. That may be the first time I've heard those words in Andromeda.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's not just about being a good neighbor. Their stability helps us in the long term.
+        global_nexus_colonial_director_multi: Practical and true. Ledgers don't understand that nuance, but I do.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_nexus_colonial_director_multi: Although it's probably not enough to draw out one of Dr. Kennedy's trackers. You'll have to look in "outpost systems" elsewhere.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                    Hero: Is this really the time?
+                    global_nexus_colonial_director_multi: "Pathfinder" was always a symbol. Like outpost flags hanging in the commons, the people need a connection to reality on the ground.
+                    global_nexus_colonial_director_multi: Address them, Pathfinder. What did this mean?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: We came here as pioneers, but we're not the only ones in Heleus. And that means even better discoveries.
+                            Hero: On Havarl, we can work together. First Contact doesn't end, and it isn't someone else's job. It's here.
+                            global_nexus_colonial_director_multi: Into the books, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: We were promised a lot when we signed on to the Initiative. But no golden world ever looked like this.
+                            Hero: We need to know everything. About Havarl, about the friends who come from here. We need to know it all.
+                            ↩ (goto) global_nexus_colonial_director_multi: Into the books, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: We're not just here to survive, to scramble for resources. We came to research and explore.
+                            Hero: Havarl is made for that. And everything we learn about it helps not just us, but the angara as well.
+                            ↩ (goto) global_nexus_colonial_director_multi: Into the books, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: This is Havarl. I didn't find an outpost, I found angara. And saw a piece of who they are.
+                            Hero: We're welcome to help here. It's not ours. It's {i}all of ours{/i}. I think that makes the whole cluster closer to home.
+                            ↩ (goto) global_nexus_colonial_director_multi: Into the books, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_colonial_director_multi: I still need your voice. Something they can think about instead of an outpost flag.
+                    Hero: We're still here. Still doing important work.
+                    global_nexus_colonial_director_multi: Then tell them that.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_nexus_colonial_director_multi: It's promising. And a lot of people have noticed.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: I still need your voice. Something they can think about instead of an outpost flag.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: Havarl helps. Outpost or not, we're gaining. We need another, but we're gaining.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: After the kett, and what they've seen of the exiles, we had to be at our best.
+        global_nexus_colonial_director_multi: We've had precious few examples of that. "Pathfinder" might be getting close.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+        ├ option 2:
+            ↩ (goto) global_nexus_colonial_director_multi: Havarl helps. Outpost or not, we're gaining. We need another, but we're gaining.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Director Addison. I imagine you have concerns that we haven't placed a full outpost?
+    global_nexus_colonial_director_multi: Frankly, it's impressive you weren't covered in vines on landing.
+    ↩ (goto) global_nexus_colonial_director_multi: Given the planet's significance to the angara, it's appropriate that we assist, but {i}not{/i} place an outpost.
+└─ merge ─┘

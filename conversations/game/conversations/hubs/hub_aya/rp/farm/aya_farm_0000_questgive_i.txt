@@ -1,0 +1,122 @@
+# game/conversations/hubs/hub_aya/rp/farm/aya_farm_0000_questgive_i
+# Primary speaker: aya_mws_ambassador
+# Source: game/conversations/hubs/hub_aya/rp/farm/aya_farm_0000_questgive_i.xml
+==================================================
+aya_mws_ambassador: Pathfinder, it's a pleasure. I'm Ambassador Rialla, chief diplomat for the Initiative on Aya.
+aya_mws_ambassador: I was removed from cryo specifically for this. Quite the wake-up call.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I assume you're trained for first contact diplomacy.
+    aya_mws_ambassador: I'm a social anthropologist with a linguistics background. Close enough for Director Tann.
+    aya_mws_ambassador: I hear you're to thank for our new ties with Aya. This is our best shot at an alliance.
+    aya_mws_ambassador: Now we just need to keep our people from wrecking it, no matter how hard they try.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: If something's wrong, I need to know.
+        aya_mws_ambassador: Maybe you can help me fix it.
+        aya_mws_ambassador: A salarian botanist named Sorvis Lenn is here, learning how to improve our crops.
+        aya_mws_ambassador: He sent an urgent comm, saying a member of the Angaran Resistance had threatened him.
+        Hero: What happened?
+        aya_mws_ambassador: I'm not sure. Sorvis is an excellent scientist, but not the best communicator.
+        aya_mws_ambassador: I'm concerned this could escalate if someone doesn't look into it, but I don't have the staff to spare.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I can go settle things. I'm a friendly face for both sides.
+            aya_mws_ambassador: That would be helpful. With any luck, we can prevent this from getting worse.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                Hero: How many of our people have they let into the city?
+                aya_mws_ambassador: A strictly limited number, and only certain professions. Scientists, engineers, and scholars.
+                aya_mws_ambassador: The angara have agreed to allow some of our people work in Aya's research facilities.
+                Hero: That's huge.
+                aya_mws_ambassador: It's more than I expected. Tann wants me to push for social visits, but I'm holding my ground.
+                aya_mws_ambassador: We need to move at their pace. They've been extraordinarily gracious, all things considered.
+                aya_mws_ambassador: I'll take whatever they're willing to give.
+                ↩ (goto) aya_mws_ambassador: [empty]
+            ├ option 2:
+                Hero: What's our end goal for Aya?
+                aya_mws_ambassador: A strong alliance is all we can ask for. It's what we're working toward.
+                aya_mws_ambassador: Heleus is the angara's home. They dictate the terms of this partnership, not us.
+                aya_mws_ambassador: We need them as allies, and they could benefit from us. But we have to tread lightly.
+                Hero: Show them we're not invaders.
+                aya_mws_ambassador: Historically, when two civilizations meet, one consumes or destroys the other.
+                aya_mws_ambassador: We need to break that cycle.
+                ↩ (goto) aya_mws_ambassador: [empty]
+            ├ option 3:
+                Hero ⟨cond⟩: How do the Jardaan factor into the new alliance?
+                aya_mws_ambassador: Between you and I, we all stumbled onto something much bigger than us.
+                aya_mws_ambassador: We'll have to be even more careful. If these Jardaan ever show up, we need a plan.
+                Hero: A plan?
+                aya_mws_ambassador: What happens when they find someone new on their turf?
+                aya_mws_ambassador: They were formidable enough to create an entire civilized species.
+                aya_mws_ambassador: Not someone I want as an enemy.
+                ↩ (goto) aya_mws_ambassador: [empty]
+            ├ option 4:
+                Hero ⟨cond⟩: Aside from Sorvis Lenn, is everything okay? Need anything else?
+                aya_mws_ambassador: Actually, yes. Director Tann gave me a project. He wants more Aya natives to live on the Nexus.
+                aya_mws_ambassador: He thinks it will deepen our partnership. A few angara expressed interest, but...
+                aya_mws_ambassador: None of them will agree to live on the Nexus without speaking to you first.
+                Hero: Why me?
+                aya_mws_ambassador: After what you've accomplished? I didn't want to bother you, but... you asked.
+                aya_mws_ambassador: I'll point you toward the candidates. If you could convince them to transfer, I'd be grateful.
+                ↩ (goto) aya_mws_ambassador: [empty]
+            ├ option 5:
+                Hero ⟨cond⟩: How are things going? Anything else I can do to help out?
+                ↩ (goto) aya_mws_ambassador: Actually, yes. Director Tann gave me a project. He wants more Aya natives to live on the Nexus.
+            ├ option 6:
+                Hero: That's all for now.
+                aya_mws_ambassador: I'm here if you need anything.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Talk to the governor. She wants this to work as much as we do.
+            aya_mws_ambassador: I'd rather avoid that if we can resolve it ourselves. If you find time, please speak with Sorvis.
+            ↩ (goto) aya_mws_ambassador: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'm not going to like this, am I?
+        aya_mws_ambassador: No more than I do.
+        ↩ (goto) aya_mws_ambassador: A salarian botanist named Sorvis Lenn is here, learning how to improve our crops.
+    └─ merge ─┘
+├ option 2:
+    Hero: I know what it's like, jumping out of the cryo pod and into the fire.
+    aya_mws_ambassador: You've had it far worse. My condolences on your loss.
+    ↩ (goto) aya_mws_ambassador: I hear you're to thank for our new ties with Aya. This is our best shot at an alliance.
+└─ merge ─┘
+aya_mws_ambassador: Any news on what happened to Sorvis Lenn?
+Hero: Do you know about the Vesaal? The angaran lottery that decides who gets to live on Aya?
+aya_mws_ambassador: I've heard of it. Why?
+Hero: Angara are selling their slots to come here, so our people can stay in their place.
+Hero: Including a member of the Angaran Resistance. He was killed on Voeld. Wouldn't have happened if he'd been here.
+aya_mws_ambassador: No one told me of this arrangement. We have to do something.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Governor Shie is on our side. She'll know what to do.
+    aya_mws_ambassador: You're right. We need to solve this problem together.
+    aya_mws_ambassador: Thank you, Pathfinder. I'll forward your proposal to Director Tann immediately.
+    ↩ (goto) aya_mws_ambassador: [empty]
+├ option 2:
+    Hero: If {i}we{/i} reward the angara for their sacrifice, maybe they won't resent our being here.
+    aya_mws_ambassador: And we can ensure their survivors receive compensation, in situations like this.
+    ↩ (goto) aya_mws_ambassador: Thank you, Pathfinder. I'll forward your proposal to Director Tann immediately.
+├ option 3:
+    Hero: We could let angara who give up their slots live on the Nexus. It's safer than Voeld.
+    aya_mws_ambassador: Exactly what I was thinking. No one should suffer on our behalf.
+    ↩ (goto) aya_mws_ambassador: Thank you, Pathfinder. I'll forward your proposal to Director Tann immediately.
+├ option 4:
+    Hero: You're the ambassador. You'll think of something.
+    aya_mws_ambassador: No one said this job would be easy.
+    aya_mws_ambassador: I appreciate all you've done, Pathfinder. I'll take it from here.
+    ↩ (goto) aya_mws_ambassador: [empty]
+└─ merge ─┘
+aya_mws_ambassador: Sorvis Lenn sent another complaint about being threatened. I need someone to sort this out.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) Hero: I can go settle things. I'm a friendly face for both sides.
+├ option 2:
+    ↩ (goto) Hero: Talk to the governor. She wants this to work as much as we do.
+└─ merge ─┘
+aya_mws_ambassador: Any luck with Sorvis Lenn? Our continued presence on Aya may be at stake.
+Hero: I'm working on it. When I have something, I'll let you know.
+↩ (goto) aya_mws_ambassador: [empty]
+aya_mws_ambassador: Pathfinder. What can I do for you?
+↩ (goto) aya_mws_ambassador: [empty]

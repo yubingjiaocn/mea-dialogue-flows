@@ -1,0 +1,113 @@
+# game/conversations/unc_dunes/dune_0310_drivecore_d
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0310_drivecore_d.xml
+==================================================
+Hero [OncePerGame]: The drive core's not here.
+Hero: Someone's been here, but they didn't come in the way we just did. Couldn't have.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: This place is full of cracks and holes. There must be another entrance.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Burned again for politely using the front door.
+        Hero: So who has it?
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Scavengers? Gotta be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I agree. Seems like the most likely culprit.
+                Hero: We just have to find our way out and track them down.
+            ├ option 2:
+                Hero: When I find the scavenger scum that has my drive core...
+                Hero: Okay, I might be taking this too personally. Let's hunt them down.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Scavengers? Gotta be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I agree. Seems like the most likely culprit.
+            ├ option 2:
+                ↩ (goto) Hero: When I find the scavenger scum that has my drive core...
+            └─ merge ─┘
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: Scavengers? Gotta be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I agree. Seems like the most likely culprit.
+            ├ option 2:
+                ↩ (goto) Hero: When I find the scavenger scum that has my drive core...
+            └─ merge ─┘
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: Scavengers? Gotta be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I agree. Seems like the most likely culprit.
+            ├ option 2:
+                ↩ (goto) Hero: When I find the scavenger scum that has my drive core...
+            └─ merge ─┘
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩: Scavengers? Gotta be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I agree. Seems like the most likely culprit.
+            ├ option 2:
+                ↩ (goto) Hero: When I find the scavenger scum that has my drive core...
+            └─ merge ─┘
+        ├ option 6:
+            global_squad_male_human ⟨cond⟩: Scavengers? Gotta be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I agree. Seems like the most likely culprit.
+            ├ option 2:
+                ↩ (goto) Hero: When I find the scavenger scum that has my drive core...
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: That's what we get for coming in the right way.
+        ↩ (goto) Hero: So who has it?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: I hate when I'm out-sneaked.
+        ↩ (goto) Hero: So who has it?
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Shit. Next time let's not use the front door.
+        ↩ (goto) Hero: So who has it?
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Coming through the front door just set us back.
+        ↩ (goto) Hero: So who has it?
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Burned again for being polite.
+        ↩ (goto) Hero: So who has it?
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: A crash like this? There must be another entrance.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Ship is pretty busted up. Someone found another way in.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: The ship has to be cracked open somewhere. There must be another entrance.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_krogan ⟨cond⟩: This ship crashed hard. There must be another entrance.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Should probably scan for clues first.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Should probably scan for clues first.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Should probably scan for clues first.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_asari ⟨cond⟩: Should probably scan for clues first.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Should probably scan for clues first.
+    ↩ (goto) Hero: [empty]
+├ option 6:
+    global_squad_angara ⟨cond⟩: We should probably scan the place for clues first.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

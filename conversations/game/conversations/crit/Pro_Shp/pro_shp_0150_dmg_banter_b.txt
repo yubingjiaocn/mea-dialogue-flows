@@ -1,0 +1,32 @@
+# game/conversations/crit/pro_shp/pro_shp_0150_dmg_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/pro_shp_0150_dmg_banter_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Ryder could find it—she has a scanner! Quick, Ryder—use it to locate the fault!
+        Hero: On it!
+        global_squad_female_human: I'll try to get readings on the second conduit.
+    ├ option 2:
+        global_squad_female_human: Ryder could find it—he has a scanner! Quick, Ryder—use it to locate the fault!
+        ↩ (goto) Hero: On it!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human [OncePerGame]: Ryder, try scanning the whole conduit—look for the fault!
+    ├ option 2:
+        global_squad_female_human [OncePerGame]: Hurry, Ryder—find the fault!
+    └─ merge ─┘
+└─ merge ─┘
+SAM: There's no indication of a fault in this component.
+global_squad_female_human: Keep looking!
+SAM: This equipment is operating normally.
+Hero: It has to be here...
+SAM: Relay 2-C shows damage from a temperature spike.
+Hero: Found it! Bad relay!
+Hero: There! It's reset!
+SAM: Please stand by while the conduit finishes cycling.
+global_squad_female_human: Good job, Ryder. Now we can get to the tram.

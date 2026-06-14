@@ -1,0 +1,20 @@
+# game/conversations/unc/storms/stm_9350_amb_08_i
+# Primary speaker: stm_outpost_amb_14
+# Source: game/conversations/unc/storms/stm_9350_amb_08_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_outpost_amb_14 [OncePerGame]: Pathfinder! No, you don't know me. I was one of the captives you freed from the Archon.
+    stm_outpost_amb_14: I took the liberty of offering my services to Lieutenant Bradley. Plus I could use some sunlight after... everything.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What services are you offering?
+        stm_outpost_amb_14: Er... prize-winning chef, actually. I'm making a lot of new friends with my soup.
+        stm_outpost_amb_14: Anyway, thank you. So many of my people survived because of you.
+    ├ option 2:
+        Hero: After what you've been through, I'd want sky over my head too.
+        ↩ (goto) stm_outpost_amb_14: Anyway, thank you. So many of my people survived because of you.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) stm_outpost_amb_14: Anyway, thank you. So many of my people survived because of you.
+└─ merge ─┘

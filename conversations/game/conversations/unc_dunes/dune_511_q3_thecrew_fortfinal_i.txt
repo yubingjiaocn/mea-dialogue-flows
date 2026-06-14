@@ -1,0 +1,93 @@
+# game/conversations/unc_dunes/dune_511_q3_thecrew_fortfinal_i
+# Primary speaker: dune_q3_thecrew_leader
+# Source: game/conversations/unc_dunes/dune_511_q3_thecrew_fortfinal_i.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Heavy munitions stockpile. This could take down something big. Outpost, or... a colony.
+    global_squad_krogan: Think Barrett knew this was here?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Sounds like it's possible he used us to get to this. Maybe his plans extend further than "organize people for a better life."
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: I don't like it. He might have plans to attack the colony.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Barrett's not getting this. We'll take it for the colonization effort. It's safer in our hands.
+                Hero: SAM, get word to the Tempest. Move this gear before Barrett finds out.
+                SAM: Understood, Pathfinder.
+            ├ option 2:
+                Hero: I'll give Barrett the benefit of the doubt. Besides, he'll need it to defend this place.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_krogan ⟨cond⟩: Your call, Ryder.
+                ├ option 2:
+                    global_squad_female_human ⟨cond⟩: I suppose it's your call.
+                ├ option 3:
+                    global_squad_asari ⟨cond⟩: It's your call, Ryder.
+                ├ option 4:
+                    global_squad_turian ⟨cond⟩: You're the Pathfinder.
+                ├ option 5:
+                    global_squad_male_human ⟨cond⟩: Your call, Ryder.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: I don't like the idea of any exiles having this stuff. Could mean trouble for the Nexus.
+            ↩ (goto) global_squad_male_human: [empty]
+        ├ option 3:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: I don't wanna accuse him of anything, but we gotta be careful.
+            ↩ (goto) global_squad_male_human: [empty]
+        ├ option 4:
+            global_squad_turian ⟨cond⟩ [OncePerGame]: We should really think about whether we want this stuff in someone else's hands.
+            ↩ (goto) global_squad_male_human: [empty]
+        ├ option 5:
+            global_squad_angara ⟨cond⟩ [OncePerGame]: Are you sure you want to leave Barrett with this? He might do something we'll all regret.
+            ↩ (goto) global_squad_male_human: [empty]
+        ├ option 6:
+            global_squad_male_human ⟨cond⟩ [OncePerGame]: Just saying, this stuff could ruin someone's day. I mean... really ruin.
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I don't think he had an ulterior motive. I mean, of course these scavengers are gonna stockpile gear.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: I don't like it. He might have plans to attack the colony.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: I don't like the idea of any exiles having this stuff. Could mean trouble for the Nexus.
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: I don't wanna accuse him of anything, but we gotta be careful.
+        ├ option 4:
+            ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: We should really think about whether we want this stuff in someone else's hands.
+        ├ option 5:
+            ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: Are you sure you want to leave Barrett with this? He might do something we'll all regret.
+        ├ option 6:
+            ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Just saying, this stuff could ruin someone's day. I mean... really ruin.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Look at all this stuff. That's a lot of firepower.
+    global_squad_female_human: Barrett didn't mention any of this. Do you think he knew about it?
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Check it out! Rocket launcher, armor-piercing rounds... this is some seriously heavy stuff.
+    global_squad_asari: Wait. Do you think Barrett knew about this? Maybe he's planning... something.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Shit. These are some heavy weapons. They must've been hoarding them for a while.
+    global_squad_turian: Wait. Barrett didn't say anything about this, did he? Do you think he knew?
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: That's a lot of tech and weaponry. Some angara stuff, too.
+    global_squad_angara: I wonder if this is what Barrett was really after.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Damn. There's a lot of explosive power here.
+    global_squad_male_human: What do you think? Maybe this is what Barrett's really after.
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+dune_q3_thecrew_leader: [Comm] Hey, Pathfinder. You still alive?
+Hero: The base is clear. Like you wanted.
+dune_q3_thecrew_leader: [Comm] Excellent. We'll start preparations for the move immediately.
+dune_q3_thecrew_leader: [Comm] Come by when you can. We might have some stuff hoarded around here that you could use.
+dune_q3_thecrew_leader: [Comm] Barrett, out.

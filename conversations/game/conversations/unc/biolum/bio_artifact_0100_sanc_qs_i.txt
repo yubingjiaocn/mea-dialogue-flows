@@ -1,0 +1,56 @@
+# game/conversations/unc/biolum/bio_artifact_0100_sanc_qs_i
+# Primary speaker: bio_sage_artifact_main
+# Source: game/conversations/unc/biolum/bio_artifact_0100_sanc_qs_i.xml
+==================================================
+bio_sage_artifact_main: Esmus lets you wander around with no supervision? You're interrupting our lesson.
+bio_sage_artifact_apprent: {i}(Sighs.){/i} Could use more interruptions.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Sorry. I didn't mean to get in your way.
+    bio_sage_artifact_main: And yet you're still here.
+    bio_sage_artifact_main: As I was saying, the propulsion system that took Beshal to the skies was inspired by four Remnant pieces.
+    bio_sage_artifact_main: And that's just one. Much of our progress was prompted by the discovery of Remnant artifacts.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: You believe the angara learned crucial scientific ideas from the Remnant?
+        bio_sage_artifact_main: It is not just belief. It is a matter of record.
+        bio_sage_artifact_main: Some artifacts were even left in unfinished states, likely to demonstrate how they were put together.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We learned that the angara were created by the Jardaan. Maybe they guided your advancement.
+            bio_sage_artifact_main: Entirely possible.
+            ↩ (goto) bio_sage_artifact_main: [empty]
+        ├ option 2:
+            ↩ (goto) bio_sage_artifact_main: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: Where are these artifacts you're talking about?
+        bio_sage_artifact_main: The few that still exist reside in Aya's repository. However, many have been lost.
+        bio_sage_artifact_main: Though there are rumors that as the wilds grow wilder, things long buried may be unearthed.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: It might be wise to study whatever we find. Something out there might give us an edge against the kett.
+                ↩ (goto) bio_sage_artifact_main: [empty]
+            ├ option 2:
+                global_squad_asari ⟨cond⟩: Unearthed Remnant artifacts?
+                Hero: Right on cue.
+                global_squad_asari: Funny, Ryder. But come on, aren't you curious? Imagine what we could learn!
+                ↩ (goto) bio_sage_artifact_main: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) bio_sage_artifact_main: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        Hero: I think I'll leave you to your lesson.
+        bio_sage_artifact_main: About time.
+    └─ merge ─┘
+├ option 2:
+    Hero: Relax. Give the kid a break. Looks like he needs it.
+    bio_sage_artifact_main: Did the shrieking winds give us a break when we first sailed across uncharted skies? No.
+    ↩ (goto) bio_sage_artifact_main: As I was saying, the propulsion system that took Beshal to the skies was inspired by four Remnant pieces.
+└─ merge ─┘
+bio_sage_artifact_main: Back again?
+↩ (goto) bio_sage_artifact_main: [empty]
+↩ (goto) bio_sage_artifact_main: [empty]

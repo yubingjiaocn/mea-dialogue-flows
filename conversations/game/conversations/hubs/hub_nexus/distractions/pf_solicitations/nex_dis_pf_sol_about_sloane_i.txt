@@ -1,0 +1,41 @@
+# game/conversations/hubs/hub_nexus/distractions/pf_solicitations/nex_dis_pf_sol_about_sloane_i
+# Primary speaker: nex_dis_sloane_vengeful_man
+# Source: game/conversations/hubs/hub_nexus/distractions/pf_solicitations/nex_dis_pf_sol_about_sloane_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_dis_sloane_vengeful_man ⟨cond⟩: Hail, the woman of the hour.
+        Hero: What did I do?
+        nex_dis_sloane_vengeful_man: Word is, you killed that traitor, Sloane Kelly. Just wanted to say thanks.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm not the one who killed her.
+            nex_dis_sloane_vengeful_man: Not how I heard it. Just accept the pat on the back, all right?
+            nex_dis_sloane_vengeful_man: She got what she deserved.
+        ├ option 2:
+            Hero: Murder isn't something to be proud of.
+            nex_dis_sloane_vengeful_man: There are exceptions in my book. What that woman did, betraying the Initiative like that. So many paid the price.
+            ↩ (goto) nex_dis_sloane_vengeful_man: She got what she deserved.
+        └─ merge ─┘
+    ├ option 2:
+        nex_dis_sloane_vengeful_man: Hail, the man of the hour.
+        ↩ (goto) Hero: What did I do?
+    └─ merge ─┘
+├ option 2:
+    nex_dis_sloane_vengeful_man: Is it true? Was there an attempt on that traitor Sloane Kelly's life?
+    Hero: It's true.
+    nex_dis_sloane_vengeful_man: Oh, that makes me happy. The thought of her out there, with a target on her back... someday she'll get hers.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Someday we all get what's coming to us.
+        nex_dis_sloane_vengeful_man: If there's justice, her before us.
+        nex_dis_sloane_vengeful_man: She deserves death.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Hero: I don't like your attitude.
+        nex_dis_sloane_vengeful_man: I'm not alone. That woman is despised.
+        ↩ (goto) nex_dis_sloane_vengeful_man: She deserves death.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,103 @@
+# game/conversations/crit/m4/m4_0350_labs_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0350_labs_combat_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: We've got company!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Ah shit, they found us!
+├ option 3:
+    global_squad_turian ⟨cond⟩: We've got company!
+├ option 4:
+    global_squad_asari ⟨cond⟩: They found us!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Watch out, kett!
+├ option 6:
+    global_squad_angara ⟨cond⟩: Kett!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: We gotta get through these guys!
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: They aren't going to make it easy, are they?
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: I guess they want a fight, huh?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: They don't make it easy, do they?
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: They don't make it easy, do they?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: They don't make it easy, do they?
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: They don't make it easy, do they?
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Keep pressing them! We don't want to end up as some experiment!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Keep firing! I sure as hell don't want to end up in some test-tube!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Keep it up! We don't want to end up as some experiment!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Keep it up! We don't want end up as some experiment!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Keep at it! We don't want to end up as some experiment!
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Don't stop! We don't want to become one of their experiments!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: More ahead!
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Not over yet—more of them ahead!
+├ option 3:
+    global_squad_asari ⟨cond⟩: More kett, dead ahead!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Stay sharp—more of them ahead!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Stay sharp—more of them ahead!
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Stay sharp—more of them ahead!
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They're dead!
+    Hero: Be easier if the kett just handed the relic over.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: We could all save on ammo.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: We'd all save on ammo.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Yeah, spare everyone the ammo.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Uh huh. And who's gonna ask them?
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Nah, I prefer it this way. More dead kett.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: I'd rather shoot them all dead, just the same.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: They're down!
+    ↩ (goto) Hero: Be easier if the kett just handed the relic over.
+├ option 3:
+    global_squad_asari ⟨cond⟩: That was the last one!
+    ↩ (goto) Hero: Be easier if the kett just handed the relic over.
+├ option 4:
+    global_squad_turian ⟨cond⟩: There, that was the last one!
+    ↩ (goto) Hero: Be easier if the kett just handed the relic over.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Clear!
+    ↩ (goto) Hero: Be easier if the kett just handed the relic over.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Okay, that was the last of them!
+    ↩ (goto) Hero: Be easier if the kett just handed the relic over.
+├ option 7:
+    ↩ (goto) Hero: Be easier if the kett just handed the relic over.
+└─ merge ─┘
+Hero: I think we've got a way up here.

@@ -1,0 +1,45 @@
+# game/conversations/crit/crit_mer/crit_fin_690_greater_battle_m
+# Primary speaker: global_salarian_pathfinder_multi
+# Source: game/conversations/crit/Crit_Mer/crit_fin_690_greater_battle_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Move inside, Pathfinder. We'll hold the line out here, keep them off the Hyperion. You take this to the Archon.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: Understood, Pathfinder.
+                    ├ option 2:
+                        Hero: Understood, Pathfinder.
+                        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    crit_kett_salarian_captain_multi: [Comm] Take the fight inside, Pathfinder. We'll protect the Hyperion, but that only matters if you catch the Archon.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero ⟨cond⟩: Understood, Pathfinder.
+                    ├ option 2:
+                        ↩ (goto) Hero: Understood, Pathfinder.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) global_salarian_pathfinder_multi: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) global_salarian_pathfinder_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: [empty]
+    ├ option 3:
+        ↩ (goto) global_salarian_pathfinder_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) global_salarian_pathfinder_multi: [empty]
+└─ merge ─┘

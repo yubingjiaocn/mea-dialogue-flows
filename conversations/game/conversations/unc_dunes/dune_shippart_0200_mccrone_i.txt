@@ -1,0 +1,46 @@
+# game/conversations/unc_dunes/dune_shippart_0200_mccrone_i
+# Primary speaker: dune_hiding_scav
+# Source: game/conversations/unc_dunes/dune_shippart_0200_mccrone_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_hiding_scav [OncePerGame]: I—I can be friendly. Let's talk this out.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You can start with an explanation. What happened here?
+        dune_hiding_scav: It was that bastard Axius.
+        Hero: Who?
+        dune_hiding_scav: You haven't heard of him? Axius leads the meanest gang on Elaaden.
+        dune_hiding_scav: They run raids on other scavenger camps. Never leave anyone alive. Last night they picked our camp.
+        dune_hiding_scav: I was lucky enough to find a hiding place. Been in there ever since.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Your gang bought a thruster from a scientist recently. I want it back.
+            dune_hiding_scav: That piece of junk? Didn't even fit our ship. Axius must've taken it. He took everything.
+            dune_hiding_scav: You can try getting it back from him if you have a death wish. I'll even give you the navpoint.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You've been surprisingly helpful.
+                dune_hiding_scav: Hey, we're not all bad. Some of us just got unlucky.
+                dune_hiding_scav: One more thing: If you see Axius, shoot first. He's not a talker.
+            ├ option 2:
+                Hero: You going to be okay by yourself?
+                dune_hiding_scav: This happens all the time. I'll find a new gang.
+                ↩ (goto) dune_hiding_scav: One more thing: If you see Axius, shoot first. He's not a talker.
+            └─ merge ─┘
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: You've been surprisingly helpful.
+            ├ option 2:
+                ↩ (goto) Hero: You going to be okay by yourself?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You want to tell me why you were sneaking around in there?
+        dune_hiding_scav: You saw the camp. When Axius comes, the only thing to do is hide.
+        ↩ (goto) Hero: Who?
+    └─ merge ─┘
+├ option 2:
+    dune_hiding_scav: I—I can be friendly. Let's talk this out.
+└─ merge ─┘

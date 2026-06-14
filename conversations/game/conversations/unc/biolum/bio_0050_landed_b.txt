@@ -1,0 +1,65 @@
+# game/conversations/unc/biolum/bio_0050_landed_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/biolum/bio_0050_landed_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: [Comm] Ryder. I will meet you at Daar Pelaav.
+├ option 2:
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: It's full of life. Maybe there are golden worlds out here after all.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: It is beautiful, but the wilds can also be deadly.
+    ├ option 2:
+        Hero: If there's a vault here and it's working, I wonder why it didn't show up on the map in Eos.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Whoa! Look at all these plants! The vault must be fully operational here.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: It is beautiful, but the wilds can also be deadly.
+    ├ option 2:
+        ↩ (goto) Hero: If there's a vault here and it's working, I wonder why it didn't show up on the map in Eos.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Now this is a planet!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: It is beautiful, but the wilds can also be deadly.
+    ├ option 2:
+        ↩ (goto) Hero: If there's a vault here and it's working, I wonder why it didn't show up on the map in Eos.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩: I thought Aya was beautiful. This blows it away.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: It is beautiful, but the wilds can also be deadly.
+    ├ option 2:
+        ↩ (goto) Hero: If there's a vault here and it's working, I wonder why it didn't show up on the map in Eos.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Watch out for Roekaar. Angaran fanatics that hate aliens. That means you.
+    Hero: Charming.
+├ option 2:
+    global_squad_angara: [Comm] Be on the lookout for Roekaar. Angaran fanatics. They hate all aliens and will likely shoot on sight.
+    ↩ (goto) Hero: Charming.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara: The Roekaar have a strong presence here.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: It's so red.
+    Hero: Don't you mean green?
+    global_squad_krogan: Yeah. Green...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: It is beautiful, but the wilds can also be deadly.
+    ├ option 2:
+        ↩ (goto) Hero: If there's a vault here and it's working, I wonder why it didn't show up on the map in Eos.
+    └─ merge ─┘
+└─ merge ─┘

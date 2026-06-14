@@ -1,0 +1,112 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_hmm_i
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_hmm_i.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human [OncePerGame]: Pathfinder. No time for our beer yet. This place is a mess. Security is... let's call it strained.
+        Hero: I can believe it. The Nexus is running on empty.
+        global_squad_male_human: Not just that. A lot of the exiles {i}were{/i} security. Everyone was trained and armed for a frontier.
+        global_squad_male_human: We know kett are dangerous, and now we have to worry about our people too. No idea where they went, but they left mad.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: There's apparently no viable planets in range. Exile may have been a sanitized death sentence.
+            global_squad_male_human: What a shit-show. Pathfinder, we have to get this back on track or we don't survive. No pressure, right?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: As long as the Nexus is here—as long as {i}we're{/i} here—we have a job to do.
+                global_squad_male_human: Double-down, crisis mode. I can do that. We can do that.
+                global_squad_male_human: Ready and willing, Pathfinder.
+            ├ option 2:
+                Hero: This wasn't in the job description. We have to find a world, then save it.
+                global_squad_male_human: Glad it's not just me feeling it. But it's not just you, either. We're a team, right?
+                global_squad_male_human: It's what they need us to be.
+                ↩ (goto) global_squad_male_human: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: They were frustrated. If they just wanted to kill, they could have fought to the last here.
+            global_squad_male_human: Apparently we're the big hope for everyone. Not the Hyperion showing. Just... us. I'm with you. It's just... a lot.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: As long as the Nexus is here—as long as {i}we're{/i} here—we have a job to do.
+            ├ option 2:
+                ↩ (goto) Hero: This wasn't in the job description. We have to find a world, then save it.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human [OncePerGame]: Pathfinder, I'm feeling less bad about missing a year of this.
+        global_squad_male_human: Everyone's beaten down. Nothing to do but watch the reserves shrink.
+        Hero: And now all eyes are on us.
+        global_squad_male_human: All I know is: we have to fix it.
+    ├ option 3:
+        global_squad_male_human [OncePerGame]: Quieter here. Still get opinions, of course. And talk to security.
+        Hero: What about?
+        global_squad_male_human: Leaders. Direction. Lack of it. Tann is the standout, but none of them have made friends.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Who would you say is actually measuring up?
+            global_squad_male_human: My dad would say elections were rubbish, because you don't get people who could do the job, you got politicians.
+            global_squad_male_human: By that measure, I'd go Addison. She does not want that job.
+        ├ option 2:
+            Hero: Waking up to this is a slap in the face. Nothing's what it should be.
+            global_squad_male_human: Don't let them drag you down. You have a team. We have a goal. We got this.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human: Things are shaping up, Pathfinder. Resources flowing in, sleepers ready to head out.
+    global_squad_male_human: It's starting to feel like the Initiative. Not quite up to the sales pitch, but getting there.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Think you'll have time for a drink later? You know. Away?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: That's what all this is for. Making sure we'll have time.
+            global_squad_male_human: I'll be there with you. Promise.
+        ├ option 2:
+            Hero: I don't know, but hearing you ask is nice.
+            global_squad_male_human: Don't you worry. I'm not going anywhere.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human: Feels good, right?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I feel it, Liam. Finally getting our start.
+            global_squad_male_human: There you go. There we go. Getting our shit together. Showing a new galaxy that we have it sorted.
+            global_squad_male_human: Heh. If I keep saying it, it's true, right?
+        ├ option 2:
+            Hero: We came too close to not making it. I feel relief, but I wouldn't say "good."
+            global_squad_male_human: Yeah, that's under there. Could have gone real bad. But it didn't—and that was you. And me. Maybe some others.
+            global_squad_male_human: We're digging in. We got this.
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human: Things are tense 'round the pub. But not like that first fourteen months. Thanks to us.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Think you'll have time for a drink later? You know. Away?
+    ├ option 2:
+        global_squad_male_human: Think they raised the drink prices, though. Bastards.
+        Hero: One villain at a time, Liam.
+        global_squad_male_human: Priorities, Pathfinder.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human: Ryder! You're so legend, there was a fight yesterday over who gets to write a song about you.
+    global_squad_male_human: I hear there's a verse about your stalwart and handsome team. That part's me. Pretty sure.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Think you'll have time for a drink later? You know. Away?
+    ├ option 2:
+        global_squad_male_human: We did it.
+        Hero: Yes, we did.
+    └─ merge ─┘
+├ option 5:
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) global_squad_male_human ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) global_squad_male_human [OncePerGame]: Quieter here. Still get opinions, of course. And talk to security.
+└─ merge ─┘

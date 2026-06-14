@@ -1,0 +1,61 @@
+# game/conversations/rel/liam/liam_r050_loyalty_prompt_d
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/rel/liam/liam_r050_loyalty_prompt_d.xml
+==================================================
+Hero: Something I should know about?
+global_squad_male_human: Hey! I was just... How are you doing? I'm... great. Just...
+global_squad_male_human: I told you I'd screw it up. And I have.
+global_squad_male_human: Remember Verand? My contact in the angara? She's gone. Her whole group is gone. Sudden.
+global_squad_male_human: So, yeah. Up for a rescue? Because if we don't, we could be next.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Of course, Kosta. Why wouldn't I be?
+    global_squad_male_human: Because... I gave Verand Nexus data and nav-points.
+    Hero: Why would you do that?
+    global_squad_male_human: We need to know how to live here. I tried asking. I tried taking. No one would help "outsiders."
+    global_squad_male_human: So I took initiative. Gave her data and tech so she could mod it.
+    global_squad_male_human: Verand was... she {i}is{/i} a good risk. But if pirates interrogate her or... barter her to the kett—it's our heads.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Why didn't you alert everyone immediately?
+        global_squad_male_human: If they have her info, they have our comms. The Nexus goes on alert, they'll know.
+        global_squad_male_human: Verand's people are tough. They'd have fought if they thought there was a chance. Something made them think there wasn't.
+        global_squad_male_human: I won't risk that. Bad enough I have to involve {i}you{/i}.
+        global_squad_male_human: Like I said, I screwed up.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: Why didn't you alert everyone immediately?
+        ├ option 2:
+            Hero: This goes south, you're on the hook for it.
+            global_squad_male_human: I know, and I'll fix it.
+            global_squad_male_human: I got a lead from a trader. A grainy visual. We find that system, we find our bad guys.
+            global_squad_male_human: I... also asked Bradley for people to help intercept. I thought they might want to pitch in.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Bradley seems pretty busy these days.
+                global_squad_male_human: That's what he said. We're on our own.
+                global_squad_male_human: I'll forward the visual to the bridge, for when you want to start hunting. And—sorry.
+            ├ option 2:
+                Hero ⟨cond⟩: We already went down that road with Meridian.
+                ↩ (goto) global_squad_male_human: That's what he said. We're on our own.
+            ├ option 3:
+                Hero: How are a bunch of settlers supposed to help?
+                ↩ (goto) global_squad_male_human: That's what he said. We're on our own.
+            └─ merge ─┘
+        ├ option 3:
+            Hero: We'll take care of it before it's a problem.
+            global_squad_male_human: It's already a problem.
+            ↩ (goto) global_squad_male_human: I got a lead from a trader. A grainy visual. We find that system, we find our bad guys.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: This goes south, you're on the hook for it.
+    ├ option 3:
+        ↩ (goto) Hero: We'll take care of it before it's a problem.
+    └─ merge ─┘
+├ option 2:
+    Hero: You seem pretty sure this is your fault, but I'm not hearing why.
+    ↩ (goto) global_squad_male_human: Because... I gave Verand Nexus data and nav-points.
+├ option 3:
+    Hero: Of course we are. Why wouldn't we go after them?
+    ↩ (goto) global_squad_male_human: Because... I gave Verand Nexus data and nav-points.
+└─ merge ─┘

@@ -1,0 +1,36 @@
+# game/conversations/hubs/hub_aya/rp/squad/aya_squad_cora_i
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_aya/rp/squad/aya_squad_cora_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human: It took humanity eight years to get a Citadel embassy back home.
+    global_squad_female_human: Pretty impressive to get one here so fast.
+    Hero: All it took was handling some Remnant.
+    global_squad_female_human: It'll take more to keep this partnership going.
+    global_squad_female_human: Ambassador Rialla will handle the embassy. Lets us focus on... everything else.
+├ option 2:
+    global_squad_female_human: A security scan picked up my biotic implant this morning. That was a fun explanation.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The angara have their EMP ability—wouldn't they understand biotics?
+        global_squad_female_human: An EMP doesn't rip someone's molecules apart.
+        global_squad_female_human: Can't blame the angara for being careful. New aliens might be okay; weird space powers? Maybe not.
+    ├ option 2:
+        Hero: You're here, so you must have smoothed things over, right?
+        global_squad_female_human: I'm being watched. I can tell.
+        ↩ (goto) global_squad_female_human: Can't blame the angara for being careful. New aliens might be okay; weird space powers? Maybe not.
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human: Getting lots of stares. Reminds me of being on Thessia for asari commando training.
+    global_squad_female_human: We're the aliens.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: For some angara, we're the only humans they'll ever see. That's huge.
+        global_squad_female_human: Whatever happens, we'll make a better show than the kett.
+    ├ option 2:
+        Hero: Got any tips on navigating an alien society?
+        global_squad_female_human: Be yourself, but your best self. Listen. And be polite about scanning your food.
+        global_squad_female_human: Though that's good advice in general.
+    └─ merge ─┘
+└─ merge ─┘

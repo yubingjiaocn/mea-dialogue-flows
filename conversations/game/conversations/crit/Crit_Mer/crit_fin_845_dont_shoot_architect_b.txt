@@ -1,0 +1,26 @@
+# game/conversations/crit/crit_mer/crit_fin_845_dont_shoot_architect_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_845_dont_shoot_architect_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero: No weak spots! If we don't cut the Archon's power, it's unstoppable!
+├ option 2:
+    Hero: Normal weak points aren't working! We have to cut the Archon's power!
+├ option 3:
+    Hero: The Archon's shielding it! We have to shut down his power relays!
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩: No good! Meridian's sustaining it! You have to go for the power relays!
+    ├ option 2:
+        global_sibling_female: Not working! Meridian's sustaining it! Go for the power relays instead!
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩: Direct attacks aren't working! Keep on the power relays to shut the Archon down!
+    ├ option 2:
+        global_sibling_female: Direct assault won't work here! Go for the power relays and shut the Archon down!
+    └─ merge ─┘
+└─ merge ─┘

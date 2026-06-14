@@ -1,0 +1,141 @@
+# game/conversations/unc_dunes/dune_0510_q3_thecrew_leader_i
+# Primary speaker: dune_q3_thecrew_leader
+# Source: game/conversations/unc_dunes/dune_0510_q3_thecrew_leader_i.xml
+==================================================
+dune_q3_thecrew_leader: Pathfinder. I am Dirk Barrett. I speak for everyone you see here.
+dune_q3_thecrew_leader: Glad you're hearing me out instead of shooting me in the face.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It never really hurts to listen.
+    dune_q3_thecrew_leader: I agree. Most of the people who live here don't, as I'm sure you've noticed.
+    dune_q3_thecrew_leader: They kill anything that moves, including each other. Long-term prospects for survival? Zero.
+    dune_q3_thecrew_leader: Me? I haven't lost my mind. I don't want to die. Neither do these people.
+    dune_q3_thecrew_leader: That's why I need your help.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It may not be wise to help a Nexus exile. The Initiative considers you enemies.
+        dune_q3_thecrew_leader: What threat am I to the Initiative? Barely hanging on, targeted by the neighbors.
+        dune_q3_thecrew_leader: We just want a self-sufficient community able to defend itself and survive without stealing and killing.
+        Hero: So what's your plan?
+        dune_q3_thecrew_leader: First, we need to move. This shelter is small, and can't be fortified.
+        dune_q3_thecrew_leader: Another gang has taken over a base about twenty clicks from here.
+        dune_q3_thecrew_leader: Beautiful setup they don't know how to use. Idiots taking apart the walls for scrap.
+        dune_q3_thecrew_leader: If you can help us clear them out, I think we'll be good.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I believe that base is now free of scavengers.
+            dune_q3_thecrew_leader: Already? I guess no one stands a chance when the Pathfinder rolls into town, huh?
+        ├ option 2:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I'll see what I can do.
+                dune_q3_thecrew_leader: Thanks, Pathfinder. Anything else you need to know, just ask.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: Why did you come to Elaaden?
+                    dune_q3_thecrew_leader: Seemed like a good idea at the time. Yeah, I know. Not the smartest move.
+                    dune_q3_thecrew_leader: Kadara bothered some people. Sloane muscling her way into angara territory.
+                    dune_q3_thecrew_leader: I guess some of us wanted to start with a clean slate. Too bad it got shit on so fast.
+                    ↩ (goto) dune_q3_thecrew_leader: [empty]
+                ├ option 2:
+                    Hero: You and your crew aren't as violent as the other scavengers here.
+                    dune_q3_thecrew_leader: From the start, Elaaden was about how much firepower you had. Got firepower? You can take what you want.
+                    dune_q3_thecrew_leader: Resulted in lots of people using their guns to get bigger guns.
+                    dune_q3_thecrew_leader: Eventually I had to step back and think about what I really wanted out here, and how to get there.
+                    dune_q3_thecrew_leader: Turns out I wasn't the only one.
+                    ↩ (goto) dune_q3_thecrew_leader: [empty]
+                ├ option 3:
+                    Hero [OncePerGame]: If you manage to get a fortified base, what then?
+                    dune_q3_thecrew_leader: Trade, hopefully. We know the krogan are out here. Once we're set up, we'll try to make contact.
+                    dune_q3_thecrew_leader: Maybe if we're really successful, the other exiles will come round and join us.
+                    dune_q3_thecrew_leader: I just know that anarchy is unlikely to get us very far. We need people working towards the same goal.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Sounds like you're setting yourself up as leader. Or... perhaps, warlord?
+                        dune_q3_thecrew_leader: That's the problem with organization. Someone needs to organize. Often takes a forceful personality.
+                        dune_q3_thecrew_leader: The beginning's always hardest. Once you have a strong foundation, that's when you ease up.
+                        dune_q3_thecrew_leader: Learn to survive before working on quality of life, know what I'm saying?
+                        ↩ (goto) dune_q3_thecrew_leader: [empty]
+                    ├ option 2:
+                        Hero: I like your optimism. That's the stuff we need to really make it work out here.
+                        dune_q3_thecrew_leader: Yeah, well. I'm a romantic at heart. What can I say?
+                        dune_q3_thecrew_leader: I'm not stupid. I know it's not going to be painless. But as they say, if you're gonna die, better die trying.
+                        ↩ (goto) dune_q3_thecrew_leader: [empty]
+                    └─ merge ─┘
+                ├ option 4:
+                    Hero: Nothing else right now. I'll head out.
+                    dune_q3_thecrew_leader: All right. Won't keep you.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Sorry, but you're on your own.
+                dune_q3_thecrew_leader: Well, I tried. If you change your mind, you know where to find me.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Well, I am the Pathfinder, and I'm pretty sure my job description includes "help people survive in Heleus."
+        Hero: So, shoot. What do you need?
+        ↩ (goto) dune_q3_thecrew_leader: First, we need to move. This shelter is small, and can't be fortified.
+    └─ merge ─┘
+├ option 2:
+    Hero: Well, surprise!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_q3_thecrew_leader: I'm still considering our options. There aren't many, but maybe we'll get lucky.
+├ option 2:
+    dune_q3_thecrew_leader: We're just getting ready to leave. Maybe a day or two more.
+    ↩ (goto) dune_q3_thecrew_leader: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_q3_thecrew_leader: What's the situation?
+    Hero: There was a complication. I'm afraid you're not getting your base.
+    dune_q3_thecrew_leader: What? Why?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Radiation. It'll kill you.
+        dune_q3_thecrew_leader: Blast. What's next when Plan A fails and you don't have a Plan B?
+        dune_q3_thecrew_leader: At least we tried, huh? Thanks, Pathfinder. I'll go break the news to the others.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Radiation.
+        ↩ (goto) dune_q3_thecrew_leader: Blast. What's next when Plan A fails and you don't have a Plan B?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Radiation. Crazy level. Just don't go there.
+        ↩ (goto) dune_q3_thecrew_leader: Blast. What's next when Plan A fails and you don't have a Plan B?
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Deadly radiation.
+        ↩ (goto) dune_q3_thecrew_leader: Blast. What's next when Plan A fails and you don't have a Plan B?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: It's irradiated. You don't want to get close.
+        ↩ (goto) dune_q3_thecrew_leader: Blast. What's next when Plan A fails and you don't have a Plan B?
+    └─ merge ─┘
+├ option 2:
+    dune_q3_thecrew_leader: You took out those guys no problem, huh? Weird. I feel kinda sorry for them.
+    dune_q3_thecrew_leader: We all signed up for Heleus for pretty much the same reasons... but some of us broke worse than others.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Don't let that make you lose hope.
+        dune_q3_thecrew_leader: Wouldn't be doing this if I'd lost hope, now, would I?
+        dune_q3_thecrew_leader: Before my guys head over there, anything I should be wary of? Traps? Anything?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: No. It's all clear.
+            dune_q3_thecrew_leader: Thanks again, Pathfinder. We owe you one.
+        ├ option 2:
+            Hero: Yeah, there's a whole bunch of arms and gear. Could be useful.
+            dune_q3_thecrew_leader: Is that right? Well, that's a fine bonus, wouldn't you say?
+            dune_q3_thecrew_leader: You stay safe. It's hell out there.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: As they say, gotta break some eggs to make an omelet. Heleus is the omelet.
+        dune_q3_thecrew_leader: Right, well...
+        ↩ (goto) dune_q3_thecrew_leader: Before my guys head over there, anything I should be wary of? Traps? Anything?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) dune_q3_thecrew_leader: Thanks, Pathfinder. Anything else you need to know, just ask.
+├ option 2:
+    ↩ (goto) dune_q3_thecrew_leader: [empty]
+└─ merge ─┘
+dune_q3_thecrew_leader: Here. This is the code for that crate over there. I got people to put in whatever they could spare. As a thank you.

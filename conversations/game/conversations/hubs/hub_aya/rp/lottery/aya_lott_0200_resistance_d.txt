@@ -1,0 +1,45 @@
+# game/conversations/hubs/hub_aya/rp/lottery/aya_lott_0200_resistance_d
+# Primary speaker: aya_lott_res
+# Source: game/conversations/hubs/hub_aya/rp/lottery/aya_lott_0200_resistance_d.xml
+==================================================
+aya_lott_res: I know why you're here. The botanist. You want an apology for what I said to him.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You wrongly accused him of getting someone killed. Threatened him for no good reason.
+    aya_lott_res: Threat... that's not what happened.
+    Hero: What did?
+    aya_lott_res: Aya isn't big enough to give everyone a home. We each live here a short time and then move on.
+    aya_lott_res: For someone to come, another must go. The exchanges are chosen at random.
+    aya_lott_res: We call this arrangement the Vesaal. "Time of change." It worked well, until now.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The Vesaal never accounted for outsiders living on Aya.
+        aya_lott_res: There's only so much room.
+        aya_lott_res: When our leaders agreed to make a place for your people here, it came with a cost.
+        aya_lott_res: My friend won a place on Aya—but he sold that slot so one of you could stay here, instead.
+        Hero: Sold it how? What did he get?
+        aya_lott_res: Comforts for his family. Resources to improve their home on Havarl.
+        aya_lott_res: He always put others before himself. That's how he died, fighting kett on Voeld.
+        aya_lott_res: When I found out, I was angry. Said things to your botanist I shouldn't have. But I'd never hurt your people.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: He thinks you want him dead. Tell him what you just told me, and let's move on.
+            aya_lott_res: Thought I was clear the first time. Maybe his translator malfunctioned.
+            Hero: I'll talk to our ambassador. See if we can minimize our impact on your Vesaal.
+            aya_lott_res: We don't expect things to be easy. Only that you understand: nothing is free for us.
+        ├ option 2:
+            Hero: I believe you—and I'm sorry for your loss. Between us, that botanist is kind of a jerk.
+            aya_lott_res: He didn't fear my anger. I respect that.
+            ↩ (goto) Hero: I'll talk to our ambassador. See if we can minimize our impact on your Vesaal.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You lost someone you cared about. Was it because of the Vesaal?
+        aya_lott_res: That's one way to see it.
+        ↩ (goto) aya_lott_res: When our leaders agreed to make a place for your people here, it came with a cost.
+    └─ merge ─┘
+├ option 2:
+    Hero: I only have one side of the story. Tell me yours.
+    aya_lott_res: It's hard to explain.
+    Hero: Try me.
+    ↩ (goto) aya_lott_res: Aya isn't big enough to give everyone a home. We each live here a short time and then move on.
+└─ merge ─┘

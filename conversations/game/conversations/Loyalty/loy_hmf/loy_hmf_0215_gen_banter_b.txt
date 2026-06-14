@@ -1,0 +1,105 @@
+# game/conversations/loyalty/loy_hmf/loy_hmf_0215_gen_banter_b
+# Primary speaker: 
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0215_gen_banter_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Someone's jumpy.
+├ option 2:
+    global_squad_angara ⟨cond⟩: How unfriendly.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: So much for asari hospitality.
+├ option 4:
+    global_squad_turian ⟨cond⟩: So much for trying to help.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Okay, I'd be tense too, but... that was close.
+└─ merge ─┘
+global_squad_female_human: This area saw combat action. No bodies, though.
+Hero: Whatever happened left the captain a little trigger-happy.
+global_squad_female_human: If the Tempest looked like this, how would you feel?
+Hero [OncePerGame]: Was it this quiet when the arks were traveling through dark space?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Quieter. They weren't busted up back then.
+    global_squad_female_human: The Leusinia will be back to normal once we get her to the Nexus.
+├ option 2:
+    global_squad_turian ⟨cond⟩: It's eerie. These spaces are designed to be bustling.
+    ↩ (goto) global_squad_female_human: The Leusinia will be back to normal once we get her to the Nexus.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Eh, some work crew would be making noise.
+    ↩ (goto) global_squad_female_human: The Leusinia will be back to normal once we get her to the Nexus.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: That's a cheery thought.
+    ↩ (goto) global_squad_female_human: The Leusinia will be back to normal once we get her to the Nexus.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Imagine centuries of dark silence, alone.
+    ↩ (goto) global_squad_female_human: The Leusinia will be back to normal once we get her to the Nexus.
+└─ merge ─┘
+global_squad_female_human [OncePerGame]: Here we are. Hangar Control.
+Hero [OncePerGame]: Someone overrode the hangar doors, then... tried to seal them in a hurry?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Indecisive, hmm?
+├ option 2:
+    global_squad_angara ⟨cond⟩: Perhaps something to do with the Scourge?
+├ option 3:
+    global_squad_krogan ⟨cond⟩: And couldn't. Hrm.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Maybe something interfered.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Plans could've changed.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Hey, look. We might have a friend.
+    global_squad_female_human: Must be part of Sarissa's team.
+├ option 2:
+    global_squad_angara ⟨cond⟩: There. That's no kett.
+    ↩ (goto) global_squad_female_human: Must be part of Sarissa's team.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: We've got company.
+    ↩ (goto) global_squad_female_human: Must be part of Sarissa's team.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Look, someone's alive down here.
+    ↩ (goto) global_squad_female_human: Must be part of Sarissa's team.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: There, a commando.
+    ↩ (goto) global_squad_female_human: Must be part of Sarissa's team.
+└─ merge ─┘
+Hero [OncePerGame]: Looks like an observation deck.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: For observing the mess they made of the place?
+    global_squad_female_human: People must have evacuated from the deck beyond.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Wow. A lot of people came through here fast.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: The ark took a beating. Look at the hull outside.
+    ↩ (goto) global_squad_female_human: People must have evacuated from the deck beyond.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: People evacuated through here. Dropped anything that didn't matter.
+├ option 5:
+    global_squad_angara ⟨cond⟩: A pity there's no time to appreciate the view.
+    ↩ (goto) global_squad_female_human: People must have evacuated from the deck beyond.
+└─ merge ─┘
+loy_hmf_cmdr_sarissa_multi [OncePerGame]: [Comm] Ryder, it's Sarissa. We got some power, then a damage report. What happened?
+Hero: An accident. We're fixing it.
+loy_hmf_cmdr_sarissa_multi: [Comm] All right. Go forward, we'll keep prepping the drive core.
+global_squad_female_human: We won't let you down, ma'am.
+loy_hmf_cmdr_sarissa_multi: [Comm] Of course not, Lieutenant. Sarissa out.
+global_squad_female_human [OncePerGame]: Looks bad. Why isn't the fire suppression system engaged?
+SAM: Either insufficient power, or the explosion damaged fire control.
+Hero: We could fix that if we find the controls.
+global_squad_female_human: And then reach whatever's draining power without getting singed.
+loy_hmf_vederia_multi [OncePerGame]: [Comm] Vederia here. I'm almost at the stasis pods.
+loy_hmf_vederia_multi: [Comm] Ah, blast it. No power for elevators.
+global_squad_female_human: Vederia, cut the elevator's mag locks. If the ark's like ours, you can climb down the shaft.
+loy_hmf_vederia_multi: [Comm] Good idea! Thanks, ma'am.
+loy_hmf_vederia_multi [OncePerGame]: [Comm] Vederia again. Two kett were trying to mess with the stasis pods. Not anymore.
+global_squad_female_human: Good work. Remember Sarissa's manuals. Stay low.
+loy_hmf_vederia_multi: [Comm] I will. The pods are safe. I'll keep tracking that power drain.
+loy_hmf_vederia_multi [OncePerGame]: [Comm] It's Vederia—the kett saw me! I'm trapped in an air vent!
+global_squad_female_human: Ready your biotics and pick them off as they pass.
+loy_hmf_vederia_multi: [Comm] But they'll hear—
+global_squad_female_human: You're a huntress. A silent predator.
+loy_hmf_vederia_multi: [Comm] Okay. Going silent.

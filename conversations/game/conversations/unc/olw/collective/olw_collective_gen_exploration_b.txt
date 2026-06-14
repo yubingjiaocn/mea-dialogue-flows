@@ -1,0 +1,55 @@
+# game/conversations/unc/olw/collective/olw_collective_gen_exploration_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/collective/olw_collective_gen_exploration_b.xml
+==================================================
+Hero: SAM, what's inside the cages?
+SAM: Judging from the scratching, adhi.
+Hero: Didn't peg the Collective as gardeners.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Heard the Collective was well supplied, but damn.
+    Hero ⟨cond⟩: These supplies belong to the Nexus. We should return them.
+    SAM: Yes, Pathfinder. I'll ping Suvi with a reminder.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Shit. I'm running with the wrong crew.
+    Hero: Hey!
+    global_squad_turian: Joking! But seriously, that's an impressive amount of merch.
+    ↩ (goto) Hero ⟨cond⟩: These supplies belong to the Nexus. We should return them.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: That's a lot of stolen stuff.
+    ↩ (goto) Hero ⟨cond⟩: These supplies belong to the Nexus. We should return them.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Are all these crates from the Nexus?
+    Hero ⟨cond⟩: About time they were returned, don't you think?
+    ↩ (goto) SAM: Yes, Pathfinder. I'll ping Suvi with a reminder.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Think they've got enough crates?
+    ↩ (goto) Hero ⟨cond⟩: These supplies belong to the Nexus. We should return them.
+└─ merge ─┘
+Hero: A secret room inside a secret base?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: That's just begging to be opened.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Not sure I want to see what's inside.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Seems like overkill.
+├ option 4:
+    global_squad_asari ⟨cond⟩: You know you want to open it.
+├ option 5:
+    global_squad_turian ⟨cond⟩: There's gotta be a way in.
+└─ merge ─┘
+Hero: All right. Let's see what's inside.
+Hero: Holy shit...
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: They... killed them. Why?
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Bastards.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: That's one way to cover your tracks.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Corpses. Of course. Couldn't be tech or something useful.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Probably killed them so they wouldn't talk.
+└─ merge ─┘

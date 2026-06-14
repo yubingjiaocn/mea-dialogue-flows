@@ -1,0 +1,111 @@
+# game/conversations/unc/olw/general/olw_poi_squadbanter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/general/olw_poi_squadbanter_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: I bet I could drink it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_humanark_asari_dr [OncePerGame]: [Comm] No, Drack. No.
+    ├ option 2:
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: It'd be pretty if not for the burning water. And the exiles. And the smell.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Uh... the water's on fire. That's not natural, right?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM [OncePerGame]: An exothermic reaction from the sulfuric acid coming in contact with water in the atmosphere.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Wonder how many drunk idiots have fallen in there?
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Even the water is like a festering wound that no medicine can heal.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Should I send you back to the Tempest?
+        global_squad_angara [OncePerGame]: Is that an option?
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: No wonder it's toxic—the shit's on fire!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: An exothermic reaction from the sulfuric acid coming in contact with water in the atmosphere.
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero ⟨cond⟩ [OncePerGame]: You all right, Drack?
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Too much high ground. Keep expecting an ambush.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Keep expecting outlaws to jump out at us.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I spy with my little eye something that begins with M.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Mountain.
+        global_squad_asari [OncePerGame]: Damn. You're good.
+    ├ option 2:
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: All these caves. It's a smuggler's dream.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: This area is called "Draullir." It means death caves.
+    Hero [OncePerGame]: Charming.
+    global_squad_angara [OncePerGame]: Not really.
+    ↩ (goto) Hero: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Look at all these mountains! Should put our jump-jets to the test!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Exiles could've rolled up and died, but look at what they've built—even out here.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Look at Kadara Port up there. It's like the exiles are playing King of the Mountain.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Except the real king's down below.
+    ├ option 2:
+        Hero [OncePerGame]: I think you mean {i}Queen{/i} of the Mountain.
+    ├ option 3:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Gotta say I was hoping for more "yar" pirates and less shooty pirates.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Damn. That sky is something else.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Ugh. Everything on this planet's so... pointy.
+    ↩ (goto) Hero: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Anyone know some good shanties? I could pull a parrot out of my arse?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Liam. No. Just no.
+    ├ option 2:
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘

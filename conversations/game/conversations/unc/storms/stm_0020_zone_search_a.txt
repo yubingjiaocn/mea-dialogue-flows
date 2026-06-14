@@ -1,0 +1,27 @@
+# Game/Conversations/UNC/Storms/stm_0020_zone_search_a
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0020_zone_search_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM [OncePerGame]: A mirror of the signal on Habitat 7. Possible atmospheric manipulation.
+    global_crew_science_officer: Is that possible?
+    Hero: We'll find out.
+    Hero: If it is like Habitat 7, no doubt we'll run into the kett.
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_crew_co-pilot ⟨cond⟩: Roekaar are holding for some reason. Prodromos needs us down there!
+            Hero: On it.
+        ├ option 2:
+            global_crew_co-pilot: Eos and Prodromos. No sign of large-scale hostiles.
+            Hero [OncePerGame]: Bradley wouldn't ask for us if he didn't think it was important.
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_co-pilot ⟨cond⟩: Eos—what was once Habitat 1. Still needs help.
+    ├ option 3:
+        global_crew_co-pilot ⟨cond⟩: Eos, home of Prodromos.
+    └─ merge ─┘
+└─ merge ─┘

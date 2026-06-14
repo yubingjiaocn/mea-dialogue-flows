@@ -1,0 +1,76 @@
+# game/conversations/unc/olw/vault_loop/olw_0225_monolith_ang_i
+# Primary speaker: olw_ang_monolith
+# Source: game/conversations/unc/olw/vault_loop/olw_0225_monolith_ang_i.xml
+==================================================
+olw_ang_monolith: I appreciate the assistance, but you need to leave.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I won't poke anything I'm not supposed to—I promise.
+    ┌─ BRANCH (12) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Ryder has interfaced with the monoliths before.
+        olw_ang_monolith: How is that possible?
+        Hero: It'll be easier to show you.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Ryder has interfaced with the monoliths before.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: This isn't Ryder's first monolith.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: This isn't Ryder's first monolith.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Ryder's done this before.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Ryder's done this before.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 7:
+        global_squad_male_human ⟨cond⟩: The Pathfinder's brilliant at this.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 8:
+        global_squad_male_human ⟨cond⟩: The Pathfinder's brilliant at this.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 9:
+        global_squad_krogan ⟨cond⟩: Kid knows what she's doing.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 10:
+        global_squad_krogan ⟨cond⟩: Kid knows what he's doing.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 11:
+        global_squad_turian ⟨cond⟩: This is kind of Ryder's thing.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    ├ option 12:
+        global_squad_turian ⟨cond⟩: This is kind of Ryder's thing.
+        ↩ (goto) olw_ang_monolith: How is that possible?
+    └─ merge ─┘
+├ option 2:
+    Hero: I've got experience with Remnant tech. I know what I'm doing. Mostly.
+    ┌─ BRANCH (12) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Ryder has interfaced with the monoliths before.
+    ├ option 2:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Ryder has interfaced with the monoliths before.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩: This isn't Ryder's first monolith.
+    ├ option 4:
+        ↩ (goto) global_squad_asari ⟨cond⟩: This isn't Ryder's first monolith.
+    ├ option 5:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Ryder's done this before.
+    ├ option 6:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Ryder's done this before.
+    ├ option 7:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Kid knows what she's doing.
+    ├ option 8:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Kid knows what he's doing.
+    ├ option 9:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: The Pathfinder's brilliant at this.
+    ├ option 10:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: The Pathfinder's brilliant at this.
+    ├ option 11:
+        ↩ (goto) global_squad_turian ⟨cond⟩: This is kind of Ryder's thing.
+    ├ option 12:
+        ↩ (goto) global_squad_turian ⟨cond⟩: This is kind of Ryder's thing.
+    └─ merge ─┘
+└─ merge ─┘

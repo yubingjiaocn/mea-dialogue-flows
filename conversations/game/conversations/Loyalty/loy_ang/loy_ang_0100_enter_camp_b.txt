@@ -1,0 +1,166 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0100_enter_camp_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0100_enter_camp_b.xml
+==================================================
+global_squad_angara [OncePerGame]: It's... deserted. The govataan is usually filled with travelers.
+Hero: Avka said no traffic in or out.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Doesn't make it less creepy.
+    global_squad_angara: Where are the Roekaar?
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Doesn't explain where everyone went.
+    ↩ (goto) global_squad_angara: Where are the Roekaar?
+├ option 3:
+    global_squad_krogan ⟨cond⟩: I don't like this.
+    ↩ (goto) global_squad_angara: Where are the Roekaar?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Doesn't explain the ghost town.
+    ↩ (goto) global_squad_angara: Where are the Roekaar?
+├ option 5:
+    global_squad_turian ⟨cond⟩: Still expected to see {i}someone{/i}.
+    ↩ (goto) global_squad_angara: Where are the Roekaar?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It’s got juice, but everything’s offline. Should I re-establish comms?
+    global_squad_angara: Let's leave it for now. Might tip off the Roekaar—wherever they are.
+├ option 2:
+    Hero: Arrivals were steady until a week ago.
+    global_squad_angara: Most angara come here at least once in their lives.
+    global_squad_angara: Either for the tradition or to share knowledge.
+    Hero: Which did you visit for?
+    global_squad_angara: A bit of both. Come on, let's keep looking for Baranjj and the others.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Wherever the angara went, they left a lot of supplies behind.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Seriously. Where'd they get all this stuff?
+        global_squad_angara: Aya and the Resistance provide support.
+        global_squad_angara: If the kett destroyed the Forge, it would be a terrible blow.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Stuff you'd want to take with you.
+        ↩ (goto) global_squad_angara: Aya and the Resistance provide support.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Well-stocked. The Roekaar bring this in?
+        ↩ (goto) global_squad_angara: Aya and the Resistance provide support.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Where'd they get all this?
+        ↩ (goto) global_squad_angara: Aya and the Resistance provide support.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: These are some serious supplies.
+        ↩ (goto) global_squad_angara: Aya and the Resistance provide support.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: And people say I'm messy.
+            Hero: They left in a hurry.
+            global_squad_angara: Or were forced out.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Looks like someone tossed it.
+            ↩ (goto) Hero: They left in a hurry.
+        ├ option 3:
+            global_squad_krogan ⟨cond⟩: Place is trashed.
+            ↩ (goto) Hero: They left in a hurry.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: It got completely tossed.
+            ↩ (goto) Hero: They left in a hurry.
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: Someone trashed it.
+            ↩ (goto) Hero: They left in a hurry.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Some of these are on loan from the Repository.
+        global_squad_angara: Avela and the researchers often exchange artifacts.
+    ├ option 3:
+        Hero: Nutrient paste. Half-eaten.
+        global_squad_angara: Won't get a timeline from that. Stuff stays fresh for years.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Is that... blood?
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: That looks like blood.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: I smell blood.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Looks like blood.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Is that... blood?
+    └─ merge ─┘
+├ option 2:
+    Hero: It's angaran.
+    global_squad_angara: Akksul doesn't kill angara.
+    SAM: The amount of blood and back-spatter suggests a non-lethal blow.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Comforting. I guess.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Still not a good sign.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: So he just beat the shit out of them.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Won't kill, but he unloads like a thug.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: What are the Roekaar doing?
+    └─ merge ─┘
+├ option 3:
+    Hero: Dehydrated. No one's watered them for awhile.
+    global_squad_angara: These were taken from the Forge. They would've been given the utmost care.
+├ option 4:
+    Hero: Fancy equipment. What were the researchers studying?
+    global_squad_angara: Everything, really. As much as we revere the Forge, we know very little about it.
+    global_squad_asari ⟨cond⟩: Part of its appeal.
+├ option 5:
+    Hero: Power's on, but running low.
+    global_squad_angara: No one bothered to turn it off.
+├ option 6:
+    Hero: Broken window. Sign of a struggle, maybe.
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero [OncePerGame]: Why is the Forge so important?
+    global_squad_angara: It's one of the few ruins that predates the Scourge.
+    global_squad_angara: We don't have many of those left.
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: We're going to find your family, Jaal.
+    global_squad_angara: Just hope they haven't done anything stupid.
+├ option 3:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Keep your head up. Won't find your family looking down there.
+    global_squad_angara: I didn't ask for your advice.
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Jaal, we're getting your family out of here.
+    ↩ (goto) global_squad_angara: Just hope they haven't done anything stupid.
+├ option 5:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I know it's tough, Jaal. But we'll find your family.
+    ↩ (goto) global_squad_angara: Just hope they haven't done anything stupid.
+├ option 6:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Don't worry, Jaal. We'll find your brothers and sister.
+    ↩ (goto) global_squad_angara: Just hope they haven't done anything stupid.
+├ option 7:
+    Hero [OncePerGame]: So, the govataan—it's not part of the Forge?
+    global_squad_angara: No—the researchers who live here needed a place to welcome visitors.
+└─ merge ─┘
+global_squad_angara [OncePerGame]: What happened? Where is everyone?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Not sure. But I don't think the answer's here.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: No clue. But your family's not here. We should keep moving.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Not here, obviously. We should get moving.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: I do not like this. Where's your family?
+├ option 5:
+    global_squad_turian ⟨cond⟩: Let's push forward. Maybe answers are ahead.
+└─ merge ─┘
+Hero: You hear that?
+global_squad_angara: Akksul's voice.

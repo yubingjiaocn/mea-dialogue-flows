@@ -1,0 +1,32 @@
+# Game/Conversations/Hubs/Hub_Nexus/docks/nex_docks_ang_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/docks/nex_docks_ang_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_docks_ang_03: You! You're the Pathfinder. Thank you so much for returning the Moshae to us.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: She's important to our mission.
+        nex_docks_ang_03: She's important to us, period. Thank you, whatever your reasons.
+        nex_docks_ang_03: By the way, you should know:
+        nex_docks_ang_03: The head of our delegation is at your cultural center.
+        nex_docks_ang_03: He'd be honored to speak with you.
+    ├ option 2:
+        Hero: I'm glad I could help. Seems your people really cherish her.
+        nex_docks_ang_03: She is dear to us.
+        ↩ (goto) nex_docks_ang_03: By the way, you should know:
+    └─ merge ─┘
+├ option 2:
+    nex_docks_ang_03: Oh, hello. You're the Pathfinder, right?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I wasn't aware I was so well-known.
+        nex_docks_ang_03: You are the first of your kind to find Aya. Word gets around.
+        ↩ (goto) nex_docks_ang_03: The head of our delegation is at your cultural center.
+    ├ option 2:
+        Hero: The one and only! Until we find the others.
+        nex_docks_ang_03: There are others like you? Fascinating.
+        ↩ (goto) nex_docks_ang_03: The head of our delegation is at your cultural center.
+    └─ merge ─┘
+└─ merge ─┘

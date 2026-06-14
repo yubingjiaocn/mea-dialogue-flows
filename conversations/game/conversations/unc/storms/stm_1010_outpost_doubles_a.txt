@@ -1,0 +1,187 @@
+# game/conversations/unc/storms/stm_1010_outpost_doubles_a
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_1010_outpost_doubles_a.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    stm_outpost_amb_04 [OncePerGame]: Finally, solid ground. And actual sunlight to wake up to! This'll be great.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_02 ⟨cond⟩: You won't be saying that in a few days. Drills start at oh-six-hundred.
+    ├ option 2:
+        stm_outpost_amb_02 ⟨cond⟩: Enjoy it. I'll be up all night collecting moisture readings.
+    └─ merge ─┘
+├ option 2:
+    stm_outpost_amb_03: I wonder how Eos will change, now that Meridian's active.
+    stm_outpost_amb_02: I guess that's up to us.
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        stm_outpost_amb_01 ⟨cond⟩: And run a full service on all armor and omni-tools.
+        stm_outpost_amb_02: Already on it. If the Roekaar come back, it'll be their last mistake.
+    ├ option 2:
+        stm_outpost_amb_01 ⟨cond⟩: At least the Pathfinder helped us out, but damn, I still don't feel safe.
+        stm_outpost_amb_02: Screw this. I'm inventing a Roekaar tracker. Want to help?
+    ├ option 3:
+        stm_outpost_amb_01 ⟨cond⟩: At least the Pathfinder helped us out, but damn, I still don't feel safe.
+        ↩ (goto) stm_outpost_amb_02: Screw this. I'm inventing a Roekaar tracker. Want to help?
+    └─ merge ─┘
+├ option 4:
+    stm_outpost_amb_03: Now there's some huge Remnant monster out there? Shit!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_04 ⟨cond⟩: Yeah, better keep the turrets warmed up. Might slip its leash.
+    ├ option 2:
+        stm_outpost_amb_04 ⟨cond⟩: What are you complaining about? That's the study of a lifetime!
+    └─ merge ─┘
+├ option 5:
+    stm_outpost_amb_02: Sounds like the kett aren't coming back.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_01 ⟨cond⟩: We should get a recon team up to that base. Waste not, want not.
+    ├ option 2:
+        stm_outpost_amb_01 ⟨cond⟩: I heard they harvested radiation for power. Nice trick.
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        stm_outpost_amb_04 [OncePerGame]: Are you sleeping better?
+        stm_outpost_amb_02: Yeah. Doc says it's just post-stasis anxiety.
+    ├ option 2:
+        stm_outpost_amb_01 [OncePerGame]: Bradley asked about it. Is there anything he's {i}not{/i} overseeing?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            stm_outpost_amb_03 ⟨cond⟩: Nope. I'll have a report on his desk by tomorrow.
+        ├ option 2:
+            stm_outpost_amb_03 ⟨cond⟩: I think he feels safer when Fawkes shuts the door.
+        └─ merge ─┘
+    ├ option 3:
+        stm_outpost_amb_01 [OncePerGame]: It's just what you need after a long day.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            stm_outpost_amb_02 ⟨cond⟩: Well, I've got night patrol, so you'll get some peace and quiet.
+        ├ option 2:
+            stm_outpost_amb_02 ⟨cond⟩: No kidding. If I study one more specimen today, I'll fall asleep on it.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    stm_outpost_amb_06 [OncePerGame]: They weren't stingy with their labs, huh.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_05 ⟨cond⟩: Well... I guess it's more storage space?
+    ├ option 2:
+        stm_outpost_amb_05 ⟨cond⟩: All the tech the Nexus could spare. The biggest problem we've got is where to start.
+    └─ merge ─┘
+├ option 2:
+    stm_outpost_amb_08: What happened after Meridian... I don't know where to start with these readings.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_06 ⟨cond⟩: Don't look at me. I couldn't tell you what half these machines do.
+    ├ option 2:
+        stm_outpost_amb_06 ⟨cond⟩: Just collect all the data you can. This'll keep us busy for years!
+    └─ merge ─┘
+├ option 3:
+    stm_outpost_amb_05: Damn the Roekaar!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_07 ⟨cond⟩: It's nobody's fault. We train better for next time, we make this work. That's all.
+    ├ option 2:
+        stm_outpost_amb_07 ⟨cond⟩: Most of the experiments are salvageable. Some of them. Look, we'll manage.
+    └─ merge ─┘
+├ option 4:
+    stm_outpost_amb_07: Those survey hammers knocked out a real surprise.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_08 ⟨cond⟩: Yeah, and turns out we've got neighbors. Hope they stay friendly.
+    ├ option 2:
+        stm_outpost_amb_08 ⟨cond⟩: Fawkes has the blueprints. We could kick out a few more if we wanted.
+    └─ merge ─┘
+├ option 5:
+    stm_outpost_amb_07: It's nice to not worry about any kett flybys.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        stm_outpost_amb_06 ⟨cond⟩: Between us and the Pathfinder, the kett know the score. This isn't their place anymore.
+    ├ option 2:
+        stm_outpost_amb_06 ⟨cond⟩: Between us and the Pathfinder, the kett know the score. This isn't their place anymore.
+    ├ option 3:
+        stm_outpost_amb_06 ⟨cond⟩: Not that I'd mind a better look at their ship tech, if... No, you're right.
+    └─ merge ─┘
+├ option 6:
+    stm_outpost_amb_08 [OncePerGame]: Who put all these names for constellations into the system?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_05 ⟨cond⟩: Me. Not much to do on night patrol other than name stars.
+    ├ option 2:
+        stm_outpost_amb_05 ⟨cond⟩: Me. If the power goes out, we might need to navigate by them.
+    └─ merge ─┘
+├ option 7:
+    stm_outpost_amb_08 [OncePerGame]: Connor wants to know if there's any surplus kit we can trade.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_05 ⟨cond⟩: Half this science stuff isn't getting used. Tell her to dig in.
+    ├ option 2:
+        stm_outpost_amb_05 ⟨cond⟩: Why does she keep asking? Is she after my salarian calculator again?
+    └─ merge ─┘
+├ option 8:
+    stm_outpost_amb_05 [OncePerGame]: How's the food situation?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_06 ⟨cond⟩: Rations for a bit longer until the first crops come in. Not sure how long that'll be.
+    ├ option 2:
+        stm_outpost_amb_06 ⟨cond⟩: Soil radiation count's dropping by the day. Tomorrow would be a good day to add some fertilizer.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    stm_outpost_amb_10 [OncePerGame]: And have you noticed how {i}clean{/i} the air smells?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_09 ⟨cond⟩: I could march all day breathing it.
+    ├ option 2:
+        stm_outpost_amb_09 ⟨cond⟩: Helps that there's zero pollution here, but yeah, it tastes... new.
+    └─ merge ─┘
+├ option 2:
+    stm_outpost_amb_10: What does it mean? Meridian, all the new stuff?
+    stm_outpost_amb_09: All I know is, the plants are growing a lot better than yesterday.
+├ option 3:
+    stm_outpost_amb_09: The Roekaar can't kick us out of our own home. Can they?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_10 ⟨cond⟩: They'll walk right into some big guns if they try again.
+    ├ option 2:
+        stm_outpost_amb_10 ⟨cond⟩: I think they've been asking the same question about us.
+    └─ merge ─┘
+├ option 4:
+    stm_outpost_amb_09: Remind me to never go walking in the desert again.
+    stm_outpost_amb_10: Aw, just because there might be a giant Remnant machine burrowing under it?
+    stm_outpost_amb_09: What? I got bit by one of those kaerkyn things. What the hell did I miss while I was in medbay?
+├ option 5:
+    stm_outpost_amb_09: Wonder what the kett are thinking right now.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_10 ⟨cond⟩: Probably how to improve their defenses, a long way from here.
+    ├ option 2:
+        stm_outpost_amb_10 ⟨cond⟩: Xenopsychology isn't my department. Yet. I'm already juggling three.
+    └─ merge ─┘
+├ option 6:
+    stm_outpost_amb_10 [OncePerGame]: That was before Connor bargained those salvagers right down to their pants.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_09 ⟨cond⟩: Lightly used weapons and armor for next to nothing? Worth it.
+    ├ option 2:
+        stm_outpost_amb_09 ⟨cond⟩: Their stuff's all military surplus, though. Makes me nervous having it in lockup.
+    └─ merge ─┘
+├ option 7:
+    stm_outpost_amb_09 ⟨cond⟩ [OncePerGame]: I don't know... maybe she doesn't feel the same way.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_amb_10 ⟨cond⟩: Plus that's fraternization. I guess? Is that still a thing when we need families?
+    ├ option 2:
+        stm_outpost_amb_10 ⟨cond⟩: Ask her. If she's that nice, then worst case, she lets you down easy. Best case? Pioneer couple.
+    └─ merge ─┘
+├ option 8:
+    stm_outpost_amb_09 [OncePerGame]: Not much of an accident, but Doc Ramirez bent their ears about it.
+    stm_outpost_amb_10: We don't have Nexus medical tech down here. Got to take care of each other.
+└─ merge ─┘

@@ -1,0 +1,173 @@
+# Game/Conversations/Crit/Intrld35/intrld35_aya_0500_vault_m
+# Primary speaker: Narration
+# Source: game/conversations/crit/intrld35/intrld35_aya_0500_vault_m.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Wow. I mean... wow.
+    global_angaran_elder_multi: I haven't brought anyone here in over twenty years.
+    global_angaran_elder_multi: There's always been an active display for Aya, but we could never affect it.
+    Hero: Let's see what we can do. SAM?
+    global_angaran_elder_multi: Yes. This is new—is it similar to the vault on Eos? Tell me, what are you seeing?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: I think what we need to figure out is—what's different?
+        Hero: Tell me, what do {i}you{/i} see?
+        global_angaran_elder_multi: The vaults—they're a network, as you discovered. However—
+        Hero: —they're not connected to each other, but to this place.
+        global_angaran_elder_multi: This image was on a relic the Archon showed me. He called it Meridian.
+        global_angaran_elder_multi: And it looks like Aya's vault is the only one that's fully connected to it.
+        Hero: —and it's terraforming, doing what it was meant to do.
+        SAM: The vault on Eos is also present but changed. Our interfacing with it has affected its connection.
+        Hero: What do you think, professor?
+        global_angaran_elder_multi: I think that Meridian is the control center for all the vaults.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: This discovery might just change everything.
+            Hero: If we can get to Meridian, maybe we can turn everything on from there. Make Heleus live.
+            global_angaran_elder_multi: Wait. Ryder. The Archon knows where it is. He's already been there.
+            Hero: What? Where, Meridian?
+            global_angaran_elder_multi: Of course... that's why he tortured me. He thought I could help him use it.
+            Hero: Because he can't.
+            Hero: Meridian is my people's best chance for survival. We have to take it from him.
+            global_angaran_elder_multi: Agreed. Such power in the hands of such evil could mean the end of your people—and mine.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero: I won't let the Archon stand in the way of our survival.
+                global_angaran_elder_multi: You're going to need that relic I saw. The Resistance might have intel on the whereabouts of Archon's ship.
+                global_angaran_elder_multi: I'll talk to Evfra and secure his full cooperation. Meet me there.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: She is all kinds of badass.
+                    Hero: Yup. Glad she's on our side.
+                ├ option 2:
+                    global_squad_asari ⟨cond⟩: She is all kinds of badass.
+                    ↩ (goto) Hero: Yup. Glad she's on our side.
+                ├ option 3:
+                    global_squad_krogan ⟨cond⟩: She is all kinds of badass.
+                    ↩ (goto) Hero: Yup. Glad she's on our side.
+                ├ option 4:
+                    global_squad_female_human ⟨cond⟩: She is all kinds of badass.
+                    ↩ (goto) Hero: Yup. Glad she's on our side.
+                ├ option 5:
+                    global_squad_male_human ⟨cond⟩: She is all kinds of badass.
+                    ↩ (goto) Hero: Yup. Glad she's on our side.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: The Archon is a menace. And I've had it with being lorded over.
+                ↩ (goto) global_angaran_elder_multi: You're going to need that relic I saw. The Resistance might have intel on the whereabouts of Archon's ship.
+            ├ option 3:
+                Hero: No one is safe as long as he's on this hunt. I'm going to shut it down—for all our sakes.
+                ↩ (goto) global_angaran_elder_multi: You're going to need that relic I saw. The Resistance might have intel on the whereabouts of Archon's ship.
+            ├ option 4:
+                Hero: He's going to be sorry he ever met me.
+                ↩ (goto) global_angaran_elder_multi: You're going to need that relic I saw. The Resistance might have intel on the whereabouts of Archon's ship.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Thank you. This is unbelievable.
+            ↩ (goto) Hero: If we can get to Meridian, maybe we can turn everything on from there. Make Heleus live.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: If I'm seeing what I think I'm seeing... I've got goose bumps.
+        ↩ (goto) Hero: Tell me, what do {i}you{/i} see?
+    ├ option 3:
+        Hero: I'm the rookie here. I mean, I could take a stab at it but...
+        ↩ (goto) Hero: Tell me, what do {i}you{/i} see?
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Perfect.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Huh. This is something else.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 4:
+    global_squad_angara ⟨cond⟩: This is... incredible!
+    ↩ (goto) global_squad_asari: [empty]
+├ option 5:
+    global_squad_female_human ⟨cond⟩: It's so... alive.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Just... wow.
+    ↩ (goto) global_squad_asari: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Wow. I mean... wow.
+    global_angaran_elder_multi: I haven't brought anyone here in over twenty years.
+    global_angaran_elder_multi: {i}(Deep breath.){/i} I had a speech prepared, but now all I want is to get {i}on{/i} with it.
+    global_angaran_elder_multi: The control console is here.
+    global_angaran_elder_multi: That's it! This was the last projection on display. I remember it.
+    global_angaran_elder_multi: This glyph... Meridian. It was on a relic the Archon showed me.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Yeah, but what does it do? —Wait. What about this...
+        Hero: SAM, can you activate this?
+        SAM: Affirmative. Displaying schematic.
+        global_angaran_elder_multi: The vaults—they're all connected, as you discovered. However—
+        Hero: —they're not connected to each other, but to this place. This Meridian.
+        global_angaran_elder_multi: Our vault is the only active one.
+        Hero: And only your vault is terraforming, doing what it's meant to do.
+        global_angaran_elder_multi: Meridian is the control center for all the vaults.
+        global_angaran_elder_multi: Ryder. The Archon knows where it is. They've been there already.
+        Hero: What?
+        global_angaran_elder_multi: Meridian—the kett used the relic on the flagship to find it. It was meaningless to me when I saw it, but...
+        Hero: We need to find out where it is. Take control before the Archon does.
+        global_angaran_elder_multi: Then you need that relic. The one who... betrayed me to the kett knows the location of the flagship.
+        global_angaran_elder_multi: His name is Vehn Terev. You can find him in Kadara Port.
+        global_angaran_elder_multi: If you can convince him to tell you, that is. He's lost to us.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: He'll talk, or I'll make him talk.
+            global_angaran_elder_multi: Ryder. Remember—you have my full support in this. However I may help, I will.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero: I won't let what happened to your people happen again.
+                Hero: Let's go. Next stop—Kadara port!
+            ├ option 2:
+                Hero: The Archon is a menace. And I've had it with being lorded over.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 3:
+                Hero: If the Archon gains more power, no one is safe. This has to end. For all our sakes.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 4:
+                Hero: That's my job. Stopping the bad guys. Well, finding us a home is, but stopping the bad guys is a priority now.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: He'll tell me. Who could resist my charm?
+            ↩ (goto) global_angaran_elder_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: There's so much, I don't even know where to start!
+        Hero: As the Moshae requests, SAM. Do it.
+        SAM: Acknowledged.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Shit... it is active.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Huh. This is something else.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 4:
+    global_squad_angara ⟨cond⟩: This is... incredible!
+    ↩ (goto) global_squad_asari: [empty]
+├ option 5:
+    global_squad_female_human ⟨cond⟩: It's so... alive.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Just... wow.
+    ↩ (goto) global_squad_asari: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    SAM: Affirmative. Displaying schematic.
+├ option 2:
+    Hero: Look at that.
+├ option 3:
+    Hero: Whoa.
+├ option 4:
+    Hero: Meridian is the control center for all the vaults.
+├ option 5:
+    Hero: Let's go.
+└─ merge ─┘

@@ -1,0 +1,425 @@
+# game/conversations/rel/cora/cora_r1_tem_investigate_d
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/rel/cora/cora_r1_tem_investigate_d.xml
+==================================================
+┌─ BRANCH (11) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: We got it, Ryder.
+    Hero: You patched up the asari flight recorder?
+    global_squad_female_human: Some old access codes, a little data recovery from SAM—we have the asari ark's last heading.
+    global_squad_female_human: Navpoints are set. We can head there whenever you're ready.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: That flight recorder was a mess—are these navpoints solid?
+        global_squad_female_human: Worst case, we get a little closer. I'll take a good chance over no chance.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: How long have Sarissa and the other asari have been waiting for help? We have to try.
+        ├ option 2:
+            global_squad_female_human: We need the asari and Sarissa more than ever. I trust you to find them before the kett do.
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Remember the survey ship. This might not be pretty. Are you...
+        global_squad_female_human: Handling tough stuff is my job.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: How long have Sarissa and the other asari have been waiting for help? We have to try.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: We need the asari and Sarissa more than ever. I trust you to find them before the kett do.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Got a minute? I could use a favor.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: You only have to ask.
+            global_squad_female_human: I kept thinking about—Sarissa. And my not being a Pathfinder.
+            global_squad_female_human: And the thinking turned into... a project. On Eos. Can you help me finish it?
+            Hero: What kind of project?
+            global_squad_female_human: I'll put the navpoints in the helm. Come along, and I'll show you.
+        ├ option 2:
+            Hero: Sure. What do you need?
+            ↩ (goto) global_squad_female_human: I kept thinking about—Sarissa. And my not being a Pathfinder.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Got to run—sorry.
+        global_squad_female_human: Okay. Catch you later?
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Uh-oh. Got a report of a very serious lighting malfunction. In your quarters.
+    Hero: In my quarters, huh?
+    global_squad_female_human: Yep. Guess you won't know unless you head down and... see what happens.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Sounds like this needs my full attention.
+    ├ option 2:
+        Hero: Definitely worth my time, when I've got some to spare.
+        global_squad_female_human: Oh, it can wait. I'm sure.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            Hero: You were in the Alliance before you became a huntress, right? What made you join up?
+            global_squad_female_human: My biotics. I was still living on my parents' cargo freighter when they manifested.
+            global_squad_female_human: Untrained biotic power on a starship means... accidents. But we couldn't afford a tutor. The Alliance had implants, the training, everything.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human [OncePerGame]: Old history now. Your turn: Remind me why you came to Andromeda.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: The Prothean digs woke us up to how much we don't know—and to what humanity's next leap might be.
+                    Hero: Then Dad's career collapsed. His AI research made him too toxic.
+                    global_squad_female_human: I heard. Must have changed everything for your family.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: I wanted to find worlds and secrets no one had ever seen, and Scott was itching for adventure.
+                        Hero: So, Andromeda.
+                        global_squad_female_human: None of you Ryders ever think small, do you?
+                        ↩ (goto) global_squad_female_human: [empty]
+                    ├ option 2:
+                        Hero ⟨cond⟩: It was time to forge my story and my horizons—and to give Sara a shot at making the discovery of a lifetime.
+                        ↩ (goto) Hero: So, Andromeda.
+                    ├ option 3:
+                        Hero: We needed to start over somewhere new, together. Or as "together" as we could.
+                        ↩ (goto) Hero: So, Andromeda.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I spent years watching pioneers go through the Arcturus mass relays—off to glory while I stayed behind.
+                    ↩ (goto) Hero: Then Dad's career collapsed. His AI research made him too toxic.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) global_squad_female_human: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: What did you do while you were part of the asari military?
+            global_squad_female_human: Four years in a commando unit called Talein's Daughters. Part of the Council's "cross-species military integration initiative."
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Your time defending Silva's expedition was probably more important.
+                global_squad_female_human: But we did good work. Peacekeeping is a full-time job, even in asari space.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero [OncePerGame]: What was your commando unit like?
+                    global_squad_female_human: Janae and I were "the youngsters." Tethys was our old lady sniper. Kalia patched us up, and Valenza prayed between firefights.
+                    global_squad_female_human: Our CO, Nisira, led us all over the Athena Nebula and beyond. A huntress's work is never done.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    Hero: Every civilization needs its defenders.
+                    global_squad_female_human: And the defenders usually match their civilization. Like asari huntresses being adaptable as hell.
+                    global_squad_female_human: Makes you wonder what our militia will look like in a hundred years.
+                    ↩ (goto) global_squad_female_human: [empty]
+                ├ option 3:
+                    Hero: Who'd pick a fight with the most powerful species in the galaxy?
+                    global_squad_female_human: Themselves, usually. Terrorists, cults, rogue Ardat-Yakshi, people demanding a withdrawal from the Citadel...
+                    global_squad_female_human: The asari were spacefaring when our Roman Empire was new. Didn't fix all their problems. Sometimes you need commandos for that.
+                    ↩ (goto) global_squad_female_human: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_female_human: You probably had a more exciting time defending that Arcturus relay.
+                ↩ (goto) global_squad_female_human: But we did good work. Peacekeeping is a full-time job, even in asari space.
+            └─ merge ─┘
+        ├ option 3:
+            Hero ⟨cond⟩: Did you come out here with anyone? Maybe someone you served with?
+            global_squad_female_human: I had my fun on shore leave. Nothing serious, though.
+            global_squad_female_human: Asari huntresses... figure things out, but I was there for soldiering, not romance.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: I was just wondering.
+                global_squad_female_human: Careful. One day I might be this nosy about {i}your{/i} personal life.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 2:
+                Hero: Does that mean fraternization is okay for asari commandos?
+                global_squad_female_human: It'll happen, but usually only for one deployment. Asari don't usually stay with each other long-term.
+                global_squad_female_human: After your five-hundredth birthday, you learn some self-control.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 3:
+                Hero ⟨cond⟩ [OncePerGame]: You're not technically military any more...
+                global_squad_female_human: Can't get anything past you, can I?
+                ↩ (goto) global_squad_female_human: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            Hero ⟨cond⟩: How's the search for the asari ark going?
+            ┌─ BRANCH (8) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Still looking. Even more important that we find them and tell them about Meridian.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: Those navpoints are set. I'm ready if you are.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 3:
+                global_squad_female_human ⟨cond⟩: Still deciphering the ark's last known course from the flight recorder. And making sure we're ready for a fight.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 4:
+                global_squad_female_human ⟨cond⟩: Those asari refugees were a real help. Now to find the survey ship they mentioned.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 5:
+                global_squad_female_human ⟨cond⟩: Won't know until we talk to those asari on Eos. Any chance of swinging by?
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 6:
+                global_squad_female_human ⟨cond⟩: Escape pods are a good sign. Means people were alive to escape.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 7:
+                global_squad_female_human [OncePerGame]: The Leusinia? Checking every comm that's coming in. Nothing concrete yet.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 8:
+                global_squad_female_human: Nothing new. Let's stay optimistic.
+                ↩ (goto) global_squad_female_human: [empty]
+            └─ merge ─┘
+        ├ option 5:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: After four years with asari commandos, you must have some great war stories.
+                global_squad_female_human [OncePerGame]: Hmm... Nisira assassinated a krogan warlord with a pack of playing cards once.
+                Hero: A pack of {i}cards{/i}?
+                global_squad_female_human: Choking hazard. Apparently.
+                Hero: Wow.
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 2:
+                Hero: Any more commando war stories?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        ↩ (goto) global_squad_female_human [OncePerGame]: Hmm... Nisira assassinated a krogan warlord with a pack of playing cards once.
+                    ├ option 2:
+                        global_squad_female_human [OncePerGame]: Always liked Janae. She was "only" two hundred, and with me around, she wasn't "the kid" anymore.
+                        global_squad_female_human: She was a biotic prodigy. I once saw her yank an AA gun right off its housing. Crushed a gang of slavers with it.
+                        Hero: Ouch.
+                        global_squad_female_human: They didn't feel it for long.
+                        global_squad_female_human: Janae was a good friend. Maybe she still is, back there. Won't be a "kid" now, though.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    ├ option 3:
+                        global_squad_female_human [OncePerGame]: We once infiltrated a dangerous cult by posing as new initiates.
+                        global_squad_female_human: Valenza hated it. She was... like our padre. The cult, that perversion of faith, really upset her.
+                        Hero: How did you stop them?
+                        global_squad_female_human: Nisira pretended that Valenza needed to be "purified of evil." She was given a private audience with the cult leader.
+                        global_squad_female_human: Valenza shot her. And then prayed for her.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    ├ option 4:
+                        global_squad_female_human [OncePerGame]: Tethys was our sniper. She was old. Matriarch old—maybe more.
+                        global_squad_female_human: Didn't show. Once saw her hit an elcor in the eye from two klicks away.
+                        Hero: That's... a little scary.
+                        global_squad_female_human: She was. Always seemed to be hiding something. But she kept us safe.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    ├ option 5:
+                        global_squad_female_human: That's all I can share, anyway. I miss them.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_female_human: Not just now. I'll try to remember a good one.
+                    ↩ (goto) global_squad_female_human: [empty]
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 6:
+            Hero: See you later, Cora.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Stay safe.
+            ├ option 2:
+                global_squad_female_human: I'll be here.
+                ↩ (goto) global_squad_female_human: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Meridian. At last.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: I've never been so scared a squaddie wouldn't make it. But you always do.
+        global_squad_female_human: There's still so much to do—for the Nexus, the angara...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: And the asari ark's still out there. But for today—we get to enjoy winning.
+            ↩ (goto) global_squad_female_human: [empty]
+        ├ option 2:
+            global_squad_female_human: But not today. Today we get to feel good about winning.
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: I kept telling myself "If anything happens, I'll know, I'll feel it." Dumb, huh?
+        ↩ (goto) global_squad_female_human: There's still so much to do—for the Nexus, the angara...
+    ├ option 3:
+        ↩ (goto) global_squad_female_human: There's still so much to do—for the Nexus, the angara...
+    └─ merge ─┘
+├ option 5:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: That Archon barely sees us as sentient. Strings people up like puppets.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Just... no more playing dead, okay? I couldn't...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Cora, if it's between that and losing the team, you know what I'll choose.
+            global_squad_female_human: Then we'd better stop those kett quickly.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Losing another Pathfinder is... At least the kett can't exalt the krogan.
+                global_squad_female_human: Sorry, rambling. Did you need me?
+                ↩ (goto) global_squad_female_human: [empty]
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: Losing another Pathfinder is bad enough, even with the krogan safe.
+                ↩ (goto) global_squad_female_human: Sorry, rambling. Did you need me?
+            ├ option 3:
+                global_squad_female_human: Losing the krogan could really hurt us down the line. But at least we got Raeka.
+                ↩ (goto) global_squad_female_human: Sorry, rambling. Did you need me?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I just wanted a belly rub—is that so much to ask?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Scott—you're adorable, but damned if there isn't something wrong with you.
+                Hero: Or I like making you laugh.
+                global_squad_female_human: I could use it.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) global_squad_female_human ⟨cond⟩: Losing another Pathfinder is... At least the kett can't exalt the krogan.
+                ├ option 2:
+                    ↩ (goto) global_squad_female_human ⟨cond⟩: Losing another Pathfinder is bad enough, even with the krogan safe.
+                ├ option 3:
+                    ↩ (goto) global_squad_female_human: Losing the krogan could really hurt us down the line. But at least we got Raeka.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_female_human: Ryder—you're adorable, but damned if there isn't something wrong with you.
+                ↩ (goto) Hero: Or I like making you laugh.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human: Didn't know SAM could do that to his Pathfinder. You're sure you're okay?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Just a lingering bruise or two. My vitals are good.
+            global_squad_female_human: Let's hope that sample he took isn't a problem.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: Losing another Pathfinder is... At least the kett can't exalt the krogan.
+            ├ option 2:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: Losing another Pathfinder is bad enough, even with the krogan safe.
+            ├ option 3:
+                ↩ (goto) global_squad_female_human: Losing the krogan could really hurt us down the line. But at least we got Raeka.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Physically I'm okay. The rest... It was a lot to handle.
+            global_squad_female_human: Talk to Lexi if you need to. Or me.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: Losing another Pathfinder is... At least the kett can't exalt the krogan.
+            ├ option 2:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: Losing another Pathfinder is bad enough, even with the krogan safe.
+            ├ option 3:
+                ↩ (goto) global_squad_female_human: Losing the krogan could really hurt us down the line. But at least we got Raeka.
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 6:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Pirates, exiles, severed heads... Kadara Port's a peach, huh?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And Sloane Kelly is the pit.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: You think we should have gone with Reyes?
+            global_squad_female_human: Kelly's a traitor. But now she's a traitor who might listen to you.
+            global_squad_female_human: Anything you needed?
+            ↩ (goto) global_squad_female_human: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: Anything you needed?
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human: And Reyes treats it all like a game.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: He came through in the end.
+            global_squad_female_human: Makes you wonder what he really got out of that deal.
+            ↩ (goto) global_squad_female_human: Anything you needed?
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: Anything you needed?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 7:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: That vault on Aya was so... gorgeous. So alive.
+    Hero: And Meridian might be the key to the others.
+    global_squad_female_human: No wonder the Archon wants to control it. Like everything in Heleus.
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 8:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: That Archon. Arrogant son of a bitch. Maybe that's redundant for a kett.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: He's also the first kett who bothered to talk to us. That's useful intel.
+        global_squad_female_human: True. They can communicate—they just prefer to open fire.
+        global_squad_female_human: So. What else is new?
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 2:
+        Hero: It's damned lucky there was a path through the Scourge right there.
+        global_squad_female_human: Yeah. We can't count on ever being that lucky again.
+        ↩ (goto) global_squad_female_human: So. What else is new?
+    └─ merge ─┘
+├ option 9:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Peebee? Really?
+        Hero: I like her. You still don't?
+        global_squad_female_human: There's liking someone, and being okay with...
+        global_squad_female_human: Not my business, maybe. Just don't want to lose something important.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: You and Gil, huh?
+        Hero: He's... an interesting man. Why?
+        ↩ (goto) global_squad_female_human: Not my business, maybe. Just don't want to lose something important.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: So. Vetra, huh?
+        Hero: She's pretty special, once you get to know her.
+        ↩ (goto) global_squad_female_human: Not my business, maybe. Just don't want to lose something important.
+    └─ merge ─┘
+├ option 10:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human: Hey, you.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 2:
+        global_squad_female_human: Glad you came by.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 3:
+        global_squad_female_human: Always good to see you.
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+├ option 11:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human: Ryder.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 2:
+        global_squad_female_human: Hi, there.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 3:
+        global_squad_female_human: Back again?
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human: Can't have an untrained biotic on a starship. That strength needs training and discipline, or people get hurt.
+    global_squad_female_human: But we were too poor for a tutor. The Alliance had the implants, the training—and it defended people. Suited me.
+    ↩ (goto) global_squad_female_human: [empty]
+├ option 2:
+    global_squad_female_human [OncePerGame]: How about you? Why'd you join up?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: I wanted to serve, and the Alliance always needs good people.
+        global_squad_female_human: They got their money's worth with the Ryder family.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 2:
+        Hero: Don't know. Lots of reasons that made sense at the time.
+        global_squad_female_human: I asked Kalia from my commando unit why she joined once. She just grinned and said, "Arranged marriage."
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 3:
+        Hero: There were so many discoveries waiting, so many mysteries. It was a good place to start.
+        global_squad_female_human: And look how far you got.
+        ↩ (goto) global_squad_female_human: [empty]
+    ├ option 4:
+        Hero: How could I stay on Earth when there was a whole galaxy to see?
+        global_squad_female_human: Isn't it weird that we have to start saying which galaxy we mean?
+        ↩ (goto) global_squad_female_human: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) global_squad_female_human: [empty]

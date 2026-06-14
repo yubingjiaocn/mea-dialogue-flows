@@ -1,0 +1,28 @@
+# game/conversations/hubs/hub_aya/docks/aya_10_docks_ambs_01_a
+# Primary speaker: aya_docksworker_01
+# Source: game/conversations/hubs/hub_aya/docks/aya_10_docks_ambs_01_a.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    aya_docksworker_01: Rumor is: Evfra asked them to rescue the Moshae.
+├ option 2:
+    aya_docksworker_02: Did you hear what happened in the fields down on—oh. Right, back to work.
+├ option 3:
+    aya_docksworker_01: I've never seen Loosh look so serious for so long.
+├ option 4:
+    aya_docksworker_02: Are they really going to rescue the Moshae?
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    aya_docksworker_01 ⟨cond⟩ [OncePerGame]: Look. It's the alien.
+    aya_docksworker_02: Shh. Just finish the inventory.
+├ option 2:
+    aya_docksworker_01 [OncePerGame]: Look. It's the alien.
+    ↩ (goto) aya_docksworker_02: Shh. Just finish the inventory.
+├ option 3:
+    aya_docksworker_02 [OncePerGame]: Did you see the others?
+    aya_docksworker_01: Yes. They're all so different.
+├ option 4:
+    aya_docksworker_02 [OncePerGame]: They don't seem to be like the kett.
+    aya_docksworker_02: Time will tell.
+└─ merge ─┘

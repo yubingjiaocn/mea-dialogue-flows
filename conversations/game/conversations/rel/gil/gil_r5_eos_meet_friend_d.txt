@@ -1,0 +1,153 @@
+# game/conversations/rel/gil/gil_r5_eos_meet_friend_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/gil/gil_r5_eos_meet_friend_d.xml
+==================================================
+global_crew_tech_officer: Oh good. You're here.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_tech_officer: Yeah, so listen. She's only got a minute or two—and she's in rare form today, just to warn you.
+    global_crew_tech_officer: She's here kickstarting repopulation protocols, reversing the chemical procreation blockers for colonists. Calls it "boosting the batter."
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_tech_officer: Jill's especially excited since Meridian's up and running—and things are settling down a little...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_crew_tech_officer: She's going to try to get you to do it.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: That {i}is{/i} what she's here to do. The woman takes her job seriously.
+                global_crew_tech_officer: Hey, if you're cool with it...
+                global_crew_tech_officer: I mean, makes no never mind to me. No chance {i}I'll{/i} ever oops a baby into the world.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_crew_tech_officer: It does bring something to my mind about us, though.
+                    Hero: Us?
+                    global_crew_tech_officer: Yeah. When I'm this attracted to someone, and they... seem receptive, normally, well... things start happening.
+                    global_crew_tech_officer: I'm trying to give whatever this is between us the thought and attention it seems to deserve.
+                    global_crew_tech_officer: So, I have to know, do I introduce you to Jill as my friend who likes to flirt, or my... guy?
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero [OncePerGame]: I don't know. Chemistry really matters, and we haven't even kissed.
+                        global_crew_tech_officer: We can remedy that right now.
+                        global_crew_tech_officer: So, what do you say?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: I'm your guy, Gil.
+                            global_crew_tech_officer: All right, then. Let's get this over with—I mean, get this show on the road—not that this is an act...
+                            nex_gils_friend: Wow, you've got Gil tongue-tied. What did I miss?
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_crew_tech_officer ⟨cond⟩: Ah, Jill. About time. This is—
+                                nex_gils_friend: Save it. I asked you both to stop by, remember. Ryder, pleasure. I know we're all very busy, so I have only one question for you...
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: Sure, go ahead.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        nex_gils_friend: What are your intentions with my boy here?
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            Hero: I'm pretty serious about your boy. He's sort of my guy.
+                                            nex_gils_friend: {i}(Sniffs.){/i}
+                                            global_crew_tech_officer: What... what is it?
+                                            nex_gils_friend: {i}(Sniffling.){/i} Nothing, it's just... I see you two... I have a really good feeling.
+                                            global_crew_tech_officer: Come here.
+                                        ├ option 2:
+                                            Hero: I have no idea what you mean. Gil, what's she talking about?
+                                            nex_gils_friend: Oh, crap. I'm... I'm... uh...
+                                            Hero: I mean, Gil's {i}my{/i} boy, Jill. Not yours.
+                                            global_crew_tech_officer: Wow. You're speechless. This is a first. {i}(Laughs.){/i}
+                                            nex_gils_friend: Yeah, you really got me, Ryder. He's a keeper, Gil.
+                                            ↩ (goto) global_crew_tech_officer: Come here.
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        nex_gils_friend: What the hell did you do to him? It's like he's an adult or something.
+                                        nex_gils_friend: He can even have a mature conversation without it degrading into pot shots—unless {i}I{/i} take it there.
+                                        nex_gils_friend: What's your secret?
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            Hero: I have nothing to do with it. It's all him.
+                                            nex_gils_friend: I call bullshit on that. It's definitely your influence. Something.
+                                            global_crew_tech_officer: Maybe all these years you thought you knew me, you were sadly mistaken.
+                                            nex_gils_friend: You wish.
+                                            nex_gils_friend: Okay, you're both off the hook. So glad I got to meet you, Ryder.
+                                            Hero: Likewise.
+                                            ↩ (goto) global_crew_tech_officer: [empty]
+                                        ├ option 2:
+                                            Hero: I sneaked into the stasis pods and switched him with another baby.
+                                            nex_gils_friend: My boy's in good hands.
+                                            ↩ (goto) nex_gils_friend: Okay, you're both off the hook. So glad I got to meet you, Ryder.
+                                        └─ merge ─┘
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    Hero: You want to know if you can reverse my chemical procreation blocker?
+                                    nex_gils_friend: You ass.
+                                    global_crew_tech_officer: Ow.
+                                    nex_gils_friend: You baby. I see my reputation precedes me. The question is...
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        ↩ (goto) nex_gils_friend ⟨cond⟩: [empty]
+                                    ├ option 2:
+                                        ↩ (goto) Narration: [empty]
+                                    └─ merge ─┘
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_crew_tech_officer: Ah, Jill. About time. This is—
+                                ↩ (goto) nex_gils_friend: Save it. I asked you both to stop by, remember. Ryder, pleasure. I know we're all very busy, so I have only one question for you...
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: I think maybe we should just be friends.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_crew_tech_officer: What? That didn't do it for you? All right, I see how it is.
+                                nex_gils_friend: Am I interrupting something?
+                                ↩ (goto) Narration: [empty]
+                            ├ option 2:
+                                global_crew_tech_officer: All right, that's fine. I've liked from afar before. I know how it works.
+                                ↩ (goto) nex_gils_friend: Am I interrupting something?
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) Hero: I'm your guy, Gil.
+                    ├ option 3:
+                        ↩ (goto) Hero: I think maybe we should just be friends.
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) nex_gils_friend: Am I interrupting something?
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I'll be exercising my Pathfinder's prerogative on that one.
+                global_crew_tech_officer: Tell me about it.
+                ↩ (goto) global_crew_tech_officer: I mean, makes no never mind to me. No chance {i}I'll{/i} ever oops a baby into the world.
+            └─ merge ─┘
+        ├ option 2:
+            global_crew_tech_officer: She's going to talk your ear off about your civic duty as a man.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: That {i}is{/i} what she's here to do. The woman takes her job seriously.
+            ├ option 2:
+                Hero: Then she'll find out what a skillful topic-changer I am.
+                global_crew_tech_officer: Good luck with that. The woman's tenacious.
+                ↩ (goto) global_crew_tech_officer: I mean, makes no never mind to me. No chance {i}I'll{/i} ever oops a baby into the world.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_crew_tech_officer ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_crew_tech_officer: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Looking forward to meeting Jill.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_crew_tech_officer: She's here kickstarting repopulation protocols, reversing the conception blockers for all female colonists. Calls it "warming the wombs."
+├ option 2:
+    Hero ⟨cond⟩: You want to know if you can "reverse my conception blocker"?
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    Hero ⟨cond⟩: Now might not be the best time for me to donate some DNA.
+└─ merge ─┘

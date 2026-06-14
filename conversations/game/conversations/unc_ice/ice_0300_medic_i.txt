@@ -1,0 +1,52 @@
+# game/conversations/unc_ice/ice_0300_medic_i
+# Primary speaker: ice_eskaal
+# Source: game/conversations/unc_ice/ice_0300_medic_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_eskaal [OncePerGame]: If you need patching up, you'll have to wait. A patrol just came through and I need to see to them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Did they run into something out there?
+        ice_eskaal: The kett are getting bolder. A band of them attacked our patrol last night.
+        ice_eskaal: Our people managed to get out without much trouble, but I need to check them over.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: It can't be easy living in a place like this.
+            ice_eskaal: Between the cold and the lack of sun, it's tough to keep morale up.
+            ice_eskaal: Most of us come from Aya or Havarl, so it's a big adjustment. Immunity drops. People get sick.
+            ice_eskaal: But if the civilians in the settlements can live here without complaint, so can we.
+            ↩ (goto) ice_eskaal: [empty]
+        ├ option 2:
+            Hero: It's actually warm in here. Those heaters work pretty well.
+            ice_eskaal: We don't use them for heat. They generate artificial sun so we don't go dark.
+            Hero: What do you mean, "go dark"?
+            ice_eskaal: Right, I suppose you wouldn't know about that. Our bodies generate energy from sunlight.
+            ice_eskaal: If we don't get enough, our immune systems weaken and our bio-energy slows. We go dark.
+            ↩ (goto) ice_eskaal: [empty]
+        ├ option 3:
+            Hero ⟨cond⟩ [OncePerGame]: I guess you heard about exaltation. Think there's a way to reverse it?
+            ice_eskaal: I... don't know. It would take years—maybe decades—to discover a cure like that. It might not be possible.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: We need to try.
+                ice_eskaal: Easier said than done.
+                ice_eskaal: Regardless, that sort of research is far beyond my skill.
+                ↩ (goto) ice_eskaal: [empty]
+            ├ option 2:
+                ↩ (goto) ice_eskaal: Regardless, that sort of research is far beyond my skill.
+            └─ merge ─┘
+        ├ option 4:
+            Hero: I'll come back if I need anything.
+            ice_eskaal: I'll be here.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You guys seem very understaffed.
+        ice_eskaal: Volunteer medics are hard to come by. Especially ones who can handle Voeld.
+        ↩ (goto) ice_eskaal: [empty]
+    └─ merge ─┘
+├ option 2:
+    ice_eskaal: What can I do for you?
+    ↩ (goto) ice_eskaal: [empty]
+└─ merge ─┘
+ice_eskaal: Most skilled doctors end up in the med center in Techiix. So for now, I'm all they've got.

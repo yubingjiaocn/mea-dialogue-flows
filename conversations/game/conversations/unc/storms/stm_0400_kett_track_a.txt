@@ -1,0 +1,244 @@
+# game/conversations/unc/storms/stm_0400_kett_track_a
+# Primary speaker: SAM
+# Source: game/conversations/unc/storms/stm_0400_kett_track_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: That is a lot of kett.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        stm_kett_hunter_multi: [Comm] Just fight smart and you'll be fine.
+    ├ option 2:
+        stm_kett_hunter_multi: [Comm] Told you it'd be a challenge.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: This is gonna be fun.
+            Hero: Or suicide.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Be ready for a hell of a fight.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: Holy shit. We ready for this?
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: You sure we're ready for this?
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: This is gonna be fun.
+    ├ option 4:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Be ready for a hell of a fight.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Holy shit. We ready for this?
+    ├ option 6:
+        ↩ (goto) global_squad_turian ⟨cond⟩: You sure we're ready for this?
+    └─ merge ─┘
+├ option 2:
+    Hero: We'll keep our options open.
+└─ merge ─┘
+Hero: Looks like they're studying the alien tech, too.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: That's my thing! Jerks.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: They'll reinforce the stronghold.
+            Hero: Unless something happens to them out here.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: They'll reinforce the stronghold.
+            ↩ (goto) Hero: Unless something happens to them out here.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: We're gonna see reinforcements at the stronghold.
+            ↩ (goto) Hero: Unless something happens to them out here.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Too busy to notice they've lost their stronghold.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero ⟨cond⟩: [empty]
+├ option 3:
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+Hero: SAM? Think I just picked up a comm signal booster?
+SAM: An amplifier. It won't receive, but it might drown out similar devices.
+Hero: Like, say, ones calling for reinforcements? Noted.
+Hero: Kett patrol. Haven't seen us yet.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Let's hit them before they do.
+    Hero: The smart play.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Let's not wait for them to reinforce their stronghold.
+    ↩ (goto) Hero: The smart play.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Let's not wait for them to reinforce their stronghold.
+    ↩ (goto) Hero: The smart play.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Let's hit them before they do.
+    ↩ (goto) Hero: The smart play.
+└─ merge ─┘
+Hero: Loot from our outposts. And... an ark escape pod? Where did they get that?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Doesn't matter—they're not keeping it.
+    Hero: We need an up-close scan.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Doesn't matter—they're not keeping it.
+    ↩ (goto) Hero: We need an up-close scan.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Crap. Do you think they might've found an ark?
+    ↩ (goto) Hero: We need an up-close scan.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: They're not keeping it.
+    ↩ (goto) Hero: We need an up-close scan.
+└─ merge ─┘
+Hero: Looks like they found it drifting and brought it here.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: I'm not able to extrapolate point of origin, Pathfinder.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: But the ark could be intact. Like the Hyperion.
+        Hero: Let's hope so.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: But the ark could be intact. Like the Hyperion.
+        ↩ (goto) Hero: Let's hope so.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: The ark might've survived.
+        ↩ (goto) Hero: Let's hope so.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Wonder if the ark survived.
+        ↩ (goto) Hero: Let's hope so.
+    └─ merge ─┘
+├ option 2:
+    Hero: A lucky find, all things considered.
+└─ merge ─┘
+Hero: Less kett, less problems.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Every little bit helps.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Every little bit helps.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Read my mind.
+├ option 4:
+    global_squad_asari ⟨cond⟩: That's the truth.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: And that's a few less kett to reinforce their base.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: We should check the shuttle.
+        Hero: Right.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Check the shuttle.
+        ↩ (goto) Hero: Right.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Let's check the shuttle.
+        ↩ (goto) Hero: Right.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Let's check the shuttle.
+        ↩ (goto) Hero: Right.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: [Comm] Kett are smart. Collectors send power to switching stations, which deliver constant flow to the base defenses.
+    global_squad_krogan: [Comm] Get the clue, Nexus?
+    Hero: Find and disable switching stations, disrupt the stronghold?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Scan the power collectors—they must be linked somehow.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Scan the power collectors—they must be linked somehow.
+        ↩ (goto) SAM: [empty]
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Scan those power collectors. Might find a vulnerability.
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Could've played havoc with the power at their base.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Massani. Closing in on what looks like a generator?
+    stm_kett_hunter_multi: [Comm] Those collectors are the kett's main power source on Eos.
+    stm_kett_hunter_multi: [Comm] What do you say we turn out the lights?
+├ option 2:
+    SAM [OncePerGame]: Pathfinder. The kett are harvesting radiation from the storms to create power.
+    Hero: Clever. How about we put a stop to that?
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Switching station down.
+    SAM [OncePerGame]: The kett grid has suffered a noticeable drop in efficiency.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Feels good.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Hell yeah.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: One more point to us.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: One more for us.
+    └─ merge ─┘
+├ option 2:
+    Hero [OncePerGame]: The base may be gone, but disrupting kett stuff? Still satisfying.
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+    ├ option 2:
+        Hero: That's the last of the switching stations. The kett base should be hurting now.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Hope this works. They'll know something is up.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Better work. They'll know something is up.
+            ↩ (goto) SAM: [empty]
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: They'll have detected our tampering. Let's hope it works.
+            ↩ (goto) SAM: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: CUT
+├ option 2:
+    ↩ (goto) SAM: CUT
+├ option 3:
+    ↩ (goto) SAM: CUT
+└─ merge ─┘
+Hero: He seems fun...
+Hero: So, no more kett?
+SAM: Significantly lessened with the death of the Invictor, Pathfinder.
+stm_kett_hunter_multi: [Comm] Damn fine work. Come back to the bunker when you've got a minute.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Threat, Remnant, Buoy. That's everything? I can call down a new outpost?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: You have already logged an ideal site. Navpoint noted. Updating Tempest.
+        global_crew_science_officer: [Comm] The Nexus is on pins and needles, Ryder. They've pods inbound and ready!
+        Hero: I can do this.
+    ├ option 2:
+        SAM: Deployment site required. Deriving search area from observed data. Well done, Pathfinder.
+        ↩ (goto) global_crew_science_officer: [Comm] The Nexus is on pins and needles, Ryder. They've pods inbound and ready!
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: That leaves the Orbital Comm Buoy. We're almost there.
+    SAM: Updating the Tempest. Outpost redeployment pending completion of Buoy research and assembly.
+    global_crew_science_officer: [Comm] Roger that. The Nexus is scrambling to wake new hopefuls.
+    global_crew_science_officer: [Comm] Ryder, everyone is watching.
+├ option 3:
+    Hero ⟨cond⟩: That just leaves the storms. Our lead with that strange tech.
+    SAM: Updating the Tempest. Outpost redeployment pending environmental investigation.
+    ↩ (goto) global_crew_science_officer: [Comm] Roger that. The Nexus is scrambling to wake new hopefuls.
+├ option 4:
+    Hero: Still a lot to do. Orbital Comm Buoy, and that alien signal.
+    SAM: Updating the Tempest. Eos recovery progressing to Buoy research and investigation of atmospheric tech.
+    global_crew_science_officer: [Comm] You have no idea the stir you've caused, Ryder. The Nexus thought anything "Eos" was impossible.
+    Hero: I've... we've a long way to go.
+└─ merge ─┘

@@ -1,0 +1,33 @@
+# Game/Conversations/Crit/Pro_Shp/Pro_Shp_0100_tothebridge_cc
+# Primary speaker: Hero
+# Source: game/conversations/crit/Pro_Shp/Pro_Shp_0100_tothebridge_cc.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human: This is Cora! I'm at the cryo bay! Brace for a reset...
+    global_squad_female_human: Everyone okay?
+    global_humanark_asari_dr: I think so.
+    Hero: What happened?
+    global_squad_female_human: We're not sure. Sensors are scrambled.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: But it's good to see you're up, Scott. Feels like centuries since we spoke.
+        global_dad: [Loudspeaker] This is the Pathfinder. Mission teams, continue preparations. Cora, Ryders, report to the bridge.
+        global_squad_female_human: You heard him, let's get—
+        Pro_Shp_Tech1: Uh, we have a problem over here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Pro_Shp_Tech1 ⟨cond⟩: It's Scott Ryder.
+        ├ option 2:
+            Pro_Shp_Tech1: It's Sara Ryder.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: But it's good to see you're up, Sara. Feels like centuries since we spoke.
+        ↩ (goto) Narration: [empty]
+    ├ option 3:
+        global_squad_female_human: But it's good to see you're up. Feels like centuries since we spoke.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: What happened?
+└─ merge ─┘

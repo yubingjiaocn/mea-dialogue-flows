@@ -1,0 +1,31 @@
+# game/conversations/hubs/hub_mer/mer_squad_drack_approach_a
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_mer/mer_squad_drack_approach_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan: Ryder.
+    ├ option 2:
+        global_squad_krogan: Pathfinder.
+    ├ option 3:
+        global_squad_krogan: Nice to see you, kid.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan: Darla vas Hyperion. You name's quarian, but you're actually human?
+        mer_hub_staff_placements_multi: Yes. Is that surprising?
+        global_squad_krogan: No matter how long I live, some things still surprise me.
+    ├ option 2:
+        mer_hub_staff_placements_multi: I was thawed after all the excitement with the Archon.
+        global_squad_krogan: Too bad. You missed a pretty good time.
+    ├ option 3:
+        global_squad_krogan: So if I was thawed today, Darla, what job would you give me?
+        mer_hub_staff_placements_multi: From your reputation, perhaps demolition specialist?
+        global_squad_krogan: {i}(Chuckles.){/i} You read my file!
+    ├ option 4:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,138 @@
+# Game/Conversations/HUBS/Hub_Nexus/Hub_Nexus_VI_Kiosk1_i
+# Primary speaker: Nexus_VI_Kiosk
+# Source: game/conversations/hubs/hub_nexus/Hub_Nexus_VI_Kiosk1_i.xml
+==================================================
+Nexus_VI_Kiosk ⟨cond⟩: How may I assist?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: What can you tell me about the Andromeda Galaxy?
+    Nexus_VI_Kiosk: Here in Andromeda, you are over two million light-years away from the Milky Way Galaxy.
+    Nexus_VI_Kiosk: This is the furthest any lifeform has ever traveled outside our home system, making you a brave pioneer, indeed.
+    Nexus_VI_Kiosk: The Nexus itself is located in a region known as the Heleus Cluster.
+    Nexus_VI_Kiosk: Here, you and thousands of your fellow colonists will fulfill your dreams of settling a new home. Fortune awaits!
+    ↩ (goto) ?: [empty]
+├ option 2:
+    Hero: How does the immigration process work?
+    Nexus_VI_Kiosk: We ask that you submit to a brief medical exam to ensure your health and well-being after making such a long journey.
+    Nexus_VI_Kiosk: Once you've been cleared, our colonization experts will assist you in finding your new home.
+    Nexus_VI_Kiosk: Please be mindful of the queue: thousands of eager colonists like you are waiting to begin their new life in Andromeda!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: Uh... where? Place is deserted.
+                ↩ (goto) ?: [empty]
+            ├ option 2:
+                ↩ (goto) ?: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 3:
+    Hero: What is the Nexus?
+    Nexus_VI_Kiosk: The Nexus serves as the central hub for the Andromeda Initiative's colonization efforts.
+    Nexus_VI_Kiosk: It is the first destination for all colonists upon their arrival in the new galaxy.
+    Nexus_VI_Kiosk: Please enjoy the many venues the Nexus has to offer. As the station expands, it will one day serve as the seat of government for Milky Way colonists.
+    Nexus_VI_Kiosk: Providing a safe, stable, and prosperous environment is our primary goal.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Not from the looks of it.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 4:
+    Hero: Where do colonists live?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nexus_VI_Kiosk ⟨cond⟩: We ask for your patience as our Pathfinders explore the Heleus cluster in search of new worlds to call home.
+        Nexus_VI_Kiosk: Colonists will be transferred to outposts based on the Initiative's current resource requirements.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Nexus_VI_Kiosk: Once you've cleared immigration, our helpful staff will assist you in choosing the homeworld of your dreams.
+        Nexus_VI_Kiosk: Will it be the tropical paradise of Habitat 7? The gentle rolling hills of Habitat 3? Or perhaps the mysterious twilight world of Habitat 5?
+        Nexus_VI_Kiosk: Whichever you choose, rest assured our Pathfinders have carefully vetted all colony worlds to ensure your security and prosperity.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Oh, boy.
+                global_squad_male_human: Habitat 7? That's where we landed. She's way out of date.
+                ↩ (goto) ?: [empty]
+            ├ option 2:
+                ↩ (goto) ?: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 5:
+    Hero: What year is it?
+    Nexus_VI_Kiosk: The current year is 2819. After spending over 600 years in stasis, it's normal to feel disoriented or confused upon arrival.
+    Nexus_VI_Kiosk: Our helpful medical staff can assist with any physical or psychological aftereffects you may be experiencing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Well, she's got the date right, at least.
+                Hero: So where is everyone?
+                ↩ (goto) ?: [empty]
+            ├ option 2:
+                ↩ (goto) ?: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 6:
+    Hero: That's all.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Nexus_VI_Kiosk ⟨cond⟩: It has been my pleasure.
+    ├ option 2:
+        Nexus_VI_Kiosk: It has been my pleasure. Please see one of our helpful immigration staff for further assistance.
+        Nexus_VI_Kiosk: And welcome to your new home in Andromeda, where the brightest star is you!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Nexus_VI_Kiosk: Current wait time for immigration processing is: UNKNOWN ERROR.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Right. That was helpful.
+            ├ option 2:
+            └─ merge ─┘
+        ├ option 2:
+            Nexus_VI_Kiosk: Current wait time for immigration processing is: 25 minutes.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+Nexus_VI_Kiosk: Welcome to the Nexus, gateway to Andromeda. I'm Avina, a virtual intelligence designed to assist you with immigration.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Can you tell us where the welcome party is hiding?
+        Nexus_VI_Kiosk: I'm sorry. My code is limited to information and simple interaction simulations.
+        Nexus_VI_Kiosk: Please select from the following pre-programmed responses.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Nexus_VI_Kiosk: How may I assist you?
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Nexus_VI_Kiosk: How may I assist you?
+└─ merge ─┘
+↩ (goto) ?: [empty]

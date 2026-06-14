@@ -1,0 +1,48 @@
+# game/conversations/hubs/hub_aya/rp/squad/aya_squad_vetra_i
+# Primary speaker: global_squad_turian
+# Source: game/conversations/hubs/hub_aya/rp/squad/aya_squad_vetra_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_turian: I really wonder what would've happened if we hadn't found Aya.
+    global_squad_turian: The people here have been so generous... and honestly, they didn't need to be.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Seems like sharing's a big thing in angaran culture.
+        global_squad_turian: Makes you wonder how they welcomed the first kett, doesn't it?
+        global_squad_turian: It probably backfired horribly—but here they are, helping out more aliens.
+        global_squad_turian: Now it's up to us not to betray that trust, I suppose.
+    ├ option 2:
+        Hero: I'm certainly thankful they didn't gun us all down. After the kett, I wouldn't blame them.
+        ↩ (goto) global_squad_turian: Now it's up to us not to betray that trust, I suppose.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian: I feel so out of place here.
+    global_squad_turian: People keep staring at me. I can't tell if they're fascinated or afraid.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Maybe they've all got huge crushes on you.
+        global_squad_turian: {i}(Chuckles.){/i} Ryder. That's a little far-fetched.
+        Hero: I don't think so. Everyone wants a spiky girlfriend.
+        global_squad_turian: Sure, Ryder.
+    ├ option 2:
+        Hero: Let's make sure they have no reason to be afraid.
+        global_squad_turian: I'm on my best behavior.
+    ├ option 3:
+        Hero: When I was little, I was scared of turians. You're a... stern species.
+        global_squad_turian: Not helping, Ryder.
+    └─ merge ─┘
+├ option 3:
+    Hero: Doing okay?
+    global_squad_turian: Who knew saving a respected member of angaran society would open so many doors?
+    global_squad_turian: I've been talking to some of their traders, seeing if we can work things out.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We have to be careful not to trade away too much of what the Nexus needs.
+        global_squad_turian: Trust me. I'm running everything by Kesh.
+    ├ option 2:
+        Hero: I know you like looking for the advantage, but we need to earn their trust first.
+        Hero: Don't bargain too hard.
+        global_squad_turian: You're the boss.
+    └─ merge ─┘
+└─ merge ─┘

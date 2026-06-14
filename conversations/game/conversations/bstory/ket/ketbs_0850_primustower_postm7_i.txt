@@ -1,0 +1,85 @@
+# game/conversations/bstory/ket/ketbs_0850_primustower_postm7_i
+# Primary speaker: Hero
+# Source: game/conversations/bstory/ket/ketbs_0850_primustower_postm7_i.xml
+==================================================
+SAM: Pathfinder, this is the machine that is sending out those transmissions.
+SAM: It is currently broadcasting something.
+Hero: Put it on.
+global_main_villain_lieutenant: [Audio Log] We have no use for those who echo the Archon. Adhere to the kett ways, or be discarded.
+global_main_villain_lieutenant: [Audio Log] The purge has only just begun.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: If the kett are fighting amongst themselves, that helps us.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: If the Primus doesn't run out of people to kill.
+        global_squad_female_human: I worry about how this affects our fight against the kett.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: After they're done with the angara, they'll move on to us.
+            Hero: We need to gain a foothold here, make sure we're strong enough to take them when they come.
+            Hero: SAM, is there anything else here?
+            SAM: No, Pathfinder.
+            Hero: Back out into Heleus, then.
+        ├ option 2:
+            Hero: We know more about them now. They're not all alike. They can go their own way.
+            Hero: Maybe that means, I don't know... maybe it means that one day, we'll be able to reason with them.
+            ↩ (goto) Hero: SAM, is there anything else here?
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know if that's fighting. That wasn't a fair fight.
+        global_squad_asari: How does this affect us and our struggle against them?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: After they're done with the angara, they'll move on to us.
+        ├ option 2:
+            ↩ (goto) Hero: We know more about them now. They're not all alike. They can go their own way.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: It won't last long if she keeps up like that.
+        global_squad_turian: I want to know what this means for us, fighting them.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: After they're done with the angara, they'll move on to us.
+        ├ option 2:
+            ↩ (goto) Hero: We know more about them now. They're not all alike. They can go their own way.
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: lt won't take long for the Primus to eliminate her enemies.
+        global_squad_angara: I wonder what this means for our fight with the kett.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: After they're done with the angara, they'll move on to us.
+        ├ option 2:
+            ↩ (goto) Hero: We know more about them now. They're not all alike. They can go their own way.
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: That's not gonna last once her "purge" is over.
+        global_squad_male_human: I wonder what this means for the kett, and for us.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: After they're done with the angara, they'll move on to us.
+        ├ option 2:
+            ↩ (goto) Hero: We know more about them now. They're not all alike. They can go their own way.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: I know they're kett, but I feel sorry for them.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Yeah, I know what you mean.
+        ↩ (goto) global_squad_female_human: I worry about how this affects our fight against the kett.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: I know what you mean.
+        ↩ (goto) global_squad_asari: How does this affect us and our struggle against them?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Not me.
+        ↩ (goto) global_squad_turian: I want to know what this means for us, fighting them.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: I don't.
+        ↩ (goto) global_squad_angara: I wonder what this means for our fight with the kett.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Only a little bit.
+        ↩ (goto) global_squad_male_human: I wonder what this means for the kett, and for us.
+    └─ merge ─┘
+└─ merge ─┘

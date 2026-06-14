@@ -1,0 +1,111 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_kro_a
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_kro_a.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_arkcon_superintendent: Took you long enough to come see me again.
+        global_squad_krogan: I missed you too, {i}ru'shan{/i}.
+        global_arkcon_superintendent: Do I even want to know what you've been up to out there?
+        global_squad_krogan: Shooting kett. Getting scouts in and out of trouble. The usual.
+    ├ option 2:
+        global_squad_krogan: I'm worried about this place. If the kett find you...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_arkcon_superintendent ⟨cond⟩: Then we defend the station. It's all we can do here. You just keep the Pathfinder safe and the kett busy.
+            global_arkcon_superintendent: And be careful out there. I only have one of you.
+        ├ option 2:
+            global_arkcon_superintendent: Then we defend the station. It's all we can do here. You just keep the Pathfinder safe and the kett busy.
+            ↩ (goto) global_arkcon_superintendent: And be careful out there. I only have one of you.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan: So. Vorn, huh?
+        global_arkcon_superintendent: Anything to say about it?
+        global_squad_krogan: I taught you how to stomp any male ages ago, and you've always been smarter than me.
+        global_squad_krogan: All I care about, {i}ru'shan{/i}, is that your mates know how to make you smile.
+        global_arkcon_superintendent: Silly old man. As if I'd settle for less. You taught me that too.
+    ├ option 2:
+        global_arkcon_superintendent: Have you been telling Dutch some of your old merc stories?
+        global_squad_krogan: Yeah. Why?
+        global_arkcon_superintendent: He comm'd, asking about the shuttle landing.
+        global_squad_krogan: Did you tell him about the asteroid?
+        global_arkcon_superintendent: Just enough to leave him wanting more.
+        global_squad_krogan: {i}(Laughs.){/i}
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_arkcon_superintendent: I hear a krogan has been stirring up trouble in Kadara Port.
+        global_squad_krogan: Uh. {i}Ru'shan{/i}, that could be any krogan.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_arkcon_superintendent ⟨cond⟩: Not many of those hanging out with a Pathfinder.
+        ├ option 2:
+            global_arkcon_superintendent: Not many of those hanging out with a Pathfinder.
+        └─ merge ─┘
+    ├ option 2:
+        global_arkcon_superintendent: Dutch comm'd. Something about us flambeing his tables.
+        global_squad_krogan: So? What's he going to do about it?
+        global_arkcon_superintendent: Ask us if we'll teach him the game next time, looks like.
+    └─ merge ─┘
+├ option 4:
+    global_squad_krogan [OncePerGame]: How many times have I told you this story?
+    global_arkcon_superintendent: Three hundred and forty-three.
+    global_squad_krogan: Wait, what? You've been keeping count?
+    global_arkcon_superintendent: {i}(Laughs.){/i}
+    global_squad_krogan: {i}Ru'shan{/i}! That's not funny!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_bar_tender_01: I don't believe you. You're putting me on.
+    global_squad_krogan: Aw, Dutch. Would I lie to you?
+    nex_bar_tender_01: Yes. Yes, you would. Absolutely. Surfing a shuttle as it crash lands on an asteroid?
+    nex_bar_tender_01: No one's that crazy. Not even you. Right?
+    global_squad_krogan: {i}(Laughs.){/i} Best landing ever.
+├ option 2:
+    nex_bar_tender_01: So, what did you do next?
+    global_squad_krogan: Gave a good, old swing of my mother's battle hammer—and brought the whole ceiling down on them.
+    global_squad_krogan: Me included. The looks on their faces... {i}(Laughs.){/i}
+    nex_bar_tender_01: Absolutely horrified, I imagine. Scarred for life. The works.
+    global_squad_krogan: Until I stomped 'em, anyway.
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan: Wait. You're related to Kol T'Fenn?
+        nex_bar_tender_02: Yes. My grandparent, specifically.
+        global_squad_krogan: I've fought her. She was amazing!
+    ├ option 2:
+        nex_bar_tender_02: So, you've met my grandparent?
+        global_squad_krogan: Yeah. Kicked my faceplate in during a fight oh, 500 years ago? Maybe six.
+        nex_bar_tender_02: I... could you tell me more?
+        global_squad_krogan: Sure. She was a worthy opponent. And could almost drink me under the table!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_krogan: Pathfinder.
+├ option 2:
+    global_squad_krogan: Hey, Ryder.
+├ option 3:
+    global_squad_krogan: Ryder.
+├ option 4:
+    global_squad_krogan: Kid.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan: Let's see, maybe I should send a couple of scouts over there...
+├ option 2:
+    global_squad_krogan: {i}(Growls.){/i} Oh. It's you Ryder. Hey.
+└─ merge ─┘
+global_squad_krogan: Not right now, Pathfinder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) global_squad_krogan ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) ?: [empty]
+└─ merge ─┘

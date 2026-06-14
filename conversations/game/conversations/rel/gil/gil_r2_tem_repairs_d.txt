@@ -1,0 +1,75 @@
+# game/conversations/rel/gil/gil_r2_tem_repairs_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/gil/gil_r2_tem_repairs_d.xml
+==================================================
+global_crew_tech_officer: Ah! There you are... Gotcha!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Now that you got me, what are you gonna do with me?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_tech_officer ⟨cond⟩: Um... I was talking to the engine. A certain thingamajig was playing hard to get.
+        global_crew_tech_officer: You're not hitting on me, are you?
+        Hero: Not very well, if you have to ask.
+        global_crew_tech_officer: Heh. It's not that, it's just that I'm not into women.
+        Hero: Ah, good to know.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_crew_tech_officer: Just dealing with some persistent Scourge issues from your joyride into the stuff way back when.
+            global_crew_tech_officer: That was a real "act first, think later" move. I respect it—well, more like I resemble it.
+            global_crew_tech_officer: Hey, you play poker?
+            Hero: Come again?
+            global_crew_tech_officer: Poker. Card game with bluffing. Betting. It's an age-old measuring stick of a person's character, fortitude, guts.
+            global_crew_tech_officer: Used to think maybe it was my calling. Turns out I'm just good at it. Never lost, heads up. We should play sometime.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: Maybe if we get a break from duty.
+                global_crew_tech_officer: A little distraction can be useful. Let yourself wander a bit, you might come back sharper.
+                global_crew_tech_officer: Next time we port up, and you're in the mood, I'm always in the mood.
+            ├ option 2:
+                Hero: Willing to put your streak on the line?
+                global_crew_tech_officer: Ha. I'll risk it.
+                ↩ (goto) global_crew_tech_officer: Next time we port up, and you're in the mood, I'm always in the mood.
+            ├ option 3:
+                Hero ⟨cond⟩: I hear there's a strip version. We will not be doing that.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_crew_tech_officer ⟨cond⟩: Yeah, so uh, I only... play strip poker... with guys. If you get my meaning.
+                    Hero: Got it.
+                    global_crew_tech_officer: More than happy to take your money and humiliate you, though.
+                    ↩ (goto) global_crew_tech_officer: Next time we port up, and you're in the mood, I'm always in the mood.
+                ├ option 2:
+                    global_crew_tech_officer: Not how I'd want to get you naked anyway. But believe me, if we played strip poker, you {i}would{/i} end up naked.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Confidence goes a long way with me. Very sexy.
+                        global_crew_tech_officer: Sexy is good.
+                        global_crew_tech_officer: Serious about cards, though. It sharpens the mind and relaxes at the same time.
+                        ↩ (goto) global_crew_tech_officer: Next time we port up, and you're in the mood, I'm always in the mood.
+                    ├ option 2:
+                        Hero: Watch yourself. Confidence is one thing. Blowhards are unattractive.
+                        global_crew_tech_officer: Noted.
+                        ↩ (goto) global_crew_tech_officer: Serious about cards, though. It sharpens the mind and relaxes at the same time.
+                    └─ merge ─┘
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_crew_tech_officer: Just dealing with some Scourge issues. That Archon fella tried to warn you not to joyride into it, but you were just "la-la-la."
+            global_crew_tech_officer: It was an "act first, think later" move. I respect it—well, more like I resemble it.
+            ↩ (goto) global_crew_tech_officer: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_tech_officer: Ha. You caught me off guard. I'll have to give it some thought.
+        Hero: Add it to your task list. See me if you want some suggestions.
+        global_crew_tech_officer: I'll be sure to do that.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Am I interrupting?
+    global_crew_tech_officer: Nope. I go the way the wind blows. You're here now, so you're the wind.
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    Hero: Do I need to get Lexi to do a psych review?
+    global_crew_tech_officer: Ha, maybe. People have been telling me I'm crazy my whole life.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

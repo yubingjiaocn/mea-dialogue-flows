@@ -1,0 +1,149 @@
+# game/conversations/crit/crit_mer/crit_fin_750_horizontal_well_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_750_horizontal_well_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Wow, this gravity well is... different.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Our home's parked on the surface. We can't stop now.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: No choice. Let's go.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Not like we can turn back. Let's go.
+            ↩ (goto) global_squad_angara: [empty]
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: As long as it doesn't kill me, I'm good.
+            ↩ (goto) global_squad_angara: [empty]
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: In for a penny, I guess.
+            ↩ (goto) global_squad_angara: [empty]
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: What's the option? Let's go!
+            ↩ (goto) global_squad_angara: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We can't stop now. Not after Dunn.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: No choice. Let's go.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: Not like we can turn back. Let's go.
+        ├ option 3:
+            ↩ (goto) global_squad_turian ⟨cond⟩: As long as it doesn't kill me, I'm good.
+        ├ option 4:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: In for a penny, I guess.
+        ├ option 5:
+            ↩ (goto) global_squad_angara ⟨cond⟩: What's the option? Let's go!
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara ⟨cond⟩: Hmph. This is unsettling.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Our home's parked on the surface. We can't stop now.
+    ├ option 2:
+        ↩ (goto) Hero: We can't stop now. Not after Dunn.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human ⟨cond⟩: "Wells" are not supposed to be horizontal.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Our home's parked on the surface. We can't stop now.
+    ├ option 2:
+        ↩ (goto) Hero: We can't stop now. Not after Dunn.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩: Nope. Not liking this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Our home's parked on the surface. We can't stop now.
+    ├ option 2:
+        ↩ (goto) Hero: We can't stop now. Not after Dunn.
+    └─ merge ─┘
+├ option 5:
+    global_squad_krogan ⟨cond⟩: You sure this'll hold?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Our home's parked on the surface. We can't stop now.
+    ├ option 2:
+        ↩ (goto) Hero: We can't stop now. Not after Dunn.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Look at all this. It's amazing.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Oh... my... It finally happened, I'm... speechless.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Never dreamed Andromeda would have so many wonders.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 3:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: It feels familiar somehow. Should it? That unnerves me.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: If I'd known, I'd have worked even harder.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 5:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Everything we've gone through... worth it for this view.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 6:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: I've been everywhere. Killed a lot of things.
+    global_squad_krogan: Never seen anything like this.
+    Hero: We can't let the Archon take this.
+├ option 7:
+    ↩ (goto) global_squad_krogan: [empty]
+└─ merge ─┘
+Hero: Touchdown. And ahead... Meridian control?
+Hero: A long time coming.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Seems longer.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: 600 years.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 3:
+    global_squad_male_human ⟨cond⟩: About time.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Long enough.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Eh, seen longer.
+    ↩ (goto) global_squad_krogan: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Ready, Pathfinder?
+    Hero: It's a gateway to everything we've been chasing. Never been more ready.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Yes! I feel it.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: I'm with you.
+        ↩ (goto) global_squad_krogan: [empty]
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Hell yeah.
+        ↩ (goto) global_squad_krogan: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Let's do it.
+        ↩ (goto) global_squad_krogan: [empty]
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Let's kill everything.
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Ready?
+    ↩ (goto) Hero: It's a gateway to everything we've been chasing. Never been more ready.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Ready, Pathfinder?
+    ↩ (goto) Hero: It's a gateway to everything we've been chasing. Never been more ready.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Ready, Pathfinder?
+    ↩ (goto) Hero: It's a gateway to everything we've been chasing. Never been more ready.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Ready, Pathfinder?
+    ↩ (goto) Hero: It's a gateway to everything we've been chasing. Never been more ready.
+└─ merge ─┘

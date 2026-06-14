@@ -1,0 +1,58 @@
+# game/conversations/hubs/hub_nexus/militiahq/nex_mil_radio_a
+# Primary speaker: nex_mil_dispatcher
+# Source: game/conversations/hubs/hub_nexus/militiahq/nex_mil_radio_a.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    nex_mil_dispatcher: [Comm] Supply request is in.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        nex_mil_dispatcher: [Comm] Dispatching to your location.
+    ├ option 2:
+        nex_mil_dispatcher: [Comm] Half ammo today. Focus on melee.
+    ├ option 3:
+        nex_mil_dispatcher: [Comm] Meds, mail, and MREs coming your way.
+    ├ option 4:
+        nex_mil_dispatcher: [Comm] Replacement armor's out.
+    └─ merge ─┘
+├ option 2:
+    nex_mil_dispatcher: [Comm] APEX team leaders reporting back.
+├ option 3:
+    nex_mil_dispatcher: [Comm] Tracking enemy activity.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        nex_mil_dispatcher: [Comm] Zones two, twelve, nineteen.
+    ├ option 2:
+        nex_mil_dispatcher: [Comm] Reports out to Intelligence.
+    ├ option 3:
+        nex_mil_dispatcher: [Comm] Command, check, and verify.
+    ├ option 4:
+        nex_mil_dispatcher: [Comm] APEX leaders notified.
+    └─ merge ─┘
+├ option 4:
+    nex_mil_dispatcher: [Comm] Weekly injury report.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        nex_mil_dispatcher: [Comm] Multiple casualties under heavy engagement.
+    ├ option 2:
+        nex_mil_dispatcher: [Comm] Minimal casualties. A good week.
+    ├ option 3:
+        nex_mil_dispatcher: [Comm] Casualty rate matches projections.
+    ├ option 4:
+        nex_mil_dispatcher: [Comm] One bar brawl, participants arrested.
+    └─ merge ─┘
+├ option 5:
+    nex_mil_dispatcher: [Comm] Secure message from Intelligence.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        nex_mil_dispatcher: [Comm] Sweep all omni-tools for enemy viruses.
+    ├ option 2:
+        nex_mil_dispatcher: [Comm] Operation Ingrid still in progress.
+    ├ option 3:
+        nex_mil_dispatcher: [Comm] Psych evaluations are being scheduled.
+    ├ option 4:
+        nex_mil_dispatcher ⟨cond⟩: [Comm] Bounty's up on Remnant artifacts.
+    ├ option 5:
+        nex_mil_dispatcher: [Comm] Requesting armor cam footage.
+    └─ merge ─┘
+└─ merge ─┘

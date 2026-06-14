@@ -1,0 +1,21 @@
+# game/conversations/unc/olw/cargo_plot/olw_0300_cargo_meeting_spot_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/cargo_plot/olw_0300_cargo_meeting_spot_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Guess we missed the meeting.
+    Hero: Let's look around. Maybe Zia left something behind.
+├ option 2:
+    global_squad_asari ⟨cond⟩: No one's here. Guess we're too late.
+    ↩ (goto) Hero: Let's look around. Maybe Zia left something behind.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Hm. No one's here. Meeting must've already gone down.
+    ↩ (goto) Hero: Let's look around. Maybe Zia left something behind.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: I don't see anyone. Do you see anyone?
+    ↩ (goto) Hero: Let's look around. Maybe Zia left something behind.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Looks like we missed the meeting.
+    ↩ (goto) Hero: Let's look around. Maybe Zia left something behind.
+└─ merge ─┘

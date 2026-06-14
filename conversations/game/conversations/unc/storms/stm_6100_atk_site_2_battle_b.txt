@@ -1,0 +1,83 @@
+# game/conversations/unc/storms/stm_6100_atk_site_2_battle_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6100_atk_site_2_battle_b.xml
+==================================================
+SAM: Starting Roekaar signal upload.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Are they heading toward us?
+    SAM: The Roekaar have altered course.
+    Hero: Now might be a good time to take cover.
+├ option 2:
+    global_squad_angara: [Comm] They are headed directly for you.
+    ↩ (goto) Hero: Now might be a good time to take cover.
+└─ merge ─┘
+global_extremist_leader: [Comm] Human. I told you, you'd know soon enough. The beacon is live. You couldn't stop our scouts!
+Hero: They've bought it. Hold until they're on the ground.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Holding.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Ready and waiting.
+├ option 3:
+    global_squad_turian ⟨cond⟩: I can wait for this.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Whites of their eyes. Got it.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Ready to cut loose.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Understood.
+└─ merge ─┘
+Hero: Now! Attack now!
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Moving!
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Affirmative!
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Let's go!
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Right!
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: You got it!
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 6:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: {i}(Laughs.){/i}
+└─ merge ─┘
+global_extremist_leader: [Comm] Heleus belongs to the angara!
+global_extremist_leader: [Comm] You are {i}nothing{/i} but invaders!
+Hero: Keep on them! Contain them here!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They're breaking!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Keep up the pressure!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Don't let up!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Don't stop!
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Keep on them!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Crush them!
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: [Comm] They're breaking at your position!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Keep up the pressure!
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Don't let up!
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Don't stop!
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Keep on them!
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Crush them!
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,93 @@
+# game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0100_questions_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0100_questions_i.xml
+==================================================
+nex_vetra_sister_multi: It's you! You're the human Pathfinder! I'm Sid, Vetra's sister!
+nex_vetra_sister_multi: Vetra's told me all about you! Well, not {i}all{/i} about you, but... the important bits.
+nex_vetra_sister_multi: I should probably get back to work. It was real nice meeting you, though.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: What work do you do here?
+    nex_vetra_sister_multi: Oh, I just monitor comms from colonists. Progress updates, hazards encountered...
+    nex_vetra_sister_multi: Note it down, pass on a report to Shawn at the end of the day.
+    Hero: Important job.
+    nex_vetra_sister_multi: I know. It's nice to hand in a report and have someone say I helped.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: What work do you do here?
+    ├ option 2:
+        Hero ⟨cond⟩ [OncePerGame]: How are you and Vetra doing?
+        nex_vetra_sister_multi: I think we're good now. It's never going to be the same as before, but maybe that's okay.
+        nex_vetra_sister_multi: She sees me differently. Less someone to protect and more... a partner? I like that.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ↩ (goto) Hero [OncePerGame]: What work do you do here?
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: How are you and Vetra doing?
+        ├ option 3:
+            Hero ⟨cond⟩ [OncePerGame]: How do you feel about me and your sister?
+            nex_vetra_sister_multi: Wait—are you expecting me to do the whole "If you hurt my sister I'll dis-your-members" thing?
+            nex_vetra_sister_multi: Psst, Vetra's an adult, even if she doesn't act it. She can do whomever she likes.
+            nex_vetra_sister_multi: But if I have to be serious... I'm happy. Watching out for me has been rough on her, and she never shows it.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: What work do you do here?
+            ├ option 2:
+                ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: How are you and Vetra doing?
+            ├ option 3:
+                ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: How do you feel about me and your sister?
+            ├ option 4:
+                Hero: I'll let you get back to work.
+            └─ merge ─┘
+        ├ option 4:
+            ↩ (goto) Hero: I'll let you get back to work.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: How do you feel about me and your sister?
+    ├ option 4:
+        ↩ (goto) Hero: I'll let you get back to work.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: How are you and Vetra doing?
+├ option 3:
+    ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: How do you feel about me and your sister?
+├ option 4:
+    ↩ (goto) Hero: I'll let you get back to work.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) Hero ⟨cond⟩ [OncePerGame]: [empty]
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_vetra_sister_multi: Hi!
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        nex_vetra_sister_multi: Ryder!
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        nex_vetra_sister_multi: How's the pathfinding? Good?
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_vetra_sister_multi ⟨cond⟩: Have you learned anything? Did you find the lost supplies?
+    Hero: Not yet.
+    nex_vetra_sister_multi: What's taking so long? I mean, I'll try not to worry. I'm sure you're busy.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    nex_vetra_sister_multi ⟨cond⟩: Have you taken the scanner to security yet? The quicker we figure out what's going on, the better.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    nex_vetra_sister_multi ⟨cond⟩: Hey again.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_vetra_sister_multi: I hope we were right and I was just wrong about a plot. I'll let you know if I hear anything.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        nex_vetra_sister_multi: I'll let you know what happens once they've read my report.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘

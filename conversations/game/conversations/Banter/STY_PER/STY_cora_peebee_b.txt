@@ -1,0 +1,206 @@
+# Game/Conversations/Banter/STY_PER/STY_cora_peebee_b
+# Primary speaker: Hero
+# Source: game/conversations/Banter/STY_PER/STY_cora_peebee_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human: Don't worry, Peebee. We're going to bring the asari ark home.
+        global_squad_asari: Who's worried?
+        global_squad_asari: The Leusinia's okay or it's not. Either way, not much I can do.
+        global_squad_female_human: You don't care that thousands of your people are missing?
+        global_squad_asari: "My people" can figure it out. I've got Remnant to work on.
+    ├ option 2:
+        global_squad_female_human: I can't believe you're so blasé about the asari ark.
+        global_squad_female_human: We're stuck here with a hundred problems. We need support, experience—
+        global_squad_asari: Oh, yay. Let's get more old biddies arguing over what to do.
+        global_squad_asari: Wait long enough, and nine times out of ten, problems fix themselves.
+        global_squad_female_human: If you won't give a damn about saving the asari ark, then I will.
+        global_squad_asari: See? Problem solved.
+    ├ option 3:
+        global_squad_asari [OncePerGame]: Really putting your heart into finding the asari ark, aren't you?
+        global_squad_female_human: Sorry if that's inconvenient. I know you've got a busy day of not giving a shit.
+        global_squad_asari: Hey, I give a shit. I give lots of shits!
+        global_squad_asari: I just don't need to give one about the Leusinia, because you do. You've got enough shit-giving for a herd.
+        global_squad_female_human: Okay. Thanks?
+    ├ option 4:
+        global_squad_asari: So, Cora...
+        global_squad_female_human: I know, all right? I shouldn't have put my faith in Sarissa.
+        global_squad_female_human: I should have remembered she's just as fallible as me. But I didn't. Happy now?
+        global_squad_asari: I'll be happier when you've shot something.
+        global_squad_female_human: You and me both.
+    ├ option 5:
+        ┌─ BRANCH (19) ─┐
+        ├ option 1:
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_asari: Cute, isn't he?
+                global_squad_female_human: Who?
+                global_squad_asari: Ryder. That smile... those big eyes... his ass isn't bad either.
+                global_squad_female_human: I'm not doing this.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari ⟨cond⟩: No, but you want to, right?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_asari ⟨cond⟩: Let me tell you, it is {i}so{/i} worth it.
+                        global_squad_female_human: Classy. Why don't you go practice your charm on the Remnant?
+                    ├ option 2:
+                        global_squad_asari: I know {i}I{/i} do. {i}(Sighs.){/i}
+                        global_squad_asari: You getting all this, Ryder?
+                        Hero: Leave me out of it.
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) global_squad_asari: I know {i}I{/i} do. {i}(Sighs.){/i}
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_asari: Cora, don't worry—when I want something, I go get it. But I probably won't keep it.
+                global_squad_female_human: What?
+                global_squad_asari: Ryder. More than likely, you can have him when I'm done.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_female_human: I don't need charity to get something I...
+                    global_squad_asari: Well, well, well...
+                    global_squad_female_human: "Well, well, well" what?
+                    global_squad_asari: You and Ryder, huh? Well, well, {i}well done{/i}.
+                    global_squad_female_human: Okay, I'm done.
+                ├ option 2:
+                    Hero: I'm right here, you know?
+                    global_squad_female_human: You think I want Ryder?
+                    Hero: Still here.
+                    global_squad_asari: Would explain the bug up your ass.
+                    ↩ (goto) global_squad_female_human: Okay, I'm done.
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) ?: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: The enemy's out there somewhere. Keep your eyes peeled.
+            global_squad_asari: I like what {i}I'm{/i} seeing.
+            Hero: Could change in a heartbeat. Don't go soft on me.
+            global_squad_asari: Oh, there's no chance of that.
+            Hero: Glad to hear it.
+            global_squad_female_human: She's staring at your ass, Ryder.
+            global_squad_asari: I am? Oh, look at that—I am.
+        ├ option 3:
+            global_squad_asari [OncePerGame]: I hear you were like a human huntress or something.
+            global_squad_female_human: I served with asari commandos, if that's what you mean.
+            global_squad_asari: So weird. Can't imagine fighting someone else's wars.
+            global_squad_female_human: I was there to learn.
+            global_squad_asari: Learn what?
+            global_squad_female_human: Patience, apparently.
+        ├ option 4:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: Serving with asari commandos doesn't make you asari.
+            global_squad_female_human: When did I say that?
+            global_squad_asari: You sure act like it sometimes. It's kind of funny.
+            global_squad_asari: Just saying, don't be that person. Nothing worse.
+        ├ option 5:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: Peebee, just so you know: I'm not stealing anyone's culture.
+            global_squad_female_human: Fighting with asari commandos changed how I think. It was meant to.
+            global_squad_asari: My, aren't we defensive today?
+            global_squad_female_human: Yeah, I'm defensive—the Council ran that program specifically so species would integrate! It might save lives.
+            global_squad_asari: Eh, I guess it's faster than waiting.
+        ├ option 6:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: Peebee, what did you mean before? About "it's faster than waiting"?
+            global_squad_asari: Preying on your mind, huh?
+            global_squad_asari: You know my people are the big wheels back home—we have the money, the power, the tech.
+            global_squad_asari: Other species want to be like us. Since asari live so long, we can wait for everyone to be that way.
+            global_squad_asari: And it's so {i}boring{/i}. Who wants a galaxy where everyone just {i}agrees{/i}?
+            global_squad_female_human: Commandos.
+        ├ option 7:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: You're wrong. Alien cultures need to learn from each other. Change. Grow.
+            global_squad_asari: Here we go again.
+            global_squad_female_human: Otherwise, what's the point of the Initiative?
+            global_squad_asari: Uh, finding new stuff? Not rehashing everything old and ending up the same?
+            global_squad_female_human: Asari culture's old to you. Not to us.
+            global_squad_asari: Sure thing, Matriarch. Can we get back to something interesting?
+        ├ option 8:
+            global_squad_asari: So, Cora, shoot straight with me, will you?
+            global_squad_female_human: I'll try.
+            global_squad_asari: You don't like me.
+            global_squad_female_human: I don't like your methodology.
+            global_squad_asari: Oh, don't hide behind vocabulary.
+        ├ option 9:
+            global_squad_female_human: Peebee!
+            global_squad_asari: What?
+            global_squad_female_human: Pay attention.
+            global_squad_asari: To what?
+            global_squad_female_human: To anything? I don't want to have to pick up the slack because you're distracted.
+            global_squad_asari: Oh, don't worry. I have stellar quick-twitch muscles. No slack to pick up.
+        ├ option 10:
+            global_squad_asari: So what makes you tick, Cora?
+            global_squad_female_human: {i}(Sighs.){/i}
+            global_squad_asari: Oh, you're no fun.
+            global_squad_female_human: No, getting yammered at {i}isn't{/i} fun.
+            global_squad_asari: Yammer back, then! Raise your pulse rate, something.
+            global_squad_female_human: I'll just remain at the ready, if you don't mind.
+            global_squad_asari: Sorry, I dozed off there for a minute.
+        ├ option 11:
+            global_squad_asari: So, Cora. You like numbers, contingencies, all that...
+            global_squad_asari: We're going to make it here, aren't we?
+            global_squad_female_human: I hope so.
+            global_squad_asari: It'd be pretty stupid to come all this way just to fail.
+            global_squad_female_human: True.
+            global_squad_asari: Cool. Good to know.
+        ├ option 12:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: So. Cora. Want to... do... something? Later?
+            global_squad_asari: Pillow fight? Shooting cans? Cocoa and secrets?
+            global_squad_asari: {i}(Sighs.){/i} Forget I asked.
+            global_squad_female_human: I've got messages from Director Tann that I don't want to deal with.
+            global_squad_female_human: Could use some... creative help in making them disappear.
+            global_squad_asari: Too small. Let's make {i}Director Tann{/i} disappear.
+        ├ option 13:
+            global_squad_female_human: I guess he {i}is{/i} unique, isn't he?
+            global_squad_asari: Who?
+            global_squad_female_human: Jaal. I'm amazed all that staring hasn't burned a hole in his armor.
+            global_squad_asari: You're saying you're not a little curious?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: I've got my own someone to be curious about.
+            ├ option 2:
+                global_squad_female_human: I say nothing.
+            └─ merge ─┘
+        ├ option 14:
+            global_squad_female_human [OncePerGame]: What did you do back in the Milky Way?
+            global_squad_asari: A job, you mean? Nope. Not for me.
+            global_squad_female_human: Everyone needs to eat. You must have done something.
+            global_squad_asari: I did a bunch of things. Scout, courier, shuttle mechanic, short-order cook for a while, researcher...
+            global_squad_asari: The week after that, I switched things up a little.
+            global_squad_female_human: How did you ever commit to a 600-year intergalactic voyage?
+            global_squad_asari: Easy. It was new.
+        ├ option 15:
+            global_squad_asari: I knew Remnant tech was the answer. A few more like Eos, and we're sitting pretty.
+            global_squad_female_human: No one's "sitting pretty" yet. The staff of those outposts have a lifetime of work.
+            global_squad_female_human: And that's {i}if{/i} your Remnant technology keeps working like we need it to.
+            global_squad_asari: Look, I spent months out there with sand in my bits. Let me have this.
+        ├ option 16:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: Know any good marching songs?
+            global_squad_female_human: My unit used to sing "Walking Talking Tevura."
+            global_squad_asari: I've heard that one! Doesn't it have sixty rhymes for "azure"?
+            global_squad_female_human: Sixty... eight. Plus one.
+        ├ option 17:
+            global_squad_asari [OncePerGame]: Come on. Seriously? Every soldier has tattoos.
+            global_squad_female_human: Not where you'll ever see them.
+        ├ option 18:
+            global_squad_female_human [OncePerGame]: Eyes over here, Peebee.
+            global_squad_asari: I like them where they are.
+        ├ option 19:
+            global_squad_asari [OncePerGame]: Cora? Can I have a word or two?
+            global_squad_female_human: You get {i}one{/i}.
+            global_squad_asari: It'll sound more sincere if it's two.
+            global_squad_female_human: One.
+            global_squad_asari: All right. {i}(Clears throat.){/i} Antidisestablishmentarianism.
+            global_squad_female_human: So much for sincerity.
+            global_squad_asari: If you only give me one word, I'm going to pick a big one.
+            global_squad_female_human: Just shut up.
+            global_squad_asari: If you'd let me have two words...
+            global_squad_female_human: Peebee, I swear—
+            global_squad_asari: I was going to say "I'm sorry." For always trying to push your buttons.
+            global_squad_asari: Now, if you'd given me {i}three{/i} words...
+            global_squad_female_human: Just quit while you're ahead, please.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) ?: [empty]
+└─ merge ─┘

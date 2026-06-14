@@ -1,0 +1,45 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0300_bridge_dir_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0300_bridge_dir_b.xml
+==================================================
+Hero: Whoa!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Damn.
+    global_squad_angara: {i}(Groans.){/i}
+    Hero: I take it the Roekaar didn't want us going that way.
+    Hero: How are we going to get to them now?
+    global_squad_angara: We'll have to jump down.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Shit.
+    ↩ (goto) global_squad_angara: {i}(Groans.){/i}
+├ option 3:
+    global_squad_turian ⟨cond⟩: What the—
+    ↩ (goto) global_squad_angara: {i}(Groans.){/i}
+├ option 4:
+    global_squad_asari ⟨cond⟩: Ah!
+    ↩ (goto) global_squad_angara: {i}(Groans.){/i}
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Ack!
+    ↩ (goto) global_squad_angara: {i}(Groans.){/i}
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Don't even think about it, kid. That ain't jumpable.
+    global_squad_angara: Use the rocks.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Even you can't jump that, Ryder.
+    ↩ (goto) global_squad_angara: Use the rocks.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Hm. Don't think we can jump that.
+    ↩ (goto) global_squad_angara: Use the rocks.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Yeah, that way's a bust.
+    ↩ (goto) global_squad_angara: Use the rocks.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Too far to jump.
+    ↩ (goto) global_squad_angara: Use the rocks.
+└─ merge ─┘
+global_squad_angara: Or not.
+Hero: Now what?
+global_squad_angara: Up the hill. We'll climb our way back.

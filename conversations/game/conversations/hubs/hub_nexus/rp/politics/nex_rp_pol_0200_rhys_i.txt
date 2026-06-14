@@ -1,0 +1,27 @@
+# game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0200_rhys_i
+# Primary speaker: nex_rp_pol_youth
+# Source: game/conversations/hubs/hub_nexus/rp/politics/nex_rp_pol_0200_rhys_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_rp_pol_youth [OncePerGame]: You're the Pathfinder, aren't you? I'm Rhys. When do our families get out of stasis?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Sorry, I don't have any information on that.
+        nex_rp_pol_youth: Mom's been in stasis a long time. She was terrified of being frozen like that.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            nex_rp_pol_youth ⟨cond⟩: But Teresh and Sartak know what they're doing. They'll fix this.
+        ├ option 2:
+            nex_rp_pol_youth: Maybe Kandros will listen to you. No one hears us.
+            ↩ (goto) nex_rp_pol_youth: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It won't be much longer. Hang in there.
+        ↩ (goto) nex_rp_pol_youth: Mom's been in stasis a long time. She was terrified of being frozen like that.
+    └─ merge ─┘
+├ option 2:
+    nex_rp_pol_youth: Teresh wouldn't really have damaged the plants. She just wanted her grandchildren back.
+    Hero: Sorry, but that situation was about to boil over.
+    nex_rp_pol_youth: Maybe. I guess you gave her a chance, but everything about this is unfair.
+└─ merge ─┘

@@ -1,0 +1,22 @@
+# game/conversations/unc_ice/ice_9240_sttlment_reqofficer_i
+# Primary speaker: ice_bennettkahele
+# Source: game/conversations/unc_ice/ice_9240_sttlment_reqofficer_i.xml
+==================================================
+ice_bennettkahele [OncePerGame]: It's you! Bennett Kahele reporting for duty. You need supplies, I'm your man.
+ice_bennettkahele: It's an honor to meet you, Pathfinder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Everything in working order? You have enough support from the Nexus?
+    ice_bennettkahele: No complaints, Pathfinder. Captain Blake makes sure everything runs smoothly.
+    Hero: Captain Blake?
+    ice_bennettkahele: Not an official title, of course. She earned the nickname because she runs this place like an Alliance camp.
+    ice_bennettkahele: But I've jabbered away for too long. You're here for supplies.
+    Hero: Let's see what you have.
+    ice_bennettkahele: Whatever you need, I've got it.
+├ option 2:
+    Hero: This isn't the Alliance—no need for formalities. Just call me Ryder.
+    ice_bennettkahele: Sorry. Old habits die hard when Captain Blake barks orders like a drill sergeant.
+    ↩ (goto) Hero: Captain Blake?
+└─ merge ─┘
+ice_bennettkahele: Back for a resupply? I have what you need.
+↩ (goto) ice_bennettkahele: [empty]

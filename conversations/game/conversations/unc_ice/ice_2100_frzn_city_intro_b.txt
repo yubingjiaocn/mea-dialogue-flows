@@ -1,0 +1,39 @@
+# game/conversations/unc_ice/ice_2100_frzn_city_intro_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_2100_frzn_city_intro_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: So there's really a whole city buried under here?
+    Hero: SAM. Do we know how long this place has been trapped in ice?
+    SAM: Angara researchers hypothesize over 500 years, as a result of the Scourge event.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: I have heard that theory.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: That would make sense.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: I'd believe it.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Makes sense.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Seems likely.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: They weren't kidding. Frozen city.
+    ↩ (goto) Hero: SAM. Do we know how long this place has been trapped in ice?
+├ option 3:
+    global_squad_turian ⟨cond⟩: Hard to believe there could be an entire city under here.
+    ↩ (goto) Hero: SAM. Do we know how long this place has been trapped in ice?
+├ option 4:
+    global_squad_asari ⟨cond⟩: Look at that! I've never seen anything like this before.
+    ↩ (goto) Hero: SAM. Do we know how long this place has been trapped in ice?
+├ option 5:
+    global_squad_female_human ⟨cond⟩: I wonder what happened to the people.
+    ↩ (goto) Hero: SAM. Do we know how long this place has been trapped in ice?
+├ option 6:
+    global_squad_angara ⟨cond⟩: There are many legends about Ja Niihk. Most of them untrue.
+    ↩ (goto) Hero: SAM. Do we know how long this place has been trapped in ice?
+└─ merge ─┘
+Hero: This is some heavy excavation equipment.
+Hero: And explosives. The kett were trying to blast their way to something in here.

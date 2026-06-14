@@ -1,0 +1,358 @@
+# game/conversations/crit/crit_city/crit_city_0000_fightbanter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0000_fightbanter_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Someone do something about those turrets!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: I see it!
+    ├ option 2:
+        Hero [OncePerGame]: Don't talk, get in cover!
+        ↩ (goto) global_squad_angara: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Disable that turret!
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Turret's pinning us down!
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Get that turret!
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Turret fire!
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Stay out of the ooze!
+    Hero [OncePerGame]: Yep, figured {i}that{/i} out quick!
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: That stuff stings!
+    ↩ (goto) Hero [OncePerGame]: Yep, figured {i}that{/i} out quick!
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Don't touch that Remnant goo, whatever it is!
+    ↩ (goto) Hero [OncePerGame]: Yep, figured {i}that{/i} out quick!
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Stay away from that stuff!
+    ↩ (goto) Hero [OncePerGame]: Yep, figured {i}that{/i} out quick!
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Don't touch that weird Remnant shit!
+    ↩ (goto) Hero [OncePerGame]: Yep, figured {i}that{/i} out quick!
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: Crap!
+├ option 2:
+    Hero: This isn't going well!
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    Hero: Shit! Shit! Shit!
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    Hero: Damn it!
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    Hero: Gotta do better than this!
+    ↩ (goto) Hero: [empty]
+├ option 6:
+    Hero: Come on, really?
+    ↩ (goto) Hero: [empty]
+├ option 7:
+    Hero: {i}(Frustrated yells.){/i}
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Shield generator! Can we use it for cover?
+├ option 2:
+    global_squad_female_human ⟨cond⟩: That's a Remnant shield generator! Can you do something with it?
+├ option 3:
+    global_squad_asari ⟨cond⟩: Shield generator! Can we use it?
+├ option 4:
+    global_squad_turian ⟨cond⟩: Can you do something with that shield generator?
+├ option 5:
+    global_squad_angara ⟨cond⟩: That Remnant shield generator could give us some cover!
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Shield generator! Can you do something with it?
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Fiend!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Fiend incoming!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Fiend! Fiend! Fiend!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Fiend!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: Fiend headed for us!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Shit! Fiend!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    Hero [OncePerGame]: Focus on one group, then we'll get the other!
+├ option 2:
+    Hero [OncePerGame]: Kill that other guy!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Now {i}this{/i} is a fight!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: This fight is nuts!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Go for the Remnant, or the kett?
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I'm just going to kill whatever's in front of me!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 7:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Focus on the kett first?
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 8:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Just shoot at whatever shoots at us!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: More kett? They just don't stop!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Keep fighting! We're not giving up—not when we're this close!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Kett dropship! They really want us dead!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep fighting! We're not giving up—not when we're this close!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: It's like they have a never-ending supply! No, wait, that's exactly what they have!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep fighting! We're not giving up—not when we're this close!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: More kett? Why are there always more kett?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep fighting! We're not giving up—not when we're this close!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Stars, there's no end to these kett!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep fighting! We're not giving up—not when we're this close!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Dropship! They're not giving us room to breathe!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep fighting! We're not giving up—not when we're this close!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+Hero: I knew those kett were trouble the minute I saw them!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: But we came here for Meridian!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: If we all die, it won't matter!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: No thinking while I'm being shot at!
+        ↩ (goto) global_squad_angara: [empty]
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Kett now, Meridian later!
+        ↩ (goto) global_squad_angara: [empty]
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: Talk about it later! Deal with the kett first!
+        ↩ (goto) global_squad_angara: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: How about focus on not dying right now?
+        ↩ (goto) global_squad_angara: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Ryder, what about Meridian?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Kill kett, then talk!
+        ↩ (goto) global_squad_angara: [empty]
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: No thinking while I'm being shot at!
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Kett now, Meridian later!
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Talk about it later! Deal with the kett first!
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: How about focus on not dying right now?
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩: But what about Meridian?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Kill kett, then talk!
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: If we all die, it won't matter!
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Kett now, Meridian later!
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Talk about it later! Deal with the kett first!
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: How about focus on not dying right now?
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩: We can't give up on Meridian!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Kill kett, then talk!
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: If we all die, it won't matter!
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩: No thinking while I'm being shot at!
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Talk about it later! Deal with the kett first!
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: How about focus on not dying right now?
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩: Ryder, you're not giving up on Meridian?
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Kill kett, then talk!
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: If we all die, it won't matter!
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩: No thinking while I'm being shot at!
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Kett now, Meridian later!
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: How about focus on not dying right now?
+    ├ option 6:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Talk about it later! Deal with the kett first!
+    └─ merge ─┘
+└─ merge ─┘
+Hero: It's like the Archon's sent all his goons after us? Could this get any worse?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ↩ (goto) global_squad_krogan ⟨cond⟩: Fiend!
+├ option 2:
+    ↩ (goto) global_squad_female_human ⟨cond⟩: Fiend incoming!
+├ option 3:
+    ↩ (goto) global_squad_asari ⟨cond⟩: Fiend! Fiend! Fiend!
+├ option 4:
+    ↩ (goto) global_squad_turian ⟨cond⟩: Fiend!
+├ option 5:
+    ↩ (goto) global_squad_male_human ⟨cond⟩: Shit! Fiend!
+└─ merge ─┘
+global_crew_science_officer: [Comm] Ryder! I detected a surge of energy on the scans! The section you're in lit up like Mardi Gras!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Then Remnant have crap Mardi Gras parades!
+    global_crew_science_officer: What's going on? Are you all—
+    Hero: Can't talk right now!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Sure, Mardi Gras except for jazz, fun, and not being shot at!
+    ↩ (goto) global_crew_science_officer: What's going on? Are you all—
+├ option 3:
+    global_squad_turian ⟨cond⟩: That's because Remnant are trying to blow us up!
+    ↩ (goto) global_crew_science_officer: What's going on? Are you all—
+├ option 4:
+    global_squad_angara ⟨cond⟩: What's a "Mardi Gras"?
+    ↩ (goto) global_crew_science_officer: What's going on? Are you all—
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Then this is officially the worst Mardi Gras parade I've ever been to!
+    ↩ (goto) global_crew_science_officer: What's going on? Are you all—
+└─ merge ─┘
+Hero: Kett down below!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Let's light 'em up!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: We've got a height advantage, Ryder!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: We're in a good position!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_angara ⟨cond⟩: Good spot for an ambush!
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: So let's get the jump on them!
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: And tell the Archon he's next!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Keep it up! We take them down, we take Meridian!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+        ├ option 2:
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: We got him!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep it up! We take them down, we take Meridian!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Big guy down!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep it up! We take them down, we take Meridian!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I hope that hurt, you asshole!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep it up! We take them down, we take Meridian!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: That's for every soul you destroyed!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep it up! We take them down, we take Meridian!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Your boss is next!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: Keep it up! We take them down, we take Meridian!
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘

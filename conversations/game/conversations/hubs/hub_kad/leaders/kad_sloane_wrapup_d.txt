@@ -1,0 +1,62 @@
+# game/conversations/hubs/hub_kad/leaders/kad_sloane_wrapup_d
+# Primary speaker: kad_queen
+# Source: game/conversations/hubs/hub_kad/leaders/kad_sloane_wrapup_d.xml
+==================================================
+Narration: Post-Showdown, we find Sloane is sitting on the throne.
+Narration: Kaetus is still missing, but everyone else has returned to their normal positions in the throne room.
+kad_queen: Pathfinder. Come to collect on the debt I owe you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Maybe I came to check on Kaetus—ever think of that?
+    kad_queen: I... he's fine. Recovering.
+    Hero: Glad to hear it.
+    kad_queen: You're a real pain in the ass, you know that?
+    Hero: I've heard that before.
+    kad_queen: {i}(Sighs.){/i} But you did save my life. I know the Nexus needs outposts. Kadara's in better shape than most planets.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Tann might not admit it, but settling an outpost here is a good move. The first step to reconciliation—
+        kad_queen: That isn't what this is. I'm not working with Tann. I'm working with {i}you{/i}.
+        kad_queen: The Nexus exiled us to die—I've neither forgiven nor forgotten that.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Both parties have a right to be angry. But this outpost is our chance for a better future. Together.
+            kad_queen: Your diplomatic bullshit won't work on me.
+            kad_queen: I get a cut of whatever your settlers produce. Think of it as a protection fee.
+            kad_queen: Plenty of Collective still running around. Wouldn't want them to get ideas.
+            Hero: That almost sounds like extortion.
+            Narration: Sloane stands and offers her hand.
+            kad_queen: Do we have a deal?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Are you going to be nice to me now?
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    kad_queen ⟨cond⟩: Don't push your luck... Scott.
+                    Narration: They shake hands.
+                ├ option 2:
+                    kad_queen ⟨cond⟩: Don't push your luck... Sara.
+                    ↩ (goto) Narration: They shake hands.
+                ├ option 3:
+                    kad_queen: Don't push your luck... Ryder.
+                    ↩ (goto) Narration: They shake hands.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Only because I need the outpost.
+                kad_queen: Pleasure doing business with you.
+                ↩ (goto) Narration: They shake hands.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm not asking you to ignore the past—just to consider the future.
+            ↩ (goto) kad_queen: I get a cut of whatever your settlers produce. Think of it as a protection fee.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: This is the right call, Sloane.
+        Hero: We don't have the numbers to keep fighting each other. We need to work together.
+        kad_queen: I'll work with {i}you{/i}, but not with Tann.
+        ↩ (goto) kad_queen: The Nexus exiled us to die—I've neither forgiven nor forgotten that.
+    └─ merge ─┘
+├ option 2:
+    Hero: I've proven myself an ally. It's time you start treating me like one.
+    ↩ (goto) kad_queen: You're a real pain in the ass, you know that?
+└─ merge ─┘

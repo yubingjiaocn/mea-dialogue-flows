@@ -1,0 +1,81 @@
+# game/conversations/hubs/hub_aya/market/aya_market_fruit_i
+# Primary speaker: aya_merchant_fruit_multi
+# Source: game/conversations/hubs/hub_aya/market/aya_market_fruit_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    aya_merchant_fruit_multi [OncePerGame]: Vesoan. I was there when you landed. Watched you get escorted through the city.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I get why everyone was on edge. I didn't mean to worry them.
+        aya_merchant_fruit_multi: We've been through worse than the arrival of one human.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: I've never seen fruit like this before. What are these?
+            aya_merchant_fruit_multi: Paripo. Sweet, with a little bite. Sometimes, if I'm lucky, I have a few quilloa or elmohk.
+            Hero: Is fruit scarce here?
+            aya_merchant_fruit_multi: In this form, yes. Very expensive. If you buy a paripo from me, it means you have something to celebrate.
+            aya_merchant_fruit_multi: It's a luxury, meant to be shared with friends and family.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩ [OncePerConversation]: Can I get a few of those fruits for the Tempest?
+                aya_merchant_fruit_multi: More than one? You Pathfinders are richer than I thought.
+                Hero: What do you mean?
+                aya_merchant_fruit_multi: You really are new to Heleus. Look at it this way:
+                aya_merchant_fruit_multi: This paripo feeds one. Or we can break it down into nutrient paste and feed twenty.
+                aya_merchant_fruit_multi: Raw fruit is rare because it's excessive. A luxury. Better to make the most out of it, right?
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero [OncePerGame]: Is that what you guys eat?
+                    aya_merchant_fruit_multi: Of course. It gives us the nutrition we need without wasting resources.
+                    aya_merchant_fruit_multi: The food we grow is precious. We have to make the most of it.
+                    aya_merchant_fruit_multi: And once in a while, we treat ourselves.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: Huh. Maybe we should look into this stuff.
+                        aya_merchant_fruit_multi: A responsible choice. Roaan will be happy to give you a sample from the tavetaan.
+                        aya_merchant_fruit_multi: I'll send a few fruits to your ship in the meantime. A gift.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: I've never seen fruit like this before. What are these?
+                        ├ option 2:
+                            Hero: I'll get moving.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: As appetizing as paste sounds, I'll stick to fresh fruit.
+                        aya_merchant_fruit_multi: At least pay a visit to the tavetaan and try it out.
+                        ↩ (goto) aya_merchant_fruit_multi: I'll send a few fruits to your ship in the meantime. A gift.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero ⟨cond⟩: I have samples from Roaan. We're weighing options.
+                    aya_merchant_fruit_multi: Oh?
+                    Hero: See? I'm learning.
+                    aya_merchant_fruit_multi: In that case, I'll send a few fruits to your ship. A gift.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: I've never seen fruit like this before. What are these?
+                    ├ option 2:
+                        ↩ (goto) Hero: I'll get moving.
+                    └─ merge ─┘
+                ├ option 3:
+                    ↩ (goto) Hero ⟨cond⟩: Huh. Maybe we should look into this stuff.
+                ├ option 4:
+                    ↩ (goto) Hero: As appetizing as paste sounds, I'll stick to fresh fruit.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: I'll get moving.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩ [OncePerConversation]: Can I get a few of those fruits for the Tempest?
+        ├ option 3:
+            ↩ (goto) Hero: I'll get moving.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Bet that was a sight.
+        aya_merchant_fruit_multi: You were an unexpected outsider. Not really a laughing matter.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    aya_merchant_fruit_multi: Something I can do for you?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

@@ -1,0 +1,51 @@
+# game/conversations/bstory/ang/ang_0010_tem_jaal_d
+# Primary speaker: global_squad_angara
+# Source: game/conversations/bstory/ang/ang_0010_tem_jaal_d.xml
+==================================================
+global_squad_angara: So, you've gained Evfra's trust. No easy feat.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I still don't think he likes me.
+    global_squad_angara: That's just his way. You should be more worried about the Roekaar.
+    Hero: Evfra made it seem like you had experience with them.
+    global_squad_angara: I know their leader. Akksul. We studied together under the Moshae.
+    global_squad_angara: But, unlike me, he was a good student. The best, actually.
+    Hero: Then he knows about Remnant?
+    global_squad_angara: He did.
+    global_squad_angara: {i}(Sighs.){/i} It's a long story.
+    Hero: Give me the short version.
+    global_squad_angara: Akksul was captured by the kett.
+    global_squad_angara: He spent a year in a forced labor camp before he managed to escape.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I can't imagine what he must've gone through...
+        global_squad_angara: He has scars that would give you an idea.
+        global_squad_angara: When Akksul returned, he no longer cared about the Remnant. Or anything, except destroying the kett.
+        Hero: Why not join the Resistance?
+        global_squad_angara: Akksul’s not the type to follow orders... and I think he was bitter we weren’t able to rescue him.
+        Hero: So he formed the Roekaar.
+        global_squad_angara: We didn't give them much thought. But since your people arrived, his cause has grown.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I convinced Evfra I'm not a threat. Maybe I can do the same with Akksul.
+            global_squad_angara: I admire your courage. But Akksul's dangerous... and he lacks Evfra's pragmatism.
+            global_squad_angara: He’ll make you want to kill him.
+            Hero: I have to try.
+            global_squad_angara: If Heleus is to be your home, I guess you’ll have to deal with the Roekaar one way or another.
+            global_squad_angara: There's a recluse on Havarl who escaped with Akksul from the kett. Her name is Thaldyr.
+            global_squad_angara: She might know how to contact him. I’ll send you the navpoint.
+        ├ option 2:
+            Hero: More of a reason to set things straight before they get out of hand.
+            global_squad_angara: I don't think Akksul will listen to you.
+            ↩ (goto) global_squad_angara: He’ll make you want to kill him.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That’s why he hates aliens.
+        global_squad_angara: Yes. He... suffered greatly.
+        ↩ (goto) global_squad_angara: When Akksul returned, he no longer cared about the Remnant. Or anything, except destroying the kett.
+    └─ merge ─┘
+├ option 2:
+    Hero: Yeah, but at a price.
+    global_squad_angara: You mean the Roekaar. Don't take it personally—they hate all aliens.
+    ↩ (goto) Hero: Evfra made it seem like you had experience with them.
+└─ merge ─┘

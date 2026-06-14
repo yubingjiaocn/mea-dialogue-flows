@@ -1,0 +1,130 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_810_archon_taunts_a
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/Crit_Mer/crit_fin_810_archon_taunts_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: He's still using Scott's implant!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Can they survive drawing this much power?
+        Hero: I only care about one of them!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Can they survive drawing this much power?
+        ↩ (goto) Hero: I only care about one of them!
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: Can they survive drawing this much power?
+        ↩ (goto) Hero: I only care about one of them!
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Can they survive drawing this much power?
+        ↩ (goto) Hero: I only care about one of them!
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Can they survive drawing this much power?
+        ↩ (goto) Hero: I only care about one of them!
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩: Can they survive drawing this much power?
+        ↩ (goto) Hero: I only care about one of them!
+    └─ merge ─┘
+├ option 2:
+    Hero: He's still using Sara's implant!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 5:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 6:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Can they survive drawing this much power?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: Arrrgh!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 5:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 6:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Can they survive drawing this much power?
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: Arrrgh!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 3:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 5:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Can they survive drawing this much power?
+    ├ option 6:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Can they survive drawing this much power?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: I can't keep this up! Stop him!
+├ option 2:
+    global_sibling_female: I can't keep this up! Stop him!
+└─ merge ─┘
+Hero: Clear them out! We need to reach the Archon!
+Hero: We got company!
+┌─ BRANCH (12) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: We're being flanked!
+    Hero [OncePerGame]: Let them come!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: We're being flanked!
+    ↩ (goto) Hero [OncePerGame]: Let them come!
+├ option 3:
+    global_squad_angara ⟨cond⟩: We're being flanked!
+    ↩ (goto) Hero [OncePerGame]: Let them come!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: We're being flanked!
+    ↩ (goto) Hero [OncePerGame]: Let them come!
+├ option 5:
+    global_squad_turian ⟨cond⟩: We're being flanked!
+    ↩ (goto) Hero [OncePerGame]: Let them come!
+├ option 6:
+    global_squad_krogan ⟨cond⟩: We're being flanked!
+    ↩ (goto) Hero [OncePerGame]: Let them come!
+├ option 7:
+    global_squad_asari ⟨cond⟩: He's throwing all he has at us!
+    Hero [OncePerGame]: Hit them just as hard!
+├ option 8:
+    global_squad_female_human ⟨cond⟩: His kett are fighting for all they're worth!
+    ↩ (goto) Hero [OncePerGame]: Hit them just as hard!
+├ option 9:
+    global_squad_angara ⟨cond⟩: The Archon is committing everything!
+    ↩ (goto) Hero [OncePerGame]: Hit them just as hard!
+├ option 10:
+    global_squad_male_human ⟨cond⟩: He's knows we're on him! He's pushing!
+    ↩ (goto) Hero [OncePerGame]: Hit them just as hard!
+├ option 11:
+    global_squad_turian ⟨cond⟩: He's not holding anything back!
+    ↩ (goto) Hero [OncePerGame]: Hit them just as hard!
+├ option 12:
+    global_squad_krogan ⟨cond⟩: He's leaving it all on the field!
+    ↩ (goto) Hero [OncePerGame]: Hit them just as hard!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: That all you got, you kett f—Arrgh! Hurry up, I can't...!
+├ option 2:
+    global_sibling_female: Get out of my head, you f—Arrgh! Goddamn it! Hurry up!
+└─ merge ─┘

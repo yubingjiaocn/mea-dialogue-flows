@@ -1,0 +1,26 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0360_entrance_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0360_entrance_b.xml
+==================================================
+global_squad_asari: We've got to follow her inside!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Her outlaws might have something to say about that.
+    Hero: Take them out!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Her assholes might have something to say about that.
+    ↩ (goto) Hero: Take them out!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Her outlaws might have something to say about that.
+    ↩ (goto) Hero: Take them out!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Gotta take out the trash first.
+    ↩ (goto) Hero: Take them out!
+├ option 5:
+    global_squad_angara ⟨cond⟩: Her men won't make it easy.
+    ↩ (goto) Hero: Take them out!
+└─ merge ─┘
+global_squad_asari: Let's go!
+global_kalinda: [Comm] You're way behind, Pelessaria.
+Hero: Be careful. She's trying to goad us.
+global_squad_asari: Or she knows we won't fall for that, and she's trying to making us slow down.

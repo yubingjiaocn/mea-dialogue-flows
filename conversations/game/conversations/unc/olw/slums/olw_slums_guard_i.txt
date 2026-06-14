@@ -1,0 +1,72 @@
+# game/conversations/unc/olw/slums/olw_slums_guard_i
+# Primary speaker: olw_outcast_guard_01
+# Source: game/conversations/unc/olw/slums/olw_slums_guard_i.xml
+==================================================
+olw_outcast_guard_01: What do you want?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Do I have to want something?
+    olw_outcast_guard_01: Yes. This is Kadara.
+    olw_outcast_guard_01: Anyone who doesn’t want something is suspicious.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: You're part of Sloane's gang?
+        olw_outcast_guard_01: Anyone who’s anyone joins the Outcasts.
+        Hero: What about the Collective?
+        olw_outcast_guard_01: Fuck 'em. They're nobodies.
+        olw_outcast_guard_01: And when Sloane gives the word, they’ll be dead nobodies.
+        ↩ (goto) olw_outcast_guard_01: [empty]
+    ├ option 2:
+        Hero: Seen any trouble lately?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_outcast_guard_01 ⟨cond⟩: Not everyone's happy about the Initiative outpost.
+            olw_outcast_guard_01: But we're keeping the peace. Don't you worry.
+            ↩ (goto) olw_outcast_guard_01: [empty]
+        ├ option 2:
+            olw_outcast_guard_01: No more than usual. Murder rate’s gone up, but that’s not surprising.
+            Hero: Why's that?
+            olw_outcast_guard_01: More exiles arrive on Kadara every day.
+            olw_outcast_guard_01: Good for trade, but in my experience, more people means more murder.
+            ↩ (goto) olw_outcast_guard_01: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        Hero: Is this still part of Kadara Port?
+        olw_outcast_guard_01: You mean is it under Sloane’s protection? No.
+        olw_outcast_guard_01: The slums are for exiles who can't pay their protection fees.
+        Hero: Then why are you here? No offense.
+        olw_outcast_guard_01: To keep the filth in the gutter.
+        olw_outcast_guard_01: You’d be surprised how many people try to sneak up to the docks.
+        ↩ (goto) olw_outcast_guard_01: [empty]
+    ├ option 4:
+        Hero: What can you tell me about the rest of Kadara?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_outcast_guard_01 ⟨cond⟩: The badlands still aren't a walk in the park.
+            olw_outcast_guard_01: But with the Collective gone, things are finally calming down.
+            olw_outcast_guard_01: The Outcasts have your back, Pathfinder.
+            ↩ (goto) olw_outcast_guard_01: [empty]
+        ├ option 2:
+            olw_outcast_guard_01: You mean outside the mountain? It’s no man’s land.
+            olw_outcast_guard_01: Cease-fire rule doesn't apply there. So don't go walking up to just anyone.
+            Hero: Even the Outcasts?
+            olw_outcast_guard_01: Especially the Outcasts. You're packing some serious hardware.
+            olw_outcast_guard_01: I’ve shot people for less.
+            ↩ (goto) olw_outcast_guard_01: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        Hero: I better get going.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_outcast_guard_01 [OncePerGame]: If you see any Collective bastards roaming around, shoot them for me.
+        ├ option 2:
+            olw_outcast_guard_01: Watch yourself out there.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Relax. I'm not here to cause trouble. I just have a few questions.
+    olw_outcast_guard_01: Get on with it then.
+    ↩ (goto) olw_outcast_guard_01: [empty]
+└─ merge ─┘
+olw_outcast_guard_01: You again?
+↩ (goto) olw_outcast_guard_01: [empty]

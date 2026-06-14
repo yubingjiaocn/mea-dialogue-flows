@@ -1,0 +1,108 @@
+# game/conversations/unc/storms/stm_0050_pre_land_intro_m
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0050_pre_land_intro_m.xml
+==================================================
+Narration: The player selected to LAND on Eos. Squad loadout popped up, and they've chosen their squad.
+Narration: The crew begins to toss some landing jargon in preparation. The ACTIVE squad checks in, responding to the player's choice.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: [Comm] Suiting up.
+    Narration: The bridge crew chat as equals before this first landing.
+    Hero: Hope we're all that ready.
+    Narration: Suvi nods. Ryder pats the chair, backing off. She doesn't need to watch over the shoulder. They know their jobs so you don't have to.
+    Narration: Pathfinder starts moving more central, nods to Kallo.
+    Hero: Kallo? All right.
+    Narration: Ryder moves close to the horseshoe. As the crew talks, their voices fade as Ryder gets distracted by something strange.
+    global_crew_co-pilot: Integrating search area from SAM. How he pulled that mystery signal through the storms, I have no idea.
+    global_crew_science_officer: Multisensory neural collation. Amazing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_science_officer ⟨cond⟩: Gil, the Pathfinder's called for landing. Are we in the green?
+        global_crew_tech_officer: [Comm] Factory fresh across the board. Spinning up the compensators.
+        global_crew_co-pilot: You're already tuning the displays?
+        global_crew_science_officer: Recovery team data was sketchy, I don't want us blind when we hit the lower atmosphere.
+        global_crew_science_officer: We'll get a better read in this pass than the Nexus has had in months.
+        global_crew_co-pilot: About time for some good news. We're owed.
+        global_crew_co-pilot: Diagnostic B-4.3, looking good.
+        Narration: As the crew talk, Ryder gets distracted. They swipe a display, and pause, looking at their hand silhouetted by the display.
+        Narration: Bridge sound begins to dip as the image of her hand in front of Eos seems to trigger something in the back of her mind.
+        Narration: She looks to the side, as though hearing something. She walks to the window, getting as close as she can.
+        Narration: She reaches out her hand, to silhouette it with the orangey-yellow of the planet. She's oblivious to everything else on the bridge now.
+        Narration: As she touches the window, there is a flash of the "SAM synapse" stuff that makes her draw a quick breath.
+        Narration: The white noise gets louder, and as she frowns, confused at Eos, she hears a voice. It's Ryder Sr.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_dad: If you can't run from it, use it.
+            Narration: Ryder doesn't know what she's hearing. She's confused and slightly pained. What does it mean?
+            global_squad_male_human: A lot of people have their hopes pinned on us.
+            Narration: At the same time, Liam has approached Ryder and comments on Eos looming large in front of them. Ryder is tuning him out.
+            Hero: What?
+            Narration: Suddenly she is aware that Liam is standing next to her. He's been talking and she was oblivious.
+            Narration: Liam thinks the "what" was Ryder asking him to repeat what he said. He gestures casually, like someone pointing with food they just took a bite out of.
+            global_squad_male_human: I said a lot of people have their hopes pinned on us. They gave up on Eos.
+            Narration: Ryder blinks, still coming back into the moment.
+            global_squad_male_human: Can't blame them. Expected a golden world. Instead they saw their friends die.
+            global_squad_male_human: Never know how that'll affect...
+            Narration: Liam, stops talking and glances at the Pathfinder, remembering that she just saw her dad die a few days earlier.
+            global_squad_male_human: Sorry. You okay?
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                Hero: We didn't come millions of light years to die in a different place.
+                Narration: Ryder pauses, points at Eos as though thinking about the task.
+                Hero: I'm not letting the Initiative down.
+                Narration: They're interrupted by Kallo. The bridge crew are ready for the inaugural landing.
+                global_crew_co-pilot: Pathfinder? The Tempest checks out. We're good.
+                Narration: Ryder looks at Liam. Shit's real now. She steels herself with a breath/look/half-smile that says "phoo, so here we go."
+                Narration: Liam leaves the bridge as Ryder walks over to the horseshoe. Direct transition to the start of stm_0100_landing_d
+            ├ option 2:
+                Hero ⟨cond⟩: I've got the training. People. The tools.
+                Narration: Ryder taps her temple (training = implant). She gestures at Liam (People). Then glances up and around (tools = ship)
+                Hero: We can do this.
+                ↩ (goto) Narration: They're interrupted by Kallo. The bridge crew are ready for the inaugural landing.
+            ├ option 3:
+                Hero ⟨cond⟩: I've got the training. People. The tools.
+                ↩ (goto) Narration: Ryder taps her temple (training = implant). She gestures at Liam (People). Then glances up and around (tools = ship)
+            ├ option 4:
+                Hero: I think... I'm still messed up by what happened with my dad.
+                global_squad_male_human: There hasn't been much time to process it.
+                Narration: Ryder leans in a bit more, glancing as though nervous the bridge crew might be listening. Confiding in Liam.
+                Hero: No, I mean, I think I'm still feeling it. Like... hearing things. Other than SAM.
+                ↩ (goto) Narration: They're interrupted by Kallo. The bridge crew are ready for the inaugural landing.
+            ├ option 5:
+                Hero: This is exactly why we came. A new galaxy. A new ship.
+                Narration: Ryder taps the window with her fist. Smirks.
+                Hero: I can't wait to get both a little dirty.
+                ↩ (goto) Narration: They're interrupted by Kallo. The bridge crew are ready for the inaugural landing.
+            └─ merge ─┘
+        ├ option 2:
+            global_dad: I couldn't run from it. So I used it.
+            ↩ (goto) Narration: Ryder doesn't know what she's hearing. She's confused and slightly pained. What does it mean?
+        ├ option 3:
+            Hero: Dad?
+            ↩ (goto) Narration: Ryder doesn't know what she's hearing. She's confused and slightly pained. What does it mean?
+        ├ option 4:
+            Hero: {i}(Breath){/i}
+            ↩ (goto) Narration: Ryder doesn't know what she's hearing. She's confused and slightly pained. What does it mean?
+        ├ option 5:
+            Hero: I can't... understand.
+            ↩ (goto) Narration: Ryder doesn't know what she's hearing. She's confused and slightly pained. What does it mean?
+        ├ option 6:
+            Hero: Dad? What...?
+            ↩ (goto) Narration: Ryder doesn't know what she's hearing. She's confused and slightly pained. What does it mean?
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_science_officer: Gil, the Pathfinder's called for landing. Are we in the green?
+        ↩ (goto) global_crew_tech_officer: [Comm] Factory fresh across the board. Spinning up the compensators.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: [Comm] Ready, Freddy.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: [Comm] See you on the ramp.
+        ↩ (goto) Narration: The bridge crew chat as equals before this first landing.
+    ├ option 2:
+        ↩ (goto) Narration: The bridge crew chat as equals before this first landing.
+    └─ merge ─┘
+├ option 3:
+    ↩ (goto) global_squad_turian ⟨cond⟩: [Comm] See you on the ramp.
+└─ merge ─┘

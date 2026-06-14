@@ -1,0 +1,57 @@
+# game/conversations/storyteller/anchors/sty_anchor_outlaw_junk_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_anchor_outlaw_junk_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Heads up. Looks like a scavenger dump site.
+├ option 2:
+    SAM: Pathfinder, the salvage ahead attracted scavengers.
+├ option 3:
+    Hero: Look out. That junk ahead will attract scavengers.
+├ option 4:
+    Hero: Stay alert. This junk is prime for scavengers.
+├ option 5:
+    SAM: Pathfinder, scavengers have picked over the salvage ahead.
+├ option 6:
+    ┌─ BRANCH (12) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Outlaw salvage ahead. Keep your guard up.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Up ahead. Outlaw junk.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Outlaw scrap spotted. Stay alert.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Outlaw junk pile. Gotta be scrappers in there.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Where there's junk, there's outlaws.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Outlaw scrap. Bound to be hostiles.
+    ├ option 7:
+        global_squad_angara ⟨cond⟩: Broken salvage ahead. This will attract outlaws.
+    ├ option 8:
+        global_squad_asari ⟨cond⟩: That junk has outlaw written all over it.
+    ├ option 9:
+        global_squad_female_human ⟨cond⟩: Scrap pile ahead. I bet there'll be outlaws.
+    ├ option 10:
+        global_squad_krogan ⟨cond⟩: Outlaw junk pile. They'll want to defend it.
+    ├ option 11:
+        global_squad_male_human ⟨cond⟩: The outlaws will be territorial over their... big pile of junk.
+    ├ option 12:
+        global_squad_turian ⟨cond⟩: Smoking pile of junk? Must be outlaws.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    SAM [OncePerGame]: A group of registered criminals has gathered salvage ahead, Pathfinder.
+├ option 2:
+    Hero [OncePerGame]: Careful. Whoever rounded up that junk will get territorial if we get close.
+├ option 3:
+    SAM [OncePerGame]: I'm receiving lifeform readings near that salvage. Unaffiliated outlaws.
+├ option 4:
+    Hero [OncePerGame]: If they're collecting junk, these outlaws won't have a faction. Keep your guard up.
+├ option 5:
+    SAM [OncePerGame]: This salvage is registered to unaffiliated outlaws, Pathfinder. I advise caution.
+├ option 6:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘

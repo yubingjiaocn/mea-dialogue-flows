@@ -1,0 +1,56 @@
+# game/conversations/hubs/hub_tem/quests/visitor/tem_visitor_befriend_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_tem/quests/visitor/tem_visitor_befriend_d.xml
+==================================================
+Hero: Hi there. You must be the one eating all our cereal.
+tem_sfx_hamster: {i}(Frightened squeaking.){/i}
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: No poison glands or claws, nothing on scans. You're probably only a risk to leftovers.
+    tem_sfx_hamster: {i}(Curious squeaking.){/i}
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You know, Pathfinders are supposed to catalogue all new lifeforms.
+        Hero: I should find you somewhere safer than our cargo bay.
+        tem_sfx_hamster: {i}(Hopeful squeaking.){/i}
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We'll find you a world with lots of plants, and let you go. How about that?
+            tem_sfx_hamster: {i}(Happy squeaking.){/i}
+            Hero: Guess everybody around here needs a home.
+        ├ option 2:
+            Hero: How about a nice warm cage in my quarters, and all the cereal you can eat?
+            ↩ (goto) tem_sfx_hamster: {i}(Happy squeaking.){/i}
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You're the most adorable critter I've met in Andromeda so far.
+        ┌─ BRANCH (8) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Except Jaal. He's special.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 2:
+            Hero ⟨cond⟩: Besides Peebee, of course.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 3:
+            Hero ⟨cond⟩: Don't tell Cora I said so.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 4:
+            Hero ⟨cond⟩: Except Liam. He's special.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 5:
+            Hero ⟨cond⟩: Except Vetra, of course.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 6:
+            Hero ⟨cond⟩: Not counting Suvi.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 7:
+            Hero ⟨cond⟩: Gil's more handsome than adorable.
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        ├ option 8:
+            ↩ (goto) Hero: I should find you somewhere safer than our cargo bay.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Hey, it's okay. No one's going to eat you.
+    ↩ (goto) tem_sfx_hamster: {i}(Curious squeaking.){/i}
+└─ merge ─┘

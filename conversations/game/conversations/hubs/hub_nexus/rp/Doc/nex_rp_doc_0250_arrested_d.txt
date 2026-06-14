@@ -1,0 +1,61 @@
+# game/conversations/hubs/hub_nexus/rp/doc/nex_rp_doc_0250_arrested_d
+# Primary speaker: nex_rp_doc_asari
+# Source: game/conversations/hubs/hub_nexus/rp/Doc/nex_rp_doc_0250_arrested_d.xml
+==================================================
+nex_rp_doc_asari [OncePerGame]: Oh. Hey, Ryder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Hakim said they arrested you over the documentary.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_doc_asari ⟨cond⟩: Guess I tweaked the lion's tail too hard.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: They didn't hurt you, did they?
+            nex_rp_doc_asari: Nothing's hurt except my dignity.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You had to tell the truth, whatever the cost. You did what was right.
+                nex_rp_doc_asari: You know... they've had other people in the cells. Rioters. People crying and scared.
+                nex_rp_doc_asari: Me and my "truth" did that to them.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Imprisoning a vidmaker for her work seems... historic. Too bad no one recorded it.
+                    nex_rp_doc_asari: Ha. They took my camera, but I was scribbling a few notes...
+                    nex_rp_doc_asari: Maybe I could use this. Thanks for coming, Ryder. I'll send word if anything changes.
+                ├ option 2:
+                    Hero: So you're just going to sit there? This is how your work ends?
+                    nex_rp_doc_asari: What? No. Hell, no!
+                    ↩ (goto) nex_rp_doc_asari: Maybe I could use this. Thanks for coming, Ryder. I'll send word if anything changes.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: A crowbar, some gum, a nudge from SAM, and I could get you out.
+                nex_mil_jailer: I'm right here, hero. Trust me, this is safer than exile.
+                Narration: Keri looks perturbed, nods towards the other cells.
+                ↩ (goto) nex_rp_doc_asari: You know... they've had other people in the cells. Rioters. People crying and scared.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero: You had to tell the truth, whatever the cost. You did what was right.
+        ├ option 3:
+            ↩ (goto) Hero: A crowbar, some gum, a nudge from SAM, and I could get you out.
+        └─ merge ─┘
+    ├ option 2:
+        nex_rp_doc_asari: One or two questions they didn't like. That's all it took.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: They didn't hurt you, did they?
+        ├ option 2:
+            ↩ (goto) Hero: You had to tell the truth, whatever the cost. You did what was right.
+        ├ option 3:
+            ↩ (goto) Hero: A crowbar, some gum, a nudge from SAM, and I could get you out.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    nex_rp_doc_asari: Our little documentary finally got the attention it deserved, huh?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) nex_rp_doc_asari ⟨cond⟩: Guess I tweaked the lion's tail too hard.
+    ├ option 2:
+        ↩ (goto) nex_rp_doc_asari: One or two questions they didn't like. That's all it took.
+    └─ merge ─┘
+└─ merge ─┘

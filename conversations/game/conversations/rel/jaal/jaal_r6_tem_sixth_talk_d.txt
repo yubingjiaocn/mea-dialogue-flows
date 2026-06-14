@@ -1,0 +1,86 @@
+# game/conversations/rel/jaal/jaal_r6_tem_sixth_talk_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r6_tem_sixth_talk_d.xml
+==================================================
+global_squad_angara: Did you get my message? Doesn't matter. I have exciting news, and I wanted to tell you in person.
+Hero: Should I sit down?
+global_squad_angara: Is that an another idiom? Or... yes, of course—do what you like.
+Hero: Yeah, it's an idiom that means... never mind.
+global_squad_angara: I’ve been offered an advancement in the Resistance and my own command.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: That makes complete sense. Congratulations.
+    global_squad_angara: Thank you. My family is very proud. And so am I.
+    Hero: So. When did this happen?
+    global_squad_angara: Recently. You know that I wasn't satisfied with my position and direction in the Resistance.
+    Hero: Or life.
+    global_squad_angara: True... very true. Yes.
+    global_squad_angara: After my successes with you, they see me with new eyes. But more importantly, so do I.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: So you get your own command?
+        global_squad_angara: It's a covert squad. Tech ops. Commanding a small group of elite specialists that infiltrate advanced kett sites.
+        global_squad_angara: High danger—high reward.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: That's a hard choice to make. I won't stand in your way.
+            global_squad_angara: That's kind. It was a hard choice.
+            Hero: Okay, then. Should we head back to Aya?
+            global_squad_angara: What? Why? I'm not taking the position!
+            Hero: But that's crazy. It's what you've wanted.
+            global_squad_angara: What I wanted, yes—but not what I needed. Not what I need.
+            global_squad_angara: With your help, I broke free of expectation. I found my better self.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: It's been a pleasure to work with you, too.
+                global_squad_angara: Funny how chance can change your life in an instant.
+                Hero: I know what you mean.
+                global_squad_angara: Your dad would be proud of you, too.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Yeah. Hope so.
+                    global_squad_angara: So. You're stuck with me now, at least until this all plays out.
+                    global_squad_angara: Besides, you need me.
+                    Hero: Don't push your luck.
+                    global_squad_angara: But luck can't be pushed. It comes to us, and... ah. Idiom.
+                    Hero: Yup.
+                    global_squad_angara: Shit.
+                    Hero: Ha!
+                ├ option 2:
+                    Hero: Yeah. Dunno.
+                    ↩ (goto) global_squad_angara: So. You're stuck with me now, at least until this all plays out.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: That's one of the nicest things anyone has said to me.
+                Hero: Seriously.
+                global_squad_angara: Good.
+                Hero: No, really.
+                global_squad_angara: You've changed too, I think. More open—like a true angara.
+                Hero: Perfect.
+                ↩ (goto) global_squad_angara: So. You're stuck with me now, at least until this all plays out.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Would you consider turning it down?
+            Hero: We've come to rely on you around here. Some of us even like you.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: I know.
+                Hero: A lot. Some of us like you a whole lot.
+                global_squad_angara: Me, too.
+                ↩ (goto) Hero: Okay, then. Should we head back to Aya?
+            ├ option 2:
+                global_squad_angara: {i}(Laughs.){/i} And I like them... mostly.
+                ↩ (goto) Hero: Okay, then. Should we head back to Aya?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: That's a hard choice to make. I won't stand in your way.
+    ├ option 3:
+        ↩ (goto) Hero: Would you consider turning it down?
+    └─ merge ─┘
+├ option 2:
+    Hero: That's great. I'm... happy for you.
+    global_squad_angara: But you don't sound... Another idiom?
+    Hero: Kinda.
+    ↩ (goto) Hero: So. When did this happen?
+└─ merge ─┘

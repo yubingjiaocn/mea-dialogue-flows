@@ -1,0 +1,79 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0300_reyes_d
+# Primary speaker: kad_charlatan
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0300_reyes_d.xml
+==================================================
+kad_outcast_pir_04: Hold up. This is a private event.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Name's Ryder. Human Pathfinder. I'm kind of a big deal.
+    kad_outcast_pir_04: There's no Ryder on the list.
+    Narration: Reyes walks up behind Ryder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_charlatan ⟨cond⟩: She's with me. Reyes Vidal.
+        Narration: The guard checks his datapad.
+        kad_outcast_pir_04: Go on in.
+        Narration: Reyes and Ryder pass the guard and enter Sloane's chambers.
+        Narration: Keema Dohrgun, the angaran representative to Sloane, immediately spots them.
+        kad_ang_rep: Reyes Vidal. I was beginning to think you wouldn't show.
+        kad_charlatan: Remember what I said about "fashionably late"?
+        kad_ang_rep: Shush. Introduce me to your companion.
+        kad_charlatan: Pathfinder. Meet Keema Dohrgun, the angaran representative to Sloane. And a friend.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I didn't think Reyes had friends. Only contacts and colleagues.
+            kad_ang_rep: Oh, I'm those as well. Who do you think secured him an invitation to this event?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                kad_ang_rep ⟨cond⟩: I was hoping he'd bring you, Pathfinder. You're all he talks about lately.
+                Hero: Is that so?
+                kad_charlatan: Sorry to cut this short, but I need to take care of something.
+                Hero: Abandoning me already?
+                kad_charlatan: It won't take long. There are important players here tonight. You should mingle. Make a good impression.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero: You treat all your dates this way or am I special?
+                    kad_charlatan: I'll make it up to you.
+                    kad_charlatan: Promise.
+                    Narration: Reyes leaves.
+                    kad_ang_rep: And there he goes.
+                    Hero: Any idea what he's up to?
+                    kad_ang_rep: It's better not to worry about what Reyes does. Enjoy the party.
+                ├ option 2:
+                    Hero: You're gonna be playing catch-up on all the fun.
+                    kad_charlatan: I work best one step behind.
+                    ↩ (goto) kad_charlatan: Promise.
+                ├ option 3:
+                    Hero: Don't do anything to get us kicked out. Please.
+                    kad_charlatan: I won't ruin your fun.
+                    ↩ (goto) kad_charlatan: Promise.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) kad_charlatan: Sorry to cut this short, but I need to take care of something.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: A pleasure, Keema. Call me Ryder.
+            kad_ang_rep: Reyes mentioned your professionalism.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) kad_ang_rep ⟨cond⟩: I was hoping he'd bring you, Pathfinder. You're all he talks about lately.
+            ├ option 2:
+                ↩ (goto) kad_charlatan: Sorry to cut this short, but I need to take care of something.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        kad_charlatan: He's with me. Reyes Vidal.
+        Narration: The guard checks his datapad.
+        ↩ (goto) kad_outcast_pir_04: Go on in.
+    └─ merge ─┘
+├ option 2:
+    Hero: I'm meeting a friend.
+    kad_outcast_pir_04: Not without an invite.
+    Narration: Reyes walks up behind Ryder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) kad_charlatan ⟨cond⟩: She's with me. Reyes Vidal.
+    ├ option 2:
+        ↩ (goto) kad_charlatan: He's with me. Reyes Vidal.
+    └─ merge ─┘
+└─ merge ─┘

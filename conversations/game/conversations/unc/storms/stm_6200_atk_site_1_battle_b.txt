@@ -1,0 +1,47 @@
+# game/conversations/unc/storms/stm_6200_atk_site_1_battle_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6200_atk_site_1_battle_b.xml
+==================================================
+Hero: There's Roekaar bunkered in Promise!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Do not let that stand!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: We will not!
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Wasn't planning on it!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Shit no we won't!
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Hell no we won't!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Bust them up!
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: [Comm] Do not let that stand!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: We will not!
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Wasn't planning on it!
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Shit no we won't!
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Hell no we won't!
+    ├ option 5:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Bust them up!
+    └─ merge ─┘
+└─ merge ─┘
+Hero: They've got a Hydra! Watch your flanks!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: That's the last of them. We did it, Ryder.
+    SAM: Pathfinder. Akksul's shuttle is leaving orbit.
+    global_extremist_leader: [Comm] I'll remember this. We're not finished.
+    ustl_settle_01_admin_multi: [Comm] You are today. And we'll be ready next time.
+    ustl_settle_01_admin_multi: [Comm] Come to Prodromos, Pathfinder. We owe you. Again.
+├ option 2:
+    global_squad_angara: [Comm] You broke them, Ryder. Akksul's shuttle is leaving orbit.
+    ↩ (goto) global_extremist_leader: [Comm] I'll remember this. We're not finished.
+└─ merge ─┘

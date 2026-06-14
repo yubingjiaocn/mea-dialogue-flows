@@ -1,0 +1,87 @@
+# game/conversations/bstory/tur/tur_0100_avitus_intro_d
+# Primary speaker: global_turian_pathfinder_multi
+# Source: game/conversations/bstory/tur/tur_0100_avitus_intro_d.xml
+==================================================
+Narration: Avitus Rix and a Turian Settler survey the damage to the village. There are casualties from both sides.
+tur_settler_01: Is it over?
+Narration: Among the bodies, a wounded Roekaar lifts his gun to attack Avitus.
+Narration: He sees the movement and stomps on the Roekaar's wrist, knocking the gun out of his hand.
+tur_outlaw_01: {i}(Yells.){/i}
+Narration: Avitus leans over the Roekaar and inspects his wounds.
+global_turian_pathfinder_multi: Shot to the gut. Painful.
+Narration: Avitus picks up the gun and shoots the Roekaar, killing him instantly.
+Narration: He then throws the gun away and turns his attention to Ryder.
+global_turian_pathfinder_multi: Appreciate the help back there.
+global_turian_pathfinder_multi: Name's Avitus Rix. Sorry if my methods seem extreme. Civilian life is... trying.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Sara Ryder. Human Pathfinder. You former military?
+    global_turian_pathfinder_multi: A Spectre. Special Tactics and Reconnaissance. Did the Council's dirty work for 15 years.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What, like their laundry?
+        global_turian_pathfinder_multi: {i}(Chuckles.){/i} More like classified assassinations and espionage.
+        global_turian_pathfinder_multi: The Initiative was my retirement plan. Then Natanus hit the Scourge, and bam! Woke up here.
+        Hero: What happened? Where's the ark?
+        Narration: Avitus shakes his head. His expression is grim.
+        global_turian_pathfinder_multi: No idea. Had to break out of my own damn stasis pod.
+        Hero: A fall like that should have killed you.
+        global_turian_pathfinder_multi: Those pods are sturdier than they look.
+        global_turian_pathfinder_multi: Most of the turian population is still missing—including Macen, our Pathfinder.
+        global_turian_pathfinder_multi: SAM hasn't transferred to me, so he's alive. Just don't know where.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: He hasn't made it back to the Nexus.
+            global_turian_pathfinder_multi: Knowing Macen, he's out there looking for me.
+            global_turian_pathfinder_multi: Macen dedicated his life to Andromeda. He's too stubborn to die now.
+            Hero: We need every Pathfinder we can get.
+            global_turian_pathfinder_multi: Debris and stasis pods from Natanus are scattered across the sector.
+            global_turian_pathfinder_multi: Between the two of us, we should find {i}something{/i}.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You go left, I go right?
+                global_turian_pathfinder_multi: {i}(Chuckles.){/i} Something like that.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_turian_pathfinder_multi ⟨cond⟩: Rumor has it, scavengers found pieces of an ark on a planet called Elaaden.
+                    global_turian_pathfinder_multi: Could be nothing. But it's a lead worth checking.
+                    Hero: I'll let you know if I find anything.
+                    global_turian_pathfinder_multi: I'm in your debt, Pathfinder.
+                ├ option 2:
+                    global_turian_pathfinder_multi: Here's my frequency. Call when you find something.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: The settlers here need your help.
+                global_turian_pathfinder_multi: I'm a stopgap. Macen is the solution.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_turian_pathfinder_multi ⟨cond⟩: Rumor has it, scavengers found pieces of an ark on a planet called Elaaden.
+                ├ option 2:
+                    ↩ (goto) global_turian_pathfinder_multi: Here's my frequency. Call when you find something.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: The SAM node could've been destroyed when Natanus hit the Scourge.
+            global_turian_pathfinder_multi: I'd know if he was dead.
+            ↩ (goto) global_turian_pathfinder_multi: Macen dedicated his life to Andromeda. He's too stubborn to die now.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: So you're used to being above the law.
+        global_turian_pathfinder_multi: Good thing there are no laws in Andromeda, huh?
+        ↩ (goto) global_turian_pathfinder_multi: The Initiative was my retirement plan. Then Natanus hit the Scourge, and bam! Woke up here.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Scott Ryder. Human Pathfinder. You former military?
+    ↩ (goto) global_turian_pathfinder_multi: A Spectre. Special Tactics and Reconnaissance. Did the Council's dirty work for 15 years.
+├ option 3:
+    Hero: Ryder. Human Pathfinder. You former military?
+    ↩ (goto) global_turian_pathfinder_multi: A Spectre. Special Tactics and Reconnaissance. Did the Council's dirty work for 15 years.
+└─ merge ─┘
+Hero: Enough!
+Narration: Ryder grabs Avitus arm, pulling the gun away. Avitus looks annoyed, but doesn’t put up a fight.
+global_turian_pathfinder_multi: His wounds are fatal. I was just showing him the door.
+Hero: You don't know that.
+tur_outlaw_01: {i}(Groans.){/i}
+Narration: Ryder and Avitus look towards the Roekaar, who takes one final, painful breath before passing away.
+global_turian_pathfinder_multi: We do now.
+↩ (goto) global_turian_pathfinder_multi: Name's Avitus Rix. Sorry if my methods seem extreme. Civilian life is... trying.

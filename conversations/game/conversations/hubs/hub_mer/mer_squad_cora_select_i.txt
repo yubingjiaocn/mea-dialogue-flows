@@ -1,0 +1,53 @@
+# game/conversations/hubs/hub_mer/mer_squad_cora_select_i
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_mer/mer_squad_cora_select_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human: Keeping up your training? Shouldn't get soft.
+    global_squad_female_human: This place is great for a jog if you follow the equator. Like running up the longest wall in the galaxy. Want to try?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You run, I'll be right at your side.
+        global_squad_female_human: I know, sweetheart. So you'll be there first thing tomorrow?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sounds good. First one to three miles makes breakfast.
+            global_squad_female_human: They'll always expect more from us. But we always deliver. See you at oh-five-hundred.
+        ├ option 2:
+            Hero: I saved a whole cluster. When do I get time off?
+            global_squad_female_human: Sorry. They're calling us heroes. Heroes don't get to sleep in.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: Sounds good. First one to three miles makes breakfast.
+    ├ option 3:
+        ↩ (goto) Hero: I saved a whole cluster. When do I get time off?
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: A few of the others are talking about settling down. Putting down roots.
+    Hero: You don't like the idea?
+    global_squad_female_human: I like you and me, and a garden. But I like open skies and stopping bad guys, too.
+    global_squad_female_human: Maybe I'm used to living in other people's houses.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Look around. That's basically what everyone in the Initiative does.
+        global_squad_female_human: Ha. True enough.
+        global_squad_female_human: We all came for a new life. I just... want to live mine out there a little longer. With you.
+    ├ option 2:
+        Hero: Think you'll ever want a somewhere of your own? {i}Our{/i} own, maybe?
+        global_squad_female_human: When you're around, I rule nothing out. It's tempting.
+        ↩ (goto) global_squad_female_human: We all came for a new life. I just... want to live mine out there a little longer. With you.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Hey, you.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Always a pleasure.
+    ├ option 3:
+        global_squad_female_human: Ryder.
+    ├ option 4:
+        global_squad_female_human: Good to see you.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

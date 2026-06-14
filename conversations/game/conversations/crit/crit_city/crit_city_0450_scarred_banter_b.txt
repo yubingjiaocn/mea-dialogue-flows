@@ -1,0 +1,470 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0450_scarred_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0450_scarred_banter_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: This was some fight.
+    SAM: Detecting high levels of Scourge energy. Be careful.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: What happened here?
+    ↩ (goto) SAM: Detecting high levels of Scourge energy. Be careful.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Ugh. It looks kinda gross, doesn't it?
+    ↩ (goto) SAM: Detecting high levels of Scourge energy. Be careful.
+├ option 4:
+    global_squad_turian ⟨cond⟩: The kett must avoid this place.
+    ↩ (goto) SAM: Detecting high levels of Scourge energy. Be careful.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Impossible. It looks like... incredible.
+    ↩ (goto) SAM: Detecting high levels of Scourge energy. Be careful.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Well. Ever better.
+    ↩ (goto) SAM: Detecting high levels of Scourge energy. Be careful.
+└─ merge ─┘
+Hero: This area's taken a lot of damage. Let's hope we can still get it up and running.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Pathfinder, I am quickly building a workable database of the Remnant language.
+    SAM: We have not encountered instances of it in such abundance before.
+├ option 2:
+    SAM: Pathfinder, the Remnant language bears striking similarity to angaran.
+    Hero: That... makes a lot of sense, actually.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: This place is huge—and a maze!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: This is huge. Someone remember the way we're going.
+├ option 3:
+    global_squad_asari ⟨cond⟩: This place is huge! I hope we don't get too lost.
+├ option 4:
+    global_squad_turian ⟨cond⟩: I hope we've got a way to track where we've been. This city is enormous!
+├ option 5:
+    global_squad_angara ⟨cond⟩: I hope someone here has a good sense of direction. I don't.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Massive! Better leave breadcrumbs.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Have we been here already?
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Wait, weren't we here?
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I wonder why they built it like this? Could it be related to how they think?
+    global_squad_asari: Isn't it fascinating?
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Who builds something like this? And why? It makes no sense!
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: What could be the purpose of a maze like this?
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Feels like mice in a maze. The cheese they hide is never worth the running.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Ryder, you also activated the Remnant defenses!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Watch out! The Remnant have woken up!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Restoring power woke up the Remnant!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Forget about the kett! We've got Remnant!
+├ option 5:
+    global_squad_angara ⟨cond⟩: Restoring power woke up the Remnant!
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Ryder! Turning on power activated Remnant defenses!
+└─ merge ─┘
+Hero: Wow, I think that's fried. Will it even work?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Don't look at me.
+    SAM: Damage to parts of the system are preventing power-up.
+    Hero: Can we reroute past the damage?
+    SAM: That may work, Pathfinder. Boosting trace signals...
+├ option 2:
+    global_squad_female_human ⟨cond⟩: You're the expert.
+    ↩ (goto) SAM: Damage to parts of the system are preventing power-up.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Come on. I'm sure some of this stuff's still okay.
+    ↩ (goto) SAM: Damage to parts of the system are preventing power-up.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Hey, I just shoot the guns.
+    ↩ (goto) SAM: Damage to parts of the system are preventing power-up.
+├ option 5:
+    global_squad_angara ⟨cond⟩: I have no idea. Ask SAM?
+    ↩ (goto) SAM: Damage to parts of the system are preventing power-up.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: I got nothing.
+    ↩ (goto) SAM: Damage to parts of the system are preventing power-up.
+└─ merge ─┘
+Hero: Still need to reroute power from the other nearby consoles.
+Hero: I think that's it?
+SAM: The primary console should work now, Pathfinder.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Huh. I've seen a lot, but this is something else.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Wow. It's... beautiful.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Wow. When it's all turned on, it's pretty incredible, isn't it?
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Wow. Those lights. This is... something else. Good job, Ryder.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: That is amazing. I'm so lucky to see it.
+    ↩ (goto) global_squad_male_human: [empty]
+├ option 6:
+    global_squad_male_human ⟨cond⟩: That's incredible. This whole place.
+    ↩ (goto) global_squad_male_human: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Lots of stuff here. Had to have a purpose.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+    ├ option 2:
+        SAM [OncePerGame]: Detecting low levels of power, Pathfinder. A scan may help identify conduits.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: All this tech. This was something big.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        ↩ (goto) SAM [OncePerGame]: Detecting low levels of power, Pathfinder. A scan may help identify conduits.
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Look at all this Remnant stuff! It's like my birthday!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        ↩ (goto) SAM [OncePerGame]: Detecting low levels of power, Pathfinder. A scan may help identify conduits.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I've never seen anything like this! I wonder what the Remnant builders did here?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        ↩ (goto) SAM [OncePerGame]: Detecting low levels of power, Pathfinder. A scan may help identify conduits.
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: This is unbelievable. I wish we had time to really dive in.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        ↩ (goto) SAM [OncePerGame]: Detecting low levels of power, Pathfinder. A scan may help identify conduits.
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Everything here has a purpose, and we haven't got a clue.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM: [empty]
+    ├ option 2:
+        ↩ (goto) SAM [OncePerGame]: Detecting low levels of power, Pathfinder. A scan may help identify conduits.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (9) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: That's not right.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        SAM: Incoming hostile.
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: That looks wrong.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Um, I think you poked the wrong one.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Please tell me you know what you're doing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: That didn't look right.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Sounds off. Wrong button?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 7:
+    Hero: Shoot.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 8:
+    Hero: Oops.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+├ option 9:
+    Hero: Damn it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM [OncePerGame]: That triggered Remnant defenses, Pathfinder.
+    ├ option 2:
+        ↩ (goto) SAM: Incoming hostile.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (9) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Maybe do more of that.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: You got it.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Ooh! Good choice!
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I think you're on the right track.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Seems to be working.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: That's getting it.
+├ option 7:
+    Hero: So far, so good.
+├ option 8:
+    Hero: Nice.
+├ option 9:
+    Hero: Excellent.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: I'm starting to really hate these things.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know. I think they're cute. Except for the shooting part.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Damn it! Go observe someone else!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know. I think they're cute. Except for the shooting part.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: These tentacle jackasses! They're always popping up at the worst times!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know. I think they're cute. Except for the shooting part.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Those observers are annoying!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know. I think they're cute. Except for the shooting part.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Getting tired of observers!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: I don't know. I think they're cute. Except for the shooting part.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Lot of firepower for one district.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Just the way I like it.
+    ├ option 2:
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: This is a lot of defenses. It's like there's a gun around every corner.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Just the way I like it.
+    ├ option 2:
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Defenses everywhere, and they're all shooting at us.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Just the way I like it.
+    ├ option 2:
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: So. Many. Guns! It's like there's a gun around every corner.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Just the way I like it.
+    ├ option 2:
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Enough turrets yet? They're everywhere.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Just the way I like it.
+    ├ option 2:
+        ↩ (goto) global_squad_krogan: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Remnant stomped the kett hard.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Tragic. Let's go.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Probably deserved it.
+        ↩ (goto) global_squad_male_human: [empty]
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Saves us the trouble.
+        ↩ (goto) global_squad_male_human: [empty]
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: It still hurts to see it, sometimes.
+        ↩ (goto) global_squad_male_human: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Had it coming, probably.
+        ↩ (goto) global_squad_male_human: [empty]
+    ├ option 6:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Huh. Those Remnant took the kett to the cleaners.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: That must've been a beautiful sight.
+        ↩ (goto) global_squad_male_human: [empty]
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: Probably deserved it.
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: Saves us the trouble.
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It still hurts to see it, sometimes.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Had it coming, probably.
+    ├ option 6:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Ouch. Kett got their asses kicked.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: That must've been a beautiful sight.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Tragic. Let's go.
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: Saves us the trouble.
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It still hurts to see it, sometimes.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Had it coming, probably.
+    ├ option 6:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Looks like the Remnant took out some kett garbage.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: That must've been a beautiful sight.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Tragic. Let's go.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: Probably deserved it.
+    ├ option 4:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It still hurts to see it, sometimes.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Had it coming, probably.
+    ├ option 6:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Looks like the kett here were destroyed.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: That must've been a beautiful sight.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Tragic. Let's go.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: Probably deserved it.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: Saves us the trouble.
+    ├ option 5:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Had it coming, probably.
+    ├ option 6:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Remnant beats kett. File that for later.
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: That must've been a beautiful sight.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Tragic. Let's go.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: Probably deserved it.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩ [OncePerGame]: Saves us the trouble.
+    ├ option 5:
+        ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It still hurts to see it, sometimes.
+    ├ option 6:
+        ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Had it coming, probably.
+    ├ option 7:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+Hero: What the...? This wasn't here before!
+SAM: Tampering with circuits has triggered emergency security. We may be able to override it once power is restored.
+Hero: Security's down. We're good here.
+Hero: The kett are probably waiting out there for us, so stay alert.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Got it.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Gotcha.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Got it.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Of course.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Always am.
+└─ merge ─┘

@@ -1,0 +1,42 @@
+# game/conversations/unc/storms/stm_8300_finish_beacons_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_8300_finish_beacons_b.xml
+==================================================
+SAM: Recording navpoints for survey beacon placement. A trivial task.
+Hero: Wasn't trivial to this technician. Load his protocol. The job doesn't go unfinished.
+stm_outpost_staff_new_04: [Audio Log] Job started. Another step forward. Keep it up, dad.
+Hero: SAM, what am I hearing?
+SAM: Technician Eric Camber's beacon protocols. They appear to include recorded motivational logs.
+stm_outpost_staff_new_04: [Audio Log] Progress made, whatever it is. Each day, one at a time. You'll be fine.
+Hero: Okay. Where's this going?
+stm_outpost_staff_new_04: [Audio Log] Progress, right dad? Probably simple, but in a new galaxy and after I... never mind.
+Hero: What are you talking about, kid?
+stm_outpost_staff_new_04: [Audio Log] Keep it up, dad. You promised. Doesn't matter that I'm sick. You're in the future.
+Hero: I don't know if I'm okay with this.
+stm_outpost_staff_new_04: [Audio Log] Another job done, dad. Reset, and hit the next. I'm watching, and I'm proud.
+stm_outpost_staff_new_04: [Audio Log] Eric Jr., signing off.
+Hero: Job done, Erics.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: {i}(Sniffs.){/i}
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Let's, uh, go shoot many things?
+├ option 3:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: It's raining, right? I, uh, feel rain on my face.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Shit.
+├ option 5:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Can we get off this dusty rock?
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ↩ (goto) Hero [OncePerGame]: [empty]
+├ option 2:
+    ↩ (goto) Hero [OncePerGame]: [empty]
+├ option 3:
+    ↩ (goto) Hero [OncePerGame]: [empty]
+├ option 4:
+    ↩ (goto) Hero [OncePerGame]: [empty]
+├ option 5:
+    ↩ (goto) Hero [OncePerGame]: [empty]
+└─ merge ─┘

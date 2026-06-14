@@ -1,0 +1,23 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0100_start_mission_i
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0100_start_mission_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_ex_res_pilot_multi [OncePerGame]: Are you the Pathfinder that Evfra was talking about?
+    Hero: That's me.
+    crit_ex_res_fighter_3_multi: We're the team assigned to breach the facility with you. Hopefully rescue Moshae Sjefa.
+    crit_ex_res_pilot_multi: I'm your pilot. The kett facility is on the other side of the planet.
+    crit_ex_res_fighter_3_multi: Ready to head out?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: No time to waste. You can fill me in on the shuttle.
+        crit_ex_res_pilot_multi: Okay. Everybody in.
+    ├ option 2:
+        Hero: I'll be back.
+        crit_ex_res_pilot_multi: And we'll be here.
+    └─ merge ─┘
+├ option 2:
+    crit_ex_res_pilot_multi: Ready to head to the kett facility?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

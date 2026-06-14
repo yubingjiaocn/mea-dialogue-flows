@@ -1,0 +1,47 @@
+# game/conversations/hubs/hub_nexus/bar/nex_bar_anan_fetchquests_i
+# Primary speaker: nex_bar_tender_02
+# Source: game/conversations/hubs/hub_nexus/bar/nex_bar_anan_fetchquests_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_bar_tender_02 ⟨cond⟩ [OncePerGame]: Interesting. Thanks, Pathfinder!
+    ├ option 2:
+        nex_bar_tender_02 ⟨cond⟩ [OncePerGame]: Those look horrifying. Dutch'll love them.
+    ├ option 3:
+        nex_bar_tender_02 ⟨cond⟩ [OncePerGame]: Wow, where did you find those? Never mind, don't answer that.
+        nex_bar_tender_02: I think they're straight from the Milky Way.
+    └─ merge ─┘
+├ option 2:
+    nex_bar_tender_02: Changed your mind about those ingredients?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I have indeed. What can I do?
+        nex_bar_tender_02: So, folks try to help and all, but we have a... limited pool of ingredients.
+        nex_bar_tender_02: Keep an eye out for anything interesting we could use for new drinks, and we'll let you test them for free.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: So, Dutch gets ingredients and the guinea pig he wanted, huh.
+            nex_bar_tender_02: Exactly! Win-win, all around.
+        ├ option 2:
+            Hero: Riiight. I get a feeling the testing will be interesting.
+            nex_bar_tender_02: Don't worry. Dutch may complain a lot, but he's loving it.
+            nex_bar_tender_02: And he's the best chemist I know. You're in good hands!
+            ↩ (goto) nex_bar_tender_02: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Sorry, still too busy. Later.
+        nex_bar_tender_02: Sure thing. Happy pathfinding!
+    └─ merge ─┘
+├ option 3:
+    nex_bar_tender_02: Hey! I was wondering if you could help me out? It's for the good of the bar.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Lay it on me.
+        ↩ (goto) nex_bar_tender_02: So, folks try to help and all, but we have a... limited pool of ingredients.
+    ├ option 2:
+        Hero: Bit busy right now. Maybe later?
+        ↩ (goto) nex_bar_tender_02: Sure thing. Happy pathfinding!
+    └─ merge ─┘
+└─ merge ─┘

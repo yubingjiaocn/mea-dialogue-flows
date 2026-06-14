@@ -1,0 +1,93 @@
+# game/conversations/unc/biolum/bio_0310_sanc_sage_qs_d
+# Primary speaker: bio_sage_leader
+# Source: game/conversations/unc/biolum/bio_0310_sanc_sage_qs_d.xml
+==================================================
+bio_sage_leader: Taavos has come to us. Did you know that, Pathfinder?
+bio_sage_leader: He has surrendered to a period of peace and solitude to organize his thoughts.
+Hero: What's next for him?
+bio_sage_leader: That depends on him.
+bio_sage_leader: Havarl owes you a debt, Pathfinder, but your presence upsets many of the people in my charge.
+bio_sage_leader: I hope you will respect our wishes and limit your visits here.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You spoke before about reconsidering your seclusion.
+    bio_sage_leader: Perhaps we will learn to communicate with the outside world again, but it will take time.
+    bio_sage_leader: We cannot overturn generations of tradition in one night.
+    bio_sage_leader: Now, if there's nothing else...
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        Hero: Tell me more about Zorai.
+        bio_sage_leader: The histories describe him as both scholar and soldier. He traveled the stars and gained knowledge from far-off places.
+        bio_sage_leader: There are even accounts of him having knowledge of the Remnant builders and their machines.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: And the third monolith?
+            bio_sage_leader: Our legends say that Zorai sought out the monoliths after the Scourge came.
+            bio_sage_leader: He died, and it is unclear if he accomplished what he set out to do.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: You mentioned an heirloom, an object you'll think will bring Zorai's memories back?
+        bio_sage_leader: Souls return within families. Sometimes, the memories of the past can be recalled by an object meaningful to that family.
+        bio_sage_leader: We do not understand why or how this happens, and it has only happened on rare occasions.
+        bio_sage_leader: In all cases, the heirloom was ancient, old angara tech from before the Scourge.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        Hero: Why do you remain secluded here?
+        bio_sage_leader: The chaos brought on by the Scourge splintered our people and all but destroyed our civilization.
+        bio_sage_leader: Fear took hold. False beliefs about our predicament were seeded and began to influence angaran thought.
+        bio_sage_leader: In order to maintain the integrity of what they knew to be true, four families left their community to come here.
+        bio_sage_leader: We've remained ever since.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        Hero: Tell me more about your belief in reincarnation.
+        bio_sage_leader: The soul grows through many lifetimes. By seeing through different eyes, it gains wisdom.
+        Hero: How do you grow if you don't remember?
+        bio_sage_leader: The growth of the soul is not like the growth of the mind. Memories are not required for the soul to develop.
+        bio_sage_leader: Some even argue that old memories are an unwelcome distraction.
+        bio_sage_leader: A person may become fixated on what was, and their soul consequently stagnates.
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        Hero ⟨cond⟩: Do your histories say anything about a creator race?
+        bio_sage_leader: There have been tales of angara who felt they were being observed.
+        bio_sage_leader: The tales were, for the most part, dismissed. No one actually saw these observing entities. They merely claimed feeling a strange presence.
+        ↩ (goto) Hero: [empty]
+    ├ option 6:
+        Hero: I'll go. Thank you for speaking to me.
+        bio_sage_leader: Of course.
+    └─ merge ─┘
+├ option 2:
+    Hero: I just wanted to see how you were doing. There have been lots of changes in a short time.
+    bio_sage_leader: Thank you for your concern, but with the vault working again, we will be fine. Better than fine.
+    ↩ (goto) bio_sage_leader: Now, if there's nothing else...
+└─ merge ─┘
+bio_sage_leader: Your ability to interface with Remnant is fascinating. Perhaps it is because you are unlike the kett.
+bio_sage_leader: The kett control and subjugate. But the more they force the Remnant, the more it resists.
+bio_sage_leader: You are respectful. Interested in learning. I wonder if this is why the Remnant responds.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Actually, I have an artificial intelligence in my head that helps with translation and analysis.
+    bio_sage_leader: Interesting, but it doesn't quite disprove my theory. Your artificial intelligence works with the Remnant, not against it.
+    bio_sage_leader: Let us set this aside for now. Is there something you need?
+    Hero: I have questions. A lot of them, actually.
+    bio_sage_leader: I suppose it won't hurt to provide you with some answers.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    Hero: Are you saying that Remnant things work for me because I'm {i}nice{/i} to them?
+    bio_sage_leader: Not precisely, but somewhat. Doesn't it make a little sense?
+    ↩ (goto) bio_sage_leader: Let us set this aside for now. Is there something you need?
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    bio_sage_leader ⟨cond⟩: You've returned.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    bio_sage_leader: You have questions?
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    bio_sage_leader: You're still here, I see.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+↩ (goto) Hero: [empty]

@@ -1,0 +1,116 @@
+# game/conversations/unc_ice/ice_0010_first_boots_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_0010_first_boots_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Jaal wasn't kidding. There's no way anyone could find anything through all the snow.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Where are we meeting the Resistance team?
+        global_crew_science_officer: [Comm] Sent you the navpoint. Good luck, Pathfinder.
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara: Step carefully. Ice and darkness—deadly combination.
+            Hero: This is an impressive set up. A functional base on an ice mountain.
+            global_squad_angara: We're a strong people who are only momentarily burdened.
+        ├ option 2:
+            global_squad_angara: [Comm] Keep going, Ryder. Try not to make any sudden movements. You're probably being watched.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: Oh. Lovely.
+            ├ option 2:
+                global_squad_krogan ⟨cond⟩: How many snipers do you think I got trained on me?
+            ├ option 3:
+                global_squad_turian ⟨cond⟩: Great. They really mean business, don't they?
+            ├ option 4:
+                global_squad_asari ⟨cond⟩: At least we're being warned. That's a bright side.
+            ├ option 5:
+                global_squad_female_human ⟨cond⟩: Not just the weather that's icy then.
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Secluded. Blizzard provides cover. Great for a hidden base.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_turian ⟨cond⟩: Good place for a secret hideout. The snow and ice camouflages everything.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_asari ⟨cond⟩: If you didn't know anything was here, you wouldn't think anything was here.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Damn, this place is well-hidden.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Heaters! I need to warm up for a bit. This cold is cutting through to the bone.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We're almost there. We'll need to talk to Commander Anjik when we arrive.
+    ├ option 2:
+        global_squad_angara: [Comm] Almost at the base now. Make sure you talk to Commander Anjik when you arrive.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: These heaters are a lifesaver.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: We're almost there. We'll need to talk to Commander Anjik when we arrive.
+    ├ option 2:
+        ↩ (goto) global_squad_angara: [Comm] Almost at the base now. Make sure you talk to Commander Anjik when you arrive.
+    └─ merge ─┘
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Heater, straight on. Any squishies need to warm up?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: We're almost there. We'll need to talk to Commander Anjik when we arrive.
+    ├ option 2:
+        ↩ (goto) global_squad_angara: [Comm] Almost at the base now. Make sure you talk to Commander Anjik when you arrive.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian ⟨cond⟩: Heater, right ahead. I need a minute to defrost.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: We're almost there. We'll need to talk to Commander Anjik when we arrive.
+    ├ option 2:
+        ↩ (goto) global_squad_angara: [Comm] Almost at the base now. Make sure you talk to Commander Anjik when you arrive.
+    └─ merge ─┘
+├ option 5:
+    global_squad_asari ⟨cond⟩: A heater! Let me warm up for a second. I've never been this cold.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: We're almost there. We'll need to talk to Commander Anjik when we arrive.
+    ├ option 2:
+        ↩ (goto) global_squad_angara: [Comm] Almost at the base now. Make sure you talk to Commander Anjik when you arrive.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: It's not so bad.
+├ option 2:
+    global_squad_angara ⟨cond⟩: I haven't been here in a long time.
+├ option 3:
+    global_squad_angara ⟨cond⟩: Where do we meet the Resistance Team?
+└─ merge ─┘

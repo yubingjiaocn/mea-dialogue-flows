@@ -1,0 +1,32 @@
+# game/conversations/unc/olw/general/olw_0100_weapons_cache_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/general/olw_0100_weapons_cache_b.xml
+==================================================
+SAM: Approaching navpoint for the weapons cache, Pathfinder.
+Hero: Hope it's worth the credits.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: The turian set us up! What a surprise!
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: I think Thrasia set us up!
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Just a guess, but I think we were set up!
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: We've been played!
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Shit. Were we set up?
+└─ merge ─┘
+Hero: Think that's all of them.
+Hero [OncePerGame]: It's full. After that ambush, I thought the whole thing was a scam.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: We should confront the turian. Demand an explanation.
+├ option 2:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Turian's still got explaining to do.
+├ option 3:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: I still want an explanation.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Let's just get out of here. Before more exiles show.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Maybe Thrasia didn't know about the exiles?
+└─ merge ─┘

@@ -1,0 +1,113 @@
+# game/conversations/unc_ice/ice_4240_pow_quest_pt3_twn2_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_4240_pow_quest_pt3_twn2_i.xml
+==================================================
+ice_buxil: Thank you for everything you've done.
+ice_buxil: My people have fought a lonely battle against the kett. It's nice to finally have someone to fight beside.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Tell me about Niilj. What does he do?
+    ice_buxil: He's one of the best agents in the Resistance. His squad has completed dozens of missions. They have hundreds of kett kills.
+    ice_buxil: They call him Shavod-gaan. "Whisper."
+    ice_buxil: Funny, because he could never keep his voice down when we were children.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    Hero: What is your role in the Resistance?
+    ice_buxil: I'm a data analyst. Sometimes hacker. I try to leave the fighting to those that are good at it.
+    ice_buxil: I used to do research at Ja Niihk, before the kett occupied it. I barely escaped the attack.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Ja Niihk?
+        ice_buxil: An ancient angara city, frozen in the ice. The kett claimed it for themselves.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_buxil ⟨cond⟩: If the command base is taken out, we could turn our attention there.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    Hero ⟨cond⟩: Anything you can tell me about the kett command center?
+    ice_buxil: That base is the center of kett operations on Voeld. The labor camps, comms outposts, even the dig at Ja Niihk.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    Hero: I'll let you go.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_buxil ⟨cond⟩: Good. We need to take down that kett base while we can.
+    ├ option 2:
+        ice_buxil: Very well. It was nice to see you again.
+    └─ merge ─┘
+└─ merge ─┘
+Hero ⟨cond⟩ [OncePerGame]: Are you Buxil? I have something for you.
+ice_buxil: From my brother who can't stop being a hero? Yes, Anjik told me to expect you.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_buxil ⟨cond⟩: My son Skeot said he'd sent people after Niilj. I thought "more lives lost." Nice to see I was wrong.
+    ice_buxil: Thanks for getting him out. Losing him would've set our efforts back months.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Is the data they carried that important?
+        ice_buxil: Niilj and the commander seem to think so.
+        ice_buxil: Now, let's see what we have here.
+        ice_buxil: Stars and skies. This is... this is a layout of the kett command center. Entrances, exits, security. We'll be able to cripple their operations.
+        ice_buxil: Wait, there's something else here... oh. That's not good.
+        Hero: What?
+        ice_buxil: The base entrances are shielded and locked with a code which changes. Often.
+        ice_buxil: Metadata tells me they downloaded this weeks ago. The code is about to change again.
+        ice_buxil: If an attack is going to happen, it needs to happen now.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Let me help. Tell me what to do.
+            ice_buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
+            ice_buxil: I've sent you the map and a navpoint for a side entrance that won't have as many guards.
+            ice_buxil: Go, quickly! We'll be in touch.
+        ├ option 2:
+            Hero: Crap. That's a lot of pressure.
+            ice_buxil: By the time the Resistance gets a team together, it might be too late. But your squad is ready.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: I agree. If this is our only chance, it's up to us.
+                ↩ (goto) ice_buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
+            ├ option 2:
+                ↩ (goto) ice_buxil: The code to disable the security shields is encrypted, but I'll keep working on it.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Losing family is hard. I'm glad I could spare you that pain.
+        ice_buxil: Thank you. They talk about your abilities, but no one's said anything about your kindness.
+        Hero: Oh... pfft.
+        ↩ (goto) ice_buxil: Now, let's see what we have here.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) ice_buxil: Thanks for getting him out. Losing him would've set our efforts back months.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_buxil [OncePerGame]: Why are you still here? Get going or we'll miss our chance.
+        Hero: I just have a couple of questions.
+        ice_buxil: All right. I'll try to answer quickly.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        ice_buxil: If you have questions, let's make it quick.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ice_buxil: What do you need?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        ice_buxil: Yes?
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        ice_buxil: Questions?
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

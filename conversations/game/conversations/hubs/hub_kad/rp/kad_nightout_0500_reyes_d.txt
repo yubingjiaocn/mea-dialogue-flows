@@ -1,0 +1,128 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0500_reyes_d
+# Primary speaker: kad_charlatan
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0500_reyes_d.xml
+==================================================
+Narration: Ryder walks into Sloane's stockroom to find Reyes inspecting a wall of crates.
+kad_charlatan: Damn it. Why can't the serial numbers be in the same spot?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: "Take the night off. Come out for a drink." Should've known you were up to something.
+    kad_charlatan: Ryder! It's not what it looks like.
+    Hero: So you didn't use me as a distraction to go through Sloane's stuff?
+    kad_charlatan: Okay, yes. But it's for both our benefit! I promise.
+    Hero: You've been making a lot of promises—
+    Narration: Loud footprints approach the stockroom.
+    kad_charlatan: Shit—someone's coming! We need a distraction!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Narration ⟨cond⟩: Reyes and Ryder look at the door.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Narration: Ryder pulls a surprised Reyes in for a passionate kiss just as an Outcast Pirate reaches the stockroom door.
+            Narration: The pirate enters the stockroom. She spots Reyes and Ryder making out and freezes.
+            kad_outcast_pir_02: Oh. {i}(Clears throat.){/i} Sorry.
+            Narration: The pirate leaves. Reyes and Ryder continue to kiss. Eventually, they pull back for air.
+            kad_charlatan: I think we're in the clear.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Maybe another kiss? Just to be sure.
+                kad_charlatan: {i}(Chuckles.){/i} Now you're just teasing me.
+                Hero: {i}(Chuckles.){/i}
+                Narration: Reyes inspects the crates once more until he finally finds what he was looking for.
+                kad_charlatan: Finally! Here it is.
+                Narration: Reyes opens the crate and triumphantly pulls out a bottle of whiskey.
+                Hero: That's what this was all about? Whiskey?
+                kad_charlatan: The only bottle of Mount Milgrom in Andromeda. Triple-distilled and 645 years old. This isn't whiskey—it's treasure.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I hope you're planning on sharing.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Narration ⟨cond⟩: Reyes smiles at Ryder, then grabs her hand.
+                        kad_charlatan: We'll see... Let's get out of here.
+                        Narration: They run from the stockroom.
+                        Narration: CUT TO: Ryder and Reyes leaning against the market railing.
+                        Narration: They both have a glass of Mount Milgrom in their hands and are enjoying a breathtaking view of Kadara.
+                        kad_charlatan: Gorgeous, isn't it? I sometimes forget.
+                        Narration: Reyes studies Ryder.
+                        kad_charlatan: Is Andromeda everything you hoped it would be?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Every day's an adventure. Even my nights off are interesting.
+                            Hero: What about you? Why did you come here, Reyes?
+                            Narration: Reyes stares out at the vista. This is a very personal question for him.
+                            kad_charlatan: To be someone.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero: You're someone to me.
+                                Narration: Reyes looks genuinely touched.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    kad_charlatan ⟨cond⟩: I'm starting to think that kiss was more than just a distraction.
+                                    Narration: Ryder smiles as Reyes leans in and kisses her.
+                                ├ option 2:
+                                    Narration: He raises his glass to Ryder.
+                                    kad_charlatan: To new adventures.
+                                    Hero: And new friends.
+                                    Narration: The two turn back towards the vista. Scene ends.
+                                └─ merge ─┘
+                            ├ option 2:
+                                Hero: That sounded surprisingly genuine, coming from you.
+                                Narration: Reyes smiles sadly and his back straightens. His mask is back up.
+                                kad_charlatan: I'm always genuine, Ryder. In my own way.
+                                Narration: The two turn back towards the vista. Scene ends.
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: I knew things wouldn't be easy, but this is more than I signed up for.
+                            ↩ (goto) Hero: What about you? Why did you come here, Reyes?
+                        └─ merge ─┘
+                    ├ option 2:
+                        Narration: Reyes smiles at Ryder, then pats her on the back.
+                        ↩ (goto) kad_charlatan: We'll see... Let's get out of here.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: You really need to rethink your priorities.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) Narration ⟨cond⟩: Reyes smiles at Ryder, then grabs her hand.
+                    ├ option 2:
+                        ↩ (goto) Narration: Reyes smiles at Ryder, then pats her on the back.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: That was just a distraction.
+                kad_charlatan: It'll be our little secret.
+                ↩ (goto) Narration: Reyes inspects the crates once more until he finally finds what he was looking for.
+            └─ merge ─┘
+        ├ option 2:
+            Narration: Ryder crosses her arms and gives Reyes a scolding look.
+            kad_charlatan: Hide.
+            Hero: That's your plan?
+            Narration: The Outcast Pirate reaches the stockroom door. Ryder and Reyes hide behind the crates.
+            Narration: The pirate enters the stockroom. She grabs a couple of bottles (or whatever is easiest for cine) then leaves.
+            Narration: Ryder and Reyes let out a sigh of relief.
+            Narration: Reyes inspects the crates once more until he finally finds what he was looking for.
+            ↩ (goto) kad_charlatan: Finally! Here it is.
+        └─ merge ─┘
+    ├ option 2:
+        Narration: Reyes and Ryder look at the door.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sorry.
+            Narration: Reyes looks confused just before Ryder punches him in the stomach. He doubles over as the Outcast pirate reaches the stockroom door.
+            Narration: The pirate enters the stockroom. She spots Ryder patting Reyes on the back.
+            Hero: My friend had a bit too much to drink.
+            kad_charlatan: {i}(Groans.){/i}
+            Narration: The pirate looks at Reyes with disgust, then shakes her head, and leaves.
+            Narration: Reyes glares at Ryder.
+            Hero: Hey—it worked.
+            kad_charlatan: Next time, I come up with the plan.
+            ↩ (goto) kad_charlatan: Finally! Here it is.
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Whatever you're doing—it stops now.
+    ↩ (goto) kad_charlatan: Ryder! It's not what it looks like.
+└─ merge ─┘

@@ -1,0 +1,70 @@
+# game/conversations/rel/vetra/vet_r4_tem_dreaming_d
+# Primary speaker: global_squad_turian
+# Source: game/conversations/rel/vetra/vet_r4_tem_dreaming_d.xml
+==================================================
+vet_smugglercontact: [Comm] You realize that even if I do find it, it's going to cost you?
+global_squad_turian: And you know I'm always true to my word, so just get it done.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Do you feel it? People aren't as scared of the kett as they used to be.
+    global_squad_turian: They used to be terrifying. Faceless. But we got the Archon. Now everyone knows they're not so tough.
+    Hero: Didn't sound like you were discussing kett over comms when I walked in, though.
+    global_squad_turian: Wasn't. I have a friend keeping a lookout for a lamp. One brought from home, but stolen in the revolt.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You were mad at Sid for wanting nonessentials. Now you're using contacts to find a lamp?
+        global_squad_turian: Maybe Sid had a point. The small things keep us going.
+        global_squad_turian: Suvi has her father's antique instruments. Cora her asari prayer book. And Liam has... the junk that Liam collects.
+        global_squad_turian: These things are important. They remind us where we came from.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I know what you mean. I never want to forget what I left behind.
+            global_squad_turian: Even as we look forward to the future. Yes.
+            Hero: So what's so special about this lamp?
+            global_squad_turian: It's awful. It's got a butt-naked asari for the stand, and she's holding... a moon.
+            Hero: One of your prized possessions is a really ugly lamp?
+            global_squad_turian: The foreman at my first job had this lamp. When he was mean, I'd focus on it, so he wouldn't see me upset.
+            global_squad_turian: Now I keep it so I remember where I started.
+            global_squad_turian: Most of my life was doing stuff to survive, taking shit from assholes, or... being one.
+            global_squad_turian: I don't have to do that anymore. I can start over. Something honest.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Do you really want to start over? After everything you've been through?
+                global_squad_turian: I don't know. The point is, I have the choice of changing if I wanted to.
+                global_squad_turian: For a while, I didn't care that I'd lost the lamp. Everything was a mess and it... just didn't matter.
+                global_squad_turian: But we've made progress, Ryder. Small things matter again. People are daring to dream.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero: We'll get you the lamp. Even if it's not the same one. We'll make you a new one.
+                    global_squad_turian: If we make new ones, we'll have to get you one too.
+                ├ option 2:
+                    Hero: It's nice seeing you like this.
+                    global_squad_turian: I know. I like being able to let go and do something for myself for once.
+                    global_squad_turian: Let's hope this is just the start, huh?
+                ├ option 3:
+                    Hero ⟨cond⟩: I think my dream is finding someone special to explore the galaxy with.
+                    global_squad_turian: Oh? And have you found that person?
+                    Hero: I'm pretty sure I have.
+                    Hero: You'll love her. She's tall. Great with guns and getting people to do what she wants.
+                    global_squad_turian: {i}(Laughs.){/i}
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Honest work? Vetra, you'd be an awful farmer.
+                global_squad_turian: Yeah? You don't know that. Point is, I could be anything.
+                ↩ (goto) global_squad_turian: For a while, I didn't care that I'd lost the lamp. Everything was a mess and it... just didn't matter.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: We came here to secure our future. We can't do that if we're still looking back.
+            global_squad_turian: You have to look back to see how far you've come.
+            ↩ (goto) Hero: So what's so special about this lamp?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I didn't think you were so sentimental.
+        global_squad_turian: I'm not the only one.
+        ↩ (goto) global_squad_turian: Suvi has her father's antique instruments. Cora her asari prayer book. And Liam has... the junk that Liam collects.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian: I'm hearing that kett activity's down. I bet the Archon's still nursing his wounds.
+    global_squad_turian: That means he can be beaten. The kett can be beaten. People are waking up to that.
+    ↩ (goto) Hero: Didn't sound like you were discussing kett over comms when I walked in, though.
+└─ merge ─┘

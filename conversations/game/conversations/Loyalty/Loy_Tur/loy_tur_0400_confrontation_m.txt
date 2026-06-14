@@ -1,0 +1,70 @@
+# Game/Conversations/Loyalty/Loy_Tur/loy_tur_0400_confrontation_m
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0400_confrontation_m.xml
+==================================================
+Narration: Escaping the base, the squad discover Meriweather waiting with Sid grabbed by the back of her neck. Meriweather is holding a flashing grenade.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    loy_tur_outlawboss: Think carefully about your next move, Pathfinder.
+    Hero: That explodes, it takes you out, too.
+    loy_tur_outlawboss: You won't let that happen.
+    nex_vetra_sister_multi: Vetra...
+    global_squad_turian: It's going to be okay. We're going to get you out of this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Okay. We're talking. Now what?
+        loy_tur_outlawboss: Put your weapons on the ground.
+        Narration: Ryder nods at Vetra. They slowly lower their weapons to the ground. Meriweather looks antsy.
+        Narration: As she crouches, Vetra takes the opportunity to look at Ryder. She indicates her gun and then subtly cocks her head towards Meriweather.
+        Narration: Ryder notices Vetra's power armor "juicing up," pistons ready. She's like a cat ready to pounce.
+        Narration: The sound of footsteps. It's Meriweather's people (other outlaws). Meriweather looks up and is briefly distracted. This is an opening!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Narration: Just as Ryder's gun touches the ground, Ryder jumps back up and shoots Meriweather in the shoulder, on the side with the grenade.
+            Narration: Vetra knocks Meriweather aside and scoops up the dangerously flashing grenade. She hurls it away and jumps on Sid to shield her from the blast.
+            Narration: Meriweather recovers from her blow. She shoots at Vetra and Sid, but misses. Vetra herds Sid behind cover.
+            loy_tur_outlawboss: Get them! Kill all of them!
+            Narration: Combat starts.
+        ├ option 2:
+            Narration: Ryder puts his/her gun down, and stands back up slowly.
+            Narration: Vetra looks surprised, but quickly follows Ryder's lead by leaving her gun.
+            Hero: So this is what you're all about? Kidnapping? Threatening children?
+            Hero: That's what you came to Heleus for?
+            Narration: Meriweather looks like she's thinking real hard.
+            global_squad_turian: You can still do what's right. Turn off the explosive.
+            loy_tur_outlawboss: There's no right or wrong anymore. Just survival.
+            Narration: She throws the grenade at Ryder. Ryder ducks and rolls, grabbing his/her gun from the ground at the same time.
+            Narration: Vetra does almost the same thing, and they both pop back up, ready for combat.
+            Narration: Combat!
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Come on, that's a kid you got there. She's not a threat. Let her go.
+        loy_tur_outlawboss: She hacked my security. And she's as tall as you are. ⏎
+        loy_tur_outlawboss: Guns on the ground!
+        ↩ (goto) Narration: Ryder nods at Vetra. They slowly lower their weapons to the ground. Meriweather looks antsy.
+    └─ merge ─┘
+├ option 2:
+    Narration: Animatic
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    loy_tur_outlawboss: "What's right"? Like killing everyone in your way?
+    Narration: Meriweather looks like she's preparing herself mentally.
+├ option 2:
+    Hero: The Charlatan wouldn't want this. Killing children isn't his style.
+    loy_tur_outlawboss: Yeah, well, "his style" works for him. I do what I have to.
+    global_squad_turian: Or you can do what's right.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Narration: Meriweather looks conflicted.
+        loy_tur_outlawboss: They say all kinds of things about you, Pathfinder, but I saw for myself what you are.
+        loy_tur_outlawboss: You put down your guns, and you didn't kill all my people to get to me.
+        Narration: Meriweather looks at Sid's terrified face and realizes what she's become. She disarms the grenade.
+        loy_tur_outlawboss: I'm done doing someone else's dirty work.
+        Narration: Meriweather walks off, trusting that Ryder won't shoot her in the back.
+    ├ option 2:
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 3:
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

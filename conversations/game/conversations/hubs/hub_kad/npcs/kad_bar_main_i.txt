@@ -1,0 +1,127 @@
+# game/conversations/hubs/hub_kad/npcs/kad_bar_main_i
+# Primary speaker: kad_bar_01
+# Source: game/conversations/hubs/hub_kad/npcs/kad_bar_main_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_bar_01 [OncePerGame]: What can I get you? Don't say, "Surprise me."
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: So, what's the latest in Kadara?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            kad_bar_01: The Collective made their move—and failed. Thanks to you, I hear.
+            kad_bar_01: Can't believe Reyes was the Charlatan. Bastard's still got an open tab.
+            kad_bar_01: As for Sloane... she's grumpy as ever. Bumped up Outcast security looking for Collective stragglers.
+            Hero: Anyone know where Reyes went?
+            kad_bar_01: Nope. He's long gone. I doubt he'll be back.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: So, what's the latest in Kadara?
+            ├ option 2:
+                Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+                kad_bar_01: Yep.
+                Hero: You like it?
+                kad_bar_01: Nope.
+                Hero: So why do it?
+                kad_bar_01: It's familiar.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: When you're surrounded by the alien, it's comforting to do something familiar.
+                    kad_bar_01: Yeah. Sure.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero: Whiskey. Neat.
+                        kad_bar_01: That's the only way we serve it.
+                        Narration: Ryder throws back the whiskey.
+                    ├ option 2:
+                        Hero: Actually, I'm okay.
+                        kad_bar_01: Whatever.
+                    ├ option 3:
+                        ↩ (goto) Hero [OncePerGame]: So, what's the latest in Kadara?
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: If you wanted familiar, you're in the wrong galaxy.
+                    kad_bar_01: I am where I am. Bartended on Thessia for 200 years. Thought I wanted a change. Turns out change sucks.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: Whiskey. Neat.
+                    ├ option 2:
+                        ↩ (goto) Hero: Actually, I'm okay.
+                    ├ option 3:
+                        ↩ (goto) Hero [OncePerGame]: So, what's the latest in Kadara?
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 3:
+                ↩ (goto) Hero: Whiskey. Neat.
+            ├ option 4:
+                ↩ (goto) Hero: Actually, I'm okay.
+            └─ merge ─┘
+        ├ option 2:
+            kad_bar_01: Sloane's dead. But you know that.
+            kad_bar_01: The angara seem happy to have one of their own in charge.
+            kad_bar_01: Even if Keema obviously works for the Charlatan.
+            kad_bar_01: Not sure how I feel about Kadara being touted as a "Free Port."
+            Hero: Why's that?
+            kad_bar_01: Besides the fact that it's a load of pyjak, "free" is bad for business.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+            ├ option 2:
+                ↩ (goto) Hero: Whiskey. Neat.
+            ├ option 3:
+                ↩ (goto) Hero: Actually, I'm okay.
+            └─ merge ─┘
+        ├ option 3:
+            kad_bar_01: The port's on the brink of civil war. The Charlatan and the Collective have been gunning for Sloane's throne.
+            kad_bar_01: Thought it was all talk, until they started killing each other in the badlands.
+            Hero: You're pretty calm about it.
+            kad_bar_01: When you live in a place run by pirates, violence becomes relative. I'm not going to worry until the shooting's outside my bar.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: You mentioned the Charlatan and the Collective...
+                kad_bar_01: Yeah. What about them?
+                Hero: Who are they?
+                kad_bar_01: {i}(Sighs.){/i} Wow, you're new here. No one knows who the Charlatan is—that's kind of the point.
+                kad_bar_01: He, she, they—whatever—run the Collective. They like to think of themselves as some kind of spy network.
+                kad_bar_01: But they're just thugs. Might be a little smarter than the Outcasts, but no one's got the moral high ground in Kadara.
+                ↩ (goto) kad_bar_01: [empty]
+            ├ option 2:
+                Hero: How do you feel about Sloane? Do you like her?
+                kad_bar_01: I like Sloane fine, but her "protection fees" can go to hell.
+                Hero: She makes you pay for protection?
+                kad_bar_01: Yep. And the price of "safety" keeps getting higher. Can't complain too much, though. The Outcasts are my biggest customers.
+                ↩ (goto) kad_bar_01: [empty]
+            ├ option 3:
+                Hero: Thanks for the gossip.
+                kad_bar_01: Part of the job.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+                ├ option 2:
+                    ↩ (goto) Hero: Whiskey. Neat.
+                ├ option 3:
+                    ↩ (goto) Hero: Actually, I'm okay.
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+    ├ option 3:
+        ↩ (goto) Hero: Whiskey. Neat.
+    ├ option 4:
+        ↩ (goto) Hero: Actually, I'm okay.
+    └─ merge ─┘
+├ option 2:
+    kad_bar_01: What can I get you?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero [OncePerGame]: So, what's the latest in Kadara?
+    ├ option 2:
+        ↩ (goto) Hero [OncePerGame]: Were you a bartender back in the Milky Way?
+    ├ option 3:
+        ↩ (goto) Hero: Whiskey. Neat.
+    ├ option 4:
+        ↩ (goto) Hero: Actually, I'm okay.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,39 @@
+# game/conversations/unc/storms/stm_0700_mako_paces_b
+# Primary speaker: global_crew_tech_officer
+# Source: game/conversations/unc/storms/stm_0700_mako_paces_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_crew_tech_officer [OncePerGame]: [Comm] The Nomad should handle pretty smooth. Check both forward and reverse, would you?
+├ option 2:
+    Hero [OncePerGame]: Can't get traction—it's too steep.
+    global_crew_tech_officer: [Comm] Switch to six-wheel drive. It'll get you up there in a snap.
+├ option 3:
+    global_crew_tech_officer [OncePerGame]: [Comm] Remember the Nomad's jump-jets. They'll get you over most obstacles.
+    global_crew_tech_officer [OncePerGame]: [Comm] If you need more juice, the boosters can accelerate you out of trouble.
+├ option 4:
+    ↩ (goto) global_crew_tech_officer [OncePerGame]: [Comm] If you need more juice, the boosters can accelerate you out of trouble.
+└─ merge ─┘
+global_crew_tech_officer: [Comm] Data's flowing and... these factory settings are garbage. Knew I had to get it on the ground.
+global_crew_tech_officer: [Comm] Put it through its paces, Pathfinder, and I'll tune it for each planet.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Places to go, and you want us doing flips or something?
+    global_crew_tech_officer: [Comm] Just keep it in the back of your mind. You'll hit most of them during standard use.
+    global_crew_tech_officer: [Comm] Besides, getting there is half the fun.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Is now the time? Eos needs us to focus.
+    ↩ (goto) global_crew_tech_officer: [Comm] Just keep it in the back of your mind. You'll hit most of them during standard use.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: So, Eos needs atmo, research, fighting the kett... and hang-time?
+    ↩ (goto) global_crew_tech_officer: [Comm] Just keep it in the back of your mind. You'll hit most of them during standard use.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Is now the time? Eos needs us to focus.
+    ↩ (goto) global_crew_tech_officer: [Comm] Just keep it in the back of your mind. You'll hit most of them during standard use.
+└─ merge ─┘
+global_crew_tech_officer: [Comm] Watch those hazards, Pathfinder.
+global_crew_tech_officer: [Comm] You can do basic repairs at forward stations, but if the Nomad goes critical, you're walking there.
+global_crew_tech_officer: [Comm] What are you doing out there? Get to a forward station—I'll repair and re-deploy.
+global_crew_tech_officer: [Comm] Asking for magic out there.
+Hero: Not good conditions for walking.
+SAM: The nearest forward station will allow Nomad deployment.

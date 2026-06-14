@@ -1,0 +1,154 @@
+# Game/Conversations/Crit/Intrld25/intrld25_0330_res_hq_meet_m
+# Primary speaker: Narration
+# Source: game/conversations/crit/Intrld25/intrld25_0330_res_hq_meet_m.xml
+==================================================
+global_squad_angara: They're bullies, but this situation is now your fault. Don't get kicked out, Moraan—not because of them.
+aya_HQ_recruit: But you're telling me to be weak!
+global_squad_angara: No, I'm telling you to be strong through your cunning and heart.
+global_squad_angara: Okay?
+global_squad_angara: Hey...
+aya_HQ_recruit: It really is the best one in the Resistance.
+global_squad_angara: I know.
+global_squad_angara: Our experience with the kett makes us naturally distrustful of all aliens.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: We've had our own run ins with the kett.
+    global_squad_angara: Then you really do understand.
+    global_squad_angara: Come this way. Evfra's waiting.
+    Hero: Wait, the kett kidnap you—steal your people.
+    global_squad_angara: And the Resistance fights them every day, with everything we can.
+    Hero: Is it attrition? What are they after?
+    global_squad_angara: You should save your questions for Evfra.
+    angararesleader_multi: Kadara be damned. I won't lose Voeld.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Evfra, this is Sara Ryder, one of the aliens from the Milky Way. She's called a Pathfinder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            angararesleader_multi ⟨cond⟩: "Pathfinder."
+            angararesleader_multi: It's an aggressive move, coming to Aya.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: It wasn't meant that way. I have an ark full of desperate people counting on me to find them a home before they starve.
+                angararesleader_multi: Of course. I feel for you and your people.
+                angararesleader_multi: So. Pathfinder. Never mind how you even found us—why are you here?
+                Hero: On a hostile planet we call Eos, I explored an ancient structure—a "vault"—and brought it back online.
+                Hero: It stabilized that planet's environment.
+                global_squad_angara: "Remnant." Recent intelligence supports that claim.
+                Hero: If I'm right, there's a vault on Aya that's different. I need to look inside.
+                angararesleader_multi: You're right. There's a "vault" out there, but it was shut years ago and the entrance hidden.
+                angararesleader_multi: We can't help you.
+                global_squad_angara: The Moshae could. She's our most revered scientist and elder. She knows this vault.
+                angararesleader_multi: But now the kett have her, and our rescue attempts failed. She's lost to us. And you.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Let me show you what I can do. I won't take one step without your approval.
+                    angararesleader_multi: You have no idea what you're dealing with. The angara learned years ago the perils of messing with vaults. So did the kett, for that matter.
+                    angararesleader_multi: We're done here.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara: Evfra. I feel... Evfra, what this alien says is extraordinary.
+                        global_squad_angara: The Moshae would want us to be brave and not let this chance pass.
+                        angararesleader_multi: Jaal. You talk too much.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_angara: Let me assess this alien. I'll be your eyes. I know you can spare me.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                angararesleader_multi: Go if you want. But when he tries to kill you, be prepared to strike first.
+                                global_squad_angara: I'm Jaal Ama Darav. I'll be your envoy through angaran space.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: Thank you for trusting me.
+                                    global_squad_angara: I don't. But I can always kill you in your sleep.
+                                    Hero: Good to know.
+                                ├ option 2:
+                                    Hero: It's gonna be cozy, so I hope you like people.
+                                    global_squad_angara: I hope I don't regret this.
+                                    Hero: Me too.
+                                    ↩ (goto) global_squad_angara: [empty]
+                                └─ merge ─┘
+                            ├ option 2:
+                                angararesleader_multi: Go if you want. But when she tries to kill you, be prepared to strike first.
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_squad_angara: Let me assess this alien. I'll be your eyes. I know you can spare me.
+                            ↩ (goto) Narration: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_angara: Evfra. I feel... Evfra, what this alien says is extraordinary.
+                        ↩ (goto) global_squad_angara: The Moshae would want us to be brave and not let this chance pass.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: There must be another way. How can I convince you? Can I offer help?
+                    angararesleader_multi: Arrogant. I don't know you, let alone trust you, why would I want your help?
+                    Hero: Of course.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) global_squad_angara: Evfra. I feel... Evfra, what this alien says is extraordinary.
+                    ├ option 2:
+                        ↩ (goto) global_squad_angara: Evfra. I feel... Evfra, what this alien says is extraordinary.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: My people from the Milky Way were bold enough to come to Andromeda. I need to be at least that bold to save them.
+                angararesleader_multi: {i}(Nods.){/i}
+                ↩ (goto) angararesleader_multi: So. Pathfinder. Never mind how you even found us—why are you here?
+            └─ merge ─┘
+        ├ option 2:
+            angararesleader_multi: "Pathfinder."
+            ↩ (goto) angararesleader_multi: It's an aggressive move, coming to Aya.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Evfra, this is Scott Ryder, one of the aliens from the Milky Way. He's called a Pathfinder.
+        ↩ (goto) global_squad_angara: [empty]
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: Evfra, this is one of the aliens from the Milky Way—a Pathfinder.
+        ↩ (goto) global_squad_angara: [empty]
+    ├ option 4:
+        global_squad_angara: Evfra, this is one of the aliens from the Milky Way—a Pathfinder.
+        ↩ (goto) global_squad_angara: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: We're nothing like them. In fact, maybe we can help each other out.
+    global_squad_angara: We made that mistake when the kett arrived.
+    global_squad_angara: When the Archon came to Heleus, he demolished our sovereign state—took what he wanted, as if we were nothing.
+    global_squad_angara: Now the kett mercilessly abduct angara. Often, we never see our people again.
+    ↩ (goto) global_squad_angara: Come this way. Evfra's waiting.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    angararesleader_multi ⟨cond⟩: She's powerful, but an idiot. I want someone I trust to go along.
+    global_squad_angara ⟨cond⟩: All right Evfra, I'll go with this alien. For the Moshae.
+├ option 2:
+    angararesleader_multi ⟨cond⟩: He's powerful, but an idiot. I want someone I trust to go along.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: All right Evfra, I'll go with this alien. For the Moshae.
+    ├ option 2:
+        ↩ (goto) global_squad_angara ⟨cond⟩: All right Evfra, I'll go with this alien. For the Moshae.
+    └─ merge ─┘
+├ option 3:
+    Hero: Imagine if all these crappy planets could be—
+    angararesleader_multi: I get it. So why come {i}here{/i}?
+├ option 4:
+    global_squad_angara: {i}(Small exhale.){/i}
+    angararesleader_multi: Jaal stay. I want a witness.
+└─ merge ─┘
+angararesleader_multi: Jaal, you were her student. I want someone on the mission that she knows.
+global_squad_angara: All right Evfra, I'll go with this alien. For the Moshae.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) angararesleader_multi: Go if you want. But when he tries to kill you, be prepared to strike first.
+├ option 2:
+    ↩ (goto) angararesleader_multi: Go if you want. But when she tries to kill you, be prepared to strike first.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Thank you for trusting me.
+    global_squad_angara: I don't. But I can always kill you in your sleep.
+├ option 2:
+    Hero: It's gonna be cozy, so I hope you like people.
+    global_squad_angara: I hope I don't regret this.
+└─ merge ─┘

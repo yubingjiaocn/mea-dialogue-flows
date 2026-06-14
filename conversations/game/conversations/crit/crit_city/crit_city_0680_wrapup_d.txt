@@ -1,0 +1,116 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0680_wrapup_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0680_wrapup_d.xml
+==================================================
+global_crew_co-pilot: [Comm] Ground team: Is everyone all right?
+Hero: Everyone accounted for.
+global_crew_science_officer: [Comm] We saw everything from orbit—it was incredible. The entire city lit up... the scans went wild!
+global_crew_co-pilot: [Comm] And Ryder, the kett are retreating. Whatever you did—it worked.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: A full retreat? That's a relief to hear.
+    global_crew_co-pilot: [Comm] Any progress on Meridian? Have you got it working yet?
+    Hero: This isn't Meridian—or at least, not all of it. Hard to explain. We'll brief you later.
+    Hero: So Meridian's gone, but shouldn't this thing know the navpoint of where it went?
+    SAM: Contact with the Scourge will have altered Meridian's original path. It would take countless years to determine its current location.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: All this Remnant tech around us. The Jardaan had to have a plan...
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: I don't think they had much time for a plan.
+            Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: What are you thinking, kid?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I don't know yet. We'll have to think about it.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        global_squad_krogan ⟨cond⟩: You heard Kallo. The kett are running. From us.
+                        Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                        Hero: SAM, collect all the data you can. Radio the Tempest for extraction.
+                        Hero: This is going to take work, and it's going to take {i}all{/i} of us.
+                    ├ option 2:
+                        global_squad_female_human ⟨cond⟩: Okay, no Meridian. But we kicked the kett out of a major stronghold. That's huge.
+                        ↩ (goto) Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                    ├ option 3:
+                        global_squad_asari ⟨cond⟩: Yeah, we don't have Meridian yet, but we took this city back from the kett! That's big!
+                        ↩ (goto) Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                    ├ option 4:
+                        global_squad_turian ⟨cond⟩: Hey, at least we took the city back from the kett. That's a big win.
+                        ↩ (goto) Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                    ├ option 5:
+                        global_squad_angara ⟨cond⟩: What we did here today is powerful. We took this city from the kett. Our city.
+                        ↩ (goto) Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                    ├ option 6:
+                        global_squad_male_human ⟨cond⟩: Well, the kett got their arses handed to them today. That's big.
+                        ↩ (goto) Hero: That just means we need to push forward before they can recover. We have to find Meridian. The real one.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: I was actually hoping one of you might continue the thought.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: At what?
+                ↩ (goto) global_squad_male_human: [empty]
+            ├ option 3:
+                global_squad_asari ⟨cond⟩: Look at what, exactly?
+                ↩ (goto) global_squad_male_human: [empty]
+            ├ option 4:
+                global_squad_turian ⟨cond⟩: What do you mean?
+                ↩ (goto) global_squad_male_human: [empty]
+            ├ option 5:
+                global_squad_angara ⟨cond⟩: Look for what?
+                ↩ (goto) global_squad_male_human: [empty]
+            ├ option 6:
+                global_squad_male_human ⟨cond⟩: Look at what, exactly?
+                ↩ (goto) global_squad_male_human: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Did they have time for a plan?
+            ↩ (goto) Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: Their plan seemed to be "Oh crap, let's get outta here!"
+            ↩ (goto) Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: If they had a plan, I doubt we'd be seeing this much Scourge damage.
+            ↩ (goto) Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: This seems too haphazard to have been planned.
+            ↩ (goto) Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+        ├ option 6:
+            global_squad_male_human ⟨cond⟩: Doesn't seem like they had the time.
+            ↩ (goto) Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: If it takes years, then it takes years. People are relying on me.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: But we don't have years. We have to find another way.
+            Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+            SAM: Nothing immediately obvious, Pathfinder. But I will continue my investigations.
+            ↩ (goto) Hero: Well, if the Scourge is messing things up, maybe that's where we should look?
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: This can't take years. We find another way.
+            ↩ (goto) Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: People relying on us is exactly why this can't take forever.
+            ↩ (goto) Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+        ├ option 4:
+            global_squad_female_human ⟨cond⟩: The kett won't give us that time. We need an alternative.
+            ↩ (goto) Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: No one in Heleus has that kind of time any longer.
+            ↩ (goto) Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+        ├ option 6:
+            global_squad_male_human ⟨cond⟩: We don't have years. Has to be a way.
+            ↩ (goto) Hero: SAM, can you see anything else in here? Any kind of data that could be a clue?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: They got the ass-kicking they needed. Hand-delivered by us.
+    SAM: Given your command over the Remnant's defenses, Pathfinder, I predict the kett will not attempt to recapture the city.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

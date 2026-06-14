@@ -1,0 +1,121 @@
+# game/conversations/rel/gil/gil_r3_nex_poker_m
+# Primary speaker: Hero
+# Source: game/conversations/rel/gil/gil_r3_nex_poker_m.xml
+==================================================
+global_crew_tech_officer: So, Ryder. Big news. I think I've found my purpose in life.
+Hero: Oh yeah? What's that?
+global_crew_tech_officer: Thrashing you at poker. Shall I deal?
+SAM: [Private] Ryder, I can read Gil's vital signs and give you an advantage during the game, if you like.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Do it.
+    global_crew_tech_officer: The Pathfinder has spoken.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_tech_officer: Were you holding out on me? You're pretty good at this.
+        Hero: Don't act so surprised.
+        global_crew_tech_officer: Poker's lost me several friends over the years. The only one who still plays me is my buddy Jill—I know, I know. Jill and Gil.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: The one you mentioned. Part of the Initiative?
+            global_crew_tech_officer: Yep. Been awake since the start.
+            global_crew_tech_officer: Jill's a fertility expert. Heads the Initiative's CRC. My only real friend from back home. I bet fifty.
+            Hero: I call. The CRC?
+            global_crew_tech_officer: Colonial Repopulation Committee. She's always teasing that I'm making her job harder.
+            global_crew_tech_officer: Says if I'm not making babies, I'm part of the problem. We have that kind of relationship.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Growing our numbers {i}is{/i} paramount to our survival here.
+                global_crew_tech_officer: Sure, but that's {i}Jill's{/i} purpose. I'm not just going to adopt it.
+                global_crew_tech_officer: See what I did there? I'm not just going to {i}adopt{/i} it?
+                Hero: I saw.
+                global_crew_tech_officer: You should meet her. You'll see. She's amazing. Another hundred.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    SAM ⟨cond⟩: [Private] He's bluffing.
+                    Hero: I call.
+                    global_crew_tech_officer: Nice. That one's yours.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_crew_tech_officer: Well, the winning streak's over. You beat me, Ryder, fair and square. Guess I continue searching for my true purpose in life.
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            Hero: Cards went my way. Beginner's luck.
+                            global_crew_tech_officer: Peddle that somewhere else. You're no beginner.
+                            global_crew_tech_officer: Jill's going to lay into me hard when she hears you won. I'll just tell her this proves how bad a player she is.
+                            Hero: Ouch. Have fun. And thanks for the game.
+                        ├ option 2:
+                            Hero: It was bound to happen sooner or later.
+                            global_crew_tech_officer: No, no. You're good. I'll have to up my game.
+                            ↩ (goto) global_crew_tech_officer: Jill's going to lay into me hard when she hears you won. I'll just tell her this proves how bad a player she is.
+                        ├ option 3:
+                            Hero: Gil, listen. Wish I could say that was skill, but... I was getting help from SAM.
+                            global_crew_tech_officer: I kind of figured. Pretty obvious, actually.
+                            Hero: You mad?
+                            global_crew_tech_officer: Hell, no. The day I can beat you with SAM helping is the day I become all-powerful.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_crew_tech_officer: I'm just gonna have to keep my eye on you. I can think of worse fates.
+                                global_crew_tech_officer: Jill predicted you'd be my downfall. Wait 'til I tell her you're a cheat.
+                                ↩ (goto) Hero: Ouch. Have fun. And thanks for the game.
+                            ├ option 2:
+                                ↩ (goto) global_crew_tech_officer: Jill predicted you'd be my downfall. Wait 'til I tell her you're a cheat.
+                            └─ merge ─┘
+                        ├ option 4:
+                            Hero: Oh, how the mighty have fallen.
+                            global_crew_tech_officer: Gloat all you like. You earned it.
+                            ↩ (goto) global_crew_tech_officer: Jill's going to lay into me hard when she hears you won. I'll just tell her this proves how bad a player she is.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: Well, that's that. You win.
+                        global_crew_tech_officer: I've achieved my true purpose in life. {i}(Chuckles.){/i} What {i}will{/i} I do now?
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            Hero: Congratulations. Good game.
+                            global_crew_tech_officer: You too.
+                            global_crew_tech_officer: Jill predicted you'd be my downfall. Can't wait to tell her she was wrong. Another streak intact, I'll say.
+                            ↩ (goto) Hero: Ouch. Have fun. And thanks for the game.
+                        ├ option 2:
+                            Hero: Revenge will be mine.
+                            global_crew_tech_officer: Some day, maybe.
+                            ↩ (goto) global_crew_tech_officer: Jill predicted you'd be my downfall. Can't wait to tell her she was wrong. Another streak intact, I'll say.
+                        ├ option 3:
+                            Hero ⟨cond⟩: How does that cliche go? Lucky at cards, unlucky at {i}what{/i}?
+                            global_crew_tech_officer: I won't hold you to that.
+                            Hero: Maybe you won't hold me, period.
+                            global_crew_tech_officer: You're a terrible bluffer.
+                            ↩ (goto) global_crew_tech_officer: Jill predicted you'd be my downfall. Can't wait to tell her she was wrong. Another streak intact, I'll say.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Ah, I fold.
+                    global_crew_tech_officer: Another one for me then.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Hmm. Sounds kind of disrespectful. It doesn't bother you?
+                global_crew_tech_officer: She's like family. Supports me unconditionally. We just ride each other like that.
+                ↩ (goto) global_crew_tech_officer: You should meet her. You'll see. She's amazing. Another hundred.
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: Who's Jill? She's here in Andromeda?
+            ↩ (goto) global_crew_tech_officer: Yep. Been awake since the start.
+        ├ option 3:
+            Hero ⟨cond⟩: Not the type to give up, huh?
+            global_crew_tech_officer: Never. She'll be with me to the bitter end, come what may.
+            ↩ (goto) global_crew_tech_officer: Jill's a fertility expert. Heads the Initiative's CRC. My only real friend from back home. I bet fifty.
+        ├ option 4:
+            Hero ⟨cond⟩: She must be a glutton for punishment.
+            global_crew_tech_officer: That's her. It's how I know she'll always be there.
+            ↩ (goto) global_crew_tech_officer: Jill's a fertility expert. Heads the Initiative's CRC. My only real friend from back home. I bet fifty.
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_tech_officer: Having fun?
+        Hero: Getting my ass kicked is what I'm doing.
+        ↩ (goto) global_crew_tech_officer: Poker's lost me several friends over the years. The only one who still plays me is my buddy Jill—I know, I know. Jill and Gil.
+    └─ merge ─┘
+├ option 2:
+    Hero: Don't.
+    global_crew_tech_officer: All right, {i}you{/i} can deal first.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

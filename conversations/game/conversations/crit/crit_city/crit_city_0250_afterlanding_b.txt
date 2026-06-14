@@ -1,0 +1,42 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0250_afterlanding_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0250_afterlanding_b.xml
+==================================================
+Hero: Everyone okay?
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: I may be old, but my plating's still plenty hard.
+    Hero: We'll need to survey the area. Figure out what we're dealing with.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: All good. Let's move.
+    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I think I bumped my head, but I'm good.
+    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Everything's intact. I think.
+    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Of course!
+    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: I'll let you know when my gut stops churning.
+    ↩ (goto) Hero: We'll need to survey the area. Figure out what we're dealing with.
+└─ merge ─┘
+Hero: SAM, what do you think?
+SAM: Intense vortexes of Scourge energy. I would steer clear if I were you, Pathfinder.
+crit_city_kettsoldier: [Comm] Movement detected. Target sighted.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Getting weird readings from this thing.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: That's... I don't even get these readings.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Weird readings coming from that anomaly.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: That cloud over there. The energy it's giving off is real weird.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: That... cloud there. I can't make sense of the readings.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Heads up. Weird thing is weird.
+└─ merge ─┘

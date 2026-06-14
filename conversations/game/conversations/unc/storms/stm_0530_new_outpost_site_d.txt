@@ -1,0 +1,37 @@
+# game/conversations/unc/storms/stm_0530_new_outpost_site_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0530_new_outpost_site_d.xml
+==================================================
+Hero: Look there. That spot has shelter, water, stable ground...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: It was initially overlooked due to heavy kett presence at the nearby Remnant structure but it would be an excellent outpost site.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Kett and Remnant, seems you can't find one without the other. So...
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Even better now that there's no kett next door.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Yup, with the atmosphere clearing, I think we just found our new home.
+            ├ option 2:
+                Hero: If we clear the skies, this might be our new home.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: Yup, with the atmosphere clearing, I think we just found our new home.
+        ├ option 3:
+            ↩ (goto) Hero: If we clear the skies, this might be our new home.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: There's still kett around, but that's a problem for another day.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Yup, with the atmosphere clearing, I think we just found our new home.
+        ├ option 2:
+            ↩ (goto) Hero: If we clear the skies, this might be our new home.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: If we clear the skies, this might be our new home.
+└─ merge ─┘

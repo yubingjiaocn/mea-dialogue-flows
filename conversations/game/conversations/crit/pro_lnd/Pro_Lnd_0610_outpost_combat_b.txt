@@ -1,0 +1,111 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0610_outpost_combat_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0610_outpost_combat_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        global_squad_female_human [OncePerGame]: Let's go!
+        global_squad_male_human: Right behind you!
+        global_dad: Push ahead to the structure!
+    ├ option 2:
+        global_squad_female_human [OncePerGame]: Here they come!
+        global_squad_male_human: Now we've got their attention!
+        global_squad_female_human: Watch the lightning!
+    ├ option 3:
+        global_dad [OncePerGame]: Get into that building! We don't want to get bogged down out here!
+    ├ option 4:
+        Hero [OncePerGame]: This went south in a hurry!
+    ├ option 5:
+        global_dad ⟨cond⟩ [OncePerGame]: Go, go, go!
+    ├ option 6:
+        global_squad_male_human [OncePerGame]: They're coming out of the woodwork!
+    ├ option 7:
+        global_squad_female_human [OncePerGame]: Keep things tight! Don't get separated!
+    ├ option 8:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_dad ⟨cond⟩: Sara, get moving!
+        ├ option 2:
+            global_dad ⟨cond⟩: Scott, get moving!
+        ├ option 3:
+            global_dad: Get moving!
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_dad ⟨cond⟩ [OncePerGame]: Keep up!
+├ option 3:
+    ┌─ BRANCH (9) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: I'm here!
+        global_dad: Keep the momentum up! Don't let them get the drop on you!
+    ├ option 2:
+        global_squad_male_human [OncePerGame]: Have to keep an eye on our flank!
+        global_dad: Not if we keep moving forward! Don't let them catch us!
+    ├ option 3:
+        global_squad_male_human [OncePerGame]: How's your dad doing all this? He's like a machine!
+        Hero: No idea, but it's working!
+    ├ option 4:
+        global_dad [OncePerGame]: That's it—we're doing it! Not much farther!
+        Hero: Where are we going?
+        global_dad: All the way to the top!
+        Hero: And then what?
+        global_dad: We'll know when we get there!
+    ├ option 5:
+        global_squad_female_human [OncePerGame]: {i}(Painful grunt.){/i} That hurt!
+    ├ option 6:
+        global_squad_male_human [OncePerGame]: Almost fried me!
+    ├ option 7:
+        global_squad_female_human [OncePerGame]: Don't stop! If we fall behind, we're dead!
+    ├ option 8:
+        global_squad_male_human [OncePerGame]: Shit, they're crack shots!
+    ├ option 9:
+        global_dad ⟨cond⟩ [OncePerGame]: Come on! Into the building!
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        global_dad [OncePerGame]: Squad, on me!
+    ├ option 2:
+        global_squad_female_human [OncePerGame]: Sir! Where are you getting these profiles?
+        global_dad: Little help from SAM!
+        Hero: What does that mean?
+        global_dad: Just focus on the fight!
+    ├ option 3:
+        global_squad_female_human [OncePerGame]: The storm's getting worse!
+        global_dad: We'll lose our chance if we don't beat it! Come on!
+    ├ option 4:
+        global_squad_male_human [OncePerGame]: Bastard almost got me!
+        Hero: Give it right back to him!
+    ├ option 5:
+        global_dad [OncePerGame]: Watch the cross fire from above!
+    ├ option 6:
+        global_squad_female_human [OncePerGame]: The storm just took one of them out!
+        global_squad_male_human: Hell yeah! Lightning's finally on our side!
+        global_squad_female_human: Until it's not!
+    ├ option 7:
+        global_dad ⟨cond⟩ [OncePerGame]: Don't let them pin you down!
+    ├ option 8:
+        global_dad ⟨cond⟩ [OncePerGame]: We can do this! Stick with me!
+    └─ merge ─┘
+└─ merge ─┘
+global_dad: Ready? Let's get inside there.
+global_dad: Watch it!
+Hero: Whoa!
+global_dad: We're almost there!
+global_dad: This looks like the control center. Keep an eye out for more coming up behind.
+global_squad_male_human: We made it! In one piece!
+global_dad: Not over yet. I need to get through that door over there!
+global_dad: This looks like the control center! Keep them off my back!
+global_squad_female_human: You heard him!
+↩ (goto) global_squad_male_human: We made it! In one piece!
+global_dad: SAM, load Combat profile.
+global_dad: SAM, give me Engineer profile.
+global_dad: SAM, biotic amp interface mode.
+global_dad: SAM, load up Adept profile.
+global_dad: SAM, load Soldier profile.
+global_dad: SAM, initiate Vanguard profile.
+global_dad: SAM, switch to Infiltrator profile.
+global_dad: SAM, load Explorer profile.
+global_squad_male_human: Wherever he goes!

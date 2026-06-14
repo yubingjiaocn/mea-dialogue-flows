@@ -1,0 +1,26 @@
+# game/conversations/unc_ice/ice_8800_cold_hazard_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_8800_cold_hazard_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Damn. This blizzard's cutting right through my suit.
+    global_squad_angara ⟨cond⟩: But it provides cover for the Resistance. And the cold doesn't bother us.
+├ option 2:
+    Hero: Keep an eye on your temperature sensors.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: We're out of the worst of it. Temperature should be manageable now.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    Hero: Temperature's back to normal.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Looks like the kett are hiding out in a snowstorm too.
+├ option 2:
+    Hero: Keep an eye on your sensors. The temperature's gonna drop.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

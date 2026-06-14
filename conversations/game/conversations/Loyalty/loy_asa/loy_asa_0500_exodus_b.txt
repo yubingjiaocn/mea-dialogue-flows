@@ -1,0 +1,91 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0500_exodus_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0500_exodus_b.xml
+==================================================
+global_squad_asari: Let's get out of here!
+global_kalinda: Hurry, this way!
+Hero: We've got to get out of here!
+global_squad_asari: I think we're retracing Kalinda's footsteps!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Then it should lead to a way out!
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Let's get out of this deathtrap!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Then it should lead to a way out of this deathtrap!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Then it should lead to a way out of this deathtrap!
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Then it should lead to a way out of this deathtrap!
+└─ merge ─┘
+global_squad_asari: The valley is submerged in lava!
+Hero: This whole place is going under!
+global_kalinda: Move it, slowpokes! You didn't save me just to watch me die, did you?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Was she always like this?
+    global_squad_asari: Always.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Does she ever shut up?
+    global_squad_asari: Never.
+├ option 3:
+    global_squad_turian ⟨cond⟩: She's really annoying!
+    global_squad_asari: Understatement!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Does she ever stop?
+    ↩ (goto) global_squad_asari: Never.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Was she always this annoying?
+    ↩ (goto) global_squad_asari: Always.
+└─ merge ─┘
+global_squad_asari: No time to slow down.
+Hero: Need to find another way!
+global_squad_asari: Hey look, the escape pod—
+global_squad_asari: Well, there goes my bedroom.
+global_kalinda: Hurry up! This flight has to take off!
+Hero: The final stretch! Let's get out of here.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: Yes! Kalinda's shuttles!
+    ↩ (goto) Hero: The final stretch! Let's get out of here.
+├ option 2:
+    global_squad_asari: Voila! Anybody order a shuttle?
+    ↩ (goto) Hero: The final stretch! Let's get out of here.
+└─ merge ─┘
+global_squad_asari: Are you crazy? There's no time for a loot grab!
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: Let's move it!
+├ option 2:
+    global_squad_asari [OncePerGame]: No time for sightseeing!
+├ option 3:
+    global_squad_asari [OncePerGame]: Don't want to die here!
+├ option 4:
+    global_squad_asari [OncePerGame]: The ground is not stable!
+├ option 5:
+    global_squad_asari [OncePerGame]: Maybe this {i}was{/i} a mistake!
+├ option 6:
+    global_squad_asari [OncePerGame]: Heh, if we get buried alive, uh, my bad!
+├ option 7:
+    global_squad_asari [OncePerGame]: Who the hell jettisons into a live volcano? On purpose?!
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero: Take off—let's go!
+├ option 2:
+    global_squad_asari: Wow, we made it!
+├ option 3:
+    global_squad_asari: Okay, so, never doing that again.
+├ option 4:
+    Hero: {i}(Relieved laughter.){/i}
+├ option 5:
+    global_squad_asari: {i}(Relieved laughter.){/i}
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: Ride out the shockwave!
+├ option 2:
+    global_squad_asari: More Remnant. Take them out!
+├ option 3:
+    global_kalinda: Bots! Take them out!
+└─ merge ─┘

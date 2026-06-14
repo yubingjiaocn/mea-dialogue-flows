@@ -1,0 +1,22 @@
+# game/conversations/hubs/hub_aya/market/aya_20_market_moshres_a
+# Primary speaker: aya_merchant_general
+# Source: game/conversations/hubs/hub_aya/market/aya_20_market_moshres_a.xml
+==================================================
+aya_market_p2local: Have you heard? They rescued her! The Moshae has been returned to us!
+aya_merchant_general: I see the news has traveled to the city. Did you run all the way down?
+aya_market_p2local: Of course! I may be studying another field, but she taught me for several years.
+aya_market_p2local: I'm so happy she's back!
+aya_merchant_general: Have you seen her yet?
+aya_market_p2local: No. Nalon said she'd headed out beyond the fields.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    aya_market_p2local ⟨cond⟩: She had something important to do with that human called Ryder.
+    aya_merchant_general: Really? I wonder what that's about.
+├ option 2:
+    aya_market_p2local: She had something important to do with that human called Ryder.
+    ↩ (goto) aya_merchant_general: Really? I wonder what that's about.
+└─ merge ─┘
+aya_market_p2local: I just went to see her. She looks so worn and tired.
+aya_merchant_general: That's not good. Do you think the kett hurt her?
+aya_market_p2local: I don't know. Her spirit is still strong. I could tell.
+aya_market_p2local: I brought her dried fruit as a welcoming gift. I'll see if I can help in the repository later, to lighten her burden.

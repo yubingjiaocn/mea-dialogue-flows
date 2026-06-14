@@ -1,0 +1,48 @@
+# Game/Conversations/Crit/M4/m4_0650_hull_escape_c
+# Primary speaker: Narration
+# Source: game/conversations/crit/m4/m4_0650_hull_escape_c.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Can you run?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: Pathfinder, the kett are close to restoring the ship's power.
+        Hero: Tempest, we're going topside. Track for extraction.
+        global_crew_co-pilot: [Comm] Understood.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Raeka. Raeka, are you still there...?
+            Hero: I'm sorry.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+            ├ option 2:
+                Hero: Let's move! Move!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                ├ option 2:
+                    global_crew_co-pilot: [Comm] Ryder, now! We've got to go!
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_salarian_pathfinder_multi: Ryder, thank you.
+            Hero: Save it for when we're safe.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) SAM: Pathfinder, the kett are close to restoring the ship's power.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: Can you run?
+├ option 3:
+    crit_city_archonssword_multi: Power will be restored soon, Archon.
+    global_main_villain: Not soon enough! You will hunt them down and bring that human back. Or do not return.
+    crit_city_archonssword_multi: Yes, Archon.
+    global_main_villain: It seems you've been abandoned.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: A team is on its way. They'll escort the ark to the Nexus...
+    ├ option 2:
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+└─ merge ─┘

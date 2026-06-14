@@ -1,0 +1,120 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0600_finds_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0600_finds_b.xml
+==================================================
+global_crew_science_officer: [Comm] I've added the coordinates of Ruth Bekker's shuttle landing site to your map.
+global_crew_science_officer: [Comm] Good luck!
+SAM: We are near the location of the shuttle stolen by Ruth Bekker.
+Hero: All right, be careful and stay away from Ruth when we find her. I'll handle this.
+Hero: SAM can make sure I'm safe, but you're all at risk.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: I read Harry's brief.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Deadly disease. Stay far away. Harry's brief was clear.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Follow contagion protocols. Harry's brief was clear.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Stay away from Bekker, don't tell anyone, yeah, yeah. I read the medical brief.
+├ option 5:
+    global_squad_angara ⟨cond⟩: I understand your reasons for discretion, but this worries me.
+├ option 6:
+    global_squad_asari ⟨cond⟩: Harry's brief was clear.
+└─ merge ─┘
+Hero: That wasn't a soft landing.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: I've survived worse.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Could still be survivors.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Seen worse.
+├ option 4:
+    global_squad_turian ⟨cond⟩: She might have survived.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Not the worst I've seen.
+├ option 6:
+    global_squad_angara ⟨cond⟩: I've seen worse.
+└─ merge ─┘
+SAM: Scans find no life signs within the shuttle.
+Hero: Wait outside.
+nexus_rp_ctn_patzero: [Audio Log] This is Ruth Bekker. {i}(Coughs.){/i} Shuttle's crashed. I think I'm in Stage 3 of TH-314.
+nexus_rp_ctn_patzero: [Audio Log] The virus was dormant. I don't understand. {i}(Coughs.){/i} Can't let anyone near me.
+nexus_rp_ctn_patzero: [Audio Log] I'm going to set the warning buoys—and rig the shuttle to blow.
+nexus_rp_ctn_patzero: [Audio Log] I'm scared. I'm alone but—I can't take the risk. I'm so sorry.
+nexus_rp_ctn_patzero: [Audio Log] I—who's there? No! No, wait! Stay away from me, you can't—
+Hero: Shit. Somebody found her, took her maybe.
+SAM: Then it's possible the illness is spreading.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Whoever took Ruth went this way.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And left a trail for us to follow.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: And left a trail for us to follow.
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: And left a trail for us to follow.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: And left a trail for us to follow.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: And left a trail for us to follow.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: And left a trail for us to follow.
+    └─ merge ─┘
+├ option 2:
+    Hero: Footprints. Someone's been here.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: And left a trail for us to follow.
+    ├ option 2:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: And left a trail for us to follow.
+    ├ option 3:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: And left a trail for us to follow.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩: And left a trail for us to follow.
+    ├ option 5:
+        ↩ (goto) global_squad_asari ⟨cond⟩: And left a trail for us to follow.
+    ├ option 6:
+        ↩ (goto) global_squad_angara ⟨cond⟩: And left a trail for us to follow.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Over here.
+├ option 2:
+    Hero [OncePerGame]: This way.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Aw, crap. Roekaar. The one group that hates all aliens.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: They will never agree to speak with us. They view all aliens as invaders and me as a traitor for associating with you.
+        Hero: Negotiation not a possibility then, huh?
+        global_squad_angara: They will shoot to kill the instant they see you.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: We can't negotiate our way out of this.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: I don't think they'll want to talk.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Looks like we're shooting our way through this.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: They won't negotiate.
+    └─ merge ─┘
+├ option 2:
+    Hero: Judging from the area and the beacon, I'm guessing they're not friendly.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Roekaar. They view all aliens as invaders and me as a traitor for associating with you.
+        ↩ (goto) Hero: Negotiation not a possibility then, huh?
+    ├ option 2:
+        ↩ (goto) global_squad_turian ⟨cond⟩: They won't negotiate.
+    ├ option 3:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Looks like we're shooting our way through this.
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: I don't think they'll want to talk.
+    ├ option 5:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: We can't negotiate our way out of this.
+    └─ merge ─┘
+└─ merge ─┘

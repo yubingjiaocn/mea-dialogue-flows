@@ -1,0 +1,151 @@
+# game/conversations/hubs/hub_nexus/ops/nex_ops_addison_assist_i
+# Primary speaker: nex_foster_addison_sub
+# Source: game/conversations/hubs/hub_nexus/ops/nex_ops_addison_assist_i.xml
+==================================================
+nex_foster_addison_sub: Please address concerns first with Director Addison. One must obey protocol.
+nex_foster_addison_sub: Hello, Pathfinder. I am Cryo Deployment Administrator Vladimir Brecka, C-63-Galati.
+nex_foster_addison_sub: Your first task is to decide irrevocably the course of every life in the Initiative.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: {i}(Nervous chuckle.){/i} You're kidding?
+    nex_foster_addison_sub: Yes, of course. But now you respect what we're doing.
+    nex_foster_addison_sub: Andromeda Viability and Nexus Thresholds are your tools, your reward, and our future. How can I help?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: How are you measuring thresholds?
+        nex_foster_addison_sub: It's based on resource estimates and general stability. A metric of acceptable scope and risk.
+        nex_foster_addison_sub: The more you achieve, the greater capacity we can accommodate, the more the Initiative can do for you.
+        nex_foster_addison_sub: Simplest explanation? The more you do, the more room we have to grow.
+        ↩ (goto) nex_foster_addison_sub: [empty]
+    ├ option 2:
+        Hero: What's the rundown on AVP?
+        nex_foster_addison_sub: Much of the preparation in the Milky Way was determining how to measure "success."
+        nex_foster_addison_sub: Thresholds are about capacity, but this is about cost—what we can actually afford to support.
+        nex_foster_addison_sub: "Points" aren't the most elegant system, but it makes it clear: the more you earn, the more we can deploy.
+        ↩ (goto) nex_foster_addison_sub: [empty]
+    ├ option 3:
+        Hero: So I decide what groups to wake up. Won't everyone be out eventually?
+        nex_foster_addison_sub: Absolutely. But there's an order to things. Lines of support.
+        nex_foster_addison_sub: You can't deploy an omelet without first deploying eggs. And eggs won't get you steak.
+        nex_foster_addison_sub: Except it's people, and how all our lives begin.
+        ↩ (goto) nex_foster_addison_sub: [empty]
+    ├ option 4:
+        nex_foster_addison_sub: I deal in full colony blocks of specialists. I can make individual requests, but we should start the overall system first.
+        ↩ (goto) nex_foster_addison_sub: [empty]
+    ├ option 5:
+        Hero: All right, Brecka. Where do I start?
+        nex_foster_addison_sub: The Interface is active and will respond only to a Pathfinder. It's ready for your first selection.
+        nex_foster_addison_sub: You may begin shaping the Initiative at your leisure.
+    └─ merge ─┘
+├ option 2:
+    Hero: Whoa, that seems like... too much?
+    ↩ (goto) nex_foster_addison_sub: Yes, of course. But now you respect what we're doing.
+└─ merge ─┘
+nex_foster_addison_sub: We await your first application of AVP, Pathfinder. Just access the interface.
+nex_foster_addison_sub: Pathfinder. AVP leveling continues as per your directions.
+nex_foster_addison_sub: And of course, the interface remains accessible for any future adjustments.
+nex_foster_addison_sub: Sweet protocol and process. Now we're living.
+┌─ BRANCH (6) ─┐
+├ option 1:
+├ option 2:
+    Hero: Why'd you join the Initiative?
+    nex_foster_addison_sub: I was a teacher. A good life. I could see the positives and negatives right through to the end.
+    Hero: You did the math and it said "come to Andromeda"?
+    nex_foster_addison_sub: No. I just didn't like being able to see the end.
+    nex_foster_addison_sub: Here, I don't have a clue what tomorrow will bring. Feels more like... living.
+    ↩ (goto) nex_foster_addison_sub: [empty]
+├ option 3:
+    Hero: What's your take on the state of the Initiative?
+    nex_foster_addison_sub: Please consult the AVP interface. It has a thorough breakdown of your progress.
+    Hero: And your personal opinion?
+    nex_foster_addison_sub: Your progress thrills me. Make my job obsolete, Pathfinder. I dare you. {i}(Chuckles.){/i}
+    ↩ (goto) nex_foster_addison_sub: [empty]
+├ option 4:
+    Hero ⟨cond⟩: Why do some colonists have a number-letter designation?
+    nex_foster_addison_sub: All Initiative members do. In a CV file somewhere, anyway. It isn't relevant when everyone is doing everything.
+    nex_foster_addison_sub: I suppose it's like caring about a middle name.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_foster_addison_sub [OncePerGame]: Do you not know yours?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I wasn't aware I had one.
+            nex_foster_addison_sub: Mmm. You were in select company, even before you were made Pathfinder.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                nex_foster_addison_sub ⟨cond⟩: Sara Ryder, Pathfinder. Specialist designation. A-03-Malapa. Hmm.
+                Hero: Something interesting?
+                nex_foster_addison_sub: An "A" and low aughts. Someone's an early adopter.
+                ↩ (goto) nex_foster_addison_sub: [empty]
+            ├ option 2:
+                nex_foster_addison_sub ⟨cond⟩: Ryder, Pathfinder. Specialist designation. A-03-Malapa. Hmm.
+                ↩ (goto) Hero: Something interesting?
+            ├ option 3:
+                nex_foster_addison_sub ⟨cond⟩: Scott Ryder, Pathfinder. Specialist designation. A-04-Malapa. Hmm.
+                ↩ (goto) Hero: Something interesting?
+            ├ option 4:
+                nex_foster_addison_sub: Ryder, Pathfinder. Specialist designation. A-04-Malapa. Hmm.
+                ↩ (goto) Hero: Something interesting?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm the Pathfinder. That's specific enough.
+            nex_foster_addison_sub: Of course. "You are not a number." Also, "Future bad."
+            ↩ (goto) nex_foster_addison_sub: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) nex_foster_addison_sub: [empty]
+    └─ merge ─┘
+├ option 5:
+    Hero ⟨cond⟩: I have a specific person I want brought out of cryo.
+    nex_foster_addison_sub: Name and designation, if available.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: That's it? You'll just do it?
+        nex_foster_addison_sub: Nowhere in my job description does it say "argue with the Pathfinder."
+        nex_foster_addison_sub: That said, I record all interactions. If something you ask for causes trouble, there'll be no doubt that {i}you're{/i} responsible.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I heard that the chief engineer on Eos went {i}back{/i} into cryo.
+            nex_foster_addison_sub: There have been a few such requests. The first few months in Heleus were... disheartening.
+            Hero: Now that Prodromos in on track, I want her redeployed.
+            nex_foster_addison_sub: Chief Engineer Grace Lito, designation E-97-Durango.
+            nex_foster_addison_sub: Deployment will begin shortly. Is there anything else, Pathfinder?
+            ↩ (goto) nex_foster_addison_sub: [empty]
+        ├ option 2:
+            Hero ⟨cond⟩: Prodromos needs a purification technician. Evan Kendricks.
+            nex_foster_addison_sub: Hmm. Slated for late second wave.
+            Hero: Is there a problem?
+            nex_foster_addison_sub: None at all. Just knowingly making the moment awkward.
+            nex_foster_addison_sub: Water Purification Technician Evan Kendricks, designation T-24W-Vermillion.
+            ↩ (goto) nex_foster_addison_sub: Deployment will begin shortly. Is there anything else, Pathfinder?
+        ├ option 3:
+            Hero: Let's keep this between us. Here's the info.
+            ↩ (goto) nex_foster_addison_sub: Deployment will begin shortly. Is there anything else, Pathfinder?
+        ├ option 4:
+            ↩ (goto) Hero: Let's keep this between us. Here's the info.
+        ├ option 5:
+            Hero: Another time.
+            nex_foster_addison_sub: Pathfinder.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) nex_foster_addison_sub: [empty]
+    └─ merge ─┘
+├ option 6:
+    ↩ (goto) Hero: Another time.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    nex_foster_addison_sub [OncePerGame]: Good afternoon, Pathfinder. Or morning. I can keep time according to any of the worlds we've detected.
+    nex_foster_addison_sub: Director Addison finds it annoying.
+    ↩ (goto) nex_foster_addison_sub: [empty]
+├ option 2:
+    nex_foster_addison_sub: Pathfinder?
+    ↩ (goto) nex_foster_addison_sub: [empty]
+├ option 3:
+    nex_foster_addison_sub: Yes, Pathfinder?
+    ↩ (goto) nex_foster_addison_sub: [empty]
+├ option 4:
+    nex_foster_addison_sub: How may I assist?
+    ↩ (goto) nex_foster_addison_sub: [empty]
+└─ merge ─┘
+↩ (goto) nex_foster_addison_sub: [empty]

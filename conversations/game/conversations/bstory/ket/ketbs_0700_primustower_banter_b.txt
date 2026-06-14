@@ -1,0 +1,47 @@
+# game/conversations/bstory/ket/ketbs_0700_primustower_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/ket/ketbs_0700_primustower_banter_b.xml
+==================================================
+SAM: The transmission is strong and unobstructed here, Pathfinder.
+Hero: Looks like we found it then.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Quiet. Too quiet.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: There's no one here.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: I don't like this quiet.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I was expecting guards—or something.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: I thought there would be more kett.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: No one's home. That's a little weird.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ket_mysteryspeaker [OncePerGame]: [Audio Log] Exaltation lifted our ancestors out of sorrow and tribulation.
+    ket_mysteryspeaker: [Audio Log] This noble gift now allows us to raise others, and share in the genetic bounty of this galaxy.
+    ket_mysteryspeaker: [Audio Log] But the Archon would selfishly hoard what Heleus has to offer.
+    Hero: Recorded messages?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Meant to be broadcast to the kett, most likely.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Sounds like some kind of motivational speech to the kett.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Probably set to broadcast to the kett.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: A sermon, meant to inspire the kett?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: I know propaganda when I hear it. Probably broadcast widely.
+    └─ merge ─┘
+├ option 2:
+    ket_mysteryspeaker [OncePerGame]: [Audio Log] The Archon does not serve kett interests, only his own.
+    ket_mysteryspeaker: [Audio Log] He wastes our time on the Remnant, but keeps all knowledge for himself.
+    ket_mysteryspeaker: [Audio Log] These are the acts of a traitor, not true kett.
+├ option 3:
+    ket_mysteryspeaker [OncePerGame]: [Audio Log] The Archon believes Meridian will bring him power.
+    ket_mysteryspeaker: [Audio Log] He will become the master of the Remnant. Its sole master.
+    ket_mysteryspeaker: [Audio Log] Once Heleus submits, where does the traitor turn his gaze? Think. Understand. Our home is in peril.
+└─ merge ─┘

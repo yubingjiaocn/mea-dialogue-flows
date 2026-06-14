@@ -1,0 +1,53 @@
+# game/conversations/unc_ice/ice_whales_0400_datapad_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_whales_0400_datapad_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: These people... they have no idea what the yevara mean to us.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: We'll take care of these poachers, Jaal. I promise.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Thank you. I know it's difficult to understand.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: The yevara are intelligent, amazing creatures. And they're being slaughtered.
+            ├ option 2:
+                global_squad_angara: [Comm] The yevara are intelligent, amazing creatures. And they're being slaughtered.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara: [Comm] I appreciate that. I know it's not easy to understand.
+            ↩ (goto) global_squad_angara ⟨cond⟩: The yevara are intelligent, amazing creatures. And they're being slaughtered.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I want to understand. Why are the yevara so important?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Nearly all our traditional stories were lost in the Scourge. Except for tales of the yevara on Voeld.
+            global_squad_angara: How they sang from the oceans and lured the sun out of hiding.
+            global_squad_angara: How in ancient times they guided angara ships to safe shores.
+            Hero: That's beautiful.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_angara ⟨cond⟩: The yevara are intelligent, amazing creatures. And they're being slaughtered.
+            ├ option 2:
+                ↩ (goto) global_squad_angara: [Comm] The yevara are intelligent, amazing creatures. And they're being slaughtered.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara: [Comm] Nearly all our traditional stories were lost in the Scourge. Except for tales of the yevara on Voeld.
+            global_squad_angara: [Comm] How they sang from the oceans and lured the sun out of hiding.
+            global_squad_angara: [Comm] How in ancient times they guided angara ships to safe shores.
+            ↩ (goto) Hero: That's beautiful.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: [Comm] Those people... they have no idea what the yevara mean to us.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: We'll take care of these poachers, Jaal. I promise.
+    ├ option 2:
+        ↩ (goto) Hero: I want to understand. Why are the yevara so important?
+    └─ merge ─┘
+└─ merge ─┘

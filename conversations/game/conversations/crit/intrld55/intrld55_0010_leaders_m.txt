@@ -1,0 +1,49 @@
+# game/conversations/crit/intrld55/intrld55_0010_leaders_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld55/intrld55_0010_leaders_m.xml
+==================================================
+Narration: Ryder receives a call from Director Tann on the Tempest.
+global_nexus_PI_director: Pathfinder. You seem well.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: We're all doing quite well here. Thank you.
+    global_nexus_PI_director: That is good to hear. This journey can't have been easy. Speaking of which...
+    global_nexus_PI_director: We know you defied us. You went for Meridian, in direct violation of Initiative orders.
+    global_nexus_PI_director: Even though our reasons were quite clear.
+    Narration: Ryder braces. Here it comes.
+    global_nexus_PI_director: Yet... you were correct, Ryder. We should have trusted your instincts.
+    Narration: Ryder looks confused for a second. What's going on? Did Tann actually admit he was wrong? Is this a joke? What's happening?
+    global_nexus_PI_director: You have proven time and again that you deserve the title of "Pathfinder."
+    global_nexus_PI_director: I have never been so glad to be wrong.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I appreciate your encouragement, and your candor.
+        Narration: Ryder smiles. Tann smiles.
+        global_nexus_PI_director: I'm told there are still obstacles to reaching Meridian.
+        global_nexus_PI_director: The Initiative stands ready to provide whatever support you need.
+        Narration: Tann nods to Ryder, and signs off.
+    ├ option 2:
+        Hero: I knew you guys would come around eventually.
+        ↩ (goto) Narration: Ryder smiles. Tann smiles.
+    └─ merge ─┘
+├ option 2:
+    Hero: Just get to the point. We both know what you're going to say.
+    global_nexus_PI_director: Perhaps, perhaps not.
+    ↩ (goto) global_nexus_PI_director: We know you defied us. You went for Meridian, in direct violation of Initiative orders.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Your orders were stu—ill-advised.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You were more worried about your own power than finding a home.
+        global_nexus_PI_director: Ryder. Please let me finish.
+        Narration: Ryder looks exasperated, but gestures at the holo, implying "Please, go on."
+        global_nexus_PI_director: As I was about to say: you went after Meridian... and you were right to do so.
+        ↩ (goto) Narration: Ryder looks confused for a second. What's going on? Did Tann actually admit he was wrong? Is this a joke? What's happening?
+    ├ option 2:
+        Hero: You wanted to turn a blind eye and hope things magically got better.
+        ↩ (goto) global_nexus_PI_director: Ryder. Please let me finish.
+    └─ merge ─┘
+├ option 2:
+└─ merge ─┘

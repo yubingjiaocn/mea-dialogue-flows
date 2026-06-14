@@ -1,0 +1,54 @@
+# game/conversations/unc_ice/ice_priestess_0250_gloryseekers_d
+# Primary speaker: ice_kolf
+# Source: game/conversations/unc_ice/ice_priestess_0250_gloryseekers_d.xml
+==================================================
+ice_shoraad: You're the alien who saved the Moshae!
+ice_vensh: How many kett did you kill? I hope they screamed.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I don't kill kett because I enjoy it. It just has to be done.
+    ice_vensh: Well, yeah. Your people haven't been hunted and enslaved and exalted. It's different for us.
+    ice_kolf: All right. That's enough.
+    ice_kolf: I know they call you "Pathfinder." What do you need from us?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Your priestess, Roshwar Linn, told me about you. I was just curious.
+        ice_kolf: Roshwar Linn is a blind old woman. She cowers with her blessings while the kett consume everything.
+        Hero: She said you were throwing away your lives.
+        ice_kolf: Nothing is thrown away. It's not suicide. We train as hard as anyone in the Resistance.
+        ice_kolf: But when you don't fear dying, that's when there's everything to gain and nothing to lose.
+        ice_vensh: I can't wait for my turn. But all our blood still runs too hot. Tej is our hope now.
+        ice_shoraad: Tej is going to take down a kett station. We should hear the news soon.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: And what if he fails his mission?
+            ice_kolf: If he dies fighting kett, there is no failure. But if he returns with nothing accomplished, we'll know he was cowardly.
+            ice_kolf: A cowardly heart isn't worthy of blessed rebirth.
+            Hero: So where's this kett station?
+            ice_vensh: You shouldn't interfere, Pathfinder.
+            ice_kolf: It's okay, Vensh. As long as kett die, it doesn't matter who's killing them. Here's the navpoint.
+            ice_kolf: It was... interesting meeting you, Pathfinder. Skies be bright for you.
+        ├ option 2:
+            Hero: You want to hear that your friend's dead? That's kinda screwed up.
+            ice_shoraad: We don't want it. We accept it. Just because you don't understand, doesn't mean it's wrong.
+            ↩ (goto) Hero: So where's this kett station?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Was just passing by and heard you talking about taking down kett.
+        ice_shoraad: Taand and Aren. They faced the kett and gave themselves to the blessed rebirth.
+        Hero: Which is...
+        ice_vensh: They train and prepare. Calm their hearts, so that when they die and come back, they remember.
+        ice_vensh: And they'll be stronger, and wiser, and better able to fight the evil that is the kett.
+        ↩ (goto) ice_vensh: I can't wait for my turn. But all our blood still runs too hot. Tej is our hope now.
+    └─ merge ─┘
+├ option 2:
+    Hero: Don't know. Wasn't counting.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_vensh ⟨cond⟩: Wow. That many. Hey, Kolf. This alien's my hero.
+        ↩ (goto) ice_kolf: All right. That's enough.
+    ├ option 2:
+        ice_vensh: Wow. That many. Hey, Kolf. This alien's my hero.
+        ↩ (goto) ice_kolf: All right. That's enough.
+    └─ merge ─┘
+└─ merge ─┘

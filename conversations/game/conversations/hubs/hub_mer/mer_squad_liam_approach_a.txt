@@ -1,0 +1,34 @@
+# game/conversations/hubs/hub_mer/mer_squad_liam_approach_a
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/hub_mer/mer_squad_liam_approach_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human: Running smooth.
+    ├ option 2:
+        global_squad_male_human: Pathfinder.
+    ├ option 3:
+        global_squad_male_human: Ryder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_male_human [OncePerGame]: When do you want me to give that talk?
+        mer_hub_staff_placements_multi: We've a new group coming out shortly, Mr. Kosta.
+        global_squad_male_human: All set. I'll tell them everything about living in the cluster. Well, almost everything.
+    ├ option 2:
+        global_squad_male_human [OncePerGame]: What's your story, Darla vas Hyperion?
+        mer_hub_staff_placements_multi: Pretty typical. Ambassador with fluency in thirteen languages meets girl, loses girl, goes to Andromeda.
+        global_squad_male_human: Yeah. {i}(Chuckles.){/i} This was all typical.
+    ├ option 3:
+        global_squad_male_human [OncePerGame]: No kidding? Placements are up that much?
+        mer_hub_staff_placements_multi: You're the ones paving the way.
+        global_squad_male_human: I suppose we make it look easy.
+        mer_hub_staff_placements_multi: Oh. Oh no, Mr. Kosta. You make it look very, very difficult. That's why I respect it.
+        global_squad_male_human: Oh. Then... that's good too?
+    ├ option 4:
+        ↩ (goto) global_squad_male_human: [empty]
+    └─ merge ─┘
+└─ merge ─┘

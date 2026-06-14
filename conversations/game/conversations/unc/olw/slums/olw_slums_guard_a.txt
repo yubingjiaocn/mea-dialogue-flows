@@ -1,0 +1,40 @@
+# game/conversations/unc/olw/slums/olw_slums_guard_a
+# Primary speaker: olw_outcast_guard_01
+# Source: game/conversations/unc/olw/slums/olw_slums_guard_a.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        olw_outcast_guard_01: {i}(Yawns.){/i} Just a few more hours.
+    ├ option 2:
+        olw_outcast_guard_01: {i}(Hums.){/i} Damn I'm bored.
+    ├ option 3:
+        olw_outcast_guard_01: Don't cause trouble.
+    └─ merge ─┘
+├ option 2:
+    olw_outcast_guard_01 [OncePerGame]: If Kaetus catches us on this frequency, he'll have my ass.
+    olw_outcast_guard_02: [Comm] {i}(Laughs.){/i} You worry too much. Coming to Tartarus later?
+    olw_outcast_guard_01: Depends. Who's coming?
+├ option 3:
+    kad_queen_guard_01 [OncePerGame]: [Comm] Mix up your patrol pattern. Report {i}anyone{/i} you think's suspicious.
+    olw_outcast_guard_01: There was someone poking around.
+    kad_queen_guard_01: [Comm] Who? What did they look like?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_outcast_guard_01 ⟨cond⟩: She was wearing high-grade armor.
+        kad_queen_guard_01: [Comm] That's just the Pathfinder. She's not a threat. For now.
+        olw_outcast_guard_01: So I shouldn't keep tabs?
+        kad_queen_guard_01: [Comm] I didn’t say that...
+    ├ option 2:
+        olw_outcast_guard_01: He was wearing high-grade armor.
+        kad_queen_guard_01: [Comm] That’s just the Pathfinder. He’s not a threat. For now.
+        ↩ (goto) olw_outcast_guard_01: So I shouldn't keep tabs?
+    └─ merge ─┘
+├ option 4:
+    olw_outcast_guard_02 [OncePerGame]: [Comm] Is it true? The Collective got Emel?
+    olw_outcast_guard_01: It's true.
+    olw_outcast_guard_02: [Comm] Why hasn't Sloane given the order yet?
+    olw_outcast_guard_02: [Comm] We should’ve cleared out these bastards ages ago!
+    olw_outcast_guard_01: Shut up. How many times do I have to tell you? This isn't a private frequency.
+└─ merge ─┘

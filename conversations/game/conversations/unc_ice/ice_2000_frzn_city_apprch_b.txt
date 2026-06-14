@@ -1,0 +1,57 @@
+# game/conversations/unc_ice/ice_2000_frzn_city_apprch_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_2000_frzn_city_apprch_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Pretty intense kett shield for the middle of nowhere.
+    ice_buxil: [Comm] That's Ja Niihk. The kett think they'll find some Remnant thing there.
+    ice_buxil: [Comm] Our people can't break through that shield. It's controlled from the main command base.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Pretty intense kett shield for the middle of nowhere.
+    ↩ (goto) ice_buxil: [Comm] That's Ja Niihk. The kett think they'll find some Remnant thing there.
+├ option 3:
+    global_squad_turian ⟨cond⟩: That is a big shield.
+    ↩ (goto) ice_buxil: [Comm] That's Ja Niihk. The kett think they'll find some Remnant thing there.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Crazy shield in the middle of nowhere.
+    ↩ (goto) ice_buxil: [Comm] That's Ja Niihk. The kett think they'll find some Remnant thing there.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: That's some shield.
+    ↩ (goto) ice_buxil: [Comm] That's Ja Niihk. The kett think they'll find some Remnant thing there.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Pretty intense kett shield for the middle of nowhere.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) ice_buxil: [Comm] That's Ja Niihk. The kett think they'll find some Remnant thing there.
+    ├ option 2:
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: The kett must be protecting something valuable.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: That's really suspicious.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: What are they hiding here?
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: Just makes me want to see what they're protecting even more.
+        ├ option 5:
+            global_squad_female_human ⟨cond⟩: What are they protecting?
+        ├ option 6:
+            global_squad_angara ⟨cond⟩: Suspicious overcompensation.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: With the shield down, these guys should be easy.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Without the shields, this is just clean up.
+├ option 3:
+    global_squad_turian ⟨cond⟩: They should be easy without their shields to hide behind.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Let's take these guys out and see what's down there!
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Without their shields, taking out these guards shouldn't take long.
+├ option 6:
+    global_squad_angara ⟨cond⟩: Now that shield is down, getting rid of the kett should be easy.
+└─ merge ─┘

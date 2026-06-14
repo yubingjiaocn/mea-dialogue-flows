@@ -1,0 +1,93 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_hmm_a
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_hmm_a.xml
+==================================================
+┌─ BRANCH (9) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: We'll do it. You'll see.
+    nex_bar_liam_amb_01: Promise and Resilience say otherwise.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: The Pathfinder will make it happen. You'll see.
+    ├ option 2:
+        global_squad_male_human: The Pathfinder will make it happen. You'll see.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: I'm telling you, skies as wide as Earth. Land for the asking.
+    nex_bar_liam_amb_01: It was radioactive hurricanes when we arrived. You're saying it's golden?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Check the new feed. The Pathfinder fixed it. And more.
+    ├ option 2:
+        global_squad_male_human: Check the new feed. The Pathfinder fixed it. And more.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Mountains of ice. They catch moonlight like you wouldn't believe.
+    nex_bar_liam_amb_02: You're right about that. I heard it's scoped as mining and not much more.
+    global_squad_male_human: That means opportunity. Potential.
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: You could see the glow from low orbit. That whole world is just... electric.
+    nex_bar_liam_amb_03: The vids look crazy.
+    global_squad_male_human: And I'm saying it's even crazier. That's why it's amazing.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: It's like the old west. But the good old west, not that shit revival in the twenty-first.
+    nex_bar_liam_amb_03: I don't like the idea of getting shot.
+    global_squad_male_human: Pull up Tate's picture on a terminal. That man is laying down the law.
+├ option 6:
+    nex_bar_liam_amb_01 ⟨cond⟩ [OncePerGame]: So we're just supposed to welcome them back?
+    global_squad_male_human: No. You should hope they welcome {i}you{/i}. New Tuchanka is a producer.
+    nex_bar_liam_amb_02: Think they'll have room?
+    global_squad_male_human: I'll put in a good word.
+├ option 7:
+    global_squad_male_human [OncePerGame]: Okay, now it's your turn.
+    nex_bar_liam_amb_01: Don't know any good stories. Lost my crew in the Terminus. Came here to start over.
+    global_squad_male_human: "Rebirth" is one of the best stories. Drinks on me.
+├ option 8:
+    global_squad_male_human [OncePerGame]: Your whole family went through training, made the cut, and packed it all up to come here? Then what happened?
+    nex_bar_liam_amb_02: Then nothing. We're here.
+    global_squad_male_human: That's not nothing. You're pioneers. Don't forget that.
+├ option 9:
+    global_squad_male_human [OncePerGame]: So we've got redemption over here. What about you—why'd you come?
+    nex_bar_liam_amb_03: Fleeing the family business.
+    global_squad_male_human: Refusing the call. Textbook monomyth, that is.
+    nex_bar_liam_amb_03: Sounds like bull to me.
+    global_squad_male_human: You're not alone.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: Noticed a hand-off there. Too small for illicits.
+    nex_liam_amb_security_01: You'd be surprised. There's ossilbir vine in the seed bank.
+    global_squad_male_human: Nobody's making creeper in Andromeda.
+    nex_liam_amb_security_01: You'd be surprised.
+├ option 2:
+    nex_liam_amb_security_01 [OncePerGame]: You were in the force? What district?
+    global_squad_male_human: Mars. Bradbury Landing, near the Green Band. Didn't last.
+    nex_liam_amb_security_01: Not a fit? Good you got out before screwing up, then.
+    global_squad_male_human: That's what I thought.
+├ option 3:
+    nex_liam_amb_security_01 [OncePerGame]: I've heard of HUSTL.
+    global_squad_male_human: Good things, I hope.
+    nex_liam_amb_security_01: Impossible things. And about "goddamn Hammond."
+    global_squad_male_human: He made up for everything. Twice over.
+    nex_liam_amb_security_01: He'd have to.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_male_human: Free drinks for Pathfinders. I'll make sure of it.
+├ option 2:
+    global_squad_male_human: Ryder.
+├ option 3:
+    global_squad_male_human: Take a break, Pathfinder. Everyone needs it.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Pathfinder.
+├ option 2:
+    global_squad_male_human: All quiet here. For a change.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) global_squad_male_human: Ryder.
+├ option 2:
+    ↩ (goto) global_squad_male_human: Pathfinder.
+└─ merge ─┘

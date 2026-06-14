@@ -1,0 +1,39 @@
+# game/conversations/bstory/kro/hub_nex_0500_snoop_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/hub_nex_0500_snoop_b.xml
+==================================================
+Hero: What's this?
+SAM: I cannot scan what you're holding, Pathfinder. It's somehow blocking me, as a scrambler might.
+Hero: Sounds like a job for a comms expert.
+Hero: SAM? Anyone nearby?
+SAM: Negative, Pathfinder. The vicinity is clear of all personnel.
+Hero: Good. Let's do this.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    SAM [OncePerGame]: There is a blank spot in your vicinity, Pathfinder.
+    Hero: What do you mean?
+    SAM: I cannot "see" part of the room, for lack of a better term.
+├ option 2:
+    Hero [OncePerGame]: "How to Rise Through the Ranks" and "The Path to Quick Promotions."
+├ option 3:
+    Hero [OncePerGame]: Rebreather components, power cells, dried food...
+    SAM: Scanning the labels, many of these boxes were reported missing.
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_krobsto_engi_01 [OncePerGame]: [Audio Log] Kesh, I'm not sure what we can do here. We've got the systems stabilized for now.
+        nex_krobsto_engi_01: [Audio Log] But we're going to need to reroute power soon. We could lose some stasis pods if we don't.
+    ├ option 2:
+        global_nexus_colonial_assdir [OncePerGame]: [Audio Log] Meeting notes for Director Tann. Engineering has requested resources we don't have, yet again.
+        global_nexus_colonial_assdir: [Audio Log] In particular, repairs to nonessential systems. I'm having doubts in Kesh's ability to prioritize tasks appropriately.
+    └─ merge ─┘
+├ option 5:
+├ option 6:
+    global_nexus_colonial_assdir: The mutiny went as well as you'd expect. So much violence. Then, after nearly destroying the station, the krogan ask for more power? Good riddance.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Interference is preventing scanner function. You will need to rely on more basic means to search these quarters.
+├ option 2:
+    SAM: Perhaps you should look under or behind the furnishings, Pathfinder.
+└─ merge ─┘

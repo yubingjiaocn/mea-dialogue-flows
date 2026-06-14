@@ -1,0 +1,31 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0110_shuttle_fall_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0110_shuttle_fall_b.xml
+==================================================
+global_squad_male_human: Whoa!
+Hero: Liam!
+Hero: Hang on!
+global_squad_male_human: Ryder!
+Hero: {i}(Screams.){/i}
+global_squad_male_human: {i}(Screams.){/i}
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Acceleration increasing.
+    Hero: No kidding!
+    SAM: Your jump-jet is malfunctioning.
+    Hero: Get it working!
+    SAM: Approaching terminal velocity.
+    Hero: SAM!
+├ option 2:
+    Hero: Shiiiiiiit!
+├ option 3:
+    SAM: Jump-jet now operational.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: Whoa!
+├ option 2:
+    Hero [OncePerGame]: Ah!
+├ option 3:
+    Hero [OncePerGame]: Shit!
+└─ merge ─┘

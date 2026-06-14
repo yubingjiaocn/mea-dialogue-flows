@@ -1,0 +1,20 @@
+# game/conversations/unc/storms/stm_9350_amb_09_i
+# Primary speaker: stm_outpost_amb_21
+# Source: game/conversations/unc/storms/stm_9350_amb_09_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_outpost_amb_21 [OncePerGame]: Hey, Pathfinder. Figured you might know how the militia's doing. Do they need people?
+    stm_outpost_amb_21: I was in the Alliance reserves. With everything going on, I feel like I should go back to the Nexus and help.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Kandros wouldn't say no to another volunteer.
+        stm_outpost_amb_21: Right, right. Might be time to get my gear out of storage. Thanks.
+    ├ option 2:
+        Hero: Every colonist is doing important work right now. Help on Eos.
+        stm_outpost_amb_21: Okay. Thanks, anyway. Good luck out there.
+        ↩ (goto) stm_outpost_amb_21: [empty]
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) stm_outpost_amb_21: Okay. Thanks, anyway. Good luck out there.
+└─ merge ─┘

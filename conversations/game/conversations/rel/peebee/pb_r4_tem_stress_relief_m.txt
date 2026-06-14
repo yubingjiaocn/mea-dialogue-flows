@@ -1,0 +1,106 @@
+# game/conversations/rel/peebee/pb_r4_tem_stress_relief_m
+# Primary speaker: Hero
+# Source: game/conversations/rel/peebee/pb_r4_tem_stress_relief_m.xml
+==================================================
+global_squad_asari: ...come on, think... {i}think{/i}. I need... something!
+Hero: Who are you talking to?
+global_squad_asari: Ryder, shit, you shouldn't sneak up on someone like that.
+global_squad_asari: I'm just... talking to myself. Don't tell me you never do that.
+Hero: You seem stressed.
+global_squad_asari: No kidding.
+global_squad_asari: I'm not built for this kind of... homesteading. Don't like people knowing where I am, where my stuff is... arghh!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: What's your usual solution?
+    global_squad_asari: Usually I cut bait. Scram. Strike out on my own.
+    global_squad_asari: When I felt like this back home, I'd look for a zero-G chamber or at least an isolation tank.
+    global_squad_asari: Someplace to just drift away. I could really use that now!
+    SAM: If I may, gravity can be overridden in the escape pod. You can create a zero-G chamber.
+    global_squad_asari: Of course! SAM, you're a genius!
+    global_squad_asari: It's easy. It'll make a huge difference, Ryder. You'll see.
+    global_squad_asari: You know, there's... room for two.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You're willing to share? I won't cramp your style?
+        global_squad_asari: Let's find out.
+        Hero: All right, I'm in.
+        global_squad_asari: And... this... should... do it.
+        global_squad_asari: Close your eyes... relax... let yourself go.
+        global_squad_asari: Oh, this hits the spot...
+        global_squad_asari: Ryder?
+        Hero: Yeah?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari: Thank you for this.
+        ├ option 2:
+            global_squad_asari: There's something else that would relax me.
+            Hero: What's that?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari: That's the spirit.
+                global_squad_asari: Want to fool around?
+                global_squad_asari: Doesn't matter if you have something else going on. I can be utterly discreet.
+                global_squad_asari: Just fun. Two people blowing off steam. No strings attached. {i}Only{/i} if there's no strings.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero: I don't think so, Peebee.
+                    global_squad_asari: That's fine. Say no more.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero: I hope this is enough—
+                        global_squad_asari: Hey, don't you know what "say no more" means?
+                        global_squad_asari: Really, I mean it, no explanation necessary. Just...
+                        ↩ (goto) global_squad_asari: Thank you for this.
+                    ├ option 2:
+                        Hero ⟨cond⟩: It's just, me and—
+                        ↩ (goto) global_squad_asari: Hey, don't you know what "say no more" means?
+                    ├ option 3:
+                        Hero: Peebee, listen—
+                        ↩ (goto) global_squad_asari: Hey, don't you know what "say no more" means?
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: That'll be fun.
+                    global_squad_asari: Okay, then. Say no more.
+                    Hero: Oh, you mean now? Here?
+                    global_squad_asari: You do know what "say no more" means, right?
+                    global_squad_asari: {i}(Giggles.){/i}
+                    Hero: Whoa...
+                    global_squad_asari: We're floating right into the—
+                    Hero: Ouch! Who cares...?
+                    global_squad_asari: {i}(Giggles.){/i}
+                    global_squad_asari: Ow.
+                    Hero: Ow.
+                    global_squad_asari: {i}(Laughter.){/i}
+                    Hero: {i}(Laughter.){/i}
+                    global_squad_asari: {i}(Moans.){/i}
+                    Hero: {i}(Heavy breathing.){/i}
+                    global_squad_asari: No strings, right, Ryder?
+                    Hero: No strings.
+                    ↩ (goto) Narration: [empty]
+                ├ option 3:
+                    Hero: I'm into you, Peebee. I'd want it to mean something.
+                    global_squad_asari: Oh. Huh. Good to... know.
+                    Hero: Let's not rush things. Just enjoy this.
+                    global_squad_asari: {i}(Deep breath.){/i}
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_asari: You haven't taken the bait yet, but I'm not afraid of rejection...
+                ↩ (goto) global_squad_asari: Want to fool around?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's all I need to hear.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You've got to relax. You're starting to stress {i}me{/i} out.
+    global_squad_asari: I'd like to. I need to, yes.
+    ↩ (goto) global_squad_asari: When I felt like this back home, I'd look for a zero-G chamber or at least an isolation tank.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: ...come on, Poc, think... {i}think{/i}. I need... something!
+├ option 2:
+    global_squad_asari: I'm talking to Poc—Proof of Concept—my—our—bot. I finally named her.
+└─ merge ─┘

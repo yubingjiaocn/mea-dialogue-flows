@@ -1,0 +1,60 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0625_processor_final_combat_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0625_processor_final_combat_b.xml
+==================================================
+Hero: What now?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_dad: I need to decipher the language.
+├ option 2:
+    global_dad: Finding a way to open that door!
+└─ merge ─┘
+global_squad_female_human: Watch our left!
+global_squad_female_human: There's more coming up!
+global_squad_male_human: What's the plan here? They'll surround us in no time!
+Hero: We need to defend both sides, or they'll flank us!
+global_squad_male_human: Where do you want us?
+global_squad_male_human: Got it!
+global_squad_female_human: Right!
+global_squad_male_human: Watch it! Think I see movement!
+global_squad_female_human: Sir, any progress?
+global_dad: I need more time!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_dad [OncePerGame]: We need to get this door open!
+├ option 2:
+    global_dad [OncePerGame]: Ryder, get over here! That's an order!
+└─ merge ─┘
+global_squad_female_human: They're pulling back!
+global_squad_male_human: Could be getting ready for another push!
+global_dad: I think I have access!
+global_dad: Damn! The thing's jammed!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_dad ⟨cond⟩: Scott, I need your help over here!
+    global_squad_female_human: Go—it's okay! We'll keep a lookout!
+    global_dad: We need to get this door open!
+    Hero: On it!
+├ option 2:
+    global_dad ⟨cond⟩: Sara, I need your help over here!
+    ↩ (goto) global_squad_female_human: Go—it's okay! We'll keep a lookout!
+├ option 3:
+    global_dad: Ryder, I need your help over here!
+    ↩ (goto) global_squad_female_human: Go—it's okay! We'll keep a lookout!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human [OncePerGame]: Ryder, don't go too far!
+├ option 2:
+    global_squad_male_human [OncePerGame]: Ryder, the fight's back here!
+├ option 3:
+    global_dad [OncePerGame]: Get back here! We need you!
+└─ merge ─┘
+global_dad: They're swarming us! {i}(Screams.){/i}
+global_squad_female_human: They killed Alec!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_dad [OncePerGame]: What the hell are you waiting for? This door's about to reset! We'll never get it in!
+├ option 2:
+    global_squad_female_human: Go, it's okay! We can hold them!
+└─ merge ─┘

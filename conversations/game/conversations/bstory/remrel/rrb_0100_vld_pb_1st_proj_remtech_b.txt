@@ -1,0 +1,128 @@
+# game/conversations/bstory/remrel/rrb_0100_vld_pb_1st_proj_remtech_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/remrel/rrb_0100_vld_pb_1st_proj_remtech_b.xml
+==================================================
+Hero: These are the ruins we're looking for.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Time to scrounge for tech.
+├ option 2:
+    Hero ⟨cond⟩: Let's find some tech for Peebee.
+└─ merge ─┘
+Hero: Gotta take out these Remnant, then get the piece of tech we need!
+Hero: Glyph over here.
+Hero: Got it.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Is this what you need for your project, Peebee?
+    global_squad_asari: Looks like it. Very cool little piece of rem-tech.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: "Rem-tech"?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari: Yeah, shortcut I made up. "Rem" is short for "Remnant," and—
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: I comprehend.
+                Hero: Any time we come across ruins like this, let's scrounge what we can.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari ⟨cond⟩: Appreciate it. Come see me on the ship—I'll give you an update on the project.
+                ├ option 2:
+                    Hero: I'll deliver this piece and hopefully find out what her secret project is.
+                    ↩ (goto) global_squad_angara: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_krogan ⟨cond⟩: Got it.
+                ↩ (goto) Hero: Any time we come across ruins like this, let's scrounge what we can.
+            ├ option 3:
+                global_squad_turian ⟨cond⟩: Say no more, got it.
+                ↩ (goto) Hero: Any time we come across ruins like this, let's scrounge what we can.
+            ├ option 4:
+                global_squad_male_human ⟨cond⟩: Yeah, yeah, I get it.
+                ↩ (goto) Hero: Any time we come across ruins like this, let's scrounge what we can.
+            ├ option 5:
+                global_squad_female_human ⟨cond⟩: Noted.
+                ↩ (goto) Hero: Any time we come across ruins like this, let's scrounge what we can.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Peebee's term.
+            ↩ (goto) Hero: Any time we come across ruins like this, let's scrounge what we can.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: "Rem-tech"?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: "Rem-tech"?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: "Rem-tech"?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: "Rem-tech"?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_female_human: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: This must be the piece of rem-tech Peebee needs.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: "Rem-tech"?
+    ├ option 2:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: "Rem-tech"?
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: "Rem-tech"?
+    ├ option 4:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: "Rem-tech"?
+    ├ option 5:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: "Rem-tech"?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: There's good salvageable Rem-tech here.
+├ option 2:
+    Hero: She's looking for pieces that will help her understand Remnant systems. And for a personal project. I promised to help.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: Yup. This will do nicely, thank you.
+        ↩ (goto) Hero: Any time we come across ruins like this, let's scrounge what we can.
+    ├ option 2:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: "I" meaning "everyone."
+            Hero: Pretty much.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: So now we're all helping.
+            ↩ (goto) Hero: Pretty much.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: So, "I" meaning "we."
+            ↩ (goto) Hero: Pretty much.
+        ├ option 4:
+            global_squad_krogan ⟨cond⟩: So we're all drafted.
+            ↩ (goto) Hero: Pretty much.
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: Then we should all assist her.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

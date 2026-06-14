@@ -1,0 +1,85 @@
+# game/conversations/bstory/tur/tur_0700_lun_sam_d
+# Primary speaker: global_turian_pathfinder_multi
+# Source: game/conversations/bstory/tur/tur_0700_lun_sam_d.xml
+==================================================
+Narration: Ryder and Avitus approach the turian SAM node. It is flickering and damaged, but still functioning.
+global_turian_pathfinder_multi: SAM! Where's the Pathfinder? Where's Macen?
+tur_SAM: Avi. Avi. Avi. Commence. Stars.
+Hero: "Avi." Isn't that what Macen called you?
+global_turian_pathfinder_multi: He's the only one who calls me that.
+Narration: The turian SAM node flickers violently and begins emitting strange sounds.
+SAM: My counterpart is suffering from severe trauma. If I partition the damage, it may be able to speak with us.
+Hero: Be careful. I don't want to lose this SAM because we rushed for answers.
+Narration: The strange noises suddenly stop and the SAM node stops flickering. Avitus and Ryder stare anxiously for a moment.
+tur_SAM: Avitus Rix. Welcome home.
+global_turian_pathfinder_multi: SAM. Macen sent coordinates to this location. I need to find him.
+tur_SAM: You are mistaken. I sent the coordinates.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Okay. This is officially getting weird. Next you'll say you flew the Natanus here.
+    tur_SAM: I did. The Pathfinder ordered me to help Avitus find the turians a home.
+    global_turian_pathfinder_multi: Where's Macen?
+    tur_SAM: Gone.
+    global_turian_pathfinder_multi: This thing's still busted. It doesn't know what it's talking about.
+    Hero: We should have access to Macen's logs. Maybe there's something in there.
+    Narration: The audio log begins to play.
+    tur_orig_pathfinder: [Audio Log] Avi. {i}(Coughs.){/i} Whatever we hit, a piece of it shredded my suit. Stings like hell, but spirits, it's beautiful.
+    tur_orig_pathfinder: [Audio Log] I need you to go on for the both of us. Don't let that temper get the better of you. SAM. Commence transfer.
+    tur_SAM: [Audio Log] Yes, Pathfinder.
+    tur_orig_pathfinder: [Audio Log] Even the stars look brighter—
+    Narration: We hear an explosion then the log goes dead.
+    Hero: He died before the transfer was complete. That must be the source of SAM's trauma.
+    global_turian_pathfinder_multi: Why bring me here? What was the point?
+    tur_SAM: To complete the transfer. The turians need a Pathfinder.
+    global_turian_pathfinder_multi: I can't.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: What do you mean you can't?
+        global_turian_pathfinder_multi: I never thought I'd get the job. My whole career, I worked alone. I don't know how to lead people. I don't {i}want{/i} to lead people.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Macen's last act was transferring SAM to you—but I can't make you take the job.
+            global_turian_pathfinder_multi: I'd only let him down.
+            Narration: Avitus walks away, leaving Ryder and squad alone with SAM.
+            Hero: Suvi, call Tann. Tell him we found the turian ark. Need a pick up for the SAM node.
+            global_crew_science_officer: [Comm] And the turian Pathfinder?
+            Narration: Ryder shakes her head.
+            Hero: He didn't make it.
+        ├ option 2:
+            Hero: Avitus. I've seen you protect settlers. You found the turian ark.
+            Hero: You've already been playing the part of Pathfinder. Just without the title.
+            global_turian_pathfinder_multi: A title that belongs to Macen.
+            Hero: Which he wanted you to have. Rejecting it won't bring him back.
+            global_turian_pathfinder_multi: What if I let him down?
+            Hero: You could only do that by walking away.
+            global_turian_pathfinder_multi: Damn it. You're right.
+            tur_SAM: Shall I begin transfer?
+            Hero: It'll be safer on the Nexus. Suvi, call Tann. We need a shuttle to pick up the SAM node. Tell him we found the turian Pathfinder.
+            Narration: Ryder pats Avitus on the shoulder.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: Avitus. I've seen you protect settlers. You found the turian ark.
+    ├ option 3:
+        Hero: You're just making excuses. I expected more from a Spectre.
+        global_turian_pathfinder_multi: I told you—I'm retired.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Macen's last act was transferring SAM to you—but I can't make you take the job.
+        ├ option 2:
+            Hero: And what about your people? The turians need a Pathfinder.
+            global_turian_pathfinder_multi: They'll find a replacement.
+            Hero: Not one with your experience.
+            global_turian_pathfinder_multi: You can't force me into it.
+            Hero: I'm just laying out the facts: your people are scattered with no home, no ark, and no Pathfinder.
+            Hero: You really okay with walking away when you could do something?
+            global_turian_pathfinder_multi: {i}(Sighs.){/i} No. Of course not. Damn you, Ryder.
+            ↩ (goto) tur_SAM: Shall I begin transfer?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: What do you mean, {i}you{/i} sent the coordinates?
+    tur_SAM: The Pathfinder ordered me to help Avitus find a home for the turians. I located our destination, H-047c, then sought out Avitus.
+    global_turian_pathfinder_multi: Why would Macen do that?
+    tur_SAM: It was his last request.
+    ↩ (goto) global_turian_pathfinder_multi: This thing's still busted. It doesn't know what it's talking about.
+└─ merge ─┘

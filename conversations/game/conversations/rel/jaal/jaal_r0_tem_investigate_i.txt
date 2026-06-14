@@ -1,0 +1,636 @@
+# game/conversations/rel/jaal/jaal_r0_tem_investigate_i
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r0_tem_investigate_i.xml
+==================================================
+┌─ BRANCH (14) ─┐
+├ option 1:
+    global_squad_angara: That's enough until we've established a better trust with each other.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara: I can't talk to you right now.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        ↩ (goto) global_squad_angara: I can't talk to you right now.
+    └─ merge ─┘
+├ option 3:
+    global_squad_angara: We'll talk later. I'm unhappy with us right now.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_angara: You acquired the components?
+    Hero: Yes. I'm looking forward to seeing what you and Gil put together.
+    global_squad_angara: He's very gifted. If—when—we succeed, more of your people can experience our stories as they're meant to be enjoyed.
+    global_squad_angara: "Goda Tavetara." The "Lulea Reborn" trilogy. I'm weeping a bit already.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_angara: Liam's idea about watching vids together...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Movie night? He delayed again, out of respect for the krogan.
+        global_squad_angara: Good. From what I've seen, your vids are... flat. They're only seen and heard.
+        global_squad_angara: Angara vids use tiny electrodermal signals. You feel it through your skin.
+        global_squad_angara: I spoke to Gil! We have time to rig up a system to mimic it, if we can acquire the right components.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Would that be safe for non-angara?
+            global_squad_angara: I think so? Gil will be happy to test it.
+            global_squad_angara: The components we need should be sold on Aya. Let's be vigilant.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: That sounds amazing. Let's do it!
+            ↩ (goto) global_squad_angara: The components we need should be sold on Aya. Let's be vigilant.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Movie night? He delayed again, out of respect for Raeka.
+        ↩ (goto) global_squad_angara: Good. From what I've seen, your vids are... flat. They're only seen and heard.
+    └─ merge ─┘
+├ option 6:
+    global_squad_angara: So.
+    Hero: So.
+    global_squad_angara: So! Isn't this the best time to be alive? I've decided it is.
+    Hero: Or the best time to be awake, as the case may be.
+    global_squad_angara: No, awake and alive! Because if you weren't here, you'd be dead.
+    global_squad_angara: Best. Time. To be. Alive.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Yeah. Though I don't know how we top this feeling.
+        Hero: For now, maybe we don't have to.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩ [OncePerGame]: What's your story, Jaal? Tell me about yourself.
+            global_squad_angara: Why?
+            Hero: Well... why wouldn't you? You hiding something?
+            global_squad_angara: Maybe. That would only make sense.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You're messing with me... right?
+                global_squad_angara: Possibly. What does that mean?
+                Hero: Uh... it's an idiom. Means you're joking, trying to make me feel uncomfortable.
+                global_squad_angara: Ah. Then, no. Evfra instructed me to be cautious. I'm not very good at being cautious.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: Can you tell me more about the kett occupation?
+                        global_squad_angara: It's a difficult subject. I'll answer what I can. I may get emotional.
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            Hero: When the kett came, why didn't you fight?
+                            global_squad_angara: They didn't give us a reason to—until they did. Then it was too late.
+                            global_squad_angara: Perhaps you think we were weak? But the kett are ruthless. They are masters at knowing exactly when and how to strike.
+                            Hero: I get that. Believe me.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero: When the kett came, why didn't you fight?
+                            ├ option 2:
+                                Hero: What's living under the kett been like for you?
+                                global_squad_angara: Do you really want to hear about these things? They're painful.
+                                Hero: I asked, didn't I?
+                                global_squad_angara: It's like living on unstable ground. Every day brings more horrible news.
+                                global_squad_angara: I part company with someone, not knowing if I'll ever see them again.
+                                global_squad_angara: When I was a boy, my father vanished from my life. One horrible day.
+                                Hero: Was he in the Resistance?
+                                global_squad_angara: No, he was a technician at a mine. He went to work and didn't come home.
+                                global_squad_angara: That happens for an angara child somewhere every single day.
+                                ┌─ BRANCH (4) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: When the kett came, why didn't you fight?
+                                ├ option 2:
+                                    ↩ (goto) Hero: What's living under the kett been like for you?
+                                ├ option 3:
+                                    Hero: Have the kett always been here?
+                                    global_squad_angara: No. Some, like The Moshae, are old enough to remember the time before the kett. But I don't. Nor do my mothers.
+                                    Hero: And the Archon came with them?
+                                    global_squad_angara: We think so. Resistance intel on that is unclear, and few have... seen him in person.
+                                    Hero: And lived to tell?
+                                    global_squad_angara: And lived to tell.
+                                    ┌─ BRANCH (4) ─┐
+                                    ├ option 1:
+                                        ↩ (goto) Hero: When the kett came, why didn't you fight?
+                                    ├ option 2:
+                                        ↩ (goto) Hero: What's living under the kett been like for you?
+                                    ├ option 3:
+                                        ↩ (goto) Hero: Have the kett always been here?
+                                    ├ option 4:
+                                        Hero: Well, enough about that.
+                                        ↩ (goto) Hero: [empty]
+                                    └─ merge ─┘
+                                ├ option 4:
+                                    ↩ (goto) Hero: Well, enough about that.
+                                └─ merge ─┘
+                            ├ option 3:
+                                ↩ (goto) Hero: Have the kett always been here?
+                            ├ option 4:
+                                ↩ (goto) Hero: Well, enough about that.
+                            └─ merge ─┘
+                        ├ option 2:
+                            ↩ (goto) Hero: What's living under the kett been like for you?
+                        ├ option 3:
+                            ↩ (goto) Hero: Have the kett always been here?
+                        ├ option 4:
+                            ↩ (goto) Hero: Well, enough about that.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero ⟨cond⟩: I want to learn more about your species.
+                        global_squad_angara: What would you like to know?
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            Hero: The angara seem so open and free with their feelings.
+                            global_squad_angara: Are we? We're certainly not ashamed of our feelings.
+                            global_squad_angara: We're taught that feelings and beliefs should live on the outside, where they can be dealt with honestly and openly.
+                            Hero: Don't people get hurt?
+                            global_squad_angara: Of course. Then everyone deals with it. That's the point.
+                            ┌─ BRANCH (6) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                            ├ option 2:
+                                Hero: How many colonies do you have? On what planets?
+                                global_squad_angara: Since the Scourge, we've managed to survive on a small number of planets.
+                                global_squad_angara: What we know from before the Scourge is mostly oral history.
+                                global_squad_angara: We did have space flight, and the stories tell of five original colonies.
+                                ┌─ BRANCH (6) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: How many colonies do you have? On what planets?
+                                ├ option 2:
+                                    ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                                ├ option 3:
+                                    Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                                    global_squad_angara: No idea.
+                                    global_squad_angara: Biology doesn't interest me. But I'm sure you can easily read up on it.
+                                    Hero: That's disappointing. No biology at all?
+                                    global_squad_angara: How do your eyeballs work?
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        Hero ⟨cond⟩: An internal lens focuses an image onto the retina where it becomes electrical impulses that are deciphered by the brain.
+                                        global_squad_angara: You took my sarcasm as an invitation to show off. Pitiful.
+                                        ┌─ BRANCH (6) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                                        ├ option 2:
+                                            ↩ (goto) Hero: How many colonies do you have? On what planets?
+                                        ├ option 3:
+                                            ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                                        ├ option 4:
+                                            Hero: Is there a central angaran religion?
+                                            global_squad_angara: There are many variations—an almanac could give you an accurate number.
+                                            global_squad_angara: But if you're a believer, the essential tenet is: after we die, we're reincarnated. We evolve to make our families strong.
+                                            global_squad_angara: “Born from what was before. Blessed to be better than before.”
+                                            Hero: Are you a believer?
+                                            global_squad_angara: No. Yes? Sometimes... I don't know if it's the same for humans. Sahuna, my true mother, is a firm believer.
+                                            ┌─ BRANCH (6) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) Hero: Is there a central angaran religion?
+                                            ├ option 2:
+                                                Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                                                global_squad_angara: She's many things. She's a clear thinker with deep knowledge and insight. She teaches and inspires.
+                                                global_squad_angara: She's beloved. I love her.
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    Hero: People are willing to die for her. She sounds pretty special.
+                                                    global_squad_angara: She is. I hope you get to know her.
+                                                    ┌─ BRANCH (5) ─┐
+                                                    ├ option 1:
+                                                        ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                                                    ├ option 2:
+                                                        ↩ (goto) Hero: How many colonies do you have? On what planets?
+                                                    ├ option 3:
+                                                        ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                                                    ├ option 4:
+                                                        ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                                                    ├ option 5:
+                                                        ↩ (goto) Hero: Well, enough about that.
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    Hero: Really? So one of those professor-student things.
+                                                    global_squad_angara: {i}(Laughs.){/i} Not that way. Moshae Sjefa is 115 of your years old.
+                                                    ┌─ BRANCH (6) ─┐
+                                                    ├ option 1:
+                                                        ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                                                    ├ option 2:
+                                                        ↩ (goto) Hero: How many colonies do you have? On what planets?
+                                                    ├ option 3:
+                                                        ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                                                    ├ option 4:
+                                                        ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                                                    ├ option 5:
+                                                        ↩ (goto) Hero: Is there a central angaran religion?
+                                                    ├ option 6:
+                                                        ↩ (goto) Hero: Well, enough about that.
+                                                    └─ merge ─┘
+                                                └─ merge ─┘
+                                            ├ option 3:
+                                                ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                                            ├ option 4:
+                                                ↩ (goto) Hero: How many colonies do you have? On what planets?
+                                            ├ option 5:
+                                                ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                                            ├ option 6:
+                                                ↩ (goto) Hero: Well, enough about that.
+                                            └─ merge ─┘
+                                        ├ option 5:
+                                            ↩ (goto) Hero: Well, enough about that.
+                                        ├ option 6:
+                                            ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        Hero: OK, I get your point. Maybe I can find an angara doctor to ask about your... whatever.
+                                        global_squad_angara: Although... I used to know some facts—like the origins of our vestigial organs.
+                                        Hero: Oh, yeah! Humans have a coccyx—a vestigial tail. And I have webbed toes, just a couple, but Sara doesn't. And she had wisdom teeth but I didn't.
+                                        Hero: Now you.
+                                        global_squad_angara: No idea.
+                                        ┌─ BRANCH (6) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) Hero: The angara seem so open and free with their feelings.
+                                        ├ option 2:
+                                            ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                                        ├ option 3:
+                                            ↩ (goto) Hero: How many colonies do you have? On what planets?
+                                        ├ option 4:
+                                            ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                                        ├ option 5:
+                                            ↩ (goto) Hero: Well, enough about that.
+                                        ├ option 6:
+                                            ↩ (goto) Hero: Is there a central angaran religion?
+                                        └─ merge ─┘
+                                    └─ merge ─┘
+                                ├ option 4:
+                                    ↩ (goto) Hero: Well, enough about that.
+                                ├ option 5:
+                                    ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                                ├ option 6:
+                                    ↩ (goto) Hero: Is there a central angaran religion?
+                                └─ merge ─┘
+                            ├ option 3:
+                                ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                            ├ option 4:
+                                ↩ (goto) Hero: Well, enough about that.
+                            ├ option 5:
+                                ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                            ├ option 6:
+                                ↩ (goto) Hero: Is there a central angaran religion?
+                            └─ merge ─┘
+                        ├ option 2:
+                            ↩ (goto) Hero: How many colonies do you have? On what planets?
+                        ├ option 3:
+                            ↩ (goto) Hero: How long have you had electromagnetic capabilities? How did they evolve?
+                        ├ option 4:
+                            ↩ (goto) Hero: You studied with Moshae Sjefa? Is she a teacher? Or a religious figure?
+                        ├ option 5:
+                            ↩ (goto) Hero: Is there a central angaran religion?
+                        ├ option 6:
+                            ↩ (goto) Hero: Well, enough about that.
+                        └─ merge ─┘
+                    ├ option 3:
+                        Hero: I'll see you later, Jaal.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_squad_angara ⟨cond⟩: Stay strong, darling one.
+                        ├ option 2:
+                            global_squad_angara: Stay strong and clear.
+                            ↩ (goto) global_squad_angara: [empty]
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) global_squad_angara: That's enough until we've established a better trust with each other.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I was born on Earth. Third planet of the Sol System in the Milky Way.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_angara ⟨cond⟩: I was born on Havarl, our most ancient homeworld. We believe so, anyway.
+                    Hero: Moved to Aya first chance you got?
+                    global_squad_angara: I lived there because of the Vesaal. It's a privilege to work on Aya, so we have a lottery to share it.
+                    Hero: Aya reminds me of Earth, a little. I'll show you vids sometime.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero ⟨cond⟩: Can you tell me more about the kett occupation?
+                    ├ option 2:
+                        ↩ (goto) Hero ⟨cond⟩: I want to learn more about your species.
+                    ├ option 3:
+                        ↩ (goto) Hero: I'll see you later, Jaal.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_angara: That's interesting. Thank you.
+                    ↩ (goto) global_squad_angara: That's enough until we've established a better trust with each other.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: Can I ask you a few more questions?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara [OncePerGame]: Of course. If I can answer them, I will.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: Can you tell me about your family? Uh, assuming you have one...?
+                    global_squad_angara: Sit down—this will take time. Is someone bringing us snacks and drinks?
+                    Hero: Whoa. Your family's that big?
+                    global_squad_angara: I have one true mother—Sahuna—and more than five additional mothers. And many, many, many siblings and cousins all raised together.
+                    global_squad_angara: Our families constantly change and evolve. Relationships come, and they go.
+                    global_squad_angara: My father is gone. Taken—or killed—by the kett. We never found his body.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: I'm sorry about that, Jaal. I understand. I just lost my Dad.
+                        global_squad_angara: Something in common between aliens, then. We are fatherless, yet we fight on.
+                        global_squad_angara: Anything else you want to ask?
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: Can you tell me about your family? Uh, assuming you have one...?
+                        ├ option 2:
+                            Hero: Did you always want to be a fighter? Did you study anything particular in school?
+                            global_squad_angara: I... no. I don't like to talk about it, but I'm not a fighter, not really.
+                            global_squad_angara: The kett occupation creates chaos, so our education is chaotic. I'm not really anything.
+                            global_squad_angara: But... that's an excuse. The truth is, I don't know what I want, yet. For my life. At my age.
+                            global_squad_angara: I hope being here will inspire me.
+                            ┌─ BRANCH (4) ─┐
+                            ├ option 1:
+                                Hero: Do angara plan their futures? Do you dream about what you want to accomplish?
+                                global_squad_angara: {i}(Laughs.){/i} You put "plan" and "dream" in the same question.
+                                Hero: Uh, yeah...
+                                global_squad_angara: Oh. I see—you meant to do that.
+                                global_squad_angara: Angara thirst for {i}now{/i}. We don't strive to make the future better—we strive because the present is lacking.
+                                ┌─ BRANCH (4) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: Can you tell me about your family? Uh, assuming you have one...?
+                                ├ option 2:
+                                    ↩ (goto) Hero: Did you always want to be a fighter? Did you study anything particular in school?
+                                ├ option 3:
+                                    ↩ (goto) Hero: Do angara plan their futures? Do you dream about what you want to accomplish?
+                                ├ option 4:
+                                    ↩ (goto) Hero: Well, enough about that.
+                                └─ merge ─┘
+                            ├ option 2:
+                                ↩ (goto) Hero: Did you always want to be a fighter? Did you study anything particular in school?
+                            ├ option 3:
+                                ↩ (goto) Hero: Can you tell me about your family? Uh, assuming you have one...?
+                            ├ option 4:
+                                ↩ (goto) Hero: Well, enough about that.
+                            └─ merge ─┘
+                        ├ option 3:
+                            ↩ (goto) Hero: Do angara plan their futures? Do you dream about what you want to accomplish?
+                        ├ option 4:
+                            ↩ (goto) Hero: Well, enough about that.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: My dad died on our first mission here. I didn't know him as well as I could have, I guess.
+                        global_squad_angara: I think I was close to mine, yet... maybe "close" has a different meaning for humans. Something to learn, I guess.
+                        ↩ (goto) global_squad_angara: Anything else you want to ask?
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) Hero: Did you always want to be a fighter? Did you study anything particular in school?
+                ├ option 3:
+                    ↩ (goto) Hero: Do angara plan their futures? Do you dream about what you want to accomplish?
+                ├ option 4:
+                    ↩ (goto) Hero: Well, enough about that.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_angara: Of course.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: Can you tell me about your family? Uh, assuming you have one...?
+                ├ option 2:
+                    ↩ (goto) Hero: Did you always want to be a fighter? Did you study anything particular in school?
+                ├ option 3:
+                    ↩ (goto) Hero: Do angara plan their futures? Do you dream about what you want to accomplish?
+                ├ option 4:
+                    ↩ (goto) Hero: Well, enough about that.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 3:
+            ↩ (goto) Hero ⟨cond⟩: I want to learn more about your species.
+        ├ option 4:
+            ↩ (goto) Hero ⟨cond⟩: Can you tell me more about the kett occupation?
+        ├ option 5:
+            Hero ⟨cond⟩: Do you have a mate? A partner?
+            global_squad_angara: I don't. Not for a long time...
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                Hero: "Not for a long time"?
+                global_squad_angara: I fell in love with a girl once. Allia. We were young... I was young.
+                global_squad_angara: It was my first Vesaal on Aya. We worked on the same farm. She was a little older, a researcher.
+                global_squad_angara: I can still hear her laugh. And see her eyes... She kissed me, and I was hers—thrilled and seduced.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: I have a bad feeling about this...
+                    global_squad_angara: My older brother came to Aya. He was already famous in the Resistance.
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero: "Not for a long time"?
+                    ├ option 2:
+                        Hero ⟨cond⟩: Where is Allia now? Did she and your brother work out?
+                        global_squad_angara: They came back to Havarl, and she joined our family. She became one of the mothers.
+                        Hero: You have to see her every day?
+                        global_squad_angara: No. They were taken by the kett. Their children survived.
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: "Not for a long time"?
+                        ├ option 2:
+                            ↩ (goto) Hero ⟨cond⟩: Where is Allia now? Did she and your brother work out?
+                        ├ option 3:
+                            Hero ⟨cond⟩: I think you're interesting and... well, great. Anyway. I'd like to get to know you better. What'd ya think?
+                            global_squad_angara: Yes. I'd like that.
+                            Hero: That's it?
+                            global_squad_angara: You are a lovely woman, fascinating, a brilliant risk-taker. Knowing you better would be a gift. Sincerely.
+                            Hero: Okay, then.
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero: "Not for a long time"?
+                            ├ option 2:
+                                ↩ (goto) Hero ⟨cond⟩: Where is Allia now? Did she and your brother work out?
+                            ├ option 3:
+                                ↩ (goto) Hero: Well, enough about that.
+                            └─ merge ─┘
+                        ├ option 4:
+                            ↩ (goto) Hero: Well, enough about that.
+                        └─ merge ─┘
+                    ├ option 3:
+                        ↩ (goto) Hero ⟨cond⟩: I think you're interesting and... well, great. Anyway. I'd like to get to know you better. What'd ya think?
+                    ├ option 4:
+                        ↩ (goto) Hero: Well, enough about that.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: But it didn't work out?
+                    ↩ (goto) global_squad_angara: My older brother came to Aya. He was already famous in the Resistance.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero ⟨cond⟩: Where is Allia now? Did she and your brother work out?
+            ├ option 3:
+                ↩ (goto) Hero ⟨cond⟩: I think you're interesting and... well, great. Anyway. I'd like to get to know you better. What'd ya think?
+            ├ option 4:
+                Hero ⟨cond⟩: I'm going to be direct—angara direct. You're great—and I'm great. We should hang out more. Like—really hang out.
+                global_squad_angara: Hm, that is direct. Okay.
+                Hero: Just like that?
+                global_squad_angara: Ryder, I find you very... attractive. Your mind, your being, your heart. To "hang out" would be a gift. Sincerely.
+                Hero: Oh. Good then. Good.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: "Not for a long time"?
+                ├ option 2:
+                    ↩ (goto) Hero ⟨cond⟩: Where is Allia now? Did she and your brother work out?
+                ├ option 3:
+                    ↩ (goto) Hero: Well, enough about that.
+                └─ merge ─┘
+            ├ option 5:
+                ↩ (goto) Hero: Well, enough about that.
+            └─ merge ─┘
+        ├ option 6:
+            ↩ (goto) Hero: I'll see you later, Jaal.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Don't the angara say, "We don't strive to make the future better—we strive because the present is lacking"?
+        Hero: Well, then— we won't just stop at letting this be the best time to be alive.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 7:
+    Hero: Hello, Jaal.
+    global_squad_angara: Taoshay. I never imagined that I'd fall for an alien.
+    Hero: You're the alien.
+    global_squad_angara: No, you are.
+    Hero: No, {i}you{/i} are.
+    global_squad_angara: I want to devour you. In the best way.
+    ↩ (goto) Hero: [empty]
+├ option 8:
+    Hero: Hey.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Hello, my special friend.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: I've been thinking. I must tell you how confused I am, because I thought we shared a fondness, and so...
+            ↩ (goto) global_squad_angara [OncePerGame]: [empty]
+        ├ option 2:
+            Hero ⟨cond⟩: How's the face wound?
+            global_squad_angara: I think my scar will be impressive.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: A centimeter to the right, and... well, let's not think about it.
+                global_squad_angara: Akksul was always a terrible shot.
+                Hero: Well, shit. Wouldn't have worried so much if you'd told me that before.
+                global_squad_angara: Can you stay and talk some more?
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: Now you're gonna look even more badass.
+                global_squad_angara: And more appealing?
+                Hero: No doubt. Look at all the dates Drack gets.
+                ↩ (goto) global_squad_angara: Can you stay and talk some more?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Hey.
+        global_squad_angara: Why don't you listen to me? First in the facility, and now with Akksul.
+        ↩ (goto) global_squad_angara: I can't talk to you right now.
+    ├ option 3:
+        global_squad_angara: Hello, Ryder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: How's the face wound?
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 9:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: Is there something else?
+        Hero: A few more questions, if that's okay?
+        global_squad_angara: We won't know 'til we try.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_angara [OncePerGame]: Akksul is very cunning. We can't underestimate him.
+            global_squad_angara: My mothers are worried sick about the cousins that joined him.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            global_squad_angara [OncePerGame]: The Roekaar go to Kadara and recruit the desperate.
+            global_squad_angara: I've heard a Roekaar recruiter weaving his magic—even I was convinced!
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            global_squad_angara [OncePerGame]: My reports from Evfra regarding Akksul are worrying.
+            global_squad_angara: I don't understand how the Roekaar manages to recruit so many.
+            ↩ (goto) Hero: [empty]
+        ├ option 4:
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_angara: Darling one.
+                    ↩ (goto) Hero: [empty]
+                ├ option 2:
+                    global_squad_angara: Yes, my love?
+                    ↩ (goto) Hero: [empty]
+                ├ option 3:
+                    global_squad_angara: Taoshay.
+                    ↩ (goto) Hero: [empty]
+                ├ option 4:
+                    global_squad_angara: I always have time for you.
+                    ↩ (goto) Hero: [empty]
+                ├ option 5:
+                    global_squad_angara: Yes?
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_angara: What can I do for you, Pathfinder?
+                ↩ (goto) Hero: [empty]
+            ├ option 3:
+                global_squad_angara: Need something? I can stop what I'm doing.
+                ↩ (goto) Hero: [empty]
+            ├ option 4:
+                ↩ (goto) global_squad_angara: I always have time for you.
+            ├ option 5:
+                ↩ (goto) global_squad_angara: Yes?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) global_squad_angara: Yes?
+    └─ merge ─┘
+├ option 10:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: There's always more to say and to learn, isn't there?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        global_squad_angara: We've talked enough for now. I'm still processing our disagreement, and I need some distance.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 11:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: I'm still upset by our falling out. But I must say I'm also proud to be part of the team that breached the Archon's ship.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm glad you still feel part of the team.
+            global_squad_angara: I'm free to talk more—now or later.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: I'm proud, too. Let's focus on the things we have in common.
+            ↩ (goto) global_squad_angara: I'm free to talk more—now or later.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara: Ryder! What a victory! Now that we know where Meridian is, the Archon's downfall begins.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Let's not celebrate just yet.
+            global_squad_angara: This is just anticipation. You won't believe what celebration looks like.
+            global_squad_angara: Let it out! Angara believe that burying your feelings is a broken way to live.
+            Hero: Interesting. I'll think about that.
+            ↩ (goto) global_squad_angara: I'm free to talk more—now or later.
+        ├ option 2:
+            Hero: A victory feels good. And there's more to come.
+            global_squad_angara: You have a good team here, Ryder.
+            Hero: Yeah. Seems to be working out okay.
+            global_squad_angara: If you'd like, I can provide crew training about embracing emotions.
+            Hero: Oh... okay... I'll think about that.
+            global_squad_angara: Okay! Let me know.
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 12:
+    global_squad_angara: Do you have time to talk further?
+    ↩ (goto) Hero: [empty]
+├ option 13:
+    ↩ (goto) Narration ⟨cond⟩: [empty]
+├ option 14:
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘
+↩ (goto) Hero: [empty]
+↩ (goto) Hero: [empty]

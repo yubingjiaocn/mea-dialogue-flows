@@ -1,0 +1,35 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0300_customs_i
+# Primary speaker: nex_dck_immig_rep
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0300_customs_i.xml
+==================================================
+nex_dck_immig_rep: Name?
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Sara Ryder.
+    nex_dck_immig_rep: Hi, welcome to the Nexus. Let me check the database and—wait, you're already approved.
+    nex_dck_immig_rep: And you're a Pathfinder. Uh. Hi?
+    Hero: Maybe you can help me. I'm looking for someone. Have you seen Ruth Bekker?
+    nex_dck_immig_rep: Yes, I have. Why are you asking?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Harry just needs me to verify something with her. Nothing major.
+        nex_dck_immig_rep: Oh, well if Harry sent you, I guess that's okay.
+        nex_dck_immig_rep: Now, let me see... Yes. Ruth Bekker. Tried to set me up with her nephew. It was cute.
+        Hero: Anything else that you can remember?
+        nex_dck_immig_rep: I restricted her access to the common area because there were problems with her file.
+        nex_dck_immig_rep: I sorted things out, then messaged her to let her know she was clear.
+        Hero: Thank you.
+        Hero: Restricted access, huh. SAM, can you do anything with that?
+        SAM: [Private] Yes. I believe I can help you retrace her steps, at least during that time.
+    ├ option 2:
+        Hero: She's a friend. I wanted to check on her before I head back out.
+        nex_dck_immig_rep: Of course I can help. She said she wanted to catch up with friends.
+        ↩ (goto) nex_dck_immig_rep: Now, let me see... Yes. Ruth Bekker. Tried to set me up with her nephew. It was cute.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Ryder.
+    ↩ (goto) nex_dck_immig_rep: Hi, welcome to the Nexus. Let me check the database and—wait, you're already approved.
+├ option 3:
+    Hero: Scott Ryder.
+    ↩ (goto) nex_dck_immig_rep: Hi, welcome to the Nexus. Let me check the database and—wait, you're already approved.
+└─ merge ─┘

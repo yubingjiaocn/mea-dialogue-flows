@@ -1,0 +1,41 @@
+# game/conversations/hubs/hub_kad/squadmates/kad_liam_i
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/hub_kad/squadmates/kad_liam_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Pathfinder. Feeling out of place at the moment.
+    global_squad_male_human: And side effect, coming here makes me hate Tann a whole lot more.
+    global_squad_male_human: These were our people.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Our job is to get people home. That includes Kadara.
+        global_squad_male_human: Glad to hear it. They were exiled to nothing, and built up to this. We need that on our side.
+    ├ option 2:
+        Hero: We weren't there. Exile might have been the only way.
+        global_squad_male_human: Thing is, when they were kicked out, the Nexus didn't know any viable worlds.
+        global_squad_male_human: That's like... "We won't kill you, but feel free to die in the wilderness."
+        global_squad_male_human: I get why they're like this.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Be careful, Ryder.
+        Hero: Something on your mind, Liam?
+        global_squad_male_human: Just saying: everything looks pretty much the same with the Charlatan in charge.
+        global_squad_male_human: If he's being up front about that, what you do is your business.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: The Charlatan takes control and everything is... pretty much the same, looks like.
+        Hero: Stability was the goal. And allies.
+        global_squad_male_human: Well, I have a bar full of allies. Long as I'm buying. Sounds like diplomacy to me.
+    ├ option 3:
+        global_squad_male_human: So, is everything supposed to change with Sloane unchallenged?
+        ↩ (goto) Hero: Stability was the goal. And allies.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Pathfinder.
+├ option 2:
+    global_squad_male_human: Hey, Ryder.
+└─ merge ─┘

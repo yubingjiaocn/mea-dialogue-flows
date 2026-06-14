@@ -1,0 +1,623 @@
+# game/conversations/unc/storms/stm_0310_research_reactions_b
+# Primary speaker: SAM
+# Source: game/conversations/unc/storms/stm_0310_research_reactions_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Hey, that vector points to where we met.
+        Hero: And now we know the signal is Remnant-based... somehow.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: At least it's sort of working for us. For now.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: At least it's sort of working for us. For now.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Well, that's sort of useful. For now.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: The signal vector points to where we met Peebee.
+        ↩ (goto) Hero: And now we know the signal is Remnant-based... somehow.
+    └─ merge ─┘
+├ option 2:
+    SAM: Recording the signal search area, Pathfinder.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Vegetation looks... lush. In this environment?
+        Hero: If it's the signal we detected from orbit, maybe we {i}can{/i} help Eos.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Vegetation looks... lush. In this environment?
+        ↩ (goto) Hero: If it's the signal we detected from orbit, maybe we {i}can{/i} help Eos.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Whoa. Lots of green. Wasn't expecting that.
+        ↩ (goto) Hero: If it's the signal we detected from orbit, maybe we {i}can{/i} help Eos.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩ [OncePerGame]: Site 1 main building door code is acquired, Pathfinder.
+    Hero: Not the important part, SAM.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_co-pilot ⟨cond⟩: [Comm] We knew some were "lost," Ryder. We weren't told they were "left."
+        global_humanark_asari_dr: [Comm] Wonder how many are out there.
+        Hero: Too many. Lexi, update Nexus records on "Harwell, Theo J." and get a recovery shuttle out here.
+        global_humanark_asari_dr: [Comm] Good idea. If he's got family, they deserve closure.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: With Prodromos settled, at least his death meant something.
+        ├ option 2:
+            Hero: We'll give them more than closure. We'll finish what he started.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Lexi. Got another name for you—"Harwell, Theo J."
+        global_humanark_asari_dr: [Comm] I'll send it along to the Nexus, Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    SAM [OncePerGame]: This body's omni-tool has a door access code.
+    ↩ (goto) Hero: Not the important part, SAM.
+└─ merge ─┘
+SAM: It's inoperable, Pathfinder.
+Hero: Too long in this environment without power.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: The Nexus didn't properly equip their outpost? Who could have guessed?
+├ option 2:
+    global_squad_asari ⟨cond⟩: Eos is rough. They'd spend as much time repairing as researching.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Standard equipment. That's all we had to give them.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: We didn't expect this kind of environment. Who could?
+└─ merge ─┘
+Hero: Door's getting emergency power, but it's code-locked.
+SAM: Site 1 issued individual security codes. Each outpost self-organizes and sets its own protocol.
+Hero: Just say we can't open it without codes.
+SAM: We can't open it without codes.
+Hero: Main door had power, but not the interior doors?
+SAM: Full functionality would require an active power relay station.
+Hero: That means the antenna's out of power, too.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: The logs might tell us what's up with the power relay.
+├ option 2:
+    Hero: Like the console said, let's head to the relay station.
+└─ merge ─┘
+Hero: There was something very wrong at the second outpost they made.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: An attack? The radiation?
+    Hero: Whatever it was, Site 2 made a special project to handle it. Let's keep it in mind for later.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: More wrong than deadly radiation?
+    ↩ (goto) Hero: Whatever it was, Site 2 made a special project to handle it. Let's keep it in mind for later.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Trouble with the kett?
+    ↩ (goto) Hero: Whatever it was, Site 2 made a special project to handle it. Let's keep it in mind for later.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    SAM [OncePerGame]: Compiling orbital data. Severe weather warnings projected within the next month.
+├ option 2:
+    SAM [OncePerGame]: Caution: Even within the perimeter, radiation count approaches unsafe levels.
+├ option 3:
+    SAM [OncePerGame]: Compiling orbital data. Rain and moisture count is below viability index.
+├ option 4:
+    Hero [OncePerGame]: You can see where they tried to grow food here and there. Nothing took root.
+├ option 5:
+    SAM [OncePerGame]: Notification: Flagging armor for maintenance due to dust and radiation exposure.
+    Hero: Relax, SAM. It'll see us through this.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: A navpoint for the buoy optics is now recorded, Pathfinder.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: We weren't the only ones interested in the Remnant.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: They were on the right track. The vault showed it could be used.
+        ├ option 2:
+            Hero: We may be the only ones who can do anything about it.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: We weren't the only ones interested in the alien tech.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: They were on the right track. The vault showed it could be used.
+        ├ option 2:
+            ↩ (goto) Hero: We may be the only ones who can do anything about it.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: We weren't the only ones interested in the alien tech.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: They were on the right track. The vault showed it could be used.
+        ├ option 2:
+            ↩ (goto) Hero: We may be the only ones who can do anything about it.
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Someone else was interested in that alien tech.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: They were on the right track. The vault showed it could be used.
+        ├ option 2:
+            ↩ (goto) Hero: We may be the only ones who can do anything about it.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: The navpoint corresponds with the location of the buoy optics you recovered, Pathfinder.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_asari ⟨cond⟩: We weren't the only ones interested in the Remnant.
+    ├ option 2:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: We weren't the only ones interested in the alien tech.
+    ├ option 3:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: We weren't the only ones interested in the alien tech.
+    ├ option 4:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Someone else was interested in that alien tech.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Still here, Clancy?
+    stm_relay_scav_leader_01_multi: [Comm] Forward Compensator's out, like I said. Distract the kett if they show, will you?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Smooth as ever, dingus.
+        stm_relay_scav_leader_01_multi: [Comm] I was "boring" anyway. Look, we get up and running, I never see you again.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            stm_relay_scav_leader_01_multi ⟨cond⟩: Any luck finding parts?
+            Hero: Kett looted Site 2. Still looking.
+            stm_relay_scav_leader_01_multi: Whatever you can do.
+        ├ option 2:
+            global_squad_asari: Whatever.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) stm_relay_scav_leader_01_multi ⟨cond⟩: Any luck finding parts?
+    ├ option 3:
+        Hero ⟨cond⟩: We'll see if we can get you running.
+        stm_relay_scav_leader_01_multi: Maybe check the Site 2 pad for spares?
+    └─ merge ─┘
+├ option 2:
+    Hero: No way this has been here long.
+    global_crew_co-pilot: [Comm] Uh, going by call-sign records, that shuttle is currently parked in the Nexus. Someone's been naughty.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) Hero ⟨cond⟩: Still here, Clancy?
+├ option 2:
+    Hero: Looks like the forward compensator is damaged.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Be good to make sure it can get back home. We need every ship.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Be good to make sure it can get back home. We need every ship.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Might want to attempt repairs. We can't afford to lose any more ships.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Fix it? Probably need every ship you can get.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Recording the search area for looted kett stores.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Guess that's where we're headed if we're getting Clancy his forward compensator.
+    ├ option 2:
+        Hero: Good. Anything we recover will be a help to someone.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Explains the kett stash we already found.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Forward compensator. That shuttle near the Tempest needed that.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Forward compensator... didn't Clancy's shuttle need one of these?
+    ├ option 2:
+        Hero: Spare shuttle parts. They probably went through them like crazy in this weather.
+    └─ merge ─┘
+└─ merge ─┘
+stm_relay_scav_leader_01_multi: [Comm] Nice ship you have here, Pathfinder. Nothing standard about you.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_relay_scav_leader_01_multi ⟨cond⟩: [Comm] Thanks for the fix for our shuttle, by the way. I owe you twice.
+├ option 2:
+    stm_relay_scav_leader_01_multi: [Comm] Shit. Looks like the storm did a number on our forward compensator.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Already have one. See you soon.
+    ├ option 2:
+        stm_relay_scav_leader_01_multi ⟨cond⟩: [Comm] Hate to ask for another favor, but could you check the Site 2 pad for a replacement?
+        Hero: We'll keep an eye out.
+    ├ option 3:
+        stm_relay_scav_leader_01_multi ⟨cond⟩: [Comm] I don't suppose...
+        Hero: Already been to Site 2. Kett raided it. Tracking them.
+        stm_relay_scav_leader_01_multi: [Comm] One step ahead. They were right about you people.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Forward compensator is out. We found one of those.
+    Hero: I don't know who I fixed this for, but it's at least a good recovery for the Nexus.
+├ option 2:
+    SAM: Pathfinder, the forward compensator is restored.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You're good to go. See you back on the Nexus.
+        stm_relay_scav_leader_01_multi: We'll take off after a quick check. Next time I see you, Pathfinder? I'm buying.
+    ├ option 2:
+        ↩ (goto) Hero: I don't know who I fixed this for, but it's at least a good recovery for the Nexus.
+    └─ merge ─┘
+└─ merge ─┘
+SAM: Navpoint recorded, Pathfinder.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Yeah, there's no one left alive out there.
+    Hero: We'll take a look.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: They came here to build a future. Probably didn't find it.
+    ↩ (goto) Hero: We'll take a look.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: They came here to build a future. Probably didn't find it.
+    ↩ (goto) Hero: We'll take a look.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Another dream crumbles.
+    ↩ (goto) Hero: We'll take a look.
+├ option 5:
+    global_squad_asari ⟨cond⟩: I don't think she made it. I didn't see anyone for ages.
+    ↩ (goto) Hero: We'll take a look.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: No good. A forward station should have the access code, once we call it down.
+├ option 2:
+    Hero ⟨cond⟩: I'd better get the shield module upgraded first. No sense risking the paint work.
+└─ merge ─┘
+Hero: Looks like the forward station's supplies are intact.
+SAM: Downloading Nomad crate access code.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero ⟨cond⟩: We've got a shield module. Let's get back to the research center.
+├ option 2:
+    Hero ⟨cond⟩: We found a research center. Let's find a shield module and put it to work.
+├ option 3:
+    Hero ⟨cond⟩: We have a shield module. Just need somewhere to work.
+├ option 4:
+    Hero ⟨cond⟩: Let's look for a shield module, and somewhere to work.
+└─ merge ─┘
+Hero: Structure up ahead. SAM?
+SAM: It fits the profile of a power relay station, Pathfinder.
+Hero: Right. We get it running, maybe buildings get power.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: And we can hunt that signal down.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: And we get a line on that signal.
+├ option 3:
+    global_squad_turian ⟨cond⟩: And we'll know where to look for that signal.
+└─ merge ─┘
+Hero: They weren't kidding about the kett.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: The power relay station is ready for activation, Pathfinder.
+├ option 2:
+    SAM: The generators are ready to be started, and the relay station can be activated.
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+SAM: Approaching Site 2: Resilience.
+global_crew_science_officer: [Comm] It was sold as "the one we get right." But it didn't have time to get worn down—got wiped out by kett.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: That datapad said Site 2 was working on a project. Keep an eye out for it.
+├ option 2:
+    Hero ⟨cond⟩: We'll deal with the kett. One thing at a time.
+├ option 3:
+    Hero: Kett are dealt with. On to other problems.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Can't open it. No power getting to it.
+├ option 2:
+    Hero: Override works, but...?
+    Hero: SAM? The door was sealed from the outside?
+    SAM: Yes, Pathfinder. It appears lockdown was manual before the power restrictions.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Why do that? It wouldn't keep anything out.
+        Hero: It'd keep something in.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Why do that? It wouldn't keep anything out.
+        ↩ (goto) Hero: It'd keep something in.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Why? Wouldn't keep anything out.
+        ↩ (goto) Hero: It'd keep something in.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: That wouldn't keep anything out.
+        ↩ (goto) Hero: It'd keep something in.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Feels like Site 2 was very us-versus-them.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: They didn't want a failure like Site 1 to happen again.
+        Hero: Sounds like it was worse.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: They didn't want a failure like Site 1 to happen again.
+        ↩ (goto) Hero: Sounds like it was worse.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: They didn't want to take chances and risk another Site 1.
+        ↩ (goto) Hero: Sounds like it was worse.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: They didn't want a failure like Site 1 to happen again.
+        ↩ (goto) Hero: Sounds like it was worse.
+    └─ merge ─┘
+├ option 2:
+    SAM: I've recorded the navpoint of the buoy panels, Pathfinder.
+    ↩ (goto) Hero: Feels like Site 2 was very us-versus-them.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: I'm recording a navpoint for an engineering data key, Pathfinder.
+    Hero: It wasn't just the kett and the storms hurting people.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Imagine coming all this way, and losing the reason you came.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Imagine coming all this way, and losing the reason you came.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Coming all this way and losing what you came for...
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Imagine coming all this way, and losing the reason you came.
+    └─ merge ─┘
+├ option 2:
+    Hero: Samantha Bristol. We found her by the lake.
+    ↩ (goto) Hero: It wasn't just the kett and the storms hurting people.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: An explorer to a fault. Fascinated even when scared.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Engineers are weird. No threats, just discoveries.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Engineers are weird. No threats, just discoveries.
+        ↩ (goto) SAM: [empty]
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Maybe doing something normal kept the fear away.
+        ↩ (goto) SAM: [empty]
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Engineers are weird. No threats, just discoveries.
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    SAM: Recording a navpoint for an engineering data key, Pathfinder.
+    ↩ (goto) Hero: An explorer to a fault. Fascinated even when scared.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: This must have been about when the kett finally took Site 2.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Maybe they got tired of cherry picking supplies and went for the whole thing.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We took it back. That's all that matters.
+        ├ option 2:
+            SAM: The recovery potential is noted. Caution is advised, Pathfinder.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Maybe they got tired of cherry picking supplies and went for the whole thing.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: We took it back. That's all that matters.
+        ├ option 2:
+            ↩ (goto) SAM: The recovery potential is noted. Caution is advised, Pathfinder.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Maybe they lost patience.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: We took it back. That's all that matters.
+        ├ option 2:
+            ↩ (goto) SAM: The recovery potential is noted. Caution is advised, Pathfinder.
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Maybe they lost patience.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: We took it back. That's all that matters.
+        ├ option 2:
+            ↩ (goto) SAM: The recovery potential is noted. Caution is advised, Pathfinder.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: The buoy drive's navpoint is now recorded, Pathfinder.
+    ↩ (goto) Hero: This must have been about when the kett finally took Site 2.
+└─ merge ─┘
+SAM: Resource and pod search area recorded, Pathfinder.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Escape pods? We need to find those.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Escape pods? Oh, we need to find those.
+    ↩ (goto) SAM: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Need to find those escape pods.
+    ↩ (goto) SAM: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Need to find those pods.
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: What the... Pathfinder, that body.
+    Hero: A scan might help us figure that out.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: What the... Pathfinder, what happened to that body?
+    ↩ (goto) Hero: A scan might help us figure that out.
+├ option 3:
+    global_squad_turian ⟨cond⟩: That body... what happened?
+    ↩ (goto) Hero: A scan might help us figure that out.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Ugh, that body. What happened?
+    ↩ (goto) Hero: A scan might help us figure that out.
+└─ merge ─┘
+Hero: Not shot, he was just... pummeled to death.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Did the kett do this? We haven't seen something like this yet.
+├ option 2:
+    Hero: Well, we know what did this. The kett have nasty pets.
+└─ merge ─┘
+Hero: Schematics for "Special Project Sigma." They were building something, but there are parts missing.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: This must be the project they were salvaging at Site 1. A way to fight the kett.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: We could finish it.
+        SAM: All components at Site 2 had security tags. Compiling possible navpoints.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: No reason we couldn't finish what they started.
+        ↩ (goto) SAM: All components at Site 2 had security tags. Compiling possible navpoints.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: So let's do what they couldn't. Finish it.
+        ↩ (goto) SAM: All components at Site 2 had security tags. Compiling possible navpoints.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: It'd be swell if it was finished.
+        ↩ (goto) SAM: All components at Site 2 had security tags. Compiling possible navpoints.
+    └─ merge ─┘
+├ option 2:
+    Hero: They needed an edge against the kett. It never got built.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: We could finish it.
+    ├ option 2:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: No reason we couldn't finish what they started.
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: So let's do what they couldn't. Finish it.
+    ├ option 4:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: It'd be swell if it was finished.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Another code, like we already found.
+├ option 2:
+    Hero [OncePerGame]: Got a code-lock key.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Gives us access if we need it.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: That should help get us in.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Handy. It'll get us in.
+    └─ merge ─┘
+└─ merge ─┘
+Hero [OncePerGame]: I think this is for purifying water.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: That's what, a few hundred tons of steel? And the storm's twisting it
+├ option 2:
+    global_squad_female_human ⟨cond⟩: It's huge—and crooked. The storms did that?
+├ option 3:
+    global_squad_turian ⟨cond⟩: And the storms pushed it around like a kid's toy.
+└─ merge ─┘
+SAM [OncePerGame]: Analysis complete. An underground fault line was aggravated by increased radioactivity, likely due to the Scourge.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Would have taken a Pathfinder's scanner to see the whole thing.
+    Hero: Site 1 wouldn't have lasted more than a few years before this all caved in.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Our new site will last generations.
+    ├ option 2:
+        Hero: I know I can find somewhere better.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: They couldn't have known. No Pathfinder to tell them.
+    ↩ (goto) Hero: Site 1 wouldn't have lasted more than a few years before this all caved in.
+├ option 3:
+    global_squad_turian ⟨cond⟩: And they didn't know. No Pathfinder scanners around.
+    ↩ (goto) Hero: Site 1 wouldn't have lasted more than a few years before this all caved in.
+└─ merge ─┘
+Hero: Looks like salvage. New. "Days ago" new.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Probably the guy at the relay tower, or his friends.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Could be my ride. He's probably at the power relay station.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Who else is here?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Who else is here?
+├ option 5:
+    global_squad_turian ⟨cond⟩: If not kett, then who? Or what?
+└─ merge ─┘
+Hero: They were trying to purify their water.
+SAM ⟨cond⟩: Despite the alien structure, the radiation count is still above safe levels.
+Hero: {i}(Sighs.){/i}
+SAM: It's a forward station, Pathfinder. Vital for moving resources and vehicle deployment.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: We'll need to call some new ones down, once we're away from so many structures.
+├ option 2:
+    Hero: Destroyed by the kett. The people here didn't stand a chance.
+└─ merge ─┘
+Hero: Someone's made a home for themselves.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: People are determined to get something out of Eos.
+    Hero: And that strange tech. Let's follow the trail.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: People are determined to get something out of Eos.
+    ↩ (goto) Hero: And that strange tech. Let's follow the trail.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Yeah, someone really, really stubborn.
+    ↩ (goto) Hero: And that strange tech. Let's follow the trail.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Someone really stubborn.
+    ↩ (goto) Hero: And that strange tech. Let's follow the trail.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_relay_scav_leader_01_multi [OncePerGame]: The failure here was expensive, Pathfinder. It's worn all of us down—not just our shuttles.
+├ option 2:
+    stm_relay_scav_leader_01_multi: Pathfinder.
+└─ merge ─┘
+global_crew_co-pilot [OncePerGame]: [Comm] Really, Ryder?
+Hero: Her personnel file is still open?
+SAM: I've no additional data, Pathfinder. The hold was placed manually on the Nexus.
+Hero: Something to check out once we're done here.
+┌─ BRANCH (7) ─┐
+├ option 1:
+├ option 2:
+    Hero: More dead. No wonder we're desperate.
+├ option 3:
+    Hero: Won't happen on Eos again. We made sure of that.
+├ option 4:
+    Hero: Is it kett? It seems too careful for that.
+├ option 5:
+    global_squad_asari ⟨cond⟩: Site 1 main building? Gotta be records somewhere.
+├ option 6:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Hopefully some of the buoy components we need are here.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: The buoy components. They're here somewhere.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Let's hope some of the buoy components are here.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Maybe some of the buoy components are here.
+    └─ merge ─┘
+├ option 7:
+    Hero: Looks dark. Maybe power concerns should be first.
+└─ merge ─┘

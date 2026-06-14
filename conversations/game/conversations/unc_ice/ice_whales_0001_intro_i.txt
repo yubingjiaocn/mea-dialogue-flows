@@ -1,0 +1,87 @@
+# game/conversations/unc_ice/ice_whales_0001_intro_i
+# Primary speaker: ice_biologist
+# Source: game/conversations/unc_ice/ice_whales_0001_intro_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_biologist [OncePerGame]: Are you here to observe the yevara?
+    Hero: What are the yevara?
+    ice_biologist: Walk onto the frozen lake and you'll see them beneath the ice. They've lived on Voeld for millennia.
+    ice_biologist: Stories about the yevara are the only angaran folktales that survived the Scourge.
+    ice_biologist: They're beautiful, intelligent creatures. Our closest tie to our past.
+    ice_behaviorist: And now your people will poach them right out of existence.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I haven't heard any reports of the Initiative hunting on Voeld.
+        ice_behaviorist: Not the Initiative. Outlaws. They've killed two dozen in the month since they've landed.
+        ice_biologist: We have no resources to track these poachers, and the Resistance is spread too thin.
+        ice_behaviorist: At this rate, our only link to our history will disappear forever.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Ryder, the yevara are vital to angaran culture. We need to stop these hunters.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: We'll do whatever we can to help.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_angara ⟨cond⟩: We should hurry.
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        Hero: Tell me more about the yevara.
+                        ice_biologist: They're amazing creatures, able to communicate through intricate songs.
+                        ice_biologist: Long ago, we could've heard the songs in person. But the Scourge trapped the yevara beneath the ice.
+                        ice_biologist: Now we have to settle for static-filled recordings.
+                        Hero: How do they survive under the ice?
+                        ice_biologist: No one knows. We've dedicated our lives to studying them and we still can't find the answer.
+                        ice_biologist: They're cut off from food and oxygen, yet they still persist. My colleague here has a theory they may be Remnant.
+                        ice_behaviorist: We have no way of confirming this, of course.
+                        ↩ (goto) ice_biologist: [empty]
+                    ├ option 2:
+                        Hero: You said you have folktales about the yevara.
+                        ice_biologist: Somehow, yevara stories are the only ones that survived the Scourge.
+                        ice_biologist: Most of them have the same theme: a yevara's song is so beautiful, it can coax the sun out of hiding. Reveal the stars.
+                        ice_behaviorist: Just stories, of course. But when your entire history is lost, stories are precious.
+                        Hero: I see why the yevara are important to you.
+                        ice_behaviorist: To all angara. They're a symbol of what the Scourge took from us.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ice_biologist: We can't lose them.
+                            ↩ (goto) ice_biologist: [empty]
+                        ├ option 2:
+                            ↩ (goto) ice_biologist: [empty]
+                        └─ merge ─┘
+                    ├ option 3:
+                        Hero ⟨cond⟩ [OncePerGame]: You're right. I should stop the outlaws hunting the yevara.
+                        ice_biologist: The poachers will follow the yevara. You can track them by listening for their distress song through your comm.
+                    ├ option 4:
+                        Hero: I'll leave you to your work.
+                        ice_biologist: Isharay.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_angara: [Comm] I want to come with you, Ryder.
+                    ↩ (goto) ice_biologist: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: These outlaws aren't acting under Initiative orders. It's not my responsibility.
+                ice_biologist: If you allow this to happen, are you any different from them?
+                ↩ (goto) ice_biologist: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_angara: [Comm] Ryder, you need to stop those hunters. The yevara are vital to angaran culture.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: We'll do whatever we can to help.
+            ├ option 2:
+                ↩ (goto) Hero: These outlaws aren't acting under Initiative orders. It's not my responsibility.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Something I should know about?
+        ice_biologist: Two dozen yevara have been killed since outlaws of your kind landed on Voeld to hunt.
+        ↩ (goto) ice_biologist: We have no resources to track these poachers, and the Resistance is spread too thin.
+    └─ merge ─┘
+├ option 2:
+    ice_biologist: You have questions?
+    ↩ (goto) ice_biologist: [empty]
+└─ merge ─┘
+↩ (goto) ice_biologist: The poachers will follow the yevara. You can track them by listening for their distress song through your comm.

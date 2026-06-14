@@ -1,0 +1,19 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0125_audio_log_i
+# Primary speaker: loy_ang_researcher
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0125_audio_log_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Found something. Looks like a journal.
+    loy_ang_researcher: [Audio Log] Everyone's so enamored with Akksul. You'd think he was the Moshae.
+    loy_ang_researcher: [Audio Log] I told Droka to make him leave.
+    loy_ang_researcher: [Audio Log] But she said that "all angara are welcome at the Forge."
+    loy_ang_researcher: [Audio Log] "Especially one trying to protect our culture."
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara [OncePerGame]: Protection... is that what he promised?
+    ├ option 2:
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) loy_ang_researcher: [Audio Log] Everyone's so enamored with Akksul. You'd think he was the Moshae.
+└─ merge ─┘

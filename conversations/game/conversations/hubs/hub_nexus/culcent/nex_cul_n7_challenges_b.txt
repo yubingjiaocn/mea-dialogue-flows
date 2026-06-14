@@ -1,0 +1,56 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_challenges_b
+# Primary speaker: nex_culcen_n7ang
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_challenges_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_culcen_n7ang [OncePerGame]: [Comm] Ah, you found the first beacon! Ready for a taste of Heskaarl training?
+    Hero: Give me your best shot.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] This one's straightforward: a test of combat efficiency.
+        nex_culcen_n7ang: [Comm] This beacon will agitate the Remnant. Take them down quick. Maybe you'll beat my personal best?
+    ├ option 2:
+        nex_culcen_n7ang ⟨cond⟩: [Comm] There's a gigantic fiend nearby. Let's see if you can hunt it before it hunts you.
+        nex_culcen_n7ang ⟨cond⟩: [Comm] You'll need to follow the beast's tracks and lure it out. Remember: nothing draws a fiend like a fresh kill.
+    ├ option 3:
+        nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] The Heskaarl pride ourselves on rapid response. I wonder how fast that Nomad of yours is.
+        nex_culcen_n7ang: [Comm] Give it a run on our training route. Stay prepared. We leave surprises for new recruits.
+    ├ option 4:
+        nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] Heskaarl operate under any conditions, even the most hazardous. I trust you know your limits.
+        nex_culcen_n7ang: [Comm] The kett have set explosives to disrupt Resistance operations. Find and take them to this pick-up point. Be ready for interference.
+    ├ option 5:
+        nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] I have a test of subtlety. Get into a kett base and download a full copy of its files.
+        nex_culcen_n7ang ⟨cond⟩: [Comm] Any fool can shoot up the base. A Heskaarl would draw the kett away first. Let's see what you decide.
+    ├ option 6:
+        nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] This is a simple—what? Hold a moment.
+        Hero: Andraknor?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            nex_culcen_n7ang ⟨cond⟩: [Comm] I can. She's here.
+            nex_culcen_n7ang: [Comm] Ryder, the Resistance lost an infiltration team. They were captured and drugged—they'll be taken for exaltation.
+            Hero: What do you need?
+            nex_culcen_n7ang: [Comm] The kett must have a counteragent for that drug. Find it, track the team down, and help them. There might still be time.
+            Hero: Hang tight. We're on it.
+        ├ option 2:
+            nex_culcen_n7ang: [Comm] I can. He's here.
+            ↩ (goto) nex_culcen_n7ang: [Comm] Ryder, the Resistance lost an infiltration team. They were captured and drugged—they'll be taken for exaltation.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    nex_culcen_n7ang: [Comm] Ryder! Back for another Heskaarl challenge?
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] This one's straightforward: a test of combat efficiency.
+    ├ option 2:
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩: [Comm] There's a gigantic fiend nearby. Let's see if you can hunt it before it hunts you.
+    ├ option 3:
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] The Heskaarl pride ourselves on rapid response. I wonder how fast that Nomad of yours is.
+    ├ option 4:
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] Heskaarl operate under any conditions, even the most hazardous. I trust you know your limits.
+    ├ option 5:
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] I have a test of subtlety. Get into a kett base and download a full copy of its files.
+    ├ option 6:
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [Comm] This is a simple—what? Hold a moment.
+    └─ merge ─┘
+└─ merge ─┘

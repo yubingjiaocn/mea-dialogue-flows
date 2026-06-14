@@ -1,0 +1,85 @@
+# game/conversations/rel/suvi/suvi_r2_tem_faith_d
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/rel/suvi/suvi_r2_tem_faith_d.xml
+==================================================
+global_crew_science_officer: Scans of the Scourge. All that dark energy, twisting and turning on itself. It's splendid.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It's dangerous, and that's all I see. A mass of destructive, malevolent tentacles.
+    global_crew_science_officer: I can appreciate the colors of a coral snake while recognizing that I wouldn't want to get close.
+    global_crew_science_officer: Heleus is incredible, isn't it? Not just constructs like the Scourge and the Remnant vaults.
+    global_crew_science_officer: Just all of it. So alien. A constant reminder of the divine intelligence behind all creation.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: You mean... a god?
+        global_crew_science_officer: Yes, I believe in a higher power. I know it's a little odd.
+        global_crew_science_officer: But I am a scientist because science brings me closer to something greater than myself.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: There's something about coming face-to-face with something wondrous that makes you want to believe.
+            global_crew_science_officer: Wow. It's wonderful to meet someone who understands. I've had to justify myself so often.
+            global_crew_science_officer: As if having faith in the divine invalidated my work as a scientist.
+            global_crew_science_officer: As if the sacred could be diminished by the search for truth.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: I know I seemed dismissive at first, but you have an interesting take on faith and science.
+                    Hero: I'd really like to pick your brain on that sometime. Maybe over drinks? The Nexus?
+                    global_crew_science_officer: I... I'd like that.
+                    global_crew_science_officer: Now I should probably update the rest of the team with my latest reports.
+                    global_crew_science_officer: We'll talk later?
+                ├ option 2:
+                    Hero: You definitely have an interesting perspective on the interplay between faith and science.
+                    ↩ (goto) Hero: I'd really like to pick your brain on that sometime. Maybe over drinks? The Nexus?
+                └─ merge ─┘
+            ├ option 2:
+                Hero: It's good to have different voices on my team. I like that.
+                global_crew_science_officer: Excellent.
+                global_crew_science_officer: Speaking of the team, I should update the folks back on the Nexus with the latest reports.
+                ↩ (goto) global_crew_science_officer: We'll talk later?
+            ├ option 3:
+                Hero: I wasn't questioning your abilities. You never have to justify yourself to me.
+                global_crew_science_officer: Thank you. I appreciate you saying that, truly.
+                ↩ (goto) global_crew_science_officer: Now I should probably update the rest of the team with my latest reports.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: There's nothing about the universe that suggests a divine intelligence.
+            Hero: And most of what we've seen in Heleus is artificial, as you said yourself.
+            global_crew_science_officer: Yes, but we're creative beings. Whoever made the Remnant was too. Why should that be proof against a god?
+            global_crew_science_officer: Wouldn't a true creator want to pass on the drive to invent?
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) Hero ⟨cond⟩: [empty]
+            ├ option 2:
+                Hero: You are welcome to your beliefs. It's good to have different voices on the team.
+                ↩ (goto) global_crew_science_officer: Excellent.
+            ├ option 3:
+                Hero: If everything was set in place by some mysterious creator, why even be a scientist?
+                global_crew_science_officer: If I have reverence for a creator, how could I {i}not{/i} want to study their creation?
+                global_crew_science_officer: My faith doesn't hinder my work as a scientist. It encourages it.
+                global_crew_science_officer: My senses tell me what the world is. Science shows me how it came to be. And religion tells me why.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: [empty]
+                ├ option 2:
+                    Hero: Science and religion have always been at odds. No amount of rationalization is going to change that.
+                    global_crew_science_officer: Shall we agree to disagree? Our beliefs are clearly incompatible.
+                    ↩ (goto) global_crew_science_officer: Now I should probably update the rest of the team with my latest reports.
+                ├ option 3:
+                    Hero: I apologize if I offended you. I can be insensitive.
+                    global_crew_science_officer: You're fine. Being challenged forces me to dig deep on my beliefs. It's healthy.
+                    ↩ (goto) global_crew_science_officer: Now I should probably update the rest of the team with my latest reports.
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: There's something about coming face-to-face with something wondrous that makes you want to believe.
+    ├ option 3:
+        ↩ (goto) Hero: There's nothing about the universe that suggests a divine intelligence.
+    └─ merge ─┘
+├ option 2:
+    Hero: I suppose it is a rather darkly beautiful phenomenon.
+    global_crew_science_officer: "Darkly beautiful." I like that.
+    ↩ (goto) global_crew_science_officer: Heleus is incredible, isn't it? Not just constructs like the Scourge and the Remnant vaults.
+└─ merge ─┘

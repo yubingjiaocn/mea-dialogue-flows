@@ -1,0 +1,54 @@
+# game/conversations/storyteller/anchors/sty_anchor_questmarker_remnant_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_anchor_questmarker_remnant_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Look at that. A Remnant device.
+        SAM: Pathfinder, you may want to try scanning.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: That Remnant thing looks important.
+        ↩ (goto) SAM: Pathfinder, you may want to try scanning.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: I think that's a Remnant data cache.
+        ↩ (goto) SAM: Pathfinder, you may want to try scanning.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: What's that Remnant thingy?
+        ↩ (goto) SAM: Pathfinder, you may want to try scanning.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Oh, look! Remnant data cache!
+        ↩ (goto) SAM: Pathfinder, you may want to try scanning.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: That Remnant device looks useful.
+        ↩ (goto) SAM: Pathfinder, you may want to try scanning.
+    ├ option 7:
+        SAM: I detect a Remnant data cache nearby.
+        ↩ (goto) SAM: Pathfinder, you may want to try scanning.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Is that a Remnant storage device?
+        SAM: Pathfinder, I recommend scanning.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Looks like there's something in that device.
+        ↩ (goto) SAM: Pathfinder, I recommend scanning.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: Ryder. There's a Remnant data cache here.
+        ↩ (goto) SAM: Pathfinder, I recommend scanning.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Look. A Remnant... thing.
+        ↩ (goto) SAM: Pathfinder, I recommend scanning.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Ryder, it's a Remnant data cache.
+        ↩ (goto) SAM: Pathfinder, I recommend scanning.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Is that Remnant thing useful?
+        ↩ (goto) SAM: Pathfinder, I recommend scanning.
+    ├ option 7:
+        SAM: I've identified a Remnant data cache in this location.
+        ↩ (goto) SAM: Pathfinder, I recommend scanning.
+    └─ merge ─┘
+└─ merge ─┘

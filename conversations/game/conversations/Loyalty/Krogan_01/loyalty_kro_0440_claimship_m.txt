@@ -1,0 +1,80 @@
+# Game/Conversations/Loyalty/Krogan_01/loyalty_kro_0440_claimship_m
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0440_claimship_m.xml
+==================================================
+Hero: Looks like we're done here.
+loyalty_krogan_pirateleader_multi: Don't move!
+global_squad_krogan: You... {i}(Growls.){/i}
+loyalty_krogan_pirateleader_multi: I'm taking this transport.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Aroane, you don't know what you're doing.
+    loyalty_krogan_pirateleader_multi: I know exactly what I'm doing, Pathfinder. Don't you worry.
+    global_squad_krogan: I'm not the one you need to worry about right now.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Why is Vorn...
+        loyalty_krogan_pirateleader_multi: {i}(Coughs.){/i} Just wait. {i}(Coughs.){/i} Oh my god...
+        global_krogan_botanist: Wait, wait—don't come any closer! It'll affect anyone who isn't krogan. It's pretty strong stuff.
+        global_squad_krogan: Time to take out the trash.
+        global_krogan_botanist: My first live specimen test. Doesn't last long—but it sure works fast.
+        loyalty_krogan_pirateleader_multi: {i}(Groans.){/i}
+        loyalty_krogan_pirateleader_multi: You—you wouldn't dare. You're just bluffing!
+        global_squad_krogan: Did you really just say that?
+        loyalty_krogan_pirateleader_multi: No, no, no! Wait! Don't let me go!
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Your call. We can get to Spender on our own.
+            loyalty_krogan_pirateleader_multi: I—I know things! You can't do this!
+            global_squad_krogan: I can do whatever I want to do.
+            loyalty_krogan_pirateleader_multi: Nooooo...
+            Hero: Well, that's that.
+            global_squad_krogan: {i}(Chuckles.){/i}
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+            ├ option 2:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                ├ option 2:
+                    global_squad_krogan: Let's get this transport back to where it belongs.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: We need to know what Spender's up to. Besides, there's got to be a line somewhere.
+            global_squad_krogan: Figured you'd say that. Fine. Take him back to the Nexus it is.
+            global_squad_krogan: It's still not nearly as fun as dropping him.
+            Hero: I'll take your word for it.
+            loyalty_krogan_pirateleader_multi: I'll tell you everything I know.
+            global_squad_krogan: Shut up, you quadless little shit. We're letting you live. For now.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: This is about to be my favorite part.
+        ↩ (goto) Narration: [empty]
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: I have a bad feeling...
+        ↩ (goto) Narration: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Here we go...
+        ↩ (goto) Narration: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Heh. Classic.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You're going to get yourself killed if you do this.
+    loyalty_krogan_pirateleader_multi: Like I'm not dead the moment that crazy, old krogan gets his hands on me?
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    loyalty_krogan_pirateleader_multi: {i}(Whimpers.){/i}
+├ option 2:
+    loyalty_krogan_pirateleader_multi: {i}(Gasps in fear.){/i}
+├ option 3:
+    loyalty_krogan_pirateleader_multi: {i}(Breathing fast.){/i}
+├ option 4:
+    loyalty_krogan_pirateleader_multi: {i}(Breathing fast.){/i}
+├ option 5:
+    loyalty_krogan_pirateleader_multi: No, no, no, no, no...
+└─ merge ─┘

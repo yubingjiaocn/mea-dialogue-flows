@@ -1,0 +1,80 @@
+# game/conversations/rel/peebee/pb_r3_aya_personal_1_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/peebee/pb_r3_aya_personal_1_d.xml
+==================================================
+Hero: Getting acquainted with our new neighbors?
+global_squad_asari: Sort of. All this... stuff. The angara sure do have a rich culture and blah blah blah.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Are you all right?
+    global_squad_asari: I'm fine. It's nothing.
+    global_squad_asari: I visited that cafe the angara consider a bar. Asked for their hardest stuff. It was weird, which I like, but had almost no—{i}(hic){/i}—punch.
+    global_squad_asari: Lightweights! Whoa...
+    Hero: Steady now.
+    global_squad_asari: That stuff must have a slow absorption rate. Whoops.
+    global_squad_asari: Oh, Ryder, it's just—this museum reminds me of being on Hyetiana during my indentured service as a student.
+    global_squad_asari: They even have a whole section on the Remnant. I didn't come to Andromeda to follow in someone else's footsteps.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It didn't occur to you there'd be indigenous species here? Sentients with a rich history, leading full lives?
+        global_squad_asari: I guess.
+        Hero: Even so...
+        Hero: The angara barely have a foothold. Sure, they live among the ruins. But they haven't seen what we've {i}already{/i} seen.
+        global_squad_asari: Hmm. You might have a point there...
+        global_squad_asari: Bet nobody here has ever outrun an ancient vault purification field, huh? {i}(Hic.){/i}
+        Hero: Nope.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: And who took down the megalomaniac asshole who was systematically exalting them? That was nice work, by the way.
+            Hero: Thank you.
+            global_squad_asari: Ah, you're right. Not sure why, but ever since I packed up my apartment on the Nexus, something's crawled under my skin.
+            global_squad_asari: But {i}whatever{/i} it is, I promise: I'll get over it lickety-split.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Be sure you do. You're a handful, even sober.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari: You can handle me, Ryder. Wheneeeeeeever you want. {i}(Hic.){/i}
+                    global_squad_asari: Think I'll stay in your operation a little while longer.
+                ├ option 2:
+                    global_squad_asari: It's true. By design. Makes people less likely to try to—{i}(hic){/i}—handle me.
+                    ↩ (goto) global_squad_asari: Think I'll stay in your operation a little while longer.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: You're fine, Peebee. We all need to cut loose once in a while.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_asari: You're very understanding. And attractive. Nice combination. {i}(Hic.){/i}
+                    ↩ (goto) global_squad_asari: Think I'll stay in your operation a little while longer.
+                ├ option 2:
+                    global_squad_asari: That's awfully understanding of you, Ryder. You're a good—{i}(hic){/i}—egg.
+                    ↩ (goto) global_squad_asari: Think I'll stay in your operation a little while longer.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_asari: Or spat in that Archon's ugly mug and lived to talk about it? That was nice work, by the way.
+            ↩ (goto) Hero: Thank you.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Don't worry, Peebee...
+        ↩ (goto) Hero: The angara barely have a foothold. Sure, they live among the ruins. But they haven't seen what we've {i}already{/i} seen.
+    └─ merge ─┘
+├ option 2:
+    Hero: You're sauced, aren't you? What's your poison?
+    global_squad_asari: Yeeeaaaah...
+    ↩ (goto) global_squad_asari: I visited that cafe the angara consider a bar. Asked for their hardest stuff. It was weird, which I like, but had almost no—{i}(hic){/i}—punch.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari: Bet nobody here has ever outrun an ancient alien purge, huh? {i}(Hic.){/i}
+├ option 2:
+    Hero: Come on, Peebee. Kalinda showing up rattled you. You must see that.
+    global_squad_asari: What? You think... hahaha, that's funny, Ryder, I mean... wait, could that be right?
+    Hero: There's no shame in it.
+    global_squad_asari: Hmm. Huh. You know what, I'll throw it against the wall and see if it sticks.
+├ option 3:
+    Hero: A certain blue-skinned ex-friend might be the culprit.
+    global_squad_asari: Blue-skinned ex... Kalinda? Nooooo. Coincidence. Or... wait, could that be right?
+    Hero: There's a distinct possibility.
+    ↩ (goto) global_squad_asari: Hmm. Huh. You know what, I'll throw it against the wall and see if it sticks.
+└─ merge ─┘

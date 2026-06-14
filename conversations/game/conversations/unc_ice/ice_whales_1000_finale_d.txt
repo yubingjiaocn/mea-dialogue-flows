@@ -1,0 +1,72 @@
+# game/conversations/unc_ice/ice_whales_1000_finale_d
+# Primary speaker: ice_drlekaaret
+# Source: game/conversations/unc_ice/ice_whales_1000_finale_d.xml
+==================================================
+ice_drlekaaret: The people I hired shot at you, and you took care of them. I understand that. Now let's talk.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: After all I've heard, I didn't expect that an angara led these hunts.
+    ice_drlekaaret: Then you've been talking to the angara here.
+    ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
+    ice_drlekaaret: But these creatures might also hold the key to our war against the kett.
+    Hero: Explain.
+    ice_drlekaaret: I've been performing tests. An enzyme in the yevara's skin could treat the effects of kett weaponry.
+    ice_drlekaaret: If I'm right, our fighters could heal faster. Push back against the kett.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: No... not like this. Creatures are dying.
+        ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You really think this enzyme will work? It'll heal your people?
+            ice_drlekaaret: I need to run more tests. But it looks promising.
+            ice_drlekaaret: Just let me continue my research. For the future of my people.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: Ryder... I don't know how to feel. I can't make this decision.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: SAM, send her information to the Resistance.
+                    SAM: Transmitting data.
+                    Hero: I suggest you get off Voeld before they get that info.
+                    ice_drlekaaret: You're making a huge mistake.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: I'll contact the commander. Thank you, Ryder. I think this is the right choice.
+                    ├ option 2:
+                        global_squad_angara: [Comm] I'll tell the commander. Thank you, Ryder. This feels like the right choice.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: This feels like a mistake.
+                        ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
+                    ├ option 2:
+                        global_squad_angara: [Comm] This doesn't feel right.
+                        ↩ (goto) ice_drlekaaret: I'll contact the Resistance right away. Thank you. You won't regret this.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_angara: [Comm] Ryder... I can't make this decision. I hardly know how to feel.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: SAM, send her information to the Resistance.
+                ├ option 2:
+                    ↩ (goto) Hero: If this work helps people, I can't stop you. But you need to be up front with your people.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Even if the enzyme helps, the angara won't accept it when they know the source.
+            ice_drlekaaret: At first, maybe. But the angara have always been survivors. In time, they'll see reason.
+            ↩ (goto) ice_drlekaaret: Just let me continue my research. For the future of my people.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara: [Comm] She can't... not like this. Creatures are dying.
+        ↩ (goto) ice_drlekaaret: You see? My people would rather cling to tradition than think about the future.
+    └─ merge ─┘
+├ option 2:
+    Hero: You better have a great explanation for hunting yevara. Your people won't be happy to hear this.
+    ice_drlekaaret: So the angara sent you, then.
+    ↩ (goto) ice_drlekaaret: I'm sure they told you the stories. How the yevara are the only living history we have left.
+└─ merge ─┘

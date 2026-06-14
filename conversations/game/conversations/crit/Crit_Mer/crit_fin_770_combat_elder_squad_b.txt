@@ -1,0 +1,33 @@
+# game/conversations/crit/crit_mer/crit_fin_770_combat_elder_squad_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_770_combat_elder_squad_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] Pathfinder, the best of the Paarchero are with you!
+    Hero: Glad to have you!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] There's nowhere else we should be!
+    ├ option 2:
+        crit_kett_krogan_scout: [Comm] Let's make sure the kett aren't!
+        ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    crit_kett_krogan_scout: [Comm] Pathfinder! We have a debt to pay! We are at your side!
+    ↩ (goto) Hero: Glad to have you!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] Ascendant! Focus on the shield generator!
+├ option 2:
+    crit_kett_krogan_scout: [Comm] Hit the Ascendant right up the generator!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    crit_kett_salarian_captain_multi ⟨cond⟩: [Comm] We can stay with you, Pathfinder. Until the area is secure.
+├ option 2:
+    crit_kett_krogan_scout ⟨cond⟩: [Comm] Well done! Stay with the Pathfinder until the section's secure!
+├ option 3:
+    crit_kett_krogan_scout: [Comm] Well done! Stay with the Pathfinder until the section's secure!
+└─ merge ─┘

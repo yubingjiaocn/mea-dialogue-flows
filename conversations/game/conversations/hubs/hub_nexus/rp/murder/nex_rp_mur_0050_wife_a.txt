@@ -1,0 +1,45 @@
+# game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0050_wife_a
+# Primary speaker: nex_rp_mur_murderers_wife
+# Source: game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0050_wife_a.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_rp_mur_murderers_wife: This is wrong, just wrong.
+├ option 2:
+    nex_rp_mur_murderers_wife: What am I going to do?
+├ option 3:
+    nex_rp_mur_murderers_wife: This is a nightmare.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_rp_mur_murderers_wife [OncePerGame]: The waiting is torture.
+    nex_rp_mur_murderers_wife: Is there anyone else I could talk to?
+    nex_rp_mur_murderers_wife: I just know he didn't do it.
+├ option 2:
+    nex_rp_mur_murderers_wife: Oh, Nilken.
+└─ merge ─┘
+nex_rp_mur_murderers_wife [OncePerGame]: It's Cassidy's fault. Her testimony was the worst.
+nex_rp_mur_murderers_wife: And I thought we were friends.
+nex_rp_mur_murderers_wife [OncePerGame]: I'd rather stay, please.
+nex_rp_mur_militia_guard: That's fine, but it's a while before the next visiting period.
+nex_rp_mur_murderers_wife: I... I just can't be at home.
+nex_rp_mur_murderers_wife [OncePerGame]: If they exile him, I...
+nex_rp_mur_murderers_wife: I can't be here without him.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_rp_mur_murderers_wife ⟨cond⟩ [OncePerGame]: I really thought the Pathfinder might make a difference.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_rp_mur_militia_guard ⟨cond⟩: Give it time—she still may.
+    ├ option 2:
+        nex_rp_mur_militia_guard: Give it time—he still may.
+    └─ merge ─┘
+├ option 2:
+    nex_rp_mur_murderers_wife [OncePerGame]: I really thought the Pathfinder might make a difference.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) nex_rp_mur_militia_guard ⟨cond⟩: Give it time—she still may.
+    ├ option 2:
+        ↩ (goto) nex_rp_mur_militia_guard: Give it time—he still may.
+    └─ merge ─┘
+└─ merge ─┘

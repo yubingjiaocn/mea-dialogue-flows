@@ -1,0 +1,76 @@
+# game/conversations/hubs/hub_kad/squadmates/kad_peebee_i
+# Primary speaker: global_squad_asari
+# Source: game/conversations/hubs/hub_kad/squadmates/kad_peebee_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari [OncePerGame]: Ryder, I recognize these people. The exiles. Some aren't exactly pleased to see us.
+        global_squad_asari: I've been getting a lot of angry looks.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Just watch your step.
+            global_squad_asari: I'm not blinking.
+            global_squad_asari: Let's do what we have to, then scram, huh?
+        ├ option 2:
+            Hero: Eyeball 'em right back with a curl of your lip.
+            global_squad_asari: Yeah. Good plan. Thanks.
+            ↩ (goto) global_squad_asari: Let's do what we have to, then scram, huh?
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari: Don't worry, I'm laying low. No making enemies.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari [OncePerGame]: Ryder, there's an active black market for rem-tech here. Several unsavory types have approached me.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: They have to make a living somehow.
+            global_squad_asari: Yeah, but they spoil potentially important sites.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari: I'm trying to get info on Kalinda's crew. To find out where Poc might be. I can't be seen with you, so scram.
+                ↩ (goto) global_squad_asari: [empty]
+            ├ option 2:
+                ↩ (goto) global_squad_asari: Don't worry, I'm laying low. No making enemies.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'll never forgive you if you join some other operation.
+            global_squad_asari: I've been tempted. One promised to get me inside a vault. No way you can compete with that.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_asari ⟨cond⟩: [empty]
+            ├ option 2:
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_squad_asari: Don't worry, I'm laying low. No making enemies.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari [OncePerGame]: Hey Ryder. Since you made nice with the powers that be here, I'm fielding a lot less animosity from the average outlaw.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: They're tolerating us. Don't take it for granted.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_asari: I know. Your boyfriend Reyes can't keep {i}all{/i} his minions in check, right?
+            ├ option 2:
+                global_squad_asari: Don't take your alliance with Reyes for granted either. No matter how charming he may be.
+                ↩ (goto) global_squad_asari: [empty]
+            ├ option 3:
+                global_squad_asari: Don't take your accord with Sloane for granted either, okay? She's pure, uncut calculation.
+                ↩ (goto) global_squad_asari: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: How much animosity are you dishing out?
+            global_squad_asari: Oh, you know me. If I don't get into scrapes here and there, I get antsy.
+            ↩ (goto) global_squad_asari: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) global_squad_asari: Don't worry, I'm laying low. No making enemies.
+    └─ merge ─┘
+└─ merge ─┘

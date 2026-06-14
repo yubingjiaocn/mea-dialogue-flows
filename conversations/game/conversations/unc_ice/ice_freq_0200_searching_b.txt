@@ -1,0 +1,75 @@
+# game/conversations/unc_ice/ice_freq_0200_searching_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_freq_0200_searching_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Whoa! Those adhi are really coming at us!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+        SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+    ├ option 2:
+        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Watch out! Those adhi seem really mad!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+    ├ option 2:
+        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+    └─ merge ─┘
+├ option 3:
+    global_squad_turian ⟨cond⟩: Those adhi really have it out for us!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+    ├ option 2:
+        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human ⟨cond⟩: These adhi are really aggressive!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: Adhi don't normally act like this. Something's made them angry.
+    ├ option 2:
+        ↩ (goto) SAM: We are close to the source of the signal. Perhaps something about the frequency causes agitation in the beasts.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Got the signal. This way.
+├ option 2:
+    Hero: Picking up signal.
+├ option 3:
+    Hero: Getting closer.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Crap! More adhi!
+├ option 2:
+    Hero: Watch out!
+├ option 3:
+    Hero: Clear them out!
+└─ merge ─┘
+Hero: This is the source of that interference? Looks like a meteorite.
+SAM: The interference is caused by the EM radiation it's emitting. I detect that—
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Detect later! Adhi!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Adhi, headed our way!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Detect later! Angry adhi headed for us!
+├ option 4:
+    global_squad_angara ⟨cond⟩: Adhi! Talk later!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Uh, Ryder, got beasties incoming!
+└─ merge ─┘
+SAM: The signal emitted by that meteorite might be drawing the adhi, as well as driving them into a frenzy.
+Hero: How do we shut it off?
+SAM: Perhaps a scan will tell us more, Pathfinder.
+SAM: Detecting local frequency inteference. This could be affecting planetary communications.
+Hero: Let's check it out.
+SAM: Pathfinder, I can modify your omni-tool to dampen the signal.

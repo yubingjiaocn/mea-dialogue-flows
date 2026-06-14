@@ -1,0 +1,69 @@
+# Game/Conversations/Crit/Intrld35/intrld35_kad_0300_reyes_m
+# Primary speaker: kad_charlatan
+# Source: game/conversations/crit/intrld35/intrld35_kad_0300_reyes_m.xml
+==================================================
+Narration: RYDER waits next to the bar.
+Narration: Near her, a drunken PIRATE is refusing to pay the asari bartender, UMI HENON.
+kad_bar_01: Hey!
+kadara_outcast_pir_01: Piss off.
+kad_bar_01: You order, you pay.
+Narration: The pirate slams his palm on the bar and aggressively points at Umi.
+Narration: The other customers take note of the altercation.
+kadara_outcast_pir_01: I said—
+Narration: Umi reaches under the bar, takes out a knife, and STABS it into the bar's surface between the pirate's fingers.
+Narration: Moment of silence. Umi glares at the pirate, holding her ground.
+Narration: He gives in. The locals turn back to their drinks, disappointed a bigger fight didn't break out.
+Narration: The camera pans back to Ryder as REYES VIDAL slides beside her. He signals for two drinks.
+kad_charlatan: You look like you're waiting for someone.
+Narration: The bartender fills two glasses with liquor. Ryder turns to face Reyes. He offers her one of the shots.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I've got time for a drink.
+    Narration: They CLINK their glasses and down the shots.
+    Narration: Reyes extends his hand to Ryder.
+    kad_charlatan: Shena. But you can call me Reyes. I hate code names.
+    Narration: Ryder recognizes the name and returns the handshake.
+    Hero: I was expecting someone more... angaran.
+    Narration: Reyes smiles.
+    kad_charlatan: The Resistance pays me to supply information—among other things.
+    Hero: So you're a smuggler?
+    Narration: Reyes grins sheepishly, then moves the conversation from the bar to the vista.
+    kad_charlatan: Your man—Vehn Terev—was arrested by Sloane Kelly, leader of the Outcasts. Word spread about what he did to Moshae Sjefa.
+    Narration: Ryder makes a face. This just got more complicated.
+    kad_charlatan: The people are calling for his execution. And Sloane... she's a woman of the people.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I like her already.
+        kad_charlatan: Well, she doesn't like you.
+        Hero: She's never met me.
+        Narration: Reyes shrugs.
+        kad_charlatan: You work for the Initiative. Sloane was part of the uprising on the Nexus. I doubt she'll give Vehn up easily.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm taking him—with or without her permission.
+            Narration: Reyes looks surprised and impressed by Ryder's audacity.
+            kad_charlatan: We're gonna be friends, you and I.
+            Narration: Pause. Reyes is concocting a plan.
+            kad_charlatan: There might be another way to get to Vehn. You work Sloane. I'll talk to the Resistance.
+            Narration: Reyes pushes back from the bar to leave.
+            Hero: How do I contact you if things go south?
+            Narration: Reyes winks--he'll find Ryder--then EXITS.
+            Narration: Ryder turns to leave when the bartender calls her back. She's holding the knife from earlier in her hand.
+            kad_bar_01: Hey! You gotta pay.
+            Narration: Ryder rolls her eyes--Reyes left her with the bill--and reluctantly pays the bartender.
+            Hero: Keep the change.
+            kad_bar_01: Always do.
+        ├ option 2:
+            Hero: Maybe she'll agree to a deal.
+            Narration: Reyes seems skeptical. He thinks Sloane is more likely to shoot Ryder in the face.
+            ↩ (goto) Narration: Pause. Reyes is concocting a plan.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Dress it up however you want. She's a criminal.
+        ↩ (goto) Narration: Reyes shrugs.
+    └─ merge ─┘
+├ option 2:
+    Hero: Not interested.
+    Narration: Reyes shrugs and finishes the two shots himself.
+    ↩ (goto) Narration: Reyes extends his hand to Ryder.
+└─ merge ─┘

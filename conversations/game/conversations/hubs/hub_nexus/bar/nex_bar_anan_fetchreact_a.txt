@@ -1,0 +1,20 @@
+# game/conversations/hubs/hub_nexus/bar/nex_bar_anan_fetchreact_a
+# Primary speaker: nex_bar_tender_01
+# Source: game/conversations/hubs/hub_nexus/bar/nex_bar_anan_fetchreact_a.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_bar_tender_01 ⟨cond⟩ [OncePerGame]: Oooh. We're having cocktails tonight.
+├ option 2:
+    nex_bar_tender_01 ⟨cond⟩ [OncePerGame]: Anan, these are horrifying. I love them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_bar_tender_02 ⟨cond⟩: Thank the Pathfinder!
+        nex_bar_tender_01: Thank you, Pathfinder.
+    ├ option 2:
+        nex_bar_tender_02: Thank the Pathfinder!
+        ↩ (goto) nex_bar_tender_01: Thank you, Pathfinder.
+    └─ merge ─┘
+├ option 3:
+    nex_bar_tender_01 ⟨cond⟩ [OncePerGame]: Well, this'll make a lot of people happy. I suppose I can endure that.
+└─ merge ─┘

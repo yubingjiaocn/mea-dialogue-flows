@@ -1,0 +1,81 @@
+# game/conversations/bstory/sal/sal_0150_device_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0150_device_b.xml
+==================================================
+Hero [OncePerGame]: Kett! Right where that agent sent us!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They're not going to talk peacefully!
+├ option 2:
+    global_squad_asari ⟨cond⟩: I don't think they're going to answer any questions!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Easier to search when they're dead!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Guess it's too late to talk this out!
+├ option 5:
+    global_squad_female_human ⟨cond⟩: We want answers, we'll have to fight for them!
+└─ merge ─┘
+Hero: If that STG agent was right, this kett was Dr. Aden's contact.
+Hero: Let's get a scan.
+SAM: This kett has a Milky Way comm device implanted.
+SAM: Particle vibration on the transmitter resembles salarian encryptions.
+Hero: "Resembles" doesn't prove much. The kett could've found the implant on the salarian ark.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: There is still Aden's equipment.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: We've still got the other lead, Aden's equipment.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: We should check out Aden's equipment, too.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Aden's equipment might be the clincher.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: We've got that other lead to check on.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: The best leads on Aden's "betrayal," and they're both circumstantial.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Maybe he's not the guy...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+        ├ option 2:
+            Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Can't hang him for that.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: He's salarian. Probably guilty of something.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: So, we cleared an innocent man?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Too bad for Saelen.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: We could head to the Nexus and ask Raeka about this. Maybe she knows something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: How about we talk to Hayjer about this, back on the Nexus? He might have something.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

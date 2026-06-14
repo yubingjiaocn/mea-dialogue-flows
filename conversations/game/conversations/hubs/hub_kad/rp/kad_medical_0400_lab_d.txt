@@ -1,0 +1,60 @@
+# game/conversations/hubs/hub_kad/rp/kad_medical_0400_lab_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_kad/rp/kad_medical_0400_lab_d.xml
+==================================================
+kad_scientist: Please—don't shoot. I'm unarmed.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I'm not here to hurt you, Doctor...?
+    kad_scientist: Farenth. Dr. Arenna Farenth.
+    Hero: I only want the Oblivion formula, then I'll be on my way.
+    kad_scientist: Ryota sent you, didn't he? With a sob story about Sloane misusing his "medical breakthrough."
+    Hero: Something like that.
+    kad_scientist: Oblivion wasn't {i}his{/i} breakthrough—it was ours.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Is everyone on this planet a lying asshole?
+        kad_scientist: We always meant Oblivion to be a highly addictive drug.
+        kad_scientist: That it has medicinal value was a coincidence.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I've seen Dr. Nakamoto's clinic. He's not the type to create something harmful.
+            kad_scientist: That clinic is a front. The Charlatan gives "anonymous" donations so he'll patch up Collective thugs, no questions asked.
+            kad_scientist: You've had, what? One conversation with him? I've known Ryota for years. Everything he does, he does for credits.
+            Hero: But you're different.
+            kad_scientist: I place survival above credits. Give Ryota the formula and I'm as good as dead. Sloane will see to that.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: I've seen Sloane's outfit. Not a lot of doctors. You're too valuable to kill.
+                kad_scientist: She'll see it as cooperating with the enemy. Loyalty's more important to Sloane than brains.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: You're lying about Dr. Nakamoto to keep the formula.
+                    kad_scientist: You willing to bet my life on that?
+                    Hero: Yep.
+                    Narration: Ryder walks past Arenna to the walks and uses their omni-tool to copy the formula from the console behind her.
+                    kad_scientist: Fuck you.
+                ├ option 2:
+                    Hero: This is getting complicated. How about we pretend I was never here?
+                    kad_scientist: I'll tell Sloane it was a Collective attack. Thank you.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: You're lying about Dr. Nakamoto to keep the formula.
+            ├ option 3:
+                ↩ (goto) Hero: This is getting complicated. How about we pretend I was never here?
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Then why did Dr. Nakamoto quit the Outcasts?
+            kad_scientist: {i}(Laughs.){/i} Ryota didn't quit—he was fired. Pushed Sloane for a bigger cut.
+            ↩ (goto) kad_scientist: You've had, what? One conversation with him? I've known Ryota for years. Everything he does, he does for credits.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: How do I know you're telling the truth?
+        kad_scientist: Because I'm not hiding behind a false shield of morality.
+        ↩ (goto) kad_scientist: We always meant Oblivion to be a highly addictive drug.
+    └─ merge ─┘
+├ option 2:
+    Hero: Give me the Oblivion formula and you've got nothing to fear. Who are you?
+    kad_scientist: Dr. Arenna Farenth.
+    ↩ (goto) kad_scientist: Ryota sent you, didn't he? With a sob story about Sloane misusing his "medical breakthrough."
+└─ merge ─┘

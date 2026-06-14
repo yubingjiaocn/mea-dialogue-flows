@@ -1,0 +1,31 @@
+# game/conversations/unc_dunes/dune_shaman_0150_setlure_b
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/unc_dunes/dune_shaman_0150_setlure_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: That's it. Shaman'll handle the rest.
+├ option 2:
+    global_squad_angara ⟨cond⟩: It... worked! We need this lure on Aya.
+    global_squad_angara: Let's go back to the shaman.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: I wish I knew how that lure works. Could come in handy.
+    global_squad_female_human: Let's go back to the shaman.
+├ option 4:
+    global_squad_turian ⟨cond⟩: So it calmed down. Now what?
+    Hero: I guess we ask the shaman.
+├ option 5:
+    global_squad_asari ⟨cond⟩: So... we just leave now? Did it work?
+    ↩ (goto) Hero: I guess we ask the shaman.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Was that it? Are we good?
+    ↩ (goto) Hero: I guess we ask the shaman.
+└─ merge ─┘
+SAM: I'm detecting movement in the area. Stay on alert.
+SAM: We've attracted a large lifeform. I suspect this is our fiend.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: We need to get it closer to the lure. Let's draw it in.
+├ option 2:
+    SAM: The fiend is out of the lure's radius of effect. You'll need to draw it in.
+└─ merge ─┘

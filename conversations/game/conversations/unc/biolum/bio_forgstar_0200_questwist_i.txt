@@ -1,0 +1,30 @@
+# game/conversations/unc/biolum/bio_forgstar_0200_questwist_i
+# Primary speaker: bio_archeoastronomer
+# Source: game/conversations/unc/biolum/bio_forgstar_0200_questwist_i.xml
+==================================================
+SAM: Pathfinder, the computer's data core is damaged beyond repair.
+Hero: Raashel? It's Ryder. We're inside your old home, but your research data didn't survive.
+bio_archeoastronomer: [Comm] All your effort and risk, for nothing. I'm sorry.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The risk was worth it. We just got unlucky.
+    bio_archeoastronomer: [Comm] Years of my life, gone.
+    Hero: You didn't have backups?
+    bio_archeoastronomer: [Comm] Of course, but they went down with the city's network memory center. That site is now buried underground.
+    bio_archeoastronomer: [Comm] Even if you could find an access point on the surface, the odds of recovering anything are remote.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Good scientists don't quit until they've exhausted all possibilities.
+        bio_archeoastronomer: [Comm] If you're willing to press on, so am I.
+        bio_archeoastronomer: [Comm] I can point you in the general direction of where the network memory center used to be.
+        bio_archeoastronomer: [Comm] You'll have to hunt for an exposed network node. I'll stand by. Thank you, Pathfinder.
+    ├ option 2:
+        Hero: All I heard is, there's a chance. Let's go for it.
+        bio_archeoastronomer: [Comm] That didn't fully translate, but I know optimism when I hear it.
+        ↩ (goto) bio_archeoastronomer: [Comm] I can point you in the general direction of where the network memory center used to be.
+    └─ merge ─┘
+├ option 2:
+    Hero: I can't imagine what you're feeling right now.
+    bio_archeoastronomer: [Comm] Shouldn't have let myself hope.
+    ↩ (goto) Hero: You didn't have backups?
+└─ merge ─┘

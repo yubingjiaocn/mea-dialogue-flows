@@ -1,0 +1,47 @@
+# Game/Conversations/Crit/Intrld/Intrld_0050_Near_Death_cc
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/crit/intrld/Intrld_0050_Near_Death_cc.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Narration: Ryder plunges into a near-death experience... the SAM connection is too much.
+    Narration: Reality becomes disjointed - Ryder's barely aware - fever-dream impressions follow...
+    Narration: We see the shuttle above, coming in for a landing...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Move! She's going into cardiac arrest!
+    ├ option 2:
+        global_squad_female_human: Move! He's going into cardiac arrest!
+        Narration: CUT TO: Inside the shuttle, on the floor. Harry is giving Ryder CPR...
+        global_crew_doctor_multi ⟨cond⟩: Pulse is weakening! Tell the ark to prep med-bay! C'mon.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_crew_doctor_multi: Pulse is weakening! Tell the ark to prep med-bay! C'mon.
+        ├ option 2:
+            Narration: CUT TO: Inside the ark's med-bay, Ryder lying on a surgery table. Reality is becoming more and more disjointed...
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_doctor_multi ⟨cond⟩: Pulse dropping! We're losing them!
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_humanark_asari_dr ⟨cond⟩: It's a seizure! Her brain can't handle the connection!
+                    global_humanark_asari_dr: Get her to SAM Node!
+                ├ option 2:
+                    global_humanark_asari_dr: It's a seizure! His brain can't handle the connection!
+                    global_humanark_asari_dr: Get him to SAM Node!
+                    Narration: Chaotic impressions as Ryder is carried down to the SAM Node computer server room and laid out on the floor.
+                    Narration: Panels are ripped off walls as wires are strung around Ryder's head.
+                    global_humanark_asari_dr: SAM, what's the reading?
+                    SAM: Ryder's implant is overloading. I suggest a hardwire connection.
+                    global_humanark_asari_dr: Do it!
+                    Narration: The N7 helmet Ryder's wearing is tossed aside and now wires are attached to his/her skull.
+                    global_crew_doctor_multi: There!
+                    Narration: A connection is made...but it blows out the mental circuits and Ryder falls into a coma... BLACKING OUT....
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_doctor_multi: Pulse dropping! We're losing them!
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+└─ merge ─┘

@@ -1,0 +1,97 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0700_roek_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0700_roek_b.xml
+==================================================
+Hero: No one here looks sick...
+Hero: The angara are immune. Well, that's a relief.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: A considerable one. I would worry more about the Roekaar now.
+    Hero: I had a feeling you'd say that.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: That's good, I guess.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Your people are safe, Jaal.
+    ├ option 2:
+        Hero ⟨cond⟩: Yeah. At least we don't have to explain to Jaal how we unleashed a plague on his people.
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Good to hear.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Your people are safe, Jaal.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: Yeah. At least we don't have to explain to Jaal how we unleashed a plague on his people.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Finally, some good news.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Your people are safe, Jaal.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: Yeah. At least we don't have to explain to Jaal how we unleashed a plague on his people.
+    └─ merge ─┘
+├ option 5:
+    global_squad_turian ⟨cond⟩: It's about time something went right.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Your people are safe, Jaal.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: Yeah. At least we don't have to explain to Jaal how we unleashed a plague on his people.
+    └─ merge ─┘
+├ option 6:
+    global_squad_asari ⟨cond⟩: Oh, that's good!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Your people are safe, Jaal.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: Yeah. At least we don't have to explain to Jaal how we unleashed a plague on his people.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: And, the Roekaar plan on using TH-314 to kill off the Milky Way species here. Not a relief.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: I know they are devoted to their cause, but to do this...
+├ option 2:
+    global_squad_angara ⟨cond⟩: Even with Akksul dead, they would go this far...
+├ option 3:
+    global_squad_turian ⟨cond⟩: Great. Just great.
+├ option 4:
+    global_squad_asari ⟨cond⟩: This is going to be fun to explain to Harry.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: We need to find her. Fast.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: Well, that's just great.
+├ option 7:
+    global_squad_krogan ⟨cond⟩: Ain't happening.
+└─ merge ─┘
+SAM: The research is sound, Pathfinder. The angara truly are immune to TH-314.
+Hero: Let Harry know when we get back. Maybe this will help with a cure or vaccine.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nexus_rp_ctn_roelead: Stop them! They must not interfere!
+├ option 2:
+    nexus_rp_ctn_roelead: You've given us exactly what we needed, human!
+    nexus_rp_ctn_roelead: After we kill you, everyone from the Milky Way will die as well!
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: One of your stasis pods. Someone's cannibalized it for parts.
+    Hero: If we get to Ruth in time, maybe we can use a pod to bring her back.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Stasis pod. Cannibalized for spare parts.
+    ↩ (goto) Hero: If we get to Ruth in time, maybe we can use a pod to bring her back.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Stasis pod. Cannibalized for spare parts.
+    ↩ (goto) Hero: If we get to Ruth in time, maybe we can use a pod to bring her back.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Stasis pod. Cannibalized for spare parts.
+    ↩ (goto) Hero: If we get to Ruth in time, maybe we can use a pod to bring her back.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Stasis pod. Looks like it was cannibalized for spare parts.
+    ↩ (goto) Hero: If we get to Ruth in time, maybe we can use a pod to bring her back.
+├ option 6:
+    global_squad_krogan ⟨cond⟩: Stasis pod. Cannibalized for spare parts.
+    ↩ (goto) Hero: If we get to Ruth in time, maybe we can use a pod to bring her back.
+└─ merge ─┘

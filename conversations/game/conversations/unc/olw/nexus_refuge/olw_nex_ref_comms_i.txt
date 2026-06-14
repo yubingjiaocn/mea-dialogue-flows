@@ -1,0 +1,29 @@
+# game/conversations/unc/olw/nexus_refuge/olw_nex_ref_comms_i
+# Primary speaker: olw_nex_ref_comm_NPC
+# Source: game/conversations/unc/olw/nexus_refuge/olw_nex_ref_comms_i.xml
+==================================================
+olw_nex_ref_comm_NPC: Oh. Hi, there.
+Hero: Something wrong?
+olw_nex_ref_comm_NPC: {i}(Sighs.){/i} It's just hard, exiled from the Nexus. My mother's still back there. I never said goodbye.
+olw_nex_ref_comm_NPC: Have things gotten any better?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Much better, now that we've got all the vaults activated.
+        olw_nex_ref_comm_NPC: Oh, that's good to hear. I just wish I could talk to my mom.
+        olw_nex_ref_comm_NPC: I've been trying to reach her, but our equipment's broken.
+        olw_nex_ref_comm_NPC: Not sure it would matter. The Nexus is so far away.
+        Hero: Never know. I could take a look.
+        olw_nex_ref_comm_NPC: Would you? That would mean the world.
+    ├ option 2:
+        Hero: Better than it was. It'll take time, but life might actually get back to normal.
+        ↩ (goto) olw_nex_ref_comm_NPC: Oh, that's good to hear. I just wish I could talk to my mom.
+    └─ merge ─┘
+├ option 2:
+    Hero: The Nexus leaders are still arguing with each other. That hasn't changed.
+    olw_nex_ref_comm_NPC: It's what got us into this mess. I wish I could talk to my mom—make sure she's okay.
+    ↩ (goto) olw_nex_ref_comm_NPC: I've been trying to reach her, but our equipment's broken.
+└─ merge ─┘
+olw_nex_ref_comm_NPC: Thank you. That meant everything.
+olw_nex_ref_comm_NPC: I appreciate you looking into it.

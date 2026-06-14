@@ -1,0 +1,89 @@
+# game/conversations/unc_dunes/dune_1000_hazards_b
+# Primary speaker: SAM
+# Source: game/conversations/unc_dunes/dune_1000_hazards_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Uh, Ryder? We're not going out there on foot, are we?
+├ option 2:
+    global_squad_angara ⟨cond⟩: We won't survive long on foot.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Ryder, we have the Nomad for a reason.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: I'll be fine on foot, but you won't. Take the Nomad.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: We're taking the Nomad, right? That's a lot of sand.
+├ option 6:
+    global_squad_turian ⟨cond⟩: Tell me we're not doing this on foot.
+└─ merge ─┘
+global_squad_krogan ⟨cond⟩: Worm! Stay out of its way!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: What... is... {i}that{/i}?
+    SAM ⟨cond⟩: Analysis shows it's a Remnant Abyssal. Locals call it "The Worm." Non-hostile, and impervious to weaponry.
+    SAM: However, I advise keeping your distance.
+    Hero: Good to know.
+├ option 2:
+    global_squad_angara ⟨cond⟩: Stars above, it's real...
+    ↩ (goto) SAM ⟨cond⟩: Analysis shows it's a Remnant Abyssal. Locals call it "The Worm." Non-hostile, and impervious to weaponry.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: What {i}is{/i} that?
+    ↩ (goto) SAM ⟨cond⟩: Analysis shows it's a Remnant Abyssal. Locals call it "The Worm." Non-hostile, and impervious to weaponry.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Big... big thing... Very big thing...
+    ↩ (goto) SAM ⟨cond⟩: Analysis shows it's a Remnant Abyssal. Locals call it "The Worm." Non-hostile, and impervious to weaponry.
+├ option 5:
+    global_squad_turian ⟨cond⟩: What the hell is {i}that{/i}?
+    ↩ (goto) SAM ⟨cond⟩: Analysis shows it's a Remnant Abyssal. Locals call it "The Worm." Non-hostile, and impervious to weaponry.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Move! Get out of its way!
+├ option 2:
+    Hero: SAM, what {i}was{/i} that thing?
+    ↩ (goto) SAM ⟨cond⟩: Analysis shows it's a Remnant Abyssal. Locals call it "The Worm." Non-hostile, and impervious to weaponry.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: What I wouldn't give to study that thing...
+├ option 2:
+    global_squad_angara ⟨cond⟩: I had only heard about the Remnant Abyssal in stories. But up close...
+├ option 3:
+    global_squad_female_human ⟨cond⟩: It's amazing, isn't it? When it's not about to kill us.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Heh. Never get used to that thing.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: I can't decide if that worm is creepy or beautiful.
+├ option 6:
+    global_squad_turian ⟨cond⟩: That worm really is something...
+└─ merge ─┘
+Hero: SAM... has it gotten even hotter?
+SAM: Heat index is climbing rapidly. Your body won't stand this for long.
+SAM: I suggest you retreat to a cooler area.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Yeah... still hot.
+├ option 2:
+    Hero: We need to get out of this heat zone.
+├ option 3:
+    Hero: I don't think we'll last much longer in this...
+└─ merge ─┘
+Hero: This heat is unbearable.
+SAM: I detect a considerable temperature drop in shaded areas.
+Hero: Well... it's better.
+SAM: I advise against prolonged sun exposure, Pathfinder.
+Hero: Gonna be hard to avoid out here.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Ryder! Worm!
+├ option 2:
+    global_squad_asari ⟨cond⟩: He's back! Remnant Abyssal!
+├ option 3:
+    global_squad_angara ⟨cond⟩: Remnant Abyssal! Keep away from it!
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Ryder, Abyssal! Out of its way!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Big Remnant worm... thing!
+├ option 6:
+    global_squad_turian ⟨cond⟩: Worm! We need to move!
+└─ merge ─┘

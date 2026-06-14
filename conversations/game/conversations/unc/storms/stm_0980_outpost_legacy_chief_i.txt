@@ -1,0 +1,41 @@
+# game/conversations/unc/storms/stm_0980_outpost_legacy_chief_i
+# Primary speaker: stm_legacy_chief_engineer_multi
+# Source: game/conversations/unc/storms/stm_0980_outpost_legacy_chief_i.xml
+==================================================
+stm_legacy_chief_engineer_multi: Pathfinder? Chief Engineer Grace Lito. E-97-Durango.
+stm_legacy_chief_engineer_multi: I understand you made a special trip to bring me back out of cryo. Thank you for the second chance.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Engineer Lito, I found a lot of troubling information about the first two outposts.
+    stm_legacy_chief_engineer_multi: I don't expect it looks good from a distance. Everything in the rule book was based on the planet cooperating. And it just wouldn't.
+    stm_legacy_chief_engineer_multi: Day one, we knew. So I put us on damage control. We couldn't last, but we could last a little longer. And we could hope.
+    Hero: Hope for what?
+    stm_legacy_chief_engineer_multi: You, I suppose.
+    stm_legacy_chief_engineer_multi: I have a question, Pathfinder. Why did you bring me back out?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You know what can go wrong. That's valuable for everyone here.
+        stm_legacy_chief_engineer_multi: It's also why I left. Survivors are reminders of those who didn't.
+        stm_legacy_chief_engineer_multi: You changed everything. I'm not sure how long my experience will be relevant. But I'll try. I owe my team that.
+    ├ option 2:
+        Hero: You had an impossible task. If anyone deserves it, you do.
+        stm_legacy_chief_engineer_multi: I can think of four others who deserve it too. But... I'll do my best.
+        stm_legacy_chief_engineer_multi: Prodromos is a good start. Finally.
+        ↩ (goto) stm_legacy_chief_engineer_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Second chances for everyone. That's apparently my motto.
+    stm_legacy_chief_engineer_multi: So I hear. The reports are crazy. Especially around that... Remnant tech.
+    stm_legacy_chief_engineer_multi: If we'd known any of that at the time, my team could've... well, just let me say thanks.
+    Hero: For what?
+    stm_legacy_chief_engineer_multi: Making sure my team's efforts weren't a waste.
+    ↩ (goto) stm_legacy_chief_engineer_multi: I have a question, Pathfinder. Why did you bring me back out?
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    stm_legacy_chief_engineer_multi: Pathfinder.
+├ option 2:
+    stm_legacy_chief_engineer_multi: Thank you again, Pathfinder.
+├ option 3:
+    stm_legacy_chief_engineer_multi: It's good to hope again.
+└─ merge ─┘

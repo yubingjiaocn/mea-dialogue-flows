@@ -1,0 +1,73 @@
+# game/conversations/unc/storms/stm_4020_thump_sov_scout_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_4020_thump_sov_scout_i.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    stm_thum_sov_leader ⟨cond⟩ [OncePerGame]: Our surveys say the water table's dropped again.
+    Hero: I had to make a call. I'm sorry.
+    stm_thum_sov_leader: I get it, global warming is bad. Just... now we have to trade for that water. No escaping the Nexus.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: You're part of an independent nation? What's it like?
+        stm_thum_sov_leader: Advent? It's small, but growing just fine without Nexus support.
+        stm_thum_sov_leader: Our capital, Aurora, is in a nice hollow of caves—without those storms, it's cozy.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: What's your problem with the Nexus?
+        stm_thum_sov_leader: I didn't come two million light years to dig someone else's ditch.
+        stm_thum_sov_leader: The Nexus wants people to wait for permission before we start our new lives. A lot of us aren't waiting.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        Hero: I hope your nation's intentions are peaceful.
+        stm_thum_sov_leader: Hey, we're colonists and pioneers, not scumbag raiders.
+        stm_thum_sov_leader: Respect our borders and there won't be a problem.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        Hero: Do you have trouble with the Remnant, back home?
+        stm_thum_sov_leader: Remnant—those robot things? We see small ones from time to time.
+        stm_thum_sov_leader: If they're here too, maybe they're all over the planet?
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        Hero: I'm going.
+        stm_thum_sov_leader: Good luck out there.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩ [OncePerGame]: It's taken care of. That natural gas deposit should be easier for you to mine.
+    stm_thum_sov_leader: Thank you. Though that was a hell of a tremor for one survey hammer.
+    stm_thum_sov_leader: Does the ground usually shake this much around here?
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    stm_thum_sov_leader [OncePerGame]: A Pathfinder, huh? No need to ask if you're friend or foe.
+    Hero: I didn't know anyone from the Nexus was out here.
+    stm_thum_sov_leader: We're not. We're from the sovereign nation Advent, a few hundred klicks that way. {i}Our{/i} nation, no Nexus interference.
+    stm_thum_sov_leader: We didn't come to Andromeda to fuel Director Tann's regime. In Advent, we're free citizens.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I've got no problem with you or Advent. I'm here on a mission.
+        stm_thum_sov_leader: I'm fine with Pathfinders. We've got a job in common.
+        stm_thum_sov_leader: Our water table dropped recently, like the rivers underground were running dry. We tracked the problem out here.
+        Hero: There's been seismic activity. We're using that and a survey hammer to tap the rivers.
+        stm_thum_sov_leader: Oh, shit. Advent needs that water supply to stay independent. Would you... consider a deal?
+        stm_thum_sov_leader: Our survey showed a massive natural gas deposit nearby. Your hammer taps that instead, we mine the gas, and trade it to your outpost. Everyone wins.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Our outpost can manage with the water it has. Okay, done.
+            stm_thum_sov_leader: Great. I can tell you where to hit and call in our miners.
+            stm_thum_sov_leader: The nation of Advent thanks you.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            Hero: Mining natural gas will damage Eos's atmosphere, just as it recovers.
+            stm_thum_sov_leader: In what, a few hundred years? We need that water now, and the Initiative needs trade.
+            stm_thum_sov_leader: Look, I can't argue with your guns. Just remember there's a lot of citizens downstream.
+            ↩ (goto) stm_thum_sov_leader: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We get orbital views of Eos. That direction looks like a few hundred klicks of nothing.
+        stm_thum_sov_leader: Ha! I should get you a passport for our capital. Maybe when the showers work again.
+        ↩ (goto) stm_thum_sov_leader: Our water table dropped recently, like the rivers underground were running dry. We tracked the problem out here.
+    └─ merge ─┘
+├ option 4:
+    stm_thum_sov_leader: Hi, Pathfinder.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

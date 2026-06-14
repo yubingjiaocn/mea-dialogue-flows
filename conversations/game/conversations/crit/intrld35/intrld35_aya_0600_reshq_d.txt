@@ -1,0 +1,81 @@
+# game/conversations/crit/intrld35/intrld35_aya_0600_reshq_d
+# Primary speaker: global_angaran_elder_multi
+# Source: game/conversations/crit/intrld35/intrld35_aya_0600_reshq_d.xml
+==================================================
+global_angaran_elder_multi: I deserved to be told. You had no right to keep it secret from me.
+angararesleader_multi: It's an ongoing investigation. I meant no disrespect.
+global_angaran_elder_multi: Did Jaal know?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    angararesleader_multi ⟨cond⟩: Of course not. Neither did the human.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: I could've kept SAM to myself, you know.
+        angararesleader_multi: This is different. Not your business.
+        global_angaran_elder_multi: It is now. We need to find the kett command ship.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_angaran_elder_multi ⟨cond⟩: Tell her the truth about my capture.
+            angararesleader_multi: Moshae, please...
+            global_angaran_elder_multi: It may be our only route to the Archon.
+            angararesleader_multi: {i}(Sighs.){/i} One of my men helped the kett take her. A Resistance commander named Vehn Terev.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: One of your own gave her to the Archon? No wonder you hushed it up.
+                global_angaran_elder_multi: This isn't about hiding the truth.
+                angararesleader_multi: I'm working to capture him. Make him answer for what he did.
+                global_angaran_elder_multi: You know where he is?
+                angararesleader_multi: Kadara Port. My contacts are hunting him.
+                global_angaran_elder_multi: "Contacts"? You can't trust anyone there. They deserted our cause. Our people.
+                angararesleader_multi: And now they're ruled by exiles... from {i}your{/i} galaxy.
+                global_angaran_elder_multi: Vehn may know how to find the Archon—and his ship. We can't leave this to a pack of renegades and outlaws.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero [OncePerGame]: I'm a little new to the galaxy. Where did Vehn go, exactly?
+                    global_angaran_elder_multi: Kadara Port is a trading outpost. We abandoned it when the kett invaded.
+                    angararesleader_multi: Some of us went back. Deserters. Scavengers. They don't support Aya.
+                    Hero: How did exiles from the Nexus wind up there?
+                    angararesleader_multi: Bad luck—for everyone.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: If the Archon left Vehn alive, it's unlikely he knows anything that can help us.
+                        global_angaran_elder_multi: The kett aren't infallible. If you want the relic that leads to Meridian, Vehn's your best hope.
+                        angararesleader_multi: I'll transmit my files on Kadara Port to your ship.
+                        global_angaran_elder_multi: Our traitor could have useful information. We need him alive.
+                        Hero: That's up to him.
+                        global_angaran_elder_multi: Be safe, Pathfinder. As for you, Evfra... we're not done.
+                    ├ option 2:
+                        Hero: I need the relic that leads to Meridian, and I can handle my people. Let me do this.
+                        angararesleader_multi: I don't like it.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_angaran_elder_multi ⟨cond⟩: I don't care. The Pathfinder is right.
+                            ↩ (goto) angararesleader_multi: I'll transmit my files on Kadara Port to your ship.
+                        ├ option 2:
+                            global_angaran_elder_multi: I don't care. The Pathfinder is right.
+                            ↩ (goto) angararesleader_multi: I'll transmit my files on Kadara Port to your ship.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) Hero: I need the relic that leads to Meridian, and I can handle my people. Let me do this.
+                ├ option 3:
+                    ↩ (goto) Hero: If the Archon left Vehn alive, it's unlikely he knows anything that can help us.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: The Archon wanted her knowledge of Remnant tech. But why would Vehn betray her?
+                angararesleader_multi: I don't know. That's why I kept it quiet.
+                ↩ (goto) angararesleader_multi: I'm working to capture him. Make him answer for what he did.
+            └─ merge ─┘
+        ├ option 2:
+            global_angaran_elder_multi: Tell him the truth about my capture.
+            ↩ (goto) angararesleader_multi: Moshae, please...
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Sorry to interrupt.
+        angararesleader_multi: This isn't your concern.
+        ↩ (goto) global_angaran_elder_multi: It is now. We need to find the kett command ship.
+    └─ merge ─┘
+├ option 2:
+    angararesleader_multi: Of course not. Neither did the human.
+    ↩ (goto) angararesleader_multi: [empty]
+└─ merge ─┘

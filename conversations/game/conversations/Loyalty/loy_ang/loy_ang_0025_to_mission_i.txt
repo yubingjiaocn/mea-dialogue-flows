@@ -1,0 +1,31 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0025_to_mission_i
+# Primary speaker: loy_ang_pilot
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0025_to_mission_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    loy_ang_pilot [OncePerGame]: Avka says you need a ride to the Forge.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: The quieter, the better.
+        loy_ang_pilot: Not a miracle worker, but I'll do my best. You ready?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Let's do this.
+            Narration: Let's go!
+        ├ option 2:
+            Hero: Still need to finish a few things.
+            loy_ang_pilot: Well, the shuttle's prepped.
+        └─ merge ─┘
+    ├ option 2:
+        loy_ang_pilot: You ready?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: Let's do this.
+        ├ option 2:
+            ↩ (goto) Hero: Still need to finish a few things.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) loy_ang_pilot: You ready?
+└─ merge ─┘

@@ -1,0 +1,53 @@
+# Game/Conversations/HUBS/Tempest/Loyalty/Krogan_01/loy_kro_0100_acquisition_m
+# Primary speaker: Hero
+# Source: game/conversations/hubs/tempest/loyalty/Krogan_01/loy_kro_0100_acquisition_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: You wanted to talk?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Okay, out with it. You've clearly got something on your mind.
+        global_squad_krogan: One of our botanists, Hark, called up in a panic. A colony transport has been stolen.
+        Hero: It's a transport. Can't you just replace it?
+        global_squad_krogan: It's not the transport. It's what's on it. Our seed vault. One of a kind.
+        global_squad_krogan: Without that vault, things get complicated. Krogan children need the nutrients in those plants to survive.
+        global_squad_krogan: Even one clutch of babies hatch before we get the stuff synthesized... the effects would be permanent.
+        Hero: So, what do you need from me?
+        global_squad_krogan: I'm going to find those thieves and get the vault back. Be nice to have you along.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: Aren't the transports protected by passcodes? And how do you steal anything from a krogan?
+            global_squad_krogan: First thing Hark checked. Looks like some old authorization codes weren't erased.
+            global_squad_krogan: He was working in the transport, and stepped out for two seconds.
+            global_squad_krogan: The thieves walked right in and flew off.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            Hero: Not a priority right now. Give me time, and we'll see what we can do.
+            global_squad_krogan: Yeah, well, this is important. Don't take too long.
+            global_squad_krogan: Hark is at the colony on Elaaden, tracking the ship's emergency beacon.
+            global_squad_krogan: In case you decide this matters between now and the bridge.
+            Hero: Gotcha.
+        ├ option 3:
+            Hero: Of course I'm in. Whatever you need.
+            global_squad_krogan: I knew I could count on you. Hark's waiting for us at the colony on Elaaden.
+            global_squad_krogan: He's tracking down the transport beacon. He'll have the location ready for us on arrival.
+            Hero: Good. We'll find the transport, Drack. Don't worry.
+            global_squad_krogan: I'll hold you to that, Ryder.
+            global_squad_krogan: Hey. Thanks. I owe you one.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Don't be silly. That's what friends are for.
+            ├ option 2:
+                Hero: I'm not worried. You're good for it.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I get the feeling this is something big.
+        global_squad_krogan: Yeah. Yeah, it is.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan: Ryder. I need your help with something.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

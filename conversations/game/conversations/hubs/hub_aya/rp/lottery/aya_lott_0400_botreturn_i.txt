@@ -1,0 +1,23 @@
+# game/conversations/hubs/hub_aya/rp/lottery/aya_lott_0400_botreturn_i
+# Primary speaker: oasis_sal_scientist_multi
+# Source: game/conversations/hubs/hub_aya/rp/lottery/aya_lott_0400_botreturn_i.xml
+==================================================
+Hero: I found the person who threatened you.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    oasis_sal_scientist_multi ⟨cond⟩: I know. I received a written apology from him.
+    oasis_sal_scientist_multi: I assume I can continue my work undisturbed?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It was a misunderstanding. We cleared it up.
+        oasis_sal_scientist_multi: Then let's not waste any more time.
+        oasis_sal_scientist_multi: You're interfering with my readings. Good day, Pathfinder.
+    ├ option 2:
+        Hero: Next time your big mouth lands you in trouble, I may not save you.
+        oasis_sal_scientist_multi: We'll see what Director Tann has to say about that.
+        Hero: Tell him I say hi.
+        ↩ (goto) oasis_sal_scientist_multi: You're interfering with my readings. Good day, Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) oasis_sal_scientist_multi: I assume I can continue my work undisturbed?
+└─ merge ─┘

@@ -1,0 +1,47 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0515_aft_combat_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0515_aft_combat_b.xml
+==================================================
+global_squad_male_human: Shit, movement on our perimeter...
+global_squad_male_human: It's an ambush!
+Hero: Ah, hell—they got the jump on us!
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: More of those animals!
+    ├ option 2:
+        global_squad_male_human: Careful, they've got one of those animals!
+        Hero: Watch for cloaking!
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human [OncePerGame]: Us or them! They forced this!
+├ option 3:
+    Hero [OncePerGame]: Trying to surround us! Keep an eye on your six o'clock!
+    global_squad_male_human: And our two o'clock... and our eight...
+├ option 4:
+    global_squad_male_human [OncePerGame]: Now who's dead, asshole?
+└─ merge ─┘
+global_squad_male_human: There! We got 'em all!
+global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: I fought off a batarian pirate or two in my day.
+    Hero: I was with a team that dug up Prothean artifacts.
+    global_squad_male_human: Well, this'll be a field day for you.
+    global_squad_male_human: Maybe we should see if there's anything useful here.
+├ option 2:
+    Hero: I fought off an occasional raider or two in my day.
+    Hero: I used to guard a mass effect relay.
+    global_squad_male_human: Wish we'd had one for the arks.
+    ↩ (goto) global_squad_male_human: Maybe we should see if there's anything useful here.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: More of our friends ahead.
+├ option 2:
+├ option 3:
+├ option 4:
+├ option 5:
+├ option 6:
+└─ merge ─┘

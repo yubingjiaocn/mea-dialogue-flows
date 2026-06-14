@@ -1,0 +1,55 @@
+# game/conversations/unc/olw/cerberus/olw_cerb_0175_scientists_i
+# Primary speaker: olw_cerb_scientist1
+# Source: game/conversations/unc/olw/cerberus/olw_cerb_0175_scientists_i.xml
+==================================================
+Hero [OncePerGame]: What the hell are you doing to those people out there?
+olw_cerb_scientist1: It's an experiment.
+olw_cerb_scientist2: Physically, no harm has come to them. They're fine.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You're doing all this on purpose? Are you insane?
+    olw_cerb_scientist1: We've been called worse back home.
+    olw_cerb_scientist2: We used to work for an organization called "Cerberus."
+    olw_cerb_scientist1: Until our boss decided he'd rather spend money on truly crazy ideas like bringing people back from the dead.
+    olw_cerb_scientist2: {i}(Scoffs.){/i} Project Lazarus. Pure voodoo.
+    olw_cerb_scientist1: But in Andromeda, we're our own masters. And what you saw out there—it's the birth of something amazing. A biological network.
+    olw_cerb_scientist2: A host of minds all linked together. Connected. We're harnessing the power of consciousness to create a new kind of supercomputer.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        Hero: What is Cerberus about?
+        olw_cerb_scientist1: Purity. We think humanity should chart its own course, free of alien laws or the morality designed to hold us back.
+        olw_cerb_scientist2: Our boss was straying from the path. Lost his focus. He and that Lawson woman were recruiting all the wrong people. Friends in low places.
+        olw_cerb_scientist1: Andromeda is a chance for a do-over. Humanity should call the shots here. The rest can follow our lead.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Hero: What exactly is this experiment doing to those people out there?
+        olw_cerb_scientist2: The right energy focused at the right frequency can "entrain" a person's consciousness. The mind is ultimately just electromagentic patterns.
+        Hero: You mean mind control.
+        olw_cerb_scientist1: Those people were banished. They're criminals. They were using their minds to make trouble anyway. We thought we'd make better use.
+        olw_cerb_scientist2: And now, by linking them together, they're like a living computer—but working at the speed of thought.
+        olw_cerb_scientist2: Similar to the computer you've got in your head.
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        Hero: What are you doing on Kadara?
+        olw_cerb_scientist2: The badlands is the perfect place to do the work that needs to be done. {i}Must{/i} be done.
+        olw_cerb_scientist1: Against all these new threats in Andromeda, it's vital we find an edge for humanity.
+        ↩ (goto) ?: [empty]
+    ├ option 4:
+        Hero ⟨cond⟩: Funny, I met a woman named Katherine Nigh. She was fighting against the sort of thing you're doing here.
+        olw_cerb_scientist1: We know about her. She got caught up in a Cerberus project back home. Overlord. Gavin Archer and that bunch.
+        olw_cerb_scientist2: Good idea, poor execution. This will be different.
+        ↩ (goto) ?: [empty]
+    ├ option 5:
+        Hero [OncePerGame]: Enough of this. SAM?
+        SAM: I've located the control for the signal. It will shut the experiment down.
+    ├ option 6:
+        Hero: I've heard enough.
+    └─ merge ─┘
+├ option 2:
+    Hero: What sort of people are you?
+    olw_cerb_scientist1: Unappreciated geniuses.
+    ↩ (goto) olw_cerb_scientist2: We used to work for an organization called "Cerberus."
+└─ merge ─┘
+olw_cerb_scientist1: What?
+↩ (goto) ?: [empty]
+↩ (goto) ?: [empty]

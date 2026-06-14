@@ -1,0 +1,36 @@
+# game/conversations/unc/biolum/bio_lostfam_0200_trackbanter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/biolum/bio_lostfam_0200_trackbanter_b.xml
+==================================================
+Hero: If one of these buildings contains records of Pelaav's evacuation, we could figure out where Amurd's sister went.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Worth taking a look.
+├ option 2:
+    global_squad_asari ⟨cond⟩: It's a long shot, but worth a try.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Let's give it a shot. That poor old man.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Possibly. Or a console might have access to a database.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Let's take a look.
+└─ merge ─┘
+Hero: This thing's wrecked. Vines and computers don't mix.
+SAM: Pathfinder, we might be able to reconnect power.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: Cables. Could use these to reroute power to that console.
+├ option 2:
+    Hero [OncePerGame]: Old generator. Might still work.
+├ option 3:
+    Hero: This could help.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Almost there.
+├ option 2:
+    Hero: That should get that console up and running again.
+└─ merge ─┘
+Hero: This is it. Amara Dosen. This must be her. They moved her across the planet.
+SAM: Downloading information.
+Hero: Let's get this to Amurd.

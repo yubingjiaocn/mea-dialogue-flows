@@ -1,0 +1,19 @@
+# game/conversations/hubs/hub_aya/rp/tasks/aya_tsk_warfort_01_i
+# Primary speaker: aya_res_tactician
+# Source: game/conversations/hubs/hub_aya/rp/tasks/aya_tsk_warfort_01_i.xml
+==================================================
+aya_res_tactician: Move Team Vaon to replace them? No. Sector nine is too unstable.
+aya_res_tactician: They'll be out of food in two days. Out of ammo in three. They {i}have{/i} to fall back...
+Hero: Sounds like you've got trouble.
+aya_res_tactician: Too many kett, not enough Resistance. Have a team that's been in the field for six months without resupply.
+aya_res_tactician: They won't come in. Say they're close to taking down a kett outpost, but... I don't know.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: If they could do it alone, they would've by now. Send reinforcements.
+    aya_res_tactician: Hitting the enemy in one place leaves us vulnerable elsewhere—but you're right.
+    aya_res_tactician: This is the hardest part of my job. Thank you for the advice, Pathfinder.
+├ option 2:
+    Hero: Give your team a chance to pull it off.
+    aya_res_tactician: We fight best when the odds are against us. Maybe you're right...
+    ↩ (goto) aya_res_tactician: This is the hardest part of my job. Thank you for the advice, Pathfinder.
+└─ merge ─┘

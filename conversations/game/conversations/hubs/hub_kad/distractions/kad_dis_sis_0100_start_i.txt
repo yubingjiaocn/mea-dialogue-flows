@@ -1,0 +1,48 @@
+# game/conversations/hubs/hub_kad/distractions/kad_dis_sis_0100_start_i
+# Primary speaker: kad_ang_sister
+# Source: game/conversations/hubs/hub_kad/distractions/kad_dis_sis_0100_start_i.xml
+==================================================
+kad_ang_sister: You’re back.
+Hero: I found a body trapped beneath the pipes. I think it might be Morga.
+kad_ang_sister: I told her not to work alone.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I wish I had better news.
+    kad_ang_sister: It’s better than not knowing.
+    kad_ang_sister: Thank you.
+├ option 2:
+    Hero: Will you be all right?
+    kad_ang_sister: I'll survive. I always do.
+    ↩ (goto) kad_ang_sister: Thank you.
+└─ merge ─┘
+Hero: You okay?
+kad_ang_sister: None of your business, ehnaad.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Whoa. Sorry. Just wanted to help.
+    kad_ang_sister: Your kind never just “offers” something. There’s always a price.
+    Hero: Living under Sloane, I can see why you’d think that. But we’re not all the same.
+    kad_ang_sister: You do look different from the others. {i}Cleaner{/i}.
+    Hero: So what's troubling you?
+    kad_ang_sister: My sister, Morga, works the pipes. Makes sure the port has filtered water
+    kad_ang_sister: But she’s been missing for three days.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Is Morga's line of work dangerous?
+        kad_ang_sister: It can be. Kadara's water is highly acidic. Fixing a leaky pipe could result in major burns.
+        kad_ang_sister: But no one knows Kadara’s filtration system like Morga.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Is it unlike your sister not to check in?
+        kad_ang_sister: Extremely. We’re all that’s left of our family.
+        kad_ang_sister: The rest were murdered when the kett invaded Kadara.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        Hero: I’ll keep an eye out for your sister.
+        kad_ang_sister: Thank you.
+    └─ merge ─┘
+├ option 2:
+    Hero: Sorry. I didn't mean to pry.
+    kad_ang_sister: That's all your kind does. Pry.
+    ↩ (goto) Hero: Living under Sloane, I can see why you’d think that. But we’re not all the same.
+└─ merge ─┘

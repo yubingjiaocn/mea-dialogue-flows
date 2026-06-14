@@ -1,0 +1,24 @@
+# game/conversations/unc/storms/stm_1050_muster_point_b
+# Primary speaker: stm_legacy_chief_engineer_multi
+# Source: game/conversations/unc/storms/stm_1050_muster_point_b.xml
+==================================================
+SAM: Recording Initiative cryo identification E-97-Durango, Chief Engineer Grace Lito.
+Hero: Last one out during the evac.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: She took risks and they didn't work. But nothing worked.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 2:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Gave it everything she could. Maybe that's all you can do.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Didn't want to go, but ran out of things to try.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 4:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Sounds stubborn. I like stubborn.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 5:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: She still left. Some of us kept trying.
+    ↩ (goto) global_squad_asari: [empty]
+├ option 6:
+└─ merge ─┘

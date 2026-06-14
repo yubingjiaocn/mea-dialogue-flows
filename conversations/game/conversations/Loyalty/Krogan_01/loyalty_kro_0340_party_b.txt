@@ -1,0 +1,87 @@
+# Game/Conversations/Loyalty/Krogan_01/loyalty_kro_0340_party_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0340_party_b.xml
+==================================================
+Hero: The gate is locked down.
+global_squad_krogan: Vorn. Update.
+global_krogan_botanist: [Comm] They're just shooting at the door. So far it's not doing much.
+global_krogan_botanist: [Comm] Pathfinder? If you don't make it in time... could you give Kesh my love, please?
+global_squad_krogan: Don't be stupid, of course we'll make it in—wait, what did you just say?
+global_krogan_botanist: [Comm] Uh. Oh! Oooh. I said "love," didn't I...
+global_squad_krogan: I'm going to rescue him, and then I'm gonna kill him.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You know if you kill Vorn, Kesh will airlock you.
+    global_squad_krogan: I know.
+    Hero: You aren't happy she's found love?
+    global_squad_krogan: I am! That's not why I'm angry. I—ugh. The kid's an idiot.
+├ option 2:
+    global_squad_krogan: Wait. Did you know about Kesh and Vorn?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's news to me.
+    ├ option 2:
+        Hero: Um...
+        global_squad_krogan: You knew?!
+    └─ merge ─┘
+└─ merge ─┘
+global_squad_krogan: Back in my day, krogan asked for permission before they went in and started courting.
+global_squad_krogan: They didn't just hop into things without the proper clan traditions. Kids these days. No damn manners.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan: Aroane! Get back here, you worm!
+├ option 2:
+    global_squad_krogan: Even a pyjak would spit out the likes of him.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Vorn's comm signal is up there.
+├ option 2:
+    Hero: We're headed the right way.
+├ option 3:
+    Hero: We're close.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Signal's the other way.
+├ option 2:
+    Hero: This doesn't look like the way.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Over here.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Over here.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Over here.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Over here.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Over here.
+├ option 6:
+    Hero: This is it.
+└─ merge ─┘
+Hero: You know they'll be waiting for us up there, right?
+global_squad_krogan: I'm looking forward to it.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_krogan: Losing the seed vault really could hurt the colony's chances.
+    Hero: You keep saying krogan can survive anything.
+    global_squad_krogan: Be nice to do more than survive for a change. We're getting that transport back.
+├ option 2:
+    global_squad_krogan: I'm going to take him apart piece by piece. He's not going anywhere near the colony.
+    global_squad_krogan: Spender would love it if we failed.
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan: Not destroying much now, are you Aroane?
+    ├ option 2:
+        global_squad_krogan: Hey, Aroane! I'm sorta feeling indestructible right about now. What about you?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_krogan_botanist: [Comm] Over here, guys.
+├ option 2:
+    global_krogan_botanist: That was some fight.
+└─ merge ─┘

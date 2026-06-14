@@ -1,0 +1,56 @@
+# game/conversations/unc/storms/stm_9000_remconspire_outpost_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_9000_remconspire_outpost_b.xml
+==================================================
+Hero: Someone left a warning. Looks like a work crew thinks they can take control of the Remnant.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: I'll hear a stupider idea today, but that's a front-runner.
+    SAM: Work crew rosters are posted publicly.
+    Hero: The datapad mentioned medbay. A little work, we could find where to catch up with them.
+├ option 2:
+    global_squad_asari ⟨cond⟩: They'll get chewed up if they try.
+    ↩ (goto) SAM: Work crew rosters are posted publicly.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: That's a recipe for trouble.
+    ↩ (goto) SAM: Work crew rosters are posted publicly.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: That's an incredibly bad idea.
+    ↩ (goto) SAM: Work crew rosters are posted publicly.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Yeah, that'll end well.
+    ↩ (goto) SAM: Work crew rosters are posted publicly.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Work rosters. That datapad mentioned the name Jennings...
+    Hero: Here—Axel Jennings. Assigned to set up weather monitoring devices all over the desert.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: Only one location matches the sand from the medical equipment: a monolith.
+        Hero: Let's go.
+    ├ option 2:
+        Hero: Too many locations to check them all. We need to narrow it down.
+    └─ merge ─┘
+├ option 2:
+    Hero [OncePerGame]: This definitely treated wounds caused by a Remnant. That datapad said the work crew tried to control them.
+    SAM: Sand particles were removed from the wound. Analyzing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: Comparing with locations from the work roster, it's likely the injury occurred near a monolith.
+        ↩ (goto) Hero: Let's go.
+    ├ option 2:
+        SAM: The sand may be from several locations. I need more data to form a conclusion.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: No sign of that work crew... but someone left their gear behind.
+Hero: Wait—I've got an open comm channel.
+stm_remconspire_crew_01: [Comm] Easy money. Once the electrical charge builds up, we'll have ourselves some nice, obedient Remnant.
+stm_remconspire_crew_02: [Comm] You better be sure this time, Jennings.
+stm_remconspire_crew_01: [Comm] If you're that spooked, go hide behind the Four Giants. I'm busy.
+Hero: Damn it! We've got to find them before they get themselves killed.
+┌─ BRANCH (2) ─┐
+├ option 1:
+├ option 2:
+└─ merge ─┘
+stm_remconspire_crew_03: Help us! Please!

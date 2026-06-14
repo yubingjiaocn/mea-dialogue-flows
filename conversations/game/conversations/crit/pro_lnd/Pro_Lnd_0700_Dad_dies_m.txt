@@ -1,0 +1,89 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0700_Dad_dies_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0700_Dad_dies_m.xml
+==================================================
+global_dad: Put your back into it!
+Hero: You really think we can shut this thing down?
+global_dad: I don't know yet. SAM's decoded part of the language.
+global_dad: Now we'll see if I can have a conversation.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Nothing on this planet has listened so far. Just... be careful.
+    global_dad: Worried about your old man, huh?
+    global_dad: I won't tell anyone.
+    global_dad: Come on. These are the moments that make it all worthwhile.
+    global_dad: SAM, begin translating.
+    SAM: A moment.
+    SAM: Indexing.
+    SAM: Translation complete.
+    global_dad: Let's see what we have.
+    Hero: I'll be damned... It's working!
+    Hero: You did it!
+    global_dad: There's hope, at least.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: This is more than hope—it's proof we weren't crazy. We can fly to a whole new galaxy and still make sense of things.
+        global_dad: SAM had a little something to do with it.
+        SAM: It was simply a matter of linguistics. Though I am pleased to have—
+        Hero: {i}(Screams.){/i}
+        Hero: {i}(Gasps for air.){/i}
+        global_dad: Repeat, we need an emergency extraction {i}now{/i}!
+        global_squad_female_human: [Comm] They're spinning up the shuttle! ETA is three, maybe four minutes!
+        global_dad: We don't have that long.
+        global_dad: Deep breaths!
+        Hero: {i}(Coughs.){/i} What are you {i}(Coughs.){/i}...
+        global_dad: There's still hope for your mother...
+        global_dad: SAM, transfer Pathfinder access...encrypt memories.
+    ├ option 2:
+        Hero: That's all anyone back on the ark is looking for: hope it'll work out.
+        global_dad: Well, not if we stand around looking at sunsets. Let's get back to the shuttle and—
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Who do you plan on talking to?
+    global_dad: More like "what." I think it's automated.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+SAM: Initiating transfer.
+┌─ BRANCH (20) ─┐
+├ option 1:
+    Hero: DNR -- EXERTION -- stringID 216199
+├ option 2:
+    Hero: DNR -- EXERTION -- stringID 216189
+├ option 3:
+    Hero: DNR -- EXERTION -- stringID 216201
+├ option 4:
+    Hero: DNR -- EXERTION -- stringID 216193
+├ option 5:
+    Hero: DNR -- EXERTION -- stringID 216187
+├ option 6:
+    Hero: DNR -- EXERTION -- stringID 216191
+├ option 7:
+    Hero: DNR -- EXERTION -- stringID 216183
+├ option 8:
+    Hero: DNR -- EXERTION -- stringID 216196
+├ option 9:
+    Hero: DNR -- EXERTION -- stringID 216195
+├ option 10:
+    Hero: DNR -- EXERTION -- stringID 216188
+├ option 11:
+    Hero: DNR -- EXERTION -- stringID 216182
+├ option 12:
+    Hero: DNR -- EXERTION -- stringID 216202
+├ option 13:
+    Hero: DNR -- EXERTION -- stringID 216198
+├ option 14:
+    Hero: DNR -- EXERTION -- stringID 216184
+├ option 15:
+    Hero: DNR -- EXERTION -- stringID 216194
+├ option 16:
+    Hero: DNR -- EXERTION -- stringID 216200
+├ option 17:
+    Hero: DNR -- EXERTION -- stringID 216197
+├ option 18:
+    Hero: DNR -- EXERTION -- stringID 216185
+├ option 19:
+    Hero: DNR -- EXERTION -- stringID 216190
+├ option 20:
+    Hero: DNR -- EXERTION -- stringID 216192
+└─ merge ─┘

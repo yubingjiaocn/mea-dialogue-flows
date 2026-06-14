@@ -1,0 +1,24 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0301_firstcontactinterrupts_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0301_firstcontactinterrupts_b.xml
+==================================================
+Hero: Go hot!
+global_squad_male_human: Fisher, watch out!
+Hero: Weapons up.
+global_squad_male_human: Just give the word...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Okay, we're putting our weapons away. Easy, now.
+├ option 2:
+    Hero ⟨cond⟩: Liam, stow your weapon. We don't want a misunderstanding.
+    global_squad_male_human: I hope you know what you're doing.
+└─ merge ─┘
+Pro_Lnd_kett2: Tolerad!
+global_squad_male_human: Shit, this just got real!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human [OncePerGame]: Ryder! Where you going? Get back here!
+├ option 2:
+    global_squad_male_human [OncePerGame]: They'll kill him!
+└─ merge ─┘
+global_squad_male_human: Oh, god—they killed Fisher!

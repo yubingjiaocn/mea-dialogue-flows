@@ -1,0 +1,29 @@
+# game/conversations/bstory/sal/sal_0050_message_i
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0050_message_i.xml
+==================================================
+global_crew_co-pilot: Ah, there you are.
+global_crew_co-pilot: I was wondering. When you found the salarian ark, was anything... strange? Out of place?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I didn't really have time for a detailed investigation.
+    Hero: Why are you asking?
+    global_crew_co-pilot: Because a few hours ago, we received this.
+    global_salarian_major: [Comm] Hello, Ryder. I don't think the salarian ark was captured by chance.
+    global_salarian_major: [Comm] If you want to know more, meet me at these coordinates.
+    global_crew_co-pilot: That's all. Do you think it's some sort of hoax?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: There are plenty of weirdos who'd enjoy messing with a Pathfinder.
+        global_crew_co-pilot: That's what I thought.
+        global_crew_co-pilot: I'll leave those coordinates in the nav computer, in case you want to give this mysterious someone a piece of your mind.
+    ├ option 2:
+        Hero: Now I think about it, a kett armada just stumbling across the salarian ark seems a little convenient.
+        global_crew_co-pilot: Coincidences do happen, though when you put it like that...
+        global_crew_co-pilot: I'll put the coordinates for this "meeting" in the nav computer. I suppose there's no harm in making sure?
+        ↩ (goto) global_crew_co-pilot: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You mean besides the exalted krogan, the relics, and getting jabbed in the neck?
+    ↩ (goto) Hero: Why are you asking?
+└─ merge ─┘

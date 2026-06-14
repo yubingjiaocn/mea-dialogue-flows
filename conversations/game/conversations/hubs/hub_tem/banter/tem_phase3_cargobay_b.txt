@@ -1,0 +1,68 @@
+# game/conversations/hubs/hub_tem/banter/tem_phase3_cargobay_b
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/hubs/hub_tem/banter/tem_phase3_cargobay_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human: [Comm] Got a minute? I'm in the bio lab.
+    ├ option 2:
+        global_crew_tech_officer: [Comm] In engineering if you need anything, Ryder.
+    ├ option 3:
+        global_squad_krogan: [Comm] I'm in the galley when you're free.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan: Now exaltation. The kett just keep asking for more trouble.
+        global_crew_tech_officer: Really looking forward to kicking those guys in the teeth.
+        global_squad_female_human: Get us there, and we'll save you a place in line.
+    ├ option 2:
+        global_squad_krogan: So the angara were fighting their own this whole time. Fuck...
+        global_crew_tech_officer: Wonder how Jaal's taking it.
+        global_squad_female_human: Not well.
+    ├ option 3:
+        global_crew_tech_officer ⟨cond⟩: Ryder has me tinkering with a kett transmitter. Either of you know why?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: She didn't tell you?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_tech_officer ⟨cond⟩: Said we're trying to find the Archon's flagship, so we can board it.
+                global_crew_tech_officer: Clearly a joke. Hoping you can give me the straight scoop.
+                global_squad_krogan: That's exactly what we're gonna do.
+                global_crew_tech_officer: Say... what?
+            ├ option 2:
+                global_crew_tech_officer: Said we're trying to find the Archon's flagship, so we can board it.
+                ↩ (goto) global_crew_tech_officer: Clearly a joke. Hoping you can give me the straight scoop.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human: He didn't tell you?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_crew_tech_officer ⟨cond⟩: Said we're trying to find the Archon's flagship, so we can board it.
+            ├ option 2:
+                ↩ (goto) global_crew_tech_officer: Said we're trying to find the Archon's flagship, so we can board it.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_female_human: No poker tonight. Reports. Lots of them.
+        global_crew_tech_officer: But Lieutenant, you can't possibly lose three in a row.
+        global_squad_female_human: I know what you're trying to do, and I hate that it's working.
+        global_squad_krogan: {i}(Laughs.){/i} How're you gonna spend your fortune, Gil?
+    ├ option 5:
+        global_crew_tech_officer: Hey, Drack—devil's advocate, okay?
+        global_squad_krogan: Go for it.
+        global_crew_tech_officer: With the kett entrenched here, and things... as they are, maybe we should focus our efforts on leaving this cluster?
+        global_squad_krogan: You mean quit? Run away?
+        global_crew_tech_officer: Well, we came to find a new home, not a new enemy, right?
+        global_squad_female_human: We knew this was a possible scenario. And we took the jump, anyway.
+        global_squad_krogan: What she said.
+    ├ option 6:
+        global_squad_krogan: So the turians kick out the genophage, basically destroy our people, and they get a pat on the back and a seat on the council.
+        global_squad_krogan: But what do I get? A medal.
+        global_squad_female_human: A medal? From who?
+        global_squad_krogan: My buddy. Made one out of a piece of scrap and pinned it to my chest. Still got it somewhere.
+    └─ merge ─┘
+└─ merge ─┘

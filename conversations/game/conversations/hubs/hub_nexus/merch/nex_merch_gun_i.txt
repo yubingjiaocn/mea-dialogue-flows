@@ -1,0 +1,29 @@
+# game/conversations/hubs/hub_nexus/merch/nex_merch_gun_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/merch/nex_merch_gun_i.xml
+==================================================
+nex_merch_weapons: Weapons and stuff: I got you covered. Use the console to take a look through what I've got.
+nex_merch_weapons: It'd be a lot easier if I weren't missing half my stock...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Ouch. Why am I paying for these?
+    nex_merch_weapons: Half the supplies are inaccessible, what with how we crash-landed and all.
+    nex_merch_weapons: And I have to trade with the crooks out there for the rest, so...
+├ option 2:
+    Hero: You got it. Shop 'til you drop—here I come.
+    nex_merch_weapons: That's fine. Hey, wait! Please don't drop anything you bought from me, ok?
+    nex_merch_weapons: Tann would have my head if anything happened to you on my account...
+    ↩ (goto) nex_merch_weapons: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    nex_merch_weapons: Uh, hey there.
+├ option 2:
+    nex_merch_weapons: Need help?
+├ option 3:
+    nex_merch_weapons: I don't have much new stock. Sorry.
+├ option 4:
+    nex_merch_weapons: Hi...
+├ option 5:
+    nex_merch_weapons: Hey...
+└─ merge ─┘

@@ -1,0 +1,41 @@
+# game/conversations/unc_dunes/dune_0011_recruiter_i
+# Primary speaker: dune_scav_recruiter
+# Source: game/conversations/unc_dunes/dune_0011_recruiter_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_scav_recruiter [OncePerGame]: Hey, you. Looking to join—wait. You're Nexus. What the hell do you want?
+    Hero: What are you recruiting for?
+    dune_scav_recruiter: The Drifters. Meanest, richest gang on Elaaden. Led by Big Taran himself.
+    dune_scav_recruiter: We got a base, plenty of guns, and the best scrap sites this side of Ataraxia.
+    dune_scav_recruiter: You ever get on the Initiative's bad side, you should join up. Tell 'em Twig sent you.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: This leader of yours sounds like a big deal.
+        dune_scav_recruiter: Big Taran is the deadliest guy on Elaaden. I heard he killed two krogan with his bare hands.
+        Hero: Two krogan? Really?
+        dune_scav_recruiter: That's what he said. Well, it's what I heard he said. I've never actually met Big Taran.
+        dune_scav_recruiter: He stays pretty secluded. Says every gang leader on the dunes wants him dead.
+        dune_scav_recruiter: Most of us don't even know what he looks like.
+        ↩ (goto) dune_scav_recruiter: [empty]
+    ├ option 2:
+        Hero: Your name is Twig?
+        dune_scav_recruiter: It's the name they gave me when I joined up. We all get one.
+        dune_scav_recruiter: They saw me use my biotics to snap a salarian's back. "Like a twig," they said.
+        dune_scav_recruiter: So now they use me for recruiting. I show off my powers, and the scavengers come running for protection.
+        dune_scav_recruiter: Works like a charm.
+        ↩ (goto) dune_scav_recruiter: [empty]
+    ├ option 3:
+        Hero: Do all the scavengers here form gangs?
+        dune_scav_recruiter: The smart ones do. Elaaden is a rough place. You don't survive unless you group up.
+        dune_scav_recruiter: There's always a few tough guys who think they can go it alone. They don't last long.
+        dune_scav_recruiter: After a couple weeks on the dunes, they either come crawling back or they bite the dust.
+        ↩ (goto) dune_scav_recruiter: [empty]
+    ├ option 4:
+        Hero: Here's hoping I don't run into you guys out there.
+        dune_scav_recruiter: Here's hoping you do.
+    └─ merge ─┘
+├ option 2:
+    dune_scav_recruiter: What do you want, Nexus?
+    ↩ (goto) dune_scav_recruiter: [empty]
+└─ merge ─┘

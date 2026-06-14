@@ -1,0 +1,80 @@
+# game/conversations/unc/biolum/bio_0100_sci_amb_majornpcs_a
+# Primary speaker: bio_sci_leader
+# Source: game/conversations/unc/biolum/bio_0100_sci_amb_majornpcs_a.xml
+==================================================
+┌─ BRANCH (17) ─┐
+├ option 1:
+    bio_sci_frozen_researcher ⟨cond⟩ [OncePerGame]: The numbers confirm it. Things are getting better. We did it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_leader ⟨cond⟩: Pathfinder Ryder did it.
+    ├ option 2:
+        bio_sci_leader: Pathfinder Ryder did it.
+    └─ merge ─┘
+├ option 2:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: Have you sent the update to our people on Aya?
+    bio_sci_frozen_researcher: I want to get another set of readings. Each set is more exciting than the last.
+├ option 3:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: Nothing's coming to you? No memories?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_frozen_researcher ⟨cond⟩: One moment I was setting up sensors. The next, some alien was talking to me.
+        bio_sci_leader: I want to do a scan. I'm concerned.
+    ├ option 2:
+        bio_sci_frozen_researcher: One moment I was setting up sensors. The next, some alien was talking to me.
+        ↩ (goto) bio_sci_leader: I want to do a scan. I'm concerned.
+    └─ merge ─┘
+├ option 4:
+    bio_sci_frozen_researcher ⟨cond⟩ [OncePerGame]: You don't think... brain damage?
+    bio_sci_leader: I'd rather not jump to conclusions before we have someone examine you fully.
+    bio_sci_frozen_researcher: Stars! You're worried, aren't you?
+    bio_sci_leader: Torvar, it's just a precaution.
+├ option 5:
+    bio_sci_frozen_researcher ⟨cond⟩ [OncePerGame]: When can we continue our study of the monolith?
+    bio_sci_leader: Not now.
+    bio_sci_frozen_researcher: You don't want us to go back? But we barely even started. And Havarl—
+    bio_sci_leader: I know the stakes, Torvar.
+├ option 6:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: Any news of the Moshae?
+    global_squad_angara: I'm afraid not, Kiiran. We're doing all we can.
+├ option 7:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: How is the Moshae?
+    global_squad_angara: Steady. The doctors say she's improving daily.
+    bio_sci_leader: Thank the stars.
+├ option 8:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: The situation on Voeld is improving? Maybe this is a sign of good things to come.
+    global_squad_angara: We can hope.
+├ option 9:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: I don't know about this, Jaal. It's risky letting a stranger wander about Havarl. You know the dangers.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: I offered to accompany her, but she doesn't want my help.
+    ├ option 2:
+        global_squad_angara: I offered to accompany him, but he doesn't want my help.
+    └─ merge ─┘
+├ option 10:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: I don't know about this, Jaal. It's risky letting a stranger wander about Havarl. You know the dangers.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: I offered to accompany her, but she doesn't want my help.
+    ├ option 2:
+        ↩ (goto) global_squad_angara: I offered to accompany him, but he doesn't want my help.
+    └─ merge ─┘
+├ option 11:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: How could they just be frozen?
+    bio_sci_leader: I wish I knew. I hate feeling so helpless.
+├ option 12:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: I assured Torvar's mother he'd be safe under my care.
+    bio_sci_leader: I haven't told her about what's happened. What if we can't—
+    global_squad_angara: Don't think about that. We'll save him.
+├ option 13:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: None of these readings show any change. How could there not be a change?
+├ option 14:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: Stars and skies. There must be something I can do.
+├ option 15:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: Absolutely no sustenance and yet... so steady. I don't understand this.
+├ option 16:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: I should never have let Torvar go to the monolith. This is my fault.
+├ option 17:
+    bio_sci_leader ⟨cond⟩ [OncePerGame]: There must be something in these numbers that can help. I need to do something!
+└─ merge ─┘

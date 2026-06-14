@@ -1,0 +1,27 @@
+# game/conversations/hubs/hub_hyp/dad_quarters/hyp_dadquarters_explore_b
+# Primary speaker: SAM
+# Source: game/conversations/hubs/hub_hyp/dad_quarters/hyp_dadquarters_explore_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Printed books?
+    SAM: Reproductions of Lewis and Clark's journals, detailing their expedition in the 19th century.
+    Hero: Explains Dad's interest. They were pathfinders, too.
+├ option 2:
+    SAM: Your father's first sidearm. A memento of his early Alliance service.
+    Hero: I bet that saw plenty of action.
+    SAM: Alec's first kill occurred in combat during the First Contact War.
+    Hero: Back when turians were the enemy. Crazy times.
+├ option 3:
+    Hero: {i}(Laughs.){/i} The coffee machine Mom got for Dad. He was so busy designing you—needed the caffeine.
+    SAM: I did not realize I owed my existence to a bean.
+    Hero: And now you know what humility feels like.
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: My dad and I built this model when I was a kid. I didn't know he kept it.
+        Hero ⟨cond⟩: Think I'll put this on the Tempest.
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: Think I'll put this on the Tempest.
+    └─ merge ─┘
+└─ merge ─┘

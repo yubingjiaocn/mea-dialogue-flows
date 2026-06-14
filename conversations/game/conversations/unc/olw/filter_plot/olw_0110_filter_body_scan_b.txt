@@ -1,0 +1,16 @@
+# game/conversations/unc/olw/filter_plot/olw_0110_filter_body_scan_b
+# Primary speaker: SAM
+# Source: game/conversations/unc/olw/filter_plot/olw_0110_filter_body_scan_b.xml
+==================================================
+SAM: Blackened stomach and ulceration. Consistent with poisoning by sulfuric acid.
+SAM: Most likely from consuming Kadara's water without proper filtration.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Kadara has been home to angara for centuries.
+    global_squad_angara: They would never drink unfiltered water.
+    SAM: I suggest we examine the town's water supply.
+├ option 2:
+    Hero: The angara have lived on Kadara longer than us.
+    Hero: They'd know better than to drink unfiltered water.
+    ↩ (goto) SAM: I suggest we examine the town's water supply.
+└─ merge ─┘

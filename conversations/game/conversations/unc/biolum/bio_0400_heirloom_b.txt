@@ -1,0 +1,90 @@
+# game/conversations/unc/biolum/bio_0400_heirloom_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/biolum/bio_0400_heirloom_b.xml
+==================================================
+SAM: Pathfinder, we are approaching the location provided by Esmus.
+Hero: Stay sharp, everybody. There's supposed to be Remnant crawling all over this place.
+Hero: Hostile Remnant!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Jaal, what's your take on all this reincarnation stuff?
+    global_squad_angara: You're asking if I believe.
+    Hero: Yes, sure.
+    global_squad_angara: Not the way Esmus does.
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Past lives? You live as long as me, one's too many.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari: We don't know how the Jardaan designed the angara.
+                global_squad_asari: Maybe they're capable of some kind of post-mortem energy or data transfer?
+                global_squad_asari: I mean, asari can share memories.
+            ├ option 2:
+                global_squad_asari: Esmus said it's within families. Maybe it has something to do with that.
+                global_squad_asari: Some kind of genetic memory? An ancestor's experiences becoming instinct in their descendants?
+                ↩ (goto) global_squad_asari: I mean, asari can share memories.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Genetic memory, maybe? Doesn't their "reincarnation" only happen within families?
+            Hero ⟨cond⟩: And once we factor in the Jardaan, I don't know. Maybe this is something they wanted. A design feature.
+        ├ option 3:
+            Hero: Don't look at me. I'm gobsmacked. Any input, SAM?
+            SAM: Memory transfer, perhaps genetic. It is not like anything found in the Milky Way.
+            SAM ⟨cond⟩: I would not rule out a design feature included by the Jardaan.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: So, reincarnation. I'm just going with it, I guess.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_asari ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: [empty]
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: There has to be another explanation for this reincarnation thing.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_asari ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: [empty]
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: We're retrieving a special object that's meant to jog someone's past life memories.
+        global_squad_male_human: Is this really happening?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_asari ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: [empty]
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Looks like it might have been some kind of glove. Or gauntlet. Smashed, though.
+Hero: Inside's studded with contacts. Could've been used for some kind of input.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Can't wait to see where this is going. Let's find this Taavos character.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Now we have to get this Taavos to touch it. That's going to be fun.
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Ancient angara tech! Is this the first we've seen?
+        global_squad_asari: I wish we could study it instead of giving it to this Taavos person.
+    ├ option 2:
+        ↩ (goto) global_squad_asari: I wish we could study it instead of giving it to this Taavos person.
+    └─ merge ─┘
+├ option 4:
+    global_squad_angara ⟨cond⟩: Now to Taavos. I am curious to see what happens.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Sure. Now let's make someone touch it.
+└─ merge ─┘

@@ -1,0 +1,110 @@
+# Game/Conversations/Crit/Pro_Lnd/Pro_Lnd_0600_Dad_Rendezvous_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/Pro_Lnd_0600_Dad_Rendezvous_m.xml
+==================================================
+global_squad_female_human: Sir...
+global_dad: Stay low.
+global_squad_female_human: Who {i}are{/i} these guys?
+global_dad: Visitors. Just like us. I don't think they're native to the planet.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: They're not. We found an abandoned lab. Like they've been studying the place.
+    global_dad: Good work. You actually did some scouting.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: It's why we came all this way, isn't it? Exploring the unknown, you said.
+        global_dad: I'm glad that sunk in. Because some days it's easy to forget.
+        Hero: Tell me about it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Sir, you said something about the lightning?
+            global_dad: It's the dark energy cloud the Hyperion hit. It's affecting the whole planet, interfering with that...
+            SAM: The tower is caught in a feedback loop with the cloud. Together, they're disrupting the entire climate with undirected energy.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: It would explain a cave we found. Plant life sheltered from the storm... from that tower.
+                global_dad: It's a good bet. And I think if we can get in there and shut the tower down...
+                global_squad_male_human: The lightning goes away.
+                global_dad: And the shuttle can get us out of here. In theory. We just have to get past them...
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: It's a hell of a gamble. But we won't know until we get in there and try.
+                    global_dad: No illusions about this. It'll be a nasty fight the whole way.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: If Scott's game, so am I.
+                        global_squad_female_human: But we risk turning a skirmish with these guys into something worse.
+                        global_dad: It's them or us.
+                        global_squad_male_human: Oh, it's them. Problem is we're outnumbered.
+                        global_dad: I've been working on that. We just need to change the math.
+                        global_squad_male_human: Works for me!
+                    ├ option 2:
+                        global_squad_female_human ⟨cond⟩: If Sara's game, so am I.
+                        ↩ (goto) global_squad_female_human: But we risk turning a skirmish with these guys into something worse.
+                    ├ option 3:
+                        global_squad_female_human: If the Ryders are game, so am I.
+                        ↩ (goto) global_squad_female_human: But we risk turning a skirmish with these guys into something worse.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: We're banking on science we don't really understand. What if the theory's wrong?
+                    SAM: The alternative is an 85% chance of death from lightning strike, capture, or worse.
+                    Hero: Well, when you put it that way...
+                    global_dad: No illusions about this. It'll be a nasty fight the whole way.
+                    global_squad_female_human: Beats getting fried by lightning. But we risk turning a skirmish with these guys into something worse.
+                    ↩ (goto) global_dad: It's them or us.
+                └─ merge ─┘
+            ├ option 2:
+                global_dad: Which suggests if we can get in there and shut it down...
+                ↩ (goto) global_squad_male_human: The lightning goes away.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human: Sir, you said you had an idea about the weather?
+            ↩ (goto) global_dad: It's the dark energy cloud the Hyperion hit. It's affecting the whole planet, interfering with that...
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Wouldn't be much of a recon specialist if I didn't.
+        global_dad: Well, you're off to a good start.
+        Hero: Baptism by fire.
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        Hero: You didn't think I would?
+        global_dad: You never know what people are made of, not until everything goes wrong.
+        Hero: Plenty of that on this mission.
+        ↩ (goto) ?: [empty]
+    ├ option 4:
+        Hero: Thank you. It seemed important.
+        global_dad: Remember that. Follow your gut.
+        Hero: Well, right now my gut say we're in trouble here.
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: They're not. We found one of their ships. It was bringing food in. Wasn't local.
+    ↩ (goto) ?: [empty]
+├ option 3:
+    Hero: How do you know?
+    global_dad: They've been studying this place. I found one of their labs, abandoned.
+    global_dad: You have to look out for things like that.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: With everything happening—the shuttle crashing, Kirkland dying...
+        Hero: We're lucky to be here at all. We did our best.
+        global_dad: Something's always going to go wrong. But we're still the Pathfinder team. People are still counting on us for answers.
+        global_dad: We can't take our eye off the ball.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Hero: With everything happening—the shuttle crashing, Hayes getting hurt...
+        ↩ (goto) Hero: We're lucky to be here at all. We did our best.
+    ├ option 3:
+        Hero: It seemed more important to find the rest of the team.
+        global_dad: And you did a good job of that. But even when things go wrong, we're still the Pathfinder team. People are still counting on us for answers.
+        ↩ (goto) ?: [empty]
+    ├ option 4:
+        Hero: Uh, to be honest, we were busy trying not to die out there.
+        global_dad: Even under fire, we're explorers. It's what the Pathfinder team does. We have to keep an eye on the mission.
+        ↩ (goto) ?: [empty]
+    ├ option 5:
+        Hero: Understood. Next time I will.
+        global_dad: Good. Consider this a baptism by fire. Anything can happen on a mission—but we're still the Pathfinder team. We're explorers.
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+└─ merge ─┘

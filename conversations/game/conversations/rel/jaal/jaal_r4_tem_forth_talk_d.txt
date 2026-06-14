@@ -1,0 +1,71 @@
+# game/conversations/rel/jaal/jaal_r4_tem_forth_talk_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r4_tem_forth_talk_d.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Hello, Sara. Have you come to see if I'm finally broken?
+    global_squad_angara: To see what discovering that my people were "invented" has done to me?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: This is huge. I'd be flipping tables.
+        global_squad_angara: Nope. Not upset.
+        Hero: What? You normally let your emotions fly.
+        global_squad_angara: True. Angara are usually very free with our feelings.
+        Hero: Not talking about all angara—I'm talking about you.
+        global_squad_angara: I'm... numb. I'm in awe.
+        global_squad_angara: There's a peace in knowing that, though the universe is beyond your understanding, it doesn't need your understanding to function.
+        global_squad_angara: That you may even have a hidden destiny.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We don't even know how large that hidden plan is. It may span galaxies.
+            global_squad_angara: Exactly. And if we—once we—know our place in that plan, we could fulfill it, and even better it.
+            global_squad_angara: I'm not broken Ryder, I'm excited!
+            global_squad_angara: The angara were created for a purpose. We were given vaults and golden worlds—all these advanced tools. ⏎
+            global_squad_angara: And there is nothing the kett can do about it.
+            global_squad_angara: The future holds more for the angara than a never-ending war on the kett. Much more.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: I really love that you can be so open and vulnerable with me.
+                Hero: Thank you.
+                global_squad_angara: You make me feel safe.
+                global_squad_angara: It doesn't matter if we were created by a god, reborn from our ancestors, or exist as the dream of an AI superpower.
+                global_squad_angara: This discovery changes nothing—except ourselves.
+                global_squad_angara: And that's...
+                Hero: ...everything.
+            ├ option 2:
+                Hero: For the angara—hell, for all of us—these are amazing, crazy days.
+                global_squad_angara: Really crazy. Really amazing.
+                ↩ (goto) Narration: [empty]
+            ├ option 3:
+                Hero: Those boney bastards will put up a fight.
+                global_squad_angara: Let them.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Does it matter? Your people aren't shackled to this new discovery.
+            global_squad_angara: I agree. We don't owe anything to the Jardaan. Our destiny is our own.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: I'm not broken Sara, I'm excited.
+                ↩ (goto) global_squad_angara: The angara were created for a purpose. We were given vaults and golden worlds—all these advanced tools. ⏎
+            ├ option 2:
+                global_squad_angara ⟨cond⟩: I'm not broken Scott, I'm excited!
+                ↩ (goto) global_squad_angara: The angara were created for a purpose. We were given vaults and golden worlds—all these advanced tools. ⏎
+            ├ option 3:
+                ↩ (goto) global_squad_angara: I'm not broken Ryder, I'm excited!
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Just here if you need to talk. I can't imagine what you're feeling.
+        global_squad_angara: I've been staring out the window trying to figure that out.
+        Hero: That's new.
+        ↩ (goto) global_squad_angara: True. Angara are usually very free with our feelings.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara ⟨cond⟩: Hello, Scott. Have you come to see if I'm finally broken?
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    global_squad_angara: Hello, Ryder. Have you come to see if I'm finally broken?
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

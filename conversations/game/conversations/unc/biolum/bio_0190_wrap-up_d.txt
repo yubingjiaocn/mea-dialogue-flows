@@ -1,0 +1,44 @@
+# game/conversations/unc/biolum/bio_0190_wrap-up_d
+# Primary speaker: bio_sci_leader
+# Source: game/conversations/unc/biolum/bio_0190_wrap-up_d.xml
+==================================================
+bio_sci_leader: Pathfinder Ryder. You have done something remarkable here today.
+bio_sage_leader: Succeeded where Zorai failed.
+Hero: Esmus? What are you doing down here?
+bio_sage_leader: Renewing old bonds.
+bio_sage_leader: Talking to you was enlightening. I saw an alien, working for us when we had given up.
+bio_sage_leader: We have isolated ourselves for too long. Perhaps there is a balance we can find.
+bio_ang_champ: We all need to find balance, I think.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Taavos. I wasn't expecting to see you, but I'm pleasantly surprised.
+    bio_ang_champ: I've learned a lot in a short time. The Roekaar want simple solutions, but nothing is ever simple or certain, is it?
+    bio_ang_champ: I wish those that were killed could've realized this. But after everything I've seen, I have to hope that they aren't lost forever.
+    bio_sci_leader: This curious "memory-transfer"—
+    bio_sage_leader: Reincarnation.
+    bio_sci_leader: Whatever it might be, I aim to devote resources to studying it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_sci_leader ⟨cond⟩: Perhaps answers can be found on Khi Tasira.
+        bio_sci_leader: Maybe one day, we'll find the truth buried deep within our superstitions.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What do your projections say? Is Havarl going to be safe?
+            bio_sci_leader: We've already seen improvements. They're small, but statistically significant.
+            bio_sci_leader: In time, the planet will heal.
+            bio_sci_leader: There is some space here at Daar Pelaav, and we'll need extra hands to monitor Havarl's situation.
+            bio_sci_leader: Will you extend an invitation to your people? We'd welcome anyone who can help.
+            Hero: I'll pass it along.
+            bio_sci_leader: Then I'll leave you. I have some numbers to analyze. Can you believe it? For the first time in years, they excite me.
+        ├ option 2:
+            Hero: That was kinda heartwarming to see.
+            bio_sci_leader: There has been healing today. Havarl. The rifts between my people. And you're to thank.
+            ↩ (goto) bio_sci_leader: There is some space here at Daar Pelaav, and we'll need extra hands to monitor Havarl's situation.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) bio_sci_leader: Maybe one day, we'll find the truth buried deep within our superstitions.
+    └─ merge ─┘
+├ option 2:
+    Hero: Apparently I just walked into a party.
+    ↩ (goto) bio_ang_champ: I've learned a lot in a short time. The Roekaar want simple solutions, but nothing is ever simple or certain, is it?
+└─ merge ─┘

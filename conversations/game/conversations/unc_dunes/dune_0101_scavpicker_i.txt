@@ -1,0 +1,47 @@
+# game/conversations/unc_dunes/dune_0101_scavpicker_i
+# Primary speaker: dune_paradise_scavpicker
+# Source: game/conversations/unc_dunes/dune_0101_scavpicker_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_paradise_scavpicker [OncePerGame]: You! You have credits, I can tell. I got scraps, machine parts, and buckles.
+    Hero: Sounds like useless junk to me.
+    dune_paradise_scavpicker: Of course it's junk. I'm a little slower than the other scavengers, so I don't get the best picks.
+    dune_paradise_scavpicker: But everything has worth here. In the flophouse, a busted engine and an old wire can be the difference between life and death.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Don't tell me there's a scavenger motel out there.
+        dune_paradise_scavpicker: Not like you're thinking. The flophouse is where you sleep if you made a good haul that day.
+        dune_paradise_scavpicker: You get a working transmission or a piece of copper, you can turn it in to the flophouse for a little time in the shade.
+        dune_paradise_scavpicker: 'Course, the other junkers could still kill you, but at least the heat won't take you down.
+        Hero: That's rough.
+        dune_paradise_scavpicker: We brought it on ourselves. Rebelled against the only ones protecting us. Stupid.
+        dune_paradise_scavpicker: But I learned my lesson. Gonna sell this scrap to buy passage back to Kadara. Start over.
+        dune_paradise_scavpicker: Come on, take a look. If I get enough credits, I can hitch a ride off this hell hole.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sure, why not? Show me what you have.
+            dune_paradise_scavpicker: There's bound to be something you like.
+        ├ option 2:
+            Hero: I think I'll pass.
+            dune_paradise_scavpicker: Too good for this stuff? Fine.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You guys are fighting just to survive, aren't you?
+        dune_paradise_scavpicker: You haven't seen the worst of it—gang leaders are fighting for control. Axius, Big Taran, and now Little Mouse.
+        dune_paradise_scavpicker: You run into any of them outside the Paradise, make sure you shoot first.
+        ↩ (goto) Hero: That's rough.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        dune_paradise_scavpicker: Come on, spend your credits.
+        ↩ (goto) dune_paradise_scavpicker: [empty]
+    ├ option 2:
+        dune_paradise_scavpicker: Best scraps out there.
+        ↩ (goto) dune_paradise_scavpicker: [empty]
+    ├ option 3:
+        dune_paradise_scavpicker: Got all kinds of great junk for you.
+        ↩ (goto) dune_paradise_scavpicker: [empty]
+    └─ merge ─┘
+└─ merge ─┘

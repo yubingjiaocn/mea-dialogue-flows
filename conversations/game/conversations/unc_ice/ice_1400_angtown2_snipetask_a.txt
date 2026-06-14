@@ -1,0 +1,34 @@
+# game/conversations/unc_ice/ice_1400_angtown2_snipetask_a
+# Primary speaker: ice_orev
+# Source: game/conversations/unc_ice/ice_1400_angtown2_snipetask_a.xml
+==================================================
+ice_orev: [Comm] Hey, can you help me with something?
+ice_orev: [Comm] There's a Wraith cloaked near you. I lost its movement.
+ice_orev: [Comm] Will you scan for it and let me know where it's hiding?
+Hero: Got it. Over here.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Impressive shot.
+    ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Do I get to meet the mystery sniper?
+        ice_orev: [Comm] {i}(Laughs.){/i} Only right. Come find me.
+    ├ option 2:
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Nice!
+    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Not bad.
+    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Nice.
+    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Good shot.
+    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+├ option 6:
+    global_squad_turian ⟨cond⟩: Impressive.
+    ↩ (goto) ice_orev: [Comm] Been tracking that thing all day. Thanks for the help.
+└─ merge ─┘

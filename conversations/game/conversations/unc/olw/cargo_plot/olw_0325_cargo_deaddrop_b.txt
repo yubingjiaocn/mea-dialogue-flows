@@ -1,0 +1,73 @@
+# game/conversations/unc/olw/cargo_plot/olw_0325_cargo_deaddrop_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/cargo_plot/olw_0325_cargo_deaddrop_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Maybe this will get us inside.
+├ option 2:
+    Hero: What's that?
+└─ merge ─┘
+Hero: Think I found something. Looks like a wire.
+Hero: Here goes nothing.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Did it do anything?
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Let's check back.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Huh. Did it work?
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: That it?
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: Interesting. Did it work?
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: You know, kid. Switches can be attached to things that explode.
+        Hero: This one was fine.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Maybe look around before pulling random switches?
+        Hero: Where's the fun in that?
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Well, we didn't blow up. Good sign.
+        Hero: Check around. It must've done something.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Your curiosity is gonna get us killed one day.
+        Hero: But not today.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Huh. Did it do anything?
+        Hero: Check around.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Well, that's not natural.
+        Hero: Gotta be a way to get inside. SAM?
+        SAM: The lock is controlled remotely. Perhaps by something nearby.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Something's built into these rocks.
+        ↩ (goto) Hero: Gotta be a way to get inside. SAM?
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Hey Ryder. Something's hidden here.
+        ↩ (goto) Hero: Gotta be a way to get inside. SAM?
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Sneaky bastards. Look at this, Ryder.
+        ↩ (goto) Hero: Gotta be a way to get inside. SAM?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Some kind of grate here.
+        ↩ (goto) Hero: Gotta be a way to get inside. SAM?
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Success. It's open.
+    ├ option 2:
+        Hero: Huh. A datapad.
+    └─ merge ─┘
+└─ merge ─┘

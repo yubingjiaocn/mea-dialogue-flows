@@ -1,0 +1,196 @@
+# game/conversations/rel/drack/dra_r5_kad_funfight_m
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/rel/drack/dra_r5_kad_funfight_m.xml
+==================================================
+global_squad_krogan: Ryder! Over here!
+Hero: Do I even want to know?
+global_squad_krogan: Eh? Oh, this.
+global_squad_krogan: Some idiot who got talked into a headbutting contest with me by his buddies.
+Hero: Some buddies.
+r5_kadfight_pirate1: Hey! You!
+kad_bar_01: {i}(Sighs.){/i} Not in my bar.
+r5_kadfight_pirate1: I know you. Nexus. Your people hurt my friends. Now we're going to hurt you!
+global_squad_krogan: Looks like someone wants a fight. You up for it, Ryder?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You know I am.
+    Hero: You start this, I'm gonna finish it.
+    r5_kadfight_pirate1: Yeah? You and what army?
+    Hero: I don't need an army. I've got a krogan.
+    global_squad_krogan: {i}(Growls.){/i}
+    global_squad_krogan: Just what do you think you're doing?
+    Narration: The REFLECTION of the chair is visible to Ryder in peripheral vision - this is a clear sign that the fight IS happening, allowing for a clearer "punch first" being a Ryder-esque action to take.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        R5_kadfight_pirate2: Bar fight!
+        global_squad_krogan: Ryder, duck!
+        Hero: Hey!
+        Hero: Oh no, you don't!
+        global_squad_krogan: {i}(Laughs.){/i}
+        global_squad_krogan: {i}(Laughs.){/i} Vaul's almighty quads, I am getting too old for this shit.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan: You okay, kid?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I'm okay, all things considered.
+                global_squad_krogan: You got a hard head. I'll give you that.
+                Hero: High praise, coming from a krogan.
+                global_squad_krogan: I respect what you were trying to do...
+                global_squad_krogan: But getting clocked? That's just embarrassing.
+                global_squad_krogan: Good thing I got your back.
+                global_squad_krogan: {i}(Laughs.){/i}
+                global_squad_krogan: Hey, Ryder. Do me a favor?
+                global_squad_krogan: Don't tell Kesh about this.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I got you covered.
+                    global_squad_krogan: That you do. I just... don't want her to worry.
+                    global_squad_male_human: Man, I always miss happy hour.
+                    R5_kadfight_pirate2: {i}(Giggles.){/i}
+                ├ option 2:
+                    Hero: No way I'm getting on Kesh's bad side. I'll rat you out the first chance I get, old man.
+                    global_squad_krogan: Ha! Figures. And probably wise. She's a tough one, my {i}ru'shan{/i}.
+                    ↩ (goto) global_squad_krogan: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: You should see the other guy. There was another guy, right?
+                global_squad_krogan: Sure was. At least I got 'em before they could throw a table at you.
+                Hero: Thanks for that. Those tables look pretty tough.
+                ↩ (goto) global_squad_krogan: Good thing I got your back.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) global_squad_krogan: Hey, Ryder. Do me a favor?
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We don't have to do this. Why don't we just—
+            global_squad_krogan: Hey!
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: You want her? You gotta go through me!
+                ↩ (goto) global_squad_krogan: [empty]
+            ├ option 2:
+                global_squad_krogan: You want him? You gotta go through me!
+                ↩ (goto) r5_kadfight_pirate1: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_krogan: Three...
+            global_squad_krogan: Two...
+            kad_bar_01: Don't you dare. Don't you bastards dare.
+            global_squad_krogan: One!
+            ↩ (goto) R5_kadfight_pirate2: Bar fight!
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Look, I came here to drink with friends, not fight you.
+    r5_kadfight_pirate1: You really think you can stop me?
+    ↩ (goto) r5_kadfight_pirate1: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_krogan: I don't need an army.
+├ option 2:
+    global_squad_krogan: I've got a krogan.
+└─ merge ─┘
+Hero: Collecting pirates?
+↩ (goto) global_squad_krogan: Eh? Oh, this.
+┌─ BRANCH (48) ─┐
+├ option 1:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215838
+├ option 2:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215829
+├ option 3:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215837
+├ option 4:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215841
+├ option 5:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215845
+├ option 6:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215840
+├ option 7:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215844
+├ option 8:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215846
+├ option 9:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215828
+├ option 10:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215836
+├ option 11:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215834
+├ option 12:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215832
+├ option 13:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215839
+├ option 14:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215827
+├ option 15:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215843
+├ option 16:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215830
+├ option 17:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215842
+├ option 18:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215825
+├ option 19:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215826
+├ option 20:
+    global_squad_krogan: DNR -- EXERTION -- stringID 215831
+├ option 21:
+    kad_bar_01: [Umi Exertion 1]
+├ option 22:
+    kad_bar_01: [Umi Exertion 2]
+├ option 23:
+    kad_bar_01: [Umi Exertion 3]
+├ option 24:
+    kad_bar_01: [Umi Exertion 4]
+├ option 25:
+    Hero: [Female Exertion 1]
+├ option 26:
+    Hero: [Female Exertion 2]
+├ option 27:
+    Hero: [Female Exertion 3]
+├ option 28:
+    Hero: [Female Exertion 4]
+├ option 29:
+    Hero: [Female Exertion 5]
+├ option 30:
+    Hero: [Female Exertion 6]
+├ option 31:
+    Hero: [Female Exertion 7]
+├ option 32:
+    Hero: [Male Exertion 1]
+├ option 33:
+    Hero: [Male Exertion 2]
+├ option 34:
+    Hero: [Male Exertion 3]
+├ option 35:
+    Hero: [Male Exertion 4]
+├ option 36:
+    Hero: [Male Exertion 5]
+├ option 37:
+    Hero: [Male Exertion 6]
+├ option 38:
+    Hero: [Male Exertion 7]
+├ option 39:
+    global_squad_krogan: [Exertion 1]
+├ option 40:
+    global_squad_krogan: [Exertion 2]
+├ option 41:
+    global_squad_krogan: [Exertion 3]
+├ option 42:
+    global_squad_krogan: [Exertion 4]
+├ option 43:
+    global_squad_krogan: [Exertion 5]
+├ option 44:
+    global_squad_krogan: [Exertion 6]
+├ option 45:
+    R5_kadfight_pirate2: [Turian Pirate Exertion]
+├ option 46:
+    loyalty_krogan_pirate_angara: [Angara Pirate Exertion]
+├ option 47:
+    loyalty_krogan_pirate_female: [Female Pirate Exertion]
+├ option 48:
+    loyalty_krogan_pirate_salarian: [Salarian Pirate Exertion]
+└─ merge ─┘

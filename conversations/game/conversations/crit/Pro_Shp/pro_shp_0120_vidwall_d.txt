@@ -1,0 +1,94 @@
+# game/conversations/crit/pro_shp/pro_shp_0120_vidwall_d
+# Primary speaker: pro_shp_orientationnarrator_multi
+# Source: game/conversations/crit/Pro_Shp/pro_shp_0120_vidwall_d.xml
+==================================================
+Pro_Shp_Init_Founder: Hi, there. I'm Jien Garson, founder of the Andromeda Initiative.
+Pro_Shp_Init_Founder: I'm here to welcome you to a whole new galaxy.
+Pro_Shp_Init_Founder: The good news is, the hard part's over. We're here! If you have any questions now, just ask.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    pro_shp_orientationnarrator_multi: The selection process saw the Andromeda Initiative evaluate thousands of potential habitable planets within the galaxy.
+    pro_shp_orientationnarrator_multi: After discovering an unusually high ratio of potential candidates, or "golden worlds," the Heleus Cluster was selected as our destination.
+    pro_shp_orientationnarrator_multi: Now {i}you{/i} are a part of the first wave of arks arriving in Andromeda: our new home for humanity.
+    pro_shp_orientationnarrator_multi ⟨cond⟩: Once the Pathfinder team's assessment is complete, Habitat 7 has been selected as the most likely candidate for colonization.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    pro_shp_orientationnarrator_multi: Your current location is Ark Hyperion, housing the human population. Ark Paarchero, the salarian vessel, confirmed departure in 2185.
+    pro_shp_orientationnarrator_multi: The asari ship, Ark Leusinia, confirmed departure that same year, as did the turian Ark Natanus, embarking in 2185.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    pro_shp_orientationnarrator_multi: The Pathfinder is responsible for exploring and assessing new worlds for outpost placement and settlement.
+    pro_shp_orientationnarrator_multi: Each ark is led by a Pathfinder who represents their species.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: The active-duty Pathfinder assigned to Ark Hyperion is: Alec Ryder.
+        pro_shp_orientationnarrator_multi: Current duty roster shows you are assigned to the Pathfinder mission team, Specialist Ryder.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: The active-duty Pathfinder assigned to Ark Hyperion is: Scott Ryder.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: The active-duty Pathfinder assigned to Ark Hyperion is: Sara Ryder.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: Pathfinder Ryder is currently assigned to active duty for Ark Hyperion.
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        pro_shp_orientationnarrator_multi: Pathfinder Ryder is currently assigned to active duty for Ark Hyperion.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi: At present, Ark Hyperion has arrived in the Heleus Cluster. Further mission updates are offline due to technical difficulties.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            pro_shp_orientationnarrator_multi ⟨cond⟩: As Recon Specialist, you are tasked with supporting the authentication of golden world sites through exploration, mapping, and scientific analysis.
+            pro_shp_orientationnarrator_multi: Currently, you are to report for duty on the command bridge.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            pro_shp_orientationnarrator_multi: As Recon Specialist, you are tasked with supporting the authentication of golden world sites through exploration, mapping, and scientific analysis.
+            ↩ (goto) pro_shp_orientationnarrator_multi: Currently, you are to report for duty on the command bridge.
+        └─ merge ─┘
+    ├ option 2:
+        pro_shp_orientationnarrator_multi: Presently, Ark Hyperion has arrived in the Heleus Cluster. Docking procedures with the Nexus are complete.
+        pro_shp_orientationnarrator_multi: All personnel should see their supervisors for updated task information.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 5:
+    pro_shp_orientationnarrator_multi: The Andromeda Initiative encompasses all colonization efforts, including arks, Pathfinders, outposts, and the central support hub, the Nexus.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        pro_shp_orientationnarrator_multi ⟨cond⟩: The current location of the Nexus is: unknown. Status of outposts are: unknown.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Pro_Shp_Init_Founder: I'm Jien Garson, founder of the Initiative. I think it's important we take a moment to reflect on the principles that brought all of us together.
+            Pro_Shp_Init_Founder: It started with a vision of a better future—a vision that {i}you{/i} shape.
+            Pro_Shp_Init_Founder: Life in Andromeda can be anything we dare to dream, and I'm proud to help make those dreams come true.
+            Pro_Shp_Init_Founder: Drop me a note sometime. I'd love to hear how we're doing.
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        pro_shp_orientationnarrator_multi: For more information, please visit the Nexus administrative offices.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 6:
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    pro_shp_orientationnarrator_multi ⟨cond⟩: Welcome, Pathfinder.
+    pro_shp_orientationnarrator_multi: Please select a topic.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    pro_shp_orientationnarrator_multi: Recon Specialist Ryder, welcome.
+    pro_shp_orientationnarrator_multi: Current duty roster shows you are assigned to the Pathfinder mission team.
+    ↩ (goto) pro_shp_orientationnarrator_multi: Please select a topic.
+└─ merge ─┘
+↩ (goto) Hero: [empty]

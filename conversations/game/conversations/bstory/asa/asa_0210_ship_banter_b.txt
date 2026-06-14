@@ -1,0 +1,121 @@
+# game/conversations/bstory/asa/asa_0210_ship_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/asa/asa_0210_ship_banter_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Picking up a faint signal. Looks like a friendly ship?
+    SAM: It matches the transponder code for asari survey vessel "Periphona."
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: That's the ship Hydaria mentioned.
+        Hero: We might be close.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Isn't that the ship you and Cora were looking for?
+        ↩ (goto) Hero: We might be close.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: The one we're looking for. Right?
+        ↩ (goto) Hero: We might be close.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: That's the ship you're looking for.
+        ↩ (goto) Hero: We might be close.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: Isn't that the asari ship we're looking for?
+        ↩ (goto) Hero: We might be close.
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩: Isn't that the asari ship we're looking for?
+        ↩ (goto) Hero: We might be close.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Huh. I thought this would be the Periphona.
+        SAM: Ice or mineral deposits may be reflecting false positives. The real signal must be relatively close.
+    ├ option 2:
+        Hero: Another false reading. But we must be closing in.
+    ├ option 3:
+        Hero: False signal. One down.
+    └─ merge ─┘
+├ option 3:
+    Hero: Still getting the Periphona's signal.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Wonder why she's on the ground.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: Bathroom break?
+        ├ option 2:
+            global_squad_turian ⟨cond⟩: Maybe they decided to stay put.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: Oh, we have to check that out.
+        ├ option 4:
+            global_squad_krogan ⟨cond⟩: It's smart if the kett are looking for them.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Guess she's grounded.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_asari ⟨cond⟩: Bathroom break?
+        ├ option 2:
+            ↩ (goto) global_squad_turian ⟨cond⟩: Maybe they decided to stay put.
+        ├ option 3:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Oh, we have to check that out.
+        ├ option 4:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: It's smart if the kett are looking for them.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    SAM: On course for the Periphona's signal.
+├ option 5:
+    SAM: This is the source of the Periphona's signal.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Oh god.
+        Hero: And there's kett on-site. Let's clear them out.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: And only wreckage.
+        ↩ (goto) Hero: And there's kett on-site. Let's clear them out.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: There's nothing left.
+        ↩ (goto) Hero: And there's kett on-site. Let's clear them out.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: That's a lot of debris.
+        ↩ (goto) Hero: And there's kett on-site. Let's clear them out.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: That's a mess.
+        ↩ (goto) Hero: And there's kett on-site. Let's clear them out.
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: Ah hell, not good.
+        ↩ (goto) Hero: And there's kett on-site. Let's clear them out.
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Take them down hard!
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Don't you worry!
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: I hear that!
+        ├ option 3:
+            global_squad_krogan ⟨cond⟩: Only way I know how!
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Stay sharp! They've got defenses!
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: Careful, the kett left a surprise!
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Watch out! They set up defenses!
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: They've got defenses, be careful!
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: Their defenses can't save them!
+        ├ option 6:
+            global_squad_krogan ⟨cond⟩: The kett left one of their toys!
+        └─ merge ─┘
+    ├ option 3:
+        Hero [OncePerGame]: Clear!
+    └─ merge ─┘
+└─ merge ─┘

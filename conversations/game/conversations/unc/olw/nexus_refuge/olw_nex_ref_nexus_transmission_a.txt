@@ -1,0 +1,33 @@
+# game/conversations/unc/olw/nexus_refuge/olw_nex_ref_nexus_transmission_a
+# Primary speaker: olw_nex_ref_comm_NPC
+# Source: game/conversations/unc/olw/nexus_refuge/olw_nex_ref_nexus_transmission_a.xml
+==================================================
+olw_nex_ref_mother [OncePerGame]: [Comm] Hello?
+olw_nex_ref_comm_NPC: Mom?
+olw_nex_ref_mother: [Comm] Muria? Is that you?
+olw_nex_ref_comm_NPC: Thank the goddess... mom, are you okay?
+olw_nex_ref_mother: [Comm] Oh Muria... I've been so worried. I thought you were... gone. Forever. But it's really you...
+olw_nex_ref_comm_NPC: I'm on Kadara. I'm okay. I miss you so much, mom.
+olw_nex_ref_mother: [Comm] I think about you everyday, Muria. Some day we'll be reunited.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    olw_nex_ref_mother ⟨cond⟩: [Comm] There's a Pathfinder now, Ryder—he seems to know what he's doing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_nex_ref_comm_NPC ⟨cond⟩: {i}(Laughs.){/i} It's the reason we're talking. They helped fix our equipment.
+        olw_nex_ref_mother: [Comm] Well, give them a hug for me. This changed everything. I've got a reason to go on now.
+        olw_nex_ref_comm_NPC: Goodbye, mom. We'll see each other soon.
+    ├ option 2:
+        olw_nex_ref_comm_NPC: {i}(Laughs.){/i} It's the reason we're talking. They helped fix our equipment.
+        olw_nex_ref_mother: [Comm] Well, give them a hug for me. This changed everything. I've got a reason to go on now.
+        ↩ (goto) olw_nex_ref_comm_NPC: Goodbye, mom. We'll see each other soon.
+    └─ merge ─┘
+├ option 2:
+    olw_nex_ref_mother: [Comm] There's a Pathfinder now, Ryder—she seems to know what she's doing.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) olw_nex_ref_comm_NPC ⟨cond⟩: {i}(Laughs.){/i} It's the reason we're talking. They helped fix our equipment.
+    ├ option 2:
+        ↩ (goto) olw_nex_ref_comm_NPC: {i}(Laughs.){/i} It's the reason we're talking. They helped fix our equipment.
+    └─ merge ─┘
+└─ merge ─┘

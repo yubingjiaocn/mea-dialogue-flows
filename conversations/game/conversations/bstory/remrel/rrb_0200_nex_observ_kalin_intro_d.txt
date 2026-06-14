@@ -1,0 +1,84 @@
+# game/conversations/bstory/remrel/rrb_0200_nex_observ_kalin_intro_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/remrel/rrb_0200_nex_observ_kalin_intro_d.xml
+==================================================
+global_squad_asari: Ta-da! My project, she is complete.
+Hero: She?
+global_squad_asari: Looks like a "she" to me.
+global_squad_asari: Just a proof of concept. I stripped out its Remnant command prompts to see if I could power it up myself.
+global_squad_asari: It worked! Now I can build a field model with combat protocols that fights for you.
+global_squad_asari: So... uh... what do you think?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Have Suvi and Gil look it over. If it checks out, bring it aboard and fast-track the combat model.
+    global_squad_asari: Okay. I guess I understand your skepticism.
+    global_squad_asari: Oh no, I forgot to lock the... shit.
+    global_kalinda: My, my, Pelessaria. Didn't know you were still using this hole. Who's your friend?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: {i}(Sighs.){/i} Kalinda, this is Ryder—
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_kalinda ⟨cond⟩: Oh, everyone knows the human Pathfinder. I meant, who's your Remnant friend?
+            global_squad_asari: None of your business, Kalinda.
+            global_kalinda: Of course it isn't—that's what makes it interesting. Don't be so hostile, babe.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: No reason we can't all be civil, right?
+                global_kalinda: Exactly.
+                Hero: But you are kind of trespassing, so...
+                global_kalinda: Now, now. I was just concerned something might have happened to my dear old friend.
+                global_kalinda: I'm sorry for the intrusion, Pelessaria. I'm just relieved to see you... moving on.
+                global_kalinda: Ta-ta.
+                Hero: I'll walk you out.
+                Hero: So, want to talk about it?
+                global_squad_asari: Oh, Kalinda and I go way back: we joined the Initiative together. For a long time, we were like family. Now we're not.
+                global_squad_asari: When you live a thousand years, Ryder, people come and people go. Entanglements are silly.
+                global_squad_asari: Just like places. Time to pack this one up. I'm done with it.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero: Shouldn't be hard to leave.
+                    global_squad_asari: By design.
+                    global_squad_asari: Easy come, easy go.
+                ├ option 2:
+                    Hero: But how can you give all this up?
+                    global_squad_asari: Ha! Watch me.
+                    ↩ (goto) global_squad_asari: Easy come, easy go.
+                ├ option 3:
+                    Hero ⟨cond⟩: Hey, I hope you know you can talk to me. Anytime.
+                    global_squad_asari: Aren't you a cutie? Thanks, Ryder. That's nice. I mean it.
+                    global_squad_asari: But really, the past is the past. I'm fine.
+                    ↩ (goto) global_squad_asari: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Don't be so condescending. Babe.
+                Hero: This is Peebee's place, and you're trespassing. I'd say that warrants a little hostility.
+                ↩ (goto) global_kalinda: Now, now. I was just concerned something might have happened to my dear old friend.
+            └─ merge ─┘
+        ├ option 2:
+            global_kalinda: Oh, everyone knows the human Pathfinder. I meant, who's your Remnant friend?
+            ↩ (goto) global_squad_asari: None of your business, Kalinda.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari: {i}(Sighs.){/i} Kalinda, this is Ryder—
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_kalinda ⟨cond⟩: Oh, everyone knows the human Pathfinder. I meant, who's your Remnant friend?
+        ├ option 2:
+            ↩ (goto) global_kalinda: Oh, everyone knows the human Pathfinder. I meant, who's your Remnant friend?
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: You've outdone yourself, Peebee.
+    Hero: Let Suvi and Gil eyeball it, then fast-track the combat model for me.
+    global_squad_asari: I'd hoped you'd be happy.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari: It worked! Now I can program combat protocols, and you can have a fully operational Observer that fights for you.
+├ option 2:
+    Hero: Have Suvi and Gil look it over. If it checks out, bring it aboard and greenlight it for combat.
+├ option 3:
+    Hero: Let Suvi and Gil eyeball it, but then get it ready for the field.
+└─ merge ─┘

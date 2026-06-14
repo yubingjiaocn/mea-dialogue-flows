@@ -1,0 +1,33 @@
+# game/conversations/hubs/hub_aya/market/aya_20_market_ambs_01_a
+# Primary speaker: aya_market_regular_01
+# Source: game/conversations/hubs/hub_aya/market/aya_20_market_ambs_01_a.xml
+==================================================
+aya_market_regular_01: Did you pick up any fruit today?
+aya_market_regular_01: My luck finally came through at the lottery. Paripos and quilloa both!
+aya_market_regular_02: That's excellent. Your little ones will be happy.
+aya_market_regular_01: The last nutrient batch out of the Tavetaan has been really good for them.
+aya_market_regular_02: I hear they've asked Roaan to stay on longer.
+aya_market_regular_02: He's been pushing the blends to maximize their nutritional payload.
+aya_market_regular_01: They seem less scary now that we've spoken to one, don't they?
+aya_market_regular_02: You were right. Talking to them reassured me.
+aya_market_regular_01: Rumor is the delivery to Havarl is smaller this cycle.
+aya_market_regular_02: Paaran called for donations not long ago. Some of us have been adding personal provisions.
+aya_market_regular_01: I should...
+aya_market_regular_02: No. You keep that fruit. You have littles and they need it.
+aya_market_regular_02: We'll just make sure to get more sun. We'll be fine.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    aya_market_regular_02: Speaking of sun... I've got an old broken lamp I could fix up.
+    aya_market_regular_01: That's a great idea. If we ask around, someone may have another broken lamp to scrounge parts from.
+    aya_market_regular_01: There's less sunlight on some of the outworlds. This could help keep people healthy.
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        aya_market_regular_02 ⟨cond⟩: That was downright civilized of her.
+        ↩ (goto) aya_market_regular_01: They seem less scary now that we've spoken to one, don't they?
+    ├ option 2:
+        aya_market_regular_02: That was downright civilized of him.
+    └─ merge ─┘
+├ option 3:
+    aya_market_regular_02: No one would want to receive food meant for children.
+└─ merge ─┘

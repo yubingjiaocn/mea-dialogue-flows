@@ -1,0 +1,27 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0400_ask03_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0400_ask03_i.xml
+==================================================
+nexus_rp_ctn_wit3: Yeah?
+Hero: Can you tell me what happened here?
+nexus_rp_ctn_wit3: I was here fixing a shuttle when this woman came out of nowhere.
+nexus_rp_ctn_wit3: She whacked me over the head and took the shuttle. Nearly fried me taking off.
+Hero: Any idea where she went?
+nexus_rp_ctn_wit3: I bet she didn't log a destination with control before blasting off.
+nexus_rp_ctn_wit3: This is crazy! What's going on? Why would she do that?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Nothing you need to worry about.
+    nexus_rp_ctn_wit3: Oh good. Random person beats me about the head, but nothing to worry about.
+    Hero: Anything else you can tell me?
+    nexus_rp_ctn_wit3: I blowtorched the hell out of the hull when she hit me.
+    nexus_rp_ctn_wit3: She'll leave a radiation trail a klick wide
+    Hero: That's good. Very good. I can work with that, thank you.
+├ option 2:
+    Hero: Don't worry. I'll bring her back.
+    nexus_rp_ctn_wit3: Good. Thank you.
+    ↩ (goto) Hero: Anything else you can tell me?
+└─ merge ─┘
+Hero: Wow, that's going to be a hell of a bruise.
+nexus_rp_ctn_wit3: Yeah, I'm feeling that. A joker is just what I need after this day.
+↩ (goto) nexus_rp_ctn_wit3: I was here fixing a shuttle when this woman came out of nowhere.

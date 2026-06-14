@@ -1,0 +1,42 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0190_camp_explore_b
+# Primary speaker: global_squad_angara
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0190_camp_explore_b.xml
+==================================================
+Hero [OncePerGame]: Area clear. Any sign of your family?
+global_squad_angara: No.
+Hero: The Roekaar know we're here—maybe that will flush them out.
+Hero [OncePerGame]: This also part of the govataan?
+global_squad_angara: Living quarters for the archeologists.
+global_squad_angara: Though the Roekaar have obviously made themselves at home.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Guess we interrupted dinner.
+├ option 2:
+    Hero: They've got more than just nutrient paste.
+    global_squad_angara: Garpana from Elaaden, kesaa from Kadara.
+    global_squad_angara: The Resistance didn't send these. Roekaar must've brought it with them.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Really likes to hear himself talk, huh?
+    global_squad_angara: You have no idea.
+├ option 2:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: {i}(Grunts.){/i} How do we turn this shit off?
+    global_squad_angara: Knowing Akksul, we can't.
+├ option 3:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Running us down like we're all monsters.
+    global_squad_male_human: Not even the exiles are all... like, exiles.
+    global_squad_angara: Like it or not, they were your first ambassadors.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I really want to punch him in the mouth.
+    global_squad_angara: You should hear him in person.
+├ option 5:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Fear the aliens. Stir up anger. An old playbook.
+    global_squad_angara: But he's not "playing." Akksul believes everything he's saying.
+├ option 6:
+    Hero [OncePerGame]: He really hates us.
+    global_squad_angara: The kett made us fear the unknown.
+    global_squad_angara: Your arrival will bring change to the angara.
+    global_squad_angara: Akksul fears that change.
+└─ merge ─┘
+global_squad_angara: No sign of Teviint or the others. They must be further in.

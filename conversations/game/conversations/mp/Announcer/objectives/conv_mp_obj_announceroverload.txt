@@ -1,0 +1,36 @@
+# game/conversations/mp/announcer/objectives/conv_mp_obj_announceroverload
+# Primary speaker: global_nexus_militia_leader
+# Source: game/conversations/mp/Announcer/objectives/conv_mp_obj_announceroverload.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Dangerous energy build-up detected. Find those generators, and keep them from going critical. ⏎
+├ option 2:
+    global_nexus_militia_leader: [Comm] Generator overload detected. Keep those devices cooled off until the situation stabilizes.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Scanners show an energy surge at your location. We need to prevent a generator overload.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Device vented.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Generator stabilizing.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Power returning to normal.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Find those devices and monitor them.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Keep an eye on those generators.
+├ option 3:
+    global_nexus_militia_leader: [Comm] We still read dangerous energy levels—cool off those generators!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Situation normalizing! Well done, team.
+├ option 2:
+    global_nexus_militia_leader: [Comm] That's it! Generator's returning to normal outputs.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Overload prevented. You're in the clear!
+└─ merge ─┘

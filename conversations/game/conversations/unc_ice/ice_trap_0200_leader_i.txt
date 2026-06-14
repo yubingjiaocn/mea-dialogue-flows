@@ -1,0 +1,53 @@
+# game/conversations/unc_ice/ice_trap_0200_leader_i
+# Primary speaker: ice_ayran
+# Source: game/conversations/unc_ice/ice_trap_0200_leader_i.xml
+==================================================
+ice_ayran: Thank you for the assistance. Any enemy of the kett is an ally of ours.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: What is this? We thought there were civilians who needed assistance!
+    ice_ayran: Not this time. This was the Resistance giving the kett what they deserve.
+    ice_ayran: There's a group that's been attacking shuttles. Killing and scavenging from innocents.
+    ice_ayran: I knew the beacon would attract them. They'd come here to find unarmed, easy victims.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What happens when a real beacon goes up, and the kett slaughter everyone, thinking they're Resistance?
+        ice_ayran: They were already doing that!
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: These actions have put more in danger.
+            ice_ayran: Enough talk. We have more kett incoming!
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: But it's still a dirty move. More civilians might suffer because of it.
+            ↩ (goto) ice_ayran: Enough talk. We have more kett incoming!
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: And now you've given them a better excuse!
+            ↩ (goto) ice_ayran: Enough talk. We have more kett incoming!
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Clever trap. Looks like they fell for it.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Are you serious, Ryder? This was a dirty trick and you know it.
+            ↩ (goto) ice_ayran: Enough talk. We have more kett incoming!
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: But it's still a dirty move. More civilians might suffer because of it.
+        ├ option 3:
+            ↩ (goto) global_squad_angara ⟨cond⟩: These actions have put more in danger.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: You don't look like you're in distress. What was that beacon for?
+    ice_ayran: To draw the kett. To give them what they deserve.
+    ↩ (goto) ice_ayran: There's a group that's been attacking shuttles. Killing and scavenging from innocents.
+└─ merge ─┘
+ice_ayran: That's probably the last of them.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_ayran: These kett will never make victims of Voeld's people again.
+    ice_ayran: Take what you want from the fallen. And thanks for all the help.
+├ option 2:
+    ice_ayran: Yes, what we did was underhanded, but the kett have done the same. We're just returning the favor.
+    ice_ayran: Thank you for the help, but it's best you were on your way.
+└─ merge ─┘
+ice_ayran: Just going over our checks before we get out of here.

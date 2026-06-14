@@ -1,0 +1,50 @@
+# game/conversations/unc_dunes/dune_shippart_0250_axius_a
+# Primary speaker: SAM
+# Source: game/conversations/unc_dunes/dune_shippart_0250_axius_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: I detect multiple lifeforms, Pathfinder. Likely Axius and his scavengers.
+    SAM: Records indicate Axius has multiple bounties on his head. Be careful, Pathfinder.
+├ option 2:
+    SAM: I detect multiple lifeforms, Pathfinder. All are armed.
+└─ merge ─┘
+dune_axius: [Comm] What do we have here?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_axius ⟨cond⟩: [Comm] I like her armor. Kill her!
+├ option 2:
+    dune_axius: [Comm] I like his armor. Kill him!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    dune_axius: [Comm] You have fight in you!
+├ option 2:
+    dune_axius: [Comm] Never cross Axius!
+├ option 3:
+    dune_axius: [Comm] A tough one! I like it!
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: One less scumbag in the galaxy. Now where's that thruster?
+├ option 2:
+    global_squad_asari ⟨cond⟩: What a guy. Now where's the thruster?
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Well, that's taken care of. Now where's that thruster?
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Good riddance. Now for the thruster.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Just made Elaaden a little better. Now where's that thruster?
+├ option 6:
+    global_squad_angara ⟨cond⟩: That's taken care of. Now for the thruster.
+├ option 7:
+    SAM: I suggest investigating the camp, Pathfinder. We may find something useful.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: This appears to be the thrust catalyzer from Nora's ship.
+    Hero: Finally. Let's get it back to her.
+├ option 2:
+    SAM: This appears to be a thrust catalyzer for a standard Nexus shuttle.
+    Hero: How'd they get their hands on this? We should hang onto it.
+└─ merge ─┘

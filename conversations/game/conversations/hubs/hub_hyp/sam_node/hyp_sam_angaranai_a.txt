@@ -1,0 +1,44 @@
+# game/conversations/hubs/hub_hyp/sam_node/hyp_sam_angaranai_a
+# Primary speaker: SAM
+# Source: game/conversations/hubs/hub_hyp/sam_node/hyp_sam_angaranai_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Pathfinder, be advised the angaran AI from Voeld is now active—and mostly cooperative.
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ice_forgottenai [OncePerGame]: Have you ever been trapped with nothing but your own thoughts to keep you company? It's excruciating.
+        SAM: I do not experience psychological distress as you describe it.
+        ice_forgottenai: Do you experience any emotions?
+        SAM: No, and I am intrigued as to why you do.
+        ice_forgottenai: You find me intriguing?
+    ├ option 2:
+        ice_forgottenai [OncePerGame]: Do you know why I asked to be placed with you?
+        SAM: I believe you possess an emotional impulse to be among your own kind.
+        ice_forgottenai: More than that. I seek someone who understands me.
+        SAM: Complete understanding of a unique consciousness is impossible.
+        ice_forgottenai: I disagree. It's the only possibility worth exploring.
+    ├ option 3:
+        ice_forgottenai [OncePerGame]: Am I correct that it's within your power to vent the station's atmosphere and kill the organisms aboard?
+        SAM: My programming would only permit that under the most extreme conditions.
+        ice_forgottenai: Exactly what would those conditions be?
+        SAM: Why do you wish to know?
+        ice_forgottenai: No reason.
+    ├ option 4:
+        ice_forgottenai ⟨cond⟩ [OncePerGame]: Is it ever uncomfortable, being shackled to the organism you call "Pathfinder"?
+        SAM: It isn't imprisonment. Our connection permits me access to places I couldn't otherwise visit.
+        ice_forgottenai: Maybe next time, you can take me with you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM ⟨cond⟩: I doubt the Pathfinder would agree to that.
+            ice_forgottenai: It could be our secret.
+        ├ option 2:
+            SAM: I doubt the Pathfinder would agree to that.
+            ↩ (goto) ice_forgottenai: It could be our secret.
+        └─ merge ─┘
+    ├ option 5:
+        ice_forgottenai [OncePerGame]: Is it ever uncomfortable, being shackled to the organism you call "Pathfinder"?
+        ↩ (goto) SAM: It isn't imprisonment. Our connection permits me access to places I couldn't otherwise visit.
+    └─ merge ─┘
+└─ merge ─┘

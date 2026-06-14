@@ -1,0 +1,188 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0200_landing_area_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0200_landing_area_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: You nearly got us killed.
+    global_squad_asari: Any landing you can walk away from, right?
+    global_crew_co-pilot: [Comm] Ryder, come... in... are you... all right?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: SAM, relay to the Tempest that we're stranded but alive. No choice but to investigate Peebee's signal.
+        global_squad_asari: Sorry.
+        SAM: Right away.
+    ├ option 2:
+        Hero: SAM, relay to the Tempest that we're fine. Investigating Peebee's signal.
+        ↩ (goto) SAM: Right away.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara ⟨cond⟩: Close one.
+    ↩ (goto) global_squad_asari: Any landing you can walk away from, right?
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Close one.
+    ↩ (goto) global_squad_asari: Any landing you can walk away from, right?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: A few meters off and... toast.
+    ↩ (goto) global_squad_asari: Any landing you can walk away from, right?
+├ option 5:
+    global_squad_turian ⟨cond⟩: Too close for comfort.
+    ↩ (goto) global_squad_asari: Any landing you can walk away from, right?
+└─ merge ─┘
+global_squad_asari: I'm picking up the signal. It's housed within a Remnant structure not far from here.
+Hero: SAM, plot our trajectory.
+SAM: Plotted.
+global_squad_asari: We'll need to find our way to the surface.
+┌─ BRANCH (7) ─┐
+├ option 1:
+    SAM [OncePerGame]: Pathfinder, there are extensive Remnant systems, but sudden tectonic instability overwhelmed them. Much of the infrastructure is buried.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Try scanning for a solution.
+├ option 3:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: I advise scanning along the rocks.
+├ option 4:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Start crushing some of these rocks. Something's bound to turn up.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Try scanning for a solution.
+├ option 6:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: The scanner might turn up a solution.
+├ option 7:
+    global_squad_asari [OncePerGame]: We might have to break through a lot of rock to access the tech.
+└─ merge ─┘
+global_squad_asari: Need to get through that obstruction. Maybe there's a console buried here somewhere.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Remnant power node detected within.
+├ option 2:
+    SAM: Remnant console detected within.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: Come on—break through the rock and access the power node.
+├ option 2:
+    global_squad_asari [OncePerGame]: Go ahead and shoot the rock or something.
+└─ merge ─┘
+Hero: Well, what do you know.
+SAM: The network you're accessing seems to be a production system.
+Hero: Production of what?
+SAM: Remnant hardware.
+global_squad_asari: Good. The gates are opening.
+SAM: You've opened more than that. I'm picking up structural shifts throughout the cavern area.
+global_squad_asari: The gate up there opened too. Might be worth checking out.
+global_squad_asari: Scrounge whatever tech we find for study. Could help figure out what happened here.
+global_squad_asari: We're definitely on the right track to the surface.
+SAM: Interesting. That Observer is in a persistent idle state. Its neural pathways are blank.
+global_squad_asari: It's like Poc when I stripped out its Remnant protocols. It has no programming.
+global_squad_asari: Jeez, Ryder... what'd it ever do to you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Not now, Peebee.
+├ option 2:
+    Hero: Not taking chances.
+└─ merge ─┘
+SAM: Pathfinder, this site was a manufacturing center. That's a collapsed outlet point for an assembly line.
+SAM: Seismic activity increasing.
+SAM: I'm picking up additional unprogrammed Observers throughout the facility.
+SAM: At dispenser points, you should be able to enlist their support.
+global_squad_asari: Sweet. Let's do that.
+SAM: That chute ahead is an access point to the assembly line. It appears to be operational.
+SAM: Activating it should dispense an unprogrammed Observer.
+global_squad_asari: Try the console.
+SAM: You are identifying yourself as an ally to the unprogrammed Observers in the assembly line.
+global_squad_asari: Hey there, little guy. Nice to have you on the team.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: It should now repair the broken gate node.
+├ option 2:
+    SAM: Its protocols are limited, but it will perform simple tasks for you via your scanner.
+└─ merge ─┘
+global_squad_asari: So scan that node. Our new friend wants to help.
+global_squad_asari: Another gate. Have to get through.
+global_squad_asari: Look. Up there above the gate. Another node. Try scanning it.
+SAM: That node controls the gate, but it's disabled.
+Hero: Too high to access.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: I bet an allied Observer could enable it. Let's find a way to get one!
+├ option 2:
+    global_squad_asari: Our new friend knows what to do!
+    ↩ (goto) global_squad_asari: [empty]
+└─ merge ─┘
+global_squad_asari: And... voila! Thanks, buddy.
+Hero: Let's push on.
+Hero: That's back where we came from.
+global_squad_asari: Been there, done that.
+global_squad_asari: A lot of this tech is already broken down to its basic components. Very useful.
+global_squad_asari: I think we're nearing the surface.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Stay sharp. The area ahead is littered with Observers.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Be ready. There are many Observers ahead.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari: What was this place?
+├ option 2:
+    SAM: I'm reading a stockpile of unprogrammed Observers housed throughout the site.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: Interacting with some consoles, you should be able to imprint yourself as an ally to these Observers.
+        SAM: At outlet points, you'd then be able to deploy them.
+        Hero: You mean I can summon bots that will help us?
+        SAM: When you come across the corresponding consoles.
+        global_squad_asari: That is huge.
+    ├ option 2:
+        SAM: By interacting with that previous console, you have imprinted yourself as an ally to these Observers.
+        SAM: At outlet points, you should be able to deploy them.
+        ↩ (goto) Hero: You mean I can summon bots that will help us?
+    └─ merge ─┘
+├ option 3:
+    global_squad_asari: That's too bad. Wasn't hurting anyone.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: Pathfinder, the systems here are in an artificially degraded state, and much of the infrastructure is buried or encased in rock.
+    global_squad_asari: Yeah, we might have to break through hardened magma to access the tech.
+├ option 2:
+    SAM: Degradation is difficult to overcome, but the system is coming online.
+    global_squad_asari: It's working.
+    SAM: Perhaps too well. I'm picking up structural shifts throughout the cavern area.
+    Hero: The way is clear. Let's keep moving.
+├ option 3:
+    SAM: Activating local systems has restarted the production process.
+└─ merge ─┘
+┌─ BRANCH (10) ─┐
+├ option 1:
+    Hero: Simple tasks, huh? Like maybe opening that gate?
+├ option 2:
+    global_squad_asari: This Observer—it's encased in hardened magma. Wonder if it's still functional in there.
+├ option 3:
+    Hero: Still functional. Take it down.
+├ option 4:
+    global_squad_asari: Well, these are working fine!
+    SAM: I expect more of the tech will come online as you proceed.
+├ option 5:
+    SAM: These Observers are fledglings. Attacking you was their first operational order.
+├ option 6:
+    global_squad_angara ⟨cond⟩: There may have been a small city here once.
+├ option 7:
+    global_squad_krogan ⟨cond⟩: This could have been a city once.
+├ option 8:
+    global_squad_turian ⟨cond⟩: Wow. There may have been a small city here once.
+├ option 9:
+    global_squad_male_human ⟨cond⟩: This looks like it could have been a small city once.
+├ option 10:
+    global_squad_female_human ⟨cond⟩: There may have been a small city here once.
+└─ merge ─┘

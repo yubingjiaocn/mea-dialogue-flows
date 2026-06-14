@@ -1,0 +1,100 @@
+# game/conversations/unc/olw/outpost_loop/olw_2000_addison_outpost_d
+# Primary speaker: global_nexus_colonial_director_multi
+# Source: game/conversations/unc/olw/outpost_loop/olw_2000_addison_outpost_d.xml
+==================================================
+global_nexus_colonial_director_multi: Amazing. This may piss off as many people as you manage to feed.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Director Addison? No personal appearance? Placing an outpost is a big deal.
+    global_nexus_colonial_director_multi: Thank you, but no. I prefer climate control to... these extremes.
+    global_nexus_colonial_director_multi: Honestly, an outpost on Kadara? Where the worst of our exiles staked their claim?
+    global_nexus_colonial_director_multi: You'd better be sure about this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: They want stability, same as the Nexus. A solid outpost will bring some back.
+        global_nexus_colonial_director_multi: True—they left when the dream failed. And you've done a lot to restore it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_nexus_colonial_director_multi: And perhaps this will bring in one of Dr. Kennedy's trackers. Search the Govorkam system. We have to find her. She and her child need us.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                    Hero: Is this really the time?
+                    global_nexus_colonial_director_multi: "Pathfinder" was always a symbol. Like outpost flags hanging in the commons, the people need a connection to reality on the ground.
+                    global_nexus_colonial_director_multi: Address them, Pathfinder. What did this mean?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: It cost a lot to get this far. But we didn't make the trip to turn our backs—especially on our own people.
+                            Hero: If you're ready to work, if you're not here to hide, if you want to set the example—Kadara is waiting.
+                            global_nexus_colonial_director_multi: For posterity, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: Getting this far was hard, and it won't get easier. But it will get better. We have to want it to get better.
+                            Hero: Kadara is the frontier—as wild and as promising as it gets. I know we're up for it.
+                            ↩ (goto) global_nexus_colonial_director_multi: For posterity, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: We trained for years, but when we reached Andromeda, everything changed. The dream almost died on worlds like this.
+                            Hero: But we can rebuild it—bring stability. If there was ever a world that needed our best, at their best, this is it.
+                            ↩ (goto) global_nexus_colonial_director_multi: For posterity, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: I won't lie: Kadara put up a fight. A lot of people pushed to extremes. But we're going to stay.
+                            Hero: We didn't come to Andromeda because it was easy, and we're not leaving Kadara because it's hard.
+                            ↩ (goto) global_nexus_colonial_director_multi: For posterity, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_colonial_director_multi: Time for the public address. Think you can distill something motivational out of this?
+                    Hero: Something to sell Kadara? You'll actually run it?
+                    global_nexus_colonial_director_multi: I may have concerns, but my ledger has one more outpost than it did yesterday. Sell it.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_nexus_colonial_director_multi: And watch for Dr. Kennedy's trackers in the Govorkam system. If this attracts one, we may be able to determine her status.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: Time for the public address. Think you can distill something motivational out of this?
+                └─ merge ─┘
+            ├ option 3:
+                global_nexus_colonial_director_multi: Another step forward. But of course there's more. There's always more.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: Time for the public address. Think you can distill something motivational out of this?
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: It's a win. And we'll take wins wherever we can get them. You need to do this again.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 3:
+                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We can't turn our backs—the Initiative failed {i}them{/i}.
+        global_nexus_colonial_director_multi: You weren't there. But you're here now. And it's your call.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+        ├ option 2:
+            ↩ (goto) global_nexus_colonial_director_multi: It's a win. And we'll take wins wherever we can get them. You need to do this again.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Director. I trust you're enjoying the show?
+    global_nexus_colonial_director_multi: I'm enjoying the progress. The "show" part is something else entirely.
+    ↩ (goto) global_nexus_colonial_director_multi: Honestly, an outpost on Kadara? Where the worst of our exiles staked their claim?
+└─ merge ─┘

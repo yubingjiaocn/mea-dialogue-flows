@@ -1,0 +1,45 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0230_cliff_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0230_cliff_b.xml
+==================================================
+global_squad_male_human: There! We get up that cliff, we can find high ground.
+global_squad_male_human: Come on!
+Hero: Not sure we want to be the tallest thing around here.
+global_squad_male_human: I think I can see a path up. We'll use the jump-jets if we have to.
+Hero: Into the breach...
+global_squad_male_human: Think I'd rather fall than get hit by lightning.
+Hero: Give it a minute—we can probably do both.
+Hero: We can do this.
+Hero: Right?
+global_squad_male_human: Just don't look down.
+Hero: This is going to be close!
+global_squad_male_human: Beachfront property, huh?
+global_squad_male_human: That's it. We're getting there.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Think I see the top.
+├ option 2:
+    global_squad_male_human: There you go.
+└─ merge ─┘
+↩ (goto) Hero: Think I see the top.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: More glowing mushrooms.
+    global_squad_male_human: Are they making that noise?
+    Hero: No. Coming from inside the mountain.
+├ option 2:
+    Hero: Hey, glowing mushrooms.
+└─ merge ─┘
+Hero: Detecting a lot of energy. Can't make heads or tails of it, but it's powerful.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Man, you can smell the ozone.
+├ option 2:
+    global_squad_male_human: I've seen a lot of crazy places in my time, but nothing like this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Well, we wanted adventure, didn't we?
+    ├ option 2:
+        Hero: Yeah, something's just... wrong.
+    └─ merge ─┘
+└─ merge ─┘

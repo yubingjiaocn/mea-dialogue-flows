@@ -1,0 +1,69 @@
+# game/conversations/unc/olw/cerberus/olw_cerb_0150_scan_villagers_b
+# Primary speaker: SAM
+# Source: game/conversations/unc/olw/cerberus/olw_cerb_0150_scan_villagers_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: This person shows signs of the same outside interference. I have now traced the source of the signal.
+        SAM: Marking the navpoint on your map.
+    ├ option 2:
+        SAM: I'm detecting unusual neural activity in this person. An outside signal is interfering with their brain pattern.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: What can we do for them?
+            SAM: Nothing immediate. Though if you scan others, I may be able to locate the source of the signal.
+        ├ option 2:
+            SAM: Further scans are required.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: This person's mind is now in a heighted state of bliss. Small comfort perhaps, but it's an improvement.
+├ option 3:
+    SAM: This person's brain activity shows a lack of cohesive pattern. Their mental process is scattered.
+├ option 4:
+    SAM: The signal remains unchanged and in effect.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 2:
+        SAM: They exhibit unusual brain actitivy. An outside signal is affecting their thought process.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) SAM [OncePerGame]: [empty]
+        ├ option 2:
+            ↩ (goto) SAM [OncePerGame]: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) SAM: This person's mind is now in a heighted state of bliss. Small comfort perhaps, but it's an improvement.
+├ option 3:
+    ↩ (goto) SAM: This person's brain activity shows a lack of cohesive pattern. Their mental process is scattered.
+├ option 4:
+    ↩ (goto) SAM: The signal remains unchanged and in effect.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 2:
+        SAM: He exhibits relatively normal brain activity, though there are signs of highly elevated stress.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) SAM [OncePerGame]: [empty]
+        ├ option 2:
+            ↩ (goto) SAM [OncePerGame]: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) SAM: This person's mind is now in a heighted state of bliss. Small comfort perhaps, but it's an improvement.
+├ option 3:
+    ↩ (goto) SAM: This person's brain activity shows a lack of cohesive pattern. Their mental process is scattered.
+├ option 4:
+    ↩ (goto) SAM: The signal remains unchanged and in effect.
+└─ merge ─┘

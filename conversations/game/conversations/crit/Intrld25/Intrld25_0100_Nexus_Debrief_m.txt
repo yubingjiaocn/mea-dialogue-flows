@@ -1,0 +1,144 @@
+# Game/Conversations/Crit/Intrld25/Intrld25_0100_Nexus_Debrief_m
+# Primary speaker: global_nexus_PI_director
+# Source: game/conversations/crit/Intrld25/Intrld25_0100_Nexus_Debrief_m.xml
+==================================================
+Nexus_Aide: Hello. Director Tann is expecting you.
+Hero: Last time I was here, this was a storage closet.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Nexus_Aide: Pathfinder Hall just needed a Pathfinder to open.
+    global_arkcon_superintendent: [Comm] We're still getting the commons area ready. Hydroponics is only at partial capacity.
+    global_nexus_PI_director: Not good enough.
+    global_arkcon_superintendent: [Comm] We don't have enough people. My workers need a break, Tann.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_nexus_PI_director: I sympathize. But not until our survival is no longer at risk. Now please excuse me, while I meet with our Pathfinder.
+        global_nexus_PI_director: Hey, Ryder. Addison told me about the outpost. You're the hero of the hour.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I guess this is one bet that paid off.
+            global_nexus_PI_director: Point taken. Always revel in your victories.
+            Hero: That's why I'm standing here.
+            global_nexus_PI_director: Oh, I never doubted you. It was the others. They don't share our vision, Ryder—of a prosperous future in Andromeda.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I suppose we agree on that much.
+                global_nexus_PI_director: I knew that given a chance, your talents would emerge.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_PI_director: Deciphering the vault... alien terraforming... it's not how we imagined all this, but a good Pathfinder improvises.
+                    global_nexus_PI_director: And a great one hangs it on the wall.
+                    global_nexus_PI_director: Yours are the first trophies to grace Pathfinder Hall. You're a symbol now, Ryder. A reason for people to believe.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: I plan on doing a lot more than that.
+                        global_nexus_PI_director: That's the confidence we need—take charge and ignore your critics.
+                        global_nexus_militia_leader: Careful—he'll end up adopting you, Ryder.
+                        global_nexus_PI_director: Ah. My... staff.
+                        global_arkcon_superintendent: {i}Colleagues{/i}. You wouldn't be looking to cut us out, would you, Tann?
+                        global_nexus_PI_director: I remind you: I am the Director of the Initiative.
+                        global_nexus_militia_leader: Acting director.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: This isn't the time for arguing over who gets to be king. Too much is at stake—we should be cooperating.
+                            global_arkcon_superintendent: That's what I've been saying since we arrived.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_nexus_PI_director ⟨cond⟩: Then I look forward to winning our Pathfinder's support.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    global_nexus_militia_leader ⟨cond⟩: I have concerns about your decision on Eos, Ryder. An outpost full of scientists won't do us much good if the kett attack.
+                                    global_arkcon_superintendent: But it will help support the Nexus. Improved research could help feed our people.
+                                    global_nexus_PI_director: And we could argue about it all day long, as we always do. The decision was made—now we move on.
+                                    global_nexus_PI_director: What is your plan for moving on, Ryder?
+                                    Hero: We have a lead on the terraforming network. I need to take the Tempest deeper into the sector to investigate.
+                                    Hero: If the other golden worlds are where they should be, this could get us closer to them.
+                                    global_nexus_militia_leader: Careful. The kett are scouring the cluster for Remnant technology. You'll end up in a fight for sure.
+                                    global_nexus_militia_leader: You might also run into Exiles. They didn't leave the Nexus on good terms.
+                                    global_arkcon_superintendent: And we still need more outposts. They're important to expanding the station.
+                                    global_nexus_PI_director: Though with arks still missing, this could be a chance for Ryder to search for them.
+                                    global_nexus_PI_director: Yes, I think that's best. You have my permission.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        Hero: I wasn't really asking for it.
+                                        global_nexus_PI_director: Of course. I support that kind of enthusiasm.
+                                        Hero: Right.
+                                    ├ option 2:
+                                        Hero: Thank you, Director. I'll get on it.
+                                        global_nexus_PI_director: May you light the torch that finds the path, Pathfinder.
+                                        ↩ (goto) Hero: Right.
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    global_arkcon_superintendent: Though I worry about your decision on Eos, Ryder. A military outpost won't help feed the Nexus, not the way scientists might have.
+                                    global_nexus_militia_leader: But it will protect us from a growing list of threats.
+                                    ↩ (goto) global_nexus_PI_director: And we could argue about it all day long, as we always do. The decision was made—now we move on.
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_nexus_PI_director: Then I look forward to winning our Pathfinder's support.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) global_nexus_militia_leader ⟨cond⟩: I have concerns about your decision on Eos, Ryder. An outpost full of scientists won't do us much good if the kett attack.
+                                ├ option 2:
+                                    ↩ (goto) global_arkcon_superintendent: Though I worry about your decision on Eos, Ryder. A military outpost won't help feed the Nexus, not the way scientists might have.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: The Director's had a rough time, stepping into a job he didn't ask for. I sympathize. Let's give him a chance.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_nexus_PI_director: As I've said all along, the Pathfinder and I are of one mind.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) global_nexus_militia_leader ⟨cond⟩: I have concerns about your decision on Eos, Ryder. An outpost full of scientists won't do us much good if the kett attack.
+                                ├ option 2:
+                                    ↩ (goto) global_arkcon_superintendent: Though I worry about your decision on Eos, Ryder. A military outpost won't help feed the Nexus, not the way scientists might have.
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_nexus_PI_director: As I've said all along, the Pathfinder and I are of one mind.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) global_nexus_militia_leader ⟨cond⟩: I have concerns about your decision on Eos, Ryder. An outpost full of scientists won't do us much good if the kett attack.
+                                ├ option 2:
+                                    ↩ (goto) global_arkcon_superintendent: Though I worry about your decision on Eos, Ryder. A military outpost won't help feed the Nexus, not the way scientists might have.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: It wouldn't have been possible without my crew. They're a talented bunch.
+                        global_nexus_PI_director: But you're their beacon.
+                        ↩ (goto) global_nexus_PI_director: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_PI_director: Deciphering the vault... alien terraforming... it's not how we imagined all this, but a good Pathfinder improvises.
+                    ↩ (goto) global_nexus_PI_director: And a great one hangs it on the wall.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Due respect, Director Tann, but you don't know me.
+                global_nexus_PI_director: I think I do. Your ingenuity speaks for itself, Ryder.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_PI_director: Deciphering the vault... alien terraforming... it's not how we imagined all this, but a good Pathfinder improvises.
+                ├ option 2:
+                    ↩ (goto) global_nexus_PI_director: Deciphering the vault... alien terraforming... it's not how we imagined all this, but a good Pathfinder improvises.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Let's hold off on the celebration. We haven't found home yet.
+            global_nexus_PI_director: There's no need for modesty. Success affords leverage over those who doubted you.
+            Hero: And you're my best friend?
+            global_nexus_PI_director: A patron—one who shares your vision of a prosperous future.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: I suppose we agree on that much.
+            ├ option 2:
+                ↩ (goto) Hero: Due respect, Director Tann, but you don't know me.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_nexus_PI_director: I sympathize. But not until our survival is no longer at risk. Now please excuse me, while I meet with our Pathfinder.
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 2:
+    Nexus_Aide: Pathfinder Hall just needed a Pathfinder to open.
+    ↩ (goto) Nexus_Aide: [empty]
+└─ merge ─┘

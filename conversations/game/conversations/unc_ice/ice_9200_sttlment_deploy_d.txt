@@ -1,0 +1,122 @@
+# game/conversations/unc_ice/ice_9200_sttlment_deploy_d
+# Primary speaker: ice_priyablake
+# Source: game/conversations/unc_ice/ice_9200_sttlment_deploy_d.xml
+==================================================
+ice_priyablake [OncePerGame]: Pleasure to meet you, Pathfinder. Priya Blake, captain of Outpost Taerve Uni.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_priyablake ⟨cond⟩ [OncePerGame]: I'm glad you're here. I thought we'd have to deal with this on our own.
+    Hero: What's the problem? Is it the kett?
+    ice_priyablake: No. At least, I don't think so.
+    ice_priyablake: A few of my drill technicians went missing on a research expedition west of here.
+    ice_priyablake: We've tried their comms, but get nothing but static.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Do you know where they were headed?
+        ice_priyablake: I know the route, but we lost their tracking signal halfway through. I don't know how far they got.
+        ice_priyablake: We tried to look at their research notes, but the data is corrupted. We have zero leads.
+        ice_priyablake: I was supposed to keep these people safe. I've already failed them.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Don't lose hope. I'll find your people.
+            ice_priyablake: Coming from you, I believe it.
+            ice_priyablake: Their research log is in the lab. Maybe your AI can piece together the corrupted data and get a navpoint.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                Hero: You picked a mouthful of a name for the outpost.
+                ice_priyablake: It's Shelesh—angaran language. Means "forward together."
+                ice_priyablake: It represents the close relationship we have with the angara here on Voeld.
+                Hero: Glad to hear you're working together.
+                ice_priyablake: This is their world. Because of you, they trusted us enough to give us a place in it.
+                ice_priyablake: Now it's my job to cement that bond. We'll do our best to earn what they've given us.
+                ↩ (goto) ice_priyablake: [empty]
+            ├ option 2:
+                Hero: We're staking a claim, but what does the Initiative want with Voeld?
+                ice_priyablake: Look at the landscape. What do you see?
+                Hero: Ice. A lot of ice.
+                ice_priyablake: {i}Water.{/i} Voeld is a massive, endless source of it. We're proud to serve as the Initiative's first ice runners.
+                ice_priyablake: We mine the ice here and haul it to colonies where water is scarce.
+                Hero: Like Eos.
+                ice_priyablake: Even the Nexus. The more people we wake from cryo, the more resources we'll need.
+                ice_priyablake: Our ice runners make sure water is never a problem.
+                ↩ (goto) ice_priyablake: [empty]
+            ├ option 3:
+                Hero: Were you in the Alliance, too?
+                ice_priyablake: I was an Alliance officer for a decade before I got sick of being a pawn in the Council's power plays.
+                ice_priyablake: Heard about the Initiative and figured it'd be a fresh start. A chance to make a real difference.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: You ever miss the Alliance?
+                    ice_priyablake: Given the chance, I'd make this choice all over again. But when I see the Resistance push against the kett...
+                    ice_priyablake: Makes me wonder if my days behind a gun aren't really over.
+                    ↩ (goto) ice_priyablake: [empty]
+                ├ option 2:
+                    Hero: I'm ex-Alliance, too. You ever miss it?
+                    ↩ (goto) ice_priyablake: Given the chance, I'd make this choice all over again. But when I see the Resistance push against the kett...
+                └─ merge ─┘
+            ├ option 4:
+                Hero: I have to say, I'm surprised the angara let us put an outpost here.
+                ice_priyablake: A portion of the ice we mine goes to their blockade runners, who take it to Resistance bases all over the cluster.
+                Hero: Water for their soldiers.
+                ice_priyablake: It feels good to do our part against the kett. However small.
+                ↩ (goto) ice_priyablake: [empty]
+            ├ option 5:
+                Hero ⟨cond⟩ [OncePerGame]: I tracked down your missing drill techs. They... didn't make it.
+                ice_priyablake: I'll send a team out to recover the bodies. They deserve a proper burial.
+                ice_priyablake: And Pathfinder... thank you.
+                ↩ (goto) ice_priyablake: [empty]
+            ├ option 6:
+                Hero: I should head out.
+                ice_priyablake: Come back if you need anything.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: If they're not responding to comms, this could have a bad ending.
+            ice_priyablake: I know. But the least I can do is prevent it from happening again.
+            ↩ (goto) ice_priyablake: Their research log is in the lab. Maybe your AI can piece together the corrupted data and get a navpoint.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Whatever happened, they're not safe out there. We need to find them.
+        ice_priyablake: We're not equipped for a full search, especially into dangerous territory.
+        ice_priyablake: I don't know what to do.
+        ↩ (goto) ice_priyablake: I was supposed to keep these people safe. I've already failed them.
+    └─ merge ─┘
+├ option 2:
+    ice_priyablake: You're welcome to anything you need here.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Have the kett given you any trouble?
+        ice_priyablake: Not yet. But most of us are ex-Alliance, so we can handle ourselves in a fight.
+        ice_priyablake: And the Resistance have our backs, in case of an emergency.
+        ↩ (goto) ice_priyablake: [empty]
+    ├ option 2:
+        Hero: Hope you like chilly weather.
+        ice_priyablake: Our environment suits keep the worst of the cold out.
+        ice_priyablake: Besides, most of us are ex-Alliance. We've endured worse.
+        ↩ (goto) ice_priyablake: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) ice_priyablake ⟨cond⟩ [OncePerGame]: I'm glad you're here. I thought we'd have to deal with this on our own.
+ice_priyablake ⟨cond⟩ [OncePerGame]: Pathfinder. My scouts told me about your run-in with the Architect.
+ice_priyablake: I lost good people to that thing. Drill technicians who went there on an expedition.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I pacified it. You won't get any more trouble.
+    ice_priyablake: I should've known about it in the first place. I was supposed to protect those scientists.
+    ice_priyablake: At least I know the rest of my people are safe. Thanks to you.
+    ↩ (goto) ice_priyablake: [empty]
+├ option 2:
+    Hero: It's not easy losing people under your command.
+    ice_priyablake: It's my fault. I shouldn't have let them search that far out. I failed them.
+    ↩ (goto) ice_priyablake: At least I know the rest of my people are safe. Thanks to you.
+└─ merge ─┘
+ice_priyablake: Pathfinder.
+↩ (goto) ice_priyablake: [empty]
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_priyablake: It's partly your doing. Your raid on that kett base made quite an impact.
+    ice_priyablake: But we also reached an agreement that benefits them.
+├ option 2:
+    ice_priyablake: I see... What happened to them?
+    Hero: It was an Architect. I took care of it.
+    ice_priyablake: Then you've done us a great service. It's comforting to know the rest of my people are safe.
+└─ merge ─┘

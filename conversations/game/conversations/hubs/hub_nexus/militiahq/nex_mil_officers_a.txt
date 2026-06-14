@@ -1,0 +1,47 @@
+# game/conversations/hubs/hub_nexus/militiahq/nex_mil_officers_a
+# Primary speaker: nex_mil_officer_01
+# Source: game/conversations/hubs/hub_nexus/militiahq/nex_mil_officers_a.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    nex_mil_officer_01 ⟨cond⟩ [OncePerGame]: Then you take the new angara recruits...
+    nex_mil_officer_02: No, that's on you. The boss wants them certified with our firearms.
+    nex_mil_officer_01: I can't. A new species? What if I...
+    nex_mil_officer_01: You know. Offend them. Screw up everything our diplomats have done.
+    global_nexus_militia_leader: You're showing them guns, Sajax, not how to use a salad fork.
+├ option 2:
+    nex_mil_officer_02 [OncePerGame]: Another brawl on the docks. Probably smuggling trouble again.
+    global_nexus_militia_leader: So authorize a sweep. Not everything has to come through me.
+    nex_mil_officer_02: The patrol trained under Kelly. They're nervous without authorization from the top.
+    global_nexus_militia_leader: Push back. Sloane Kelly's gone, Nels. So is the way she ran security.
+├ option 3:
+    nex_mil_officer_01 [OncePerGame]: Ugh, these guidelines for new recruits are killing me.
+    nex_mil_officer_01: When I was a merc, you figured out rookies with your gut. Not some questionnaire.
+    nex_mil_officer_02: Exactly. Mercenaries run things their way. Police run things by the book.
+    nex_mil_officer_01: But we're a militia.
+    nex_mil_officer_02: Which is policing the Nexus. Got to do both.
+├ option 4:
+    nex_mil_officer_01 [OncePerGame]: Plus they bagged a dozen kett in their last engagement. No casualties.
+    global_nexus_militia_leader: I'd say all that's worth a three-day pass.
+    nex_mil_officer_01: Got it, boss. I'll send the usual warning to the bar.
+├ option 5:
+    nex_mil_officer_02 [OncePerGame]: But the best beat was the Presidium. You'd made it in C-Sec if you were posted there.
+    nex_mil_officer_01: I only saw the Citadel in vids. Was there really a lake?
+    nex_mil_officer_02: I still know the best place to fish a drunken ambassador out of it.
+├ option 6:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_nexus_militia_leader: I want a report by tomorrow.
+    ├ option 2:
+        nex_mil_officer_02: The suspect's in custody.
+    ├ option 3:
+        nex_mil_officer_01: APEX is doing a sweep.
+    ├ option 4:
+        global_nexus_militia_leader: Fix it. I'll handle any fallout.
+    ├ option 5:
+        nex_mil_officer_02: I'll talk to our informants.
+    ├ option 6:
+        nex_mil_officer_01: Firearm proficiency is up.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) nex_mil_officer_01: [empty]

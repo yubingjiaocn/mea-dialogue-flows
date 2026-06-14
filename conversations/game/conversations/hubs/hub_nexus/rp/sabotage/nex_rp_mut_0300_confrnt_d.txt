@@ -1,0 +1,25 @@
+# game/conversations/hubs/hub_nexus/rp/sabotage/nex_rp_mut_0300_confrnt_d
+# Primary speaker: nex_rp_sabotage_03
+# Source: game/conversations/hubs/hub_nexus/rp/sabotage/nex_rp_mut_0300_confrnt_d.xml
+==================================================
+Hero: Zarah Kellus?
+nex_rp_sabotage_03: Yes?
+Hero: I have evidence you've been sabotaging the Nexus.
+nex_rp_sabotage_03: What? No! I'd never—I've been looking into this myself. I have the scans to prove it!
+nex_rp_sabotage_03: Here—I'll transfer the scans I took to your omni-tool.
+Hero: Funny. Raj was investigating the same thing—and it led us to you.
+nex_rp_sabotage_03: My scans point at Raj as the one... so unless someone was setting us both up, I just don't understand.
+SAM: [Private] The data Miss Kellus has accumulated is strangely similar to Mr Patil's. A third party seems likely.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The real saboteur could be setting you both up.
+    nex_rp_sabotage_03: Because we both figured out something was going on? That would make sense.
+    nex_rp_sabotage_03: It's better than thinking Raj could have done this. But it means all the data I have is useless.
+    nex_rp_sabotage_03: Wish I had access to the security cams. I bet we could find something there.
+    Hero: You stay put, so whoever did this doesn't realize we're on to them.
+    Hero: I'll check out the security cams.
+├ option 2:
+    Hero: Looks like someone is using both you and Raj to cover their tracks.
+    nex_rp_sabotage_03: They'd need pretty high level access for that. Still.
+    ↩ (goto) nex_rp_sabotage_03: It's better than thinking Raj could have done this. But it means all the data I have is useless.
+└─ merge ─┘

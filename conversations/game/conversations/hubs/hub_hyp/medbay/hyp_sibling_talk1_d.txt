@@ -1,0 +1,344 @@
+# game/conversations/hubs/hub_hyp/medbay/hyp_sibling_talk1_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_hyp/medbay/hyp_sibling_talk1_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Harry, what's happening with Scott?
+    global_crew_doctor_multi ⟨cond⟩: Well, we got him out of the pod. I don't want to get your hopes up, but SAM managed to, uh... "find" him, you might say.
+    Hero: I don't follow.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_crew_doctor_multi ⟨cond⟩: Well, he's still in a coma. But he also has an implant like yours. And SAM managed to access it.
+        global_crew_doctor_multi: He's made contact.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: That's incredible—she's okay?
+            global_crew_doctor_multi: Vitals are steady, but I'm letting SAM take the lead on this one.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                SAM ⟨cond⟩: Though in a coma, Scott's mental processes remain intact.
+                Hero: So is he okay?
+                SAM: You can ask him yourself. A moment while I establish a link with his implant.
+                SAM: Proceed.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Scott? Can you hear me?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_sibling_male ⟨cond⟩: [Via SAM] Is that you, Sara? I don't understand... what's happening?
+                        Hero: There was a problem with your stasis pod. You're in a coma, on the Hyperion. Do you understand?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_sibling_male ⟨cond⟩: [Via SAM] Wow, really? How are we talking?
+                            Hero: SAM linked in to your implant. But they say you're stable. You're safe and sound in the med-bay.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_sibling_male ⟨cond⟩: [Via SAM] Guess I'll take your word for it. I can't feel anything, but I still hear you.
+                                global_sibling_male: [Via SAM] Is Dad okay?
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: He's... away on a mission right now. I know he's worried about you, though.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_sibling_male ⟨cond⟩: [Via SAM] Yeah, sure he is. I'm probably just lost luggage to him by now.
+                                        Hero: {i}(Chuckles.){/i} You're wrong. He cares.
+                                        global_sibling_male: [Via SAM] Well, at least he's barking orders at you and not me.
+                                        Hero: Yeah.
+                                        global_sibling_male: [Via SAM] So how's our new home? Does Habitat 7 live up to the hype?
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            Hero: Just wait'll you see it. It's amazing. Even better than the hype.
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    global_sibling_male ⟨cond⟩: [Via SAM] I hope Dad got to see it.
+                                                    Hero: He did.
+                                                    global_sibling_male: [Via SAM] I should be with you now.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        Hero: You were never one to quit, little brother. A nap won't hold you back.
+                                                        ┌─ BRANCH (3) ─┐
+                                                        ├ option 1:
+                                                            global_sibling_male ⟨cond⟩: [Via SAM] Yeah. I guess so.
+                                                            global_sibling_male: [Via SAM] Dad would want us to push on.
+                                                            Hero: So would Mom.
+                                                            global_sibling_male: [Via SAM] Yeah. Wherever they are, I figure Mom is giving him the business for—
+                                                            Hero: What happened?
+                                                            ┌─ BRANCH (2) ─┐
+                                                            ├ option 1:
+                                                                SAM ⟨cond⟩: The connection was only temporary. His condition remains stable.
+                                                                global_crew_doctor_multi: Sorry. It seemed better than nothing. I'll keep you posted, promise.
+                                                                Hero: Thanks, Harry.
+                                                            ├ option 2:
+                                                                SAM: The connection was only temporary. Her condition remains stable.
+                                                                ↩ (goto) global_crew_doctor_multi: Sorry. It seemed better than nothing. I'll keep you posted, promise.
+                                                            └─ merge ─┘
+                                                        ├ option 2:
+                                                            global_sibling_male ⟨cond⟩: [Via SAM] Oh, I don't know. I could get used to this. A nice IV drip... nurses to keep me company...
+                                                            Hero: Slacker.
+                                                            ┌─ BRANCH (2) ─┐
+                                                            ├ option 1:
+                                                                ↩ (goto) global_sibling_male: [Via SAM] Yeah. Wherever they are, I figure Mom is giving him the business for—
+                                                            ├ option 2:
+                                                                global_sibling_male: [Via SAM] Tell Dad—
+                                                                ↩ (goto) global_sibling_female: [empty]
+                                                            └─ merge ─┘
+                                                        ├ option 3:
+                                                            global_sibling_male: [Via SAM] Someone has to keep an eye on Dad—he doesn't mind snow. No way I'm living on some North Pole.
+                                                            Hero: I'm sure we can arrange for a desert.
+                                                            ↩ (goto) global_sibling_male: [Via SAM] Tell Dad—
+                                                        └─ merge ─┘
+                                                    ├ option 2:
+                                                        Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                        ┌─ BRANCH (2) ─┐
+                                                        ├ option 1:
+                                                            ┌─ BRANCH (3) ─┐
+                                                            ├ option 1:
+                                                                global_sibling_male ⟨cond⟩: [Via SAM] {i}(Sighs.){/i} I guess that's something.
+                                                                ↩ (goto) global_sibling_male: [Via SAM] Dad would want us to push on.
+                                                            ├ option 2:
+                                                                global_sibling_male ⟨cond⟩: [Via SAM] That was always my plan. Let you guys do all the hard work, then I'll wake up and take credit.
+                                                                ↩ (goto) Hero: Slacker.
+                                                            ├ option 3:
+                                                                global_sibling_male: [Via SAM] Just as long as we find home. Once I get over this small case of the coma, I'm on it. You're not getting all the credit.
+                                                                Hero: Better hurry.
+                                                                ↩ (goto) global_sibling_male: [Via SAM] Tell Dad—
+                                                            └─ merge ─┘
+                                                        ├ option 2:
+                                                            ┌─ BRANCH (3) ─┐
+                                                            ├ option 1:
+                                                                global_sibling_female ⟨cond⟩: [Via SAM] That makes me feel better.
+                                                                global_sibling_female: [Via SAM] {i}(Sighs.){/i} At least Mom and Dad are back together. Somewhere.
+                                                                Hero: We will be, too. Right here.
+                                                                global_sibling_female: [Via SAM] I hope so. I—
+                                                                ↩ (goto) global_sibling_female: [empty]
+                                                            ├ option 2:
+                                                                global_sibling_female ⟨cond⟩: [Via SAM] Sure, make me jealous. But tell Dad to save some for me. There's a mountain out there needs naming—it's mine.
+                                                                Hero: You got it.
+                                                                global_sibling_female: [Via SAM] And then—
+                                                                ↩ (goto) global_sibling_female: [empty]
+                                                            ├ option 3:
+                                                                global_sibling_female: [Via SAM] I want in on it. Soon as I'm up, I'm helping you and Dad find home.
+                                                                ↩ (goto) Hero: You got it.
+                                                            └─ merge ─┘
+                                                        └─ merge ─┘
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    global_sibling_female: [Via SAM] At least that's something.
+                                                    global_sibling_female: [Via SAM] But I should be there with you.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        Hero: Well, you were never one to quit, Sara. A little nap won't hold you back.
+                                                        ┌─ BRANCH (3) ─┐
+                                                        ├ option 1:
+                                                            global_sibling_female ⟨cond⟩: [Via SAM] Right.
+                                                            ↩ (goto) global_sibling_female: [Via SAM] {i}(Sighs.){/i} At least Mom and Dad are back together. Somewhere.
+                                                        ├ option 2:
+                                                            global_sibling_female ⟨cond⟩: [Via SAM] Hell no, it won't. Tell Dad to save some for me. There's a mountain out there needs naming—it's mine.
+                                                            ↩ (goto) Hero: You got it.
+                                                        ├ option 3:
+                                                            global_sibling_female: [Via SAM] Hell no, it won't. Soon as I'm up, I'm helping you and Dad find home.
+                                                            ↩ (goto) Hero: You got it.
+                                                        └─ merge ─┘
+                                                    ├ option 2:
+                                                        ↩ (goto) Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                    └─ merge ─┘
+                                                └─ merge ─┘
+                                            ├ option 2:
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    global_sibling_male ⟨cond⟩: [Via SAM] That's great news.
+                                                    Hero: We're busy getting colonies up and running.
+                                                    global_sibling_male: [Via SAM] {i}(Frustrated sigh.){/i} And if I could move any part of my body, I'd be there helping you guys.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        ↩ (goto) Hero: You were never one to quit, little brother. A nap won't hold you back.
+                                                    ├ option 2:
+                                                        ↩ (goto) Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    global_sibling_female: [Via SAM] That's fantastic. So many things could've gone wrong.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        global_sibling_female ⟨cond⟩: [Via SAM] Though I guess you won our bet: first boots on the ground.
+                                                        Hero: I think we can make an exception for comas.
+                                                        global_sibling_female: [Via SAM] Thanks a lot. I should be there helping you guys.
+                                                        ┌─ BRANCH (2) ─┐
+                                                        ├ option 1:
+                                                            ↩ (goto) Hero: Well, you were never one to quit, Sara. A little nap won't hold you back.
+                                                        ├ option 2:
+                                                            ↩ (goto) Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                        └─ merge ─┘
+                                                    ├ option 2:
+                                                        global_sibling_female: [Via SAM] Now I've got a reason to get out of this. You can't have all the fun.
+                                                        Hero: There's plenty of hard work, too.
+                                                        global_sibling_female: [Via SAM] It's what I signed up for. I should be helping you guys.
+                                                        ┌─ BRANCH (2) ─┐
+                                                        ├ option 1:
+                                                            ↩ (goto) Hero: Well, you were never one to quit, Sara. A little nap won't hold you back.
+                                                        ├ option 2:
+                                                            ↩ (goto) Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                        └─ merge ─┘
+                                                    └─ merge ─┘
+                                                └─ merge ─┘
+                                            └─ merge ─┘
+                                        ├ option 2:
+                                            Hero: There's been some... complications. The golden worlds didn't exactly deliver.
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    global_sibling_male ⟨cond⟩: [Via SAM] I don't understand... I thought...
+                                                    Hero: Scott?
+                                                    global_sibling_male: [Via SAM] This is... this is all wrong... this... is a nightmare...
+                                                    Hero: Scott, it's okay, I didn't mean to—
+                                                    global_sibling_male: [Via SAM] I don't feel well.
+                                                    SAM: His pulse rate is increasing rapidly.
+                                                    global_crew_doctor_multi: That's enough for now. He needs to rest.
+                                                    Hero: Scott...
+                                                ├ option 2:
+                                                    global_sibling_female: [Via SAM] But... Dad said...
+                                                    Hero: Sara?
+                                                    global_sibling_female: [Via SAM] I... am I dreaming? Where am I?
+                                                    Hero: Sara, I'm sorry—
+                                                    global_sibling_female: [Via SAM] I need to go now.
+                                                    SAM: Her pulse rate is increasing rapidly.
+                                                    global_crew_doctor_multi: That's enough. It's too stressful.
+                                                    Hero: Sara...
+                                                └─ merge ─┘
+                                            ├ option 2:
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    global_sibling_male ⟨cond⟩: [Via SAM] Well, that's rough.
+                                                    global_sibling_male: [Via SAM] But we knew it could happen. That's why we brought Dad, right? Find us a place to live.
+                                                    Hero: He's on it.
+                                                    global_sibling_male: [Via SAM] Damn, I need to be there helping you guys.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        ↩ (goto) Hero: You were never one to quit, little brother. A nap won't hold you back.
+                                                    ├ option 2:
+                                                        ↩ (goto) Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                    └─ merge ─┘
+                                                ├ option 2:
+                                                    global_sibling_female: [Via SAM] Damn.
+                                                    global_sibling_female: [Via SAM] Well, we knew it could get rough. Dad will find us a place to live.
+                                                    Hero: Yeah. I'm sure he will.
+                                                    global_sibling_female: [Via SAM] And I should be there helping you guys do it.
+                                                    ┌─ BRANCH (2) ─┐
+                                                    ├ option 1:
+                                                        ↩ (goto) Hero: Well, you were never one to quit, Sara. A little nap won't hold you back.
+                                                    ├ option 2:
+                                                        ↩ (goto) Hero: You will, and you're going to love it. There's a new discovery every day.
+                                                    └─ merge ─┘
+                                                └─ merge ─┘
+                                            └─ merge ─┘
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        global_sibling_female: [Via SAM] Yeah, I know Dad—he probably said "She'll live" and went off to go study some new form of algae.
+                                        Hero: {i}(Chuckles.){/i} It wasn't like it that. He cares.
+                                        global_sibling_female: [Via SAM] How many times has he yelled at you so far?
+                                        Hero: Oh, the usual.
+                                        global_sibling_female: [Via SAM] Well when he gets back, tell him he needs to stop picking on my little brother.
+                                        global_sibling_female: [Via SAM] What's home like? Is Habitat 7 as beautiful as they promised?
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) Hero: Just wait'll you see it. It's amazing. Even better than the hype.
+                                        ├ option 2:
+                                            ↩ (goto) Hero: There's been some... complications. The golden worlds didn't exactly deliver.
+                                        └─ merge ─┘
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    Hero ⟨cond⟩: I'm not sure how to say this, but... he's dead, Scott.
+                                    global_sibling_male: [Via SAM] What?
+                                    Hero: There was... an accident.
+                                    global_sibling_male: [Via SAM] What do you... accident? How... I mean, Dad...
+                                    Hero: I know. It was all very sudden. Nothing anyone could do.
+                                    global_sibling_male: [Via SAM] I don't believe it.
+                                    Hero: I'm sure he'd want to be here now.
+                                    global_sibling_male: [Via SAM] Did we at least find home? Dad kept talking about how amazing it would be.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        ↩ (goto) Hero: Just wait'll you see it. It's amazing. Even better than the hype.
+                                    ├ option 2:
+                                        ↩ (goto) Hero: There's been some... complications. The golden worlds didn't exactly deliver.
+                                    └─ merge ─┘
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_sibling_female: [Via SAM] This is so weird. I hear you, but I can't feel anything.
+                                global_sibling_female: [Via SAM] Where's Dad? Is he doing okay?
+                                ┌─ BRANCH (3) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: He's... away on a mission right now. I know he's worried about you, though.
+                                ├ option 2:
+                                    ↩ (goto) Hero ⟨cond⟩: I'm not sure how to say this, but... he's dead, Scott.
+                                ├ option 3:
+                                    Hero ⟨cond⟩: I don't know how to say this, but... he's dead, Sara.
+                                    global_sibling_female: [Via SAM] What?
+                                    Hero: It was a freak accident.
+                                    global_sibling_female: [Via SAM] But... it's Dad. He can't die. He...
+                                    Hero: I know. It's been hard on everyone.
+                                    global_sibling_female: [Via SAM] I didn't get to say goodbye.
+                                    Hero: No one did.
+                                    global_sibling_female: [Via SAM] What about finding home? Dad kept telling me how beautiful it would be.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        ↩ (goto) Hero: Just wait'll you see it. It's amazing. Even better than the hype.
+                                    ├ option 2:
+                                        ↩ (goto) Hero: There's been some... complications. The golden worlds didn't exactly deliver.
+                                    └─ merge ─┘
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_sibling_female: [Via SAM] I... I think so. Am I dreaming?
+                            ↩ (goto) Hero: SAM linked in to your implant. But they say you're stable. You're safe and sound in the med-bay.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_sibling_male: [Via SAM] Is that you, sis? I don't understand... what's happening?
+                        ↩ (goto) Narration: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Sara? Can you hear me?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_sibling_female ⟨cond⟩: [Via SAM] Scott? Is that you? What's happening? Where am I?
+                        ↩ (goto) Narration: [empty]
+                    ├ option 2:
+                        global_sibling_female: [Via SAM] Is that you, little brother? What's happening? Where am I?
+                        ↩ (goto) Narration: [empty]
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                SAM: Though in a coma, Sara's mental processes remain intact.
+                Hero: So is she okay?
+                SAM: You can ask her yourself. A moment while I establish a link with her implant.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: That's incredible—he's okay?
+            ↩ (goto) global_crew_doctor_multi: Vitals are steady, but I'm letting SAM take the lead on this one.
+        ├ option 3:
+            Hero: I wouldn't think that's even possible.
+            global_crew_doctor_multi: You and me both. But SAM... well, I guess supercomputers have a different view of things.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) SAM ⟨cond⟩: Though in a coma, Scott's mental processes remain intact.
+            ├ option 2:
+                ↩ (goto) SAM: Though in a coma, Sara's mental processes remain intact.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_crew_doctor_multi: Well, she's still in a coma. But she also has an implant like yours. And SAM managed to access it.
+        ↩ (goto) global_crew_doctor_multi: He's made contact.
+    └─ merge ─┘
+├ option 2:
+    Hero: Harry, what's happening with Sara?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_crew_doctor_multi ⟨cond⟩: Well, we got him out of the pod. I don't want to get your hopes up, but SAM managed to, uh... "find" him, you might say.
+    ├ option 2:
+        global_crew_doctor_multi: Well, we got her out of the pod. I don't want to get your hopes up, but SAM managed to, uh... "find" her, you might say.
+        ↩ (goto) Hero: I don't follow.
+    └─ merge ─┘
+└─ merge ─┘

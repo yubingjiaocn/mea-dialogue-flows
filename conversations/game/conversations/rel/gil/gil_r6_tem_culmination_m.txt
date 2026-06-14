@@ -1,0 +1,118 @@
+# game/conversations/rel/gil/gil_r6_tem_culmination_m
+# Primary speaker: Hero
+# Source: game/conversations/rel/gil/gil_r6_tem_culmination_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_tech_officer: Your place?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Come here.
+        global_crew_tech_officer: There's just something I need to say first.
+        Hero: Okay.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_crew_tech_officer: I knew you were using SAM to beat me at poker.
+                Hero: Oh yeah?
+                global_crew_tech_officer: Have to say, it was pretty obvious.
+                global_crew_tech_officer: And it didn't phase me—if I had SAM, I might've done the same—but...
+                global_crew_tech_officer: I'm serious about you, Ryder. And I want to do this right. I want absolute trust.
+                global_crew_tech_officer: I've never had that in a relationship. Honestly, I'm usually drawn to the danger of {i}not{/i} having that. But with you, here...
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: We have enough danger in our lives.
+                    global_crew_tech_officer: Exactly.
+                    global_crew_tech_officer: We should always know we have each other's back, that we can be completely real with each other.
+                    global_crew_tech_officer: So, even though we're both... worked up here...
+                    global_crew_tech_officer: We don't have to go too far. We can take it however you want. Fast, slow, now, later.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: There's something to be said for a little... deferred gratification.
+                        global_crew_tech_officer: Building anticipation is good.
+                        Hero: Doesn't mean we have to slam all the way down on the brakes.
+                        global_crew_tech_officer: Oh good.
+                        global_crew_tech_officer: You're making me a better man, Ryder.
+                        global_crew_tech_officer: So, is it too early to use the L word?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Actions speak {i}louder{/i} than words.
+                            global_crew_tech_officer: Give me a man of action any day.
+                        ├ option 2:
+                            Hero: Not for me. I love you, Gil.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_crew_tech_officer ⟨cond⟩: I love you, too, Scott.
+                                ↩ (goto) Narration: [empty]
+                            ├ option 2:
+                                global_crew_tech_officer: I love you, too, Ryder.
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: I trust you, Gil. And I want you.
+                        global_crew_tech_officer: Oh good.
+                        ↩ (goto) Narration: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: You want to feel safe. Me, too.
+                    global_crew_tech_officer: That's what it's about.
+                    ↩ (goto) global_crew_tech_officer: We should always know we have each other's back, that we can be completely real with each other.
+                └─ merge ─┘
+            ├ option 2:
+                global_crew_tech_officer: I love that you admitted to using SAM to win at poker.
+                ↩ (goto) global_crew_tech_officer: And it didn't phase me—if I had SAM, I might've done the same—but...
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) global_crew_tech_officer: I'm serious about you, Ryder. And I want to do this right. I want absolute trust.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Not just yet.
+    └─ merge ─┘
+├ option 2:
+    global_crew_tech_officer: Hi.
+    Hero: Hi.
+    global_crew_tech_officer: Wanna get out of here?
+    Hero: Now?
+    global_crew_tech_officer: Yes. Your place.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Can you hold that thought for a bit?
+        global_crew_tech_officer: Of course. You know where to find me.
+        ↩ (goto) global_crew_tech_officer: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Nah, {i}you're{/i} doing that.
+    global_crew_tech_officer: Yeah, yeah. Just take the compliment, will ya?
+├ option 2:
+    Hero: That's a two-way street, Gil.
+    global_crew_tech_officer: Aw, you know just what to say.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (10) ─┐
+├ option 1:
+    Hero: DNR -- EXERTION -- stringID 218109
+├ option 2:
+    Hero: DNR -- EXERTION -- stringID 218103
+├ option 3:
+    Hero: DNR -- EXERTION -- stringID 218105
+├ option 4:
+    Hero: DNR -- EXERTION -- stringID 218107
+├ option 5:
+    Hero: DNR -- EXERTION -- stringID 218101
+├ option 6:
+    Hero: DNR -- EXERTION -- stringID 218110
+├ option 7:
+    Hero: DNR -- EXERTION -- stringID 218104
+├ option 8:
+    Hero: DNR -- EXERTION -- stringID 218111
+├ option 9:
+    Hero: DNR -- EXERTION -- stringID 218102
+├ option 10:
+    Hero: DNR -- EXERTION -- stringID 218106
+└─ merge ─┘

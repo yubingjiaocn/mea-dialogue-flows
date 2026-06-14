@@ -1,0 +1,75 @@
+# game/conversations/unc_dunes/dune_0490_q1_krgn_cave_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0490_q1_krgn_cave_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: These were the guys with Strux. What are they shooting at us for?
+    Hero: Hiding something?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Like a drive core for instance?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Sweet double-crossin' krantt!
+        ├ option 2:
+            Hero: Call Drack. Let him know what's going on.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: Like a drive core for instance?
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Like a drive core for instance?
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: Like a drive core for instance?
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: Like a drive core for instance?
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: These were the guys with Strux. What are they shooting at us for?
+    ↩ (goto) Hero: Hiding something?
+├ option 3:
+    global_squad_asari ⟨cond⟩: These were the guys with Strux. What are they shooting at us for?
+    ↩ (goto) Hero: Hiding something?
+├ option 4:
+    global_squad_turian ⟨cond⟩: These were the guys with Strux. What are they shooting at us for?
+    ↩ (goto) Hero: Hiding something?
+├ option 5:
+    global_squad_male_human ⟨cond⟩: These were the guys with Strux. What are they shooting at us for?
+    ↩ (goto) Hero: Hiding something?
+└─ merge ─┘
+Hero: Gil? I need you to send an ops crew to this location. They're picking up a Remnant drive core.
+global_crew_tech_officer: [Comm] Got it. Will do.
+Hero: SAM. Change the passcode on the door to this place and transmit it to Gil.
+Hero: Keep that tech safe. It might be the most powerful thing we've found.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: I'll be glad when this is over so I can take a shower. My sweat is sweaty.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Waste of water. What you need is a good old-fashioned krogan dust bath.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Could head to Voeld and lie in a snowbank.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Could head to Voeld for a snowball fight.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Could just go run naked on Voeld.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Could head to Voeld and lie in a snowbank.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: I'll be glad when this is over. I'm going to have a long shower with some newly procured fancy soaps.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: We just picked up amazing rem-tech, but all I can think about is a shower.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Can't wait until I can take a shower. It does not smell nice in this suit.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_angara ⟨cond⟩: When this is over, I'm first in line for the shower. You don't know how I suffer out here.
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

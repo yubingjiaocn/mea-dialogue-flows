@@ -1,0 +1,171 @@
+# game/conversations/unc_dunes/dune_0201_krg_loner_i
+# Primary speaker: dune_colony_loner
+# Source: game/conversations/unc_dunes/dune_0201_krg_loner_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    dune_colony_loner [OncePerGame]: Pathfinder... when you travel, do you meet many angara?
+    Hero: Sometimes.
+    dune_colony_loner: Have you met one named Ljeta?
+    Hero: I don't think so. Why?
+    dune_colony_loner: She was a salvager. Made runs to Elaaden all the time. When she landed, she would always stop here first.
+    dune_colony_loner: We climbed the dunes together. Took in the view. Talked for hours.
+    dune_colony_loner: Ljeta had a hard time in this heat, so I said I'd make her a cryo-bracelet.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I bet she appreciated that.
+        dune_colony_loner: I never got the chance to give it to her.
+        dune_colony_loner: One day, she just stopped coming. I don't know where she is. If I'll ever see her again.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero [OncePerGame]: You think something happened to her?
+            dune_colony_loner: She could've taken a new job. Maybe she was sick of Elaaden.
+            dune_colony_loner: But if there's even a chance she ran into trouble... I can't stand not knowing.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: Tell me more about Ljeta.
+                dune_colony_loner: She's adventurous. Optimistic. Her jokes could make a krogan blush.
+                dune_colony_loner: In a place like this, she stood out. I think she'd stand out anywhere.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero [OncePerGame]: You think something happened to her?
+                ├ option 2:
+                    Hero: I could track her down for you. Make sure she's okay.
+                    ┌─ BRANCH (7) ─┐
+                    ├ option 1:
+                        global_squad_turian ⟨cond⟩: There's a salvage runner at the Paradise. She might know something.
+                        dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                        dune_colony_loner: Tell her she can use it to visit me again. Thank you, Pathfinder.
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            Hero: What are you doing up here?
+                            dune_colony_loner: Looking. Back home we didn't have time to just stop and look.
+                            Hero: Is life that different here?
+                            dune_colony_loner: It was all about survival. Here, we don't have to fight so hard.
+                            dune_colony_loner: 'Course, the older ones still think they have to fight. Maybe it's just in their blood.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_squad_krogan ⟨cond⟩: They'll come around.
+                                ↩ (goto) dune_colony_loner: [empty]
+                            ├ option 2:
+                                ↩ (goto) dune_colony_loner: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: You seem... different from the other krogan.
+                            dune_colony_loner: My father called me a salarian in a krogan body. Supposed to be an insult.
+                            dune_colony_loner: Joke's on him, though. I like salarians.
+                            ↩ (goto) dune_colony_loner: [empty]
+                        ├ option 3:
+                            Hero: Sounds like Heleus was an easy choice for you.
+                            dune_colony_loner: New galaxy, new life. Not interested in being a merc like my father, or battling it out on Tuchanka.
+                            dune_colony_loner: I almost didn't want to be packed into cryo for the journey. Wanted to see the whole thing.
+                            Hero: Would've been pretty lonely.
+                            dune_colony_loner: Never been bothered by loneliness. The views would've been worth it.
+                            ↩ (goto) dune_colony_loner: [empty]
+                        ├ option 4:
+                            Hero ⟨cond⟩: I could track down your friend Ljeta, if you want.
+                            ┌─ BRANCH (7) ─┐
+                            ├ option 1:
+                                ↩ (goto) global_squad_turian ⟨cond⟩: There's a salvage runner at the Paradise. She might know something.
+                            ├ option 2:
+                                global_squad_krogan ⟨cond⟩: Salvager at the Paradise might know something.
+                                ↩ (goto) dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                            ├ option 3:
+                                global_squad_male_human ⟨cond⟩: Can't hurt to ask the salvage runner at the Paradise.
+                                ↩ (goto) dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                            ├ option 4:
+                                global_squad_asari ⟨cond⟩: Isn't there a salvager at the Paradise?
+                                ↩ (goto) dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                            ├ option 5:
+                                global_squad_angara ⟨cond⟩: We could question the salvager at the Paradise.
+                                ↩ (goto) dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                            ├ option 6:
+                                global_squad_female_human ⟨cond⟩: The salvage runner at the Paradise may have information.
+                                ↩ (goto) dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                            ├ option 7:
+                                Hero: The salvager at the Paradise might know something.
+                                ↩ (goto) dune_colony_loner: I would like that. If you find her, will you give her the cryo-bracelet?
+                            └─ merge ─┘
+                        ├ option 5:
+                            Hero ⟨cond⟩: I managed to track down Ljeta for you.
+                            dune_colony_loner: You did? How is she?
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero: Ljeta was attacked by scavengers the last time she was here.
+                                dune_colony_loner: Is she okay?
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero ⟨cond⟩: She's recovering. I don't think she'll be coming back, Rorik.
+                                    dune_colony_loner: Ljeta... I should've known. New galaxy, same senseless violence.
+                                    dune_colony_loner: Thank you for finding her, Pathfinder. At least I know the truth.
+                                ├ option 2:
+                                    Hero: She'll be fine, but needs time to get back on her feet. She'll visit you once she feels ready.
+                                    dune_colony_loner: I always told her to trust the good in others. Look what happened.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        Hero: You can't think like that. Sometimes things just happen.
+                                        dune_colony_loner: At least I know the truth. Thank you, Pathfinder.
+                                    ├ option 2:
+                                        Hero: You're proof there are good people out there.
+                                        dune_colony_loner: I just hope Ljeta feels the same. Thank you, Pathfinder.
+                                    └─ merge ─┘
+                                └─ merge ─┘
+                            ├ option 2:
+                                Hero: She has a new job on Aya. Says she'll visit when she has time.
+                                dune_colony_loner: I would like that. Thank you for finding her, Pathfinder. Glad to know she's okay.
+                            └─ merge ─┘
+                        ├ option 6:
+                            Hero: I should get going.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) global_squad_krogan ⟨cond⟩: Salvager at the Paradise might know something.
+                    ├ option 3:
+                        ↩ (goto) global_squad_male_human ⟨cond⟩: Can't hurt to ask the salvage runner at the Paradise.
+                    ├ option 4:
+                        ↩ (goto) global_squad_asari ⟨cond⟩: Isn't there a salvager at the Paradise?
+                    ├ option 5:
+                        ↩ (goto) global_squad_angara ⟨cond⟩: We could question the salvager at the Paradise.
+                    ├ option 6:
+                        ↩ (goto) global_squad_female_human ⟨cond⟩: The salvage runner at the Paradise may have information.
+                    ├ option 7:
+                        ↩ (goto) Hero: The salvager at the Paradise might know something.
+                    └─ merge ─┘
+                ├ option 3:
+                    Hero: Hope you see her again.
+                    dune_colony_loner: I do too.
+                    ↩ (goto) dune_colony_loner: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: I could track her down for you. Make sure she's okay.
+            ├ option 3:
+                ↩ (goto) Hero: Hope you see her again.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) Hero [OncePerGame]: Tell me more about Ljeta.
+        ├ option 3:
+            ↩ (goto) Hero: I could track her down for you. Make sure she's okay.
+        ├ option 4:
+            ↩ (goto) Hero: Hope you see her again.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Were you two... you know...
+        dune_colony_loner: We were friends. At least, I thought so.
+        ↩ (goto) dune_colony_loner: One day, she just stopped coming. I don't know where she is. If I'll ever see her again.
+    └─ merge ─┘
+├ option 2:
+    dune_colony_loner [OncePerGame]: Ever think you'd see anything so beautiful?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Sometimes I forget to stop and enjoy the view.
+        dune_colony_loner: We could never see the horizon on Tuchanka. Too hazy.
+        ↩ (goto) dune_colony_loner: [empty]
+    ├ option 2:
+        Hero: There's not much to look at. It's empty.
+        dune_colony_loner: That's the point. You can see all the way to the horizon.
+        dune_colony_loner: Live on Tuchanka long enough and you appreciate a clear view.
+        ↩ (goto) dune_colony_loner: [empty]
+    └─ merge ─┘
+├ option 3:
+    dune_colony_loner: You're back.
+    ↩ (goto) dune_colony_loner: [empty]
+└─ merge ─┘

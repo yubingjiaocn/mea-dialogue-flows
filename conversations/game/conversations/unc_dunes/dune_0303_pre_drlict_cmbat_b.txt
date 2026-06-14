@@ -1,0 +1,78 @@
+# game/conversations/unc_dunes/dune_0303_pre_drlict_cmbat_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0303_pre_drlict_cmbat_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: We're not here for your things! Stop shooting!
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Probably not the first time they've heard that.
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: They've probably been burned by that before.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Yeah, I bet they've heard that one before.
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: They probably heard that one before.
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩: They've probably been burned by that one before.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Hey! We don't want your stuff! Stop shooting!
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: We're not here for you! Stop shooting at us!
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: We don't need anything you have! Stop shooting!
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Hey! We don't want your stuff! Stop shooting!
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: They fight dirtier than the Roekaar. I guess they have less to lose.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Why you gotta fight so dirty? Nothing to lose?
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Makes sense that people with nothing to lose fight dirty.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Why you gotta fight so dirty? Nothing to lose?
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Wow, they fight as if they have nothing to lose. Which makes sense.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: There's more around every corner! Watch your six! And your three and your nine and your...
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: There's more around every corner! Watch your six! And your three and your nine and your...
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: There's more around every corner! Stay on your toes.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: There's more around every corner! Watch your six! And my back!
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: There's more around every corner! Stay clear! Eyes peeled!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: No wonder about the dead scavengers. I'm not surprised they're getting their asses kicked.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: No wonder about the dead scavengers. Are they getting their asses kicked, too? Yes they are.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: No wonder about the dead scavengers. Not surprised they're getting their asses kicked.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: No wonder about the dead scavengers. Naturally, they're getting their asses kicked.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: All these dead scavengers. I'm totally not surprised they're getting their asses kicked.
+    └─ merge ─┘
+├ option 3:
+    Hero: We have to get into that derelict—gotta keep it up!
+└─ merge ─┘

@@ -1,0 +1,118 @@
+# Game/Conversations/Crit/M4/m4_0700_wrap_up_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0700_wrap_up_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: A team will escort the ark back to the Nexus. I'm sure they'll be happy to see you.
+    global_salarian_pathfinder_multi: Thank you again, Ryder. But I owe you an apology. I made a mistake.
+    Hero: Oh?
+    global_salarian_pathfinder_multi: I shouldn't have called you to say goodbye. The choice you had to make... I put too much on your shoulders.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Since we're being honest, that was a hell of a position to be put in.
+        global_salarian_pathfinder_multi: I'm sorry. As Pathfinders, we have to serve our own people, but also the greater good. It's a difficult job.
+        Hero: Though you made a tough choice yourself, bailing us out in the gun battery. How about we call it even?
+        global_salarian_pathfinder_multi: I appreciate that.
+        global_salarian_pathfinder_multi: Whatever the case, the salarian people are forever in your debt.
+        Narration: She turns to leave -- when Drack enters, blocking Raeka. A tense beat as he stares at her.
+        global_squad_krogan: Earn this.
+        Narration: Raeka nods, acknowledging krogan died to save her people. Quietly:
+        global_salarian_pathfinder_multi: We will.
+        Narration: Drack steps aside and lets her go.
+        Hero: Drack...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Wasn't enough to save the whole ark, huh? Had to grab a few more salarians on the way out.
+            Hero: Drack, it's—
+            global_squad_krogan: Complicated? Except it's not. Leaving my scouts behind was worse than killing them outright.
+            global_squad_krogan: And you're not the one who has to explain it to the rest of the clan.
+            Narration: Abrupt, he leaves. Ryder can only watch him go.
+            SAM: It was a difficult choice, Ryder, but you won an important victory. The Archon has been dealt a blow.
+            SAM: Your father would be proud.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: It's been tough, trying to fill his shoes. I hope I'm finally starting to earn it.
+                Hero: Though slapping the Archon in the face like this will only make him more dangerous.
+                SAM: Or perhaps reckless. Your father liked putting others off balance.
+                SAM: He said the worthy would rise above it and learn to face adversity ably.
+                Hero: And the unworthy?
+                SAM: Would crumble.
+                SAM: I'll leave you to your thoughts.
+            ├ option 2:
+                Hero: That doesn't really matter. I'm just glad the team is safe.
+                ↩ (goto) Hero: Though slapping the Archon in the face like this will only make him more dangerous.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_krogan: I heard what happened. Wasn't enough to save the whole ark, huh? Had to grab a few more salarians on the way out.
+            ↩ (goto) Hero: Drack, it's—
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You did what you had to. If that'd been the Hyperion and I was looking for my people—I would've been the one calling you.
+        global_salarian_pathfinder_multi: I appreciate that. As Pathfinders, the line between serving our own people and the greater good is... blurry. I prefer a sharper focus.
+        Hero: I don't think there's going to be much of that in this line of work.
+        global_salarian_pathfinder_multi: I suppose not.
+        ↩ (goto) global_salarian_pathfinder_multi: Whatever the case, the salarian people are forever in your debt.
+    └─ merge ─┘
+├ option 2:
+    Hero: A team is on its way. They'll escort the ark to the Nexus. I'm sure they'll be happy to see you, Captain Hayjer.
+    crit_kett_salarian_captain_multi: It's a day I wasn't certain would ever come.
+    Hero: Now that it has, what will you do?
+    crit_kett_salarian_captain_multi: Technically, I'm next in line to be our Pathfinder. Though I never started the training.
+    crit_kett_salarian_captain_multi: Raeka will be difficult to replace.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I won't lie. When my father died, stepping up was overwhelming. There's a lot to learn.
+        crit_kett_salarian_captain_multi: Though it seems your crew helped?
+        Hero: Absolutely. Just get yourself a half-ton krogan and all your problems are solved.
+        Narration: As Drack enters, steps to Ryder's side.
+        crit_kett_salarian_captain_multi: What matters most is that the salarian people are no longer at the mercy of the kett. For this, we are eternally grateful.
+        global_squad_krogan: Just make sure my scouts make it safely to Nexus.
+        crit_kett_salarian_captain_multi: Of course. Be well, Ryder.
+        Narration: The holo ends.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_krogan: Must've been a tough call, leaving Raeka behind. But I'm glad you did. My scouts are alive because of it.
+            Hero: Yeah. But the salarians we left behind...
+            global_squad_krogan: Focus on what went right.
+            global_squad_krogan: You kicked the Archon's tail today. You took the ark right out from under him {i}and{/i} got Meridian's location.
+            global_squad_krogan: So—enjoy this one.
+            SAM: Your father would have been proud.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: It's been tough, trying to fill his shoes. I hope I'm finally starting to earn it.
+            ├ option 2:
+                ↩ (goto) Hero: That doesn't really matter. I'm just glad the team is safe.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_krogan: I heard all about the mission.
+            ↩ (goto) global_squad_krogan: Must've been a tough call, leaving Raeka behind. But I'm glad you did. My scouts are alive because of it.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Speaking from my own experience, Captain, just take it one step at a time. You're up to this.
+        crit_kett_salarian_captain_multi: I hope to justify your confidence.
+        ↩ (goto) Narration: As Drack enters, steps to Ryder's side.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: You shouldn't have strayed from the objective to try to save a few salarians.
+    global_salarian_pathfinder_multi: Oh, that's not the mistake I made.
+    global_salarian_pathfinder_multi: I shouldn't have called you to say goodbye. That put too much on your shoulders.
+    global_salarian_pathfinder_multi: I never thought you'd come to get me. Your father certainly wouldn't have, and I just assumed...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You should never do that. Always operate on facts.
+        global_salarian_pathfinder_multi: Next time.
+        global_salarian_pathfinder_multi: Maybe we'll have a chance to get to know each other.
+    ├ option 2:
+        Hero: My dad was my dad. I'm my own person, Raeka.
+        global_salarian_pathfinder_multi: Clearly.
+    └─ merge ─┘
+├ option 2:
+    Hero: You went off to save innocent salarians. No need to apologize.
+    global_salarian_pathfinder_multi: It's not for that.
+    ↩ (goto) global_salarian_pathfinder_multi: I shouldn't have called you to say goodbye. That put too much on your shoulders.
+├ option 3:
+    ↩ (goto) global_salarian_pathfinder_multi: Maybe we'll have a chance to get to know each other.
+└─ merge ─┘

@@ -1,0 +1,102 @@
+# game/conversations/rel/vetra/vet_r6_tem_romancefinal_m
+# Primary speaker: global_squad_turian
+# Source: game/conversations/rel/vetra/vet_r6_tem_romancefinal_m.xml
+==================================================
+Hero: Vetra?
+global_squad_turian: Sorry. This way. Watch your—
+Hero: Ow!
+global_squad_turian: Shins.
+Hero: {i}(Sighs.){/i} Can I open my eyes now?
+global_squad_turian: Okay, just a little more. Good. Open!
+global_squad_turian: Surprise!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I don't get it.
+    global_squad_turian: I... I thought it would be obvious. It's a dinner date.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: Your dinner, madam.
+        global_squad_turian: I made it for you myself. It's steak. Cow.
+        Hero: Earth cow?
+        global_squad_turian: It just said "cow" on the packet.
+        global_squad_turian: Does it matter?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I don't know if this is safe to eat, Vetra.
+            global_squad_turian: If you're afraid of bacteria, I'm pretty sure it's been irradiated.
+            global_squad_turian: I wonder if it's still frozen on the inside. I've never cooked human food before.
+            global_squad_turian: {i}(Sighs.){/i} Never mind. I guess this isn't working.
+            global_squad_turian: I just wanted to show you how grateful I am.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_turian ⟨cond⟩: Finding Meridian, building us a home... that was you.
+                global_squad_turian: You care about my sister. You care about me.
+                global_squad_turian: For me. Not because you can get something out of me.
+                global_squad_turian: I love you.
+                global_squad_turian: I just don't want to ruin it. I thought...
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Nothing's ruined. It would take a lot to ruin this.
+                    global_squad_turian: Really?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: This is why I want to be with you.
+                        Hero: All the things you do for the people you love. You're amazing.
+                        global_squad_turian: I think I know how to make all this up to you...
+                        Hero: Please, no more food.
+                        global_squad_turian: No, I think you'll like this.
+                    ├ option 2:
+                        Hero: Because I love you too.
+                        ↩ (goto) global_squad_turian: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_turian: I thought if I could just get this right. Perfect...
+                    global_squad_turian: And I could've asked someone else, but I wanted to do it myself.
+                    global_squad_turian: Turns out I couldn't even make dinner.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Vetra. I didn't decide to be with you because of things like this.
+                        Hero: You're amazing. You're resourceful. You're a survivor. You always have my back. That's what I love.
+                        global_squad_turian: Just be me, huh?
+                        Hero: Just be you.
+                        global_squad_turian: Okay, well... here I am.
+                        ↩ (goto) global_squad_turian: [empty]
+                    ├ option 2:
+                        Hero: Vetra, this {i}was{/i} perfect.
+                        global_squad_turian: What?
+                        Hero: The lengths to which you'll go to for something... someone you care about. That's amazing.
+                        global_squad_turian: But everything was wrong.
+                        Hero: And yet it was perfect. Perfectly Vetra. I'll never forget this.
+                        Hero: And... I love you too.
+                        global_squad_turian: Heh. I'm not even done!
+                        ↩ (goto) global_squad_turian: [empty]
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_turian: This journey has taken centuries. But we see the destination clearly now, because of you.
+                ↩ (goto) global_squad_turian: You care about my sister. You care about me.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Mm... delicious! I love cow.
+            Hero: I'm going to take time to savor this!
+            global_squad_turian: You don't have to be nice about it. I know I probably made it wrong.
+            Hero: Vetra, this is great. But you didn't have to.
+            global_squad_turian: I just wanted to do something special for you. As thanks.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_turian ⟨cond⟩: Finding Meridian, building us a home... that was you.
+            ├ option 2:
+                ↩ (goto) global_squad_turian: This journey has taken centuries. But we see the destination clearly now, because of you.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_turian: Your dinner, sir.
+        ↩ (goto) global_squad_turian: I made it for you myself. It's steak. Cow.
+    └─ merge ─┘
+├ option 2:
+    Hero: This is wonderful!
+    global_squad_turian: I... I tried. It wasn't easy to get all this together, but... you're worth it.
+    ↩ (goto) global_squad_turian: [empty]
+└─ merge ─┘
+global_squad_turian: [Exertion 1]
+global_squad_turian: [Exertion 2]

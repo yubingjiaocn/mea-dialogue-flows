@@ -1,0 +1,74 @@
+# Game/Conversations/Unc/MCMSettlement/MCM_set_0210_remnant_intro_m
+# Primary speaker: Hero
+# Source: game/conversations/unc/MCMSettlement/MCM_set_0210_remnant_intro_m.xml
+==================================================
+Narration: TEMP: Player clicks the last of the glyphs in this area. The tech around it LIGHTS UP, triggering the scene.
+Narration: TEMP: The bank with the glyphs starts to PULSE, growing in intensity.
+SAM: Building connection. I apologize for any discomfort. The system seems unstable.
+Hero: This what happened when my dad tried doing this?
+SAM: Your father interfaced directly with the atmosphere processor. That proved extremely hazardous.
+SAM: These structures could reveal its control center.
+SAM: System remains unstable. Doubling our power input might accelerate the process.
+Hero: I'll give it a shot...
+Narration: TEMP: Ryder reaches for the alien display...
+global_squad_asari: Wait!
+Narration: TEMP: PEEBEE leaps down from the ruins and BULL-RUSH TACKLES Ryder! Lands on top, unfazed by squadmates training guns on her.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: {i}(Disgusted noise.){/i} Are you kidding me?
+    global_squad_asari: Whoa, easy. You've come this far, just let it ride...
+    Narration: TEMP: Narrative Action symbol lights during Peebee's next lines:
+    global_squad_asari: I've been studying this tech for months. I don't know how you activated those glyphs, but you have to let them cycle through their channels...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: All right, time to get off.
+        Narration: TEMP: Ryder rolls Peebee off. She lands in a crouch next to Ryder.
+        global_squad_asari: Don't like being sat on, huh?
+        Narration: TEMP: Ryder's forehead wrinkles; s/he's about to say something when...
+        global_squad_asari: I know, I know—who am I?
+        Narration: TEMP: She hops to her feet without warning. Extends a hand to Ryder, which Ryder eventually takes during...
+        global_squad_asari: I mean, it's obvious who {i}you{/i} are. I saw the ship swoop in...
+        global_squad_asari: ...you're a Pathfinder. Was beginning to think the Initiative just made you guys up so the rest of us wouldn't lose hope, but you're for real, huh?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Are {i}you{/i} for real? You were going to tell me who you are.
+            global_squad_asari: I might just be the solution to all your problems...
+            Narration: TEMP: The bank of glyphs stabilizes, stops pulsing.
+            global_squad_asari: Well, look at that.
+            SAM: System has stabilized. I'm establishing a connection.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Narration: TEMP: Peebee turns back to Ryder with a triumphant "I told you so" in her eyes. Then her face freezes and shifts focus to behind Ryder...
+                global_squad_asari: Ah, crap...
+                Narration: Lightning fast, Peebee pulls her pistol, fires over Ryder's shoulder at...
+                Narration: TEMP: An OBSERVER rising in the air behind the squad. Ryder and company react.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                ├ option 2:
+                    global_squad_turian ⟨cond⟩: Get down!
+                    global_squad_asari: Should have mentioned—the bots around here wake up and attack when you mess with their stuff.
+                    Narration: TEMP: She guides the squad to nearby cover, as several more OBSERVERS rise from the ground.
+                    global_squad_asari: My name's too long to say in a gunfight, you can just call me Peebee.
+                ├ option 3:
+                    global_squad_female_human: Down!
+                    ↩ (goto) global_squad_asari: Should have mentioned—the bots around here wake up and attack when you mess with their stuff.
+                └─ merge ─┘
+            ├ option 2:
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Maybe you want to knock me down a couple more times to make sure?
+            global_squad_asari: No, that's okay. You're obviously corporeal—pretty solidly built, actually.
+            ↩ (goto) Narration: TEMP: The bank of glyphs stabilizes, stops pulsing.
+        └─ merge ─┘
+    ├ option 2:
+        Narration: TEMP: Peebee settles herself down, smiles down at Ryder.
+        global_squad_asari: It's going to be all right. Trust me, okay?
+        ↩ (goto) Narration: TEMP: Ryder's forehead wrinkles; s/he's about to say something when...
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Back off, or I will put you down!
+    ↩ (goto) global_squad_asari: Whoa, easy. You've come this far, just let it ride...
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Back up. Literally.
+    ↩ (goto) global_squad_asari: Whoa, easy. You've come this far, just let it ride...
+└─ merge ─┘

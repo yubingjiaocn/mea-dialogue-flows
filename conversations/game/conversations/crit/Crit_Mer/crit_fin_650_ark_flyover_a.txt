@@ -1,0 +1,135 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_650_ark_flyover_a
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_650_ark_flyover_a.xml
+==================================================
+global_crew_science_officer: [Comm] Pathfinder, it's nav-dead. That's why we lost it! Looks like maneuvering thrusters only!
+Hero: The Archon's betting we won't chase him with the ark at risk!
+global_nexus_militia_leader: [Comm] We'll guard the Hyperion.
+Hero: Kandros? Who's with you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_charlatan ⟨cond⟩: [Comm] The whole damn cavalry. You know I can't resist a party.
+    angararesleader_multi: [Comm] We hold the kett, you secure Meridian!
+    Hero: Let's find the Archon!
+├ option 2:
+    kad_queen: [Comm] The invitation was open—unless you're refusing Kadara's help?
+    ↩ (goto) angararesleader_multi: [Comm] We hold the kett, you secure Meridian!
+└─ merge ─┘
+global_humanark_captain_multi: [Comm] Pathfinder? He's taken them.
+Hero: Captain Dunn?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_humanark_captain_multi ⟨cond⟩: [Comm] The core is lit up like Christmas, but SAM isn't talking. I think the Archon... shit, I don't know what he did. But he has Scott.
+    global_humanark_captain_multi: Whatever Meridian can do... he'll try to take it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Just focus on flying! I'll find them!
+    ├ option 2:
+        Hero: We're not giving up—not when we're this close!
+        ↩ (goto) global_humanark_captain_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_humanark_captain_multi: [Comm] The core is lit up like Christmas, but SAM isn't talking. I think the Archon... shit, I don't know what he did. But he has Sara.
+    ↩ (goto) global_humanark_captain_multi: Whatever Meridian can do... he'll try to take it.
+└─ merge ─┘
+global_humanark_captain_multi: [Comm] Hard starboard! All power!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Dunn, what is it? Dunn?
+    Hero: Keep pushing! Go!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Captain? Captain, what is it?
+    ↩ (goto) Hero: Keep pushing! Go!
+├ option 3:
+    global_squad_male_human ⟨cond⟩: That didn't sound good.
+    ↩ (goto) Hero: Keep pushing! Go!
+├ option 4:
+    global_squad_angara ⟨cond⟩: Didn't like the sound of that, Ryder.
+    ↩ (goto) Hero: Keep pushing! Go!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Shit. Something spooked Dunn?
+    ↩ (goto) Hero: Keep pushing! Go!
+└─ merge ─┘
+Hero: That's... not the Hyperion.
+global_nexus_militia_leader: [Comm] Kett are deploying to defend the Archon! Get in close!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Kandros, are you out of your mind?
+    global_crew_co-pilot: [Comm] He's right. Mix with their ground troops, the big ship can't fire on you!
+    Hero: Not sure we have a choice!
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Dangerous tactic, Kandros.
+    ↩ (goto) global_crew_co-pilot: [Comm] He's right. Mix with their ground troops, the big ship can't fire on you!
+├ option 3:
+    global_squad_male_human ⟨cond⟩: He's lost it.
+    ↩ (goto) global_crew_co-pilot: [Comm] He's right. Mix with their ground troops, the big ship can't fire on you!
+├ option 4:
+    global_squad_asari ⟨cond⟩: {i}(Laughs.){/i} No, really, what do we do?
+    ↩ (goto) global_crew_co-pilot: [Comm] He's right. Mix with their ground troops, the big ship can't fire on you!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Right! Get in there!
+    ↩ (goto) global_crew_co-pilot: [Comm] He's right. Mix with their ground troops, the big ship can't fire on you!
+└─ merge ─┘
+global_crew_co-pilot: [Comm] Debris incoming!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_charlatan ⟨cond⟩: [Comm] Sorry for the mess!
+    global_crew_science_officer: [Comm] Structures ahead, Pathfinder. And major energy signals. I'm no SAM, but that's got to be some kind of control.
+├ option 2:
+    kad_queen: [Comm] Watch your heads!
+    ↩ (goto) global_crew_science_officer: [Comm] Structures ahead, Pathfinder. And major energy signals. I'm no SAM, but that's got to be some kind of control.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Have to fight through on foot.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: The Archon will not take Meridian.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: The Archon's not taking this place.
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: The Archon will not be allowed to take Meridian.
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: The Archon Isn't taking Meridian. 'Nuff said.
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: We can't let him take control of this place.
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: We go through on foot.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: The Archon's not taking this place.
+    ├ option 2:
+        ↩ (goto) global_squad_angara ⟨cond⟩: The Archon will not be allowed to take Meridian.
+    ├ option 3:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: The Archon Isn't taking Meridian. 'Nuff said.
+    ├ option 4:
+        ↩ (goto) global_squad_asari ⟨cond⟩: We can't let him take control of this place.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human ⟨cond⟩: We're heading in anyway.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: The Archon will not be allowed to take Meridian.
+    ├ option 2:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: The Archon Isn't taking Meridian. 'Nuff said.
+    ├ option 3:
+        ↩ (goto) global_squad_asari ⟨cond⟩: We can't let him take control of this place.
+    └─ merge ─┘
+├ option 4:
+    global_squad_angara ⟨cond⟩: We fight them face to face, then.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: The Archon Isn't taking Meridian. 'Nuff said.
+    ├ option 2:
+        ↩ (goto) global_squad_asari ⟨cond⟩: We can't let him take control of this place.
+    └─ merge ─┘
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Good! We run the Archon down!
+    ↩ (goto) global_squad_asari ⟨cond⟩: We can't let him take control of this place.
+└─ merge ─┘
+Hero: Running out of road!

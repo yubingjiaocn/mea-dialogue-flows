@@ -1,0 +1,125 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0310_first_contact_after_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0310_first_contact_after_m.xml
+==================================================
+Hero: Okay... it's over.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Fisher, you okay?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        pro_lnd_shuttle_crew1_multi: Those bastards wanted to kill me.
+        global_squad_male_human: I had to wade in, Ryder. They didn't give us a choice.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'm sorry, Fisher. I shouldn't have hesitated. I just... I wasn't sure.
+            pro_lnd_shuttle_crew1_multi: None of it made any sense.
+            global_squad_male_human: At least we know what's what. The brochures were light on aliens who want to shoot your head off.
+            Hero: {i}(Sighs.){/i}
+            pro_lnd_shuttle_crew1_multi: We still don't even know what they wanted.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: The way they treated you? Blood samples, I'd say. Lots of them.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: This isn't how first contact was supposed to go. Or at least not how I imagined it.
+                    global_squad_male_human: That's on them. Can't let it change us. Next time might go better.
+                    Hero: Yeah. The whole neighborhood can't be bad.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_male_human: Where are the others?
+                        pro_lnd_shuttle_crew1_multi: Gone. Kirkland and Greer went looking for help.
+                        Hero: Come on.
+                        pro_lnd_shuttle_crew1_multi: Ahh... my leg.
+                        Hero: Can you move?
+                        pro_lnd_shuttle_crew1_multi: I think it's broken. You guys push ahead and look for the others.
+                        Hero: You sure?
+                        pro_lnd_shuttle_crew1_multi: Yeah. Just find us a ride out of here.
+                        pro_lnd_shuttle_crew1_multi: And take a few more of them out while you're at it.
+                    ├ option 2:
+                        global_squad_male_human: Where's Kirkland?
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            pro_lnd_shuttle_crew1_multi: He went looking for help. Pretty sure I heard gunshots.
+                            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+                        ├ option 2:
+                            pro_lnd_shuttle_crew1_multi: He went looking for help.
+                            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+                        ├ option 3:
+                            pro_lnd_shuttle_crew1_multi: They dragged him off. I heard gunshots.
+                            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Who says we'd even understand? Or they'd understand us?
+                    Hero: It's a new galaxy. I guess it's too much to expect they'll play by Milky Way rules.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_male_human ⟨cond⟩: They broke the rules in any galaxy.
+                        pro_lnd_shuttle_crew1_multi: But why go after us like that?
+                        global_squad_male_human: Only thing I know for sure, their guns hit just as hard as ours.
+                        ↩ (goto) global_squad_male_human: [empty]
+                    ├ option 2:
+                        global_squad_male_human: Or any rules, by the look of them.
+                        pro_lnd_shuttle_crew1_multi: But what did we do to them?
+                        ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_male_human: Nothing good, the way they were armed.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: This isn't how first contact was supposed to go. Or at least not how I imagined it.
+                ├ option 2:
+                    ↩ (goto) Hero: Who says we'd even understand? Or they'd understand us?
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I didn't want to make it worse. The first aliens we meet, and we try to kill each other? That wasn't the plan.
+            global_squad_male_human: Then we need a new one.
+            ↩ (goto) global_squad_male_human: At least we know what's what. The brochures were light on aliens who want to shoot your head off.
+        └─ merge ─┘
+    ├ option 2:
+        pro_lnd_shuttle_crew1_multi: So much for making peace with the locals. Thanks for jumping in.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We tried talking—I guess they didn't want to listen. What else could we do?
+            pro_lnd_shuttle_crew1_multi: You saved my life.
+            ↩ (goto) global_squad_male_human: At least we know what's what. The brochures were light on aliens who want to shoot your head off.
+        ├ option 2:
+            Hero: I wish I didn't have to. The first aliens we meet, and we try to kill each other? That wasn't the plan.
+            ↩ (goto) global_squad_male_human: Then we need a new one.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human: Fisher, you okay?
+    pro_lnd_shuttle_crew1_multi: I'll live. Thought I was a goner.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human: Sorry, Ryder. I know you wanted to give peace a chance and all.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: They weren't going to back down. What could we do?
+            global_squad_male_human: Reload and try to put it behind us.
+            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+        ├ option 2:
+            Hero: It was starting to look ugly there. Didn't think we could take the chance.
+            pro_lnd_shuttle_crew1_multi: Well, you saved my life. Be a hell of a thing to survive the crash only to get shot by aliens.
+            global_squad_male_human: Knew they weren't the friendly sort.
+            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human: Knew they weren't the friendly sort.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: We did our best. Not like they gave us much of a choice.
+            global_squad_male_human: They didn't. So we reload and put it behind us.
+            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+        ├ option 2:
+            Hero: It was starting to look ugly there. Didn't think we could take the chance.
+            pro_lnd_shuttle_crew1_multi: Well, you saved my life. It'd be a hell of a thing to survive the crash only to get shot by aliens.
+            global_squad_male_human: Not letting that happen. For anyone.
+            ↩ (goto) pro_lnd_shuttle_crew1_multi: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,23 @@
+# game/conversations/unc/storms/stm_0010_galaxy_arrive_a
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/unc/storms/stm_0010_galaxy_arrive_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM [OncePerGame]: System: Pytheas. Andromeda Initiative Habitat 1, designated Eos.
+    global_crew_co-pilot: It was supposed to be an easy first step—until no one else showed and we got clobbered. Twice.
+    global_crew_science_officer: Why has SAM altered frequency detection?
+    Hero: What are we hearing, SAM?
+    SAM: There is a signal, Pathfinder. I recommend an immediate examination of Eos.
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_crew_co-pilot ⟨cond⟩: Pytheas. The distress from Prodromos is repeating.
+        Hero [OncePerGame]: We need a closer look.
+        global_crew_co-pilot: I hear that.
+    ├ option 2:
+        global_crew_co-pilot ⟨cond⟩: Pytheas system. Still hoping we can turn Eos around.
+    ├ option 3:
+        global_crew_co-pilot ⟨cond⟩: Pytheas system. Home of Eos, and Prodromos.
+    └─ merge ─┘
+└─ merge ─┘

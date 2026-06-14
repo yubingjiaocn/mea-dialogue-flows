@@ -1,0 +1,41 @@
+# game/conversations/bstory/ket/ketbs_0220_scipost_log_01_i
+# Primary speaker: ket_scipost_kettscholar
+# Source: game/conversations/bstory/ket/ketbs_0220_scipost_log_01_i.xml
+==================================================
+SAM: There is an audio log saved on this device, Pathfinder.
+Hero: Kett? Let's get a translation, SAM.
+SAM: Processing...
+ket_scipost_kettscholar: [Audio Log] The angaran genetic code that expresses as projection of a bioelectric field has been isolated.
+ket_scipost_kettscholar: [Audio Log] The process to integrate this into our own genome is ongoing. Early successes documented.
+ket_scipost_kettscholar: [Audio Log] Once complete, adaptation to be distributed to all Ascendant in Heleus.
+ket_scipost_kettscholar: [Audio Log] Ability may also prove useful as part of base soldier configurations.
+ket_scipost_kettscholar: [Audio Log] All research has been transmitted to the empire.
+Hero: Exaltation is not just about making more kett. It's an exchange.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Let's see them try to "exchange" with the krogan.
+    Hero: There's bound to be more here. Let's keep moving.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: The kett get stronger while everyone else is annihilated.
+    ↩ (goto) Hero: There's bound to be more here. Let's keep moving.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: So what's an original kett like? How much have they stolen?
+    ↩ (goto) Hero: There's bound to be more here. Let's keep moving.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: What a horror show.
+    ↩ (goto) Hero: There's bound to be more here. Let's keep moving.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: An exchange requires consenting parties.
+    ↩ (goto) Hero: There's bound to be more here. Let's keep moving.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: I think I saw a horror vid about this once.
+    ↩ (goto) Hero: There's bound to be more here. Let's keep moving.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Genetic manipulation. That's what the kett are about. Stealing traits from other species.
+    SAM: Genetic manipulation instead of natural adaptation.
+├ option 2:
+    Hero: Did I hear that right? Are the kett upgrading themselves so they can zap us?
+    ↩ (goto) SAM: Genetic manipulation instead of natural adaptation.
+└─ merge ─┘

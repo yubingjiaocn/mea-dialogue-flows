@@ -1,0 +1,63 @@
+# game/conversations/unc/olw/hazards/olw_haz_geyser_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/hazards/olw_haz_geyser_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: SAM, what's happening?
+    SAM: There are tremors that appear to be coming from that geyser, Pathfinder.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Wow!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Boom!
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Thar she blows!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Feel that?
+        SAM: Seismic activity suggests the geysers are unstable.
+    ├ option 2:
+        Hero [OncePerGame]: What the—heads up!
+    ├ option 3:
+        Hero [OncePerGame]: Tremors! Geyser's about to go off.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (17) ─┐
+├ option 1:
+    Hero: Damn, that's hot!
+├ option 2:
+    Hero: Ouch! Hot! Hot! Hot!
+├ option 3:
+    Hero: Can confirm: steam hurts.
+├ option 4:
+    SAM: Losing shields.
+├ option 5:
+    SAM: Might I suggest moving, Pathfinder?
+├ option 6:
+    global_squad_angara ⟨cond⟩: I wouldn't touch that, Ryder.
+├ option 7:
+    global_squad_angara ⟨cond⟩: Ryder, get out of there!
+├ option 8:
+    global_squad_asari ⟨cond⟩: Looks hot.
+├ option 9:
+    global_squad_asari ⟨cond⟩: Ryder, move!
+├ option 10:
+    global_squad_female_human ⟨cond⟩: Don't touch that, Ryder.
+├ option 11:
+    global_squad_female_human ⟨cond⟩: Watch out!
+├ option 12:
+    global_squad_krogan ⟨cond⟩: Wouldn't touch that, kid.
+├ option 13:
+    global_squad_krogan ⟨cond⟩: Looks painful!
+├ option 14:
+    global_squad_male_human ⟨cond⟩: Maybe don't touch that?
+├ option 15:
+    global_squad_male_human ⟨cond⟩: Ryder, you okay?
+├ option 16:
+    global_squad_turian ⟨cond⟩: Yeah, that looks dangerous.
+├ option 17:
+    global_squad_turian ⟨cond⟩: Ryder! Get out of there!
+└─ merge ─┘

@@ -1,0 +1,30 @@
+# game/conversations/unc_dunes/dune_deadzone_0500_postbattle_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_deadzone_0500_postbattle_b.xml
+==================================================
+Hero: Let's collect that board and get out of here.
+Hero: I bet he has a whole case of these somewhere.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I've had enough of being stuck.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's get out of here.
+        global_squad_asari ⟨cond⟩ [OncePerGame]: This wasn't my favorite trip we've taken.
+        global_squad_angara ⟨cond⟩ [OncePerGame]: It's sad how some choose to live.
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: Good riddance.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Did we have to kill him? What a waste.
+        ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Good riddance.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: Did we have to kill him? What a waste.
+├ option 3:
+    ↩ (goto) global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's get out of here.
+├ option 4:
+    ↩ (goto) global_squad_asari ⟨cond⟩ [OncePerGame]: This wasn't my favorite trip we've taken.
+├ option 5:
+    ↩ (goto) global_squad_angara ⟨cond⟩ [OncePerGame]: It's sad how some choose to live.
+├ option 6:
+    ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Good riddance.
+└─ merge ─┘

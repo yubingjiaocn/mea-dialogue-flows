@@ -1,0 +1,30 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0230_separate_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0230_separate_d.xml
+==================================================
+Hero: Huddle up.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: If we were a surprise, I doubt we're one anymore.
+    crit_ex_res_fighter_3_multi: You have the best chance of finding Moshae Sjefa. We'll attack head-on and provide a distraction.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Good plan.
+        crit_ex_res_fighter_3_multi: This is going to be fun.
+        crit_ex_res_fighter_2_multi: This is the main entrance. We'll go this way.
+        crit_ex_res_fighter_3_multi: Kick in the front door.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Stay in radio contact... and good luck.
+        ├ option 2:
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That sounds a little like suicide.
+        crit_ex_res_fighter_3_multi: We're ready for anything.
+        ↩ (goto) crit_ex_res_fighter_2_multi: This is the main entrance. We'll go this way.
+    └─ merge ─┘
+├ option 2:
+    Hero: We'll see you on the other side.
+├ option 3:
+    crit_ex_res_fighter_2_multi: Time to say goodbye for now.
+└─ merge ─┘

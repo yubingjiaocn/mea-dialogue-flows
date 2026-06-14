@@ -1,0 +1,336 @@
+# game/conversations/crit/crit_city/crit_city_0000_flavorbanter_b
+# Primary speaker: 
+# Source: game/conversations/crit/crit_city/crit_city_0000_flavorbanter_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: These plants remind me of others I've seen. On Aya, Havarl.
+        Hero: Maybe they were spread there? Through the vault network, somehow.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: If I was as good with plants as the Remnant builders, I'd already have my rose garden.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: What are these "roses" you keep talking about?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_female_human: I'll show you. One day. Hopefully. If I don't die.
+                ↩ (goto) global_squad_turian: [empty]
+            ├ option 2:
+                ↩ (goto) global_squad_turian: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Don't worry about it, you'll get there.
+            ↩ (goto) global_squad_turian: [empty]
+        ├ option 3:
+            global_squad_asari ⟨cond⟩: Hey, if we crack open Meridian, maybe you'll learn their secrets.
+            ↩ (goto) global_squad_turian: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: What was the point of having plants here? Decoration? Proof of concept?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Maybe they're just overgrown?
+            ↩ (goto) global_squad_turian: [empty]
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Could be just overgrown?
+            ↩ (goto) global_squad_turian: [empty]
+        ├ option 3:
+            ↩ (goto) global_squad_turian: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Plants are pretty, but they never did much for me. They just sit there. Doing nothing.
+        global_squad_angara ⟨cond⟩: On Havarl, there is a species of plant that traps and devours people. Slowly.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_turian: Yeah, okay. I like them better when they do nothing.
+            ↩ (goto) global_squad_turian: [empty]
+        ├ option 2:
+            ↩ (goto) global_squad_turian: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: Are any of these plants edible?
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: I don't know, but it sure sounds like someone's volunteered to be a guinea pig.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human: Hey, what? Wait, what?
+                ↩ (goto) global_squad_turian: [empty]
+            ├ option 2:
+                ↩ (goto) global_squad_turian: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Won't know 'til you try. I'll lift you up, and you can graze as we go.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_male_human: Hey, what? Wait, what?
+            ├ option 2:
+                ↩ (goto) global_squad_turian: [empty]
+            └─ merge ─┘
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Why don't you eat some and tell us? Take one for the team.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_male_human: Hey, what? Wait, what?
+            ├ option 2:
+                ↩ (goto) global_squad_turian: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            ↩ (goto) global_squad_turian: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: This shit just gets weirder and weirder.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Those look like mushrooms. Really big ones.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Whoa! Are those giant mushrooms? What is this place?
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: What new Remnant surprise are we going to find here, I wonder.
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: I have seen organisms like this, on Havarl.
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: I'm getting a distinct Alice in Wonderland feel from all this.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Why did the Remnant builders make these channels, with this stuff running through them?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari: It seems dangerous... no railings or anything. Unless it doesn't hurt them like it hurts us...
+        ├ option 2:
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: What is that stuff? Some kind of electrified field?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩ [OncePerGame]: It's a river of ouch, that's what.
+            ↩ (goto) global_squad_male_human: [empty]
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: Who cares what it is? Just don't touch it.
+            ↩ (goto) global_squad_male_human: [empty]
+        ├ option 3:
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: These channels, are they some kind of power conduit?
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: It's a river of ouch, that's what.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Who cares what it is? Just don't touch it.
+        ├ option 3:
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: It flows like a river, but it's definitely not a river.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: It's a river of ouch, that's what.
+        ├ option 2:
+            ↩ (goto) global_squad_krogan ⟨cond⟩ [OncePerGame]: Who cares what it is? Just don't touch it.
+        ├ option 3:
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: What is that stuff? It's definitely not water.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_male_human ⟨cond⟩ [OncePerGame]: It's a river of ouch, that's what.
+        ├ option 2:
+            ↩ (goto) global_squad_male_human: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: Look at all those lights. Can you imagine what this was like when it was all working, with the builders here?
+        Hero: And what do you imagine a builder looks like?
+        global_squad_asari: Tall, glowy. Or maybe short and round and glowy.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: So, a radioactive volus.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: You're kind of fixated on the glowy, aren't you?
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: You spend way too much time thinking about the builders, Peebee.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: I always imagined they were teeth. Just teeth. Everywhere.
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: We always thought they'd look something like their creations.
+            global_squad_angara ⟨cond⟩: Now that we know they created us, I wonder...
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Did anyone actually live here? Or was this just their giant terraforming lab?
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: If they didn't live here, where did they live?
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Who knows? Almost anything is possible with the Remnant builders.
+        ├ option 3:
+            global_squad_angara ⟨cond⟩: Perhaps they lived elsewhere, somewhere terraformed to their needs.
+        ├ option 4:
+            global_squad_krogan ⟨cond⟩: I wouldn't like to live here.
+        ├ option 5:
+            global_squad_asari ⟨cond⟩: It's really hard to say. We don't know anything about the builders.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: This place would be a gift to the angara if we could eliminate the kett. We could learn so much from it.
+        Hero: We'll make that happen, Jaal. I promise.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: There's a lot of lights here. Once we get everything turned on, this place will be blinding.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Oh, you'll live.
+            global_squad_krogan: Yeah, but I don't have to like it.
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: I know! I can't wait to see it.
+            global_squad_krogan: {i}(Disgusted groan.){/i}
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Oh, come on, old man. It's not that bad. I think they're kind of soothing, myself.
+            ↩ (goto) global_squad_krogan: {i}(Disgusted groan.){/i}
+        ├ option 4:
+            global_squad_angara ⟨cond⟩: I don't think they'll blind you. They aren't bright enough.
+            global_squad_angara: Yeah, I know. I was just... never mind.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: But they're so festive.
+            ↩ (goto) global_squad_krogan: {i}(Disgusted groan.){/i}
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I'm just gonna say it: crazy tech, mysterious species... anyone else reminded of the Protheans?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Yep. Except this time, I get to be the trailblazer making progress with the stuff.
+            Hero: That's the cool bit.
+        ├ option 2:
+            Hero: Sort of. Sara's probably the one you want to ask about that.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero [OncePerGame]: I wonder if there's a broken atmo processor somewhere that's causing this downpour.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Stop fussing. A little rain won't kill you.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: I'm just glad it's rain and not, for example, a corrosive acid fog.
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Or maybe the builders just liked rain.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Let's not get distracted trying to fix the weather, okay?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: I can just about hear my mum's "told-you-sos." She was never without her umbrella.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: Hey, Jaal. You know, if you... want to talk, about... the stuff you found out, I'm here.
+            global_squad_angara: Are you reaching out because I am now considered a Remnant curiosity?
+            global_squad_asari: What? No! No, I didn't mean it like that!
+            global_squad_angara: {i}(Chuckles.){/i} Got you. You should see your face.
+            global_squad_asari: Jaal!
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: You okay, Jaal? Learning stuff about where you come from can really shake a person up.
+            global_squad_angara: I'll be all right. It helps to know I have the support of friends like you.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: Yeah. I got your back.
+                ↩ (goto) global_squad_krogan: [empty]
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: Well, you'd do the same for us.
+                ↩ (goto) global_squad_krogan: [empty]
+            ├ option 3:
+                global_squad_turian ⟨cond⟩: We're all in this together.
+                ↩ (goto) global_squad_krogan: [empty]
+            ├ option 4:
+                global_squad_male_human ⟨cond⟩: Anytime, man.
+                ↩ (goto) global_squad_krogan: [empty]
+            ├ option 5:
+                ↩ (goto) global_squad_krogan: [empty]
+            └─ merge ─┘
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: You doing okay, Jaal? If you need anything, I'm here.
+            ↩ (goto) global_squad_angara: I'll be all right. It helps to know I have the support of friends like you.
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: Jaal? You doing okay? That stuff back there can't be easy to process.
+            ↩ (goto) global_squad_angara: I'll be all right. It helps to know I have the support of friends like you.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: You okay? I mean, what we learned back there. Heavy, heavy stuff.
+            ↩ (goto) global_squad_angara: I'll be all right. It helps to know I have the support of friends like you.
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩ [OncePerGame]: We have to tell Jaal what we learned about the angara.
+            Hero: I know. We'll tell Jaal, and let him decide how to spread the news to his people.
+            ↩ (goto) global_squad_krogan: [empty]
+        ├ option 2:
+            global_squad_asari ⟨cond⟩ [OncePerGame]: We have to tell Jaal what we learned here, right?
+            ↩ (goto) Hero: I know. We'll tell Jaal, and let him decide how to spread the news to his people.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩ [OncePerGame]: Jaal needs to know what we learned about the angara.
+            ↩ (goto) Hero: I know. We'll tell Jaal, and let him decide how to spread the news to his people.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩ [OncePerGame]: Jaal's a friend. We have to tell him what we learned about the angara.
+            ↩ (goto) Hero: I know. We'll tell Jaal, and let him decide how to spread the news to his people.
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩ [OncePerGame]: Jaal needs to be told about the angara. What we learned.
+            ↩ (goto) Hero: I know. We'll tell Jaal, and let him decide how to spread the news to his people.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (12) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: How long have the kett been squatting here?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: Too long.
+        ├ option 2:
+            Hero: Long enough, I imagine.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩ [OncePerGame]: This place is a labyrinth. You sure we haven't been this way before?
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: I'm surprised the kett haven't taken this place apart trying to discover its secrets.
+        global_squad_angara ⟨cond⟩: We have found Remnant materials to be quite resistant to normal weaponry. That's probably why.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩ [OncePerGame]: I'm kicking myself for not bringing bread crumbs.
+        global_squad_angara ⟨cond⟩: Are you hungry? I have some rations.
+        global_squad_female_human: No, bread crumbs to mark where you've been. Leaving a trail.
+        global_squad_angara: What a curious way to play with your food.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: I wish we didn't have to rush around defending ourselves from kett.
+        global_squad_asari: Would be nice to take our time and really look at this stuff.
+    ├ option 6:
+        global_squad_asari ⟨cond⟩ [OncePerGame]: That pillar looks familiar. We've been here before, right? No. Maybe I'm thinking of that pillar.
+    ├ option 7:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: Watch your step. The rain makes everything a little slick.
+    ├ option 8:
+        global_squad_turian ⟨cond⟩ [OncePerGame]: We'd better find something amazing at the center of this place.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: We should, if SAM's right. No pressure, SAM.
+        ├ option 2:
+            Hero: We will. I've got a feeling about this.
+        └─ merge ─┘
+    ├ option 9:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: It frustrates and angers me that this place was hidden from my people for so long.
+    ├ option 10:
+        global_squad_angara ⟨cond⟩ [OncePerGame]: I wish the Moshae could see this.
+    ├ option 11:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I guess we can come here if we run out of water. Doesn't look like they've ever run out of water here.
+    ├ option 12:
+        global_squad_male_human ⟨cond⟩ [OncePerGame]: I have to say, nothing in the world prepared me for this, Ryder.
+        global_squad_male_human: Alien tech, strange lights, exotic plants, endless downpours. It's just a never-ending party.
+        Hero: You have a really weird idea of what a party should be.
+    └─ merge ─┘
+└─ merge ─┘

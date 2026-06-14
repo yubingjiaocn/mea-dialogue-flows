@@ -1,0 +1,59 @@
+# game/conversations/hubs/hub_mer/mer_squad_peebee_select_i
+# Primary speaker: global_squad_asari
+# Source: game/conversations/hubs/hub_mer/mer_squad_peebee_select_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari: Ryder, you have to promise me something.
+    Hero: What's that?
+    global_squad_asari: If you see me spending a ton of time here, please make me leave. I could blink and lose twenty years in a place like this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: No doubt I'll have other things for you to do.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: You do know: you're the one person with the power to distract me from Meridian.
+            global_squad_asari: Now go away. I've got more to do and ponder and figure out.
+        ├ option 2:
+            global_squad_asari: Good, yes, please. I'm serious.
+            ↩ (goto) global_squad_asari: Now go away. I've got more to do and ponder and figure out.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: At least I'll know where to find you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: Wherever I am, you know I'm wrapped around your finger, right? Even here.
+            ↩ (goto) global_squad_asari: Now go away. I've got more to do and ponder and figure out.
+        ├ option 2:
+            global_squad_asari: Ha-ha, very funny.
+            ↩ (goto) global_squad_asari: Now go away. I've got more to do and ponder and figure out.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: Ryder, my catalogue of Remnant signals is off the charts, thanks to this place.
+    global_squad_asari: There isn't anything I won't be able to find out there now.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: And we'll all reap the benefits.
+        global_squad_asari: Some day we're going to understand every last piece of this.
+        global_squad_asari: {i}(Sighs.){/i} I am so glad I hitched myself to your wagon. So to speak.
+    ├ option 2:
+        Hero: Who is this new Peebee—just work, work, work, work.
+        global_squad_asari: Don't count on it, buster.
+        ↩ (goto) global_squad_asari: {i}(Sighs.){/i} I am so glad I hitched myself to your wagon. So to speak.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari: Ryder, instead of "Hello," I think I'm just going to say "Thank you." Thank you, Ryder.
+    ├ option 2:
+        global_squad_asari: Thank you. For this. Quite a gift—to all of us.
+    ├ option 3:
+        global_squad_asari: There you are. Glad to see I'm not the only one who likes it here.
+    ├ option 4:
+        global_squad_asari: It was all worth it, wasn't it?
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: There's my Pathfinder. All mine.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

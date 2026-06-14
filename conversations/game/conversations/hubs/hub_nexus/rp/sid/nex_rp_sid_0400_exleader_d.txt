@@ -1,0 +1,110 @@
+# game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0400_exleader_d
+# Primary speaker: nex_rp_sid_exlead
+# Source: game/conversations/hubs/hub_nexus/rp/sid/nex_rp_sid_0400_exleader_d.xml
+==================================================
+Hero: Is your name Yale?
+nex_rp_sid_exlead: Yeah, that's me. Stanton Yale. What can I do for the Pathfinder today?
+Hero: Tell me about the Three Sabers.
+nex_rp_sid_exlead: Ah, shit.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You were their leader before they kicked you out.
+    nex_rp_sid_exlead: And gave me a broken leg and a dislocated shoulder as parting gifts.
+    nex_rp_sid_exlead: It was a mistake. We trained the attack dogs, and they turned on us.
+    Hero: Explain.
+    nex_rp_sid_exlead: The new outposts, our supply routes, they needed protection. We couldn't rely on just you.
+    nex_rp_sid_exlead: I proposed that we'd save Nexus blood by hiring exiles to fight for us.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It could've worked. Mercenaries and privateers have existed throughout history.
+        nex_rp_sid_exlead: That was the hope. Cochrane and I served together. I thought I could trust him and the crew.
+        nex_rp_sid_exlead: I became their commander. I armed them. I shared access to Prodromos operations.
+        nex_rp_sid_exlead: And then they took their new toys and went rogue. Attacked people they were supposed to protect.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You know I have to report this. You conspired with Nexus enemies.
+            nex_rp_sid_exlead: Who are you going to report to? Addison? She signed off on it.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: What? Addison?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    nex_rp_sid_exlead ⟨cond⟩: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        nex_rp_sid_exlead ⟨cond⟩: So report it if you want. Addison knows any investigation's gonna dig up docs covered in her fingerprints.
+                        nex_rp_sid_exlead: I have to get back to work. We've got an outpost to run here.
+                    ├ option 2:
+                        nex_rp_sid_exlead: It doesn't even matter anymore. The Three Sabers are gone. Just let this blow over.
+                        ↩ (goto) nex_rp_sid_exlead: I have to get back to work. We've got an outpost to run here.
+                    └─ merge ─┘
+                ├ option 2:
+                    nex_rp_sid_exlead: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ↩ (goto) nex_rp_sid_exlead ⟨cond⟩: So report it if you want. Addison knows any investigation's gonna dig up docs covered in her fingerprints.
+                    ├ option 2:
+                        ↩ (goto) nex_rp_sid_exlead: It doesn't even matter anymore. The Three Sabers are gone. Just let this blow over.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_male_human ⟨cond⟩: This goes all the way up to Addison?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) nex_rp_sid_exlead ⟨cond⟩: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                ├ option 2:
+                    ↩ (goto) nex_rp_sid_exlead: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                └─ merge ─┘
+            ├ option 3:
+                global_squad_turian ⟨cond⟩: Wait, Addison?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) nex_rp_sid_exlead ⟨cond⟩: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                ├ option 2:
+                    ↩ (goto) nex_rp_sid_exlead: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_asari ⟨cond⟩: Addison? She knew?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) nex_rp_sid_exlead ⟨cond⟩: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                ├ option 2:
+                    ↩ (goto) nex_rp_sid_exlead: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                └─ merge ─┘
+            ├ option 5:
+                global_squad_krogan ⟨cond⟩: Addison knew?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) nex_rp_sid_exlead ⟨cond⟩: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                ├ option 2:
+                    ↩ (goto) nex_rp_sid_exlead: She wasn't sure Ryder would work out as Pathfinder. She was desperate for options.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I've dealt with the Three Sabers. They won't be a problem.
+            nex_rp_sid_exlead: Damn. They're... gone then? Shit. Cochrane. He was a good man, once.
+            nex_rp_sid_exlead: Addison will be pleased, at least. One loose end tied up.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: What? Addison?
+            ├ option 2:
+                ↩ (goto) global_squad_male_human ⟨cond⟩: This goes all the way up to Addison?
+            ├ option 3:
+                ↩ (goto) global_squad_turian ⟨cond⟩: Wait, Addison?
+            ├ option 4:
+                ↩ (goto) global_squad_asari ⟨cond⟩: Addison? She knew?
+            ├ option 5:
+                ↩ (goto) global_squad_krogan ⟨cond⟩: Addison knew?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: First time I've seen someone so coldly calculating and stupid in one shot.
+        nex_rp_sid_exlead: It was a risk, sure, but I knew Cochrane. We served together. I thought I could trust him.
+        ↩ (goto) nex_rp_sid_exlead: I became their commander. I armed them. I shared access to Prodromos operations.
+    └─ merge ─┘
+├ option 2:
+    Hero: Well, that reaction tells me all I need to know.
+    nex_rp_sid_exlead: Look, I just didn't think anyone would find out about it, okay?
+    nex_rp_sid_exlead: It's something that ought to be left alone. We made a mistake.
+    ↩ (goto) Hero: Explain.
+└─ merge ─┘

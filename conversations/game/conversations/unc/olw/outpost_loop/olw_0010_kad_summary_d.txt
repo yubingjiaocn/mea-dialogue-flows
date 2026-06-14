@@ -1,0 +1,20 @@
+# game/conversations/unc/olw/outpost_loop/olw_0010_kad_summary_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/outpost_loop/olw_0010_kad_summary_d.xml
+==================================================
+Hero: All right, SAM. Show me what we've got.
+SAM: Kadara's water is dense with sulfide minerals, the oxidation of which produces toxic streams and lakes.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: So no skinny dipping?
+    SAM: No dipping at all, Pathfinder.
+    SAM: Even the Nomad's shields cannot withstand the water's corrosive properties.
+    SAM: The presence of monoliths suggests a vault that might reduce the acidity.
+    SAM: However, outlaws, pirates, and other unsavory exiles inhabit Kadara's hills.
+    SAM: The further you travel from the mountain, the more dangerous it will become.
+    Hero: Good to know. Let's get out there.
+├ option 2:
+    Hero: Never liked swimming much anyways.
+    SAM: That is fortunate.
+    ↩ (goto) SAM: Even the Nomad's shields cannot withstand the water's corrosive properties.
+└─ merge ─┘

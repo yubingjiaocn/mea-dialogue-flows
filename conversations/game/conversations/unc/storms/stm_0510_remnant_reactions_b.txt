@@ -1,0 +1,169 @@
+# game/conversations/unc/storms/stm_0510_remnant_reactions_b
+# Primary speaker: SAM
+# Source: game/conversations/unc/storms/stm_0510_remnant_reactions_b.xml
+==================================================
+Hero: Look at that view.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Wow. That sure is a sight.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: We make it safe, that's not desert—it's an endless beach.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Well... that's something...
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Too many kett to shoot to go sightseeing—but that's a view.
+└─ merge ─┘
+Hero: So you don't think something should be here?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: [Comm] Why are you sitting around? You want to help Eos, the big tower structures are the key, I promise.
+    global_squad_asari: [Comm] Remnant need things in a certain order. And a proper glyphing.
+    Hero: We'll be back. I know it.
+├ option 2:
+    SAM: Outpost personnel detected massive structures underground, but couldn't make sense of their function.
+    Hero: We need to follow that signal we detected.
+└─ merge ─┘
+Hero: There's more foliage here. And a difference in the air?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: [Comm] Pathfinder, can I have one of you for my own? All this data is amazing!
+        global_squad_asari: [Comm] I mean, you're on track to help Eos, too. Keep it up!
+    ├ option 2:
+        SAM: It is difficult to speculate without complete data, Pathfinder.
+        Hero: The signal we detected in orbit. If we follow that, we find our next step.
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    SAM: Just as in the vault, Pathfinder. Remnant technology can affect life in profound ways.
+└─ merge ─┘
+Hero: Looks like the kett don't like {i}anyone{/i}.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: That doesn't bode well for settlement efforts.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Doesn't bode well for settlement efforts.
+├ option 3:
+    global_squad_turian ⟨cond⟩: After our first meeting? Suits me fine.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: You haven't seen anything yet.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Is that a ship? Peebee, why didn't you say anything about a Remnant ship?
+    global_squad_asari: [Comm] Everyone has ships. Not everyone has weird structures that might change a planet.
+    global_squad_asari: [Comm] Besides, it's got Scourge on it. Careful.
+├ option 2:
+    Hero: That ship isn't kett—it's alien, like at Habitat 7 and the rest of this tech.
+    ↩ (goto) global_squad_asari: [empty]
+└─ merge ─┘
+Hero: The Hyperion hit the Scourge head-on and didn't see damage like this.
+SAM: The technology of Habitat 7 "adhered" to the Scourge when active. Perhaps this ship held contact in a similar way.
+Hero: What, like... a metal hull draws a magnetic mine?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Did we just stumble into someone else's mess?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Then we got lucky. Or they didn't, I suppose.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Did we just stumble into someone else's mess?
+├ option 4:
+    global_squad_asari ⟨cond⟩: Oh, that's good. You're good. This is all... sooo good.
+└─ merge ─┘
+Hero: Fighting these things doesn't give the kett what they need?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: For not wanting Remnant tech, they take a lot of the good stuff anyway.
+        Hero: No idea, but Site 1 and 2 lost nearly everything. And everyone.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Do they mean gear, or something else?
+        ↩ (goto) Hero: No idea, but Site 1 and 2 lost nearly everything. And everyone.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Good. Not letting them have it, anyway.
+        ↩ (goto) Hero: No idea, but Site 1 and 2 lost nearly everything. And everyone.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Do they mean gear, or something else?
+        ↩ (goto) Hero: No idea, but Site 1 and 2 lost nearly everything. And everyone.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) SAM: It is difficult to speculate without complete data, Pathfinder.
+└─ merge ─┘
+Hero: Our people put up a fight.
+SAM: Perhaps the effort was not effective, or the hostiles were reinforced and repaired.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: It could be both. They were exploring, not being tactical.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Could be both. We weren't ready for any of this.
+├ option 3:
+    global_squad_turian ⟨cond⟩: It could be both. They were exploring, not being tactical.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: No offense, but this wasn't the first fight the Initiative wasn't ready for.
+└─ merge ─┘
+Hero: They were saving any data they could. In case it helped the next try.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: That's us. The "next try" is us.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: That's us. The "next try" is us.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: That's us. The "next try" is us.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Guess that's you, because I guarantee none of them made it.
+    └─ merge ─┘
+├ option 2:
+    Hero: We need to follow that signal we found from orbit. That's the key to this tech.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+├ option 2:
+    SAM: I am recording seismic activity, Pathfinder.
+    Hero: Eos is geologically stable. The atmosphere was the problem.
+    SAM: I advise caution. The frequency is rhythmic and artificial.
+    SAM: A living being is creating it.
+├ option 3:
+    Hero: That thing is huge.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: I. Want. One.
+        SAM: It is indeed dangerous, Pathfinder, but its current path will not take it near Initiative resources.
+        Hero: We leave a thing like that alone until we're ready.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Stay clear. We are staying clear.
+        ↩ (goto) SAM: It is indeed dangerous, Pathfinder, but its current path will not take it near Initiative resources.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: That's a monster. Leave quiet monsters alone.
+        ↩ (goto) SAM: It is indeed dangerous, Pathfinder, but its current path will not take it near Initiative resources.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Stay clear. We are staying clear.
+        ↩ (goto) SAM: It is indeed dangerous, Pathfinder, but its current path will not take it near Initiative resources.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Oooh, let me take a shot. I miss the thresher maw days.
+        ↩ (goto) SAM: It is indeed dangerous, Pathfinder, but its current path will not take it near Initiative resources.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: It's bigger than it looked. Maybe... we don't get so close?
+├ option 2:
+    global_squad_female_human ⟨cond⟩: That's more than close enough.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Got a good look? Good. Let's leave it.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Don't edge up to it. Are we in or out with this thing?
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Come on, we're right here! Let's take it!
+└─ merge ─┘
+Hero: The sky... it's clearer this way. A sign of more of that tech?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: [Comm] You haven't seen anything yet. Like I said—monolithic.
+├ option 2:
+    SAM: There isn't enough data for a direct correlation yet, Pathfinder. But it is possible.
+└─ merge ─┘
+↩ (goto) Hero: The sky... it's clearer this way. A sign of more of that tech?

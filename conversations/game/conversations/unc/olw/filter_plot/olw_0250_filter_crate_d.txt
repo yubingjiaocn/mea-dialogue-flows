@@ -1,0 +1,102 @@
+# game/conversations/unc/olw/filter_plot/olw_0250_filter_crate_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/filter_plot/olw_0250_filter_crate_d.xml
+==================================================
+SAM: Water filters. The make and design matches those found in the angaran town.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Guess it was too much to hope exiles weren't involved.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: So much death. And for what?
+        olw_mallox: Hey!
+        Narration: Ryder and squad turn to see Mallox, the turian in charge of Charybdis Point.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            olw_mallox ⟨cond⟩: {i}(Sighs.){/i} You just couldn't leave it alone.
+            Hero: These filters. You stole the design from the angara. Didn't you?
+            olw_mallox: This doesn't concern you. Walk away. Before you can't.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You murdered an entire town. I'm not leaving until I know why.
+                olw_mallox: We came to them. Starving. Dying of thirst.
+                olw_mallox: But instead of helping us, those flapheads bled us dry.
+                olw_mallox: Credits, clothes, weapons... they took everything.
+                Hero: Not everything. You survived. You set up here.
+                olw_mallox: The angara are the only ones who know how to properly filter this planet’s water.
+                olw_mallox: All we wanted was to be self-sufficient. I offered to pay for the designs. They refused.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_angara ⟨cond⟩: So you poisoned them?
+                    olw_mallox: And took all their business.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: You're a monster.
+                        olw_mallox: No, I'm a survivor.
+                        olw_mallox: Kill them!
+                    ├ option 2:
+                        Hero: I won't let you get away with this.
+                        olw_mallox: Figured you'd say that.
+                        ↩ (goto) olw_mallox: Kill them!
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_male_human ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) olw_mallox: And took all their business.
+                ├ option 3:
+                    global_squad_female_human ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) olw_mallox: And took all their business.
+                ├ option 4:
+                    global_squad_krogan ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) olw_mallox: And took all their business.
+                ├ option 5:
+                    global_squad_turian ⟨cond⟩: So you poisoned them.
+                    ↩ (goto) olw_mallox: And took all their business.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I won't ask again. Where did you get the filter designs?
+                olw_mallox: There's a history here you wouldn't understand.
+                Hero: Try me.
+                olw_mallox: We couldn't pay Sloane's protection fees, so she forced us out.
+                olw_mallox: We came to the angara for help. Starving. Dying.
+                olw_mallox: But instead of being {i}decent{/i}, those flapheads bled us dry.
+                ↩ (goto) olw_mallox: Credits, clothes, weapons... they took everything.
+            └─ merge ─┘
+        ├ option 2:
+            olw_mallox: What are you doing in here?
+            Hero: A better question is: where'd you get the design for these water filters?
+            olw_mallox: Leave it alone. Before you can't.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: You murdered an entire town. I'm not leaving until I know why.
+            ├ option 2:
+                ↩ (goto) Hero: I won't ask again. Where did you get the filter designs?
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Maybe there's another explanation?
+        ↩ (goto) olw_mallox: Hey!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: The evidence is pretty damning.
+        ↩ (goto) olw_mallox: Hey!
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Survival. It brings out the worst in people.
+        ↩ (goto) olw_mallox: Hey!
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: We should talk to them. Get the whole story.
+        ↩ (goto) olw_mallox: Hey!
+    └─ merge ─┘
+├ option 2:
+    Hero: So exiles stole the angara's design and poisoned them for good measure.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_angara ⟨cond⟩: So much death. And for what?
+    ├ option 2:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Maybe there's another explanation?
+    ├ option 3:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: The evidence is pretty damning.
+    ├ option 4:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: Survival. It brings out the worst in people.
+    ├ option 5:
+        ↩ (goto) global_squad_turian ⟨cond⟩: We should talk to them. Get the whole story.
+    └─ merge ─┘
+└─ merge ─┘

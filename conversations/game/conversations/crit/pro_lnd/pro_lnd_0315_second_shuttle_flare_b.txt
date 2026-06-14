@@ -1,0 +1,17 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0315_second_shuttle_flare_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0315_second_shuttle_flare_b.xml
+==================================================
+global_squad_male_human: Hey, look—flares going up! Over there!
+Hero: Could be our people. I'll mark the navpoint.
+global_squad_male_human: Those flares again.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Worth checking out. I'll mark the navpoint.
+├ option 2:
+    global_squad_male_human [OncePerGame]: More of those flares. Definitely not ours.
+├ option 3:
+    global_squad_male_human: Wrong color, though... shit, those aren't ours.
+    Hero: Could still be our people. I'll mark the navpoint.
+    global_squad_male_human: Could also be a trap.
+└─ merge ─┘

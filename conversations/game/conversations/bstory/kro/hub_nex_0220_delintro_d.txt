@@ -1,0 +1,61 @@
+# game/conversations/bstory/kro/hub_nex_0220_delintro_d
+# Primary speaker: nex_krobsto_engi_01
+# Source: game/conversations/bstory/kro/hub_nex_0220_delintro_d.xml
+==================================================
+global_nexus_colonial_assdir: Your incompetence isn't my problem. Just do your job.
+nex_krobsto_engi_01: What do you want?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Whatever's going on, it's not fair to take it out on me.
+    nex_krobsto_engi_01: {i}(Sighs.){/i}. Apologies. You're right, this isn't your fault.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: He was pretty abusive towards you. Is that... normal?
+        nex_krobsto_engi_01: Yes. He's horrible. Working with him is a total nightmare.
+        nex_krobsto_engi_01: Just last week, he tried to redirect some of the supplies we need to keep the stasis pods going.
+        Hero: Why?
+        nex_krobsto_engi_01: I have no idea, but if Kesh hadn't stepped in and threatened to airlock him, it would have been a disaster.
+        nex_krobsto_engi_01: He's always like that. Making bad decisions, driving the krogan away, treating people like scum when no one's watching.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: You'd think your boss would have the power to do something.
+            nex_krobsto_engi_01: She hates Spender, but there's only one of her—and she can't always be around to deal with him.
+            nex_krobsto_engi_01: Things have gotten so bad that Kesh had to literally kick him out of engineering.
+            Hero: How literal we talking here?
+            nex_krobsto_engi_01: Boot to ass. Oh, it was glorious.
+            nex_krobsto_engi_01: We need him gone—but as incompetent as Spender is at his job, he's insanely good at keeping it.
+            nex_krobsto_engi_01: Kesh can tell you more.
+        ├ option 2:
+            Hero: Maybe there's something I can do?
+            nex_krobsto_engi_01: A man like that's bound to have some dirt. I wish Tann and Addison could see it.
+            ↩ (goto) nex_krobsto_engi_01: Things have gotten so bad that Kesh had to literally kick him out of engineering.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: I haven't heard much good about that guy.
+        nex_krobsto_engi_01: Whatever you've heard, it's not half as bad as the reality.
+        ↩ (goto) nex_krobsto_engi_01: Just last week, he tried to redirect some of the supplies we need to keep the stasis pods going.
+    ├ option 3:
+        Hero: From what I heard just now, he's a bona fide jerk.
+        nex_krobsto_engi_01: That's putting it lightly.
+        ↩ (goto) nex_krobsto_engi_01: Just last week, he tried to redirect some of the supplies we need to keep the stasis pods going.
+    └─ merge ─┘
+├ option 2:
+    Hero: Sounds like you're having a rough day.
+    nex_krobsto_engi_01: You saw that, huh? I'm... sorry I snapped at you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_krobsto_engi_01: The way Spender treats me. Everyone! I'm just so angry.
+        nex_krobsto_engi_01: I don't understand how he's in any position of authority.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: He was pretty abusive towards you. Is that... normal?
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: I haven't heard much good about that guy.
+        ├ option 3:
+            ↩ (goto) Hero: From what I heard just now, he's a bona fide jerk.
+        └─ merge ─┘
+    ├ option 2:
+        nex_krobsto_engi_01: That man just makes me so {i}angry{/i}.
+        ↩ (goto) nex_krobsto_engi_01: I don't understand how he's in any position of authority.
+    └─ merge ─┘
+└─ merge ─┘

@@ -1,0 +1,53 @@
+# game/conversations/unc_ice/ice_1100_angtown1_mechanic_i
+# Primary speaker: ice_yaret
+# Source: game/conversations/unc_ice/ice_1100_angtown1_mechanic_i.xml
+==================================================
+ice_yaret [OncePerGame]: I saw your ship land earlier. Impressive vehicle.
+Hero: I was about to say the same to you. Is that thing kett?
+ice_yaret: Sure is. On our last dig, the kett destroyed our land cruiser.
+ice_yaret: So I decided to repurpose one of theirs. It's only fair.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You run into the kett a lot out here?
+    ice_yaret: Once in a while. We all have combat training, so we hold our own.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_yaret ⟨cond⟩: And since you took out their base, they're not shooting us out of the air anymore.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: What do you do here besides jacking vehicles?
+            ice_yaret: I was a civil engineer on Aya. Now I'm a mechanic for the research equipment here.
+            ice_yaret: One minute you're designing an aqueduct, the next you're elbow-deep in an ice drill.
+            Hero: That's a big change.
+            ice_yaret: I wouldn't trade it for anything. It's tough out here, but every day's exciting.
+            ice_yaret: Besides, Aya can get on without me. Hjara Station needs me.
+            ↩ (goto) ice_yaret: [empty]
+        ├ option 2:
+            Hero: Do you work with Remnant tech?
+            ice_yaret: Not really. I can't activate it, so there's no point.
+            ice_yaret: Those tall structures with the lights are fascinating, though. I'd love to get inside one and tinker around.
+            ice_yaret: If you're interested, they're north of here.
+            ↩ (goto) ice_yaret: [empty]
+        ├ option 3:
+            Hero: Is using kett machinery common out here?
+            ice_yaret: Only if we stumble on it. Or steal it.
+            ice_yaret: Mostly we stay away from their stuff, in case it's a trap.
+            Hero: They set traps?
+            ice_yaret: Sometimes they rig their machines to explode and lay them out for us.
+            ice_yaret: I'd say they're clever, but they learned it from us.
+            ↩ (goto) ice_yaret: [empty]
+        ├ option 4:
+            Hero: I'll get going.
+            ice_yaret: Stay warm.
+        └─ merge ─┘
+    ├ option 2:
+        ice_yaret: The sky is the real problem. That kett base will shoot anything above the ground.
+        ↩ (goto) ice_yaret: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You stole from the kett? You're my hero.
+    ice_yaret: From what I hear, you're doing a lot more than just stealing from them.
+    ↩ (goto) ice_yaret: [empty]
+└─ merge ─┘
+ice_yaret: Yeah?
+↩ (goto) ice_yaret: [empty]

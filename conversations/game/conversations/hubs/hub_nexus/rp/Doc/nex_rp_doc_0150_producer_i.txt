@@ -1,0 +1,21 @@
+# Game/Conversations/Hubs/Hub_Nexus/RP/Doc/nex_rp_doc_0150_producer_i
+# Primary speaker: nex_rp_doc_producer
+# Source: game/conversations/hubs/hub_nexus/rp/Doc/nex_rp_doc_0150_producer_i.xml
+==================================================
+nex_rp_doc_producer [OncePerGame]: Hakim, Keri's producer. I'm the one making you look stunning for the documentary.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_rp_doc_producer ⟨cond⟩: There's a hitch. Keri's been arrested for "conspiracy to incite unrest."
+    nex_rp_doc_producer: She's in a cell at the militia headquarters. Any chance you could stop by? A visit from you might shake things up.
+├ option 2:
+    nex_rp_doc_producer ⟨cond⟩: Unfortunately, Keri was making the Initiative sound {i}too{/i} good for some colonists.
+    nex_rp_doc_producer: They believed the hype, so when actual danger bit them in the ass, they blamed her. I can't get her to leave her apartment.
+    nex_rp_doc_producer: Can you try talking to her? I'd hate for all her work to go to waste.
+└─ merge ─┘
+nex_rp_doc_producer: That's it for the documentary. Keri quit.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_rp_doc_producer ⟨cond⟩: The political stuff really ground her down. Poor kid.
+├ option 2:
+    nex_rp_doc_producer: Got to love mob justice. Thanks for taking part, anyway.
+└─ merge ─┘

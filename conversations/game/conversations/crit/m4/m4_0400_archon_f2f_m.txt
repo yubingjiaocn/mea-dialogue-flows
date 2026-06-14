@@ -1,0 +1,256 @@
+# Game/Conversations/Crit/M4/m4_0400_archon_f2f_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0400_archon_f2f_m.xml
+==================================================
+SAM: Ryder, caution—
+Hero: Some kind of... immobilizing field.
+global_main_villain: It's useless to struggle.
+global_main_villain: I've been in this forsaken cluster for decades, surrounded by amoeba.
+global_main_villain: Then you arrive—a human, able to do the unthinkable. You even evaded me.
+global_main_villain: Such an unlikely rival. It was almost invigorating to have one. And yet, it's a fitting end.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: What are you going to do with me?
+    global_main_villain: Whatever I please.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Hey, back off, asshole!
+        global_main_villain: A first sample. Your testing begins now. I will learn your secret soon enough.
+        global_main_villain: Report.
+        global_main_villain: Await my arrival.
+        global_main_villain: Save your strength, human.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Ugh, guess Raeka's team is in trouble.
+            Hero: We have her beat. SAM, what can you tell me?
+            SAM: I'm sensing a biological transmitter in your bloodstream now. Attempting to neutralize it.
+            Hero: Okay, that's priority two for sure. Any idea how to break out of this?
+            SAM: The containment fields only interact with living matter. If you expire, the field around you will extinguish until manually reset.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                SAM: As you know, my access to your physiology allows me to enhance your vital signals when required...
+                SAM: I can also do the opposite.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: So if you shut down my life signs—if you kill me—the field will disappear?
+                    SAM: The one holding you, yes. Then I would attempt to resuscitate.
+                    Hero: Are there any other options?
+                    SAM: None that I can determine.
+                    Hero: All right. Let's do it.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: Not again.
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            global_squad_male_human ⟨cond⟩: It's a bad idea, SAM.
+                            SAM: Stopping your heart... now.
+                            ┌─ BRANCH (6) ─┐
+                            ├ option 1:
+                                global_squad_female_human ⟨cond⟩: SAM?
+                                SAM: Stimulating the cardiovascular core...
+                                SAM: Zero activity.
+                                SAM: Stimulating the cardiovascular core...
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: That seems to have done the trick.
+                                    SAM: Of course it did.
+                                    Hero: Glad one of us was sure.
+                                    Hero: You two look comfortable.
+                                    ┌─ BRANCH (6) ─┐
+                                    ├ option 1:
+                                        global_squad_female_human ⟨cond⟩: So did you, while you were playing dead.
+                                        Hero: Let's find a way out of this cage, huh?
+                                    ├ option 2:
+                                        global_squad_male_human ⟨cond⟩: Not funny. Stop dying, and get us down.
+                                        ↩ (goto) Narration: [empty]
+                                    ├ option 3:
+                                        global_squad_krogan ⟨cond⟩: Down. Now.
+                                        ↩ (goto) Narration: [empty]
+                                    ├ option 4:
+                                        global_squad_angara ⟨cond⟩: Just get us down from here.
+                                        ↩ (goto) Narration: [empty]
+                                    ├ option 5:
+                                        global_squad_turian ⟨cond⟩: Not funny. Get us down.
+                                        ↩ (goto) Narration: [empty]
+                                    ├ option 6:
+                                        global_squad_asari ⟨cond⟩: Down, please.
+                                        ↩ (goto) Narration: [empty]
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    Hero: That's twice now I've come back from the dead. Can't say the experience is improving.
+                                    SAM: I believe it is preferable to the alternative.
+                                    Hero: Easy for you to say.
+                                    ↩ (goto) Narration: [empty]
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_squad_male_human ⟨cond⟩: SAM?
+                                ↩ (goto) SAM: Stimulating the cardiovascular core...
+                            ├ option 3:
+                                global_squad_asari ⟨cond⟩: SAM?
+                                ↩ (goto) SAM: Stimulating the cardiovascular core...
+                            ├ option 4:
+                                global_squad_turian ⟨cond⟩: SAM?
+                                ↩ (goto) SAM: Stimulating the cardiovascular core...
+                            ├ option 5:
+                                global_squad_angara ⟨cond⟩: SAM?
+                                ↩ (goto) SAM: Stimulating the cardiovascular core...
+                            ├ option 6:
+                                global_squad_krogan ⟨cond⟩: SAM?
+                                ↩ (goto) SAM: Stimulating the cardiovascular core...
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_squad_krogan ⟨cond⟩: You better come back.
+                            ↩ (goto) SAM: Stopping your heart... now.
+                        ├ option 3:
+                            global_squad_angara ⟨cond⟩: It has been a pleasure.
+                            ↩ (goto) SAM: Stopping your heart... now.
+                        ├ option 4:
+                            global_squad_asari ⟨cond⟩: Uh, listen—just in case, it's been great.
+                            ↩ (goto) SAM: Stopping your heart... now.
+                        ├ option 5:
+                            global_squad_turian ⟨cond⟩: You're gonna be fine.
+                            ↩ (goto) SAM: Stopping your heart... now.
+                        ├ option 6:
+                            global_squad_female_human ⟨cond⟩: SAM can do this.
+                            ↩ (goto) SAM: Stopping your heart... now.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_male_human ⟨cond⟩: Wait—you're serious?
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: SAM can do this.
+                        ├ option 2:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You better come back.
+                        ├ option 3:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: It has been a pleasure.
+                        ├ option 4:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: Uh, listen—just in case, it's been great.
+                        ├ option 5:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: You're gonna be fine.
+                        ├ option 6:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: It's a bad idea, SAM.
+                        └─ merge ─┘
+                    ├ option 3:
+                        global_squad_turian ⟨cond⟩: Ryder... you're crazy.
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You better come back.
+                        ├ option 2:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: It has been a pleasure.
+                        ├ option 3:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: Uh, listen—just in case, it's been great.
+                        ├ option 4:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: You're gonna be fine.
+                        ├ option 5:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: It's a bad idea, SAM.
+                        ├ option 6:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: SAM can do this.
+                        └─ merge ─┘
+                    ├ option 4:
+                        global_squad_asari ⟨cond⟩: Ryder... good luck.
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You better come back.
+                        ├ option 2:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: It has been a pleasure.
+                        ├ option 3:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: Uh, listen—just in case, it's been great.
+                        ├ option 4:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: You're gonna be fine.
+                        ├ option 5:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: It's a bad idea, SAM.
+                        ├ option 6:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: SAM can do this.
+                        └─ merge ─┘
+                    ├ option 5:
+                        global_squad_angara ⟨cond⟩: Ryder... good luck.
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You better come back.
+                        ├ option 2:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: It has been a pleasure.
+                        ├ option 3:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: Uh, listen—just in case, it's been great.
+                        ├ option 4:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: You're gonna be fine.
+                        ├ option 5:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: It's a bad idea, SAM.
+                        ├ option 6:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: SAM can do this.
+                        └─ merge ─┘
+                    ├ option 6:
+                        global_squad_krogan ⟨cond⟩: Good luck, Ryder.
+                        ┌─ BRANCH (6) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: It's a bad idea, SAM.
+                        ├ option 2:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: SAM can do this.
+                        ├ option 3:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: You better come back.
+                        ├ option 4:
+                            ↩ (goto) global_squad_angara ⟨cond⟩: It has been a pleasure.
+                        ├ option 5:
+                            ↩ (goto) global_squad_asari ⟨cond⟩: Uh, listen—just in case, it's been great.
+                        ├ option 6:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: You're gonna be fine.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Whoa, whoa, whoa—kind of don't want to die today, SAM.
+                    SAM: After stopping your heart, I would attempt to resuscitate, of course.
+                    ↩ (goto) Hero: Are there any other options?
+                └─ merge ─┘
+            ├ option 2:
+                SAM: Your father gave me unrestricted access to the Pathfinder's physiology, so I may enhance motor and neural skills when required...
+                ↩ (goto) SAM: I can also do the opposite.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Raeka must have run into trouble.
+            ↩ (goto) Hero: We have her beat. SAM, what can you tell me?
+        ├ option 3:
+            global_squad_angara ⟨cond⟩: Raeka must have run into trouble.
+            ↩ (goto) Hero: We have her beat. SAM, what can you tell me?
+        ├ option 4:
+            global_squad_turian ⟨cond⟩: Sounds like Raeka's got trouble.
+            ↩ (goto) Hero: We have her beat. SAM, what can you tell me?
+        ├ option 5:
+            global_squad_asari ⟨cond⟩: Raeka must have run into some trouble.
+            ↩ (goto) Hero: We have her beat. SAM, what can you tell me?
+        ├ option 6:
+            global_squad_krogan ⟨cond⟩: The salarian must have run into some trouble.
+            ↩ (goto) Hero: We have her beat. SAM, what can you tell me?
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Hey, hands off!
+        ↩ (goto) Narration: [empty]
+    ├ option 3:
+        global_squad_krogan ⟨cond⟩: Hey! Try that with me.
+        ↩ (goto) Narration: [empty]
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Hey! Hands off!
+        ↩ (goto) Narration: [empty]
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: I'm gonna kill you, you bony freak!
+        ↩ (goto) Narration: [empty]
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Too afraid to attack me, kett?
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: You have no idea what you're messing with. Now, I suggest you let—
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    Hero: Not before I end you. I've seen your experiments. It's what we call "inhuman."
+    global_main_villain: And what I call "progress."
+    ↩ (goto) Narration: [empty]
+├ option 4:
+    Hero: Is that what sad looks like? I'd give you a hug, but...
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+Hero: {i}(Gasping.){/i}
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: DNR -- EXERTION -- stringID 218235
+├ option 2:
+    Hero: DNR -- EXERTION -- stringID 218233
+└─ merge ─┘

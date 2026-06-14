@@ -1,0 +1,27 @@
+# game/conversations/bstory/ket/ketbs_0650_findsignal_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/ket/ketbs_0650_findsignal_banter_b.xml
+==================================================
+Hero: This is the navpoint Suvi gave us, but there's nothing here. Just this beacon.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Transmissions probably routed through a bunch of these.
+    global_squad_female_human: If I was spouting treasonous nonsense, I'd be careful too.
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: If I was saying things about my boss, I wouldn't want it to get back to me.
+    global_squad_asari: This could be some kind of proxy, to reduce the chance of detection.
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: It's probably a proxy, to hide the true location.
+    global_squad_turian: Whoever it is doesn't want the Archon to know what they're doing.
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: They're being careful. Speaking out against the Archon will have consequences.
+    global_squad_angara: The true location of the transmission will be hidden.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Routing through a bunch of proxies to hide a transmission's true location?
+    global_squad_male_human: Sounds like something I'd do if I wanted to speak out against you.
+    Hero: If it's all connected, then this beacon warrants a closer look.
+└─ merge ─┘
+SAM: Pathfinder, I have located another node on this network.
+SAM: Updating your omni-tool with the information.
+Hero: This is it. I think we've found the source of the transmissions.
+ket_eos_combathelp: [Comm] Pathfinder! Heard you were around. Thought we'd drop by to give you a hand!

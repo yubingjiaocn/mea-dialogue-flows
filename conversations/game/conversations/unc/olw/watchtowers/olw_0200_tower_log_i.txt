@@ -1,0 +1,23 @@
+# game/conversations/unc/olw/watchtowers/olw_0200_tower_log_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/watchtowers/olw_0200_tower_log_i.xml
+==================================================
+Hero: Got something. Audio log.
+olw_outcast_guard_04: [Audio Log] Turn that shit off.
+olw_outcast_guard_03: [Audio Log] The Collective's taken out three patrols this week.
+olw_outcast_guard_03: [Audio Log] They attack, I'm gonna catch them in the act.
+olw_outcast_guard_04: [Audio Log] And present it as evidence? You're such a—did you hear that?
+olw_outcast_guard_04: [Audio Log] {i}(Yelling and gunshots.){/i}
+Hero: Ambushed.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Well, he did catch them in the act.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Didn't need an audio log to tell me that.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Poor bastards.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Small target. The Collective likes to pick on the little guys.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Nothing we can do for them now.
+└─ merge ─┘

@@ -1,0 +1,57 @@
+# game/conversations/unc_ice/ice_1110_angtown1_block_history_i
+# Primary speaker: ice_block_researcher_f
+# Source: game/conversations/unc_ice/ice_1110_angtown1_block_history_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_block_researcher_f: Ah, you're Ryder. It's an honor to meet you. What can I do for you?
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: What are you doing with this giant block of ice?
+        ice_block_researcher_f: That was cut out from below Hjara. We're right above an inland sea, and the ice goes deep. Very deep.
+        ice_block_researcher_f: Everything under the first layer was perfectly preserved from a time before the Scourge.
+        ice_block_researcher_f: There's a lot we can learn from the composition of the deeper layers. Microbes, ancient lifeforms, all untouched by the Scourge.
+        ↩ (goto) ice_block_researcher_f: [empty]
+    ├ option 2:
+        Hero: You were saying something about ice talkers?
+        ice_block_researcher_f: Ha! Don't let anyone hear you. Stupid story that started years ago when Deenor and I were students in Estraaja.
+        ice_block_researcher_f: Talk to Deenor. He knows more about how that tale spread.
+        ↩ (goto) ice_block_researcher_f: [empty]
+    ├ option 3:
+        Hero ⟨cond⟩: What are yevara?
+        ice_block_researcher_f: Large, ancient creatures that live under the ice.
+        ice_block_researcher_f: There's a yevara-watching station nearby. That's the place to go if you want to hear about those things.
+        ↩ (goto) ice_block_researcher_f: [empty]
+    ├ option 4:
+        Hero: I won't disturb your work.
+        ice_block_researcher_f: If only the kett showed us the same courtesy.
+    └─ merge ─┘
+├ option 2:
+    ice_block_researcher_f: Ah. The alien. We heard reports. I can't imagine anything here interests you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Why not? I heard this was a research station. I'm always interested in exploratory science.
+        ice_block_researcher_f: I wasn't expecting that. I never heard that about you.
+        ice_block_researcher_f: Now, is there anything you need from me?
+        ↩ (goto) ice_block_researcher_f: [empty]
+    ├ option 2:
+        Hero: Just exploring to familiarize myself. Or see if someone needs help.
+        ice_block_researcher_f: Try Skeot, if you haven't already spoken to him. He's been looking for someone to help him.
+        ↩ (goto) ice_block_researcher_f: Now, is there anything you need from me?
+    └─ merge ─┘
+└─ merge ─┘
+ice_block_researcher_f: Ah. You again. What do you need?
+↩ (goto) ice_block_researcher_f: [empty]
+↩ (goto) ice_block_researcher_f: [empty]
+global_crew_science_officer: [Comm] Excuse me, Ryder, but I heard something about pre-Scourge lifeforms trapped in ice?
+global_crew_science_officer: [Comm] Would you mind very much scanning certain spots in the ice for me while you're out in the field?
+global_crew_science_officer: [Comm] The data could improve our understanding of the Scourge.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Sure, I could do that.
+    global_crew_science_officer: [Comm] Oh! Perfect! I'll forward the navpoints to you as I identify them.
+├ option 2:
+    Hero: Doesn't seem like a good use of our time.
+    global_crew_science_officer: [Comm] But... {i}(Sighs.){/i} May I at least forward the navpoints to you? Maybe if you find the time...
+    ↩ (goto) global_crew_science_officer: [empty]
+└─ merge ─┘

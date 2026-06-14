@@ -1,0 +1,36 @@
+# game/conversations/mp/announcer/objectives/conv_mp_obj_announcerdefuse
+# Primary speaker: global_nexus_militia_leader
+# Source: game/conversations/mp/Announcer/objectives/conv_mp_obj_announcerdefuse.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] The enemy's tapping into civilian comm traffic. We need to take out their uplink devices.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Enemy's triangulating our nearest outposts. Find their sensor arrays and get them broken.
+├ option 3:
+    global_nexus_militia_leader: [Comm] Intel says the kett left genetic surveying devices in your area. Let's find and disable them.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] One device down.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Enemy tech shut down.
+├ option 3:
+    global_nexus_militia_leader: [Comm] One problem gone.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] Enemy devices are still active, APEX.
+├ option 2:
+    global_nexus_militia_leader: [Comm] There's still enemy tech on the field. Shut it down.
+├ option 3:
+    global_nexus_militia_leader: [Comm] We need that active tech taken care of, people.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_nexus_militia_leader: [Comm] All enemy devices shut down. Good job.
+├ option 2:
+    global_nexus_militia_leader: [Comm] Enemy tech is deactivated. Objective complete.
+├ option 3:
+    global_nexus_militia_leader: [Comm] All enemy devices are now offline.
+└─ merge ─┘

@@ -1,0 +1,35 @@
+# game/conversations/crit/m4/m4_0100_console_i
+# Primary speaker: SAM
+# Source: game/conversations/crit/m4/m4_0100_console_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        crit_kett_narrator: The Pathfinder is responsible for exploring and assessing new worlds for outpost placement and settlement.
+        crit_kett_salarian_captain_multi: This is Captain Hayjer of Ark Paarchero. If you are receiving this message, hostile aliens have captured our ship.
+        crit_kett_salarian_captain_multi: Please look for our Pathfinder, Zevin Raeka. Situation urgent.
+    ├ option 2:
+        crit_kett_narrator: At present, Ark Paarchero has arrived in the Heleus Cluster. Location of Nexus is: unknown.
+        ↩ (goto) crit_kett_salarian_captain_multi: This is Captain Hayjer of Ark Paarchero. If you are receiving this message, hostile aliens have captured our ship.
+    ├ option 3:
+        crit_kett_narrator: The Andromeda Initiative encompasses all colonization efforts, including arks, Pathfinders, outposts, and the central support hub, the Nexus.
+        ↩ (goto) crit_kett_salarian_captain_multi: This is Captain Hayjer of Ark Paarchero. If you are receiving this message, hostile aliens have captured our ship.
+    ├ option 4:
+    └─ merge ─┘
+├ option 2:
+    SAM: Accessing Ark Paarchero's internal systems...
+    SAM: A moment. Additional data encryption has been added.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: When has that ever stopped you, SAM?
+        SAM: Never. It was a cryptography key associated with salarian intelligence services.
+        SAM: I have unlocked it.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: That's not regulation. Did the salarians do that?
+        SAM: It appears so. It's a cryptography key associated with their intelligence services.
+        ↩ (goto) SAM: I have unlocked it.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

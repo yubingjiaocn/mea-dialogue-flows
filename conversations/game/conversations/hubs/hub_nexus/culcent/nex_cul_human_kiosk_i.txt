@@ -1,0 +1,29 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_human_kiosk_i
+# Primary speaker: nex_culcent_human
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_human_kiosk_i.xml
+==================================================
+nex_culcent_human: Hello there. I'm a human being. If you'd like to know more about my people, just ask.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Okay.
+    nex_culcent_human: Good to hear. Humanity is a diverse species. You may notice different skin colors or religious beliefs among our people.
+    nex_culcent_human: Yet we don't let those differences come between us. We'd rather celebrate our diversity, rather than fight over it.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Where do you come from?
+        nex_culcent_human: Humans come from a planet called "Earth." It's a beautiful blue world, with everything from oceans to jungles, snowy mountain peaks to deserts.
+        nex_culcent_human: It's also an oasis of biological diversity. Scientists calculate Earth contains nearly 9 million unique animal and plant species.
+        ↩ (goto) nex_culcent_human: [empty]
+    ├ option 2:
+        Hero: What's human history like?
+        nex_culcent_human: Humanity is a young people compared to many of the other Milky Way races. We didn't discover space flight until much later.
+        nex_culcent_human: But what we lack in age, we make up for with enthusiasm and a pioneer's spirit.
+        nex_culcent_human: We'd like to think we can teach our fellow travelers a few new tricks.
+        ↩ (goto) nex_culcent_human: [empty]
+    ├ option 3:
+        nex_culcent_human: I'm glad you stopped by. Next time you see a human, ask about ice cream. It's one of the many great things we bring to Andromeda.
+    └─ merge ─┘
+├ option 2:
+    Hero: Maybe later.
+    nex_culcent_human: Don't be shy—humans aren't. We'd love to get to know you.
+└─ merge ─┘

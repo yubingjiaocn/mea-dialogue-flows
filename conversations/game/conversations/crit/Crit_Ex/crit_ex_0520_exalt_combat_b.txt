@@ -1,0 +1,51 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0520_exalt_combat_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0520_exalt_combat_b.xml
+==================================================
+global_squad_angara: No! Wait! Save the angara! Be careful! Don't kill him!
+Hero: Jaal, he's shooting at us!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: It's not his fault, Jaal! The kett made him into this!
+    global_squad_angara: Monsters! Villains! Time to die!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Jaal, stay focused!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Got your back!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: We're gonna put you assholes down!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Couldn't have said it better myself!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: What he said!
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Don't think he's gonna stop if we ask nicely.
+    ↩ (goto) global_squad_angara: Monsters! Villains! Time to die!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Jaal, I swear to you: those kett are going to get what they deserve!
+    ↩ (goto) global_squad_angara: Monsters! Villains! Time to die!
+├ option 4:
+    global_squad_asari ⟨cond⟩: Sorry, Jaal... we'll get these kett bastards, I promise!
+    ↩ (goto) global_squad_angara: Monsters! Villains! Time to die!
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Mother...! We're making the kett pay for this!
+    ↩ (goto) global_squad_angara: Monsters! Villains! Time to die!
+└─ merge ─┘
+Hero: What we just saw might be happening to the Moshae right now.
+Hero: Come on, guys. Let's clear this place!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Ready and able, Ryder.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Heard that!
+├ option 3:
+    global_squad_asari ⟨cond⟩: Pick up the pace.
+├ option 4:
+    global_squad_turian ⟨cond⟩: On it.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Burn it to the ground.
+└─ merge ─┘
+global_squad_angara: Arrrrrrrr!
+global_squad_angara: Die! Die!

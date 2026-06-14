@@ -1,0 +1,159 @@
+# game/conversations/unc_dunes/dune_0312_drlict_clues_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0312_drlict_clues_b.xml
+==================================================
+Hero [OncePerGame]: Huh. I don't think these belong here.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Flares? That's not Remnant tech.
+    Hero: The intruders must have entered from this direction.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Flares? That's not rem-tech.
+    ↩ (goto) Hero: The intruders must have entered from this direction.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Flares? That's not Remnant.
+    ↩ (goto) Hero: The intruders must have entered from this direction.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Flares? That's not Remnant tech.
+    ↩ (goto) Hero: The intruders must have entered from this direction.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Flares? That's not Remnant tech.
+    ↩ (goto) Hero: The intruders must have entered from this direction.
+└─ merge ─┘
+Hero: Oh. So cool in here. So nice.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Elaaden's a mystery to me. It's hellish... hot...
+    Hero: Lawless. Crazy. Murderous. Never mind the water mafia.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Gotta be a big reward for those scavengers to put up with the risk.
+        SAM: Information from Kadara lists raw materials from Remnant architecture as extremely profitable.
+        Hero: There's a lot of damage in here. Better watch our step.
+        Hero: Hopefully we can find a route to the drive core, then get out of here.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Gotta be a big reward for those scavengers to put up with the risk.
+        ↩ (goto) SAM: Information from Kadara lists raw materials from Remnant architecture as extremely profitable.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Gotta be a big reward for those scavengers to put up with the risk.
+        ↩ (goto) SAM: Information from Kadara lists raw materials from Remnant architecture as extremely profitable.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Gotta be a big reward for those scavengers to put up with the risk.
+        ↩ (goto) SAM: Information from Kadara lists raw materials from Remnant architecture as extremely profitable.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Gotta be a big reward for those scavengers to put up with the risk.
+        ↩ (goto) SAM: Information from Kadara lists raw materials from Remnant architecture as extremely profitable.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: Elaaden's a mystery to me. It's hellish... hot...
+    ↩ (goto) Hero: Lawless. Crazy. Murderous. Never mind the water mafia.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Elaaden's a mystery to me. It's hellish... hot...
+    ↩ (goto) Hero: Lawless. Crazy. Murderous. Never mind the water mafia.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Elaaden's a mystery to me. It's hellish... hot...
+    ↩ (goto) Hero: Lawless. Crazy. Murderous. Never mind the water mafia.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Elaaden's a mystery to me. It's hellish... hot...
+    ↩ (goto) Hero: Lawless. Crazy. Murderous. Never mind the water mafia.
+└─ merge ─┘
+Hero [OncePerGame]: At least this still works.
+Hero: Any theories about this ship?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: You mean the crash? Scourge fried the guidance system, or perhaps the entire ship?
+    Hero: That's a safe bet. But where's the crew? What happened to them?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: And where did they come from? This ship suggests they aren't from Heleus.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: And where did they come from? This ship suggests they aren't from Heleus.
+        ↩ (goto) SAM: [empty]
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: And where did they come from? This ship suggests they aren't from Heleus.
+        ↩ (goto) SAM: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: And where did they come from? This ship suggests they aren't from Heleus.
+        ↩ (goto) SAM: [empty]
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: And where did they come from? This ship suggests they aren't from Heleus.
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: You mean the crash? Scourge fried the guidance system or, I dunno, everything?
+    ↩ (goto) Hero: That's a safe bet. But where's the crew? What happened to them?
+├ option 3:
+    global_squad_turian ⟨cond⟩: You mean the crash? Scourge fried the guidance system or maybe everything?
+    ↩ (goto) Hero: That's a safe bet. But where's the crew? What happened to them?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: You mean the crash? Scourge fried the guidance system or, I dunno, everything?
+    ↩ (goto) Hero: That's a safe bet. But where's the crew? What happened to them?
+├ option 5:
+    global_squad_female_human ⟨cond⟩: You mean the crash? Scourge fried the guidance system or maybe everything?
+    ↩ (goto) Hero: That's a safe bet. But where's the crew? What happened to them?
+└─ merge ─┘
+Hero [OncePerGame]: Ah!
+SAM: Dangerous proximity to Scourge elements, I advise caution.
+Hero: Easy for you to say.
+SAM: Imperative for me to say.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Gah! Shit! Damn that hurt.
+    SAM: You see.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Gah! Shit! Damn that hurt.
+    ↩ (goto) SAM: You see.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Gah! Shit! Damn that hurt.
+    ↩ (goto) SAM: You see.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Gah! Shit! Damn that hurt.
+    ↩ (goto) SAM: You see.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Gah! Shit! Damn that hurt.
+    ↩ (goto) SAM: You see.
+└─ merge ─┘
+Hero: Okay, need to be careful.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: More flares. Seems like the right direction.
+    Hero: Very kind of these thieves to leave us a clear trail.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Pretty handy. I'd hate to get lost in here.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Pretty handy. I'd hate to get lost in here.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Pretty handy. I'd hate to get lost in here.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Pretty handy. I'd hate to get lost in here.
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Pretty handy. I'd hate to get lost in here.
+        Hero: True. Feels like one wrong step might get you impaled.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: More flares. Seems like the right direction.
+    ↩ (goto) Hero: Very kind of these thieves to leave us a clear trail.
+├ option 3:
+    global_squad_turian ⟨cond⟩: More flares. Seems like the right direction.
+    ↩ (goto) Hero: Very kind of these thieves to leave us a clear trail.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: More flares. Seems like the right direction.
+    ↩ (goto) Hero: Very kind of these thieves to leave us a clear trail.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: More flares. Seems like the right direction.
+    ↩ (goto) Hero: Very kind of these thieves to leave us a clear trail.
+└─ merge ─┘
+Hero [OncePerGame]: Heads up! Maybe this place isn't functioning as well as we thought.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: If that also means the killer bots, I won't complain.
+├ option 2:
+    global_squad_asari ⟨cond⟩: If that also means the killer bots, I won't complain.
+├ option 3:
+    global_squad_turian ⟨cond⟩: If that also means the killer bots, I won't complain.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: If that also means the killer bots, I won't complain.
+├ option 5:
+    global_squad_female_human ⟨cond⟩: If that also means the killer bots, I won't complain.
+└─ merge ─┘

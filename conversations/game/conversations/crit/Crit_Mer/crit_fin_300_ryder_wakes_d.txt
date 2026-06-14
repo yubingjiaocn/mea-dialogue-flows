@@ -1,0 +1,64 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_300_ryder_wakes_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_300_ryder_wakes_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Rrragh! Open!
+        ┌─ BRANCH (10) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            Hero: {i}(Sudden breath.){/i}
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 3:
+            global_squad_angara ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 4:
+            global_squad_angara ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 5:
+            global_squad_female_human ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 6:
+            global_squad_female_human ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 7:
+            global_squad_turian ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 8:
+            global_squad_turian ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 9:
+            global_squad_male_human ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        ├ option 10:
+            global_squad_male_human ⟨cond⟩: Tempest! The Pathfinder is down! Come in!
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Open, you piece of...! Rrrgh!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Work you Remnant garbage! Rrrgh!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: It won't open! Open!
+        ↩ (goto) global_squad_asari: [empty]
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: Open, you fool thing!
+        ↩ (goto) global_squad_asari: [empty]
+    └─ merge ─┘
+├ option 2:
+    Narration: Play Animatic
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Play Animatic
+        Narration: Animatic. ⏎
+    ├ option 2:
+        Hero: Play conversation
+    └─ merge ─┘
+└─ merge ─┘

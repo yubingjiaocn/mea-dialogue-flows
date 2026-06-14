@@ -1,0 +1,26 @@
+# game/conversations/hubs/hub_kad/npcs/kad_guard_01_i
+# Primary speaker: kad_outcast_pir_20
+# Source: game/conversations/hubs/hub_kad/npcs/kad_guard_01_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: What are you doing to these people?
+    kad_outcast_pir_20: Nothing they weren't expecting. Port's got two rules: no guns and pay your protection fees.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What are you? The mob?
+        kad_outcast_pir_20: {i}(Chuckles.){/i} Other way around. Outcasts are the law in Kadara.
+        kad_outcast_pir_20: You got a problem with that, you can join these assholes.
+        SAM: Pathfinder. It will difficult to find the spy if you're barred from the city.
+        Hero: Guess that's true.
+        kad_outcast_pir_20: What was that?
+        Hero: Nothing. I’ll be on my way.
+        kad_outcast_pir_20: Creep.
+    ├ option 2:
+        Hero: So what’s that you’re holding?
+        kad_outcast_pir_20: {i}(Snorts.){/i} The Outcasts don't have to abide by the rules—just enforce them.
+        ↩ (goto) kad_outcast_pir_20: You got a problem with that, you can join these assholes.
+    └─ merge ─┘
+├ option 2:
+    kad_outcast_pir_20: This ain't your concern. Move along.
+└─ merge ─┘

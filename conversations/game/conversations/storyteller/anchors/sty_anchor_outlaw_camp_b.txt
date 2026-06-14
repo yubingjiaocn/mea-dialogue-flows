@@ -1,0 +1,57 @@
+# game/conversations/storyteller/anchors/sty_anchor_outlaw_camp_b
+# Primary speaker: SAM
+# Source: game/conversations/storyteller/anchors/sty_anchor_outlaw_camp_b.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: The scavengers set up camp out here. How do they survive the heat?
+├ option 2:
+    SAM: Pathfinder, we're approaching a scavenger site. I advise caution.
+├ option 3:
+    SAM: Pathfinder, I detect a dip in temperature ahead. The scavengers have set a dune camp.
+├ option 4:
+    Hero: Scavengers set up a dune camp. Stay on guard.
+├ option 5:
+    Hero: There'll be scavengers ahead, if the sun didn't get them first.
+├ option 6:
+    ┌─ BRANCH (12) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Outlaw camp ahead.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Baddie camp. Keep an eye out.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: We have an outlaw camp ahead.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Outlaw camp.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Outlaw camp up ahead.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Got an outlaw camp ahead.
+    ├ option 7:
+        global_squad_angara ⟨cond⟩: Outlaws of your kind have a camp ahead.
+    ├ option 8:
+        global_squad_asari ⟨cond⟩: Ooh, outlaw camp. Should we knock?
+    ├ option 9:
+        global_squad_female_human ⟨cond⟩: Well, we found where the outlaws are camped.
+    ├ option 10:
+        global_squad_krogan ⟨cond⟩: Outlaw camp. Let's introduce ourselves.
+    ├ option 11:
+        global_squad_male_human ⟨cond⟩: Outlaw camp. Should we say hello?
+    ├ option 12:
+        global_squad_turian ⟨cond⟩: We're checking out that camp, right?
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero [OncePerGame]: That doesn't look like an Outcast or Collective camp. Let's check it out.
+├ option 2:
+    SAM [OncePerGame]: The camp ahead is not registered in Outcast or Collective records, Pathfinder.
+├ option 3:
+    Hero [OncePerGame]: Look out. Our connections won't do us any favors in a camp like that.
+├ option 4:
+    SAM [OncePerGame]: That exile camp has a high concentration of registered criminals, Pathfinder.
+├ option 5:
+    Hero [OncePerGame]: Heads up. Those exiles won't be on our side.
+├ option 6:
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘

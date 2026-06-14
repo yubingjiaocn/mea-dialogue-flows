@@ -1,0 +1,53 @@
+# game/conversations/unc_dunes/dune_0410_q4_water_start_a
+# Primary speaker: dune_water_radioscav01
+# Source: game/conversations/unc_dunes/dune_0410_q4_water_start_a.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    dune_water_radioscav02 [OncePerGame]: [Comm] Sector 15, clear. Nothing here. Damn it.
+    dune_water_radioscav01: [Comm] Scratching it off.
+├ option 2:
+    dune_water_radioscav02 [OncePerGame]: [Comm] Sector 7, Remnant shit. We have to get out of here.
+    dune_water_radioscav01: [Comm] Marking that as requiring more men.
+    dune_water_radioscav02: [Comm] Good call.
+├ option 3:
+    dune_water_radioscav01 [OncePerGame]: [Comm] Have you tried watching Annea?
+    dune_water_radioscav02: [Comm] She's not that stupid or careless.
+    dune_water_radioscav02: [Comm] She controls our water, she controls us. She won't lead us to it.
+├ option 4:
+    dune_water_radioscav02 [OncePerGame]: [Comm] We'll have to ration our water if we don't find this source soon.
+    dune_water_radioscav01: [Comm] I'll get everyone to see what they can spare for barter.
+    dune_water_radioscav02: [Comm] Do what you can. Every bit helps.
+├ option 5:
+    dune_water_radioscav01 [OncePerGame]: [Comm] Hey, some people were saying that Remnant stuff can fix planets.
+    dune_water_radioscav01: [Comm] Make water and things like that. Maybe you could try—
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        dune_water_radioscav02 ⟨cond⟩: [Comm] Do I look like the Pathfinder to you? I don't go anywhere near the Remnant.
+        dune_water_radioscav02: [Comm] Shit freaks me out.
+    ├ option 2:
+        dune_water_radioscav02: [Comm] Do I look like the Pathfinder to you? I don't go anywhere near the Remnant.
+        ↩ (goto) dune_water_radioscav02: [Comm] Shit freaks me out.
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (9) ─┐
+    ├ option 1:
+        dune_water_radioscav02: [Comm] Nothing here either.
+    ├ option 2:
+        dune_water_radioscav02: [Comm] We're screwed.
+    ├ option 3:
+        dune_water_radioscav02: [Comm] We're never gonna find this water.
+    ├ option 4:
+        dune_water_radioscav02: [Comm] Where is this water source hiding?
+    ├ option 5:
+        dune_water_radioscav02: [Comm] Coming up empty.
+    ├ option 6:
+        dune_water_radioscav02: [Comm] There's nothing but sand out here.
+    ├ option 7:
+        dune_water_radioscav01: [Comm] You just gotta keep calm.
+    ├ option 8:
+        dune_water_radioscav01: [Comm] Anything yet?
+    ├ option 9:
+        dune_water_radioscav01: [Comm] Hang in there. We'll find this water.
+    └─ merge ─┘
+└─ merge ─┘

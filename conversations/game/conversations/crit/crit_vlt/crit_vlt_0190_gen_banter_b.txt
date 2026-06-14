@@ -1,0 +1,99 @@
+# game/conversations/crit/crit_vlt/crit_vlt_0190_gen_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/crit_vlt_0190_gen_banter_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_turian ⟨cond⟩: I keep thinking someone's watching us.
+        Hero: Let's stay focused. We can worry after we find the system lockdown.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: It's too damn quiet down here.
+        ↩ (goto) Hero: Let's stay focused. We can worry after we find the system lockdown.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: There's a low hum through everything here. Can you feel it?
+        ↩ (goto) Hero: Let's stay focused. We can worry after we find the system lockdown.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: [Comm] Oh, wow. I just saw a dozen Observers flying around a waterfall, like a flock of birds.
+    global_squad_asari: [Comm] It's amazing. This really is their habitat.
+    Hero: We'll be out of their way soon.
+    global_squad_asari: [Comm] Not too soon, right? You wouldn't believe the data I'm getting.
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: This place smells old. And I'd know.
+        SAM: Unknown. Radiation counts indicate the vault has been offline for several hundred years.
+        Hero: Around the time the Scourge appeared?
+        Hero: That can't be a coincidence. Maybe the Scourge is why all this tech was abandoned?
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Barely any dust. How old is this place?
+        ↩ (goto) SAM: Unknown. Radiation counts indicate the vault has been offline for several hundred years.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: It's all so clean for something... how old?
+        ↩ (goto) SAM: Unknown. Radiation counts indicate the vault has been offline for several hundred years.
+    └─ merge ─┘
+├ option 4:
+    Hero: Dad would have really loved this place.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Nothing hooked him like the unknown.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Someday, Scott could be exploring down here.
+        ├ option 2:
+            Hero: Someday, Sara could be exploring down here.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: No kidding. He'd have us scanning every millimeter.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Someday, Scott could be exploring down here.
+        ├ option 2:
+            ↩ (goto) Hero: Someday, Sara could be exploring down here.
+        └─ merge ─┘
+    ├ option 3:
+        SAM: He prized discovery and new frontiers.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Someday, Scott could be exploring down here.
+        ├ option 2:
+            ↩ (goto) Hero: Someday, Sara could be exploring down here.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (12) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: The air's tingly. Like the moment before lightning.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: All that time on Eos, {i}this{/i} was right under our feet.
+├ option 3:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Everything's massive—and beautiful.
+├ option 4:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: It's all so huge. I see one thing, I'm probably missing three more.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: We'll never be able to describe all this. People will have to see it for themselves.
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Readouts say the air's fresh, even without a helmet. How's that possible?
+├ option 7:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: All this technology, just... waiting. Sleeping.
+├ option 8:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: What do you think the system lockdown looks like? Probably something huge.
+├ option 9:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Imagine this place full of people. It could fit the whole Nexus.
+├ option 10:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Long echoes down here. Anything could be listening.
+├ option 11:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: We're following in some damn big footsteps, Ryder.
+├ option 12:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Wonder if the ruins back home on Tuchanka ever looked this shiny.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Old for sure, but I've seen more ancient ruins.
+    SAM: I estimate no one has entered the vault for several hundred years.
+├ option 2:
+    Hero: It seems old, but not really {i}ancient{/i}.
+    ↩ (goto) SAM: I estimate no one has entered the vault for several hundred years.
+└─ merge ─┘

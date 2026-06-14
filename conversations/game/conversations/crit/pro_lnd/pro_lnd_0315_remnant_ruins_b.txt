@@ -1,0 +1,25 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0315_remnant_ruins_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0315_remnant_ruins_b.xml
+==================================================
+global_squad_male_human: Still, take a look at this architecture. This is really something.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: I've seen Prothean artifacts in my time, but nothing quite like this. It's at least three or four centuries old.
+    global_squad_male_human: The arks left 600 years ago, right?
+    Hero: Yeah. Our long-range scans wouldn't have shown this.
+    Hero: These structures... that tower... maybe none of it was here when we left the Milky Way.
+├ option 2:
+    Hero: Never seen anything like it. Looks to be at least three or four centuries old.
+    ↩ (goto) global_squad_male_human: The arks left 600 years ago, right?
+└─ merge ─┘
+Hero: Okay, now {i}this{/i} is weird. Even with these readings, I have no idea what it does.
+global_squad_male_human: Just imagine the mind that invented it.
+Hero: If that's even possible. Evolution separated from ours by two million light years.
+global_squad_male_human: Spooky when you put it that way.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_male_human: Take a look at this architecture.
+├ option 2:
+    Hero: Looks to be at least three or four centuries old.
+└─ merge ─┘

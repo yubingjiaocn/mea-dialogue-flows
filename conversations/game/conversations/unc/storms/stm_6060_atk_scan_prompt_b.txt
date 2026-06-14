@@ -1,0 +1,20 @@
+# game/conversations/unc/storms/stm_6060_atk_scan_prompt_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6060_atk_scan_prompt_b.xml
+==================================================
+Hero: Jaal? Are we clear?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: We're clear. And we still have Bradley's signal.
+    Hero: Right, let's see what they were protecting.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: This worries me. Roekaar are not pirates.
+    ├ option 2:
+        global_squad_angara: [Comm] Be careful. I doubt this was about piracy.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: [Comm] You're clear. Still reading Bradley's signal.
+    ↩ (goto) Hero: Right, let's see what they were protecting.
+└─ merge ─┘

@@ -1,0 +1,123 @@
+# game/conversations/loyalty/loy_tur/loy_tur_0000_generalbanter_a
+# Primary speaker: global_squad_turian
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0000_generalbanter_a.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_turian: Ryder, you have to believe me. I've no idea what's going on.
+    global_squad_turian: I'm going to get answers, but first we have to get out of here.
+├ option 2:
+    loy_tur_guard_m_1: Where the hell did they go?
+├ option 3:
+    global_squad_turian: That took care of it. We should check that the colonists are okay.
+├ option 4:
+    nex_vetra_sister_multi: [Comm] Head down the corridor, through the mess hall. That's quickest.
+    global_squad_turian: Before we go farther, are you in a safe spot?
+    nex_vetra_sister_multi: [Comm] Yeah. I'm tapped into their system from outside. Shuttle's well-hidden.
+    nex_vetra_sister_multi: [Comm] Trust me! I know what I'm doing.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    nex_vetra_sister_multi: [Comm] I can send a surge of power to that generator.
+    global_squad_turian: The electrical discharge from that could take out some of them.
+├ option 2:
+    global_squad_turian: Sid? What's that door?
+    nex_vetra_sister_multi: [Comm] Um... looks like it leads to some kind of workshop. Could be some gear in there.
+    global_squad_turian: Any security?
+    nex_vetra_sister_multi: [Comm] Yeah, loads. If I open the door, you'll have to deal with them.
+├ option 3:
+    nex_vetra_sister_multi: [Comm] Did you really have to kill them all?
+    global_squad_turian: Would you prefer they went after your friends?
+    nex_vetra_sister_multi: [Comm] No, but... {i}(Sighs.){/i} Never mind.
+    nex_vetra_sister_multi: [Comm] Take that passageway next. It'll take you through... huh, it looks like a bunch of cages...
+├ option 4:
+    global_squad_turian: Hey, can we get in here now, Sid?
+    nex_vetra_sister_multi: [Comm] It's manually locked down. I can't open it from where I am.
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    nex_vetra_sister_multi [OncePerGame]: [Comm] That's a lot of animals!
+    global_squad_turian [OncePerGame]: They could be training them as a security measure.
+    global_squad_turian [OncePerGame]: If they're still feral, they could soften up those guards for us. Then again, they might also attack us.
+├ option 2:
+    nex_vetra_sister_multi [OncePerGame]: [Comm] Ew, spitbugs. Why would they keep them here?
+    global_squad_turian [OncePerGame]: I heard some Kadara gangs experiment with bug excretions to use as biological weapons.
+    global_squad_turian [OncePerGame]: Releasing these ones could distract the guards enough to allow us to surprise them.
+├ option 3:
+    global_squad_turian [OncePerGame]: They have a fiend?
+    nex_vetra_sister_multi [OncePerGame]: [Comm] I can't open that cage. Remote access is disabled. They probably don't want accidents.
+├ option 4:
+    global_squad_turian [OncePerGame]: Turrets. Those might be a problem.
+    nex_vetra_sister_multi [OncePerGame]: [Comm] I could turn them off, or change the attack protocols.
+├ option 5:
+    nex_vetra_sister_multi: [Comm] I really didn't want anyone to be hurt. I didn't think that...
+    global_squad_turian: Helping people isn't always simple, Sid. Everything has consequences.
+├ option 6:
+    global_squad_turian: Fiend! Get back!
+├ option 7:
+    global_squad_turian: Phew. That was intense.
+    nex_vetra_sister_multi: [Comm] That thing was so big! You guys were amazing!
+    nex_vetra_sister_multi: [Comm] Anyway, you should head through the workshop next. That's the direct way out.
+├ option 8:
+    Hero: What? How? Those things get everywhere.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_turian: If that engine has a charged core, it might explode.
+├ option 2:
+    nex_vetra_sister_multi: [Comm] I could dump out whatever's in those tanks.
+    global_squad_turian: That stuff cuts right through shields. If we're not careful, that'll hurt both them and us.
+├ option 3:
+    global_squad_turian: That armor will be trouble if the pilot gets inside.
+    nex_vetra_sister_multi: [Comm] It's plugged into the network for maintenance. I can disable its systems.
+├ option 4:
+    nex_vetra_sister_multi: [Comm] That was really awful. I knew you guys did stuff like this, but helping you do it... it's different.
+    global_squad_turian: {i}(Sighs.){/i} That's why I never wanted you involved in the things I did.
+    global_squad_turian: You can't have excitement and adventure if you can't handle pain and blood.
+    nex_vetra_sister_multi: [Comm] Well, I guess it's straight through the door next.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_turian: Watch out! They're coming straight for us!
+├ option 2:
+    global_squad_turian: That console probably controls the security in this room. We should shut it off!
+├ option 3:
+    global_squad_turian: Turrets powering down! We're clear!
+└─ merge ─┘
+global_squad_turian: Are you all right? Are you hurt?
+nex_vetra_sister_multi: I... I'm fine. I think.
+global_squad_turian: Let's get you to your shuttle.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        loy_tur_outlawboss [OncePerGame]: [Comm] What the hell is happening? Who's messing with security? Why are the feeds down?
+        loy_tur_outlawboss [OncePerGame]: [Comm] Someone answer me!
+    ├ option 2:
+        loy_tur_outlawboss [OncePerGame]: [Comm] There's a rat in the system. I want this rat caught. Double the rations for anyone that does it!
+    ├ option 3:
+        loy_tur_outlawboss: [Comm] So you're the one that's been killing my people.
+        nex_vetra_sister_multi: [Comm] I didn't. I didn't kill anyone. I don't even know how to shoot a gun!
+        loy_tur_outlawboss: [Comm] You want your rat, Vetra Nyx, you come to me.
+        nex_vetra_sister_multi: [Comm] Help—!
+    └─ merge ─┘
+├ option 2:
+    Hero: Did you know your sister was messing about impersonating you?
+    global_squad_turian: Do you think I would've let her if I knew?
+    global_squad_turian: This explains a bunch of the strange reactions I've gotten from some of my associates.
+    global_squad_turian: Shit... I have no idea what else she's done in my name.
+├ option 3:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Sid, can you see the colonists?
+        nex_vetra_sister_multi: [Comm] Yes. They're playing it safe, keeping to corners. I'll keep an eye on them. Promise.
+    ├ option 2:
+        nex_vetra_sister_multi: [Comm] Galloway, stay where you are! There's guards in the corridor right by you.
+        nex_vetra_sister_multi: [Comm] They're moving on. Okay. Good. You're clear.
+        loy_tur_settlerleader: [Comm] Thanks, Sid. That was a close one.
+    ├ option 3:
+        Hero: Galloway? You guys still doing okay?
+        loy_tur_settlerleader: [Comm] You cleared this place out good, Ryder. No trouble so far.
+    └─ merge ─┘
+└─ merge ─┘
+nex_vetra_sister_multi: [Comm] That's connected to some kind of repair rig. I could drop it right on the outlaws.

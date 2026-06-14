@@ -1,0 +1,75 @@
+# game/conversations/unc/storms/stm_0560_monolith_process_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0560_monolith_process_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: [Comm] All these monoliths have the same kind of interface. That scanner of yours could find any glyphs that are missing.
+├ option 2:
+    ┌─ BRANCH (10) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Let's look for glyphs to scan. Then SAM can translate that interface.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Scan some glyphs, maybe SAM can translate that interface.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: We need glyphs, right? Then SAM can translate that interface?
+    ├ option 4:
+        Hero: Got to be glyphs to scan. Find those, maybe SAM can translate that interface.
+    ├ option 5:
+        SAM: If you locate glyphs similar to those we encountered elsewhere, I may be able to translate that interface.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Another interface. Maybe SAM can translate if we find associated glyphs.
+    ├ option 7:
+        global_squad_male_human ⟨cond⟩: Looks familiar. Scan for glyphs, access interface.
+    ├ option 8:
+        global_squad_turian ⟨cond⟩: Same tech as before. Scan glyphs, access interface.
+    ├ option 9:
+        Hero: Another interface. If there's glyphs to scan, maybe I can access it.
+    ├ option 10:
+        SAM: This interface type is familiar, Pathfinder. Look for glyphs to scan and you may be able to activate it.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (16) ─┐
+├ option 1:
+    Hero: Let's look around for another.
+├ option 2:
+    Hero: Seems like there should be another nearby.
+├ option 3:
+    Hero: That's one. Need more for the set.
+├ option 4:
+    SAM: Progress, but incomplete.
+    Hero: Must be more close by.
+├ option 5:
+    SAM: Progress, but incomplete. Scan for more glyphs.
+├ option 6:
+    Hero: Doesn't seem complete. Let's look for more.
+├ option 7:
+    SAM: Additional glyphs needed for complete translation.
+├ option 8:
+    Hero: One more, some to go.
+├ option 9:
+    SAM: Integrating. Additional glyphs required.
+├ option 10:
+    Hero: Got it. Still need more, though.
+├ option 11:
+    Hero: I think we need more than this. Let's scan around.
+├ option 12:
+    SAM: More glyphs are still required, Pathfinder.
+├ option 13:
+    Hero: Interesting. Keep looking.
+├ option 14:
+    Hero: Keep scanning, we're bound to find more.
+├ option 15:
+    SAM: Translation progressing. Please look for additional glyphs.
+├ option 16:
+    Hero: Let's scan for another.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: SAM? Does that number of glyphs feel right?
+    SAM: We will know when you attempt the interface.
+├ option 2:
+    SAM [OncePerGame]: I believe that is all the glyphs required for this interface, Pathfinder.
+├ option 3:
+    Hero [OncePerGame]: That should be enough for this interface.
+└─ merge ─┘

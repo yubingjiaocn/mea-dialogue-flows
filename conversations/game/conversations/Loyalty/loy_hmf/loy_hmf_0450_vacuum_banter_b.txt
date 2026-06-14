@@ -1,0 +1,43 @@
+# game/conversations/loyalty/loy_hmf/loy_hmf_0450_vacuum_banter_b
+# Primary speaker: loy_hmf_vederia_multi
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0450_vacuum_banter_b.xml
+==================================================
+SAM: Caution: the mass effect field device is still connected. Remotely triggering it may affect local gravity.
+Hero: Could be useful!
+Hero: Keep your mag boots active!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: And watch the giant hole!
+├ option 2:
+    global_squad_turian ⟨cond⟩: And stay back from the edge!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Don't let them drive you to the edge!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: And watch where you jump!
+├ option 5:
+    global_squad_angara ⟨cond⟩: They have none! Exploit that!
+└─ merge ─┘
+global_squad_female_human: We've got reinforcements!
+loy_hmf_vederia_multi: [Comm] Ryder, the Valiant's sending more kett!
+loy_hmf_vederia_multi: [Comm] Sarissa's almost there! Don't let up!
+loy_hmf_kett_leader: [Comm] Enough. The Decimation will not be denied. I will take my prey!
+Hero: Must be the Valiant himself!
+global_squad_female_human: Take him down!
+loy_hmf_kett_leader: [Comm] The asari thief hides behind her minions.
+loy_hmf_kett_leader: [Comm] She is their puppeteer. She will be judged as they are!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    loy_hmf_kett_leader ⟨cond⟩: [Comm] The Archon's commands will be completed. In death, he is perfected.
+├ option 2:
+    loy_hmf_kett_leader: [Comm] None escapes the Decimation's reach.
+└─ merge ─┘
+loy_hmf_kett_leader: [Comm] They resist their natural superior. Bend the knee! Or break!
+global_squad_female_human: Shut the hell up!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Everyone hang on!
+├ option 2:
+    Hero: Mag boots locked!
+├ option 3:
+    Hero: Sending them flying!
+└─ merge ─┘

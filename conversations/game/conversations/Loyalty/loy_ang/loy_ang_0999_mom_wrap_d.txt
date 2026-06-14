@@ -1,0 +1,98 @@
+# game/conversations/loyalty/loy_ang/loy_ang_0999_mom_wrap_d
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_ang/loy_ang_0999_mom_wrap_d.xml
+==================================================
+Narration: We fade into the Havarl Resistance Camp.
+Narration: Ryder, Jaal, and the siblings sit together. Teviint is fretting over Lathoul.
+loy_ang_jaal_cuz3: I'm so sorry, Lathoul. I never—
+loy_ang_jaal_cuz1: Couldn't even kill me at short range.
+Narration: Jaal smiles at the two of them.
+Narration: We see Feladyr pull Baranjj into a soft embrace. The relief is visible on her face.
+Narration: We cut to Ryder who smiles at the family reunion.
+Narration: We hear a shuttle arriving.
+global_squad_angara: They're here.
+Narration: Vaasana and Feladyr walk up from the shuttle.
+Narration: The siblings stand sheepishly as the mothers approach.
+Narration: Jaal taps her on the shoulder.
+global_squad_angara: Let's give them a minute.
+Narration: The two walk away so that they are out of earshot and line of sight of the others.
+Narration: Jaal turns to Ryder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara: Akksul's death will strengthen the Roekaar's cause.
+    global_squad_angara: I need to know, Ryder... Why didn't you trust me?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: I couldn't risk losing you.
+        Narration: Jaal's face softens.
+        Narration: He touches Ryder's cheek with the back of his hand.
+        global_squad_angara: I put you in a bad situation. I'm sorry.
+        Narration: Jaal pulls his hand back.
+        global_squad_angara: I should get back.
+        global_squad_angara: I want to say goodbye before my family heads home.
+        Narration: Jaal walks back towards the camp alone.
+        Narration: We fade out.
+    ├ option 2:
+        Hero: He pulled a gun on you. I panicked.
+        global_squad_angara: {i}(Sighs.){/i} I know you were trying to protect me. But the cost was high.
+        Narration: Jaal thinks for a moment.
+        ↩ (goto) global_squad_angara: I should get back.
+    ├ option 3:
+        Hero: I wasn't going to let him kill a member of my squad—even to prove a point.
+        global_squad_angara: I just hate that we played right into his hands... This will mean bad things for my people.
+        Narration: Jaal thinks for a moment.
+        ↩ (goto) global_squad_angara: I should get back.
+    ├ option 4:
+        Hero: You're mad I didn't let the crazy guy shoot you?
+        global_squad_angara: You proved him right! In front of everyone.
+        global_squad_angara: You're a good leader, Ryder. But you're still an alien. I know my people.
+        global_squad_angara: This will come back to haunt me.
+        Narration: Jaal thinks for a moment.
+        ↩ (goto) global_squad_angara: I should get back.
+    ├ option 5:
+        Hero: It wasn't you I didn't trust—it was Akksul.
+        global_squad_angara: I had the situation under control!
+        Hero: Did you? Didn't really look like it.
+        global_squad_angara: I would have accepted the consequences.
+        Narration: Jaal thinks for a moment.
+        ↩ (goto) global_squad_angara: I should get back.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: Thank you for trusting me.
+    global_squad_angara: Killing Akksul would have made the Roekaar stronger.
+    Hero: He shot you.
+    global_squad_angara: I'm glad he did—it exposed how far he'd fallen.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: I was really worried.
+        Narration: Ryder reaches up and gently inspects Jaal's wound. Jaal watches Ryder's concerned expression, touched.
+        global_squad_angara: It will heal. All scars do.
+        Narration: He takes Ryder’s hand and places a kiss the back of it.
+        global_squad_angara: We should get back.
+        global_squad_angara: I want to say goodbye before my family heads home.
+        Narration: Jaal and Ryder walk back towards the camp together.
+        Narration: We fade out.
+    ├ option 2:
+        Hero: It could've gone badly.
+        global_squad_angara: I knew what I was doing.
+        Narration: Jaal offers his hand and they perform the angara handshake from when they first met, but this time it's not awkward.
+        global_squad_angara: {i}(Laughs.){/i} You've been practicing!
+        Hero: A little.
+        ↩ (goto) global_squad_angara: We should get back.
+    ├ option 3:
+        Hero: Akksul walked away, but what stops him from coming back?
+        global_squad_angara: His pride will keep him in the shadows.
+        global_squad_angara: You have done my people—and me—a great service. Thank you, Ryder.
+        Narration: Jaal offers his hand and they perform the angara handshake from when they first met, but this time it's not awkward.
+        ↩ (goto) Narration: Jaal offers his hand and they perform the angara handshake from when they first met, but this time it's not awkward.
+    ├ option 4:
+        Hero: I've got to admit—you were pretty badass.
+        global_squad_angara: Can't let you be the only showoff.
+        Narration: Jaal offers his hand and they perform the angara handshake from when they first met, but this time it's not awkward.
+        ↩ (goto) Narration: Jaal offers his hand and they perform the angara handshake from when they first met, but this time it's not awkward.
+    ├ option 5:
+        Hero: Well, I'm not "glad" you got shot, but at least he's out of the picture.
+        global_squad_angara: For now. I'll keep watching his movements.
+        ↩ (goto) Narration: Jaal offers his hand and they perform the angara handshake from when they first met, but this time it's not awkward.
+    └─ merge ─┘
+└─ merge ─┘

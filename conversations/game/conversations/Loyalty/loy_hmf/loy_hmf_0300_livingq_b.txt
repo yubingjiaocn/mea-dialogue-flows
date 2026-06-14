@@ -1,0 +1,134 @@
+# game/conversations/loyalty/loy_hmf/loy_hmf_0300_livingq_b
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0300_livingq_b.xml
+==================================================
+global_squad_female_human [OncePerGame]: An evacuation order. Someone must have dropped it.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: I would too if the kett were on my heels.
+├ option 2:
+    global_squad_turian ⟨cond⟩: "Don't wait for family." That's rough.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Sounds like they told people to just go.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: "Perrin Lamazia." Wonder what happened to her.
+├ option 5:
+    global_squad_angara ⟨cond⟩: It says not to wait for family. What else is worth waiting for?
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Ugh, it's pitch black down here.
+    Hero: Watch your step.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Guess the asari cut the lights. Or someone did.
+    ↩ (goto) Hero: Watch your step.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Someone's saving power on lights.
+    ↩ (goto) Hero: Watch your step.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: No power for lights.
+    ↩ (goto) Hero: Watch your step.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Hmm. Difficult to shoot what you can't see.
+    ↩ (goto) Hero: Watch your step.
+└─ merge ─┘
+Hero: They really packed people in.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: A lot of asari think communal living is cozy.
+    Hero: You're not one of them?
+    global_squad_asari: Hell no! Give me personal space. And stuff space.
+├ option 2:
+    global_squad_female_human: All waiting to evacuate.
+└─ merge ─┘
+Hero [OncePerGame]: That's an animal crate.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: These are used to transport kett beasts.
+    global_squad_female_human: Oh, great.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Not any Thessian animal, that's for sure.
+    ↩ (goto) global_squad_female_human: Oh, great.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Smell that? Hasn't been empty for long.
+    global_squad_female_human: That doesn't look asari.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Big damn animal.
+    ↩ (goto) global_squad_female_human: That doesn't look asari.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Maybe someone... brought their dog?
+    ↩ (goto) global_squad_female_human: That doesn't look asari.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Wraiths!
+├ option 2:
+    global_squad_female_human: The kett brought their pets!
+└─ merge ─┘
+global_squad_female_human [OncePerGame]: Really hope these things got aboard {i}after{/i} the children left.
+Hero: Stasis locker. Everything some colonist wanted to bring from home.
+global_squad_angara ⟨cond⟩: Someone's entire world in one box.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Whoa. Hear that?
+├ option 2:
+    global_squad_turian ⟨cond⟩: We're not alone.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Shhh. Someone's here.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Hey. We've got company.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Careful. I hear kett.
+└─ merge ─┘
+global_squad_female_human: What were they up to?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Looking for a nicer room? Good luck, buddy.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Probably looking for a way out. Guess they found one.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: This one's too dead to ask.
+├ option 4:
+    Hero: They were probably trying to sneak past us.
+└─ merge ─┘
+global_squad_female_human [OncePerGame]: "Theris." That's Sarissa's last name.
+global_squad_female_human: So many people. Crammed in, waiting, hearing the emergency alarms...
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: And no one came to save them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: They survived. That's a win.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Now you're just making this depressing.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: The kett did that to them.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Screw being sad. Get angry, and use it.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Another reason to bring down retribution.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: But they made it out in the end. So will the ark.
+    └─ merge ─┘
+└─ merge ─┘
+Hero [OncePerGame]: What's this?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Someone's memorial, I think.
+    global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: It's like a memorial.
+    ↩ (goto) global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+├ option 3:
+    global_squad_angara ⟨cond⟩: It could be a small shrine.
+    ↩ (goto) global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+├ option 4:
+    ↩ (goto) global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.
+└─ merge ─┘
+Hero [OncePerGame]: Did you know Matriarch Ishara?
+global_squad_female_human: Only by reputation. She was a diplomat, very wise and respected.
+global_squad_female_human: And the kett took her away. {i}(Sighs.){/i} It must be eating Sarissa up inside.
+global_squad_asari ⟨cond⟩: It's like a bunk memorial.
+↩ (goto) global_squad_female_human: The nameplate says "Matriarch Ishara." The Pathfinder who died.

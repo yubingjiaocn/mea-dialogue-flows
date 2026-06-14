@@ -1,0 +1,130 @@
+# game/conversations/hubs/hub_tem/quests/Movie/tem_movie_final_m
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/hub_tem/quests/Movie/tem_movie_final_m.xml
+==================================================
+Narration: We fade in on the Pathfinder's Quarters. All crew and squadmates are present, and a wee bit drunk. Food and bottles of booze are scattered around. All this under:
+tem_movie_character_02: [On screen] They need you, Jorax! I know you left the Legion—
+tem_movie_character_01: [On screen] I never left the Legion. It left me. But I know my duty.
+Narration: Liam pauses the movie with his omni-tool.
+global_squad_male_human: All right, folks: we can sit through a training montage, with what many critics describe as "excessive turian flexing"...
+global_squad_turian: No such thing!
+global_crew_co-pilot: There really is.
+global_squad_male_human: ...or, we can fast-forward to a ship crashing into an asteroid crashing into a moon.
+Narration: The crew talk over each other as they cast their vote:
+global_squad_angara: Fast-forward to this crash!
+global_squad_krogan: Nah, montage—don't cut bits out.
+global_squad_female_human: I'd go for the crash.
+global_squad_male_human: Forwarding to the action scene, going once, going twice...
+Hero: Skip to the good stuff, Liam.
+global_squad_turian: Boo!
+Narration: Liam fast-forwards.
+Narration: On screen, audio only: KABOOM! We hear the cinematic 'splosion of a ship crashing.
+Narration: Everyone (except Kallo, he's unimpressed) reacts: wow!
+global_crew_co-pilot: But... it's vacuum! The ship explosion would be silent!
+global_crew_tech_officer: I hope that's not the voice of experience talking.
+global_squad_male_human: Guess they wanted their money's worth—they actually blew up a derelict for that shot.
+global_humanark_asari_dr: Too bad the script wasn't caught in the blast.
+Narration: On screen, audio only: decisive-sounding battle plan is happening.
+tem_movie_character_01: [On screen] My strike team will hit the enemy cruiser, General. Force is the only thing fanatics understand.
+global_squad_female_human: Why a strike team? Torpedo the cruiser!
+global_crew_tech_officer: That's overkill. Get one engineer aboard, cut life support and engines—problem solved.
+global_squad_female_human: And leave them stuck on a hostile ship? One torpedo, over by lunch.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Fry their sensors, spacewalk on the hull, cut life support, rappel in, and take them hostage.
+    global_squad_krogan: Done it. Less exciting than it sounds.
+    global_humanark_asari_dr: Seriously?
+    Narration: Drack shows Lexi a scar on his LEFT arm (not the right, it's prosthetic)
+    global_squad_krogan: Got the scars to prove it.
+    global_humanark_asari_dr: I assumed you'd gotten that falling off a barstool.
+    global_squad_krogan: {i}(Laughs.){/i}
+    Narration: Peebee reaches for a bottle.
+    global_squad_asari: Speaking of, time for another round. Anyone for a Varren's Jaw? Or a Euphemistically Delicious?
+    Narration: On screen, audio only: tragic music is coming from the movie.
+    global_crew_science_officer: Wait—listen!
+    tem_movie_character_01: [On screen] ...Teranus? Teranus! Nooooooooo!
+    global_squad_male_human: {i}(Sighs.){/i} He was a sidekick—they die like goldfish!
+    global_squad_female_human: No acting like over-acting. Even Ryder could do better.
+    Hero: If I wanted to.
+    ┌─ BRANCH (8) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Oh, please, tell me you want to.
+        global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+        Narration: Kallo goes to a clear spot on the floor and plays dead / dying: the Player crouches beside him as if he's just been shot.
+        Hero: Okay...
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Kallo... Kallo, please! Not now. Not when we're so close...
+            global_crew_co-pilot: Ryder... you must go on...
+            Narration: Kallo pretends to die.
+            Hero: It won't end this way. There's no justice in this galaxy—but there will be.
+            Narration: A beat of impressed silence from the crew—
+            Narration: --and then wild applause.
+            global_squad_asari: Ooh, do me next!
+            Narration: Their applause carries over the scene as we fade out...
+            Narration: LATER. Everyone's still watching, but maybe the lights are lower.
+            Narration: On screen, audio only: there's applause and the sound of a wedding.
+            tem_movie_character_01: [On screen] ...I swear to love you, a thousand times a thousand stars...
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Narration: Ryder and their love interest are snuggled up together, dozing, contented.
+                Narration: Pull back to see the whole crew together.
+                tem_movie_character_love_int: [On screen] Oh, Jorax... so many years lost. We were so foolish.
+                tem_movie_character_love_int: [On screen] Our hearts are one. No enemy fleet, no sea of stars can ever separate us again.
+            ├ option 2:
+                Narration: We see Ryder sitting, watching the movie or falling asleep...
+                Narration: ...and then we see their shoulder where Drack is leaning on them, sound asleep.
+                global_squad_krogan: {i}(Snores.){/i}
+                Narration: Ryder maybe gives him a pat--ah, you're OK there, big guy.
+                ↩ (goto) Narration: Pull back to see the whole crew together.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: It isn't fair! He was so young and... salarian! He had so much to give!
+            global_crew_co-pilot: Ryder... I can't feel my... I can't feel my gall bladder...
+            Hero: Do you even have a gall bladder?
+            global_crew_co-pilot: Oh no, it's worse than I thought!
+            Narration: Kallo pretends to die.
+            Hero: No! Damn you! Damn you all!
+            Narration: A mix of groans and applause from the crew.
+            global_humanark_asari_dr: Let's stick with the overacting turian.
+            ↩ (goto) Narration: Their applause carries over the scene as we fade out...
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: This I have to see.
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Ha, now you have to do it.
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: Oh. Yes. Please.
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Don't make me dare you, dearest...
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    ├ option 6:
+        global_crew_tech_officer ⟨cond⟩: You're wrong, Cora, no, he couldn't.
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    ├ option 7:
+        global_crew_science_officer ⟨cond⟩: Go for it!
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    ├ option 8:
+        global_squad_turian: Oh, really?
+        ↩ (goto) global_crew_co-pilot: Come on, show us! I'll be dead for you! Ha!
+    └─ merge ─┘
+├ option 2:
+    Hero: I think a charm offensive might be more... rewarding.
+    global_squad_angara: Mmm. Yes.
+    global_squad_male_human: Classic irresistible hero. Pretend to be captured...
+    global_squad_angara: ...beat-up armor, enticing scars, soulful eyes...
+    global_squad_male_human: ...yeah, yeah—the old "dinner and drinks to show off my villainy," they get cozy...
+    global_squad_angara: And then—strike! Or not. Why spoil the evening?
+    ↩ (goto) Narration: Peebee reaches for a bottle.
+└─ merge ─┘
+Hero: Nope, Pathfinder's veto. Let's see the montage.
+global_squad_krogan: Maybe you'll all learn something.
+Narration: On screen, audio only: inspirational music, like Rocky's training montage. Everyone cocks their heads.
+global_crew_science_officer: That is not how biceps work.
+global_squad_asari: Sheesh. Typical turian meathead. "Grrr, I'm so badass, I'll bench-press a giant gun!"
+global_squad_turian: "Oh, if only I was an asari and could lift it with the power of my ego!"
+global_squad_male_human: Okay, getting to the second-act splash in three... two...
+↩ (goto) Narration: On screen, audio only: KABOOM! We hear the cinematic 'splosion of a ship crashing.

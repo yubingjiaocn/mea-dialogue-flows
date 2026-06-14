@@ -1,0 +1,114 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0400_scarred_crater_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0400_scarred_crater_d.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Ground zero, I'm guessing.
+    SAM: Pathfinder, it appears the energy waves from these craters contributed to the Scourge throughout Heleus.
+    Hero: So whatever happened here caused the Scourge to erupt all across the cluster?
+    SAM: Yes, Pathfinder.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Huh. So the Remnant builders messed up somehow?
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Or it was deployed against them.
+        ├ option 2:
+            global_squad_asari ⟨cond⟩: Or someone attacked them with it.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: This is an impact crater. It could've been an attack.
+        ├ option 4:
+            global_squad_angara ⟨cond⟩: Or maybe they were attacked.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: Or they were the target.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: How? Did the Remnant builders trigger the Scourge?
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Could also have been an attack by hostiles.
+        ├ option 2:
+            ↩ (goto) global_squad_asari ⟨cond⟩: Or someone attacked them with it.
+        ├ option 3:
+            ↩ (goto) global_squad_turian ⟨cond⟩: This is an impact crater. It could've been an attack.
+        ├ option 4:
+            ↩ (goto) global_squad_angara ⟨cond⟩: Or maybe they were attacked.
+        ├ option 5:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Or they were the target.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: So you think the Remnant builders caused the Scourge?
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: Could also have been an attack by hostiles.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Or it was deployed against them.
+        ├ option 3:
+            ↩ (goto) global_squad_turian ⟨cond⟩: This is an impact crater. It could've been an attack.
+        ├ option 4:
+            ↩ (goto) global_squad_angara ⟨cond⟩: Or maybe they were attacked.
+        ├ option 5:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Or they were the target.
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Could the Remnant builders have created the Scourge?
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: Could also have been an attack by hostiles.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Or it was deployed against them.
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩: Or someone attacked them with it.
+        ├ option 4:
+            ↩ (goto) global_squad_angara ⟨cond⟩: Or maybe they were attacked.
+        ├ option 5:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Or they were the target.
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: The Scourge started here? With the Remnant builders?
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: Could also have been an attack by hostiles.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Or it was deployed against them.
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩: Or someone attacked them with it.
+        ├ option 4:
+            ↩ (goto) global_squad_turian ⟨cond⟩: This is an impact crater. It could've been an attack.
+        ├ option 5:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Or they were the target.
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: Then they caused it? The Remnant builders?
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: Could also have been an attack by hostiles.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Or it was deployed against them.
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩: Or someone attacked them with it.
+        ├ option 4:
+            ↩ (goto) global_squad_turian ⟨cond⟩: This is an impact crater. It could've been an attack.
+        ├ option 5:
+            ↩ (goto) global_squad_angara ⟨cond⟩: Or maybe they were attacked.
+        ├ option 6:
+            ↩ (goto) global_squad_male_human ⟨cond⟩: Or they were the target.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Energy's off the charts here.
+    ↩ (goto) SAM: Pathfinder, it appears the energy waves from these craters contributed to the Scourge throughout Heleus.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Let's not get too close. I'm getting weird energy readings.
+    ↩ (goto) SAM: Pathfinder, it appears the energy waves from these craters contributed to the Scourge throughout Heleus.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Looks like... something left by a bomb.
+    ↩ (goto) SAM: Pathfinder, it appears the energy waves from these craters contributed to the Scourge throughout Heleus.
+├ option 5:
+    global_squad_angara ⟨cond⟩: I've never seen anything like this.
+    ↩ (goto) SAM: Pathfinder, it appears the energy waves from these craters contributed to the Scourge throughout Heleus.
+├ option 6:
+    global_squad_male_human ⟨cond⟩: What did this?
+    ↩ (goto) SAM: Pathfinder, it appears the energy waves from these craters contributed to the Scourge throughout Heleus.
+└─ merge ─┘

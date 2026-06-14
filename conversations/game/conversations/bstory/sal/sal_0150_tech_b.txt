@@ -1,0 +1,76 @@
+# game/conversations/bstory/sal/sal_0150_tech_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0150_tech_b.xml
+==================================================
+Hero [OncePerGame]: This must be Dr. Aden's workspace, the one the STG agent is investigating.
+Hero: Let's see what a scan turns up.
+SAM: This equipment has been sterilized with a standard radioisotope.
+SAM: There are trace elements of biomaterial that could be consistent with exaltation pods.
+Hero: Or they could be leftovers from Aden's experiments.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: The agent mentioned a kett handler, too.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: So let's check out the other lead, the kett handler.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: We should look into the lead about the kett handler.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: What about the kett handler? That might prove it.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: What about the other lead?
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Both of these leads seem circumstantial. Nothing proves Aden betrayed the ark.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Yeah, it's pretty thin.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+        ├ option 2:
+            Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: Collaborators usually show more signs.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: So now what?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+        └─ merge ─┘
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: There goes Saelen's investigation.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+        └─ merge ─┘
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: At least we ruled out a suspect.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+        └─ merge ─┘
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩: No one squirms like a salarian.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero ⟨cond⟩: Let's go back to the Nexus and ask Raeka about this. She could know something.
+        ├ option 2:
+            ↩ (goto) Hero ⟨cond⟩: What about Hayjer, back on the Nexus? We could ask if he knows anything.
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘

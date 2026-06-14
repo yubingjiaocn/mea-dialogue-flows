@@ -1,0 +1,128 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0300_1st_terr_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0300_1st_terr_b.xml
+==================================================
+SAM: Pathfinder, Kallo reports finding no safe area to land. Retrieval may be impossible.
+global_squad_asari: Uh, oops?
+SAM: He has detected a few smaller vessels making their way to the surface, however.
+Hero: Friend or foe?
+SAM: Unknown.
+global_squad_asari: Uh-oh, I know that shuttle...
+global_kalinda: [Comm] Pelessaria, are you tracking that sweet signal too?
+global_squad_asari: Ugh, Kalinda. Back off—it's mine.
+global_kalinda: [Comm] {i}(Laughs.){/i}
+global_squad_asari: Let's hurry. We have to get to the signal source before Kalinda.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: Are we going to stand up here all day?
+├ option 2:
+    global_squad_asari [OncePerGame]: Let's move, huh?
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Observers making rounds.
+    SAM: Fully programmed and deployed bots will still react to you as an enemy.
+    global_squad_asari: Another gate ahead. Steer clear of the bots, maybe they'll leave us alone.
+├ option 2:
+    global_squad_angara ⟨cond⟩: Active Observers.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: More Observers.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Active Observers.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Observers on patrol.
+    ↩ (goto) SAM: Fully programmed and deployed bots will still react to you as an enemy.
+└─ merge ─┘
+SAM: You'll have to find the gate controls.
+global_squad_asari: There's the gate. Look for a console.
+SAM: Pathfinder, this console controls the gate.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: Activating will cause the Observers to engage.
+├ option 2:
+    Hero: Here it goes.
+    ↩ (goto) SAM: [empty]
+└─ merge ─┘
+Hero: Let's clear them out.
+global_squad_asari: Good. The gate's starting to open.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: But we need to take out these Remnant first!
+├ option 2:
+    Hero: And SAM's always right—Observers inbound!
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: More hostiles!
+├ option 2:
+    global_squad_angara ⟨cond⟩: Reinforcements!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Bots brought friends!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: More incoming!
+├ option 5:
+    global_squad_turian ⟨cond⟩: The party just got bigger!
+└─ merge ─┘
+Hero: All clear.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: Gate's down—let's go.
+    ├ option 2:
+        global_squad_asari: All right, let's use that console and get this gate out of the way.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: All right, now let's find some way to open that gate.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_kalinda: [Comm] Ah, thank you, Ryder. You opened a gate up here, too. Come on, boys—we're in.
+    Hero: She must be on a ridge above us.
+    global_squad_asari: Shit shit shit.
+├ option 2:
+    global_kalinda: [Comm] Ah, thank you, Ryder. You just opened the way for me. Come on, boys—we're in!
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: Let's keep moving.
+├ option 2:
+    global_squad_asari [OncePerGame]: Come on—we can't let Kalinda trump us.
+├ option 3:
+    global_squad_asari [OncePerGame]: We can't dawdle, Ryder.
+└─ merge ─┘
+global_squad_asari: Let's get going. Kalinda is out there somewhere.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Concentrate on the Assemblers.
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: The Assemblers are activating more Observers!
+        Hero: Take them out!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: The Assemblers are activating more Observers!
+        ↩ (goto) Hero: Take them out!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: The Assemblers are activating more Observers!
+        ↩ (goto) Hero: Take them out!
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: The Assemblers are activating more Observers!
+        ↩ (goto) Hero: Take them out!
+    ├ option 5:
+        global_squad_angara ⟨cond⟩: The Assemblers are activating more Observers!
+        ↩ (goto) Hero: Take them out!
+    └─ merge ─┘
+├ option 3:
+    SAM: You'll need to locate another console. It could be encased in rock.
+├ option 4:
+    Hero: Bingo.
+├ option 5:
+    SAM: This console is inert. It will have to be reengaged later.
+├ option 6:
+    global_squad_asari: Of course, active Remnant in the way. Not much cover.
+    Hero: Maybe I can make some.
+└─ merge ─┘

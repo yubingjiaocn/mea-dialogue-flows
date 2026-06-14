@@ -1,0 +1,24 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0240_kett_quarters_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0240_kett_quarters_b.xml
+==================================================
+Hero: Where is everyone? Okay, let's stay sharp.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Huh. Quite the setup.
+    global_squad_angara: They all sleep here. Some kind of commune?
+    Hero: Should we toss the place, Jaal?
+    global_squad_angara: Whatever that means, it doesn't sound violent enough.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Nice setup.
+    ↩ (goto) global_squad_angara: They all sleep here. Some kind of commune?
+├ option 3:
+    global_squad_asari ⟨cond⟩: Well, well. What do we have here?
+    ↩ (goto) global_squad_angara: They all sleep here. Some kind of commune?
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Home sweet home, looks like.
+    ↩ (goto) global_squad_angara: They all sleep here. Some kind of commune?
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Cozy.
+    ↩ (goto) global_squad_angara: They all sleep here. Some kind of commune?
+└─ merge ─┘

@@ -1,0 +1,43 @@
+# game/conversations/unc_ice/ice_4320_retr_quest_pt2_twn3_d
+# Primary speaker: ice_astra
+# Source: game/conversations/unc_ice/ice_4320_retr_quest_pt2_twn3_d.xml
+==================================================
+Hero: You okay?
+ice_astra: Look, I don't know what Rjoek said to make you help us, but he lied.
+ice_korvis: Astra. Don't.
+ice_astra: Shut up.
+ice_korvis: {i}(Sighs.){/i}
+ice_astra: Rjoek's a smuggler from Kadara. We all are. Flew here when we heard the kett were picking off villages.
+ice_astra: He wants to sell the ancient Voeld map to the highest bidder. It's worth a fortune.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I knew something was up as soon as I saw you weren't angara.
+    ice_astra: I figured. But that's not why I'm telling you.
+    Hero: Then why?
+    ice_astra: When I got here... when I saw what the kett did to this place...
+    ice_astra: These people are dealing with enough. They don't need looters taking what little they have left.
+    ice_astra: I want you to take the map to the Resistance where it will do some good.
+    Hero: What about Rjoek?
+    ice_astra: He's not a bad guy. Just has bad ideas. When we tell him about this place, he'll see reason.
+    ice_astra: Don't be too hard on him, okay? Just take the map to the Resistance.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: A guy like that isn't worth my time. I'll make sure this map gets into the right hands.
+        ice_astra: Good. Clears my conscience. Thank you.
+    ├ option 2:
+        Hero: He made it personal when he lied to me. We're going to have a chat.
+        ice_astra: {i}(Sighs.){/i} Worth a shot. Either way, thank you.
+        ↩ (goto) ice_astra: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Of all the slimy ways to make a few credits...
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: You steal from my people after they lose everything?
+        ice_astra: I changed my mind, didn't I?
+        Hero: So why tell me this?
+        ↩ (goto) ice_astra: When I got here... when I saw what the kett did to this place...
+    ├ option 2:
+        ↩ (goto) ice_astra: I changed my mind, didn't I?
+    └─ merge ─┘
+└─ merge ─┘

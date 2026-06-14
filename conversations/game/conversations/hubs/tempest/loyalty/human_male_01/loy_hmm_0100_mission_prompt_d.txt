@@ -1,0 +1,39 @@
+# Game/Conversations/HUBS/Tempest/Loyalty/Human_male_01/loy_hmm_0100_mission_prompt_d
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/hubs/tempest/loyalty/human_male_01/loy_hmm_0100_mission_prompt_d.xml
+==================================================
+Hero: All right, we're set to go. Somewhere.
+global_squad_male_human: This is on me. I'll take care of it.
+global_squad_male_human: Any sign of the pirates who took my contact?
+global_crew_science_officer: There's too much background radiation. Could be anything hiding out there—all that debris in orbit.
+global_squad_male_human: That tracks. Heard they were scavengers.
+global_squad_male_human: I'd hoped Bradley or some of our colonists would follow. Join in.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Bradley's a little busy these days. Why not a strike team?
+    global_squad_male_human: Like I said, I gave Verand a lot of Nexus data. If the pirates got that, they'd know a team was coming.
+    global_crew_co-pilot: We're a "team."
+    global_squad_male_human: I'm not risking the Tempest either.
+    global_squad_male_human: I say we play to their scavenger roots. With... that debris. I'll explain in the airlock.
+    global_squad_male_human: We've wasted enough time. Let's hit the go button, shoot pirates, and save people.
+    global_squad_male_human: We've got this.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: All right, I'm in. Let's do... whatever this is.
+        global_squad_male_human: Yeah, I thought you'd... wait, what? I mean, yeah. Hell, yeah!
+        global_squad_male_human: We play this right, they'll deliver us just where we need to go. I have a plan.
+    ├ option 2:
+        Hero: What we've got is a chance.
+        global_squad_male_human: And I'll make the most of it. You'll see.
+        ↩ (goto) global_squad_male_human: We play this right, they'll deliver us just where we need to go. I have a plan.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: Still don't know why you'd try an outpost first. Why not a strike team?
+    ↩ (goto) global_squad_male_human: Like I said, I gave Verand a lot of Nexus data. If the pirates got that, they'd know a team was coming.
+├ option 3:
+    Hero: We'll make do with what we've got. What's the plan?
+    global_squad_male_human: Somewhere out there is a ship full of pirates. They might have our specs...
+    global_crew_co-pilot: Thanks to you.
+    global_squad_male_human: Yes, thanks to me. So we can't go in hot.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

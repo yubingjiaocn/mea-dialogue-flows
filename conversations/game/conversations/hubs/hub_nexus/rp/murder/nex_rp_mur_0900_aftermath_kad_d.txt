@@ -1,0 +1,28 @@
+# game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0900_aftermath_kad_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/murder/nex_rp_mur_0900_aftermath_kad_d.xml
+==================================================
+nex_rp_mur_murderer_multi: My my, look who's crossed my path: Pathfinder Ryder. Remember me? The innocent man you exiled.
+Hero: Nilken Rensus. So you found your way to Kadara.
+nex_rp_mur_murderer_multi: Not many places Mariette and I could have ended up. Other than dead, of course.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: So your wife stuck by you.
+    nex_rp_mur_murderer_multi: Surprised? I told her the truth. She struggled with it.
+    nex_rp_mur_murderer_multi: That day on Eos, I did what was necessary to survive. Mariette sees that.
+    nex_rp_mur_murderer_multi: Turns out this life suits us. There's freedom in living by your wits. And we've had to rely on each other completely.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm glad some good has come of this.
+        nex_rp_mur_murderer_multi: I'm sure you've been racked with worry.
+        nex_rp_mur_murderer_multi: I suppose I should thank you. So, thank you, Pathfinder. I'll give Mariette your best.
+    ├ option 2:
+        Hero: So you still stand by your actions. No lesson was learned.
+        nex_rp_mur_murderer_multi: Oh, I learned a lot. Just maybe not what you wanted.
+        ↩ (goto) nex_rp_mur_murderer_multi: I suppose I should thank you. So, thank you, Pathfinder. I'll give Mariette your best.
+    └─ merge ─┘
+├ option 2:
+    Hero: Your wife deserves to be happy. Do right by her.
+    nex_rp_mur_murderer_multi: Well, we agree there. I know I put her in a difficult situation.
+    ↩ (goto) nex_rp_mur_murderer_multi: That day on Eos, I did what was necessary to survive. Mariette sees that.
+└─ merge ─┘

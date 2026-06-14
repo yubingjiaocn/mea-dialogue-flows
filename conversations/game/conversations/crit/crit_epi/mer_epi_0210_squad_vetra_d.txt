@@ -1,0 +1,52 @@
+# game/conversations/crit/crit_epi/mer_epi_0210_squad_vetra_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_epi/mer_epi_0210_squad_vetra_d.xml
+==================================================
+nex_vetra_sister_multi [OncePerGame]: So Tann says he's gonna let me stick around and help with the—
+global_squad_turian: Hey, Ryder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_vetra_sister_multi: Maybe I should leave you two alone, huh?
+    global_squad_turian: No need. We'll get time alone before too long.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You ready to get going? We've still got a lot to do.
+        global_squad_turian: You know me. I'm always raring to go.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            nex_vetra_sister_multi: Aw, she's all grown up. Leaving home. Doesn't need me anymore.
+            global_squad_turian: That'll be the day. Who'll handle my deals on this end while I'm gone?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Sounds like you two have a good arrangement.
+                global_squad_turian: It's getting there. A little trust goes a long way.
+                global_squad_turian: Heleus has really turned into the fresh start I wanted—in so many ways.
+                global_squad_turian: And now, with Meridian, we're really going to make this place ours. I can't wait.
+                global_squad_turian: You know where to find me when you're ready.
+            ├ option 2:
+                Hero: Seeing you two in cahoots makes me all misty.
+                global_squad_turian: You know this is your fault, right? Helping us along.
+                ↩ (goto) global_squad_turian: Heleus has really turned into the fresh start I wanted—in so many ways.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_turian: Now that we've got Meridian, I can't wait to get back out there. Make Heleus our home.
+            ↩ (goto) global_squad_turian: You know where to find me when you're ready.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: What's the word on the street?
+        nex_vetra_sister_multi: "Ryder saves the day," "Pathfinder of the century." You know, the usual.
+        Hero: Still?
+        global_squad_turian: Get used to it. They're gonna name things after you when you die—and probably even before.
+        global_squad_turian: So we heading out again soon?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) nex_vetra_sister_multi ⟨cond⟩: [empty]
+        ├ option 2:
+            Hero: Almost.
+            ↩ (goto) global_squad_turian: Now that we've got Meridian, I can't wait to get back out there. Make Heleus our home.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+global_squad_turian: Ready to go whenever you are, Ryder. 'Til then, I'll just enjoy the view.

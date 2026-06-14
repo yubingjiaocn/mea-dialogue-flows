@@ -1,0 +1,74 @@
+# game/conversations/unc/biolum/bio_0150_sci_leader_qs_i
+# Primary speaker: bio_sci_leader
+# Source: game/conversations/unc/biolum/bio_0150_sci_leader_qs_i.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    bio_sci_leader ⟨cond⟩: Anything you need?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: What's wrong with Havarl?
+        bio_sci_leader: The fabric of life is warped. It begins when the flora and fauna mutate. Monstrous, untenable growth ensues.
+        bio_sci_leader: Cancer, corruption, deformity. Things spring up, live, and die in a matter of days.
+        bio_sci_leader: The jungle you see now is not the jungle that was two days ago. It will be different again in a week.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            Hero: But everything looks so alive.
+            bio_sci_leader: Havarl produces life in abundance, but it doesn't support life the way it used to. Our ecosystems are failing.
+            bio_sci_leader: Daar Pelaav used to be a bustling town, did you know? Now look.
+            bio_sci_leader: We've seen the signs in other parts of the planet. It's started, and it'll end like this.
+            ↩ (goto) bio_sci_leader: [empty]
+        ├ option 2:
+            Hero ⟨cond⟩: Tell me more about the stasis that's taken out your team.
+            bio_sci_leader: We don't know what started it, and it's the first time any of us have heard of something like this happening.
+            bio_sci_leader: The team sent out there studied monoliths before. At least half of them worked with Moshae Sjefa.
+            bio_sci_leader: They were just doing their job when the stasis hit. Now it's like they're frozen in time.
+            bio_sci_leader: Nothing will wake them. Stimulants. Loud noises. They show no reaction to sensation or pain.
+            ↩ (goto) bio_sci_leader: [empty]
+        ├ option 3:
+            Hero: Jaal said you worked for the Moshae?
+            bio_sci_leader: Not I, but many of the team that was sent to the monolith are her students.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                bio_sci_leader ⟨cond⟩: When we learned that Havarl's decline had something to do with the monoliths, we requested her help.
+                bio_sci_leader: She sent her best people here, to help us with the Remnant.
+                ↩ (goto) bio_sci_leader: [empty]
+            ├ option 2:
+                bio_sci_leader: If we can't save her people, I don't think I could ever face her again.
+                global_squad_angara: We'll find a way to help them, Kiiran. I promise.
+                ↩ (goto) bio_sci_leader: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            Hero ⟨cond⟩: Our people aren't causing you any trouble, are they?
+            bio_sci_leader: Not at all. They've been a big help, and Dr. MacIntyre has been sharing wonderful stories about your galaxy.
+            bio_sci_leader: It's good to know that not all aliens are like the kett.
+            ↩ (goto) bio_sci_leader: [empty]
+        ├ option 5:
+            Hero: I should get going.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                bio_sci_leader ⟨cond⟩: Be careful.
+            ├ option 2:
+                bio_sci_leader: Stars be bright for you, Pathfinder Ryder.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero ⟨cond⟩: Tell me more about the stasis that's taken out your team.
+    ├ option 3:
+        ↩ (goto) Hero: Jaal said you worked for the Moshae?
+    ├ option 4:
+        ↩ (goto) Hero ⟨cond⟩: Our people aren't causing you any trouble, are they?
+    ├ option 5:
+        ↩ (goto) Hero: I should get going.
+    └─ merge ─┘
+├ option 2:
+    bio_sci_leader ⟨cond⟩: What is it?
+    ↩ (goto) bio_sci_leader: [empty]
+├ option 3:
+    bio_sci_leader: Pathfinder Ryder.
+    ↩ (goto) bio_sci_leader: [empty]
+├ option 4:
+    bio_sci_leader: Need something?
+    ↩ (goto) bio_sci_leader: [empty]
+└─ merge ─┘
+↩ (goto) bio_sci_leader: [empty]

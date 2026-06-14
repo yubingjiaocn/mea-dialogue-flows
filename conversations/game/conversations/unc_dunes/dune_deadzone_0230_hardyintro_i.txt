@@ -1,0 +1,39 @@
+# game/conversations/unc_dunes/dune_deadzone_0230_hardyintro_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_deadzone_0230_hardyintro_i.xml
+==================================================
+dune_deadzone_mechanic: [Comm] Vehicle trouble, huh? Gotta be careful in these parts.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: We're armed and ready for any trouble we might come across.
+    dune_deadzone_mechanic: [Comm] Oh, don't worry. So am I.
+    dune_deadzone_mechanic: [Comm] I've seen this before. Pretty common out here, what with all the scavengers.
+    dune_deadzone_mechanic: [Comm] I may have just the part you need to get you up and running.
+    dune_deadzone_mechanic: [Comm] I'll give you a navpoint to my camp. It's just around the bend.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Thanks for this. I guess we owe you one.
+        dune_deadzone_mechanic: [Comm] Don't worry about it. Happy to help a fellow human.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_asari ⟨cond⟩: Hmph.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Hmph.
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: Hmph.
+        ├ option 4:
+            global_squad_angara ⟨cond⟩: Hmph.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I think we'd better stay with our vehicle.
+        dune_deadzone_mechanic: [Comm] Suit yourself. But you won't last long out here without wheels.
+        dune_deadzone_mechanic: [Comm] I'll be by my ride if you change your mind.
+    ├ option 3:
+        Hero [OncePerGame]: We're in the middle of nowhere. How did you just happen to see us?
+        dune_deadzone_mechanic: [Comm] There'll be plenty of time for questions at my camp.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: One minute we were driving, the next we were dead in the sand.
+    ↩ (goto) dune_deadzone_mechanic: [Comm] I've seen this before. Pretty common out here, what with all the scavengers.
+└─ merge ─┘

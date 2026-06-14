@@ -1,0 +1,112 @@
+# Game/Conversations/Crit/Crit_Ex/crit_ex_0550_anguish_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0550_anguish_m.xml
+==================================================
+Hero: Jaal.
+global_squad_angara: They are us.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Yeah.
+    global_squad_angara: {i}(Weeps.){/i}
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: We don't have much time.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Let's keep looking. This isn't the only room.
+            Hero: We'd better find her fast.
+            global_squad_angara: They're us.
+            Hero: Yeah...
+            global_squad_angara: How many have I killed, not knowing? Ryder, I did not know.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Jaal, the blame belongs with the kett.
+                global_squad_angara: There's no comfort in that.
+                Hero: No. But maybe fuel for the Resistance.
+                global_squad_angara: Maybe.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: [Comm] Ryder! Jaal! I got her. She's here!
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        global_squad_krogan ⟨cond⟩: Move! Let's go!
+                        Hero: SAM! Get me into that room, now!
+                        global_squad_angara: {i}(Yells.){/i}
+                        SAM: Initiating decontamination bypass hack.
+                        crit_ex_grand_kett: No!
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                        ├ option 2:
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_turian ⟨cond⟩: Let's go!
+                        ↩ (goto) Hero: SAM! Get me into that room, now!
+                    ├ option 3:
+                        global_squad_male_human ⟨cond⟩: We have to move!
+                        ↩ (goto) Hero: SAM! Get me into that room, now!
+                    ├ option 4:
+                        global_squad_female_human ⟨cond⟩: Go. Go!
+                        ↩ (goto) Hero: SAM! Get me into that room, now!
+                    ├ option 5:
+                        global_squad_asari ⟨cond⟩: C'mon, c'mon.
+                        ↩ (goto) Hero: SAM! Get me into that room, now!
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_krogan ⟨cond⟩: [Comm] Down here. Found her.
+                    ↩ (goto) Narration: [empty]
+                ├ option 3:
+                    global_squad_asari ⟨cond⟩: [Comm] Ryder! Jaal! She's here, hurry!
+                    ↩ (goto) Narration: [empty]
+                ├ option 4:
+                    global_squad_male_human ⟨cond⟩: [Comm] Ryder! Jaal! She's down here!
+                    ↩ (goto) Narration: [empty]
+                ├ option 5:
+                    global_squad_female_human ⟨cond⟩: [Comm] Ryder! Jaal! I found her. Down here.
+                    ↩ (goto) Narration: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: How can I help? What do you need?
+                global_squad_angara: That is kind. I... don't know.
+                Hero: Well, then let's start by finding the Moshae. If anyone can figure out what this means for the angara, I'm guessing it's her.
+                global_squad_angara: You're probably right.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_turian ⟨cond⟩: The Moshae...
+            ↩ (goto) Hero: We'd better find her fast.
+        ├ option 3:
+            global_squad_male_human ⟨cond⟩: I'll scout ahead. The Moshae's bound to be here somewhere.
+            ↩ (goto) Hero: We'd better find her fast.
+        ├ option 4:
+            global_squad_female_human ⟨cond⟩: There are more rooms. I'll keep scanning for her.
+            ↩ (goto) Hero: We'd better find her fast.
+        ├ option 5:
+            global_squad_asari ⟨cond⟩: I'll keep scanning for her—it looks like there are other rooms like this.
+            ↩ (goto) Hero: We'd better find her fast.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_turian ⟨cond⟩: I'll keep scanning for the Moshae. She's got to be here somewhere.
+        ↩ (goto) Narration: [empty]
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: We, ah, have t—
+        ↩ (goto) Narration: [empty]
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: The Moshae...
+        ↩ (goto) Narration: [empty]
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: The Moshae...
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩: Jaal. I'm—
+    ↩ (goto) global_squad_angara: {i}(Weeps.){/i}
+├ option 3:
+    global_squad_asari ⟨cond⟩: Jaal. I'm—
+    ↩ (goto) global_squad_angara: {i}(Weeps.){/i}
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Well, that's...
+    ↩ (goto) global_squad_angara: {i}(Weeps.){/i}
+├ option 5:
+    global_squad_female_human ⟨cond⟩: Jaal. I'm—
+    ↩ (goto) global_squad_angara: {i}(Weeps.){/i}
+└─ merge ─┘

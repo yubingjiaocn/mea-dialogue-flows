@@ -1,0 +1,37 @@
+# Game/Conversations/Hubs/Hub_Nexus/docks/nex_dck_immig_asari_a
+# Primary speaker: nex_dck_immig_rep
+# Source: game/conversations/hubs/hub_nexus/docks/nex_dck_immig_asari_a.xml
+==================================================
+nex_dck_immig_rep: Name?
+nex_dck_asa_colonist1: Sima Adriss. As in Beril Adriss? Maybe you've seen her?
+nex_dck_immig_rep: If I can just have your medical scan—
+nex_dck_asa_colonist1: Here. Or my sister Farima? Please, we were separated in the evacuation.
+nex_dck_immig_rep ⟨cond⟩: You're all clear. Avina has a database of asari looking for their families. I'd check with her.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nex_dck_immig_rep ⟨cond⟩: If your sister is a scientist, also check the Eos transfer database in Ops.
+    nex_dck_asa_colonist1: I will! Thank you!
+    nex_dck_immig_rep: Next!
+├ option 2:
+    nex_dck_immig_rep ⟨cond⟩: If your sister has commando training, also check the Eos transfer database in Ops.
+    ↩ (goto) nex_dck_asa_colonist1: I will! Thank you!
+├ option 3:
+    ↩ (goto) nex_dck_asa_colonist1: I will! Thank you!
+└─ merge ─┘
+nex_dck_immig_rep: Welcome. Name, please?
+nex_dck_asa_colonist2: Lenah Raed. Want my serial number?
+nex_dck_immig_rep: Just your medical scan. Wow. That's a lot of healed fractures.
+nex_dck_asa_colonist2: That's what happens when a busted ark drops half a deck on you.
+nex_dck_immig_rep: Hmm. You're cleared, but the doctor recommends you avoid military work or heavy construction.
+nex_dck_asa_colonist2: All that, and I'm only fit for a desk job?
+nex_dck_immig_rep: I'm sorry. I just check the scan. The waiting area's that way. Next!
+nex_dck_immig_rep: Congratulations on making it to the Nexus. Name?
+nex_dck_asa_colonist3: Larin T'Farn.
+nex_dck_immig_rep: All right, let me just check your medical scan.
+nex_dck_asa_colonist3: So... um... all our belongings were lost in the kett attacks.
+nex_dck_asa_colonist3: My daughters don't have clean clothes. Not even a toothbrush. I don't have credits, or...
+nex_dck_immig_rep: We have emergency care packages available.
+nex_dck_asa_colonist3: Will there be enough for the four of us? I can work, I just...
+nex_dck_immig_rep: Give your name in the waiting area. Every department on the Nexus is shorthanded.
+nex_dck_asa_colonist3: I hope so. I mean—thanks.
+nex_dck_immig_rep: Next!

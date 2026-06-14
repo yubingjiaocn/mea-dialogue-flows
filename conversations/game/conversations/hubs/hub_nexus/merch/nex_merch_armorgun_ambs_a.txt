@@ -1,0 +1,33 @@
+# game/conversations/hubs/hub_nexus/merch/nex_merch_armorgun_ambs_a
+# Primary speaker: nex_merch_armor
+# Source: game/conversations/hubs/hub_nexus/merch/nex_merch_armorgun_ambs_a.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    nex_merch_armor: Sure, let me know what materials you need and I'll find you something.
+    nex_crew_armortalk_01: That's a relief. Thanks for helping out. I owe you one.
+├ option 2:
+    nex_merch_armor: So, how'd things go?
+    nex_crew_armortalk_01: The materials you found were perfect. If you've got more, we'll take it all.
+    nex_merch_armor: I need to keep some on reserve for engineering repairs, but I can have another batch sent your way, for sure.
+├ option 3:
+    nex_crew_armortalk_01: So, okay. Once I hit the colony, this set should be good for protection, if we get attacked by kett?
+    nex_merch_armor: It'll work against lighter weapons fire, but heavy-grade weapons—not so much.
+    nex_crew_armortalk_01: Right. Small guns, okay. Big guns, duck. I can do that.
+├ option 4:
+    nex_merch_weapons: It's not the best quality, but we don't have many options here.
+    nex_crew_weaponstalk_01: I thought merchants were supposed to make you want to buy their stock.
+    nex_merch_weapons: I'd rather be honest. That way you won't get yourself killed doing something you shouldn't with my inventory.
+    nex_crew_weaponstalk_01: I appreciate that.
+├ option 5:
+    nex_crew_weaponstalk_01: You were right. If I'd done what I'd planned, things would have gone badly.
+    nex_merch_weapons: Oh. Does that mean you want a refund?
+    nex_crew_weaponstalk_01: Oh, no! I got a buddy of mine to look at it. We came up with a mod to fix the problem.
+    nex_crew_weaponstalk_01: I wanted to show it to you, so you could modify your inventory.
+    nex_merch_weapons: I—sure. Thanks. That'd be great, actually.
+└─ merge ─┘
+↩ (goto) nex_merch_armor [OncePerGame]: [empty]
+↩ (goto) nex_merch_armor [OncePerGame]: [empty]
+↩ (goto) nex_merch_weapons ⟨cond⟩ [OncePerGame]: [empty]
+↩ (goto) nex_merch_armor [OncePerGame]: [empty]
+↩ (goto) nex_merch_armor [OncePerGame]: [empty]

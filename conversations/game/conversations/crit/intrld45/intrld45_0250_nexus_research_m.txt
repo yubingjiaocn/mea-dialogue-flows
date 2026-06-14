@@ -1,0 +1,176 @@
+# game/conversations/crit/intrld45/intrld45_0250_nexus_research_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld45/intrld45_0250_nexus_research_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_salarian_pathfinder_multi ⟨cond⟩: Ryder, good to see you. We've been working with Dr. Aridana and her team on the problem of getting to Meridian.
+        nex_rp_sci_sci02: We think we have the answer.
+        Hero: I'm listening.
+        nex_rp_sci_sci02: It's plans for new technology we've designated Ghost Storm.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_salarian_pathfinder_multi ⟨cond⟩: When you approach Meridian, our own ships can broadcast fake returns for the Tempest.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    loy_hmf_vederia_multi ⟨cond⟩: The kett won't know which is real. It will confuse their sensors and draw their ships off.
+                    nex_rp_sci_sci02: It could buy you some time.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: I can work with that. Just enough to give us an advantage.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            global_turian_pathfinder_multi ⟨cond⟩: The rest is up to you.
+                            Hero: I can handle it. Though it means going against the Initiative. We're alone here.
+                            Hero: You didn't hear that.
+                            nex_rp_sci_sci02: Hear what? We've been busy collating gamma charts all day.
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                global_turian_pathfinder_multi ⟨cond⟩: Risk comes with the job. Part of being a Pathfinder.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: Sure, if they'd pay us once in awhile.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_salarian_pathfinder_multi ⟨cond⟩: Not likely, after this.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                loy_hmf_vederia_multi ⟨cond⟩: First you'll need to research the Ghost Storm technology. Then we'll rendezvous at Meridian.
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    global_salarian_pathfinder_multi ⟨cond⟩: Good luck.
+                                                ├ option 2:
+                                                    crit_kett_salarian_captain_multi: Good luck.
+                                                    ↩ (goto) Narration: [empty]
+                                                └─ merge ─┘
+                                            ├ option 2:
+                                                loy_hmf_cmdr_sarissa_multi: You'll need to research the Ghost Storm technology first. Then we'll meet you at Meridian.
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: Good luck.
+                                                ├ option 2:
+                                                    ↩ (goto) crit_kett_salarian_captain_multi: Good luck.
+                                                └─ merge ─┘
+                                            └─ merge ─┘
+                                        ├ option 2:
+                                            global_salarian_pathfinder_multi ⟨cond⟩: You'll have to research the Ghost Storm technology to start. Then we'll meet you at Meridian.
+                                            ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: Good luck.
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        crit_kett_salarian_captain_multi: Not after this.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) crit_kett_salarian_captain_multi ⟨cond⟩: [empty]
+                                        ├ option 2:
+                                            crit_kett_salarian_captain_multi: You'll need to research the Ghost Storm technology first. Then we'll meet you at Meridian.
+                                            ↩ (goto) crit_kett_salarian_captain_multi: Good luck.
+                                        └─ merge ─┘
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    Hero: Let's get to it, then. The Archon isn't sitting on his hands.
+                                    ┌─ BRANCH (3) ─┐
+                                    ├ option 1:
+                                        ↩ (goto) crit_kett_salarian_captain_multi ⟨cond⟩: [empty]
+                                    ├ option 2:
+                                        ↩ (goto) global_salarian_pathfinder_multi ⟨cond⟩: You'll have to research the Ghost Storm technology to start. Then we'll meet you at Meridian.
+                                    ├ option 3:
+                                        ↩ (goto) crit_kett_salarian_captain_multi: You'll need to research the Ghost Storm technology first. Then we'll meet you at Meridian.
+                                    └─ merge ─┘
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_salarian_pathfinder_multi ⟨cond⟩: Occupational hazard. Part of being a Pathfinder.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: Sure, if they'd pay us once in awhile.
+                                ├ option 2:
+                                    ↩ (goto) Hero: Let's get to it, then. The Archon isn't sitting on his hands.
+                                └─ merge ─┘
+                            ├ option 3:
+                                crit_kett_salarian_captain_multi: I'm learning Pathfinders often are alone. Part of the job.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: Sure, if they'd pay us once in awhile.
+                                ├ option 2:
+                                    ↩ (goto) Hero: Let's get to it, then. The Archon isn't sitting on his hands.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_salarian_pathfinder_multi ⟨cond⟩: The rest will be on you.
+                            ↩ (goto) Hero: I can handle it. Though it means going against the Initiative. We're alone here.
+                        ├ option 3:
+                            crit_kett_salarian_captain_multi: The rest is on you.
+                            ↩ (goto) Hero: I can handle it. Though it means going against the Initiative. We're alone here.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: Sounds like this has never been tested. What if it doesn't work?
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            global_turian_pathfinder_multi ⟨cond⟩: You're clever. I'm sure you'll figure something out.
+                            Hero: This means going against the Initiative. We're on our own.
+                            ↩ (goto) Narration: [empty]
+                        ├ option 2:
+                            global_salarian_pathfinder_multi ⟨cond⟩: You're clever. You'll figure something out.
+                            ↩ (goto) Narration: [empty]
+                        ├ option 3:
+                            crit_kett_salarian_captain_multi: You improvised back on the Archon's ship. You'll figure something out.
+                            ↩ (goto) Narration: [empty]
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    loy_hmf_cmdr_sarissa_multi: The kett won't know which one is real. It will confuse their sensors and draw their ships off.
+                    ↩ (goto) nex_rp_sci_sci02: It could buy you some time.
+                └─ merge ─┘
+            ├ option 2:
+                nex_rp_sci_sci01: The kett won't know which one is genuine. It will confuse their sensors and draw their ships off.
+                ↩ (goto) nex_rp_sci_sci02: It could buy you some time.
+            └─ merge ─┘
+        ├ option 2:
+            crit_kett_salarian_captain_multi: As you approach Meridian, our own ships can broadcast fake returns for the Tempest.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) crit_kett_salarian_captain_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                ↩ (goto) nex_rp_sci_sci01: The kett won't know which one is genuine. It will confuse their sensors and draw their ships off.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_salarian_pathfinder_multi: Ryder, good to see you. We've been working with the Nexus scientists on the problem of getting to Meridian.
+        ↩ (goto) nex_rp_sci_sci02: We think we have the answer.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        crit_kett_salarian_captain_multi ⟨cond⟩: Ryder, good to see you. We've been working with Dr. Aridana and her team on the problem of getting to Meridian.
+        ↩ (goto) nex_rp_sci_sci02: We think we have the answer.
+    ├ option 2:
+        crit_kett_salarian_captain_multi: Ryder, good to see you. We've been working with the Nexus scientists on the problem of getting to Meridian.
+        ↩ (goto) nex_rp_sci_sci02: We think we have the answer.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    crit_kett_salarian_captain_multi: The kett won't know which one is real. It will confuse their sensors and draw their ships off. It could buy you time.
+├ option 2:
+    global_salarian_pathfinder_multi ⟨cond⟩: The kett won't know which one is real. It will confuse their sensors and draw their ships off. It could buy you some time.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: I can work with that. Just enough to give us an advantage.
+    ├ option 2:
+        ↩ (goto) Hero: Sounds like this has never been tested. What if it doesn't work?
+    └─ merge ─┘
+├ option 3:
+    crit_kett_salarian_captain_multi: Ghost Storm—a new technology. As you approach Meridian, our own ships can broadcast fake returns for the Tempest.
+├ option 4:
+    global_salarian_pathfinder_multi ⟨cond⟩: It's a new technology: Ghost Storm. When you approach Meridian, our own ships can broadcast fake returns for the Tempest.
+├ option 5:
+    crit_kett_salarian_captain_multi: Ah, Ryder, there may be a way to get to Meridian.
+├ option 6:
+    global_salarian_pathfinder_multi: There you are... Ryder, there's a way to get to Meridian.
+    ↩ (goto) Hero: I'm listening.
+└─ merge ─┘

@@ -1,0 +1,41 @@
+# game/conversations/bstory/life/col_100_victory_b
+# Primary speaker: SAM
+# Source: game/conversations/bstory/life/col_100_victory_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Enemy down! Are you clear, doctor?
+    Hero: What about it, Kennedy?
+    col_ending_baby: [Comm] {i}(Infant crying.){/i}
+    col_rogue_out_leader: [Comm] We're safe. He's safe.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: {i}(Laughs.){/i}
+        Hero: Get clear, doctor. But we have to wrap this up with Addison.
+        col_rogue_out_leader: [Comm] Understood, Pathfinder.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Shit yeah!
+        ↩ (goto) Hero: Get clear, doctor. But we have to wrap this up with Addison.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: Congratulations.
+        ↩ (goto) Hero: Get clear, doctor. But we have to wrap this up with Addison.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Yes!
+        ↩ (goto) Hero: Get clear, doctor. But we have to wrap this up with Addison.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Nice!
+        ↩ (goto) Hero: Get clear, doctor. But we have to wrap this up with Addison.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Got them! Tell me that was fast enough!
+    ↩ (goto) Hero: What about it, Kennedy?
+├ option 3:
+    global_squad_angara ⟨cond⟩: Combat clear. Are they out?
+    ↩ (goto) Hero: What about it, Kennedy?
+├ option 4:
+    global_squad_turian ⟨cond⟩: Got them! Are they safe?
+    ↩ (goto) Hero: What about it, Kennedy?
+├ option 5:
+    global_squad_asari ⟨cond⟩: Cleared it! What about the doctor?
+    ↩ (goto) Hero: What about it, Kennedy?
+└─ merge ─┘

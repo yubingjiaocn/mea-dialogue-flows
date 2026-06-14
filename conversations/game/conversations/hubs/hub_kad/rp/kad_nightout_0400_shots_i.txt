@@ -1,0 +1,49 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0400_shots_i
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0400_shots_i.xml
+==================================================
+Hero: I'd like a drink.
+kad_bar_01: What's the name of my bar?
+Hero: What?
+kad_bar_01: You want a drink, answer the question.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Kralla's Song.
+    kad_bar_01: Hm.
+├ option 2:
+    Hero: Thessia Blues?
+    kad_bar_01: Nope. No drink for you, Pathfinder.
+└─ merge ─┘
+kad_bar_01: Back again? Hope you're ready for round two.
+kad_bar_01: How do I serve whiskey?
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero [OncePerGame]: Why are we playing twenty questions?
+    kad_bar_01: Because I'm bored and you're thirsty.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: On the rocks?
+        kad_bar_01: Wrong. Better luck next time.
+    ├ option 2:
+        Hero: Neat.
+        kad_bar_01: I'm almost impressed.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: On the rocks?
+├ option 3:
+    ↩ (goto) Hero: Neat.
+└─ merge ─┘
+kad_bar_01: Final question. Want to be a test subject? I've got a new drink. Angaran wine mixed with ryncol.
+kad_bar_01: Need to know if it's safe for humans. You in?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Hit me with your best shot.
+    kad_bar_01: You're the worst. You know that, right?
+    Hero: Bottoms up!
+    kad_bar_01: Still standing. Success.
+    SAM: Pathfinder. Might I suggest slowing down? At least until Mr. Vidal returns.
+    Hero: Shut up, SAM. It's a party!
+├ option 2:
+    Hero: Ryncol? No thanks. I'd like to function tomorrow.
+    kad_bar_01: Wise. Boring, but wise.
+└─ merge ─┘

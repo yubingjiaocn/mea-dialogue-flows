@@ -1,0 +1,33 @@
+# game/conversations/unc_ice/ice_1400_foodcave_a
+# Primary speaker: ice_coldstorageguard
+# Source: game/conversations/unc_ice/ice_1400_foodcave_a.xml
+==================================================
+ice_coldstorageguard [OncePerGame]: We don't usually let outsiders into cold storage.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Cold storage?
+    ice_coldstorageguard: Where we keep the food shipped from Aya.
+    ice_coldstorageguard: And what little we can grow here. We save energy using the ice as a natural freeze room.
+    Hero: Smart.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Cold storage?
+    ↩ (goto) ice_coldstorageguard: Where we keep the food shipped from Aya.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Cold storage?
+    ↩ (goto) ice_coldstorageguard: Where we keep the food shipped from Aya.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Cold storage?
+    ↩ (goto) ice_coldstorageguard: Where we keep the food shipped from Aya.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Cold storage?
+    ↩ (goto) ice_coldstorageguard: Where we keep the food shipped from Aya.
+├ option 6:
+    global_squad_angara ⟨cond⟩: I've heard of this. It's where you store the food shipped from Aya.
+    ↩ (goto) ice_coldstorageguard: And what little we can grow here. We save energy using the ice as a natural freeze room.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_coldstorageguard: Don't touch anything.
+├ option 2:
+    ice_coldstorageguard: Careful. Valuable goods in there.
+└─ merge ─┘

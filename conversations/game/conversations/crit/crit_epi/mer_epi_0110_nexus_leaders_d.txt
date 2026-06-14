@@ -1,0 +1,200 @@
+# game/conversations/crit/crit_epi/mer_epi_0110_nexus_leaders_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_epi/mer_epi_0110_nexus_leaders_d.xml
+==================================================
+global_nexus_colonial_director_multi: The decision isn't yours.
+global_nexus_PI_director: Neither is it yours. That's the point, isn't it?
+global_nexus_PI_director: Pathfinder. You're late.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: All right, get to it. What's so important?
+    global_arkcon_superintendent: Initiative protocol. Thanks to you, we can finally proceed as intended.
+    global_nexus_colonial_director_multi: As outposts become colonies, the cluster needs its own voice. A true council.
+    global_nexus_PI_director: And while I maintain that it is premature, we must nominate an interim ambassador to represent concerns outside the Nexus.
+    global_nexus_PI_director: Or rather, {i}you{/i} must nominate someone.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: Interim ambassador? To what, and for who?
+        global_nexus_PI_director: To the Nexus. The eventual goal was always a galactic council. But Meridian has... accelerated concerns.
+        global_nexus_colonial_director_multi: An ark has landed. The vaults may make outposts self-sufficient. And we can't claim to represent a sovereign Angara.
+        global_nexus_colonial_director_multi: An interim ambassador would represent concerns outside the Nexus. Until elections, when we can all step aside.
+        global_nexus_PI_director: At the appropriate time.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: If this person is supposed to represent people, shouldn't the people have a say?
+            global_nexus_colonial_director_multi: That is precisely why we need your backing.
+            global_nexus_militia_leader: We can't impose a vote on the angara. Or even Kadara. Elaaden? Won't happen.
+            global_arkcon_superintendent: But you've acted for everyone. If you endorse a name, some may disagree, but they will trust it as a starting point.
+            Hero: Someone to speak for Heleus...
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_nexus_PI_director ⟨cond⟩: I put forward Pathfinder Raeka.
+                global_nexus_PI_director: I'd suggest {i}you{/i}, but someone might think you killed the Archon to elevate yourself. We can't allow the appearance of that.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_PI_director ⟨cond⟩: But Raeka keeps the position—and timeline—in the Nexus family.
+                    ┌─ BRANCH (5) ─┐
+                    ├ option 1:
+                        Hero: Meridian doesn't mean "done." Kett are still out there.
+                        Hero: A Pathfinder is the obvious choice for stability—for {i}us{/i}.
+                        global_nexus_colonial_director_multi: But hardly the empowering one.
+                        global_arkcon_superintendent: Same old bullshit.
+                        ┌─ BRANCH (8) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: It feels like the original intent was to give that voice to the outposts.
+                            Hero: August Bradley's a proven leader.
+                            global_arkcon_superintendent: On a considerably smaller scale.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_nexus_militia_leader ⟨cond⟩: Hard to fail with so much military support on Eos.
+                                ┌─ BRANCH (9) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero ⟨cond⟩: [empty]
+                                ├ option 2:
+                                    ↩ (goto) Hero: Meridian doesn't mean "done." Kett are still out there.
+                                ├ option 3:
+                                    Hero ⟨cond⟩: We need to keep influence centralized for now. That means Hayjer.
+                                    Hero: The "Pathfinder" title should open a few doors. He's my choice.
+                                    global_nexus_PI_director: You see? That wasn't so hard. Sense rules on Meridian's opening day.
+                                    global_arkcon_superintendent: Shove it, Number Eight.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_nexus_colonial_director_multi ⟨cond⟩: Scott is feeling better?
+                                        global_nexus_colonial_director_multi: Good. This decision? The policy and protocol? That's not what your victory was about.
+                                        global_nexus_colonial_director_multi: There's more to life than this.
+                                    ├ option 2:
+                                        global_nexus_colonial_director_multi: Sara is feeling better?
+                                        ↩ (goto) global_nexus_colonial_director_multi: [empty]
+                                    └─ merge ─┘
+                                ├ option 4:
+                                    Hero ⟨cond⟩: We need to keep influence centralized for now. That means Raeka.
+                                    Hero: The "Pathfinder" title should open a few doors. She's my choice.
+                                    ↩ (goto) global_arkcon_superintendent: [empty]
+                                ├ option 5:
+                                    Hero ⟨cond⟩: The angara need to help define the process. It's their right.
+                                    Hero: Plus, the Moshae would help solidify relations.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_nexus_militia_leader ⟨cond⟩: We're already partnered, thanks to your efforts against the Roekaar.
+                                        global_nexus_PI_director: All the more reason to focus on our own issues.
+                                        ┌─ BRANCH (9) ─┐
+                                        ├ option 1:
+                                            ↩ (goto) Hero ⟨cond⟩: [empty]
+                                        ├ option 2:
+                                            ↩ (goto) Hero ⟨cond⟩: [empty]
+                                        ├ option 3:
+                                            ↩ (goto) Hero ⟨cond⟩: We need to keep influence centralized for now. That means Hayjer.
+                                        ├ option 4:
+                                            ↩ (goto) Hero ⟨cond⟩: We need to keep influence centralized for now. That means Raeka.
+                                        ├ option 5:
+                                            ↩ (goto) Hero ⟨cond⟩: It feels like the original intent was to give that voice to the outposts.
+                                        ├ option 6:
+                                            Hero ⟨cond⟩: This representative should be one of the people actually doing the work.
+                                            Hero: First outpost, first ambassador. Bradley's my choice.
+                                            global_nexus_PI_director: Safe enough. Nothing disruptive for Meridian's opening day.
+                                            global_nexus_colonial_director_multi: Something by the book, for once.
+                                            ↩ (goto) global_nexus_colonial_director_multi: [empty]
+                                        ├ option 7:
+                                            Hero ⟨cond⟩: If we want stability, maybe we should ensure the krogan stay.
+                                            Hero: What if it was Morda?
+                                            global_arkcon_superintendent: {i}(Laughs.){/i}
+                                            global_nexus_PI_director: You are out of your mind.
+                                            global_nexus_colonial_director_multi: It's definitely... unorthodox.
+                                            ┌─ BRANCH (9) ─┐
+                                            ├ option 1:
+                                                ↩ (goto) Hero ⟨cond⟩: [empty]
+                                            ├ option 2:
+                                                ↩ (goto) Hero ⟨cond⟩: [empty]
+                                            ├ option 3:
+                                                ↩ (goto) Hero ⟨cond⟩: We need to keep influence centralized for now. That means Hayjer.
+                                            ├ option 4:
+                                                ↩ (goto) Hero ⟨cond⟩: We need to keep influence centralized for now. That means Raeka.
+                                            ├ option 5:
+                                                ↩ (goto) Hero ⟨cond⟩: It feels like the original intent was to give that voice to the outposts.
+                                            ├ option 6:
+                                                ↩ (goto) Hero ⟨cond⟩: This representative should be one of the people actually doing the work.
+                                            ├ option 7:
+                                                ↩ (goto) Hero ⟨cond⟩: The angara need to help define the process. It's their right.
+                                            ├ option 8:
+                                                Hero ⟨cond⟩: If we're going to treat Heleus like a home, we need to acknowledge whose home it is.
+                                                Hero: I won't name anyone, I support {i}asking{/i} the Moshae to act as interim ambassador.
+                                                global_nexus_PI_director: Meridian's opening day, and we're surrendering how much influence?
+                                                global_nexus_colonial_director_multi: That's the point, you colonial wad.
+                                                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+                                            ├ option 9:
+                                                Hero ⟨cond⟩: You want the Pathfinder to pick a voice, I'm picking Morda.
+                                                Hero: I think the krogan have waited long enough for a seat on a council.
+                                                global_nexus_PI_director: Well, this certainly colors Meridian's opening day.
+                                                global_arkcon_superintendent: Don't worry Number Eight, you'll be fine.
+                                                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+                                            └─ merge ─┘
+                                        ├ option 8:
+                                            ↩ (goto) Hero ⟨cond⟩: You want the Pathfinder to pick a voice, I'm picking Morda.
+                                        ├ option 9:
+                                            ↩ (goto) Hero ⟨cond⟩: If we're going to treat Heleus like a home, we need to acknowledge whose home it is.
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        global_nexus_militia_leader: They have ongoing civil concerns with the Roekaar.
+                                        global_nexus_PI_director: Mmpfh. And we've a lot of unresolved issues of our own.
+                                        ↩ (goto) global_arkcon_superintendent: [empty]
+                                    └─ merge ─┘
+                                ├ option 6:
+                                    ↩ (goto) Hero ⟨cond⟩: If we're going to treat Heleus like a home, we need to acknowledge whose home it is.
+                                ├ option 7:
+                                    ↩ (goto) Hero ⟨cond⟩: If we want stability, maybe we should ensure the krogan stay.
+                                ├ option 8:
+                                    ↩ (goto) Hero ⟨cond⟩: You want the Pathfinder to pick a voice, I'm picking Morda.
+                                ├ option 9:
+                                    ↩ (goto) Hero ⟨cond⟩: This representative should be one of the people actually doing the work.
+                                └─ merge ─┘
+                            ├ option 2:
+                                global_nexus_militia_leader: He's kept Eos relatively stable. Despite no militia presence.
+                                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            ↩ (goto) Hero ⟨cond⟩: This representative should be one of the people actually doing the work.
+                        ├ option 3:
+                            ↩ (goto) Hero ⟨cond⟩: The angara need to help define the process. It's their right.
+                        ├ option 4:
+                            ↩ (goto) Hero ⟨cond⟩: If we're going to treat Heleus like a home, we need to acknowledge whose home it is.
+                        ├ option 5:
+                            ↩ (goto) Hero ⟨cond⟩: If we want stability, maybe we should ensure the krogan stay.
+                        ├ option 6:
+                            ↩ (goto) Hero ⟨cond⟩: You want the Pathfinder to pick a voice, I'm picking Morda.
+                        ├ option 7:
+                            ↩ (goto) Hero ⟨cond⟩: We need to keep influence centralized for now. That means Hayjer.
+                        ├ option 8:
+                            ↩ (goto) Hero ⟨cond⟩: We need to keep influence centralized for now. That means Raeka.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ↩ (goto) Hero ⟨cond⟩: [empty]
+                    ├ option 3:
+                        ↩ (goto) Hero ⟨cond⟩: It feels like the original intent was to give that voice to the outposts.
+                    ├ option 4:
+                        ↩ (goto) Hero ⟨cond⟩: The angara need to help define the process. It's their right.
+                    ├ option 5:
+                        ↩ (goto) Hero ⟨cond⟩: If we want stability, maybe we should ensure the krogan stay.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_PI_director: But Hayjer keeps the position—and timeline—in the Nexus family.
+                    ↩ (goto) global_arkcon_superintendent: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_nexus_PI_director: I put forward Pathfinder Hayjer.
+                ↩ (goto) global_nexus_PI_director: I'd suggest {i}you{/i}, but someone might think you killed the Archon to elevate yourself. We can't allow the appearance of that.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I can handle a hot potato, but why throw it to me in the first place?
+            global_nexus_colonial_director_multi: Because we need it to be legitimate.
+            ↩ (goto) global_nexus_militia_leader: We can't impose a vote on the angara. Or even Kadara. Elaaden? Won't happen.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: If this person is supposed to represent people, shouldn't the people have a say?
+    ├ option 3:
+        ↩ (goto) Hero: I can handle a hot potato, but why throw it to me in the first place?
+    └─ merge ─┘
+├ option 2:
+    Hero: Save the cluster, straight back to work. I get it.
+    global_arkcon_superintendent: It must seem like that, but this wouldn't be possible without you.
+    ↩ (goto) global_nexus_PI_director: [empty]
+└─ merge ─┘

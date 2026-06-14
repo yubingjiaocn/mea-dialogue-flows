@@ -1,0 +1,42 @@
+# game/conversations/unc_dunes/dune_outpost_0100_scientist_i
+# Primary speaker: dune_outpost_scientist
+# Source: game/conversations/unc_dunes/dune_outpost_0100_scientist_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_outpost_scientist [OncePerGame]: You're the one who got the vault running, right?
+    dune_outpost_scientist: I have to say, when I heard about this place, I didn't think it would be viable.
+    dune_outpost_scientist: But now that I've seen what the vault's already done, I'm daring to hope.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: If we use the Remnant to our advantage, Elaaden won't be the only world we fix.
+        dune_outpost_scientist: I look forward to seeing that.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: What are you studying here?
+            dune_outpost_scientist: The evolving climate of Elaaden and the possibility of water.
+            dune_outpost_scientist: There are already underground pockets. Nasty, brackish stuff, but it can be purified.
+            dune_outpost_scientist: My job is to see if it can someday reach the surface. Can you imagine? Rivers—maybe even lakes—on Elaaden.
+            Hero: That would be huge.
+            dune_outpost_scientist: Clouds—and soil that can hold water. That's all we need. Let's hope the vault provides.
+            ↩ (goto) dune_outpost_scientist: [empty]
+        ├ option 2:
+            Hero: Sounds like the vault's made a big difference so far.
+            dune_outpost_scientist: That's an understatement. Since you activated the vault, I've observed the beginnings of cloud formations.
+            dune_outpost_scientist: Some of them are even nimbus clouds. Rain-bearing. Months from now, we could see real rainfall.
+            Hero: Rainy weather on Elaaden. Can't even picture it.
+            dune_outpost_scientist: I can. And it's beautiful.
+            ↩ (goto) dune_outpost_scientist: [empty]
+        ├ option 3:
+            Hero: I should get going.
+            dune_outpost_scientist: Careful out there.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: A few more years here, and you'll think of Elaaden as home.
+        dune_outpost_scientist: I believe it.
+        ↩ (goto) dune_outpost_scientist: [empty]
+    └─ merge ─┘
+├ option 2:
+    dune_outpost_scientist: Pathfinder. What can I do for you?
+    ↩ (goto) dune_outpost_scientist: [empty]
+└─ merge ─┘

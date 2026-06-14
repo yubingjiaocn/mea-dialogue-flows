@@ -1,0 +1,145 @@
+# game/conversations/hubs/hub_kad/rp/kad_showdown_0300_climax_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_kad/rp/kad_showdown_0300_climax_d.xml
+==================================================
+Narration: Sloane Kelly, Ryder, and squad enter a dark cavern dotted with sulfur pits.
+Narration: Steam gives the atmosphere an eerie feel and hinders visibility. Pockets of light peek through openings in the cavern.
+Narration: A figure walks out from the shadows.
+kad_charlatan: You look like you're waiting for someone.
+Narration: Ryder and Sloane turn towards the voice.
+Narration: Light hits the figure's face—it's Reyes Vidal. He looks utterly pleased with himself.
+Hero: Reyes?
+kad_queen: I'm here for the Charlatan, not some third-rate smuggler.
+Narration: Ryder realizes the truth.
+Hero: They're one and the same.
+kad_charlatan: Surprise.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: This whole time... you've been lying to me.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_charlatan ⟨cond⟩: Not about everything. You know who I really am.
+        kad_queen: You said you wanted to "settle things." How?
+        kad_charlatan: A duel. You and me. Right now. Winner takes Kadara Port.
+        Hero: You want to avoid war by shooting each other?
+        kad_charlatan: Two people shooting each other is better than a lot of people shooting each other.
+        Narration: Sloane and Reyes glare at each other. Sloane is thinking through the options, while Reyes is willing her to agree.
+        Narration: Finally, she smirks.
+        kad_queen: I'll take those terms.
+        Narration: In a tense "tell me when" moment, Reyes and Sloane circle each other.
+        Narration: The camera pans to Ryder, who looks at Reyes. Above him, a light quickly flickers.
+        Narration: Ryder looks closer and sees a sniper aiming at Sloane.
+        SAM: Sniper. His sights are set on Sloane.
+        kad_charlatan: Your move, princess.
+        Narration: Sloane gets ready to draw her weapon.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sniper!
+            Narration: Ryder pushes Sloane out of the way just as the sniper shoots—the shot just misses them.
+            Narration: Reyes pulls his gun to shoot at Sloane, but she shoots the weapon out of his hand.
+            kad_charlatan: Damn it! Cover me!
+            Narration: The sniper jumps down to cover Reyes's exit.
+            kad_queen: Shoot him!
+            Narration: Ryder looks down at her gun, then to Reyes's retreating figure. A shuttle has flown down to pick him up. He is about to jump in.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Lie your way out of this, asshole!
+                    Narration: Ryder shoots Reyes in the back (near the shoulder, it's not fatal). He drops to his knee, seriously injured.
+                    Narration: The sniper drags him onto the shuttle. Another one of Reyes's men inside the shuttle covers their exit.
+                    Hero: Damn it!
+                    kad_queen: He's got nowhere to hide. My people will find him, then his head goes on a spike.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Do what you want—I'm done with him.
+                        Narration: Sloane begins to leave the cave, before turning back towards the player.
+                        kad_queen: I'll never trust Tann or the Initiative. But you're out of the doghouse.
+                    ├ option 2:
+                        Hero: No. No more heads on spikes. No more public executions.
+                        kad_queen: Not even out of the fucking cave, and you're making demands.
+                        Hero: You're alive because of me. It's time you start playing nice.
+                        Narration: Sloane shrugs and turned her back on Ryder.
+                        ↩ (goto) Narration: Sloane begins to leave the cave, before turning back towards the player.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Not getting away that easy!
+                    ↩ (goto) Narration: Ryder shoots Reyes in the back (near the shoulder, it's not fatal). He drops to his knee, seriously injured.
+                └─ merge ─┘
+            ├ option 2:
+                Narration: Ryder thinks about raising her weapon, but holds her ground. Reyes jumps onto a hidden shuttle and cheekily waves goodbye.
+                kad_queen: What the hell was that?
+                Hero: He was unarmed.
+                kad_queen: {i}(Snorts.){/i}
+                ↩ (goto) kad_queen: He's got nowhere to hide. My people will find him, then his head goes on a spike.
+            └─ merge ─┘
+        ├ option 2:
+            Narration: Sloane draws to shoot Reyes—a shot rings out—Reyes smirks.
+            Narration: The camera cuts to Sloane, who looks shocked.
+            kad_charlatan: Bang.
+            Narration: Using his finger, Reyes mockingly shoots at Sloane as she falls dead.
+            Narration: A sniper jumps down from her location. Reyes gestures towards Sloane's body.
+            kad_charlatan: Get her out of here. Prepare the crew. Kadara Port is ours tonight.
+            Narration: The snipers take Sloane's body and exit the cave.
+            Hero: Guess you got everything you wanted.
+            kad_charlatan: What I want is peace. Sloane would've brought war to Heleus. We don't have the population to survive that.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Why didn't you trust me?
+                kad_charlatan: I liked the way you looked at me. I was afraid that would change.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: You're not the man I thought you were.
+                    Narration: Reyes looks away, disappointed.
+                    kad_charlatan: I wanted to be.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                    ├ option 2:
+                        Hero: So what now?
+                        kad_charlatan: I get to work. Kadara Port won't take itself.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Nothing's changed.
+                    Narration: Ryder steps towards Reyes and kisses him.
+                    kad_charlatan: You have bad taste in men.
+                    Hero: The worst.
+                    Narration: Reyes kisses Ryder again—more passionately.
+                    Hero: Don't you have a port to take?
+                    kad_charlatan: It can wait.
+                    Narration: They kiss again and the scene fades to black.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Is Reyes even your real name?
+                kad_charlatan: It's what my mother called me.
+                Narration: Reyes smiles. Ryder shakes her head.
+                kad_charlatan: It's my real name. I only lied because I didn't want the rumors surrounding "the Charlatan" to taint your view of me.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Your reputation does precede you.
+                    kad_charlatan: It's a gift and a curse.
+                    ↩ (goto) Hero: So what now?
+                ├ option 2:
+                    Hero: From what I just saw, I'd say the rumors were right about you.
+                    kad_charlatan: Being honorable never got me anywhere, Pathfinder.
+                    ↩ (goto) Hero: So what now?
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        kad_charlatan: Not the {i}whole{/i} time...
+        ↩ (goto) kad_queen: You said you wanted to "settle things." How?
+    └─ merge ─┘
+├ option 2:
+    Hero: The angaran spy. Your interest in the Roekaar murders. Everything you've done has been to undermine Sloane's power.
+    Narration: Reyes smiles.
+    kad_charlatan: Death by a thousand cuts.
+    ↩ (goto) kad_queen: You said you wanted to "settle things." How?
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    kad_queen: [Exertion 1]
+├ option 2:
+    kad_queen: [Exertion 2]
+├ option 3:
+    kad_queen: [Exertion 3]
+└─ merge ─┘

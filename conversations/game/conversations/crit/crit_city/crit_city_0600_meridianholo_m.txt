@@ -1,0 +1,211 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0600_meridianholo_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0600_meridianholo_m.xml
+==================================================
+Narration: Previously in gameplay: the squad gets to command control of what they believe is Meridian. Ryder has pressed the big red button. There is the sound of machinery powering up.
+Narration: Squad watches as the Remnant display in the center of the room powers up. Ryder believes this is it, he/she has found the answer to all their problems.
+Narration: The holo comes into view. It shows a round blue planetoid, floating in space.
+Narration: There's a moment when Ryder looks at the holo in awe. After all their searching, they've finally arrived at Meridian.
+Narration: The glyphs suddenly turn red.
+SAM: Translating... "Connection lost. Meridian Engine not found."
+Narration: Ryder looks confused for a second. He/she takes a moment before speaking.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: SAM, is there damage here? Can we restore systems like we did before?
+    SAM: I'm sorry, Pathfinder. Systems are intact—but they are searching for a component that doesn't appear to exist.
+    Hero: What do you mean, "doesn't appear to exist"?
+    Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    SAM: One moment, Pathfinder. I have found something.
+    Narration: Glyphs change to indicate that a recording is playing.
+    crit_city_administrator: Tavadon aviraa. An Solaraan asa valtov ganye. Berah iras—
+    SAM: Translating...
+    Narration: The recording of the two Jardaan talking in increasingly intense tones plays in the background, as SAM's calm, clinical translation plays over it.
+    SAM: "Final administrator log: The Opposition's weapon may cause widespread damage."
+    SAM: "All our weapons, our ships, will not be able to protect us... protect my goal."
+    crit_city_administrator: Ehsan davaar ferloss. Berah iras ongaan tavetlov. Hanela Jardaan.
+    Narration: As SAM continues to translate, holo shows the planetoid detaching and pulling away from the Remnant city, which plugged into the center of the structure somehow.
+    SAM: "We need to disengage Meridian from command core, which will remain here to draw fire."
+    SAM: "Meridian contains all the work of the Jardaan. Nothing else matters."
+    Narration: Holo shows explosions on the Remnant city while a cloud slowly consumes it. The Meridian planetoid floats off into space, untouched.
+    SAM: "I will send it far. We can return one day. Continue the process of renewal."
+    Narration: Holo shows the programmed trajectory of the Meridian planetoid.
+    Narration: The holo flickers and returns to show what Meridian should've been... a planetoid with the Remnant city stuck in the middle. Ryder and squad stare for a second, stunned.
+    SAM: End of log.
+    Narration: Ryder's in disbelief. After getting so close, Meridian has been snatched away again. Frustration and incredulity play on his/her face.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: So, this isn't Meridian. The Archon was wrong.
+        global_squad_asari: That's funny. I mean... it's horrible. But it's funny the asshole had no idea.
+        global_squad_asari: We'll be able to bring it back, right?
+        Narration: The area is rocked by a giant blast. Ryder and squad duck and cover, instinctively. Squaddies put their guns up.
+        Narration: Outside, a large kett battleship is seen. It's firing down on the tower and the squad within it.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: Enemy incoming. Go!
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Get ready! We're getting out of here!
+                Narration: Squaddie looks at Ryder like "we have to do something!" Ryder looks like he/she is thinking hard and trying to decide. Shots rock the area.
+                Hero: SAM! Find me another exit! Away from the kett!
+                Narration: Ryder is holding his/her gun, in cover, alert and poised to do whatever is necessary.
+                SAM: There is no other exit, Pathfinder. However, the Remnant city is not without defenses, and this is its central command.
+                Narration: Something clicks in Ryder's head. They're in a vast city full of Remnant tech that Ryder can control from here.
+                Hero: Remnant defenses... of course. Use them against the kett!
+                Narration: Ryder prepares himself/herself to do something awesome. As shots and explosions rain down around him/her, he/she leaps from cover and returns to the central console.
+                Narration: Things are exploding! Ryder flinches, but his/her goal is clear. He/she reaches the main console panel but is hesitant at first.
+                Narration: Ryder takes hold of the console. He/she is at the height of his/her understanding of the Remnant, and can take control of the entire city.
+                Hero: SAM... {i}now!{/i}
+                Narration: We see the defenses activate around the city. Giant turrets come alive and take aim at the kett attackers swarming the area.
+                Narration: The kett cease their attack on the tower, turning their attention instead of the Remnant that are attacking them. Explosions rock the kett warship, and we see the observers finishing off the last of the kett in the streets.
+                Narration: It's silent. The squaddies look around warily, and then get out from behind cover and look over at Ryder, who has taken a step back from the console. He/she is breathing hard, but fine. The squaddies are clearly impressed.
+                Narration: One of them moves to say something, but there's one last blast. The squad goes flying back and the Archon's Sword appears. He's menacing.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    crit_city_archonssword_multi ⟨cond⟩: The Archon wants that one. Destroy the rest.
+                    Narration: Combat!
+                ├ option 2:
+                    crit_city_archonssword_multi: The Archon wants that one. Destroy the rest.
+                    ↩ (goto) Narration: Combat!
+                └─ merge ─┘
+            ├ option 2:
+                Hero: This seems perfectly in line with how everything was going.
+                Narration: Ryder's frustrated and grumbling, holding his/her gun while in cover.
+                Hero: Meridian's gone, and now we're stuck in a kett shitshow! Can I {i}please{/i} get a break once in a while?
+                ┌─ BRANCH (7) ─┐
+                ├ option 1:
+                    global_squad_asari ⟨cond⟩: Uh, hello? Time to focus!
+                    Hero: We're fighting! The kett are not taking us. Not today!
+                    Narration: The squaddies look a little unsure. This might be suicide.
+                    SAM: Pathfinder. The Remnant city is not without its defenses. This is its central command.
+                    ↩ (goto) Narration: Something clicks in Ryder's head. They're in a vast city full of Remnant tech that Ryder can control from here.
+                ├ option 2:
+                    global_squad_angara ⟨cond⟩: Ryder! We need to do something!
+                    ↩ (goto) Hero: We're fighting! The kett are not taking us. Not today!
+                ├ option 3:
+                    global_squad_turian ⟨cond⟩: Ryder, focus!
+                    ↩ (goto) Hero: We're fighting! The kett are not taking us. Not today!
+                ├ option 4:
+                    global_squad_krogan ⟨cond⟩: We make our own breaks, Ryder!
+                    ↩ (goto) Hero: We're fighting! The kett are not taking us. Not today!
+                ├ option 5:
+                    global_squad_female_human ⟨cond⟩: Ryder!
+                    ↩ (goto) Hero: We're fighting! The kett are not taking us. Not today!
+                ├ option 6:
+                    global_squad_male_human ⟨cond⟩: Okay. Someone broke the Pathfinder.
+                    ↩ (goto) Hero: We're fighting! The kett are not taking us. Not today!
+                ├ option 7:
+                    global_squad_male_human ⟨cond⟩: Okay. Someone broke the Pathfinder.
+                    ↩ (goto) Hero: We're fighting! The kett are not taking us. Not today!
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: Big ship! Time to move!
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            global_squad_turian ⟨cond⟩: They're going to bring the tower down!
+            ↩ (goto) Hero: [empty]
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: They'll destroy this tower and everything in it!
+            ↩ (goto) Hero: [empty]
+        ├ option 5:
+            global_squad_angara ⟨cond⟩: Kett! We have to get out of here!
+            ↩ (goto) Hero: [empty]
+        ├ option 6:
+            global_squad_krogan ⟨cond⟩: We gotta move, now!
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: The Archon was wrong. This isn't Meridian. Meridian is gone.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: There must be some way to recall it.
+            ↩ (goto) Narration: The area is rocked by a giant blast. Ryder and squad duck and cover, instinctively. Squaddies put their guns up.
+        ├ option 2:
+            global_squad_turian ⟨cond⟩: That can't be the end of it. There must be some way to get it back!
+            ↩ (goto) Narration: The area is rocked by a giant blast. Ryder and squad duck and cover, instinctively. Squaddies put their guns up.
+        ├ option 3:
+            global_squad_krogan ⟨cond⟩: Then let's go find it.
+            ↩ (goto) Narration: The area is rocked by a giant blast. Ryder and squad duck and cover, instinctively. Squaddies put their guns up.
+        ├ option 4:
+            global_squad_female_human ⟨cond⟩: But it said they could return. Can't we find it?
+            ↩ (goto) Narration: The area is rocked by a giant blast. Ryder and squad duck and cover, instinctively. Squaddies put their guns up.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: Gone? Just... gone? Oh, I'm not settling for that.
+            ↩ (goto) Narration: The area is rocked by a giant blast. Ryder and squad duck and cover, instinctively. Squaddies put their guns up.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: This can't be it. Come on, guys. We're so close.
+    Narration: Ryder paces, antsy, thinking hard. Looks to the squadmates for any help.
+    Hero: There must be a way. Anyone have ideas?
+    Narration: Ryder looks hopefully at his/her squadmates, open to any suggestions.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Maybe... no. Or the... couldn't be. Ugh. I got nothin'.
+        ↩ (goto) Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Turn it off and on again?
+        ↩ (goto) Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: I have nothing.
+        ↩ (goto) Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    ├ option 4:
+        global_squad_angara ⟨cond⟩: I don't think I can help.
+        ↩ (goto) Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: I could shoot at it.
+        ↩ (goto) Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    ├ option 6:
+        global_squad_krogan ⟨cond⟩: I don't think shooting it'll help.
+        ↩ (goto) Narration: The glyphs on the console turn a different color, getting everyone's attention. Ryder steps back, unsure what just happened.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM: "You have to come with me. The last pod is leaving. The others are already gone."
+    SAM: "No. You go. I have to save Meridian. "
+├ option 2:
+    crit_city_scientist: Vesa gosoh da? Sen aliavaat rabay na! An taosan hojav!
+└─ merge ─┘
+┌─ BRANCH (20) ─┐
+├ option 1:
+    Hero: DNR -- EXERTION -- stringID 216223
+├ option 2:
+    Hero: DNR -- EXERTION -- stringID 216220
+├ option 3:
+    Hero: DNR -- EXERTION -- stringID 216204
+├ option 4:
+    Hero: DNR -- EXERTION -- stringID 216217
+├ option 5:
+    Hero: DNR -- EXERTION -- stringID 216222
+├ option 6:
+    Hero: DNR -- EXERTION -- stringID 216205
+├ option 7:
+    Hero: DNR -- EXERTION -- stringID 216209
+├ option 8:
+    Hero: DNR -- EXERTION -- stringID 216211
+├ option 9:
+    Hero: DNR -- EXERTION -- stringID 216215
+├ option 10:
+    Hero: DNR -- EXERTION -- stringID 216213
+├ option 11:
+    Hero: DNR -- EXERTION -- stringID 216208
+├ option 12:
+    Hero: DNR -- EXERTION -- stringID 216219
+├ option 13:
+    Hero: DNR -- EXERTION -- stringID 216218
+├ option 14:
+    Hero: DNR -- EXERTION -- stringID 216210
+├ option 15:
+    Hero: DNR -- EXERTION -- stringID 216214
+├ option 16:
+    Hero: DNR -- EXERTION -- stringID 216216
+├ option 17:
+    Hero: DNR -- EXERTION -- stringID 216212
+├ option 18:
+    Hero: DNR -- EXERTION -- stringID 216203
+├ option 19:
+    Hero: DNR -- EXERTION -- stringID 216206
+├ option 20:
+    Hero: DNR -- EXERTION -- stringID 216221
+└─ merge ─┘

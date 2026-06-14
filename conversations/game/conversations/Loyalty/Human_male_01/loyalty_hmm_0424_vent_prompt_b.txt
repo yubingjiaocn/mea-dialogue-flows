@@ -1,0 +1,23 @@
+# game/conversations/loyalty/human_male_01/loyalty_hmm_0424_vent_prompt_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/Loyalty/Human_male_01/loyalty_hmm_0424_vent_prompt_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Long way up.
+    global_squad_male_human: Wait, there'll be... a vent! We can blow it!
+    Hero: You knew that how?
+    global_squad_male_human: Verand mentioned it. Believe I said she studies tech.
+├ option 2:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Long way up.
+    ↩ (goto) global_squad_male_human: Wait, there'll be... a vent! We can blow it!
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: We're not making that climb.
+    ↩ (goto) global_squad_male_human: Wait, there'll be... a vent! We can blow it!
+├ option 4:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: How do we get up there?
+    ↩ (goto) global_squad_male_human: Wait, there'll be... a vent! We can blow it!
+├ option 5:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: That's pretty high.
+    ↩ (goto) global_squad_male_human: Wait, there'll be... a vent! We can blow it!
+└─ merge ─┘

@@ -1,0 +1,64 @@
+# game/conversations/unc_ice/ice_0100_res_camp_land01_a
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_0100_res_camp_land01_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ice_roshev: Nice ship.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_roshev: Jaal. You finally back?
+        global_squad_angara: Not for long.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_roshev: This is the squad Evfra sent?
+            ice_roshev: Heckt and the others are waiting on the shuttle pad.
+        ├ option 2:
+            ice_roshev: Who are they? You have the commander's authorization to take them to the base?
+            global_squad_angara: Yes. She knows. We're headed to see her now.
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_roshev: You must be the squad Evfra sent.
+            ↩ (goto) ice_roshev: Heckt and the others are waiting on the shuttle pad.
+        ├ option 2:
+            ice_roshev: So you're the aliens Jaal mentioned. If not for him, you wouldn't be allowed to set foot here.
+            Hero: I understand.
+            ice_roshev: Commander Do Xeel will want to speak to you.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ice_roshev [OncePerGame]: You're back.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ice_roshev: Jaal? Stars, it's really you.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ice_roshev: I can't believe you got the Moshae out of there. None of us can.
+            ├ option 2:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) ice_roshev: Heckt and the others are waiting on the shuttle pad.
+                ├ option 2:
+                    ↩ (goto) ice_roshev: You must be the squad Evfra sent.
+                └─ merge ─┘
+            ├ option 3:
+                ice_roshev: Commander Do Xeel is in her office. You should see her.
+            └─ merge ─┘
+        ├ option 2:
+            ↩ (goto) ice_roshev: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ice_roshev: Hey.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) ice_roshev ⟨cond⟩: [empty]
+        ├ option 2:
+            ↩ (goto) ice_roshev: [empty]
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+ice_roshev: Turn right once you get inside the base. If the snow blinds you, hug the wall.

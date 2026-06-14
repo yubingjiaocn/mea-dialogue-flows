@@ -1,0 +1,146 @@
+# game/conversations/unc/storms/stm_0850_outpost_decision_d
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_0850_outpost_decision_d.xml
+==================================================
+Narration: Ryder and team are standing at what will become the site of their new outpost.
+Hero: This is where we'll build our new outpost. A real beginning.
+SAM: Prepping deployment order. You must choose what purpose this new outpost will serve.
+Hero: The Nexus doesn't get a say?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Resources are at a crisis point. Protocol states this judgment call falls to the Pathfinder.
+    Narration: Ryder takes a few steps out into the site alone to consider this. It's a big responsibility.
+    SAM: With current supplies, you could build a military outpost focusing on defense and militia training.
+    SAM: Alternatively, a scientific outpost could advance the Initiative's research and discoveries.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What do you think? Military outpost or scientific?
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_turian ⟨cond⟩: I say scientific. Aren't we here to explore?
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: Can't solve the Remnant with guns. Scientific for sure.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                    SAM: Fair or not, your choice will represent the Initiative and its intentions in Andromeda. Consider carefully.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Prioritize research and discovery. That's our foundation, and our future.
+                        SAM: Orders prepped. Ready on your signal.
+                    ├ option 2:
+                        Hero: A military outpost. We defend our own against the kett, or anyone else.
+                        ↩ (goto) SAM: Orders prepped. Ready on your signal.
+                    └─ merge ─┘
+                ├ option 2:
+                    SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                    ↩ (goto) SAM: Fair or not, your choice will represent the Initiative and its intentions in Andromeda. Consider carefully.
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_krogan ⟨cond⟩: Think of the kett. You need military.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                ├ option 2:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                └─ merge ─┘
+            ├ option 3:
+                global_squad_male_human ⟨cond⟩: Got to be science. Our colonists need to understand their home.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                ├ option 2:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                └─ merge ─┘
+            ├ option 4:
+                global_squad_female_human ⟨cond⟩: I say military. There's too many threats out here.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                ├ option 2:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Pathfinder's call. But... research is no good if we're dead. Military.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_asari ⟨cond⟩: Can't solve the Remnant with guns. Scientific for sure.
+            ├ option 2:
+                ↩ (goto) global_squad_krogan ⟨cond⟩: Think of the kett. You need military.
+            ├ option 3:
+                ↩ (goto) global_squad_male_human ⟨cond⟩: Got to be science. Our colonists need to understand their home.
+            ├ option 4:
+                global_squad_turian ⟨cond⟩: Go with the science. It's why we came out here.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                ├ option 2:
+                    ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: Pathfinder's call. But... research is no good if we're dead. Military.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_asari ⟨cond⟩: Can't solve the Remnant with guns. Scientific for sure.
+            ├ option 2:
+                ↩ (goto) global_squad_krogan ⟨cond⟩: Think of the kett. You need military.
+            ├ option 3:
+                ↩ (goto) global_squad_male_human ⟨cond⟩: Got to be science. Our colonists need to understand their home.
+            ├ option 4:
+                ↩ (goto) global_squad_turian ⟨cond⟩: Go with the science. It's why we came out here.
+            └─ merge ─┘
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: Our colonists need to understand this place. Scientific.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_krogan ⟨cond⟩: Think of the kett. You need military.
+            ├ option 2:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: I say military. There's too many threats out here.
+            ├ option 3:
+                ↩ (goto) global_squad_turian ⟨cond⟩: Go with the science. It's why we came out here.
+            ├ option 4:
+                ↩ (goto) global_squad_asari ⟨cond⟩: Can't solve the Remnant with guns. Scientific for sure.
+            └─ merge ─┘
+        ├ option 5:
+            global_squad_krogan ⟨cond⟩: How is this a question? Remember the kett? Military!
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_asari ⟨cond⟩: Can't solve the Remnant with guns. Scientific for sure.
+            ├ option 2:
+                ↩ (goto) global_squad_male_human ⟨cond⟩: Got to be science. Our colonists need to understand their home.
+            ├ option 3:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: I say military. There's too many threats out here.
+            ├ option 4:
+                ↩ (goto) global_squad_turian ⟨cond⟩: Go with the science. It's why we came out here.
+            └─ merge ─┘
+        ├ option 6:
+            global_squad_asari ⟨cond⟩: Scientific, obviously. How else will we solve the Remnant?
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_krogan ⟨cond⟩: Think of the kett. You need military.
+            ├ option 2:
+                ↩ (goto) global_squad_male_human ⟨cond⟩: Got to be science. Our colonists need to understand their home.
+            ├ option 3:
+                ↩ (goto) global_squad_female_human ⟨cond⟩: I say military. There's too many threats out here.
+            ├ option 4:
+                ↩ (goto) global_squad_turian ⟨cond⟩: Go with the science. It's why we came out here.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'm choosing this outpost's direction for decades. Maybe centuries.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM ⟨cond⟩: That is the prime responsibility of a Pathfinder.
+            ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+        ├ option 2:
+            SAM: That is the prime responsibility of a Pathfinder.
+            ↩ (goto) SAM: Be advised that the first outpost placed by a Pathfinder will be a statement in itself.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: Resources are at a crisis point. Protocol states this judgment call falls to the Pathfinder.
+    ↩ (goto) Narration: Ryder takes a few steps out into the site alone to consider this. It's a big responsibility.
+└─ merge ─┘

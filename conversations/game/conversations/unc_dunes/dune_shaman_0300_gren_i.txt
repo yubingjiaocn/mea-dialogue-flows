@@ -1,0 +1,81 @@
+# game/conversations/unc_dunes/dune_shaman_0300_gren_i
+# Primary speaker: dune_colony_gren
+# Source: game/conversations/unc_dunes/dune_shaman_0300_gren_i.xml
+==================================================
+dune_colony_gren: I'll meet you at the arena.
+┌─ BRANCH (2) ─┐
+├ option 1:
+├ option 2:
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: It's Gren, isn't it? I'm the Pathfinder. There's a Rite of Union waiting for you.
+    dune_colony_gren: I told Kortik, and now I'm telling you. I won't do it.
+    Hero: Varka already agreed to the rite.
+    dune_colony_gren: Don't care. I'm not fighting with that arrogant sack of rocks.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: You want to destroy the colony over this stupid feud?
+        dune_colony_gren: This colony is all I give a damn about.
+        Hero: Then don't let it get that far. Do the right thing, Gren.
+        dune_colony_gren: You sound like Kortik.
+        dune_colony_gren: Fine. If it gets everyone off my back, I'll perform the rite.
+        dune_colony_gren: But I don't trust Varka to fight fair. The second that fiend is dead, she'll gun for me.
+        dune_colony_gren: I need a third party to keep her in check. Someone neutral. Like a Pathfinder.
+        Hero: Me?
+        dune_colony_gren: That's right. I don't fight unless you do.
+        Hero: What about my squad?
+        dune_colony_gren: No squad. Just you, me, and Varka.
+        Hero: Guess I don't have much of a choice.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: [empty]
+        ├ option 2:
+            ↩ (goto) Hero: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: Help me out here, Drack.
+        global_squad_krogan: Kid, you have two choices.
+        global_squad_krogan: Charge into that arena—or listen to Varka call you a quadless coward for the rest of your life.
+        dune_colony_gren: So you're ganging up on me, too.
+        dune_colony_gren: Any chance you'll just give up and leave me alone?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I wouldn't be here if it wasn't important.
+            dune_colony_gren: Yeah, yeah.
+            ↩ (goto) dune_colony_gren: Fine. If it gets everyone off my back, I'll perform the rite.
+        ├ option 2:
+            Hero: You had to be stubborn. Now you're stuck with me.
+            dune_colony_gren: Thought so.
+            ↩ (goto) dune_colony_gren: Fine. If it gets everyone off my back, I'll perform the rite.
+        └─ merge ─┘
+    ├ option 3:
+        Hero ⟨cond⟩: I guess Varka was right after all.
+        dune_colony_gren: What?
+        Hero: She told me not to bother. Said you wouldn't want to get shown up.
+        dune_colony_gren: That so? Thought she'd take all the glory for herself? Typical.
+        Hero: Prove her wrong.
+        dune_colony_gren: Don't think I can't tell what you're doing.
+        ↩ (goto) dune_colony_gren: Any chance you'll just give up and leave me alone?
+    └─ merge ─┘
+├ option 2:
+    dune_colony_gren: What?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: If you hate Varka so much, why not just leave?
+        dune_colony_gren: And go where? The Nexus? Kadara and fight for scraps?
+        dune_colony_gren: I'm not going anywhere. This is home now. I won't give it up to her.
+        ↩ (goto) dune_colony_gren: [empty]
+    ├ option 2:
+        Hero: I heard you and Varka fought side by side back home.
+        dune_colony_gren: Even then, she was always showing off. Moving in on my turf. Pushing my buttons.
+        Hero: And you didn't do the same to her?
+        dune_colony_gren: Heh. Difference is, it was funny when I did it.
+        dune_colony_gren: She's bad enough in small doses. Now I have to see her every day.
+        ↩ (goto) dune_colony_gren: [empty]
+    ├ option 3:
+        Hero: That's all.
+        dune_colony_gren: Good.
+    └─ merge ─┘
+└─ merge ─┘
+dune_colony_gren: When you're ready, meet me at the arena. Let's get this over with.

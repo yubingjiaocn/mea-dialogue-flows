@@ -1,0 +1,62 @@
+# Game/Conversations/Crit/M4/m4_0550_sanctum_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0550_sanctum_m.xml
+==================================================
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_male_human ⟨cond⟩: Is that a krogan...?
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: Not anymore, it isn't. Must be one of my missing scouts. I can't tell which one.
+        SAM: It's clear the kett are closing in on successfully exalting the species.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: They're driven and efficient, that's for sure.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: They must pay.
+            ├ option 2:
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: I'm beginning to hate these guys.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_krogan ⟨cond⟩: Get in line.
+                ↩ (goto) Narration: [empty]
+            ├ option 2:
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: It {i}was{/i}. Probably one of Drack's missing scouts.
+        SAM: The DNA is krogan, but drastically altered.
+        ↩ (goto) SAM: It's clear the kett are closing in on successfully exalting the species.
+    ├ option 3:
+        global_squad_angara ⟨cond⟩: It {i}was{/i}. Probably one of Drack's missing scouts.
+        ↩ (goto) Narration: [empty]
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: It {i}was{/i}. Could be one of Drack's missing scouts.
+        ↩ (goto) Narration: [empty]
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: It {i}was{/i}. One of Drack's missing scouts, maybe.
+        ↩ (goto) Narration: [empty]
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: It {i}was{/i}. One of Drack's missing scouts? Son of a...
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Is that a krogan...?
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 3:
+    global_squad_turian ⟨cond⟩: Looks like a... krogan.
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 4:
+    global_squad_angara ⟨cond⟩: Is that a krogan...?
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 5:
+    global_squad_asari ⟨cond⟩: Is that a krogan...?
+    ↩ (goto) global_squad_krogan: [empty]
+├ option 6:
+    ↩ (goto) global_squad_krogan: [empty]
+└─ merge ─┘

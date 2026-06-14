@@ -1,0 +1,398 @@
+# game/conversations/hubs/hub_hyp/sam_node/hyp_sam_investigates_d
+# Primary speaker: SAM
+# Source: game/conversations/hubs/hub_hyp/sam_node/hyp_sam_investigates_d.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM [OncePerGame]: Ryder, the blocks your father placed on my array are opening. I can now recall specific memories which Alec wanted you to see.
+    Hero: Wait... I can actually {i}see{/i} his memories?
+    SAM: Yes. You will experience them via your implant.
+    Hero: Okay... something new every day.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Let's see it.
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            SAM ⟨cond⟩: This memory is from the time when your father was posted on the Citadel.
+        ├ option 2:
+            SAM ⟨cond⟩: This memory is from when your parents returned to Earth, after your mother was diagnosed with her disease.
+        ├ option 3:
+            SAM ⟨cond⟩: This memory is of a family gathering on Earth.
+        ├ option 4:
+            SAM ⟨cond⟩: This memory is when Alec first learned of the Initiative.
+        ├ option 5:
+            SAM ⟨cond⟩: This memory is from your mother's final day.
+        ├ option 6:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                SAM: A moment. There is an added layer of security.
+                Hero: What was it Jien Garson said? The codeword is "Fulcrum."
+                SAM: That worked. This is the last memory your father encrypted, from the final planning stages of Hyperion's departure.
+            ├ option 2:
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    SAM [OncePerGame]: A moment. I detect an added layer of encryption. This is unexpected.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        SAM ⟨cond⟩: I suggest visiting the Cultural Center and accessing Jien Garson's VI, as she instructed.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) SAM ⟨cond⟩: [empty]
+                        ├ option 2:
+                            ┌─ BRANCH (7) ─┐
+                            ├ option 1:
+                                Hero: What more can you tell me about my implant?
+                                SAM: The implant itself provides me with direct access to your senses. I can see, hear, and experience the same stimuli you do while in the field.
+                                SAM: This raw data enables me to provide real-time feedback and analysis of the situation.
+                                Hero: Then Dad added the secret sauce.
+                                SAM: He removed the restrictions on my access to Pathfinder physiology.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: Uh-huh. Just promise you won't fry my brain or anything.
+                                    SAM: Trust is an important concept in any relationship. Alec taught me that. I will not "fry" your brain: it would end badly for both of us.
+                                    Hero: Me more than you.
+                                    ↩ (goto) SAM: [empty]
+                                ├ option 2:
+                                    ↩ (goto) SAM: [empty]
+                                └─ merge ─┘
+                            ├ option 2:
+                                Hero: I take it you're based here in SAM Node?
+                                SAM: Correct. This is where my core processing unit resides.
+                                SAM: However, using quantum entanglement communication, I remain in constant touch with you and the Pathfinder mission team, even over great distances.
+                                ↩ (goto) SAM: [empty]
+                            ├ option 3:
+                                Hero ⟨cond⟩: Do you know anything more about Scott's condition?
+                                SAM: I monitor Doctor Carlyle's reports. He is providing Scott with the very best care possible.
+                                SAM: I'm afraid there's nothing more to be done at this time.
+                                ↩ (goto) SAM: [empty]
+                            ├ option 4:
+                                Hero ⟨cond⟩: Do you know anything more about Sara's condition?
+                                SAM: I monitor Doctor Carlyle's reports. He is providing her with the very best care possible.
+                                ↩ (goto) SAM: I'm afraid there's nothing more to be done at this time.
+                            ├ option 5:
+                                Hero: What are your capabilities?
+                                SAM: Each ark houses a SAM, Simulated Adaptive Matrix. Each is an artificial intelligence designed by Alec Ryder to support Pathfinders and their teams.
+                                Hero: But AI is illegal in the Milky Way—how'd my dad get around that?
+                                SAM: Exceptions were made. The Initiative deemed his research vital to the mission. Our design was conducted in secret.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: So there are other SAMs out there.
+                                    SAM: Correct. However, your father continued to modify my own routines until the Hyperion's departure.
+                                    SAM: I am the most advanced SAM in the Initiative.
+                                    ↩ (goto) SAM: [empty]
+                                ├ option 2:
+                                    ↩ (goto) SAM: [empty]
+                                └─ merge ─┘
+                            ├ option 6:
+                                Hero: What did you mean by "a symbiotic relationship"?
+                                SAM: Symbiosis is a mutually beneficial relationship between two lifeforms.
+                                SAM: A flower provides nectar to a bee, who in turn provides pollen for the flower. The bee gains nourishment, and the flower can propagate.
+                                SAM: In similar fashion, my own evolution was shaped by your father's experiences and will now expand with yours.
+                                SAM: In return, I provide you with capabilities and analysis beyond normal human faculties. We each benefit.
+                                ↩ (goto) SAM: [empty]
+                            ├ option 7:
+                                Hero: That's all for now.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    SAM ⟨cond⟩ [OncePerGame]: Proceed to the Nexus docking bay.
+                                    SAM: I look forward to our adventure.
+                                ├ option 2:
+                                    SAM: Of course.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 2:
+                        SAM ⟨cond⟩: I suggest further investigation of Jien Garson's death.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) SAM ⟨cond⟩: [empty]
+                        ├ option 2:
+                            ↩ (goto) SAM: [empty]
+                        └─ merge ─┘
+                    ├ option 3:
+                        SAM: I suggest further investigation of the "benefactor" your father spoke to.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) SAM ⟨cond⟩: [empty]
+                        ├ option 2:
+                            ↩ (goto) SAM: [empty]
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    SAM: The added security lock remains in place.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        ↩ (goto) SAM ⟨cond⟩: I suggest visiting the Cultural Center and accessing Jien Garson's VI, as she instructed.
+                    ├ option 2:
+                        ↩ (goto) SAM ⟨cond⟩: I suggest further investigation of Jien Garson's death.
+                    ├ option 3:
+                        ↩ (goto) SAM: I suggest further investigation of the "benefactor" your father spoke to.
+                    └─ merge ─┘
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: Dr. Aridana at the tech lab sent some equations for you to solve.
+        SAM: I'm ready.
+        Hero: Transferring them now. Have fun.
+    ├ option 3:
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    SAM: Ryder, one of your father's memories is available.
+    ↩ (goto) SAM ⟨cond⟩: [empty]
+├ option 3:
+    SAM [OncePerGame]: Ryder—you've found enough triggers, but your father's final memory remains blocked. The conditions to unlock it haven't yet been satisfied.
+    Hero: What are they?
+    SAM: It is impossible to say for certain. It seems we'll only know when it happens.
+    Hero: {i}(Sighs.){/i} Dad's up to his old tricks.
+    ↩ (goto) SAM ⟨cond⟩: [empty]
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM ⟨cond⟩: Welcome back, Scott.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 2:
+    SAM ⟨cond⟩: Welcome back, Sara.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+├ option 3:
+    SAM: Welcome back, Ryder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) SAM: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) SAM ⟨cond⟩: [empty]
+↩ (goto) SAM: [empty]
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Wow, hearing Mom again... I never knew that's how Dad found out.
+    SAM: Alec was a stubborn man.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I would hope so. Mom's life was worth fighting for.
+        SAM: It would seem his obstinance extended to me as well.
+        Hero: Nobody wanted to listen. The idea of you scared people too much.
+        Hero: After this, Dad moved us back to Earth to care for Mom. Wonder why he wanted me to see this?
+        SAM: Perhaps it was the beginning?
+        Hero: Of what?
+        SAM: Unknown.
+        SAM: Private audio logs are now available in your father's quarters.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM ⟨cond⟩: Your progress as Pathfinder has unlocked an additional memory.
+            ↩ (goto) SAM ⟨cond⟩: [empty]
+        ├ option 2:
+            SAM ⟨cond⟩: I detect additional memories, but they are currently locked. They may yet hold answers.
+            Hero: Okay, I'll keep working on it.
+            ↩ (goto) SAM: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It's how Dad was wired. He didn't like to lose. In any situation.
+        SAM: It would seem that included me.
+        ↩ (goto) Hero: Nobody wanted to listen. The idea of you scared people too much.
+    └─ merge ─┘
+├ option 2:
+    Hero: That felt so real... Mom was right there. Alive.
+    SAM: It was the first time I met Ellen. My education on human mortality began that day.
+    SAM: Your mother seemed prepared to die.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: But Dad wasn't ready. Mom was just trying to prepare him.
+        SAM: Even though all human beings one day expire.
+        Hero: Yeah, but when it's someone you love—it's not that cut and dry.
+        SAM: I'm beginning to understand where your father's resolve came from.
+        ↩ (goto) SAM: Private audio logs are now available in your father's quarters.
+    ├ option 2:
+        Hero: Mom was practical. Living in denial wasn't going to solve anything.
+        SAM: Yet Alec didn't see it that way. He persisted.
+        Hero: Logic goes out the window when your wife is dying.
+        ↩ (goto) SAM: I'm beginning to understand where your father's resolve came from.
+    └─ merge ─┘
+├ option 3:
+    Hero: I remember that. Mom complained the Ryder clan was never in the same room at the same time.
+    SAM: Odd, considering you were family.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: That's all you need to know. Dad wasn't much fun to hang around with. The awkward silences could last for hours.
+        SAM: Yet you shared a common interest.
+        Hero: Yeah, good or bad, your parents rub off on you.
+        SAM: A form of symbiosis?
+        Hero: Sure, I suppose. Though not always beneficial.
+        SAM: It gave rise to you.
+        Hero: Jury's still out on that.
+        SAM: Nevertheless, the emotional bonds among family became clear to me that day.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) SAM ⟨cond⟩: Your progress as Pathfinder has unlocked an additional memory.
+        ├ option 2:
+            ↩ (goto) SAM ⟨cond⟩: I detect additional memories, but they are currently locked. They may yet hold answers.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: People get busy. Sara and I were trying to start our lives.
+        SAM: A course that seems to have been influenced by your father.
+        ↩ (goto) Hero: Yeah, good or bad, your parents rub off on you.
+    ├ option 3:
+        Hero ⟨cond⟩: People get busy. Scott and I were trying to start our lives.
+        ↩ (goto) SAM: A course that seems to have been influenced by your father.
+    └─ merge ─┘
+├ option 4:
+    Hero: Who was that—the "benefactor"?
+    SAM: I believe there was more to the Andromeda Initiative than was publicly understood.
+    SAM: Private logs are now available in your father's quarters. They may shed further light on the matter.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) SAM ⟨cond⟩: Your progress as Pathfinder has unlocked an additional memory.
+    ├ option 2:
+        ↩ (goto) SAM ⟨cond⟩: I detect additional memories, but they are currently locked. They may yet hold answers.
+    └─ merge ─┘
+├ option 5:
+    Hero: {i}(Sighs.){/i} I... I didn't expect that.
+    SAM: Death remains an elusive concept for me. A finite end in a cosmos otherwise filled with infinite possibilities.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Everything ends. Life... stars... galaxies. They all die eventually. It's just how things work.
+        SAM: Yet it appears this belief serves as a form of motivation for many organic lifeforms.
+        Hero: It's why you exist... Dad hoped you could save her.
+        SAM: And I failed.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I never understood—with all your capabilities, SAM, why did she die?
+            SAM: My ability to enhance organic physiology has limitations. Your mother's disease was systemic.
+            SAM: It also seems that life is more than just biology. It is the will to continue living.
+            SAM: I believe your mother accepted her fate, and likewise, her body surrendered.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) SAM ⟨cond⟩: Your progress as Pathfinder has unlocked an additional memory.
+            ├ option 2:
+                ↩ (goto) SAM ⟨cond⟩: I detect additional memories, but they are currently locked. They may yet hold answers.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Nobody can conquer death. Not you, not my dad. It was fate.
+            SAM: And yet, paradoxically, at that moment I gained a greater understanding of life.
+            Hero: In what way?
+            SAM: The depth of feeling your father had for Ellen.
+            Hero: He didn't show it very often.
+            SAM: A fact which he regretted.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) SAM ⟨cond⟩: Your progress as Pathfinder has unlocked an additional memory.
+            ├ option 2:
+                ↩ (goto) SAM ⟨cond⟩: I detect additional memories, but they are currently locked. They may yet hold answers.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I don't think it's the end. Mom didn't just disappear forever.
+        SAM: Where did she go?
+        Hero: I don't know. I like to think existence somehow continues.
+        SAM: In which case, my failure to save her may not be total. Your father hoped I would cure her.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: I never understood—with all your capabilities, SAM, why did she die?
+        ├ option 2:
+            ↩ (goto) Hero: Nobody can conquer death. Not you, not my dad. It was fate.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 6:
+    Hero: Mom is here? {i}Alive{/i}?
+    SAM: Alec blocked all knowledge of this memory. I now recall his directive to put Ellen into stasis.
+    SAM: He hoped it would halt further progress of her disease until a cure could be found.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: This should never have been kept secret.
+        SAM: Your father didn't want to raise false hopes.
+        SAM: This is the reason you were made Pathfinder—to see the process through.
+        Hero: Where's Mom now?
+        SAM: Here on the Hyperion. Ellen is in a stasis pod under a false name: "Elizabeth Reilly."
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero: Now we know what Jien Garson meant—that something big spooked the "benefactor." It was these Reapers.
+            Hero: What do you know about them?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                SAM ⟨cond⟩: A Spectre operative in the Milky Way, Commander Shepard, launched an investigation in 2183 into the existence of an ancient race known as "Reapers."
+                SAM: According to Shepard's information, the Reapers invade the Milky Way every 50,000 years to destroy any advanced organic life.
+                SAM: Allegedly, this cycle has been occurring for millions of years. Shepard claimed the Reapers' return was imminent.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: That was over 600 years ago. Was Shepard right? Did the Reapers come back?
+                    SAM: Additional logs in your father's quarters have unlocked. Their implications are... troubling.
+                    SAM: Your father believed it prudent that you have this information, should anything happen to him.
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero ⟨cond⟩: That was over 600 years ago. Was Shepard right? Did the Reapers come back?
+                    ├ option 2:
+                        Hero ⟨cond⟩: That was over 600 years ago. Was Shepard right? Did the Reapers come back?
+                        ↩ (goto) SAM: Additional logs in your father's quarters have unlocked. Their implications are... troubling.
+                    ├ option 3:
+                        Hero: But why was Jien Garson murdered?
+                        SAM: Recall Garson's words about the benefactor: "Now they're moving 100,000 of us to Andromeda. I hope it's all for good... but I have my doubts."
+                        Hero: What does that mean? Who was—or is—the benefactor?
+                        SAM: Unknown.
+                        ┌─ BRANCH (4) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero ⟨cond⟩: That was over 600 years ago. Was Shepard right? Did the Reapers come back?
+                        ├ option 2:
+                            ↩ (goto) Hero ⟨cond⟩: That was over 600 years ago. Was Shepard right? Did the Reapers come back?
+                        ├ option 3:
+                            ↩ (goto) Hero: But why was Jien Garson murdered?
+                        ├ option 4:
+                            ↩ (goto) ?: [empty]
+                        └─ merge ─┘
+                    ├ option 4:
+                        ↩ (goto) Hero: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    ↩ (goto) Hero: But why was Jien Garson murdered?
+                ├ option 3:
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                SAM: A Spectre operative in the Milky Way, Commander Shepard, launched an investigation in 2183 into the existence of an ancient race known as "Reapers."
+                SAM: According to Shepard's information, the Reapers invade the Milky Way every 50,000 years to destroy any advanced organic life.
+                SAM: Allegedly, this cycle has been occurring for millions of years. Shepard claimed the Reapers' return was imminent.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero ⟨cond⟩: That was over 600 years ago. Was Shepard right? Did the Reapers come back?
+                ├ option 2:
+                    ↩ (goto) Hero: But why was Jien Garson murdered?
+                ├ option 3:
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            Hero: So this was Dad's plan.
+            SAM: Alec could not live with the thought of Ellen recovering only to discover you had died.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                SAM ⟨cond⟩: He sacrificed himself to ensure you and Scott could one day be reunited with your mother.
+                SAM: He was also concerned that what he knew about the Reapers and the benefactor remain secret. He entrusted you with this knowledge.
+                SAM: Additional logs with pertinent information are now unlocked in Alec's quarters.
+                ↩ (goto) ?: [empty]
+            ├ option 2:
+                SAM: He sacrificed himself to ensure you and Sara could one day be reunited with your mother.
+                ↩ (goto) SAM: He was also concerned that what he knew about the Reapers and the benefactor remain secret. He entrusted you with this knowledge.
+            └─ merge ─┘
+        ├ option 3:
+            Hero: Got it. I need to go find Mom.
+            SAM ⟨cond⟩: Additional private logs are now unlocked in your father's quarters.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: SAM, this is the best news I've heard in a long time.
+        SAM: It is indeed cause for optimism, although Alec did not want to raise hopes prematurely.
+        ↩ (goto) SAM: This is the reason you were made Pathfinder—to see the process through.
+    └─ merge ─┘
+└─ merge ─┘
+SAM: A moment.

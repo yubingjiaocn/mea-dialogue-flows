@@ -1,0 +1,74 @@
+# game/conversations/hubs/hub_aya/rp/relics3/aya_relic3_0400_romance_d
+# Primary speaker: aya_curator_avela_multi
+# Source: game/conversations/hubs/hub_aya/rp/relics3/aya_relic3_0400_romance_d.xml
+==================================================
+Hero: Pretty view.
+aya_curator_avela_multi: I like to imagine what my ancestors would say, if they could see what we've built.
+aya_curator_avela_multi: How we've flourished, in spite of everything.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Here's hoping the rest of us follow your example.
+    aya_curator_avela_multi: If all humans are like you, I have no doubt you'll thrive.
+    aya_curator_avela_multi: I've been studying those artifacts you recovered. What I found was incredible.
+    aya_curator_avela_multi: Our history is much shorter than we previously thought. Less than a millennium.
+    aya_curator_avela_multi: It's as though we suddenly sprang into being. A fully formed civilization.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Now we know the Jardaan created your people.
+        aya_curator_avela_multi: But what if they also engineered our culture? Gave us traditions and beliefs we've carried forward?
+        aya_curator_avela_multi: Until we understand our past, we can't decide our future. What you found could affect generations to come.
+        aya_curator_avela_multi: I can't imagine getting here without you, Ryder.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: You talk like our time together is over. It doesn't have to be.
+            aya_curator_avela_multi: You make that sound so easy...
+            aya_curator_avela_multi: I'm sorry. I shouldn't have done that.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: You keep holding back. Why?
+                aya_curator_avela_multi: Because I like you. Much more than I expected to.
+                aya_curator_avela_multi: But this work needs my full attention. And you... the task ahead of you is tremendous.
+                aya_curator_avela_multi: I won't be the one to distract you from that. No matter how much I may want to.
+                Hero: I think I need a distraction right now.
+                aya_curator_avela_multi: Some day, when this is all over... if you still feel the same, find me.
+                aya_curator_avela_multi: Until then, we both have work to do.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: Some day, then. I'll hold you to it.
+                    aya_curator_avela_multi: You'd better.
+                    Hero: What's next for you?
+                    aya_curator_avela_multi: Keep looking for answers. Try my best to recover our history. All of it.
+                    Hero: You'll get there.
+                    aya_curator_avela_multi: Of course we will. We have you on our side.
+                ├ option 2:
+                    Hero: One last kiss? For good luck.
+                    aya_curator_avela_multi: For good luck.
+                    ↩ (goto) aya_curator_avela_multi: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Hero: I want this, Avela. Don't you?
+                aya_curator_avela_multi: Of course I do. A handsome explorer from beyond the stars—how could I not fall for you?
+                ↩ (goto) aya_curator_avela_multi: But this work needs my full attention. And you... the task ahead of you is tremendous.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: The discoveries you make impact all of us now. I'm just here to help.
+            aya_curator_avela_multi: We're lucky you found us, then.
+            ↩ (goto) aya_curator_avela_multi: [empty]
+        ├ option 3:
+            Hero: It's been fun, Avela. You always have a friend in the Initiative.
+            aya_curator_avela_multi: And you always have one on Aya.
+            ↩ (goto) aya_curator_avela_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Have any theories about that?
+        aya_curator_avela_multi: Not yet. But now I have a starting point.
+        ↩ (goto) aya_curator_avela_multi: Until we understand our past, we can't decide our future. What you found could affect generations to come.
+    └─ merge ─┘
+├ option 2:
+    Hero: Places like Aya give me hope. We could really make a home in Heleus.
+    aya_curator_avela_multi: You can. And you will.
+    ↩ (goto) aya_curator_avela_multi: [empty]
+└─ merge ─┘
+Hero ⟨cond⟩: I let this go too far. I have a good thing going with someone. I can't mess that up.
+aya_curator_avela_multi: I see... good. You deserve to be happy.
+↩ (goto) aya_curator_avela_multi: [empty]

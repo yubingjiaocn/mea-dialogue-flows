@@ -1,0 +1,264 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_890_boss_encounter_end_m
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/Crit_Mer/crit_fin_890_boss_encounter_end_m.xml
+==================================================
+Narration: Scene begins with the kill-shot on the Archon.
+Narration: The Archon hits the ground with a sickening thud. His eyes are open, but there's nothing there.
+Narration: The flickering of the Remnant all around briefly intensifies, then stops and all is deathly silent. Then, a clear voice from all around.
+SAM: Pathfinder, Meridian is... online.
+Narration: BOOM! The remnant and the entire room light up like a Christmas tree, and a pulse of energy fires out. Small shrubs of greenery present begin to move.
+Narration: A holo display erupts from nowhere (the same as has been encountered in vaults) and a blue line begins radiating out from Meridian.
+Narration: The network is online. The Pathfinder looks on in wonder, recognizing the map.
+Hero: The outposts? And... everywhere?
+Narration: A line reaches a green dot, and encircles it.
+Narration: We cut away to Prodromos, and Lt. Bradley is looking to the distance, the monoliths resonate, and the wind picks up.
+Narration: The intimate and human side of the huge thing the Pathfinder just achieved. Bradley picks up a flower, or a butterfly lands on his hand.
+ustl_settle_01_admin_multi: Well, I'll be dipped.
+Narration: People laugh and congratulate each other behind him as he smiles and looks upward.
+Narration: Cut to Aya. Volcanoes quiet. Lava recedes. There is potentially an area that now has thick foliage instead of lava.
+Narration: Governor Paaran Shie looks on, then closes her eyes as though in thanks. Never thought she'd see the day.
+Narration: Cut to Kadara. An environmental effect, with the Bartender Umi Henon looking on. Maybe the water clears.
+Narration: Cut back to orbit around Meridian. The kett are leaving, headed by the kett Primus' ship.
+Narration: Cut inside to the Primus, standing where the Archon would stand. From behind him, a floating orb, his own Archon's Eye, signifying the leadership change.
+Narration: Cut back inside Meridian with the Pathfinder. Multiple lights are circled, suggesting outposts already placed and worlds deep in the Scourge not yet found. Wonder!
+Narration: There's calm, and fireflies for some reason. The wonder is interrupted as the sibling groans in the distance. Ryder rushes over.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: {i}(Groans.){/i}
+    Hero: Easy. I've got you.
+    Narration: The Pathfinder helps the sibling up, but stumbles themselves. They've both been through hell and look like it.
+    global_sibling_male: Right, but who's got you?
+    Narration: A beat, then the doctor Lexi and other MWS arrive to help now that the fighting is done.
+    Narration: The squad chuckle as they all head for the entrance. Fade down.
+    Narration: Fade up on the whole group walking out of the control center onto the surface. They squint into the light.
+    Narration: The interior of the Meridian sphere is lit up in large patches, green in others.
+    Narration: Allied ships are landing. Shots of handshakes between factions. Posing on kett debris.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Narration ⟨cond⟩: NO ROMANCE. The Pathfinder remains in the center of the activity, a series of handshakes and backslaps.
+        Narration: Suvi is to the side. She holds a hand to her ear, then talks to the Pathfinder.
+        global_crew_science_officer: The word's out. Everyone's elated but... the Nexus wants to know what's next.
+        global_crew_science_officer: What do I tell them?
+        Narration: The Pathfinder looks at Suvi, at the crew and squad around them.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: Tell them...
+            Narration: The player looks at his friends. They look back expectantly.
+            Hero: Tell them we're ready for anything.
+            Narration: Suvi smiles, and the noise comes up again.
+            Narration: Long shot of the squad and all the other ships before the camera crosses a light and we go to credits. Or whatever the transition will be.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Narration: The Pathfinder steps to the side on the scene as the shot lengthens. Romance smirks, shakes their head and follows. Maybe Ryder raises their fist in the air.
+            ├ option 2:
+                ↩ (goto) global_main_villain: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Send them what we've seen here. Everything we've learned.
+            Narration: The player looks at his friends. They look back expectantly.
+            Hero: We have a future to plan.
+            ↩ (goto) Narration: Suvi smiles, and the noise comes up again.
+        ├ option 3:
+            Hero: Tell them...
+            Narration: The player looks at his friends. They look back expectantly.
+            Hero: Tell them we're home.
+            ↩ (goto) Narration: Suvi smiles, and the noise comes up again.
+        ├ option 4:
+            Hero: Tell them...
+            Narration: The player looks at his friends. They look back expectantly.
+            Hero: Let us have our moment.
+            ↩ (goto) Narration: Suvi smiles, and the noise comes up again.
+        └─ merge ─┘
+    ├ option 2:
+        Narration: YES ROMANCE. As the group emerges from the underground complex, everyone peels off, leaving the Pathfinder standing "alone" in the crowd.
+        Narration: They smile, looking at the scene, happy for everyone. Then they notice someone else is ignoring the din.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Narration ⟨cond⟩: 1. Vetra. The Pathfinder walks up to Vetra. The camera closes and they an intimate quiet moment amid the happy chaos.
+                global_squad_turian: The victory's being broadcast out to everyone. Angara. Milky Way. Everyone.
+                Narration: The romance smiles warmly.
+                global_squad_turian: Made a lot of people happy by securing their futures here.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: I don't think I could've done this without you.
+                    global_squad_turian: Sure, you could've. I just shoot at things.
+                    Narration: Vetra looks at the cheering crowd. She leans over to Ryder.
+                    global_squad_turian: Wanna ditch these losers?
+                    Narration: Ryder gives Vetra A LOOK.
+                    Hero: Read my mind.
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    Hero: We all made this possible. The whole team.
+                    Narration: The squad and Tempest crew line up as the Pathfinder talks.
+                    Hero: We're all Pathfinders.
+                    ↩ (goto) global_main_villain: [empty]
+                ├ option 3:
+                    Hero: I may have been a focus, but all of Heleus came together.
+                    Narration: The Pathfinder begins to walk to the side.
+                    Hero: This moment belongs to everyone.
+                    ↩ (goto) global_main_villain: [empty]
+                ├ option 4:
+                    Hero: Well, it was the least I could do.
+                    Narration: Knowing smirk that the Pathfinder isn't really being a total dick. The Pathfinder winks.
+                    Hero: You know, for everyone.
+                    ↩ (goto) global_main_villain: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                Narration ⟨cond⟩: 2. Peebee. The Pathfinder walks up to Peebee. The camera closes and they an intimate quiet moment amid the happy chaos.
+                Narration: Peebee stands there, cocksure and smiling. Ryder sidles up.
+                global_squad_asari: Smile for the camera, babe. SAM's broadcasting. Everyone's watching.
+                Narration: There's an excited glint in her eyes.
+                global_squad_asari: They all want a nice big closeup of the hero who singlehandedly saved the galaxy.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: What about y—
+                    Narration: Peebee pulls him into a passionate kiss. Just when Ryder catches up, she releases him.
+                    global_squad_asari: And now they all know you're mine.
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    ↩ (goto) Hero: We all made this possible. The whole team.
+                ├ option 3:
+                    ↩ (goto) Hero: I may have been a focus, but all of Heleus came together.
+                ├ option 4:
+                    ↩ (goto) Hero: Well, it was the least I could do.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Narration ⟨cond⟩: 3. Jaal. The Pathfinder walks up to Jaal. The camera closes and they an intimate quiet moment amid the happy chaos.
+                global_squad_angara: SAM is broadcasting the victory. Across the cluster. Aya's celebrating too.
+                Narration: Jaal smiles warmly.
+                global_squad_angara: You did it.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: No. We did it.
+                    global_squad_angara: You're amazing.
+                    Narration: Ryder smiles and shoves Jaal gently in the chest with their right hand.
+                    Narration: Jaal grabs their right hand with his left and holds it to his chest. With the back of his right hand he strokes Ryder's face. They lean into it.
+                    Narration: Suddenly, grabbing Ryder by the ass/thighs Jaal hoists her up around his waist.
+                    Hero: {i}(Laughs.){/i}
+                    global_squad_angara: {i}(Laughs.){/i}
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    ↩ (goto) Hero: We all made this possible. The whole team.
+                ├ option 3:
+                    ↩ (goto) Hero: I may have been a focus, but all of Heleus came together.
+                ├ option 4:
+                    ↩ (goto) Hero: Well, it was the least I could do.
+                └─ merge ─┘
+            ├ option 2:
+                Narration ⟨cond⟩: 4. Liam. The Pathfinder walks up to Liam. The camera closes and they an intimate quiet moment amid the happy chaos.
+                global_squad_male_human: SAM is broadcasting the victory. In full holoview.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_male_human: How are {i}you{/i} feeling?
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        Hero: You know what they say about the first day in a new home?
+                        global_squad_male_human: Get married?
+                        Hero: Wait, what?
+                        ↩ (goto) Narration: [empty]
+                    ├ option 2:
+                        ↩ (goto) Hero: We all made this possible. The whole team.
+                    ├ option 3:
+                        ↩ (goto) Hero: I may have been a focus, but all of Heleus came together.
+                    ├ option 4:
+                        ↩ (goto) Hero: Well, it was the least I could do.
+                    └─ merge ─┘
+                ├ option 2:
+                    Narration: The romance smiles warmly.
+                └─ merge ─┘
+            ├ option 3:
+                Narration ⟨cond⟩: 5. Suvi. The Pathfinder walks up to Suvi. The camera closes and they an intimate quiet moment amid the happy chaos.
+                Narration: Suvi's face is lit up, and she's got her omni-tool out.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_crew_science_officer ⟨cond⟩: Sara!
+                    global_crew_science_officer: I'm getting insane readings from all over the cluster. What you've done is... it's just amazing!
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        Hero: Put the omni-tool down, Suvi. You can look at that later.
+                        global_crew_science_officer: Look at all this data. The energy spikes from the biogenesis alone are—
+                        Narration: Ryder puts her finger on Suvi's lips—either one finger or the tips of all her fingers, whichever seems cuter.
+                        global_crew_science_officer: …mind-boggling?
+                        Hero: I know I can’t compete with your first love, but…
+                        ↩ (goto) Narration: [empty]
+                    ├ option 2:
+                        ↩ (goto) Hero: We all made this possible. The whole team.
+                    ├ option 3:
+                        ↩ (goto) Hero: I may have been a focus, but all of Heleus came together.
+                    ├ option 4:
+                        ↩ (goto) Hero: Well, it was the least I could do.
+                    └─ merge ─┘
+                ├ option 2:
+                    global_crew_science_officer: Ryder!
+                    ↩ (goto) global_crew_science_officer: I'm getting insane readings from all over the cluster. What you've done is... it's just amazing!
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 3:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Narration ⟨cond⟩: 6. Cora. The Pathfinder walks up to Cora. The camera closes and they an intimate quiet moment amid the happy chaos.
+                global_squad_female_human: They're broadcasting everything.
+                Narration: Cora is relieved. Wanting to believe it's OK.
+                global_squad_female_human: You had me scared. But you {i}always{/i} deliver.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: Whatever we face, I'll always come back to you.
+                    Narration: She finally dares to believe it. Smiles. Reaches out—the Player pulls her close and they hold tight to each other. Her head on his shoulder.
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    ↩ (goto) Hero: We all made this possible. The whole team.
+                ├ option 3:
+                    ↩ (goto) Hero: I may have been a focus, but all of Heleus came together.
+                ├ option 4:
+                    ↩ (goto) Hero: Well, it was the least I could do.
+                └─ merge ─┘
+            ├ option 2:
+                Narration ⟨cond⟩: 7. Gil. The Pathfinder walks up to Gil. The camera closes and they an intimate quiet moment amid the happy chaos.
+                Narration: Gil stands there, does a couple slow-sarcastic claps as Ryder sidles up.
+                global_crew_tech_officer: Don't do anything stupid. We're live. SAM's broadcasting to everyone.
+                Narration: They smile at each other.
+                global_crew_tech_officer: Never knew you were such an attention hog. Going off, saving the galaxy all by yourself.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: Somebody's got to make this place safe. We got children to raise.
+                    global_crew_tech_officer: Children plural, huh? Yeah. I guess we do, don't we?
+                    ↩ (goto) Narration: [empty]
+                ├ option 2:
+                    ↩ (goto) Hero: We all made this possible. The whole team.
+                ├ option 3:
+                    ↩ (goto) Hero: I may have been a focus, but all of Heleus came together.
+                ├ option 4:
+                    ↩ (goto) Hero: Well, it was the least I could do.
+                └─ merge ─┘
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: {i}(Groans.){/i}
+    Hero: Easy. I've got you.
+    Narration: The Pathfinder helps the Sibling up, but stumbles themselves. They've both been through hell and look like it.
+    global_sibling_female: Right, but who's got you?
+    ↩ (goto) Narration: A beat, then the doctor Lexi and other MWS arrive to help now that the fighting is done.
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Narration: The star within Meridian whites out the shot, cut to credits.
+├ option 2:
+    global_main_villain: DNR -- EXERTION -- stringID 217926
+├ option 3:
+    global_main_villain: DNR -- EXERTION -- stringID 217925
+├ option 4:
+    global_main_villain: DNR -- EXERTION -- stringID 217927
+├ option 5:
+    global_main_villain: DNR -- EXERTION -- stringID 217930
+├ option 6:
+    Hero: DNR -- EXERTION -- stringID 217928
+├ option 7:
+    Hero: DNR -- EXERTION -- stringID 217929
+└─ merge ─┘
+Hero: We made it...

@@ -1,0 +1,79 @@
+# game/conversations/unc_ice/ice_lostscout_0200_squadcomments_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_lostscout_0200_squadcomments_b.xml
+==================================================
+SAM ⟨cond⟩: Pathfinder, we are approaching the kett weapons depot destroyed by the Resistance.
+Hero: Good to know. We'll search for any sign of Haana's friend.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: It's a burned-out shell. There's no way anyone survived this.
+├ option 2:
+    global_squad_asari ⟨cond⟩: I don't think anyone's in here, Ryder.
+├ option 3:
+    global_squad_turian ⟨cond⟩: There can't be anyone in there.
+├ option 4:
+    global_squad_angara ⟨cond⟩: It's a ruin. No one survived here.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: That's just rubble. No way someone's in there.
+└─ merge ─┘
+Hero: Life signs, SAM?
+SAM: Nothing. However, I do detect a faint energy signature from what could be a generator.
+Hero: Hmm. Back-up power, possibly.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Is that a door?
+├ option 2:
+    global_squad_asari ⟨cond⟩: Ryder, a door!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Found the entrance. Or what was once the entrance.
+├ option 4:
+    global_squad_angara ⟨cond⟩: That's an entrance.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Look like this was the main entrance.
+└─ merge ─┘
+Hero: It's dead. Of course.
+SAM: If circuitry is intact, we could power it up and gain entrance.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Got it.
+├ option 2:
+    Hero: Reconnected.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Damn it.
+├ option 2:
+    Hero: That wasn't right.
+└─ merge ─┘
+Hero: Look at that. Good as new.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Nice job, kid.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Hey, if this Pathfinder thing doesn't pan out, you could become an electrician.
+    Hero: Ha ha. Very funny.
+├ option 3:
+    global_squad_turian ⟨cond⟩: You're handy. Gil might feel threatened.
+├ option 4:
+    global_squad_angara ⟨cond⟩: Wonderful.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: You are creepy good at this.
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: I really don't like this, Ryder.
+    Hero: Just a little more.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: They burned out this place good.
+    Hero: They did say it was a huge explosion.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Did anyone else hear that? Was that just my imagination?
+├ option 4:
+    global_squad_female_human ⟨cond⟩: This rubble better not come down on our heads, Ryder.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Anyone in here? Hello?
+├ option 6:
+    global_squad_male_human ⟨cond⟩: There's no way—no way!—someone's down here, Ryder.
+└─ merge ─┘
+Hero: The Resistance did a thorough job. Look at all these kett.
+Hero: There's something over there. Maybe someone.

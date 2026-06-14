@@ -1,0 +1,62 @@
+# game/conversations/crit/crit_mer/crit_fin_745_ark_reaction_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Mer/crit_fin_745_ark_reaction_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Everyone read? That landing just made our stake in Meridian permanent.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: This isn't a race. We're fighting for home.
+        global_nexus_militia_leader: [Comm] No argument, Ryder.
+        global_angaran_elder_multi: [Comm] You have our support.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_salarian_pathfinder_multi ⟨cond⟩: [Comm] Pathfinder, you take that message straight to the Archon.
+        ├ option 2:
+            crit_kett_salarian_captain_multi: [Comm] Pathfinder, it's your honor to take that response to the Archon.
+            ↩ (goto) crit_kett_salarian_captain_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Dunn brought us home. It's up to us to keep it.
+        ↩ (goto) global_nexus_militia_leader: [Comm] No argument, Ryder.
+    └─ merge ─┘
+├ option 2:
+    Hero: Everyone listening? That landing means humanity's staying long term.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: And this just became a fight for the homefront.
+        ↩ (goto) global_nexus_militia_leader: [Comm] No argument, Ryder.
+    ├ option 2:
+        Hero: Anyone disagrees, we send them to the captain.
+        ↩ (goto) global_nexus_militia_leader: [Comm] No argument, Ryder.
+    └─ merge ─┘
+└─ merge ─┘
+global_arkcon_superintendent: [Comm] Deploying to safeguard ark systems.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_angara_hmm_contact_multi ⟨cond⟩: [Comm] On site. She'll be stable in no time.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_humanark_captain_multi ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
+    ├ option 2:
+        global_crew_doctor_multi: [Comm] Treating the wounded and... commencing bridge recovery.
+        ↩ (goto) global_crew_doctor_multi: [empty]
+    └─ merge ─┘
+├ option 2:
+    bio_outpost_staff_engineer_multi ⟨cond⟩: [Comm] Stabilizing cores. She'll stay solid.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_humanark_captain_multi ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
+    ├ option 2:
+        ↩ (goto) global_crew_doctor_multi: [Comm] Treating the wounded and... commencing bridge recovery.
+    └─ merge ─┘
+├ option 3:
+    stm_outpost_staff_engineer: [Comm] Commencing. We'll keep her cores stable.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_humanark_captain_multi ⟨cond⟩: [Comm] Be gentle. It's been a long ride.
+    ├ option 2:
+        ↩ (goto) global_crew_doctor_multi: [Comm] Treating the wounded and... commencing bridge recovery.
+    └─ merge ─┘
+└─ merge ─┘

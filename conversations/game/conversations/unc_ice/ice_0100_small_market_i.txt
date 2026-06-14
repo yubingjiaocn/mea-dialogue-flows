@@ -1,0 +1,76 @@
+# game/conversations/unc_ice/ice_0100_small_market_i
+# Primary speaker: Narration
+# Source: game/conversations/unc_ice/ice_0100_small_market_i.xml
+==================================================
+crit_rrescue_shopkeeper1: Jaal, have you come back to us?
+global_squad_angara: Briefly.
+crit_rrescue_shopkeeper1: And these must be the strangers I've heard so much about?
+crit_rrescue_shopkeeper1: You know, if not for Jaal, I might kill you?
+global_squad_angara: {i}(Chuckles.){/i} This is my friend Maisi. She helps supply the Resistance.
+Hero: That must be difficult out here.
+crit_rrescue_shopkeeper1: Jaal's the brave one.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: How do you get supplies with the kett everywhere?
+    global_squad_angara: The same way we came. There are caves and hidden paths all over Voeld.
+    crit_rrescue_shopkeeper1: It's hard to fly in, so my children run most items through the caves, little by little.
+    Hero: Children?
+    crit_rrescue_shopkeeper1: Their size makes it hard for the kett to detect.
+    crit_rrescue_shopkeeper1: We all do what we can out here—even children.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: How do you get supplies with the kett everywhere?
+    ├ option 2:
+        Hero: How do you feel about Evfra?
+        crit_rrescue_shopkeeper1: Some speak ill of the man, but his plan is bold and the Resistance is important.
+        crit_rrescue_shopkeeper1: I'll do what I can to help until I can't help anymore.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ↩ (goto) Hero: How do you get supplies with the kett everywhere?
+        ├ option 2:
+            ↩ (goto) Hero: How do you feel about Evfra?
+        ├ option 3:
+            Hero: Are you selling anything we could use?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                crit_rrescue_shopkeeper1: Now that the southern road's clear of kett, supplies are flying in. Take a look at what I can spare. I'll still have to charge you, though.
+            ├ option 2:
+                crit_rrescue_shopkeeper1: I have almost nothing left.
+                crit_rrescue_shopkeeper1: What I do have, we need if we're going to stand any chance against the kett.
+                crit_rrescue_shopkeeper1: Maybe if you clear that kett station on the south road, I'd be able to bring in more—and spare something for you.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero: Are you selling anything we could use?
+                ├ option 2:
+                    ↩ (goto) Hero: How do you get supplies with the kett everywhere?
+                ├ option 3:
+                    ↩ (goto) Hero: How do you feel about Evfra?
+                ├ option 4:
+                    Hero: Good luck and stay safe.
+                    crit_rrescue_shopkeeper1: Just make sure you return Jaal to us.
+                    ↩ (goto) crit_rrescue_shopkeeper1: [empty]
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 4:
+            ↩ (goto) Hero: Good luck and stay safe.
+        └─ merge ─┘
+    ├ option 3:
+        ↩ (goto) Hero: Are you selling anything we could use?
+    ├ option 4:
+        ↩ (goto) Hero: Good luck and stay safe.
+    └─ merge ─┘
+├ option 2:
+    ↩ (goto) Hero: How do you feel about Evfra?
+├ option 3:
+    ↩ (goto) Hero: Are you selling anything we could use?
+├ option 4:
+    ↩ (goto) Hero: Good luck and stay safe.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    crit_rrescue_shopkeeper1: Keep moving.
+    ↩ (goto) crit_rrescue_shopkeeper1: [empty]
+├ option 2:
+    crit_rrescue_shopkeeper1: Leave me be.
+    ↩ (goto) crit_rrescue_shopkeeper1: [empty]
+└─ merge ─┘

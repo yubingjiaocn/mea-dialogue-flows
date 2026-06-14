@@ -1,0 +1,23 @@
+# game/conversations/bstory/tur/tur_0025_village_approach_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/tur/tur_0025_village_approach_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Heads up! Roekaar and... turians?
+    SAM: Those are Natanus uniforms, Pathfinder.
+    Hero: The turian ark?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Ryder! Roekaar and... turians?
+    ↩ (goto) SAM: Those are Natanus uniforms, Pathfinder.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: What are turians doing out here?
+    ↩ (goto) SAM: Those are Natanus uniforms, Pathfinder.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Roekaar attack! Wait—are those turians?
+    ↩ (goto) SAM: Those are Natanus uniforms, Pathfinder.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Ryder! Roekaar!
+    Hero: What are they doing out here?
+    ↩ (goto) SAM: Those are Natanus uniforms, Pathfinder.
+└─ merge ─┘

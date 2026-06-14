@@ -1,0 +1,149 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_commentary_b
+# Primary speaker: nex_culcen_n7ang
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_n7_commentary_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: Remember, take them down as fast as you can!
+├ option 2:
+    Hero [OncePerGame]: We did it! That beats Andraknor's count.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Good. I'm glad.
+        nex_culcen_n7ang: [Comm] Excellent. We learned early on to make every shot count.
+        nex_culcen_n7ang: [Comm] That's more than enough proof of your talents.
+        nex_culcen_n7ang: [Comm] Come, let's speak again in person.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Yay us.
+        ↩ (goto) nex_culcen_n7ang: [Comm] Excellent. We learned early on to make every shot count.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Go team.
+        ↩ (goto) nex_culcen_n7ang: [Comm] Excellent. We learned early on to make every shot count.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Ha! Yes!
+        ↩ (goto) nex_culcen_n7ang: [Comm] Excellent. We learned early on to make every shot count.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Yay.
+        ↩ (goto) nex_culcen_n7ang: [Comm] Excellent. We learned early on to make every shot count.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Hurray.
+        ↩ (goto) nex_culcen_n7ang: [Comm] Excellent. We learned early on to make every shot count.
+    └─ merge ─┘
+├ option 3:
+    Hero: Damn. Didn't hit Andraknor's count.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_culcen_n7ang: [Comm] A good try, at the very least.
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 2:
+        nex_culcen_n7ang: [Comm] Unfortunate, but a fine effort.
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+    ├ option 3:
+        nex_culcen_n7ang: [Comm] A fair demonstration, even without success.
+        ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Yes! That beats Andraknor's run.
+├ option 2:
+    Hero: Hmm. Not up to Andraknor's time yet.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) nex_culcen_n7ang: [Comm] A good try, at the very least.
+    ├ option 2:
+        ↩ (goto) nex_culcen_n7ang: [Comm] Unfortunate, but a fine effort.
+    ├ option 3:
+        ↩ (goto) nex_culcen_n7ang: [Comm] A fair demonstration, even without success.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: These creatures always stink.
+        Hero: This would smell pretty tasty to a fiend, if we found the right spot.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Ugh, these things smell terrible.
+        ↩ (goto) Hero: This would smell pretty tasty to a fiend, if we found the right spot.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Hmm. Pungent.
+        ↩ (goto) Hero: This would smell pretty tasty to a fiend, if we found the right spot.
+    ├ option 4:
+        global_squad_krogan ⟨cond⟩: Big stink for something so little.
+        ↩ (goto) Hero: This would smell pretty tasty to a fiend, if we found the right spot.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: And I thought they smelled bad before they died.
+        ↩ (goto) Hero: This would smell pretty tasty to a fiend, if we found the right spot.
+    ├ option 6:
+        global_squad_turian ⟨cond⟩: Now I'll stink of these things all day.
+        ↩ (goto) Hero: This would smell pretty tasty to a fiend, if we found the right spot.
+    └─ merge ─┘
+├ option 2:
+    Hero [OncePerGame]: One delivery for a giant fiend. Take cover. Let's see if it's hungry.
+├ option 3:
+    Hero [OncePerGame]: There, the fiend!
+├ option 4:
+    nex_culcen_n7ang: [Comm] A successful hunt! The Heskaarl would hunt for food on long missions—later, from tradition. Good work.
+    ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Got a kett explosive.
+    ├ option 2:
+        Hero: Kett explosive is recovered.
+    ├ option 3:
+        Hero: Kett explosives are secure.
+    └─ merge ─┘
+├ option 2:
+    Hero: Let's get the explosives to the pickup point.
+├ option 3:
+    Hero: We've got kett!
+├ option 4:
+    nex_culcen_n7ang: [Comm] Registering drop. A good haul! A Heskaarl glories in turning the enemy's weapons against them.
+    ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Hero: That'll draw the kett out. We could download those files for Andraknor without anyone noticing.
+├ option 2:
+    Hero: Forget distractions, just push through!
+├ option 3:
+    Hero: This should be it. SAM, get a full download.
+    ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: That looks like the counteragent. We can help the Resistance team.
+├ option 2:
+    Hero: Got it. This should lead us to the Resistance team.
+├ option 3:
+    nex_culcen_n7ang: [Comm] Hopefully, the kett are none the wiser. Very good! Heskaarl, too, know the value of being subtle.
+    ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+├ option 4:
+    nex_culcen_n7ang: [Comm] Too bad the kett were alerted. If they got a warning out, some of that data may soon become obsolete.
+    ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+├ option 5:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        nex_culcen_n7ang_resist_01: Uhhh... what happened?
+        Hero: You were drugged by the kett. Can you get to safety?
+        nex_culcen_n7ang_resist_01: They what? The rendezvous point... I think I can make it there. Thank you.
+    ├ option 2:
+        nex_culcen_n7ang_resist_02: No. No! Not time for experiments...
+        Hero: Easy. You were drugged, but you'll be okay.
+        nex_culcen_n7ang_resist_02: The skkuting kett! I'll head to our rendezvous point. Thanks, stranger.
+    ├ option 3:
+        nex_culcen_n7ang_resist_03: Who—? Where are we?
+        Hero: Nowhere good. You were drugged. I need you to get to safety.
+        nex_culcen_n7ang_resist_03: If I can stand, I can make it to the rendezvous. Maybe throw up on some kett along the way.
+    └─ merge ─┘
+├ option 6:
+    nex_culcen_n7ang: [Comm] You found them! Ha! We're sending an extraction team. Well done.
+    Hero: It was no problem.
+    nex_culcen_n7ang: [Comm] Clearly not. Thank you for saving the team—and showing me a couple of new moves.
+    ↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]
+└─ merge ─┘
+↩ (goto) nex_culcen_n7ang ⟨cond⟩ [OncePerGame]: [empty]

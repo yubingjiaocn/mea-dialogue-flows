@@ -1,0 +1,25 @@
+# Game/Conversations/Bstory/kro/kbs_ela_chase_pir_001_a
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/kbs_ela_chase_pir_001_a.xml
+==================================================
+kbs_ela_chase_pir_01: Uh oh. We got company.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kbs_ela_chase_pir_02 ⟨cond⟩: That's not company. That's the Pathfinder!
+    kbs_ela_chase_pir_01: Spender must have blabbed! Let's get out of here!
+    kbs_ela_chase_pir_04: Quick, get on the shuttle!
+├ option 2:
+    kbs_ela_chase_pir_02: That's not company. That's the Pathfinder!
+    ↩ (goto) kbs_ela_chase_pir_01: Spender must have blabbed! Let's get out of here!
+└─ merge ─┘
+kbs_ela_chase_pir_02: Hurry up!
+kbs_ela_chase_pir_01: What the...
+kbs_ela_chase_pir_03: No, no, no! Wait! Don't leave us!
+kbs_ela_chase_pir_03: The bastard left us!
+kbs_ela_chase_pir_04: Of course he did.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kbs_ela_chase_pir_01: Are you crazy?
+├ option 2:
+    kbs_ela_chase_pir_01: {i}(Screams.){/i}
+└─ merge ─┘

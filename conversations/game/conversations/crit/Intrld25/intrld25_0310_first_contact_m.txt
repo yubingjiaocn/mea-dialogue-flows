@@ -1,0 +1,70 @@
+# game/Conversations/CRIT/Intrld25/intrld25_0310_first_contact_m
+# Primary speaker: Narration
+# Source: game/conversations/crit/Intrld25/intrld25_0310_first_contact_m.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    aya_docksworker_01: Tas goaj yabe jenvad.
+    aya_docksworker_02: Ged tas gohal tam yehal?
+    aya_docksworker_01: Eham daar goss.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Need me to take my shoes off?
+        aya_docksworker_02: Nasen roa.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Hello. I'm Scott Ryder. I'm a Pathfinder with the Initiative.
+            hub_aya_gov_leader_multi: I'm Paaran Shie, governor of Aya. We are the angara.
+            Hero: I'm human. There are other species from the Milky Way aboard my ship.
+            hub_aya_gov_leader_multi: Yes. You crossed darkspace. I've heard of your journey.
+            hub_aya_gov_leader_multi: Jaal. I have this in hand.
+            global_squad_angara: Evfra saw the ship come in and sent me to find out what's going on.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                hub_aya_gov_leader_multi ⟨cond⟩: She's a human from another galaxy. A Pathfinder.
+                global_squad_angara: Aya is hidden, protected. What do you want?
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: We didn't know what we'd find here, to be honest. But I'm open to sharing what we know, if you are.
+                    global_squad_angara: Honest? Honesty would be a good start.
+                    global_squad_angara: I'll inform Evfra. He'll be waiting for you in his office at the Resistance Headquarters. I'll meet you there.
+                    hub_aya_gov_leader_multi: I will accompany you through our city. Your crew will stay on your ship. Follow me.
+                ├ option 2:
+                    Hero: I apologize. Landing here the way we did, without warning, on fire, was not the plan.
+                    global_squad_angara: That's good to know. Because if it was, that would be a very bad plan.
+                    ↩ (goto) global_squad_angara: I'll inform Evfra. He'll be waiting for you in his office at the Resistance Headquarters. I'll meet you there.
+                ├ option 3:
+                    Hero: We come with a spirit of cooperation and to live in harmony.
+                    global_squad_angara: Huh. We've heard that before.
+                    ↩ (goto) global_squad_angara: I'll inform Evfra. He'll be waiting for you in his office at the Resistance Headquarters. I'll meet you there.
+                ├ option 4:
+                    Hero: Our intentions are simple. We'd like to look in your vault and then we're out of here.
+                    global_squad_angara: You think that's simple? You don't know anything.
+                    ↩ (goto) global_squad_angara: I'll inform Evfra. He'll be waiting for you in his office at the Resistance Headquarters. I'll meet you there.
+                └─ merge ─┘
+            ├ option 2:
+                hub_aya_gov_leader_multi: He's a human from another galaxy. A Pathfinder.
+                ↩ (goto) global_squad_angara: Aya is hidden, protected. What do you want?
+            └─ merge ─┘
+        ├ option 2:
+            Hero ⟨cond⟩: Hello. I'm Sara Ryder. I'm a Pathfinder with the Initiative.
+            ↩ (goto) hub_aya_gov_leader_multi: I'm Paaran Shie, governor of Aya. We are the angara.
+        ├ option 3:
+            Hero: Hello. I'm a Pathfinder with the Initiative.
+            ↩ (goto) hub_aya_gov_leader_multi: I'm Paaran Shie, governor of Aya. We are the angara.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: Thank you.
+        ↩ (goto) aya_docksworker_02: Nasen roa.
+    └─ merge ─┘
+├ option 2:
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+├ option 2:
+├ option 3:
+├ option 4:
+├ option 5:
+├ option 6:
+├ option 7:
+└─ merge ─┘

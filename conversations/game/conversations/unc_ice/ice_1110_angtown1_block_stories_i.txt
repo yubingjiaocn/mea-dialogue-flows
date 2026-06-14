@@ -1,0 +1,27 @@
+# game/conversations/unc_ice/ice_1110_angtown1_block_stories_i
+# Primary speaker: ice_block_researcher_m
+# Source: game/conversations/unc_ice/ice_1110_angtown1_block_stories_i.xml
+==================================================
+ice_block_researcher_m: The numbers check out. I don't know what else I can do to strengthen my argument. I—
+ice_block_researcher_m: Oh. Hello. You're that "Ryder" alien everyone's talking about. What can I do for you?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You said something about ice talkers. What are those?
+    ice_block_researcher_m: Oh. That's something of a joke between me, Janleth, and everyone who went to school with us in Estraaja.
+    ice_block_researcher_m: One of our classmates was at an old archaeological dig and thought he heard a voice through the ice.
+    ice_block_researcher_m: Two months later, another group claimed they heard the same thing. An angry voice.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: What was it?
+        ice_block_researcher_m: Too much marljeh, that's what Janleth says.
+        ice_block_researcher_m: Now it's become something of a joke between us.
+    ├ option 2:
+        ↩ (goto) ice_block_researcher_m: Now it's become something of a joke between us.
+    └─ merge ─┘
+├ option 2:
+    Hero: I should probably get going.
+    ice_block_researcher_m: All right. I'll have another look at my numbers.
+└─ merge ─┘
+ice_block_researcher_m: Oh, it's you again. Ryder.
+↩ (goto) ice_block_researcher_m: [empty]
+↩ (goto) ice_block_researcher_m: [empty]

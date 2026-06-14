@@ -1,0 +1,14 @@
+# game/conversations/unc_dunes/dune_0108_scavgossip_i
+# Primary speaker: dune_scav_gossip_01
+# Source: game/conversations/unc_dunes/dune_0108_scavgossip_i.xml
+==================================================
+Hero: Did I hear you talking about the Remnant?
+dune_scav_gossip_01: Dunno. You an eavesdropping sneak?
+dune_scav_gossip_02: Been breaking it down to sell. Can make a killing from the pieces.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: That's... probably bad news. We should check it out, Ryder.
+├ option 2:
+    global_squad_asari: [Comm] Uh... Ryder? You should check that out.
+└─ merge ─┘
+dune_scav_gossip_02: Push off.

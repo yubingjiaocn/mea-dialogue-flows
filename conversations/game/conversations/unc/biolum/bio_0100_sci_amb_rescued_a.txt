@@ -1,0 +1,38 @@
+# game/conversations/unc/biolum/bio_0100_sci_amb_rescued_a
+# Primary speaker: bio_amb_rescuedsci_1
+# Source: game/conversations/unc/biolum/bio_0100_sci_amb_rescued_a.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    bio_amb_rescuedsci_2 [OncePerGame]: Kiiran says Havarl would've lasted another cycle. Two at most.
+    bio_amb_rescuedsci_1: Were the projections so dire?
+    bio_amb_rescuedsci_2: I could believe it. We came so close to losing everything.
+├ option 2:
+    bio_amb_rescuedsci_1 [OncePerGame]: I think we should head to the vault. Do some poking around there.
+    bio_amb_rescuedsci_2: Sounds risky. We might break it again.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        bio_amb_rescuedsci_1 ⟨cond⟩: Maybe we can get the Moshae to help. She wouldn't break it.
+    ├ option 2:
+        bio_amb_rescuedsci_1: Good point.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        bio_amb_rescuedsci_1 [OncePerGame]: You don't feel any different?
+        bio_amb_rescuedsci_2: I don't think so. Why? Do you?
+        bio_amb_rescuedsci_1: My mind feels clouded, but I don't know if I'm just tired.
+    ├ option 2:
+        bio_amb_rescuedsci_1 ⟨cond⟩ [OncePerGame]: An alien, able to use Remnant. Never thought I'd see such a thing.
+        bio_amb_rescuedsci_2: My aunt had a Remnant artifact she learned to open and close.
+        bio_amb_rescuedsci_2: But it took her many, many years to achieve it and she was never able to do it reliably.
+        bio_amb_rescuedsci_2: It took a great deal of concentration—and she couldn't explain how she was doing it.
+    ├ option 3:
+        bio_amb_rescuedsci_1 [OncePerGame]: An alien, able to use Remnant. Never thought I'd see such a thing.
+        ↩ (goto) bio_amb_rescuedsci_2: My aunt had a Remnant artifact she learned to open and close.
+    ├ option 4:
+        bio_amb_rescuedsci_2: Hey, Pathfinder Ryder. Thanks for saving us!
+        bio_amb_rescuedsci_1: We owe you!
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) ? ⟨cond⟩: [empty]

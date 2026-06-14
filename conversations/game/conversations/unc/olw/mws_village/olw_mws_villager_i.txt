@@ -1,0 +1,76 @@
+# game/conversations/unc/olw/mws_village/olw_mws_villager_i
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/mws_village/olw_mws_villager_i.xml
+==================================================
+olw_mallox: Welcome to Charybdis Point! Name's Mallox. You looking for a place to hole up?
+olw_mallox: Got some open beds. Food and clean water cost extra.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Take it you don't have any private rooms.
+    olw_mallox: I could put up a sheet.
+    Hero: I'll pass.
+    olw_mallox: Suit yourself.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: My squad and I came across an angaran town not far from here.
+        Hero: The inhabitants were poisoned. Their water filters had been tampered with.
+        olw_mallox: Nasty way to go.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I know Charybdis Point was causing trouble for the angara.
+            olw_mallox: Really? It's news to me. I just sell beds.
+            Hero: And clean water.
+            olw_mallox: I don't like what you're implying, Pathfinder.
+            olw_mallox: Either rent a bed or get the fuck out. {i}Please.{/i}
+        ├ option 2:
+            Hero: I found a log that mentioned trouble with this camp.
+            Hero: Know anything about that?
+            olw_mallox: Can't say I do. I just sell beds.
+            ↩ (goto) Hero: And clean water.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: One of your neighbors was murdered.
+        olw_mallox: Zear's dead?
+        Hero: Very. Know anything that could help me track his killer?
+        olw_mallox: No. Zear had a habit of shooting anyone who got close to his lawn.
+        olw_mallox: Still, the grumpy bastard had his uses.
+        olw_mallox: People think twice about robbing you when there's a krogan next door.
+        ↩ (goto) ?: [empty]
+    ├ option 3:
+        Hero: You get a lot of business out here?
+        olw_mallox: Our "establishment" might not look like much.
+        olw_mallox: But spend a few nights in the badlands and we're practically Hotel Azure.
+        olw_mallox: Clean beds. Warm grub. And the only place for miles with properly filtered water.
+        olw_mallox: Serious amenities on Kadara.
+        ↩ (goto) ?: [empty]
+    ├ option 4:
+        Hero: How'd you end up on Kadara?
+        olw_mallox: Followed Sloane from the Nexus but couldn't pay her "protection fees."
+        olw_mallox: No fancy port for me.
+        Hero: She forced you out?
+        olw_mallox: Those are the rules. Can't pay the fees, can't live on the mountain.
+        olw_mallox: First few months were tough. No water. No weapons to hunt.
+        olw_mallox: I really thought I was going to die out here.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I can't even imagine.
+            olw_mallox: Yeah, and I'm one of the lucky ones.
+            olw_mallox: I found other exiles. Put the strength in numbers theory to the test.
+            olw_mallox: Thus, Charybdis Point was born.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            Hero: You obviously pulled through.
+            olw_mallox: I didn't travel 600 years to starve to death.
+            ↩ (goto) olw_mallox: I found other exiles. Put the strength in numbers theory to the test.
+        └─ merge ─┘
+    ├ option 5:
+        Hero: I better get going.
+        olw_mallox: See you around.
+    └─ merge ─┘
+├ option 2:
+    Hero: I'm just looking around.
+    olw_mallox: Look all you like. Just don't make trouble.
+    ↩ (goto) ?: [empty]
+└─ merge ─┘
+olw_mallox: Welcome back.
+↩ (goto) ?: [empty]

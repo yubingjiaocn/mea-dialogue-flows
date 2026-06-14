@@ -1,0 +1,57 @@
+# game/conversations/unc_dunes/dune_0132_ship_mgr_i
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0132_ship_mgr_i.xml
+==================================================
+dune_ship_mgr: Yeah? Can't you see I'm busy?
+Hero: With what?
+dune_ship_mgr: Coordinating shipments. What's it look like?
+dune_ship_mgr: Even on a wasteland, trade is king.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero: What shipments do you get?
+    dune_ship_mgr: Anything you can name. On Elaaden, everything has a price.
+    dune_ship_mgr: Food, water, meds, clothing. Someone's probably willing to pay for it.
+    Hero: How often do shipments come in?
+    dune_ship_mgr: They come in when they come in. We don't exactly live according to a schedule.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    Hero: Why don't the scavengers attack the docks?
+    dune_ship_mgr: Because they've learned that they need Annea. Without her influence, they're all dead.
+    dune_ship_mgr: Someone steps out of line, Annea deals with it.
+    dune_ship_mgr: Or the other scavs do.
+    Hero: Sounds like a delicate balance.
+    dune_ship_mgr: Delicate? Hardly. It's a system kept in check by large guns and high velocity rounds.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    Hero: How did you come to be in Elaaden?
+    dune_ship_mgr: Short version? After the uprising, I found myself in Kadara. Hated it.
+    dune_ship_mgr: Met Annea at the bar and she offered me this job. Really didn't have anything to lose.
+    Hero: Why did you hate Kadara?
+    dune_ship_mgr: Politics. Backstabbing. I'm a simple guy. If someone's gonna knife me, I'd rather it be in the front.
+    dune_ship_mgr: The folks on Elaaden excel at that.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    Hero: What else can you tell me about Annea?
+    dune_ship_mgr: I once saw Annea shoot a visor off a scav from fifty yards off.
+    dune_ship_mgr: Which is why I make it a policy never to talk about her behind her back.
+    dune_ship_mgr: You wanna know about Annea? You talk to Annea.
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    Hero: I'll leave you to it.
+    dune_ship_mgr: Good. Be on your way and try not to piss anyone off.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    dune_ship_mgr: You again?
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    dune_ship_mgr: What now?
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    dune_ship_mgr: What?
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    dune_ship_mgr: Yes?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+↩ (goto) Hero: [empty]

@@ -1,0 +1,54 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0500_surface_exit_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0500_surface_exit_d.xml
+==================================================
+Hero: Look at that sky.
+global_squad_asari: How? No atmosphere processor works that fast.
+SAM: If this effect is representative, Pathfinder, air and moisture patterns will show noticeable improvement.
+SAM: Eos could support an outpost.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Even without the storms, it'll be a struggle for a while. But we can tough it out.
+    Hero: This Remnant technology could be the key to our survival, if we can control it.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: We got it working. How hard can it be to control?
+        global_squad_asari: We've got a lead. SAM marked it on the charts down there.
+        global_squad_asari: That site is active, whatever it is. Who knows what we'll find there?
+        Hero: We? You want to come along?
+        global_squad_asari: I want to know what makes the Remnant tick. You've got a key to their technology—or a crowbar, at least.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I don't know. We're a team. You like working solo.
+            global_squad_asari: Sure, but we don't have to be joined at the hip to solve all this. Come on.
+            Hero: All right. Pack what you need and...
+            global_squad_asari: I'll catch up with you!
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_squad_female_human ⟨cond⟩: Well. This'll be interesting.
+            ├ option 2:
+                global_squad_turian ⟨cond⟩: She's a handful, but she knows her stuff. We could use the help.
+                ↩ (goto) Narration: [empty]
+            ├ option 3:
+                global_squad_krogan ⟨cond⟩: She'll be fine. Youngsters always straighten out after a few centuries.
+                ↩ (goto) Narration: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Welcome aboard. We'll get you a fancy job title to go over your bunk.
+            global_squad_asari: I only need a footlocker.
+            global_squad_asari: Datapad, toothbrush, clean underwear. That'll do.
+            ↩ (goto) global_squad_asari: I'll catch up with you!
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: You can. Kind of. Still, wouldn't hurt to find a manual.
+        ↩ (goto) global_squad_asari: We've got a lead. SAM marked it on the charts down there.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: It changes whole planets. Let's go slow.
+        ↩ (goto) global_squad_asari: We've got a lead. SAM marked it on the charts down there.
+    ├ option 4:
+        ↩ (goto) global_squad_asari: We've got a lead. SAM marked it on the charts down there.
+    └─ merge ─┘
+├ option 2:
+    Hero: A foothold. That's all we need—just enough to begin.
+    ↩ (goto) Hero: This Remnant technology could be the key to our survival, if we can control it.
+└─ merge ─┘

@@ -1,0 +1,77 @@
+# game/conversations/hubs/hub_kad/squadmates/kad_cora_i
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/hubs/hub_kad/squadmates/kad_cora_i.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Guarding the Tempest?
+    global_squad_female_human: The Nomad. Got some attention when we disembarked—and it's a lot more portable.
+    global_squad_female_human: Seemed smart. Only three attempts to steal it so far. And one offer to buy it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Let's make nice with the locals. No rough stuff, even if they do have sticky fingers.
+        global_squad_female_human: No problem. Biotic shield makes the point just as well.
+    ├ option 2:
+        Hero: What was the offer? Just so I know how much I'm driving around.
+        global_squad_female_human: Negotiations fell apart when he asked if I came with the car.
+        global_squad_female_human: Weird. Must have been something I aimed.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human: Kadara's pretty lively. Lots of people coming and going.
+    global_squad_female_human: And lots of exiles from the Nexus. More than there should be.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What would you do with criminals on the Nexus?
+        global_squad_female_human: Not sure. Community service? For some cases, anyway.
+        global_squad_female_human: Has to be better than throwing people away. There's not many of us.
+    ├ option 2:
+        Hero: I wish we could do more for these people. Most of them just made mistakes.
+        global_squad_female_human: Best we can do for them is make new homes out there.
+        global_squad_female_human: And not get shivved in some dark alley in the meantime.
+    └─ merge ─┘
+├ option 3:
+    Hero: You're not on Nomad guard duty?
+    global_squad_female_human: No need. Word's got around.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: So, your sweetheart's ruling Kadara now. What does that make you?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Reyes needs to keep out of sight. A title would draw attention.
+            global_squad_female_human: Shame. He could at least get you a discount around here.
+            global_squad_female_human: Be careful, okay? He's still the same man who had Sloane Kelly killed.
+        ├ option 2:
+            Hero: Screw titles. I just wanted Reyes to be honest with me.
+            global_squad_female_human: I'm sorry. He does seem to care about you.
+            global_squad_female_human: And if that's an act, too, I'll punch him through a wall.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Wonder how Kadara will change now that Reyes is running the show.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Reyes took over to keep the peace. Hopefully he'll follow through.
+            global_squad_female_human: That's why he {i}said{/i} he took Kadara. After some lying and murdering.
+            global_squad_female_human: We can't forget what he is.
+        ├ option 2:
+            Hero: Probably more sneaking and secret identities. He's set a trend.
+            global_squad_female_human: Ryder, he murdered Sloane Kelly in cold blood.
+            ↩ (goto) global_squad_female_human: We can't forget what he is.
+        └─ merge ─┘
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Wonder how Sloane will crack down on the Collective.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: She'll hunt Reyes down right away.
+            global_squad_female_human: Can't say I like either of them. I like Sloane less, but better the devil you know.
+        ├ option 2:
+            Hero: They humiliated her. She'll be out for blood.
+            global_squad_female_human: At least we're in her good books. Today, anyway.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    global_squad_female_human: Saw a few places like this in my commando days. Trading posts in the Terminus Systems.
+    global_squad_female_human: Good places for fugitives to hide. Or try to.
+    Hero: But not from asari commandos, huh?
+    global_squad_female_human: Let's just say hiding with an arms merchant isn't as smart as you'd think.
+    global_squad_female_human: Especially when one of the commandos hunting you is that merchant's little sister.
+└─ merge ─┘

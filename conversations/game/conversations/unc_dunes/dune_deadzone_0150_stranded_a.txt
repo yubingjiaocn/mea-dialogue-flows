@@ -1,0 +1,52 @@
+# game/conversations/unc_dunes/dune_deadzone_0150_stranded_a
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_deadzone_0150_stranded_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: Tempest, this is Ryder. The Nomad broke down in the middle of nowhere.
+        Hero: We're stuck out here. Could use a pickup.
+        global_crew_co-pilot: [Comm] Sure thing, Ryder. Just let me... oh, that's not good.
+        Hero: What happened?
+        global_crew_co-pilot: [Comm] Not sure. Problem with one of the thrusters. You'll have to hang tight while we figure out what's wrong.
+        Hero: Great...
+    ├ option 2:
+        Hero: How's it going over there? Can we get a lift?
+        global_crew_co-pilot: [Comm] Gil decided to make some... adjustments while we were docked. The ship's grounded until further notice.
+        global_crew_tech_officer: [Comm] Ryder, it's Gil. Sorry about this. Thought you'd be gone a while and... yeah...
+        global_crew_co-pilot: [Comm] This is why we have protocols, Gil. Maintenance is scheduled.
+        global_crew_tech_officer: [Comm] If you'd come down and help me...
+        global_crew_co-pilot: [Comm] Someone needs to turn the key—so to speak.
+    ├ option 3:
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: We could always push the Nomad back to the ship.
+            Hero: {i}(Sighs.){/i} Patience is a virtue... or something.
+        ├ option 2:
+            global_squad_female_human ⟨cond⟩: Figures this would happen while we're stuck out here.
+            ↩ (goto) Hero: {i}(Sighs.){/i} Patience is a virtue... or something.
+        ├ option 3:
+            global_squad_angara ⟨cond⟩: This would never happen with angaran tech.
+            ↩ (goto) Hero: {i}(Sighs.){/i} Patience is a virtue... or something.
+        ├ option 4:
+            global_squad_male_human ⟨cond⟩: Gil and Kallo. Oil and water.
+            ↩ (goto) Hero: {i}(Sighs.){/i} Patience is a virtue... or something.
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: I hate being stuck. It's making me edgy.
+            ↩ (goto) Hero: {i}(Sighs.){/i} Patience is a virtue... or something.
+        ├ option 6:
+            global_squad_asari ⟨cond⟩: This'd be a nice break if it wasn't so hot out here.
+            ↩ (goto) Hero: {i}(Sighs.){/i} Patience is a virtue... or something.
+        └─ merge ─┘
+    ├ option 4:
+        global_crew_tech_officer: [Comm] Great. Now the console's blinking red.
+        global_crew_co-pilot: [Comm] Did you try turning it off and on again?
+        global_crew_tech_officer: [Comm] Don't you think that's the {i}first{/i} thing I'd try?
+        global_crew_co-pilot: [Comm] Hey, don't get testy. I'm just trying to help.
+    └─ merge ─┘
+├ option 2:
+    SAM: Kallo left the bridge to aid Gil with the thrusters.
+    SAM: He instructed me to tell you he will call when the Tempest is repaired.
+└─ merge ─┘

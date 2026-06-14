@@ -1,0 +1,31 @@
+# game/conversations/rel/kallo/kallo_r2_piloting_d
+# Primary speaker: global_crew_co-pilot
+# Source: game/conversations/rel/kallo/kallo_r2_piloting_d.xml
+==================================================
+global_crew_co-pilot: SAM's been compiling our star charts. The other pilots on the Nexus will have plenty of new trails to follow.
+Hero: You can drop the charts off the next time we're there.
+global_crew_co-pilot: Funny. A few months ago, that station was like a war zone. Flying was my only way to escape the chaos.
+global_crew_co-pilot: Now it's becoming a haven, just as it was meant to be.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Everyone's really working to get the Nexus on its feet.
+    global_crew_co-pilot: Regardless, the worst threat to the whole Initiative is still that monstrosity.
+    Narration: Kallo points out of the window.
+    Hero: You mean the Scourge?
+    global_crew_co-pilot: I still see it crippling the Nexus in my memories. I had to train other pilots in hazardous flight techniques, just to look for food and water.
+    global_crew_co-pilot: It's a cage that eats good ships—and good people. Heleus won't be home, so long as it's a threat.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: It's a huge space anomaly. It's not going away in anyone's lifetime.
+        global_crew_co-pilot: If we could... somehow neutralize it, or if our ships had defenses against it...
+        global_crew_co-pilot: Still! That's what we do, isn't it? Find a way where there is none? Just see the Nexus, for proof of that.
+    ├ option 2:
+        Hero: The angara live with it, and so can we.
+        global_crew_co-pilot: And if every one of our colonists was an ace pilot, I wouldn't be worried.
+        ↩ (goto) global_crew_co-pilot: If we could... somehow neutralize it, or if our ships had defenses against it...
+    └─ merge ─┘
+├ option 2:
+    Hero: Every good space station needs a big lake. Maybe some fountains.
+    global_crew_co-pilot: Indeed! Even non-amphibians need a little water.
+    ↩ (goto) global_crew_co-pilot: Regardless, the worst threat to the whole Initiative is still that monstrosity.
+└─ merge ─┘

@@ -1,0 +1,24 @@
+# game/conversations/hubs/hub_aya/reshq/aya_20_reshq_efrahorders_a
+# Primary speaker: angararesleader_multi
+# Source: game/conversations/hubs/hub_aya/reshq/aya_20_reshq_efrahorders_a.xml
+==================================================
+angararesleader_multi: Right, enough gawking. Back to work, everyone.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    angararesleader_multi: What do you mean we didn't get the data? Follow up on that now.
+├ option 2:
+    angararesleader_multi: Let them know they did a good job. We'll prepare living quarters for those they managed to rescue.
+    angararesleader_multi: If you can get full names, Paaran will contact any relatives here with the good news.
+├ option 3:
+    angararesleader_multi: Intel suggests the kett are about to move into that area.
+    angararesleader_multi: Have them withdraw and regroup with Ashok's team.
+└─ merge ─┘
+angararesleader_multi [OncePerGame]: What? No, we're fine. No, no one is blowing us up. Wait—who have you been talking to?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    angararesleader_multi ⟨cond⟩: Yes, there was a human in my office. No, we're fine. They're potential allies.
+    angararesleader_multi: Everything is under control. Now go back to work.
+├ option 2:
+    angararesleader_multi: Yes, there was a human in my office. No, we're fine. They're potential allies.
+    ↩ (goto) angararesleader_multi: Everything is under control. Now go back to work.
+└─ merge ─┘

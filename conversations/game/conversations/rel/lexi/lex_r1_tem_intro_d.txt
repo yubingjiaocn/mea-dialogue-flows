@@ -1,0 +1,85 @@
+# game/conversations/rel/lexi/lex_r1_tem_intro_d
+# Primary speaker: global_humanark_asari_dr
+# Source: game/conversations/rel/lexi/lex_r1_tem_intro_d.xml
+==================================================
+Narration: Lexi is standing next to the cot in the medbay as Ryder enters.
+Hero: You're not Harry...
+global_humanark_asari_dr: The blue give it away?
+global_humanark_asari_dr: Habitat 7 was a little more action-packed than Harry bargained for.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_humanark_asari_dr ⟨cond⟩: He decided to spend his "retirement years" on the Hyperion looking after your brother.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Joke's on him. Scott's a handful.
+        global_humanark_asari_dr: I think you're both trouble.
+        global_humanark_asari_dr: Hold still.
+        Narration: Without further warning, Lexi takes a blood sample. (Think Bones jabbing Kirk in 2009 Star Trek.)
+        Hero: Ow!
+        global_humanark_asari_dr: Sorry.
+        Hero: I remember you having a gentler touch.
+        global_humanark_asari_dr: Still trying to get my bearings. Thought I'd be waking up colonists—not taking care of the Pathfinder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I couldn't be in better hands.
+            global_humanark_asari_dr: I just stabbed you...
+            Hero: We all have off days.
+            global_humanark_asari_dr: I always hoped to work in the field, but everything's happening so quickly.
+            Hero: Focus on the positive. It helps.
+            global_humanark_asari_dr: I guess this is my opportunity to study alien species first hand.
+            global_humanark_asari_dr: Getting a kett specimen aboard the Hyperion would be difficult, but here...
+            Hero: Uh... what?
+            global_humanark_asari_dr: A kett corpse. For autopsy. A live subject would be better, but I'm not greedy.
+            Hero: Why do you care about the kett?
+            global_humanark_asari_dr: Harry didn't tell you? I'm a specialist in alien anatomy.
+            global_humanark_asari_dr: My thesis on krogan virility and aggression is what got me in the Initiative.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero: I had no idea. I'd love to hear more. Over dinner, maybe?
+                global_humanark_asari_dr: Oh... um. Thing is, Ryder... you're not my type.
+                Hero: What's your type?
+                global_humanark_asari_dr: Not a patient. I need to be able to look at you clinically. Without distractions.
+                Hero: Am I distracting?
+                global_humanark_asari_dr: Not nearly as much as you think you are.
+                global_humanark_asari_dr: But we were discussing the kett. An autopsy could teach us potential weaknesses, average lifespan...
+                Hero: Right.
+                global_humanark_asari_dr: Just something to think about.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_humanark_asari_dr ⟨cond⟩: SAM, make sure the Pathfinder eats her vegetables.
+                ├ option 2:
+                    global_humanark_asari_dr: SAM, make sure the Pathfinder eats his vegetables.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: That's a very... specific topic.
+                global_humanark_asari_dr: I grew up on Omega. Lots of krogan mercenaries. The best habitat outside Tuchanka.
+                ↩ (goto) global_humanark_asari_dr: But we were discussing the kett. An autopsy could teach us potential weaknesses, average lifespan...
+            ├ option 3:
+                Hero: Anatomist, physician... that's quite the resume.
+                global_humanark_asari_dr: I'm also a licensed psychologist. 275 years has given me plenty of time to branch out.
+                ↩ (goto) global_humanark_asari_dr: But we were discussing the kett. An autopsy could teach us potential weaknesses, average lifespan...
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Being nervous means you understand what's at stake.
+            global_humanark_asari_dr: That's the problem.
+            ↩ (goto) global_humanark_asari_dr: I always hoped to work in the field, but everything's happening so quickly.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Happy to have you, Dr. T'Perro.
+        global_humanark_asari_dr: I'll do my best.
+        global_humanark_asari_dr: Now. Hold still.
+        ↩ (goto) Narration: Without further warning, Lexi takes a blood sample. (Think Bones jabbing Kirk in 2009 Star Trek.)
+    └─ merge ─┘
+├ option 2:
+    global_humanark_asari_dr: He decided to spend his "retirement years" on the Hyperion looking after your sister.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: Joke's on him. Scott's a handful.
+    ├ option 2:
+        Hero: He knows Sara's the good one.
+        ↩ (goto) global_humanark_asari_dr: I think you're both trouble.
+    ├ option 3:
+        ↩ (goto) Hero: Happy to have you, Dr. T'Perro.
+    └─ merge ─┘
+├ option 3:
+└─ merge ─┘

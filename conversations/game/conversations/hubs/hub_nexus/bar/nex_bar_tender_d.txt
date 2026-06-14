@@ -1,0 +1,92 @@
+# game/conversations/hubs/hub_nexus/bar/nex_bar_tender_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/bar/nex_bar_tender_d.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    nex_bar_tender_01: Another one. Damn it. This is supposed to be the chemistry lab. {i}My{/i} chemistry lab.
+    nex_bar_tender_01: You all keep crawling out of the woodwork like... space cockroaches!
+    nex_bar_tender_02: You say that, Dutch, but here you are, pouring people drinks...
+    Hero: Uh, hi. I'm standing right here.
+    nex_bar_tender_01: They're guinea pigs, damn it. Chemists should have guinea pigs.
+    nex_bar_tender_01: Not have their labs taken over by people giving them things and... and... being nice!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Aren't bartenders usually friendly? You're kind of hostile.
+        nex_bar_tender_01: I'm not supposed to be a bartender. I'm supposed to be a chemist.
+        nex_bar_tender_02: Don't let Dutch put you off. He's a sweetie, really.
+        nex_bar_tender_01: Am not.
+        nex_bar_tender_02: And the drinks are good.
+        nex_bar_tender_01: Damn right they are. Uh, I mean—
+        nex_bar_tender_01: {i}(Sighs.){/i} Here. Have a Dirty Squirrel.
+    ├ option 2:
+        Hero: Bad people. Giving you free things and helping you set up. So inconsiderate.
+        nex_bar_tender_01: Right? They keep bringing things! Tables and chairs, and this bar, and lights... wait.
+        nex_bar_tender_01: ...you're making fun of me, aren't you?
+        ↩ (goto) nex_bar_tender_02: Don't let Dutch put you off. He's a sweetie, really.
+    └─ merge ─┘
+├ option 2:
+    nex_bar_tender_01: You're back.
+    Hero: People happen when you work at a bar.
+    nex_bar_tender_02: {i}(Laughs.){/i} Got you there, Dutch.
+    nex_bar_tender_01: I'll have to get used to you too, I guess.
+    nex_bar_tender_01: Fine! You can be a regular. What's your name?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Sara.
+        nex_bar_tender_01: I'm Dutch. That's Anan, over there.
+        nex_bar_tender_01: {i}(Whispers.){/i} Be careful. The snark is strong with that one.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I'll be careful.
+            nex_bar_tender_01: I was being careful. Look where it got me.
+            nex_bar_tender_02: As station bartender, with people offering help all the time.
+            nex_bar_tender_01: They just want free drinks.
+            nex_bar_tender_02: That too.
+            nex_bar_tender_01: You'd think people would reconsider picking on the guy making the drinks, but nooooo.
+            nex_bar_tender_01: Speaking of, wanna try this one?
+            nex_bar_tender_01: I'm going to call it the Tall Moose.
+        ├ option 2:
+            Hero: Snark is good! I can work with snark.
+            nex_bar_tender_01: Ugh. You're one of those.
+            nex_bar_tender_02: Looks like you're outnumbered, Dutch.
+            ↩ (goto) nex_bar_tender_01: You'd think people would reconsider picking on the guy making the drinks, but nooooo.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: Scott.
+        ↩ (goto) nex_bar_tender_01: I'm Dutch. That's Anan, over there.
+    ├ option 3:
+        Hero ⟨cond⟩: Ryder.
+        ↩ (goto) nex_bar_tender_01: I'm Dutch. That's Anan, over there.
+    └─ merge ─┘
+├ option 3:
+    nex_bar_tender_01: You again. Oh, I mean, hello! Welcome to my lab. Bar. Whatever.
+    nex_bar_tender_02: Aw, Dutch. Look at you, getting all used to things.
+    nex_bar_tender_01: Things are fine. It's people I don't like. They talk back.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: They can't talk if they're busy drinking.
+        nex_bar_tender_01: That's just brilliant! I can do that!
+        nex_bar_tender_01: Wait. You're messing with me, aren't you?
+        Hero: I would never.
+        nex_bar_tender_01: Right. Here. Have a drink. Rotten Scoundrel.
+        Hero: Hey now!
+        nex_bar_tender_01: The drink, not you.
+    ├ option 2:
+        Hero: Maybe they can't resist your charm?
+        nex_bar_tender_01: I hadn't thought of that.
+        ↩ (goto) nex_bar_tender_01: Wait. You're messing with me, aren't you?
+    └─ merge ─┘
+├ option 4:
+    nex_bar_tender_01: Drink of the hour is a Lucky Leprechaun. Wanna give it a shot?
+    Hero: How lucky are we talking here?
+    nex_bar_tender_01: I forget where the ingredients are from.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Why not—what's the worst that could happen?
+        nex_bar_tender_01: Excellent!
+    ├ option 2:
+        Hero: I'll pass, thanks.
+        nex_bar_tender_01: You don't know what you're missing.
+    └─ merge ─┘
+└─ merge ─┘

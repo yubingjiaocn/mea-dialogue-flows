@@ -1,0 +1,103 @@
+# game/conversations/rel/jaal/jaal_r2_tem_secondtalk_d
+# Primary speaker: Hero
+# Source: game/conversations/rel/jaal/jaal_r2_tem_secondtalk_d.xml
+==================================================
+Hero: Jaal?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Not talking to me? I get it. I can't imagine how you're feeling.
+    Hero: I'll just go.
+    global_squad_angara: Don't.
+    global_squad_angara: You saved the Moshae.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: I won't forget that.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: That's why we were there.
+            global_squad_angara: Saving her was a great thing. It will be, anyway.
+            global_squad_angara: I really miss my family at times like these.
+            global_squad_angara: Are you close to your family?
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: You talk about family a lot.
+                global_squad_angara: Really? I guess it's just part of our culture.
+                global_squad_angara: Our families are large, and we share our parents with the community.
+                global_squad_angara: We all have many mothers.
+                Hero: My family's small.
+                global_squad_angara: And are you close?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I was... am. My mom and dad are dead.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: My brother's in a medically induced coma.
+                        Hero: I'm kind of an orphan at the moment.
+                        global_squad_angara: I'm sorry.
+                        Hero: Yeah, well.
+                        Hero: This random collection of Tempest oddballs can feel like family sometimes.
+                        global_squad_angara: Yeah. I've never really felt I had a purpose—but here, I do.
+                        Hero: What about the Resistance?
+                        global_squad_angara: My place in the Resistance is... not what I'd like.
+                        Hero: But that kid on Aya looked up to you.
+                        global_squad_angara: Sure... but you're going to do something important, Ryder. I feel it.
+                        global_squad_angara: This is where I should be.
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: I like having you around. Specifically you.
+                            global_squad_angara: Because of my skill and knowledge?
+                            Hero: Not really.
+                            global_squad_angara: Because you enjoy spending time with me as much as I do with you.
+                            Hero: You do?
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                global_squad_angara ⟨cond⟩: Yes. You're fascinating. And special. And strange.
+                                Hero: Aw—thanks.
+                                global_squad_angara: And I mean it.
+                            ├ option 2:
+                                global_squad_angara ⟨cond⟩: You're fascinating. So bold, yet mysterious. So odd.
+                                Hero: That's... thanks.
+                                ↩ (goto) global_squad_angara: And I mean it.
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: You bring a lot to the team.
+                            global_squad_angara: Thank you. I look forward to even more adventures.
+                        ├ option 3:
+                            Hero: Glad you're along for the ride.
+                            global_squad_angara: {i}(Exhales.){/i} Me, too.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero ⟨cond⟩: My sister's really sick. She's on the Nexus.
+                        ↩ (goto) Hero: I'm kind of an orphan at the moment.
+                    ├ option 3:
+                        ↩ (goto) global_squad_angara: I'm sorry.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: My family is complicated. Isn't much to say about it.
+                    global_squad_angara: Okay.
+                    ↩ (goto) Hero: This random collection of Tempest oddballs can feel like family sometimes.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: I was... am. My mom and dad are dead.
+            ├ option 3:
+                ↩ (goto) Hero: My family is complicated. Isn't much to say about it.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Crumbling won't help anyone.
+            global_squad_angara: I agree. We have to be strong.
+            ↩ (goto) global_squad_angara: I really miss my family at times like these.
+        ├ option 3:
+            Hero: I may seem tough, but I have a good shoulder.
+            global_squad_angara: That's... kind. You're kind.
+            ↩ (goto) global_squad_angara: I really miss my family at times like these.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara: You know?
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: Thank you for checking, but I'm all right.
+    Hero: Don't know if I would be.
+    global_squad_angara: I have to be. How else do we go on?
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘

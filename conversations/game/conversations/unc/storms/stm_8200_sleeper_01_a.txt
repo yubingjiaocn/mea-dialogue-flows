@@ -1,0 +1,38 @@
+# game/conversations/unc/storms/stm_8200_sleeper_01_a
+# Primary speaker: stm_outpost_staff_new_01
+# Source: game/conversations/unc/storms/stm_8200_sleeper_01_a.xml
+==================================================
+stm_outpost_staff_new_01: Pathfinder? Darket Tiervian. I understand I was pulled from cryo ahead of schedule. My family is grateful, but I consider it my debt.
+Hero: Everyone gets out eventually.
+stm_outpost_staff_new_01: That may be, but the least I can do is show you the benefit. I'm exo-studies now. But in a former life, let's say I knew tactics.
+stm_outpost_staff_new_01: If I supplied the kett on this planet, I'd drift it in. And there's only so many gravitational paths.
+stm_outpost_staff_new_01: Here's some navs to check for "anomalies." Good hunting, Pathfinder.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_outpost_staff_new_01 ⟨cond⟩: I just heard my brother didn't die at Site 2. You recovered his shuttle and he's alive.
+    stm_outpost_staff_new_01: Somehow, I'm even more in your debt. And glad for it. Thank you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Tell me about yourself.
+        stm_outpost_staff_new_01: Darket Tiervian, W-84-Krispin. Joined the Initiative to be no one special somewhere very special.
+        stm_outpost_staff_new_01: Military family, as you probably suspected. But... deeper. And I wanted to leave that life, with as many lives as I could bring.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            stm_outpost_staff_new_01 ⟨cond⟩: And until you rescued his shuttle, I thought I'd woken up to a dead sibling.
+            stm_outpost_staff_new_01: This is a place of light, Pathfinder. Possibility. And I will fight to help it survive.
+            ↩ (goto) stm_outpost_staff_new_01: [empty]
+        ├ option 2:
+            stm_outpost_staff_new_01: I lost a brother before I woke, apparently. He was at Site 2.
+            Hero: I'm sorry.
+            stm_outpost_staff_new_01: Not as sorry as the kett will be if they threaten us here. I didn't come here to look at death. I won't.
+            ↩ (goto) stm_outpost_staff_new_01: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Take care, Darket.
+        stm_outpost_staff_new_01: You too, Pathfinder.
+    └─ merge ─┘
+├ option 2:
+    stm_outpost_staff_new_01: My family thanks you, Pathfinder.
+    ↩ (goto) stm_outpost_staff_new_01: [empty]
+└─ merge ─┘
+↩ (goto) stm_outpost_staff_new_01: [empty]

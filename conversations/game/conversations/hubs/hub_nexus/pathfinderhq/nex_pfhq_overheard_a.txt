@@ -1,0 +1,67 @@
+# game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_overheard_a
+# Primary speaker: global_nexus_PI_director
+# Source: game/conversations/hubs/hub_nexus/pathfinderhq/nex_pfhq_overheard_a.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_nexus_PI_director ⟨cond⟩: How are things going with Ark Leusinia?
+        global_nexus_colonial_director_multi: [Comm] The asari seem happy just to be alive. But the Nexus is running out of places to put them.
+        global_nexus_PI_director: I know. The outposts can't come fast enough.
+        global_nexus_colonial_director_multi: [Comm] What do we do in the meantime?
+        global_nexus_PI_director: Would they be willing to go back into stasis?
+        global_nexus_colonial_director_multi: [Comm] After what they've been through? You get to ask them.
+        global_nexus_PI_director: I see your point. Just double them up in whatever quarters we have.
+        global_nexus_colonial_director_multi: [Comm] Easier said than done.
+    ├ option 2:
+        global_nexus_PI_director: How are things going with Ark Paarchero?
+        global_nexus_colonial_director_multi: [Comm] The salarians seem happy just to be alive. But the Nexus is running out of places to put them.
+        ↩ (goto) global_nexus_PI_director: I know. The outposts can't come fast enough.
+    └─ merge ─┘
+├ option 2:
+    global_nexus_PI_director: The angara have nothing to fear from the people of the Milky Way.
+    nex_angara_attache: [Comm] But do you have anything to offer?
+    global_nexus_PI_director: Our wisdom... our knowledge...
+    nex_angara_attache: [Comm] We have plenty of that on our own.
+    global_nexus_PI_director: Of course. And you also have food. Water. Necessities of life.
+    nex_angara_attache: [Comm] Now we get to the heart of the matter.
+    global_nexus_PI_director: I'd like to lay a groundwork for trade between our people.
+    nex_angara_attache: [Comm] What would you trade?
+    global_nexus_PI_director: Well... wisdom. And... knowledge.
+    nex_angara_attache: [Comm] We'll take that under consideration. Good day.
+├ option 3:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_nexus_PI_director ⟨cond⟩ [OncePerGame]: You've had a year to think about it!
+        nex_rp_sci_sci02: [Comm] It's the {i}Scourge{/i}, Director Tann. Its origin defies all known explanation.
+        global_nexus_PI_director: How? We brought all that equipment along.
+        nex_rp_sci_sci02: [Comm] And the Tempest's readings are helping, but we've just scratched the surface.
+        global_nexus_PI_director: {i}(Sighs.){/i} The history of the Initiative can't show that we were defeated by a space cloud.
+        nex_rp_sci_sci02: [Comm] Some things are bigger than we are.
+        global_nexus_PI_director: I won't accept that excuse. This is science—and your merry band over there are scientists, aren't they? Figure it out.
+        nex_rp_sci_sci02: [Comm] Goodbye, Director.
+    ├ option 2:
+        global_nexus_militia_leader [OncePerGame]: [Comm] We're seeing more and more skirmishes with the kett.
+        global_nexus_PI_director: They're like an infection.
+        global_nexus_militia_leader: [Comm] An occupying force. The deeper we push into the cluster, the more likely we are to bump into them.
+        global_nexus_PI_director: There's no turning back. We're living here whether they like it or not.
+        global_nexus_militia_leader: [Comm] Then how's your marksmanship?
+        global_nexus_PI_director: Why?
+        global_nexus_militia_leader: [Comm] It may come to that.
+    ├ option 3:
+        global_nexus_PI_director [OncePerGame]: No, I'm not imagining things, Kesh. The air in here is too cold.
+        global_arkcon_superintendent: [Comm] Our ventilation system is uniform across the station.
+        global_nexus_PI_director: Nonsense. It's at least several degrees warmer everywhere else.
+        global_arkcon_superintendent: [Comm] It's all in your head, Tann. I have to go.
+        global_nexus_PI_director: {i}(Grumbles.){/i} I know you're doing this on purpose.
+        global_arkcon_superintendent: [Comm] And now I really have to go.
+    ├ option 4:
+        global_nexus_PI_director [OncePerGame]: I don't know. Use more water!
+        nex_hydro_botanist: [Comm] That won't grow plants any faster. They'll drown.
+        global_nexus_PI_director: Well, you're a botanist—there must be a way. We need higher yields.
+        nex_hydro_botanist: [Comm] Patience, Tann.
+        global_nexus_PI_director: That's the one thing we can least afford. There's no time. Lives depend on you.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) ?: [empty]

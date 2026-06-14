@@ -1,0 +1,160 @@
+# game/conversations/crit/intrld25/intrld25_0200_arch_escape_m
+# Primary speaker: Narration
+# Source: game/conversations/crit/Intrld25/intrld25_0200_arch_escape_m.xml
+==================================================
+Hero: Report?
+global_crew_science_officer: Enemy destroyed. Damage to aft sensors!
+Hero: Scourge got it?
+global_crew_science_officer: Yes.
+global_squad_male_human: Get us out of here!
+global_crew_co-pilot: No. No. SAM, that opening is too narrow.
+SAM: It will be tight.
+global_squad_turian: Kallo...
+global_crew_co-pilot: Yes!
+global_squad_krogan: Ha-ha! Nice work, kid.
+Hero: Yeah... but who the hell was that guy?
+global_crew_tech_officer: [Comm] Ryder! We've got trouble down here. You need to find us a port now!
+Hero: Great. Where'd we end up, anyway?
+global_crew_science_officer: Sensors are damaged, but I think we're at the vault's co-ordinates...
+Hero: You think? {i}(Exhales.){/i} Gil, give it what you can. We're setting down.
+global_crew_science_officer: We're being contacted.
+Hero: We have to land... {i}(Sighs.){/i} Open a comm.
+aya_docksmanager: [Comm] Tove jagalesh do!
+aya_docksmanager: [Comm] Tove jagalesh do!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Listen. Sorry to just show up like this but, I swear, we're the galactic good guys.
+    aya_docksmanager: [Comm] Evfanola! Fahen an gasad regara!
+    aya_docksmanager: [Comm] Evfanola... {i}(Laughter.){/i}
+    global_crew_co-pilot: They're forcing us to land.
+    Hero: Then we land.
+    Hero: Yes... Ha. Look at that... it's beautiful.
+    Hero: We need in that vault.
+    global_squad_turian: Please. You're not really going out there on your own.
+    Hero: We can't afford a repeat of last time.
+    global_squad_krogan: Krogan make an excellent first impression. I should come.
+    Hero: I'm the Pathfinder—first contact is on me.
+    global_squad_male_human: Most important thing ever. No pressure.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: This is what it's all about, right? New worlds. New aliens... Wish me luck.
+    ├ option 2:
+        Hero: If this goes badly—if I get eaten alive—even if it's hilarious—please, destroy the vids.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: We're visitors from another galaxy. Our intentions are peaceful.
+    aya_docksmanager: [Comm] Paav, nele set do.
+    global_crew_co-pilot: They've sent us a navpoint.
+    Hero: Set us down.
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    Hero: And with our ship compromised... Open a comm.
+├ option 2:
+    Hero: Yes. Ha. Look at that... it's beautiful. We need in that vault.
+├ option 3:
+    global_crew_co-pilot: They've sent instructions. We're to follow.
+├ option 4:
+    global_crew_co-pilot: And surrounded.
+├ option 5:
+    Hero: Yes. Ha. Look at that... We need in that vault.
+├ option 6:
+    Hero: The Scourge undulates - it twists and crackles menacingly.
+├ option 7:
+    global_crew_science_officer: Plus, we've reached the navpoint from the vault on Eos.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: You're doing great, Kallo.
+    ├ option 2:
+        Narration: WOOP! WOOP! Warning lights and alarms fire. Celebrating abruptly stops.
+    └─ merge ─┘
+└─ merge ─┘
+SAM: Adjusting course.
+SAM: Adjusting course. Adjusting course.
+global_crew_co-pilot: No. no. no. No. no. no.
+global_crew_co-pilot: No... no... careful... no...
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_male_human: Shit!
+    ├ option 2:
+        global_squad_male_human: Look out.
+    ├ option 3:
+        global_squad_male_human: Whoa.
+    ├ option 4:
+        global_squad_male_human: {i}(Holds breath.){/i} {i}(Exhales.){/i}
+    ├ option 5:
+        global_squad_male_human: Damn it!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_crew_science_officer: Please don't let me die like this.
+    ├ option 2:
+        global_crew_science_officer: I can't look.
+    ├ option 3:
+        global_crew_science_officer: Shitcrapmonkeyballs!
+    ├ option 4:
+        global_crew_science_officer: {i}(Holds breath.){/i} {i}(Exhales.){/i}
+    ├ option 5:
+        global_crew_science_officer: Damn it!
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_asari: Shit!
+    ├ option 2:
+        global_squad_asari: Hey. Hey. Hey.
+    ├ option 3:
+        global_squad_asari: Nice!
+    ├ option 4:
+        global_squad_asari: {i}(Holds breath.){/i} {i}(Exhales.){/i}
+    ├ option 5:
+        global_squad_asari: Oof!
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human: {i}(Sharp intake of breath.){/i}
+    ├ option 2:
+        global_squad_female_human: Come on...
+    ├ option 3:
+        global_squad_female_human: Got it!
+    ├ option 4:
+        global_squad_female_human: Kallo...
+    ├ option 5:
+        global_squad_female_human: Uh!
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_turian: Ah, crap!
+    ├ option 2:
+        global_squad_turian: Here we go again!
+    ├ option 3:
+        global_squad_turian: Good dodge!
+    ├ option 4:
+        global_squad_turian: {i}(Holds breath.){/i} {i}(Exhales.){/i}
+    ├ option 5:
+        global_squad_turian: Oh, shit!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan: Close!
+├ option 2:
+    global_squad_krogan: Focus!
+├ option 3:
+    global_squad_krogan: Good!
+├ option 4:
+    global_squad_krogan: {i}(Holds breath.){/i} {i}(Exhales.){/i}
+├ option 5:
+    global_squad_krogan: Steady!
+└─ merge ─┘
+Narration: Tas goaj yabe jenvad. Ged tas gohal tam yehal?
+Narration: Tove jagalesh do?
+Narration: Efanola. Fahen an gasad regara.
+Narration: Paav, nele set do. Eham daar goss nasen roa.

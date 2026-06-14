@@ -1,0 +1,79 @@
+# game/conversations/hubs/hub_kad/npcs/kad_ryota_i
+# Primary speaker: kad_doctor
+# Source: game/conversations/hubs/hub_kad/npcs/kad_ryota_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    kad_doctor ⟨cond⟩ [OncePerGame]: You are really bad at reading people.
+    kad_doctor: Believing Arenna was a mistake. Siding with Sloane is an even bigger one.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Reyes was a liar. At least with Sloane, I know what I'm getting.
+        kad_doctor: You mean a drug dealing murderer?
+        kad_doctor: {i}(Scoffs.){/i} I can't wait to say, "I told you so."
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            Hero: What was it like working for Sloane?
+            kad_doctor: I was well fed and equipped. Sloane cares about her crew.
+            Hero: But...
+            kad_doctor: Outcast tactics are ruthless. Murder. Mutilation. Beatings. All a daily occurrence. I didn't sign up for that.
+            Hero: You must've known things would get violent when you joined the uprising.
+            kad_doctor: I didn't join the uprising. I joined my patients. I couldn't let them leave the Nexus without a doctor.
+            Hero: So you don't hate the Initiative?
+            kad_doctor: Hate is a useless emotion. As is regret. We must make the best of our situation. That's all.
+            ↩ (goto) kad_doctor: [empty]
+        ├ option 2:
+            Hero: How does a free clinic stay in business here?
+            kad_doctor: Anonymous donations. From the Charlatan, no doubt. Beggars can't be choosers.
+            Hero: You've got something against the Charlatan?
+            kad_doctor: Same thing I have against Sloane: all they care about is profit. And control. My business is people.
+            ↩ (goto) kad_doctor: [empty]
+        ├ option 3:
+            Hero: This can't be what you expected when you decided to come to Andromeda.
+            kad_doctor: It is and it isn't. I joined the Initiative to save lives. Traveling to a new galaxy is dangerous—I knew I'd be needed.
+            kad_doctor: Just didn't think I'd be helping people out of a shipping container.
+            ↩ (goto) kad_doctor: [empty]
+        ├ option 4:
+            Hero: How do you like Kadara?
+            kad_doctor: It's not the worst planet in Heleus, but it has its troubles. Mainly the water.
+            Hero: What's wrong with the water?
+            kad_doctor: It's toxic. Fatally. Notice all the pipes running through the port? An old angaran irrigation system.
+            kad_doctor: In the badlands, people have to filter water manually. Leaves a much larger margin of error.
+            kad_doctor: The majority of my patients suffer from either gunshot wounds or water poisoning.
+            ↩ (goto) kad_doctor: [empty]
+        ├ option 5:
+            Hero: I'll let you get back to work.
+            kad_doctor: Thanks. Lots to do.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You're entitled to your opinion.
+        kad_doctor: {i}(Scoffs.){/i} When you first arrived, I thought you'd make a difference for the better.
+        kad_doctor: How wrong I was.
+        ↩ (goto) kad_doctor: [empty]
+    └─ merge ─┘
+├ option 2:
+    kad_doctor [OncePerGame]: So, Sloane's dead.
+    Hero: Saw it myself.
+    kad_doctor: As a doctor, death doesn't make me happy.
+    kad_doctor: But this one doesn't make me sad.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The galaxy is better without her.
+        kad_doctor: On that, we agree.
+        ↩ (goto) kad_doctor: [empty]
+    ├ option 2:
+        Hero: Wish there had been another way.
+        kad_doctor: Sloane's not reasonable. I would know.
+        ↩ (goto) kad_doctor: [empty]
+    └─ merge ─┘
+├ option 3:
+    kad_doctor: If you're not sick, please leave.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_doctor ⟨cond⟩: What?
+    ↩ (goto) kad_doctor: [empty]
+├ option 2:
+    kad_doctor: Pathfinder.
+    ↩ (goto) kad_doctor: [empty]
+└─ merge ─┘

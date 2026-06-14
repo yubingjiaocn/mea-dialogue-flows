@@ -1,0 +1,83 @@
+# game/conversations/unc/biolum/bio_0000_genbanter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/biolum/bio_0000_genbanter_b.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Kiiran Dals said something about fish and gems to me. What was that all about?
+    global_squad_angara: "In an ocean of fish, one will have gems in its mouth." Meaning your success with Remnant is probability, not skill.
+    global_squad_angara: As the number of cases approaches infinity, the unlikeliest outcomes become likely.
+    Hero: Oh. Thought it might've been something like that.
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: So what was Kiiran saying? All this'll disappear one day?
+        global_squad_angara ⟨cond⟩: No one knows the long term effects of Remnant. Kiiran probably has projections, but projections are often wrong.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: So what we're seeing here isn't going to last? It's going to be a desert eventually?
+        ↩ (goto) global_squad_angara ⟨cond⟩: No one knows the long term effects of Remnant. Kiiran probably has projections, but projections are often wrong.
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: It's so hard to believe what the scientists were saying. This place looks... perfect.
+        global_squad_angara ⟨cond⟩: You can bleed under the skin and not see it. The wound's still there.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: I don't get it. The planet {i}looks{/i} fine.
+        ↩ (goto) global_squad_angara ⟨cond⟩: You can bleed under the skin and not see it. The wound's still there.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: The monoliths are connected, sending instructions across the planet. But with only two of three...
+        global_squad_asari: It's like the planet's... running a string of code with a chunk missing.
+        Hero: Why isn't it just completely broken like the other planets we've seen?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_angara ⟨cond⟩: All planets start different. If broken, they'd also break differently.
+        ├ option 2:
+            global_squad_asari: Might have to do with what Havarl was like originally. Like a vault's instructions for each planet are different.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari: Maybe if Meridian was connected, it could correct any mistakes. But it's not.
+            ├ option 2:
+                global_squad_asari: That makes sense. Right? Right?
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Make sure not to eat anything here. Or let any sap stick on your skin.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Environment suit, I love you.
+        ├ option 2:
+            global_squad_krogan ⟨cond⟩: Wasn't considering it.
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: Thanks Jaal.
+        ├ option 4:
+            global_squad_asari ⟨cond⟩: Thanks for the tip.
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: Wasn't planning on it.
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara: [Comm] Don't consume anything you see. Not in this area.
+        ┌─ BRANCH (5) ─┐
+        ├ option 1:
+            ↩ (goto) global_squad_krogan ⟨cond⟩: Wasn't considering it.
+        ├ option 2:
+            ↩ (goto) global_squad_female_human ⟨cond⟩: Thanks Jaal.
+        ├ option 3:
+            ↩ (goto) global_squad_asari ⟨cond⟩: Thanks for the tip.
+        ├ option 4:
+            ↩ (goto) global_squad_turian ⟨cond⟩: Wasn't planning on it.
+        ├ option 5:
+            global_squad_male_human ⟨cond⟩: Er, okay...
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human: Shit. All this green. I can feel my allergies flaring up already.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Two million light-years from home, and you have {i}allergies{/i}?
+        global_squad_male_human: Could be my spidey sense. Don't know.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: You guys still have allergies?
+        ↩ (goto) global_squad_male_human: Could be my spidey sense. Don't know.
+    └─ merge ─┘
+└─ merge ─┘

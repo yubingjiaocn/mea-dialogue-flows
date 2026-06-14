@@ -1,0 +1,92 @@
+# Game/Conversations/Crit/M4/m4_0550_sanctum2_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0550_sanctum2_m.xml
+==================================================
+SAM: Pathfinder, this is the relic the Moshae described. It does seem to be a map.
+SAM: I'll overlay the chart we uncovered in the vault on Eos.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: So that's...
+    Hero: It's Meridian.
+    SAM: Coordinates secured, Pathfinder.
+    global_main_villain: So that's what you're after.
+    global_main_villain: There's more to Meridian than you know. Changing the weather is a fraction of its power—and I will not allow you to defile it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm better equipped to handle it than you.
+        global_main_villain: Why? Because you have an artificial intelligence in your head explaining it?
+        global_main_villain: I've seen what transpired in the laboratory, and now I know what makes you... special.
+        global_main_villain: Meridian is mine. I've tolerated you long enough. Once your vessels are destroyed, you will be stranded here.
+        Hero: Captain, fire the EMP!
+        crit_kett_salarian_captain_multi: [Comm] Done!
+        ┌─ BRANCH (6) ─┐
+        ├ option 1:
+            global_squad_female_human ⟨cond⟩: That can't be good.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: You've got to be kidding...
+                SAM: Ryder, the EMP—
+                Hero: Yeah, I get it. We released the krogan.
+            ├ option 2:
+                global_squad_female_human ⟨cond⟩: Oh shit...
+                ↩ (goto) SAM: Ryder, the EMP—
+            ├ option 3:
+                global_squad_asari ⟨cond⟩: Oh shit...
+                ↩ (goto) SAM: Ryder, the EMP—
+            ├ option 4:
+                global_squad_turian ⟨cond⟩: Oh shit...
+                ↩ (goto) SAM: Ryder, the EMP—
+            ├ option 5:
+                global_squad_krogan ⟨cond⟩: Oh shit...
+                ↩ (goto) SAM: Ryder, the EMP—
+            ├ option 6:
+                global_squad_angara ⟨cond⟩: Damn it...
+                ↩ (goto) SAM: Ryder, the EMP—
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_male_human ⟨cond⟩: That's... not a good sound.
+            ↩ (goto) Narration: [empty]
+        ├ option 3:
+            global_squad_angara ⟨cond⟩: What was that?
+            ↩ (goto) Narration: [empty]
+        ├ option 4:
+            global_squad_krogan ⟨cond⟩: What was that?
+            ↩ (goto) Narration: [empty]
+        ├ option 5:
+            global_squad_turian ⟨cond⟩: That didn't sound good.
+            ↩ (goto) Narration: [empty]
+        ├ option 6:
+            global_squad_asari ⟨cond⟩: I don't like the sound of that.
+            ↩ (goto) Narration: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You didn't allow me to escape your little trap either, did you?
+        global_main_villain: That wasn't you. It was the artificial intelligence in your head.
+        ↩ (goto) global_main_villain: I've seen what transpired in the laboratory, and now I know what makes you... special.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Hello, hello.
+    ↩ (goto) Hero: It's Meridian.
+├ option 3:
+    global_squad_angara ⟨cond⟩: Is that...?
+    ↩ (goto) Hero: It's Meridian.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Look at that...
+    ↩ (goto) Hero: It's Meridian.
+├ option 5:
+    global_squad_turian ⟨cond⟩: Finally...
+    ↩ (goto) Hero: It's Meridian.
+├ option 6:
+    global_squad_asari ⟨cond⟩: Looky looky...
+    ↩ (goto) Hero: It's Meridian.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: Exertion -- stringID 217636
+├ option 2:
+    Hero: Exertion -- stringID 217637
+├ option 3:
+    Hero: Exertion -- stringID 217634
+├ option 4:
+    Hero: Exertion -- stringID 217635
+└─ merge ─┘

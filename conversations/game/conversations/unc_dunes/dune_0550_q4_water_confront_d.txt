@@ -1,0 +1,90 @@
+# game/conversations/unc_dunes/dune_0550_q4_water_confront_d
+# Primary speaker: dune_main_scav_trader_multi
+# Source: game/conversations/unc_dunes/dune_0550_q4_water_confront_d.xml
+==================================================
+SAM: Pathfinder, the structure surrounding this lake is constructed.
+SAM: It bears similarity to the cave systems that house vaults.
+Hero: Huh. I wonder what the Remnant builders' plans were.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_main_scav_trader_multi ⟨cond⟩: I'm disappointed, Pathfinder. I thought you were someone I could trust.
+    dune_main_scav_trader_multi: I welcomed you into my home, and you repay my kindness by robbing me.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You were hoarding water, threatening the survival of every person on this planet.
+        dune_main_scav_trader_multi: Self-defense! It's you people, you vesagara, who threaten me!
+        dune_main_scav_trader_multi: My brother tried to help your people when they first came here.
+        dune_main_scav_trader_multi: He showed them where to find shelter. Allowed them to take freely from our water tanks.
+        dune_main_scav_trader_multi: He was killed for his trouble. I won't be as foolish as Asgaar.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Don't you think you're headed toward the same fate by restricting access to a necessity?
+            dune_main_scav_trader_multi: If I die, so do they. There's not enough surface water on Elaaden.
+            dune_main_scav_trader_multi: These scavengers respect no one. Not me, not you. But they do respect the planet.
+            dune_main_scav_trader_multi: As long as they need me to survive, they live by my rules.
+            Hero: You want me to forget everything I've seen?
+            dune_main_scav_trader_multi: Exactly. You say nothing. You allow me to protect myself and my home how I want.
+            ┌─ BRANCH (4) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: You expect me to do this just because you asked nicely?
+                dune_main_scav_trader_multi: Your Nexus needs resources to survive. Elaaden is rich in those.
+                dune_main_scav_trader_multi: What I gather, I will share. Just so long as Elaaden remains mine.
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    ↩ (goto) Hero [OncePerGame]: You expect me to do this just because you asked nicely?
+                ├ option 2:
+                    Hero [OncePerGame]: How long have you known about this water?
+                    dune_main_scav_trader_multi: Asgaar and I found it years ago, on a mining expedition. The Remnant nearly killed us.
+                    dune_main_scav_trader_multi: I knew, even then, that I wanted to keep it a secret. It gave us an advantage.
+                    dune_main_scav_trader_multi: It took time to convince Asgaar, but he came around, eventually. I made him promise.
+                    ┌─ BRANCH (4) ─┐
+                    ├ option 1:
+                        ↩ (goto) Hero [OncePerGame]: You expect me to do this just because you asked nicely?
+                    ├ option 2:
+                        ↩ (goto) Hero [OncePerGame]: How long have you known about this water?
+                    ├ option 3:
+                        Hero: You have a deal. I'll say nothing about what I found here.
+                        dune_main_scav_trader_multi: You've made the right choice. In return, I'll share the resources I gather with you.
+                        dune_main_scav_trader_multi: I'll leave whatever I can spare in my office. Think of it as a tithe.
+                    ├ option 4:
+                        Hero: By keeping this secret, you're preventing anyone from establishing a real home here.
+                        dune_main_scav_trader_multi: I've allowed your krogans to stay.
+                        Hero: It shouldn't be about what you allow. It's not up to you.
+                        dune_main_scav_trader_multi: So now I have to sit by and watch you destroy everything I've built?
+                        dune_main_scav_trader_multi: I will hound you every step of the way! This isn't over!
+                        dune_main_scav_trader_multi: Get them! Kill them if you can!
+                        ↩ (goto) dune_main_scav_trader_multi: [empty]
+                    └─ merge ─┘
+                ├ option 3:
+                    ↩ (goto) Hero: You have a deal. I'll say nothing about what I found here.
+                ├ option 4:
+                    ↩ (goto) Hero: By keeping this secret, you're preventing anyone from establishing a real home here.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero [OncePerGame]: How long have you known about this water?
+            ├ option 3:
+                ↩ (goto) Hero: You have a deal. I'll say nothing about what I found here.
+            ├ option 4:
+                ↩ (goto) Hero: By keeping this secret, you're preventing anyone from establishing a real home here.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: That's awful. You have my sympathy.
+            dune_main_scav_trader_multi: I've no use for sympathy. You can keep it.
+            ↩ (goto) dune_main_scav_trader_multi: These scavengers respect no one. Not me, not you. But they do respect the planet.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Hey, I didn't take anything. Left every single drop of water where I found it.
+        Hero: Count them if you like.
+        dune_main_scav_trader_multi: Very glib. Do you know why I do this?
+        ↩ (goto) dune_main_scav_trader_multi: My brother tried to help your people when they first came here.
+    └─ merge ─┘
+├ option 2:
+    dune_main_scav_trader_multi: You come to my home without even a hello, and now this?
+    dune_main_scav_trader_multi: Poking around my private rooms. Robbing me?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: You were hoarding water, threatening the survival of every person on this planet.
+    ├ option 2:
+        ↩ (goto) Hero: Hey, I didn't take anything. Left every single drop of water where I found it.
+    └─ merge ─┘
+└─ merge ─┘

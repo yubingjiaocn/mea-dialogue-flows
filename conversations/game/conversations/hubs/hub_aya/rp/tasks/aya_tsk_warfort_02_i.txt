@@ -1,0 +1,19 @@
+# game/conversations/hubs/hub_aya/rp/tasks/aya_tsk_warfort_02_i
+# Primary speaker: aya_res_tactician
+# Source: game/conversations/hubs/hub_aya/rp/tasks/aya_tsk_warfort_02_i.xml
+==================================================
+aya_res_tactician: Pathfinder... I could use your insight into kett psychology.
+Hero: I'm no expert, but I'll try.
+aya_res_tactician: When our operations attract too much attention, we withdraw a team into space—and make sure the enemy can follow.
+aya_res_tactician: We want them to chase us. Divide their forces. They've always taken the bait.
+aya_res_tactician: Lately, they just watch us go. Not even a token pursuit. I can't understand why.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: They're turning the tables. Encouraging you to chase {i}them{/i}.
+    aya_res_tactician: Then we'll find a way to hit them where they won't expect it.
+    aya_res_tactician: It's good to talk through things with an out... someone who understands. Thank you.
+├ option 2:
+    Hero: They got bored with you. I'm the kett's new crush.
+    aya_res_tactician: I wonder if we can exploit their fixation on you...
+    ↩ (goto) aya_res_tactician: It's good to talk through things with an out... someone who understands. Thank you.
+└─ merge ─┘

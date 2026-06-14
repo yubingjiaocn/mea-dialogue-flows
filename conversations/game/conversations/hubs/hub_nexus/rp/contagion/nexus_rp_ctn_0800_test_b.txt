@@ -1,0 +1,47 @@
+# game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0800_test_b
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/rp/contagion/nexus_rp_ctn_0800_test_b.xml
+==================================================
+Hero: That's Ruth.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: She doesn't look good.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Everything about this is wrong.
+├ option 3:
+    global_squad_krogan ⟨cond⟩: She doesn't look good.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Damn.
+├ option 5:
+    global_squad_asari ⟨cond⟩: She doesn't look good.
+├ option 6:
+    global_squad_angara ⟨cond⟩: I do not think she will live long.
+└─ merge ─┘
+SAM: The barrier cannot be broken. You'll need to access the door.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: You two stay here. Especially you, Jaal. She doesn't need a scare right now, even if you are immune.
+├ option 2:
+    Hero: You two stay here. SAM's got me covered.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    nexus_rp_ctn_patzero: {i}(Coughs.){/i}
+├ option 2:
+    nexus_rp_ctn_patzero: {i}(Coughs.){/i}
+├ option 3:
+    nexus_rp_ctn_patzero: {i}(Coughs.){/i}
+└─ merge ─┘
+Hero: Damn it. Damn it!
+SAM: We cannot risk anyone getting a sample of the virus from the body.
+Hero: Stasis pod. We'll bring her back to the Nexus and Harry can make arrangements.
+Hero: Suvi? There's a stasis pod here ready for pick-up. Follow proper decontamination procedures, okay?
+global_crew_science_officer: You found her. Is she okay?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Ruth didn't make it.
+    global_crew_science_officer: Oh. Oh no.
+├ option 2:
+    Hero: All wrapped up and ready to go. Maybe we'll find a cure for her someday.
+    global_crew_science_officer: I hope so.
+└─ merge ─┘

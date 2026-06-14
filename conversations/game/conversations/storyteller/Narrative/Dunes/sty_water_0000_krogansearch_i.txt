@@ -1,0 +1,30 @@
+# game/conversations/storyteller/narrative/dunes/sty_water_0000_krogansearch_i
+# Primary speaker: dune_water_ST_krogscout01
+# Source: game/conversations/storyteller/Narrative/Dunes/sty_water_0000_krogansearch_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    dune_water_ST_krogscout01 ⟨cond⟩ [OncePerGame]: Hey, it's the Pathfinder.
+    dune_water_st_krogscout02: Ryder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Any assistance I can offer?
+        dune_water_ST_krogscout01: We were just about to pack it in.
+        dune_water_ST_krogscout01: We were looking for a good water source for the colony. No luck though.
+        dune_water_ST_krogscout01: We've no idea where the merchant at Paradise is getting hers.
+        Hero: A lack of reliable water might be a problem later.
+        dune_water_ST_krogscout01: Yeah, and we don't have any choice but to trade with Annea.
+        dune_water_st_krogscout02: I'd ask for help, Ryder, but I'm not sure how you could.
+        dune_water_ST_krogscout01: Anyway, we should head back. Be well, Ryder.
+    ├ option 2:
+        Hero: What're you guys doing? It's a whole bunch of nothing out here.
+        dune_water_ST_krogscout01: Have you heard about the merchant in Paradise with an unlimited supply of water?
+        dune_water_ST_krogscout01: We thought we'd try to see where she got it from. No luck though.
+        ↩ (goto) Hero: A lack of reliable water might be a problem later.
+    └─ merge ─┘
+├ option 2:
+    dune_water_ST_krogscout01 [OncePerGame]: Hey, it's the Pathfinder.
+    ↩ (goto) dune_water_st_krogscout02: Ryder.
+├ option 3:
+    dune_water_st_krogscout02: Be safe out there, Ryder.
+└─ merge ─┘

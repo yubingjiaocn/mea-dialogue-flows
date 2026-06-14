@@ -1,0 +1,126 @@
+# game/conversations/rel/cora/cora_r4_tem_loyaltyreact_d
+# Primary speaker: global_squad_female_human
+# Source: game/conversations/rel/cora/cora_r4_tem_loyaltyreact_d.xml
+==================================================
+Narration: Ryder walks into the Meeting Room. Cora is sitting with her back to them, staring out of the window into space.
+Hero: Hey. You okay?
+global_squad_female_human: Can I just do today over again?
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: And not topple a hero in front of her entire ark?
+    global_squad_female_human: I put so much faith in Sarissa. But the asari were just as lost as we are.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: So much for centuries of wisdom and experience, huh?
+        global_squad_female_human: Guess we're all just bailing each other out.
+        Narration: A beat.
+        global_squad_female_human: Thank you for being there, on the Leusinia. Can I tell you something?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Anything.
+            global_squad_female_human: The old man was right to choose you as Pathfinder instead.
+            global_squad_female_human: I don't blaze a trail. I always look for the mentor, their plan...
+            global_squad_female_human: As a Pathfinder? My mistakes would be worse than Sarissa's.
+            ┌─ BRANCH (6) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: Everyone makes mistakes. You're still you: smart, talented, wonderful Cora.
+                global_squad_female_human: That's what you see?
+                Hero: It's what I always see.
+                global_squad_female_human: How? You're so important, and... damn heroic, and all I see in the mirror is Sarissa. The Pathfinder I might have been.
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    Hero: If that's true, what are you going to do about it?
+                    global_squad_female_human: No idea yet.
+                    Hero: Well, you're still welcome aboard while you figure it out.
+                    Narration: Cora smiles.
+                    ┌─ BRANCH (3) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: Look. Maybe there's things I should have seen. In myself, and in you. I just...
+                        global_squad_female_human: I feel a hell of a lot better with you here.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Would a hug be okay?
+                            global_squad_female_human: Absolutely.
+                            Narration: They hug. It's affectionate, a clear sense of more than friendship, but they don't linger too long.
+                            global_squad_female_human: Thanks.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                            ├ option 2:
+                                global_squad_female_human: I'm okay. Or I will be. Just have some thinking to do—if I can get you off my mind.
+                                ↩ (goto) global_squad_female_human: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: I'll be here as long as you need me.
+                            global_squad_female_human: Can't keep our best Pathfinder from duty. However selfish I want to be.
+                            ↩ (goto) global_squad_female_human: I'm okay. Or I will be. Just have some thinking to do—if I can get you off my mind.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_female_human ⟨cond⟩: Look. I know we flirt, the other person flirts back, and it's fun. But—real talk?
+                        ↩ (goto) global_squad_female_human: I feel a hell of a lot better with you here.
+                    ├ option 3:
+                        global_squad_female_human: Look. Neither of us chose this, but maybe we both ended up where we needed to be.
+                        global_squad_female_human: Even if we lost your father. But it's happened. If you can't outrun it, got to use it.
+                        Hero: What did you...?
+                        global_squad_female_human: Hmm? He said something like that once. Still true.
+                        global_squad_female_human: I need to think a bit. But I'll be okay. And on deck whenever you need me.
+                        ↩ (goto) global_squad_female_human: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Sarissa? She lied just to stay a hero. You fight, you save lives, and you don't need applause for doing it.
+                    global_squad_female_human: That isn't—
+                    Hero: It {i}is{/i} true. Deal with it.
+                    ↩ (goto) Narration: Cora smiles.
+                ├ option 3:
+                    Hero: You defended us on Habitat 7, found the asari ark, and fought the kett—all without being a Pathfinder.
+                    global_squad_female_human: That's just my job.
+                    Hero: And you're really good at it.
+                    ↩ (goto) Narration: Cora smiles.
+                ├ option 4:
+                    Hero ⟨cond⟩: You know I can't do this without you.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_female_human ⟨cond⟩: Scott—
+                        Hero: Okay, I don't {i}want{/i} to do this without you.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: Look. Maybe there's things I should have seen. In myself, and in you. I just...
+                        ├ option 2:
+                            ↩ (goto) global_squad_female_human ⟨cond⟩: Look. I know we flirt, the other person flirts back, and it's fun. But—real talk?
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_female_human: Ryder—
+                        ↩ (goto) Hero: Okay, I don't {i}want{/i} to do this without you.
+                    └─ merge ─┘
+                ├ option 5:
+                    Hero ⟨cond⟩: I still want you on my team, and as my friend. I hope that counts for something.
+                    global_squad_female_human: Everything, actually.
+                    Narration: Cora smiles.
+                    ↩ (goto) global_squad_female_human: Look. Neither of us chose this, but maybe we both ended up where we needed to be.
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: If that's true, what are you going to do about it?
+            ├ option 3:
+                ↩ (goto) Hero: Sarissa? She lied just to stay a hero. You fight, you save lives, and you don't need applause for doing it.
+            ├ option 4:
+                ↩ (goto) Hero: You defended us on Habitat 7, found the asari ark, and fought the kett—all without being a Pathfinder.
+            ├ option 5:
+                ↩ (goto) Hero ⟨cond⟩: You know I can't do this without you.
+            ├ option 6:
+                ↩ (goto) Hero ⟨cond⟩: I still want you on my team, and as my friend. I hope that counts for something.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Sure.
+            ↩ (goto) global_squad_female_human: The old man was right to choose you as Pathfinder instead.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: We know our mission. I think we're finding our way pretty well.
+        global_squad_female_human: {i}(Chuckles.){/i} Should've known better than to say that to a {i}Pathfinder{/i}.
+        ↩ (goto) Narration: A beat.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: And not run away from my duty?
+    ↩ (goto) global_squad_female_human: I put so much faith in Sarissa. But the asari were just as lost as we are.
+├ option 3:
+    global_squad_female_human ⟨cond⟩: And not have a Pathfinder stripped of everything she loves?
+    ↩ (goto) global_squad_female_human: I put so much faith in Sarissa. But the asari were just as lost as we are.
+└─ merge ─┘

@@ -1,0 +1,59 @@
+# game/conversations/hubs/hub_kad/rp/kad_nightout_0400_keema_i
+# Primary speaker: kad_ang_rep
+# Source: game/conversations/hubs/hub_kad/rp/kad_nightout_0400_keema_i.xml
+==================================================
+kad_ang_rep: Good to see you again, Pathfinder.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: How did you meet Reyes?
+    kad_ang_rep: The only way anyone meets Reyes Vidal—through business. His skills are very valuable in Kadara Port.
+    ↩ (goto) ?: [empty]
+├ option 2:
+    Hero: What's it mean to be an angaran representative to Sloane?
+    kad_ang_rep: Sloane relies on me to provide an angaran perspective.
+    Hero: Does she listen to you?
+    kad_ang_rep: Only in extreme cases. She makes a show of being pro-angaran, but her priority is the Outcasts.
+    kad_ang_rep: She throws these parties to mollify my people. It won't work forever.
+    ↩ (goto) ?: [empty]
+├ option 3:
+    Hero: Are you part of the Resistance?
+    kad_ang_rep: No. Evfra and I share information, but Kadara's problems come first.
+    kad_ang_rep: If war breaks out between the Collective and the Outcasts, it will be my people who suffer.
+    ↩ (goto) ?: [empty]
+├ option 4:
+    Hero: I hope these pirates haven't given you a bad view of my people.
+    kad_ang_rep: {i}(Laughs.){/i} Don't worry, Ryder. I judge individuals, not groups.
+    kad_ang_rep: You, for example, I like. Not sure about who you work for, but I've learned to keep my options open.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You never know who might end up in charge.
+        kad_ang_rep: Exactly.
+        ↩ (goto) ?: [empty]
+    ├ option 2:
+        Hero: I don't think Sloane would appreciate that mindset.
+        kad_ang_rep: Probably not. But she doesn't control everything in Kadara.
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 5:
+    Hero: Have you seen Reyes?
+    kad_ang_rep: No, but I'm sure he'll be back soon.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_ang_rep ⟨cond⟩: He likes you.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: I've gotten that impression.
+            kad_ang_rep: And he thinks he's so subtle.
+            ↩ (goto) ?: [empty]
+        ├ option 2:
+            Hero: Oh, yeah. That's why he ditched me at a party he invited me to.
+            kad_ang_rep: The thing about Reyes is he always has a good reason. You'll see.
+            ↩ (goto) ?: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 6:
+    Hero: Nice talking to you, Keema.
+    kad_ang_rep: Likewise, Pathfinder.
+└─ merge ─┘

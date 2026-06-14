@@ -1,0 +1,33 @@
+# game/conversations/unc_dunes/dune_0305_rem_door_b
+# Primary speaker: 
+# Source: game/conversations/unc_dunes/dune_0305_rem_door_b.xml
+==================================================
+Hero: If Morda wants this derelict's drive core, what's her plan to get in?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Morda? With her bare hands. Also, explosives probably.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Judging by the pile of dead krogan, the scavengers didn't like her plan.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: Judging by the pile of dead krogan, scavengers weren't in on the plan.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Judging by the pile of dead krogan, scavengers didn't like her plan.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Judging by the pile of dead krogan, scavengers wanted in on the plan.
+    ├ option 5:
+        global_squad_female_human ⟨cond⟩: Judging by the pile of dead krogan, scavengers didn't like her plan.
+    └─ merge ─┘
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Brute force? Headbutts.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Brute force? The krogan's favorite weapon.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Brute force? I never underestimate a krogan.
+    ↩ (goto) global_squad_angara: [empty]
+├ option 5:
+    global_squad_asari ⟨cond⟩: Brute force? Headbutts? Explosives?
+    ↩ (goto) global_squad_angara: [empty]
+└─ merge ─┘

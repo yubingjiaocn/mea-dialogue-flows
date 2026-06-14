@@ -1,0 +1,65 @@
+# game/conversations/hubs/hub_tem/banter/tem_phase6_cargobay_b
+# Primary speaker: global_squad_krogan
+# Source: game/conversations/hubs/hub_tem/banter/tem_phase6_cargobay_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_asari: [Comm] Hey, come see me in my poor excuse for a room. Please.
+    ├ option 2:
+        global_crew_tech_officer: [Comm] Hey, come see me in engineering.
+    ├ option 3:
+        global_squad_krogan: [Comm] I'm in the galley, if you feel like catching up.
+    ├ option 4:
+        global_squad_turian: [Comm] I'm in the armory, Ryder.
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_krogan: A toast to the vanquished!
+        global_squad_turian: The Archon—face down, ass up!
+        global_squad_asari: So long, bone brain!
+        global_crew_tech_officer: How about to Meridian.
+        global_squad_turian: To dreams. And family.
+        global_squad_asari: To whatever's next, may it be beyond our imagination.
+        global_squad_krogan: It's my toast, and it's to the vanquished!
+        global_crew_tech_officer: Here, here, then!
+    ├ option 2:
+        global_squad_turian: I can't believe it.
+        global_squad_krogan: It's ridiculous.
+        global_squad_asari: It's hilarious, is what it is.
+        global_crew_tech_officer: Not from where I'm sitting.
+        global_squad_turian: I thought it would be me.
+        global_crew_tech_officer: I thought it would be you, too.
+        global_squad_asari: Nope. The poker king is dead, at the hands of Jaal.
+        global_squad_krogan: {i}(Belly laughs.){/i} He kicked your engineer ass.
+    ├ option 3:
+        global_squad_turian: So what's next for you guys? What's the next big adventure?
+        global_squad_krogan: New Tuchanka. Maybe stick with Ryder. Gotta keep working or I'll die of boredom.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_crew_tech_officer ⟨cond⟩: For me, I... I guess... being a dad.
+            global_squad_turian: You're gonna be great. Trust me. And if you need any tips—
+            global_squad_asari: Ew. Baby poop.
+            global_squad_turian: If you need any tips, don't go to Peebee.
+        ├ option 2:
+            global_crew_tech_officer: I'm going to need a vacation. See something other than the inside of this boat for once.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_asari ⟨cond⟩: Ryder. Ryder's my adventure.
+            ├ option 2:
+                global_squad_asari: I'll know my next big adventure when I run into it.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 4:
+        global_crew_tech_officer: Drack, tell us the story about the thresher maw again.
+        global_squad_krogan: The one I killed with my bare hands?
+        global_squad_asari: Yeah! That's a good one.
+        global_squad_krogan: It's a pretty long story, but sure. One day, a while back, I was out picking rocks on the verge...
+        global_crew_tech_officer: Get to the good part!
+        global_squad_asari: Yeah. The good part!
+        global_squad_krogan: And then I killed the thresher maw with my bare hands?
+        global_crew_tech_officer: Awesome.
+    └─ merge ─┘
+└─ merge ─┘

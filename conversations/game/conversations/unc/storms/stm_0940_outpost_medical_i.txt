@@ -1,0 +1,119 @@
+# game/conversations/unc/storms/stm_0940_outpost_medical_i
+# Primary speaker: stm_outpost_staff_medical
+# Source: game/conversations/unc/storms/stm_0940_outpost_medical_i.xml
+==================================================
+stm_outpost_staff_medical [OncePerGame]: August said you might swing by. Ryder, yes?
+stm_outpost_staff_medical: Doctor Ramirez. I run the clinic here on Eos. Much better than life as an Alliance medic.
+Hero: Good to meet you.
+stm_outpost_staff_medical: I'll guess you're not here for a check-up. How can I help you?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    Hero [OncePerConversation]: What's the latest from your clinic?
+    ┌─ BRANCH (10) ─┐
+    ├ option 1:
+        stm_outpost_staff_medical [OncePerGame]: Usual check-ups for first-in colonists, plus a few cases of dehydration and sun blindness. Nothing serious.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        stm_outpost_staff_medical ⟨cond⟩: Might not be a clinic much longer.
+        stm_outpost_staff_medical: August and I are talking about building a full-fledged hospital. It'll need a director, but that won't be me.
+        stm_outpost_staff_medical: That takes someone comfortable at a desk. I belong with my patients.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        stm_outpost_staff_medical ⟨cond⟩ [OncePerGame]: First aid classes. Medi-gel can't replace a splint. If I say it enough, someone will listen.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        stm_outpost_staff_medical ⟨cond⟩ [OncePerGame]: Trying to quell people's fears—and mine—about exaltation. At least there aren't kett here, thanks to you.
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        stm_outpost_staff_medical [OncePerGame]: A few dozen allergy cases. Normal for acclimating to a new planet.
+        stm_outpost_staff_medical: In the military, you'd tough it out. It's good to see them getting better.
+        ↩ (goto) Hero: [empty]
+    ├ option 6:
+        stm_outpost_staff_medical ⟨cond⟩ [OncePerGame]: That reminds me: keep your jump-jets maintained. I just spent two hours patching up someone who didn't.
+        ↩ (goto) Hero: [empty]
+    ├ option 7:
+        stm_outpost_staff_medical [OncePerGame]: Got a few people in quarantine. Looks like food poisoning, but better safe than a statistic.
+        ↩ (goto) Hero: [empty]
+    ├ option 8:
+        stm_outpost_staff_medical ⟨cond⟩: Still no evidence of adverse effects from Meridian.
+        stm_outpost_staff_medical: You might just have accomplished the impossible, Ryder—a miracle without fine print.
+        ↩ (goto) Hero: [empty]
+    ├ option 9:
+        stm_outpost_staff_medical ⟨cond⟩: The usual soldier's complaints. Nothing to worry about.
+        ↩ (goto) Hero: [empty]
+    ├ option 10:
+        stm_outpost_staff_medical ⟨cond⟩: A few regular patients, but nothing for you to worry about.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: Why did you join the Andromeda Initiative?
+    stm_outpost_staff_medical: I served in the Alliance as a medic, but... let's say I saw one batarian slave raid too many.
+    stm_outpost_staff_medical: I knew August—Bradley—and when he signed onto the Initiative; he suggested I consider it.
+    stm_outpost_staff_medical: This seemed like a better frontier.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    Hero: What do you think of Bradley?
+    stm_outpost_staff_medical: I've known him for years. I was the squad medic when he was injured, and we kept in touch after his discharge.
+    stm_outpost_staff_medical: He's a smart fellow. A good lieutenant, but a better mayor.
+    stm_outpost_staff_medical: And it bugs him when I call him "August," so I restrict myself to... oh, two or three times a day.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    Hero: What's it like living in our first successful outpost?
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        stm_outpost_staff_medical ⟨cond⟩: These days? Things are stable. We've acclimated to Eos—to home.
+        stm_outpost_staff_medical: We know the tricks for surviving here. Someday our kids will learn them along with their ABCs.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        stm_outpost_staff_medical ⟨cond⟩: More rewarding than I'd thought. My patients are the neighbors I see every day.
+        stm_outpost_staff_medical: I have to be on the lookout for any new diseases, sure. But I know exactly who I'm staying vigilant for.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        stm_outpost_staff_medical ⟨cond⟩: Don't let the other outposts hear that. They're learning from us and catching up fast.
+        stm_outpost_staff_medical: We still got to be first, though. No harm reminding them of that.
+        ↩ (goto) Hero: [empty]
+    ├ option 4:
+        stm_outpost_staff_medical ⟨cond⟩: Reminds me of my Alliance days. All these soldiers look so... young. But they're eager.
+        stm_outpost_staff_medical: We know we'll make this work.
+        ↩ (goto) Hero: [empty]
+    ├ option 5:
+        stm_outpost_staff_medical ⟨cond⟩: It's early days, but promising. Everyone pitches in. Everyone matters.
+        ↩ (goto) stm_outpost_staff_medical: We know we'll make this work.
+    └─ merge ─┘
+├ option 5:
+    Hero: I'll leave you to it.
+    stm_outpost_staff_medical: Come back any time. Preferably unhurt.
+└─ merge ─┘
+stm_outpost_staff_medical: Those Roekaar shook us up, all right. I was flashing back to my run-ins with the batarians.
+stm_outpost_staff_medical: But I had good people around me. And you to help us out.
+↩ (goto) Hero: [empty]
+stm_outpost_staff_medical: Everyone's asking what activating Meridian might mean for them. Hell, what do I even look for?
+Hero: I was on Meridian when it activated, and I'm just fine.
+stm_outpost_staff_medical: You're {i}something{/i}, Ryder. That's for sure.
+↩ (goto) Hero: [empty]
+stm_outpost_staff_medical: August said you booted the kett out of some Remnant city. Sounds like quite the encounter.
+Hero: We still have to find Meridian.
+stm_outpost_staff_medical: While the kett are mad that you tweaked their tail.
+stm_outpost_staff_medical: If they're anything like the batarians, they'll be out for blood. Be careful.
+↩ (goto) Hero: [empty]
+stm_outpost_staff_medical: Word is we've got neighbors—on a beautiful paradise planet.
+Hero: Tempted to move?
+stm_outpost_staff_medical: My clinic's staying put. There's no place like home, and Eos is it.
+stm_outpost_staff_medical: Did you need something?
+↩ (goto) Hero: [empty]
+stm_outpost_staff_medical: I thought nothing could top batarians for cold-blooded brutality.
+stm_outpost_staff_medical: Then we find out about exaltation. Pure evil.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It turns you into one of them, and makes you believe it's for the best.
+    stm_outpost_staff_medical: I'd sooner die. Hope it doesn't come to that.
+    stm_outpost_staff_medical: Let's talk about something else.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    Hero: To the kett, exaltation's a blessing they give to "lesser species."
+    stm_outpost_staff_medical: Even batarians never sank that low.
+    ↩ (goto) stm_outpost_staff_medical: Let's talk about something else.
+└─ merge ─┘
+stm_outpost_staff_medical: Ryder.
+↩ (goto) Hero: [empty]
+↩ (goto) Hero: [empty]

@@ -1,0 +1,62 @@
+# game/conversations/unc_ice/ice_trailblaz_0100_i
+# Primary speaker: ICE_Ibyl
+# Source: game/conversations/unc_ice/ice_trailblaz_0100_i.xml
+==================================================
+ICE_Ibyl: [Audio Log] Father, mother... if I don't get to Techiix, I hope the Resistance finds this message—and you.
+ICE_Ibyl: [Audio Log] I love you both so much. I didn't want to leave you alone in that cave.
+ICE_Ibyl: [Audio Log] The kett are following me. They'll take me, just like Oren and Ulri.
+ICE_Ibyl: [Audio Log] What do they want with our family? Why is this happening to us?
+ICE_Ibyl: [Audio Log] I hear them. They're close. I love you... I love you.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: They took her.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: That recording we found in the cave... this must've been their daughter. SAM, any life signs nearby?
+        SAM: I detect no angara in our vicinity. Whoever made this recording left no trail to follow.
+        Hero: SAM, transmit these audio logs to the Resistance. There's nothing more we can do here.
+    ├ option 2:
+        Hero: She had to leave her parents in a bad place. SAM, any chance we can find the cave she mentioned?
+        SAM: There are several potential sites nearby. I recommend a thorough search of the area.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari ⟨cond⟩: She didn't make it, did she?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    global_squad_female_human ⟨cond⟩: She left this behind for them.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Poor kid didn't have a chance.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 5:
+    global_squad_male_human ⟨cond⟩: She knew she wouldn't make it.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 6:
+    global_squad_turian ⟨cond⟩: Whatever happened, it's over.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: [empty]
+    ├ option 2:
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+└─ merge ─┘

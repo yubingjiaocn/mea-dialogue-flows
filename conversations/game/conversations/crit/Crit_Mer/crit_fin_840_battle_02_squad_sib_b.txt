@@ -1,0 +1,287 @@
+# game/conversations/crit/crit_mer/crit_fin_840_battle_02_squad_sib_b
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/Crit_Mer/crit_fin_840_battle_02_squad_sib_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Scott, where to?
+    global_sibling_male: Nav marked for one of his main power draws!
+    global_sibling_male: Get there! I'll try to expose it so you can interface! Hurry!
+├ option 2:
+    Hero: Sara, where to?
+    global_sibling_female: Nav marked for one of his main power draws!
+    global_sibling_female: Get there! I'll try to expose it so you can interface! Hurry!
+└─ merge ─┘
+Hero: The nav is across a gap! We need a bridge!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: I can't... arggh! Look for an interface!
+    Hero: On it!
+├ option 2:
+    global_sibling_female: I'm trying but... arrgh! Find an interface!
+    ↩ (goto) Hero: On it!
+└─ merge ─┘
+Hero: Got it! Heading to the relay!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: The Archon's fighting me... I don't have your practice!
+    SAM: Assisting.
+    Hero: SAM?
+    SAM: I'm still restricted, but the more Remnant you destroy, the more fractured the Archon's attention.
+    Hero: Hold position, kill Remnant! I'm on it!
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩ [OncePerGame]: SAM? Soft spot?
+        SAM: The armored head, Scott.
+        global_sibling_male: Let's open it up!
+    ├ option 2:
+        global_sibling_female ⟨cond⟩ [OncePerGame]: SAM? Weakness?
+        SAM: The armored head, Sara.
+        global_sibling_female: Shield's open, fucker!
+        ↩ (goto) global_sibling_female: [empty]
+    ├ option 3:
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            SAM: The Architect's head is open to attack.
+        ├ option 2:
+            SAM: The Architect's shielding is open.
+        ├ option 3:
+            SAM: The Architect's head is now vulnerable.
+        ├ option 4:
+            SAM: Target the head to stop the Architect from firing.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: The Archon's fighting me... I don't have your practice!
+    ↩ (goto) SAM: Assisting.
+└─ merge ─┘
+┌─ BRANCH (12) ─┐
+├ option 1:
+    SAM: Stay in range to expose the relay.
+├ option 2:
+    SAM: Stay closer, Pathfinder.
+├ option 3:
+    SAM: Stay in range of the relay.
+├ option 4:
+    SAM: Hold position near the relay.
+├ option 5:
+    global_sibling_female ⟨cond⟩: Get back in range! I need him distracted!
+├ option 6:
+    global_sibling_female ⟨cond⟩: Don't leave the relay! I need you there!
+├ option 7:
+    global_sibling_female ⟨cond⟩: Get closer! It keeps him from fighting me!
+├ option 8:
+    global_sibling_female ⟨cond⟩: Keep his Remnant busy so I can focus!
+├ option 9:
+    global_sibling_male ⟨cond⟩: Get back in range! I need him distracted!
+├ option 10:
+    global_sibling_male ⟨cond⟩: Don't leave the relay! I need you there!
+├ option 11:
+    global_sibling_male ⟨cond⟩: Get closer! It keeps him from fighting me!
+├ option 12:
+    global_sibling_male ⟨cond⟩: Keep his Remnant busy so I can focus!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: Got it exposed! Lock it down! Interface now!
+├ option 2:
+    global_sibling_female: Got it exposed! Lock it down! Interface now!
+    ↩ (goto) global_sibling_male: [empty]
+└─ merge ─┘
+Hero: Power relay is down! Give me another target!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: There! The Archon's pulling power on the other side!
+    Hero: Let's go!
+├ option 2:
+    global_sibling_female: There! The Archon's pulling power on the other side!
+    ↩ (goto) Hero: Let's go!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Keep it together, Scott. I'm on my way!
+    global_sibling_male: SAM's helping, I think.
+    SAM: Don't take long, Pathfinder.
+├ option 2:
+    Hero: Keep it together, Sara. I'm on my way!
+    global_sibling_female: SAM's helping, I think.
+    ↩ (goto) SAM: Don't take long, Pathfinder.
+└─ merge ─┘
+Hero: Another gap! I'm not seeing an interface!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: Hold there! I'll try and raise the platform!
+    Hero: Are you sure?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩: No? But we have to win this!
+    ├ option 2:
+        global_sibling_female: No? But we have to win this!
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: Hold there! I'll try and raise the platform!
+    ↩ (goto) Hero: Are you sure?
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: I've got it, I... Rrrgh!
+    Hero: Scott! Are you okay?
+    SAM: You need to hurry, Pathfinder. We're all straining.
+├ option 2:
+    global_sibling_female: I've got it, I... Rrrgh!
+    Hero: Sara! Are you okay?
+    ↩ (goto) SAM: You need to hurry, Pathfinder. We're all straining.
+└─ merge ─┘
+Hero: I'm in range! Expose the relay!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: I'm trying. I... arrgh!
+    Hero: We've almost got him, don't give up!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male ⟨cond⟩: I'm not done yet! Hold there!
+    ├ option 2:
+        global_sibling_female: I'm not done yet! Hold there!
+    └─ merge ─┘
+├ option 2:
+    global_sibling_female: I'm trying. I... arrgh!
+    ↩ (goto) Hero: We've almost got him, don't give up!
+└─ merge ─┘
+Hero: Relay down! Tell me how to bring this all home!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_sibling_male ⟨cond⟩: One more. Just... one?
+    Hero: Scott? Scott?
+    SAM: We are out of time, Pathfinder. Hurry.
+├ option 2:
+    global_sibling_female: One more. Just... one?
+    Hero: Sara? Sara?
+    ↩ (goto) SAM: We are out of time, Pathfinder. Hurry.
+└─ merge ─┘
+Hero: We're at the last relay!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Scott? We're here!
+    SAM: Your brother needs you to hurry, Pathfinder.
+    Hero: Hold on!
+├ option 2:
+    Hero: Sara? We're here!
+    SAM: Your sister needs you to hurry, Pathfinder.
+    ↩ (goto) Hero: Hold on!
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    Hero: Fell out of range. Hang on!
+├ option 2:
+    Hero: I need to get back in closer!
+├ option 3:
+    ↩ (goto) SAM: Stay in range to expose the relay.
+├ option 4:
+    ↩ (goto) SAM: Stay closer, Pathfinder.
+├ option 5:
+    ↩ (goto) SAM: Stay in range of the relay.
+├ option 6:
+    ↩ (goto) SAM: Hold position near the relay.
+└─ merge ─┘
+SAM: The relay is exposed, Pathfinder.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Shut the Archon down!
+├ option 2:
+    global_squad_asari ⟨cond⟩: Pull the plug on him! End it!
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Cut the Archon goddamn off!
+├ option 4:
+    global_squad_turian ⟨cond⟩: Put the archon down, Pathfinder!
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Cut the Archon out! End him!
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Time to end this, Pathfinder!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: Get all targets! Keep a straight course!
+    ├ option 2:
+        Hero: Clear everything to the relay!
+    ├ option 3:
+        Hero: Keep moving! We need the power relay!
+    ├ option 4:
+        Hero: Sweep as we go! Navpoint's ahead!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        Hero: Nav's ahead! Take them all out!
+    ├ option 2:
+        Hero: Keep pushing for the power relay!
+    ├ option 3:
+        Hero: Keep it up! Relay's ahead!
+    ├ option 4:
+        Hero: Hit them all on the way! No stopping!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: Clear the Remnant! I want room!
+    ├ option 2:
+        Hero: Still Remnant! Need them gone!
+    ├ option 3:
+        Hero: Clear the field so Scott can think!
+    ├ option 4:
+        Hero: Target stragglers! Scott, get ready!
+    ├ option 5:
+        Hero: Remnant still incoming!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        Hero: Clean it up! Don't leave him any toys!
+    ├ option 2:
+        Hero: We're here! Finish the Remnant!
+    ├ option 3:
+        Hero: Clear 'em out so Sara can focus!
+    ├ option 4:
+        Hero: Find the leftovers! Sara, get ready!
+    ├ option 5:
+        Hero: Remnant hiding out there!
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_male [OncePerGame]: The Archon's big pet is shooting! Head's up!
+    ├ option 2:
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_sibling_male: Architect's on you!
+        ├ option 2:
+            global_sibling_male: Architect's firing!
+        ├ option 3:
+            global_sibling_male: Hit the deck!
+        ├ option 4:
+            global_sibling_male: Watch out!
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_sibling_female [OncePerGame]: He's making the Architect attack! Look out!
+    ├ option 2:
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_sibling_female: Architect's firing!
+        ├ option 2:
+            global_sibling_female: Watch out for the Architect!
+        ├ option 3:
+            global_sibling_female: Find cover!
+        ├ option 4:
+            global_sibling_female: It's firing again!
+        └─ merge ─┘
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) Hero: [empty]

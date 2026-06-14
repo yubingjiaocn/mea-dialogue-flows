@@ -1,0 +1,74 @@
+# game/conversations/hubs/hub_nexus/bar/nex_bar_react_01_a
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_nexus/bar/nex_bar_react_01_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_bar_gossip_afc_01 ⟨cond⟩: Wait, wait. Let me get this right. The Pathfinder made a friendly first contact?
+    nex_bar_gossip_afc_02: That's what I heard. I mean—the angara didn't shoot them on sight. That counts as friendly, right?
+    nex_bar_gossip_afc_01: Does to me.
+├ option 2:
+    nex_bar_gossip_afc_01: Wait, wait. Let me get this right. The Pathfinder made a friendly first contact?
+    ↩ (goto) nex_bar_gossip_afc_02: That's what I heard. I mean—the angara didn't shoot them on sight. That counts as friendly, right?
+└─ merge ─┘
+nex_bar_gossip_afc_01: Did you hear Ben tried to say no to Vetra?
+nex_bar_gossip_afc_02: Wow. That can't have worked out well for him.
+nex_bar_gossip_afc_01: All she did was wave a box of Blast-Ohs around, and boom. He folded.
+nex_bar_gossip_afc_02: {i}(Laughs.){/i} So that's why Addison reamed him out! "For a box of cereals? Are you kidding me?"
+nex_bar_gossip_ecs_01: Elena is so happy right now. I mean, it's hard as hell and everything is dust, but she's loving it.
+nex_bar_gossip_ecs_02: Well, good on her. I'm sure Prodromos will be awesome.
+nex_bar_gossip_ecs_02: Me? I'm happy to stay here until they set up the colony properly. Not a fan of dust.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_bar_gossip_sab_02: Wait—it's gone? The whole ark?
+    nex_bar_gossip_ecs_02: Yeah. We're not getting that boost to station power, that's for sure.
+    nex_bar_gossip_sab_02: Screw the power—what about the turians?
+    nex_bar_gossip_ecs_02: Oh. Um. A lot of them died.
+├ option 2:
+    nex_bar_gossip_tar_01: How's Avitus handling Macen's death?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        nex_bar_gossip_tar_02 ⟨cond⟩: Being Pathfinder is giving him purpose. He's just as good at it as you'd imagine.
+        nex_bar_gossip_tar_01: I'm glad to hear it.
+    ├ option 2:
+        nex_bar_gossip_tar_02: Not good. Contact of mine saw him in Kadara Port. Dead drunk.
+        nex_bar_gossip_tar_01: He and Avitus...
+        nex_bar_gossip_tar_02: Yeah.
+    └─ merge ─┘
+└─ merge ─┘
+nex_bar_gossip_tar_01: The asari ark is back, did you hear?
+nex_bar_gossip_tar_02: Everyone heard. It was all over the news network and every single comm.
+nex_bar_gossip_vls_02: That crazy old krogan is around again. Did you see him?
+nex_bar_gossip_vls_01: No. And I'm keeping it that way.
+nex_bar_gossip_vls_02: He's not that bad. Tells good stories. Not that any of them could be true.
+nex_bar_gossip_vls_01: Don't care.
+nex_bar_gossip_vls_02: Still holding a grudge, huh?
+nex_bar_gossip_vls_01: Yep. He's an asshole and I don't want to talk about him.
+nex_bar_gossip_vls_01: Can you believe her? Just leaving like that. With her kid sister still on the station.
+nex_bar_gossip_vls_02: Sid's got a good head on her shoulders. She can manage.
+nex_bar_gossip_vls_01: Yeah, but she shouldn't have to. She's just a kid.
+nex_bar_gossip_vls_02: You've never lived on a colony before, have you? Colony kids learn to handle themselves. She'll be fine.
+nex_bar_gossip_vls_01: So apparently the angara have this big secret, but no one's talking.
+nex_bar_gossip_vls_02: Huh? What's this about?
+nex_bar_gossip_vls_01: I'm not sure? I overheard someone during my shift earlier.
+nex_bar_gossip_vls_01: Whatever it is, it's huge.
+nex_bar_gossip_sab_01: We have another ark back! I've never seen that many salarians at once.
+nex_bar_gossip_ecs_02: I heard. We're doing so much better on power levels too.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_bar_gossip_ecs_02 ⟨cond⟩: It's too bad about their Pathfinder, though.
+├ option 2:
+    nex_bar_gossip_ecs_02: They're pretty happy to be back, from what I've seen.
+└─ merge ─┘
+nex_bar_gossip_sab_01: Well, now we know where all the exiles got to.
+nex_bar_gossip_sab_02: Yeah. Sounds like the worst of the lot went to Kadara. It's rough over there.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    nex_bar_gossip_sab_01 ⟨cond⟩: Sloane's getting hardcore since she won that leadership thing.
+    nex_bar_gossip_sab_02: She was hardcore when she was here.
+    nex_bar_gossip_sab_01: Well, she's gotten worse.
+├ option 2:
+    nex_bar_gossip_sab_01 ⟨cond⟩: Keema's "in charge" now, I hear.
+    nex_bar_gossip_sab_02: I can practically hear the quotation marks.
+    nex_bar_gossip_sab_01: Everyone knows who's pulling those strings.
+└─ merge ─┘

@@ -1,0 +1,291 @@
+# game/conversations/hubs/hub_aya/museum/aya_mus_moshae_i
+# Primary speaker: global_angaran_elder_multi
+# Source: game/conversations/hubs/hub_aya/museum/aya_mus_moshae_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_angaran_elder_multi: I never thought I'd be responsible for so much. Charting a future for everyone...
+    global_angaran_elder_multi: Can't decide if I should thank you—or strike you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: There's no one more qualified to face the future, Moshae.
+        global_angaran_elder_multi: Quite the diplomat. I should make you my assistant. {i}(Laughs.){/i}
+        global_angaran_elder_multi: Despite the pressure, I don't remember when I last felt so... light.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_angaran_elder_multi: You kept Meridian from the Archon. As good as your word.
+            global_angaran_elder_multi: It's the most beautiful place I've ever seen—and I live on Aya.
+            ┌─ BRANCH (5) ─┐
+            ├ option 1:
+                Hero: My translator doesn't know what to do with your title, Moshae.
+                global_angaran_elder_multi: Because it isn't a title—it's a reference. People from mythological times, before the Scourge.
+                global_angaran_elder_multi: Legends say we once had many Moshae. Master inventors of unfailing wisdom, guided by boundless compassion.
+                Hero: That's a lot to live up to.
+                global_angaran_elder_multi: It's nonsense. Don't remember who first called me "Moshae," but I do recall telling them to shut up.
+                global_angaran_elder_multi: To my regret, the name stuck. I've minded less, lately. Being the Moshae has its uses.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 2:
+                Hero: I'd like to know more about you.
+                global_angaran_elder_multi: What about me intrigues you?
+                ┌─ BRANCH (5) ─┐
+                ├ option 1:
+                    Hero: Are you originally from Aya, or someplace else?
+                    global_angaran_elder_multi: I was born on a research vessel in deep space. My parents were explorers.
+                    global_angaran_elder_multi: They never stayed in one place long. My own work has taken me to every world, many times over.
+                    global_angaran_elder_multi: They all try to claim me as their own, but if I'm honest... my favorite chair is here.
+                    ↩ (goto) global_angaran_elder_multi: [empty]
+                ├ option 2:
+                    Hero: You're an expert on several topics. Remnant, kett, stuff I don't even know exists...
+                    global_angaran_elder_multi: All true. Why? Do you want to be my student?
+                    Hero: Is that an option? Because I didn't train for this job. At all.
+                    global_angaran_elder_multi: Yet you do it well. There are two kinds of knowing: what we take in from the universe, and what's already inside us.
+                    global_angaran_elder_multi: You have the essentials figured out. The rest you can learn as you go.
+                    ↩ (goto) global_angaran_elder_multi: [empty]
+                ├ option 3:
+                    Hero: You and my crewmate have a close relationship. Any advice? Hints?
+                    global_angaran_elder_multi: He talks in his sleep.
+                    Hero: Uh...
+                    global_angaran_elder_multi: Worth it for the look on your face. Jaal is a dear—and hopeless—former student.
+                    global_angaran_elder_multi: He has a good spirit. You're lucky to have him. That's all.
+                    ↩ (goto) global_angaran_elder_multi: [empty]
+                ├ option 4:
+                    Hero: What are you working on these days?
+                    global_angaran_elder_multi: I thought being a kett prisoner was the worst fate imaginable. Then I got home and saw my backlog.
+                    global_angaran_elder_multi: Avela comes in every so often asking if I "have a second." At this rate, I'll never catch up.
+                    global_angaran_elder_multi: To answer your question, I'm busy with everything and nothing. We'll see which wins.
+                    ↩ (goto) global_angaran_elder_multi: [empty]
+                ├ option 5:
+                    ↩ (goto) global_angaran_elder_multi: [empty]
+                └─ merge ─┘
+            ├ option 3:
+                Hero: Any ideas on how we stop the kett for good?
+                global_angaran_elder_multi: The real question is: how do we define victory over them?
+                global_angaran_elder_multi: Complete eradication? Unlikely, costly, and... morally dubious.
+                global_angaran_elder_multi: Drive them away? How? What stops them from returning?
+                Hero: Peaceful coexistence doesn't seem to be an option.
+                global_angaran_elder_multi: There's much we still don't know.
+                global_angaran_elder_multi: The kett are not a simple problem. We can't reduce them to a simple solution.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 4:
+                Hero: When the kett are gone—if we fix all these worlds—what do the angara want?
+                global_angaran_elder_multi: Depends who you ask. We're {i}individuals{/i}. Paaran will continue spreading hope and optimism.
+                global_angaran_elder_multi: I don't know what Evfra will do without an enemy to fight. Retirement won't suit him.
+                global_angaran_elder_multi: As for me... maybe I'll just fade away. That's what people do when they're no longer needed, right? {i}(Laughs.){/i}
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 5:
+                Hero: Thank you, Moshae.
+                global_angaran_elder_multi: Isharay.
+            └─ merge ─┘
+        ├ option 2:
+            global_angaran_elder_multi: You have questions. Ask them.
+            ↩ (goto) global_angaran_elder_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'll give you one free hit. Just not the face.
+        global_angaran_elder_multi: I'll have you know, I've won my share of battles... decades ago. {i}(Laughs.){/i}
+        ↩ (goto) global_angaran_elder_multi: Despite the pressure, I don't remember when I last felt so... light.
+    └─ merge ─┘
+├ option 2:
+    global_angaran_elder_multi: Surprised you're here. Shouldn't you be off deciding the future?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I'm just a Pathfinder. Not up to me who goes where or when.
+        global_angaran_elder_multi: That's not entirely true, is it?
+        global_angaran_elder_multi: I don't mean to judge. In the end, we all do what we must.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_angaran_elder_multi ⟨cond⟩ [OncePerGame]: [empty]
+        ├ option 2:
+            ↩ (goto) global_angaran_elder_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Disagree with my decision all you want, but we have to move forward.
+        global_angaran_elder_multi: That's overly optimistic of you.
+        ↩ (goto) global_angaran_elder_multi: I don't mean to judge. In the end, we all do what we must.
+    └─ merge ─┘
+└─ merge ─┘
+↩ (goto) global_angaran_elder_multi ⟨cond⟩ [OncePerGame]: [empty]
+global_angaran_elder_multi: Jaal told me what you found in that Remnant city. The Jardaan. Their experiments.
+global_angaran_elder_multi: I want to be shocked. This discovery should change everything, but... it's like I've always known somehow.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You've spent your whole life exploring Remnant technology. You must have suspected {i}something{/i}.
+    global_angaran_elder_multi: I knew this technology existing on all our worlds wasn't a coincidence. But this...
+    global_angaran_elder_multi: There are so many new questions, I can barely keep track. Each query leads to ten more.
+    global_angaran_elder_multi: You've earned your title, Pathfinder.
+    ↩ (goto) global_angaran_elder_multi: [empty]
+├ option 2:
+    Hero: When it's safe to go back, you'll have a whole new playground.
+    global_angaran_elder_multi: {i}(Laughs.){/i} If what I hear is true, I'll be lucky to explore a tenth of it before I'm... too old.
+    ↩ (goto) global_angaran_elder_multi: There are so many new questions, I can barely keep track. Each query leads to ten more.
+└─ merge ─┘
+global_angaran_elder_multi: You did it. Infiltrated the Archon's vessel and returned victorious.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: And saved one of our lost colony ships from the kett.
+    global_angaran_elder_multi: You're getting a taste of the war we've fought for decades.
+    global_angaran_elder_multi: With the relic in your possession, you'll be able to find Meridian—and answers. I envy you.
+    ↩ (goto) global_angaran_elder_multi: [empty]
+├ option 2:
+    Hero: It's what I do. Bet that asshole Archon's expression was priceless.
+    global_angaran_elder_multi: I hope never to see him again. Once was enough.
+    ↩ (goto) global_angaran_elder_multi: With the relic in your possession, you'll be able to find Meridian—and answers. I envy you.
+└─ merge ─┘
+Hero: I found a device Vehn was using to communicate with the Archon.
+Hero: I think we can use it to triangulate that kett flagship's navpoint.
+global_angaran_elder_multi: All you have to do now is board it, steal the Meridian artifact, and escape in one piece.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You've been there. Tell me what to expect.
+    global_angaran_elder_multi: I saw very little. Corridors, an interrogation room... my prison cell.
+    global_angaran_elder_multi: The Archon's vessel is a place of pain and death for the kett's enemies.
+    global_angaran_elder_multi: No one has attempted anything like this before. For all our sakes, you must succeed.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_angaran_elder_multi: [empty]
+    ├ option 2:
+        global_angaran_elder_multi: Now it's my turn.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_angaran_elder_multi: Evfra informed me that the despot of Kadara Port—one of {i}your{/i} people—executed Vehn Terev.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Sloane isn't with my people—and she doesn't speak for us.
+                global_angaran_elder_multi: Her actions spoke loud enough. She had no right to kill Vehn.
+                global_angaran_elder_multi: What he did was inexcusable, not unforgivable. This isn't what I wanted.
+                global_angaran_elder_multi: {i}(Deep sigh.){/i} Regardless, it's done.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 2:
+                Hero: I spoke to Vehn. He had no regrets.
+                global_angaran_elder_multi: We know Vehn was hardly contrite at his execution.
+                Hero: I wasn't there.
+                ↩ (goto) global_angaran_elder_multi: What he did was inexcusable, not unforgivable. This isn't what I wanted.
+            └─ merge ─┘
+        ├ option 2:
+            global_angaran_elder_multi: Thank you for freeing Vehn Terev at Kadara. I'm told you saved him from execution.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I know you wanted to question him. Did you learn anything?
+                global_angaran_elder_multi: Enough to understand his motives. He lost his way, but I have hopes he'll find it again.
+                global_angaran_elder_multi: Evfra wanted to punish him. I suggested Vehn help tend Aya's gardens.
+                global_angaran_elder_multi: He spent too long surrounded by death. He needs to reconnect with life.
+                ↩ (goto) global_angaran_elder_multi: [empty]
+            ├ option 2:
+                Hero: What will you do with him? Are there prisons here?
+                ↩ (goto) global_angaran_elder_multi: Evfra wanted to punish him. I suggested Vehn help tend Aya's gardens.
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: When you put it like that, it doesn't sound so impossible.
+    global_angaran_elder_multi: Don't make light. You're venturing to a place of horrors you cannot imagine.
+    ↩ (goto) global_angaran_elder_multi: No one has attempted anything like this before. For all our sakes, you must succeed.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) global_angaran_elder_multi ⟨cond⟩: [empty]
+├ option 2:
+    ↩ (goto) global_angaran_elder_multi: [empty]
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_angaran_elder_multi: Jaal told me what happened with Akksul. I was prepared, but... the grief is deep.
+    global_angaran_elder_multi: Understand, the man I knew didn't fear the unknown. He cherished it.
+    global_angaran_elder_multi: My student... my friend... would never have turned his weapon on Jaal.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: The Akksul you knew died a long time ago.
+        global_angaran_elder_multi: No. He just got lost in the dark.
+        global_angaran_elder_multi: What a waste.
+        Hero: I can come back later...
+        global_angaran_elder_multi: No. I'd like to focus on something else. Tell me what you need.
+        ↩ (goto) global_angaran_elder_multi: [empty]
+    ├ option 2:
+        Hero: You didn't make him into a Roekaar. He chose that.
+        global_angaran_elder_multi: He was meant to lead. To show us a better future.
+        ↩ (goto) global_angaran_elder_multi: What a waste.
+    └─ merge ─┘
+├ option 2:
+    global_angaran_elder_multi: Jaal told me about your confrontation with Akksul. I'm grateful no one was killed.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Your old student is still out there. Will he come after us again?
+        global_angaran_elder_multi: I don't think he has it in him. He's alone.
+        global_angaran_elder_multi: The Roekaar have been exposed for what they really are. Akksul's faithful are pariahs—like him.
+        global_angaran_elder_multi: I might finally have a chance to reach him. Reason with him. Thank you for that.
+        ↩ (goto) global_angaran_elder_multi: [empty]
+    ├ option 2:
+        Hero: Akksul got off easy—but Jaal has one hell of a scar.
+        global_angaran_elder_multi: He bears it proudly. For me.
+        ↩ (goto) global_angaran_elder_multi: The Roekaar have been exposed for what they really are. Akksul's faithful are pariahs—like him.
+    └─ merge ─┘
+└─ merge ─┘
+global_angaran_elder_multi: The Roekaar attack on your colony is inexcusable. I'm ashamed it's come to this.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Don't blame yourself. The Roekaar take their orders from Akksul.
+    global_angaran_elder_multi: He was my student. I share responsibility for what he's become.
+    global_angaran_elder_multi: Please be careful. This could easily develop into something so much worse.
+    global_angaran_elder_multi: If the Roekaar transform into a {i}movement{/i}, I fear what happens to our alliance.
+    ↩ (goto) global_angaran_elder_multi: [empty]
+├ option 2:
+    Hero: Can you do anything to convince Akksul to trust us?
+    global_angaran_elder_multi: All he listens to is the sound of his own fear. His followers are just as lost.
+    ↩ (goto) global_angaran_elder_multi: Please be careful. This could easily develop into something so much worse.
+└─ merge ─┘
+global_angaran_elder_multi: You continue to surprise me, Pathfinder. Returning Voeld's ancient AI... a priceless treasure.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: The Initiative wouldn't be here without AIs. They're useful—usually.
+    global_angaran_elder_multi: This one will need special care.
+    global_angaran_elder_multi: Hard to believe an algorithm can experience emotional pain. Its loneliness is real.
+    global_angaran_elder_multi: Rehabilitating the AI is a priority, but we have other concerns. You need something.
+    ↩ (goto) global_angaran_elder_multi: [empty]
+├ option 2:
+    Hero: I don't know if anyone told you, but that thing's completely bonkers.
+    global_angaran_elder_multi: I've had the pleasure. Can't remember the last time a machine cursed my entire lineage.
+    ↩ (goto) global_angaran_elder_multi: Hard to believe an algorithm can experience emotional pain. Its loneliness is real.
+└─ merge ─┘
+global_angaran_elder_multi: Paavoa, Pathfinder. I've been considering that I'm at an age where I must look for someone to replace me.
+global_angaran_elder_multi: With your aid, our museum curator made an extraordinary discovery.
+global_angaran_elder_multi: I've always respected Avela, but I may have underestimated her. You've helped us both.
+↩ (goto) global_angaran_elder_multi: [empty]
+global_angaran_elder_multi: Thank you for helping Avela. I've never seen her so excited about her work.
+↩ (goto) global_angaran_elder_multi: [empty]
+global_angaran_elder_multi: I heard you met my old colleague, Daanfre. Good scientist. Unpleasant person.
+global_angaran_elder_multi: She shouldn't have tried to scan you without your consent.
+global_angaran_elder_multi: Thank you for indulging her rudeness. She's been reprimanded for her behavior.
+↩ (goto) global_angaran_elder_multi: [empty]
+↩ (goto) global_angaran_elder_multi: [empty]
+┌─ BRANCH (3) ─┐
+├ option 1:
+├ option 2:
+├ option 3:
+└─ merge ─┘
+Hero: You only told me a little about what happened to Aya's vault. What went wrong?
+global_angaran_elder_multi: I've spent my life asking that. I was barely an adult when it happened. Gifted, but naive.
+global_angaran_elder_multi: I was on the team experimenting with the vault. Our goal was to enhance Aya. We failed.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: How were you planning to enhance Aya—and why?
+    global_angaran_elder_multi: When we found this world, it was a paradise in infancy.
+    global_angaran_elder_multi: The building blocks weren't aligning. We thought an active vault would force them together.
+    global_angaran_elder_multi: Our hope was that Aya could sustain {i}billions{/i}. Instead, we're limited to millions.
+    ↩ (goto) Hero: [empty]
+├ option 2:
+    Hero: Who else was on your team?
+    global_angaran_elder_multi: Physicists, geologists, engineers... our greatest minds.
+    global_angaran_elder_multi: To me, they were mentors, colleagues... sometimes rivals... and parents.
+    global_angaran_elder_multi: When the vault defended itself, it wasn't gentle. There were losses.
+    Hero: Your parents.
+    global_angaran_elder_multi: They sacrificed themselves to save others. Me.
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    Hero: You said the vault changed Aya. What does that mean?
+    global_angaran_elder_multi: Seismic rifts, volcanic eruptions... the skies turned black.
+    global_angaran_elder_multi: We wanted to build a better, faster paradise. But even a vault has limits.
+    global_angaran_elder_multi: The Aya you see today is a shadow of what we first had. It could take millennia to heal fully.
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

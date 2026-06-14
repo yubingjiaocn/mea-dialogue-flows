@@ -1,0 +1,72 @@
+# game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0330_leader_son_i
+# Primary speaker: nex_rp_ai_leader_son
+# Source: game/conversations/hubs/hub_nexus/rp/ai/nex_rp_ai_0330_leader_son_i.xml
+==================================================
+┌─ BRANCH (4) ─┐
+├ option 1:
+    nex_rp_ai_leader_son [OncePerGame]: You must be Ryder. Alain. My mother's in charge around here.
+    nex_rp_ai_leader_son: But you're a celebrity. Sorry I can't show you around—I'm stuck sitting here for a few more hours.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I can find my way around, but thank you.
+        nex_rp_ai_leader_son: Everyone here is helpful. Better than Project Overlord—those guys were {i}weird{/i}.
+        nex_rp_ai_leader_son: When Mom has—nope. Can't talk about that. Do you need anything?
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero ⟨cond⟩: How are you feeling?
+                nex_rp_ai_leader_son: Better! Once the pins and needles in my feet are gone, I'm good. Thank you.
+                ↩ (goto) nex_rp_ai_leader_son: [empty]
+            ├ option 2:
+                Hero: If it's all right, can I ask why you need all these machines?
+                nex_rp_ai_leader_son: I had a serious infection in my nervous system. I use spinal implants to walk and—you know. Bathroom stuff.
+                nex_rp_ai_leader_son: But while my mother was working on Project Overlord, my implants got hacked.
+                nex_rp_ai_leader_son: They still work. I just have to sync them a few hours a day.
+                ↩ (goto) nex_rp_ai_leader_son: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Anything you can tell me about Project Overlord?
+            nex_rp_ai_leader_son: Black-ops guys trying to make a VI-human hybrid. They hired my mother as a programmer.
+            nex_rp_ai_leader_son: They told me I was a candidate for the human part. And hey—not like my body was doing me any favors.
+            nex_rp_ai_leader_son: But my implants got hacked, and Mom said "we're leaving!" Lucky me. Overlord went downhill fast.
+            ↩ (goto) nex_rp_ai_leader_son: [empty]
+        ├ option 3:
+            Hero: Your mother seems to have plans.
+            nex_rp_ai_leader_son: Mom's always got plans. A big one's coming up.
+            Hero: Nothing else you can tell me?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_rp_ai_leader_son ⟨cond⟩: Sorry, Mercury is sensitive stuff. I wish I could.
+                ↩ (goto) nex_rp_ai_leader_son: [empty]
+            ├ option 2:
+                nex_rp_ai_leader_son: I would... but you just arrived. I learned the hard way: trust has to be earned.
+                ↩ (goto) nex_rp_ai_leader_son: [empty]
+            └─ merge ─┘
+        ├ option 4:
+            Hero: I've got to go.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                nex_rp_ai_leader_son ⟨cond⟩: Thank you, again.
+            ├ option 2:
+                nex_rp_ai_leader_son: You know where I'll be.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Is something wrong?
+        nex_rp_ai_leader_son: I'm fine. Just good old Project Overlord, still kicking me when I'm down.
+        ↩ (goto) nex_rp_ai_leader_son: When Mom has—nope. Can't talk about that. Do you need anything?
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩ [OncePerGame]: Alain, I put a little something together. This should help fix your implants.
+    nex_rp_ai_leader_son: Are you serious? Yeah—yeah, I can feel my nerves waking up!
+    nex_rp_ai_leader_son: When Mercury goes down, Mom'll lose her mind over this! Thank you!
+    Hero: No problem, Alain.
+    ↩ (goto) nex_rp_ai_leader_son: [empty]
+├ option 3:
+    nex_rp_ai_leader_son ⟨cond⟩ [OncePerGame]: Is Laveria testing the AI detector? It keeps going off.
+    ↩ (goto) nex_rp_ai_leader_son: [empty]
+├ option 4:
+    nex_rp_ai_leader_son: Hi again.
+    ↩ (goto) nex_rp_ai_leader_son: [empty]
+└─ merge ─┘

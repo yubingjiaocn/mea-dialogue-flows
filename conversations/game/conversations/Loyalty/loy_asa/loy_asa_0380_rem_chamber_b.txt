@@ -1,0 +1,102 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0380_rem_chamber_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0380_rem_chamber_b.xml
+==================================================
+global_kalinda: Hold them here, Krannit! I'm making sure they can't follow!
+global_squad_asari: Shit, what's she up to?
+Hero: Krannit's that krogan outlaw we keep running into.
+global_squad_asari: Looks like we'll run into him one more time.
+global_kalinda: [Comm] Hahaha! So long, losers!
+global_squad_asari: No, no, no! Kalinda's barred the way.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Reception committee!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: More assholes!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Reception committee!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: More of Kalinda's trash!
+├ option 5:
+    global_squad_angara ⟨cond⟩: She's sent more men our way!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: Another dispenser! Get us some airborne support!
+├ option 2:
+    global_squad_asari: I bet this console controls the dispenser.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Friendly inbound.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Friendly inbound.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Friendly inbound.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Friendly inbound.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Ally inbound.
+└─ merge ─┘
+global_squad_asari: Krannit's down!
+global_squad_asari: Up there, above the gate. Another power node.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_asari: Work your magic, little guy.
+    ├ option 2:
+        SAM: Scanning the disabled node will direct the allied Observer to it.
+    └─ merge ─┘
+├ option 2:
+    global_squad_asari: There's got to be a console for the dispenser around here.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ↩ (goto) SAM: Scanning the disabled node will direct the allied Observer to it.
+├ option 2:
+    ↩ (goto) global_squad_asari: Work your magic, little guy.
+└─ merge ─┘
+SAM: To open the dormant gate, the conduit node needs repair.
+SAM: The conduit node is damaged. As before, if you deploy an allied Observer, it will enact repairs and open the gate.
+global_squad_asari: All right! We're back in the game.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari: Come on, Ryder—scan the gate node so the bot will repair it.
+├ option 2:
+    global_squad_asari: Got to access the console to activate the dispenser.
+└─ merge ─┘
+SAM: The console here will summon an allied Observer to repair the damaged gateway node.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: We're almost to the signal source. Let's go!
+├ option 2:
+    global_squad_asari [OncePerGame]: We have to move—Kalinda's probably there by now!
+└─ merge ─┘
+global_squad_asari: Good, our new friends are coming along. They'll come in handy.
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM: They are in a state of pronounced degradation—it's certain the source of the signal is the reason.
+├ option 2:
+    global_squad_asari: The Observers are going to repair the nodes!
+    Hero: Hope they last.
+├ option 3:
+    global_squad_asari: Here they come.
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    global_squad_asari: We should scan the area. There must be a way past this gate.
+├ option 2:
+    global_squad_asari: Hello, friendly Observers.
+├ option 3:
+    global_squad_asari: Wait—the Observers are doing it!
+├ option 4:
+    SAM: There is a damaged gateway. I suggest scanning for a solution.
+├ option 5:
+    Hero: We'll find another.
+├ option 6:
+    global_kalinda: [Comm] Krannit, status report, damn it—did you stop them?
+├ option 7:
+├ option 8:
+    SAM: Pathfinder, the console ahead is another access point for your allied Observers.
+└─ merge ─┘

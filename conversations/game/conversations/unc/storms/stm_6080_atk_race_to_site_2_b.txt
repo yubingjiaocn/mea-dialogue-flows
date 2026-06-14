@@ -1,0 +1,33 @@
+# game/conversations/unc/storms/stm_6080_atk_race_to_site_2_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_6080_atk_race_to_site_2_b.xml
+==================================================
+Hero: SAM, you have a location for this Roekaar beacon?
+SAM: Yes, Pathfinder. Site 2 communications array.
+Hero: Well, let's not keep Akksul waiting.
+SAM: Navpoint marked for Roekaar signal upload.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Hit the button, it'll draw them right to us.
+    Hero ⟨cond⟩: We know this place. They don't.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: And they won't.
+    ├ option 2:
+        global_squad_asari ⟨cond⟩: We'll give them a fight.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: They can't have it.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: And they're not taking it.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Make them earn it.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara: [Comm] Be ready, it'll draw them right to you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero ⟨cond⟩: We know this place. They don't.
+    ├ option 2:
+        Hero: We can do this. They're not expecting us.
+    └─ merge ─┘
+└─ merge ─┘

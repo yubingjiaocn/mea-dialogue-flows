@@ -1,0 +1,37 @@
+# game/conversations/bstory/remrel/rrb_0450_kad_get_info_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/remrel/rrb_0450_kad_get_info_d.xml
+==================================================
+global_squad_asari: You are my new best friend.
+global_squad_asari: Ah, Ryder, I'd like to introduce you to my new best friend... what's your name, again?
+rem_rel_samrick: Samrick.
+global_squad_asari: Right, right. Samrick here's been so sympathetic about Poc being stolen.
+global_squad_asari: He used to run with our pal Kalinda, and he knows where her crews congregate. Safe houses. Rallying points. etc.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I trust he's telling you what you need to know?
+    global_squad_asari: Well...
+    rem_rel_samrick: Look, uh, I appreciate the drinks and the flattery and all, but...
+    rem_rel_samrick: Kalinda doesn't take kindly to people discussing her business interests.
+    rem_rel_samrick: She busted me up pretty bad when she kicked me out of her outfit. I don't really want a repeat.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You're sitting in an open bar on Kadara Port with us. Kalinda will know, and she'll assume the worst.
+        global_squad_asari: Yeah, and she probably won't be satisfied the first thirty or forty times you scream your innocence.
+        global_squad_asari: So you might as well tell us what we want to know.
+        Hero: At least that way you get another free drink.
+        rem_rel_samrick: Well, shit. Guess I can't argue with that. And I am still thirsty.
+        global_squad_asari: Thanks, Ryder. I think he'll cooperate now. I'll know where to look for Poc soon.
+    ├ option 2:
+        Hero: You might have more immediate fears, don't you think?
+        global_squad_asari: You've survived what Kalinda dishes out, but you have no idea what Ryder can do.
+        global_squad_asari: And after you spill your guts, Kalinda will punish you herself for talking, anyway.
+        Hero: So why take an {i}extra{/i} beating?
+        rem_rel_samrick: All right, All right! Shit, you people don't play fair.
+        ↩ (goto) global_squad_asari: Thanks, Ryder. I think he'll cooperate now. I'll know where to look for Poc soon.
+    └─ merge ─┘
+├ option 2:
+    Hero: Well, that makes Samrick a truly important person.
+    global_squad_asari: He's having some trouble understanding that.
+    ↩ (goto) rem_rel_samrick: Look, uh, I appreciate the drinks and the flattery and all, but...
+└─ merge ─┘

@@ -1,0 +1,65 @@
+# game/conversations/unc/storms/stm_8100_lowland_argue_a
+# Primary speaker: Hero
+# Source: game/conversations/unc/storms/stm_8100_lowland_argue_a.xml
+==================================================
+┌─ BRANCH (13) ─┐
+├ option 1:
+    stm_outpost_staff_field_06: Viability is the key. It always has been.
+├ option 2:
+    stm_outpost_staff_field_06 ⟨cond⟩: See, the Pathfinder is fixing it. Just like a Pathfinder should.
+├ option 3:
+    stm_outpost_staff_field_06 ⟨cond⟩: See, the Pathfinder is fixing it. Just like a Pathfinder should.
+├ option 4:
+    stm_outpost_staff_field_06: Can't wait. Watching viability go up makes it all worthwhile.
+    stm_outpost_staff_field_06 [OncePerGame]: Goddamn, I'm boring.
+├ option 5:
+    stm_outpost_staff_field_07: See, everything worked out. With only the exceptional help of the gifted and trained. That's all it takes.
+    stm_outpost_staff_field_06 [OncePerGame]: I hate you. Hate. And it's so visceral, I feel like {i}I'm{/i} the bad person. It's like, you're such an ass, I'm worse through osmosis.
+├ option 6:
+    stm_outpost_staff_field_06: That viability bump clears the way for a lot of new colonists. We're accelerating.
+├ option 7:
+    stm_outpost_staff_field_07 ⟨cond⟩ [OncePerGame]: You're lucky the Pathfinder fixed your shit.
+    stm_outpost_staff_field_06: Fixed my shit?
+    stm_outpost_staff_field_07: Fixed your shit.
+    stm_outpost_staff_field_06: Who even are you?
+├ option 8:
+    stm_outpost_staff_field_07 ⟨cond⟩ [OncePerGame]: You're lucky the Pathfinder fixed your shit.
+    ↩ (goto) stm_outpost_staff_field_06: Fixed my shit?
+├ option 9:
+    stm_outpost_staff_field_07: The viability bump is impressive. This world, it's gonna be something.
+├ option 10:
+    stm_outpost_staff_field_06: Bradley has the numbers. Bell-Scott too. Prodromos can expand, thanks to this.
+├ option 11:
+    stm_outpost_staff_field_07: Status? Because I think we're good.
+├ option 12:
+    stm_outpost_staff_field_06 ⟨cond⟩: I deployed for this. Seeing it happen, with the Pathfinder, it's too much.
+├ option 13:
+    stm_outpost_staff_field_06 ⟨cond⟩: I deployed for this. Seeing it happen, with the Pathfinder, it's too much.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    stm_outpost_staff_field_07: Doris is dead. That's what the monitors got us.
+    stm_outpost_staff_field_06: Then we make sure it was worth it. She was here so people could live.
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        stm_outpost_staff_field_07: Without the lowland monitors, viability is just a theory.
+    ├ option 2:
+        stm_outpost_staff_field_06: The monitors were your idea. Who did you think would make them work?
+    ├ option 3:
+        stm_outpost_staff_field_07: We're behind, and you're not giving me anything to go on.
+    ├ option 4:
+        stm_outpost_staff_field_07: Thousands are counting on us, and our gear is in radioactive holes.
+    ├ option 5:
+        stm_outpost_staff_field_07: So, when do you get the gear to recover the monitors? Did you even request it?
+    ├ option 6:
+        stm_outpost_staff_field_06: We're not idle, but until the gear is up and running, those radioactive holes will tie us up.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        stm_outpost_staff_field_07: You got lucky they're here to help. We'd be staring down into those holes for days.
+    ├ option 2:
+        stm_outpost_staff_field_07: The monitors go online, viability goes up. Finally.
+    └─ merge ─┘
+└─ merge ─┘

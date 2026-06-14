@@ -1,0 +1,64 @@
+# game/conversations/bstory/ket/ketbs_0500_device_suvihelp01_d
+# Primary speaker: global_crew_science_officer
+# Source: game/conversations/bstory/ket/ketbs_0500_device_suvihelp01_d.xml
+==================================================
+global_crew_science_officer: It's almost unbelievable, that some of the kett would be fighting their own.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer: Something to do with the Archon dying and the Primus taking over, probably.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: There's so much we still don't know about how their society functions.
+        global_crew_science_officer: The stuff you've brought in is helping shed some light on those questions.
+        global_crew_science_officer: Speaking of which, this device you found at that destroyed kett ship...
+        global_crew_science_officer: It's secured with a biometric lock that can only be activated with a specific genetic code.
+        Hero: So, like a fingerprint scan. Except with a genetic fingerprint.
+        global_crew_science_officer: Exactly. Whatever's in this, it's probably only meant for trusted individuals.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: So you're saying I have to track down some kett?
+            global_crew_science_officer: That would be impossible, Ryder.
+            global_crew_science_officer: Remember those kett genetic samples you scanned on Voeld?
+            global_crew_science_officer: Lexi's been working on the data, and I have an idea that just might work.
+            global_crew_science_officer: We should go talk with her when you have time.
+        ├ option 2:
+            Hero: A kett genetic code? We can't get one of those.
+            global_crew_science_officer: Thankfully, I think I have a work-around.
+            ↩ (goto) global_crew_science_officer: Remember those kett genetic samples you scanned on Voeld?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I wish we saw more of that fighting. Wouldn't shed a tear if they wiped themselves out.
+        global_crew_science_officer: Whatever they've done, they're still a unique, fascinating species. It's hard for me to wish them all dead.
+        global_crew_science_officer: Anyway, about this kett device you found by their destroyed ship...
+        ↩ (goto) global_crew_science_officer: It's secured with a biometric lock that can only be activated with a specific genetic code.
+    └─ merge ─┘
+├ option 2:
+    global_crew_science_officer: The kett always seemed so monolithic. Almost... faceless.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) Hero: There's so much we still don't know about how their society functions.
+    ├ option 2:
+        ↩ (goto) Hero: I wish we saw more of that fighting. Wouldn't shed a tear if they wiped themselves out.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_crew_science_officer: SAM might be able to replicate the key if we could get a range of kett genetic data.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Drawing from a large range of kett genes to build one specific code?
+        global_crew_science_officer: Yes, like trying a bunch of numbers on a combination lock.
+        Hero: Brute force, then.
+        global_crew_science_officer: Essentially. We just need you to get us the numbers.
+        global_crew_science_officer: Remember the genetic samples at the lab on Voeld? We could construct our key from those.
+        global_crew_science_officer: You're gonna have to go back, Ryder.
+        Hero: If that's what it takes.
+    ├ option 2:
+        Hero: Hey, you guys are the experts. Just tell me what you need.
+        ↩ (goto) global_crew_science_officer: Remember the genetic samples at the lab on Voeld? We could construct our key from those.
+    └─ merge ─┘
+├ option 2:
+    global_crew_science_officer: We need you to collect as much kett genetic data as you can.
+    global_crew_science_officer: Scan any kett you come across.
+    global_crew_science_officer: SAM will organize the data and let you know when we're good to go.
+└─ merge ─┘

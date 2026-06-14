@@ -1,0 +1,65 @@
+# Game/Conversations/HUBS/Hub_Tem/Crit/hub_tem_M3_efrahcalls_d
+# Primary speaker: Hero
+# Source: game/conversations/hubs/hub_tem/Crit/hub_tem_M3_efrahcalls_d.xml
+==================================================
+Hero: Commander.
+angararesleader_multi: Pathfinder. Jaal's been keeping me updated on your "adventures," your "good deeds" on our behalf.
+Hero: I meant them. I want you to know you can trust me.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    angararesleader_multi ⟨cond⟩: You rescued Shavod-gaan. His loss would have been hard for the Resistance.
+    angararesleader_multi: But your true agenda is clear—to explore Aya's vault. Jaal says you want to help find the Moshae. Why should I let you?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: My personal code is "I got this."
+        angararesleader_multi: Bold. A little arrogant. Like me. Still, I'll reserve judgment for now.
+        angararesleader_multi: We've managed to trace the Moshae to a special kett facility on Voeld.
+        Hero: Why special?
+        angararesleader_multi: These facilities are protected by a dynamic shield tech we haven't been able to crack.
+        angararesleader_multi: We're close, but its ability to adapt outstrips the speed of our current processors.
+        SAM: [Private] Pathfinder, adding my processor to their program would no doubt make the difference.
+        Hero: Evfra, I can help. Respectfully, this time you need my help.
+        angararesleader_multi: Respectfully, the angara don't {i}need{/i} anything from you. We take care of our own.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: With the processing power of my AI, I can guarantee the shield breach.
+            angararesleader_multi: AI? Of course. That makes sense.
+            Hero: He's physically connected to me and so I need to—well, I want to go.
+            angararesleader_multi: It was risky to be honest about your AI—and honesty makes you different from the kett.
+            Hero: I hope so.
+            angararesleader_multi: You're welcome on the mission.
+            Hero: Thank you.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                angararesleader_multi ⟨cond⟩: A team will meet you at our base on Voeld. They'll take you to the kett facility.
+                angararesleader_multi: Stay strong and clear. Goodbye.
+            ├ option 2:
+                angararesleader_multi: The team taking you to the kett facility is there at the base. Look for them.
+                ↩ (goto) angararesleader_multi: Stay strong and clear. Goodbye.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: What I meant was—let our scientists help with your program. Let my team join your effort.
+            angararesleader_multi: Hmph.
+            Hero: Let's up the chance for success. I'm offering—you should accept.
+            angararesleader_multi: Very well. I'm not stupid... and I love the Moshae.
+            ↩ (goto) angararesleader_multi: You're welcome on the mission.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I'd like this to be the beginning of a strong relationship.
+        angararesleader_multi: Keep your promises and little by little our bond might grow.
+        ↩ (goto) angararesleader_multi: We've managed to trace the Moshae to a special kett facility on Voeld.
+    └─ merge ─┘
+├ option 2:
+    angararesleader_multi: You went out of your way to free that science team. A selfless act.
+    ↩ (goto) angararesleader_multi: But your true agenda is clear—to explore Aya's vault. Jaal says you want to help find the Moshae. Why should I let you?
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    angararesleader_multi: Time to attack the facility on Voeld and save Moshae Sjefa.
+├ option 2:
+    Hero: I see what the kett have done to you. You see how desperate my people are.
+    Hero: In the end, what we find on Aya might be good for both of us.
+    angararesleader_multi: I see. Perhaps... very well.
+├ option 3:
+    Hero: I barely know you, but I do know my team.
+└─ merge ─┘

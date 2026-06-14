@@ -1,0 +1,77 @@
+# game/conversations/unc/biolum/bio_0310_sanc_sage_d
+# Primary speaker: bio_sage_leader
+# Source: game/conversations/unc/biolum/bio_0310_sanc_sage_d.xml
+==================================================
+bio_sage_leader: You bypassed our security. How is that possible? An alien?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I am Ryder, Pathfinder with the Andromeda Initiative—from the Milky Way galaxy.
+    bio_sage_leader: That does not explain how or why you were able to operate the Remnant doors.
+    bio_sage_leader: It doesn't matter. You must leave. We do not entertain guests here.
+    Hero: Havarl's in decline. If you tell me about the lost monolith, I can help fix it. Reset the vault.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: With Ryder's help, Havarl could be healed. Our birthplace, restored. Isn't that worth something?
+        bio_sage_leader: It's lost. The memories of its location haven't been reclaimed.
+        bio_sage_leader: On Mithrava, we have accepted Havarl's eventual ruin.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: That's a strange choice of words. What do you mean by reclaiming memories?
+            bio_sage_leader: One may occasionally remember a past life, if the conditions are right.
+            Hero: What do you mean?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_angara ⟨cond⟩: We believe in reincarnation. An unbroken thread.
+                bio_sage_leader: There was one, long ago, who had knowledge of the third monolith. Zorai, a champion of the angara from before the Scourge.
+                bio_sage_leader: Zorai's soul has returned and could be made to remember what it knew, but we have no contact with it.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: So you're saying there's some way we can {i}make{/i} people remember their past lives?
+                    bio_sage_leader: Souls return within families. An object—heirloom—tied closely to that bloodline could cause memories to resurface.
+                    Hero: But it's not guaranteed.
+                    bio_sage_leader: It has been known to happen on rare occasions in the past, with other souls.
+                    bio_sage_leader: The only known heirloom of Zorai's family rests in an area with active Remnant. No one has survived the journey, but perhaps you...
+                    bio_sage_leader: Zorai's soul was reborn in Taavos, who is now a Roekaar. He recently returned to Havarl on a mission.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: A Roekaar? That'll be difficult.
+                        Hero: That's why you're here, Jaal.
+                        global_squad_angara: They won't like that I'm helping you.
+                        Hero: This may be a dead end, but we have to try.
+                        bio_sage_leader: I will send you the relevant coordinates. We considered Havarl a lost cause, but perhaps now, there is hope.
+                    ├ option 2:
+                        Hero: I'll look into this. What have we got to lose anyway?
+                        ↩ (goto) bio_sage_leader: I will send you the relevant coordinates. We considered Havarl a lost cause, but perhaps now, there is hope.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Okay, let me get this straight.
+                    Hero: Someone could remember the monolith from a... a past life?
+                    ↩ (goto) bio_sage_leader: Souls return within families. An object—heirloom—tied closely to that bloodline could cause memories to resurface.
+                └─ merge ─┘
+            ├ option 2:
+                bio_sage_leader: Reincarnation. The soul that has returned time and again. An unbroken thread.
+                ↩ (goto) bio_sage_leader: There was one, long ago, who had knowledge of the third monolith. Zorai, a champion of the angara from before the Scourge.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: You're just giving up on your planet? Isn't this your birthplace? Don't you want to save it?
+            bio_sage_leader: A chasm separates "want" from "can." What you ask, no one can give.
+            bio_sage_leader: The memory of the monolith resides within a thread that has slipped from our grasp.
+            Hero: I'm not sure I follow.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) global_squad_angara ⟨cond⟩: We believe in reincarnation. An unbroken thread.
+            ├ option 2:
+                ↩ (goto) bio_sage_leader: Reincarnation. The soul that has returned time and again. An unbroken thread.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: With Ryder's help, Havarl could be healed. Our birthplace, restored. Isn't that worth something?
+        ↩ (goto) bio_sage_leader: It's lost. The memories of its location haven't been reclaimed.
+    ├ option 3:
+        ↩ (goto) bio_sage_leader: It's lost. The memories of its location haven't been reclaimed.
+    └─ merge ─┘
+├ option 2:
+    Hero: What, like it's hard?
+    bio_sage_leader: Even we have trouble understanding Remnant tech. Only a handful here can operate our own gates.
+    ↩ (goto) bio_sage_leader: It doesn't matter. You must leave. We do not entertain guests here.
+└─ merge ─┘

@@ -1,0 +1,148 @@
+# game/conversations/hubs/hub_kad/leaders/kad_reyes_wrapup_d
+# Primary speaker: kad_charlatan
+# Source: game/conversations/hubs/hub_kad/leaders/kad_reyes_wrapup_d.xml
+==================================================
+Narration: Post-Showdown, we find REYES VIDAL back at TARTARUS. He is lounging on a couch with a bottle of whiskey—the usual shenanigans.
+Hero: Thought you'd be in the throne room. Tartarus is a little shabby for Kadara's new leader, don't you think?
+kad_charlatan: Come on, Ryder. You know I prefer to rule from the shadows.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You are a shady bastard.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        kad_charlatan ⟨cond⟩: But a handsome one, right?
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            kad_charlatan ⟨cond⟩: The angara you met at Sloane's party—Keema Dohrgun. She's agreed to be my front.
+            kad_charlatan: And with Sloane gone, there's room for the Initiative on Kadara.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I'll start rounding up volunteers for an outpost. Might take a while—you exiles have a reputation.
+                kad_charlatan: Not all of us are thieves and murderers. I am, but some of the others are perfectly nice.
+                Hero: Perfectly.
+                kad_charlatan: Jokes aside, I want this outpost just as much as you do.
+                kad_charlatan: It will have my full protection. That's a promise.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: I allied myself with the right man.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        kad_charlatan ⟨cond⟩: If we're done with all the boring business talk, there is something I want to do.
+                        Narration: Reyes gets up. Ryder gives him a quizzical look.
+                        Hero: You're up to something. Again.
+                        kad_charlatan: I neglected you on our first date.
+                        Narration: He uses his omni-tool to turn on music—something slow and romantic—then holds out his hand to Ryder.
+                        kad_charlatan: How about we fix that?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: I didn't know you had a romantic streak.
+                            Narration: Ryder takes Reyes's hand and he pulls her close.
+                            kad_charlatan: There's a lot you don't know about me.
+                            Narration: Ryder rests her head on Reyes's shoulder. They sway quietly for a moment.
+                            Narration: It's a weighted silence—Reyes lied to Ryder for most of their relationship. He's trying to make up for that now.
+                            kad_charlatan: Since leaving the Nexus, my survival has depended on secrets.
+                            Narration: Reyes tips Ryder's chin up with his thumb to look her in the eyes.
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                kad_charlatan ⟨cond⟩: I don't want any more of those between us, Sara.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    Hero: You're the encrypted one.
+                                    kad_charlatan: {i}(Chuckles.){/i}
+                                    Hero: What?
+                                    kad_charlatan: I was about to say something cheesy.
+                                    Hero: Say it.
+                                    kad_charlatan: Consider me hacked.
+                                    Hero: {i}(Groans.){/i} Just stop talking.
+                                    Narration: Ryder kisses Reyes. As it becomes more passionate, we fade to black.
+                                ├ option 2:
+                                    Hero: Don't make promises you can't keep, Reyes.
+                                    Hero: You will have secrets—that's who you are. Just don't lie to me about the big stuff.
+                                    kad_charlatan: Thank you.
+                                    Hero: For what?
+                                    kad_charlatan: For accepting me.
+                                    ↩ (goto) Narration: Ryder kisses Reyes. As it becomes more passionate, we fade to black.
+                                └─ merge ─┘
+                            ├ option 2:
+                                kad_charlatan ⟨cond⟩: I don't want any more of those between us, Scott.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: You're the encrypted one.
+                                ├ option 2:
+                                    ↩ (goto) Hero: Don't make promises you can't keep, Reyes.
+                                └─ merge ─┘
+                            ├ option 3:
+                                kad_charlatan: I don't want any more of those between us, Ryder.
+                                ┌─ BRANCH (2) ─┐
+                                ├ option 1:
+                                    ↩ (goto) Hero: You're the encrypted one.
+                                ├ option 2:
+                                    ↩ (goto) Hero: Don't make promises you can't keep, Reyes.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: I really don't—
+                            Hero: {i}(Dancing.){/i}
+                            Hero: {i}(Dancing.){/i}
+                            Hero: {i}(Dancing.){/i}
+                            Hero: {i}(Dancing.){/i}
+                            Narration: Reyes pulls Ryder from her seat.
+                            kad_charlatan: Relax. It's not the waltz.
+                            ↩ (goto) Narration: Ryder rests her head on Reyes's shoulder. They sway quietly for a moment.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Narration: Reyes offers Ryder his hand. Ryder looks at it, then back at Reyes.
+                        Hero: What's this?
+                        kad_charlatan: It's a handshake. We're partners now.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Partners and friends.
+                            Narration: Ryder shakes Reyes's hand. Scene ends with the two smiling at each other.
+                        ├ option 2:
+                            Hero: Let's be clear, Reyes. I'm only working with you for the greater good. Not because I like you.
+                            Narration: Reyes retracts his hand.
+                            kad_charlatan: You know, Ryder, you're kind of a dick. But I've worked with worse.
+                            Narration: Reyes pours himself a drink and raises it to Ryder, who shakes their head and walks out.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: And how much will that promise cost me?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        kad_charlatan ⟨cond⟩: The trade your outpost will bring in should cover it.
+                        ↩ (goto) kad_charlatan ⟨cond⟩: If we're done with all the boring business talk, there is something I want to do.
+                    ├ option 2:
+                        kad_charlatan: The trade your outpost will bring in should cover it.
+                        ↩ (goto) Narration: Reyes offers Ryder his hand. Ryder looks at it, then back at Reyes.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Tann might not want an outpost on a planet full of exiles.
+                kad_charlatan: Not really his call, is it? You're the Pathfinder.
+                Hero: As long as you can assure us no Initiative shuttles will be shot down on their way in.
+                kad_charlatan: I want this outpost as much as you do.
+                ↩ (goto) kad_charlatan: It will have my full protection. That's a promise.
+            └─ merge ─┘
+        ├ option 2:
+            kad_charlatan: A friend of mine—Keema Dohrgun—has agreed to be my front.
+            ↩ (goto) kad_charlatan: And with Sloane gone, there's room for the Initiative on Kadara.
+        └─ merge ─┘
+    ├ option 2:
+        kad_charlatan: Guilty as charged.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) kad_charlatan ⟨cond⟩: The angara you met at Sloane's party—Keema Dohrgun. She's agreed to be my front.
+        ├ option 2:
+            ↩ (goto) kad_charlatan: A friend of mine—Keema Dohrgun—has agreed to be my front.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: This is your chance to go legitimate.
+    kad_charlatan: I'm not built for the spotlight.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) kad_charlatan ⟨cond⟩: The angara you met at Sloane's party—Keema Dohrgun. She's agreed to be my front.
+    ├ option 2:
+        ↩ (goto) kad_charlatan: A friend of mine—Keema Dohrgun—has agreed to be my front.
+    └─ merge ─┘
+└─ merge ─┘

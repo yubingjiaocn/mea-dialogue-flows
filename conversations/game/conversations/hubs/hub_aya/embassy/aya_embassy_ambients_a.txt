@@ -1,0 +1,55 @@
+# game/conversations/hubs/hub_aya/embassy/aya_embassy_ambients_a
+# Primary speaker: aya_mws_ambassador
+# Source: game/conversations/hubs/hub_aya/embassy/aya_embassy_ambients_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_nexus_PI_director [OncePerGame]: [Comm] Ambassador. I trust our people had a smooth transition to Aya.
+    aya_mws_ambassador: The angara have been gracious. Everything's going well.
+    global_nexus_PI_director: [Comm] Good. Keep me updated. Tann out.
+    aya_mws_ambassador: I've never lied to a director before.
+├ option 2:
+    global_nexus_PI_director [OncePerGame]: [Comm] I read through your reports. How long 'til the angara allow civilian visitors?
+    aya_mws_ambassador: I'm working on it. For now, all visits to Aya must have an official purpose.
+    global_nexus_PI_director: [Comm] We'll discuss this later.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_nexus_PI_director ⟨cond⟩: [Comm] I've had several complaints from Sorvis Lenn about his treatment on Aya.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        aya_mws_ambassador ⟨cond⟩: The Pathfinder warned him to stop antagonizing the angara.
+        aya_mws_ambassador: Would you have our plans damaged by the tantrums of one scientist?
+        global_nexus_PI_director: [Comm] Careful, Rialla. Lenn is a valued member of our community.
+        ↩ (goto) global_nexus_PI_director: [Comm] We'll discuss this later.
+    ├ option 2:
+        aya_mws_ambassador: The Pathfinder warned him to stop antagonizing the angara.
+        ↩ (goto) aya_mws_ambassador: Would you have our plans damaged by the tantrums of one scientist?
+    └─ merge ─┘
+├ option 2:
+    global_nexus_PI_director: [Comm] I hear things are going well on the agricultural front.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        aya_mws_ambassador ⟨cond⟩: You have the Pathfinder to thank for that.
+        global_nexus_PI_director: [Comm] For many things, it seems.
+    ├ option 2:
+        aya_mws_ambassador: You have the Pathfinder to thank for that.
+        ↩ (goto) global_nexus_PI_director: [Comm] For many things, it seems.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    aya_mws_ambassador: Pathfinder.
+├ option 2:
+    aya_mws_ambassador ⟨cond⟩: Welcome back.
+├ option 3:
+    aya_mws_ambassador ⟨cond⟩ [OncePerGame]: Govajaan, Pathfinder. I've been practicing the language.
+├ option 4:
+    aya_mws_ambassador ⟨cond⟩: Good to see you.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    aya_mws_ambassador: Director Tann is pleased with the angara you sent to the Nexus. Thank you for your help.
+├ option 2:
+    aya_mws_ambassador: Director Tann wasn't thrilled with the results of the Nexus exchange. But I appreciate your help regardless.
+└─ merge ─┘

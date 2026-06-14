@@ -1,0 +1,97 @@
+# game/conversations/rel/liam/liam_r090_repeating_beers_a
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/rel/liam/liam_r090_repeating_beers_a.xml
+==================================================
+┌─ BRANCH (14) ─┐
+├ option 1:
+    global_squad_male_human: Listen... hear that?
+    global_squad_male_human: Just... a moment of nothing. Enjoy it.
+├ option 2:
+    global_squad_male_human: It's out there somewhere. Another day, another million K closer.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Stay on target.
+    ├ option 2:
+        Hero: Every little bit helps.
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human: Merry Christmas, Pathfinder.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: It's nowhere near a holiday.
+        global_squad_male_human: New calendar, happy whatever.
+    ├ option 2:
+        Hero: Again, not a holiday.
+        ↩ (goto) global_squad_male_human: New calendar, happy whatever.
+    └─ merge ─┘
+├ option 4:
+    global_squad_male_human: Added new angaran vids to the media archive.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: The last one was epic.
+        global_squad_male_human: Can't get enough.
+    ├ option 2:
+        Hero: Some are weirdly familiar.
+        ↩ (goto) global_squad_male_human: Can't get enough.
+    ├ option 3:
+        Hero: Some of it is very different.
+        ↩ (goto) global_squad_male_human: Can't get enough.
+    └─ merge ─┘
+├ option 5:
+    Hero: Where's this round from?
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Prodromos. Augie continues to please.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Kadara by way of Ditaeon. Hard as nails.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: New Tuchanka. Go easy.
+        Hero: You go easy.
+    ├ option 4:
+        global_squad_male_human ⟨cond⟩: Voeld. Cold right through.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Straight from luminescent Havarl. Glows on the way out, too.
+    ├ option 6:
+        global_squad_male_human ⟨cond⟩: Aya. Next to the volcano.
+        Hero: What isn't?
+    ├ option 7:
+        global_squad_male_human: Nexus reconstituted. So bad, it's good.
+    └─ merge ─┘
+├ option 6:
+    Hero: I miss them sometimes.
+    global_squad_male_human: I miss people {i}all{/i} the time.
+├ option 7:
+    global_squad_male_human ⟨cond⟩: Missed you last night.
+    Hero: I was there.
+    global_squad_male_human: Still missed you.
+├ option 8:
+    global_squad_male_human ⟨cond⟩: {i}(Laughs.){/i} That's another story I'll deny telling you.
+    Hero: Like I believe it.
+├ option 9:
+    global_squad_male_human ⟨cond⟩: So, are you two still serious?
+    Hero: Jealous?
+    global_squad_male_human: If you want me to be.
+├ option 10:
+    global_squad_male_human ⟨cond⟩: Love you.
+    Hero: Yeah, you do.
+├ option 11:
+    Hero ⟨cond⟩: Love you.
+    global_squad_male_human: Yeah, you do.
+├ option 12:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: They want to name a constellation after you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Apropos of nothing.
+        global_squad_male_human: Apropos of awesome.
+    ├ option 2:
+        Hero ⟨cond⟩: In your faces, Gemini.
+        global_squad_male_human: {i}(Chuckles.){/i}
+    └─ merge ─┘
+├ option 13:
+    global_squad_male_human [OncePerGame]: Evfra likes karaoke.
+    Hero: Where the hell did that come from?
+├ option 14:
+    Hero ⟨cond⟩ [OncePerGame]: You really are terrible at soccer.
+    global_squad_male_human: Gave up the field the day I discovered jump jets.
+    Hero: For the best, then.
+└─ merge ─┘

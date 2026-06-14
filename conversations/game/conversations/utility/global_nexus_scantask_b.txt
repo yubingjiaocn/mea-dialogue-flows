@@ -1,0 +1,66 @@
+# game/conversations/utility/global_nexus_scantask_b
+# Primary speaker: SAM
+# Source: game/conversations/utility/global_nexus_scantask_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: I detect an undocumented organic lifeform nearby, Pathfinder.
+        Hero: Undocumented? Bet Professor Herik would be interested.
+        SAM: I recommend scanning to obtain the necessary data.
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM: I detect undocumented organic life in the vicinity. I recommend scanning.
+        ├ option 2:
+            SAM: The organic life nearby is not in my database, Pathfinder. I suggest scanning.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: My database on organic life in Andromeda is now up-to-date.
+    SAM: Sharing these scans with Professor Herik will forward his conservation efforts.
+    Hero: Can't wait to see the reaction. He's already excitable.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: I detect an Andromeda plant sample nearby. Doctor Camden would find this useful.
+        Hero: Oh, right. The gardener.
+        SAM: Botanist, Pathfinder.
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM: Andromeda plant sample detected nearby.
+        ├ option 2:
+            SAM: Pathfinder, my sensors read an Andromeda plant sample nearby.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: You've gathered sufficient samples for Doctor Camden to continue his work. Forwarding the results.
+    Hero: Good. Now he can keep up with his gardening.
+    SAM: Botany.
+    Hero: Same thing.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: My sensors read a mineral not found in my database, Pathfinder.
+        Hero: That something we can scan for Chief Lucan?
+        SAM: It would improve his geophysics VI considerably.
+    ├ option 2:
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            SAM: An undocumented mineral has been detected, Pathfinder.
+        ├ option 2:
+            SAM: Undocumented mineral nearby, Pathfinder.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    SAM: That scan completes my mineral database. The geophysics VI is functioning at peak performance.
+    Hero: Chief Lucan will be happy to see his baby running smoothly.
+    SAM: The VI isn't his child, Pathfinder.
+    Hero: It's just a saying—never mind.
+└─ merge ─┘

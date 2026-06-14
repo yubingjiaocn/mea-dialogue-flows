@@ -1,0 +1,64 @@
+# game/conversations/bstory/remrel/rrb_0360_kad_pb_2nd_proj_piece3_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/remrel/rrb_0360_kad_pb_2nd_proj_piece3_b.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Looks like outlaws are camping this site.
+├ option 2:
+    global_squad_female_human ⟨cond⟩: Looks like outlaws are camping this site.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Looks like outlaws are camping this site.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Looks like outlaws are camping this site.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Looks like outlaws are camping this site.
+└─ merge ─┘
+Hero: All right—let's find the piece of tech Peebee needs.
+Hero: Checking this container...
+Hero: Empty, but there's a datapad. Looks like there's a message for us.
+rem_rel_krannit_multi: [Audio Log] {i}(Laughs.){/i} Hope my boys put up a fight. But you're too slow, Pathfinder. I got what you're looking for.
+rem_rel_krannit_multi: [Audio Log] I'll meet you and your asari at Kadara Port. You can buy the tech from me. Out.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: I need that piece, Ryder.
+    Hero: Guess we've got a date with an annoying outlaw who fancies himself a rival.
+├ option 2:
+    Hero: Peebee needs that piece.
+    ↩ (goto) Hero: Guess we've got a date with an annoying outlaw who fancies himself a rival.
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Well, that was nice of him.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Our lucky day.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Our lucky day.
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Our lucky day.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Our lucky day.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Our lucky day.
+        ↩ (goto) global_squad_angara: [empty]
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: Crap. Have to fight for every inch around here.
+    ├ option 2:
+        global_squad_female_human ⟨cond⟩: Like we didn't have enough to worry about.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: Man, what's their problem?
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: What's their problem?
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Pissants fighting just for the sake of it.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: We're becoming more popular.
+    └─ merge ─┘
+├ option 3:
+    Hero: It seems we have a rival.
+└─ merge ─┘

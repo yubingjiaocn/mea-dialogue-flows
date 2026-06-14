@@ -1,0 +1,29 @@
+# game/conversations/unc_ice/ice_0500_mtpass_attack_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_ice/ice_0500_mtpass_attack_b.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero [OncePerGame]: Kett, coming this way!
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Quickly! Before they find the Resistance!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Let's take them down!
+    ├ option 3:
+        global_squad_female_human ⟨cond⟩: Hit them fast before they reach the base!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: We have to get rid of them!
+    ├ option 5:
+        global_squad_turian ⟨cond⟩: Quick! They can't find the Resistance base!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        ice_resistance_scout: Pathfinder! This way!
+    ├ option 2:
+        ice_resistance_scout: I need help here!
+    ├ option 3:
+        ice_resistance_scout: Over here!
+    └─ merge ─┘
+└─ merge ─┘

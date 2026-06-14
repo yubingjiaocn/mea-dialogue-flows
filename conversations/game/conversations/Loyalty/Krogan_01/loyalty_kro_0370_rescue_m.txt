@@ -1,0 +1,53 @@
+# Game/Conversations/Loyalty/Krogan_01/loyalty_kro_0370_rescue_m
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Krogan_01/loyalty_kro_0370_rescue_m.xml
+==================================================
+global_squad_krogan: {i}(Sighs.){/i} Let's go.
+global_krogan_botanist: Watch out!
+global_squad_krogan: {i}(Roars in anger.){/i} No!
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Hey! You okay?
+    global_krogan_botanist: I'm fine. I'm fine!
+    global_squad_krogan: What were you thinking? Why would you do something like that!
+    global_krogan_botanist: He... he was going to shoot you.
+    global_squad_krogan: The colony can survive just fine without me.
+    global_squad_krogan: But without you and what's in your fool head, there's no future for our people.
+    global_krogan_botanist: You're always talking like you're expendable. But you're not.
+    global_krogan_botanist: We {i}need{/i} you. You're not just some old soldier. We know what we lost because you lived it.
+    global_krogan_botanist: I need to get some stuff before we go. You talk to him.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Giving everything for your people takes a strong will.
+        global_squad_krogan: Kid doesn't get I have to put my life on the line sometimes.
+        Hero: Doesn't he have the right to take the same risks for your sake?
+        global_squad_krogan: Quads. Not you too. We don't have time for this. We have a transport to get.
+        global_krogan_botanist: I'm ready to go.
+        global_squad_krogan: You. You stay right here. I'm not telling Kesh you died like an idiot.
+        global_squad_krogan: Yeah, this'll do.
+        global_squad_krogan: Incoming!
+        global_squad_krogan: {i}(Chuckles.){/i} Hi.
+        loyalty_krogan_pirate_03: Back here! They're back here!
+    ├ option 2:
+        Hero: You do tend to get a little reckless in combat when things get personal.
+        global_squad_krogan: I won't let anything happen to my clan, Ryder.
+        Hero: You won't be much good to them if you're dead.
+        ↩ (goto) Narration: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: That could have gotten you killed.
+    global_krogan_botanist: It was a reflex. But it's okay, I'm fine.
+    ↩ (goto) global_squad_krogan: What were you thinking? Why would you do something like that!
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_krogan_botanist: Door's stuck!
+├ option 2:
+    global_krogan_botanist: {i}(Grunts.){/i}
+├ option 3:
+    global_krogan_botanist: Won't budge!
+├ option 4:
+    global_krogan_botanist: Hi, guys!
+└─ merge ─┘
+global_krogan_botanist: You remember what we were like before all the wars. We know what we lost because you lived it.
+global_krogan_botanist: You still have so much more to teach us, Drack. Not just about fighting, but about who we were as a people.

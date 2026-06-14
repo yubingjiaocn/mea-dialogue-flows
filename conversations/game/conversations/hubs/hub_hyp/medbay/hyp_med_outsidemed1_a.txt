@@ -1,0 +1,51 @@
+# game/conversations/hubs/hub_hyp/medbay/hyp_med_outsidemed1_a
+# Primary speaker: Pro_Shp_Crew3
+# Source: game/conversations/hubs/hub_hyp/medbay/hyp_med_outsidemed1_a.xml
+==================================================
+Pro_Shp_Crew3: Once we gather a few more colonists, we'll be taking you over to the Nexus. You'll need to clear immigration.
+Hyp_colonist19: There was some kind of emergency when we arrived?
+Pro_Shp_Crew3: We hit an energy cloud. They're calling it the Scourge.
+Hyp_colonist19: Wow. That doesn't sound scary.
+Pro_Shp_Crew3: The Nexus got it worse. As long you avoid it, things seem to be okay.
+hyp_colonist20: I have a friend who came across on the salarian ark. How do I find him?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Pro_Shp_Crew3 ⟨cond⟩: You're in luck. That ark went missing but I heard it just turned up.
+    hyp_colonist20: You're kidding. What happened?
+    Pro_Shp_Crew3: A nasty race they're calling the "kett" hijacked them. They were doing experiments on salarians.
+    hyp_colonist20: Please tell me that's a joke.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Pro_Shp_Crew3 ⟨cond⟩: I wish it was. But our Pathfinder kicked their butt and now the salarians are back.
+    ├ option 2:
+        Pro_Shp_Crew3: I wish it was. But our Pathfinder kicked their butt and now the salarians are back.
+    └─ merge ─┘
+├ option 2:
+    Pro_Shp_Crew3: No one's heard from them. Their ark's missing.
+    hyp_colonist20: How's that possible?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Pro_Shp_Crew3 ⟨cond⟩: A lot has gone wrong. But they've got a Pathfinder out there trying to find it.
+        hyp_colonist20: Wow. Maybe I should go back to stasis.
+    ├ option 2:
+        Pro_Shp_Crew3: A lot has gone wrong. But they've got a Pathfinder out there trying to find it.
+        ↩ (goto) hyp_colonist20: Wow. Maybe I should go back to stasis.
+    └─ merge ─┘
+└─ merge ─┘
+Hyp_colonist21: Have you been to any of the planets yet?
+Pro_Shp_Crew3: No. I'm posted here until we get everyone out of stasis.
+Hyp_colonist21: What have you heard?
+Pro_Shp_Crew3: They're saying a lot of the golden worlds went bad for some reason.
+Hyp_colonist21: Then where are we going to live?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Pro_Shp_Crew3 ⟨cond⟩: They say not to worry. The Pathfinder's working on it.
+├ option 2:
+    Pro_Shp_Crew3: They say not to worry. The Pathfinder's working on it.
+└─ merge ─┘
+Pro_Shp_Crew3: Just a few more minutes and we'll take you over to the Nexus.
+Hyp_colonist22: I'm trying to understand this. I was 31 years old when I got on the ark.
+Hyp_colonist23: Right, but that was 634 years ago.
+Hyp_colonist22: So now I'm... uh... 665 years old?
+Hyp_colonist23: And think about this: if your big brother doesn't come out of stasis soon, he'll be your little brother.
+Hyp_colonist22: Wait... what?

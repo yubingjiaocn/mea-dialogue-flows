@@ -1,0 +1,126 @@
+# Game/Conversations/Crit/Crit_Mer/crit_fin_800_boss_encounter_start_m
+# Primary speaker: global_main_villain
+# Source: game/conversations/crit/Crit_Mer/crit_fin_800_boss_encounter_start_m.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    Narration: Scene starts as Ryder and squad enter the main boss area. The Archon and Ryder sibling are on a tier that is visible but inaccessible.
+    Narration: The Archon has several machines hooked into Remnant tech. The sibling is seated, and has been in pain.
+    Narration: There is also a representation of SAM, and all of the Archon's machines have a jury-rigged connection through it to a large Remnant console.
+    global_main_villain: It arrives! This attempt to rival me is no longer amusing, Pathfinder.
+    Narration: The squad side-eyes the kett, then prompts the Pathfinder to keep the Archon talking (nodding toward the Archon and making a talking motion with their hand).
+    Narration: The first squadmate subtly moves right. The second squadmate nods as if to say "Oh, right, good call. Flanking." They move left.
+    Narration: The sibling speaks with effort, smirking through pain. The Archon regards them with pity.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_sibling_male ⟨cond⟩: Hey Sara. Get my clues?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: How you feeling, Scott?
+                global_sibling_male: If this is being Pathfinder, glad I missed out.
+                Narration: The Archon realizes the sibling guided the Pathfinder. He stoops to the sibling, almost caring, like comforting a wounded animal.
+                Narration: He gently gestures to his "eye" hovering nearby. It pulses, and the Sibling strains and flinches.
+                global_main_villain: So determined but so pointless. Your connection serves me.
+                Narration: The Archon stands, gesturing at the Remnant tech that activates. The squad looks on, trying to get a good vantage. They nod. "Ready when you are."
+                global_main_villain: I know how it works. The mind is trained to think like the Remnant creators. In this case, painfully.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_main_villain ⟨cond⟩: But... I'm content to let her bear that burden.
+                    global_main_villain: Whatever gives me Meridian.
+                    Narration: The Archon is coldly intense. No more conjecture. Certainty.
+                    global_main_villain: I will transcend what you pretend to be.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: You're out of time. I've matched you every step.
+                        Hero: You've failed, Archon. You're the pretender.
+                        global_main_villain: You learn by accident!
+                        Narration: The Archon gestures and his "eye" causes the Sibling pain. The Archon strains, receiving "control."
+                        global_main_villain: I am the genetic inheritor of a thousand species!
+                        global_main_villain: No more mercy. Kill them all!
+                    ├ option 2:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: Scott's clear! Take them!
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Narration: The squad starts firing at kett. It clears some kett for the fight. The Archon recoils, more angry than anything. How dare you step on his monologue!
+                                Narration: The Archon strains, the Sibling hurts again. An effect arcs across the Archon, and he doubles over. When he looks up, he is bleeding from his ears.
+                                global_main_villain: Kill them! I {i}will{/i} take Meridian!
+                            ├ option 2:
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            Hero: Sara's clear! Take them!
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                ↩ (goto) Narration: The squad starts firing at kett. It clears some kett for the fight. The Archon recoils, more angry than anything. How dare you step on his monologue!
+                            ├ option 2:
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_main_villain: But... I'm content to let him bear that burden.
+                    ↩ (goto) global_main_villain: Whatever gives me Meridian.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: Pretty clear path, Scott.
+                global_sibling_male: Tried to keep him distracted. It was... hit and miss.
+                ↩ (goto) Narration: The Archon realizes the sibling guided the Pathfinder. He stoops to the sibling, almost caring, like comforting a wounded animal.
+            └─ merge ─┘
+        ├ option 2:
+            global_sibling_male: Hey sister. Get my clues?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: How you feeling, Scott?
+            ├ option 2:
+                ↩ (goto) Hero: Pretty clear path, Scott.
+            └─ merge ─┘
+        ├ option 3:
+            global_sibling_male: Hey jerk. Get my clues?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: How you feeling, Scott?
+            ├ option 2:
+                ↩ (goto) Hero: Pretty clear path, Scott.
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            global_sibling_female ⟨cond⟩: Hey Scott. Get my clues?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: How you feeling, Sara?
+                global_sibling_female: Is this what you do? It hurts a lot.
+                ↩ (goto) Narration: The Archon realizes the sibling guided the Pathfinder. He stoops to the sibling, almost caring, like comforting a wounded animal.
+            ├ option 2:
+                Hero: Pretty clear path, Sara.
+                global_sibling_female: He was distracted. Likes the sound of his own voice.
+                ↩ (goto) Narration: The Archon realizes the sibling guided the Pathfinder. He stoops to the sibling, almost caring, like comforting a wounded animal.
+            └─ merge ─┘
+        ├ option 2:
+            global_sibling_female: Hey brother. Get my clues?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: How you feeling, Sara?
+            ├ option 2:
+                ↩ (goto) Hero: Pretty clear path, Sara.
+            └─ merge ─┘
+        ├ option 3:
+            global_sibling_female: Hey jerk. Get my clues?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ↩ (goto) Hero: How you feeling, Sara?
+            ├ option 2:
+                ↩ (goto) Hero: Pretty clear path, Sara.
+            └─ merge ─┘
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: [Exertion line 1]
+├ option 3:
+    Hero: [Exertion line 2]
+└─ merge ─┘

@@ -1,0 +1,69 @@
+# game/conversations/crit/pro_lnd/pro_lnd_0540_crashedkett_combat_b
+# Primary speaker: global_squad_male_human
+# Source: game/conversations/crit/pro_lnd/pro_lnd_0540_crashedkett_combat_b.xml
+==================================================
+Hero: What are those guys doing?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They see us!
+├ option 2:
+    global_squad_male_human: They see us!
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero [OncePerGame]: Here we go!
+    global_squad_male_human: Not much for talking, are they?
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: Look out—more of their pets!
+    ├ option 2:
+        global_squad_male_human: Look out—they're using those animals!
+        Hero: Careful—they're cloaking!
+    └─ merge ─┘
+├ option 3:
+    global_squad_male_human [OncePerGame]: This is for Kirkland!
+├ option 4:
+    Hero [OncePerGame]: You hanging in there?
+    global_squad_male_human: Don't worry about me!
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They're gone!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: I was with a team that dug up Prothean artifacts.
+            global_squad_male_human: Well, this'll be a field day for you.
+            Hero: I wonder what these guys were doing here.
+            global_squad_male_human: Crash of some kind. It's not one of our ships.
+        ├ option 2:
+            Hero: Used to guard a mass effect relay.
+            global_squad_male_human: Wish we'd had one for the arks.
+            ↩ (goto) Hero: I wonder what these guys were doing here.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: I wonder what these guys were doing here.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human: That did it!
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: You're pretty good at this, Ryder.
+    ├ option 2:
+        ↩ (goto) Hero: I wonder what these guys were doing here.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: We can take them, Liam!
+    global_squad_male_human: Right behind you!
+├ option 2:
+    Hero ⟨cond⟩: I fought off a batarian pirate or two in my day.
+├ option 3:
+    Hero: I fought off an occasional raider or two in my day.
+├ option 4:
+    Hero [OncePerGame]: We stirred the hornet's nest!
+└─ merge ─┘

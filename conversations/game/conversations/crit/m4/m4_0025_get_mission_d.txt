@@ -1,0 +1,37 @@
+# Game/Conversations/Crit/M4/m4_0025_get_mission_d
+# Primary speaker: global_crew_tech_officer
+# Source: game/conversations/crit/m4/m4_0025_get_mission_d.xml
+==================================================
+Hero: Gil, here's that kett transponder. The spy used it to get his orders.
+global_crew_tech_officer: What do we need from it?
+Hero: The location it points to. Should give us a fix on the Archon's ship.
+global_crew_tech_officer: {i}(Deep breath.){/i} Right.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Think you can figure it out?
+    global_crew_tech_officer: I've been looking over the kett tech we've found so far. It may be a different galaxy, but physics still apply.
+    global_crew_tech_officer: Only so many ways of communicating across space.
+    global_crew_tech_officer: There. Give it a shot.
+    Hero: Did you connect the—
+    crit_kett_kett1: [Comm] Nutok sho-lun ka!
+    global_crew_tech_officer: Shit, turn it off!
+    global_crew_tech_officer: Careful. That is a direct line to people who want to murder everyone on this ship.
+    Hero: SAM?
+    SAM: I have the coordinates. The signal points to the Tafeno system.
+    global_crew_tech_officer: We sure we want to do this?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I don't know. Sometimes I think we're in over our head.
+        global_crew_tech_officer: "Sometimes"?
+        Hero: Here's our chance to find out.
+    ├ option 2:
+        Hero: I know we're still getting our feet wet, but I don't see another choice.
+        global_crew_tech_officer: I knew running off to Andromeda would be dangerous, but shit... this is {i}dangerous.{/i}
+        Hero: Only if we die.
+    └─ merge ─┘
+├ option 2:
+    Hero: It's not like there's much riding on this. Just our best chance to find Meridian.
+    global_crew_tech_officer: Pressure. I like that.
+    global_crew_tech_officer: Luckily, no matter where you go in the universe, physics still apply.
+    ↩ (goto) global_crew_tech_officer: Only so many ways of communicating across space.
+└─ merge ─┘

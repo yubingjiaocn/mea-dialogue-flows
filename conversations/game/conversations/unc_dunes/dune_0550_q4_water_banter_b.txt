@@ -1,0 +1,125 @@
+# game/conversations/unc_dunes/dune_0550_q4_water_banter_b
+# Primary speaker: Hero
+# Source: game/conversations/unc_dunes/dune_0550_q4_water_banter_b.xml
+==================================================
+Hero: I think this is Annea's office.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: I'll be the lookout. Check the door.
+    Hero: As expected. It's locked.
+    SAM: A scan should tell you how best to proceed, Pathfinder.
+├ option 2:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Coast is clear! Get on getting that door open.
+    ↩ (goto) Hero: As expected. It's locked.
+├ option 3:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I'll watch for guards. You check out the security.
+    ↩ (goto) Hero: As expected. It's locked.
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Check the security on that door. I'll keep a look out for guards.
+    ↩ (goto) Hero: As expected. It's locked.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: You get the door. I'll watch for guards.
+    ↩ (goto) Hero: As expected. It's locked.
+└─ merge ─┘
+Hero: SAM, what can you tell me?
+SAM: The door requires a code. The wrong input will trigger an alarm and a lockdown.
+Hero: Great.
+SAM: Pathfinder, this door is connected to a wider network.
+SAM: If we find a site suitable for hacking, we may be able to learn the code.
+SAM: This should lead us to an appropriate port.
+Hero: Got the code for the office door.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: We're in. Let's be quick, in case Annea comes by.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Let's find what we need before someone comes by.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: We're in! Better be quick in case Annea strolls by.
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Let's get what we came for before someone sees us.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: Let's get in and get out. Don't want anyone to know we're here.
+└─ merge ─┘
+Hero: An underground lake. That's where she's getting her water.
+Hero: Got the navpoint. Let's get out of here.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Are you sure this is right? Doesn't look like anything's here.
+    Hero: Maybe with a scan...
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: This is the place. I don't see anything though.
+    ↩ (goto) Hero: Maybe with a scan...
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Well, this looks like every other patch of sand.
+    ↩ (goto) Hero: Maybe with a scan...
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: There's a lake under here? I find that hard to believe.
+    ↩ (goto) Hero: Maybe with a scan...
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: There's nothing here. I hope we haven't made a mistake.
+    ↩ (goto) Hero: Maybe with a scan...
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: It's supposed to be here? I don't see anything.
+    ↩ (goto) Hero: Maybe with a scan...
+└─ merge ─┘
+Hero: There's something here.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Good going, kid.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Nice one, Ryder.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Awesome!
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: {i}(Chuckles.){/i} Look at that! You found a path.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: You found it! Wonderful!
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Remnant. Destroyed. Is there a Remnant ruin down here?
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: Looks like this place might have been guarded by Remnant.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Whoa, I wasn't expecting to see Remnant here.
+    global_squad_asari: Come to think of it, maybe this is a Remnant facility. Part of the terraforming plan?
+├ option 4:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: Remnant. Could've been guarding this area at one point.
+├ option 5:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: What are Remnant doing down here?
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: That's a lot more water than I was expecting.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: It... it goes on forever.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: How did a scan not pick this up?
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: That's a lot of water.
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: How did Annea keep this hidden?
+├ option 6:
+    global_squad_male_human ⟨cond⟩ [OncePerGame]: And no one knew this was here? Incredible.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩ [OncePerGame]: Hey, kid. Don't forget we need to find information on Annea's water source.
+    global_squad_krogan: Her office is probably a good place to start.
+├ option 2:
+    global_squad_female_human ⟨cond⟩ [OncePerGame]: We should search for information on Annea's water source.
+    global_squad_female_human: Her office is probably a good start.
+├ option 3:
+    global_squad_asari ⟨cond⟩ [OncePerGame]: Now that we're back here, we should dig around for info on Annea's water.
+    global_squad_asari: Maybe her office?
+├ option 4:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: Since we're here, we should look for info on Annea's water.
+    global_squad_turian: Maybe check out her office?
+├ option 5:
+    global_squad_angara ⟨cond⟩ [OncePerGame]: We should try to get information about Annea's water supply.
+    global_squad_angara: Her office is probably nearby.
+└─ merge ─┘
+↩ (goto) Hero: As expected. It's locked.
+SAM: Pathfinder, the structure surrounding this lake is constructed.
+SAM: It bears similarity to the cave systems that house vaults.
+Hero: Huh. I wonder what the Remnant builders' plans were.

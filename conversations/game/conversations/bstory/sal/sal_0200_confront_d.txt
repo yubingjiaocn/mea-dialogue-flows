@@ -1,0 +1,121 @@
+# game/conversations/bstory/sal/sal_0200_confront_d
+# Primary speaker: Hero
+# Source: game/conversations/bstory/sal/sal_0200_confront_d.xml
+==================================================
+salbs_fake_saelen: There you are. Did you investigate those leads?
+Hero: I learned you're a kett collaborator and a murderer.
+global_salarian_major: Who's one victim short.
+Narration: The real Saelen enters. Fake Saelen sees him... and sighs.
+Narration: There's a shimmer (use shader morph or appropriate VFX) and Fake Saelen becomes DR. ADEN.
+salbs_traitor: So it's true. Old spies really do live forever.
+global_salarian_major: This old spy would punch you if he wasn't—uh!—carrying evidence in his chest.
+salbs_traitor: I tried to give you a decent burial, Major. There was no time to convince you of our cause.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Selling your ark to the kett makes no logical or tactical sense.
+    salbs_traitor: To you. Because you lack data.
+    salbs_traitor: Several of us woke early, prepped the ark... and then we found the kett. An unstoppable enemy.
+    salbs_traitor: So we made a pact. Sacrifice our ark to the kett, and learn their secrets, so one day we could destroy them along with their exaltation.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You pretended to be kett allies so you could study them, then stab them in the back.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            salbs_traitor ⟨cond⟩: Listen. Without the Archon, it's only a matter of time before the kett empire truly invades Heleus.
+            salbs_traitor: The secrets we learned could stop our extinction before it begins. Give us our freedom, and they're yours. Don't let this go to waste.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: What exactly are you offering?
+                salbs_traitor: The intricacies of the kett empire. Vassals, potential weak points, exaltation secrets...
+                global_salarian_major: Which we can't confirm and you could've pulled out of your cloaca.
+                salbs_traitor: We had to sacrifice civilians for this, Major! Will you let that be for nothing?
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    Hero: You're despicable. But if your secrets could save us, teach us to fight exaltation... deal.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: No secrets are worth kneeling to the kett!
+                        global_salarian_major: The hell with that! He—uh!—he gave them our {i}ark{/i}!
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero ⟨cond⟩: We were lucky to beat the Archon. What happens if the kett launch a real invasion?
+                            global_salarian_major: If you trust Aden, you deserve everything you get. If I see him again, you'll have to ID him by his teeth.
+                            Narration: Saelen leaves.
+                            salbs_traitor: I'll transfer my intel to you immediately. My life is entirely in your hands.
+                            salbs_traitor: Thank you for your foresight. You don't know how many lives you'll save.
+                        ├ option 2:
+                            Hero: And we saved it. We're vulnerable, we can't afford to lose any advantage.
+                            ↩ (goto) global_salarian_major: If you trust Aden, you deserve everything you get. If I see him again, you'll have to ID him by his teeth.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_krogan ⟨cond⟩: That's fine. We can always kill him and his buddies later.
+                        ↩ (goto) global_salarian_major: The hell with that! He—uh!—he gave them our {i}ark{/i}!
+                    ├ option 3:
+                        global_squad_male_human ⟨cond⟩: You trust this weasel?
+                        ↩ (goto) global_salarian_major: The hell with that! He—uh!—he gave them our {i}ark{/i}!
+                    ├ option 4:
+                        global_squad_asari ⟨cond⟩: Might work out long-term, but that's a big "might."
+                        ↩ (goto) global_salarian_major: The hell with that! He—uh!—he gave them our {i}ark{/i}!
+                    ├ option 5:
+                        global_squad_turian ⟨cond⟩: What? You can't be serious!
+                        ↩ (goto) global_salarian_major: The hell with that! He—uh!—he gave them our {i}ark{/i}!
+                    ├ option 6:
+                        global_squad_female_human ⟨cond⟩: Seriously?
+                        ↩ (goto) global_salarian_major: The hell with that! He—uh!—he gave them our {i}ark{/i}!
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero: Put this traitor where he belongs, Major.
+                    ┌─ BRANCH (6) ─┐
+                    ├ option 1:
+                        global_squad_angara ⟨cond⟩: We have particular accommodations for collaborators.
+                        salbs_traitor: Arrest me, and you'll never find the others.
+                        global_salarian_major: I've got nothing but time to look. I'm retired, remember?
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            global_salarian_major ⟨cond⟩: Me, Raeka, the others—we all owe you for this, Ryder.
+                            global_salarian_major: Now if you'll excuse me—uh!—I need a militia pickup, a doctor... and the biggest drink on the Nexus.
+                            ↩ (goto) global_salarian_major: [empty]
+                        ├ option 2:
+                            global_salarian_major: I owe you big for this, Ryder.
+                            ↩ (goto) global_salarian_major: Now if you'll excuse me—uh!—I need a militia pickup, a doctor... and the biggest drink on the Nexus.
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_squad_krogan ⟨cond⟩: I've got suggestions if you need them.
+                        ↩ (goto) salbs_traitor: Arrest me, and you'll never find the others.
+                    ├ option 3:
+                        global_squad_male_human ⟨cond⟩: Have to love a happy ending.
+                        ↩ (goto) salbs_traitor: Arrest me, and you'll never find the others.
+                    ├ option 4:
+                        global_squad_asari ⟨cond⟩: Let the other salarians take a swing at him first.
+                        ↩ (goto) salbs_traitor: Arrest me, and you'll never find the others.
+                    ├ option 5:
+                        global_squad_turian ⟨cond⟩: Dangling outside an airlock, maybe.
+                        ↩ (goto) salbs_traitor: Arrest me, and you'll never find the others.
+                    ├ option 6:
+                        global_squad_female_human ⟨cond⟩: Bravo.
+                        ↩ (goto) salbs_traitor: Arrest me, and you'll never find the others.
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                ↩ (goto) Hero: You're despicable. But if your secrets could save us, teach us to fight exaltation... deal.
+            ├ option 3:
+                ↩ (goto) Hero: Put this traitor where he belongs, Major.
+            └─ merge ─┘
+        ├ option 2:
+            salbs_traitor: Listen. There is an {i}empire{/i} of kett beyond Heleus, all-powerful conquerors who will invade us eventually.
+            ↩ (goto) salbs_traitor: The secrets we learned could stop our extinction before it begins. Give us our freedom, and they're yours. Don't let this go to waste.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: "Hey, I know how not to get exalted—get ourselves exalted!" You idiot.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) salbs_traitor ⟨cond⟩: Listen. Without the Archon, it's only a matter of time before the kett empire truly invades Heleus.
+        ├ option 2:
+            ↩ (goto) salbs_traitor: Listen. There is an {i}empire{/i} of kett beyond Heleus, all-powerful conquerors who will invade us eventually.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Save it, Aden. You betrayed your people. You'll never see daylight again.
+    salbs_traitor: My people agreed to this!
+    ↩ (goto) salbs_traitor: Several of us woke early, prepped the ark... and then we found the kett. An unstoppable enemy.
+└─ merge ─┘

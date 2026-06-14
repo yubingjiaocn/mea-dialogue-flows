@@ -1,0 +1,30 @@
+# game/conversations/hubs/hub_nexus/culcent/nex_cul_asari_kiosk_i
+# Primary speaker: nex_culcent_asari
+# Source: game/conversations/hubs/hub_nexus/culcent/nex_cul_asari_kiosk_i.xml
+==================================================
+nex_culcent_asari: Welcome, native of Andromeda. My people are known as asari. It would be my pleasure to tell you about our kind.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Okay.
+    nex_culcent_asari: Very well. Asari are the oldest civilized race in the Milky Way galaxy.
+    nex_culcent_asari: Among my people, diplomacy and cooperation are prized over war or conflict.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero: Where do you come from?
+        nex_culcent_asari: Asari come from a planet known as Thessia, which many consider the crown jewel of the Milky Way.
+        nex_culcent_asari: It's a thriving world blessed with prosperity and peace, and the center of the largest economy in the galaxy.
+        nex_culcent_asari: With the high concentration of element zero on Thessia, asari evolved powerful biotic abilities. It is considered a hallmark of our species.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: What's asari history like?
+        nex_culcent_asari: Thousands of years ago, we played an important role in founding the Citadel Council, the seat of government for our home galaxy.
+        nex_culcent_asari: In the ensuing centuries, asari placed great value on cooperation and collaboration. Many species looked to us for leadership and guidance.
+        nex_culcent_asari: Due to our lifespan—sometimes reaching 1,000 years of age—we are patient in our decisions, and prefer long-term solutions over short-term gains.
+        ↩ (goto) Hero: [empty]
+    ├ option 3:
+        nex_culcent_asari: Farewell. We look forward to forging new bonds with our friends in Andromeda. The wisdom you share is our reward.
+    └─ merge ─┘
+├ option 2:
+    Hero: Maybe later.
+    nex_culcent_asari: I patiently await your return.
+└─ merge ─┘

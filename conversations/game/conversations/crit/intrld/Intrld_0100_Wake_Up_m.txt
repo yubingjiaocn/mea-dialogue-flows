@@ -1,0 +1,214 @@
+# Game/Conversations/Crit/Intrld/Intrld_0100_Wake_Up_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld/Intrld_0100_Wake_Up_m.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    SAM ⟨cond⟩: [Private] Welcome back, Scott.
+    Hero: What happened? ⏎
+    SAM: [Private] You were clinically dead for twenty-two seconds.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Did the rest of the team make it?
+        global_squad_male_human: Hey...
+        global_squad_male_human: You're still with us.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_squad_male_human ⟨cond⟩: Guys, get to SAM Node! Ryder's awake!
+            global_squad_male_human: Who were you talking to?
+            Hero: SAM.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                global_squad_male_human ⟨cond⟩: I didn't hear SAM. Maybe that leap you took knocked some screws loose.
+                global_squad_female_human: You're up.
+                global_humanark_asari_dr: Look here
+                global_humanark_asari_dr: And here.
+                Hero: My father... where...?
+                global_squad_female_human: It was your life or his. And he chose you.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    global_squad_female_human ⟨cond⟩: I'm sorry, Scott. I know this must be a blow.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: He made the ultimate sacrifice. He got the team out of danger. We all owe him for that.
+                        global_squad_female_human: He once said that when his time came, he wanted to go out among stars no one had seen before.
+                        Hero: What are we doing in SAM Node?
+                        global_humanark_asari_dr: SAM is now part of you... in a way we don't entirely understand. It played havoc with your brain.
+                        Hero: SAM?
+                        SAM: Your father authorized the transfer of Pathfinder authority to you.
+                        Hero: Shouldn't that be Cora?
+                        global_squad_female_human: In theory. In reality...
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            global_squad_female_human ⟨cond⟩: You're the new Pathfinder, Scott.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                Hero: Whoa. Well... if that's how it has to be...
+                                global_squad_male_human: Don't sell yourself short. I think you can do it.
+                                Hero: Cora?
+                                global_squad_female_human: It's what he wanted. I won't stand in the way.
+                                global_squad_female_human: But being Pathfinder is a serious job. You sure you're ready for this?
+                                ┌─ BRANCH (4) ─┐
+                                ├ option 1:
+                                    Hero: It's why I'm here. Exploring the unknown.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_squad_male_human ⟨cond⟩: Just like your dad, huh?
+                                        global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                        global_humanark_asari_dr: Trying to untangle it could kill you.
+                                        global_squad_female_human: I know this is tough, but... we need to start thinking about the next step. A lot of people are counting on us.
+                                        Hero: Is the ark still drifting?
+                                        global_squad_male_human: That's the thing—whatever your dad did with that tower, it saved the day. Some sort of atmosphere scrubber.
+                                        global_squad_female_human: The energy cloud thinned out. We're on our way to the rally point now. Should be at the Nexus soon.
+                                        ┌─ BRANCH (2) ─┐
+                                        ├ option 1:
+                                            global_humanark_asari_dr ⟨cond⟩: She needs to rest first.
+                                            global_squad_female_human: She has two hours. We'll need our Pathfinder for this.
+                                            ┌─ BRANCH (2) ─┐
+                                            ├ option 1:
+                                                global_squad_male_human ⟨cond⟩: Oh, I checked on your brother—still no change. But if you can pull through, so can he.
+                                                global_squad_male_human: A bit of your dad in both of you.
+                                                SAM: [Private] Your father will be missed.
+                                                Hero: What's going on, SAM?
+                                                SAM: [Private] This is our private channel. I shared it with him.
+                                                ┌─ BRANCH (2) ─┐
+                                                ├ option 1:
+                                                    Hero: Why did he do it? Why me?
+                                                    SAM: [Private] Unknown. But he never acted without reason.
+                                                    SAM: [Private] Alec wouldn't want us to lose sight of the goal. He said pain emboldens our resolve. He'd insist we grow stronger from his passing.
+                                                ├ option 2:
+                                                    Hero: He never mentioned anything about that.
+                                                    SAM: [Private] It allowed me to know him better.
+                                                    ↩ (goto) SAM: [Private] Alec wouldn't want us to lose sight of the goal. He said pain emboldens our resolve. He'd insist we grow stronger from his passing.
+                                                └─ merge ─┘
+                                            ├ option 2:
+                                                global_squad_male_human: Oh, I checked on your sister—still no change. But if you can pull through, so can she.
+                                                ↩ (goto) global_squad_male_human: A bit of your dad in both of you.
+                                            └─ merge ─┘
+                                        ├ option 2:
+                                            global_humanark_asari_dr: He needs to rest first.
+                                            global_squad_female_human: He's got two hours. We'll need our Pathfinder for this.
+                                            ↩ (goto) ?: [empty]
+                                        └─ merge ─┘
+                                    ├ option 2:
+                                        global_squad_male_human: That's the spirit.
+                                        ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                    └─ merge ─┘
+                                ├ option 2:
+                                    Hero: I'm sure there's a lot I don't know, but I'll figure it out.
+                                    global_squad_male_human: If it helps, you've got me to lean on.
+                                    ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                ├ option 3:
+                                    Hero: Well, we know what my dad thought. He never was the kind of guy to ask permission.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_squad_male_human: Now it's your turn to bark orders.
+                                        ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                    ├ option 2:
+                                        global_squad_male_human ⟨cond⟩: This from the Ryder who jumped off that platform. You're more like him than you know.
+                                        ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                    └─ merge ─┘
+                                ├ option 4:
+                                    Hero: A lot of people here are counting on me. I'll get it done.
+                                    ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                └─ merge ─┘
+                            ├ option 2:
+                                Hero: You can't be serious.
+                                global_squad_male_human: What's the matter? I think you're up for it.
+                                ┌─ BRANCH (4) ─┐
+                                ├ option 1:
+                                    Hero: You saw my dad in action. It takes years to become a Pathfinder.
+                                    global_squad_male_human: You'll learn as you go. Besides, you won't be doing this alone.
+                                    ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                ├ option 2:
+                                    Hero: Why would my dad do this? ⏎
+                                    global_squad_male_human: He obviously had faith in you. I say run with it.
+                                    ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                ├ option 3:
+                                    Hero: That's easy enough to say, but going out there and doing it? I barely survived that last mission. Hell—technically, I didn't.
+                                    ┌─ BRANCH (2) ─┐
+                                    ├ option 1:
+                                        global_squad_male_human: But you're alive and kicking now. You're not a quitter, that's for sure.
+                                        ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                    ├ option 2:
+                                        global_squad_male_human ⟨cond⟩: But you're alive and kicking now. You've got guts, Ryder. Jumping after your dad like that?
+                                        ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                    └─ merge ─┘
+                                ├ option 4:
+                                    Hero: It still goes against protocol—Cora, are you really okay with this?
+                                    global_squad_female_human: I won't stand in the way of your dad's decision.
+                                    ↩ (goto) global_humanark_asari_dr: It's all academic, anyway—SAM's linked to your mind on a deeper level now.
+                                └─ merge ─┘
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_squad_female_human ⟨cond⟩: You're the new Pathfinder, Sara.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero: Whoa. Well... if that's how it has to be...
+                            ├ option 2:
+                                ↩ (goto) Hero: You can't be serious.
+                            └─ merge ─┘
+                        ├ option 3:
+                            global_squad_female_human: You're the new Pathfinder.
+                            ┌─ BRANCH (2) ─┐
+                            ├ option 1:
+                                ↩ (goto) Hero: Whoa. Well... if that's how it has to be...
+                            ├ option 2:
+                                ↩ (goto) Hero: You can't be serious.
+                            └─ merge ─┘
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: Honestly, we weren't close. I never really knew him growing up.
+                        global_squad_female_human: I know he could be distant. But he once said that when his time came, he wanted to go out among stars no one had seen before.
+                        ↩ (goto) ?: [empty]
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_female_human ⟨cond⟩: I'm so sorry, Sara. I know this must be a blow.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero ⟨cond⟩: I... I can't believe he's gone. One minute everything was fine, and then... he...
+                        ↩ (goto) ?: [empty]
+                    ├ option 2:
+                        Hero ⟨cond⟩: Growing up with dad was tough. He and I never really hit it off. But...
+                        ↩ (goto) ?: [empty]
+                    └─ merge ─┘
+                ├ option 3:
+                    global_squad_female_human: I'm so sorry. I know this must be a blow.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero ⟨cond⟩: I... I can't believe he's gone. One minute everything was fine, and then... he...
+                        ├ option 2:
+                            ↩ (goto) Hero ⟨cond⟩: Growing up with dad was tough. He and I never really hit it off. But...
+                        └─ merge ─┘
+                    ├ option 2:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            ↩ (goto) Hero: Honestly, we weren't close. I never really knew him growing up.
+                        ├ option 2:
+                            ↩ (goto) Hero: He made the ultimate sacrifice. He got the team out of danger. We all owe him for that.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                └─ merge ─┘
+            ├ option 2:
+                global_squad_male_human: I didn't hear him.
+                ↩ (goto) ?: [empty]
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_male_human: Guys, get to SAM Node! Ryder's awake!
+            ↩ (goto) global_squad_male_human: Who were you talking to?
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Then how did I make it out?
+        ↩ (goto) global_squad_male_human: Hey...
+    └─ merge ─┘
+├ option 2:
+    SAM ⟨cond⟩: [Private] Welcome back, Sara.
+    ↩ (goto) Hero: What happened? ⏎
+├ option 3:
+    SAM: [Private] Welcome back.
+    ↩ (goto) Hero: What happened? ⏎
+└─ merge ─┘
+SAM: [Private] Alec knew this would be difficult, but he believed you would be strong enough to bear it—to become the Pathfinder in spite of the pain.
+global_squad_female_human: He didn't make it.

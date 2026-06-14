@@ -1,0 +1,63 @@
+# Game/Conversations/Loyalty/Loy_HMF/loy_hmf_0300_field_banter_b
+# Primary speaker: 
+# Source: game/conversations/Loyalty/loy_hmf/loy_hmf_0300_field_banter_b.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Ow. {i}Ow.{/i}
+    Hero: What is it?
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        global_squad_asari ⟨cond⟩: It's like nails on glass. Ugh.
+    ├ option 2:
+        global_squad_angara ⟨cond⟩: A tingling on my skin. It's—forgive me if I scratch.
+    ├ option 3:
+        global_squad_female_human: Don't know. Like a dog whistle.
+    └─ merge ─┘
+├ option 2:
+    global_squad_angara ⟨cond⟩: Uhhh. Unpleasant.
+    ↩ (goto) Hero: What is it?
+├ option 3:
+    global_squad_female_human: Ah. Ow.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You feel it too? What's causing that?
+    ├ option 2:
+        ↩ (goto) Hero: What is it?
+    └─ merge ─┘
+└─ merge ─┘
+Hero [OncePerGame]: Some engineer left before she could clean up her workbench.
+SAM: These components were taken from ark systems, including power distribution.
+global_squad_female_human: Explains the problems we're having. What could be worth gutting the ark?
+loy_hmf_vederia_multi [OncePerGame]: Ryder, over here!
+SAM: The device requires two people for shutdown—one disconnecting the cables and another at the device itself.
+loy_hmf_vederia_multi: I'll handle the device.
+SAM: Caution: once begun, the fail-safe cycle must be completed or the device will fuse.
+Hero [OncePerGame]: Ready, Vederia? Disconnecting the first cable now.
+loy_hmf_vederia_multi [OncePerGame]: Kett!
+Hero: Watch the device, we'll handle them!
+loy_hmf_vederia_multi: But—
+global_squad_female_human: We need you, Vederia! You can do this!
+loy_hmf_vederia_multi [OncePerGame]: They're down! Okay, next cable—ready when you are!
+Hero [OncePerGame]: More kett! Take them down!
+loy_hmf_vederia_multi: Goddess, how many came aboard?
+loy_hmf_vederia_multi [OncePerGame]: All right! Now the cable!
+loy_hmf_vederia_multi [OncePerGame]: Another attack! They're desperate, Ryder, this must be the last of them!
+Hero [OncePerGame]: The kett are down!
+SAM: The device can now be deactivated.
+Hero [OncePerGame]: Second cable, we're getting there!
+Hero [OncePerGame]: Working on the last cable!
+loy_hmf_vederia_multi [OncePerGame]: Watch the glass!
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_asari ⟨cond⟩: Don't bother! We've got mag boots, they don't!
+├ option 2:
+    global_squad_turian ⟨cond⟩: It can take a few shots! Focus on the kett!
+├ option 3:
+    global_squad_krogan ⟨cond⟩: Forget it! It's tougher than the kett!
+├ option 4:
+    global_squad_male_human ⟨cond⟩: Bigger problems right now!
+├ option 5:
+    global_squad_angara ⟨cond⟩: If it breaks, let them breathe vacuum!
+└─ merge ─┘
+global_squad_female_human [OncePerGame]: This is their last stand! Break through!

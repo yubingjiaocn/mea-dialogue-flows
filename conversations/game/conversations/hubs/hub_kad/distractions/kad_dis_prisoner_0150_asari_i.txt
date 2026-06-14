@@ -1,0 +1,27 @@
+# game/conversations/hubs/hub_kad/distractions/kad_dis_prisoner_0150_asari_i
+# Primary speaker: kad_dancer
+# Source: game/conversations/hubs/hub_kad/distractions/kad_dis_prisoner_0150_asari_i.xml
+==================================================
+Hero: Cele? I've got a message from Jim, your boyfriend.
+kad_dancer: {i}(Groans.){/i} Goddess don’t tell me he really thinks I’m his girlfriend.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Hopeful thinking on his part?
+    kad_dancer: More than hopeful. Delusional.
+    kad_dancer: Go on then. What's the message?
+    Hero: He said he'll have enough credits to pay Sloane's protection fees soon. And, uh, to wait for him.
+    kad_dancer: You tell Jim, thanks, but I'm happy at Tartarus. I don't need rescuing. Especially from a pup like him.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: {i}(Sighs.){/i} I'll set him straight.
+        kad_dancer: What a pain.
+    ├ option 2:
+        Hero: No, I told Jim I'd deliver the message and I have.
+        Hero: You got more to say? Do it yourself.
+        kad_dancer: All right. Sheesh.
+    └─ merge ─┘
+├ option 2:
+    Hero: I'm just the messenger.
+    kad_dancer: Right. Sorry.
+    ↩ (goto) kad_dancer: Go on then. What's the message?
+└─ merge ─┘

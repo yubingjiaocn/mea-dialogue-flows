@@ -1,0 +1,74 @@
+# game/conversations/crit/crit_ex/crit_ex_0560_card_chase_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/Crit_Ex/crit_ex_0560_card_chase_b.xml
+==================================================
+global_squad_angara: She has the Moshae!
+global_squad_angara: Moshae Sejfa, we're coming for you!
+┌─ BRANCH (3) ─┐
+├ option 1:
+├ option 2:
+    global_squad_angara: We can't let that kett monster take our Moshae.
+    Hero: Don't worry Jaal, that's not happening.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Just gotta make quick work of these monsters first.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: This won't take long. Let's turn up the heat.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: We found her once we can find her again.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Just gotta deal with these jerks—then, don't worry, we'll find her.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: This won't take long. Soon as we get these assholes out of our way.
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Were these kett once angara, too?
+        global_squad_angara: I don't know and I don't care. They stand between us and The Moshae!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Were these kett once angara, too?
+        ↩ (goto) global_squad_angara: I don't know and I don't care. They stand between us and The Moshae!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Were these kett once angara, too?
+        ↩ (goto) global_squad_angara: I don't know and I don't care. They stand between us and The Moshae!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Were these kett once angara, too?
+        ↩ (goto) global_squad_angara: I don't know and I don't care. They stand between us and The Moshae!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Were these kett once angara, too?
+        ↩ (goto) global_squad_angara: I don't know and I don't care. They stand between us and The Moshae!
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Okay! Which way did they go?
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: SAM, can you find us a—something? Anything?
+    SAM: I will try.
+    global_squad_angara: Once we get our Moshae, we need to save everyone here.
+    Hero: Jaal, I don't think... we don't know if they even can be saved.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: The ones they changed... I think it's too late for them.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Not the ones the kett got their hands on, for sure.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: I'm guessing no one comes back from this.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: At least... not the ones who already went through.
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Not after that. There's no way.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: This place is a maze. SAM, make yourself useful.
+    ↩ (goto) SAM: I will try.
+├ option 3:
+    global_squad_turian ⟨cond⟩: SAM, we're lost! Help us!
+    ↩ (goto) SAM: I will try.
+├ option 4:
+    global_squad_asari ⟨cond⟩: SAM, got any help here? This place is a maze.
+    ↩ (goto) SAM: I will try.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: SAM, can you make sense of this place?
+    ↩ (goto) SAM: I will try.
+└─ merge ─┘

@@ -1,0 +1,26 @@
+# game/conversations/unc/biolum/bio_1175_merch_i
+# Primary speaker: bio_outpost_staff_supply_multi
+# Source: game/conversations/unc/biolum/bio_1175_merch_i.xml
+==================================================
+bio_outpost_staff_supply_multi: Oh, welcome! New supplies, fresh from the Nexus—and a few from my secret partners!
+bio_outpost_staff_supply_multi: Plan to build the first angara-Nexus trading company. "Lone Star Enterprises." Gotta remember where I started, you know?
+bio_outpost_staff_supply_multi: Hey, you wanna be an early investor?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: You've got real ambition, I'll give you that.
+    bio_outpost_staff_supply_multi: Buy something, and I'm one step closer.
+├ option 2:
+    Hero: What do I get for investing?
+    bio_outpost_staff_supply_multi: Today? Great supplies. Tomorrow? Who knows?
+    ↩ (goto) bio_mws_merchant: [empty]
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    bio_outpost_staff_supply_multi: Howdy. Welcome back!
+├ option 2:
+    bio_outpost_staff_supply_multi: Check it out!
+├ option 3:
+    bio_outpost_staff_supply_multi: Hey, y'all. What you need?
+├ option 4:
+    bio_outpost_staff_supply_multi: Wanna deal?
+└─ merge ─┘

@@ -1,0 +1,69 @@
+# game/conversations/unc/olw/outpost_loop/olw_0200_outpost_quartermaster_i
+# Primary speaker: olw_outpost_quartermaster
+# Source: game/conversations/unc/olw/outpost_loop/olw_0200_outpost_quartermaster_i.xml
+==================================================
+┌─ BRANCH (3) ─┐
+├ option 1:
+    olw_outpost_quartermaster: Nyx. I was wondering when you'd show up.
+    Hero: Do you know everyone?
+    global_squad_turian: {i}(Chuckles.){/i} Dru worked the stock rooms on the Nexus.
+    global_squad_turian: Guess this explains why you never sent me those regulators, Seneca.
+    olw_outpost_quartermaster: Got busy with the move. But I set them aside for you.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        olw_outpost_quartermaster ⟨cond⟩: Knew the Pathfinder would show up eventually.
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            Hero: So, you're the requisitions officer?
+            olw_outpost_quartermaster: That’s my official title, yeah. But I take care of any odd jobs that pop up.
+            olw_outpost_quartermaster: Scrubbing, cooking—whatever I can do to help.
+            Hero: That's nice of you.
+            olw_outpost_quartermaster: Keeps me busy. I used to work the drill back on Mars, until I messed up my hand.
+            olw_outpost_quartermaster: I was lucky I didn’t lose it, but the nerves never healed right.
+            ↩ (goto) olw_outpost_quartermaster: [empty]
+        ├ option 2:
+            Hero: Were you there during the uprising?
+            olw_outpost_quartermaster: Oh I was there—barricaded myself inside one of the stock rooms. Total chaos.
+            Hero: Must be strange seeing the exiles again.
+            olw_outpost_quartermaster: Tann took the "out of sight, out of mind" approach.
+            olw_outpost_quartermaster: But that's never worked in my experience.
+            ↩ (goto) olw_outpost_quartermaster: [empty]
+        ├ option 3:
+            Hero: Do you have everything you need?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                olw_outpost_quartermaster ⟨cond⟩: We've got the necessities, but Sloane's keeping us on a tight leash.
+                olw_outpost_quartermaster: Outcasts check every shipment going in and out.
+                olw_outpost_quartermaster: As if the Charlatan would be hiding in one of our crates.
+                ↩ (goto) olw_outpost_quartermaster: [empty]
+            ├ option 2:
+                olw_outpost_quartermaster: Oh yeah. I swear the Collective can get their hands on anything.
+                olw_outpost_quartermaster: They’re even more reliable than Vetra.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: Hey now!
+                    olw_outpost_quartermaster: Kidding, kidding. No one's better than you, Nyx.
+                    ↩ (goto) olw_outpost_quartermaster: [empty]
+                ├ option 2:
+                    ↩ (goto) olw_outpost_quartermaster: [empty]
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 4:
+            Hero: See you around, Dru.
+            olw_outpost_quartermaster: Keep fighting the good fight, Pathfinder.
+        └─ merge ─┘
+    ├ option 2:
+        olw_outpost_quartermaster: Knew the Pathfinder would show up eventually.
+        ↩ (goto) olw_outpost_quartermaster: [empty]
+    └─ merge ─┘
+├ option 2:
+    olw_outpost_quartermaster: Hey! You're Vetra's boss!
+    Hero: How do you know Vetra? You one of her contacts?
+    olw_outpost_quartermaster: You could say that. I used to work the stock rooms on the Nexus.
+    olw_outpost_quartermaster: Let her know I set aside those regulators she wanted.
+    olw_outpost_quartermaster: Would've sent them earlier, but got busy with the move.
+    ↩ (goto) olw_outpost_quartermaster: [empty]
+├ option 3:
+    olw_outpost_quartermaster: Hey there.
+    ↩ (goto) olw_outpost_quartermaster: [empty]
+└─ merge ─┘

@@ -1,0 +1,20 @@
+# game/conversations/bstory/kro/kbs_kad_nochase_a
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/kbs_kad_nochase_a.xml
+==================================================
+Hero: The shuttle left without them!
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_krogan: {i}(Laughs.){/i} Beautiful!
+├ option 2:
+    global_squad_asari: I guess he was in a hurry.
+    ↩ (goto) global_squad_turian: [empty]
+├ option 3:
+    global_squad_male_human: One less to fight, I guess.
+    ↩ (goto) global_squad_turian: [empty]
+├ option 4:
+    global_squad_turian: This day's going well so far.
+    ↩ (goto) global_squad_turian: [empty]
+└─ merge ─┘
+kbs_ela_chase_pir_03: What the hell do we do now?
+kbs_ela_chase_pir_04: I guess we fight?

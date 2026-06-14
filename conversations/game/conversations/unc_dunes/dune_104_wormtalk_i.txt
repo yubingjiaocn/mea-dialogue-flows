@@ -1,0 +1,24 @@
+# game/conversations/unc_dunes/dune_104_wormtalk_i
+# Primary speaker: dune_wormgossip_1
+# Source: game/conversations/unc_dunes/dune_104_wormtalk_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    dune_wormgossip_1 [OncePerGame]: Soft squishy human like you should probably steer clear of the 'wildlife' out there.
+    Hero: You said something about a worm.
+    dune_wormgossip_1: Not a worm. {i}The{/i} Worm. Huge, invincible—you can't miss it.
+    dune_wormgossip_1: It pops out of the dunes from time to time. Plows down everything in its path.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Do I have to worry about it attacking?
+        dune_wormgossip_2: Far as we can tell, it doesn't care about us one way or the other.
+        dune_wormgossip_2: But stay out of its way. It'll barrel right through you. Tear you to pieces.
+        Hero: Thanks for the heads-up.
+    ├ option 2:
+        Hero: As if this planet wasn't deadly enough.
+        dune_wormgossip_2: Good news is, it doesn't attack us. Doesn't seem to care about us at all.
+        ↩ (goto) dune_wormgossip_2: But stay out of its way. It'll barrel right through you. Tear you to pieces.
+    └─ merge ─┘
+├ option 2:
+    dune_wormgossip_1: If you head out 'Worm hunting', let me know. I'll plan yer funeral. Heh-heh.
+└─ merge ─┘

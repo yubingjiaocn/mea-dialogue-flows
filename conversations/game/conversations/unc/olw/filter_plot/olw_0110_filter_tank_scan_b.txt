@@ -1,0 +1,29 @@
+# game/conversations/unc/olw/filter_plot/olw_0110_filter_tank_scan_b
+# Primary speaker: Hero
+# Source: game/conversations/unc/olw/filter_plot/olw_0110_filter_tank_scan_b.xml
+==================================================
+SAM: Someone has tampered with the filter.
+SAM: The angara ingested only enough sulfuric acid to be lethal over time.
+Hero: But not enough that they'd notice right away.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Skylaar's log mentioned trouble with exiles. Let's check out this "Charybdis Point."
+├ option 2:
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Who would do this?
+        Hero: We should keep looking around. See if we can find more about who's responsible.
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Sounds like good old fashioned murder.
+        ↩ (goto) Hero: We should keep looking around. See if we can find more about who's responsible.
+    ├ option 3:
+        global_squad_male_human ⟨cond⟩: They were poisoned deliberately then? But why?
+        ↩ (goto) Hero: We should keep looking around. See if we can find more about who's responsible.
+    ├ option 4:
+        global_squad_female_human ⟨cond⟩: Premeditated murder.
+        ↩ (goto) Hero: We should keep looking around. See if we can find more about who's responsible.
+    ├ option 5:
+        global_squad_asari ⟨cond⟩: Someone obviously put some thought into this.
+        ↩ (goto) Hero: We should keep looking around. See if we can find more about who's responsible.
+    └─ merge ─┘
+└─ merge ─┘

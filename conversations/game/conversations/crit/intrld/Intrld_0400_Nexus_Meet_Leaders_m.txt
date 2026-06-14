@@ -1,0 +1,125 @@
+# Game/Conversations/Crit/Intrld/Intrld_0400_Nexus_Meet_Leaders_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/intrld/Intrld_0400_Nexus_Meet_Leaders_m.xml
+==================================================
+global_squad_male_human: You guys go ahead. I'll check out the security situation.
+global_nexus_militia_leader: You should know our command structure has been fractured. Some of us are filling in for leaders who died.
+nex_ops_crew1: Is it true?
+nex_ops_crew2: They said drop everything and report for duty.
+global_nexus_militia_leader: ...and no one was expecting an ark to finally show up.
+nex_ops_crew3: Docking procedures are green across the board.
+Nex_ops_crew4: Stand by to merge Hyperion power into the grid.
+global_nexus_PI_director: The crew of the Hyperion...
+global_nexus_militia_leader: Good luck.
+global_nexus_PI_director: I'm Jarun Tann, Director of the Initiative. You have no idea how much your arrival means to us.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Not as much as it means to us. We had one hell of a time getting here. Nice to see some friendly faces.
+    global_nexus_colonial_director_multi: Hungry faces. Any supplies you can spare would be appreciated.
+    global_nexus_PI_director: This is Foster Addison. She oversees Colonial Affairs.
+    global_nexus_PI_director: Where's the Pathfinder?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You're looking at her.
+        global_nexus_PI_director: You're not Alec Ryder.
+        Hero: My father's dead. He made me his successor.
+        global_nexus_colonial_director_multi: Alec... is dead?
+        Narration: Somber, Ryder and Cora nod. The Initiative Director and Colonial Director exchange alarmed looks.
+        global_nexus_colonial_director_multi: Please understand: the entire Initiative is at risk.
+        Narration: She walks over to a nearby screen, gesturing to a map of failed planets.
+        global_nexus_colonial_director_multi: None of the golden worlds panned out. They're a bust. And there's been no word from the other arks.
+        global_squad_female_human: What happened to them?
+        global_nexus_PI_director: Unknown. Our supplies are nearly depleted. Rationing bought us some time, but even that's running out.
+        global_nexus_colonial_director_multi: We need to find more resources. But that takes people, and we can't wake them up—
+        Hero: —until they have somewhere to live. A golden world.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi ⟨cond⟩: Now more than ever, we {i}need{/i} a Pathfinder.
+            global_nexus_colonial_director_multi: Alec was our best hope.
+            global_nexus_PI_director: It now falls to you, Ryder. Are you up to the task?
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero ⟨cond⟩: I'm ready to step up and do what needs to be done. I can handle it.
+                    global_nexus_colonial_director_multi: Youthful enthusiasm will only get you so far in Andromeda.
+                    global_arkcon_superintendent: That's no way to treat a guest.
+                    global_arkcon_superintendent: I'm Nakmor Kesh, superintendent of this station. I hope they haven't scared you off already.
+                    global_nexus_colonial_director_multi: It's nothing personal. But now isn't the time for on-the-job training.
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        global_arkcon_superintendent ⟨cond⟩: At least the Pathfinder here seems willing to try. We could use a fresh perspective.
+                        global_nexus_colonial_director_multi: You've heard my concerns. I'll leave you to it.
+                        global_nexus_PI_director: We're all feeling the pressure.
+                        global_nexus_PI_director: Let's have a private word in my office, Ryder. We'll discuss giving you a scout ship.
+                        global_nexus_PI_director: I'm happy to work out the details with your associate?
+                        global_arkcon_superintendent: Welcome to the Nexus.
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Thank you for standing up for me there. ⏎
+                            global_arkcon_superintendent: Hope's in short supply here. What little we can find should have a chance to bloom.
+                            Nex_ops_crew4: Ma'am, the Hyperion's core is now online.
+                            global_arkcon_superintendent: Let me show you something.
+                            global_arkcon_superintendent: An hour ago, that was all dark. But with the power from your ship—you're keeping the lights on. You have my vote.
+                            Hero: And when the power runs out?
+                            global_arkcon_superintendent: You'd best go talk to Director Tann. Make sure that doesn't happen.
+                            global_arkcon_superintendent: And don't be shy—come see me when you have a chance.
+                        ├ option 2:
+                            Hero: I can't believe how far off-track things have gone.
+                            global_arkcon_superintendent: It's bad, but it's not over. Not yet.
+                            ↩ (goto) global_arkcon_superintendent: [empty]
+                        └─ merge ─┘
+                    ├ option 2:
+                        global_arkcon_superintendent: At least the Pathfinder here seems willing to try. We could use a fresh perspective.
+                        ↩ (goto) global_nexus_colonial_director_multi: You've heard my concerns. I'll leave you to it.
+                    └─ merge ─┘
+                ├ option 2:
+                    Hero ⟨cond⟩: My dad knew what it meant to be Pathfinder. He wouldn't pick me if he thought I wasn't.
+                    global_nexus_colonial_director_multi: Your father won't be around to fix things if you fail.
+                    ↩ (goto) global_arkcon_superintendent: [empty]
+                ├ option 3:
+                    Hero: Well, we came a long ways for nothing if I'm not.
+                    global_nexus_colonial_director_multi: We'll all die if you're not.
+                    ↩ (goto) global_arkcon_superintendent: [empty]
+                ├ option 4:
+                    Hero: You're in trouble here. I'd say you need any help you can get.
+                    global_nexus_colonial_director_multi: We need qualified help.
+                    ↩ (goto) global_arkcon_superintendent: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                ┌─ BRANCH (4) ─┐
+                ├ option 1:
+                    Hero: I may not have been the first choice, but I'm ready for this.
+                    ↩ (goto) global_nexus_colonial_director_multi: Youthful enthusiasm will only get you so far in Andromeda.
+                ├ option 2:
+                    Hero: My father believed I am. If you trusted him with the job, you'll have to trust his judgment.
+                    ↩ (goto) global_nexus_colonial_director_multi: Your father won't be around to fix things if you fail.
+                ├ option 3:
+                    ↩ (goto) Hero: Well, we came a long ways for nothing if I'm not.
+                ├ option 4:
+                    ↩ (goto) Hero: You're in trouble here. I'd say you need any help you can get.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: Now more than ever, we {i}need{/i} a Pathfinder.
+            ↩ (goto) global_nexus_colonial_director_multi: [empty]
+        └─ merge ─┘
+    ├ option 2:
+        Hero: You're looking at him.
+        ↩ (goto) ?: [empty]
+    └─ merge ─┘
+├ option 2:
+    Hero: We've heard about what happened, and we're ready to help.
+    global_nexus_colonial_director_multi: We could use any supplies you have—food, water—we're short on everything.
+    ↩ (goto) global_nexus_PI_director: This is Foster Addison. She oversees Colonial Affairs.
+└─ merge ─┘
+global_nexus_colonial_director_multi: I want full control over the situation. If you expect results, I need a free hand.
+global_nexus_PI_director: That goes well beyond the authority of your office.
+global_nexus_colonial_director_multi: Then expand my authority.
+┌─ BRANCH (5) ─┐
+├ option 1:
+├ option 2:
+├ option 3:
+├ option 4:
+├ option 5:
+└─ merge ─┘

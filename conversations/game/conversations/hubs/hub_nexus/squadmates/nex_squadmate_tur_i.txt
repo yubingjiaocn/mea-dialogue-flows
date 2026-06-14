@@ -1,0 +1,74 @@
+# game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_tur_i
+# Primary speaker: global_squad_turian
+# Source: game/conversations/hubs/hub_nexus/squadmates/nex_squadmate_tur_i.xml
+==================================================
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: I wonder what my dad would think of all this.
+    global_squad_turian: Would he have encouraged the move? Come with us, if he could?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Does dwelling on what ifs help anything? Things are the way they are.
+        global_squad_turian: I can't just forget my father.
+        global_squad_turian: Sid doesn't remember anything about him, but I do. I think he might've liked it here.
+    ├ option 2:
+        Hero: I'm sure he would've, to be with you guys.
+        global_squad_turian: Yeah, I think so too.
+        ↩ (goto) global_squad_turian: Sid doesn't remember anything about him, but I do. I think he might've liked it here.
+    └─ merge ─┘
+├ option 2:
+    global_squad_turian ⟨cond⟩ [OncePerGame]: What's up?
+    Hero: Nothing, just thought I'd look up my girl.
+    global_squad_turian: Your... "girl"?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: I meant, uh, "tough, accomplished person who just happens to like me. For some reason."
+        global_squad_turian: Better.
+        global_squad_turian: Anyway, I'm just taking a breather out here. Ready to go when you are.
+    ├ option 2:
+        Hero: Are you saying you aren't? This is very upsetting.
+        global_squad_turian: Oh, Ryder.
+        ↩ (goto) global_squad_turian: Anyway, I'm just taking a breather out here. Ready to go when you are.
+    └─ merge ─┘
+├ option 3:
+    Hero [OncePerGame]: Keeping tabs on things back here?
+    global_squad_turian: Yeah, I try to watch what's going on while we're away, but it's nice to check in person.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Going well, I hope?
+        global_squad_turian: As well as it can go with limited resources, yeah.
+        global_squad_turian: Tiny steps.
+    ├ option 2:
+        Hero: Shore leave is for {i}relaxation{/i}. Take some time off. Get a massage!
+        Hero: Can turians even get massages?
+        global_squad_turian: Sort of. We get vibrations through the carapace with a hammer. Ugh. Not for me.
+        global_squad_turian: I'm fine just people watching.
+    └─ merge ─┘
+├ option 4:
+    global_squad_turian [OncePerGame]: Damn, Ryder. You just missed a good show.
+    global_squad_turian: One of the alarms malfunctioned, and we thought it was an attack.
+    global_squad_turian: Didn't take long to figure it out, but in that time, they managed to scramble at least half the station's defenses.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: That's quick. They've been running drills?
+        global_squad_turian: Something like that. My point is... they've got their act together. That's a good thing.
+    ├ option 2:
+        Hero: Why are the alarms still malfunctioning?
+        global_squad_turian: Probably a leftover issue from when the Scourge fried systems.
+        global_squad_turian: It's not that bad. I once worked in a building with a fire alarm that would glitch every other week.
+    └─ merge ─┘
+├ option 5:
+└─ merge ─┘
+nex_vetra_sister_multi: Hey Ryder. Um, thanks for bailing me out with Meriweather.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It's part of what I do, Sid. Don't worry about it.
+    nex_vetra_sister_multi: Thanks. I owe you one.
+    global_squad_turian: Yeah, we both do.
+    global_squad_turian: How about a drink? On us?
+├ option 2:
+    Hero: We're at a bar, right? You get the next round. As thanks.
+    global_squad_turian: Ryder... uh, Ryder, she can't. The age thing.
+    Hero: Yeah, but you can.
+    global_squad_turian: Fair enough.
+└─ merge ─┘

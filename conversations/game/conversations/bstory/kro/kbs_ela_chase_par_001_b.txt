@@ -1,0 +1,53 @@
+# Game/Conversations/Bstory/kro/kbs_ela_chase_par_001_b
+# Primary speaker: Hero
+# Source: game/conversations/bstory/kro/kbs_ela_chase_par_001_b.xml
+==================================================
+SAM: This is the location from the Spender vid, Pathfinder.
+SAM: Anti-vehicular mines ahead. It's best to proceed on foot.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Outlaws. Maybe friends of Spender?
+    global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+├ option 2:
+    global_squad_asari ⟨cond⟩: Looks like outlaws. Friends of Spender?
+    ↩ (goto) global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+├ option 3:
+    global_squad_male_human ⟨cond⟩: Looks like outlaws. Friends of Spender?
+    ↩ (goto) global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Outlaws. Maybe friends of Spender?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_krogan ⟨cond⟩: {i}(Cackles.){/i} This is gonna be fun.
+    ├ option 2:
+        Hero: Let's do this.
+    └─ merge ─┘
+└─ merge ─┘
+SAM: Pathfinder. I've updated the map with the navpoint to the location in the Spender video.
+Hero: Wonder what we'll find there.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_krogan ⟨cond⟩: Something to hang Spender with, I hope.
+├ option 2:
+    global_squad_turian ⟨cond⟩: Hopefully proof Spender's up to no good. I never did like him.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Proof that Spender's a bad guy would sure make Kesh happy.
+├ option 4:
+    global_squad_female_human ⟨cond⟩: Proof, hopefully.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Hopefully proof, one way or another.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        global_squad_krogan ⟨cond⟩: What the... Hey, get back here!
+    ├ option 2:
+        SAM: I suggest following them before they're out of range, Pathfinder.
+        global_squad_krogan ⟨cond⟩: Trust an AI to point out the obvious.
+    └─ merge ─┘
+├ option 2:
+    SAM: They're out of range, Pathfinder.
+    SAM: However, I detect an active signal nearby.
+    Hero: Worth investigating.
+└─ merge ─┘

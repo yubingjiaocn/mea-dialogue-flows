@@ -1,0 +1,164 @@
+# game/conversations/hubs/hub_kad/leaders/kad_sloane_main_d
+# Primary speaker: kad_queen
+# Source: game/conversations/hubs/hub_kad/leaders/kad_sloane_main_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    kad_queen ⟨cond⟩ [OncePerGame]: Our deal's done. What do you want?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What happened to being civilized?
+        kad_queen: Hard to be polite when there's shit to do.
+        Hero: We all have our character flaws.
+        kad_queen: You my therapist now? Get to the point, Pathfinder.
+        ┌─ BRANCH (7) ─┐
+        ├ option 1:
+            Hero: I looked you up. Head of Nexus security. Alliance-trained.
+            Hero: Record shows a temper, but otherwise paints the picture of a {i}loyal{/i} soldier. Why'd you switch sides?
+            kad_queen: Because I'm sick of serving assholes. I could've handled the situation on the Nexus, but Tann wanted a bloodbath.
+            kad_queen: He brought in the krogan without even asking me. New galaxy, same old bullshit.
+            Hero: You could've quit.
+            kad_queen: They would've died without my help. Not all exiles are criminals. Some of us just had enough.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero [OncePerGame]: You became a pirate by trying to protect people from a massacre.
+                kad_queen: The irony isn't lost on me.
+                kad_queen: You know, Pathfinder, when I joined the Initiative, I thought we could build a new society. A better one.
+                kad_queen: But the Initiative was just another empty promise. The only person I can count on to change things is me.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero [OncePerGame]: For non-criminals, you sure do kill a lot of people.
+                kad_queen: I do what I have to, to protect my people.
+                Hero: Down the barrel of a gun.
+                ↩ (goto) kad_queen: You know, Pathfinder, when I joined the Initiative, I thought we could build a new society. A better one.
+            └─ merge ─┘
+        ├ option 2:
+            Hero: Heleus isn't exactly hospitable. How did you survive after the Nexus?
+            kad_queen: We didn't leave empty-handed, but when supplies ran low, we were forced to get creative.
+            kad_queen: I ordered hits on kett convoys. Traded with angaran villages. They told me about Kadara Port.
+            Hero: You never got violent with the angara?
+            kad_queen: Just the Roekaar. Fuck those guys.
+            ↩ (goto) Hero: [empty]
+        ├ option 3:
+            Hero: How did a human come to lead an angaran port?
+            kad_queen: When I got to Kadara, the kett were rounding up angara like animals. It was a slaughter.
+            kad_queen: My people put an end to it. Naturally, the locals were grateful.
+            Hero: And the heads decorating the spaceport—what's that about?
+            kad_queen: A warning.
+            Hero: To the kett?
+            kad_queen: To anyone.
+            ↩ (goto) Hero: [empty]
+        ├ option 4:
+            Hero ⟨cond⟩: Have your people tracked down Reyes?
+            kad_queen: Not yet. Bastard's playing hide and seek. But we'll get him.
+            kad_queen: Once Kaetus has recovered, he'll lead the search, personally.
+            ↩ (goto) Hero: [empty]
+        ├ option 5:
+            Hero: What does the Collective have against the Outcasts?
+            kad_queen: People always want what they don't have. The Charlatan's thugs are no different.
+            Hero: Who do you think the Charlatan is?
+            kad_queen: My guess: a group of people. It'd take more than one person to run that outfit.
+            Hero: You're not worried they're moving in on Outcast territory?
+            kad_queen: If they make a play, I'm ready.
+            ↩ (goto) Hero: [empty]
+        ├ option 6:
+            Hero ⟨cond⟩: So, the Outcasts... give me the sales pitch.
+            kad_queen: The Outcasts aren't for you.
+            Hero: Wow. No hesitation.
+            kad_queen: I handpicked every one of my crew. They've got either potential or history with me. You've got neither.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: I was only curious. Sheesh.
+                ↩ (goto) Hero: [empty]
+            ├ option 2:
+                Hero: Addison said something similar. I'll prove you both wrong.
+                kad_queen: Addison and I agree on something? Huh.
+                ↩ (goto) Hero: [empty]
+            └─ merge ─┘
+        ├ option 7:
+            Hero: I'll let you get back to it.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                kad_queen [OncePerGame]: Pathfinder. Stay out of Kadara's business. This isn't your turf.
+            ├ option 2:
+                kad_queen: Good.
+                ↩ (goto) kad_queen: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: I think we can work together. The enemy of my enemy is—
+        kad_queen: I'm not your friend. But you've proven reasonable. Ask your questions.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    kad_queen [OncePerGame]: You.
+    Hero: We got off on the wrong foot. Let's start over.
+    kad_queen: I know you had a hand in Vehn Terev's escape.
+    Hero: There's no proof of that.
+    kad_queen: {i}(Laughs.){/i} I don't need evidence to put a bullet in your skull.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: That's not how you do things.
+        kad_queen: Last thing I need right now is Pathfinder brains on my floor.
+        kad_queen: Talk. Quickly.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Killing me would only cause problems. You've got enough of those.
+        ↩ (goto) kad_queen: Talk. Quickly.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    kad_queen ⟨cond⟩ [OncePerGame]: Some of my crew saw you head into the badlands.
+    kad_queen: I hope you weren't real estate hunting.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: What if I was?
+        kad_queen: Then I'd warn you that any attempts to establish an Initiative presence on Kadara would be considered an act of war.
+        Hero: Well, that's a little dramatic.
+        kad_queen: I will raze your outpost to the ground. How's that for dramatic?
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Compared to some of the other planets in Heleus, Kadara is almost habitable.
+        kad_queen: I know. That's why I chose it.
+        Hero: If we worked together—
+        kad_queen: No. I will {i}never{/i} work with the Initiative.
+        kad_queen: Try to settle here and I'll consider it an act of war.
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 2:
+    kad_queen ⟨cond⟩ [OncePerGame]: {i}(Sighs.){/i} What do you want, Pathfinder?
+    Hero: Oblivion. You heard of it?
+    kad_queen: Of course. It's my product. What of it?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: You're abusing good medicine!
+        kad_queen: {i}(Scoffs.){/i} You've been talking to Nakamoto.
+        kad_queen: Look. All I'm doing is supplying a demand.
+        kad_queen: Not that I have to explain myself to you.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: Just curious.
+        kad_queen: {i}(Scoffs.){/i}
+        ↩ (goto) Hero: [empty]
+    └─ merge ─┘
+├ option 3:
+    kad_queen ⟨cond⟩ [OncePerGame]: You son of a bitch.
+    Hero: What did I do now?
+    kad_queen: Don't act dumb. The Oblivion lab was attacked right after you were here asking questions!
+    kad_queen: Am I supposed to believe that's a coincidence?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Yep.
+        kad_queen: I won't forget this, Pathfinder.
+        kad_queen: This is your last warning. Stay out of my shit.
+        ↩ (goto) Hero: [empty]
+    ├ option 2:
+        Hero: I had nothing to do with it.
+        kad_queen: I'm sure you didn't.
+        ↩ (goto) kad_queen: This is your last warning. Stay out of my shit.
+    └─ merge ─┘
+├ option 4:
+    kad_queen: Yeah?
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘

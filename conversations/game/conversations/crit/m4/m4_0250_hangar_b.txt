@@ -1,0 +1,307 @@
+# Game/Conversations/Crit/M4/m4_0250_hangar_b
+# Primary speaker: Hero
+# Source: game/conversations/crit/m4/m4_0250_hangar_b.xml
+==================================================
+Hero: Good. They haven't noticed us yet.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They will.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: They will.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Give it a minute.
+├ option 4:
+    global_squad_asari ⟨cond⟩: They will.
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Won't last.
+├ option 6:
+    global_squad_angara ⟨cond⟩: They will.
+└─ merge ─┘
+Hero: Here we go! Keep your head down and push forward!
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Where are we going?
+    SAM: The exit is on the far side of the room.
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: With a lot of kett in the way.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Of course it would be.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: And a whole lot of kett between us.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: With a lot of kett between us.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: With a lot of kett between us.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: And the kett in the way.
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Where are we trying to go?
+    ↩ (goto) SAM: The exit is on the far side of the room.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Where are we going?
+    ↩ (goto) SAM: The exit is on the far side of the room.
+├ option 4:
+    global_squad_turian ⟨cond⟩: What's our way out of here?
+    ↩ (goto) SAM: The exit is on the far side of the room.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Where are we going?
+    ↩ (goto) SAM: The exit is on the far side of the room.
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Where are we going?
+    ↩ (goto) SAM: The exit is on the far side of the room.
+├ option 7:
+    ↩ (goto) SAM: The exit is on the far side of the room.
+└─ merge ─┘
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Drop ship incoming!
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: {i}Drop ship{/i}? They've got everything!
+        Hero: They're reinforcing!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: {i}Drop ship{/i}? How's that even fair?
+        ↩ (goto) Hero: They're reinforcing!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: {i}Drop ship{/i}? That's not fair!
+        ↩ (goto) Hero: They're reinforcing!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: {i}Drop ship{/i}? How is that even fair?
+        ↩ (goto) Hero: They're reinforcing!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: {i}Drop ship{/i}? They sure don't play fair!
+        ↩ (goto) Hero: They're reinforcing!
+    ├ option 6:
+        ↩ (goto) Hero: They're reinforcing!
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Drop ship inbound! This'll get worse before it gets better!
+    ↩ (goto) Hero: [empty]
+├ option 3:
+    global_squad_asari ⟨cond⟩: Drop ship on the way in! This just got a lot harder!
+    ↩ (goto) Hero: [empty]
+├ option 4:
+    global_squad_turian ⟨cond⟩: Drop ship coming in! Now we've done it!
+    ↩ (goto) Hero: [empty]
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Drop ship inbound! This just got a lot harder!
+    ↩ (goto) Hero: [empty]
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Kett drop ship coming in! Keep an eye on it!
+    ↩ (goto) Hero: [empty]
+├ option 7:
+    ↩ (goto) Hero: [empty]
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: We've stirred up the hornet's nest now!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: They're all over!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Coming from every direction!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: We've got kett in every direction!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Hostiles in every direction!
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Kett in every direction!
+    └─ merge ─┘
+├ option 2:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Careful of the ones up top!
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Watch out for those bastards up top!
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Watch out for the guys up top!
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Watch out for the guys up top!
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Careful of the ones up top!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Keep an eye on the guys up top!
+    └─ merge ─┘
+├ option 3:
+    ┌─ BRANCH (7) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Wish we had {i}our{/i} own dropship right about now!
+        Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: When do we get {i}our{/i} dropship?
+        ↩ (goto) Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Why don't {i}we{/i} have a dropship?
+        ↩ (goto) Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: So when do we get {i}our{/i} dropship?
+        ↩ (goto) Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: Hey, when do we get {i}our{/i} dropship?
+        ↩ (goto) Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: Ryder, when do we get {i}our{/i} dropship?
+        ↩ (goto) Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    ├ option 7:
+        ↩ (goto) Hero: Guys, {i}we're{/i} supposed to be the cavalry!
+    └─ merge ─┘
+├ option 4:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_angara ⟨cond⟩: Is that your best, kett?
+    ├ option 2:
+        global_squad_krogan ⟨cond⟩: Hey you! That all you got?
+    ├ option 3:
+        global_squad_asari ⟨cond⟩: Hey you! That all you got?
+    ├ option 4:
+        global_squad_turian ⟨cond⟩: Hey you! That all you got?
+    ├ option 5:
+        global_squad_male_human ⟨cond⟩: Come on! Bring it!
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Oh, that'll cost you!
+    └─ merge ─┘
+├ option 5:
+    ┌─ BRANCH (6) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: {i}(Grunts in pain.){/i} Damn it.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: {i}(Grunts in pain.){/i} That shit hurts.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: {i}(Grunts in pain.){/i} Damn it.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: {i}(Grunts in pain.){/i} Damn it.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: {i}(Grunts in pain.){/i} Damn it.
+    ├ option 6:
+        global_squad_angara ⟨cond⟩: {i}(Grunts in pain.){/i} That hurts.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Clear! That was the last one!
+    Hero: Good. Let's get the hell out of here. SAM?
+    SAM: You're still on course to the Archon's chamber.
+    ┌─ BRANCH (5) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: I hope this relic is everything the Moshae said it was.
+        global_squad_angara ⟨cond⟩: She's one of the wisest people I know. We can trust her judgment.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: I hope this relic is what the Moshae said it was.
+        ↩ (goto) global_squad_angara ⟨cond⟩: She's one of the wisest people I know. We can trust her judgment.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: I sure hope this relic is everything the Moshae said it was.
+        ↩ (goto) global_squad_angara ⟨cond⟩: She's one of the wisest people I know. We can trust her judgment.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: I hope this relic is everything the Moshae said it was.
+        ↩ (goto) global_squad_angara ⟨cond⟩: She's one of the wisest people I know. We can trust her judgment.
+    ├ option 5:
+        global_squad_krogan ⟨cond⟩: I hope this relic lives up to the Moshae's promises.
+        ↩ (goto) global_squad_angara ⟨cond⟩: She's one of the wisest people I know. We can trust her judgment.
+    └─ merge ─┘
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Clear! They're all down!
+    ↩ (goto) Hero: Good. Let's get the hell out of here. SAM?
+├ option 3:
+    global_squad_turian ⟨cond⟩: It's over! That was the last one!
+    ↩ (goto) Hero: Good. Let's get the hell out of here. SAM?
+├ option 4:
+    global_squad_asari ⟨cond⟩: We got them! That was the last one!
+    ↩ (goto) Hero: Good. Let's get the hell out of here. SAM?
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Last kett down! That did it!
+    ↩ (goto) Hero: Good. Let's get the hell out of here. SAM?
+├ option 6:
+    global_squad_angara ⟨cond⟩: Clear! That was the last one!
+    ↩ (goto) Hero: Good. Let's get the hell out of here. SAM?
+└─ merge ─┘
+Hero: What are they doing down here?
+┌─ BRANCH (7) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: It's equipment from the salarian ark.
+    Hero: So they've been looting it... but where are the missing salarians?
+    SAM: I detect none here.
+    Hero: {i}(Sighs.){/i} Okay. Well, maybe Raeka and her team will have better luck. We've still got a relic to find.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Looks like equipment from the salarian ark.
+    ↩ (goto) Hero: So they've been looting it... but where are the missing salarians?
+├ option 3:
+    global_squad_asari ⟨cond⟩: Equipment from the salarian ark.
+    ↩ (goto) Hero: So they've been looting it... but where are the missing salarians?
+├ option 4:
+    global_squad_turian ⟨cond⟩: It's a good bet this is equipment from the salarian ark.
+    ↩ (goto) Hero: So they've been looting it... but where are the missing salarians?
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Looks to me like it's equipment from the salarian ark.
+    ↩ (goto) Hero: So they've been looting it... but where are the missing salarians?
+├ option 6:
+    global_squad_female_human ⟨cond⟩: It's equipment from the salarian ark.
+    ↩ (goto) Hero: So they've been looting it... but where are the missing salarians?
+├ option 7:
+    ↩ (goto) Hero: So they've been looting it... but where are the missing salarians?
+└─ merge ─┘
+global_salarian_pathfinder_multi: [Comm] Ryder, this is Pathfinder Raeka. I assume those alarms are because of you?
+Hero: Yeah, had a little altercation. And you?
+global_salarian_pathfinder_multi: [Comm] Undetected so far. Still looking for our people. Raeka out.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: There's a path above us.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: That walkway up there might get us out of here.
+├ option 3:
+    global_squad_asari ⟨cond⟩: We could try that walkway up there.
+├ option 4:
+    global_squad_turian ⟨cond⟩: There's a walkway above us.
+├ option 5:
+    global_squad_male_human ⟨cond⟩: What about the walkway above us?
+├ option 6:
+    global_squad_female_human ⟨cond⟩: We could try the walkway up there.
+└─ merge ─┘
+Hero: Another discarded stasis pod.
+SAM: Many of these pods were from the command team chambers.
+SAM: It seems the kett targeted the salarian leadership.
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: So where did all the salarians go?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: So what happened to all the salarians?
+├ option 3:
+    global_squad_turian ⟨cond⟩: So where did all the salarians go?
+├ option 4:
+    global_squad_asari ⟨cond⟩: So where did all the salarians go?
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Where are all the salarians?
+├ option 6:
+    global_squad_angara ⟨cond⟩: So where did they all go?
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Which way?
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Which way, boss?
+├ option 3:
+    global_squad_turian ⟨cond⟩: Which way?
+├ option 4:
+    global_squad_asari ⟨cond⟩: High road or low road?
+├ option 5:
+    global_squad_krogan ⟨cond⟩: Up or down?
+├ option 6:
+    global_squad_angara ⟨cond⟩: Which exit, Ryder
+└─ merge ─┘
+┌─ BRANCH (6) ─┐
+├ option 1:
+    global_squad_angara ⟨cond⟩: Which exit, Ryder
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Up or down?
+├ option 3:
+    global_squad_asari ⟨cond⟩: High road or low road?
+├ option 4:
+    global_squad_turian ⟨cond⟩: Which way?
+├ option 5:
+    global_squad_male_human ⟨cond⟩: Which way, boss?
+├ option 6:
+    global_squad_female_human ⟨cond⟩: Which way?
+└─ merge ─┘
+Hero: Drop ship! This'll get worse before it gets better!

@@ -1,0 +1,17 @@
+# game/conversations/hubs/hub_nexus/hydro/nex_hydro_vorn_i
+# Primary speaker: global_krogan_botanist
+# Source: game/conversations/hubs/hub_nexus/hydro/nex_hydro_vorn_i.xml
+==================================================
+global_krogan_botanist ⟨cond⟩: Pathfinder! Have you seen this place? So green! Doctor Camden's been a real help.
+nex_hydro_botanist: I take it you know Vorn. He seems to have... settled in.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: I helped rescue Vorn after some pirates stole him by accident.
+    global_krogan_botanist: It's a long story.
+    global_krogan_botanist: With the supplies here, I can start really fixing things. All those disease-resistant seeds I—
+    nex_hydro_botanist: Wait, you have what? Where? Excuse us, Pathfinder.
+├ option 2:
+    Hero: Hey, Vorn. Glad to see you in your element, instead of locked in a box.
+    global_krogan_botanist: You're going to tell everyone about that, aren't you.
+    ↩ (goto) global_krogan_botanist: With the supplies here, I can start really fixing things. All those disease-resistant seeds I—
+└─ merge ─┘

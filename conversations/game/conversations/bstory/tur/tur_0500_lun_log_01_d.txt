@@ -1,0 +1,32 @@
+# game/conversations/bstory/tur/tur_0500_lun_log_01_d
+# Primary speaker: global_turian_pathfinder_multi
+# Source: game/conversations/bstory/tur/tur_0500_lun_log_01_d.xml
+==================================================
+global_turian_pathfinder_multi: Looks pretty busted. Think your SAM can get us in?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Don't give the AI all the credit. I help.
+    global_turian_pathfinder_multi: Excuse me.
+    Narration: Ryder interacts with the console.
+    SAM: I found a log from Dea Praeton, the ark's captain. The video is corrupt, but I can recover the audio.
+    global_turian_pathfinder_multi: Play it.
+    tur_captain_multi: [Audio Log] Something's tearing Natanus apart—half the cryo chamber is gone. Trying to get anyone awake to the escape pods.
+    Narration: An explosion and static can be heard in the background.
+    tur_captain_multi: [Audio Log] Spirits, there's no time. Find Macen!
+    Narration: We hear another explosion before the log goes dead.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Maybe she found him. Made it to the escape pods?
+        global_turian_pathfinder_multi: He wouldn't leave the ark without me.
+        global_turian_pathfinder_multi: Natanus didn't get here on its own. We need to know what happened next.
+        SAM: The rest of the data on this console is corrupt. Perhaps if we find another—or the ark's SAM node...
+        Hero: All right. Let's keep looking.
+    ├ option 2:
+        Hero: Dea was abandoning ship.
+        global_turian_pathfinder_multi: She wouldn't leave unless the situation was dire.
+        ↩ (goto) global_turian_pathfinder_multi: Natanus didn't get here on its own. We need to know what happened next.
+    └─ merge ─┘
+├ option 2:
+    Hero: Only one way to find out.
+    ↩ (goto) Narration: Ryder interacts with the console.
+└─ merge ─┘

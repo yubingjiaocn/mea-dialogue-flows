@@ -1,0 +1,45 @@
+# game/conversations/loyalty/loy_tur/loy_tur_0000_guardbanter_a
+# Primary speaker: loy_tur_guard_m_1
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0000_guardbanter_a.xml
+==================================================
+loy_tur_guard_m_1: [Comm] What the hell? Where are the prisoners?
+┌─ BRANCH (4) ─┐
+├ option 1:
+    loy_tur_guard_m_1 ⟨cond⟩ [OncePerGame]: [Comm] Heard we caught us a Pathfinder. That'll be a pretty ransom.
+    loy_tur_guard_m_2: [Comm] If we don't get our brains plastered on the walls.
+    loy_tur_guard_m_1: [Comm] That's not likely, is it?
+├ option 2:
+    loy_tur_guard_m_1 ⟨cond⟩ [OncePerGame]: [Comm] Heard we caught us a Pathfinder. That'll be a pretty ransom.
+    ↩ (goto) loy_tur_guard_m_2: [Comm] If we don't get our brains plastered on the walls.
+├ option 3:
+    loy_tur_guard_f_2 [OncePerGame]: [Comm] Looks like today's gourmet choices are sawdust and paste or goop from a tube.
+├ option 4:
+    loy_tur_guard_f_1 [OncePerGame]: [Comm] What's Meriweather up to today? Anyone know?
+└─ merge ─┘
+┌─ BRANCH (3) ─┐
+├ option 1:
+    loy_tur_guard_f_1 [OncePerGame]: [Comm] Man, this place stinks.
+    loy_tur_guard_m_2: [Comm] It's the spitbugs. At least they're in a cage.
+├ option 2:
+    loy_tur_guard_f_1 [OncePerGame]: [Comm] Can't believe I pulled pet sitting duty again.
+├ option 3:
+    loy_tur_guard_m_2 [OncePerGame]: [Comm] Is it true angara eat those kaerkyn things? Damn, those guys are hardcore.
+└─ merge ─┘
+loy_tur_guard_f_1: [Comm] What the—! Shit, the bugs got out!
+loy_tur_guard_m_2: [Comm] Don't let their blood get on you. You'll smell like shit for weeks!
+loy_tur_guard_m_2: [Comm] Why are the dogs out?
+loy_tur_guard_f_1: [Comm] Meriweather's going to throw a fit. We gotta deal with them!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    loy_tur_guard_f_2: [Comm] Hey, got a message about someone messing with the security system.
+    loy_tur_guard_f_1: [Comm] It's probably just acting up. That thing's glitchy as heck.
+├ option 2:
+    loy_tur_guard_m_2: [Comm] Those old tanks freak me out. What if there's a leak?
+    loy_tur_guard_m_1: [Comm] The coughing should immediately alert you.
+    loy_tur_guard_m_2: [Comm] Some of this equipment is barely functional. Why are we still using it?
+    loy_tur_guard_m_1: [Comm] It's not like we have a choice—or haven't you noticed?
+├ option 3:
+    loy_tur_guard_f_2: [Comm] When is that suit gonna be finished? I'm gonna need it when we do the next job.
+    loy_tur_guard_m_1: [Comm] Don't rush me! Do you want it to malfunction and fry you while you're inside?
+    loy_tur_guard_f_2: [Comm] {i}(Scoffs.){/i} I thought you were a professional.
+└─ merge ─┘

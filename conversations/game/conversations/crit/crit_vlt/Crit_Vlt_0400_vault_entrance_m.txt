@@ -1,0 +1,113 @@
+# Game/Conversations/Crit/Crit_Vlt/Crit_Vlt_0400_vault_entrance_m
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_vlt/Crit_Vlt_0400_vault_entrance_m.xml
+==================================================
+Hero: We're almost clear! Where are you?
+Hero: Hello? Peebee!
+Hero: Go! Go, go, go!
+global_squad_asari: Ahh, it's right on our heels!
+Hero: Get to the gravity well!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_turian ⟨cond⟩: Shit, it's sealed! Try to get something under it!
+    Hero: Come on!
+    SAM: Vault restart is now complete.
+    global_squad_asari: That was... Talk about a rush.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero [OncePerGame]: What was that... field?
+        ┌─ BRANCH (4) ─┐
+        ├ option 1:
+            global_squad_krogan ⟨cond⟩: Looked like a security system to me.
+            global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+            ┌─ BRANCH (2) ─┐
+            ├ option 1:
+                Hero: Nothing like outrunning death.
+                global_squad_asari: Or reactivating a huge, mysterious vault. Nice going.
+                SAM: Atmosphere processor is online. Recovering last console activity.
+                global_squad_asari: Is that the Heleus Cluster?
+                Hero: Yeah. There we are. That's Eos.
+                ┌─ BRANCH (3) ─┐
+                ├ option 1:
+                    global_squad_turian ⟨cond⟩: Something happened. Because we restarted the system?
+                    Hero: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
+                    global_squad_asari: Maybe, but why is there a whole network of them? What's all this for?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        Hero: Unless the builders show up to explain themselves, all we've got is guesswork.
+                        Hero: So far, we've seen bots, living plants, atmosphere processors...
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            global_squad_krogan ⟨cond⟩: On Tuchanka, they built towers to steady the atmosphere after the nuclear winter.
+                            Hero: To help it support life.
+                            ┌─ BRANCH (3) ─┐
+                            ├ option 1:
+                                global_squad_female_human ⟨cond⟩: That first processor we saw was making things worse, but maybe it malfunctioned.
+                                Hero: Is that what these builders were trying to do? Make worlds habitable? Even terraform a whole cluster?
+                                global_squad_asari: Hey. Look there.
+                                global_squad_asari: That's different. Maybe it's active? We've got to go see!
+                                Hero: SAM?
+                                SAM: Extrapolating. These coordinates lie beyond the space we have currently surveyed, Pathfinder.
+                                Hero: Mark it on our charts. We need more to go on.
+                                Hero: Let's head up to the surface. I could use some fresh air.
+                            ├ option 2:
+                                global_squad_male_human ⟨cond⟩: Then maybe the first processor we saw was broken. Destroying that planet, instead of...
+                                ↩ (goto) Narration: [empty]
+                            ├ option 3:
+                                SAM: The first processor we encountered might have been damaged and acting contrary to its design.
+                                ↩ (goto) Narration: [empty]
+                            └─ merge ─┘
+                        ├ option 2:
+                            global_squad_turian ⟨cond⟩: I once did supply runs for a Council team that was seeding some ice planet's atmosphere, trying to melt the ice caps.
+                            ↩ (goto) Hero: To help it support life.
+                        ├ option 3:
+                            global_squad_male_human ⟨cond⟩: Back home, some corporation hit a desert world with an ice comet. They changed the atmosphere to bring rain.
+                            ↩ (goto) Hero: To help it support life.
+                        └─ merge ─┘
+                    ├ option 2:
+                        Hero: This tech can create Observers from nowhere or ravage a whole planet, and that's just what we've seen.
+                        Hero: The bots, those plants back there, the atmosphere processors...
+                        ┌─ BRANCH (3) ─┐
+                        ├ option 1:
+                            ↩ (goto) global_squad_krogan ⟨cond⟩: On Tuchanka, they built towers to steady the atmosphere after the nuclear winter.
+                        ├ option 2:
+                            ↩ (goto) global_squad_turian ⟨cond⟩: I once did supply runs for a Council team that was seeding some ice planet's atmosphere, trying to melt the ice caps.
+                        ├ option 3:
+                            ↩ (goto) global_squad_male_human ⟨cond⟩: Back home, some corporation hit a desert world with an ice comet. They changed the atmosphere to bring rain.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_squad_krogan ⟨cond⟩: We did something. The system restart?
+                    ↩ (goto) Hero: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
+                ├ option 3:
+                    global_squad_male_human ⟨cond⟩: Whoa. Did restarting the system do that?
+                    ↩ (goto) Hero: If that light is us... then all these points could be vaults on other worlds. Dormant, like this one.
+                └─ merge ─┘
+            ├ option 2:
+                Hero: We have to be more careful. That field almost disintegrated us!
+                global_squad_asari: But it didn't. You want to focus on that or the cool vault you just activated?
+                ↩ (goto) SAM: Atmosphere processor is online. Recovering last console activity.
+            └─ merge ─┘
+        ├ option 2:
+            global_squad_turian ⟨cond⟩: I know a trap when I see one.
+            ↩ (goto) global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+        ├ option 3:
+            global_squad_female_human ⟨cond⟩: Might've been sweeping the vault... or chasing us.
+            ↩ (goto) global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+        ├ option 4:
+            ↩ (goto) global_squad_asari: An immune response? Maybe one last scrub before startup? This place is full of surprises.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) Hero: Nothing like outrunning death.
+    ├ option 3:
+        ↩ (goto) Hero: We have to be more careful. That field almost disintegrated us!
+    └─ merge ─┘
+├ option 2:
+    global_squad_krogan ⟨cond⟩: I'm not dying 'cause a door's locked! Bust it down!
+    ↩ (goto) Narration: [empty]
+├ option 3:
+    global_squad_female_human ⟨cond⟩: Not moving! Find an override!
+    ↩ (goto) Narration: [empty]
+└─ merge ─┘
+SAM: Console is attempting surface reconnection.
+SAM: Forcing retry. Please maintain interface.

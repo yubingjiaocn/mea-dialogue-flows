@@ -1,0 +1,112 @@
+# game/conversations/loyalty/loy_asa/loy_asa_0320_2nd_terr_b
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/loy_asa/loy_asa_0320_2nd_terr_b.xml
+==================================================
+global_kalinda: [Comm] Pelessaria, the high road is much more direct.
+global_squad_asari: How the hell did you find us here, Kalinda?
+global_kalinda: [Comm] Guess you didn't notice the little transmitter I hid in Poc. So sloppy. Ta.
+global_squad_asari: Ugh! That... Ryder, we need to pick up the pace.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Dormant turret.
+    Hero: The controls should be nearby...
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Dormant turret.
+    ↩ (goto) Hero: The controls should be nearby...
+├ option 3:
+    global_squad_turian ⟨cond⟩: Dormant turret.
+    ↩ (goto) Hero: The controls should be nearby...
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Dormant turret.
+    ↩ (goto) Hero: The controls should be nearby...
+├ option 5:
+    global_squad_angara ⟨cond⟩: Dormant turret.
+    ↩ (goto) Hero: The controls should be nearby...
+└─ merge ─┘
+Hero: Aha, the turret controls.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: Get this thing working for us!
+├ option 2:
+    Hero: Nice turret. Cover me.
+└─ merge ─┘
+global_squad_asari: Shit! The Observers turned that turret against us!
+global_squad_asari: We have to make it across to the next ridge.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Chasm's too far to jump.
+    SAM: There may be a way to extend that antenna.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Chasm's too far to jump.
+    ↩ (goto) SAM: There may be a way to extend that antenna.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Chasm's too far to jump.
+    ↩ (goto) SAM: There may be a way to extend that antenna.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: That's a wide chasm for a jump.
+    ↩ (goto) SAM: There may be a way to extend that antenna.
+├ option 5:
+    global_squad_angara ⟨cond⟩: The chasm is too wide for a jump.
+    ↩ (goto) SAM: There may be a way to extend that antenna.
+└─ merge ─┘
+SAM: Pathfinder, interfacing with this console should allow you to extend the antenna so you can jump across.
+global_squad_asari: Whoa. Major activity.
+SAM: I can complete the hack, but you'll have to stay close.
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Incoming!
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Incoming!
+├ option 3:
+    global_squad_turian ⟨cond⟩: Incoming!
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Incoming!
+├ option 5:
+    global_squad_angara ⟨cond⟩: Incoming!
+└─ merge ─┘
+SAM: Still working on it. Rerouting power from these other structures.
+Hero: And reducing our cover.
+global_squad_asari: Shit. We'll never catch Kalinda!
+Hero: Hunker down—more Remnant.
+global_kalinda: [Comm] No bots to fight up here. {i}(Laughs.){/i}
+global_squad_asari: I'm going to kill her.
+SAM: Pathfinder, the hack is suspended until you return to the console platform.
+global_squad_asari: The antenna is extending—let's go!
+┌─ BRANCH (3) ─┐
+├ option 1:
+    global_squad_asari [OncePerGame]: Kalinda's getting ahead of us.
+├ option 2:
+    global_squad_asari [OncePerGame]: She's going to beat us to the signal source.
+├ option 3:
+    global_squad_asari [OncePerGame]: Let's hustle, please.
+└─ merge ─┘
+┌─ BRANCH (5) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    Hero: Hmm, they're in sniper range.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    ↩ (goto) Hero: Hmm, they're in sniper range.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    ↩ (goto) Hero: Hmm, they're in sniper range.
+├ option 4:
+    global_squad_krogan ⟨cond⟩: Kalinda's men—on the ridge up there.
+    ↩ (goto) Hero: Hmm, they're in sniper range.
+├ option 5:
+    global_squad_angara ⟨cond⟩: Kalinda's men spotted on the upper ridge.
+    ↩ (goto) Hero: Hmm, they're in sniper range.
+└─ merge ─┘
+global_kalinda: [Comm] Oh no, not Larry! {i}(Laughs.){/i} Thanks Ryder, bigger cut for the rest of us!
+SAM: Interacting with the Remnant must have opened a way in for her.
+global_squad_asari: Great. Just great.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    Hero: On it.
+├ option 2:
+    Hero: Wait—there's someone on the ridge above us.
+├ option 3:
+    Hero: Get this turret working for us.
+├ option 4:
+    Hero: Get control of this turret. Might come in handy.
+└─ merge ─┘

@@ -1,0 +1,44 @@
+# Game/Conversations/Crit/Crit_City/crit_city_0100_planning_meeting_d
+# Primary speaker: Hero
+# Source: game/conversations/crit/crit_city/crit_city_0100_planning_meeting_d.xml
+==================================================
+Hero: The Nexus leaders think our search for Meridian is a waste of time, but we know they're wrong.
+Hero: Turning on vaults won't be enough without the heart of the system.
+Hero: So we're going on a recon mission, and we're going to deliver proof that Meridian's the answer.
+global_squad_female_human: Just to clarify: You're defying a direct order?
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero: It's my job to bring us home, and that's what I'm doing. With or without permission.
+    global_squad_krogan: {i}(Laughs){/i} That's the spirit!
+    global_squad_angara: And the kett?
+    Hero: That's where the Ghost Storm technology comes in.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Isn't that right, Raeka?
+        global_salarian_pathfinder_multi: [Comm] Absolutely. Our forged signals should divert some kett from you.
+        global_squad_turian: It won't be all of them, but it'll be enough.
+        global_crew_co-pilot: The Tempest is small and fast. I don't need a big window.
+        global_crew_co-pilot: We'll drop you off and make our exit before the kett catch on.
+        global_squad_asari: Once we're on Meridian, it'll be a small team. Move fast, figure out its secrets.
+        global_squad_krogan: Right behind enemy lines. Good time to assess their numbers, defenses...
+        global_crew_co-pilot: And when you're ready, we'll extract you the same way we got you in.
+        global_squad_male_human: If we come back with actuals on Meridian? The Nexus will sit up.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Sounds like a solid plan. Raeka, you ready?
+            global_salarian_pathfinder_multi: [Comm] Good to go on your word, Pathfinder.
+            Hero: All right, guys. This is it. Let's get moving.
+        ├ option 2:
+            Hero: Sounds like a solid plan, team. Hayjer, you ready?
+            crit_kett_salarian_captain_multi: [Comm] Good to go on your word, Pathfinder.
+            ↩ (goto) Hero: All right, guys. This is it. Let's get moving.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: Isn't that right, Hayjer?
+        crit_kett_salarian_captain_multi: [Comm] Exactly. Our forged signals should divert some kett from you.
+        ↩ (goto) global_squad_turian: It won't be all of them, but it'll be enough.
+    └─ merge ─┘
+├ option 2:
+    Hero: No, not "me." "We." We are going to defy them.
+    ↩ (goto) global_squad_krogan: {i}(Laughs){/i} That's the spirit!
+└─ merge ─┘

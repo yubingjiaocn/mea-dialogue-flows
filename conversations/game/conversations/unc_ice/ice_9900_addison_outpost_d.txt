@@ -1,0 +1,100 @@
+# game/conversations/unc_ice/ice_9900_addison_outpost_d
+# Primary speaker: global_nexus_colonial_director_multi
+# Source: game/conversations/unc_ice/ice_9900_addison_outpost_d.xml
+==================================================
+global_nexus_colonial_director_multi: Congratulations, Pathfinder. This was a real challenge. And badly needed.
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Director Addison? No personal appearance? Placing an outpost is a big deal.
+    global_nexus_colonial_director_multi: Thank you, but no. I prefer climate control to... these extremes.
+    global_nexus_colonial_director_multi: Real talk, Pathfinder. Aya's Governor Shie is already up my ass about this outpost. If local angara weren't on board, we'd have a problem.
+    global_nexus_colonial_director_multi: We are good, right? As much as you've brought us, we can't afford to anger the neighbors.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Procedure was followed—as I invented it. Don't worry, we were invited.
+        global_nexus_colonial_director_multi: Good. We need every drop of viability. Especially after this kett facility.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                global_nexus_colonial_director_multi: And... with this activity, you need to check the Nol system for trackers. Dr. Kennedy and her child—{i}humanity's{/i} first—are still out there.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                    Hero: Is this really the time?
+                    global_nexus_colonial_director_multi: "Pathfinder" was always a symbol. Like outpost flags hanging in the commons, the people need a connection to reality on the ground.
+                    global_nexus_colonial_director_multi: Address them, Pathfinder. What did this mean?
+                    ┌─ BRANCH (2) ─┐
+                    ├ option 1:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: We've established something here. Something beyond the numbers, the viability.
+                            Hero: Voeld is a partnership. Angara and the Initiative: our cumulative strengths ensuring we are all elevated.
+                            global_nexus_colonial_director_multi: Recorded, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: Voeld was—is a hard world. But it's not without life. It has history, people. It was worth fighting for.
+                            Hero: We're not walking into the unknown. We're joining something. And that is {i}better{/i} than we hoped for.
+                            ↩ (goto) global_nexus_colonial_director_multi: Recorded, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    ├ option 2:
+                        ┌─ BRANCH (2) ─┐
+                        ├ option 1:
+                            Hero: Voeld is more than anyone anticipated. The kett in their failure, the angara in what they can recover.
+                            Hero: And for us, it's already a different kind of frontier. We needed supplies. We found partners.
+                            ↩ (goto) global_nexus_colonial_director_multi: Recorded, Pathfinder. Addison out.
+                        ├ option 2:
+                            Hero: You need to see this place. I've laid the groundwork, but there's so much left to discover.
+                            Hero: Voeld is not just about survival. We know it, the angara know it. It's the adventure we all signed on for.
+                            ↩ (goto) global_nexus_colonial_director_multi: Recorded, Pathfinder. Addison out.
+                        └─ merge ─┘
+                    └─ merge ─┘
+                ├ option 2:
+                    global_nexus_colonial_director_multi: Time for the uncomfortable bit, Pathfinder. The flag-waving.
+                    Hero: I'm supposed to summarize Voeld?
+                    global_nexus_colonial_director_multi: As much as anyone can.
+                    ↩ (goto) Hero: [empty]
+                └─ merge ─┘
+            ├ option 2:
+                global_nexus_colonial_director_multi: And no doubt it will draw scavengers. Check the Nol system for Dr. Kennedy's trackers. We need to determine her status.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: Time for the uncomfortable bit, Pathfinder. The flag-waving.
+                └─ merge ─┘
+            ├ option 3:
+                global_nexus_colonial_director_multi: We're never really done, of course. Survival isn't something that just... ends.
+                ┌─ BRANCH (2) ─┐
+                ├ option 1:
+                    ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: And... there's another matter. A ceremonial one. A statement for the archives.
+                ├ option 2:
+                    ↩ (goto) global_nexus_colonial_director_multi: Time for the uncomfortable bit, Pathfinder. The flag-waving.
+                └─ merge ─┘
+            └─ merge ─┘
+        ├ option 2:
+            global_nexus_colonial_director_multi: Voeld helps. Cold as it is, it changes estimates in our favor. But the Initiative needs you to find more.
+            ┌─ BRANCH (3) ─┐
+            ├ option 1:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 2:
+                ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: [empty]
+            ├ option 3:
+                ↩ (goto) global_nexus_colonial_director_multi: [empty]
+            └─ merge ─┘
+        └─ merge ─┘
+    ├ option 2:
+        Hero: It's fine, Director. I ticked three or four of the necessary boxes.
+        global_nexus_colonial_director_multi: You enjoy testing me. But results are what matter, and I respect it.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) global_nexus_colonial_director_multi ⟨cond⟩: This is the last one, Pathfinder. The last golden failure we thought we'd lost. You did it.
+        ├ option 2:
+            ↩ (goto) global_nexus_colonial_director_multi: Voeld helps. Cold as it is, it changes estimates in our favor. But the Initiative needs you to find more.
+        └─ merge ─┘
+    └─ merge ─┘
+├ option 2:
+    Hero: Hello again, Director. How close are you keeping tabs on me, anyway?
+    global_nexus_colonial_director_multi: As close as you'd expect, when you're inserting us into {i}local concerns{/i}.
+    ↩ (goto) global_nexus_colonial_director_multi: Real talk, Pathfinder. Aya's Governor Shie is already up my ass about this outpost. If local angara weren't on board, we'd have a problem.
+└─ merge ─┘

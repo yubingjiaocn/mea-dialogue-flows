@@ -1,0 +1,247 @@
+# game/conversations/unc/storms/stm_0300_research_track_a
+# Primary speaker: SAM
+# Source: game/conversations/unc/storms/stm_0300_research_track_a.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: The data core for an orbital buoy? Bet we'll need this once we get power going at the relay station.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: Good for system navigation. Especially with Scourge everywhere.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: Good for system navigation. Especially with Scourge everywhere.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Could help navigational systems deal with the Scourge.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: Good for system navigation. Especially with Scourge everywhere.
+    └─ merge ─┘
+├ option 2:
+    Hero: Looks like we found the buoy data core. Seems functional. Upgraded, even.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        ↩ (goto) global_squad_female_human ⟨cond⟩: Good for system navigation. Especially with Scourge everywhere.
+    ├ option 2:
+        ↩ (goto) global_squad_male_human ⟨cond⟩: Good for system navigation. Especially with Scourge everywhere.
+    ├ option 3:
+        ↩ (goto) global_squad_turian ⟨cond⟩: Could help navigational systems deal with the Scourge.
+    ├ option 4:
+        ↩ (goto) global_squad_asari ⟨cond⟩: Good for system navigation. Especially with Scourge everywhere.
+    └─ merge ─┘
+└─ merge ─┘
+Hero: Our missing buoy panels. Repurposed, but restorable.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Making progress on this research project.
+    Hero: And getting Eos the orbital support it needs.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: Making progress on this research project.
+    ↩ (goto) Hero: And getting Eos the orbital support it needs.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Making progress on this research project.
+    ↩ (goto) Hero: And getting Eos the orbital support it needs.
+├ option 4:
+    global_squad_asari ⟨cond⟩: Making progress on this research project.
+    ↩ (goto) Hero: And getting Eos the orbital support it needs.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: Optics for an orbital buoy. Bet we'll need this once we get power going at the relay station.
+    SAM: Focusing properties are at 120% efficiency.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: These engineers knew their business.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: These engineers knew their business.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: These guys knew what they were doing.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: These engineers knew their business.
+    └─ merge ─┘
+├ option 2:
+    Hero: Optical array for our missing comm buoy. Repurposed for analytics.
+    ↩ (goto) SAM: Focusing properties are at 120% efficiency.
+└─ merge ─┘
+┌─ BRANCH (2) ─┐
+├ option 1:
+    Hero ⟨cond⟩: An Initiative orbital buoy drive. Bet we'll need this once we get power going at the relay station.
+    SAM: The intakes were modified to compensate for overcharge from the Scourge.
+    ┌─ BRANCH (4) ─┐
+    ├ option 1:
+        global_squad_female_human ⟨cond⟩: You can only make all these improvements if you have experience on the ground.
+        Hero: Where the risk is.
+    ├ option 2:
+        global_squad_male_human ⟨cond⟩: You can only make all these improvements if you have experience on the ground.
+        ↩ (goto) Hero: Where the risk is.
+    ├ option 3:
+        global_squad_turian ⟨cond⟩: Seems like they were trying to adapt to the conditions.
+        ↩ (goto) Hero: Where the risk is.
+    ├ option 4:
+        global_squad_asari ⟨cond⟩: You can only make tweaks like this if you have experience on the ground.
+        ↩ (goto) Hero: Where the risk is.
+    └─ merge ─┘
+├ option 2:
+    Hero: Our missing buoy drive. In good shape. Better than good.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: You have found all the physical components for an orbital buoy.
+        ┌─ BRANCH (3) ─┐
+        ├ option 1:
+            Hero ⟨cond⟩: Well, once we find out what that's for, we're golden.
+        ├ option 2:
+            Hero ⟨cond⟩: Still need the data from the engineers, but we're closer.
+        ├ option 3:
+            Hero: So if we have the A.V.P., we can "research" a new buoy. That much closer.
+        └─ merge ─┘
+    ├ option 2:
+        ↩ (goto) SAM: The intakes were modified to compensate for overcharge from the Scourge.
+    └─ merge ─┘
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    SAM ⟨cond⟩ [OncePerGame]: All Site 2 components are accounted for.
+    Hero: Let's head to Site 2's research station and see what good they do.
+├ option 2:
+    SAM ⟨cond⟩ [OncePerGame]: This component was security tagged for Site 2.
+    Hero: Looks like they had some sort of special project going. Let's find the rest.
+├ option 3:
+    Hero [OncePerGame]: Got a component for Site 2's project.
+├ option 4:
+    Hero: Parts for the Site 2 project, check.
+└─ merge ─┘
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: Nice. Let's get to a research station. See what we've got.
+├ option 2:
+    global_squad_krogan ⟨cond⟩: Got 'em. You and that research station can put them together.
+├ option 3:
+    global_squad_turian ⟨cond⟩: The engineers knew their stuff. Let's get these to a research station.
+├ option 4:
+    global_squad_male_human ⟨cond⟩: That'll make an impact. Back to the research station?
+└─ merge ─┘
+Hero: That should help us out. What happened to the chief engineer who started this project?
+SAM: Site 2 had an emergency muster point for the evacuation.
+Hero: Huh. Find that point, maybe we find her.
+Hero: All these challenges, and the colonists still tried to tough it out.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: They didn't know what they were in for. They weren't told.
+    Hero: SAM and I could have helped them. This won't happen again.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: They didn't know what they were in for. They weren't told.
+    ↩ (goto) Hero: SAM and I could have helped them. This won't happen again.
+├ option 3:
+    global_squad_asari ⟨cond⟩: Nobody told them what they were in for.
+    ↩ (goto) Hero: SAM and I could have helped them. This won't happen again.
+├ option 4:
+    global_squad_turian ⟨cond⟩: Nobody told them what they were in for.
+    ↩ (goto) Hero: SAM and I could have helped them. This won't happen again.
+└─ merge ─┘
+SAM: Data key, Specialist Engineer Aman Kothari.
+Hero: Chased down by what he was studying?
+┌─ BRANCH (3) ─┐
+├ option 1:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: You know who we haven't found—where's the chief engineer?
+    ├ option 2:
+        Hero: We can't rescue this team, but we can save their data.
+    └─ merge ─┘
+├ option 2:
+    Hero ⟨cond⟩: The death toll between the two outposts must have weighed on everyone.
+├ option 3:
+    SAM: Personnel deaths were not recorded. The chief engineer halted reports to the Nexus.
+    Hero: That sounds bad, but nothing on Eos sounds good.
+└─ merge ─┘
+SAM: Data key: Operations Engineer Samantha Bristol.
+Hero: She didn't have a chance out here.
+↩ (goto) SAM: [empty]
+SAM: Data key: Analyst Engineer Jenke Abramson.
+Hero: Sounds like he put up a fight... whether he wanted to or not.
+Hero: He was trying to keep weapon components out of kett hands. And he did.
+┌─ BRANCH (4) ─┐
+├ option 1:
+    global_squad_female_human ⟨cond⟩: I don't think any of this was reported. And I can see why.
+├ option 2:
+    global_squad_male_human ⟨cond⟩: The Nexus didn't hear about any of this. Out here, it's obvious why.
+├ option 3:
+    global_squad_turian ⟨cond⟩: Nexus wasn't told about this. And I can see why.
+├ option 4:
+    global_squad_asari ⟨cond⟩: I can see why the bosses didn't talk about this.
+└─ merge ─┘
+┌─ BRANCH (8) ─┐
+├ option 1:
+    ↩ (goto) SAM: [empty]
+├ option 2:
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM ⟨cond⟩: I've also derived the location of the engineering team's emergency muster point.
+        Hero: Worth a look once we're done with the buoy.
+    ├ option 2:
+        SAM: I am also deriving a shared timetable for the evacuation at muster point Delta.
+        Hero: Right. Where the chief was waiting. Last one out.
+    └─ merge ─┘
+├ option 3:
+    SAM: Data key: Journeyman Engineer Terry Frakes.
+├ option 4:
+    SAM ⟨cond⟩: Data keys collated. The orbital buoy data is now complete.
+    ┌─ BRANCH (3) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Well, once we find out what that's for, we're golden.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) SAM ⟨cond⟩: I've also derived the location of the engineering team's emergency muster point.
+        ├ option 2:
+            ↩ (goto) SAM: I am also deriving a shared timetable for the evacuation at muster point Delta.
+        └─ merge ─┘
+    ├ option 2:
+        Hero ⟨cond⟩: So if we have the A.V.P., we can "research" a new buoy.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            ↩ (goto) SAM ⟨cond⟩: I've also derived the location of the engineering team's emergency muster point.
+        ├ option 2:
+            ↩ (goto) SAM: I am also deriving a shared timetable for the evacuation at muster point Delta.
+        └─ merge ─┘
+    ├ option 3:
+        Hero: Still need the actual buoy components, though.
+    └─ merge ─┘
+├ option 5:
+    SAM: A.V.P. gained, Pathfinder. Andromeda Viability Points are vital to your success here.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero ⟨cond⟩: Let's get the power up and find out what our outpost will need.
+    ├ option 2:
+        Hero: Useful for the orbital buoy and any other research projects.
+    └─ merge ─┘
+├ option 6:
+    ┌─ BRANCH (9) ─┐
+    ├ option 1:
+        Hero: Every little bit helps.
+    ├ option 2:
+        SAM: A.V.P. gained, Pathfinder.
+    ├ option 3:
+        Hero: More A.V.P. for the Initiative.
+    ├ option 4:
+        SAM: A.V.P. gains recorded, Pathfinder.
+    ├ option 5:
+        Hero: More of what we need.
+    ├ option 6:
+        global_squad_female_human ⟨cond⟩: Useful stuff. Keep it up.
+    ├ option 7:
+        global_squad_male_human ⟨cond⟩: Useful stuff. Keep it up.
+    ├ option 8:
+        global_squad_turian ⟨cond⟩: Good work. We could use this.
+    ├ option 9:
+        global_squad_asari ⟨cond⟩: Good stuff!
+    └─ merge ─┘
+├ option 7:
+    Hero: SAM—that's enough A.V.P. for the buoy research project?
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        SAM: Yes, Pathfinder. The project has other requirements, but this is excellent progress.
+    ├ option 2:
+        SAM: Yes, Pathfinder. You have completed all requirements. The project can proceed.
+    └─ merge ─┘
+├ option 8:
+    SAM ⟨cond⟩: Data key: Specialist Engineer Aman Kothari. Derived: Navpoint for the missing optics.
+    ↩ (goto) Hero: Chased down by what he was studying?
+└─ merge ─┘

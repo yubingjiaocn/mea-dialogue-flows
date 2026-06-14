@@ -1,0 +1,44 @@
+# Game/Conversations/Loyalty/Loy_Tur/loy_tur_0450_wrapup_d
+# Primary speaker: Hero
+# Source: game/conversations/Loyalty/Loy_Tur/loy_tur_0450_wrapup_d.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    global_squad_turian: Are you all right? Are you hurt?
+    nex_vetra_sister_multi: I... I think I'm okay.
+    Narration: Crackling on Vetra's omnitool.
+    loy_tur_settlerleader: [Comm] Help's on the way. We're all good, thanks to you.
+    global_squad_turian: {i}(Sighs.){/i}
+    nex_vetra_sister_multi: I didn't mean for any of this. I'm sorry, okay?
+    global_squad_turian: You can't just mess around with people from Kadara. They're dangerous.
+    nex_vetra_sister_multi: I just... these guys wanted to start over, not be exiles anymore.
+    nex_vetra_sister_multi: No one else was giving them a chance, so I thought... I can do that. I can help.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: These are good people who made bad choices. Your sister did the right thing.
+        global_squad_turian: She still should've talked to me.
+        global_squad_turian: I don't want you hurt. There are ugly sides to what I do, and you shouldn't have to deal with them.
+        nex_vetra_sister_multi: You started out when you were my age, and you managed okay.
+        global_squad_turian: That wasn't by choice! You saw what we did here. This isn't all fun and games, Sid.
+        nex_vetra_sister_multi: Yeah, I was shocked at first, but I understand now. And I can handle it!
+        global_squad_turian: I don't want you to have to!
+        nex_vetra_sister_multi: Whatever. I'm going back to the Nexus. Like you wanted.
+        ┌─ BRANCH (2) ─┐
+        ├ option 1:
+            Hero: Sounds like you're going to need a long talk.
+            global_squad_turian: Before I even attempt a talk, she'll need some time to think. We both do.
+            global_squad_turian: Hey, at least the settlers are safe.
+            global_squad_turian: Thanks for helping me out with this, Ryder. Can we just get moving now?
+        ├ option 2:
+            Hero: That was intense. Are you all right?
+            global_squad_turian: Fine. I just need some time to think.
+            ↩ (goto) global_squad_turian: Hey, at least the settlers are safe.
+        └─ merge ─┘
+    ├ option 2:
+        Hero: That's not your decision to make, Sid.
+        ↩ (goto) global_squad_turian: I don't want you hurt. There are ugly sides to what I do, and you shouldn't have to deal with them.
+    └─ merge ─┘
+├ option 2:
+    loy_tur_outlawboss: {i}(Gasps.){/i} D-damn you, Pathfinder... you haven't won...
+    Narration: Sid is hanging back, seeing Meriweather taking her last breath. Seeing someone die in front of her affects her.
+└─ merge ─┘

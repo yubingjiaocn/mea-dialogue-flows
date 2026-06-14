@@ -1,0 +1,23 @@
+# game/conversations/unc/storms/stm_crafting_0100_quest_i
+# Primary speaker: 
+# Source: game/conversations/unc/storms/stm_crafting_0100_quest_i.xml
+==================================================
+┌─ BRANCH (2) ─┐
+├ option 1:
+    stm_outpost_staff_armorer: Pathfinder. Jacob Mittney, research and development. My team's just getting set up here, but we've made a discovery you might want to check out.
+    Hero: All ears.
+    stm_outpost_staff_armorer: We've put together a blueprint for augmenting your armor plating. Uploading it now.
+    stm_outpost_staff_armorer: If you can collect the necessary resources from around Eos, it should work.
+    ┌─ BRANCH (2) ─┐
+    ├ option 1:
+        Hero: Sounds useful. Good thinking, Mittney.
+        stm_outpost_staff_armorer: This could form the basis for armor production across the Initiative.
+        stm_outpost_staff_armorer: Scrounge safely, Pathfinder.
+    ├ option 2:
+        Hero: Is this a sure thing, Mittney, or just pie in the sky?
+        stm_outpost_staff_armorer: I have no interest in wasting your time.
+        ↩ (goto) stm_outpost_staff_armorer: This could form the basis for armor production across the Initiative.
+    └─ merge ─┘
+├ option 2:
+    stm_outpost_staff_armorer: Good luck out there, Pathfinder.
+└─ merge ─┘
