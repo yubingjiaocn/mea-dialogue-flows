@@ -1,442 +1,442 @@
 # Dialogue Index (2369 conversations, organized by mission/type)
 
 
-## 01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside
+## 01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7
 
-- [`Pro_Lnd_0050_shuttle_ark_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0050_shuttle_ark_a.txt) — Lnd Shuttle Crew1: Turning to vector one-three-five.
-- [`Pro_Lnd_0100_shuttle_ride_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0100_shuttle_ride_a.txt) — Lnd Shuttle Pilot: We're through!
-- [`Pro_Lnd_0100_shuttle_ride_other_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0100_shuttle_ride_other_a.txt) — Lnd Shuttle Pilot2: Navigation beacon is green, Hyperion.
-- [`Pro_Lnd_0110_shuttle_fall_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0110_shuttle_fall_b.txt) — Liam Kosta: Whoa!
-- [`Pro_Lnd_0200_player_crash_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0200_player_crash_m.txt) — Ryder: Ah, shit...
-- [`Pro_Lnd_0300_firstcontact_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0300_firstcontact_b.txt) — Ryder ⟨cond⟩: Nice and easy—we only go hot if we have to.
-- [`Pro_Lnd_0310_firstcontact_explore_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0310_firstcontact_explore_b.txt) — Ryder [OncePerGame]: Well, I don't have SAM here, but I can try to mak
-- [`Pro_Lnd_0310_firstcontact_outcome_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0310_firstcontact_outcome_a.txt) — Liam Kosta: Whoa. Take a look at these bodies. What are these things?
-- [`Pro_Lnd_0320_Cora_radio_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0320_Cora_radio_a.txt) — Cora Harper: [Comm] SOS on frequency 154.3. Anyone there?
-- [`Pro_Lnd_0320_Cora_radio_remind_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0320_Cora_radio_remind_a.txt) — Cora Harper: [Comm] Ryder, where are you? We're not going to hold out 
-- [`Pro_Lnd_0325_plant_cave_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0325_plant_cave_b.txt) — Liam Kosta: Check that out.
-- [`Pro_Lnd_0400_Cora_shuttle_fight_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0400_Cora_shuttle_fight_b.txt) — Liam Kosta: Let's get in there!
-- [`Pro_Lnd_0450_Cora_scene_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0450_Cora_scene_m.txt) — Cora Harper: Kosta! It's over!
-- [`Pro_Lnd_0460_find_dad_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0460_find_dad_b.txt) — Cora Harper: SAM, do you have the Pathfinder's position?
-- [`Pro_Lnd_0505_DeadShuttleCrewman_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0505_DeadShuttleCrewman_b.txt) — Liam Kosta: Hear that?
-- [`Pro_Lnd_0510_ShuttleScienceEquipment_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0510_ShuttleScienceEquipment_b.txt) — Ryder: It's gear from one of our shuttles.
-- [`Pro_Lnd_0520_RemnantObserverSpotting_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0520_RemnantObserverSpotting_b.txt) — Liam Kosta: Wonder what's in here?
-- [`Pro_Lnd_0540_CrashedKettTransport_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0540_CrashedKettTransport_b.txt) — Ryder: Definitely not from the Milky Way.
-- [`Pro_Lnd_0580_DeadKettPatrol_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0580_DeadKettPatrol_b.txt) — Cora Harper: Dead bodies here. Lightning didn't do this.
-- [`Pro_Lnd_0590_ApproachOutpost_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0590_ApproachOutpost_b.txt) — Ryder: What is this?
-- [`Pro_Lnd_0590_LaserFence_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0590_LaserFence_b.txt) — Liam Kosta: Best to leave it alone.
-- [`Pro_Lnd_0600_Dad_Rendezvous_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0600_Dad_Rendezvous_m.txt) — Cora Harper: Sir...
-- [`Pro_Lnd_0610_outpost_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0610_outpost_combat_b.txt) — Cora Harper [OncePerGame]: Let's go!
-- [`Pro_Lnd_0625_processor_final_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0625_processor_final_combat_b.txt) — Ryder: What now?
-- [`Pro_Lnd_0700_Dad_dies_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/Pro_Lnd_0700_Dad_dies_m.txt) — Alec Ryder (Dad): Put your back into it!
-- [`pro_lnd_0105_shuttlestrike_ambs_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0105_shuttlestrike_ambs_a.txt) — Lnd Shuttle Pilot: Circuits are overloading!
-- [`pro_lnd_0210_first_crashsite_explore_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0210_first_crashsite_explore_b.txt) — Liam Kosta: Ryder, how's your survival training?
-- [`pro_lnd_0210_first_crashsite_scan_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0210_first_crashsite_scan_b.txt) — Ryder [OncePerGame]: Well, without SAM, it's hard to say exactly what 
-- [`pro_lnd_0220_lightning_field_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0220_lightning_field_b.txt) — Liam Kosta: Uh, what the hell is this?
-- [`pro_lnd_0225_manta_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0225_manta_b.txt) — Ryder: Look—something flying around in the sky...
-- [`pro_lnd_0230_cliff_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0230_cliff_b.txt) — Liam Kosta: There! We get up that cliff, we can find high ground.
-- [`pro_lnd_0300_firstcontact_ambs_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0300_firstcontact_ambs_a.txt) — Lnd Kett2: Roak!
-- [`pro_lnd_0300_firstcontact_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0300_firstcontact_m.txt) — Liam Kosta: Mind making some room?
-- [`pro_lnd_0301_firstcontactinterrupts_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0301_firstcontactinterrupts_b.txt) — Ryder: Go hot!
-- [`pro_lnd_0310_first_contact_after_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0310_first_contact_after_m.txt) — Ryder: Okay... it's over.
-- [`pro_lnd_0310_firstcontact_fisher_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0310_firstcontact_fisher_a.txt) — Lnd Shuttle Crew1 [OncePerGame]: Seriously, you guys go ahead. Find a 
-- [`pro_lnd_0315_chasm_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0315_chasm_b.txt) — Ryder: What do you suppose is down there?
-- [`pro_lnd_0315_remnant_ruins_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0315_remnant_ruins_b.txt) — Liam Kosta: Still, take a look at this architecture. This is really so
-- [`pro_lnd_0315_second_shuttle_flare_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0315_second_shuttle_flare_b.txt) — Liam Kosta: Hey, look—flares going up! Over there!
-- [`pro_lnd_0315_warbeast_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0315_warbeast_b.txt) — Liam Kosta: Shit, you hear that?
-- [`pro_lnd_0350_crossroads_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0350_crossroads_a.txt) — Liam Kosta: A path down on the right.
-- [`pro_lnd_0400_cora_shuttle_fight2_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0400_cora_shuttle_fight2_b.txt) — Liam Kosta: Where the hell are you going?
-- [`pro_lnd_0405_cora_shut_post_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0405_cora_shut_post_a.txt) — Lexi (Doctor) [OncePerGame]: You go on ahead, Ryder. I'll watch over h
-- [`pro_lnd_0455_kett_log_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0455_kett_log_a.txt) — Lnd Kett5: [Audio Log] Keng zhef. Rol no tod surhanad. Jhan lurok.
-- [`pro_lnd_0455_kett_science_outpost_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0455_kett_science_outpost_b.txt) — Ryder: Some kind of building over here.
-- [`pro_lnd_0505_crew_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0505_crew_a.txt) — Lnd Kett3: Lutod nyro!
-- [`pro_lnd_0505_kett_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0505_kett_a.txt) — Lnd Kett3 [OncePerGame]: Kal sarhos!
-- [`pro_lnd_0505_kirkland_corpse_i.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0505_kirkland_corpse_i.txt) — Ryder: No vital signs. Just shot him in cold blood.
-- [`pro_lnd_0505_notice_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0505_notice_a.txt) — Liam Kosta: Is that Kirkland?
-- [`pro_lnd_0515_aft_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0515_aft_combat_b.txt) — Liam Kosta: Shit, movement on our perimeter...
-- [`pro_lnd_0515_aft_flight_log_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0515_aft_flight_log_a.txt) — Lnd Shuttle Crew1: [Audio Log] {i}(Static.){/i} —experienced a catastr
-- [`pro_lnd_0515_aft_section_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0515_aft_section_b.txt) — Liam Kosta: Wreckage ahead...
-- [`pro_lnd_0540_crashedkett_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0540_crashedkett_combat_b.txt) — Ryder: What are those guys doing?
-- [`pro_lnd_0550_greerrescue_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0550_greerrescue_a.txt) — Lnd Shuttle Crew2: What do you want?
-- [`pro_lnd_0550_greerrescue_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0550_greerrescue_b.txt) — Liam Kosta: It's Greer—they've got him!
-- [`pro_lnd_0590_kett_patrol_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0590_kett_patrol_b.txt) — Ryder: Oh, great... That can't be good.
-- [`pro_lnd_0625_dad_progress_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0625_dad_progress_a.txt) — SAM: Analyzing possible inputs. Twenty-five percent decrypted.
-- [`pro_lnd_0625_processor_final_barks_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0625_processor_final_barks_b.txt) — Cora Harper [OncePerGame]: We held them off at the shuttle, we can do 
-- [`pro_lnd_0630_greers_body_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_0630_greers_body_b.txt) — Cora Harper: Oh my god, that's Greer on the table—they killed him!
-- [`pro_lnd_glbl_banter_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_glbl_banter_b.txt) — Ryder ⟨cond⟩ [OncePerGame]: I hope my dad's shuttle had a better time 
-- [`pro_lnd_glbl_fall_warn_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_glbl_fall_warn_b.txt) — Liam Kosta: Careful there.
-- [`pro_lnd_glbl_lightning_nudge_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_glbl_lightning_nudge_b.txt) — Ryder: Oh, crap—lightning's back.
-- [`pro_lnd_glbl_mineral_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Habitat7_Planetside/pro_lnd_glbl_mineral_b.txt) — Ryder: What do you know—it's nickel.
+- [`Pro_Lnd_0050_shuttle_ark_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0050_shuttle_ark_a.txt) — Lnd Shuttle Crew1: Turning to vector one-three-five.
+- [`Pro_Lnd_0100_shuttle_ride_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0100_shuttle_ride_a.txt) — Lnd Shuttle Pilot: We're through!
+- [`Pro_Lnd_0100_shuttle_ride_other_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0100_shuttle_ride_other_a.txt) — Lnd Shuttle Pilot2: Navigation beacon is green, Hyperion.
+- [`Pro_Lnd_0110_shuttle_fall_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0110_shuttle_fall_b.txt) — Liam Kosta: Whoa!
+- [`Pro_Lnd_0200_player_crash_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0200_player_crash_m.txt) — Ryder: Ah, shit...
+- [`Pro_Lnd_0300_firstcontact_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0300_firstcontact_b.txt) — Ryder ⟨cond⟩: Nice and easy—we only go hot if we have to.
+- [`Pro_Lnd_0310_firstcontact_explore_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0310_firstcontact_explore_b.txt) — Ryder [OncePerGame]: Well, I don't have SAM here, but I can try to mak
+- [`Pro_Lnd_0310_firstcontact_outcome_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0310_firstcontact_outcome_a.txt) — Liam Kosta: Whoa. Take a look at these bodies. What are these things?
+- [`Pro_Lnd_0320_Cora_radio_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0320_Cora_radio_a.txt) — Cora Harper: [Comm] SOS on frequency 154.3. Anyone there?
+- [`Pro_Lnd_0320_Cora_radio_remind_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0320_Cora_radio_remind_a.txt) — Cora Harper: [Comm] Ryder, where are you? We're not going to hold out 
+- [`Pro_Lnd_0325_plant_cave_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0325_plant_cave_b.txt) — Liam Kosta: Check that out.
+- [`Pro_Lnd_0400_Cora_shuttle_fight_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0400_Cora_shuttle_fight_b.txt) — Liam Kosta: Let's get in there!
+- [`Pro_Lnd_0450_Cora_scene_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0450_Cora_scene_m.txt) — Cora Harper: Kosta! It's over!
+- [`Pro_Lnd_0460_find_dad_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0460_find_dad_b.txt) — Cora Harper: SAM, do you have the Pathfinder's position?
+- [`Pro_Lnd_0505_DeadShuttleCrewman_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0505_DeadShuttleCrewman_b.txt) — Liam Kosta: Hear that?
+- [`Pro_Lnd_0510_ShuttleScienceEquipment_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0510_ShuttleScienceEquipment_b.txt) — Ryder: It's gear from one of our shuttles.
+- [`Pro_Lnd_0520_RemnantObserverSpotting_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0520_RemnantObserverSpotting_b.txt) — Liam Kosta: Wonder what's in here?
+- [`Pro_Lnd_0540_CrashedKettTransport_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0540_CrashedKettTransport_b.txt) — Ryder: Definitely not from the Milky Way.
+- [`Pro_Lnd_0580_DeadKettPatrol_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0580_DeadKettPatrol_b.txt) — Cora Harper: Dead bodies here. Lightning didn't do this.
+- [`Pro_Lnd_0590_ApproachOutpost_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0590_ApproachOutpost_b.txt) — Ryder: What is this?
+- [`Pro_Lnd_0590_LaserFence_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0590_LaserFence_b.txt) — Liam Kosta: Best to leave it alone.
+- [`Pro_Lnd_0600_Dad_Rendezvous_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0600_Dad_Rendezvous_m.txt) — Cora Harper: Sir...
+- [`Pro_Lnd_0610_outpost_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0610_outpost_combat_b.txt) — Cora Harper [OncePerGame]: Let's go!
+- [`Pro_Lnd_0625_processor_final_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0625_processor_final_combat_b.txt) — Ryder: What now?
+- [`Pro_Lnd_0700_Dad_dies_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/Pro_Lnd_0700_Dad_dies_m.txt) — Alec Ryder (Dad): Put your back into it!
+- [`pro_lnd_0105_shuttlestrike_ambs_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0105_shuttlestrike_ambs_a.txt) — Lnd Shuttle Pilot: Circuits are overloading!
+- [`pro_lnd_0210_first_crashsite_explore_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0210_first_crashsite_explore_b.txt) — Liam Kosta: Ryder, how's your survival training?
+- [`pro_lnd_0210_first_crashsite_scan_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0210_first_crashsite_scan_b.txt) — Ryder [OncePerGame]: Well, without SAM, it's hard to say exactly what 
+- [`pro_lnd_0220_lightning_field_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0220_lightning_field_b.txt) — Liam Kosta: Uh, what the hell is this?
+- [`pro_lnd_0225_manta_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0225_manta_b.txt) — Ryder: Look—something flying around in the sky...
+- [`pro_lnd_0230_cliff_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0230_cliff_b.txt) — Liam Kosta: There! We get up that cliff, we can find high ground.
+- [`pro_lnd_0300_firstcontact_ambs_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0300_firstcontact_ambs_a.txt) — Lnd Kett2: Roak!
+- [`pro_lnd_0300_firstcontact_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0300_firstcontact_m.txt) — Liam Kosta: Mind making some room?
+- [`pro_lnd_0301_firstcontactinterrupts_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0301_firstcontactinterrupts_b.txt) — Ryder: Go hot!
+- [`pro_lnd_0310_first_contact_after_m.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0310_first_contact_after_m.txt) — Ryder: Okay... it's over.
+- [`pro_lnd_0310_firstcontact_fisher_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0310_firstcontact_fisher_a.txt) — Lnd Shuttle Crew1 [OncePerGame]: Seriously, you guys go ahead. Find a 
+- [`pro_lnd_0315_chasm_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0315_chasm_b.txt) — Ryder: What do you suppose is down there?
+- [`pro_lnd_0315_remnant_ruins_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0315_remnant_ruins_b.txt) — Liam Kosta: Still, take a look at this architecture. This is really so
+- [`pro_lnd_0315_second_shuttle_flare_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0315_second_shuttle_flare_b.txt) — Liam Kosta: Hey, look—flares going up! Over there!
+- [`pro_lnd_0315_warbeast_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0315_warbeast_b.txt) — Liam Kosta: Shit, you hear that?
+- [`pro_lnd_0350_crossroads_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0350_crossroads_a.txt) — Liam Kosta: A path down on the right.
+- [`pro_lnd_0400_cora_shuttle_fight2_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0400_cora_shuttle_fight2_b.txt) — Liam Kosta: Where the hell are you going?
+- [`pro_lnd_0405_cora_shut_post_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0405_cora_shut_post_a.txt) — Lexi (Doctor) [OncePerGame]: You go on ahead, Ryder. I'll watch over h
+- [`pro_lnd_0455_kett_log_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0455_kett_log_a.txt) — Lnd Kett5: [Audio Log] Keng zhef. Rol no tod surhanad. Jhan lurok.
+- [`pro_lnd_0455_kett_science_outpost_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0455_kett_science_outpost_b.txt) — Ryder: Some kind of building over here.
+- [`pro_lnd_0505_crew_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0505_crew_a.txt) — Lnd Kett3: Lutod nyro!
+- [`pro_lnd_0505_kett_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0505_kett_a.txt) — Lnd Kett3 [OncePerGame]: Kal sarhos!
+- [`pro_lnd_0505_kirkland_corpse_i.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0505_kirkland_corpse_i.txt) — Ryder: No vital signs. Just shot him in cold blood.
+- [`pro_lnd_0505_notice_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0505_notice_a.txt) — Liam Kosta: Is that Kirkland?
+- [`pro_lnd_0515_aft_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0515_aft_combat_b.txt) — Liam Kosta: Shit, movement on our perimeter...
+- [`pro_lnd_0515_aft_flight_log_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0515_aft_flight_log_a.txt) — Lnd Shuttle Crew1: [Audio Log] {i}(Static.){/i} —experienced a catastr
+- [`pro_lnd_0515_aft_section_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0515_aft_section_b.txt) — Liam Kosta: Wreckage ahead...
+- [`pro_lnd_0540_crashedkett_combat_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0540_crashedkett_combat_b.txt) — Ryder: What are those guys doing?
+- [`pro_lnd_0550_greerrescue_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0550_greerrescue_a.txt) — Lnd Shuttle Crew2: What do you want?
+- [`pro_lnd_0550_greerrescue_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0550_greerrescue_b.txt) — Liam Kosta: It's Greer—they've got him!
+- [`pro_lnd_0590_kett_patrol_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0590_kett_patrol_b.txt) — Ryder: Oh, great... That can't be good.
+- [`pro_lnd_0625_dad_progress_a.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0625_dad_progress_a.txt) — SAM: Analyzing possible inputs. Twenty-five percent decrypted.
+- [`pro_lnd_0625_processor_final_barks_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0625_processor_final_barks_b.txt) — Cora Harper [OncePerGame]: We held them off at the shuttle, we can do 
+- [`pro_lnd_0630_greers_body_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_0630_greers_body_b.txt) — Cora Harper: Oh my god, that's Greer on the table—they killed him!
+- [`pro_lnd_glbl_banter_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_glbl_banter_b.txt) — Ryder ⟨cond⟩ [OncePerGame]: I hope my dad's shuttle had a better time 
+- [`pro_lnd_glbl_fall_warn_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_glbl_fall_warn_b.txt) — Liam Kosta: Careful there.
+- [`pro_lnd_glbl_lightning_nudge_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_glbl_lightning_nudge_b.txt) — Ryder: Oh, crap—lightning's back.
+- [`pro_lnd_glbl_mineral_b.txt`](01_Main_Story_Priority_Ops/01_Prologue_Planetside_Habitat7/pro_lnd_glbl_mineral_b.txt) — Ryder: What do you know—it's nickel.
 
-## 01_Main_Story_Priority_Ops/02_Hyperion_Ship
+## 01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship
 
-- [`Pro_Shp_0000_departure_c.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0000_departure_c.txt) — Alec Ryder (Dad) ⟨cond⟩: Every great moment in our history began with 
-- [`Pro_Shp_0000_intro_c.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0000_intro_c.txt) — Global Humanark Bridgecrew: Captain, FTL systems engaged. Outer rim of
-- [`Pro_Shp_0100_cryo_m.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0100_cryo_m.txt) — Ryder: {i}(Gasps for breath.){/i}
-- [`Pro_Shp_0100_losegravity_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0100_losegravity_b.txt) — Dr. Lexi / Asari Doctor: What's happening?
-- [`Pro_Shp_0100_scourgehit_c.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0100_scourgehit_c.txt) — 
-- [`Pro_Shp_0100_tothebridge_cc.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0100_tothebridge_cc.txt) — Cora Harper: This is Cora! I'm at the cryo bay! Brace for a reset...
-- [`Pro_Shp_0110_Cora_Doctor_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0110_Cora_Doctor_a.txt) — Cora Harper: What's wrong?
-- [`Pro_Shp_0110_PA_announce_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0110_PA_announce_a.txt) — Shp Engineer [OncePerGame]: [Loudspeaker] Gravity systems have been re
-- [`Pro_Shp_0110_Pair1_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0110_Pair1_a.txt) — Liam Kosta: Did the world just turn upside down, or am I still dreamin
-- [`Pro_Shp_0110_Pair2_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0110_Pair2_a.txt) — Lnd Shuttle Pilot: Gravity loss means something tripped the generators
-- [`Pro_Shp_0110_Pair3_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0110_Pair3_a.txt) — Lnd Shuttle Pilot2: It sounds amazing, doesn't it? Right up until you 
-- [`Pro_Shp_0115_sibling_i.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0115_sibling_i.txt) — Dr. Lexi / Asari Doctor ⟨cond⟩: Sara.
-- [`Pro_Shp_0200_crew_chatter1_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0200_crew_chatter1_a.txt) — Shp Crew4: You okay?
-- [`Pro_Shp_0200_runtotram_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0200_runtotram_b.txt) — Cora Harper: You ready?
-- [`Pro_Shp_0300_bridge_m.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0300_bridge_m.txt) — Shp BridgeCrew1: We're drifting!
-- [`Pro_Shp_0375_Prep_m.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0375_Prep_m.txt) — Narration: Ryder is in the locker room, just putting on a final piece 
-- [`Pro_Shp_0380_Prep_chatter_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0380_Prep_chatter_b.txt) — Cora Harper: Right. You'll want to get your helmet.
-- [`Pro_Shp_0400_shuttles_m.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/Pro_Shp_0400_shuttles_m.txt) — Cora Harper: Doctor Carlyle, with everything going on, I'd think the a
-- [`pro_shp_0100_losegravity2_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0100_losegravity2_a.txt) — Shp Tech5 [OncePerGame]: Gravity's out!
-- [`pro_shp_0100_losegravity3_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0100_losegravity3_a.txt) — Shp Tech4 [OncePerGame]: Watch the stasis pod! It broke free!
-- [`pro_shp_0100_losegravity_cora_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0100_losegravity_cora_a.txt) — Cora Harper: [Loudspeaker] I'm almost inside! Hold on!
-- [`pro_shp_0110_med_asst_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_med_asst_a.txt) — Shp Tech4 [OncePerGame]: What a mess.
-- [`pro_shp_0110_pair1_greet_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_pair1_greet_b.txt) — Liam Kosta [OncePerGame]: Hey, there! Hell of a wake up call, huh? Did
-- [`pro_shp_0110_pair2_greet_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_pair2_greet_b.txt) — Lnd Shuttle Crew1: Morning, Ryder. Or... afternoon? Or... I don't know
-- [`pro_shp_0110_repair2_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_repair2_a.txt) — Shp Tech5 [OncePerGame]: This looks broken.
-- [`pro_shp_0110_repair_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_repair_a.txt) — Shp Crew15: Thank god nobody was in this.
-- [`pro_shp_0110_wakeup1_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_wakeup1_a.txt) — Lnd Shuttle Crew2: {i}(Coughs.){/i}
-- [`pro_shp_0110_wakeup2_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0110_wakeup2_a.txt) — Shp Colonist26: Wow, that was... weird.
-- [`pro_shp_0120_vidwall_d.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0120_vidwall_d.txt) — Shp Init Founder: Hi, there. I'm Jien Garson, founder of the Andromeda
-- [`pro_shp_0125_pod_interact_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0125_pod_interact_b.txt) — Ryder [OncePerGame]: Still in stasis. Vitals look good.
-- [`pro_shp_0150_dmg_banter_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_banter_b.txt) — Cora Harper ⟨cond⟩: Ryder could find it—she has a scanner! Quick, Ryde
-- [`pro_shp_0150_dmg_door_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_door_b.txt) — SAM: The door's power is malfunctioning.
-- [`pro_shp_0150_dmg_team8_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_team8_a.txt) — Shp Crew33: What's wrong?
-- [`pro_shp_0150_dmg_team8b_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_team8b_a.txt) — Shp Crew32: Call the bridge and tell Captain Dunn this won't hold for 
-- [`pro_shp_0150_dmg_team8c_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_team8c_a.txt) — Shp Crew33: I'll take the second conduit!
-- [`pro_shp_0150_dmg_team9_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_team9_a.txt) — Shp Crew35: Watch it!
-- [`pro_shp_0150_dmg_team9b_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0150_dmg_team9b_a.txt) — Shp Crew35: I'll try to run a diagnostic!
-- [`pro_shp_0200_crew_chatter2_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0200_crew_chatter2_a.txt) — Shp Crew13: They're worried the loss of gravity might've affected the 
-- [`pro_shp_0200_tram_transition_c.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0200_tram_transition_c.txt) — 
-- [`pro_shp_0210_tram_npcs_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0210_tram_npcs_a.txt) — Shp Crew16: You ever worked on these propulsion systems before?
-- [`pro_shp_0220_waitfortram_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0220_waitfortram_b.txt) — Narration: TEMP: Andrew, unhook this
-- [`pro_shp_0275_dmg_team4_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0275_dmg_team4_a.txt) — Shp Crew24: Did you try reversing the polarity?
-- [`pro_shp_0275_dmg_team6_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0275_dmg_team6_a.txt) — Shp Crew28: Okay, try it now.
-- [`pro_shp_0380_prep_cora_i.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_cora_i.txt) — Cora Harper: {i}(Chuckles.){/i} So, just another boring day at the off
-- [`pro_shp_0380_prep_crew_chatter_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_crew_chatter_a.txt) — Lnd Shuttle Pilot [OncePerGame]: Ever done anything like this?
-- [`pro_shp_0380_prep_fisher_i.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_fisher_i.txt) — Lnd Shuttle Crew1: Ryder.
-- [`pro_shp_0380_prep_interacts_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_interacts_b.txt) — Ryder: Looks like dad's already suited up.
-- [`pro_shp_0380_prep_kirk_greer_i.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_kirk_greer_i.txt) — Lnd Shuttle Pilot: Hey, Ryder.
-- [`pro_shp_0380_prep_radio_a.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_radio_a.txt) — Lnd Shuttle Pilot: Crashing the party, huh?
-- [`pro_shp_0380_prep_secondary_b.txt`](01_Main_Story_Priority_Ops/02_Hyperion_Ship/pro_shp_0380_prep_secondary_b.txt) — Cora Harper [OncePerGame]: We don't want to keep your father waiting.
+- [`Pro_Shp_0000_departure_c.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0000_departure_c.txt) — Alec Ryder (Dad) ⟨cond⟩: Every great moment in our history began with 
+- [`Pro_Shp_0000_intro_c.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0000_intro_c.txt) — Global Humanark Bridgecrew: Captain, FTL systems engaged. Outer rim of
+- [`Pro_Shp_0100_cryo_m.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0100_cryo_m.txt) — Ryder: {i}(Gasps for breath.){/i}
+- [`Pro_Shp_0100_losegravity_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0100_losegravity_b.txt) — Dr. Lexi / Asari Doctor: What's happening?
+- [`Pro_Shp_0100_scourgehit_c.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0100_scourgehit_c.txt) — 
+- [`Pro_Shp_0100_tothebridge_cc.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0100_tothebridge_cc.txt) — Cora Harper: This is Cora! I'm at the cryo bay! Brace for a reset...
+- [`Pro_Shp_0110_Cora_Doctor_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0110_Cora_Doctor_a.txt) — Cora Harper: What's wrong?
+- [`Pro_Shp_0110_PA_announce_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0110_PA_announce_a.txt) — Shp Engineer [OncePerGame]: [Loudspeaker] Gravity systems have been re
+- [`Pro_Shp_0110_Pair1_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0110_Pair1_a.txt) — Liam Kosta: Did the world just turn upside down, or am I still dreamin
+- [`Pro_Shp_0110_Pair2_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0110_Pair2_a.txt) — Lnd Shuttle Pilot: Gravity loss means something tripped the generators
+- [`Pro_Shp_0110_Pair3_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0110_Pair3_a.txt) — Lnd Shuttle Pilot2: It sounds amazing, doesn't it? Right up until you 
+- [`Pro_Shp_0115_sibling_i.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0115_sibling_i.txt) — Dr. Lexi / Asari Doctor ⟨cond⟩: Sara.
+- [`Pro_Shp_0200_crew_chatter1_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0200_crew_chatter1_a.txt) — Shp Crew4: You okay?
+- [`Pro_Shp_0200_runtotram_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0200_runtotram_b.txt) — Cora Harper: You ready?
+- [`Pro_Shp_0300_bridge_m.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0300_bridge_m.txt) — Shp BridgeCrew1: We're drifting!
+- [`Pro_Shp_0375_Prep_m.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0375_Prep_m.txt) — Narration: Ryder is in the locker room, just putting on a final piece 
+- [`Pro_Shp_0380_Prep_chatter_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0380_Prep_chatter_b.txt) — Cora Harper: Right. You'll want to get your helmet.
+- [`Pro_Shp_0400_shuttles_m.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/Pro_Shp_0400_shuttles_m.txt) — Cora Harper: Doctor Carlyle, with everything going on, I'd think the a
+- [`pro_shp_0100_losegravity2_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0100_losegravity2_a.txt) — Shp Tech5 [OncePerGame]: Gravity's out!
+- [`pro_shp_0100_losegravity3_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0100_losegravity3_a.txt) — Shp Tech4 [OncePerGame]: Watch the stasis pod! It broke free!
+- [`pro_shp_0100_losegravity_cora_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0100_losegravity_cora_a.txt) — Cora Harper: [Loudspeaker] I'm almost inside! Hold on!
+- [`pro_shp_0110_med_asst_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_med_asst_a.txt) — Shp Tech4 [OncePerGame]: What a mess.
+- [`pro_shp_0110_pair1_greet_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_pair1_greet_b.txt) — Liam Kosta [OncePerGame]: Hey, there! Hell of a wake up call, huh? Did
+- [`pro_shp_0110_pair2_greet_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_pair2_greet_b.txt) — Lnd Shuttle Crew1: Morning, Ryder. Or... afternoon? Or... I don't know
+- [`pro_shp_0110_repair2_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_repair2_a.txt) — Shp Tech5 [OncePerGame]: This looks broken.
+- [`pro_shp_0110_repair_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_repair_a.txt) — Shp Crew15: Thank god nobody was in this.
+- [`pro_shp_0110_wakeup1_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_wakeup1_a.txt) — Lnd Shuttle Crew2: {i}(Coughs.){/i}
+- [`pro_shp_0110_wakeup2_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0110_wakeup2_a.txt) — Shp Colonist26: Wow, that was... weird.
+- [`pro_shp_0120_vidwall_d.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0120_vidwall_d.txt) — Shp Init Founder: Hi, there. I'm Jien Garson, founder of the Andromeda
+- [`pro_shp_0125_pod_interact_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0125_pod_interact_b.txt) — Ryder [OncePerGame]: Still in stasis. Vitals look good.
+- [`pro_shp_0150_dmg_banter_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_banter_b.txt) — Cora Harper ⟨cond⟩: Ryder could find it—she has a scanner! Quick, Ryde
+- [`pro_shp_0150_dmg_door_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_door_b.txt) — SAM: The door's power is malfunctioning.
+- [`pro_shp_0150_dmg_team8_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_team8_a.txt) — Shp Crew33: What's wrong?
+- [`pro_shp_0150_dmg_team8b_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_team8b_a.txt) — Shp Crew32: Call the bridge and tell Captain Dunn this won't hold for 
+- [`pro_shp_0150_dmg_team8c_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_team8c_a.txt) — Shp Crew33: I'll take the second conduit!
+- [`pro_shp_0150_dmg_team9_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_team9_a.txt) — Shp Crew35: Watch it!
+- [`pro_shp_0150_dmg_team9b_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0150_dmg_team9b_a.txt) — Shp Crew35: I'll try to run a diagnostic!
+- [`pro_shp_0200_crew_chatter2_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0200_crew_chatter2_a.txt) — Shp Crew13: They're worried the loss of gravity might've affected the 
+- [`pro_shp_0200_tram_transition_c.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0200_tram_transition_c.txt) — 
+- [`pro_shp_0210_tram_npcs_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0210_tram_npcs_a.txt) — Shp Crew16: You ever worked on these propulsion systems before?
+- [`pro_shp_0220_waitfortram_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0220_waitfortram_b.txt) — Narration: TEMP: Andrew, unhook this
+- [`pro_shp_0275_dmg_team4_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0275_dmg_team4_a.txt) — Shp Crew24: Did you try reversing the polarity?
+- [`pro_shp_0275_dmg_team6_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0275_dmg_team6_a.txt) — Shp Crew28: Okay, try it now.
+- [`pro_shp_0380_prep_cora_i.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_cora_i.txt) — Cora Harper: {i}(Chuckles.){/i} So, just another boring day at the off
+- [`pro_shp_0380_prep_crew_chatter_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_crew_chatter_a.txt) — Lnd Shuttle Pilot [OncePerGame]: Ever done anything like this?
+- [`pro_shp_0380_prep_fisher_i.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_fisher_i.txt) — Lnd Shuttle Crew1: Ryder.
+- [`pro_shp_0380_prep_interacts_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_interacts_b.txt) — Ryder: Looks like dad's already suited up.
+- [`pro_shp_0380_prep_kirk_greer_i.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_kirk_greer_i.txt) — Lnd Shuttle Pilot: Hey, Ryder.
+- [`pro_shp_0380_prep_radio_a.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_radio_a.txt) — Lnd Shuttle Pilot: Crashing the party, huh?
+- [`pro_shp_0380_prep_secondary_b.txt`](01_Main_Story_Priority_Ops/02_Prologue_Hyperion_Ship/pro_shp_0380_prep_secondary_b.txt) — Cora Harper [OncePerGame]: We don't want to keep your father waiting.
 
-## 01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos
+## 01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal
 
-- [`intrld45_m4_tran_tempest.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/intrld45_m4_tran_tempest.txt) — 
-- [`m4_0025_get_mission_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0025_get_mission_b.txt) — Ryder: Hey Gil, I've got that kett transponder powered up.
-- [`m4_0025_get_mission_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0025_get_mission_d.txt) — Ryder: Gil, here's that kett transponder. The spy used it to get his o
-- [`m4_0050_context1_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0050_context1_d.txt) — 
-- [`m4_0050_context_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0050_context_d.txt) — Cora Harper ⟨cond⟩: It's true, then? We found the salarian ark?
-- [`m4_0050_setup_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0050_setup_b.txt) — SAM: Pathfinder, sensors confirm the presence of the Archon's ship.
-- [`m4_0100_analyze_dna_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0100_analyze_dna_b.txt) — SAM: The DNA of the deceased salarian matches colonist "Jeks Arlan."
-- [`m4_0100_console_i.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0100_console_i.txt) — Kett Narrator: The Pathfinder is responsible for exploring and assessi
-- [`m4_0100_dead_salarian_i.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0100_dead_salarian_i.txt) — Ryder: What do their records say about the salarian, SAM?
-- [`m4_0100_find_stasis_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0100_find_stasis_b.txt) — Ryder: Tempest, we're in.
-- [`m4_0100_scannables_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0100_scannables_b.txt) — SAM: Many of these pods were from the command team.
-- [`m4_0100_thaw_salarian_m.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0100_thaw_salarian_m.txt) — Ryder: Hey there, take it slow.
-- [`m4_0105_scannable_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0105_scannable_a.txt) — SAM: It appears the kett have been offloading pods and equipment from 
-- [`m4_0200_console_i.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0200_console_i.txt) — SAM: Accessing the ship's systems now...
-- [`m4_0200_invasion_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0200_invasion_b.txt) — Ryder: Okay, we keep this quick and quiet and they'll never notice.
-- [`m4_0200_pa_announcements_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0200_pa_announcements_a.txt) — Kett PA Announcer: [Loudspeaker] Gal du nah!
-- [`m4_0215_salarian_team_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0215_salarian_team_a.txt) — Salarian Pathfinder (Hayjer): [Comm] Ryder...
-- [`m4_0215_salarian_team_ambs_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0215_salarian_team_ambs_a.txt) — Salarian Pathfinder (Hayjer): [Comm] Let's move.
-- [`m4_0250_hangar_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0250_hangar_b.txt) — Ryder: Good. They haven't noticed us yet.
-- [`m4_0250_hangar_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0250_hangar_log_a.txt) — Archon's Lieutenant: [Audio Log] The Archon has ordered a complete inv
-- [`m4_0260_kett_worker_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0260_kett_worker_a.txt) — Kett Kett Worker [OncePerGame]: Shuga nah!
-- [`m4_0260_kett_worker_squad_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0260_kett_worker_squad_b.txt) — Jaal ⟨cond⟩: It's a worker!
-- [`m4_0260_stasis_pod_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0260_stasis_pod_b.txt) — SAM: It's empty. This pod belonged to Yosz Enrix. A member of the sala
-- [`m4_0275_battery_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0275_battery_b.txt) — Cora Harper ⟨cond⟩: Look at that...
-- [`m4_0275_battery_combat_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0275_battery_combat_b.txt) — Cora Harper ⟨cond⟩: I see them—it's an ambush!
-- [`m4_0275_battery_console_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0275_battery_console_b.txt) — Ryder: SAM, can you disable the guns from here?
-- [`m4_0275_battery_salar_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0275_battery_salar_b.txt) — Salarian Pathfinder (Hayjer) [OncePerGame]: [Comm] Ryder! We're here! 
-- [`m4_0300_progress_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0300_progress_b.txt) — Ryder: Whole ship is probably looking for us.
-- [`m4_0300_raeka_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0300_raeka_a.txt) — Salarian Pathfinder (Hayjer) [OncePerGame]: Over here!
-- [`m4_0300_raeka_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0300_raeka_d.txt) — SAM: A moment, while I override security.
-- [`m4_0305_progress2_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0305_progress2_b.txt) — Cora Harper ⟨cond⟩: Hate to bring this up, but if we don't rescue the 
-- [`m4_0325_door_panel_i.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0325_door_panel_i.txt) — Kett Door Voice: Rok tal?
-- [`m4_0350_labs_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0350_labs_b.txt) — Ryder: Well, we're off the beaten path now.
-- [`m4_0350_labs_combat_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0350_labs_combat_b.txt) — Cora Harper ⟨cond⟩: We've got company!
-- [`m4_0355_labs_captive_ambs_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0355_labs_captive_ambs_a.txt) — Kett Salarian Prisoner4 [OncePerGame]: No... no... please!
-- [`m4_0355_labs_kett_ambs_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0355_labs_kett_ambs_a.txt) — Kett Kett Scientist1: Niad shumak!
-- [`m4_0360_post_labs_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0360_post_labs_b.txt) — Ryder: Someone's going to pay for this.
-- [`m4_0400_archon_f2f_m.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0400_archon_f2f_m.txt) — SAM: Ryder, caution—
-- [`m4_0400_pa_announce_event_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0400_pa_announce_event_a.txt) — Kett PA Announcer: [Loudspeaker] Gor leto mah! Lutod—
-- [`m4_0400_progress_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0400_progress_b.txt) — SAM: There is a maintenance corridor connecting to this room.
-- [`m4_0425_archon_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_archon_log_a.txt) — The Archon: [Audio Log] The reports are true: strangers have arrived o
-- [`m4_0425_asari_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_asari_log_a.txt) — The Archon: [Audio Log] The ones they call "asari"—their reproduction 
-- [`m4_0425_human_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_human_log_a.txt) — The Archon: [Audio Log] Among the new specimens, the "human" is the mo
-- [`m4_0425_krogan_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_krogan_log_a.txt) — The Archon: [Audio Log] The "krogan" are a brutish race. Which could b
-- [`m4_0425_moshae_intergt_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_moshae_intergt_a.txt) — The Archon: [Audio Log] I'm told this specimen lays claim to a title.
-- [`m4_0425_salar_intergt1_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_salar_intergt1_a.txt) — Archon's Lieutenant: [Audio Log] Where are you from?
-- [`m4_0425_salar_intergt2_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_salar_intergt2_a.txt) — Archon's Lieutenant: [Audio Log] Curious. But one lie, and that can be
-- [`m4_0425_salar_intergt3_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_salar_intergt3_a.txt) — The Archon: [Audio Log] Tell me what you know of Meridian. Is that why
-- [`m4_0425_salarian_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_salarian_log_a.txt) — The Archon: [Audio Log] Most useful in these "salarians" are their cog
-- [`m4_0425_turian_log_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0425_turian_log_a.txt) — The Archon: [Audio Log] These "turians" possess a useful exoskeleton. 
-- [`m4_0450_ducts_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0450_ducts_b.txt) — Salarian Pathfinder (Hayjer): [Comm] This is Raeka. Some of our people
-- [`m4_0460_duct_warbeast_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0460_duct_warbeast_b.txt) — Ryder: What was that?
-- [`m4_0550_post_fight_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0550_post_fight_d.txt) — SAM: Pathfinder, a moment. I'm picking up krogan life signs onboard th
-- [`m4_0550_sanctum2_m.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0550_sanctum2_m.txt) — SAM: Pathfinder, this is the relic the Moshae described. It does seem 
-- [`m4_0550_sanctum_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0550_sanctum_b.txt) — Cora Harper ⟨cond⟩: Well, here we are.
-- [`m4_0550_sanctum_combat_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0550_sanctum_combat_b.txt) — Ryder ⟨cond⟩: Drack, anything you can do?
-- [`m4_0550_sanctum_m.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0550_sanctum_m.txt) — Liam Kosta ⟨cond⟩: Is that a krogan...?
-- [`m4_0560_transition_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0560_transition_d.txt) — Narration ⟨cond⟩: Fade in on Ryder and squad entering the room, findin
-- [`m4_0575_rescue_combat_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0575_rescue_combat_b.txt) — Jaal ⟨cond⟩: Get ready... kett up ahead.
-- [`m4_0600_krogan_captives_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0600_krogan_captives_a.txt) — Kett Krogan1: Help!
-- [`m4_0600_rescue_b.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0600_rescue_b.txt) — Salarian Pathfinder (Hayjer): Pathfinder, you came!
-- [`m4_0600_salarian_captives_a.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0600_salarian_captives_a.txt) — Kett Salarian1 [OncePerGame]: Help!
-- [`m4_0650_hull_escape_c.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0650_hull_escape_c.txt) — Ryder: Can you run?
-- [`m4_0700_wrap_up_d.txt`](01_Main_Story_Priority_Ops/03_A_Better_Beginning_Eos/m4_0700_wrap_up_d.txt) — Ryder: A team will escort the ark back to the Nexus. I'm sure they'll 
+- [`Intrld_0050_Near_Death_cc.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0050_Near_Death_cc.txt) — Narration: Ryder plunges into a near-death experience... the SAM conne
+- [`Intrld_0100_Wake_Up_m.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0100_Wake_Up_m.txt) — SAM ⟨cond⟩: [Private] Welcome back, Scott.
+- [`Intrld_0200_Archon_Reveal_cc.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0200_Archon_Reveal_cc.txt) — Ryder: Play Animatic
+- [`Intrld_0300_Nexus_Reveal_cc.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0300_Nexus_Reveal_cc.txt) — Narration: We cut back to the human ark moving through space, back at 
+- [`Intrld_0310_Bridge_to_Tram_b.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0310_Bridge_to_Tram_b.txt) — Cora Harper: You going to be okay, Ryder?
+- [`Intrld_0310_PA_announce_a.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0310_PA_announce_a.txt) — Captain Dunn: [Loudspeaker] Attention Hyperion crew: We have reached t
+- [`Intrld_0310_crew_chatter1_a.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0310_crew_chatter1_a.txt) — Shp Crew1: I need engineering to secure all connections from the ark t
+- [`Intrld_0310_crew_chatter2_a.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0310_crew_chatter2_a.txt) — Shp Crew3: First, you should talk to the Nexus logistics officer to co
+- [`Intrld_0320_CrewMeeting_a.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0320_CrewMeeting_a.txt) — Shp Crew5: Okay folks, this is what we've been waiting for. Let your t
+- [`Intrld_0320_crew_running_a.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0320_crew_running_a.txt) — Shp Crew7: Captain wants to see a full duty roster.
+- [`Intrld_0325_Tram_to_Nexus_i.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0325_Tram_to_Nexus_i.txt) — Cora Harper: The tram was designed to link up with the Nexus. It'll ta
+- [`Intrld_0325_crew_chatter3_a.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0325_crew_chatter3_a.txt) — Shp Crew9: We'll need crews checking the rail all the way down the lin
+- [`Intrld_0350_Nexus_Entry_b.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0350_Nexus_Entry_b.txt) — Liam Kosta: Uh... I don't see any champagne.
+- [`Intrld_0360_First_Greeting_m.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0360_First_Greeting_m.txt) — Ryder: Hi, there.
+- [`Intrld_0400_Nexus_Meet_Leaders_m.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0400_Nexus_Meet_Leaders_m.txt) — Liam Kosta: You guys go ahead. I'll check out the security situation.
+- [`Intrld_0425_Meet_InitDir_m.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0425_Meet_InitDir_m.txt) — Cora Harper: ...This is the planet where we landed, Habitat 7. It wasn
+- [`Intrld_0490_TramtoTempest_m.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0490_TramtoTempest_m.txt) — Ryder: Ready to see what Tann gave us?
+- [`Intrld_0500_Nexus_Tempest_Reveal_m.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/Intrld_0500_Nexus_Tempest_Reveal_m.txt) — Cora Harper: They call her the Tempest.
+- [`intrld_0200_archon_proxy_cc.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/intrld_0200_archon_proxy_cc.txt) — 
+- [`intrld_0375_tram_ops_b.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/intrld_0375_tram_ops_b.txt) — Tiran Kandros (Militia Leader): The tram can take us in now.
+- [`intrld_0475_meetharper_i.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/intrld_0475_meetharper_i.txt) — Ryder [OncePerGame]: Hey, there.
+- [`intrld_0480_hyp_sam_intro_d.txt`](01_Main_Story_Priority_Ops/03_Nexus_Reunion_and_Archon_Reveal/intrld_0480_hyp_sam_intro_d.txt) — SAM ⟨cond⟩: Hello, Sara. Welcome back to SAM Node.
 
-## 01_Main_Story_Priority_Ops/04_Interlude
+## 01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark
 
-- [`Intrld_0050_Near_Death_cc.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0050_Near_Death_cc.txt) — Narration: Ryder plunges into a near-death experience... the SAM conne
-- [`Intrld_0100_Wake_Up_m.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0100_Wake_Up_m.txt) — SAM ⟨cond⟩: [Private] Welcome back, Scott.
-- [`Intrld_0200_Archon_Reveal_cc.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0200_Archon_Reveal_cc.txt) — Ryder: Play Animatic
-- [`Intrld_0300_Nexus_Reveal_cc.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0300_Nexus_Reveal_cc.txt) — Narration: We cut back to the human ark moving through space, back at 
-- [`Intrld_0310_Bridge_to_Tram_b.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0310_Bridge_to_Tram_b.txt) — Cora Harper: You going to be okay, Ryder?
-- [`Intrld_0310_PA_announce_a.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0310_PA_announce_a.txt) — Captain Dunn: [Loudspeaker] Attention Hyperion crew: We have reached t
-- [`Intrld_0310_crew_chatter1_a.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0310_crew_chatter1_a.txt) — Shp Crew1: I need engineering to secure all connections from the ark t
-- [`Intrld_0310_crew_chatter2_a.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0310_crew_chatter2_a.txt) — Shp Crew3: First, you should talk to the Nexus logistics officer to co
-- [`Intrld_0320_CrewMeeting_a.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0320_CrewMeeting_a.txt) — Shp Crew5: Okay folks, this is what we've been waiting for. Let your t
-- [`Intrld_0320_crew_running_a.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0320_crew_running_a.txt) — Shp Crew7: Captain wants to see a full duty roster.
-- [`Intrld_0325_Tram_to_Nexus_i.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0325_Tram_to_Nexus_i.txt) — Cora Harper: The tram was designed to link up with the Nexus. It'll ta
-- [`Intrld_0325_crew_chatter3_a.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0325_crew_chatter3_a.txt) — Shp Crew9: We'll need crews checking the rail all the way down the lin
-- [`Intrld_0350_Nexus_Entry_b.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0350_Nexus_Entry_b.txt) — Liam Kosta: Uh... I don't see any champagne.
-- [`Intrld_0360_First_Greeting_m.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0360_First_Greeting_m.txt) — Ryder: Hi, there.
-- [`Intrld_0400_Nexus_Meet_Leaders_m.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0400_Nexus_Meet_Leaders_m.txt) — Liam Kosta: You guys go ahead. I'll check out the security situation.
-- [`Intrld_0425_Meet_InitDir_m.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0425_Meet_InitDir_m.txt) — Cora Harper: ...This is the planet where we landed, Habitat 7. It wasn
-- [`Intrld_0490_TramtoTempest_m.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0490_TramtoTempest_m.txt) — Ryder: Ready to see what Tann gave us?
-- [`Intrld_0500_Nexus_Tempest_Reveal_m.txt`](01_Main_Story_Priority_Ops/04_Interlude/Intrld_0500_Nexus_Tempest_Reveal_m.txt) — Cora Harper: They call her the Tempest.
-- [`intrld_0200_archon_proxy_cc.txt`](01_Main_Story_Priority_Ops/04_Interlude/intrld_0200_archon_proxy_cc.txt) — 
-- [`intrld_0375_tram_ops_b.txt`](01_Main_Story_Priority_Ops/04_Interlude/intrld_0375_tram_ops_b.txt) — Tiran Kandros (Militia Leader): The tram can take us in now.
-- [`intrld_0475_meetharper_i.txt`](01_Main_Story_Priority_Ops/04_Interlude/intrld_0475_meetharper_i.txt) — Ryder [OncePerGame]: Hey, there.
-- [`intrld_0480_hyp_sam_intro_d.txt`](01_Main_Story_Priority_Ops/04_Interlude/intrld_0480_hyp_sam_intro_d.txt) — SAM ⟨cond⟩: Hello, Sara. Welcome back to SAM Node.
+- [`intrld45_m4_tran_tempest.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/intrld45_m4_tran_tempest.txt) — 
+- [`m4_0025_get_mission_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0025_get_mission_b.txt) — Ryder: Hey Gil, I've got that kett transponder powered up.
+- [`m4_0025_get_mission_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0025_get_mission_d.txt) — Ryder: Gil, here's that kett transponder. The spy used it to get his o
+- [`m4_0050_context1_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0050_context1_d.txt) — 
+- [`m4_0050_context_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0050_context_d.txt) — Cora Harper ⟨cond⟩: It's true, then? We found the salarian ark?
+- [`m4_0050_setup_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0050_setup_b.txt) — SAM: Pathfinder, sensors confirm the presence of the Archon's ship.
+- [`m4_0100_analyze_dna_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0100_analyze_dna_b.txt) — SAM: The DNA of the deceased salarian matches colonist "Jeks Arlan."
+- [`m4_0100_console_i.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0100_console_i.txt) — Kett Narrator: The Pathfinder is responsible for exploring and assessi
+- [`m4_0100_dead_salarian_i.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0100_dead_salarian_i.txt) — Ryder: What do their records say about the salarian, SAM?
+- [`m4_0100_find_stasis_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0100_find_stasis_b.txt) — Ryder: Tempest, we're in.
+- [`m4_0100_scannables_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0100_scannables_b.txt) — SAM: Many of these pods were from the command team.
+- [`m4_0100_thaw_salarian_m.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0100_thaw_salarian_m.txt) — Ryder: Hey there, take it slow.
+- [`m4_0105_scannable_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0105_scannable_a.txt) — SAM: It appears the kett have been offloading pods and equipment from 
+- [`m4_0200_console_i.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0200_console_i.txt) — SAM: Accessing the ship's systems now...
+- [`m4_0200_invasion_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0200_invasion_b.txt) — Ryder: Okay, we keep this quick and quiet and they'll never notice.
+- [`m4_0200_pa_announcements_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0200_pa_announcements_a.txt) — Kett PA Announcer: [Loudspeaker] Gal du nah!
+- [`m4_0215_salarian_team_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0215_salarian_team_a.txt) — Salarian Pathfinder (Hayjer): [Comm] Ryder...
+- [`m4_0215_salarian_team_ambs_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0215_salarian_team_ambs_a.txt) — Salarian Pathfinder (Hayjer): [Comm] Let's move.
+- [`m4_0250_hangar_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0250_hangar_b.txt) — Ryder: Good. They haven't noticed us yet.
+- [`m4_0250_hangar_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0250_hangar_log_a.txt) — Archon's Lieutenant: [Audio Log] The Archon has ordered a complete inv
+- [`m4_0260_kett_worker_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0260_kett_worker_a.txt) — Kett Kett Worker [OncePerGame]: Shuga nah!
+- [`m4_0260_kett_worker_squad_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0260_kett_worker_squad_b.txt) — Jaal ⟨cond⟩: It's a worker!
+- [`m4_0260_stasis_pod_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0260_stasis_pod_b.txt) — SAM: It's empty. This pod belonged to Yosz Enrix. A member of the sala
+- [`m4_0275_battery_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0275_battery_b.txt) — Cora Harper ⟨cond⟩: Look at that...
+- [`m4_0275_battery_combat_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0275_battery_combat_b.txt) — Cora Harper ⟨cond⟩: I see them—it's an ambush!
+- [`m4_0275_battery_console_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0275_battery_console_b.txt) — Ryder: SAM, can you disable the guns from here?
+- [`m4_0275_battery_salar_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0275_battery_salar_b.txt) — Salarian Pathfinder (Hayjer) [OncePerGame]: [Comm] Ryder! We're here! 
+- [`m4_0300_progress_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0300_progress_b.txt) — Ryder: Whole ship is probably looking for us.
+- [`m4_0300_raeka_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0300_raeka_a.txt) — Salarian Pathfinder (Hayjer) [OncePerGame]: Over here!
+- [`m4_0300_raeka_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0300_raeka_d.txt) — SAM: A moment, while I override security.
+- [`m4_0305_progress2_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0305_progress2_b.txt) — Cora Harper ⟨cond⟩: Hate to bring this up, but if we don't rescue the 
+- [`m4_0325_door_panel_i.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0325_door_panel_i.txt) — Kett Door Voice: Rok tal?
+- [`m4_0350_labs_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0350_labs_b.txt) — Ryder: Well, we're off the beaten path now.
+- [`m4_0350_labs_combat_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0350_labs_combat_b.txt) — Cora Harper ⟨cond⟩: We've got company!
+- [`m4_0355_labs_captive_ambs_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0355_labs_captive_ambs_a.txt) — Kett Salarian Prisoner4 [OncePerGame]: No... no... please!
+- [`m4_0355_labs_kett_ambs_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0355_labs_kett_ambs_a.txt) — Kett Kett Scientist1: Niad shumak!
+- [`m4_0360_post_labs_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0360_post_labs_b.txt) — Ryder: Someone's going to pay for this.
+- [`m4_0400_archon_f2f_m.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0400_archon_f2f_m.txt) — SAM: Ryder, caution—
+- [`m4_0400_pa_announce_event_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0400_pa_announce_event_a.txt) — Kett PA Announcer: [Loudspeaker] Gor leto mah! Lutod—
+- [`m4_0400_progress_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0400_progress_b.txt) — SAM: There is a maintenance corridor connecting to this room.
+- [`m4_0425_archon_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_archon_log_a.txt) — The Archon: [Audio Log] The reports are true: strangers have arrived o
+- [`m4_0425_asari_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_asari_log_a.txt) — The Archon: [Audio Log] The ones they call "asari"—their reproduction 
+- [`m4_0425_human_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_human_log_a.txt) — The Archon: [Audio Log] Among the new specimens, the "human" is the mo
+- [`m4_0425_krogan_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_krogan_log_a.txt) — The Archon: [Audio Log] The "krogan" are a brutish race. Which could b
+- [`m4_0425_moshae_intergt_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_moshae_intergt_a.txt) — The Archon: [Audio Log] I'm told this specimen lays claim to a title.
+- [`m4_0425_salar_intergt1_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_salar_intergt1_a.txt) — Archon's Lieutenant: [Audio Log] Where are you from?
+- [`m4_0425_salar_intergt2_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_salar_intergt2_a.txt) — Archon's Lieutenant: [Audio Log] Curious. But one lie, and that can be
+- [`m4_0425_salar_intergt3_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_salar_intergt3_a.txt) — The Archon: [Audio Log] Tell me what you know of Meridian. Is that why
+- [`m4_0425_salarian_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_salarian_log_a.txt) — The Archon: [Audio Log] Most useful in these "salarians" are their cog
+- [`m4_0425_turian_log_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0425_turian_log_a.txt) — The Archon: [Audio Log] These "turians" possess a useful exoskeleton. 
+- [`m4_0450_ducts_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0450_ducts_b.txt) — Salarian Pathfinder (Hayjer): [Comm] This is Raeka. Some of our people
+- [`m4_0460_duct_warbeast_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0460_duct_warbeast_b.txt) — Ryder: What was that?
+- [`m4_0550_post_fight_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0550_post_fight_d.txt) — SAM: Pathfinder, a moment. I'm picking up krogan life signs onboard th
+- [`m4_0550_sanctum2_m.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0550_sanctum2_m.txt) — SAM: Pathfinder, this is the relic the Moshae described. It does seem 
+- [`m4_0550_sanctum_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0550_sanctum_b.txt) — Cora Harper ⟨cond⟩: Well, here we are.
+- [`m4_0550_sanctum_combat_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0550_sanctum_combat_b.txt) — Ryder ⟨cond⟩: Drack, anything you can do?
+- [`m4_0550_sanctum_m.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0550_sanctum_m.txt) — Liam Kosta ⟨cond⟩: Is that a krogan...?
+- [`m4_0560_transition_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0560_transition_d.txt) — Narration ⟨cond⟩: Fade in on Ryder and squad entering the room, findin
+- [`m4_0575_rescue_combat_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0575_rescue_combat_b.txt) — Jaal ⟨cond⟩: Get ready... kett up ahead.
+- [`m4_0600_krogan_captives_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0600_krogan_captives_a.txt) — Kett Krogan1: Help!
+- [`m4_0600_rescue_b.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0600_rescue_b.txt) — Salarian Pathfinder (Hayjer): Pathfinder, you came!
+- [`m4_0600_salarian_captives_a.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0600_salarian_captives_a.txt) — Kett Salarian1 [OncePerGame]: Help!
+- [`m4_0650_hull_escape_c.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0650_hull_escape_c.txt) — Ryder: Can you run?
+- [`m4_0700_wrap_up_d.txt`](01_Main_Story_Priority_Ops/04_A_Trail_of_Hope_Salarian_Ark/m4_0700_wrap_up_d.txt) — Ryder: A team will escort the ark back to the Nexus. I'm sure they'll 
 
-## 01_Main_Story_Priority_Ops/05_Interlude_25
+## 01_Main_Story_Priority_Ops/05_After_Moshae_Resistance
 
-- [`Intrld25_0100_Nexus_Debrief_m.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/Intrld25_0100_Nexus_Debrief_m.txt) — Aide: Hello. Director Tann is expecting you.
-- [`intrld25_0005_sqd_meeting_d.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0005_sqd_meeting_d.txt) — Cora Harper: Before the meeting gets started, I have bunk assignments 
-- [`intrld25_0100_archon_f2f_m.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0100_archon_f2f_m.txt) — Ryder: What the hell?
-- [`intrld25_0105_nexus_sibling_alert_a.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0105_nexus_sibling_alert_a.txt) — Lexi (Doctor): [Comm] Ryder, this is Harry, back on the ark.
-- [`intrld25_0200_arch_escape_m.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0200_arch_escape_m.txt) — Ryder: Report?
-- [`intrld25_0250_aya_landing_m.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0250_aya_landing_m.txt) — 
-- [`intrld25_0310_first_contact_m.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0310_first_contact_m.txt) — Docksworker: Tas goaj yabe jenvad.
-- [`intrld25_0330_res_hq_meet_m.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0330_res_hq_meet_m.txt) — Jaal: They're bullies, but this situation is now your fault. Don't get
-- [`intrld25_0400_trust_quest_d.txt`](01_Main_Story_Priority_Ops/05_Interlude_25/intrld25_0400_trust_quest_d.txt) — Cora Harper: I'm just saying, as far as first contact goes, at least t
+- [`intrld35_aya_0100_get_obj_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_aya_0100_get_obj_d.txt) — Angaran Elder: Stars and skies light our way!
+- [`intrld35_aya_0500_vault1_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_aya_0500_vault1_m.txt) — 
+- [`intrld35_aya_0500_vault_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_aya_0500_vault_m.txt) — Vetra ⟨cond⟩: Wow. I mean... wow.
+- [`intrld35_aya_0600_reshq_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_aya_0600_reshq_d.txt) — Angaran Elder: I deserved to be told. You had no right to keep it secr
+- [`intrld35_aya_0700_evmosh_i.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_aya_0700_evmosh_i.txt) — Evfra de Tershaav (Resistance Leader): The sooner you reach Kadara Por
+- [`intrld35_kad_0100_approach_a.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0100_approach_a.txt) — SAM: System: Govorkam. Approaching Kadara.
+- [`intrld35_kad_0150_landing_intro_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0150_landing_intro_m.txt) — Narration: The Tempest approaches Kadara Port, a shanty town built int
+- [`intrld35_kad_0175_landing_intro1_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0175_landing_intro1_m.txt) — 
+- [`intrld35_kad_0200_landing_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0200_landing_m.txt) — Narration: The Tempest approaches Kadara Port, a shanty town built int
+- [`intrld35_kad_0300_reyes_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0300_reyes_m.txt) — Narration: RYDER waits next to the bar.
+- [`intrld35_kad_0350_sam_b.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0350_sam_b.txt) — Ryder: SAM: Tell me about Sloane Kelly.
+- [`intrld35_kad_0500_sloane_m.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0500_sloane_m.txt) — Narration: She leans over a table with a holo of Kadara Port--we catch
+- [`intrld35_kad_0550_sam_b.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0550_sam_b.txt) — Queen Guard ⟨cond⟩: Give the Pathfinder access to the holding cells.
+- [`intrld35_kad_0575_reyes_a.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0575_reyes_a.txt) — The Charlatan: Pathfinder! Over here.
+- [`intrld35_kad_0600_reyes_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0600_reyes_d.txt) — The Charlatan: Have a nice chat?
+- [`intrld35_kad_0650_console_b.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0650_console_b.txt) — SAM: This appears to be the maintenance shaft Reyes mentioned.
+- [`intrld35_kad_0675_shaft_b.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0675_shaft_b.txt) — Ryder: Looks like it leads to a stock room.
+- [`intrld35_kad_0700_ven_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0700_ven_d.txt) — Narration: Behind bars, VEHN TEREV sits in his cell, staring at the gr
+- [`intrld35_kad_0725_jail_b.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0725_jail_b.txt) — SAM: Pathfinder. The communicator is buried outside the cease-fire zon
+- [`intrld35_kad_0800_sam_b.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0800_sam_b.txt) — SAM: Pathfinder. Vehn Terev claimed he buried the kett transponder nea
+- [`intrld35_kad_0850_communicator_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_kad_0850_communicator_d.txt) — Narration: Ryder bends down and picks up the kett communicator.
+- [`intrld35_tem_0000_eos_prmpt_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_tem_0000_eos_prmpt_d.txt) — Suvi (Science Officer): Kallo, settle down.
+- [`intrld35_tem_0900_squadmeet_d.txt`](01_Main_Story_Priority_Ops/05_After_Moshae_Resistance/intrld35_tem_0900_squadmeet_d.txt) — Cora Harper: What's up Ryder? Why an emergency meeting? ⏎
 
-## 01_Main_Story_Priority_Ops/06_Interlude_35
+## 01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship
 
-- [`intrld35_aya_0100_get_obj_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_aya_0100_get_obj_d.txt) — Angaran Elder: Stars and skies light our way!
-- [`intrld35_aya_0500_vault1_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_aya_0500_vault1_m.txt) — 
-- [`intrld35_aya_0500_vault_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_aya_0500_vault_m.txt) — Vetra ⟨cond⟩: Wow. I mean... wow.
-- [`intrld35_aya_0600_reshq_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_aya_0600_reshq_d.txt) — Angaran Elder: I deserved to be told. You had no right to keep it secr
-- [`intrld35_aya_0700_evmosh_i.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_aya_0700_evmosh_i.txt) — Evfra de Tershaav (Resistance Leader): The sooner you reach Kadara Por
-- [`intrld35_kad_0100_approach_a.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0100_approach_a.txt) — SAM: System: Govorkam. Approaching Kadara.
-- [`intrld35_kad_0150_landing_intro_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0150_landing_intro_m.txt) — Narration: The Tempest approaches Kadara Port, a shanty town built int
-- [`intrld35_kad_0175_landing_intro1_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0175_landing_intro1_m.txt) — 
-- [`intrld35_kad_0200_landing_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0200_landing_m.txt) — Narration: The Tempest approaches Kadara Port, a shanty town built int
-- [`intrld35_kad_0300_reyes_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0300_reyes_m.txt) — Narration: RYDER waits next to the bar.
-- [`intrld35_kad_0350_sam_b.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0350_sam_b.txt) — Ryder: SAM: Tell me about Sloane Kelly.
-- [`intrld35_kad_0500_sloane_m.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0500_sloane_m.txt) — Narration: She leans over a table with a holo of Kadara Port--we catch
-- [`intrld35_kad_0550_sam_b.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0550_sam_b.txt) — Queen Guard ⟨cond⟩: Give the Pathfinder access to the holding cells.
-- [`intrld35_kad_0575_reyes_a.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0575_reyes_a.txt) — The Charlatan: Pathfinder! Over here.
-- [`intrld35_kad_0600_reyes_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0600_reyes_d.txt) — The Charlatan: Have a nice chat?
-- [`intrld35_kad_0650_console_b.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0650_console_b.txt) — SAM: This appears to be the maintenance shaft Reyes mentioned.
-- [`intrld35_kad_0675_shaft_b.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0675_shaft_b.txt) — Ryder: Looks like it leads to a stock room.
-- [`intrld35_kad_0700_ven_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0700_ven_d.txt) — Narration: Behind bars, VEHN TEREV sits in his cell, staring at the gr
-- [`intrld35_kad_0725_jail_b.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0725_jail_b.txt) — SAM: Pathfinder. The communicator is buried outside the cease-fire zon
-- [`intrld35_kad_0800_sam_b.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0800_sam_b.txt) — SAM: Pathfinder. Vehn Terev claimed he buried the kett transponder nea
-- [`intrld35_kad_0850_communicator_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_kad_0850_communicator_d.txt) — Narration: Ryder bends down and picks up the kett communicator.
-- [`intrld35_tem_0000_eos_prmpt_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_tem_0000_eos_prmpt_d.txt) — Suvi (Science Officer): Kallo, settle down.
-- [`intrld35_tem_0900_squadmeet_d.txt`](01_Main_Story_Priority_Ops/06_Interlude_35/intrld35_tem_0900_squadmeet_d.txt) — Cora Harper: What's up Ryder? Why an emergency meeting? ⏎
+- [`crit_ex_0100_start_mission_i.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0100_start_mission_i.txt) — Ex Res Pilot [OncePerGame]: Are you the Pathfinder that Evfra was talk
+- [`crit_ex_0200_shuttle_debrief1_d.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0200_shuttle_debrief1_d.txt) — 
+- [`crit_ex_0200_shuttle_debrief_d.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0200_shuttle_debrief_d.txt) — Ryder: So—no one has ever seen the inside of one of these places? Real
+- [`crit_ex_0210_enter_trage_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0210_enter_trage_b.txt) — Ex Res Fighter: Oh! Do you see this, Heckt!
+- [`crit_ex_0220_breach_ffield_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0220_breach_ffield_b.txt) — Ryder: Run angaran shield disable program.
+- [`crit_ex_0220_land_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0220_land_b.txt) — Ryder: Do we even know what kind of force we can expect?
+- [`crit_ex_0220_res_plan_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0220_res_plan_b.txt) — SAM: Pathfinder, it seems the program I used to breach the shield coul
+- [`crit_ex_0220_warbeast_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0220_warbeast_b.txt) — Cora Harper ⟨cond⟩: Kett creatures incoming!
+- [`crit_ex_0225_archon_wlcm_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0225_archon_wlcm_a.txt) — The Archon: Fortunate welcome.
+- [`crit_ex_0230_pre_separate_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0230_pre_separate_a.txt) — Ex Res Fighter: Hey Szezig! Find a kett console.
+- [`crit_ex_0230_separate_d.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0230_separate_d.txt) — Ryder: Huddle up.
+- [`crit_ex_0230_triage_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0230_triage_b.txt) — Ex Res Fighter: I've stared at the outsides of these places so many ti
+- [`crit_ex_0230_triage_fight_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0230_triage_fight_b.txt) — Ex Res Fighter: Pathfinder! Jaal! This is so satisfying!
+- [`crit_ex_0235_post_sep_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0235_post_sep_b.txt) — Ryder: Can they cause enough trouble to keep the kett occupied?
+- [`crit_ex_0240_kett_quarters_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0240_kett_quarters_b.txt) — Ryder: Where is everyone? Okay, let's stay sharp.
+- [`crit_ex_0250_decontam_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0250_decontam_b.txt) — Ryder: Whoa. SAM, what is this?
+- [`crit_ex_0250_exit_dcntam_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0250_exit_dcntam_b.txt) — Peebee ⟨cond⟩: Decontamination? Is that weird to anyone else?
+- [`crit_ex_0250_kett_rm2_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0250_kett_rm2_b.txt) — Cora Harper ⟨cond⟩: Could be wrong but this looks like a classroom.
+- [`crit_ex_0250_post_cmbat_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0250_post_cmbat_b.txt) — Ex Res Fighter: [Comm] Pathfinder, come in.
+- [`crit_ex_0250_pre_cer_combat_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0250_pre_cer_combat_b.txt) — Ryder: Let's get these guys without much of a ruckus!
+- [`crit_ex_0300_ceremony_m.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0300_ceremony_m.txt) — Jaal: What? What is this?
+- [`crit_ex_0300_new_room_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0300_new_room_b.txt) — Ryder: Communications room?
+- [`crit_ex_0300_open_blinds_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0300_open_blinds_b.txt) — Jaal: The Moshae isn't here. We need to keep moving.
+- [`crit_ex_0304_pst_cerem_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0304_pst_cerem_b.txt) — Drack ⟨cond⟩: Did I hear that right? "The chosen"?
+- [`crit_ex_0305_anarchy_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0305_anarchy_a.txt) — Ex Res Fighter: Watch your flank!
+- [`crit_ex_0310_hall_radio_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0310_hall_radio_a.txt) — Cora Harper ⟨cond⟩: The Resistance couldn't wait to get started.
+- [`crit_ex_0320_side_rm_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0320_side_rm_b.txt) — Jaal: I wish we had the time to ransack these crates.
+- [`crit_ex_0340_remind_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0340_remind_b.txt) — Liam Kosta ⟨cond⟩: Lot of pods. What if your Moshae isn't in there?
+- [`crit_ex_0355_cordr_combat1_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0355_cordr_combat1_b.txt) — Cora Harper ⟨cond⟩: Got a visual on the pods. Above us!
+- [`crit_ex_0355_cordr_radio_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0355_cordr_radio_a.txt) — Ex Res Fighter: [Comm] Pathfinder, come in!
+- [`crit_ex_0360_cordr_cmbat2_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0360_cordr_cmbat2_b.txt) — Ryder: SAM? Any luck figuring out how this place works?
+- [`crit_ex_0370_cordr_cmbat3_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0370_cordr_cmbat3_b.txt) — Jaal: More kett attack dogs.
+- [`crit_ex_0380_follow_pod_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0380_follow_pod_b.txt) — Peebee ⟨cond⟩: I'm guessing the core's through here.
+- [`crit_ex_0400_elder_direct_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0400_elder_direct_b.txt) — Ryder: Okay, kett terminal—let's see what you've got hiding in here. S
+- [`crit_ex_0400_pod_room_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0400_pod_room_b.txt) — Jaal: How many... pods?
+- [`crit_ex_0400_pod_scan_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0400_pod_scan_b.txt) — SAM [OncePerGame]: Angaran male. Estimate thirty-five. One hundred nin
+- [`crit_ex_0420_ang_radio_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0420_ang_radio_a.txt) — Ex Res Fighter: [Comm] Pathfinder, come in.
+- [`crit_ex_0425_loot_grab_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0425_loot_grab_b.txt) — Ryder: Hey, look.
+- [`crit_ex_0450_genetics_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0450_genetics_b.txt) — Jaal: What is this room?
+- [`crit_ex_0500_exalt_ceremony_c.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0500_exalt_ceremony_c.txt) — Cora Harper ⟨cond⟩: Decontamination proto—
+- [`crit_ex_0520_exalt_combat_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0520_exalt_combat_b.txt) — Jaal: No! Wait! Save the angara! Be careful! Don't kill him!
+- [`crit_ex_0525_post_ex_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0525_post_ex_b.txt) — Ryder: Got'em all. Okay. Everyone good? Now—
+- [`crit_ex_0550_anguish_m.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0550_anguish_m.txt) — Ryder: Jaal.
+- [`crit_ex_0560_card_chase_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0560_card_chase_b.txt) — Jaal: She has the Moshae!
+- [`crit_ex_0570_chase_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0570_chase_b.txt) — Ryder: SAM. What've you got?
+- [`crit_ex_0600_see_elder_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0600_see_elder_b.txt) — Jaal: There she is! I see her! They're getting ready to leave.
+- [`crit_ex_0650_gk_attacks_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0650_gk_attacks_a.txt) — Ex Grand Kett [OncePerGame]: Now you have to deal with me!
+- [`crit_ex_0670_grand_khet_choice_m.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0670_grand_khet_choice_m.txt) — Ryder: I gotcha. We're getting you out of here.
+- [`crit_ex_0680_sad_radio_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0680_sad_radio_a.txt) — Ex Res Fighter: [Comm] Pathfinder. Come in. You have the Moshae!
+- [`crit_ex_0700_cannot_win_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0700_cannot_win_b.txt) — Cora Harper ⟨cond⟩: Ryder, reinforcements just keep coming!
+- [`crit_ex_0700_elder_shield_a.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0700_elder_shield_a.txt) — Cora Harper ⟨cond⟩: Here come the kett! Not gonna let us go without a 
+- [`crit_ex_0700_radio_shuttle_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0700_radio_shuttle_b.txt) — Cora Harper ⟨cond⟩: Shuttle, what's your ETA?
+- [`crit_ex_0700_roof_combat_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0700_roof_combat_b.txt) — Ryder: Whoa. Heads up!
+- [`crit_ex_0700_roof_direct_b.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0700_roof_direct_b.txt) — Ex Res Pilot: [Comm] Pathfinder!
+- [`crit_ex_0750_shuttle_escape_c.txt`](01_Main_Story_Priority_Ops/06_Hunting_the_Archon_Flagship/crit_ex_0750_shuttle_escape_c.txt) — Ryder: Jaal, get her on the shuttle now!
 
-## 01_Main_Story_Priority_Ops/07_Interlude_45
+## 01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief
 
-- [`intrld45_0010_archon_sam_threat_m.txt`](01_Main_Story_Priority_Ops/07_Interlude_45/intrld45_0010_archon_sam_threat_m.txt) — Archon's Lieutenant: With reverence, Archon, this fascination with Mer
-- [`intrld45_0100_nexus_meeting_m.txt`](01_Main_Story_Priority_Ops/07_Interlude_45/intrld45_0100_nexus_meeting_m.txt) — Ryder: Hello again.
-- [`intrld45_0200_nexus_siblingwake_m.txt`](01_Main_Story_Priority_Ops/07_Interlude_45/intrld45_0200_nexus_siblingwake_m.txt) — Ryder: Sara...
-- [`intrld45_0210_nexus_pf_reminder_a.txt`](01_Main_Story_Priority_Ops/07_Interlude_45/intrld45_0210_nexus_pf_reminder_a.txt) — Turian Pathfinder (Avitus Rix) ⟨cond⟩: [Comm] Ryder, this is Pathfinde
-- [`intrld45_0250_nexus_research_m.txt`](01_Main_Story_Priority_Ops/07_Interlude_45/intrld45_0250_nexus_research_m.txt) — Salarian Pathfinder (Hayjer) ⟨cond⟩: Ryder, good to see you. We've bee
-- [`intrld45_0300_tem_researchdone_a.txt`](01_Main_Story_Priority_Ops/07_Interlude_45/intrld45_0300_tem_researchdone_a.txt) — SAM: The Ghost Storm technology has been fully researched, Pathfinder.
+- [`Intrld25_0100_Nexus_Debrief_m.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/Intrld25_0100_Nexus_Debrief_m.txt) — Aide: Hello. Director Tann is expecting you.
+- [`intrld25_0005_sqd_meeting_d.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0005_sqd_meeting_d.txt) — Cora Harper: Before the meeting gets started, I have bunk assignments 
+- [`intrld25_0100_archon_f2f_m.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0100_archon_f2f_m.txt) — Ryder: What the hell?
+- [`intrld25_0105_nexus_sibling_alert_a.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0105_nexus_sibling_alert_a.txt) — Lexi (Doctor): [Comm] Ryder, this is Harry, back on the ark.
+- [`intrld25_0200_arch_escape_m.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0200_arch_escape_m.txt) — Ryder: Report?
+- [`intrld25_0250_aya_landing_m.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0250_aya_landing_m.txt) — 
+- [`intrld25_0310_first_contact_m.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0310_first_contact_m.txt) — Docksworker: Tas goaj yabe jenvad.
+- [`intrld25_0330_res_hq_meet_m.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0330_res_hq_meet_m.txt) — Jaal: They're bullies, but this situation is now your fault. Don't get
+- [`intrld25_0400_trust_quest_d.txt`](01_Main_Story_Priority_Ops/07_Post_Archon_Nexus_Debrief/intrld25_0400_trust_quest_d.txt) — Cora Harper: I'm just saying, as far as first contact goes, at least t
 
-## 01_Main_Story_Priority_Ops/08_Interlude_55
+## 01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian
 
-- [`intrld55_0010_leaders_m.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0010_leaders_m.txt) — Narration: Ryder receives a call from Director Tann on the Tempest.
-- [`intrld55_0050_suviprompt_a.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0050_suviprompt_a.txt) — Suvi (Science Officer): [Comm] Pathfinder! If you're done with your ca
-- [`intrld55_0051_meridiansolution_d.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0051_meridiansolution_d.txt) — Suvi (Science Officer): There you are! It feels like I've been waiting
-- [`intrld55_0065_spaceentryprompt_a.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0065_spaceentryprompt_a.txt) — Kallo (Co-pilot): First order of business? Plant our probes within the
-- [`intrld55_0075_objectiveprompts_a.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0075_objectiveprompts_a.txt) — Suvi (Science Officer): The probes are in place, Ryder. Data's coming 
-- [`intrld55_0085_spacesystemprompt_a.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0085_spacesystemprompt_a.txt) — Kallo (Co-pilot): We've arrived at a Scourge navpoint appropriate for 
-- [`intrld55_0100_task_complete_promt_a.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0100_task_complete_promt_a.txt) — SAM: Pathfinder, I have analyzed the results of the Scourge energy pat
-- [`intrld55_0200_task_complete_sam_d.txt`](01_Main_Story_Priority_Ops/08_Interlude_55/intrld55_0200_task_complete_sam_d.txt) — Narration: Ryder walks to the bridge, and finds the crew active with t
+- [`intrld45_0010_archon_sam_threat_m.txt`](01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian/intrld45_0010_archon_sam_threat_m.txt) — Archon's Lieutenant: With reverence, Archon, this fascination with Mer
+- [`intrld45_0100_nexus_meeting_m.txt`](01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian/intrld45_0100_nexus_meeting_m.txt) — Ryder: Hello again.
+- [`intrld45_0200_nexus_siblingwake_m.txt`](01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian/intrld45_0200_nexus_siblingwake_m.txt) — Ryder: Sara...
+- [`intrld45_0210_nexus_pf_reminder_a.txt`](01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian/intrld45_0210_nexus_pf_reminder_a.txt) — Turian Pathfinder (Avitus Rix) ⟨cond⟩: [Comm] Ryder, this is Pathfinde
+- [`intrld45_0250_nexus_research_m.txt`](01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian/intrld45_0250_nexus_research_m.txt) — Salarian Pathfinder (Hayjer) ⟨cond⟩: Ryder, good to see you. We've bee
+- [`intrld45_0300_tem_researchdone_a.txt`](01_Main_Story_Priority_Ops/08_Archon_Plot_for_Meridian/intrld45_0300_tem_researchdone_a.txt) — SAM: The Ghost Storm technology has been fully researched, Pathfinder.
 
-## 01_Main_Story_Priority_Ops/09_Kett_Archon
+## 01_Main_Story_Priority_Ops/09_Kett_Facility_Rescue
 
-- [`intrld45_krogran_rescue.txt`](01_Main_Story_Priority_Ops/09_Kett_Archon/intrld45_krogran_rescue.txt) — 
-- [`intrld45_salarian_rescue.txt`](01_Main_Story_Priority_Ops/09_Kett_Archon/intrld45_salarian_rescue.txt) — 
+- [`intrld45_krogran_rescue.txt`](01_Main_Story_Priority_Ops/09_Kett_Facility_Rescue/intrld45_krogran_rescue.txt) — 
+- [`intrld45_salarian_rescue.txt`](01_Main_Story_Priority_Ops/09_Kett_Facility_Rescue/intrld45_salarian_rescue.txt) — 
 
-## 01_Main_Story_Priority_Ops/10_Remnant_City
+## 01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira
 
-- [`crit_city_0000_fightbanter_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0000_fightbanter_b.txt) — Drack ⟨cond⟩ [OncePerGame]: Someone do something about those turrets!
-- [`crit_city_0000_flavorbanter_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0000_flavorbanter_b.txt) — Jaal ⟨cond⟩ [OncePerGame]: These plants remind me of others I've seen.
-- [`crit_city_0000_generalbanter_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0000_generalbanter_b.txt) — Drack ⟨cond⟩: You think activating this thing might help the kett some
-- [`crit_city_0000_newbanter_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0000_newbanter_b.txt) — Ryder: There's the bridge. Let's get going.
-- [`crit_city_0000_remnantwidgets_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0000_remnantwidgets_b.txt) — Peebee: Another one of these boxes. They're all over.
-- [`crit_city_0100_planning_meeting_d.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0100_planning_meeting_d.txt) — Ryder: The Nexus leaders think our search for Meridian is a waste of t
-- [`crit_city_0120_entersystem_a.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0120_entersystem_a.txt) — Kallo (Co-pilot): If the Archon's information is right, this is the sy
-- [`crit_city_0200_mako_landing_m.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0200_mako_landing_m.txt) — Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] Initiating Ghost Storm, on
-- [`crit_city_0205_mako_landing1_m.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0205_mako_landing1_m.txt) — Kallo (Co-pilot): Five seconds to drop!
-- [`crit_city_0210_mako_landing2_m.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0210_mako_landing2_m.txt) — Ryder: {i}(Grunts.){/i}
-- [`crit_city_0250_afterlanding_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0250_afterlanding_b.txt) — Ryder: Everyone okay?
-- [`crit_city_0300_vistaPOIs_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0300_vistaPOIs_b.txt) — Ryder: I wonder what else we could learn from a scan.
-- [`crit_city_0350_towerintro_d.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0350_towerintro_d.txt) — SAM: Pathfinder, we are looking at the central command hub I detected 
-- [`crit_city_0400_scarred_crater_d.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0400_scarred_crater_d.txt) — Drack ⟨cond⟩: Ground zero, I'm guessing.
-- [`crit_city_0450_scarred_banter_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0450_scarred_banter_b.txt) — Drack ⟨cond⟩: This was some fight.
-- [`crit_city_0480_scarred_shipactivate_m.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0480_scarred_shipactivate_m.txt) — SAM: Provisional repairs are complete, Pathfinder.
-- [`crit_city_0500_bio_banter_b.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0500_bio_banter_b.txt) — Drack ⟨cond⟩: Look at that!
-- [`crit_city_0550_bio_angarareveal_m.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0550_bio_angarareveal_m.txt) — Narration: The lights of the bio-engineering vault flicker on to revea
-- [`crit_city_0600_meridianholo_m.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0600_meridianholo_m.txt) — Narration: Previously in gameplay: the squad gets to command control o
-- [`crit_city_0680_wrapup_d.txt`](01_Main_Story_Priority_Ops/10_Remnant_City/crit_city_0680_wrapup_d.txt) — Kallo (Co-pilot): [Comm] Ground team: Is everyone all right?
+- [`crit_city_0000_fightbanter_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0000_fightbanter_b.txt) — Drack ⟨cond⟩ [OncePerGame]: Someone do something about those turrets!
+- [`crit_city_0000_flavorbanter_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0000_flavorbanter_b.txt) — Jaal ⟨cond⟩ [OncePerGame]: These plants remind me of others I've seen.
+- [`crit_city_0000_generalbanter_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0000_generalbanter_b.txt) — Drack ⟨cond⟩: You think activating this thing might help the kett some
+- [`crit_city_0000_newbanter_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0000_newbanter_b.txt) — Ryder: There's the bridge. Let's get going.
+- [`crit_city_0000_remnantwidgets_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0000_remnantwidgets_b.txt) — Peebee: Another one of these boxes. They're all over.
+- [`crit_city_0100_planning_meeting_d.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0100_planning_meeting_d.txt) — Ryder: The Nexus leaders think our search for Meridian is a waste of t
+- [`crit_city_0120_entersystem_a.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0120_entersystem_a.txt) — Kallo (Co-pilot): If the Archon's information is right, this is the sy
+- [`crit_city_0200_mako_landing_m.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0200_mako_landing_m.txt) — Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] Initiating Ghost Storm, on
+- [`crit_city_0205_mako_landing1_m.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0205_mako_landing1_m.txt) — Kallo (Co-pilot): Five seconds to drop!
+- [`crit_city_0210_mako_landing2_m.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0210_mako_landing2_m.txt) — Ryder: {i}(Grunts.){/i}
+- [`crit_city_0250_afterlanding_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0250_afterlanding_b.txt) — Ryder: Everyone okay?
+- [`crit_city_0300_vistaPOIs_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0300_vistaPOIs_b.txt) — Ryder: I wonder what else we could learn from a scan.
+- [`crit_city_0350_towerintro_d.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0350_towerintro_d.txt) — SAM: Pathfinder, we are looking at the central command hub I detected 
+- [`crit_city_0400_scarred_crater_d.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0400_scarred_crater_d.txt) — Drack ⟨cond⟩: Ground zero, I'm guessing.
+- [`crit_city_0450_scarred_banter_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0450_scarred_banter_b.txt) — Drack ⟨cond⟩: This was some fight.
+- [`crit_city_0480_scarred_shipactivate_m.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0480_scarred_shipactivate_m.txt) — SAM: Provisional repairs are complete, Pathfinder.
+- [`crit_city_0500_bio_banter_b.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0500_bio_banter_b.txt) — Drack ⟨cond⟩: Look at that!
+- [`crit_city_0550_bio_angarareveal_m.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0550_bio_angarareveal_m.txt) — Narration: The lights of the bio-engineering vault flicker on to revea
+- [`crit_city_0600_meridianholo_m.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0600_meridianholo_m.txt) — Narration: Previously in gameplay: the squad gets to command control o
+- [`crit_city_0680_wrapup_d.txt`](01_Main_Story_Priority_Ops/10_Journey_to_Meridian_Khi_Tasira/crit_city_0680_wrapup_d.txt) — Kallo (Co-pilot): [Comm] Ground team: Is everyone all right?
 
-## 01_Main_Story_Priority_Ops/11_Remnant_Vault
+## 01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian
 
-- [`Crit_Vlt_0100_gravity_well_m.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0100_gravity_well_m.txt) — Narration: The Player interfaces with the vault door. A moment later i
-- [`Crit_Vlt_0110_gravity_falling_a.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0110_gravity_falling_a.txt) — Peebee: It's acting like a gravity well.
-- [`Crit_Vlt_0150_first_chamber_banter_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0150_first_chamber_banter_b.txt) — Peebee: Anything could be important. Let's be thorough.
-- [`Crit_Vlt_0175_first_cham_peebee_d.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0175_first_cham_peebee_d.txt) — Narration: Ryder and their team discover a large chamber with another 
-- [`Crit_Vlt_0200_observers_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0200_observers_b.txt) — Ryder: That's one way to light a room.
-- [`Crit_Vlt_0300_post_architect_d.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0300_post_architect_d.txt) — Liam Kosta ⟨cond⟩: The Remnant are just full of surprises.
-- [`Crit_Vlt_0350_plants_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0350_plants_b.txt) — Ryder: Will you look at that.
-- [`Crit_Vlt_0400_vault_entrance_m.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0400_vault_entrance_m.txt) — Ryder: We're almost clear! Where are you?
-- [`Crit_Vlt_0425_purge_c.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0425_purge_c.txt) — Narration: Play animatic now?
-- [`Crit_Vlt_0450_escaping_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0450_escaping_b.txt) — Ryder: Peebee! Get back to the entrance, now!
-- [`Crit_Vlt_0500_surface_exit_d.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0500_surface_exit_d.txt) — Ryder: Look at that sky.
-- [`Crit_Vlt_0550_exit_banter_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/Crit_Vlt_0550_exit_banter_b.txt) — Ryder: Now for our new outpost.
-- [`crit_vlt_0190_gen_banter_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/crit_vlt_0190_gen_banter_b.txt) — Vetra ⟨cond⟩: I keep thinking someone's watching us.
-- [`crit_vlt_0200_aqueduct_combat_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/crit_vlt_0200_aqueduct_combat_b.txt) — Ryder [OncePerGame]: Assemblers! They're hostile!
-- [`crit_vlt_0250_see_peebee_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/crit_vlt_0250_see_peebee_b.txt) — Ryder: Peebee!
-- [`crit_vlt_0300_architect_well_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/crit_vlt_0300_architect_well_b.txt) — Ryder: Look how high it is. Might be another gravity well?
-- [`crit_vlt_0360_cavern_combat_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault/crit_vlt_0360_cavern_combat_b.txt) — Ryder [OncePerGame]: Company!
+- [`Crit_Vlt_0100_gravity_well_m.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0100_gravity_well_m.txt) — Narration: The Player interfaces with the vault door. A moment later i
+- [`Crit_Vlt_0110_gravity_falling_a.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0110_gravity_falling_a.txt) — Peebee: It's acting like a gravity well.
+- [`Crit_Vlt_0150_first_chamber_banter_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0150_first_chamber_banter_b.txt) — Peebee: Anything could be important. Let's be thorough.
+- [`Crit_Vlt_0175_first_cham_peebee_d.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0175_first_cham_peebee_d.txt) — Narration: Ryder and their team discover a large chamber with another 
+- [`Crit_Vlt_0200_observers_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0200_observers_b.txt) — Ryder: That's one way to light a room.
+- [`Crit_Vlt_0300_post_architect_d.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0300_post_architect_d.txt) — Liam Kosta ⟨cond⟩: The Remnant are just full of surprises.
+- [`Crit_Vlt_0350_plants_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0350_plants_b.txt) — Ryder: Will you look at that.
+- [`Crit_Vlt_0400_vault_entrance_m.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0400_vault_entrance_m.txt) — Ryder: We're almost clear! Where are you?
+- [`Crit_Vlt_0425_purge_c.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0425_purge_c.txt) — Narration: Play animatic now?
+- [`Crit_Vlt_0450_escaping_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0450_escaping_b.txt) — Ryder: Peebee! Get back to the entrance, now!
+- [`Crit_Vlt_0500_surface_exit_d.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0500_surface_exit_d.txt) — Ryder: Look at that sky.
+- [`Crit_Vlt_0550_exit_banter_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/Crit_Vlt_0550_exit_banter_b.txt) — Ryder: Now for our new outpost.
+- [`crit_vlt_0190_gen_banter_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/crit_vlt_0190_gen_banter_b.txt) — Vetra ⟨cond⟩: I keep thinking someone's watching us.
+- [`crit_vlt_0200_aqueduct_combat_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/crit_vlt_0200_aqueduct_combat_b.txt) — Ryder [OncePerGame]: Assemblers! They're hostile!
+- [`crit_vlt_0250_see_peebee_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/crit_vlt_0250_see_peebee_b.txt) — Ryder: Peebee!
+- [`crit_vlt_0300_architect_well_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/crit_vlt_0300_architect_well_b.txt) — Ryder: Look how high it is. Might be another gravity well?
+- [`crit_vlt_0360_cavern_combat_b.txt`](01_Main_Story_Priority_Ops/11_Remnant_Vault_Meridian/crit_vlt_0360_cavern_combat_b.txt) — Ryder [OncePerGame]: Company!
 
-## 01_Main_Story_Priority_Ops/12_Journey_to_Meridian
+## 01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders
 
-- [`crit_fin_000_bridge_arrive_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_000_bridge_arrive_a.txt) — SAM: Khi Tasira, the "Remnant city." Awaiting Scourge data analysis, P
-- [`crit_fin_005_landing_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_005_landing_d.txt) — 
-- [`crit_fin_010_opening_gate_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_010_opening_gate_d.txt) — Suvi (Science Officer): [Comm] Everything looks right, Pathfinder. Fin
-- [`crit_fin_020_tower_progress_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_020_tower_progress_b.txt) — SAM: 145 meters to projected override controls.
-- [`crit_fin_022_data_scan_react_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_022_data_scan_react_b.txt) — Ryder: Getting a failure on Meridian's energy capacity.
-- [`crit_fin_030_reveal_and_trap_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_030_reveal_and_trap_m.txt) — Narration: Ryder steels herself before the Remnant device. This is it.
-- [`crit_fin_035_squad_background_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_035_squad_background_a.txt) — Jaal ⟨cond⟩: Ryder! We've lost communication! SAM, are you there? SAM!
-- [`crit_fin_040_tower_retreat_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_040_tower_retreat_a.txt) — The Archon: I believed you a fitting rival, but you are a false thing.
-- [`crit_fin_200_sibling_control_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_200_sibling_control_d.txt) — Narration: We leave Ryder in the darkness and transition across the vo
-- [`crit_fin_220_sam_updates_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_220_sam_updates_b.txt) — Scott Ryder (Sibling) ⟨cond⟩: Info, SAM. I need something!
-- [`crit_fin_230_hyperion_fear_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_230_hyperion_fear_a.txt) — Fin Hyperion ⟨cond⟩: Where's the Pathfinder? She's supposed to keep us
-- [`crit_fin_240_avina_error_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_240_avina_error_a.txt) — VI Kiosk: ||..|.|.||||..|... Error. Error. No Carrier. |||.|....|...||
-- [`crit_fin_250_sibling_capture_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_250_sibling_capture_d.txt) — Scott Ryder (Sibling): Okay, we're here.
-- [`crit_fin_300_ryder_wakes_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_300_ryder_wakes_d.txt) — Drack ⟨cond⟩: Rrragh! Open!
-- [`crit_fin_310_squad_prompts_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_310_squad_prompts_b.txt) — Drack ⟨cond⟩: Ryder! You were dead.
-- [`crit_fin_350_return_and_rally_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_350_return_and_rally_m.txt) — Dr. Lexi / Asari Doctor: Ryder! There you are! You... need to stop doi
-- [`crit_fin_355_call_to_bridge_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_355_call_to_bridge_b.txt) — Liam Kosta: [Comm] You've got everyone working, Pathfinder. But we nee
-- [`crit_fin_360_walk_of_honor_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_360_walk_of_honor_a.txt) — Liam Kosta [OncePerGame]: Contacted the outposts. Need a queue for peo
-- [`crit_fin_365_cargo_group_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_365_cargo_group_a.txt) — Gil (Tech Officer) [OncePerGame]: Locking it down back here. Board is 
-- [`crit_fin_365_crew_quarters_group_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_365_crew_quarters_group_a.txt) — Suvi (Science Officer) [OncePerGame]: Data track is solid. Everything 
-- [`crit_fin_365_research_group_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_365_research_group_a.txt) — Cora Harper [OncePerGame]: You're sure the commandos are willing? Good
-- [`crit_fin_370_before_storm_all_squad_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_370_before_storm_all_squad_d.txt) — Cora Harper: You really inspired them. Here I was, thinking you saved 
-- [`crit_fin_375_shut_down_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_375_shut_down_a.txt) — Ryder: Offline. We need all systems committed.
-- [`crit_fin_400_arrival_and_fleet_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_400_arrival_and_fleet_d.txt) — Narration: Establishing shot of the Hyperion above Meridian Sphere (cl
-- [`crit_fin_500_mer_transfer_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_500_mer_transfer_m.txt) — 
-- [`crit_fin_600_landing_sequence_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_600_landing_sequence_d.txt) — Ryder: Suvi? What am I looking at?
-- [`crit_fin_650_ark_flyover_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_650_ark_flyover_a.txt) — Suvi (Science Officer): [Comm] Pathfinder, it's nav-dead. That's why w
-- [`crit_fin_670_control_center_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_670_control_center_b.txt) — Cora Harper ⟨cond⟩: The Archon must be inside already!
-- [`crit_fin_680_primus_choice_d.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_680_primus_choice_d.txt) — Ryder: This deal has been loaded from the start.
-- [`crit_fin_690_greater_battle_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_690_greater_battle_m.txt) — Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] Move inside, Pathfinder. W
-- [`crit_fin_700_interface_prompt_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_700_interface_prompt_b.txt) — Ryder: Have to use the interface to open this.
-- [`crit_fin_710_control_entry_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_710_control_entry_b.txt) — Ryder: Tempest, we're going in after the Archon.
-- [`crit_fin_720_control_maze_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_720_control_maze_b.txt) — Ryder: Everyone see that? Doors closing?
-- [`crit_fin_730_control_overhear_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_730_control_overhear_a.txt) — The Archon: Do it! Secure the adaptation matrix!
-- [`crit_fin_735_chatter_noncombat_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_735_chatter_noncombat_b.txt) — The Charlatan ⟨cond⟩: [Comm] Getting crowded up here.
-- [`crit_fin_740_ark_hard_landing_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_740_ark_hard_landing_m.txt) — Suvi (Science Officer): [Comm] Pathfinder, multiple system failures on
-- [`crit_fin_745_ark_reaction_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_745_ark_reaction_b.txt) — Ryder ⟨cond⟩: Everyone read? That landing just made our stake in Merid
-- [`crit_fin_750_horizontal_well_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_750_horizontal_well_b.txt) — Peebee ⟨cond⟩: Wow, this gravity well is... different.
-- [`crit_fin_760_combat_bridge_kett_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_760_combat_bridge_kett_a.txt) — Fin Kett Soldier ⟨cond⟩: The Pathfinder! Stop it, and its allies!
-- [`crit_fin_760_combat_bridge_squad_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_760_combat_bridge_squad_b.txt) — Tiran Kandros (Militia Leader): [Comm] Deploying everyone available, P
-- [`crit_fin_770_combat_elder_kett_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_770_combat_elder_kett_a.txt) — Fin Kett Elder ⟨cond⟩: The Pathfinder comes! For the future of kett, w
-- [`crit_fin_770_combat_elder_squad_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_770_combat_elder_squad_b.txt) — Kett Salarian Captain ⟨cond⟩: [Comm] Pathfinder, the best of the Paarc
-- [`crit_fin_780_combat_fiend_kett_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_780_combat_fiend_kett_a.txt) — Fin Kett Soldier: Your vessel is grounded, Pathfinder! Collection and 
-- [`crit_fin_780_combat_fiend_squad_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_780_combat_fiend_squad_b.txt) — Kett Salarian Captain ⟨cond⟩: [Comm] Do these kett know how committed 
-- [`crit_fin_800_boss_encounter_start_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_800_boss_encounter_start_m.txt) — Narration: Scene starts as Ryder and squad enter the main boss area. T
-- [`crit_fin_810_archon_taunts_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_810_archon_taunts_a.txt) — Ryder ⟨cond⟩: He's still using Scott's implant!
-- [`crit_fin_810_battle_01_archon_barks_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_810_battle_01_archon_barks_a.txt) — The Archon: Insolence! I will take Meridian, Pathfinder! I still have 
-- [`crit_fin_830_boss_encounter_mid_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_830_boss_encounter_mid_m.txt) — Narration: The Pathfinder reaches a pinch point and defeats a kett blo
-- [`crit_fin_835_battle_02_archon_a.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_835_battle_02_archon_a.txt) — The Archon [OncePerGame]: I've had enough. This ends here and now!
-- [`crit_fin_840_battle_02_squad_sib_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_840_battle_02_squad_sib_b.txt) — Ryder ⟨cond⟩: Scott, where to?
-- [`crit_fin_845_dont_shoot_architect_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_845_dont_shoot_architect_b.txt) — Ryder: No weak spots! If we don't cut the Archon's power, it's unstopp
-- [`crit_fin_850_arrival_cora_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_850_arrival_cora_b.txt) — Cora Harper: The fight is centered here, Pathfinder! We're with you!
-- [`crit_fin_850_arrival_drack_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_850_arrival_drack_b.txt) — Drack: You didn't think I'd miss this, did you? Everybody's joining in
-- [`crit_fin_850_arrival_jaal_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_850_arrival_jaal_b.txt) — Jaal: We couldn't sit this out, Ryder! There's too much at stake!
-- [`crit_fin_850_arrival_liam_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_850_arrival_liam_b.txt) — Liam Kosta: Want some company? Because we're bringing everything to th
-- [`crit_fin_850_arrival_peebee_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_850_arrival_peebee_b.txt) — Peebee: You think you're having all the fun? We're here to kick his ta
-- [`crit_fin_850_arrival_vetra_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_850_arrival_vetra_b.txt) — Vetra: You're getting some help, Ryder! We all want a piece of this!
-- [`crit_fin_860_non_squad_cheer_b.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_860_non_squad_cheer_b.txt) — Peebee: Don't let up, Ryder! We're winning! The Archon can't keep this
-- [`crit_fin_890_boss_encounter_end_m.txt`](01_Main_Story_Priority_Ops/12_Journey_to_Meridian/crit_fin_890_boss_encounter_end_m.txt) — Narration: Scene begins with the kill-shot on the Archon.
+- [`intrld55_0010_leaders_m.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0010_leaders_m.txt) — Narration: Ryder receives a call from Director Tann on the Tempest.
+- [`intrld55_0050_suviprompt_a.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0050_suviprompt_a.txt) — Suvi (Science Officer): [Comm] Pathfinder! If you're done with your ca
+- [`intrld55_0051_meridiansolution_d.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0051_meridiansolution_d.txt) — Suvi (Science Officer): There you are! It feels like I've been waiting
+- [`intrld55_0065_spaceentryprompt_a.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0065_spaceentryprompt_a.txt) — Kallo (Co-pilot): First order of business? Plant our probes within the
+- [`intrld55_0075_objectiveprompts_a.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0075_objectiveprompts_a.txt) — Suvi (Science Officer): The probes are in place, Ryder. Data's coming 
+- [`intrld55_0085_spacesystemprompt_a.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0085_spacesystemprompt_a.txt) — Kallo (Co-pilot): We've arrived at a Scourge navpoint appropriate for 
+- [`intrld55_0100_task_complete_promt_a.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0100_task_complete_promt_a.txt) — SAM: Pathfinder, I have analyzed the results of the Scourge energy pat
+- [`intrld55_0200_task_complete_sam_d.txt`](01_Main_Story_Priority_Ops/12_Meridian_Solution_Leaders/intrld55_0200_task_complete_sam_d.txt) — Narration: Ryder walks to the bridge, and finds the crew active with t
 
-## 01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home
+## 01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale
 
-- [`crit_ex_0100_start_mission_i.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0100_start_mission_i.txt) — Ex Res Pilot [OncePerGame]: Are you the Pathfinder that Evfra was talk
-- [`crit_ex_0200_shuttle_debrief1_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0200_shuttle_debrief1_d.txt) — 
-- [`crit_ex_0200_shuttle_debrief_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0200_shuttle_debrief_d.txt) — Ryder: So—no one has ever seen the inside of one of these places? Real
-- [`crit_ex_0210_enter_trage_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0210_enter_trage_b.txt) — Ex Res Fighter: Oh! Do you see this, Heckt!
-- [`crit_ex_0220_breach_ffield_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0220_breach_ffield_b.txt) — Ryder: Run angaran shield disable program.
-- [`crit_ex_0220_land_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0220_land_b.txt) — Ryder: Do we even know what kind of force we can expect?
-- [`crit_ex_0220_res_plan_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0220_res_plan_b.txt) — SAM: Pathfinder, it seems the program I used to breach the shield coul
-- [`crit_ex_0220_warbeast_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0220_warbeast_b.txt) — Cora Harper ⟨cond⟩: Kett creatures incoming!
-- [`crit_ex_0225_archon_wlcm_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0225_archon_wlcm_a.txt) — The Archon: Fortunate welcome.
-- [`crit_ex_0230_pre_separate_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0230_pre_separate_a.txt) — Ex Res Fighter: Hey Szezig! Find a kett console.
-- [`crit_ex_0230_separate_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0230_separate_d.txt) — Ryder: Huddle up.
-- [`crit_ex_0230_triage_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0230_triage_b.txt) — Ex Res Fighter: I've stared at the outsides of these places so many ti
-- [`crit_ex_0230_triage_fight_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0230_triage_fight_b.txt) — Ex Res Fighter: Pathfinder! Jaal! This is so satisfying!
-- [`crit_ex_0235_post_sep_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0235_post_sep_b.txt) — Ryder: Can they cause enough trouble to keep the kett occupied?
-- [`crit_ex_0240_kett_quarters_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0240_kett_quarters_b.txt) — Ryder: Where is everyone? Okay, let's stay sharp.
-- [`crit_ex_0250_decontam_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0250_decontam_b.txt) — Ryder: Whoa. SAM, what is this?
-- [`crit_ex_0250_exit_dcntam_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0250_exit_dcntam_b.txt) — Peebee ⟨cond⟩: Decontamination? Is that weird to anyone else?
-- [`crit_ex_0250_kett_rm2_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0250_kett_rm2_b.txt) — Cora Harper ⟨cond⟩: Could be wrong but this looks like a classroom.
-- [`crit_ex_0250_post_cmbat_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0250_post_cmbat_b.txt) — Ex Res Fighter: [Comm] Pathfinder, come in.
-- [`crit_ex_0250_pre_cer_combat_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0250_pre_cer_combat_b.txt) — Ryder: Let's get these guys without much of a ruckus!
-- [`crit_ex_0300_ceremony_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0300_ceremony_m.txt) — Jaal: What? What is this?
-- [`crit_ex_0300_new_room_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0300_new_room_b.txt) — Ryder: Communications room?
-- [`crit_ex_0300_open_blinds_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0300_open_blinds_b.txt) — Jaal: The Moshae isn't here. We need to keep moving.
-- [`crit_ex_0304_pst_cerem_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0304_pst_cerem_b.txt) — Drack ⟨cond⟩: Did I hear that right? "The chosen"?
-- [`crit_ex_0305_anarchy_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0305_anarchy_a.txt) — Ex Res Fighter: Watch your flank!
-- [`crit_ex_0310_hall_radio_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0310_hall_radio_a.txt) — Cora Harper ⟨cond⟩: The Resistance couldn't wait to get started.
-- [`crit_ex_0320_side_rm_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0320_side_rm_b.txt) — Jaal: I wish we had the time to ransack these crates.
-- [`crit_ex_0340_remind_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0340_remind_b.txt) — Liam Kosta ⟨cond⟩: Lot of pods. What if your Moshae isn't in there?
-- [`crit_ex_0355_cordr_combat1_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0355_cordr_combat1_b.txt) — Cora Harper ⟨cond⟩: Got a visual on the pods. Above us!
-- [`crit_ex_0355_cordr_radio_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0355_cordr_radio_a.txt) — Ex Res Fighter: [Comm] Pathfinder, come in!
-- [`crit_ex_0360_cordr_cmbat2_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0360_cordr_cmbat2_b.txt) — Ryder: SAM? Any luck figuring out how this place works?
-- [`crit_ex_0370_cordr_cmbat3_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0370_cordr_cmbat3_b.txt) — Jaal: More kett attack dogs.
-- [`crit_ex_0380_follow_pod_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0380_follow_pod_b.txt) — Peebee ⟨cond⟩: I'm guessing the core's through here.
-- [`crit_ex_0400_elder_direct_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0400_elder_direct_b.txt) — Ryder: Okay, kett terminal—let's see what you've got hiding in here. S
-- [`crit_ex_0400_pod_room_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0400_pod_room_b.txt) — Jaal: How many... pods?
-- [`crit_ex_0400_pod_scan_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0400_pod_scan_b.txt) — SAM [OncePerGame]: Angaran male. Estimate thirty-five. One hundred nin
-- [`crit_ex_0420_ang_radio_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0420_ang_radio_a.txt) — Ex Res Fighter: [Comm] Pathfinder, come in.
-- [`crit_ex_0425_loot_grab_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0425_loot_grab_b.txt) — Ryder: Hey, look.
-- [`crit_ex_0450_genetics_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0450_genetics_b.txt) — Jaal: What is this room?
-- [`crit_ex_0500_exalt_ceremony_c.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0500_exalt_ceremony_c.txt) — Cora Harper ⟨cond⟩: Decontamination proto—
-- [`crit_ex_0520_exalt_combat_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0520_exalt_combat_b.txt) — Jaal: No! Wait! Save the angara! Be careful! Don't kill him!
-- [`crit_ex_0525_post_ex_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0525_post_ex_b.txt) — Ryder: Got'em all. Okay. Everyone good? Now—
-- [`crit_ex_0550_anguish_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0550_anguish_m.txt) — Ryder: Jaal.
-- [`crit_ex_0560_card_chase_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0560_card_chase_b.txt) — Jaal: She has the Moshae!
-- [`crit_ex_0570_chase_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0570_chase_b.txt) — Ryder: SAM. What've you got?
-- [`crit_ex_0600_see_elder_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0600_see_elder_b.txt) — Jaal: There she is! I see her! They're getting ready to leave.
-- [`crit_ex_0650_gk_attacks_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0650_gk_attacks_a.txt) — Ex Grand Kett [OncePerGame]: Now you have to deal with me!
-- [`crit_ex_0670_grand_khet_choice_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0670_grand_khet_choice_m.txt) — Ryder: I gotcha. We're getting you out of here.
-- [`crit_ex_0680_sad_radio_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0680_sad_radio_a.txt) — Ex Res Fighter: [Comm] Pathfinder. Come in. You have the Moshae!
-- [`crit_ex_0700_cannot_win_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0700_cannot_win_b.txt) — Cora Harper ⟨cond⟩: Ryder, reinforcements just keep coming!
-- [`crit_ex_0700_elder_shield_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0700_elder_shield_a.txt) — Cora Harper ⟨cond⟩: Here come the kett! Not gonna let us go without a 
-- [`crit_ex_0700_radio_shuttle_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0700_radio_shuttle_b.txt) — Cora Harper ⟨cond⟩: Shuttle, what's your ETA?
-- [`crit_ex_0700_roof_combat_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0700_roof_combat_b.txt) — Ryder: Whoa. Heads up!
-- [`crit_ex_0700_roof_direct_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0700_roof_direct_b.txt) — Ex Res Pilot: [Comm] Pathfinder!
-- [`crit_ex_0750_shuttle_escape_c.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home/crit_ex_0750_shuttle_escape_c.txt) — Ryder: Jaal, get her on the shuttle now!
+- [`crit_fin_000_bridge_arrive_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_000_bridge_arrive_a.txt) — SAM: Khi Tasira, the "Remnant city." Awaiting Scourge data analysis, P
+- [`crit_fin_005_landing_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_005_landing_d.txt) — 
+- [`crit_fin_010_opening_gate_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_010_opening_gate_d.txt) — Suvi (Science Officer): [Comm] Everything looks right, Pathfinder. Fin
+- [`crit_fin_020_tower_progress_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_020_tower_progress_b.txt) — SAM: 145 meters to projected override controls.
+- [`crit_fin_022_data_scan_react_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_022_data_scan_react_b.txt) — Ryder: Getting a failure on Meridian's energy capacity.
+- [`crit_fin_030_reveal_and_trap_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_030_reveal_and_trap_m.txt) — Narration: Ryder steels herself before the Remnant device. This is it.
+- [`crit_fin_035_squad_background_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_035_squad_background_a.txt) — Jaal ⟨cond⟩: Ryder! We've lost communication! SAM, are you there? SAM!
+- [`crit_fin_040_tower_retreat_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_040_tower_retreat_a.txt) — The Archon: I believed you a fitting rival, but you are a false thing.
+- [`crit_fin_200_sibling_control_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_200_sibling_control_d.txt) — Narration: We leave Ryder in the darkness and transition across the vo
+- [`crit_fin_220_sam_updates_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_220_sam_updates_b.txt) — Scott Ryder (Sibling) ⟨cond⟩: Info, SAM. I need something!
+- [`crit_fin_230_hyperion_fear_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_230_hyperion_fear_a.txt) — Fin Hyperion ⟨cond⟩: Where's the Pathfinder? She's supposed to keep us
+- [`crit_fin_240_avina_error_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_240_avina_error_a.txt) — VI Kiosk: ||..|.|.||||..|... Error. Error. No Carrier. |||.|....|...||
+- [`crit_fin_250_sibling_capture_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_250_sibling_capture_d.txt) — Scott Ryder (Sibling): Okay, we're here.
+- [`crit_fin_300_ryder_wakes_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_300_ryder_wakes_d.txt) — Drack ⟨cond⟩: Rrragh! Open!
+- [`crit_fin_310_squad_prompts_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_310_squad_prompts_b.txt) — Drack ⟨cond⟩: Ryder! You were dead.
+- [`crit_fin_350_return_and_rally_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_350_return_and_rally_m.txt) — Dr. Lexi / Asari Doctor: Ryder! There you are! You... need to stop doi
+- [`crit_fin_355_call_to_bridge_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_355_call_to_bridge_b.txt) — Liam Kosta: [Comm] You've got everyone working, Pathfinder. But we nee
+- [`crit_fin_360_walk_of_honor_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_360_walk_of_honor_a.txt) — Liam Kosta [OncePerGame]: Contacted the outposts. Need a queue for peo
+- [`crit_fin_365_cargo_group_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_365_cargo_group_a.txt) — Gil (Tech Officer) [OncePerGame]: Locking it down back here. Board is 
+- [`crit_fin_365_crew_quarters_group_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_365_crew_quarters_group_a.txt) — Suvi (Science Officer) [OncePerGame]: Data track is solid. Everything 
+- [`crit_fin_365_research_group_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_365_research_group_a.txt) — Cora Harper [OncePerGame]: You're sure the commandos are willing? Good
+- [`crit_fin_370_before_storm_all_squad_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_370_before_storm_all_squad_d.txt) — Cora Harper: You really inspired them. Here I was, thinking you saved 
+- [`crit_fin_375_shut_down_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_375_shut_down_a.txt) — Ryder: Offline. We need all systems committed.
+- [`crit_fin_400_arrival_and_fleet_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_400_arrival_and_fleet_d.txt) — Narration: Establishing shot of the Hyperion above Meridian Sphere (cl
+- [`crit_fin_500_mer_transfer_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_500_mer_transfer_m.txt) — 
+- [`crit_fin_600_landing_sequence_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_600_landing_sequence_d.txt) — Ryder: Suvi? What am I looking at?
+- [`crit_fin_650_ark_flyover_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_650_ark_flyover_a.txt) — Suvi (Science Officer): [Comm] Pathfinder, it's nav-dead. That's why w
+- [`crit_fin_670_control_center_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_670_control_center_b.txt) — Cora Harper ⟨cond⟩: The Archon must be inside already!
+- [`crit_fin_680_primus_choice_d.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_680_primus_choice_d.txt) — Ryder: This deal has been loaded from the start.
+- [`crit_fin_690_greater_battle_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_690_greater_battle_m.txt) — Salarian Pathfinder (Hayjer) ⟨cond⟩: [Comm] Move inside, Pathfinder. W
+- [`crit_fin_700_interface_prompt_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_700_interface_prompt_b.txt) — Ryder: Have to use the interface to open this.
+- [`crit_fin_710_control_entry_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_710_control_entry_b.txt) — Ryder: Tempest, we're going in after the Archon.
+- [`crit_fin_720_control_maze_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_720_control_maze_b.txt) — Ryder: Everyone see that? Doors closing?
+- [`crit_fin_730_control_overhear_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_730_control_overhear_a.txt) — The Archon: Do it! Secure the adaptation matrix!
+- [`crit_fin_735_chatter_noncombat_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_735_chatter_noncombat_b.txt) — The Charlatan ⟨cond⟩: [Comm] Getting crowded up here.
+- [`crit_fin_740_ark_hard_landing_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_740_ark_hard_landing_m.txt) — Suvi (Science Officer): [Comm] Pathfinder, multiple system failures on
+- [`crit_fin_745_ark_reaction_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_745_ark_reaction_b.txt) — Ryder ⟨cond⟩: Everyone read? That landing just made our stake in Merid
+- [`crit_fin_750_horizontal_well_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_750_horizontal_well_b.txt) — Peebee ⟨cond⟩: Wow, this gravity well is... different.
+- [`crit_fin_760_combat_bridge_kett_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_760_combat_bridge_kett_a.txt) — Fin Kett Soldier ⟨cond⟩: The Pathfinder! Stop it, and its allies!
+- [`crit_fin_760_combat_bridge_squad_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_760_combat_bridge_squad_b.txt) — Tiran Kandros (Militia Leader): [Comm] Deploying everyone available, P
+- [`crit_fin_770_combat_elder_kett_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_770_combat_elder_kett_a.txt) — Fin Kett Elder ⟨cond⟩: The Pathfinder comes! For the future of kett, w
+- [`crit_fin_770_combat_elder_squad_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_770_combat_elder_squad_b.txt) — Kett Salarian Captain ⟨cond⟩: [Comm] Pathfinder, the best of the Paarc
+- [`crit_fin_780_combat_fiend_kett_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_780_combat_fiend_kett_a.txt) — Fin Kett Soldier: Your vessel is grounded, Pathfinder! Collection and 
+- [`crit_fin_780_combat_fiend_squad_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_780_combat_fiend_squad_b.txt) — Kett Salarian Captain ⟨cond⟩: [Comm] Do these kett know how committed 
+- [`crit_fin_800_boss_encounter_start_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_800_boss_encounter_start_m.txt) — Narration: Scene starts as Ryder and squad enter the main boss area. T
+- [`crit_fin_810_archon_taunts_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_810_archon_taunts_a.txt) — Ryder ⟨cond⟩: He's still using Scott's implant!
+- [`crit_fin_810_battle_01_archon_barks_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_810_battle_01_archon_barks_a.txt) — The Archon: Insolence! I will take Meridian, Pathfinder! I still have 
+- [`crit_fin_830_boss_encounter_mid_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_830_boss_encounter_mid_m.txt) — Narration: The Pathfinder reaches a pinch point and defeats a kett blo
+- [`crit_fin_835_battle_02_archon_a.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_835_battle_02_archon_a.txt) — The Archon [OncePerGame]: I've had enough. This ends here and now!
+- [`crit_fin_840_battle_02_squad_sib_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_840_battle_02_squad_sib_b.txt) — Ryder ⟨cond⟩: Scott, where to?
+- [`crit_fin_845_dont_shoot_architect_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_845_dont_shoot_architect_b.txt) — Ryder: No weak spots! If we don't cut the Archon's power, it's unstopp
+- [`crit_fin_850_arrival_cora_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_850_arrival_cora_b.txt) — Cora Harper: The fight is centered here, Pathfinder! We're with you!
+- [`crit_fin_850_arrival_drack_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_850_arrival_drack_b.txt) — Drack: You didn't think I'd miss this, did you? Everybody's joining in
+- [`crit_fin_850_arrival_jaal_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_850_arrival_jaal_b.txt) — Jaal: We couldn't sit this out, Ryder! There's too much at stake!
+- [`crit_fin_850_arrival_liam_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_850_arrival_liam_b.txt) — Liam Kosta: Want some company? Because we're bringing everything to th
+- [`crit_fin_850_arrival_peebee_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_850_arrival_peebee_b.txt) — Peebee: You think you're having all the fun? We're here to kick his ta
+- [`crit_fin_850_arrival_vetra_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_850_arrival_vetra_b.txt) — Vetra: You're getting some help, Ryder! We all want a piece of this!
+- [`crit_fin_860_non_squad_cheer_b.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_860_non_squad_cheer_b.txt) — Peebee: Don't let up, Ryder! We're winning! The Archon can't keep this
+- [`crit_fin_890_boss_encounter_end_m.txt`](01_Main_Story_Priority_Ops/13_Meridian_The_Way_Home_Finale/crit_fin_890_boss_encounter_end_m.txt) — Narration: Scene begins with the kill-shot on the Archon.
 
 ## 01_Main_Story_Priority_Ops/14_Epilogue_Home_and_Away
 
