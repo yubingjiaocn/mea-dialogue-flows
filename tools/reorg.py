@@ -9,22 +9,25 @@ DST = "/tmp/conv/by_mission"
 # 顶层分类编号 + 名称。值: (顶层目录名, 二级映射 dict 或 None)
 # 二级映射: 内部代号 -> 可读子目录名
 TOP = {
-  # 注意:MEA 内部代号顺序 != 剧情顺序。下面按实际对话内容核实后归类。
+  # 映射依据:游戏 level 资源直接引用 conversation + journal(三方实锈)。
+  # level → journal: pro_lnd=M1, crit_vlt=M2, crit_ex=M3, crit_khet=M4, crit_city=M5, crit_mer=M7。
+  # conversation 代号顺序 != 剧情顺序(m4 其实是 M4 Hunting the Archon)。
   "crit": ("01_Main_Story_Priority_Ops", {
-      "pro_lnd":   "01_Prologue_Planetside_Habitat7",   # 着陆 Habitat 7
-      "Pro_Shp":   "02_Prologue_Hyperion_Ship",         # 序章飞船/苏醒
-      "intrld":    "03_Nexus_Reunion_and_Archon_Reveal", # 苏醒+执政官登场
-      "m4":        "04_A_Trail_of_Hope_Salarian_Ark",    # 萨拉睿方舟救 Raeka,初遇执政官
-      "intrld35":  "05_After_Moshae_Resistance",         # 解放 Moshae 之后
-      "Crit_Ex":   "06_Hunting_the_Archon_Flagship",     # 登执政官旗舰 Trage 救方舟
-      "Intrld25":  "07_Post_Archon_Nexus_Debrief",       # 旗舰后 Nexus 述职
-      "intrld45":  "08_Archon_Plot_for_Meridian",        # 执政官/Primus 谋夺 Meridian
-      "crit_khet": "09_Kett_Facility_Rescue",            # Kett 设施救援(krogan/salarian)
-      "crit_city": "10_Journey_to_Meridian_Khi_Tasira",  # Ghost Storm 潜入
-      "crit_vlt":  "11_Remnant_Vault_Meridian",          # 遗物拱顶
-      "intrld55":  "12_Meridian_Solution_Leaders",       # Meridian 方案领袖会议
-      "Crit_Mer":  "13_Meridian_The_Way_Home_Finale",    # 终章 crit_fin
-      "crit_epi":  "14_Epilogue_Home_and_Away",          # 尾声 mer_epi
+      "Pro_Shp":   "00_Prologue_Hyperion",               # M0 序章飞船/苏醒
+      "pro_lnd":   "01_Planetside_Habitat7",             # M1 (level pro_lnd→M1_Planetside)
+      "crit_vlt":  "02_A_Better_Beginning_Eos",          # M2 (level crit_vlt→M2_FirstVault)
+      "Crit_Ex":   "03_A_Trail_of_Hope_Save_Moshae",     # M3 (level crit_ex→M3_Exaltation)
+      "m4":        "04_Hunting_the_Archon_Salarian_Ark",  # M4 (level crit_khet→M4_KettFlagship)
+      "crit_city": "05_The_Journey_to_Meridian",         # M5 (level crit_city→M5_RemnantCity)
+      "Crit_Mer":  "06_Meridian_The_Way_Home",           # M7 (level crit_mer→M7_Meridian)
+      "crit_epi":  "07_Epilogue_Home_and_Away",          # 尾声 mer_epi
+      # 以下是任务间在据点触发的过场/衔接对话(非单一主线任务,按剧情阶段归)
+      "intrld":    "Interludes/Nexus_Reunion_Archon_Reveal",
+      "Intrld25":  "Interludes/Post_Archon_Nexus_Debrief",
+      "intrld35":  "Interludes/After_Moshae_Aya_Kadara",
+      "intrld45":  "Interludes/Archon_Plot_for_Meridian",
+      "intrld55":  "Interludes/Meridian_Solution_Leaders",
+      "crit_khet": "Interludes/Kett_Facility_Rescue_Bridge",
   }),
   "Loyalty": ("02_Loyalty_Missions", {
       "loy_hmf":      "Cora_Harper_At_Dutys_Edge",

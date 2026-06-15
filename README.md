@@ -49,6 +49,8 @@ conversations/
 
 Every file's header keeps its original internal resource path (`# Source: game/conversations/...`), so the codename map in [`CODENAMES.md`](CODENAMES.md) still applies.
 
+Main-story mission grouping is verified against the game's own level resources: each `levels/crit/*` level resource directly references both its conversations and its journal entry (`Journals/0_PriorityOps/M*`), giving a hard conversation→mission mapping (e.g. the `m4` conversation set belongs to level `crit_khet` = `M4_KettFlagship` = *Hunting the Archon*). Cross-mission interlude/bridge conversations triggered in hubs are grouped under `Interludes/`.
+
 ## Reading format
 
 ```
